@@ -1,6 +1,6 @@
 {
   "kind": "autopublish_ledger",
-  "updatedAt": "2026-05-04T16:02:27.728Z",
+  "updatedAt": "2026-05-04T16:02:29.600Z",
   "entries": [
     {
       "resultId": "chemistry-record-auditor-tool",
@@ -32,9 +32,9 @@
       "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
       "mode": "corpus-autopublish",
       "dryRun": false,
-      "pushed": false,
-      "pushedAt": null,
-      "commitHash": null,
+      "pushed": true,
+      "pushedAt": "2026-05-04T16:02:29.599Z",
+      "commitHash": "fbad1a9d45fa910364c35bc3a8746d0186debbed",
       "humanReviewRequired": false,
       "evidenceHash": "4ce17dcd63da40048066ebb4ea58e723df8b74b92485e4af10690f58feb00bba"
     },
@@ -56,9 +56,9 @@
       "title": "Energy Usage Anomaly Auditor",
       "mode": "corpus-autopublish",
       "dryRun": false,
-      "pushed": false,
-      "pushedAt": null,
-      "commitHash": null,
+      "pushed": true,
+      "pushedAt": "2026-05-04T16:02:29.599Z",
+      "commitHash": "fbad1a9d45fa910364c35bc3a8746d0186debbed",
       "humanReviewRequired": false,
       "evidenceHash": "eba111c3bd8b6d92856ce37f2170679da0b24706eb97fdfff4d1a6dd22dd01a4"
     },
@@ -92,12 +92,12 @@
       "title": "Patch Risk Auditor",
       "mode": "corpus-autopublish",
       "dryRun": false,
-      "pushed": false,
-      "pushedAt": null,
-      "commitHash": null,
+      "pushed": true,
+      "pushedAt": "2026-05-04T16:02:29.599Z",
+      "commitHash": "fbad1a9d45fa910364c35bc3a8746d0186debbed",
       "humanReviewRequired": false,
       "evidenceHash": "4a967d14e14177d0ad50f67ea6a954df62b1970c71e5c0014ac3f0e1a0ef311c"
     }
   ],
-  "evidenceHash": "c41bbdee81bac838be690ffc8096f53d8369f33a8f91ce55542df028bdd9bd82"
+  "evidenceHash": "bb8ca979fb84964d6be09f38e9b3604b6e542effcfed12d63b3e4c3bf015cd22"
 }

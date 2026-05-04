@@ -9,9 +9,9 @@
   "automatedPolicyVersion": "corpus-autopublish-v1",
   "targetRepo": "https://github.com/n57d30top/sovryn-open-inventions",
   "targetPath": "results/energy-usage-anomaly-auditor-v2",
-  "commitHash": null,
-  "pushed": false,
-  "pushedAt": null,
+  "commitHash": "fbad1a9d45fa910364c35bc3a8746d0186debbed",
+  "pushed": true,
+  "pushedAt": "2026-05-04T16:02:29.599Z",
   "dryRun": false,
   "qualityLabel": "good",
   "candidateStatus": "dry_run_ready",
@@ -30,5 +30,5 @@
   "specificityScore": 72,
   "antiTemplateStatus": "review_ready",
   "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
-  "evidenceHash": "eba111c3bd8b6d92856ce37f2170679da0b24706eb97fdfff4d1a6dd22dd01a4"
+  "evidenceHash": "714b393eea4cde00a57c72c60f9536119cfea7fbc1eb003522e9de0fe45acca8"
 }

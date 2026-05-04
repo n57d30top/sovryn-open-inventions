@@ -9,9 +9,9 @@
   "automatedPolicyVersion": "corpus-autopublish-v1",
   "targetRepo": "https://github.com/n57d30top/sovryn-open-inventions",
   "targetPath": "results/patch-risk-auditor-v2",
-  "commitHash": null,
-  "pushed": false,
-  "pushedAt": null,
+  "commitHash": "fbad1a9d45fa910364c35bc3a8746d0186debbed",
+  "pushed": true,
+  "pushedAt": "2026-05-04T16:02:29.599Z",
   "dryRun": false,
   "qualityLabel": "good",
   "candidateStatus": "dry_run_ready",
@@ -30,5 +30,5 @@
   "specificityScore": 63,
   "antiTemplateStatus": "needs_revision",
   "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
-  "evidenceHash": "4a967d14e14177d0ad50f67ea6a954df62b1970c71e5c0014ac3f0e1a0ef311c"
+  "evidenceHash": "eee7f0b57a5a1cebecfbaec128d5faaee7ad47d3852acff48347b47f8945baa8"
 }
