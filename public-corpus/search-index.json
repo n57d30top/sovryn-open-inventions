@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-04T16:02:51.519Z",
+  "builtAt": "2026-05-04T16:35:55.538Z",
   "entryCount": 11,
   "entries": [
     {
@@ -10,6 +10,9 @@
       "href": "results/chemistry-record-auditor-tool.html",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "chemistry-record-auditor-tool",
+      "showcaseRank": null,
       "terms": [
         "auditor",
         "candidate",
@@ -29,6 +32,7 @@
         "source",
         "status",
         "style",
+        "superseded",
         "tool"
       ]
     },
@@ -39,6 +43,9 @@
       "href": "results/chemistry-record-auditor-tool-v2.html",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "chemistry-record-auditor-tool",
+      "showcaseRank": null,
       "terms": [
         "auditor",
         "candidate",
@@ -58,6 +65,7 @@
         "source",
         "status",
         "style",
+        "superseded",
         "tool"
       ]
     },
@@ -68,6 +76,9 @@
       "href": "results/chemistry-record-auditor-tool-v2-v2.html",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "lifecycleStatus": "showcase",
+      "versionGroup": "chemistry-record-auditor-tool",
+      "showcaseRank": 1,
       "terms": [
         "auditor",
         "candidate",
@@ -84,6 +95,7 @@
         "quality",
         "record",
         "result",
+        "showcase",
         "source",
         "status",
         "style",
@@ -97,12 +109,16 @@
       "href": "results/corpus-deduplication.html",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "lifecycleStatus": "demo_pilot",
+      "versionGroup": "corpus-deduplication",
+      "showcaseRank": null,
       "terms": [
         "candidate",
         "corpus",
         "decision",
         "deduplication",
         "defensive",
+        "demo",
         "dry",
         "dryrunready",
         "false",
@@ -114,6 +130,7 @@
         "only",
         "open",
         "performed",
+        "pilot",
         "publication",
         "publications",
         "quality",
@@ -133,6 +150,9 @@
       "href": "results/energy-usage-anomaly-auditor.html",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "energy-usage-anomaly-auditor",
+      "showcaseRank": null,
       "terms": [
         "anomaly",
         "auditor",
@@ -148,6 +168,7 @@
         "result",
         "source",
         "status",
+        "superseded",
         "usage"
       ]
     },
@@ -158,6 +179,9 @@
       "href": "results/energy-usage-anomaly-auditor-v2.html",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "lifecycleStatus": "showcase",
+      "versionGroup": "energy-usage-anomaly-auditor",
+      "showcaseRank": 2,
       "terms": [
         "anomaly",
         "auditor",
@@ -171,6 +195,7 @@
         "pilot",
         "quality",
         "result",
+        "showcase",
         "source",
         "status",
         "usage"
@@ -183,6 +208,9 @@
       "href": "results/evidence-chain.html",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "evidence-chain",
+      "showcaseRank": null,
       "terms": [
         "agents",
         "autonomous",
@@ -212,7 +240,8 @@
         "research",
         "run",
         "score",
-        "status"
+        "status",
+        "superseded"
       ]
     },
     {
@@ -222,6 +251,9 @@
       "href": "results/evidence-chain-v2.html",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "lifecycleStatus": "showcase",
+      "versionGroup": "evidence-chain",
+      "showcaseRank": 3,
       "terms": [
         "agents",
         "autonomous",
@@ -243,6 +275,7 @@
         "replayable",
         "research",
         "result",
+        "showcase",
         "sourc",
         "source",
         "status",
@@ -256,6 +289,9 @@
       "href": "results/patch-risk-auditor.html",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "patch-risk-auditor",
+      "showcaseRank": null,
       "terms": [
         "acorn",
         "auditor",
@@ -272,6 +308,7 @@
         "software",
         "source",
         "status",
+        "superseded",
         "supply"
       ]
     },
@@ -282,6 +319,9 @@
       "href": "results/patch-risk-auditor-v2.html",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "lifecycleStatus": "needs_revision",
+      "versionGroup": "patch-risk-auditor",
+      "showcaseRank": null,
       "terms": [
         "acorn",
         "auditor",
@@ -290,10 +330,12 @@
         "dryrunready",
         "good",
         "label",
+        "needs",
         "patch",
         "pilot",
         "quality",
         "result",
+        "revision",
         "risk",
         "software",
         "source",
@@ -308,9 +350,13 @@
       "href": "results/toolchain-policy.html",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "lifecycleStatus": "demo_pilot",
+      "versionGroup": "toolchain-policy",
+      "showcaseRank": null,
       "terms": [
         "candidate",
         "decision",
+        "demo",
         "dry",
         "dryrunready",
         "false",
@@ -322,6 +368,7 @@
         "node",
         "only",
         "performed",
+        "pilot",
         "policy",
         "protocol",
         "publication",
@@ -337,5 +384,5 @@
       ]
     }
   ],
-  "evidenceHash": "5028a56cb0b9e8980f035def9638cadd6dde084bcabd9b63fa2d5082745a468c"
+  "evidenceHash": "c3e7bc26a2733ed1824f6753ebee389e3e454d375efb838519da13202635d51d"
 }

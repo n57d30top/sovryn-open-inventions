@@ -4,10 +4,16 @@
   "badges": {
     "quality": "good",
     "status": "autopublished",
+    "antiTemplate": "needs_revision",
     "replay": "replay-100",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
-    "worker": "container-netoff"
+    "worker": "container-netoff",
+    "lifecycle": "needs_revision",
+    "version": "patch-risk-auditor",
+    "showcase": "not-showcase"
   },
-  "evidenceHash": "c46b07d8f58ac5d40c01218ac8f6124277ea273b0a33ed222a9108dc3a34cb91"
+  "lifecycleStatus": "needs_revision",
+  "showcaseRank": null,
+  "evidenceHash": "d06d7944a6404456bbcbd7f107d9894deafc98a552ebe2e85780ea39b62572cd"
 }

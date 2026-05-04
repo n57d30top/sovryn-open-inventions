@@ -4,10 +4,16 @@
   "badges": {
     "quality": "good",
     "status": "autopublished",
+    "antiTemplate": "unknown",
     "replay": "replay-partial",
-    "safety": "safety-needs-review",
-    "hygiene": "hygiene-needs-review",
-    "worker": "container-netoff"
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "container-netoff",
+    "lifecycle": "demo_pilot",
+    "version": "corpus-deduplication",
+    "showcase": "not-showcase"
   },
-  "evidenceHash": "2c32991609d750dc365f309a446ed88bcf201f33028608aacbe9f654ae85d0b5"
+  "lifecycleStatus": "demo_pilot",
+  "showcaseRank": null,
+  "evidenceHash": "736c243d5b90dbd078f7486aae3ee280184999143d2a6b809212d967ce149ec0"
 }

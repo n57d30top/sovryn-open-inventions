@@ -1,9 +1,15 @@
 {
   "kind": "public_corpus_status_summary",
-  "updatedAt": "2026-05-04T16:02:51.519Z",
+  "updatedAt": "2026-05-04T16:35:55.538Z",
   "resultCount": 11,
   "statusCounts": {
     "autopublished": 11
+  },
+  "lifecycleCounts": {
+    "demo_pilot": 2,
+    "needs_revision": 1,
+    "showcase": 3,
+    "superseded": 5
   },
   "evidenceHash": "dfe7109c2befe9a70ccdfcbc1b9aa9096f5b25f9ce807d570ade9ab4fbe673c0"
 }

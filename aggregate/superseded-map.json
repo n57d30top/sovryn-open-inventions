@@ -1,0 +1,32 @@
+{
+  "kind": "public_corpus_superseded_map",
+  "updatedAt": "2026-05-04T16:35:55.538Z",
+  "results": [
+    {
+      "slug": "chemistry-record-auditor-tool",
+      "supersededBy": "chemistry-record-auditor-tool-v2-v2",
+      "versionGroup": "chemistry-record-auditor-tool"
+    },
+    {
+      "slug": "chemistry-record-auditor-tool-v2",
+      "supersededBy": "chemistry-record-auditor-tool-v2-v2",
+      "versionGroup": "chemistry-record-auditor-tool"
+    },
+    {
+      "slug": "energy-usage-anomaly-auditor",
+      "supersededBy": "energy-usage-anomaly-auditor-v2",
+      "versionGroup": "energy-usage-anomaly-auditor"
+    },
+    {
+      "slug": "evidence-chain",
+      "supersededBy": "evidence-chain-v2",
+      "versionGroup": "evidence-chain"
+    },
+    {
+      "slug": "patch-risk-auditor",
+      "supersededBy": "patch-risk-auditor-v2",
+      "versionGroup": "patch-risk-auditor"
+    }
+  ],
+  "evidenceHash": "91264ed38cf6f98afe803fc90854f63eb7f6a79a58831807b7d512050e7309a8"
+}

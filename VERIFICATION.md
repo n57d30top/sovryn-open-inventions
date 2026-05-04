@@ -14,6 +14,20 @@ Indexed public results: 11
 
 - autopublished: 11
 
+## Lifecycle Counts
+
+- demo_pilot: 2
+- needs_revision: 1
+- showcase: 3
+- superseded: 5
+
+## Versioning And Showcase Gates
+
+- Corpus version groups are generated in aggregate/version-groups.json.
+- Superseded results are mapped in aggregate/superseded-map.json.
+- Showcase results are generated in aggregate/showcase-results.json.
+- Results marked needs_revision, blocked, demo_pilot, or superseded are not showcase results.
+
 ## Disclaimer
 
 Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.

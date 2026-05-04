@@ -4,10 +4,16 @@
   "badges": {
     "quality": "good",
     "status": "autopublished",
+    "antiTemplate": "unknown",
     "replay": "replay-100",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
-    "worker": "container-netoff"
+    "worker": "container-netoff",
+    "lifecycle": "superseded",
+    "version": "chemistry-record-auditor-tool",
+    "showcase": "not-showcase"
   },
-  "evidenceHash": "c46b07d8f58ac5d40c01218ac8f6124277ea273b0a33ed222a9108dc3a34cb91"
+  "lifecycleStatus": "superseded",
+  "showcaseRank": null,
+  "evidenceHash": "4626789e1e7ad01ae82ad44aa84962e537a7e38f09bce821b88674f127a6e55a"
 }

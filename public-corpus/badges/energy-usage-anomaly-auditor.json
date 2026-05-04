@@ -4,10 +4,16 @@
   "badges": {
     "quality": "good",
     "status": "autopublished",
+    "antiTemplate": "unknown",
     "replay": "replay-100",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
-    "worker": "container-netoff"
+    "worker": "container-netoff",
+    "lifecycle": "superseded",
+    "version": "energy-usage-anomaly-auditor",
+    "showcase": "not-showcase"
   },
-  "evidenceHash": "c46b07d8f58ac5d40c01218ac8f6124277ea273b0a33ed222a9108dc3a34cb91"
+  "lifecycleStatus": "superseded",
+  "showcaseRank": null,
+  "evidenceHash": "515340906da332ed4fe13900f898dadc9c4ee56637a9c0659414ba08240383f5"
 }

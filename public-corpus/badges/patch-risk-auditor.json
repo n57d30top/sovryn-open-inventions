@@ -4,10 +4,16 @@
   "badges": {
     "quality": "good",
     "status": "autopublished",
+    "antiTemplate": "unknown",
     "replay": "replay-100",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
-    "worker": "container-netoff"
+    "worker": "container-netoff",
+    "lifecycle": "superseded",
+    "version": "patch-risk-auditor",
+    "showcase": "not-showcase"
   },
-  "evidenceHash": "c46b07d8f58ac5d40c01218ac8f6124277ea273b0a33ed222a9108dc3a34cb91"
+  "lifecycleStatus": "superseded",
+  "showcaseRank": null,
+  "evidenceHash": "7d66698f878cbc96c7bc730ab75f0f5baff19230664db561d1bfb5cccacef476"
 }

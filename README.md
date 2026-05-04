@@ -10,20 +10,33 @@ Sovryn produces autonomous open-research artifacts, defensive publications, and 
 - Machine-readable corpus: [public-corpus/corpus.json](public-corpus/corpus.json)
 - Search index: [public-corpus/search-index.json](public-corpus/search-index.json)
 - Results API: [public-corpus/api/results.json](public-corpus/api/results.json)
+- Showcase page: [public-corpus/showcase.html](public-corpus/showcase.html)
+
+## Showcase Results
+
+- #1: [Molecular Record Auditor for Chemistry-Style Dataset Quality](results/chemistry-record-auditor-tool-v2-v2/) — chemistry-data-quality, showcase
+- #2: [Energy Usage Anomaly Auditor](results/energy-usage-anomaly-auditor-v2/) — energy-data-quality, showcase
+- #3: [Replayable Evidence Chain for Autonomous Research Agents](results/evidence-chain-v2/) — open-invention-corpus, showcase
 
 ## Results
 
-- [Molecular Record Auditor for Chemistry-Style Dataset Quality](results/chemistry-record-auditor-tool/) — good, autopublished, chemistry-data-quality
-- [Molecular Record Auditor for Chemistry-Style Dataset Quality](results/chemistry-record-auditor-tool-v2/) — good, autopublished, chemistry-data-quality
-- [Molecular Record Auditor for Chemistry-Style Dataset Quality](results/chemistry-record-auditor-tool-v2-v2/) — good, autopublished, chemistry-data-quality
-- [Corpus Deduplication for Defensive Publications](results/corpus-deduplication/) — good, autopublished, open-invention-corpus
-- [Energy Usage Anomaly Auditor](results/energy-usage-anomaly-auditor/) — good, autopublished, energy-data-quality
-- [Energy Usage Anomaly Auditor](results/energy-usage-anomaly-auditor-v2/) — good, autopublished, energy-data-quality
-- [Replayable Evidence Chain for Autonomous Research Agents](results/evidence-chain/) — good, autopublished, open-invention-corpus
-- [Replayable Evidence Chain for Autonomous Research Agents](results/evidence-chain-v2/) — good, autopublished, open-invention-corpus
-- [Patch Risk Auditor](results/patch-risk-auditor/) — good, autopublished, software-supply-chain
-- [Patch Risk Auditor](results/patch-risk-auditor-v2/) — good, autopublished, software-supply-chain
-- [Policy-Gated Toolchain Installation Protocol](results/toolchain-policy/) — good, autopublished, node-toolchain-policy
+- [Molecular Record Auditor for Chemistry-Style Dataset Quality](results/chemistry-record-auditor-tool/) — good, superseded, chemistry-record-auditor-tool, chemistry-data-quality
+- [Molecular Record Auditor for Chemistry-Style Dataset Quality](results/chemistry-record-auditor-tool-v2/) — good, superseded, chemistry-record-auditor-tool, chemistry-data-quality
+- [Molecular Record Auditor for Chemistry-Style Dataset Quality](results/chemistry-record-auditor-tool-v2-v2/) — good, showcase, chemistry-record-auditor-tool, chemistry-data-quality
+- [Corpus Deduplication for Defensive Publications](results/corpus-deduplication/) — good, demo_pilot, corpus-deduplication, open-invention-corpus
+- [Energy Usage Anomaly Auditor](results/energy-usage-anomaly-auditor/) — good, superseded, energy-usage-anomaly-auditor, energy-data-quality
+- [Energy Usage Anomaly Auditor](results/energy-usage-anomaly-auditor-v2/) — good, showcase, energy-usage-anomaly-auditor, energy-data-quality
+- [Replayable Evidence Chain for Autonomous Research Agents](results/evidence-chain/) — good, superseded, evidence-chain, open-invention-corpus
+- [Replayable Evidence Chain for Autonomous Research Agents](results/evidence-chain-v2/) — good, showcase, evidence-chain, open-invention-corpus
+- [Patch Risk Auditor](results/patch-risk-auditor/) — good, superseded, patch-risk-auditor, software-supply-chain
+- [Patch Risk Auditor](results/patch-risk-auditor-v2/) — good, needs_revision, patch-risk-auditor, software-supply-chain
+- [Policy-Gated Toolchain Installation Protocol](results/toolchain-policy/) — good, demo_pilot, toolchain-policy, node-toolchain-policy
+
+## Corpus Lifecycle
+
+Results can be marked demo_pilot, draft, dry_run_ready, autopublished, showcase,
+needs_revision, superseded, or blocked. Old result folders are retained for
+auditability; newer version-group entries supersede earlier iterations.
 
 ## Autopublish
 

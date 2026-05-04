@@ -5,66 +5,99 @@
       "slug": "chemistry-record-auditor-tool",
       "path": "results/chemistry-record-auditor-tool",
       "status": "autopublished",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "chemistry-record-auditor-tool",
+      "supersededBy": "chemistry-record-auditor-tool-v2-v2",
       "pushed": true
     },
     {
       "slug": "chemistry-record-auditor-tool-v2",
       "path": "results/chemistry-record-auditor-tool-v2",
       "status": "autopublished",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "chemistry-record-auditor-tool",
+      "supersededBy": "chemistry-record-auditor-tool-v2-v2",
       "pushed": true
     },
     {
       "slug": "chemistry-record-auditor-tool-v2-v2",
       "path": "results/chemistry-record-auditor-tool-v2-v2",
       "status": "autopublished",
+      "lifecycleStatus": "showcase",
+      "versionGroup": "chemistry-record-auditor-tool",
+      "supersededBy": null,
       "pushed": true
     },
     {
       "slug": "corpus-deduplication",
       "path": "results/corpus-deduplication",
       "status": "autopublished",
+      "lifecycleStatus": "demo_pilot",
+      "versionGroup": "corpus-deduplication",
+      "supersededBy": null,
       "pushed": false
     },
     {
       "slug": "energy-usage-anomaly-auditor",
       "path": "results/energy-usage-anomaly-auditor",
       "status": "autopublished",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "energy-usage-anomaly-auditor",
+      "supersededBy": "energy-usage-anomaly-auditor-v2",
       "pushed": true
     },
     {
       "slug": "energy-usage-anomaly-auditor-v2",
       "path": "results/energy-usage-anomaly-auditor-v2",
       "status": "autopublished",
+      "lifecycleStatus": "showcase",
+      "versionGroup": "energy-usage-anomaly-auditor",
+      "supersededBy": null,
       "pushed": true
     },
     {
       "slug": "evidence-chain",
       "path": "results/evidence-chain",
       "status": "autopublished",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "evidence-chain",
+      "supersededBy": "evidence-chain-v2",
       "pushed": false
     },
     {
       "slug": "evidence-chain-v2",
       "path": "results/evidence-chain-v2",
       "status": "autopublished",
+      "lifecycleStatus": "showcase",
+      "versionGroup": "evidence-chain",
+      "supersededBy": null,
       "pushed": true
     },
     {
       "slug": "patch-risk-auditor",
       "path": "results/patch-risk-auditor",
       "status": "autopublished",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "patch-risk-auditor",
+      "supersededBy": "patch-risk-auditor-v2",
       "pushed": true
     },
     {
       "slug": "patch-risk-auditor-v2",
       "path": "results/patch-risk-auditor-v2",
       "status": "autopublished",
+      "lifecycleStatus": "needs_revision",
+      "versionGroup": "patch-risk-auditor",
+      "supersededBy": null,
       "pushed": true
     },
     {
       "slug": "toolchain-policy",
       "path": "results/toolchain-policy",
       "status": "autopublished",
+      "lifecycleStatus": "demo_pilot",
+      "versionGroup": "toolchain-policy",
+      "supersededBy": null,
       "pushed": false
     }
   ],

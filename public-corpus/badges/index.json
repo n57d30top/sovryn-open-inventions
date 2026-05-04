@@ -1,128 +1,194 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-04T16:02:51.519Z",
+  "generatedAt": "2026-05-04T16:35:55.538Z",
   "badges": [
     {
       "slug": "chemistry-record-auditor-tool",
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "unknown",
         "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
-        "worker": "container-netoff"
-      }
+        "worker": "container-netoff",
+        "lifecycle": "superseded",
+        "version": "chemistry-record-auditor-tool",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "superseded",
+      "showcaseRank": null
     },
     {
       "slug": "chemistry-record-auditor-tool-v2",
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "unknown",
         "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
-        "worker": "container-netoff"
-      }
+        "worker": "container-netoff",
+        "lifecycle": "superseded",
+        "version": "chemistry-record-auditor-tool",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "superseded",
+      "showcaseRank": null
     },
     {
       "slug": "chemistry-record-auditor-tool-v2-v2",
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "review_ready",
         "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
-        "worker": "container-netoff"
-      }
+        "worker": "container-netoff",
+        "lifecycle": "showcase",
+        "version": "chemistry-record-auditor-tool",
+        "showcase": "showcase-1"
+      },
+      "lifecycleStatus": "showcase",
+      "showcaseRank": 1
     },
     {
       "slug": "corpus-deduplication",
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "unknown",
         "replay": "replay-partial",
-        "safety": "safety-needs-review",
-        "hygiene": "hygiene-needs-review",
-        "worker": "container-netoff"
-      }
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "lifecycle": "demo_pilot",
+        "version": "corpus-deduplication",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "demo_pilot",
+      "showcaseRank": null
     },
     {
       "slug": "energy-usage-anomaly-auditor",
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "unknown",
         "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
-        "worker": "container-netoff"
-      }
+        "worker": "container-netoff",
+        "lifecycle": "superseded",
+        "version": "energy-usage-anomaly-auditor",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "superseded",
+      "showcaseRank": null
     },
     {
       "slug": "energy-usage-anomaly-auditor-v2",
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "review_ready",
         "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
-        "worker": "container-netoff"
-      }
+        "worker": "container-netoff",
+        "lifecycle": "showcase",
+        "version": "energy-usage-anomaly-auditor",
+        "showcase": "showcase-2"
+      },
+      "lifecycleStatus": "showcase",
+      "showcaseRank": 2
     },
     {
       "slug": "evidence-chain",
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "unknown",
         "replay": "replay-partial",
-        "safety": "safety-needs-review",
-        "hygiene": "hygiene-needs-review",
-        "worker": "container-netoff"
-      }
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "lifecycle": "superseded",
+        "version": "evidence-chain",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "superseded",
+      "showcaseRank": null
     },
     {
       "slug": "evidence-chain-v2",
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "unknown",
         "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
-        "worker": "container-netoff"
-      }
+        "worker": "container-netoff",
+        "lifecycle": "showcase",
+        "version": "evidence-chain",
+        "showcase": "showcase-3"
+      },
+      "lifecycleStatus": "showcase",
+      "showcaseRank": 3
     },
     {
       "slug": "patch-risk-auditor",
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "unknown",
         "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
-        "worker": "container-netoff"
-      }
+        "worker": "container-netoff",
+        "lifecycle": "superseded",
+        "version": "patch-risk-auditor",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "superseded",
+      "showcaseRank": null
     },
     {
       "slug": "patch-risk-auditor-v2",
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "needs_revision",
         "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
-        "worker": "container-netoff"
-      }
+        "worker": "container-netoff",
+        "lifecycle": "needs_revision",
+        "version": "patch-risk-auditor",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "needs_revision",
+      "showcaseRank": null
     },
     {
       "slug": "toolchain-policy",
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "unknown",
         "replay": "replay-partial",
-        "safety": "safety-needs-review",
-        "hygiene": "hygiene-needs-review",
-        "worker": "container-netoff"
-      }
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "lifecycle": "demo_pilot",
+        "version": "toolchain-policy",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "demo_pilot",
+      "showcaseRank": null
     }
   ],
-  "evidenceHash": "9d1ebb9d9801752d3fad1665446365ed00376c22519f3013e2db2f3f3ef3f202"
+  "evidenceHash": "8b1317992e221bba4e7b370465cc32cc84630d7f5d5560435c1b6fb14c25a1f6"
 }

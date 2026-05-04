@@ -1,12 +1,18 @@
 {
   "kind": "sovryn_public_corpus_product",
-  "generatedAt": "2026-05-04T16:02:51.519Z",
+  "generatedAt": "2026-05-04T16:35:55.538Z",
   "resultCount": 11,
   "qualityCounts": {
     "good": 11
   },
   "statusCounts": {
     "autopublished": 11
+  },
+  "lifecycleCounts": {
+    "demo_pilot": 2,
+    "needs_revision": 1,
+    "showcase": 3,
+    "superseded": 5
   },
   "domainCounts": {
     "chemistry-data-quality": 3,
@@ -20,9 +26,19 @@
       "slug": "chemistry-record-auditor-tool",
       "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
       "domain": "chemistry-data-quality",
+      "resultKind": "tool_result",
       "path": "results/chemistry-record-auditor-tool",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "chemistry-record-auditor-tool",
+      "supersedes": null,
+      "supersededBy": "chemistry-record-auditor-tool-v2-v2",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": "Superseded by chemistry-record-auditor-tool-v2-v2.",
+      "humanReadableSummary": "Result ID: chemistry-record-auditor-tool\nSource: pilot / chemistry-record-auditor-tool\nQuality label: good\nCandidate status: dryrunready",
       "releaseReadinessScore": 90,
       "evidenceStrengthScore": 86,
       "reproducibilityScore": 96,
@@ -50,19 +66,33 @@
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "unknown",
         "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
-        "worker": "container-netoff"
+        "worker": "container-netoff",
+        "lifecycle": "superseded",
+        "version": "chemistry-record-auditor-tool",
+        "showcase": "not-showcase"
       }
     },
     {
       "slug": "chemistry-record-auditor-tool-v2",
       "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
       "domain": "chemistry-data-quality",
+      "resultKind": "tool_result",
       "path": "results/chemistry-record-auditor-tool-v2",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "chemistry-record-auditor-tool",
+      "supersedes": null,
+      "supersededBy": "chemistry-record-auditor-tool-v2-v2",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": "Superseded by chemistry-record-auditor-tool-v2-v2.",
+      "humanReadableSummary": "Result ID: chemistry-record-auditor-tool-v2\nSource: pilot / chemistry-record-auditor-tool-v2\nQuality label: good\nCandidate status: dryrunready",
       "releaseReadinessScore": 90,
       "evidenceStrengthScore": 88,
       "reproducibilityScore": 96,
@@ -90,19 +120,33 @@
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "unknown",
         "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
-        "worker": "container-netoff"
+        "worker": "container-netoff",
+        "lifecycle": "superseded",
+        "version": "chemistry-record-auditor-tool",
+        "showcase": "not-showcase"
       }
     },
     {
       "slug": "chemistry-record-auditor-tool-v2-v2",
       "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
       "domain": "chemistry-data-quality",
+      "resultKind": "tool_result",
       "path": "results/chemistry-record-auditor-tool-v2-v2",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "showcase",
+      "versionGroup": "chemistry-record-auditor-tool",
+      "supersedes": "chemistry-record-auditor-tool-v2",
+      "supersededBy": null,
+      "showcaseEligible": true,
+      "showcaseRank": 1,
+      "revisionReason": null,
+      "humanReadableSummary": "Result ID: chemistry-record-auditor-tool-v2\nSource: pilot / chemistry-record-auditor-tool-v2\nQuality label: good\nCandidate status: dryrunready",
       "releaseReadinessScore": 90,
       "evidenceStrengthScore": 88,
       "reproducibilityScore": 96,
@@ -130,28 +174,42 @@
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "review_ready",
         "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
-        "worker": "container-netoff"
+        "worker": "container-netoff",
+        "lifecycle": "showcase",
+        "version": "chemistry-record-auditor-tool",
+        "showcase": "showcase-1"
       }
     },
     {
       "slug": "corpus-deduplication",
       "title": "Corpus Deduplication for Defensive Publications",
       "domain": "open-invention-corpus",
+      "resultKind": "defensive_publication_method",
       "path": "results/corpus-deduplication",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "demo_pilot",
+      "versionGroup": "corpus-deduplication",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": "Kept as an early demo/pilot result rather than a current showcase.",
+      "humanReadableSummary": "- Quality label: good\n- Candidate status: dryrunready\n- Release readiness score: 88\n- Recommended decision: dry-run only\n- Real GitHub publication performed: false",
       "releaseReadinessScore": 88,
       "evidenceStrengthScore": 100,
       "reproducibilityScore": 100,
       "publicationSafetyScore": 90,
       "replayCriticalPassRate": 0,
       "specificityScore": 0,
-      "publicHygienePassed": false,
-      "safetyScanPassed": false,
-      "reliabilityReplayPassed": false,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
       "pushed": false,
       "externalPackages": [],
       "customTool": null,
@@ -168,19 +226,33 @@
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "unknown",
         "replay": "replay-partial",
-        "safety": "safety-needs-review",
-        "hygiene": "hygiene-needs-review",
-        "worker": "container-netoff"
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "lifecycle": "demo_pilot",
+        "version": "corpus-deduplication",
+        "showcase": "not-showcase"
       }
     },
     {
       "slug": "energy-usage-anomaly-auditor",
       "title": "Energy Usage Anomaly Auditor",
       "domain": "energy-data-quality",
+      "resultKind": "tool_result",
       "path": "results/energy-usage-anomaly-auditor",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "energy-usage-anomaly-auditor",
+      "supersedes": null,
+      "supersededBy": "energy-usage-anomaly-auditor-v2",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": "Superseded by energy-usage-anomaly-auditor-v2.",
+      "humanReadableSummary": "Result ID: energy-usage-anomaly-auditor\nSource: pilot / energy-usage-anomaly-auditor\nQuality label: good\nCandidate status: dryrunready",
       "releaseReadinessScore": 89,
       "evidenceStrengthScore": 84,
       "reproducibilityScore": 95,
@@ -208,19 +280,33 @@
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "unknown",
         "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
-        "worker": "container-netoff"
+        "worker": "container-netoff",
+        "lifecycle": "superseded",
+        "version": "energy-usage-anomaly-auditor",
+        "showcase": "not-showcase"
       }
     },
     {
       "slug": "energy-usage-anomaly-auditor-v2",
       "title": "Energy Usage Anomaly Auditor",
       "domain": "energy-data-quality",
+      "resultKind": "tool_result",
       "path": "results/energy-usage-anomaly-auditor-v2",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "showcase",
+      "versionGroup": "energy-usage-anomaly-auditor",
+      "supersedes": "energy-usage-anomaly-auditor",
+      "supersededBy": null,
+      "showcaseEligible": true,
+      "showcaseRank": 2,
+      "revisionReason": null,
+      "humanReadableSummary": "Result ID: energy-usage-anomaly-auditor\nSource: pilot / energy-usage-anomaly-auditor\nQuality label: good\nCandidate status: dryrunready",
       "releaseReadinessScore": 89,
       "evidenceStrengthScore": 84,
       "reproducibilityScore": 95,
@@ -248,28 +334,42 @@
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "review_ready",
         "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
-        "worker": "container-netoff"
+        "worker": "container-netoff",
+        "lifecycle": "showcase",
+        "version": "energy-usage-anomaly-auditor",
+        "showcase": "showcase-2"
       }
     },
     {
       "slug": "evidence-chain",
       "title": "Replayable Evidence Chain for Autonomous Research Agents",
       "domain": "open-invention-corpus",
+      "resultKind": "defensive_publication_method",
       "path": "results/evidence-chain",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "evidence-chain",
+      "supersedes": null,
+      "supersededBy": "evidence-chain-v2",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": "Superseded by evidence-chain-v2.",
+      "humanReadableSummary": "- Quality label: good\n- Candidate status: dryrunready\n- Release readiness score: 88\n- Recommended decision: dry-run only\n- Real GitHub publication performed: false",
       "releaseReadinessScore": 88,
       "evidenceStrengthScore": 100,
       "reproducibilityScore": 100,
       "publicationSafetyScore": 90,
       "replayCriticalPassRate": 0,
       "specificityScore": 0,
-      "publicHygienePassed": false,
-      "safetyScanPassed": false,
-      "reliabilityReplayPassed": false,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
       "pushed": false,
       "externalPackages": [],
       "customTool": null,
@@ -286,19 +386,33 @@
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "unknown",
         "replay": "replay-partial",
-        "safety": "safety-needs-review",
-        "hygiene": "hygiene-needs-review",
-        "worker": "container-netoff"
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "lifecycle": "superseded",
+        "version": "evidence-chain",
+        "showcase": "not-showcase"
       }
     },
     {
       "slug": "evidence-chain-v2",
       "title": "Replayable Evidence Chain for Autonomous Research Agents",
       "domain": "open-invention-corpus",
+      "resultKind": "defensive_publication_method",
       "path": "results/evidence-chain-v2",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "showcase",
+      "versionGroup": "evidence-chain",
+      "supersedes": "evidence-chain",
+      "supersededBy": null,
+      "showcaseEligible": true,
+      "showcaseRank": 3,
+      "revisionReason": null,
+      "humanReadableSummary": "Result ID: develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc\nSource: pilot / evidence-chain\nQuality label: good\nCandidate status: dryrunready",
       "releaseReadinessScore": 88,
       "evidenceStrengthScore": 100,
       "reproducibilityScore": 100,
@@ -324,19 +438,33 @@
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "unknown",
         "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
-        "worker": "container-netoff"
+        "worker": "container-netoff",
+        "lifecycle": "showcase",
+        "version": "evidence-chain",
+        "showcase": "showcase-3"
       }
     },
     {
       "slug": "patch-risk-auditor",
       "title": "Patch Risk Auditor",
       "domain": "software-supply-chain",
+      "resultKind": "tool_result",
       "path": "results/patch-risk-auditor",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "patch-risk-auditor",
+      "supersedes": null,
+      "supersededBy": "patch-risk-auditor-v2",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": "Superseded by patch-risk-auditor-v2.",
+      "humanReadableSummary": "Result ID: patch-risk-auditor\nSource: pilot / patch-risk-auditor\nQuality label: good\nCandidate status: dryrunready",
       "releaseReadinessScore": 88,
       "evidenceStrengthScore": 83,
       "reproducibilityScore": 94,
@@ -364,19 +492,33 @@
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "unknown",
         "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
-        "worker": "container-netoff"
+        "worker": "container-netoff",
+        "lifecycle": "superseded",
+        "version": "patch-risk-auditor",
+        "showcase": "not-showcase"
       }
     },
     {
       "slug": "patch-risk-auditor-v2",
       "title": "Patch Risk Auditor",
       "domain": "software-supply-chain",
+      "resultKind": "tool_result",
       "path": "results/patch-risk-auditor-v2",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "antiTemplateStatus": "needs_revision",
+      "lifecycleStatus": "needs_revision",
+      "versionGroup": "patch-risk-auditor",
+      "supersedes": "patch-risk-auditor",
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": "Quality, candidate status, or anti-template review requires revision.",
+      "humanReadableSummary": "Result ID: patch-risk-auditor\nSource: pilot / patch-risk-auditor\nQuality label: good\nCandidate status: dryrunready",
       "releaseReadinessScore": 88,
       "evidenceStrengthScore": 83,
       "reproducibilityScore": 94,
@@ -404,28 +546,42 @@
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "needs_revision",
         "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
-        "worker": "container-netoff"
+        "worker": "container-netoff",
+        "lifecycle": "needs_revision",
+        "version": "patch-risk-auditor",
+        "showcase": "not-showcase"
       }
     },
     {
       "slug": "toolchain-policy",
       "title": "Policy-Gated Toolchain Installation Protocol",
       "domain": "node-toolchain-policy",
+      "resultKind": "tool_result",
       "path": "results/toolchain-policy",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "demo_pilot",
+      "versionGroup": "toolchain-policy",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": "Kept as an early demo/pilot result rather than a current showcase.",
+      "humanReadableSummary": "- Quality label: good\n- Candidate status: dryrunready\n- Release readiness score: 88\n- Recommended decision: dry-run only\n- Real GitHub publication performed: false",
       "releaseReadinessScore": 88,
       "evidenceStrengthScore": 100,
       "reproducibilityScore": 100,
       "publicationSafetyScore": 90,
       "replayCriticalPassRate": 0,
       "specificityScore": 0,
-      "publicHygienePassed": false,
-      "safetyScanPassed": false,
-      "reliabilityReplayPassed": false,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
       "pushed": false,
       "externalPackages": [],
       "customTool": null,
@@ -442,13 +598,263 @@
       "badges": {
         "quality": "good",
         "status": "autopublished",
+        "antiTemplate": "unknown",
         "replay": "replay-partial",
-        "safety": "safety-needs-review",
-        "hygiene": "hygiene-needs-review",
-        "worker": "container-netoff"
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "lifecycle": "demo_pilot",
+        "version": "toolchain-policy",
+        "showcase": "not-showcase"
       }
     }
   ],
+  "versionGroups": [
+    {
+      "versionGroup": "chemistry-record-auditor-tool",
+      "latestSlug": "chemistry-record-auditor-tool-v2-v2",
+      "resultSlugs": [
+        "chemistry-record-auditor-tool",
+        "chemistry-record-auditor-tool-v2",
+        "chemistry-record-auditor-tool-v2-v2"
+      ]
+    },
+    {
+      "versionGroup": "corpus-deduplication",
+      "latestSlug": "corpus-deduplication",
+      "resultSlugs": [
+        "corpus-deduplication"
+      ]
+    },
+    {
+      "versionGroup": "energy-usage-anomaly-auditor",
+      "latestSlug": "energy-usage-anomaly-auditor-v2",
+      "resultSlugs": [
+        "energy-usage-anomaly-auditor",
+        "energy-usage-anomaly-auditor-v2"
+      ]
+    },
+    {
+      "versionGroup": "evidence-chain",
+      "latestSlug": "evidence-chain-v2",
+      "resultSlugs": [
+        "evidence-chain",
+        "evidence-chain-v2"
+      ]
+    },
+    {
+      "versionGroup": "patch-risk-auditor",
+      "latestSlug": "patch-risk-auditor-v2",
+      "resultSlugs": [
+        "patch-risk-auditor",
+        "patch-risk-auditor-v2"
+      ]
+    },
+    {
+      "versionGroup": "toolchain-policy",
+      "latestSlug": "toolchain-policy",
+      "resultSlugs": [
+        "toolchain-policy"
+      ]
+    }
+  ],
+  "supersededMap": [
+    {
+      "slug": "chemistry-record-auditor-tool",
+      "supersededBy": "chemistry-record-auditor-tool-v2-v2",
+      "versionGroup": "chemistry-record-auditor-tool"
+    },
+    {
+      "slug": "chemistry-record-auditor-tool-v2",
+      "supersededBy": "chemistry-record-auditor-tool-v2-v2",
+      "versionGroup": "chemistry-record-auditor-tool"
+    },
+    {
+      "slug": "energy-usage-anomaly-auditor",
+      "supersededBy": "energy-usage-anomaly-auditor-v2",
+      "versionGroup": "energy-usage-anomaly-auditor"
+    },
+    {
+      "slug": "evidence-chain",
+      "supersededBy": "evidence-chain-v2",
+      "versionGroup": "evidence-chain"
+    },
+    {
+      "slug": "patch-risk-auditor",
+      "supersededBy": "patch-risk-auditor-v2",
+      "versionGroup": "patch-risk-auditor"
+    }
+  ],
+  "showcaseResults": [
+    {
+      "slug": "chemistry-record-auditor-tool-v2-v2",
+      "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
+      "domain": "chemistry-data-quality",
+      "resultKind": "tool_result",
+      "path": "results/chemistry-record-auditor-tool-v2-v2",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "showcase",
+      "versionGroup": "chemistry-record-auditor-tool",
+      "supersedes": "chemistry-record-auditor-tool-v2",
+      "supersededBy": null,
+      "showcaseEligible": true,
+      "showcaseRank": 1,
+      "revisionReason": null,
+      "humanReadableSummary": "Result ID: chemistry-record-auditor-tool-v2\nSource: pilot / chemistry-record-auditor-tool-v2\nQuality label: good\nCandidate status: dryrunready",
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 96,
+      "publicationSafetyScore": 96,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 69,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": true,
+      "externalPackages": [
+        "pint"
+      ],
+      "customTool": "mol-record-auditor",
+      "workerAssurance": "container-netoff",
+      "summary": "Result ID: chemistry-record-auditor-tool-v2\nSource: pilot / chemistry-record-auditor-tool-v2\nQuality label: good\nCandidate status: dryrunready",
+      "limitations": [
+        "\"disclaimer\": \"This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.\",",
+        "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
+        "A safe, open-source data-quality method can audit toy chemistry-style molecular",
+        "property records by combining unit normalization, toy identifier equivalence,",
+        "The toy equivalence map is not broad canonicalization.",
+        "RDKit/OpenBabel integration is future work only if policy-approved."
+      ],
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "lifecycle": "showcase",
+        "version": "chemistry-record-auditor-tool",
+        "showcase": "showcase-1"
+      }
+    },
+    {
+      "slug": "energy-usage-anomaly-auditor-v2",
+      "title": "Energy Usage Anomaly Auditor",
+      "domain": "energy-data-quality",
+      "resultKind": "tool_result",
+      "path": "results/energy-usage-anomaly-auditor-v2",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "showcase",
+      "versionGroup": "energy-usage-anomaly-auditor",
+      "supersedes": "energy-usage-anomaly-auditor",
+      "supersededBy": null,
+      "showcaseEligible": true,
+      "showcaseRank": 2,
+      "revisionReason": null,
+      "humanReadableSummary": "Result ID: energy-usage-anomaly-auditor\nSource: pilot / energy-usage-anomaly-auditor\nQuality label: good\nCandidate status: dryrunready",
+      "releaseReadinessScore": 89,
+      "evidenceStrengthScore": 84,
+      "reproducibilityScore": 95,
+      "publicationSafetyScore": 97,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 72,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": true,
+      "externalPackages": [
+        "pandas"
+      ],
+      "customTool": "energy-record-auditor",
+      "workerAssurance": "container-netoff",
+      "summary": "Result ID: energy-usage-anomaly-auditor\nSource: pilot / energy-usage-anomaly-auditor\nQuality label: good\nCandidate status: dryrunready",
+      "limitations": [
+        "\"disclaimer\": \"This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.\",",
+        "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
+        "reproducible toy-data tool.",
+        "Legal disclaimer: This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
+        "\"inventionSlug\": \"a-safe-open-source-data-quality-method-for-auditing-anonymized-toy-hom-3\",",
+        "axis, and not a legal novelty conclusion."
+      ],
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "lifecycle": "showcase",
+        "version": "energy-usage-anomaly-auditor",
+        "showcase": "showcase-2"
+      }
+    },
+    {
+      "slug": "evidence-chain-v2",
+      "title": "Replayable Evidence Chain for Autonomous Research Agents",
+      "domain": "open-invention-corpus",
+      "resultKind": "defensive_publication_method",
+      "path": "results/evidence-chain-v2",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "showcase",
+      "versionGroup": "evidence-chain",
+      "supersedes": "evidence-chain",
+      "supersededBy": null,
+      "showcaseEligible": true,
+      "showcaseRank": 3,
+      "revisionReason": null,
+      "humanReadableSummary": "Result ID: develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc\nSource: pilot / evidence-chain\nQuality label: good\nCandidate status: dryrunready",
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 100,
+      "reproducibilityScore": 100,
+      "publicationSafetyScore": 90,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 0,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": true,
+      "externalPackages": [],
+      "customTool": null,
+      "workerAssurance": "container-netoff",
+      "summary": "Result ID: develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc\nSource: pilot / evidence-chain\nQuality label: good\nCandidate status: dryrunready",
+      "limitations": [
+        "\"disclaimer\": \"This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.\",",
+        "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
+        "\"message\": \"Real publication requires human review.\",",
+        "\"limitations\": [",
+        "\"This is not a legal patent filing, patentability opinion, or freedom-to-operate opinion.\"",
+        "\"requireSecurityAudit\": true,"
+      ],
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "lifecycle": "showcase",
+        "version": "evidence-chain",
+        "showcase": "showcase-3"
+      }
+    }
+  ],
+  "revisionQueue": [
+    {
+      "slug": "patch-risk-auditor-v2",
+      "title": "Patch Risk Auditor",
+      "lifecycleStatus": "needs_revision",
+      "revisionReason": "Quality, candidate status, or anti-template review requires revision."
+    }
+  ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "4e562caa0d1fa2ca01f634a6700aed978af263b39557671476b32019120737c8"
+  "evidenceHash": "2a42adb328d2158adf9f0e76e2080df127c5bbdd50d3cd0f113a122fefa2d403"
 }

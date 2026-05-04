@@ -1,0 +1,54 @@
+{
+  "kind": "public_corpus_version_groups",
+  "updatedAt": "2026-05-04T16:35:55.538Z",
+  "groups": [
+    {
+      "versionGroup": "chemistry-record-auditor-tool",
+      "latestSlug": "chemistry-record-auditor-tool-v2-v2",
+      "resultSlugs": [
+        "chemistry-record-auditor-tool",
+        "chemistry-record-auditor-tool-v2",
+        "chemistry-record-auditor-tool-v2-v2"
+      ]
+    },
+    {
+      "versionGroup": "corpus-deduplication",
+      "latestSlug": "corpus-deduplication",
+      "resultSlugs": [
+        "corpus-deduplication"
+      ]
+    },
+    {
+      "versionGroup": "energy-usage-anomaly-auditor",
+      "latestSlug": "energy-usage-anomaly-auditor-v2",
+      "resultSlugs": [
+        "energy-usage-anomaly-auditor",
+        "energy-usage-anomaly-auditor-v2"
+      ]
+    },
+    {
+      "versionGroup": "evidence-chain",
+      "latestSlug": "evidence-chain-v2",
+      "resultSlugs": [
+        "evidence-chain",
+        "evidence-chain-v2"
+      ]
+    },
+    {
+      "versionGroup": "patch-risk-auditor",
+      "latestSlug": "patch-risk-auditor-v2",
+      "resultSlugs": [
+        "patch-risk-auditor",
+        "patch-risk-auditor-v2"
+      ]
+    },
+    {
+      "versionGroup": "toolchain-policy",
+      "latestSlug": "toolchain-policy",
+      "resultSlugs": [
+        "toolchain-policy"
+      ]
+    }
+  ],
+  "evidenceHash": "bbd83ae318e9585d1c3c7e97fa733dff3a5bf71a5fdbe940903b9017fcc5fe7e"
+}
