@@ -1,0 +1,19 @@
+{
+  "kind": "publication_ledger",
+  "updatedAt": "2026-05-04T12:56:36.503Z",
+  "entries": [
+    {
+      "resultId": "develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc",
+      "slug": "evidence-chain-v2",
+      "title": "Replayable Evidence Chain for Autonomous Research Agents",
+      "mode": "corpus-autopublish",
+      "dryRun": false,
+      "pushed": false,
+      "pushedAt": null,
+      "commitHash": null,
+      "humanReviewRequired": false,
+      "evidenceHash": "a5dcf2b7e2a51694ccb7d4b3cf2af0a789b0738cb1465c851b41c62c1af3c803"
+    }
+  ],
+  "evidenceHash": "06e9e2ce3ecd738525bf231c0f61c43b8cebd993dd760a2939c75bedec0765bb"
+}

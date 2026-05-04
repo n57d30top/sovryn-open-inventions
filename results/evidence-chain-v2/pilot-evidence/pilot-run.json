@@ -1,0 +1,33 @@
+{
+  "kind": "pilot_release_candidate",
+  "pilotId": "evidence-chain",
+  "scenario": "evidence-chain",
+  "title": "Replayable Evidence Chain for Autonomous Research Agents",
+  "goal": "Develop an evidence-chain format for autonomous research agents that binds sources, claims, prototypes, tests, and release artifacts into a replayable public record.",
+  "ranAt": "2026-05-04T12:06:53.538Z",
+  "factoryId": "fac_20260504120646_601c2b83",
+  "factorySlug": "develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc",
+  "inventionMissionId": "mis_20260504120646_747761e0",
+  "releaseCandidateId": "develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc",
+  "releasePath": ".sovryn/factory/develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc/release/public",
+  "qualityLabel": "good",
+  "releaseReadinessScore": 88,
+  "evidenceStrengthScore": 100,
+  "noveltyRiskScore": 65,
+  "reproducibilityScore": 100,
+  "publicationSafetyScore": 90,
+  "humanReviewPriority": "medium",
+  "candidateStatus": "dry_run_ready",
+  "recommendedDecision": "dry-run only",
+  "realPublicationPerformed": false,
+  "workerNoSilentFallback": true,
+  "artifactRefs": [
+    ".sovryn/pilots/evidence-chain/pilot-run.json",
+    ".sovryn/pilots/evidence-chain/factory-binding.json",
+    ".sovryn/pilots/evidence-chain/mission-binding.json",
+    ".sovryn/pilots/evidence-chain/quality-evaluation.json",
+    ".sovryn/pilots/evidence-chain/publication-dry-run.json",
+    ".sovryn/pilots/evidence-chain/human-review-checklist.json"
+  ],
+  "evidenceHash": "dfee19e2d2e344aeb6bcedfdf386fae3d2d9a5923bcedb2cc6bc2143b700cdbd"
+}

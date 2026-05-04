@@ -1,0 +1,62 @@
+{
+  "kind": "replay_all_report",
+  "replayedAt": "2026-05-04T12:06:47.708Z",
+  "factoryRunCount": 1,
+  "passedCount": 1,
+  "failedCount": 0,
+  "totalArtifacts": 2,
+  "replayCriticalArtifacts": 2,
+  "degradedCount": 0,
+  "skippedNonCritical": 0,
+  "replayPassRate": 100,
+  "replayCriticalPassRate": 100,
+  "blockingReplayFailures": [],
+  "nonBlockingReplayLimitations": [],
+  "recommendedFixes": [],
+  "results": [
+    {
+      "factoryId": "fac_20260504120646_601c2b83",
+      "factorySlug": "develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc",
+      "artifactPath": ".sovryn/factory/develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc/replay-report.json",
+      "classification": "replay-critical",
+      "passed": true,
+      "failedGates": [],
+      "staleEvidence": [],
+      "blocking": false,
+      "recommendedFixes": [],
+      "error": null
+    }
+  ],
+  "releaseCandidateReview": {
+    "checked": true,
+    "passed": true,
+    "failedGates": [],
+    "error": null,
+    "classification": "replay-critical",
+    "blocking": false,
+    "recommendedFixes": []
+  },
+  "checks": [
+    {
+      "code": "REPLAY_ALL_PASSED",
+      "passed": true,
+      "severity": "info",
+      "message": "All factory runs and release candidates should replay or review cleanly.",
+      "details": {
+        "failedFactoryRuns": 0,
+        "releaseCandidateReview": {
+          "checked": true,
+          "passed": true,
+          "failedGates": [],
+          "error": null,
+          "classification": "replay-critical",
+          "blocking": false,
+          "recommendedFixes": []
+        },
+        "replayCriticalPassRate": 100
+      }
+    }
+  ],
+  "passed": true,
+  "evidenceHash": "c2101643e83f44f797fe731a6aac26bd6404049c3b05ff5843c2f474e8f1e914"
+}

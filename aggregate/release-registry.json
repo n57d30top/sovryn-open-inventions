@@ -1,0 +1,15 @@
+{
+  "kind": "corpus_release_registry",
+  "updatedAt": "2026-05-04T12:56:36.503Z",
+  "releases": [
+    {
+      "slug": "evidence-chain-v2",
+      "title": "Replayable Evidence Chain for Autonomous Research Agents",
+      "path": "results/evidence-chain-v2",
+      "sourceType": "pilot",
+      "sourceId": "evidence-chain",
+      "humanReviewRequired": false
+    }
+  ],
+  "evidenceHash": "33abd2d61333fc6302b3b4476081ee563ff8510f665b97a183482aaac802cc35"
+}

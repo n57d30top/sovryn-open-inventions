@@ -1,22 +1,13 @@
 # Sovryn Open Inventions
 
-This repository is a curated local release bundle for three Sovryn OS Beta.9 Open-Invention pilot results.
+This repository is a public corpus of Sovryn Open Inventions, Defensive Publications, and Open Source Research Artifacts.
 
-It contains Open Inventions, Defensive Publications, and Open Source Research Artifacts. It is not a legal patent filing system and does not provide legal novelty, patentability, or freedom-to-operate opinions.
+## Autopublish Policy
+
+This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.
+
+Sovryn publishes into this existing corpus repository only after automated quality, replay, safety, reliability, public-hygiene, and dry-run publication gates pass. It does not create new GitHub repositories in corpus autopublish mode.
 
 ## Results
 
-- [Replayable Evidence Chain for Autonomous Research Agents](results/evidence-chain/) - `good`, `dry_run_ready`, recommendation: `dry-run only`
-- [Policy-Gated Toolchain Installation Protocol](results/toolchain-policy/) - `good`, `dry_run_ready`, recommendation: `dry-run only`
-- [Corpus Deduplication for Defensive Publications](results/corpus-deduplication/) - `good`, `dry_run_ready`, recommendation: `dry-run only`
-
-## Structure
-
-- `results/<pilot-id>/release/`: curated public release artifacts for each result.
-- `results/<pilot-id>/pilot-evidence/`: pilot report, human review checklist, and evidence JSON.
-- `aggregate/`: aggregate pilot reports and summaries.
-- `INDEX.json`: machine-readable bundle index.
-
-## Publication State
-
-No real GitHub publication was performed by the Sovryn agent. These results are prepared for human review and controlled publication governance.
+- [Replayable Evidence Chain for Autonomous Research Agents](results/evidence-chain-v2/) — good, dry_run_ready

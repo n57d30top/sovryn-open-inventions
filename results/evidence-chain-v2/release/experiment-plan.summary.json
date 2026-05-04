@@ -1,0 +1,85 @@
+{
+  "kind": "factory_experiment_plan",
+  "evidenceHash": "2b895f438052efe92b1c0e2682b4c6d22290b76d0412c496cb6805e9db5b725d",
+  "summary": {
+    "claimFeatureMatrixEvidenceHash": "136856d57b663231655799892be3b8ffe114e1bb89de05f426562cbfabcdfb7e",
+    "experiments": [
+      {
+        "experimentId": "exp-1",
+        "purpose": "Validate architecture claim-feature source-feature-1.",
+        "claimFeatureIds": [
+          "source-feature-1"
+        ],
+        "hypothesis": "A generated prototype can expose weak evidence, stale hashes, and missing reproducibility signals.",
+        "inputData": "Fixture source cards, claim-feature rows, counter-evidence, and execution summaries.",
+        "expectedOutput": "Readiness score and blocking reasons reflect source evidence, tests, and replay freshness.",
+        "failureCondition": "The prototype reports high readiness for query-link-only, stale, or unexecuted evidence.",
+        "requiredCommand": "npm test",
+        "reproducibilityNotes": [
+          "Run from the generated Open Invention prototype directory.",
+          "Use deterministic fixture input for CI."
+        ],
+        "safetyNotes": [
+          "No network access or credentials are required for the prototype test."
+        ]
+      },
+      {
+        "experimentId": "exp-2",
+        "purpose": "Validate architecture claim-feature source-feature-2.",
+        "claimFeatureIds": [
+          "source-feature-2"
+        ],
+        "hypothesis": "A generated prototype can expose weak evidence, stale hashes, and missing reproducibility signals.",
+        "inputData": "Fixture source cards, claim-feature rows, counter-evidence, and execution summaries.",
+        "expectedOutput": "Readiness score and blocking reasons reflect source evidence, tests, and replay freshness.",
+        "failureCondition": "The prototype reports high readiness for query-link-only, stale, or unexecuted evidence.",
+        "requiredCommand": "npm test",
+        "reproducibilityNotes": [
+          "Run from the generated Open Invention prototype directory.",
+          "Use deterministic fixture input for CI."
+        ],
+        "safetyNotes": [
+          "No network access or credentials are required for the prototype test."
+        ]
+      },
+      {
+        "experimentId": "exp-3",
+        "purpose": "Validate architecture claim-feature source-feature-3.",
+        "claimFeatureIds": [
+          "source-feature-3"
+        ],
+        "hypothesis": "A generated prototype can expose weak evidence, stale hashes, and missing reproducibility signals.",
+        "inputData": "Fixture source cards, claim-feature rows, counter-evidence, and execution summaries.",
+        "expectedOutput": "Readiness score and blocking reasons reflect source evidence, tests, and replay freshness.",
+        "failureCondition": "The prototype reports high readiness for query-link-only, stale, or unexecuted evidence.",
+        "requiredCommand": "npm test",
+        "reproducibilityNotes": [
+          "Run from the generated Open Invention prototype directory.",
+          "Use deterministic fixture input for CI."
+        ],
+        "safetyNotes": [
+          "No network access or credentials are required for the prototype test."
+        ]
+      },
+      {
+        "experimentId": "exp-4",
+        "purpose": "Validate verification claim-feature source-feature-4.",
+        "claimFeatureIds": [
+          "source-feature-4"
+        ],
+        "hypothesis": "A generated prototype can expose weak evidence, stale hashes, and missing reproducibility signals.",
+        "inputData": "Fixture source cards, claim-feature rows, counter-evidence, and execution summaries.",
+        "expectedOutput": "Readiness score and blocking reasons reflect source evidence, tests, and replay freshness.",
+        "failureCondition": "The prototype reports high readiness for query-link-only, stale, or unexecuted evidence.",
+        "requiredCommand": "npm test",
+        "reproducibilityNotes": [
+          "Run from the generated Open Invention prototype directory.",
+          "Use deterministic fixture input for CI."
+        ],
+        "safetyNotes": [
+          "No network access or credentials are required for the prototype test."
+        ]
+      }
+    ]
+  }
+}

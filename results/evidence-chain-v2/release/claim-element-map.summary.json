@@ -1,0 +1,258 @@
+{
+  "kind": "factory_claim_element_map",
+  "evidenceHash": "8147988cfbc5bb6af6928c239710e33df485e6367845c850f3a6d14b05616a0c",
+  "summary": {
+    "claimFeatureMatrixEvidenceHash": "136856d57b663231655799892be3b8ffe114e1bb89de05f426562cbfabcdfb7e",
+    "sourceCardsEvidenceHash": "763f9da8aafdad2ce3932e695d8a713ffe3332c310512b9d6ddcb52505e67c1b",
+    "paperReadingsEvidenceHash": "afe61ffafcd3baed7f38f785931b84929129e3c57b96d070ad4ce705712384e2",
+    "patentClaimReadingsEvidenceHash": "d78f45637403bb11f617e1ccf956f82ceaedcc69ea881516d67d033be4736e74",
+    "mappings": [
+      {
+        "mappingId": "claim-map-1",
+        "claimFeatureId": "source-feature-1",
+        "featureText": "Repository structure supports multi-agent orchestration workflows.",
+        "sourceCardIds": [
+          "source-4"
+        ],
+        "patentElementIds": [
+          "patent-1-element-1",
+          "patent-2-element-1",
+          "patent-3-element-1"
+        ],
+        "paperReadingIds": [],
+        "knownOverlap": "Examples and tests can inform prototype expectations for research agents.",
+        "possibleDifference": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "riskLevel": "high",
+        "requiredFollowUp": "Review cited source cards, paper readings, and patent-like claim elements before public claims. This is not a legal novelty conclusion.",
+        "evidenceRefs": [
+          "source-4",
+          "source-4",
+          "patent-1-element-1",
+          "patent-2-element-1",
+          "patent-3-element-1"
+        ]
+      },
+      {
+        "mappingId": "claim-map-2",
+        "claimFeatureId": "source-feature-2",
+        "featureText": "Repository structure supports multi-agent orchestration workflows.",
+        "sourceCardIds": [
+          "source-5"
+        ],
+        "patentElementIds": [
+          "patent-1-element-1",
+          "patent-2-element-1",
+          "patent-3-element-1"
+        ],
+        "paperReadingIds": [],
+        "knownOverlap": "Examples and tests can inform prototype expectations for research agents.",
+        "possibleDifference": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "riskLevel": "high",
+        "requiredFollowUp": "Review cited source cards, paper readings, and patent-like claim elements before public claims. This is not a legal novelty conclusion.",
+        "evidenceRefs": [
+          "source-5",
+          "source-5",
+          "patent-1-element-1",
+          "patent-2-element-1",
+          "patent-3-element-1"
+        ]
+      },
+      {
+        "mappingId": "claim-map-3",
+        "claimFeatureId": "source-feature-3",
+        "featureText": "Repository structure supports multi-agent orchestration workflows.",
+        "sourceCardIds": [
+          "source-6"
+        ],
+        "patentElementIds": [
+          "patent-1-element-1",
+          "patent-2-element-1",
+          "patent-3-element-1"
+        ],
+        "paperReadingIds": [],
+        "knownOverlap": "Examples and tests can inform prototype expectations for research agents.",
+        "possibleDifference": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "riskLevel": "high",
+        "requiredFollowUp": "Review cited source cards, paper readings, and patent-like claim elements before public claims. This is not a legal novelty conclusion.",
+        "evidenceRefs": [
+          "source-6",
+          "source-6",
+          "patent-1-element-1",
+          "patent-2-element-1",
+          "patent-3-element-1"
+        ]
+      },
+      {
+        "mappingId": "claim-map-4",
+        "claimFeatureId": "source-feature-4",
+        "featureText": "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+        "sourceCardIds": [
+          "source-7"
+        ],
+        "patentElementIds": [
+          "patent-1-element-1",
+          "patent-2-element-1",
+          "patent-3-element-1"
+        ],
+        "paperReadingIds": [
+          "paper-1"
+        ],
+        "knownOverlap": "Research artifacts should be compared against evidence-bound replay and publication gates.",
+        "possibleDifference": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "riskLevel": "high",
+        "requiredFollowUp": "Review cited source cards, paper readings, and patent-like claim elements before public claims. This is not a legal novelty conclusion.",
+        "evidenceRefs": [
+          "source-7",
+          "source-7",
+          "paper-1",
+          "patent-1-element-1",
+          "patent-2-element-1",
+          "patent-3-element-1"
+        ]
+      },
+      {
+        "mappingId": "claim-map-5",
+        "claimFeatureId": "source-feature-5",
+        "featureText": "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+        "sourceCardIds": [
+          "source-8"
+        ],
+        "patentElementIds": [
+          "patent-1-element-1",
+          "patent-2-element-1",
+          "patent-3-element-1"
+        ],
+        "paperReadingIds": [
+          "paper-2"
+        ],
+        "knownOverlap": "Research artifacts should be compared against evidence-bound replay and publication gates.",
+        "possibleDifference": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "riskLevel": "high",
+        "requiredFollowUp": "Review cited source cards, paper readings, and patent-like claim elements before public claims. This is not a legal novelty conclusion.",
+        "evidenceRefs": [
+          "source-8",
+          "source-8",
+          "paper-2",
+          "patent-1-element-1",
+          "patent-2-element-1",
+          "patent-3-element-1"
+        ]
+      },
+      {
+        "mappingId": "claim-map-6",
+        "claimFeatureId": "source-feature-6",
+        "featureText": "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+        "sourceCardIds": [
+          "source-9"
+        ],
+        "patentElementIds": [],
+        "paperReadingIds": [
+          "paper-3"
+        ],
+        "knownOverlap": "Research artifacts should be compared against evidence-bound replay and publication gates.",
+        "possibleDifference": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "riskLevel": "high",
+        "requiredFollowUp": "Review cited source cards, paper readings, and patent-like claim elements before public claims. This is not a legal novelty conclusion.",
+        "evidenceRefs": [
+          "source-9",
+          "source-9",
+          "paper-3"
+        ]
+      },
+      {
+        "mappingId": "claim-map-7",
+        "claimFeatureId": "source-feature-7",
+        "featureText": "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+        "sourceCardIds": [
+          "source-10"
+        ],
+        "patentElementIds": [],
+        "paperReadingIds": [
+          "paper-4"
+        ],
+        "knownOverlap": "Research artifacts should be compared against evidence-bound replay and publication gates.",
+        "possibleDifference": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "riskLevel": "high",
+        "requiredFollowUp": "Review cited source cards, paper readings, and patent-like claim elements before public claims. This is not a legal novelty conclusion.",
+        "evidenceRefs": [
+          "source-10",
+          "source-10",
+          "paper-4"
+        ]
+      },
+      {
+        "mappingId": "claim-map-8",
+        "claimFeatureId": "source-feature-8",
+        "featureText": "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+        "sourceCardIds": [
+          "source-11"
+        ],
+        "patentElementIds": [],
+        "paperReadingIds": [
+          "paper-5"
+        ],
+        "knownOverlap": "Research artifacts should be compared against evidence-bound replay and publication gates.",
+        "possibleDifference": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "riskLevel": "high",
+        "requiredFollowUp": "Review cited source cards, paper readings, and patent-like claim elements before public claims. This is not a legal novelty conclusion.",
+        "evidenceRefs": [
+          "source-11",
+          "source-11",
+          "paper-5"
+        ]
+      },
+      {
+        "mappingId": "claim-map-9",
+        "claimFeatureId": "source-feature-9",
+        "featureText": "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+        "sourceCardIds": [
+          "source-12"
+        ],
+        "patentElementIds": [],
+        "paperReadingIds": [
+          "paper-6"
+        ],
+        "knownOverlap": "Research artifacts should be compared against evidence-bound replay and publication gates.",
+        "possibleDifference": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "riskLevel": "high",
+        "requiredFollowUp": "Review cited source cards, paper readings, and patent-like claim elements before public claims. This is not a legal novelty conclusion.",
+        "evidenceRefs": [
+          "source-12",
+          "source-12",
+          "paper-6"
+        ]
+      },
+      {
+        "mappingId": "claim-map-10",
+        "claimFeatureId": "source-feature-10",
+        "featureText": "Claim-like workflow elements should be mapped against candidate feature rows.",
+        "sourceCardIds": [
+          "source-13"
+        ],
+        "patentElementIds": [
+          "patent-1-element-2",
+          "patent-2-element-2",
+          "patent-3-element-2"
+        ],
+        "paperReadingIds": [],
+        "knownOverlap": "Known overlap requires source-card review.",
+        "possibleDifference": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "riskLevel": "high",
+        "requiredFollowUp": "Review cited source cards, paper readings, and patent-like claim elements before public claims. This is not a legal novelty conclusion.",
+        "evidenceRefs": [
+          "source-13",
+          "source-13",
+          "patent-1-element-2",
+          "patent-2-element-2",
+          "patent-3-element-2"
+        ]
+      }
+    ],
+    "highRiskMappings": 12,
+    "legalNotice": "This source-to-claim map is a research artifact. It is not a patentability, legal novelty, claim construction, or freedom-to-operate opinion.",
+    "limitations": [
+      "Mappings are conservative and based on bounded source readings.",
+      "Query links and adapter failures are excluded from reviewed claim support."
+    ]
+  }
+}

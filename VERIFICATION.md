@@ -1,31 +1,18 @@
 # Verification
 
-This repository was assembled from a deterministic Sovryn OS Beta.9 pilot run.
+Indexed results: 1
+New autopublished results in latest run: 1
 
-## Source Run
+Every autopublished result includes SUMMARY.json, curated release evidence, pilot evidence, verification.json, PUBLICATION_INTENT.json, and AUTOPUBLISH_RECORD.json.
 
-- Pilot count: 3
-- Publication dry-run count: 3
-- Security audit: passed
-- Reliability replay critical pass rate: 100
-- Real GitHub publication: false
+## Automated Gates
 
-## Per-Result Public Release Audits
+- Target repo exists and remote is restricted to n57d30top/sovryn-open-inventions.
+- New GitHub repository creation is disabled.
+- Human review is not required for corpus autopublish, but automated gates are mandatory.
+- Quality, evidence, reproducibility, publication safety, replay, security, safety scan, reliability replay, and public-hygiene thresholds must pass.
+- Raw logs, stdout/stderr, secrets, local absolute paths, private config, dangerous content, and fake legal claims are blocked.
 
-Each `results/<pilot-id>/release/` folder was checked as a curated public
-release package:
+## Disclaimer
 
-- `results/evidence-chain/release`: passed
-- `results/toolchain-policy/release`: passed
-- `results/corpus-deduplication/release`: passed
-
-## Public Hygiene
-
-The repository was checked for common secret patterns, local absolute paths, and
-raw command-log artifacts. Mentions of "raw command logs" inside reports refer
-to gates that exclude them; raw stdout/stderr logs and command journals are not
-included.
-
-This repository contains Open Inventions, Defensive Publications, and Open
-Source Research Artifacts. It is not a legal patent filing, not a patentability
-opinion, and not a freedom-to-operate opinion.
+This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.

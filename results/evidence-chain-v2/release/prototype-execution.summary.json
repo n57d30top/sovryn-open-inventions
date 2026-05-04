@@ -1,0 +1,13 @@
+{
+  "kind": "prototype_execution",
+  "missionId": "mis_20260504120646_747761e0",
+  "prototypePath": ".sovryn/inventions/evidence-gated-research-factory-for-develop-an-evidence-chain-format-f/prototype",
+  "executionProfile": "sandbox-local",
+  "command": "npm test",
+  "cwd": "prototype",
+  "startedAt": "2026-05-04T12:06:46.909Z",
+  "finishedAt": "2026-05-04T12:06:47.077Z",
+  "exitCode": 0,
+  "passed": true,
+  "evidenceHash": "125a17ebffa4e78ecc16de62ac3aa11d5e24538d0523a3f14d9c68837b489ef7"
+}
