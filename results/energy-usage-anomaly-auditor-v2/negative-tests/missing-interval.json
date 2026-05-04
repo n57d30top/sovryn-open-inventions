@@ -1,0 +1,11 @@
+{
+  "kind": "public_corpus_negative_test_case",
+  "slug": "energy-usage-anomaly-auditor-v2",
+  "testId": "missing-interval",
+  "purpose": "Missing interval should be detected.",
+  "inputCase": "synthetic hourly sequence skips one interval",
+  "expectedBehavior": "missing interval flag",
+  "falsificationTarget": "false-negative risk",
+  "safeSyntheticOnly": true,
+  "evidenceHash": "db72ca4286db2d81184355b63fab6874a1ea090fbc79e0618397249e51132d94"
+}

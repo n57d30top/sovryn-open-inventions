@@ -4,8 +4,7 @@ Results: 11
 
 ## Lifecycle Counts
 
-- demo_pilot: 2
-- needs_revision: 1
+- needs_revision: 3
 - showcase: 3
 - superseded: 5
 

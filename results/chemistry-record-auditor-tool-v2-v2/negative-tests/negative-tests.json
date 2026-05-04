@@ -1,0 +1,39 @@
+{
+  "kind": "public_corpus_negative_tests",
+  "slug": "chemistry-record-auditor-tool-v2-v2",
+  "tests": [
+    {
+      "testId": "consistent-unit-conversion",
+      "purpose": "Consistent Celsius/Kelvin records should not be flagged as conflicts.",
+      "inputCase": "toy water boiling point appears as 100 C and 373.15 K",
+      "expectedBehavior": "no conflict after unit normalization",
+      "falsificationTarget": "false-positive risk",
+      "safeSyntheticOnly": true
+    },
+    {
+      "testId": "suspicious-acetone-record",
+      "purpose": "Suspicious acetone toy record should be flagged.",
+      "inputCase": "toy acetone boiling point appears as 999 C",
+      "expectedBehavior": "outlier flag",
+      "falsificationTarget": "false-negative risk",
+      "safeSyntheticOnly": true
+    },
+    {
+      "testId": "unknown-identifier",
+      "purpose": "Unknown identifier should be low confidence rather than silently canonicalized.",
+      "inputCase": "toy molecule record has an unknown identifier",
+      "expectedBehavior": "low confidence equivalence",
+      "falsificationTarget": "identifier-confidence risk",
+      "safeSyntheticOnly": true
+    },
+    {
+      "testId": "malformed-unit",
+      "purpose": "Malformed unit should be rejected or flagged.",
+      "inputCase": "toy record uses unsupported temperature unit text",
+      "expectedBehavior": "invalid unit flag",
+      "falsificationTarget": "input validation risk",
+      "safeSyntheticOnly": true
+    }
+  ],
+  "evidenceHash": "83ad3bd9b2ac13634aadd6bbd30a018d8a24dab9e6084ab4de46f3c9570e6886"
+}

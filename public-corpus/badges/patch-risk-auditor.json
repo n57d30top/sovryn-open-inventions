@@ -9,11 +9,12 @@
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
     "worker": "container-netoff",
+    "falsification": "passes_falsification",
     "lifecycle": "superseded",
     "version": "patch-risk-auditor",
     "showcase": "not-showcase"
   },
   "lifecycleStatus": "superseded",
   "showcaseRank": null,
-  "evidenceHash": "7d66698f878cbc96c7bc730ab75f0f5baff19230664db561d1bfb5cccacef476"
+  "evidenceHash": "1dd97ab4382cc843a0d296444b92e65fc9ecd9adc199d0f4e260ca7ab2d6215c"
 }

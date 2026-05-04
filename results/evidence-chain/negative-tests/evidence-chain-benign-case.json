@@ -1,0 +1,11 @@
+{
+  "kind": "public_corpus_negative_test_case",
+  "slug": "evidence-chain",
+  "testId": "evidence-chain-benign-case",
+  "purpose": "Benign input should not be overflagged.",
+  "inputCase": "synthetic benign record",
+  "expectedBehavior": "low risk",
+  "falsificationTarget": "false-positive risk",
+  "safeSyntheticOnly": true,
+  "evidenceHash": "10dd0eb2c44b8d61a12b6394c5364ea32cbb5bed35fe969a29e156d009416c37"
+}

@@ -1,0 +1,11 @@
+{
+  "kind": "public_corpus_negative_test_case",
+  "slug": "patch-risk-auditor-v2",
+  "testId": "harmless-refactor",
+  "purpose": "Harmless refactor should not be labeled dangerous.",
+  "inputCase": "synthetic code-only refactor with no dependency or script changes",
+  "expectedBehavior": "low risk",
+  "falsificationTarget": "false-positive risk",
+  "safeSyntheticOnly": true,
+  "evidenceHash": "f5987d8598423f12b74ff9fbcca2a6a8cd432840fc4a9bd9bb4ce40e612677b4"
+}

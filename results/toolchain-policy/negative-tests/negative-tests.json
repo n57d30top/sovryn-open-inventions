@@ -1,0 +1,23 @@
+{
+  "kind": "public_corpus_negative_tests",
+  "slug": "toolchain-policy",
+  "tests": [
+    {
+      "testId": "toolchain-policy-malformed-input",
+      "purpose": "Malformed input should be rejected or marked low confidence.",
+      "inputCase": "synthetic malformed record",
+      "expectedBehavior": "validation failure",
+      "falsificationTarget": "input validation risk",
+      "safeSyntheticOnly": true
+    },
+    {
+      "testId": "toolchain-policy-benign-case",
+      "purpose": "Benign input should not be overflagged.",
+      "inputCase": "synthetic benign record",
+      "expectedBehavior": "low risk",
+      "falsificationTarget": "false-positive risk",
+      "safeSyntheticOnly": true
+    }
+  ],
+  "evidenceHash": "04d77cb844fc6a1c05a2208976d73642457b2701ef11d3d259722c6edca13ec2"
+}

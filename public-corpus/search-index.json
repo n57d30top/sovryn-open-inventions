@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-04T17:37:06.969Z",
+  "builtAt": "2026-05-04T18:12:25.961Z",
   "entryCount": 11,
   "entries": [
     {
@@ -124,7 +124,7 @@
       "href": "results/corpus-deduplication.html",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
-      "lifecycleStatus": "demo_pilot",
+      "lifecycleStatus": "needs_revision",
       "versionGroup": "corpus-deduplication",
       "showcaseRank": null,
       "terms": [
@@ -133,7 +133,6 @@
         "decision",
         "deduplication",
         "defensive",
-        "demo",
         "dry",
         "dryrunready",
         "false",
@@ -142,10 +141,10 @@
         "good",
         "invention",
         "label",
+        "needs",
         "only",
         "open",
         "performed",
-        "pilot",
         "publication",
         "publications",
         "quality",
@@ -153,6 +152,7 @@
         "real",
         "recommended",
         "release",
+        "revision",
         "run",
         "score",
         "status"
@@ -394,13 +394,12 @@
       "href": "results/toolchain-policy.html",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
-      "lifecycleStatus": "demo_pilot",
+      "lifecycleStatus": "needs_revision",
       "versionGroup": "toolchain-policy",
       "showcaseRank": null,
       "terms": [
         "candidate",
         "decision",
-        "demo",
         "dry",
         "dryrunready",
         "false",
@@ -409,10 +408,10 @@
         "good",
         "installation",
         "label",
+        "needs",
         "node",
         "only",
         "performed",
-        "pilot",
         "policy",
         "protocol",
         "publication",
@@ -421,6 +420,7 @@
         "real",
         "recommended",
         "release",
+        "revision",
         "run",
         "score",
         "status",
@@ -428,5 +428,5 @@
       ]
     }
   ],
-  "evidenceHash": "d94b5383da1f0010b13eac57602316bd5d13450878c261e35758cc2b580cc199"
+  "evidenceHash": "93d4552fb8d82aae489388ecd0ad33d2f0384892c4d919358cdce53a9994730c"
 }

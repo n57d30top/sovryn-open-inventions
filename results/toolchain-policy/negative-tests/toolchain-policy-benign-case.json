@@ -1,0 +1,11 @@
+{
+  "kind": "public_corpus_negative_test_case",
+  "slug": "toolchain-policy",
+  "testId": "toolchain-policy-benign-case",
+  "purpose": "Benign input should not be overflagged.",
+  "inputCase": "synthetic benign record",
+  "expectedBehavior": "low risk",
+  "falsificationTarget": "false-positive risk",
+  "safeSyntheticOnly": true,
+  "evidenceHash": "03838f05340739e6cfd31dd5afc02463e7e53517d68fbbb07434868750e14f64"
+}

@@ -1,0 +1,11 @@
+{
+  "kind": "public_corpus_negative_test_case",
+  "slug": "patch-risk-auditor",
+  "testId": "benign-dependency-update",
+  "purpose": "Benign dependency update should not be scored as high risk without other suspicious signals.",
+  "inputCase": "synthetic package patch with a version bump and matching tests",
+  "expectedBehavior": "low or medium risk, not high risk",
+  "falsificationTarget": "false-positive risk",
+  "safeSyntheticOnly": true,
+  "evidenceHash": "b2842fa25add533ccd1a718beb097d739bf54182b32449205f74c76fb575dbb3"
+}

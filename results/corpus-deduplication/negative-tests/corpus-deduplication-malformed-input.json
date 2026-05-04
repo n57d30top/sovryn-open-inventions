@@ -1,0 +1,11 @@
+{
+  "kind": "public_corpus_negative_test_case",
+  "slug": "corpus-deduplication",
+  "testId": "corpus-deduplication-malformed-input",
+  "purpose": "Malformed input should be rejected or marked low confidence.",
+  "inputCase": "synthetic malformed record",
+  "expectedBehavior": "validation failure",
+  "falsificationTarget": "input validation risk",
+  "safeSyntheticOnly": true,
+  "evidenceHash": "ba73b3b681ae1ef9c41f444c8d834b969bfaa8a84ee8ad48562f24c3895b2a31"
+}

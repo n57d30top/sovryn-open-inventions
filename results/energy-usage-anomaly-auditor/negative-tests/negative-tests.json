@@ -1,0 +1,39 @@
+{
+  "kind": "public_corpus_negative_tests",
+  "slug": "energy-usage-anomaly-auditor",
+  "tests": [
+    {
+      "testId": "seasonal-normal-high-use",
+      "purpose": "Seasonal normal high usage should not be flagged as anomalous when weather explains it.",
+      "inputCase": "synthetic winter usage with low temperature and expected heating load",
+      "expectedBehavior": "not anomalous after baseline normalization",
+      "falsificationTarget": "false-positive risk",
+      "safeSyntheticOnly": true
+    },
+    {
+      "testId": "missing-interval",
+      "purpose": "Missing interval should be detected.",
+      "inputCase": "synthetic hourly sequence skips one interval",
+      "expectedBehavior": "missing interval flag",
+      "falsificationTarget": "false-negative risk",
+      "safeSyntheticOnly": true
+    },
+    {
+      "testId": "duplicate-record",
+      "purpose": "Duplicate timestamp should be detected.",
+      "inputCase": "two records share anonymized meter and timestamp",
+      "expectedBehavior": "duplicate flag",
+      "falsificationTarget": "data integrity risk",
+      "safeSyntheticOnly": true
+    },
+    {
+      "testId": "weather-normalized-anomaly",
+      "purpose": "Usage spike unexplained by weather should be detected.",
+      "inputCase": "synthetic mild-weather record has extreme usage",
+      "expectedBehavior": "weather-normalized anomaly flag",
+      "falsificationTarget": "false-negative risk",
+      "safeSyntheticOnly": true
+    }
+  ],
+  "evidenceHash": "24a8943ca8331f28ba8fe0b91b2c0db7a41d1d996e5c8ac8946e2a80cf4e0dfd"
+}

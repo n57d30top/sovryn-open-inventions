@@ -1,6 +1,6 @@
 {
   "kind": "sovryn_public_corpus_product",
-  "generatedAt": "2026-05-04T17:37:06.969Z",
+  "generatedAt": "2026-05-04T18:12:25.961Z",
   "resultCount": 11,
   "qualityCounts": {
     "good": 11
@@ -9,8 +9,7 @@
     "autopublished": 11
   },
   "lifecycleCounts": {
-    "demo_pilot": 2,
-    "needs_revision": 1,
+    "needs_revision": 3,
     "showcase": 3,
     "superseded": 5
   },
@@ -54,14 +53,15 @@
       ],
       "customTool": "mol-record-auditor",
       "workerAssurance": "container-netoff",
+      "falsificationStatus": "passes_falsification",
       "summary": "Result ID: chemistry-record-auditor-tool\nSource: pilot / chemistry-record-auditor-tool\nQuality label: good\nCandidate status: dryrunready",
       "limitations": [
         "\"disclaimer\": \"This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.\",",
-        "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
-        "A safe, open-source data-quality method can audit toy chemistry-style molecular",
-        "property records by combining unit normalization, toy identifier equivalence,",
-        "The toy equivalence map is not broad canonicalization.",
-        "RDKit/OpenBabel integration is future work only if policy-approved."
+        "README_CLAIMS_GROUNDED: passed (warn). README and public docs should ground claims in evidence, tests, and limitations.",
+        "Input case: toy water boiling point appears as 100 C and 373.15 K",
+        "Purpose: Suspicious acetone toy record should be flagged.",
+        "Input case: toy acetone boiling point appears as 999 C",
+        "Input case: toy molecule record has an unknown identifier"
       ],
       "badges": {
         "quality": "good",
@@ -71,6 +71,7 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
+        "falsification": "passes_falsification",
         "lifecycle": "superseded",
         "version": "chemistry-record-auditor-tool",
         "showcase": "not-showcase"
@@ -116,14 +117,15 @@
       ],
       "customTool": "mol-record-auditor",
       "workerAssurance": "container-netoff",
+      "falsificationStatus": "passes_falsification",
       "summary": "Result ID: chemistry-record-auditor-tool-v2\nSource: pilot / chemistry-record-auditor-tool-v2\nQuality label: good\nCandidate status: dryrunready",
       "limitations": [
         "\"disclaimer\": \"This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.\",",
-        "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
-        "A safe, open-source data-quality method can audit toy chemistry-style molecular",
-        "property records by combining unit normalization, toy identifier equivalence,",
-        "The toy equivalence map is not broad canonicalization.",
-        "RDKit/OpenBabel integration is future work only if policy-approved."
+        "README_CLAIMS_GROUNDED: passed (warn). README and public docs should ground claims in evidence, tests, and limitations.",
+        "Input case: toy water boiling point appears as 100 C and 373.15 K",
+        "Purpose: Suspicious acetone toy record should be flagged.",
+        "Input case: toy acetone boiling point appears as 999 C",
+        "Input case: toy molecule record has an unknown identifier"
       ],
       "badges": {
         "quality": "good",
@@ -133,6 +135,7 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
+        "falsification": "passes_falsification",
         "lifecycle": "superseded",
         "version": "chemistry-record-auditor-tool",
         "showcase": "not-showcase"
@@ -178,6 +181,7 @@
       ],
       "customTool": "mol-record-auditor",
       "workerAssurance": "container-netoff",
+      "falsificationStatus": "passes_falsification",
       "summary": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
       "limitations": [
         "\"disclaimer\": \"This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.\",",
@@ -195,6 +199,7 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
+        "falsification": "passes_falsification",
         "lifecycle": "showcase",
         "version": "chemistry-record-auditor-tool",
         "showcase": "showcase-1"
@@ -217,13 +222,13 @@
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
       "antiTemplateStatus": "unknown",
-      "lifecycleStatus": "demo_pilot",
+      "lifecycleStatus": "needs_revision",
       "versionGroup": "corpus-deduplication",
       "supersedes": null,
       "supersededBy": null,
       "showcaseEligible": false,
       "showcaseRank": null,
-      "revisionReason": "Kept as an early demo/pilot result rather than a current showcase.",
+      "revisionReason": "Falsification status is insufficient_tests.",
       "humanReadableSummary": "- Quality label: good\n- Candidate status: dryrunready\n- Release readiness score: 88\n- Recommended decision: dry-run only\n- Real GitHub publication performed: false",
       "releaseReadinessScore": 88,
       "evidenceStrengthScore": 100,
@@ -238,14 +243,15 @@
       "externalPackages": [],
       "customTool": null,
       "workerAssurance": "container-netoff",
+      "falsificationStatus": "insufficient_tests",
       "summary": "- Quality label: good\n- Candidate status: dryrunready\n- Release readiness score: 88\n- Recommended decision: dry-run only\n- Real GitHub publication performed: false",
       "limitations": [
+        "README_CLAIMS_GROUNDED: passed (warn). README and public docs should ground claims in evidence, tests, and limitations.",
+        "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
         "This is an Open Invention / Defensive Publication research artifact. It is not a legal patent filing, not a patentability opinion, and not a freedom-to-operate opinion. Human review is required before any real publication decision.",
         "\"Source cards or declared deterministic mock limitations\",",
         "\"limitations\": [",
-        "\"This opportunity is not a legal novelty, patentability, or freedom-to-operate conclusion.\"",
-        "\"message\": \"Real publication requires human review.\",",
-        "\"This is not a legal patent filing, patentability opinion, or freedom-to-operate opinion.\""
+        "\"This opportunity is not a legal novelty, patentability, or freedom-to-operate conclusion.\""
       ],
       "badges": {
         "quality": "good",
@@ -255,7 +261,8 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
-        "lifecycle": "demo_pilot",
+        "falsification": "insufficient_tests",
+        "lifecycle": "needs_revision",
         "version": "corpus-deduplication",
         "showcase": "not-showcase"
       },
@@ -300,14 +307,15 @@
       ],
       "customTool": "energy-record-auditor",
       "workerAssurance": "container-netoff",
+      "falsificationStatus": "passes_falsification",
       "summary": "Result ID: energy-usage-anomaly-auditor\nSource: pilot / energy-usage-anomaly-auditor\nQuality label: good\nCandidate status: dryrunready",
       "limitations": [
         "\"disclaimer\": \"This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.\",",
+        "README_CLAIMS_GROUNDED: passed (warn). README and public docs should ground claims in evidence, tests, and limitations.",
+        "Expected behavior: not anomalous after baseline normalization",
+        "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
         "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
-        "reproducible toy-data tool.",
-        "Legal disclaimer: This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
-        "\"inventionSlug\": \"a-safe-open-source-data-quality-method-for-auditing-anonymized-toy-hom\",",
-        "axis, and not a legal novelty conclusion."
+        "\"expectedBehavior\": \"not anomalous after baseline normalization\","
       ],
       "badges": {
         "quality": "good",
@@ -317,6 +325,7 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
+        "falsification": "passes_falsification",
         "lifecycle": "superseded",
         "version": "energy-usage-anomaly-auditor",
         "showcase": "not-showcase"
@@ -362,14 +371,15 @@
       ],
       "customTool": "energy-record-auditor",
       "workerAssurance": "container-netoff",
+      "falsificationStatus": "passes_falsification",
       "summary": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
       "limitations": [
         "\"disclaimer\": \"This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.\",",
         "Duplicate timestamp records for an anonymized toy meter.",
         "It is a bounded anomaly-audit method, not a production forecasting system.",
         "These examples are bounded demonstrations for public research artifacts. They",
-        "Limitations: Energy Usage Anomaly Auditor",
-        "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use."
+        "README_CLAIMS_GROUNDED: passed (warn). README and public docs should ground claims in evidence, tests, and limitations.",
+        "Expected behavior: not anomalous after baseline normalization"
       ],
       "badges": {
         "quality": "good",
@@ -379,6 +389,7 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
+        "falsification": "passes_falsification",
         "lifecycle": "showcase",
         "version": "energy-usage-anomaly-auditor",
         "showcase": "showcase-2"
@@ -422,14 +433,15 @@
       "externalPackages": [],
       "customTool": null,
       "workerAssurance": "container-netoff",
+      "falsificationStatus": "insufficient_tests",
       "summary": "- Quality label: good\n- Candidate status: dryrunready\n- Release readiness score: 88\n- Recommended decision: dry-run only\n- Real GitHub publication performed: false",
       "limitations": [
+        "README_CLAIMS_GROUNDED: passed (warn). README and public docs should ground claims in evidence, tests, and limitations.",
+        "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
         "This is an Open Invention / Defensive Publication research artifact. It is not a legal patent filing, not a patentability opinion, and not a freedom-to-operate opinion. Human review is required before any real publication decision.",
         "\"Source cards or declared deterministic mock limitations\",",
         "\"limitations\": [",
-        "\"This opportunity is not a legal novelty, patentability, or freedom-to-operate conclusion.\"",
-        "\"message\": \"Real publication requires human review.\",",
-        "\"This is not a legal patent filing, patentability opinion, or freedom-to-operate opinion.\""
+        "\"This opportunity is not a legal novelty, patentability, or freedom-to-operate conclusion.\""
       ],
       "badges": {
         "quality": "good",
@@ -439,6 +451,7 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
+        "falsification": "insufficient_tests",
         "lifecycle": "superseded",
         "version": "evidence-chain",
         "showcase": "not-showcase"
@@ -467,7 +480,7 @@
       "supersededBy": null,
       "showcaseEligible": false,
       "showcaseRank": null,
-      "revisionReason": "Specificity score is below the public corpus promotion threshold.",
+      "revisionReason": "Falsification status is insufficient_tests.",
       "humanReadableSummary": "Result ID: develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc\nSource: pilot / evidence-chain\nQuality label: good\nCandidate status: dryrunready",
       "releaseReadinessScore": 88,
       "evidenceStrengthScore": 100,
@@ -482,14 +495,15 @@
       "externalPackages": [],
       "customTool": null,
       "workerAssurance": "container-netoff",
+      "falsificationStatus": "insufficient_tests",
       "summary": "Result ID: develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc\nSource: pilot / evidence-chain\nQuality label: good\nCandidate status: dryrunready",
       "limitations": [
         "\"disclaimer\": \"This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.\",",
+        "README_CLAIMS_GROUNDED: passed (warn). README and public docs should ground claims in evidence, tests, and limitations.",
+        "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
         "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
         "\"message\": \"Real publication requires human review.\",",
-        "\"limitations\": [",
-        "\"This is not a legal patent filing, patentability opinion, or freedom-to-operate opinion.\"",
-        "\"requireSecurityAudit\": true,"
+        "\"limitations\": ["
       ],
       "badges": {
         "quality": "good",
@@ -499,6 +513,7 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
+        "falsification": "insufficient_tests",
         "lifecycle": "needs_revision",
         "version": "evidence-chain",
         "showcase": "not-showcase"
@@ -544,14 +559,15 @@
       ],
       "customTool": "patch-risk-auditor",
       "workerAssurance": "container-netoff",
+      "falsificationStatus": "passes_falsification",
       "summary": "Result ID: patch-risk-auditor\nSource: pilot / patch-risk-auditor\nQuality label: good\nCandidate status: dryrunready",
       "limitations": [
         "\"disclaimer\": \"This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.\",",
+        "README_CLAIMS_GROUNDED: passed (warn). README and public docs should ground claims in evidence, tests, and limitations.",
+        "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
         "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
         "Legal disclaimer: This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
-        "Uses possible differentiator and candidate novelty axis language; not a legal novelty conclusion.",
-        "Existing defensive tooling may already cover dependency review. Requires human interpretation; not a legal novelty conclusion.",
-        "The `patch-risk-auditor` prototype checks synthetic toy patch records for dependency"
+        "Uses possible differentiator and candidate novelty axis language; not a legal novelty conclusion."
       ],
       "badges": {
         "quality": "good",
@@ -561,6 +577,7 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
+        "falsification": "passes_falsification",
         "lifecycle": "superseded",
         "version": "patch-risk-auditor",
         "showcase": "not-showcase"
@@ -606,14 +623,15 @@
       ],
       "customTool": "patch-risk-auditor",
       "workerAssurance": "container-netoff",
+      "falsificationStatus": "passes_falsification",
       "summary": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
       "limitations": [
         "\"disclaimer\": \"This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.\",",
         "Install-script or package metadata changes in toy repository examples.",
         "These examples are bounded demonstrations for public research artifacts. They",
-        "Limitations: Patch Risk Auditor",
-        "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
-        "Legal disclaimer: This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use."
+        "README_CLAIMS_GROUNDED: passed (warn). README and public docs should ground claims in evidence, tests, and limitations.",
+        "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+        "Limitations: Patch Risk Auditor"
       ],
       "badges": {
         "quality": "good",
@@ -623,6 +641,7 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
+        "falsification": "passes_falsification",
         "lifecycle": "showcase",
         "version": "patch-risk-auditor",
         "showcase": "showcase-3"
@@ -645,13 +664,13 @@
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
       "antiTemplateStatus": "unknown",
-      "lifecycleStatus": "demo_pilot",
+      "lifecycleStatus": "needs_revision",
       "versionGroup": "toolchain-policy",
       "supersedes": null,
       "supersededBy": null,
       "showcaseEligible": false,
       "showcaseRank": null,
-      "revisionReason": "Kept as an early demo/pilot result rather than a current showcase.",
+      "revisionReason": "Falsification status is insufficient_tests.",
       "humanReadableSummary": "- Quality label: good\n- Candidate status: dryrunready\n- Release readiness score: 88\n- Recommended decision: dry-run only\n- Real GitHub publication performed: false",
       "releaseReadinessScore": 88,
       "evidenceStrengthScore": 100,
@@ -666,14 +685,15 @@
       "externalPackages": [],
       "customTool": null,
       "workerAssurance": "container-netoff",
+      "falsificationStatus": "insufficient_tests",
       "summary": "- Quality label: good\n- Candidate status: dryrunready\n- Release readiness score: 88\n- Recommended decision: dry-run only\n- Real GitHub publication performed: false",
       "limitations": [
+        "README_CLAIMS_GROUNDED: passed (warn). README and public docs should ground claims in evidence, tests, and limitations.",
+        "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
         "This is an Open Invention / Defensive Publication research artifact. It is not a legal patent filing, not a patentability opinion, and not a freedom-to-operate opinion. Human review is required before any real publication decision.",
         "\"Source cards or declared deterministic mock limitations\",",
         "\"limitations\": [",
-        "\"This opportunity is not a legal novelty, patentability, or freedom-to-operate conclusion.\"",
-        "\"message\": \"Real publication requires human review.\",",
-        "\"This is not a legal patent filing, patentability opinion, or freedom-to-operate opinion.\""
+        "\"This opportunity is not a legal novelty, patentability, or freedom-to-operate conclusion.\""
       ],
       "badges": {
         "quality": "good",
@@ -683,7 +703,8 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
-        "lifecycle": "demo_pilot",
+        "falsification": "insufficient_tests",
+        "lifecycle": "needs_revision",
         "version": "toolchain-policy",
         "showcase": "not-showcase"
       },
@@ -806,6 +827,7 @@
       ],
       "customTool": "mol-record-auditor",
       "workerAssurance": "container-netoff",
+      "falsificationStatus": "passes_falsification",
       "summary": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
       "limitations": [
         "\"disclaimer\": \"This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.\",",
@@ -823,6 +845,7 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
+        "falsification": "passes_falsification",
         "lifecycle": "showcase",
         "version": "chemistry-record-auditor-tool",
         "showcase": "showcase-1"
@@ -868,14 +891,15 @@
       ],
       "customTool": "energy-record-auditor",
       "workerAssurance": "container-netoff",
+      "falsificationStatus": "passes_falsification",
       "summary": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
       "limitations": [
         "\"disclaimer\": \"This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.\",",
         "Duplicate timestamp records for an anonymized toy meter.",
         "It is a bounded anomaly-audit method, not a production forecasting system.",
         "These examples are bounded demonstrations for public research artifacts. They",
-        "Limitations: Energy Usage Anomaly Auditor",
-        "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use."
+        "README_CLAIMS_GROUNDED: passed (warn). README and public docs should ground claims in evidence, tests, and limitations.",
+        "Expected behavior: not anomalous after baseline normalization"
       ],
       "badges": {
         "quality": "good",
@@ -885,6 +909,7 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
+        "falsification": "passes_falsification",
         "lifecycle": "showcase",
         "version": "energy-usage-anomaly-auditor",
         "showcase": "showcase-2"
@@ -930,14 +955,15 @@
       ],
       "customTool": "patch-risk-auditor",
       "workerAssurance": "container-netoff",
+      "falsificationStatus": "passes_falsification",
       "summary": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
       "limitations": [
         "\"disclaimer\": \"This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.\",",
         "Install-script or package metadata changes in toy repository examples.",
         "These examples are bounded demonstrations for public research artifacts. They",
-        "Limitations: Patch Risk Auditor",
-        "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
-        "Legal disclaimer: This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use."
+        "README_CLAIMS_GROUNDED: passed (warn). README and public docs should ground claims in evidence, tests, and limitations.",
+        "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+        "Limitations: Patch Risk Auditor"
       ],
       "badges": {
         "quality": "good",
@@ -947,6 +973,7 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
+        "falsification": "passes_falsification",
         "lifecycle": "showcase",
         "version": "patch-risk-auditor",
         "showcase": "showcase-3"
@@ -963,12 +990,24 @@
   ],
   "revisionQueue": [
     {
+      "slug": "corpus-deduplication",
+      "title": "Corpus Deduplication for Defensive Publications",
+      "lifecycleStatus": "needs_revision",
+      "revisionReason": "Falsification status is insufficient_tests."
+    },
+    {
       "slug": "evidence-chain-v2",
       "title": "Replayable Evidence Chain for Autonomous Research Agents",
       "lifecycleStatus": "needs_revision",
-      "revisionReason": "Specificity score is below the public corpus promotion threshold."
+      "revisionReason": "Falsification status is insufficient_tests."
+    },
+    {
+      "slug": "toolchain-policy",
+      "title": "Policy-Gated Toolchain Installation Protocol",
+      "lifecycleStatus": "needs_revision",
+      "revisionReason": "Falsification status is insufficient_tests."
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "688de2b6ff14b208c8a22e434972e1aab7403fa597b2d28aee15b49e301a9df1"
+  "evidenceHash": "662113023de044340a2314c7c399b5154ee0feabd231533b3de39ef6ce6af19f"
 }

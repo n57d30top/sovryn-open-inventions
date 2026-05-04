@@ -1,0 +1,11 @@
+{
+  "kind": "public_corpus_negative_test_case",
+  "slug": "evidence-chain-v2",
+  "testId": "evidence-chain-v2-malformed-input",
+  "purpose": "Malformed input should be rejected or marked low confidence.",
+  "inputCase": "synthetic malformed record",
+  "expectedBehavior": "validation failure",
+  "falsificationTarget": "input validation risk",
+  "safeSyntheticOnly": true,
+  "evidenceHash": "cfd11c1b5de3582dfc795f54d6bd3753053bbdfa9f8e694260216a8fc9f26d51"
+}

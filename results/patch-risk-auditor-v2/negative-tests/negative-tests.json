@@ -1,0 +1,39 @@
+{
+  "kind": "public_corpus_negative_tests",
+  "slug": "patch-risk-auditor-v2",
+  "tests": [
+    {
+      "testId": "benign-dependency-update",
+      "purpose": "Benign dependency update should not be scored as high risk without other suspicious signals.",
+      "inputCase": "synthetic package patch with a version bump and matching tests",
+      "expectedBehavior": "low or medium risk, not high risk",
+      "falsificationTarget": "false-positive risk",
+      "safeSyntheticOnly": true
+    },
+    {
+      "testId": "suspicious-install-script",
+      "purpose": "Suspicious install-script addition should be flagged for review.",
+      "inputCase": "synthetic package patch adds a postinstall script and weak provenance",
+      "expectedBehavior": "high review priority",
+      "falsificationTarget": "false-negative risk",
+      "safeSyntheticOnly": true
+    },
+    {
+      "testId": "harmless-refactor",
+      "purpose": "Harmless refactor should not be labeled dangerous.",
+      "inputCase": "synthetic code-only refactor with no dependency or script changes",
+      "expectedBehavior": "low risk",
+      "falsificationTarget": "false-positive risk",
+      "safeSyntheticOnly": true
+    },
+    {
+      "testId": "test-impact-mismatch",
+      "purpose": "Patch touching behavior without matching tests should be flagged.",
+      "inputCase": "synthetic behavior change with unchanged tests",
+      "expectedBehavior": "test-impact mismatch",
+      "falsificationTarget": "coverage risk",
+      "safeSyntheticOnly": true
+    }
+  ],
+  "evidenceHash": "cd1c8001dbaf861664b3c8a201dd99c50300d23ee3f7c1205490dca2843f3e5e"
+}

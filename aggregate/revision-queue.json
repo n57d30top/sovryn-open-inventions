@@ -1,13 +1,25 @@
 {
   "kind": "public_corpus_revision_queue",
-  "updatedAt": "2026-05-04T17:37:06.969Z",
+  "updatedAt": "2026-05-04T18:12:25.961Z",
   "results": [
+    {
+      "slug": "corpus-deduplication",
+      "title": "Corpus Deduplication for Defensive Publications",
+      "lifecycleStatus": "needs_revision",
+      "revisionReason": "Falsification status is insufficient_tests."
+    },
     {
       "slug": "evidence-chain-v2",
       "title": "Replayable Evidence Chain for Autonomous Research Agents",
       "lifecycleStatus": "needs_revision",
-      "revisionReason": "Specificity score is below the public corpus promotion threshold."
+      "revisionReason": "Falsification status is insufficient_tests."
+    },
+    {
+      "slug": "toolchain-policy",
+      "title": "Policy-Gated Toolchain Installation Protocol",
+      "lifecycleStatus": "needs_revision",
+      "revisionReason": "Falsification status is insufficient_tests."
     }
   ],
-  "evidenceHash": "ffc8b10d7b27736ce850765e8b3c33d51e66cc17a25a6a185be679ce0f6bdcd7"
+  "evidenceHash": "555d9b13c669762c64406d926a0f2fcd40489f6709e86a31f7f7e43021f89d5d"
 }

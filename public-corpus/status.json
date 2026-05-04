@@ -1,12 +1,11 @@
 {
   "kind": "public_corpus_status",
-  "generatedAt": "2026-05-04T17:37:06.969Z",
+  "generatedAt": "2026-05-04T18:12:25.961Z",
   "statusCounts": {
     "autopublished": 11
   },
   "lifecycleCounts": {
-    "demo_pilot": 2,
-    "needs_revision": 1,
+    "needs_revision": 3,
     "showcase": 3,
     "superseded": 5
   },
@@ -17,5 +16,5 @@
     "open-invention-corpus": 3,
     "software-supply-chain": 2
   },
-  "evidenceHash": "afe18a8048bf9a7777bb23da7d1ec252da9e6db2d39f180c799e3ba4fe3247dd"
+  "evidenceHash": "fbb07abc4e494237430270fdfeaff382f191c0e23fd84efed11182472640ba18"
 }

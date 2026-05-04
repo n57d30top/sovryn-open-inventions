@@ -1,0 +1,11 @@
+{
+  "kind": "public_corpus_negative_test_case",
+  "slug": "patch-risk-auditor",
+  "testId": "test-impact-mismatch",
+  "purpose": "Patch touching behavior without matching tests should be flagged.",
+  "inputCase": "synthetic behavior change with unchanged tests",
+  "expectedBehavior": "test-impact mismatch",
+  "falsificationTarget": "coverage risk",
+  "safeSyntheticOnly": true,
+  "evidenceHash": "64ddfc33f1cffa2f31e36ca509f7108e45d56ba3da35700a63fb47ac0d6d7346"
+}

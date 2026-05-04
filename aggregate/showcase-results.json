@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_showcase_results",
-  "updatedAt": "2026-05-04T17:37:06.969Z",
+  "updatedAt": "2026-05-04T18:12:25.961Z",
   "results": [
     {
       "slug": "chemistry-record-auditor-tool-v2-v2",
@@ -38,6 +38,7 @@
       "reliabilityReplayPassed": true,
       "customTool": "mol-record-auditor",
       "workerAssurance": "container-netoff",
+      "falsificationStatus": "passes_falsification",
       "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
@@ -76,6 +77,7 @@
       "reliabilityReplayPassed": true,
       "customTool": "energy-record-auditor",
       "workerAssurance": "container-netoff",
+      "falsificationStatus": "passes_falsification",
       "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
@@ -114,6 +116,7 @@
       "reliabilityReplayPassed": true,
       "customTool": "patch-risk-auditor",
       "workerAssurance": "container-netoff",
+      "falsificationStatus": "passes_falsification",
       "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     }
   ],

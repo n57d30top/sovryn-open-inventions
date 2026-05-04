@@ -1,0 +1,1071 @@
+{
+  "kind": "public_corpus_falsification_report",
+  "updatedAt": "2026-05-04T18:12:25.885Z",
+  "resultCount": 11,
+  "labelCounts": {
+    "insufficient_tests": 4,
+    "passes_falsification": 7
+  },
+  "results": [
+    {
+      "kind": "public_corpus_result_falsification",
+      "evaluatedAt": "2026-05-04T18:12:25.764Z",
+      "slug": "chemistry-record-auditor-tool",
+      "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
+      "domain": "chemistry-data-quality",
+      "qualityLabel": "good",
+      "lifecycleStatus": "public_result",
+      "label": "passes_falsification",
+      "score": 96,
+      "checks": [
+        {
+          "checkId": "PUBLIC_HYGIENE_PASSED",
+          "passed": true,
+          "severity": "block",
+          "finding": "Public hygiene must pass before falsification can accept a result.",
+          "recommendedAction": "Remove leaks, raw logs, unsafe text, private paths, or secret-like values."
+        },
+        {
+          "checkId": "NO_OVERCLAIMS",
+          "passed": true,
+          "severity": "block",
+          "finding": "No overclaiming language found.",
+          "recommendedAction": "Rewrite public docs with bounded, evidence-backed claims."
+        },
+        {
+          "checkId": "NEGATIVE_TESTS_PRESENT",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Domain-specific negative tests should exist.",
+          "recommendedAction": "Add negative tests for false positives, false negatives, malformed inputs, and edge cases."
+        },
+        {
+          "checkId": "BENIGN_CASES_NOT_OVERFLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include benign cases that should not be overflagged.",
+          "recommendedAction": "Add benign cases that exercise false-positive risk."
+        },
+        {
+          "checkId": "ADVERSARIAL_SAFE_CASES_FLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include safe synthetic cases that should be flagged.",
+          "recommendedAction": "Add safe synthetic edge cases for likely false negatives."
+        },
+        {
+          "checkId": "README_CLAIMS_GROUNDED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "README and public docs should ground claims in evidence, tests, and limitations.",
+          "recommendedAction": "Add source evidence, test, and limitation sections."
+        },
+        {
+          "checkId": "QUALITY_NOT_WEAK",
+          "passed": true,
+          "severity": "block",
+          "finding": "Weak quality labels cannot pass falsification.",
+          "recommendedAction": "Revise the result or keep it out of showcase."
+        }
+      ],
+      "negativeTests": [
+        {
+          "testId": "consistent-unit-conversion",
+          "purpose": "Consistent Celsius/Kelvin records should not be flagged as conflicts.",
+          "inputCase": "toy water boiling point appears as 100 C and 373.15 K",
+          "expectedBehavior": "no conflict after unit normalization",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "suspicious-acetone-record",
+          "purpose": "Suspicious acetone toy record should be flagged.",
+          "inputCase": "toy acetone boiling point appears as 999 C",
+          "expectedBehavior": "outlier flag",
+          "falsificationTarget": "false-negative risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "unknown-identifier",
+          "purpose": "Unknown identifier should be low confidence rather than silently canonicalized.",
+          "inputCase": "toy molecule record has an unknown identifier",
+          "expectedBehavior": "low confidence equivalence",
+          "falsificationTarget": "identifier-confidence risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "malformed-unit",
+          "purpose": "Malformed unit should be rejected or flagged.",
+          "inputCase": "toy record uses unsupported temperature unit text",
+          "expectedBehavior": "invalid unit flag",
+          "falsificationTarget": "input validation risk",
+          "safeSyntheticOnly": true
+        }
+      ],
+      "overclaimFindings": [],
+      "counterEvidenceSummary": "No blocking falsification finding was detected. The review still requires consistent-unit, suspicious outlier, unknown identifier, and malformed-unit checks.",
+      "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
+      "publicHygienePassed": true,
+      "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+      "evidenceHash": "c0d69894882ad2ea6bec01eac8f6d520ebfa4f44653da70b6fb8ec32b9ea8018"
+    },
+    {
+      "kind": "public_corpus_result_falsification",
+      "evaluatedAt": "2026-05-04T18:12:25.777Z",
+      "slug": "chemistry-record-auditor-tool-v2",
+      "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
+      "domain": "chemistry-data-quality",
+      "qualityLabel": "good",
+      "lifecycleStatus": "public_result",
+      "label": "passes_falsification",
+      "score": 96,
+      "checks": [
+        {
+          "checkId": "PUBLIC_HYGIENE_PASSED",
+          "passed": true,
+          "severity": "block",
+          "finding": "Public hygiene must pass before falsification can accept a result.",
+          "recommendedAction": "Remove leaks, raw logs, unsafe text, private paths, or secret-like values."
+        },
+        {
+          "checkId": "NO_OVERCLAIMS",
+          "passed": true,
+          "severity": "block",
+          "finding": "No overclaiming language found.",
+          "recommendedAction": "Rewrite public docs with bounded, evidence-backed claims."
+        },
+        {
+          "checkId": "NEGATIVE_TESTS_PRESENT",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Domain-specific negative tests should exist.",
+          "recommendedAction": "Add negative tests for false positives, false negatives, malformed inputs, and edge cases."
+        },
+        {
+          "checkId": "BENIGN_CASES_NOT_OVERFLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include benign cases that should not be overflagged.",
+          "recommendedAction": "Add benign cases that exercise false-positive risk."
+        },
+        {
+          "checkId": "ADVERSARIAL_SAFE_CASES_FLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include safe synthetic cases that should be flagged.",
+          "recommendedAction": "Add safe synthetic edge cases for likely false negatives."
+        },
+        {
+          "checkId": "README_CLAIMS_GROUNDED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "README and public docs should ground claims in evidence, tests, and limitations.",
+          "recommendedAction": "Add source evidence, test, and limitation sections."
+        },
+        {
+          "checkId": "QUALITY_NOT_WEAK",
+          "passed": true,
+          "severity": "block",
+          "finding": "Weak quality labels cannot pass falsification.",
+          "recommendedAction": "Revise the result or keep it out of showcase."
+        }
+      ],
+      "negativeTests": [
+        {
+          "testId": "consistent-unit-conversion",
+          "purpose": "Consistent Celsius/Kelvin records should not be flagged as conflicts.",
+          "inputCase": "toy water boiling point appears as 100 C and 373.15 K",
+          "expectedBehavior": "no conflict after unit normalization",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "suspicious-acetone-record",
+          "purpose": "Suspicious acetone toy record should be flagged.",
+          "inputCase": "toy acetone boiling point appears as 999 C",
+          "expectedBehavior": "outlier flag",
+          "falsificationTarget": "false-negative risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "unknown-identifier",
+          "purpose": "Unknown identifier should be low confidence rather than silently canonicalized.",
+          "inputCase": "toy molecule record has an unknown identifier",
+          "expectedBehavior": "low confidence equivalence",
+          "falsificationTarget": "identifier-confidence risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "malformed-unit",
+          "purpose": "Malformed unit should be rejected or flagged.",
+          "inputCase": "toy record uses unsupported temperature unit text",
+          "expectedBehavior": "invalid unit flag",
+          "falsificationTarget": "input validation risk",
+          "safeSyntheticOnly": true
+        }
+      ],
+      "overclaimFindings": [],
+      "counterEvidenceSummary": "No blocking falsification finding was detected. The review still requires consistent-unit, suspicious outlier, unknown identifier, and malformed-unit checks.",
+      "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
+      "publicHygienePassed": true,
+      "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+      "evidenceHash": "84890c4a0ac68c115957e7cd3ed96037fa5b8a2a74260f2045ae444747c18396"
+    },
+    {
+      "kind": "public_corpus_result_falsification",
+      "evaluatedAt": "2026-05-04T18:12:25.788Z",
+      "slug": "chemistry-record-auditor-tool-v2-v2",
+      "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
+      "domain": "chemistry-data-quality",
+      "qualityLabel": "good",
+      "lifecycleStatus": "public_result",
+      "label": "passes_falsification",
+      "score": 96,
+      "checks": [
+        {
+          "checkId": "PUBLIC_HYGIENE_PASSED",
+          "passed": true,
+          "severity": "block",
+          "finding": "Public hygiene must pass before falsification can accept a result.",
+          "recommendedAction": "Remove leaks, raw logs, unsafe text, private paths, or secret-like values."
+        },
+        {
+          "checkId": "NO_OVERCLAIMS",
+          "passed": true,
+          "severity": "block",
+          "finding": "No overclaiming language found.",
+          "recommendedAction": "Rewrite public docs with bounded, evidence-backed claims."
+        },
+        {
+          "checkId": "NEGATIVE_TESTS_PRESENT",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Domain-specific negative tests should exist.",
+          "recommendedAction": "Add negative tests for false positives, false negatives, malformed inputs, and edge cases."
+        },
+        {
+          "checkId": "BENIGN_CASES_NOT_OVERFLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include benign cases that should not be overflagged.",
+          "recommendedAction": "Add benign cases that exercise false-positive risk."
+        },
+        {
+          "checkId": "ADVERSARIAL_SAFE_CASES_FLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include safe synthetic cases that should be flagged.",
+          "recommendedAction": "Add safe synthetic edge cases for likely false negatives."
+        },
+        {
+          "checkId": "README_CLAIMS_GROUNDED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "README and public docs should ground claims in evidence, tests, and limitations.",
+          "recommendedAction": "Add source evidence, test, and limitation sections."
+        },
+        {
+          "checkId": "QUALITY_NOT_WEAK",
+          "passed": true,
+          "severity": "block",
+          "finding": "Weak quality labels cannot pass falsification.",
+          "recommendedAction": "Revise the result or keep it out of showcase."
+        }
+      ],
+      "negativeTests": [
+        {
+          "testId": "consistent-unit-conversion",
+          "purpose": "Consistent Celsius/Kelvin records should not be flagged as conflicts.",
+          "inputCase": "toy water boiling point appears as 100 C and 373.15 K",
+          "expectedBehavior": "no conflict after unit normalization",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "suspicious-acetone-record",
+          "purpose": "Suspicious acetone toy record should be flagged.",
+          "inputCase": "toy acetone boiling point appears as 999 C",
+          "expectedBehavior": "outlier flag",
+          "falsificationTarget": "false-negative risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "unknown-identifier",
+          "purpose": "Unknown identifier should be low confidence rather than silently canonicalized.",
+          "inputCase": "toy molecule record has an unknown identifier",
+          "expectedBehavior": "low confidence equivalence",
+          "falsificationTarget": "identifier-confidence risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "malformed-unit",
+          "purpose": "Malformed unit should be rejected or flagged.",
+          "inputCase": "toy record uses unsupported temperature unit text",
+          "expectedBehavior": "invalid unit flag",
+          "falsificationTarget": "input validation risk",
+          "safeSyntheticOnly": true
+        }
+      ],
+      "overclaimFindings": [],
+      "counterEvidenceSummary": "No blocking falsification finding was detected. The review still requires consistent-unit, suspicious outlier, unknown identifier, and malformed-unit checks.",
+      "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
+      "publicHygienePassed": true,
+      "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+      "evidenceHash": "e253fa733666b7df734feb5cc3f7516052a811f4c4b14774ed57d578a2b691d6"
+    },
+    {
+      "kind": "public_corpus_result_falsification",
+      "evaluatedAt": "2026-05-04T18:12:25.803Z",
+      "slug": "corpus-deduplication",
+      "title": "Corpus Deduplication for Defensive Publications",
+      "domain": "open-invention-corpus",
+      "qualityLabel": "good",
+      "lifecycleStatus": "public_result",
+      "label": "insufficient_tests",
+      "score": 77,
+      "checks": [
+        {
+          "checkId": "PUBLIC_HYGIENE_PASSED",
+          "passed": true,
+          "severity": "block",
+          "finding": "Public hygiene must pass before falsification can accept a result.",
+          "recommendedAction": "Remove leaks, raw logs, unsafe text, private paths, or secret-like values."
+        },
+        {
+          "checkId": "NO_OVERCLAIMS",
+          "passed": true,
+          "severity": "block",
+          "finding": "No overclaiming language found.",
+          "recommendedAction": "Rewrite public docs with bounded, evidence-backed claims."
+        },
+        {
+          "checkId": "NEGATIVE_TESTS_PRESENT",
+          "passed": false,
+          "severity": "warn",
+          "finding": "Domain-specific negative tests should exist.",
+          "recommendedAction": "Add negative tests for false positives, false negatives, malformed inputs, and edge cases."
+        },
+        {
+          "checkId": "BENIGN_CASES_NOT_OVERFLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include benign cases that should not be overflagged.",
+          "recommendedAction": "Add benign cases that exercise false-positive risk."
+        },
+        {
+          "checkId": "ADVERSARIAL_SAFE_CASES_FLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include safe synthetic cases that should be flagged.",
+          "recommendedAction": "Add safe synthetic edge cases for likely false negatives."
+        },
+        {
+          "checkId": "README_CLAIMS_GROUNDED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "README and public docs should ground claims in evidence, tests, and limitations.",
+          "recommendedAction": "Add source evidence, test, and limitation sections."
+        },
+        {
+          "checkId": "QUALITY_NOT_WEAK",
+          "passed": true,
+          "severity": "block",
+          "finding": "Weak quality labels cannot pass falsification.",
+          "recommendedAction": "Revise the result or keep it out of showcase."
+        }
+      ],
+      "negativeTests": [
+        {
+          "testId": "corpus-deduplication-malformed-input",
+          "purpose": "Malformed input should be rejected or marked low confidence.",
+          "inputCase": "synthetic malformed record",
+          "expectedBehavior": "validation failure",
+          "falsificationTarget": "input validation risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "corpus-deduplication-benign-case",
+          "purpose": "Benign input should not be overflagged.",
+          "inputCase": "synthetic benign record",
+          "expectedBehavior": "low risk",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        }
+      ],
+      "overclaimFindings": [],
+      "counterEvidenceSummary": "Falsification found a weakness that needs review. Domain-specific negative tests should be expanded before stronger claims are made.",
+      "recommendedAction": "Add negative tests and rerun falsification before showcase promotion.",
+      "publicHygienePassed": true,
+      "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+      "evidenceHash": "06ddd1b698334703ee60d8a9707ee64906ac30151b76c16687a297f905ca3f2e"
+    },
+    {
+      "kind": "public_corpus_result_falsification",
+      "evaluatedAt": "2026-05-04T18:12:25.812Z",
+      "slug": "energy-usage-anomaly-auditor",
+      "title": "Energy Usage Anomaly Auditor",
+      "domain": "energy-data-quality",
+      "qualityLabel": "good",
+      "lifecycleStatus": "public_result",
+      "label": "passes_falsification",
+      "score": 96,
+      "checks": [
+        {
+          "checkId": "PUBLIC_HYGIENE_PASSED",
+          "passed": true,
+          "severity": "block",
+          "finding": "Public hygiene must pass before falsification can accept a result.",
+          "recommendedAction": "Remove leaks, raw logs, unsafe text, private paths, or secret-like values."
+        },
+        {
+          "checkId": "NO_OVERCLAIMS",
+          "passed": true,
+          "severity": "block",
+          "finding": "No overclaiming language found.",
+          "recommendedAction": "Rewrite public docs with bounded, evidence-backed claims."
+        },
+        {
+          "checkId": "NEGATIVE_TESTS_PRESENT",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Domain-specific negative tests should exist.",
+          "recommendedAction": "Add negative tests for false positives, false negatives, malformed inputs, and edge cases."
+        },
+        {
+          "checkId": "BENIGN_CASES_NOT_OVERFLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include benign cases that should not be overflagged.",
+          "recommendedAction": "Add benign cases that exercise false-positive risk."
+        },
+        {
+          "checkId": "ADVERSARIAL_SAFE_CASES_FLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include safe synthetic cases that should be flagged.",
+          "recommendedAction": "Add safe synthetic edge cases for likely false negatives."
+        },
+        {
+          "checkId": "README_CLAIMS_GROUNDED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "README and public docs should ground claims in evidence, tests, and limitations.",
+          "recommendedAction": "Add source evidence, test, and limitation sections."
+        },
+        {
+          "checkId": "QUALITY_NOT_WEAK",
+          "passed": true,
+          "severity": "block",
+          "finding": "Weak quality labels cannot pass falsification.",
+          "recommendedAction": "Revise the result or keep it out of showcase."
+        }
+      ],
+      "negativeTests": [
+        {
+          "testId": "seasonal-normal-high-use",
+          "purpose": "Seasonal normal high usage should not be flagged as anomalous when weather explains it.",
+          "inputCase": "synthetic winter usage with low temperature and expected heating load",
+          "expectedBehavior": "not anomalous after baseline normalization",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "missing-interval",
+          "purpose": "Missing interval should be detected.",
+          "inputCase": "synthetic hourly sequence skips one interval",
+          "expectedBehavior": "missing interval flag",
+          "falsificationTarget": "false-negative risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "duplicate-record",
+          "purpose": "Duplicate timestamp should be detected.",
+          "inputCase": "two records share anonymized meter and timestamp",
+          "expectedBehavior": "duplicate flag",
+          "falsificationTarget": "data integrity risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "weather-normalized-anomaly",
+          "purpose": "Usage spike unexplained by weather should be detected.",
+          "inputCase": "synthetic mild-weather record has extreme usage",
+          "expectedBehavior": "weather-normalized anomaly flag",
+          "falsificationTarget": "false-negative risk",
+          "safeSyntheticOnly": true
+        }
+      ],
+      "overclaimFindings": [],
+      "counterEvidenceSummary": "No blocking falsification finding was detected. The review still requires seasonal-normal, missing-interval, duplicate, and weather-normalized anomaly checks.",
+      "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
+      "publicHygienePassed": true,
+      "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+      "evidenceHash": "c2a59921694a5ed5f48c70371831d4b6eba20605ed8990e34a14a3df616be588"
+    },
+    {
+      "kind": "public_corpus_result_falsification",
+      "evaluatedAt": "2026-05-04T18:12:25.823Z",
+      "slug": "energy-usage-anomaly-auditor-v2",
+      "title": "Energy Usage Anomaly Auditor",
+      "domain": "energy-data-quality",
+      "qualityLabel": "good",
+      "lifecycleStatus": "public_result",
+      "label": "passes_falsification",
+      "score": 96,
+      "checks": [
+        {
+          "checkId": "PUBLIC_HYGIENE_PASSED",
+          "passed": true,
+          "severity": "block",
+          "finding": "Public hygiene must pass before falsification can accept a result.",
+          "recommendedAction": "Remove leaks, raw logs, unsafe text, private paths, or secret-like values."
+        },
+        {
+          "checkId": "NO_OVERCLAIMS",
+          "passed": true,
+          "severity": "block",
+          "finding": "No overclaiming language found.",
+          "recommendedAction": "Rewrite public docs with bounded, evidence-backed claims."
+        },
+        {
+          "checkId": "NEGATIVE_TESTS_PRESENT",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Domain-specific negative tests should exist.",
+          "recommendedAction": "Add negative tests for false positives, false negatives, malformed inputs, and edge cases."
+        },
+        {
+          "checkId": "BENIGN_CASES_NOT_OVERFLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include benign cases that should not be overflagged.",
+          "recommendedAction": "Add benign cases that exercise false-positive risk."
+        },
+        {
+          "checkId": "ADVERSARIAL_SAFE_CASES_FLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include safe synthetic cases that should be flagged.",
+          "recommendedAction": "Add safe synthetic edge cases for likely false negatives."
+        },
+        {
+          "checkId": "README_CLAIMS_GROUNDED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "README and public docs should ground claims in evidence, tests, and limitations.",
+          "recommendedAction": "Add source evidence, test, and limitation sections."
+        },
+        {
+          "checkId": "QUALITY_NOT_WEAK",
+          "passed": true,
+          "severity": "block",
+          "finding": "Weak quality labels cannot pass falsification.",
+          "recommendedAction": "Revise the result or keep it out of showcase."
+        }
+      ],
+      "negativeTests": [
+        {
+          "testId": "seasonal-normal-high-use",
+          "purpose": "Seasonal normal high usage should not be flagged as anomalous when weather explains it.",
+          "inputCase": "synthetic winter usage with low temperature and expected heating load",
+          "expectedBehavior": "not anomalous after baseline normalization",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "missing-interval",
+          "purpose": "Missing interval should be detected.",
+          "inputCase": "synthetic hourly sequence skips one interval",
+          "expectedBehavior": "missing interval flag",
+          "falsificationTarget": "false-negative risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "duplicate-record",
+          "purpose": "Duplicate timestamp should be detected.",
+          "inputCase": "two records share anonymized meter and timestamp",
+          "expectedBehavior": "duplicate flag",
+          "falsificationTarget": "data integrity risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "weather-normalized-anomaly",
+          "purpose": "Usage spike unexplained by weather should be detected.",
+          "inputCase": "synthetic mild-weather record has extreme usage",
+          "expectedBehavior": "weather-normalized anomaly flag",
+          "falsificationTarget": "false-negative risk",
+          "safeSyntheticOnly": true
+        }
+      ],
+      "overclaimFindings": [],
+      "counterEvidenceSummary": "No blocking falsification finding was detected. The review still requires seasonal-normal, missing-interval, duplicate, and weather-normalized anomaly checks.",
+      "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
+      "publicHygienePassed": true,
+      "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+      "evidenceHash": "ea1600534224cbf4c69432d25cd8ee0f0b0f1ac73388f55f2672b5be1e60d9ce"
+    },
+    {
+      "kind": "public_corpus_result_falsification",
+      "evaluatedAt": "2026-05-04T18:12:25.835Z",
+      "slug": "evidence-chain",
+      "title": "Replayable Evidence Chain for Autonomous Research Agents",
+      "domain": "open-invention-corpus",
+      "qualityLabel": "good",
+      "lifecycleStatus": "public_result",
+      "label": "insufficient_tests",
+      "score": 77,
+      "checks": [
+        {
+          "checkId": "PUBLIC_HYGIENE_PASSED",
+          "passed": true,
+          "severity": "block",
+          "finding": "Public hygiene must pass before falsification can accept a result.",
+          "recommendedAction": "Remove leaks, raw logs, unsafe text, private paths, or secret-like values."
+        },
+        {
+          "checkId": "NO_OVERCLAIMS",
+          "passed": true,
+          "severity": "block",
+          "finding": "No overclaiming language found.",
+          "recommendedAction": "Rewrite public docs with bounded, evidence-backed claims."
+        },
+        {
+          "checkId": "NEGATIVE_TESTS_PRESENT",
+          "passed": false,
+          "severity": "warn",
+          "finding": "Domain-specific negative tests should exist.",
+          "recommendedAction": "Add negative tests for false positives, false negatives, malformed inputs, and edge cases."
+        },
+        {
+          "checkId": "BENIGN_CASES_NOT_OVERFLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include benign cases that should not be overflagged.",
+          "recommendedAction": "Add benign cases that exercise false-positive risk."
+        },
+        {
+          "checkId": "ADVERSARIAL_SAFE_CASES_FLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include safe synthetic cases that should be flagged.",
+          "recommendedAction": "Add safe synthetic edge cases for likely false negatives."
+        },
+        {
+          "checkId": "README_CLAIMS_GROUNDED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "README and public docs should ground claims in evidence, tests, and limitations.",
+          "recommendedAction": "Add source evidence, test, and limitation sections."
+        },
+        {
+          "checkId": "QUALITY_NOT_WEAK",
+          "passed": true,
+          "severity": "block",
+          "finding": "Weak quality labels cannot pass falsification.",
+          "recommendedAction": "Revise the result or keep it out of showcase."
+        }
+      ],
+      "negativeTests": [
+        {
+          "testId": "evidence-chain-malformed-input",
+          "purpose": "Malformed input should be rejected or marked low confidence.",
+          "inputCase": "synthetic malformed record",
+          "expectedBehavior": "validation failure",
+          "falsificationTarget": "input validation risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "evidence-chain-benign-case",
+          "purpose": "Benign input should not be overflagged.",
+          "inputCase": "synthetic benign record",
+          "expectedBehavior": "low risk",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        }
+      ],
+      "overclaimFindings": [],
+      "counterEvidenceSummary": "Falsification found a weakness that needs review. Domain-specific negative tests should be expanded before stronger claims are made.",
+      "recommendedAction": "Add negative tests and rerun falsification before showcase promotion.",
+      "publicHygienePassed": true,
+      "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+      "evidenceHash": "4a4662ee5b0ec3459fc97ca93d84597a6242ce9d44eebfafa79519d769110112"
+    },
+    {
+      "kind": "public_corpus_result_falsification",
+      "evaluatedAt": "2026-05-04T18:12:25.849Z",
+      "slug": "evidence-chain-v2",
+      "title": "Replayable Evidence Chain for Autonomous Research Agents",
+      "domain": "open-invention-corpus",
+      "qualityLabel": "good",
+      "lifecycleStatus": "public_result",
+      "label": "insufficient_tests",
+      "score": 77,
+      "checks": [
+        {
+          "checkId": "PUBLIC_HYGIENE_PASSED",
+          "passed": true,
+          "severity": "block",
+          "finding": "Public hygiene must pass before falsification can accept a result.",
+          "recommendedAction": "Remove leaks, raw logs, unsafe text, private paths, or secret-like values."
+        },
+        {
+          "checkId": "NO_OVERCLAIMS",
+          "passed": true,
+          "severity": "block",
+          "finding": "No overclaiming language found.",
+          "recommendedAction": "Rewrite public docs with bounded, evidence-backed claims."
+        },
+        {
+          "checkId": "NEGATIVE_TESTS_PRESENT",
+          "passed": false,
+          "severity": "warn",
+          "finding": "Domain-specific negative tests should exist.",
+          "recommendedAction": "Add negative tests for false positives, false negatives, malformed inputs, and edge cases."
+        },
+        {
+          "checkId": "BENIGN_CASES_NOT_OVERFLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include benign cases that should not be overflagged.",
+          "recommendedAction": "Add benign cases that exercise false-positive risk."
+        },
+        {
+          "checkId": "ADVERSARIAL_SAFE_CASES_FLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include safe synthetic cases that should be flagged.",
+          "recommendedAction": "Add safe synthetic edge cases for likely false negatives."
+        },
+        {
+          "checkId": "README_CLAIMS_GROUNDED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "README and public docs should ground claims in evidence, tests, and limitations.",
+          "recommendedAction": "Add source evidence, test, and limitation sections."
+        },
+        {
+          "checkId": "QUALITY_NOT_WEAK",
+          "passed": true,
+          "severity": "block",
+          "finding": "Weak quality labels cannot pass falsification.",
+          "recommendedAction": "Revise the result or keep it out of showcase."
+        }
+      ],
+      "negativeTests": [
+        {
+          "testId": "evidence-chain-v2-malformed-input",
+          "purpose": "Malformed input should be rejected or marked low confidence.",
+          "inputCase": "synthetic malformed record",
+          "expectedBehavior": "validation failure",
+          "falsificationTarget": "input validation risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "evidence-chain-v2-benign-case",
+          "purpose": "Benign input should not be overflagged.",
+          "inputCase": "synthetic benign record",
+          "expectedBehavior": "low risk",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        }
+      ],
+      "overclaimFindings": [],
+      "counterEvidenceSummary": "Falsification found a weakness that needs review. Domain-specific negative tests should be expanded before stronger claims are made.",
+      "recommendedAction": "Add negative tests and rerun falsification before showcase promotion.",
+      "publicHygienePassed": true,
+      "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+      "evidenceHash": "2c877bf5f0fe60d945996dfc53fa15805b7280a05cef0286213cda825e463c1d"
+    },
+    {
+      "kind": "public_corpus_result_falsification",
+      "evaluatedAt": "2026-05-04T18:12:25.857Z",
+      "slug": "patch-risk-auditor",
+      "title": "Patch Risk Auditor",
+      "domain": "software-supply-chain",
+      "qualityLabel": "good",
+      "lifecycleStatus": "public_result",
+      "label": "passes_falsification",
+      "score": 96,
+      "checks": [
+        {
+          "checkId": "PUBLIC_HYGIENE_PASSED",
+          "passed": true,
+          "severity": "block",
+          "finding": "Public hygiene must pass before falsification can accept a result.",
+          "recommendedAction": "Remove leaks, raw logs, unsafe text, private paths, or secret-like values."
+        },
+        {
+          "checkId": "NO_OVERCLAIMS",
+          "passed": true,
+          "severity": "block",
+          "finding": "No overclaiming language found.",
+          "recommendedAction": "Rewrite public docs with bounded, evidence-backed claims."
+        },
+        {
+          "checkId": "NEGATIVE_TESTS_PRESENT",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Domain-specific negative tests should exist.",
+          "recommendedAction": "Add negative tests for false positives, false negatives, malformed inputs, and edge cases."
+        },
+        {
+          "checkId": "BENIGN_CASES_NOT_OVERFLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include benign cases that should not be overflagged.",
+          "recommendedAction": "Add benign cases that exercise false-positive risk."
+        },
+        {
+          "checkId": "ADVERSARIAL_SAFE_CASES_FLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include safe synthetic cases that should be flagged.",
+          "recommendedAction": "Add safe synthetic edge cases for likely false negatives."
+        },
+        {
+          "checkId": "README_CLAIMS_GROUNDED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "README and public docs should ground claims in evidence, tests, and limitations.",
+          "recommendedAction": "Add source evidence, test, and limitation sections."
+        },
+        {
+          "checkId": "QUALITY_NOT_WEAK",
+          "passed": true,
+          "severity": "block",
+          "finding": "Weak quality labels cannot pass falsification.",
+          "recommendedAction": "Revise the result or keep it out of showcase."
+        }
+      ],
+      "negativeTests": [
+        {
+          "testId": "benign-dependency-update",
+          "purpose": "Benign dependency update should not be scored as high risk without other suspicious signals.",
+          "inputCase": "synthetic package patch with a version bump and matching tests",
+          "expectedBehavior": "low or medium risk, not high risk",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "suspicious-install-script",
+          "purpose": "Suspicious install-script addition should be flagged for review.",
+          "inputCase": "synthetic package patch adds a postinstall script and weak provenance",
+          "expectedBehavior": "high review priority",
+          "falsificationTarget": "false-negative risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "harmless-refactor",
+          "purpose": "Harmless refactor should not be labeled dangerous.",
+          "inputCase": "synthetic code-only refactor with no dependency or script changes",
+          "expectedBehavior": "low risk",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "test-impact-mismatch",
+          "purpose": "Patch touching behavior without matching tests should be flagged.",
+          "inputCase": "synthetic behavior change with unchanged tests",
+          "expectedBehavior": "test-impact mismatch",
+          "falsificationTarget": "coverage risk",
+          "safeSyntheticOnly": true
+        }
+      ],
+      "overclaimFindings": [],
+      "counterEvidenceSummary": "No blocking falsification finding was detected. The review still requires benign patch, suspicious-script, harmless-refactor, and test-impact mismatch checks.",
+      "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
+      "publicHygienePassed": true,
+      "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+      "evidenceHash": "831c0d3a46a6b4057815d3d3a1ae786b04af8423b9ed8facff4cf65261154c9e"
+    },
+    {
+      "kind": "public_corpus_result_falsification",
+      "evaluatedAt": "2026-05-04T18:12:25.866Z",
+      "slug": "patch-risk-auditor-v2",
+      "title": "Patch Risk Auditor",
+      "domain": "software-supply-chain",
+      "qualityLabel": "good",
+      "lifecycleStatus": "public_result",
+      "label": "passes_falsification",
+      "score": 96,
+      "checks": [
+        {
+          "checkId": "PUBLIC_HYGIENE_PASSED",
+          "passed": true,
+          "severity": "block",
+          "finding": "Public hygiene must pass before falsification can accept a result.",
+          "recommendedAction": "Remove leaks, raw logs, unsafe text, private paths, or secret-like values."
+        },
+        {
+          "checkId": "NO_OVERCLAIMS",
+          "passed": true,
+          "severity": "block",
+          "finding": "No overclaiming language found.",
+          "recommendedAction": "Rewrite public docs with bounded, evidence-backed claims."
+        },
+        {
+          "checkId": "NEGATIVE_TESTS_PRESENT",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Domain-specific negative tests should exist.",
+          "recommendedAction": "Add negative tests for false positives, false negatives, malformed inputs, and edge cases."
+        },
+        {
+          "checkId": "BENIGN_CASES_NOT_OVERFLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include benign cases that should not be overflagged.",
+          "recommendedAction": "Add benign cases that exercise false-positive risk."
+        },
+        {
+          "checkId": "ADVERSARIAL_SAFE_CASES_FLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include safe synthetic cases that should be flagged.",
+          "recommendedAction": "Add safe synthetic edge cases for likely false negatives."
+        },
+        {
+          "checkId": "README_CLAIMS_GROUNDED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "README and public docs should ground claims in evidence, tests, and limitations.",
+          "recommendedAction": "Add source evidence, test, and limitation sections."
+        },
+        {
+          "checkId": "QUALITY_NOT_WEAK",
+          "passed": true,
+          "severity": "block",
+          "finding": "Weak quality labels cannot pass falsification.",
+          "recommendedAction": "Revise the result or keep it out of showcase."
+        }
+      ],
+      "negativeTests": [
+        {
+          "testId": "benign-dependency-update",
+          "purpose": "Benign dependency update should not be scored as high risk without other suspicious signals.",
+          "inputCase": "synthetic package patch with a version bump and matching tests",
+          "expectedBehavior": "low or medium risk, not high risk",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "suspicious-install-script",
+          "purpose": "Suspicious install-script addition should be flagged for review.",
+          "inputCase": "synthetic package patch adds a postinstall script and weak provenance",
+          "expectedBehavior": "high review priority",
+          "falsificationTarget": "false-negative risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "harmless-refactor",
+          "purpose": "Harmless refactor should not be labeled dangerous.",
+          "inputCase": "synthetic code-only refactor with no dependency or script changes",
+          "expectedBehavior": "low risk",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "test-impact-mismatch",
+          "purpose": "Patch touching behavior without matching tests should be flagged.",
+          "inputCase": "synthetic behavior change with unchanged tests",
+          "expectedBehavior": "test-impact mismatch",
+          "falsificationTarget": "coverage risk",
+          "safeSyntheticOnly": true
+        }
+      ],
+      "overclaimFindings": [],
+      "counterEvidenceSummary": "No blocking falsification finding was detected. The review still requires benign patch, suspicious-script, harmless-refactor, and test-impact mismatch checks.",
+      "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
+      "publicHygienePassed": true,
+      "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+      "evidenceHash": "31cfeb4f4546d2b8e890ac5e78d960e74c37ba88b0c5b6346d27819c3571fb40"
+    },
+    {
+      "kind": "public_corpus_result_falsification",
+      "evaluatedAt": "2026-05-04T18:12:25.878Z",
+      "slug": "toolchain-policy",
+      "title": "Policy-Gated Toolchain Installation Protocol",
+      "domain": "open-invention-corpus",
+      "qualityLabel": "good",
+      "lifecycleStatus": "public_result",
+      "label": "insufficient_tests",
+      "score": 77,
+      "checks": [
+        {
+          "checkId": "PUBLIC_HYGIENE_PASSED",
+          "passed": true,
+          "severity": "block",
+          "finding": "Public hygiene must pass before falsification can accept a result.",
+          "recommendedAction": "Remove leaks, raw logs, unsafe text, private paths, or secret-like values."
+        },
+        {
+          "checkId": "NO_OVERCLAIMS",
+          "passed": true,
+          "severity": "block",
+          "finding": "No overclaiming language found.",
+          "recommendedAction": "Rewrite public docs with bounded, evidence-backed claims."
+        },
+        {
+          "checkId": "NEGATIVE_TESTS_PRESENT",
+          "passed": false,
+          "severity": "warn",
+          "finding": "Domain-specific negative tests should exist.",
+          "recommendedAction": "Add negative tests for false positives, false negatives, malformed inputs, and edge cases."
+        },
+        {
+          "checkId": "BENIGN_CASES_NOT_OVERFLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include benign cases that should not be overflagged.",
+          "recommendedAction": "Add benign cases that exercise false-positive risk."
+        },
+        {
+          "checkId": "ADVERSARIAL_SAFE_CASES_FLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include safe synthetic cases that should be flagged.",
+          "recommendedAction": "Add safe synthetic edge cases for likely false negatives."
+        },
+        {
+          "checkId": "README_CLAIMS_GROUNDED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "README and public docs should ground claims in evidence, tests, and limitations.",
+          "recommendedAction": "Add source evidence, test, and limitation sections."
+        },
+        {
+          "checkId": "QUALITY_NOT_WEAK",
+          "passed": true,
+          "severity": "block",
+          "finding": "Weak quality labels cannot pass falsification.",
+          "recommendedAction": "Revise the result or keep it out of showcase."
+        }
+      ],
+      "negativeTests": [
+        {
+          "testId": "toolchain-policy-malformed-input",
+          "purpose": "Malformed input should be rejected or marked low confidence.",
+          "inputCase": "synthetic malformed record",
+          "expectedBehavior": "validation failure",
+          "falsificationTarget": "input validation risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "toolchain-policy-benign-case",
+          "purpose": "Benign input should not be overflagged.",
+          "inputCase": "synthetic benign record",
+          "expectedBehavior": "low risk",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        }
+      ],
+      "overclaimFindings": [],
+      "counterEvidenceSummary": "Falsification found a weakness that needs review. Domain-specific negative tests should be expanded before stronger claims are made.",
+      "recommendedAction": "Add negative tests and rerun falsification before showcase promotion.",
+      "publicHygienePassed": true,
+      "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+      "evidenceHash": "29f7800000cb19c81a0ddcbc0073e03e362ffcb255ad8e7d8cfe3bc49217fee1"
+    }
+  ],
+  "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+  "evidenceHash": "29b3716b2d207679c180b632fa2ce75f9bb39016171cb2be26d05203c0d99364"
+}

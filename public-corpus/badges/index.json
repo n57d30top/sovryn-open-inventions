@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-04T17:37:06.969Z",
+  "generatedAt": "2026-05-04T18:12:25.961Z",
   "badges": [
     {
       "slug": "chemistry-record-auditor-tool",
@@ -12,6 +12,7 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
+        "falsification": "passes_falsification",
         "lifecycle": "superseded",
         "version": "chemistry-record-auditor-tool",
         "showcase": "not-showcase"
@@ -29,6 +30,7 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
+        "falsification": "passes_falsification",
         "lifecycle": "superseded",
         "version": "chemistry-record-auditor-tool",
         "showcase": "not-showcase"
@@ -46,6 +48,7 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
+        "falsification": "passes_falsification",
         "lifecycle": "showcase",
         "version": "chemistry-record-auditor-tool",
         "showcase": "showcase-1"
@@ -63,11 +66,12 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
-        "lifecycle": "demo_pilot",
+        "falsification": "insufficient_tests",
+        "lifecycle": "needs_revision",
         "version": "corpus-deduplication",
         "showcase": "not-showcase"
       },
-      "lifecycleStatus": "demo_pilot",
+      "lifecycleStatus": "needs_revision",
       "showcaseRank": null
     },
     {
@@ -80,6 +84,7 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
+        "falsification": "passes_falsification",
         "lifecycle": "superseded",
         "version": "energy-usage-anomaly-auditor",
         "showcase": "not-showcase"
@@ -97,6 +102,7 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
+        "falsification": "passes_falsification",
         "lifecycle": "showcase",
         "version": "energy-usage-anomaly-auditor",
         "showcase": "showcase-2"
@@ -114,6 +120,7 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
+        "falsification": "insufficient_tests",
         "lifecycle": "superseded",
         "version": "evidence-chain",
         "showcase": "not-showcase"
@@ -131,6 +138,7 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
+        "falsification": "insufficient_tests",
         "lifecycle": "needs_revision",
         "version": "evidence-chain",
         "showcase": "not-showcase"
@@ -148,6 +156,7 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
+        "falsification": "passes_falsification",
         "lifecycle": "superseded",
         "version": "patch-risk-auditor",
         "showcase": "not-showcase"
@@ -165,6 +174,7 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
+        "falsification": "passes_falsification",
         "lifecycle": "showcase",
         "version": "patch-risk-auditor",
         "showcase": "showcase-3"
@@ -182,13 +192,14 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
-        "lifecycle": "demo_pilot",
+        "falsification": "insufficient_tests",
+        "lifecycle": "needs_revision",
         "version": "toolchain-policy",
         "showcase": "not-showcase"
       },
-      "lifecycleStatus": "demo_pilot",
+      "lifecycleStatus": "needs_revision",
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "24a3c50c368f9a2228e3480acbe083e0412fef54dd737a6a1333921397f835c5"
+  "evidenceHash": "2bbcc8a29591dafc7c8439be6ff9067faa1699072819c358dca77564f3740ea8"
 }

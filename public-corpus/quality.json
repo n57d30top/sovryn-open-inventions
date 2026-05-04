@@ -1,12 +1,11 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-04T17:37:06.969Z",
+  "generatedAt": "2026-05-04T18:12:25.961Z",
   "qualityCounts": {
     "good": 11
   },
   "lifecycleCounts": {
-    "demo_pilot": 2,
-    "needs_revision": 1,
+    "needs_revision": 3,
     "showcase": 3,
     "superseded": 5
   },
@@ -57,7 +56,7 @@
       "slug": "corpus-deduplication",
       "qualityLabel": "good",
       "antiTemplateStatus": "unknown",
-      "lifecycleStatus": "demo_pilot",
+      "lifecycleStatus": "needs_revision",
       "versionGroup": "corpus-deduplication",
       "showcaseEligible": false,
       "showcaseRank": null,
@@ -155,7 +154,7 @@
       "slug": "toolchain-policy",
       "qualityLabel": "good",
       "antiTemplateStatus": "unknown",
-      "lifecycleStatus": "demo_pilot",
+      "lifecycleStatus": "needs_revision",
       "versionGroup": "toolchain-policy",
       "showcaseEligible": false,
       "showcaseRank": null,

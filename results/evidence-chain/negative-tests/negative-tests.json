@@ -1,0 +1,23 @@
+{
+  "kind": "public_corpus_negative_tests",
+  "slug": "evidence-chain",
+  "tests": [
+    {
+      "testId": "evidence-chain-malformed-input",
+      "purpose": "Malformed input should be rejected or marked low confidence.",
+      "inputCase": "synthetic malformed record",
+      "expectedBehavior": "validation failure",
+      "falsificationTarget": "input validation risk",
+      "safeSyntheticOnly": true
+    },
+    {
+      "testId": "evidence-chain-benign-case",
+      "purpose": "Benign input should not be overflagged.",
+      "inputCase": "synthetic benign record",
+      "expectedBehavior": "low risk",
+      "falsificationTarget": "false-positive risk",
+      "safeSyntheticOnly": true
+    }
+  ],
+  "evidenceHash": "4542b12aeff4aad5c2db2c0becd3f7dbf532d4343d4f78ad70157029ded26c1d"
+}

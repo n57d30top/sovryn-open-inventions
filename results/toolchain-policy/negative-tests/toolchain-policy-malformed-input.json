@@ -1,0 +1,11 @@
+{
+  "kind": "public_corpus_negative_test_case",
+  "slug": "toolchain-policy",
+  "testId": "toolchain-policy-malformed-input",
+  "purpose": "Malformed input should be rejected or marked low confidence.",
+  "inputCase": "synthetic malformed record",
+  "expectedBehavior": "validation failure",
+  "falsificationTarget": "input validation risk",
+  "safeSyntheticOnly": true,
+  "evidenceHash": "b48463167408a4b2212a47eec4ff3b161b9a6870c8e922c128f88eb08207fe22"
+}

@@ -1,0 +1,11 @@
+{
+  "kind": "public_corpus_negative_test_case",
+  "slug": "corpus-deduplication",
+  "testId": "corpus-deduplication-benign-case",
+  "purpose": "Benign input should not be overflagged.",
+  "inputCase": "synthetic benign record",
+  "expectedBehavior": "low risk",
+  "falsificationTarget": "false-positive risk",
+  "safeSyntheticOnly": true,
+  "evidenceHash": "a170db0bf0595c6d66b2ed36dfd28335702f0511200e3c3ab79b077dda08b578"
+}

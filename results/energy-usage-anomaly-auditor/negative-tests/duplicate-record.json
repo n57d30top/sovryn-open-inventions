@@ -1,0 +1,11 @@
+{
+  "kind": "public_corpus_negative_test_case",
+  "slug": "energy-usage-anomaly-auditor",
+  "testId": "duplicate-record",
+  "purpose": "Duplicate timestamp should be detected.",
+  "inputCase": "two records share anonymized meter and timestamp",
+  "expectedBehavior": "duplicate flag",
+  "falsificationTarget": "data integrity risk",
+  "safeSyntheticOnly": true,
+  "evidenceHash": "2b78399acc09888a7f9d4cc58e4fe68272357c202c7da40c2a4e919904228bb3"
+}

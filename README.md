@@ -28,14 +28,14 @@ and safety scope in human-readable language.
 - [Molecular Record Auditor for Chemistry-Style Dataset Quality](results/chemistry-record-auditor-tool/) — good, superseded, chemistry-record-auditor-tool, chemistry-data-quality
 - [Molecular Record Auditor for Chemistry-Style Dataset Quality](results/chemistry-record-auditor-tool-v2/) — good, superseded, chemistry-record-auditor-tool, chemistry-data-quality
 - [Molecular Record Auditor for Chemistry-Style Dataset Quality](results/chemistry-record-auditor-tool-v2-v2/) — good, showcase, chemistry-record-auditor-tool, chemistry-data-quality
-- [Corpus Deduplication for Defensive Publications](results/corpus-deduplication/) — good, demo_pilot, corpus-deduplication, open-invention-corpus
+- [Corpus Deduplication for Defensive Publications](results/corpus-deduplication/) — good, needs_revision, corpus-deduplication, open-invention-corpus
 - [Energy Usage Anomaly Auditor](results/energy-usage-anomaly-auditor/) — good, superseded, energy-usage-anomaly-auditor, energy-data-quality
 - [Energy Usage Anomaly Auditor](results/energy-usage-anomaly-auditor-v2/) — good, showcase, energy-usage-anomaly-auditor, energy-data-quality
 - [Replayable Evidence Chain for Autonomous Research Agents](results/evidence-chain/) — good, superseded, evidence-chain, open-invention-corpus
 - [Replayable Evidence Chain for Autonomous Research Agents](results/evidence-chain-v2/) — good, needs_revision, evidence-chain, open-invention-corpus
 - [Patch Risk Auditor](results/patch-risk-auditor/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v2/) — good, showcase, patch-risk-auditor, software-supply-chain
-- [Policy-Gated Toolchain Installation Protocol](results/toolchain-policy/) — good, demo_pilot, toolchain-policy, node-toolchain-policy
+- [Policy-Gated Toolchain Installation Protocol](results/toolchain-policy/) — good, needs_revision, toolchain-policy, node-toolchain-policy
 
 ## Corpus Lifecycle
 

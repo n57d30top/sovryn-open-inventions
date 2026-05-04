@@ -1,0 +1,11 @@
+{
+  "kind": "public_corpus_negative_test_case",
+  "slug": "energy-usage-anomaly-auditor",
+  "testId": "seasonal-normal-high-use",
+  "purpose": "Seasonal normal high usage should not be flagged as anomalous when weather explains it.",
+  "inputCase": "synthetic winter usage with low temperature and expected heating load",
+  "expectedBehavior": "not anomalous after baseline normalization",
+  "falsificationTarget": "false-positive risk",
+  "safeSyntheticOnly": true,
+  "evidenceHash": "ca411a8db8ee20b0fd6914383754a33cc674040b890ea36ea55d71a54afada48"
+}

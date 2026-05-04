@@ -9,11 +9,12 @@
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
     "worker": "container-netoff",
+    "falsification": "passes_falsification",
     "lifecycle": "superseded",
     "version": "energy-usage-anomaly-auditor",
     "showcase": "not-showcase"
   },
   "lifecycleStatus": "superseded",
   "showcaseRank": null,
-  "evidenceHash": "515340906da332ed4fe13900f898dadc9c4ee56637a9c0659414ba08240383f5"
+  "evidenceHash": "a8ae046348041a90717fe3ce601fa14e7b97b440fc649d7e5a11c8c30805fab9"
 }

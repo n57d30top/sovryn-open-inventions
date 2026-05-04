@@ -9,11 +9,12 @@
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
     "worker": "container-netoff",
+    "falsification": "passes_falsification",
     "lifecycle": "superseded",
     "version": "chemistry-record-auditor-tool",
     "showcase": "not-showcase"
   },
   "lifecycleStatus": "superseded",
   "showcaseRank": null,
-  "evidenceHash": "4626789e1e7ad01ae82ad44aa84962e537a7e38f09bce821b88674f127a6e55a"
+  "evidenceHash": "abde81de8c6149ab3dd84dffd120837d6bd13ca52efcffb82e067b074d5baf68"
 }

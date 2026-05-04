@@ -1,0 +1,23 @@
+{
+  "kind": "public_corpus_negative_tests",
+  "slug": "corpus-deduplication",
+  "tests": [
+    {
+      "testId": "corpus-deduplication-malformed-input",
+      "purpose": "Malformed input should be rejected or marked low confidence.",
+      "inputCase": "synthetic malformed record",
+      "expectedBehavior": "validation failure",
+      "falsificationTarget": "input validation risk",
+      "safeSyntheticOnly": true
+    },
+    {
+      "testId": "corpus-deduplication-benign-case",
+      "purpose": "Benign input should not be overflagged.",
+      "inputCase": "synthetic benign record",
+      "expectedBehavior": "low risk",
+      "falsificationTarget": "false-positive risk",
+      "safeSyntheticOnly": true
+    }
+  ],
+  "evidenceHash": "9742e8c36b0502a2b7f8c415960f48d0b7a20975d8db68c28af569fbef19e518"
+}
