@@ -1,0 +1,52 @@
+{
+  "kind": "pilot_opportunity",
+  "pilotId": "evidence-chain",
+  "opportunity": {
+    "opportunityId": "opp_d88ce5e73884",
+    "title": "Reproducible research replay",
+    "researchGoal": "Develop reproducible replay checks for autonomous research factory runs and public evidence packages.",
+    "sourceSignals": [
+      "preferred-4",
+      "Improves auditability without requiring network calls."
+    ],
+    "sourceTypes": [
+      "broad_goal"
+    ],
+    "relatedFactoryRuns": [],
+    "relatedInventions": [],
+    "openSourceValue": 85,
+    "evidenceAvailability": 55,
+    "noveltyGapStrength": 65,
+    "prototypeFeasibility": 80,
+    "defensivePublicationValue": 85,
+    "reproducibilityPotential": 85,
+    "strategicFit": 95,
+    "safetyRisk": 15,
+    "legalIpRisk": 15,
+    "duplicateRisk": 0,
+    "implementationComplexity": 35,
+    "sourceWeakness": 35,
+    "priorityScore": 79,
+    "priorityClass": "A",
+    "recommendedAction": "run_factory",
+    "rationale": [
+      "Priority score 79 from open-source value, evidence availability, novelty gap strength, feasibility, defensive-publication value, reproducibility, and strategic fit.",
+      "Safety risk 15; duplicate risk 0; source weakness 35."
+    ],
+    "requiredEvidence": [
+      "Factory source discovery evidence",
+      "Source cards or declared deterministic mock limitations",
+      "Claim/feature matrix",
+      "Counter-evidence",
+      "Prototype execution evidence",
+      "Factory replay before publication"
+    ],
+    "expectedPrototype": "A small executable prototype that demonstrates evidence scoring, source-card binding, replay, queue ranking, or prototype validation.",
+    "expectedTests": "Deterministic tests that fail when evidence hashes, queue bindings, or prototype outputs are stale.",
+    "limitations": [
+      "This opportunity is not a legal novelty, patentability, or freedom-to-operate conclusion."
+    ]
+  },
+  "opportunityScanHash": "c7757b91014a1023b633ae308153438438a9064c93950951c52af14a69ff3427",
+  "evidenceHash": "a1710f66b6f47b4ded91cf0e152518ad677b26edcd5448683a3974e2a3dc9ce9"
+}

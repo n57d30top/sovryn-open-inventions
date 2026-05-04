@@ -1,0 +1,16 @@
+{
+  "kind": "pilot_index",
+  "updatedAt": "2026-05-04T12:11:37.217Z",
+  "pilotCount": 3,
+  "pilotIds": [
+    "evidence-chain",
+    "toolchain-policy",
+    "corpus-deduplication"
+  ],
+  "releaseCandidateIds": [
+    "develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc",
+    "develop-a-policy-gated-toolchain-installation-protocol-for-autonomous-linux-rese",
+    "develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov"
+  ],
+  "evidenceHash": "56e349e4069ffe55d2c5b46d339c0bced3b137f3d76c22a3821c41c06f8c38fa"
+}

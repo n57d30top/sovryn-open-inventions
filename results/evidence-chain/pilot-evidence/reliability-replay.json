@@ -1,0 +1,86 @@
+{
+  "kind": "replay_all_report",
+  "replayedAt": "2026-05-04T12:11:17.689Z",
+  "factoryRunCount": 3,
+  "passedCount": 3,
+  "failedCount": 0,
+  "totalArtifacts": 4,
+  "replayCriticalArtifacts": 4,
+  "degradedCount": 0,
+  "skippedNonCritical": 0,
+  "replayPassRate": 100,
+  "replayCriticalPassRate": 100,
+  "blockingReplayFailures": [],
+  "nonBlockingReplayLimitations": [],
+  "recommendedFixes": [],
+  "results": [
+    {
+      "factoryId": "fac_20260504121116_a4e4470c",
+      "factorySlug": "develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov",
+      "artifactPath": ".sovryn/factory/develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov/replay-report.json",
+      "classification": "replay-critical",
+      "passed": true,
+      "failedGates": [],
+      "staleEvidence": [],
+      "blocking": false,
+      "recommendedFixes": [],
+      "error": null
+    },
+    {
+      "factoryId": "fac_20260504121115_afc012f9",
+      "factorySlug": "develop-a-policy-gated-toolchain-installation-protocol-for-autonomous-linux-rese",
+      "artifactPath": ".sovryn/factory/develop-a-policy-gated-toolchain-installation-protocol-for-autonomous-linux-rese/replay-report.json",
+      "classification": "replay-critical",
+      "passed": true,
+      "failedGates": [],
+      "staleEvidence": [],
+      "blocking": false,
+      "recommendedFixes": [],
+      "error": null
+    },
+    {
+      "factoryId": "fac_20260504121114_fc2cf008",
+      "factorySlug": "develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc",
+      "artifactPath": ".sovryn/factory/develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc/replay-report.json",
+      "classification": "replay-critical",
+      "passed": true,
+      "failedGates": [],
+      "staleEvidence": [],
+      "blocking": false,
+      "recommendedFixes": [],
+      "error": null
+    }
+  ],
+  "releaseCandidateReview": {
+    "checked": true,
+    "passed": true,
+    "failedGates": [],
+    "error": null,
+    "classification": "replay-critical",
+    "blocking": false,
+    "recommendedFixes": []
+  },
+  "checks": [
+    {
+      "code": "REPLAY_ALL_PASSED",
+      "passed": true,
+      "severity": "info",
+      "message": "All factory runs and release candidates should replay or review cleanly.",
+      "details": {
+        "failedFactoryRuns": 0,
+        "releaseCandidateReview": {
+          "checked": true,
+          "passed": true,
+          "failedGates": [],
+          "error": null,
+          "classification": "replay-critical",
+          "blocking": false,
+          "recommendedFixes": []
+        },
+        "replayCriticalPassRate": 100
+      }
+    }
+  ],
+  "passed": true,
+  "evidenceHash": "243fc5a8301bd04099dfb20d3f91bb55eab928dc85516b1f9b63ab19432a9bc9"
+}

@@ -1,0 +1,244 @@
+{
+  "kind": "factory_paper_readings",
+  "evidenceHash": "0752e6049aab3e064f46e583e2fd28ef1e64cf59a6cb66be260b3618d97e148c",
+  "summary": {
+    "sourceReadingsEvidenceHash": "bd3ec6335bff61e98e17502ef9f22793cd39a30adfbd3e1a72e9e617437a0c2b",
+    "paperCount": 6,
+    "fulltextLikeCount": 3,
+    "metadataOnlyCount": 3,
+    "papers": [
+      {
+        "paperId": "paper-1",
+        "sourceId": "source-7",
+        "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+        "url": "https://arxiv.org/abs/2308.08155",
+        "citation": "Wu et al., AutoGen (2023), arXiv:2308.08155",
+        "readingDepth": "paper_fulltext_level",
+        "authors": [
+          "Fixture Author",
+          "Sovryn Research Fixture"
+        ],
+        "year": 2023,
+        "sectionsDetected": [
+          "abstract",
+          "method",
+          "evaluation",
+          "limitations"
+        ],
+        "methodClaims": [
+          "Extract method, experiment, and limitation sections from bounded fixture fulltext; do not store raw paper content.",
+          "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+          "Research artifacts should be compared against evidence-bound replay and publication gates."
+        ],
+        "evaluationClaims": [
+          "Fixture fulltext-like evaluation claims are planned evidence only and should be verified against real paper text."
+        ],
+        "limitations": [
+          "Fixture reading is deterministic and bounded; human review is still required.",
+          "Fixture summary is not a legal novelty or patentability conclusion.",
+          "The paper does not claim Sovryn's open invention dossier, counter-evidence, replay, and curated dry-run publication chain. Compare against Sovryn factory source cards, claim matrix, prototype execution, and gated dry-run publication.",
+          "No raw full source content is stored in factory evidence."
+        ],
+        "boundedFulltextAvailable": true,
+        "evidenceRefs": [
+          "source-7",
+          "86b8713ab0197b9cdc0409d602431d800b2a0b5d2c2e0a4fe11c7d7fab578b9f"
+        ]
+      },
+      {
+        "paperId": "paper-2",
+        "sourceId": "source-8",
+        "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+        "url": "https://arxiv.org/abs/2308.08155",
+        "citation": "Wu et al., AutoGen (2023), arXiv:2308.08155",
+        "readingDepth": "paper_fulltext_level",
+        "authors": [
+          "Fixture Author",
+          "Sovryn Research Fixture"
+        ],
+        "year": 2023,
+        "sectionsDetected": [
+          "abstract",
+          "method",
+          "evaluation",
+          "limitations"
+        ],
+        "methodClaims": [
+          "Extract method, experiment, and limitation sections from bounded fixture fulltext; do not store raw paper content.",
+          "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+          "Research artifacts should be compared against evidence-bound replay and publication gates."
+        ],
+        "evaluationClaims": [
+          "Fixture fulltext-like evaluation claims are planned evidence only and should be verified against real paper text."
+        ],
+        "limitations": [
+          "Fixture reading is deterministic and bounded; human review is still required.",
+          "Fixture summary is not a legal novelty or patentability conclusion.",
+          "The paper does not claim Sovryn's open invention dossier, counter-evidence, replay, and curated dry-run publication chain. Compare against Sovryn factory source cards, claim matrix, prototype execution, and gated dry-run publication.",
+          "No raw full source content is stored in factory evidence."
+        ],
+        "boundedFulltextAvailable": true,
+        "evidenceRefs": [
+          "source-8",
+          "a72a87ce8e483861d01785befe4add34830c5b5834097262af9d47a64971410f"
+        ]
+      },
+      {
+        "paperId": "paper-3",
+        "sourceId": "source-9",
+        "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+        "url": "https://arxiv.org/abs/2308.08155",
+        "citation": "Wu et al., AutoGen (2023), arXiv:2308.08155",
+        "readingDepth": "paper_fulltext_level",
+        "authors": [
+          "Fixture Author",
+          "Sovryn Research Fixture"
+        ],
+        "year": 2023,
+        "sectionsDetected": [
+          "abstract",
+          "method",
+          "evaluation",
+          "limitations"
+        ],
+        "methodClaims": [
+          "Extract method, experiment, and limitation sections from bounded fixture fulltext; do not store raw paper content.",
+          "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+          "Research artifacts should be compared against evidence-bound replay and publication gates."
+        ],
+        "evaluationClaims": [
+          "Fixture fulltext-like evaluation claims are planned evidence only and should be verified against real paper text."
+        ],
+        "limitations": [
+          "Fixture reading is deterministic and bounded; human review is still required.",
+          "Fixture summary is not a legal novelty or patentability conclusion.",
+          "The paper does not claim Sovryn's open invention dossier, counter-evidence, replay, and curated dry-run publication chain. Compare against Sovryn factory source cards, claim matrix, prototype execution, and gated dry-run publication.",
+          "No raw full source content is stored in factory evidence."
+        ],
+        "boundedFulltextAvailable": true,
+        "evidenceRefs": [
+          "source-9",
+          "6294320bf6c1e4ed071286676ca548f61c068586b275ea3d84fed4aa5cd4ff98"
+        ]
+      },
+      {
+        "paperId": "paper-4",
+        "sourceId": "source-10",
+        "title": "OpenAlex work lead for reproducible agent research workflows",
+        "url": "https://openalex.org/W4380000000",
+        "citation": "OpenAlex fixture work for reproducible agent research workflows",
+        "readingDepth": "abstract_level",
+        "authors": [
+          "Fixture Author",
+          "Sovryn Research Fixture"
+        ],
+        "year": 2023,
+        "sectionsDetected": [
+          "abstract",
+          "method",
+          "evaluation",
+          "limitations"
+        ],
+        "methodClaims": [
+          "Use abstract and metadata as bounded research evidence; do not infer full paper details.",
+          "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+          "Research artifacts should be compared against evidence-bound replay and publication gates."
+        ],
+        "evaluationClaims": [
+          "Evaluation claims remain abstract-level unless full source text is reviewed."
+        ],
+        "limitations": [
+          "Fixture reading is deterministic and bounded; human review is still required.",
+          "Fixture summary is not a legal novelty or patentability conclusion.",
+          "The fixture does not describe Sovryn's evidence-bound defensive-publication release package. Compare against Sovryn factory source cards, claim matrix, prototype execution, and gated dry-run publication.",
+          "No raw full source content is stored in factory evidence."
+        ],
+        "boundedFulltextAvailable": false,
+        "evidenceRefs": [
+          "source-10",
+          "49fc985e5264f58843b19dd0424485d1f2aa7168a0f4f59ddf17f9a85e6b5e79"
+        ]
+      },
+      {
+        "paperId": "paper-5",
+        "sourceId": "source-11",
+        "title": "OpenAlex work lead for reproducible agent research workflows",
+        "url": "https://openalex.org/W4380000000",
+        "citation": "OpenAlex fixture work for reproducible agent research workflows",
+        "readingDepth": "abstract_level",
+        "authors": [
+          "Fixture Author",
+          "Sovryn Research Fixture"
+        ],
+        "year": 2023,
+        "sectionsDetected": [
+          "abstract",
+          "method",
+          "evaluation",
+          "limitations"
+        ],
+        "methodClaims": [
+          "Use abstract and metadata as bounded research evidence; do not infer full paper details.",
+          "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+          "Research artifacts should be compared against evidence-bound replay and publication gates."
+        ],
+        "evaluationClaims": [
+          "Evaluation claims remain abstract-level unless full source text is reviewed."
+        ],
+        "limitations": [
+          "Fixture reading is deterministic and bounded; human review is still required.",
+          "Fixture summary is not a legal novelty or patentability conclusion.",
+          "The fixture does not describe Sovryn's evidence-bound defensive-publication release package. Compare against Sovryn factory source cards, claim matrix, prototype execution, and gated dry-run publication.",
+          "No raw full source content is stored in factory evidence."
+        ],
+        "boundedFulltextAvailable": false,
+        "evidenceRefs": [
+          "source-11",
+          "76d7e83d9e7cfb74a0edc70952cc333f48d64c99996b5b5368ffc4981f358827"
+        ]
+      },
+      {
+        "paperId": "paper-6",
+        "sourceId": "source-12",
+        "title": "OpenAlex work lead for reproducible agent research workflows",
+        "url": "https://openalex.org/W4380000000",
+        "citation": "OpenAlex fixture work for reproducible agent research workflows",
+        "readingDepth": "abstract_level",
+        "authors": [
+          "Fixture Author",
+          "Sovryn Research Fixture"
+        ],
+        "year": 2023,
+        "sectionsDetected": [
+          "abstract",
+          "method",
+          "evaluation",
+          "limitations"
+        ],
+        "methodClaims": [
+          "Use abstract and metadata as bounded research evidence; do not infer full paper details.",
+          "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+          "Research artifacts should be compared against evidence-bound replay and publication gates."
+        ],
+        "evaluationClaims": [
+          "Evaluation claims remain abstract-level unless full source text is reviewed."
+        ],
+        "limitations": [
+          "Fixture reading is deterministic and bounded; human review is still required.",
+          "Fixture summary is not a legal novelty or patentability conclusion.",
+          "The fixture does not describe Sovryn's evidence-bound defensive-publication release package. Compare against Sovryn factory source cards, claim matrix, prototype execution, and gated dry-run publication.",
+          "No raw full source content is stored in factory evidence."
+        ],
+        "boundedFulltextAvailable": false,
+        "evidenceRefs": [
+          "source-12",
+          "a68e54d5888ac1c902a704ccd736491d16d6a8a70f1da3bfef8b876ac3f980dc"
+        ]
+      }
+    ],
+    "limitations": [
+      "Paper readings are bounded summaries and are not legal novelty conclusions.",
+      "At least one paper remains metadata/abstract level; fulltext comparison is incomplete."
+    ]
+  }
+}

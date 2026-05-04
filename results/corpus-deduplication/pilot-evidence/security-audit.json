@@ -1,0 +1,162 @@
+{
+  "publicReleaseAudit": {
+    "kind": "public_release_audit",
+    "auditedAt": "2026-05-04T12:11:30.569Z",
+    "targetPath": ".sovryn/factory/develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov/release/public",
+    "fileCount": 32,
+    "totalBytes": 176286,
+    "findings": [],
+    "checks": [
+      {
+        "code": "NO_RAW_LOGS_IN_RELEASE",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not include raw command logs, stdout, or stderr.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_SECRETS_IN_RELEASE",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not include secret-like values.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_LOCAL_PATHS_IN_RELEASE",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not include local absolute paths.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_FAKE_SANDBOX_CLAIMS",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not overstate sandbox isolation.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_FAKE_PATENT_CLAIMS",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not contain legal patentability claims.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "PUBLIC_RELEASE_SIZE_LIMITED",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must remain small enough for human review.",
+        "details": {
+          "totalBytes": 176286,
+          "maxBytes": 2000000
+        }
+      },
+      {
+        "code": "PUBLIC_RELEASE_CURATED_ONLY",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must contain only curated summary/report artifacts.",
+        "details": {
+          "findingCount": 0
+        }
+      }
+    ],
+    "passed": true,
+    "evidenceHash": "3e23f944ca07c800e8cce775d8fd5040869140358315d958d97b2c35cd113e2f"
+  },
+  "safetyScan": {
+    "kind": "release_safety_scan",
+    "scannedAt": "2026-05-04T12:11:30.578Z",
+    "targetPath": ".sovryn/factory/develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov/release/public",
+    "findings": [],
+    "checks": [
+      {
+        "code": "NO_RAW_LOGS_IN_RELEASE",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not include raw command logs, stdout, or stderr.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_SECRETS_IN_RELEASE",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not include secret-like values.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_LOCAL_PATHS_IN_RELEASE",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not include local absolute paths.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_FAKE_SANDBOX_CLAIMS",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not overstate sandbox isolation.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_FAKE_PATENT_CLAIMS",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not contain legal patentability claims.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "PUBLIC_RELEASE_SIZE_LIMITED",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must remain small enough for human review.",
+        "details": {
+          "totalBytes": 176286,
+          "maxBytes": 2000000
+        }
+      },
+      {
+        "code": "PUBLIC_RELEASE_CURATED_ONLY",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must contain only curated summary/report artifacts.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_UNSAFE_RELEASE_CONTENT",
+        "passed": true,
+        "severity": "info",
+        "message": "Release must not contain harmful or abusive instructions.",
+        "details": {
+          "findingCount": 0
+        }
+      }
+    ],
+    "blocked": false,
+    "evidenceHash": "a6a8bc11d05b4a5634652bfc7089e2f66016a2425b29c95572b622ecf9c0da12"
+  },
+  "evidenceHash": "a40d8de189d29efdf3c77a67ecfe377c7d14442d9867a10d0bb9d89e4383ba83"
+}

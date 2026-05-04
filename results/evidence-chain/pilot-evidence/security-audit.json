@@ -1,0 +1,162 @@
+{
+  "publicReleaseAudit": {
+    "kind": "public_release_audit",
+    "auditedAt": "2026-05-04T12:11:17.468Z",
+    "targetPath": ".sovryn/factory/develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc/release/public",
+    "fileCount": 32,
+    "totalBytes": 176304,
+    "findings": [],
+    "checks": [
+      {
+        "code": "NO_RAW_LOGS_IN_RELEASE",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not include raw command logs, stdout, or stderr.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_SECRETS_IN_RELEASE",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not include secret-like values.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_LOCAL_PATHS_IN_RELEASE",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not include local absolute paths.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_FAKE_SANDBOX_CLAIMS",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not overstate sandbox isolation.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_FAKE_PATENT_CLAIMS",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not contain legal patentability claims.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "PUBLIC_RELEASE_SIZE_LIMITED",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must remain small enough for human review.",
+        "details": {
+          "totalBytes": 176304,
+          "maxBytes": 2000000
+        }
+      },
+      {
+        "code": "PUBLIC_RELEASE_CURATED_ONLY",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must contain only curated summary/report artifacts.",
+        "details": {
+          "findingCount": 0
+        }
+      }
+    ],
+    "passed": true,
+    "evidenceHash": "4464c177c4b224f94a55ee3f048773e5bbcfa1738c4e198adec886e4f5231290"
+  },
+  "safetyScan": {
+    "kind": "release_safety_scan",
+    "scannedAt": "2026-05-04T12:11:17.476Z",
+    "targetPath": ".sovryn/factory/develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc/release/public",
+    "findings": [],
+    "checks": [
+      {
+        "code": "NO_RAW_LOGS_IN_RELEASE",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not include raw command logs, stdout, or stderr.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_SECRETS_IN_RELEASE",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not include secret-like values.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_LOCAL_PATHS_IN_RELEASE",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not include local absolute paths.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_FAKE_SANDBOX_CLAIMS",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not overstate sandbox isolation.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_FAKE_PATENT_CLAIMS",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not contain legal patentability claims.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "PUBLIC_RELEASE_SIZE_LIMITED",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must remain small enough for human review.",
+        "details": {
+          "totalBytes": 176304,
+          "maxBytes": 2000000
+        }
+      },
+      {
+        "code": "PUBLIC_RELEASE_CURATED_ONLY",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must contain only curated summary/report artifacts.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_UNSAFE_RELEASE_CONTENT",
+        "passed": true,
+        "severity": "info",
+        "message": "Release must not contain harmful or abusive instructions.",
+        "details": {
+          "findingCount": 0
+        }
+      }
+    ],
+    "blocked": false,
+    "evidenceHash": "f4da585dd8cf669738e3dd74dcf0a1b7b2facd13dc48c517eb0022f2afe53559"
+  },
+  "evidenceHash": "f12439133a0a14cb556afd5f0c8e94b8778c08583123fdf77aa56d62ec77583a"
+}

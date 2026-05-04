@@ -1,0 +1,210 @@
+{
+  "kind": "publication_governance_review",
+  "reviewedAt": "2026-05-04T12:11:31.141Z",
+  "candidate": {
+    "candidateId": "develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov",
+    "title": "Evidence-gated research factory for Develop a corpus deduplication method for defensive...",
+    "researchGoal": "Develop a corpus deduplication method for defensive publications that detects overlapping Open Inventions using source cards, claim features, and release metadata.",
+    "factoryId": "fac_20260504121116_a4e4470c",
+    "factorySlug": "develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov",
+    "inventionMissionId": "mis_20260504121116_74b18004",
+    "inventionSlug": "evidence-gated-research-factory-for-develop-a-corpus-deduplication-met",
+    "readinessLabel": "strong",
+    "candidateStatus": "dry_run_ready",
+    "qualityLabel": "good",
+    "score": {
+      "releaseReadinessScore": 88,
+      "publicEvidenceScore": 85,
+      "reproducibilityScore": 100,
+      "sourceStrengthScore": 100,
+      "evidenceStrengthScore": 100,
+      "noveltyRiskScore": 65,
+      "safetyRiskScore": 90,
+      "publicationSafetyScore": 90,
+      "corpusDuplicateRisk": 0,
+      "qualityLabel": "good",
+      "humanReviewPriority": "medium"
+    },
+    "gates": [
+      {
+        "code": "RELEASE_CANDIDATE_COMPLETE",
+        "passed": true,
+        "message": "Release candidate must bind Factory run, Open Invention mission, public release path, and publication intent.",
+        "details": {
+          "factoryId": "fac_20260504121116_a4e4470c",
+          "inventionMissionId": "mis_20260504121116_74b18004"
+        }
+      },
+      {
+        "code": "FACTORY_REPLAY_PASSED",
+        "passed": true,
+        "message": "Factory replay evidence must exist.",
+        "details": {
+          "factorySlug": "develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov"
+        }
+      },
+      {
+        "code": "PUBLIC_EVIDENCE_COMPLETE",
+        "passed": true,
+        "message": "Curated public evidence package must include report and score summary.",
+        "details": {
+          "releasePath": ".sovryn/factory/develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov/release/public"
+        }
+      },
+      {
+        "code": "PROTOTYPE_EXECUTION_PASSED",
+        "passed": true,
+        "message": "Prototype execution must pass and contribute reproducibility evidence.",
+        "details": {
+          "reproducibilityScore": 100
+        }
+      },
+      {
+        "code": "CORPUS_DUPLICATE_REVIEWED",
+        "passed": true,
+        "message": "Corpus duplicate risk must be reviewed before publication.",
+        "details": {
+          "corpusDuplicateRisk": 0
+        }
+      },
+      {
+        "code": "NO_RAW_LOGS_IN_RELEASE",
+        "passed": true,
+        "message": "Release package must not contain raw command logs.",
+        "details": {
+          "rawLogFiles": []
+        }
+      },
+      {
+        "code": "NO_SECRETS_IN_RELEASE",
+        "passed": true,
+        "message": "Release package must not contain detected secrets.",
+        "details": {
+          "secretFindings": []
+        }
+      },
+      {
+        "code": "NO_LEGAL_PATENTABILITY_CLAIMS",
+        "passed": true,
+        "message": "Release package must not make legal patentability or freedom-to-operate claims.",
+        "details": {
+          "hits": []
+        }
+      },
+      {
+        "code": "QUALITY_SCORE_ABOVE_MINIMUM",
+        "passed": true,
+        "message": "Release candidates require a quality evaluation above the configured minimum.",
+        "details": {
+          "factoryId": "fac_20260504121116_a4e4470c",
+          "qualityScore": 91,
+          "qualityLabel": "excellent",
+          "minReleaseQualityScore": 70
+        }
+      },
+      {
+        "code": "HUMAN_REVIEW_REQUIRED_FOR_REAL_PUBLISH",
+        "passed": true,
+        "message": "Real publication requires human review.",
+        "details": {}
+      }
+    ],
+    "releasePath": ".sovryn/factory/develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov/release/public",
+    "publicationIntentPath": ".sovryn/factory/develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov/factory-publication-intent.json",
+    "corpusDuplicateRiskReviewed": true,
+    "humanReviewRequired": true,
+    "limitations": [
+      "Release candidates require human review before any real publication.",
+      "Fixture-backed evidence is suitable for deterministic Alpha demos and must be replaced or reviewed for serious publication.",
+      "This is not a legal patent filing, patentability opinion, or freedom-to-operate opinion."
+    ],
+    "evidenceHash": "678e439057df7db7fae74a128e4b1c0c580094cb20c11f29c1c6ef926b91960d"
+  },
+  "policy": {
+    "allowAutonomousPublish": false,
+    "requireHumanApproval": true,
+    "minimumQualityLabel": "excellent",
+    "requireSecurityAudit": true,
+    "requireReliabilityReplay": true,
+    "requireNoPublicLeaks": true,
+    "maxReposPerDay": 3,
+    "allowedOrg": "sovryn-open-inventions"
+  },
+  "gates": [
+    {
+      "code": "PUBLICATION_POLICY_PRESENT",
+      "passed": true,
+      "message": "Publication policy exists.",
+      "details": {
+        "allowAutonomousPublish": false
+      }
+    },
+    {
+      "code": "PUBLICATION_APPROVAL_PRESENT",
+      "passed": false,
+      "message": "Human approval is required for real publication.",
+      "details": {
+        "approvalPresent": false
+      }
+    },
+    {
+      "code": "QUALITY_GATE_FOR_PUBLICATION",
+      "passed": true,
+      "message": "Release candidate must meet minimum quality score.",
+      "details": {
+        "releaseReadinessScore": 88
+      }
+    },
+    {
+      "code": "SECURITY_AUDIT_FOR_PUBLICATION",
+      "passed": true,
+      "message": "Security audit must pass before publication.",
+      "details": {
+        "securityAuditHash": "eae3dba99665a744a411ea88fef95efcd74452c85bdad6040ac723a8bbc5b9bf"
+      }
+    },
+    {
+      "code": "RELIABILITY_REPLAY_FOR_PUBLICATION",
+      "passed": true,
+      "message": "Reliability replay must pass before publication.",
+      "details": {
+        "reliabilityAuditHash": "5532c06515366a72df86984f45ee7ea38b3aa82b7e61a3c198ddd5972d631250"
+      }
+    },
+    {
+      "code": "NO_PUBLICATION_SPAM",
+      "passed": true,
+      "message": "Publication policy must cap daily repositories.",
+      "details": {
+        "maxReposPerDay": 3
+      }
+    },
+    {
+      "code": "ORG_RESTRICTION_ENFORCED",
+      "passed": true,
+      "message": "Publication policy must restrict the target organization.",
+      "details": {
+        "allowedOrg": "sovryn-open-inventions"
+      }
+    },
+    {
+      "code": "TOKEN_SCOPE_REVIEWED",
+      "passed": true,
+      "message": "Token values remain with Sovryn Controller and are not written to publication artifacts.",
+      "details": {
+        "tokenValueStored": false
+      }
+    },
+    {
+      "code": "REAL_PUBLISH_DISABLED_BY_DEFAULT",
+      "passed": true,
+      "message": "Real publish must remain disabled by default.",
+      "details": {
+        "allowAutonomousPublish": false
+      }
+    }
+  ],
+  "dryRunAllowed": true,
+  "realPublishAllowed": false,
+  "evidenceHash": "3c904080ae32a7be47b7872ebbed0073ee10f2984b8664c84d88b3a979672eef"
+}

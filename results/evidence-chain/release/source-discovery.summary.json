@@ -1,0 +1,161 @@
+{
+  "kind": "factory_source_discovery",
+  "concreteSourceCount": 12,
+  "adapterFailureCount": 3,
+  "queryLinkCount": 6,
+  "mockPlaceholderCount": 0,
+  "limitations": [
+    "Query links are research leads, not reviewed prior art.",
+    "One or more public-source adapters failed and require retry or manual review."
+  ],
+  "results": [
+    {
+      "kind": "adapter_failure",
+      "title": "web-search fixture failed",
+      "sourceType": "web",
+      "url": null,
+      "citation": null
+    },
+    {
+      "kind": "adapter_failure",
+      "title": "web-search fixture failed",
+      "sourceType": "web",
+      "url": null,
+      "citation": null
+    },
+    {
+      "kind": "adapter_failure",
+      "title": "web-search fixture failed",
+      "sourceType": "web",
+      "url": null,
+      "citation": null
+    },
+    {
+      "kind": "concrete_source",
+      "title": "microsoft/autogen",
+      "sourceType": "github",
+      "url": "https://github.com/microsoft/autogen",
+      "citation": "GitHub repository: microsoft/autogen"
+    },
+    {
+      "kind": "concrete_source",
+      "title": "microsoft/autogen",
+      "sourceType": "github",
+      "url": "https://github.com/microsoft/autogen",
+      "citation": "GitHub repository: microsoft/autogen"
+    },
+    {
+      "kind": "concrete_source",
+      "title": "microsoft/autogen",
+      "sourceType": "github",
+      "url": "https://github.com/microsoft/autogen",
+      "citation": "GitHub repository: microsoft/autogen"
+    },
+    {
+      "kind": "concrete_source",
+      "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+      "sourceType": "paper",
+      "url": "https://arxiv.org/abs/2308.08155",
+      "citation": "Wu et al., AutoGen (2023), arXiv:2308.08155"
+    },
+    {
+      "kind": "concrete_source",
+      "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+      "sourceType": "paper",
+      "url": "https://arxiv.org/abs/2308.08155",
+      "citation": "Wu et al., AutoGen (2023), arXiv:2308.08155"
+    },
+    {
+      "kind": "concrete_source",
+      "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+      "sourceType": "paper",
+      "url": "https://arxiv.org/abs/2308.08155",
+      "citation": "Wu et al., AutoGen (2023), arXiv:2308.08155"
+    },
+    {
+      "kind": "concrete_source",
+      "title": "OpenAlex work lead for reproducible agent research workflows",
+      "sourceType": "paper",
+      "url": "https://openalex.org/W4380000000",
+      "citation": "OpenAlex fixture work for reproducible agent research workflows"
+    },
+    {
+      "kind": "concrete_source",
+      "title": "OpenAlex work lead for reproducible agent research workflows",
+      "sourceType": "paper",
+      "url": "https://openalex.org/W4380000000",
+      "citation": "OpenAlex fixture work for reproducible agent research workflows"
+    },
+    {
+      "kind": "concrete_source",
+      "title": "OpenAlex work lead for reproducible agent research workflows",
+      "sourceType": "paper",
+      "url": "https://openalex.org/W4380000000",
+      "citation": "OpenAlex fixture work for reproducible agent research workflows"
+    },
+    {
+      "kind": "concrete_source",
+      "title": "US20240123456A1 Structured research workflow evidence fixture",
+      "sourceType": "patent",
+      "url": "https://patents.google.com/patent/US20240123456A1/en",
+      "citation": "US20240123456A1 fixture patent-source abstraction"
+    },
+    {
+      "kind": "concrete_source",
+      "title": "US20240123456A1 Structured research workflow evidence fixture",
+      "sourceType": "patent",
+      "url": "https://patents.google.com/patent/US20240123456A1/en",
+      "citation": "US20240123456A1 fixture patent-source abstraction"
+    },
+    {
+      "kind": "concrete_source",
+      "title": "US20240123456A1 Structured research workflow evidence fixture",
+      "sourceType": "patent",
+      "url": "https://patents.google.com/patent/US20240123456A1/en",
+      "citation": "US20240123456A1 fixture patent-source abstraction"
+    },
+    {
+      "kind": "query_link",
+      "title": "Patent search lead for autonomous research evidence",
+      "sourceType": "patent",
+      "url": "https://patents.google.com/?q=autonomous+research+evidence",
+      "citation": null
+    },
+    {
+      "kind": "query_link",
+      "title": "Patent search lead for autonomous research evidence",
+      "sourceType": "patent",
+      "url": "https://patents.google.com/?q=autonomous+research+evidence",
+      "citation": null
+    },
+    {
+      "kind": "query_link",
+      "title": "Patent search lead for autonomous research evidence",
+      "sourceType": "patent",
+      "url": "https://patents.google.com/?q=autonomous+research+evidence",
+      "citation": null
+    },
+    {
+      "kind": "query_link",
+      "title": "Standards search lead for research artifact metadata",
+      "sourceType": "standard",
+      "url": "https://www.ietf.org/search/?q=research+artifact+metadata",
+      "citation": null
+    },
+    {
+      "kind": "query_link",
+      "title": "Standards search lead for research artifact metadata",
+      "sourceType": "standard",
+      "url": "https://www.ietf.org/search/?q=research+artifact+metadata",
+      "citation": null
+    },
+    {
+      "kind": "query_link",
+      "title": "Standards search lead for research artifact metadata",
+      "sourceType": "standard",
+      "url": "https://www.ietf.org/search/?q=research+artifact+metadata",
+      "citation": null
+    }
+  ],
+  "evidenceHash": "0e64d5a15b13827fdd7167aa95a15bf15ebb22247f4fa18956a21d79c7ea4ece"
+}

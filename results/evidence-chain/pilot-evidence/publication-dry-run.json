@@ -1,0 +1,16 @@
+{
+  "kind": "publication_ledger",
+  "updatedAt": "2026-05-04T12:11:18.609Z",
+  "entries": [
+    {
+      "candidateId": "develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc",
+      "mode": "dry-run",
+      "status": "dry_run_prepared",
+      "reason": "Dry-run publication package is prepared for human review.",
+      "tokenExposed": false,
+      "humanReviewRequired": true,
+      "realPublishDisabledByDefault": true
+    }
+  ],
+  "evidenceHash": "60f80587e7a9aabf328de2d1e6304c98511f2b20fe688736e94ad6edb4429730"
+}

@@ -1,0 +1,81 @@
+{
+  "kind": "factory_novelty_gap_map",
+  "evidenceHash": "62e027e4fc1275017912a0e264c9599908695d2584b9250725dab8ae23426b75",
+  "summary": {
+    "featureMatrixEvidenceHash": "73a17960b32ac493e8b0d14c66e653b5ae463719c8adc52fb4b25f58cc5cf62c",
+    "gaps": [
+      {
+        "gapId": "evidence-bound-research-factory",
+        "description": "Candidate novelty gap: combine source discovery, source reading, feature extraction, candidate selection, prototype verification, and release packaging in one auditable open-source factory.",
+        "sourceOverlapSummary": "Sources overlap on evidence traces, agent verification, and reproducible research workflows.",
+        "missingInSources": [
+          "manual review of query links",
+          "retry failed adapters"
+        ],
+        "possibleDifferentiator": "possible differentiator: source-card-backed evidence gates plus generated Open Invention dossiers and sandbox-local prototype execution.",
+        "whyItCouldMatter": "A complete evidence chain can make open defensive publication artifacts more credible and reproducible.",
+        "whyItMayAlreadyExist": "Existing research automation, CI systems, lab notebooks, or agent frameworks may already implement overlapping workflows.",
+        "requiredExperiment": "Run a fixture-backed factory cycle and verify source-card, matrix, prototype-execution, and dry-run publication evidence.",
+        "supportingEvidence": [
+          "source-feature-1",
+          "source-feature-2",
+          "source-feature-3"
+        ],
+        "whyItMayBeNovel": "The combination may differentiate from standalone agent runners, literature search tools, or documentation generators by binding each step to publishable evidence.",
+        "whyItMayNotBeNovel": "Existing research automation, CI systems, lab notebooks, or agent frameworks may already implement overlapping workflows.",
+        "evidenceStrength": "medium",
+        "researchRisk": "high",
+        "prototypeFeasibility": "high",
+        "recommendedNextAction": "Prototype a deterministic evidence scorer that rejects query-link-only prior-art evidence."
+      },
+      {
+        "gapId": "curated-public-evidence-without-raw-logs",
+        "description": "Candidate novelty gap: publish public research evidence summaries while keeping raw command logs and local execution details private.",
+        "sourceOverlapSummary": "Existing release systems may publish logs, summaries, or redacted artifacts.",
+        "missingInSources": [
+          "factory-specific public evidence allowlist"
+        ],
+        "possibleDifferentiator": "possible differentiator: factory-level public release curation tied to research evidence hashes.",
+        "whyItCouldMatter": "Public readers can inspect evidence quality without seeing private local paths, tokens, or raw command output.",
+        "whyItMayAlreadyExist": "Many CI and release systems already redact logs or publish summaries; compare carefully.",
+        "requiredExperiment": "Package release/public and assert it contains no stdout, stderr, command journal, or absolute local paths.",
+        "supportingEvidence": [
+          "curated-public-evidence-release"
+        ],
+        "whyItMayBeNovel": "It may improve open defensive publication credibility without leaking unnecessary operational data.",
+        "whyItMayNotBeNovel": "Many CI and release systems already redact logs or publish summaries; compare carefully.",
+        "evidenceStrength": "medium",
+        "researchRisk": "medium",
+        "prototypeFeasibility": "high",
+        "recommendedNextAction": "Verify release/public contains only curated summaries and no stdout/stderr logs."
+      },
+      {
+        "gapId": "mock-aware-research-quality-gate",
+        "description": "Candidate novelty gap: cap factory readiness when evidence consists of query links, adapter failures, or mock placeholders.",
+        "sourceOverlapSummary": "Related systems may score quality, but often do not distinguish query links, adapter failures, and mock placeholders as separate evidence classes.",
+        "missingInSources": [
+          "manual review of query links",
+          "retry failed adapters"
+        ],
+        "possibleDifferentiator": "possible differentiator: strict evidence mode turns weak source classes into explicit blockers.",
+        "whyItCouldMatter": "It prevents generated research documents from appearing stronger than their source evidence supports.",
+        "whyItMayAlreadyExist": "Quality gates and confidence scoring are common; the differentiator must be the specific open-invention evidence model.",
+        "requiredExperiment": "Enable strictEvidenceMode and verify no concrete sources or no source reads block the factory run.",
+        "supportingEvidence": [
+          "manual review of query links",
+          "retry failed adapters"
+        ],
+        "whyItMayBeNovel": "It directly encodes evidence weakness into release readiness rather than presenting generated dossiers as equally trustworthy.",
+        "whyItMayNotBeNovel": "Quality gates and confidence scoring are common; the differentiator must be the specific open-invention evidence model.",
+        "evidenceStrength": "low",
+        "researchRisk": "medium",
+        "prototypeFeasibility": "high",
+        "recommendedNextAction": "Test scoring caps for missing concrete sources, missing prototype, and missing tests."
+      }
+    ],
+    "limitations": [
+      "These are candidate novelty gaps, not legal novelty or patentability conclusions.",
+      "Each gap requires human review against concrete prior art before serious use."
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "kind": "factory_counter_evidence",
+  "evidenceHash": "81e7d2e97f7797270ea12307345f8435262bbcd161b94ab704929dd6f24c8390",
+  "summary": {
+    "claimFeatureMatrixEvidenceHash": "73a17960b32ac493e8b0d14c66e653b5ae463719c8adc52fb4b25f58cc5cf62c",
+    "sourceCardsEvidenceHash": "7edf9d63acd1dd86a35862c359768f3279ca627abba652029a9769c3f2bf14e5",
+    "items": [
+      {
+        "itemId": "counter-1",
+        "sourceCardId": "source-4",
+        "claimFeatureId": "source-feature-1",
+        "overlapDescription": "Examples and tests can inform prototype expectations for research agents.",
+        "whyItWeakensNovelty": "Source-supported overlap means the selected candidate must not present this feature as new without a clearer differentiator.",
+        "whyItMayNotFullyCoverCandidate": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "riskLevel": "high",
+        "requiredFollowUpSearch": "Review the concrete source and search for additional implementations before public release.",
+        "recommendedAction": "Keep this as counter-evidence in the defensive publication dossier and use careful non-legal language."
+      },
+      {
+        "itemId": "counter-2",
+        "sourceCardId": "source-5",
+        "claimFeatureId": "source-feature-2",
+        "overlapDescription": "Examples and tests can inform prototype expectations for research agents.",
+        "whyItWeakensNovelty": "Source-supported overlap means the selected candidate must not present this feature as new without a clearer differentiator.",
+        "whyItMayNotFullyCoverCandidate": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "riskLevel": "high",
+        "requiredFollowUpSearch": "Review the concrete source and search for additional implementations before public release.",
+        "recommendedAction": "Keep this as counter-evidence in the defensive publication dossier and use careful non-legal language."
+      },
+      {
+        "itemId": "counter-3",
+        "sourceCardId": "source-6",
+        "claimFeatureId": "source-feature-3",
+        "overlapDescription": "Examples and tests can inform prototype expectations for research agents.",
+        "whyItWeakensNovelty": "Source-supported overlap means the selected candidate must not present this feature as new without a clearer differentiator.",
+        "whyItMayNotFullyCoverCandidate": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "riskLevel": "high",
+        "requiredFollowUpSearch": "Review the concrete source and search for additional implementations before public release.",
+        "recommendedAction": "Keep this as counter-evidence in the defensive publication dossier and use careful non-legal language."
+      },
+      {
+        "itemId": "counter-4",
+        "sourceCardId": "source-7",
+        "claimFeatureId": "source-feature-4",
+        "overlapDescription": "Research artifacts should be compared against evidence-bound replay and publication gates.",
+        "whyItWeakensNovelty": "Source-supported overlap means the selected candidate must not present this feature as new without a clearer differentiator.",
+        "whyItMayNotFullyCoverCandidate": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "riskLevel": "high",
+        "requiredFollowUpSearch": "Review the concrete source and search for additional implementations before public release.",
+        "recommendedAction": "Keep this as counter-evidence in the defensive publication dossier and use careful non-legal language."
+      },
+      {
+        "itemId": "counter-5",
+        "sourceCardId": "source-8",
+        "claimFeatureId": "source-feature-5",
+        "overlapDescription": "Research artifacts should be compared against evidence-bound replay and publication gates.",
+        "whyItWeakensNovelty": "Source-supported overlap means the selected candidate must not present this feature as new without a clearer differentiator.",
+        "whyItMayNotFullyCoverCandidate": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "riskLevel": "high",
+        "requiredFollowUpSearch": "Review the concrete source and search for additional implementations before public release.",
+        "recommendedAction": "Keep this as counter-evidence in the defensive publication dossier and use careful non-legal language."
+      },
+      {
+        "itemId": "counter-6",
+        "sourceCardId": "source-9",
+        "claimFeatureId": "source-feature-6",
+        "overlapDescription": "Research artifacts should be compared against evidence-bound replay and publication gates.",
+        "whyItWeakensNovelty": "Source-supported overlap means the selected candidate must not present this feature as new without a clearer differentiator.",
+        "whyItMayNotFullyCoverCandidate": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "riskLevel": "high",
+        "requiredFollowUpSearch": "Review the concrete source and search for additional implementations before public release.",
+        "recommendedAction": "Keep this as counter-evidence in the defensive publication dossier and use careful non-legal language."
+      },
+      {
+        "itemId": "counter-7",
+        "sourceCardId": "source-10",
+        "claimFeatureId": "source-feature-7",
+        "overlapDescription": "Research artifacts should be compared against evidence-bound replay and publication gates.",
+        "whyItWeakensNovelty": "Source-supported overlap means the selected candidate must not present this feature as new without a clearer differentiator.",
+        "whyItMayNotFullyCoverCandidate": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "riskLevel": "high",
+        "requiredFollowUpSearch": "Review the concrete source and search for additional implementations before public release.",
+        "recommendedAction": "Keep this as counter-evidence in the defensive publication dossier and use careful non-legal language."
+      },
+      {
+        "itemId": "counter-8",
+        "sourceCardId": "source-11",
+        "claimFeatureId": "source-feature-8",
+        "overlapDescription": "Research artifacts should be compared against evidence-bound replay and publication gates.",
+        "whyItWeakensNovelty": "Source-supported overlap means the selected candidate must not present this feature as new without a clearer differentiator.",
+        "whyItMayNotFullyCoverCandidate": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "riskLevel": "high",
+        "requiredFollowUpSearch": "Review the concrete source and search for additional implementations before public release.",
+        "recommendedAction": "Keep this as counter-evidence in the defensive publication dossier and use careful non-legal language."
+      }
+    ],
+    "unresolvedPriorArtRisk": "high",
+    "limitations": [
+      "Counter-evidence is a conservative research artifact, not legal claim construction."
+    ]
+  }
+}

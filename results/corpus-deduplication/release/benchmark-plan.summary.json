@@ -1,0 +1,46 @@
+{
+  "kind": "factory_benchmark_plan",
+  "evidenceHash": "b3857e006c512f2a94f9800a33e2e9f77f9c62548f4f498c7558f45905d8be0c",
+  "summary": {
+    "claimFeatureMatrixEvidenceHash": "846cbcb3195b19b5b0333551b2b3ce43396c533507eea8f09278514906e7a684",
+    "benchmarks": [
+      {
+        "benchmarkId": "bench-1",
+        "metric": "evidence-bound readiness accuracy",
+        "baseline": "Unscored dossier generation that does not account for source-card/counter-evidence bindings.",
+        "candidateMethod": "Sovryn factory score v2 with source-card, counter-evidence, replay, and execution inputs.",
+        "expectedImprovement": "Fewer weak research runs labeled as ready for public release.",
+        "measurementCommand": "npm test",
+        "status": "planned",
+        "limitations": [
+          "Benchmark is planned in Alpha.14; the factory does not claim benchmark success."
+        ]
+      },
+      {
+        "benchmarkId": "bench-2",
+        "metric": "evidence-bound readiness accuracy",
+        "baseline": "Unscored dossier generation that does not account for source-card/counter-evidence bindings.",
+        "candidateMethod": "Sovryn factory score v2 with source-card, counter-evidence, replay, and execution inputs.",
+        "expectedImprovement": "Fewer weak research runs labeled as ready for public release.",
+        "measurementCommand": "npm test",
+        "status": "planned",
+        "limitations": [
+          "Benchmark is planned in Alpha.14; the factory does not claim benchmark success."
+        ]
+      },
+      {
+        "benchmarkId": "bench-3",
+        "metric": "evidence-bound readiness accuracy",
+        "baseline": "Unscored dossier generation that does not account for source-card/counter-evidence bindings.",
+        "candidateMethod": "Sovryn factory score v2 with source-card, counter-evidence, replay, and execution inputs.",
+        "expectedImprovement": "Fewer weak research runs labeled as ready for public release.",
+        "measurementCommand": "npm test",
+        "status": "planned",
+        "limitations": [
+          "Benchmark is planned in Alpha.14; the factory does not claim benchmark success."
+        ]
+      }
+    ],
+    "notApplicableReason": null
+  }
+}

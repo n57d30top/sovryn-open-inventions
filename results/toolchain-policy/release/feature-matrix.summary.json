@@ -1,0 +1,440 @@
+{
+  "kind": "factory_feature_matrix",
+  "evidenceHash": "73a17960b32ac493e8b0d14c66e653b5ae463719c8adc52fb4b25f58cc5cf62c",
+  "summary": {
+    "sourceDiscoveryEvidenceHash": "f8edcb4314bc22d4daea89b4fd67be74af63f9c07095703ccccb9cbbcda2aa1b",
+    "sourceReadingsEvidenceHash": "bd3ec6335bff61e98e17502ef9f22793cd39a30adfbd3e1a72e9e617437a0c2b",
+    "sourceCardsEvidenceHash": "7edf9d63acd1dd86a35862c359768f3279ca627abba652029a9769c3f2bf14e5",
+    "features": [
+      {
+        "featureId": "source-feature-1",
+        "claimFeatureId": "source-feature-1",
+        "featureText": "Repository structure supports multi-agent orchestration workflows.",
+        "description": "Repository structure supports multi-agent orchestration workflows.",
+        "featureType": "architecture",
+        "extractedFromCandidate": false,
+        "sourceSupport": "single_source",
+        "supportingSourceCards": [
+          "source-4"
+        ],
+        "supportedBySourceCards": [
+          "source-4"
+        ],
+        "contradictedBySourceCards": [
+          "source-4"
+        ],
+        "knownOverlap": "Examples and tests can inform prototype expectations for research agents.",
+        "candidateDifferentiator": "possible differentiator: bind this source claim to an executable prototype and defensive-publication dossier.",
+        "possibleDifferentiator": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "differentiatorStrength": "moderate",
+        "verificationMethod": "Run generated prototype tests and verify factory evidence hashes.",
+        "requiredExperiment": "Execute the prototype scorer against fixture and live evidence summaries and compare readiness caps.",
+        "prototypeRelevance": "high",
+        "benchmarkRelevance": "medium",
+        "seenInSources": [
+          "source-4"
+        ],
+        "confidence": "high",
+        "noveltyRisk": "high",
+        "obviousnessRisk": "high",
+        "implementationRisk": "medium",
+        "readingDepthSupport": [
+          "code_structure_level"
+        ],
+        "evidenceRefs": [
+          "source-4"
+        ],
+        "riskLevel": "high"
+      },
+      {
+        "featureId": "source-feature-2",
+        "claimFeatureId": "source-feature-2",
+        "featureText": "Repository structure supports multi-agent orchestration workflows.",
+        "description": "Repository structure supports multi-agent orchestration workflows.",
+        "featureType": "architecture",
+        "extractedFromCandidate": false,
+        "sourceSupport": "single_source",
+        "supportingSourceCards": [
+          "source-5"
+        ],
+        "supportedBySourceCards": [
+          "source-5"
+        ],
+        "contradictedBySourceCards": [
+          "source-5"
+        ],
+        "knownOverlap": "Examples and tests can inform prototype expectations for research agents.",
+        "candidateDifferentiator": "possible differentiator: bind this source claim to an executable prototype and defensive-publication dossier.",
+        "possibleDifferentiator": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "differentiatorStrength": "moderate",
+        "verificationMethod": "Run generated prototype tests and verify factory evidence hashes.",
+        "requiredExperiment": "Execute the prototype scorer against fixture and live evidence summaries and compare readiness caps.",
+        "prototypeRelevance": "high",
+        "benchmarkRelevance": "medium",
+        "seenInSources": [
+          "source-5"
+        ],
+        "confidence": "high",
+        "noveltyRisk": "high",
+        "obviousnessRisk": "high",
+        "implementationRisk": "medium",
+        "readingDepthSupport": [
+          "code_structure_level"
+        ],
+        "evidenceRefs": [
+          "source-5"
+        ],
+        "riskLevel": "high"
+      },
+      {
+        "featureId": "source-feature-3",
+        "claimFeatureId": "source-feature-3",
+        "featureText": "Repository structure supports multi-agent orchestration workflows.",
+        "description": "Repository structure supports multi-agent orchestration workflows.",
+        "featureType": "architecture",
+        "extractedFromCandidate": false,
+        "sourceSupport": "single_source",
+        "supportingSourceCards": [
+          "source-6"
+        ],
+        "supportedBySourceCards": [
+          "source-6"
+        ],
+        "contradictedBySourceCards": [
+          "source-6"
+        ],
+        "knownOverlap": "Examples and tests can inform prototype expectations for research agents.",
+        "candidateDifferentiator": "possible differentiator: bind this source claim to an executable prototype and defensive-publication dossier.",
+        "possibleDifferentiator": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "differentiatorStrength": "moderate",
+        "verificationMethod": "Run generated prototype tests and verify factory evidence hashes.",
+        "requiredExperiment": "Execute the prototype scorer against fixture and live evidence summaries and compare readiness caps.",
+        "prototypeRelevance": "high",
+        "benchmarkRelevance": "medium",
+        "seenInSources": [
+          "source-6"
+        ],
+        "confidence": "high",
+        "noveltyRisk": "high",
+        "obviousnessRisk": "high",
+        "implementationRisk": "medium",
+        "readingDepthSupport": [
+          "code_structure_level"
+        ],
+        "evidenceRefs": [
+          "source-6"
+        ],
+        "riskLevel": "high"
+      },
+      {
+        "featureId": "source-feature-4",
+        "claimFeatureId": "source-feature-4",
+        "featureText": "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+        "description": "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+        "featureType": "verification",
+        "extractedFromCandidate": false,
+        "sourceSupport": "single_source",
+        "supportingSourceCards": [
+          "source-7"
+        ],
+        "supportedBySourceCards": [
+          "source-7"
+        ],
+        "contradictedBySourceCards": [
+          "source-7"
+        ],
+        "knownOverlap": "Research artifacts should be compared against evidence-bound replay and publication gates.",
+        "candidateDifferentiator": "possible differentiator: bind this source claim to an executable prototype and defensive-publication dossier.",
+        "possibleDifferentiator": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "differentiatorStrength": "moderate",
+        "verificationMethod": "Run generated prototype tests and verify factory evidence hashes.",
+        "requiredExperiment": "Execute the prototype scorer against fixture and live evidence summaries and compare readiness caps.",
+        "prototypeRelevance": "high",
+        "benchmarkRelevance": "medium",
+        "seenInSources": [
+          "source-7"
+        ],
+        "confidence": "high",
+        "noveltyRisk": "high",
+        "obviousnessRisk": "high",
+        "implementationRisk": "high",
+        "readingDepthSupport": [
+          "paper_fulltext_level"
+        ],
+        "evidenceRefs": [
+          "source-7"
+        ],
+        "riskLevel": "high"
+      },
+      {
+        "featureId": "source-feature-5",
+        "claimFeatureId": "source-feature-5",
+        "featureText": "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+        "description": "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+        "featureType": "verification",
+        "extractedFromCandidate": false,
+        "sourceSupport": "single_source",
+        "supportingSourceCards": [
+          "source-8"
+        ],
+        "supportedBySourceCards": [
+          "source-8"
+        ],
+        "contradictedBySourceCards": [
+          "source-8"
+        ],
+        "knownOverlap": "Research artifacts should be compared against evidence-bound replay and publication gates.",
+        "candidateDifferentiator": "possible differentiator: bind this source claim to an executable prototype and defensive-publication dossier.",
+        "possibleDifferentiator": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "differentiatorStrength": "moderate",
+        "verificationMethod": "Run generated prototype tests and verify factory evidence hashes.",
+        "requiredExperiment": "Execute the prototype scorer against fixture and live evidence summaries and compare readiness caps.",
+        "prototypeRelevance": "high",
+        "benchmarkRelevance": "medium",
+        "seenInSources": [
+          "source-8"
+        ],
+        "confidence": "high",
+        "noveltyRisk": "high",
+        "obviousnessRisk": "high",
+        "implementationRisk": "high",
+        "readingDepthSupport": [
+          "paper_fulltext_level"
+        ],
+        "evidenceRefs": [
+          "source-8"
+        ],
+        "riskLevel": "high"
+      },
+      {
+        "featureId": "source-feature-6",
+        "claimFeatureId": "source-feature-6",
+        "featureText": "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+        "description": "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+        "featureType": "verification",
+        "extractedFromCandidate": false,
+        "sourceSupport": "single_source",
+        "supportingSourceCards": [
+          "source-9"
+        ],
+        "supportedBySourceCards": [
+          "source-9"
+        ],
+        "contradictedBySourceCards": [
+          "source-9"
+        ],
+        "knownOverlap": "Research artifacts should be compared against evidence-bound replay and publication gates.",
+        "candidateDifferentiator": "possible differentiator: bind this source claim to an executable prototype and defensive-publication dossier.",
+        "possibleDifferentiator": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "differentiatorStrength": "moderate",
+        "verificationMethod": "Run generated prototype tests and verify factory evidence hashes.",
+        "requiredExperiment": "Execute the prototype scorer against fixture and live evidence summaries and compare readiness caps.",
+        "prototypeRelevance": "high",
+        "benchmarkRelevance": "medium",
+        "seenInSources": [
+          "source-9"
+        ],
+        "confidence": "high",
+        "noveltyRisk": "high",
+        "obviousnessRisk": "high",
+        "implementationRisk": "high",
+        "readingDepthSupport": [
+          "paper_fulltext_level"
+        ],
+        "evidenceRefs": [
+          "source-9"
+        ],
+        "riskLevel": "high"
+      },
+      {
+        "featureId": "source-feature-7",
+        "claimFeatureId": "source-feature-7",
+        "featureText": "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+        "description": "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+        "featureType": "verification",
+        "extractedFromCandidate": false,
+        "sourceSupport": "single_source",
+        "supportingSourceCards": [
+          "source-10"
+        ],
+        "supportedBySourceCards": [
+          "source-10"
+        ],
+        "contradictedBySourceCards": [
+          "source-10"
+        ],
+        "knownOverlap": "Research artifacts should be compared against evidence-bound replay and publication gates.",
+        "candidateDifferentiator": "possible differentiator: bind this source claim to an executable prototype and defensive-publication dossier.",
+        "possibleDifferentiator": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "differentiatorStrength": "moderate",
+        "verificationMethod": "Run generated prototype tests and verify factory evidence hashes.",
+        "requiredExperiment": "Execute the prototype scorer against fixture and live evidence summaries and compare readiness caps.",
+        "prototypeRelevance": "high",
+        "benchmarkRelevance": "medium",
+        "seenInSources": [
+          "source-10"
+        ],
+        "confidence": "high",
+        "noveltyRisk": "high",
+        "obviousnessRisk": "high",
+        "implementationRisk": "high",
+        "readingDepthSupport": [
+          "abstract_level"
+        ],
+        "evidenceRefs": [
+          "source-10"
+        ],
+        "riskLevel": "high"
+      },
+      {
+        "featureId": "source-feature-8",
+        "claimFeatureId": "source-feature-8",
+        "featureText": "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+        "description": "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+        "featureType": "verification",
+        "extractedFromCandidate": false,
+        "sourceSupport": "single_source",
+        "supportingSourceCards": [
+          "source-11"
+        ],
+        "supportedBySourceCards": [
+          "source-11"
+        ],
+        "contradictedBySourceCards": [
+          "source-11"
+        ],
+        "knownOverlap": "Research artifacts should be compared against evidence-bound replay and publication gates.",
+        "candidateDifferentiator": "possible differentiator: bind this source claim to an executable prototype and defensive-publication dossier.",
+        "possibleDifferentiator": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "differentiatorStrength": "moderate",
+        "verificationMethod": "Run generated prototype tests and verify factory evidence hashes.",
+        "requiredExperiment": "Execute the prototype scorer against fixture and live evidence summaries and compare readiness caps.",
+        "prototypeRelevance": "high",
+        "benchmarkRelevance": "medium",
+        "seenInSources": [
+          "source-11"
+        ],
+        "confidence": "high",
+        "noveltyRisk": "high",
+        "obviousnessRisk": "high",
+        "implementationRisk": "high",
+        "readingDepthSupport": [
+          "abstract_level"
+        ],
+        "evidenceRefs": [
+          "source-11"
+        ],
+        "riskLevel": "high"
+      },
+      {
+        "featureId": "source-feature-9",
+        "claimFeatureId": "source-feature-9",
+        "featureText": "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+        "description": "Abstract-level source describes agent workflow mechanisms and evaluation concerns.",
+        "featureType": "verification",
+        "extractedFromCandidate": false,
+        "sourceSupport": "single_source",
+        "supportingSourceCards": [
+          "source-12"
+        ],
+        "supportedBySourceCards": [
+          "source-12"
+        ],
+        "contradictedBySourceCards": [
+          "source-12"
+        ],
+        "knownOverlap": "Research artifacts should be compared against evidence-bound replay and publication gates.",
+        "candidateDifferentiator": "possible differentiator: bind this source claim to an executable prototype and defensive-publication dossier.",
+        "possibleDifferentiator": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "differentiatorStrength": "moderate",
+        "verificationMethod": "Run generated prototype tests and verify factory evidence hashes.",
+        "requiredExperiment": "Execute the prototype scorer against fixture and live evidence summaries and compare readiness caps.",
+        "prototypeRelevance": "high",
+        "benchmarkRelevance": "medium",
+        "seenInSources": [
+          "source-12"
+        ],
+        "confidence": "high",
+        "noveltyRisk": "high",
+        "obviousnessRisk": "high",
+        "implementationRisk": "high",
+        "readingDepthSupport": [
+          "abstract_level"
+        ],
+        "evidenceRefs": [
+          "source-12"
+        ],
+        "riskLevel": "high"
+      },
+      {
+        "featureId": "source-feature-10",
+        "claimFeatureId": "source-feature-10",
+        "featureText": "Claim-like workflow elements should be mapped against candidate feature rows.",
+        "description": "Claim-like workflow elements should be mapped against candidate feature rows.",
+        "featureType": "interface",
+        "extractedFromCandidate": false,
+        "sourceSupport": "single_source",
+        "supportingSourceCards": [
+          "source-13"
+        ],
+        "supportedBySourceCards": [
+          "source-13"
+        ],
+        "contradictedBySourceCards": [
+          "source-13"
+        ],
+        "knownOverlap": "Known overlap requires source-card review.",
+        "candidateDifferentiator": "possible differentiator: bind this source claim to an executable prototype and defensive-publication dossier.",
+        "possibleDifferentiator": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+        "differentiatorStrength": "moderate",
+        "verificationMethod": "Run generated prototype tests and verify factory evidence hashes.",
+        "requiredExperiment": "Execute the prototype scorer against fixture and live evidence summaries and compare readiness caps.",
+        "prototypeRelevance": "high",
+        "benchmarkRelevance": "medium",
+        "seenInSources": [
+          "source-13"
+        ],
+        "confidence": "high",
+        "noveltyRisk": "high",
+        "obviousnessRisk": "high",
+        "implementationRisk": "high",
+        "readingDepthSupport": [
+          "patent_claim_level"
+        ],
+        "evidenceRefs": [
+          "source-13"
+        ],
+        "riskLevel": "high"
+      }
+    ],
+    "knownApproaches": [
+      "microsoft/autogen: Fixture README/code-structure summary describes multi-agent workflow orchestration, examples, and implementation modules.",
+      "microsoft/autogen: Fixture README/code-structure summary describes multi-agent workflow orchestration, examples, and implementation modules.",
+      "microsoft/autogen: Fixture README/code-structure summary describes multi-agent workflow orchestration, examples, and implementation modules.",
+      "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation: Fixture bounded fulltext-like reading summarizes method, evaluation, limitations, and artifact-release claims.",
+      "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation: Fixture bounded fulltext-like reading summarizes method, evaluation, limitations, and artifact-release claims.",
+      "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation: Fixture bounded fulltext-like reading summarizes method, evaluation, limitations, and artifact-release claims.",
+      "OpenAlex work lead for reproducible agent research workflows: Fixture abstract/metadata describes agent workflows, reproducibility concerns, and evaluation constraints.",
+      "OpenAlex work lead for reproducible agent research workflows: Fixture abstract/metadata describes agent workflows, reproducibility concerns, and evaluation constraints."
+    ],
+    "unresolvedProblems": [
+      "Human review is still required for serious research or legal contexts."
+    ],
+    "repeatedPatterns": [
+      "Agent workflow verification appears in source summaries.",
+      "Reproducibility and review gates are recurring comparison dimensions."
+    ],
+    "missingEvidence": [
+      "manual review of query links",
+      "retry failed adapters"
+    ],
+    "candidateNoveltyAxes": [
+      "Evidence-bound autonomous research loop",
+      "Curated public evidence packaging",
+      "Prototype and tests tied to defensive-publication artifacts",
+      "Strict handling of query links and mock placeholders",
+      "Source-card-backed claim-feature matrix",
+      "Sandbox-local prototype execution evidence"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "pilot_quality_summary",
+  "updatedAt": "2026-05-04T12:11:37.217Z",
+  "pilots": [
+    {
+      "pilotId": "evidence-chain",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 100,
+      "noveltyRiskScore": 65,
+      "reproducibilityScore": 100,
+      "publicationSafetyScore": 90,
+      "humanReviewPriority": "medium"
+    },
+    {
+      "pilotId": "toolchain-policy",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 100,
+      "noveltyRiskScore": 65,
+      "reproducibilityScore": 100,
+      "publicationSafetyScore": 90,
+      "humanReviewPriority": "medium"
+    },
+    {
+      "pilotId": "corpus-deduplication",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 100,
+      "noveltyRiskScore": 65,
+      "reproducibilityScore": 100,
+      "publicationSafetyScore": 90,
+      "humanReviewPriority": "medium"
+    }
+  ],
+  "evidenceHash": "669cf7da92bbcb21eb43e3fd70a46e41a8c660f52d50381464ba0fec30000c4f"
+}

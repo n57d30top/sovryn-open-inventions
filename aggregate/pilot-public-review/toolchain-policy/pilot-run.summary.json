@@ -1,0 +1,19 @@
+{
+  "pilotId": "toolchain-policy",
+  "title": "Policy-Gated Toolchain Installation Protocol",
+  "factoryId": "fac_20260504121115_afc012f9",
+  "inventionMissionId": "mis_20260504121115_bc9404d1",
+  "releaseCandidateId": "develop-a-policy-gated-toolchain-installation-protocol-for-autonomous-linux-rese",
+  "qualityLabel": "good",
+  "releaseReadinessScore": 88,
+  "evidenceStrengthScore": 100,
+  "noveltyRiskScore": 65,
+  "reproducibilityScore": 100,
+  "publicationSafetyScore": 90,
+  "humanReviewPriority": "medium",
+  "candidateStatus": "dry_run_ready",
+  "recommendedDecision": "dry-run only",
+  "humanReviewRequired": true,
+  "realPublicationPerformed": false,
+  "evidenceHash": "f448df7a8e6b5933e579ce90ccc70bda635f76788b96285797d1e68a04041d35"
+}

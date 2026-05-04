@@ -1,0 +1,106 @@
+{
+  "kind": "factory_selected_candidates",
+  "evidenceHash": "794ee7abeefd179f095034378ce67930d2b9f0b35ef33af51732353900d84739",
+  "summary": {
+    "candidateInventionsEvidenceHash": "c8b8e80fae2a543d759a1e425132c27d63983fe9885c5d2ab2ec49bc158b13ec",
+    "selectedCandidates": [
+      {
+        "candidateId": "evidence-gated-research-factory",
+        "title": "Evidence-gated research factory for Develop a policy-gated toolchain installation protocol for autonomous Linux research nodes that prevents unsafe host installs and records reproducible tool evidence.",
+        "technicalField": "Autonomous open-source research systems, evidence scoring, and controlled publication workflows.",
+        "problem": "Autonomous research systems can generate plausible artifacts without enough evidence, tests, or publication safety controls.",
+        "proposedSolution": "Use a deterministic factory that plans research questions, discovers and reads public sources, builds a feature matrix, maps candidate novelty gaps, selects invention candidates, generates Open Invention missions, and gates publication on evidence strength.",
+        "differentiators": [
+          "Evidence-bound source discovery and source reading",
+          "Query-link and mock-placeholder awareness",
+          "Prototype/test requirements before release readiness",
+          "Curated public evidence packaging"
+        ],
+        "expectedPrototype": "A deterministic scorer that ranks factory candidates and blocks weak evidence.",
+        "expectedTests": "Tests for evidence hash binding, scoring caps, and curated release packaging.",
+        "requiredSources": [
+          "source-4",
+          "source-5",
+          "source-6",
+          "source-7",
+          "source-8"
+        ],
+        "noveltyRisk": "medium",
+        "safetyRisk": "low",
+        "feasibilityScore": 88,
+        "evidenceStrengthScore": 78,
+        "publicationReadinessScore": 82,
+        "scoreBreakdown": {
+          "sourceEvidenceStrength": 82,
+          "sourceDiversity": 75,
+          "noveltyRisk": 60,
+          "safetyRisk": 90,
+          "prototypeFeasibility": 90,
+          "testability": 90,
+          "defensivePublicationValue": 95,
+          "reproducibility": 85
+        },
+        "recommended": true,
+        "topCounterEvidence": [
+          {
+            "itemId": "counter-1",
+            "sourceCardId": "source-4",
+            "claimFeatureId": "source-feature-1",
+            "overlapDescription": "Examples and tests can inform prototype expectations for research agents.",
+            "whyItWeakensNovelty": "Source-supported overlap means the selected candidate must not present this feature as new without a clearer differentiator.",
+            "whyItMayNotFullyCoverCandidate": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+            "riskLevel": "high",
+            "requiredFollowUpSearch": "Review the concrete source and search for additional implementations before public release.",
+            "recommendedAction": "Keep this as counter-evidence in the defensive publication dossier and use careful non-legal language."
+          },
+          {
+            "itemId": "counter-2",
+            "sourceCardId": "source-5",
+            "claimFeatureId": "source-feature-2",
+            "overlapDescription": "Examples and tests can inform prototype expectations for research agents.",
+            "whyItWeakensNovelty": "Source-supported overlap means the selected candidate must not present this feature as new without a clearer differentiator.",
+            "whyItMayNotFullyCoverCandidate": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+            "riskLevel": "high",
+            "requiredFollowUpSearch": "Review the concrete source and search for additional implementations before public release.",
+            "recommendedAction": "Keep this as counter-evidence in the defensive publication dossier and use careful non-legal language."
+          },
+          {
+            "itemId": "counter-3",
+            "sourceCardId": "source-6",
+            "claimFeatureId": "source-feature-3",
+            "overlapDescription": "Examples and tests can inform prototype expectations for research agents.",
+            "whyItWeakensNovelty": "Source-supported overlap means the selected candidate must not present this feature as new without a clearer differentiator.",
+            "whyItMayNotFullyCoverCandidate": "candidate novelty axis: compare this source claim against Sovryn's replayable evidence gate.",
+            "riskLevel": "high",
+            "requiredFollowUpSearch": "Review the concrete source and search for additional implementations before public release.",
+            "recommendedAction": "Keep this as counter-evidence in the defensive publication dossier and use careful non-legal language."
+          }
+        ],
+        "unresolvedPriorArtRisk": "high",
+        "invalidationConditions": [
+          "A concrete source shows the same source-card binding, replay, prototype execution, and curated publication gate combination.",
+          "Prototype tests fail to distinguish weak evidence from ready evidence."
+        ],
+        "strengtheningExperiments": [
+          "Run additional source reads and verify counter-evidence does not fully cover the candidate."
+        ],
+        "selectionScore": 83
+      }
+    ],
+    "rejectedCandidates": [
+      {
+        "candidateId": "public-evidence-curator",
+        "title": "Curated public evidence curator",
+        "selectionScore": 76,
+        "reason": "Rejected because evidence strength is weaker than the selected candidate."
+      },
+      {
+        "candidateId": "source-matrix-novelty-gap-scorer",
+        "title": "Source matrix novelty-gap scorer",
+        "selectionScore": 75,
+        "reason": "Rejected because the selected candidate has stronger combined reproducibility, evidence, and defensive-publication value."
+      }
+    ],
+    "selectionReason": "Selected candidates are scored from source evidence strength, source diversity, novelty risk, safety risk, prototype feasibility, testability, defensive-publication value, and reproducibility."
+  }
+}

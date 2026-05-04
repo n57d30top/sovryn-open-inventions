@@ -1,0 +1,308 @@
+{
+  "kind": "factory_source_readings",
+  "readingMode": "deep_source",
+  "concreteSourcesRead": 12,
+  "queryLinksSkipped": 9,
+  "adapterFailures": 0,
+  "mockPlaceholders": 0,
+  "readings": [
+    {
+      "sourceId": "source-1",
+      "sourceType": "web",
+      "title": "web-search fixture failed",
+      "url": null,
+      "readStatus": "skipped",
+      "readingDepth": "metadata_only",
+      "extractedSummary": "Adapter failure fixture was not read as concrete prior art.",
+      "relevanceScore": 0,
+      "noveltyRiskHints": [
+        "novelty risk: unknown",
+        "prototype relevance: low"
+      ]
+    },
+    {
+      "sourceId": "source-2",
+      "sourceType": "web",
+      "title": "web-search fixture failed",
+      "url": null,
+      "readStatus": "skipped",
+      "readingDepth": "metadata_only",
+      "extractedSummary": "Adapter failure fixture was not read as concrete prior art.",
+      "relevanceScore": 0,
+      "noveltyRiskHints": [
+        "novelty risk: unknown",
+        "prototype relevance: low"
+      ]
+    },
+    {
+      "sourceId": "source-3",
+      "sourceType": "web",
+      "title": "web-search fixture failed",
+      "url": null,
+      "readStatus": "skipped",
+      "readingDepth": "metadata_only",
+      "extractedSummary": "Adapter failure fixture was not read as concrete prior art.",
+      "relevanceScore": 0,
+      "noveltyRiskHints": [
+        "novelty risk: unknown",
+        "prototype relevance: low"
+      ]
+    },
+    {
+      "sourceId": "source-4",
+      "sourceType": "github",
+      "title": "microsoft/autogen",
+      "url": "https://github.com/microsoft/autogen",
+      "readStatus": "read",
+      "readingDepth": "code_structure_level",
+      "extractedSummary": "Fixture README/code-structure summary describes multi-agent workflow orchestration, examples, and implementation modules.",
+      "relevanceScore": 80,
+      "noveltyRiskHints": [
+        "novelty risk: medium",
+        "prototype relevance: high"
+      ]
+    },
+    {
+      "sourceId": "source-5",
+      "sourceType": "github",
+      "title": "microsoft/autogen",
+      "url": "https://github.com/microsoft/autogen",
+      "readStatus": "read",
+      "readingDepth": "code_structure_level",
+      "extractedSummary": "Fixture README/code-structure summary describes multi-agent workflow orchestration, examples, and implementation modules.",
+      "relevanceScore": 80,
+      "noveltyRiskHints": [
+        "novelty risk: medium",
+        "prototype relevance: high"
+      ]
+    },
+    {
+      "sourceId": "source-6",
+      "sourceType": "github",
+      "title": "microsoft/autogen",
+      "url": "https://github.com/microsoft/autogen",
+      "readStatus": "read",
+      "readingDepth": "code_structure_level",
+      "extractedSummary": "Fixture README/code-structure summary describes multi-agent workflow orchestration, examples, and implementation modules.",
+      "relevanceScore": 80,
+      "noveltyRiskHints": [
+        "novelty risk: medium",
+        "prototype relevance: high"
+      ]
+    },
+    {
+      "sourceId": "source-7",
+      "sourceType": "paper",
+      "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+      "url": "https://arxiv.org/abs/2308.08155",
+      "readStatus": "read",
+      "readingDepth": "paper_fulltext_level",
+      "extractedSummary": "Fixture bounded fulltext-like reading summarizes method, evaluation, limitations, and artifact-release claims.",
+      "relevanceScore": 80,
+      "noveltyRiskHints": [
+        "novelty risk: medium",
+        "prototype relevance: high"
+      ]
+    },
+    {
+      "sourceId": "source-8",
+      "sourceType": "paper",
+      "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+      "url": "https://arxiv.org/abs/2308.08155",
+      "readStatus": "read",
+      "readingDepth": "paper_fulltext_level",
+      "extractedSummary": "Fixture bounded fulltext-like reading summarizes method, evaluation, limitations, and artifact-release claims.",
+      "relevanceScore": 80,
+      "noveltyRiskHints": [
+        "novelty risk: medium",
+        "prototype relevance: high"
+      ]
+    },
+    {
+      "sourceId": "source-9",
+      "sourceType": "paper",
+      "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+      "url": "https://arxiv.org/abs/2308.08155",
+      "readStatus": "read",
+      "readingDepth": "paper_fulltext_level",
+      "extractedSummary": "Fixture bounded fulltext-like reading summarizes method, evaluation, limitations, and artifact-release claims.",
+      "relevanceScore": 80,
+      "noveltyRiskHints": [
+        "novelty risk: medium",
+        "prototype relevance: high"
+      ]
+    },
+    {
+      "sourceId": "source-10",
+      "sourceType": "paper",
+      "title": "OpenAlex work lead for reproducible agent research workflows",
+      "url": "https://openalex.org/W4380000000",
+      "readStatus": "read",
+      "readingDepth": "abstract_level",
+      "extractedSummary": "Fixture abstract/metadata describes agent workflows, reproducibility concerns, and evaluation constraints.",
+      "relevanceScore": 80,
+      "noveltyRiskHints": [
+        "novelty risk: medium",
+        "prototype relevance: high"
+      ]
+    },
+    {
+      "sourceId": "source-11",
+      "sourceType": "paper",
+      "title": "OpenAlex work lead for reproducible agent research workflows",
+      "url": "https://openalex.org/W4380000000",
+      "readStatus": "read",
+      "readingDepth": "abstract_level",
+      "extractedSummary": "Fixture abstract/metadata describes agent workflows, reproducibility concerns, and evaluation constraints.",
+      "relevanceScore": 80,
+      "noveltyRiskHints": [
+        "novelty risk: medium",
+        "prototype relevance: high"
+      ]
+    },
+    {
+      "sourceId": "source-12",
+      "sourceType": "paper",
+      "title": "OpenAlex work lead for reproducible agent research workflows",
+      "url": "https://openalex.org/W4380000000",
+      "readStatus": "read",
+      "readingDepth": "abstract_level",
+      "extractedSummary": "Fixture abstract/metadata describes agent workflows, reproducibility concerns, and evaluation constraints.",
+      "relevanceScore": 80,
+      "noveltyRiskHints": [
+        "novelty risk: medium",
+        "prototype relevance: high"
+      ]
+    },
+    {
+      "sourceId": "source-13",
+      "sourceType": "patent",
+      "title": "US20240123456A1 Structured research workflow evidence fixture",
+      "url": "https://patents.google.com/patent/US20240123456A1/en",
+      "readStatus": "read",
+      "readingDepth": "patent_claim_level",
+      "extractedSummary": "Fixture patent-like source stores bounded claim elements for follow-up comparison.",
+      "relevanceScore": 80,
+      "noveltyRiskHints": [
+        "novelty risk: medium",
+        "prototype relevance: high"
+      ]
+    },
+    {
+      "sourceId": "source-14",
+      "sourceType": "patent",
+      "title": "US20240123456A1 Structured research workflow evidence fixture",
+      "url": "https://patents.google.com/patent/US20240123456A1/en",
+      "readStatus": "read",
+      "readingDepth": "patent_claim_level",
+      "extractedSummary": "Fixture patent-like source stores bounded claim elements for follow-up comparison.",
+      "relevanceScore": 80,
+      "noveltyRiskHints": [
+        "novelty risk: medium",
+        "prototype relevance: high"
+      ]
+    },
+    {
+      "sourceId": "source-15",
+      "sourceType": "patent",
+      "title": "US20240123456A1 Structured research workflow evidence fixture",
+      "url": "https://patents.google.com/patent/US20240123456A1/en",
+      "readStatus": "read",
+      "readingDepth": "patent_claim_level",
+      "extractedSummary": "Fixture patent-like source stores bounded claim elements for follow-up comparison.",
+      "relevanceScore": 80,
+      "noveltyRiskHints": [
+        "novelty risk: medium",
+        "prototype relevance: high"
+      ]
+    },
+    {
+      "sourceId": "source-16",
+      "sourceType": "patent",
+      "title": "Patent search lead for autonomous research evidence",
+      "url": "https://patents.google.com/?q=autonomous+research+evidence",
+      "readStatus": "skipped",
+      "readingDepth": "metadata_only",
+      "extractedSummary": "Query link fixture was not read as concrete prior art.",
+      "relevanceScore": 0,
+      "noveltyRiskHints": [
+        "novelty risk: unknown",
+        "prototype relevance: low"
+      ]
+    },
+    {
+      "sourceId": "source-17",
+      "sourceType": "patent",
+      "title": "Patent search lead for autonomous research evidence",
+      "url": "https://patents.google.com/?q=autonomous+research+evidence",
+      "readStatus": "skipped",
+      "readingDepth": "metadata_only",
+      "extractedSummary": "Query link fixture was not read as concrete prior art.",
+      "relevanceScore": 0,
+      "noveltyRiskHints": [
+        "novelty risk: unknown",
+        "prototype relevance: low"
+      ]
+    },
+    {
+      "sourceId": "source-18",
+      "sourceType": "patent",
+      "title": "Patent search lead for autonomous research evidence",
+      "url": "https://patents.google.com/?q=autonomous+research+evidence",
+      "readStatus": "skipped",
+      "readingDepth": "metadata_only",
+      "extractedSummary": "Query link fixture was not read as concrete prior art.",
+      "relevanceScore": 0,
+      "noveltyRiskHints": [
+        "novelty risk: unknown",
+        "prototype relevance: low"
+      ]
+    },
+    {
+      "sourceId": "source-19",
+      "sourceType": "standard",
+      "title": "Standards search lead for research artifact metadata",
+      "url": "https://www.ietf.org/search/?q=research+artifact+metadata",
+      "readStatus": "skipped",
+      "readingDepth": "metadata_only",
+      "extractedSummary": "Query link fixture was not read as concrete prior art.",
+      "relevanceScore": 0,
+      "noveltyRiskHints": [
+        "novelty risk: unknown",
+        "prototype relevance: low"
+      ]
+    },
+    {
+      "sourceId": "source-20",
+      "sourceType": "standard",
+      "title": "Standards search lead for research artifact metadata",
+      "url": "https://www.ietf.org/search/?q=research+artifact+metadata",
+      "readStatus": "skipped",
+      "readingDepth": "metadata_only",
+      "extractedSummary": "Query link fixture was not read as concrete prior art.",
+      "relevanceScore": 0,
+      "noveltyRiskHints": [
+        "novelty risk: unknown",
+        "prototype relevance: low"
+      ]
+    },
+    {
+      "sourceId": "source-21",
+      "sourceType": "standard",
+      "title": "Standards search lead for research artifact metadata",
+      "url": "https://www.ietf.org/search/?q=research+artifact+metadata",
+      "readStatus": "skipped",
+      "readingDepth": "metadata_only",
+      "extractedSummary": "Query link fixture was not read as concrete prior art.",
+      "relevanceScore": 0,
+      "noveltyRiskHints": [
+        "novelty risk: unknown",
+        "prototype relevance: low"
+      ]
+    }
+  ],
+  "limitations": [
+    "Readings are bounded by configured depth and are not legal novelty conclusions."
+  ],
+  "evidenceHash": "3ce74aa3d5b449f477076c6006d5bb480dec998818d0510e64ceaea9c90b53c9"
+}

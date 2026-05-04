@@ -1,0 +1,13 @@
+{
+  "kind": "prototype_execution",
+  "missionId": "mis_20260504121115_bc9404d1",
+  "prototypePath": ".sovryn/inventions/evidence-gated-research-factory-for-develop-a-policy-gated-toolchain-i/prototype",
+  "executionProfile": "sandbox-local",
+  "command": "npm test",
+  "cwd": "prototype",
+  "startedAt": "2026-05-04T12:11:15.972Z",
+  "finishedAt": "2026-05-04T12:11:16.130Z",
+  "exitCode": 0,
+  "passed": true,
+  "evidenceHash": "c53544d392086e7c04190ff69a624604976912928155aac6324dc5e4f6516cf8"
+}

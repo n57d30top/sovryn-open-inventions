@@ -1,0 +1,162 @@
+{
+  "publicReleaseAudit": {
+    "kind": "public_release_audit",
+    "auditedAt": "2026-05-04T12:11:24.033Z",
+    "targetPath": ".sovryn/factory/develop-a-policy-gated-toolchain-installation-protocol-for-autonomous-linux-rese/release/public",
+    "fileCount": 32,
+    "totalBytes": 176313,
+    "findings": [],
+    "checks": [
+      {
+        "code": "NO_RAW_LOGS_IN_RELEASE",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not include raw command logs, stdout, or stderr.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_SECRETS_IN_RELEASE",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not include secret-like values.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_LOCAL_PATHS_IN_RELEASE",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not include local absolute paths.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_FAKE_SANDBOX_CLAIMS",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not overstate sandbox isolation.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_FAKE_PATENT_CLAIMS",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not contain legal patentability claims.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "PUBLIC_RELEASE_SIZE_LIMITED",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must remain small enough for human review.",
+        "details": {
+          "totalBytes": 176313,
+          "maxBytes": 2000000
+        }
+      },
+      {
+        "code": "PUBLIC_RELEASE_CURATED_ONLY",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must contain only curated summary/report artifacts.",
+        "details": {
+          "findingCount": 0
+        }
+      }
+    ],
+    "passed": true,
+    "evidenceHash": "4c37b1e59f02f1f4be7d0cbdafe19d726306c46a4d63785f6883681e4d7c05e1"
+  },
+  "safetyScan": {
+    "kind": "release_safety_scan",
+    "scannedAt": "2026-05-04T12:11:24.042Z",
+    "targetPath": ".sovryn/factory/develop-a-policy-gated-toolchain-installation-protocol-for-autonomous-linux-rese/release/public",
+    "findings": [],
+    "checks": [
+      {
+        "code": "NO_RAW_LOGS_IN_RELEASE",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not include raw command logs, stdout, or stderr.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_SECRETS_IN_RELEASE",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not include secret-like values.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_LOCAL_PATHS_IN_RELEASE",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not include local absolute paths.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_FAKE_SANDBOX_CLAIMS",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not overstate sandbox isolation.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_FAKE_PATENT_CLAIMS",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must not contain legal patentability claims.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "PUBLIC_RELEASE_SIZE_LIMITED",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must remain small enough for human review.",
+        "details": {
+          "totalBytes": 176313,
+          "maxBytes": 2000000
+        }
+      },
+      {
+        "code": "PUBLIC_RELEASE_CURATED_ONLY",
+        "passed": true,
+        "severity": "info",
+        "message": "Public release must contain only curated summary/report artifacts.",
+        "details": {
+          "findingCount": 0
+        }
+      },
+      {
+        "code": "NO_UNSAFE_RELEASE_CONTENT",
+        "passed": true,
+        "severity": "info",
+        "message": "Release must not contain harmful or abusive instructions.",
+        "details": {
+          "findingCount": 0
+        }
+      }
+    ],
+    "blocked": false,
+    "evidenceHash": "7addca11afa5b13abd8c22148a89247f42bf4afc7d66429724f920102c185e29"
+  },
+  "evidenceHash": "24fc00fdbbb4f11968cd1aa711a5e15341fd89668e9fdee1db80840a9c2231af"
+}

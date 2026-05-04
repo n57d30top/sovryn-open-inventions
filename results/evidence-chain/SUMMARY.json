@@ -1,0 +1,19 @@
+{
+  "pilotId": "evidence-chain",
+  "title": "Replayable Evidence Chain for Autonomous Research Agents",
+  "goal": "Develop an evidence-chain format for autonomous research agents that binds sources, claims, prototypes, tests, and release artifacts into a replayable public record.",
+  "factoryId": "fac_20260504121114_fc2cf008",
+  "inventionMissionId": "mis_20260504121114_851864b2",
+  "releaseCandidateId": "develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc",
+  "qualityLabel": "good",
+  "candidateStatus": "dry_run_ready",
+  "releaseReadinessScore": 88,
+  "evidenceStrengthScore": 100,
+  "noveltyRiskScore": 65,
+  "reproducibilityScore": 100,
+  "publicationSafetyScore": 90,
+  "humanReviewPriority": "medium",
+  "recommendedDecision": "dry-run only",
+  "realPublicationPerformed": false,
+  "workerNoSilentFallback": true
+}

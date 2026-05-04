@@ -1,0 +1,33 @@
+{
+  "kind": "pilot_release_candidate",
+  "pilotId": "toolchain-policy",
+  "scenario": "toolchain-policy",
+  "title": "Policy-Gated Toolchain Installation Protocol",
+  "goal": "Develop a policy-gated toolchain installation protocol for autonomous Linux research nodes that prevents unsafe host installs and records reproducible tool evidence.",
+  "ranAt": "2026-05-04T12:11:30.547Z",
+  "factoryId": "fac_20260504121115_afc012f9",
+  "factorySlug": "develop-a-policy-gated-toolchain-installation-protocol-for-autonomous-linux-rese",
+  "inventionMissionId": "mis_20260504121115_bc9404d1",
+  "releaseCandidateId": "develop-a-policy-gated-toolchain-installation-protocol-for-autonomous-linux-rese",
+  "releasePath": ".sovryn/factory/develop-a-policy-gated-toolchain-installation-protocol-for-autonomous-linux-rese/release/public",
+  "qualityLabel": "good",
+  "releaseReadinessScore": 88,
+  "evidenceStrengthScore": 100,
+  "noveltyRiskScore": 65,
+  "reproducibilityScore": 100,
+  "publicationSafetyScore": 90,
+  "humanReviewPriority": "medium",
+  "candidateStatus": "dry_run_ready",
+  "recommendedDecision": "dry-run only",
+  "realPublicationPerformed": false,
+  "workerNoSilentFallback": true,
+  "artifactRefs": [
+    ".sovryn/pilots/toolchain-policy/pilot-run.json",
+    ".sovryn/pilots/toolchain-policy/factory-binding.json",
+    ".sovryn/pilots/toolchain-policy/mission-binding.json",
+    ".sovryn/pilots/toolchain-policy/quality-evaluation.json",
+    ".sovryn/pilots/toolchain-policy/publication-dry-run.json",
+    ".sovryn/pilots/toolchain-policy/human-review-checklist.json"
+  ],
+  "evidenceHash": "f448df7a8e6b5933e579ce90ccc70bda635f76788b96285797d1e68a04041d35"
+}

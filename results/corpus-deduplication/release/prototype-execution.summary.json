@@ -1,0 +1,13 @@
+{
+  "kind": "prototype_execution",
+  "missionId": "mis_20260504121116_74b18004",
+  "prototypePath": ".sovryn/inventions/evidence-gated-research-factory-for-develop-a-corpus-deduplication-met/prototype",
+  "executionProfile": "sandbox-local",
+  "command": "npm test",
+  "cwd": "prototype",
+  "startedAt": "2026-05-04T12:11:16.784Z",
+  "finishedAt": "2026-05-04T12:11:16.948Z",
+  "exitCode": 0,
+  "passed": true,
+  "evidenceHash": "a5987fcc23dc7e002e2175d1289c77c64fac163594e4be4622f74616bc997702"
+}

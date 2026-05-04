@@ -1,0 +1,34 @@
+{
+  "kind": "publication_ledger",
+  "updatedAt": "2026-05-04T12:11:31.789Z",
+  "entries": [
+    {
+      "candidateId": "develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc",
+      "mode": "dry-run",
+      "status": "dry_run_prepared",
+      "reason": "Dry-run publication package is prepared for human review.",
+      "tokenExposed": false,
+      "humanReviewRequired": true,
+      "realPublishDisabledByDefault": true
+    },
+    {
+      "candidateId": "develop-a-policy-gated-toolchain-installation-protocol-for-autonomous-linux-rese",
+      "mode": "dry-run",
+      "status": "dry_run_prepared",
+      "reason": "Dry-run publication package is prepared for human review.",
+      "tokenExposed": false,
+      "humanReviewRequired": true,
+      "realPublishDisabledByDefault": true
+    },
+    {
+      "candidateId": "develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov",
+      "mode": "dry-run",
+      "status": "dry_run_prepared",
+      "reason": "Dry-run publication package is prepared for human review.",
+      "tokenExposed": false,
+      "humanReviewRequired": true,
+      "realPublishDisabledByDefault": true
+    }
+  ],
+  "evidenceHash": "a5e16358646a2ae3bdf06cdf647e31311b226d353f34c563fcd6680af7f9974c"
+}

@@ -1,0 +1,210 @@
+{
+  "kind": "publication_governance_review",
+  "reviewedAt": "2026-05-04T12:11:24.891Z",
+  "candidate": {
+    "candidateId": "develop-a-policy-gated-toolchain-installation-protocol-for-autonomous-linux-rese",
+    "title": "Evidence-gated research factory for Develop a policy-gated toolchain installation proto...",
+    "researchGoal": "Develop a policy-gated toolchain installation protocol for autonomous Linux research nodes that prevents unsafe host installs and records reproducible tool evidence.",
+    "factoryId": "fac_20260504121115_afc012f9",
+    "factorySlug": "develop-a-policy-gated-toolchain-installation-protocol-for-autonomous-linux-rese",
+    "inventionMissionId": "mis_20260504121115_bc9404d1",
+    "inventionSlug": "evidence-gated-research-factory-for-develop-a-policy-gated-toolchain-i",
+    "readinessLabel": "strong",
+    "candidateStatus": "dry_run_ready",
+    "qualityLabel": "good",
+    "score": {
+      "releaseReadinessScore": 88,
+      "publicEvidenceScore": 85,
+      "reproducibilityScore": 100,
+      "sourceStrengthScore": 100,
+      "evidenceStrengthScore": 100,
+      "noveltyRiskScore": 65,
+      "safetyRiskScore": 90,
+      "publicationSafetyScore": 90,
+      "corpusDuplicateRisk": 0,
+      "qualityLabel": "good",
+      "humanReviewPriority": "medium"
+    },
+    "gates": [
+      {
+        "code": "RELEASE_CANDIDATE_COMPLETE",
+        "passed": true,
+        "message": "Release candidate must bind Factory run, Open Invention mission, public release path, and publication intent.",
+        "details": {
+          "factoryId": "fac_20260504121115_afc012f9",
+          "inventionMissionId": "mis_20260504121115_bc9404d1"
+        }
+      },
+      {
+        "code": "FACTORY_REPLAY_PASSED",
+        "passed": true,
+        "message": "Factory replay evidence must exist.",
+        "details": {
+          "factorySlug": "develop-a-policy-gated-toolchain-installation-protocol-for-autonomous-linux-rese"
+        }
+      },
+      {
+        "code": "PUBLIC_EVIDENCE_COMPLETE",
+        "passed": true,
+        "message": "Curated public evidence package must include report and score summary.",
+        "details": {
+          "releasePath": ".sovryn/factory/develop-a-policy-gated-toolchain-installation-protocol-for-autonomous-linux-rese/release/public"
+        }
+      },
+      {
+        "code": "PROTOTYPE_EXECUTION_PASSED",
+        "passed": true,
+        "message": "Prototype execution must pass and contribute reproducibility evidence.",
+        "details": {
+          "reproducibilityScore": 100
+        }
+      },
+      {
+        "code": "CORPUS_DUPLICATE_REVIEWED",
+        "passed": true,
+        "message": "Corpus duplicate risk must be reviewed before publication.",
+        "details": {
+          "corpusDuplicateRisk": 0
+        }
+      },
+      {
+        "code": "NO_RAW_LOGS_IN_RELEASE",
+        "passed": true,
+        "message": "Release package must not contain raw command logs.",
+        "details": {
+          "rawLogFiles": []
+        }
+      },
+      {
+        "code": "NO_SECRETS_IN_RELEASE",
+        "passed": true,
+        "message": "Release package must not contain detected secrets.",
+        "details": {
+          "secretFindings": []
+        }
+      },
+      {
+        "code": "NO_LEGAL_PATENTABILITY_CLAIMS",
+        "passed": true,
+        "message": "Release package must not make legal patentability or freedom-to-operate claims.",
+        "details": {
+          "hits": []
+        }
+      },
+      {
+        "code": "QUALITY_SCORE_ABOVE_MINIMUM",
+        "passed": true,
+        "message": "Release candidates require a quality evaluation above the configured minimum.",
+        "details": {
+          "factoryId": "fac_20260504121115_afc012f9",
+          "qualityScore": 91,
+          "qualityLabel": "excellent",
+          "minReleaseQualityScore": 70
+        }
+      },
+      {
+        "code": "HUMAN_REVIEW_REQUIRED_FOR_REAL_PUBLISH",
+        "passed": true,
+        "message": "Real publication requires human review.",
+        "details": {}
+      }
+    ],
+    "releasePath": ".sovryn/factory/develop-a-policy-gated-toolchain-installation-protocol-for-autonomous-linux-rese/release/public",
+    "publicationIntentPath": ".sovryn/factory/develop-a-policy-gated-toolchain-installation-protocol-for-autonomous-linux-rese/factory-publication-intent.json",
+    "corpusDuplicateRiskReviewed": true,
+    "humanReviewRequired": true,
+    "limitations": [
+      "Release candidates require human review before any real publication.",
+      "Fixture-backed evidence is suitable for deterministic Alpha demos and must be replaced or reviewed for serious publication.",
+      "This is not a legal patent filing, patentability opinion, or freedom-to-operate opinion."
+    ],
+    "evidenceHash": "271ce96abe0bfe4881780e2187c6ff2dbdf13075a7be4cd107762498e14c618d"
+  },
+  "policy": {
+    "allowAutonomousPublish": false,
+    "requireHumanApproval": true,
+    "minimumQualityLabel": "excellent",
+    "requireSecurityAudit": true,
+    "requireReliabilityReplay": true,
+    "requireNoPublicLeaks": true,
+    "maxReposPerDay": 3,
+    "allowedOrg": "sovryn-open-inventions"
+  },
+  "gates": [
+    {
+      "code": "PUBLICATION_POLICY_PRESENT",
+      "passed": true,
+      "message": "Publication policy exists.",
+      "details": {
+        "allowAutonomousPublish": false
+      }
+    },
+    {
+      "code": "PUBLICATION_APPROVAL_PRESENT",
+      "passed": false,
+      "message": "Human approval is required for real publication.",
+      "details": {
+        "approvalPresent": false
+      }
+    },
+    {
+      "code": "QUALITY_GATE_FOR_PUBLICATION",
+      "passed": true,
+      "message": "Release candidate must meet minimum quality score.",
+      "details": {
+        "releaseReadinessScore": 88
+      }
+    },
+    {
+      "code": "SECURITY_AUDIT_FOR_PUBLICATION",
+      "passed": true,
+      "message": "Security audit must pass before publication.",
+      "details": {
+        "securityAuditHash": "8477f235da5305ce35f899bb00d0c73aa715f8a00a48a7e4c3b81d3159a7a830"
+      }
+    },
+    {
+      "code": "RELIABILITY_REPLAY_FOR_PUBLICATION",
+      "passed": true,
+      "message": "Reliability replay must pass before publication.",
+      "details": {
+        "reliabilityAuditHash": "39257a8522fa851af59f1f610e624c257647a67cd5d586a6d617c257b58f4e23"
+      }
+    },
+    {
+      "code": "NO_PUBLICATION_SPAM",
+      "passed": true,
+      "message": "Publication policy must cap daily repositories.",
+      "details": {
+        "maxReposPerDay": 3
+      }
+    },
+    {
+      "code": "ORG_RESTRICTION_ENFORCED",
+      "passed": true,
+      "message": "Publication policy must restrict the target organization.",
+      "details": {
+        "allowedOrg": "sovryn-open-inventions"
+      }
+    },
+    {
+      "code": "TOKEN_SCOPE_REVIEWED",
+      "passed": true,
+      "message": "Token values remain with Sovryn Controller and are not written to publication artifacts.",
+      "details": {
+        "tokenValueStored": false
+      }
+    },
+    {
+      "code": "REAL_PUBLISH_DISABLED_BY_DEFAULT",
+      "passed": true,
+      "message": "Real publish must remain disabled by default.",
+      "details": {
+        "allowAutonomousPublish": false
+      }
+    }
+  ],
+  "dryRunAllowed": true,
+  "realPublishAllowed": false,
+  "evidenceHash": "50638882d8c66b254b615670ead379baea3dc8e341800c9308ff741573f81987"
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "pilot_release_candidate",
+  "pilotId": "corpus-deduplication",
+  "scenario": "corpus-deduplication",
+  "title": "Corpus Deduplication for Defensive Publications",
+  "goal": "Develop a corpus deduplication method for defensive publications that detects overlapping Open Inventions using source cards, claim features, and release metadata.",
+  "ranAt": "2026-05-04T12:11:37.215Z",
+  "factoryId": "fac_20260504121116_a4e4470c",
+  "factorySlug": "develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov",
+  "inventionMissionId": "mis_20260504121116_74b18004",
+  "releaseCandidateId": "develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov",
+  "releasePath": ".sovryn/factory/develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov/release/public",
+  "qualityLabel": "good",
+  "releaseReadinessScore": 88,
+  "evidenceStrengthScore": 100,
+  "noveltyRiskScore": 65,
+  "reproducibilityScore": 100,
+  "publicationSafetyScore": 90,
+  "humanReviewPriority": "medium",
+  "candidateStatus": "dry_run_ready",
+  "recommendedDecision": "dry-run only",
+  "realPublicationPerformed": false,
+  "workerNoSilentFallback": true,
+  "artifactRefs": [
+    ".sovryn/pilots/corpus-deduplication/pilot-run.json",
+    ".sovryn/pilots/corpus-deduplication/factory-binding.json",
+    ".sovryn/pilots/corpus-deduplication/mission-binding.json",
+    ".sovryn/pilots/corpus-deduplication/quality-evaluation.json",
+    ".sovryn/pilots/corpus-deduplication/publication-dry-run.json",
+    ".sovryn/pilots/corpus-deduplication/human-review-checklist.json"
+  ],
+  "evidenceHash": "413e90e0ba7cf21b88b4d9e8298cb9e50c5f1b9d2524a7fec0f6a3f63fe2d24e"
+}

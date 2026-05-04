@@ -1,0 +1,26 @@
+{
+  "kind": "pilot_publication_summary",
+  "realPublicationPerformed": false,
+  "dryRunCount": 3,
+  "pilots": [
+    {
+      "pilotId": "evidence-chain",
+      "releaseCandidateId": "develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc",
+      "recommendedDecision": "dry-run only",
+      "humanReviewRequired": true
+    },
+    {
+      "pilotId": "toolchain-policy",
+      "releaseCandidateId": "develop-a-policy-gated-toolchain-installation-protocol-for-autonomous-linux-rese",
+      "recommendedDecision": "dry-run only",
+      "humanReviewRequired": true
+    },
+    {
+      "pilotId": "corpus-deduplication",
+      "releaseCandidateId": "develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov",
+      "recommendedDecision": "dry-run only",
+      "humanReviewRequired": true
+    }
+  ],
+  "evidenceHash": "aac362ccff458e2758db3e32d12c3134e14304fec7e95c4504e60b5d3f8f8a0c"
+}

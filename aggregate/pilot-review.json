@@ -1,0 +1,61 @@
+{
+  "kind": "pilot_review",
+  "reviewedAt": "2026-05-04T12:11:37.411Z",
+  "pilotCount": 3,
+  "allowedForHumanReview": true,
+  "checks": [
+    {
+      "code": "PILOT_EVIDENCE_CHAIN_COMPLETE",
+      "passed": true,
+      "message": "Pilot must bind Factory, mission, quality, publication dry-run, and human-review evidence.",
+      "details": {
+        "pilotId": "evidence-chain"
+      }
+    },
+    {
+      "code": "PILOT_EVIDENCE_CHAIN_NOT_AUTO_PUBLISH_READY",
+      "passed": true,
+      "message": "Pilot candidates must not be marked publish-ready without human approval.",
+      "details": {
+        "pilotId": "evidence-chain",
+        "recommendedDecision": "dry-run only"
+      }
+    },
+    {
+      "code": "PILOT_TOOLCHAIN_POLICY_COMPLETE",
+      "passed": true,
+      "message": "Pilot must bind Factory, mission, quality, publication dry-run, and human-review evidence.",
+      "details": {
+        "pilotId": "toolchain-policy"
+      }
+    },
+    {
+      "code": "PILOT_TOOLCHAIN_POLICY_NOT_AUTO_PUBLISH_READY",
+      "passed": true,
+      "message": "Pilot candidates must not be marked publish-ready without human approval.",
+      "details": {
+        "pilotId": "toolchain-policy",
+        "recommendedDecision": "dry-run only"
+      }
+    },
+    {
+      "code": "PILOT_CORPUS_DEDUPLICATION_COMPLETE",
+      "passed": true,
+      "message": "Pilot must bind Factory, mission, quality, publication dry-run, and human-review evidence.",
+      "details": {
+        "pilotId": "corpus-deduplication"
+      }
+    },
+    {
+      "code": "PILOT_CORPUS_DEDUPLICATION_NOT_AUTO_PUBLISH_READY",
+      "passed": true,
+      "message": "Pilot candidates must not be marked publish-ready without human approval.",
+      "details": {
+        "pilotId": "corpus-deduplication",
+        "recommendedDecision": "dry-run only"
+      }
+    }
+  ],
+  "blockingReasons": [],
+  "evidenceHash": "369d712311c90c8e569e1a495fd868c9342d9f2c6a31311f1fc4e3552d6ab856"
+}

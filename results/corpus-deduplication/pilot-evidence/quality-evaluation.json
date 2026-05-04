@@ -1,0 +1,198 @@
+{
+  "kind": "quality_evaluation",
+  "targetKind": "factory",
+  "targetId": "fac_20260504121116_a4e4470c",
+  "targetSlug": "develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov",
+  "title": "Develop a corpus deduplication method for defensive publications that detects overlapping Open Inventions using source cards, claim features, and release metadata.",
+  "evaluatedAt": "2026-05-04T12:11:30.563Z",
+  "qualityScore": 91,
+  "qualityLabel": "excellent",
+  "minReleaseQualityScore": 70,
+  "releaseQualityPassed": true,
+  "dimensions": [
+    {
+      "name": "source_quality",
+      "score": 100,
+      "label": "excellent",
+      "findings": [
+        "Based on concrete source count, query-link penalties, adapter failures, and mock placeholders."
+      ]
+    },
+    {
+      "name": "reading_depth",
+      "score": 79,
+      "label": "good",
+      "findings": [
+        "Based on source-card reading depth, including code, paper, and patent-level readings."
+      ]
+    },
+    {
+      "name": "claim_mapping_strength",
+      "score": 100,
+      "label": "excellent",
+      "findings": [
+        "Based on source-card support for claim/feature matrix rows."
+      ]
+    },
+    {
+      "name": "counter_evidence_strength",
+      "score": 100,
+      "label": "excellent",
+      "findings": [
+        "8 counter-evidence item(s) found."
+      ]
+    },
+    {
+      "name": "novelty_risk_honesty",
+      "score": 85,
+      "label": "good",
+      "findings": [
+        "Measures whether novelty risk is conservatively disclosed; not a legal novelty conclusion."
+      ]
+    },
+    {
+      "name": "prototype_relevance",
+      "score": 85,
+      "label": "good",
+      "findings": [
+        "Prototype is present and checked for relevance signals."
+      ]
+    },
+    {
+      "name": "test_relevance",
+      "score": 85,
+      "label": "good",
+      "findings": [
+        "Prototype tests exercise behavior beyond static metadata."
+      ]
+    },
+    {
+      "name": "reproducibility",
+      "score": 100,
+      "label": "excellent",
+      "findings": [
+        "Based on prototype, tests, execution evidence, limitations, and public evidence packaging."
+      ]
+    },
+    {
+      "name": "safety_review_quality",
+      "score": 90,
+      "label": "excellent",
+      "findings": [
+        "Based on Factory selected-candidate safety risk."
+      ]
+    },
+    {
+      "name": "publication_clarity",
+      "score": 90,
+      "label": "excellent",
+      "findings": [
+        "Public release language avoids patentability and freedom-to-operate claims."
+      ]
+    },
+    {
+      "name": "corpus_uniqueness",
+      "score": 100,
+      "label": "excellent",
+      "findings": [
+        "Based on corpus duplicate-risk overlap."
+      ]
+    },
+    {
+      "name": "defensive_publication_value",
+      "score": 70,
+      "label": "acceptable",
+      "findings": [
+        "Based on curated release evidence, selected candidate clarity, and benchmark status."
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "code": "QUALITY_EVALUATION_PRESENT",
+      "passed": true,
+      "message": "Quality evaluation was written.",
+      "details": {}
+    },
+    {
+      "code": "QUALITY_SCORE_ABOVE_MINIMUM",
+      "passed": true,
+      "message": "Quality score must meet the configured minimum for release readiness.",
+      "details": {
+        "qualityScore": 91,
+        "minReleaseQualityScore": 70
+      }
+    },
+    {
+      "code": "NO_INFLATED_STRONG_LABEL",
+      "passed": true,
+      "message": "Factory strong labels must not hide weak evaluator findings.",
+      "details": {
+        "inflatedStrong": false
+      }
+    },
+    {
+      "code": "PROTOTYPE_TESTS_NONTRIVIAL",
+      "passed": true,
+      "message": "Prototype tests must exercise non-trivial behavior.",
+      "details": {
+        "summary": "Prototype tests exercise behavior beyond static metadata."
+      }
+    },
+    {
+      "code": "COUNTER_EVIDENCE_MEANINGFUL",
+      "passed": true,
+      "message": "Counter-evidence must be present and meaningful.",
+      "details": {
+        "counterEvidenceItems": 8
+      }
+    },
+    {
+      "code": "PUBLICATION_LANGUAGE_SAFE",
+      "passed": true,
+      "message": "Publication language must avoid legal patentability and freedom-to-operate claims.",
+      "details": {}
+    }
+  ],
+  "findings": [
+    {
+      "findingId": "benchmark-claim-not-executed",
+      "severity": "warning",
+      "category": "benchmark",
+      "message": "Benchmark improvement is planned but not executed.",
+      "evidenceRefs": [
+        ".sovryn/factory/develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov/benchmark-plan.json"
+      ]
+    },
+    {
+      "findingId": "public-release-raw-log-risk",
+      "severity": "blocker",
+      "category": "release",
+      "message": "Curated public release appears to contain raw log references.",
+      "evidenceRefs": [
+        ".sovryn/factory/develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov/release/public"
+      ]
+    },
+    {
+      "findingId": "unsupported-differentiator",
+      "severity": "warning",
+      "category": "claim_mapping",
+      "message": "At least one candidate differentiator lacks source-card support.",
+      "evidenceRefs": [
+        ".sovryn/factory/develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov/claim-feature-matrix.json"
+      ]
+    }
+  ],
+  "publishReady": true,
+  "artifactRefs": [
+    ".sovryn/factory/develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov/factory-score.json",
+    ".sovryn/factory/develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov/source-cards.json",
+    ".sovryn/factory/develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov/claim-feature-matrix.json",
+    ".sovryn/factory/develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov/counter-evidence.json"
+  ],
+  "limitations": [
+    "Quality evaluation is deterministic and evidence-based; it is not a legal novelty, patentability, or freedom-to-operate opinion.",
+    "Scores reflect artifact quality and evaluator heuristics, not guaranteed research truth."
+  ],
+  "evidenceHash": "48e4583ef397fdfb6ee5994db2e22a9d23906172975333de5c1100359f475a9b"
+}

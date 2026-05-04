@@ -1,0 +1,167 @@
+{
+  "kind": "factory_patent_claim_readings",
+  "evidenceHash": "e0197879e6607911f39b8ecaabab2bd8375b83930fcaa58d93390c6a5a511c83",
+  "summary": {
+    "sourceReadingsEvidenceHash": "bd3ec6335bff61e98e17502ef9f22793cd39a30adfbd3e1a72e9e617437a0c2b",
+    "patentCount": 3,
+    "claimElementCount": 6,
+    "patents": [
+      {
+        "patentId": "patent-1",
+        "sourceId": "source-13",
+        "publicationNumber": "US20240123456A1",
+        "title": "US20240123456A1 Structured research workflow evidence fixture",
+        "assignee": "Fixture Assignee",
+        "priorityDate": "2024-01-01",
+        "url": "https://patents.google.com/patent/US20240123456A1/en",
+        "abstract": "Fixture patent-like source stores bounded claim elements for follow-up comparison.",
+        "independentClaimSnippets": [
+          "Claim-like workflow elements should be mapped against candidate feature rows.",
+          "Decompose claim-like elements into overlap and differentiator checks."
+        ],
+        "claimElements": [
+          {
+            "elementId": "patent-1-element-1",
+            "text": "Claim-like workflow elements should be mapped against candidate feature rows.",
+            "mappedFeatureIds": [
+              "source-feature-1",
+              "source-feature-2",
+              "source-feature-3",
+              "source-feature-4",
+              "source-feature-5"
+            ],
+            "overlapRisk": "high",
+            "requiresLegalReview": true
+          },
+          {
+            "elementId": "patent-1-element-2",
+            "text": "Decompose claim-like elements into overlap and differentiator checks.",
+            "mappedFeatureIds": [
+              "source-feature-10",
+              "source-feature-11",
+              "source-feature-12"
+            ],
+            "overlapRisk": "high",
+            "requiresLegalReview": true
+          }
+        ],
+        "classifications": [
+          "G06F",
+          "G06N"
+        ],
+        "readingDepth": "patent_claim_level",
+        "limitations": [
+          "Fixture reading is deterministic and bounded; human review is still required.",
+          "Patent-like fixture is not legal claim construction.",
+          "It does not describe Sovryn's open invention dossier, source-card index hash, replay gate, and curated dry-run publication package. Compare against Sovryn factory source cards, claim matrix, prototype execution, and gated dry-run publication.",
+          "Patent claim elements are research cues only and require human/legal review."
+        ]
+      },
+      {
+        "patentId": "patent-2",
+        "sourceId": "source-14",
+        "publicationNumber": "US20240123456A1",
+        "title": "US20240123456A1 Structured research workflow evidence fixture",
+        "assignee": "Fixture Assignee",
+        "priorityDate": "2024-01-01",
+        "url": "https://patents.google.com/patent/US20240123456A1/en",
+        "abstract": "Fixture patent-like source stores bounded claim elements for follow-up comparison.",
+        "independentClaimSnippets": [
+          "Claim-like workflow elements should be mapped against candidate feature rows.",
+          "Decompose claim-like elements into overlap and differentiator checks."
+        ],
+        "claimElements": [
+          {
+            "elementId": "patent-2-element-1",
+            "text": "Claim-like workflow elements should be mapped against candidate feature rows.",
+            "mappedFeatureIds": [
+              "source-feature-1",
+              "source-feature-2",
+              "source-feature-3",
+              "source-feature-4",
+              "source-feature-5"
+            ],
+            "overlapRisk": "high",
+            "requiresLegalReview": true
+          },
+          {
+            "elementId": "patent-2-element-2",
+            "text": "Decompose claim-like elements into overlap and differentiator checks.",
+            "mappedFeatureIds": [
+              "source-feature-10",
+              "source-feature-11",
+              "source-feature-12"
+            ],
+            "overlapRisk": "high",
+            "requiresLegalReview": true
+          }
+        ],
+        "classifications": [
+          "G06F",
+          "G06N"
+        ],
+        "readingDepth": "patent_claim_level",
+        "limitations": [
+          "Fixture reading is deterministic and bounded; human review is still required.",
+          "Patent-like fixture is not legal claim construction.",
+          "It does not describe Sovryn's open invention dossier, source-card index hash, replay gate, and curated dry-run publication package. Compare against Sovryn factory source cards, claim matrix, prototype execution, and gated dry-run publication.",
+          "Patent claim elements are research cues only and require human/legal review."
+        ]
+      },
+      {
+        "patentId": "patent-3",
+        "sourceId": "source-15",
+        "publicationNumber": "US20240123456A1",
+        "title": "US20240123456A1 Structured research workflow evidence fixture",
+        "assignee": "Fixture Assignee",
+        "priorityDate": "2024-01-01",
+        "url": "https://patents.google.com/patent/US20240123456A1/en",
+        "abstract": "Fixture patent-like source stores bounded claim elements for follow-up comparison.",
+        "independentClaimSnippets": [
+          "Claim-like workflow elements should be mapped against candidate feature rows.",
+          "Decompose claim-like elements into overlap and differentiator checks."
+        ],
+        "claimElements": [
+          {
+            "elementId": "patent-3-element-1",
+            "text": "Claim-like workflow elements should be mapped against candidate feature rows.",
+            "mappedFeatureIds": [
+              "source-feature-1",
+              "source-feature-2",
+              "source-feature-3",
+              "source-feature-4",
+              "source-feature-5"
+            ],
+            "overlapRisk": "high",
+            "requiresLegalReview": true
+          },
+          {
+            "elementId": "patent-3-element-2",
+            "text": "Decompose claim-like elements into overlap and differentiator checks.",
+            "mappedFeatureIds": [
+              "source-feature-10",
+              "source-feature-11",
+              "source-feature-12"
+            ],
+            "overlapRisk": "high",
+            "requiresLegalReview": true
+          }
+        ],
+        "classifications": [
+          "G06F",
+          "G06N"
+        ],
+        "readingDepth": "patent_claim_level",
+        "limitations": [
+          "Fixture reading is deterministic and bounded; human review is still required.",
+          "Patent-like fixture is not legal claim construction.",
+          "It does not describe Sovryn's open invention dossier, source-card index hash, replay gate, and curated dry-run publication package. Compare against Sovryn factory source cards, claim matrix, prototype execution, and gated dry-run publication.",
+          "Patent claim elements are research cues only and require human/legal review."
+        ]
+      }
+    ],
+    "limitations": [
+      "Sovryn does not perform legal claim construction, patentability analysis, or freedom-to-operate analysis."
+    ]
+  }
+}
