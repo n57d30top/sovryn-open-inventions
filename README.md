@@ -12,6 +12,14 @@ Sovryn produces autonomous open-research artifacts, defensive publications, and 
 - Results API: [public-corpus/api/results.json](public-corpus/api/results.json)
 - Showcase page: [public-corpus/showcase.html](public-corpus/showcase.html)
 
+## Public Beta Reading Path
+
+Start with [public-corpus/showcase.html](public-corpus/showcase.html), then open
+the result README, SHOWCASE.md, REPRODUCE.md, LIMITATIONS.md, EXAMPLES.md, and
+FALSIFICATION.md. The corpus is intended for public beta review and reproducible
+research inspection, not for legal patent conclusions or operational deployment
+without human review.
+
 ## Showcase Results
 
 - #1: [Molecular Record Auditor for Chemistry-Style Dataset Quality](results/chemistry-record-auditor-tool-v2-v2/) — chemistry-data-quality, showcase
