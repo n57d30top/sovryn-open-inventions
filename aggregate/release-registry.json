@@ -1,7 +1,23 @@
 {
   "kind": "corpus_release_registry",
-  "updatedAt": "2026-05-04T12:56:36.503Z",
+  "updatedAt": "2026-05-04T13:00:36.731Z",
   "releases": [
+    {
+      "slug": "corpus-deduplication",
+      "title": "Corpus Deduplication for Defensive Publications",
+      "path": "results/corpus-deduplication",
+      "sourceType": "pilot",
+      "sourceId": "corpus-deduplication",
+      "humanReviewRequired": false
+    },
+    {
+      "slug": "evidence-chain",
+      "title": "Replayable Evidence Chain for Autonomous Research Agents",
+      "path": "results/evidence-chain",
+      "sourceType": "pilot",
+      "sourceId": "evidence-chain",
+      "humanReviewRequired": false
+    },
     {
       "slug": "evidence-chain-v2",
       "title": "Replayable Evidence Chain for Autonomous Research Agents",
@@ -9,7 +25,15 @@
       "sourceType": "pilot",
       "sourceId": "evidence-chain",
       "humanReviewRequired": false
+    },
+    {
+      "slug": "toolchain-policy",
+      "title": "Policy-Gated Toolchain Installation Protocol",
+      "path": "results/toolchain-policy",
+      "sourceType": "pilot",
+      "sourceId": "toolchain-policy",
+      "humanReviewRequired": false
     }
   ],
-  "evidenceHash": "33abd2d61333fc6302b3b4476081ee563ff8510f665b97a183482aaac802cc35"
+  "evidenceHash": "2a177061d7c3a6268c6cfedaeb88e32ae8521952e37ee2fc3fb87b7ea371fbda"
 }

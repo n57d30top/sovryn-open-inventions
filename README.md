@@ -10,4 +10,7 @@ Sovryn publishes into this existing corpus repository only after automated quali
 
 ## Results
 
+- [Corpus Deduplication for Defensive Publications](results/corpus-deduplication/) — good, dry_run_ready
+- [Replayable Evidence Chain for Autonomous Research Agents](results/evidence-chain/) — good, dry_run_ready
 - [Replayable Evidence Chain for Autonomous Research Agents](results/evidence-chain-v2/) — good, dry_run_ready
+- [Policy-Gated Toolchain Installation Protocol](results/toolchain-policy/) — good, dry_run_ready

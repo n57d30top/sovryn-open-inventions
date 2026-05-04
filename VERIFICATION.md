@@ -1,6 +1,6 @@
 # Verification
 
-Indexed results: 1
+Indexed results: 4
 New autopublished results in latest run: 1
 
 Every autopublished result includes SUMMARY.json, curated release evidence, pilot evidence, verification.json, PUBLICATION_INTENT.json, and AUTOPUBLISH_RECORD.json.

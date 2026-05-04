@@ -1,8 +1,40 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-04T12:56:36.503Z",
-  "resultCount": 1,
+  "updatedAt": "2026-05-04T13:00:36.731Z",
+  "resultCount": 4,
   "results": [
+    {
+      "slug": "corpus-deduplication",
+      "title": "Corpus Deduplication for Defensive Publications",
+      "resultId": "develop-a-corpus-deduplication-method-for-defensive-publications-that-detects-ov",
+      "sourceType": "pilot",
+      "sourceId": "corpus-deduplication",
+      "qualityLabel": "good",
+      "candidateStatus": "dry_run_ready",
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 100,
+      "reproducibilityScore": 100,
+      "publicationSafetyScore": 90,
+      "humanReviewRequired": false,
+      "path": "results/corpus-deduplication",
+      "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use."
+    },
+    {
+      "slug": "evidence-chain",
+      "title": "Replayable Evidence Chain for Autonomous Research Agents",
+      "resultId": "develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc",
+      "sourceType": "pilot",
+      "sourceId": "evidence-chain",
+      "qualityLabel": "good",
+      "candidateStatus": "dry_run_ready",
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 100,
+      "reproducibilityScore": 100,
+      "publicationSafetyScore": 90,
+      "humanReviewRequired": false,
+      "path": "results/evidence-chain",
+      "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use."
+    },
     {
       "slug": "evidence-chain-v2",
       "title": "Replayable Evidence Chain for Autonomous Research Agents",
@@ -18,8 +50,24 @@
       "humanReviewRequired": false,
       "path": "results/evidence-chain-v2",
       "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use."
+    },
+    {
+      "slug": "toolchain-policy",
+      "title": "Policy-Gated Toolchain Installation Protocol",
+      "resultId": "develop-a-policy-gated-toolchain-installation-protocol-for-autonomous-linux-rese",
+      "sourceType": "pilot",
+      "sourceId": "toolchain-policy",
+      "qualityLabel": "good",
+      "candidateStatus": "dry_run_ready",
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 100,
+      "reproducibilityScore": 100,
+      "publicationSafetyScore": 90,
+      "humanReviewRequired": false,
+      "path": "results/toolchain-policy",
+      "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use."
     }
   ],
   "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
-  "evidenceHash": "97c05e92794107850f042ea5c55ccb4198c0b0efad1cfca26cfe4483e6bb19c1"
+  "evidenceHash": "ceda671fd57239e1a407d530f6aa24769eee555b9de1ee385d9e30d7f01ceef5"
 }
