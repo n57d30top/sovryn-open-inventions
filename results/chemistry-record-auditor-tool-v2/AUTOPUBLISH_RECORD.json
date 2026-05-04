@@ -9,9 +9,9 @@
   "automatedPolicyVersion": "corpus-autopublish-v1",
   "targetRepo": "https://github.com/n57d30top/sovryn-open-inventions",
   "targetPath": "results/chemistry-record-auditor-tool-v2",
-  "commitHash": null,
-  "pushed": false,
-  "pushedAt": null,
+  "commitHash": "eaad797b7db171389f787ea2b1d060570f8b7b67",
+  "pushed": true,
+  "pushedAt": "2026-05-04T14:32:35.747Z",
   "dryRun": false,
   "qualityLabel": "good",
   "candidateStatus": "dry_run_ready",
@@ -28,5 +28,5 @@
   "noPublicLeaks": true,
   "noCriticalFailures": true,
   "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
-  "evidenceHash": "7875a1fe3d8ce3c5d397c87fa512c1ede6ba4d6dbe7faef114006d1ef971f5ac"
+  "evidenceHash": "15b0528e8a82bcadc3580af3b2341880e343737c0eeea7bed5322366d1f6d225"
 }

@@ -1,6 +1,6 @@
 {
   "kind": "autopublish_ledger",
-  "updatedAt": "2026-05-04T14:32:33.746Z",
+  "updatedAt": "2026-05-04T14:32:35.749Z",
   "entries": [
     {
       "resultId": "chemistry-record-auditor-tool",
@@ -20,9 +20,9 @@
       "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
       "mode": "corpus-autopublish",
       "dryRun": false,
-      "pushed": false,
-      "pushedAt": null,
-      "commitHash": null,
+      "pushed": true,
+      "pushedAt": "2026-05-04T14:32:35.747Z",
+      "commitHash": "eaad797b7db171389f787ea2b1d060570f8b7b67",
       "humanReviewRequired": false,
       "evidenceHash": "7875a1fe3d8ce3c5d397c87fa512c1ede6ba4d6dbe7faef114006d1ef971f5ac"
     },
@@ -39,5 +39,5 @@
       "evidenceHash": "37d4a778ecc64bc132d0909649ace39929e87c7da247239ff385b6191e812178"
     }
   ],
-  "evidenceHash": "d89f9dfa43f2cab48bef8752b786e3a7071a179a5d11943a003932b32d08aa3c"
+  "evidenceHash": "f46162c30b7d27213d7e9ca018a4d08e72e3388f49e0a9fbace3c20d0220f5fb"
 }
