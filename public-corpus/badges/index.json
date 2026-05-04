@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-04T15:31:52.892Z",
+  "generatedAt": "2026-05-04T16:02:51.519Z",
   "badges": [
     {
       "slug": "chemistry-record-auditor-tool",
@@ -25,6 +25,17 @@
       }
     },
     {
+      "slug": "chemistry-record-auditor-tool-v2-v2",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff"
+      }
+    },
+    {
       "slug": "corpus-deduplication",
       "badges": {
         "quality": "good",
@@ -37,6 +48,17 @@
     },
     {
       "slug": "energy-usage-anomaly-auditor",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff"
+      }
+    },
+    {
+      "slug": "energy-usage-anomaly-auditor-v2",
       "badges": {
         "quality": "good",
         "status": "autopublished",
@@ -80,6 +102,17 @@
       }
     },
     {
+      "slug": "patch-risk-auditor-v2",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff"
+      }
+    },
+    {
       "slug": "toolchain-policy",
       "badges": {
         "quality": "good",
@@ -91,5 +124,5 @@
       }
     }
   ],
-  "evidenceHash": "d6c71b3ed38640a84e0bd8fed46f5266339bf6a9a2a3641c5ee794be11668a2b"
+  "evidenceHash": "9d1ebb9d9801752d3fad1665446365ed00376c22519f3013e2db2f3f3ef3f202"
 }

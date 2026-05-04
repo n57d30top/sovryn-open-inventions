@@ -1,19 +1,19 @@
 {
   "kind": "sovryn_public_corpus_product",
-  "generatedAt": "2026-05-04T15:31:52.892Z",
-  "resultCount": 8,
+  "generatedAt": "2026-05-04T16:02:51.519Z",
+  "resultCount": 11,
   "qualityCounts": {
-    "good": 8
+    "good": 11
   },
   "statusCounts": {
-    "autopublished": 8
+    "autopublished": 11
   },
   "domainCounts": {
-    "chemistry-data-quality": 2,
-    "energy-data-quality": 1,
+    "chemistry-data-quality": 3,
+    "energy-data-quality": 2,
     "node-toolchain-policy": 1,
     "open-invention-corpus": 3,
-    "software-supply-chain": 1
+    "software-supply-chain": 2
   },
   "results": [
     {
@@ -69,6 +69,46 @@
       "publicationSafetyScore": 96,
       "replayCriticalPassRate": 100,
       "specificityScore": 0,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": true,
+      "externalPackages": [
+        "pint"
+      ],
+      "customTool": "mol-record-auditor",
+      "workerAssurance": "container-netoff",
+      "summary": "Result ID: chemistry-record-auditor-tool-v2\nSource: pilot / chemistry-record-auditor-tool-v2\nQuality label: good\nCandidate status: dryrunready",
+      "limitations": [
+        "\"disclaimer\": \"This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.\",",
+        "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
+        "A safe, open-source data-quality method can audit toy chemistry-style molecular",
+        "property records by combining unit normalization, toy identifier equivalence,",
+        "The toy equivalence map is not broad canonicalization.",
+        "RDKit/OpenBabel integration is future work only if policy-approved."
+      ],
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff"
+      }
+    },
+    {
+      "slug": "chemistry-record-auditor-tool-v2-v2",
+      "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
+      "domain": "chemistry-data-quality",
+      "path": "results/chemistry-record-auditor-tool-v2-v2",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 96,
+      "publicationSafetyScore": 96,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 69,
       "publicHygienePassed": true,
       "safetyScanPassed": true,
       "reliabilityReplayPassed": true,
@@ -163,6 +203,46 @@
         "reproducible toy-data tool.",
         "Legal disclaimer: This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
         "\"inventionSlug\": \"a-safe-open-source-data-quality-method-for-auditing-anonymized-toy-hom\",",
+        "axis, and not a legal novelty conclusion."
+      ],
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff"
+      }
+    },
+    {
+      "slug": "energy-usage-anomaly-auditor-v2",
+      "title": "Energy Usage Anomaly Auditor",
+      "domain": "energy-data-quality",
+      "path": "results/energy-usage-anomaly-auditor-v2",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "releaseReadinessScore": 89,
+      "evidenceStrengthScore": 84,
+      "reproducibilityScore": 95,
+      "publicationSafetyScore": 97,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 72,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": true,
+      "externalPackages": [
+        "pandas"
+      ],
+      "customTool": "energy-record-auditor",
+      "workerAssurance": "container-netoff",
+      "summary": "Result ID: energy-usage-anomaly-auditor\nSource: pilot / energy-usage-anomaly-auditor\nQuality label: good\nCandidate status: dryrunready",
+      "limitations": [
+        "\"disclaimer\": \"This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.\",",
+        "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
+        "reproducible toy-data tool.",
+        "Legal disclaimer: This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
+        "\"inventionSlug\": \"a-safe-open-source-data-quality-method-for-auditing-anonymized-toy-hom-3\",",
         "axis, and not a legal novelty conclusion."
       ],
       "badges": {
@@ -291,6 +371,46 @@
       }
     },
     {
+      "slug": "patch-risk-auditor-v2",
+      "title": "Patch Risk Auditor",
+      "domain": "software-supply-chain",
+      "path": "results/patch-risk-auditor-v2",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 83,
+      "reproducibilityScore": 94,
+      "publicationSafetyScore": 96,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 63,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": true,
+      "externalPackages": [
+        "acorn"
+      ],
+      "customTool": "patch-risk-auditor",
+      "workerAssurance": "container-netoff",
+      "summary": "Result ID: patch-risk-auditor\nSource: pilot / patch-risk-auditor\nQuality label: good\nCandidate status: dryrunready",
+      "limitations": [
+        "\"disclaimer\": \"This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.\",",
+        "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
+        "Legal disclaimer: This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
+        "Uses possible differentiator and candidate novelty axis language; not a legal novelty conclusion.",
+        "Existing defensive tooling may already cover dependency review. Requires human interpretation; not a legal novelty conclusion.",
+        "The `patch-risk-auditor` prototype checks synthetic toy patch records for dependency"
+      ],
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff"
+      }
+    },
+    {
       "slug": "toolchain-policy",
       "title": "Policy-Gated Toolchain Installation Protocol",
       "domain": "node-toolchain-policy",
@@ -330,5 +450,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "a26717f6dd87aefc69f4cdd81cbf1506099d7ff60c2bd17b87fcb0c91e55c6d3"
+  "evidenceHash": "4e562caa0d1fa2ca01f634a6700aed978af263b39557671476b32019120737c8"
 }

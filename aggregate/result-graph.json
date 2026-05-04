@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-04T15:31:52.892Z",
+  "generatedAt": "2026-05-04T16:02:51.519Z",
   "nodes": [
     {
       "id": "result:chemistry-record-auditor-tool",
@@ -15,6 +15,12 @@
       "domain": "chemistry-data-quality"
     },
     {
+      "id": "result:chemistry-record-auditor-tool-v2-v2",
+      "kind": "result",
+      "label": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
+      "domain": "chemistry-data-quality"
+    },
+    {
       "id": "result:corpus-deduplication",
       "kind": "result",
       "label": "Corpus Deduplication for Defensive Publications",
@@ -22,6 +28,12 @@
     },
     {
       "id": "result:energy-usage-anomaly-auditor",
+      "kind": "result",
+      "label": "Energy Usage Anomaly Auditor",
+      "domain": "energy-data-quality"
+    },
+    {
+      "id": "result:energy-usage-anomaly-auditor-v2",
       "kind": "result",
       "label": "Energy Usage Anomaly Auditor",
       "domain": "energy-data-quality"
@@ -40,6 +52,12 @@
     },
     {
       "id": "result:patch-risk-auditor",
+      "kind": "result",
+      "label": "Patch Risk Auditor",
+      "domain": "software-supply-chain"
+    },
+    {
+      "id": "result:patch-risk-auditor-v2",
       "kind": "result",
       "label": "Patch Risk Auditor",
       "domain": "software-supply-chain"
@@ -113,6 +131,16 @@
       "relation": "uses_public_tool_evidence"
     },
     {
+      "source": "result:chemistry-record-auditor-tool-v2-v2",
+      "target": "domain:chemistry-data-quality",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:chemistry-record-auditor-tool-v2-v2",
+      "target": "tool:pint",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
       "source": "result:corpus-deduplication",
       "target": "domain:open-invention-corpus",
       "relation": "belongs_to_domain"
@@ -124,6 +152,16 @@
     },
     {
       "source": "result:energy-usage-anomaly-auditor",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:energy-usage-anomaly-auditor-v2",
+      "target": "domain:energy-data-quality",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:energy-usage-anomaly-auditor-v2",
       "target": "tool:pandas",
       "relation": "uses_public_tool_evidence"
     },
@@ -148,10 +186,20 @@
       "relation": "uses_public_tool_evidence"
     },
     {
+      "source": "result:patch-risk-auditor-v2",
+      "target": "domain:software-supply-chain",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:patch-risk-auditor-v2",
+      "target": "tool:acorn",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
       "source": "result:toolchain-policy",
       "target": "domain:node-toolchain-policy",
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "1633841a96574ecc39ddf8594ebfff7ea0611af78293a28486db71c4e9c65652"
+  "evidenceHash": "7d13551cf9d25acbf4d0c5ecbe66f4b57dfa2c4eda62e9b54e6a616d7425f2cd"
 }

@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-04T15:31:52.892Z",
-  "entryCount": 8,
+  "builtAt": "2026-05-04T16:02:51.519Z",
+  "entryCount": 11,
   "entries": [
     {
       "slug": "chemistry-record-auditor-tool",
@@ -37,6 +37,35 @@
       "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
       "domain": "chemistry-data-quality",
       "href": "results/chemistry-record-auditor-tool-v2.html",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "terms": [
+        "auditor",
+        "candidate",
+        "chemistry",
+        "data",
+        "dataset",
+        "dryrunready",
+        "for",
+        "good",
+        "label",
+        "molecular",
+        "pilot",
+        "pint",
+        "quality",
+        "record",
+        "result",
+        "source",
+        "status",
+        "style",
+        "tool"
+      ]
+    },
+    {
+      "slug": "chemistry-record-auditor-tool-v2-v2",
+      "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
+      "domain": "chemistry-data-quality",
+      "href": "results/chemistry-record-auditor-tool-v2-v2.html",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
       "terms": [
@@ -102,6 +131,31 @@
       "title": "Energy Usage Anomaly Auditor",
       "domain": "energy-data-quality",
       "href": "results/energy-usage-anomaly-auditor.html",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "terms": [
+        "anomaly",
+        "auditor",
+        "candidate",
+        "data",
+        "dryrunready",
+        "energy",
+        "good",
+        "label",
+        "pandas",
+        "pilot",
+        "quality",
+        "result",
+        "source",
+        "status",
+        "usage"
+      ]
+    },
+    {
+      "slug": "energy-usage-anomaly-auditor-v2",
+      "title": "Energy Usage Anomaly Auditor",
+      "domain": "energy-data-quality",
+      "href": "results/energy-usage-anomaly-auditor-v2.html",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
       "terms": [
@@ -222,6 +276,32 @@
       ]
     },
     {
+      "slug": "patch-risk-auditor-v2",
+      "title": "Patch Risk Auditor",
+      "domain": "software-supply-chain",
+      "href": "results/patch-risk-auditor-v2.html",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "terms": [
+        "acorn",
+        "auditor",
+        "candidate",
+        "chain",
+        "dryrunready",
+        "good",
+        "label",
+        "patch",
+        "pilot",
+        "quality",
+        "result",
+        "risk",
+        "software",
+        "source",
+        "status",
+        "supply"
+      ]
+    },
+    {
       "slug": "toolchain-policy",
       "title": "Policy-Gated Toolchain Installation Protocol",
       "domain": "node-toolchain-policy",
@@ -257,5 +337,5 @@
       ]
     }
   ],
-  "evidenceHash": "65ec6890772642dcd9f4ba37db18f47a8bba5ec4f62f26950cb2d1b21e891595"
+  "evidenceHash": "5028a56cb0b9e8980f035def9638cadd6dde084bcabd9b63fa2d5082745a468c"
 }
