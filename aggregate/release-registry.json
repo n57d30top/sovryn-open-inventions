@@ -1,6 +1,6 @@
 {
   "kind": "corpus_release_registry",
-  "updatedAt": "2026-05-04T14:47:32.465Z",
+  "updatedAt": "2026-05-04T15:02:18.955Z",
   "releases": [
     {
       "slug": "chemistry-record-auditor-tool",
@@ -51,6 +51,14 @@
       "humanReviewRequired": false
     },
     {
+      "slug": "patch-risk-auditor",
+      "title": "Patch Risk Auditor",
+      "path": "results/patch-risk-auditor",
+      "sourceType": "pilot",
+      "sourceId": "patch-risk-auditor",
+      "humanReviewRequired": false
+    },
+    {
       "slug": "toolchain-policy",
       "title": "Policy-Gated Toolchain Installation Protocol",
       "path": "results/toolchain-policy",
@@ -59,5 +67,5 @@
       "humanReviewRequired": false
     }
   ],
-  "evidenceHash": "3cd6362f2c5f75d89add7a3ab9e6005d40d4fcb61bf1ada586f2d96c4ef6a659"
+  "evidenceHash": "16029b2529bbbba5524c9bd8faa9dcbe1e86aceb23e97bd8365c151cc079cbde"
 }

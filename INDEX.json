@@ -1,7 +1,7 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-04T14:47:32.464Z",
-  "resultCount": 7,
+  "updatedAt": "2026-05-04T15:02:18.954Z",
+  "resultCount": 8,
   "results": [
     {
       "slug": "chemistry-record-auditor-tool",
@@ -100,6 +100,22 @@
       "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use."
     },
     {
+      "slug": "patch-risk-auditor",
+      "title": "Patch Risk Auditor",
+      "resultId": "patch-risk-auditor",
+      "sourceType": "pilot",
+      "sourceId": "patch-risk-auditor",
+      "qualityLabel": "good",
+      "candidateStatus": "dry_run_ready",
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 83,
+      "reproducibilityScore": 94,
+      "publicationSafetyScore": 96,
+      "humanReviewRequired": false,
+      "path": "results/patch-risk-auditor",
+      "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use."
+    },
+    {
       "slug": "toolchain-policy",
       "title": "Policy-Gated Toolchain Installation Protocol",
       "resultId": "develop-a-policy-gated-toolchain-installation-protocol-for-autonomous-linux-rese",
@@ -117,5 +133,5 @@
     }
   ],
   "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
-  "evidenceHash": "48c1084b4aa99636a1ffcbacd9ec8ba5183450a764f0522607d8ed0803d232c2"
+  "evidenceHash": "f3cbda31cabc5553869da30c9c98f24533771aba0dce7fd419ae36fda7eb2132"
 }

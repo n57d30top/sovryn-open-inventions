@@ -1,0 +1,49 @@
+{
+  "kind": "patch_risk_auditor_output",
+  "externalToolEvidence": {
+    "package": "acorn",
+    "version": "8.16.0",
+    "usedForParsingCheck": true
+  },
+  "findings": [
+    {
+      "patchId": "risky-ai-generated-dependency",
+      "findingType": "dependency_addition",
+      "description": "Patch adds dependencies requiring provenance review."
+    },
+    {
+      "patchId": "risky-ai-generated-dependency",
+      "findingType": "install_script_added",
+      "description": "Patch adds an install-time script requiring defensive review."
+    },
+    {
+      "patchId": "risky-ai-generated-dependency",
+      "findingType": "risky_diff_pattern",
+      "description": "Patch includes dynamic evaluation pattern in synthetic sample."
+    },
+    {
+      "patchId": "risky-ai-generated-dependency",
+      "findingType": "test_impact_mismatch",
+      "description": "Code changed without matching test changes."
+    },
+    {
+      "patchId": "risky-ai-generated-dependency",
+      "findingType": "weak_provenance",
+      "description": "Patch provenance is weak or unverified."
+    }
+  ],
+  "patchScores": [
+    {
+      "patchId": "benign-docs-update",
+      "riskScore": 0,
+      "status": "low_risk"
+    },
+    {
+      "patchId": "risky-ai-generated-dependency",
+      "riskScore": 100,
+      "status": "review_required"
+    }
+  ],
+  "datasetRiskScore": 50,
+  "safetyScope": "synthetic toy patch records only; no real target systems"
+}

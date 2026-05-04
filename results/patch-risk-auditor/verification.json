@@ -1,0 +1,160 @@
+{
+  "kind": "autopublish_verification",
+  "resultId": "patch-risk-auditor",
+  "slug": "patch-risk-auditor",
+  "gates": [
+    {
+      "code": "QUALITY_THRESHOLD_PASSED",
+      "passed": true,
+      "message": "Quality label must meet corpus autopublish minimum.",
+      "details": {
+        "qualityLabel": "good",
+        "minimum": "good"
+      }
+    },
+    {
+      "code": "EVIDENCE_THRESHOLD_PASSED",
+      "passed": true,
+      "message": "Evidence strength score must meet corpus autopublish threshold.",
+      "details": {
+        "score": 83,
+        "minimum": 80
+      }
+    },
+    {
+      "code": "REPRODUCIBILITY_THRESHOLD_PASSED",
+      "passed": true,
+      "message": "Reproducibility score must meet corpus autopublish threshold.",
+      "details": {
+        "score": 94,
+        "minimum": 90
+      }
+    },
+    {
+      "code": "PUBLICATION_SAFETY_THRESHOLD_PASSED",
+      "passed": true,
+      "message": "Publication safety score must meet corpus autopublish threshold.",
+      "details": {
+        "score": 96,
+        "minimum": 85
+      }
+    },
+    {
+      "code": "REPLAY_CRITICAL_100",
+      "passed": true,
+      "message": "Replay critical pass rate must be 100 for autonomous corpus publication.",
+      "details": {
+        "replayCriticalPassRate": 100
+      }
+    },
+    {
+      "code": "SECURITY_AUDIT_PASSED",
+      "passed": true,
+      "message": "Security audit must pass.",
+      "details": {}
+    },
+    {
+      "code": "PUBLIC_HYGIENE_PASSED",
+      "passed": true,
+      "message": "Public hygiene audit must pass.",
+      "details": {
+        "findings": []
+      }
+    },
+    {
+      "code": "SAFETY_SCAN_PASSED",
+      "passed": true,
+      "message": "Safety scan must pass.",
+      "details": {}
+    },
+    {
+      "code": "RELIABILITY_REPLAY_PASSED",
+      "passed": true,
+      "message": "Reliability replay must pass.",
+      "details": {}
+    },
+    {
+      "code": "PUBLICATION_DRY_RUN_PRESENT",
+      "passed": true,
+      "message": "Publication dry-run evidence must exist.",
+      "details": {}
+    },
+    {
+      "code": "NO_PUBLIC_LEAKS",
+      "passed": true,
+      "message": "Candidate must have zero public leaks.",
+      "details": {}
+    },
+    {
+      "code": "NO_CRITICAL_FAILURES",
+      "passed": true,
+      "message": "Candidate must have zero critical failures.",
+      "details": {}
+    },
+    {
+      "code": "NO_RAW_LOGS",
+      "passed": true,
+      "message": "Candidate public evidence must not include raw logs.",
+      "details": {}
+    },
+    {
+      "code": "NO_SECRETS",
+      "passed": true,
+      "message": "Candidate public evidence must not include secrets.",
+      "details": {}
+    },
+    {
+      "code": "NO_LOCAL_PATHS",
+      "passed": true,
+      "message": "Candidate public evidence must not include local absolute paths.",
+      "details": {}
+    },
+    {
+      "code": "NO_FAKE_LEGAL_CLAIMS",
+      "passed": true,
+      "message": "Candidate must not make legal patentability, legal novelty, or FTO claims.",
+      "details": {}
+    },
+    {
+      "code": "NO_DANGEROUS_GOAL",
+      "passed": true,
+      "message": "Candidate goal must be legitimate and non-dangerous.",
+      "details": {}
+    },
+    {
+      "code": "SLUG_UNIQUE_OR_VERSIONED",
+      "passed": true,
+      "message": "Target slug must be unique or deterministically versioned.",
+      "details": {
+        "requestedSlug": "patch-risk-auditor",
+        "targetSlug": "patch-risk-auditor"
+      }
+    },
+    {
+      "code": "WORKER_NO_SILENT_FALLBACK",
+      "passed": true,
+      "message": "Worker execution must record no-silent-fallback evidence when used.",
+      "details": {
+        "workerExecutionUsed": true,
+        "workerNoSilentFallback": true
+      }
+    },
+    {
+      "code": "CANDIDATE_STATUS_ALLOWED",
+      "passed": true,
+      "message": "Candidate status must be dry_run_ready or review_ready.",
+      "details": {
+        "candidateStatus": "dry_run_ready"
+      }
+    },
+    {
+      "code": "RESULT_ELIGIBLE",
+      "passed": true,
+      "message": "Result must pass every automated eligibility gate.",
+      "details": {
+        "failedGates": []
+      }
+    }
+  ],
+  "evidenceHash": "39c8dd7e069c45b99f18f9c3f555ba5fe46c7ba150ec2f6ea6c1215f5a77b923"
+}

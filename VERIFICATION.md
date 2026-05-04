@@ -1,13 +1,13 @@
 # Verification
 
-Indexed results: 7
+Indexed results: 8
 New autopublished results in latest run: 1
 
 Every autopublished result includes SUMMARY.json, curated release evidence, pilot evidence, verification.json, PUBLICATION_INTENT.json, and AUTOPUBLISH_RECORD.json.
 
 ## Latest Results
 
-- energy-usage-anomaly-auditor: good, dry_run_ready, replay-critical 100
+- patch-risk-auditor: good, dry_run_ready, replay-critical 100
 
 ## Automated Gates
 

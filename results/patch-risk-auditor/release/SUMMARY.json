@@ -1,0 +1,40 @@
+{
+  "kind": "patch_risk_public_summary",
+  "title": "Patch Risk Auditor",
+  "toolName": "patch-risk-auditor",
+  "safeFraming": "A safe open-source defensive method for auditing synthetic software patch-risk records.",
+  "externalPackage": "acorn",
+  "nodeAlphaProfile": "container-netoff",
+  "requestedNodeAlphaProfile": "container-netoff",
+  "workerAssurance": "container-netoff final validation",
+  "noSilentFallback": true,
+  "issuesDetected": [
+    {
+      "patchId": "risky-ai-generated-dependency",
+      "findingType": "dependency_addition",
+      "description": "Patch adds dependencies requiring provenance review."
+    },
+    {
+      "patchId": "risky-ai-generated-dependency",
+      "findingType": "install_script_added",
+      "description": "Patch adds an install-time script requiring defensive review."
+    },
+    {
+      "patchId": "risky-ai-generated-dependency",
+      "findingType": "risky_diff_pattern",
+      "description": "Patch includes dynamic evaluation pattern in synthetic sample."
+    },
+    {
+      "patchId": "risky-ai-generated-dependency",
+      "findingType": "test_impact_mismatch",
+      "description": "Code changed without matching test changes."
+    },
+    {
+      "patchId": "risky-ai-generated-dependency",
+      "findingType": "weak_provenance",
+      "description": "Patch provenance is weak or unverified."
+    }
+  ],
+  "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
+  "evidenceHash": "2109e09e98a57de4e5c822181d49ec5307ba10019baf6321ecd18ed726d19368"
+}
