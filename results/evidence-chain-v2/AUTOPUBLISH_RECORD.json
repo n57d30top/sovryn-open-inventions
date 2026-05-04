@@ -9,9 +9,9 @@
   "automatedPolicyVersion": "corpus-autopublish-v1",
   "targetRepo": "https://github.com/n57d30top/sovryn-open-inventions",
   "targetPath": "results/evidence-chain-v2",
-  "commitHash": null,
-  "pushed": false,
-  "pushedAt": null,
+  "commitHash": "0d2f6e42ea14352bcb36e1624a734ea45c859962",
+  "pushed": true,
+  "pushedAt": "2026-05-04T12:56:38.025Z",
   "dryRun": false,
   "qualityLabel": "good",
   "candidateStatus": "dry_run_ready",
@@ -28,5 +28,5 @@
   "noPublicLeaks": true,
   "noCriticalFailures": true,
   "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
-  "evidenceHash": "a5dcf2b7e2a51694ccb7d4b3cf2af0a789b0738cb1465c851b41c62c1af3c803"
+  "evidenceHash": "37d4a778ecc64bc132d0909649ace39929e87c7da247239ff385b6191e812178"
 }
