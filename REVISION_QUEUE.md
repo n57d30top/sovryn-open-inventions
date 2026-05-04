@@ -1,7 +1,7 @@
 # Revision Queue
 
 
-- patch-risk-auditor-v2: needs_revision. Quality, candidate status, or anti-template review requires revision.
+- evidence-chain-v2: needs_revision. Specificity score is below the public corpus promotion threshold.
 
 Superseded and demo_pilot results remain visible but are not treated as current showcase outputs.
 

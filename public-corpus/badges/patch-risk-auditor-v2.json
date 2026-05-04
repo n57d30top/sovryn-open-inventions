@@ -4,16 +4,16 @@
   "badges": {
     "quality": "good",
     "status": "autopublished",
-    "antiTemplate": "needs_revision",
+    "antiTemplate": "review_ready_after_showcase_revision",
     "replay": "replay-100",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
     "worker": "container-netoff",
-    "lifecycle": "needs_revision",
+    "lifecycle": "showcase",
     "version": "patch-risk-auditor",
-    "showcase": "not-showcase"
+    "showcase": "showcase-3"
   },
-  "lifecycleStatus": "needs_revision",
-  "showcaseRank": null,
-  "evidenceHash": "d06d7944a6404456bbcbd7f107d9894deafc98a552ebe2e85780ea39b62572cd"
+  "lifecycleStatus": "showcase",
+  "showcaseRank": 3,
+  "evidenceHash": "8d324822478eef683c38060b058a83a41d88a88a9b570a3c6b05fa2ff1e1321c"
 }

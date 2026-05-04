@@ -27,6 +27,10 @@ Indexed public results: 11
 - Superseded results are mapped in aggregate/superseded-map.json.
 - Showcase results are generated in aggregate/showcase-results.json.
 - Results marked needs_revision, blocked, demo_pilot, or superseded are not showcase results.
+- Showcase results must include human-readable README, SHOWCASE.md, METHOD.md,
+  REPRODUCE.md, LIMITATIONS.md, and EXAMPLES.md.
+- Showcase results must meet specificity, anti-template, reproducibility,
+  publication-safety, evidence, and replay thresholds.
 
 ## Disclaimer
 

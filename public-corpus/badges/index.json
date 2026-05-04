@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-04T17:18:52.090Z",
+  "generatedAt": "2026-05-04T17:37:06.969Z",
   "badges": [
     {
       "slug": "chemistry-record-auditor-tool",
@@ -131,12 +131,12 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
-        "lifecycle": "showcase",
+        "lifecycle": "needs_revision",
         "version": "evidence-chain",
-        "showcase": "showcase-3"
+        "showcase": "not-showcase"
       },
-      "lifecycleStatus": "showcase",
-      "showcaseRank": 3
+      "lifecycleStatus": "needs_revision",
+      "showcaseRank": null
     },
     {
       "slug": "patch-risk-auditor",
@@ -160,17 +160,17 @@
       "badges": {
         "quality": "good",
         "status": "autopublished",
-        "antiTemplate": "needs_revision",
+        "antiTemplate": "review_ready_after_showcase_revision",
         "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
-        "lifecycle": "needs_revision",
+        "lifecycle": "showcase",
         "version": "patch-risk-auditor",
-        "showcase": "not-showcase"
+        "showcase": "showcase-3"
       },
-      "lifecycleStatus": "needs_revision",
-      "showcaseRank": null
+      "lifecycleStatus": "showcase",
+      "showcaseRank": 3
     },
     {
       "slug": "toolchain-policy",
@@ -190,5 +190,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "8b1317992e221bba4e7b370465cc32cc84630d7f5d5560435c1b6fb14c25a1f6"
+  "evidenceHash": "24a3c50c368f9a2228e3480acbe083e0412fef54dd737a6a1333921397f835c5"
 }

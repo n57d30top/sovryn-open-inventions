@@ -16,7 +16,12 @@ Sovryn produces autonomous open-research artifacts, defensive publications, and 
 
 - #1: [Molecular Record Auditor for Chemistry-Style Dataset Quality](results/chemistry-record-auditor-tool-v2-v2/) — chemistry-data-quality, showcase
 - #2: [Energy Usage Anomaly Auditor](results/energy-usage-anomaly-auditor-v2/) — energy-data-quality, showcase
-- #3: [Replayable Evidence Chain for Autonomous Research Agents](results/evidence-chain-v2/) — open-invention-corpus, showcase
+- #3: [Patch Risk Auditor](results/patch-risk-auditor-v2/) — software-supply-chain, showcase
+
+Each showcase result includes SHOWCASE.md, METHOD.md, REPRODUCE.md,
+LIMITATIONS.md, and EXAMPLES.md. These documents explain the problem, method,
+custom tool, tests, reproduction path, source evidence summary, counter-evidence,
+and safety scope in human-readable language.
 
 ## Results
 
@@ -27,9 +32,9 @@ Sovryn produces autonomous open-research artifacts, defensive publications, and 
 - [Energy Usage Anomaly Auditor](results/energy-usage-anomaly-auditor/) — good, superseded, energy-usage-anomaly-auditor, energy-data-quality
 - [Energy Usage Anomaly Auditor](results/energy-usage-anomaly-auditor-v2/) — good, showcase, energy-usage-anomaly-auditor, energy-data-quality
 - [Replayable Evidence Chain for Autonomous Research Agents](results/evidence-chain/) — good, superseded, evidence-chain, open-invention-corpus
-- [Replayable Evidence Chain for Autonomous Research Agents](results/evidence-chain-v2/) — good, showcase, evidence-chain, open-invention-corpus
+- [Replayable Evidence Chain for Autonomous Research Agents](results/evidence-chain-v2/) — good, needs_revision, evidence-chain, open-invention-corpus
 - [Patch Risk Auditor](results/patch-risk-auditor/) — good, superseded, patch-risk-auditor, software-supply-chain
-- [Patch Risk Auditor](results/patch-risk-auditor-v2/) — good, needs_revision, patch-risk-auditor, software-supply-chain
+- [Patch Risk Auditor](results/patch-risk-auditor-v2/) — good, showcase, patch-risk-auditor, software-supply-chain
 - [Policy-Gated Toolchain Installation Protocol](results/toolchain-policy/) — good, demo_pilot, toolchain-policy, node-toolchain-policy
 
 ## Corpus Lifecycle

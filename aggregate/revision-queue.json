@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_revision_queue",
-  "updatedAt": "2026-05-04T17:18:52.090Z",
+  "updatedAt": "2026-05-04T17:37:06.969Z",
   "results": [
     {
-      "slug": "patch-risk-auditor-v2",
-      "title": "Patch Risk Auditor",
+      "slug": "evidence-chain-v2",
+      "title": "Replayable Evidence Chain for Autonomous Research Agents",
       "lifecycleStatus": "needs_revision",
-      "revisionReason": "Quality, candidate status, or anti-template review requires revision."
+      "revisionReason": "Specificity score is below the public corpus promotion threshold."
     }
   ],
-  "evidenceHash": "72cd7d17fe5620b4d4bd6f02fe0c46d4b536025ea443207d21d399e71aa5076a"
+  "evidenceHash": "ffc8b10d7b27736ce850765e8b3c33d51e66cc17a25a6a185be679ce0f6bdcd7"
 }

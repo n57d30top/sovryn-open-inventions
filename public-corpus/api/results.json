@@ -23,7 +23,7 @@
       "reproducibilityScore": 96,
       "publicationSafetyScore": 96,
       "replayCriticalPassRate": 100,
-      "specificityScore": 0,
+      "specificityScore": 95,
       "publicHygienePassed": true,
       "safetyScanPassed": true,
       "reliabilityReplayPassed": true,
@@ -53,6 +53,14 @@
         "lifecycle": "superseded",
         "version": "chemistry-record-auditor-tool",
         "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": false,
+        "limitations": false,
+        "examples": false
       }
     },
     {
@@ -77,7 +85,7 @@
       "reproducibilityScore": 96,
       "publicationSafetyScore": 96,
       "replayCriticalPassRate": 100,
-      "specificityScore": 0,
+      "specificityScore": 95,
       "publicHygienePassed": true,
       "safetyScanPassed": true,
       "reliabilityReplayPassed": true,
@@ -107,6 +115,14 @@
         "lifecycle": "superseded",
         "version": "chemistry-record-auditor-tool",
         "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": false,
+        "limitations": false,
+        "examples": false
       }
     },
     {
@@ -125,13 +141,13 @@
       "showcaseEligible": true,
       "showcaseRank": 1,
       "revisionReason": null,
-      "humanReadableSummary": "Result ID: chemistry-record-auditor-tool-v2\nSource: pilot / chemistry-record-auditor-tool-v2\nQuality label: good\nCandidate status: dryrunready",
+      "humanReadableSummary": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
       "releaseReadinessScore": 90,
       "evidenceStrengthScore": 88,
       "reproducibilityScore": 96,
       "publicationSafetyScore": 96,
       "replayCriticalPassRate": 100,
-      "specificityScore": 69,
+      "specificityScore": 85,
       "publicHygienePassed": true,
       "safetyScanPassed": true,
       "reliabilityReplayPassed": true,
@@ -141,14 +157,14 @@
       ],
       "customTool": "mol-record-auditor",
       "workerAssurance": "container-netoff",
-      "summary": "Result ID: chemistry-record-auditor-tool-v2\nSource: pilot / chemistry-record-auditor-tool-v2\nQuality label: good\nCandidate status: dryrunready",
+      "summary": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
       "limitations": [
         "\"disclaimer\": \"This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.\",",
-        "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
-        "A safe, open-source data-quality method can audit toy chemistry-style molecular",
-        "property records by combining unit normalization, toy identifier equivalence,",
-        "The toy equivalence map is not broad canonicalization.",
-        "RDKit/OpenBabel integration is future work only if policy-approved."
+        "Duplicate ethanol, water, acetone, or benzene toy records after bounded identifier equivalence.",
+        "A suspicious acetone toy record with an implausible boiling-point value.",
+        "It is not a general SMILES canonicalizer or cheminformatics toolkit.",
+        "It uses bounded toy equivalence rules unless a stronger approved toolkit is added later.",
+        "These examples are bounded demonstrations for public research artifacts. They"
       ],
       "badges": {
         "quality": "good",
@@ -161,6 +177,14 @@
         "lifecycle": "showcase",
         "version": "chemistry-record-auditor-tool",
         "showcase": "showcase-1"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": true,
+        "method": true,
+        "reproduce": true,
+        "limitations": true,
+        "examples": true
       }
     },
     {
@@ -185,7 +209,7 @@
       "reproducibilityScore": 100,
       "publicationSafetyScore": 90,
       "replayCriticalPassRate": 0,
-      "specificityScore": 0,
+      "specificityScore": 60,
       "publicHygienePassed": true,
       "safetyScanPassed": true,
       "reliabilityReplayPassed": true,
@@ -213,6 +237,14 @@
         "lifecycle": "demo_pilot",
         "version": "corpus-deduplication",
         "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": false,
+        "limitations": false,
+        "examples": false
       }
     },
     {
@@ -237,7 +269,7 @@
       "reproducibilityScore": 95,
       "publicationSafetyScore": 97,
       "replayCriticalPassRate": 100,
-      "specificityScore": 0,
+      "specificityScore": 95,
       "publicHygienePassed": true,
       "safetyScanPassed": true,
       "reliabilityReplayPassed": true,
@@ -267,6 +299,14 @@
         "lifecycle": "superseded",
         "version": "energy-usage-anomaly-auditor",
         "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": false,
+        "limitations": false,
+        "examples": false
       }
     },
     {
@@ -285,13 +325,13 @@
       "showcaseEligible": true,
       "showcaseRank": 2,
       "revisionReason": null,
-      "humanReadableSummary": "Result ID: energy-usage-anomaly-auditor\nSource: pilot / energy-usage-anomaly-auditor\nQuality label: good\nCandidate status: dryrunready",
+      "humanReadableSummary": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
       "releaseReadinessScore": 89,
       "evidenceStrengthScore": 84,
       "reproducibilityScore": 95,
       "publicationSafetyScore": 97,
       "replayCriticalPassRate": 100,
-      "specificityScore": 72,
+      "specificityScore": 85,
       "publicHygienePassed": true,
       "safetyScanPassed": true,
       "reliabilityReplayPassed": true,
@@ -301,14 +341,14 @@
       ],
       "customTool": "energy-record-auditor",
       "workerAssurance": "container-netoff",
-      "summary": "Result ID: energy-usage-anomaly-auditor\nSource: pilot / energy-usage-anomaly-auditor\nQuality label: good\nCandidate status: dryrunready",
+      "summary": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
       "limitations": [
         "\"disclaimer\": \"This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.\",",
-        "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
-        "reproducible toy-data tool.",
-        "Legal disclaimer: This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
-        "\"inventionSlug\": \"a-safe-open-source-data-quality-method-for-auditing-anonymized-toy-hom-3\",",
-        "axis, and not a legal novelty conclusion."
+        "Duplicate timestamp records for an anonymized toy meter.",
+        "It is a bounded anomaly-audit method, not a production forecasting system.",
+        "These examples are bounded demonstrations for public research artifacts. They",
+        "Limitations: Energy Usage Anomaly Auditor",
+        "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use."
       ],
       "badges": {
         "quality": "good",
@@ -321,6 +361,14 @@
         "lifecycle": "showcase",
         "version": "energy-usage-anomaly-auditor",
         "showcase": "showcase-2"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": true,
+        "method": true,
+        "reproduce": true,
+        "limitations": true,
+        "examples": true
       }
     },
     {
@@ -345,7 +393,7 @@
       "reproducibilityScore": 100,
       "publicationSafetyScore": 90,
       "replayCriticalPassRate": 0,
-      "specificityScore": 0,
+      "specificityScore": 60,
       "publicHygienePassed": true,
       "safetyScanPassed": true,
       "reliabilityReplayPassed": true,
@@ -373,6 +421,14 @@
         "lifecycle": "superseded",
         "version": "evidence-chain",
         "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": false,
+        "limitations": false,
+        "examples": false
       }
     },
     {
@@ -384,20 +440,20 @@
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
       "antiTemplateStatus": "unknown",
-      "lifecycleStatus": "showcase",
+      "lifecycleStatus": "needs_revision",
       "versionGroup": "evidence-chain",
       "supersedes": "evidence-chain",
       "supersededBy": null,
-      "showcaseEligible": true,
-      "showcaseRank": 3,
-      "revisionReason": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": "Specificity score is below the public corpus promotion threshold.",
       "humanReadableSummary": "Result ID: develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc\nSource: pilot / evidence-chain\nQuality label: good\nCandidate status: dryrunready",
       "releaseReadinessScore": 88,
       "evidenceStrengthScore": 100,
       "reproducibilityScore": 100,
       "publicationSafetyScore": 90,
       "replayCriticalPassRate": 100,
-      "specificityScore": 0,
+      "specificityScore": 51,
       "publicHygienePassed": true,
       "safetyScanPassed": true,
       "reliabilityReplayPassed": true,
@@ -422,9 +478,17 @@
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
-        "lifecycle": "showcase",
+        "lifecycle": "needs_revision",
         "version": "evidence-chain",
-        "showcase": "showcase-3"
+        "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": false,
+        "limitations": false,
+        "examples": false
       }
     },
     {
@@ -449,7 +513,7 @@
       "reproducibilityScore": 94,
       "publicationSafetyScore": 96,
       "replayCriticalPassRate": 100,
-      "specificityScore": 0,
+      "specificityScore": 95,
       "publicHygienePassed": true,
       "safetyScanPassed": true,
       "reliabilityReplayPassed": true,
@@ -479,6 +543,14 @@
         "lifecycle": "superseded",
         "version": "patch-risk-auditor",
         "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": false,
+        "limitations": false,
+        "examples": false
       }
     },
     {
@@ -489,21 +561,21 @@
       "path": "results/patch-risk-auditor-v2",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
-      "antiTemplateStatus": "needs_revision",
-      "lifecycleStatus": "needs_revision",
+      "antiTemplateStatus": "review_ready_after_showcase_revision",
+      "lifecycleStatus": "showcase",
       "versionGroup": "patch-risk-auditor",
       "supersedes": "patch-risk-auditor",
       "supersededBy": null,
-      "showcaseEligible": false,
-      "showcaseRank": null,
-      "revisionReason": "Quality, candidate status, or anti-template review requires revision.",
-      "humanReadableSummary": "Result ID: patch-risk-auditor\nSource: pilot / patch-risk-auditor\nQuality label: good\nCandidate status: dryrunready",
+      "showcaseEligible": true,
+      "showcaseRank": 3,
+      "revisionReason": null,
+      "humanReadableSummary": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
       "releaseReadinessScore": 88,
       "evidenceStrengthScore": 83,
       "reproducibilityScore": 94,
       "publicationSafetyScore": 96,
       "replayCriticalPassRate": 100,
-      "specificityScore": 63,
+      "specificityScore": 85,
       "publicHygienePassed": true,
       "safetyScanPassed": true,
       "reliabilityReplayPassed": true,
@@ -513,26 +585,34 @@
       ],
       "customTool": "patch-risk-auditor",
       "workerAssurance": "container-netoff",
-      "summary": "Result ID: patch-risk-auditor\nSource: pilot / patch-risk-auditor\nQuality label: good\nCandidate status: dryrunready",
+      "summary": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
       "limitations": [
         "\"disclaimer\": \"This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.\",",
+        "Install-script or package metadata changes in toy repository examples.",
+        "These examples are bounded demonstrations for public research artifacts. They",
+        "Limitations: Patch Risk Auditor",
         "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
-        "Legal disclaimer: This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
-        "Uses possible differentiator and candidate novelty axis language; not a legal novelty conclusion.",
-        "Existing defensive tooling may already cover dependency review. Requires human interpretation; not a legal novelty conclusion.",
-        "The `patch-risk-auditor` prototype checks synthetic toy patch records for dependency"
+        "Legal disclaimer: This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use."
       ],
       "badges": {
         "quality": "good",
         "status": "autopublished",
-        "antiTemplate": "needs_revision",
+        "antiTemplate": "review_ready_after_showcase_revision",
         "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
-        "lifecycle": "needs_revision",
+        "lifecycle": "showcase",
         "version": "patch-risk-auditor",
-        "showcase": "not-showcase"
+        "showcase": "showcase-3"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": true,
+        "method": true,
+        "reproduce": true,
+        "limitations": true,
+        "examples": true
       }
     },
     {
@@ -557,7 +637,7 @@
       "reproducibilityScore": 100,
       "publicationSafetyScore": 90,
       "replayCriticalPassRate": 0,
-      "specificityScore": 0,
+      "specificityScore": 60,
       "publicHygienePassed": true,
       "safetyScanPassed": true,
       "reliabilityReplayPassed": true,
@@ -585,8 +665,16 @@
         "lifecycle": "demo_pilot",
         "version": "toolchain-policy",
         "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": false,
+        "limitations": false,
+        "examples": false
       }
     }
   ],
-  "evidenceHash": "9262cf8e63365c1ac4ec88cd8f65506560cc305051e7af78e67251dc6fc605b4"
+  "evidenceHash": "df0fe3fcaf562cd52a1fb2b515c50e1771b1d0ca18e331fab4075395bf46fdea"
 }

@@ -10,11 +10,12 @@
 - Evidence strength: 88
 - Reproducibility: 96
 - Publication safety: 96
+- Specificity: 85
+- Anti-template status: review_ready
+- Reproduce: results/chemistry-record-auditor-tool-v2-v2/REPRODUCE.md
+- Examples: results/chemistry-record-auditor-tool-v2-v2/EXAMPLES.md
 
-Result ID: chemistry-record-auditor-tool-v2
-Source: pilot / chemistry-record-auditor-tool-v2
-Quality label: good
-Candidate status: dryrunready
+Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.
 
 ## 2. Energy Usage Anomaly Auditor
 
@@ -26,27 +27,29 @@ Candidate status: dryrunready
 - Evidence strength: 84
 - Reproducibility: 95
 - Publication safety: 97
+- Specificity: 85
+- Anti-template status: review_ready
+- Reproduce: results/energy-usage-anomaly-auditor-v2/REPRODUCE.md
+- Examples: results/energy-usage-anomaly-auditor-v2/EXAMPLES.md
 
-Result ID: energy-usage-anomaly-auditor
-Source: pilot / energy-usage-anomaly-auditor
-Quality label: good
-Candidate status: dryrunready
+Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.
 
-## 3. Replayable Evidence Chain for Autonomous Research Agents
+## 3. Patch Risk Auditor
 
-- Slug: evidence-chain-v2
-- Domain: open-invention-corpus
-- Version group: evidence-chain
+- Slug: patch-risk-auditor-v2
+- Domain: software-supply-chain
+- Version group: patch-risk-auditor
 - Quality: good
 - Readiness: 88
-- Evidence strength: 100
-- Reproducibility: 100
-- Publication safety: 90
+- Evidence strength: 83
+- Reproducibility: 94
+- Publication safety: 96
+- Specificity: 85
+- Anti-template status: review_ready_after_showcase_revision
+- Reproduce: results/patch-risk-auditor-v2/REPRODUCE.md
+- Examples: results/patch-risk-auditor-v2/EXAMPLES.md
 
-Result ID: develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc
-Source: pilot / evidence-chain
-Quality label: good
-Candidate status: dryrunready
+Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.
 
 
 Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.

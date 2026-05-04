@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-04T17:18:52.090Z",
+  "generatedAt": "2026-05-04T17:37:06.969Z",
   "qualityCounts": {
     "good": 11
   },
@@ -23,7 +23,7 @@
       "evidenceStrengthScore": 86,
       "reproducibilityScore": 96,
       "publicationSafetyScore": 96,
-      "specificityScore": 0
+      "specificityScore": 95
     },
     {
       "slug": "chemistry-record-auditor-tool-v2",
@@ -37,7 +37,7 @@
       "evidenceStrengthScore": 88,
       "reproducibilityScore": 96,
       "publicationSafetyScore": 96,
-      "specificityScore": 0
+      "specificityScore": 95
     },
     {
       "slug": "chemistry-record-auditor-tool-v2-v2",
@@ -51,7 +51,7 @@
       "evidenceStrengthScore": 88,
       "reproducibilityScore": 96,
       "publicationSafetyScore": 96,
-      "specificityScore": 69
+      "specificityScore": 85
     },
     {
       "slug": "corpus-deduplication",
@@ -65,7 +65,7 @@
       "evidenceStrengthScore": 100,
       "reproducibilityScore": 100,
       "publicationSafetyScore": 90,
-      "specificityScore": 0
+      "specificityScore": 60
     },
     {
       "slug": "energy-usage-anomaly-auditor",
@@ -79,7 +79,7 @@
       "evidenceStrengthScore": 84,
       "reproducibilityScore": 95,
       "publicationSafetyScore": 97,
-      "specificityScore": 0
+      "specificityScore": 95
     },
     {
       "slug": "energy-usage-anomaly-auditor-v2",
@@ -93,7 +93,7 @@
       "evidenceStrengthScore": 84,
       "reproducibilityScore": 95,
       "publicationSafetyScore": 97,
-      "specificityScore": 72
+      "specificityScore": 85
     },
     {
       "slug": "evidence-chain",
@@ -107,21 +107,21 @@
       "evidenceStrengthScore": 100,
       "reproducibilityScore": 100,
       "publicationSafetyScore": 90,
-      "specificityScore": 0
+      "specificityScore": 60
     },
     {
       "slug": "evidence-chain-v2",
       "qualityLabel": "good",
       "antiTemplateStatus": "unknown",
-      "lifecycleStatus": "showcase",
+      "lifecycleStatus": "needs_revision",
       "versionGroup": "evidence-chain",
-      "showcaseEligible": true,
-      "showcaseRank": 3,
+      "showcaseEligible": false,
+      "showcaseRank": null,
       "releaseReadinessScore": 88,
       "evidenceStrengthScore": 100,
       "reproducibilityScore": 100,
       "publicationSafetyScore": 90,
-      "specificityScore": 0
+      "specificityScore": 51
     },
     {
       "slug": "patch-risk-auditor",
@@ -135,21 +135,21 @@
       "evidenceStrengthScore": 83,
       "reproducibilityScore": 94,
       "publicationSafetyScore": 96,
-      "specificityScore": 0
+      "specificityScore": 95
     },
     {
       "slug": "patch-risk-auditor-v2",
       "qualityLabel": "good",
-      "antiTemplateStatus": "needs_revision",
-      "lifecycleStatus": "needs_revision",
+      "antiTemplateStatus": "review_ready_after_showcase_revision",
+      "lifecycleStatus": "showcase",
       "versionGroup": "patch-risk-auditor",
-      "showcaseEligible": false,
-      "showcaseRank": null,
+      "showcaseEligible": true,
+      "showcaseRank": 3,
       "releaseReadinessScore": 88,
       "evidenceStrengthScore": 83,
       "reproducibilityScore": 94,
       "publicationSafetyScore": 96,
-      "specificityScore": 63
+      "specificityScore": 85
     },
     {
       "slug": "toolchain-policy",
@@ -163,7 +163,7 @@
       "evidenceStrengthScore": 100,
       "reproducibilityScore": 100,
       "publicationSafetyScore": 90,
-      "specificityScore": 0
+      "specificityScore": 60
     }
   ],
   "evidenceHash": "b98a944f85698e9a7e73c5654a4d649b06dc60b0e52d59dcc34245fc680f2c5c"
