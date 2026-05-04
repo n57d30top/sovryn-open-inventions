@@ -1,22 +1,19 @@
 # Verification
 
-Indexed results: 8
-New autopublished results in latest run: 1
+Indexed public results: 8
 
-Every autopublished result includes SUMMARY.json, curated release evidence, pilot evidence, verification.json, PUBLICATION_INTENT.json, and AUTOPUBLISH_RECORD.json.
+## Public Corpus Product Gates
 
-## Latest Results
+- The static corpus site is generated under public-corpus/.
+- JSON API exports are generated under public-corpus/api/.
+- Result pages include scores, limitations, safety scope, and public artifact links.
+- Badges summarize quality, status, replay, safety, hygiene, and worker assurance.
+- Public hygiene scans block raw logs, secrets, private configuration, local absolute paths, unsafe content, and fake legal claims.
 
-- patch-risk-auditor: good, dry_run_ready, replay-critical 100
+## Result Status Counts
 
-## Automated Gates
-
-- Target repo exists and remote is restricted to n57d30top/sovryn-open-inventions.
-- New GitHub repository creation is disabled.
-- Human review is not required for corpus autopublish, but automated gates are mandatory.
-- Quality, evidence, reproducibility, publication safety, replay, security, safety scan, reliability replay, and public-hygiene thresholds must pass.
-- Raw logs, stdout/stderr, secrets, local absolute paths, private config, dangerous content, and fake legal claims are blocked.
+- autopublished: 8
 
 ## Disclaimer
 
-This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.
+Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.

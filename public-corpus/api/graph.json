@@ -1,0 +1,157 @@
+{
+  "kind": "public_corpus_result_graph",
+  "generatedAt": "2026-05-04T15:31:52.892Z",
+  "nodes": [
+    {
+      "id": "result:chemistry-record-auditor-tool",
+      "kind": "result",
+      "label": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
+      "domain": "chemistry-data-quality"
+    },
+    {
+      "id": "result:chemistry-record-auditor-tool-v2",
+      "kind": "result",
+      "label": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
+      "domain": "chemistry-data-quality"
+    },
+    {
+      "id": "result:corpus-deduplication",
+      "kind": "result",
+      "label": "Corpus Deduplication for Defensive Publications",
+      "domain": "open-invention-corpus"
+    },
+    {
+      "id": "result:energy-usage-anomaly-auditor",
+      "kind": "result",
+      "label": "Energy Usage Anomaly Auditor",
+      "domain": "energy-data-quality"
+    },
+    {
+      "id": "result:evidence-chain",
+      "kind": "result",
+      "label": "Replayable Evidence Chain for Autonomous Research Agents",
+      "domain": "open-invention-corpus"
+    },
+    {
+      "id": "result:evidence-chain-v2",
+      "kind": "result",
+      "label": "Replayable Evidence Chain for Autonomous Research Agents",
+      "domain": "open-invention-corpus"
+    },
+    {
+      "id": "result:patch-risk-auditor",
+      "kind": "result",
+      "label": "Patch Risk Auditor",
+      "domain": "software-supply-chain"
+    },
+    {
+      "id": "result:toolchain-policy",
+      "kind": "result",
+      "label": "Policy-Gated Toolchain Installation Protocol",
+      "domain": "node-toolchain-policy"
+    },
+    {
+      "id": "domain:chemistry-data-quality",
+      "kind": "domain",
+      "label": "chemistry-data-quality"
+    },
+    {
+      "id": "domain:open-invention-corpus",
+      "kind": "domain",
+      "label": "open-invention-corpus"
+    },
+    {
+      "id": "domain:energy-data-quality",
+      "kind": "domain",
+      "label": "energy-data-quality"
+    },
+    {
+      "id": "domain:software-supply-chain",
+      "kind": "domain",
+      "label": "software-supply-chain"
+    },
+    {
+      "id": "domain:node-toolchain-policy",
+      "kind": "domain",
+      "label": "node-toolchain-policy"
+    },
+    {
+      "id": "tool:pint",
+      "kind": "tool",
+      "label": "pint"
+    },
+    {
+      "id": "tool:pandas",
+      "kind": "tool",
+      "label": "pandas"
+    },
+    {
+      "id": "tool:acorn",
+      "kind": "tool",
+      "label": "acorn"
+    }
+  ],
+  "edges": [
+    {
+      "source": "result:chemistry-record-auditor-tool",
+      "target": "domain:chemistry-data-quality",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:chemistry-record-auditor-tool",
+      "target": "tool:pint",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:chemistry-record-auditor-tool-v2",
+      "target": "domain:chemistry-data-quality",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:chemistry-record-auditor-tool-v2",
+      "target": "tool:pint",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:corpus-deduplication",
+      "target": "domain:open-invention-corpus",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:energy-usage-anomaly-auditor",
+      "target": "domain:energy-data-quality",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:energy-usage-anomaly-auditor",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:evidence-chain",
+      "target": "domain:open-invention-corpus",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:evidence-chain-v2",
+      "target": "domain:open-invention-corpus",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:patch-risk-auditor",
+      "target": "domain:software-supply-chain",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:patch-risk-auditor",
+      "target": "tool:acorn",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:toolchain-policy",
+      "target": "domain:node-toolchain-policy",
+      "relation": "belongs_to_domain"
+    }
+  ],
+  "evidenceHash": "1633841a96574ecc39ddf8594ebfff7ea0611af78293a28486db71c4e9c65652"
+}

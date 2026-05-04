@@ -1,0 +1,95 @@
+{
+  "kind": "public_corpus_badge_index",
+  "generatedAt": "2026-05-04T15:31:52.892Z",
+  "badges": [
+    {
+      "slug": "chemistry-record-auditor-tool",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff"
+      }
+    },
+    {
+      "slug": "chemistry-record-auditor-tool-v2",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff"
+      }
+    },
+    {
+      "slug": "corpus-deduplication",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "replay": "replay-partial",
+        "safety": "safety-needs-review",
+        "hygiene": "hygiene-needs-review",
+        "worker": "container-netoff"
+      }
+    },
+    {
+      "slug": "energy-usage-anomaly-auditor",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff"
+      }
+    },
+    {
+      "slug": "evidence-chain",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "replay": "replay-partial",
+        "safety": "safety-needs-review",
+        "hygiene": "hygiene-needs-review",
+        "worker": "container-netoff"
+      }
+    },
+    {
+      "slug": "evidence-chain-v2",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff"
+      }
+    },
+    {
+      "slug": "patch-risk-auditor",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff"
+      }
+    },
+    {
+      "slug": "toolchain-policy",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "replay": "replay-partial",
+        "safety": "safety-needs-review",
+        "hygiene": "hygiene-needs-review",
+        "worker": "container-netoff"
+      }
+    }
+  ],
+  "evidenceHash": "d6c71b3ed38640a84e0bd8fed46f5266339bf6a9a2a3641c5ee794be11668a2b"
+}
