@@ -1,6 +1,6 @@
 {
   "kind": "publication_ledger",
-  "updatedAt": "2026-05-04T15:02:18.954Z",
+  "updatedAt": "2026-05-04T15:02:20.576Z",
   "entries": [
     {
       "resultId": "chemistry-record-auditor-tool",
@@ -56,12 +56,12 @@
       "title": "Patch Risk Auditor",
       "mode": "corpus-autopublish",
       "dryRun": false,
-      "pushed": false,
-      "pushedAt": null,
-      "commitHash": null,
+      "pushed": true,
+      "pushedAt": "2026-05-04T15:02:20.573Z",
+      "commitHash": "c23b68bdc93b609f6a85086ad9ab5898a27bdfa3",
       "humanReviewRequired": false,
       "evidenceHash": "02c4b4d1d34129a429da6f7b73b5d34b750ee7761bcdcf3b9d42d2589ba8dfe3"
     }
   ],
-  "evidenceHash": "4372be729007512527e955d059c5ab21e127ff348c7486213a40e2288a7dcc33"
+  "evidenceHash": "e8c2995cd3b62da14dee85aaca8d549dff6917f97b05ff286781cef15617ea1a"
 }
