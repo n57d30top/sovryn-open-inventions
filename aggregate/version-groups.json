@@ -1,14 +1,15 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-04T18:30:08.204Z",
+  "updatedAt": "2026-05-04T18:48:49.505Z",
   "groups": [
     {
       "versionGroup": "chemistry-record-auditor-tool",
-      "latestSlug": "chemistry-record-auditor-tool-v2-v2",
+      "latestSlug": "chemistry-record-auditor-tool-v2-v3",
       "resultSlugs": [
         "chemistry-record-auditor-tool",
         "chemistry-record-auditor-tool-v2",
-        "chemistry-record-auditor-tool-v2-v2"
+        "chemistry-record-auditor-tool-v2-v2",
+        "chemistry-record-auditor-tool-v2-v3"
       ]
     },
     {
@@ -20,10 +21,11 @@
     },
     {
       "versionGroup": "energy-usage-anomaly-auditor",
-      "latestSlug": "energy-usage-anomaly-auditor-v2",
+      "latestSlug": "energy-usage-anomaly-auditor-v3",
       "resultSlugs": [
         "energy-usage-anomaly-auditor",
-        "energy-usage-anomaly-auditor-v2"
+        "energy-usage-anomaly-auditor-v2",
+        "energy-usage-anomaly-auditor-v3"
       ]
     },
     {
@@ -36,10 +38,11 @@
     },
     {
       "versionGroup": "patch-risk-auditor",
-      "latestSlug": "patch-risk-auditor-v2",
+      "latestSlug": "patch-risk-auditor-v3",
       "resultSlugs": [
         "patch-risk-auditor",
-        "patch-risk-auditor-v2"
+        "patch-risk-auditor-v2",
+        "patch-risk-auditor-v3"
       ]
     },
     {
@@ -50,5 +53,5 @@
       ]
     }
   ],
-  "evidenceHash": "bbd83ae318e9585d1c3c7e97fa733dff3a5bf71a5fdbe940903b9017fcc5fe7e"
+  "evidenceHash": "0b49a7192c439e95ffbffc6d3626ade65e0ab37582f188892ddc5ff71f6c6c15"
 }

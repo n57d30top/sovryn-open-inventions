@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-04T18:30:08.204Z",
-  "entryCount": 11,
+  "builtAt": "2026-05-04T18:48:49.505Z",
+  "entryCount": 14,
   "entries": [
     {
       "slug": "chemistry-record-auditor-tool",
@@ -76,9 +76,9 @@
       "href": "results/chemistry-record-auditor-tool-v2-v2.html",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
-      "lifecycleStatus": "showcase",
+      "lifecycleStatus": "superseded",
       "versionGroup": "chemistry-record-auditor-tool",
-      "showcaseRank": 1,
+      "showcaseRank": null,
       "terms": [
         "and",
         "artifacts",
@@ -109,11 +109,44 @@
         "quality",
         "record",
         "research",
-        "showcase",
         "source",
         "sovryn",
         "style",
+        "superseded",
         "system",
+        "tool"
+      ]
+    },
+    {
+      "slug": "chemistry-record-auditor-tool-v2-v3",
+      "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
+      "domain": "chemistry-data-quality",
+      "href": "results/chemistry-record-auditor-tool-v2-v3.html",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "lifecycleStatus": "showcase",
+      "versionGroup": "chemistry-record-auditor-tool",
+      "showcaseRank": 1,
+      "terms": [
+        "auditor",
+        "candidate",
+        "chemistry",
+        "data",
+        "dataset",
+        "dryrunready",
+        "for",
+        "good",
+        "label",
+        "molecular",
+        "pilot",
+        "pint",
+        "quality",
+        "record",
+        "result",
+        "showcase",
+        "source",
+        "status",
+        "style",
         "tool"
       ]
     },
@@ -194,9 +227,9 @@
       "href": "results/energy-usage-anomaly-auditor-v2.html",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
-      "lifecycleStatus": "showcase",
+      "lifecycleStatus": "superseded",
       "versionGroup": "energy-usage-anomaly-auditor",
-      "showcaseRank": 2,
+      "showcaseRank": null,
       "terms": [
         "and",
         "anomaly",
@@ -224,10 +257,39 @@
         "publications",
         "quality",
         "research",
-        "showcase",
         "source",
         "sovryn",
+        "superseded",
         "system",
+        "usage"
+      ]
+    },
+    {
+      "slug": "energy-usage-anomaly-auditor-v3",
+      "title": "Energy Usage Anomaly Auditor",
+      "domain": "energy-data-quality",
+      "href": "results/energy-usage-anomaly-auditor-v3.html",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "lifecycleStatus": "showcase",
+      "versionGroup": "energy-usage-anomaly-auditor",
+      "showcaseRank": 2,
+      "terms": [
+        "anomaly",
+        "auditor",
+        "candidate",
+        "data",
+        "dryrunready",
+        "energy",
+        "good",
+        "label",
+        "pandas",
+        "pilot",
+        "quality",
+        "result",
+        "showcase",
+        "source",
+        "status",
         "usage"
       ]
     },
@@ -350,9 +412,9 @@
       "href": "results/patch-risk-auditor-v2.html",
       "qualityLabel": "good",
       "publicationStatus": "autopublished",
-      "lifecycleStatus": "showcase",
+      "lifecycleStatus": "superseded",
       "versionGroup": "patch-risk-auditor",
-      "showcaseRank": 3,
+      "showcaseRank": null,
       "terms": [
         "acorn",
         "and",
@@ -379,12 +441,42 @@
         "publications",
         "research",
         "risk",
-        "showcase",
         "software",
         "source",
         "sovryn",
+        "superseded",
         "supply",
         "system"
+      ]
+    },
+    {
+      "slug": "patch-risk-auditor-v3",
+      "title": "Patch Risk Auditor",
+      "domain": "software-supply-chain",
+      "href": "results/patch-risk-auditor-v3.html",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "lifecycleStatus": "showcase",
+      "versionGroup": "patch-risk-auditor",
+      "showcaseRank": 3,
+      "terms": [
+        "acorn",
+        "auditor",
+        "candidate",
+        "chain",
+        "dryrunready",
+        "good",
+        "label",
+        "patch",
+        "pilot",
+        "quality",
+        "result",
+        "risk",
+        "showcase",
+        "software",
+        "source",
+        "status",
+        "supply"
       ]
     },
     {
@@ -428,5 +520,5 @@
       ]
     }
   ],
-  "evidenceHash": "b869760941ebce2821fd04ef68acf15f429635759903c20197a6652336b13f9a"
+  "evidenceHash": "85ced60253a242cea56e7a7d815240a943d025a40bc579ff32e3ab784cc2202a"
 }

@@ -10,11 +10,11 @@
     "hygiene": "hygiene-passed",
     "worker": "container-netoff",
     "falsification": "passes_falsification",
-    "lifecycle": "showcase",
+    "lifecycle": "superseded",
     "version": "energy-usage-anomaly-auditor",
-    "showcase": "showcase-2"
+    "showcase": "not-showcase"
   },
-  "lifecycleStatus": "showcase",
-  "showcaseRank": 2,
-  "evidenceHash": "76603ae6f8d2fb02cf94a6d9de1dd8d61dc752f607b80bdae4262a38b3df2ce2"
+  "lifecycleStatus": "superseded",
+  "showcaseRank": null,
+  "evidenceHash": "0b7feecc49f8fb1d67b864f6ae0fad4a54d329b49939882f477c368b223a1caf"
 }

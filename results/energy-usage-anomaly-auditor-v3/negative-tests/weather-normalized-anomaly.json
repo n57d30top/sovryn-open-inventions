@@ -1,0 +1,11 @@
+{
+  "kind": "public_corpus_negative_test_case",
+  "slug": "energy-usage-anomaly-auditor-v3",
+  "testId": "weather-normalized-anomaly",
+  "purpose": "Usage spike unexplained by weather should be detected.",
+  "inputCase": "synthetic mild-weather record has extreme usage",
+  "expectedBehavior": "weather-normalized anomaly flag",
+  "falsificationTarget": "false-negative risk",
+  "safeSyntheticOnly": true,
+  "evidenceHash": "21ded84c6c90628363ddb260a5d1287424f7bcc4505b125c648e8d8f486440d3"
+}

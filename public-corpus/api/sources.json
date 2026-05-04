@@ -23,6 +23,13 @@
       "customTool": "mol-record-auditor"
     },
     {
+      "slug": "chemistry-record-auditor-tool-v2-v3",
+      "externalPackages": [
+        "pint"
+      ],
+      "customTool": "mol-record-auditor"
+    },
+    {
       "slug": "corpus-deduplication",
       "externalPackages": [],
       "customTool": null
@@ -36,6 +43,13 @@
     },
     {
       "slug": "energy-usage-anomaly-auditor-v2",
+      "externalPackages": [
+        "pandas"
+      ],
+      "customTool": "energy-record-auditor"
+    },
+    {
+      "slug": "energy-usage-anomaly-auditor-v3",
       "externalPackages": [
         "pandas"
       ],
@@ -66,10 +80,17 @@
       "customTool": "patch-risk-auditor"
     },
     {
+      "slug": "patch-risk-auditor-v3",
+      "externalPackages": [
+        "acorn"
+      ],
+      "customTool": "patch-risk-auditor"
+    },
+    {
       "slug": "toolchain-policy",
       "externalPackages": [],
       "customTool": null
     }
   ],
-  "evidenceHash": "e7ec814b2a29a0e6be80ba621c3227d63ca12cbc36c688b69388945bf62c7173"
+  "evidenceHash": "08095a11e8027e33bbbabfb20141e5e9fa7a00a2f337ce7b8c157a9057334cad"
 }

@@ -1,19 +1,19 @@
 {
   "kind": "public_corpus_showcase_api",
-  "generatedAt": "2026-05-04T18:30:08.204Z",
+  "generatedAt": "2026-05-04T18:48:49.505Z",
   "results": [
     {
-      "slug": "chemistry-record-auditor-tool-v2-v2",
+      "slug": "chemistry-record-auditor-tool-v2-v3",
       "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
       "resultKind": "tool_result",
       "domain": "chemistry-data-quality",
-      "path": "results/chemistry-record-auditor-tool-v2-v2",
+      "path": "results/chemistry-record-auditor-tool-v2-v3",
       "qualityLabel": "good",
       "candidateStatus": "autopublished",
       "antiTemplateStatus": "review_ready",
       "lifecycleStatus": "showcase",
       "versionGroup": "chemistry-record-auditor-tool",
-      "supersedes": "chemistry-record-auditor-tool-v2",
+      "supersedes": "chemistry-record-auditor-tool-v2-v2",
       "supersededBy": null,
       "showcaseEligible": true,
       "showcaseRank": 1,
@@ -26,7 +26,7 @@
         "examples": true
       },
       "revisionReason": null,
-      "humanReadableSummary": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+      "humanReadableSummary": "Result ID: chemistry-record-auditor-tool-v2\nSource: pilot / chemistry-record-auditor-tool-v2\nQuality label: good\nCandidate status: dryrunready",
       "releaseReadinessScore": 90,
       "evidenceStrengthScore": 88,
       "reproducibilityScore": 96,
@@ -42,17 +42,17 @@
       "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
-      "slug": "energy-usage-anomaly-auditor-v2",
+      "slug": "energy-usage-anomaly-auditor-v3",
       "title": "Energy Usage Anomaly Auditor",
       "resultKind": "tool_result",
       "domain": "energy-data-quality",
-      "path": "results/energy-usage-anomaly-auditor-v2",
+      "path": "results/energy-usage-anomaly-auditor-v3",
       "qualityLabel": "good",
       "candidateStatus": "autopublished",
       "antiTemplateStatus": "review_ready",
       "lifecycleStatus": "showcase",
       "versionGroup": "energy-usage-anomaly-auditor",
-      "supersedes": "energy-usage-anomaly-auditor",
+      "supersedes": "energy-usage-anomaly-auditor-v2",
       "supersededBy": null,
       "showcaseEligible": true,
       "showcaseRank": 2,
@@ -65,7 +65,7 @@
         "examples": true
       },
       "revisionReason": null,
-      "humanReadableSummary": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+      "humanReadableSummary": "Result ID: energy-usage-anomaly-auditor\nSource: pilot / energy-usage-anomaly-auditor\nQuality label: good\nCandidate status: dryrunready",
       "releaseReadinessScore": 89,
       "evidenceStrengthScore": 84,
       "reproducibilityScore": 95,
@@ -81,17 +81,17 @@
       "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
-      "slug": "patch-risk-auditor-v2",
+      "slug": "patch-risk-auditor-v3",
       "title": "Patch Risk Auditor",
       "resultKind": "tool_result",
       "domain": "software-supply-chain",
-      "path": "results/patch-risk-auditor-v2",
+      "path": "results/patch-risk-auditor-v3",
       "qualityLabel": "good",
       "candidateStatus": "autopublished",
       "antiTemplateStatus": "review_ready_after_showcase_revision",
       "lifecycleStatus": "showcase",
       "versionGroup": "patch-risk-auditor",
-      "supersedes": "patch-risk-auditor",
+      "supersedes": "patch-risk-auditor-v2",
       "supersededBy": null,
       "showcaseEligible": true,
       "showcaseRank": 3,
@@ -104,7 +104,7 @@
         "examples": true
       },
       "revisionReason": null,
-      "humanReadableSummary": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+      "humanReadableSummary": "Result ID: patch-risk-auditor\nSource: pilot / patch-risk-auditor\nQuality label: good\nCandidate status: dryrunready",
       "releaseReadinessScore": 88,
       "evidenceStrengthScore": 83,
       "reproducibilityScore": 94,
@@ -120,5 +120,5 @@
       "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     }
   ],
-  "evidenceHash": "507473a159762ce39fa940a2cf55ca89f9bbb404370e237b42fead76f214d426"
+  "evidenceHash": "015c9e85fa522978ab64daecfe8753a2dab1f0bfd6feb1edb812ad961ad46fd5"
 }

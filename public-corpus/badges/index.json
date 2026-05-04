@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-04T18:30:08.204Z",
+  "generatedAt": "2026-05-04T18:48:49.505Z",
   "badges": [
     {
       "slug": "chemistry-record-auditor-tool",
@@ -40,6 +40,24 @@
     },
     {
       "slug": "chemistry-record-auditor-tool-v2-v2",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "passes_falsification",
+        "lifecycle": "superseded",
+        "version": "chemistry-record-auditor-tool",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "superseded",
+      "showcaseRank": null
+    },
+    {
+      "slug": "chemistry-record-auditor-tool-v2-v3",
       "badges": {
         "quality": "good",
         "status": "autopublished",
@@ -94,6 +112,24 @@
     },
     {
       "slug": "energy-usage-anomaly-auditor-v2",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "passes_falsification",
+        "lifecycle": "superseded",
+        "version": "energy-usage-anomaly-auditor",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "superseded",
+      "showcaseRank": null
+    },
+    {
+      "slug": "energy-usage-anomaly-auditor-v3",
       "badges": {
         "quality": "good",
         "status": "autopublished",
@@ -175,6 +211,24 @@
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
         "falsification": "passes_falsification",
+        "lifecycle": "superseded",
+        "version": "patch-risk-auditor",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "superseded",
+      "showcaseRank": null
+    },
+    {
+      "slug": "patch-risk-auditor-v3",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready_after_showcase_revision",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "passes_falsification",
         "lifecycle": "showcase",
         "version": "patch-risk-auditor",
         "showcase": "showcase-3"
@@ -201,5 +255,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "2bbcc8a29591dafc7c8439be6ff9067faa1699072819c358dca77564f3740ea8"
+  "evidenceHash": "7c86b834727e37ba7ec85a3ef92349ceb22939981fe04f2cd38b55aef23e7165"
 }

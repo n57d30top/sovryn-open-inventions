@@ -10,11 +10,11 @@
     "hygiene": "hygiene-passed",
     "worker": "container-netoff",
     "falsification": "passes_falsification",
-    "lifecycle": "showcase",
+    "lifecycle": "superseded",
     "version": "chemistry-record-auditor-tool",
-    "showcase": "showcase-1"
+    "showcase": "not-showcase"
   },
-  "lifecycleStatus": "showcase",
-  "showcaseRank": 1,
-  "evidenceHash": "cf97ca8302acd211a5a985b8354a54247a8d026fef43bc8a6f2ca0b522c56828"
+  "lifecycleStatus": "superseded",
+  "showcaseRank": null,
+  "evidenceHash": "96de9c877c78dcfdc0d92ad48db7c427effa6c81e60e5ac24928fa57b0aa368f"
 }

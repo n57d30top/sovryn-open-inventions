@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
-    "good": 11
+    "good": 14
   },
   "results": [
     {
@@ -20,6 +20,11 @@
       "releaseReadinessScore": 90
     },
     {
+      "slug": "chemistry-record-auditor-tool-v2-v3",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
       "slug": "corpus-deduplication",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
@@ -31,6 +36,11 @@
     },
     {
       "slug": "energy-usage-anomaly-auditor-v2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 89
+    },
+    {
+      "slug": "energy-usage-anomaly-auditor-v3",
       "qualityLabel": "good",
       "releaseReadinessScore": 89
     },
@@ -55,10 +65,15 @@
       "releaseReadinessScore": 88
     },
     {
+      "slug": "patch-risk-auditor-v3",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
       "slug": "toolchain-policy",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "b98a944f85698e9a7e73c5654a4d649b06dc60b0e52d59dcc34245fc680f2c5c"
+  "evidenceHash": "3e79ce95a418fc8a7f6fdda1603701298eec4a5f5eaf77955bbf7e1b23ede179"
 }

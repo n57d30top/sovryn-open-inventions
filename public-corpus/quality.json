@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-04T18:30:08.204Z",
+  "generatedAt": "2026-05-04T18:48:49.505Z",
   "qualityCounts": {
-    "good": 11
+    "good": 14
   },
   "lifecycleCounts": {
     "needs_revision": 3,
     "showcase": 3,
-    "superseded": 5
+    "superseded": 8
   },
   "results": [
     {
@@ -40,6 +40,20 @@
     },
     {
       "slug": "chemistry-record-auditor-tool-v2-v2",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "chemistry-record-auditor-tool",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 96,
+      "publicationSafetyScore": 96,
+      "specificityScore": 85
+    },
+    {
+      "slug": "chemistry-record-auditor-tool-v2-v3",
       "qualityLabel": "good",
       "antiTemplateStatus": "review_ready",
       "lifecycleStatus": "showcase",
@@ -82,6 +96,20 @@
     },
     {
       "slug": "energy-usage-anomaly-auditor-v2",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "energy-usage-anomaly-auditor",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 89,
+      "evidenceStrengthScore": 84,
+      "reproducibilityScore": 95,
+      "publicationSafetyScore": 97,
+      "specificityScore": 85
+    },
+    {
+      "slug": "energy-usage-anomaly-auditor-v3",
       "qualityLabel": "good",
       "antiTemplateStatus": "review_ready",
       "lifecycleStatus": "showcase",
@@ -140,6 +168,20 @@
       "slug": "patch-risk-auditor-v2",
       "qualityLabel": "good",
       "antiTemplateStatus": "review_ready_after_showcase_revision",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "patch-risk-auditor",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 83,
+      "reproducibilityScore": 94,
+      "publicationSafetyScore": 96,
+      "specificityScore": 85
+    },
+    {
+      "slug": "patch-risk-auditor-v3",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready_after_showcase_revision",
       "lifecycleStatus": "showcase",
       "versionGroup": "patch-risk-auditor",
       "showcaseEligible": true,
@@ -165,5 +207,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "b98a944f85698e9a7e73c5654a4d649b06dc60b0e52d59dcc34245fc680f2c5c"
+  "evidenceHash": "3e79ce95a418fc8a7f6fdda1603701298eec4a5f5eaf77955bbf7e1b23ede179"
 }

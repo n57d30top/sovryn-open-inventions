@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "patch-risk-auditor-v3",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "review_ready_after_showcase_revision",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "container-netoff",
+    "falsification": "passes_falsification",
+    "lifecycle": "showcase",
+    "version": "patch-risk-auditor",
+    "showcase": "showcase-3"
+  },
+  "lifecycleStatus": "showcase",
+  "showcaseRank": 3,
+  "evidenceHash": "bd017d5e5f31186c7d2574abc18ea4062134fb45e07cc0bb7bb306fa864133ab"
+}

@@ -1,24 +1,36 @@
 # Verification
 
-Indexed results: 14
-New autopublished results in latest run: 3
+Indexed public results: 14
 
-Every autopublished result includes SUMMARY.json, curated release evidence, pilot evidence, verification.json, PUBLICATION_INTENT.json, and AUTOPUBLISH_RECORD.json.
+## Public Corpus Product Gates
 
-## Latest Results
+- The static corpus site is generated under public-corpus/.
+- JSON API exports are generated under public-corpus/api/.
+- Result pages include scores, limitations, safety scope, and public artifact links.
+- Badges summarize quality, status, replay, safety, hygiene, and worker assurance.
+- Public hygiene scans block raw logs, secrets, private configuration, local absolute paths, unsafe content, and fake legal claims.
 
-- chemistry-record-auditor-tool-v2-v3: good, dry_run_ready, replay-critical 100
-- energy-usage-anomaly-auditor-v3: good, dry_run_ready, replay-critical 100
-- patch-risk-auditor-v3: good, dry_run_ready, replay-critical 100
+## Result Status Counts
 
-## Automated Gates
+- autopublished: 14
 
-- Target repo exists and remote is restricted to n57d30top/sovryn-open-inventions.
-- New GitHub repository creation is disabled.
-- Human review is not required for corpus autopublish, but automated gates are mandatory.
-- Quality, evidence, reproducibility, publication safety, replay, security, safety scan, reliability replay, and public-hygiene thresholds must pass.
-- Raw logs, stdout/stderr, secrets, local absolute paths, private config, dangerous content, and fake legal claims are blocked.
+## Lifecycle Counts
+
+- needs_revision: 3
+- showcase: 3
+- superseded: 8
+
+## Versioning And Showcase Gates
+
+- Corpus version groups are generated in aggregate/version-groups.json.
+- Superseded results are mapped in aggregate/superseded-map.json.
+- Showcase results are generated in aggregate/showcase-results.json.
+- Results marked needs_revision, blocked, demo_pilot, or superseded are not showcase results.
+- Showcase results must include human-readable README, SHOWCASE.md, METHOD.md,
+  REPRODUCE.md, LIMITATIONS.md, and EXAMPLES.md.
+- Showcase results must meet specificity, anti-template, reproducibility,
+  publication-safety, evidence, and replay thresholds.
 
 ## Disclaimer
 
-This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.
+Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.

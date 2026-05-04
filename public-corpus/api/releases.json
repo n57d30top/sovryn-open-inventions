@@ -7,7 +7,7 @@
       "status": "autopublished",
       "lifecycleStatus": "superseded",
       "versionGroup": "chemistry-record-auditor-tool",
-      "supersededBy": "chemistry-record-auditor-tool-v2-v2",
+      "supersededBy": "chemistry-record-auditor-tool-v2-v3",
       "pushed": true
     },
     {
@@ -16,12 +16,21 @@
       "status": "autopublished",
       "lifecycleStatus": "superseded",
       "versionGroup": "chemistry-record-auditor-tool",
-      "supersededBy": "chemistry-record-auditor-tool-v2-v2",
+      "supersededBy": "chemistry-record-auditor-tool-v2-v3",
       "pushed": true
     },
     {
       "slug": "chemistry-record-auditor-tool-v2-v2",
       "path": "results/chemistry-record-auditor-tool-v2-v2",
+      "status": "autopublished",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "chemistry-record-auditor-tool",
+      "supersededBy": "chemistry-record-auditor-tool-v2-v3",
+      "pushed": true
+    },
+    {
+      "slug": "chemistry-record-auditor-tool-v2-v3",
+      "path": "results/chemistry-record-auditor-tool-v2-v3",
       "status": "autopublished",
       "lifecycleStatus": "showcase",
       "versionGroup": "chemistry-record-auditor-tool",
@@ -43,12 +52,21 @@
       "status": "autopublished",
       "lifecycleStatus": "superseded",
       "versionGroup": "energy-usage-anomaly-auditor",
-      "supersededBy": "energy-usage-anomaly-auditor-v2",
+      "supersededBy": "energy-usage-anomaly-auditor-v3",
       "pushed": true
     },
     {
       "slug": "energy-usage-anomaly-auditor-v2",
       "path": "results/energy-usage-anomaly-auditor-v2",
+      "status": "autopublished",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "energy-usage-anomaly-auditor",
+      "supersededBy": "energy-usage-anomaly-auditor-v3",
+      "pushed": true
+    },
+    {
+      "slug": "energy-usage-anomaly-auditor-v3",
+      "path": "results/energy-usage-anomaly-auditor-v3",
       "status": "autopublished",
       "lifecycleStatus": "showcase",
       "versionGroup": "energy-usage-anomaly-auditor",
@@ -79,12 +97,21 @@
       "status": "autopublished",
       "lifecycleStatus": "superseded",
       "versionGroup": "patch-risk-auditor",
-      "supersededBy": "patch-risk-auditor-v2",
+      "supersededBy": "patch-risk-auditor-v3",
       "pushed": true
     },
     {
       "slug": "patch-risk-auditor-v2",
       "path": "results/patch-risk-auditor-v2",
+      "status": "autopublished",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "patch-risk-auditor",
+      "supersededBy": "patch-risk-auditor-v3",
+      "pushed": true
+    },
+    {
+      "slug": "patch-risk-auditor-v3",
+      "path": "results/patch-risk-auditor-v3",
       "status": "autopublished",
       "lifecycleStatus": "showcase",
       "versionGroup": "patch-risk-auditor",
@@ -101,5 +128,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "3e254f9001f96eee967b48ee8778ea22d3a9699a83f0ba8be0db13594a523e28"
+  "evidenceHash": "138cdc14b4b1d76af059d6aa151c6800f6f52164a8a53833f2e628e0516abc6f"
 }

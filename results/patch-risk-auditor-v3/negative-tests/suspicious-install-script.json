@@ -1,0 +1,11 @@
+{
+  "kind": "public_corpus_negative_test_case",
+  "slug": "patch-risk-auditor-v3",
+  "testId": "suspicious-install-script",
+  "purpose": "Suspicious install-script addition should be flagged for review.",
+  "inputCase": "synthetic package patch adds a postinstall script and weak provenance",
+  "expectedBehavior": "high review priority",
+  "falsificationTarget": "false-negative risk",
+  "safeSyntheticOnly": true,
+  "evidenceHash": "ed43dbf7c819a18a634998b8267f0ed4a1a6518a994d16926634f964740084b4"
+}

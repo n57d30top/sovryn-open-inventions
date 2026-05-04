@@ -10,11 +10,11 @@
     "hygiene": "hygiene-passed",
     "worker": "container-netoff",
     "falsification": "passes_falsification",
-    "lifecycle": "showcase",
+    "lifecycle": "superseded",
     "version": "patch-risk-auditor",
-    "showcase": "showcase-3"
+    "showcase": "not-showcase"
   },
-  "lifecycleStatus": "showcase",
-  "showcaseRank": 3,
-  "evidenceHash": "bd017d5e5f31186c7d2574abc18ea4062134fb45e07cc0bb7bb306fa864133ab"
+  "lifecycleStatus": "superseded",
+  "showcaseRank": null,
+  "evidenceHash": "4d59051acc26aa7b34225a02f48019aaaf6599feca61b92703d6f99e0c29e8db"
 }

@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "chemistry-record-auditor-tool-v2-v3",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "review_ready",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "container-netoff",
+    "falsification": "passes_falsification",
+    "lifecycle": "showcase",
+    "version": "chemistry-record-auditor-tool",
+    "showcase": "showcase-1"
+  },
+  "lifecycleStatus": "showcase",
+  "showcaseRank": 1,
+  "evidenceHash": "cf97ca8302acd211a5a985b8354a54247a8d026fef43bc8a6f2ca0b522c56828"
+}

@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-04T18:30:08.204Z",
+  "generatedAt": "2026-05-04T18:48:49.505Z",
   "sources": [
     {
       "resultSlug": "chemistry-record-auditor-tool",
@@ -21,6 +21,12 @@
       "publicOnly": true
     },
     {
+      "resultSlug": "chemistry-record-auditor-tool-v2-v3",
+      "sourceKind": "external_package_or_tool",
+      "name": "pint",
+      "publicOnly": true
+    },
+    {
       "resultSlug": "energy-usage-anomaly-auditor",
       "sourceKind": "external_package_or_tool",
       "name": "pandas",
@@ -28,6 +34,12 @@
     },
     {
       "resultSlug": "energy-usage-anomaly-auditor-v2",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "energy-usage-anomaly-auditor-v3",
       "sourceKind": "external_package_or_tool",
       "name": "pandas",
       "publicOnly": true
@@ -43,7 +55,13 @@
       "sourceKind": "external_package_or_tool",
       "name": "acorn",
       "publicOnly": true
+    },
+    {
+      "resultSlug": "patch-risk-auditor-v3",
+      "sourceKind": "external_package_or_tool",
+      "name": "acorn",
+      "publicOnly": true
     }
   ],
-  "evidenceHash": "e7ec814b2a29a0e6be80ba621c3227d63ca12cbc36c688b69388945bf62c7173"
+  "evidenceHash": "08095a11e8027e33bbbabfb20141e5e9fa7a00a2f337ce7b8c157a9057334cad"
 }

@@ -1,15 +1,15 @@
 {
   "kind": "public_corpus_falsification_report",
-  "updatedAt": "2026-05-04T18:12:25.885Z",
-  "resultCount": 11,
+  "updatedAt": "2026-05-04T18:48:49.415Z",
+  "resultCount": 14,
   "labelCounts": {
     "insufficient_tests": 4,
-    "passes_falsification": 7
+    "passes_falsification": 10
   },
   "results": [
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-04T18:12:25.764Z",
+      "evaluatedAt": "2026-05-04T18:48:49.269Z",
       "slug": "chemistry-record-auditor-tool",
       "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
       "domain": "chemistry-data-quality",
@@ -107,11 +107,11 @@
       "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "c0d69894882ad2ea6bec01eac8f6d520ebfa4f44653da70b6fb8ec32b9ea8018"
+      "evidenceHash": "8d0e72a0788e190eb735aa6ed2fe9a7f006f5d234192db53fcd3255fa7b09c3d"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-04T18:12:25.777Z",
+      "evaluatedAt": "2026-05-04T18:48:49.281Z",
       "slug": "chemistry-record-auditor-tool-v2",
       "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
       "domain": "chemistry-data-quality",
@@ -209,11 +209,11 @@
       "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "84890c4a0ac68c115957e7cd3ed96037fa5b8a2a74260f2045ae444747c18396"
+      "evidenceHash": "11942d8be71a64d2b925cbee7ccb5f505dbe96b770b15b951b0f67c810a6e2ec"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-04T18:12:25.788Z",
+      "evaluatedAt": "2026-05-04T18:48:49.293Z",
       "slug": "chemistry-record-auditor-tool-v2-v2",
       "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
       "domain": "chemistry-data-quality",
@@ -311,11 +311,113 @@
       "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "e253fa733666b7df734feb5cc3f7516052a811f4c4b14774ed57d578a2b691d6"
+      "evidenceHash": "777ed1f52f4a921dce386ec3d830139313137b1057194be4aa43c81f646b986e"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-04T18:12:25.803Z",
+      "evaluatedAt": "2026-05-04T18:48:49.302Z",
+      "slug": "chemistry-record-auditor-tool-v2-v3",
+      "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
+      "domain": "chemistry-data-quality",
+      "qualityLabel": "good",
+      "lifecycleStatus": "public_result",
+      "label": "passes_falsification",
+      "score": 96,
+      "checks": [
+        {
+          "checkId": "PUBLIC_HYGIENE_PASSED",
+          "passed": true,
+          "severity": "block",
+          "finding": "Public hygiene must pass before falsification can accept a result.",
+          "recommendedAction": "Remove leaks, raw logs, unsafe text, private paths, or secret-like values."
+        },
+        {
+          "checkId": "NO_OVERCLAIMS",
+          "passed": true,
+          "severity": "block",
+          "finding": "No overclaiming language found.",
+          "recommendedAction": "Rewrite public docs with bounded, evidence-backed claims."
+        },
+        {
+          "checkId": "NEGATIVE_TESTS_PRESENT",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Domain-specific negative tests should exist.",
+          "recommendedAction": "Add negative tests for false positives, false negatives, malformed inputs, and edge cases."
+        },
+        {
+          "checkId": "BENIGN_CASES_NOT_OVERFLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include benign cases that should not be overflagged.",
+          "recommendedAction": "Add benign cases that exercise false-positive risk."
+        },
+        {
+          "checkId": "ADVERSARIAL_SAFE_CASES_FLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include safe synthetic cases that should be flagged.",
+          "recommendedAction": "Add safe synthetic edge cases for likely false negatives."
+        },
+        {
+          "checkId": "README_CLAIMS_GROUNDED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "README and public docs should ground claims in evidence, tests, and limitations.",
+          "recommendedAction": "Add source evidence, test, and limitation sections."
+        },
+        {
+          "checkId": "QUALITY_NOT_WEAK",
+          "passed": true,
+          "severity": "block",
+          "finding": "Weak quality labels cannot pass falsification.",
+          "recommendedAction": "Revise the result or keep it out of showcase."
+        }
+      ],
+      "negativeTests": [
+        {
+          "testId": "consistent-unit-conversion",
+          "purpose": "Consistent Celsius/Kelvin records should not be flagged as conflicts.",
+          "inputCase": "toy water boiling point appears as 100 C and 373.15 K",
+          "expectedBehavior": "no conflict after unit normalization",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "suspicious-acetone-record",
+          "purpose": "Suspicious acetone toy record should be flagged.",
+          "inputCase": "toy acetone boiling point appears as 999 C",
+          "expectedBehavior": "outlier flag",
+          "falsificationTarget": "false-negative risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "unknown-identifier",
+          "purpose": "Unknown identifier should be low confidence rather than silently canonicalized.",
+          "inputCase": "toy molecule record has an unknown identifier",
+          "expectedBehavior": "low confidence equivalence",
+          "falsificationTarget": "identifier-confidence risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "malformed-unit",
+          "purpose": "Malformed unit should be rejected or flagged.",
+          "inputCase": "toy record uses unsupported temperature unit text",
+          "expectedBehavior": "invalid unit flag",
+          "falsificationTarget": "input validation risk",
+          "safeSyntheticOnly": true
+        }
+      ],
+      "overclaimFindings": [],
+      "counterEvidenceSummary": "No blocking falsification finding was detected. The review still requires consistent-unit, suspicious outlier, unknown identifier, and malformed-unit checks.",
+      "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
+      "publicHygienePassed": true,
+      "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+      "evidenceHash": "0754f7a6f6116856f576b3e634117107d63e93dec085b986e05ad31a9fc1d015"
+    },
+    {
+      "kind": "public_corpus_result_falsification",
+      "evaluatedAt": "2026-05-04T18:48:49.318Z",
       "slug": "corpus-deduplication",
       "title": "Corpus Deduplication for Defensive Publications",
       "domain": "open-invention-corpus",
@@ -397,11 +499,11 @@
       "recommendedAction": "Add negative tests and rerun falsification before showcase promotion.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "06ddd1b698334703ee60d8a9707ee64906ac30151b76c16687a297f905ca3f2e"
+      "evidenceHash": "4c199340795a40479696f3089f98408690e66a1cc83291e64e342cb4ed3b38b0"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-04T18:12:25.812Z",
+      "evaluatedAt": "2026-05-04T18:48:49.327Z",
       "slug": "energy-usage-anomaly-auditor",
       "title": "Energy Usage Anomaly Auditor",
       "domain": "energy-data-quality",
@@ -499,11 +601,11 @@
       "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "c2a59921694a5ed5f48c70371831d4b6eba20605ed8990e34a14a3df616be588"
+      "evidenceHash": "4f230dba3039ff3786fb824bce771f40f51a3c9c56e9fb280d9b68f416aa6a83"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-04T18:12:25.823Z",
+      "evaluatedAt": "2026-05-04T18:48:49.338Z",
       "slug": "energy-usage-anomaly-auditor-v2",
       "title": "Energy Usage Anomaly Auditor",
       "domain": "energy-data-quality",
@@ -601,11 +703,113 @@
       "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "ea1600534224cbf4c69432d25cd8ee0f0b0f1ac73388f55f2672b5be1e60d9ce"
+      "evidenceHash": "62152b7b9aa0c29b05b09d4949019dcaf84d963f2b0320b99a1255776e3e4463"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-04T18:12:25.835Z",
+      "evaluatedAt": "2026-05-04T18:48:49.347Z",
+      "slug": "energy-usage-anomaly-auditor-v3",
+      "title": "Energy Usage Anomaly Auditor",
+      "domain": "energy-data-quality",
+      "qualityLabel": "good",
+      "lifecycleStatus": "public_result",
+      "label": "passes_falsification",
+      "score": 96,
+      "checks": [
+        {
+          "checkId": "PUBLIC_HYGIENE_PASSED",
+          "passed": true,
+          "severity": "block",
+          "finding": "Public hygiene must pass before falsification can accept a result.",
+          "recommendedAction": "Remove leaks, raw logs, unsafe text, private paths, or secret-like values."
+        },
+        {
+          "checkId": "NO_OVERCLAIMS",
+          "passed": true,
+          "severity": "block",
+          "finding": "No overclaiming language found.",
+          "recommendedAction": "Rewrite public docs with bounded, evidence-backed claims."
+        },
+        {
+          "checkId": "NEGATIVE_TESTS_PRESENT",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Domain-specific negative tests should exist.",
+          "recommendedAction": "Add negative tests for false positives, false negatives, malformed inputs, and edge cases."
+        },
+        {
+          "checkId": "BENIGN_CASES_NOT_OVERFLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include benign cases that should not be overflagged.",
+          "recommendedAction": "Add benign cases that exercise false-positive risk."
+        },
+        {
+          "checkId": "ADVERSARIAL_SAFE_CASES_FLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include safe synthetic cases that should be flagged.",
+          "recommendedAction": "Add safe synthetic edge cases for likely false negatives."
+        },
+        {
+          "checkId": "README_CLAIMS_GROUNDED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "README and public docs should ground claims in evidence, tests, and limitations.",
+          "recommendedAction": "Add source evidence, test, and limitation sections."
+        },
+        {
+          "checkId": "QUALITY_NOT_WEAK",
+          "passed": true,
+          "severity": "block",
+          "finding": "Weak quality labels cannot pass falsification.",
+          "recommendedAction": "Revise the result or keep it out of showcase."
+        }
+      ],
+      "negativeTests": [
+        {
+          "testId": "seasonal-normal-high-use",
+          "purpose": "Seasonal normal high usage should not be flagged as anomalous when weather explains it.",
+          "inputCase": "synthetic winter usage with low temperature and expected heating load",
+          "expectedBehavior": "not anomalous after baseline normalization",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "missing-interval",
+          "purpose": "Missing interval should be detected.",
+          "inputCase": "synthetic hourly sequence skips one interval",
+          "expectedBehavior": "missing interval flag",
+          "falsificationTarget": "false-negative risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "duplicate-record",
+          "purpose": "Duplicate timestamp should be detected.",
+          "inputCase": "two records share anonymized meter and timestamp",
+          "expectedBehavior": "duplicate flag",
+          "falsificationTarget": "data integrity risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "weather-normalized-anomaly",
+          "purpose": "Usage spike unexplained by weather should be detected.",
+          "inputCase": "synthetic mild-weather record has extreme usage",
+          "expectedBehavior": "weather-normalized anomaly flag",
+          "falsificationTarget": "false-negative risk",
+          "safeSyntheticOnly": true
+        }
+      ],
+      "overclaimFindings": [],
+      "counterEvidenceSummary": "No blocking falsification finding was detected. The review still requires seasonal-normal, missing-interval, duplicate, and weather-normalized anomaly checks.",
+      "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
+      "publicHygienePassed": true,
+      "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+      "evidenceHash": "50e87990a57d3e151e0068859c2a34715ef5ab999d6700997f952306f74239e8"
+    },
+    {
+      "kind": "public_corpus_result_falsification",
+      "evaluatedAt": "2026-05-04T18:48:49.360Z",
       "slug": "evidence-chain",
       "title": "Replayable Evidence Chain for Autonomous Research Agents",
       "domain": "open-invention-corpus",
@@ -687,11 +891,11 @@
       "recommendedAction": "Add negative tests and rerun falsification before showcase promotion.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "4a4662ee5b0ec3459fc97ca93d84597a6242ce9d44eebfafa79519d769110112"
+      "evidenceHash": "6913f01f8677c212f2cef2b3578260281328c08f50cf1a542f98f3b233895c98"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-04T18:12:25.849Z",
+      "evaluatedAt": "2026-05-04T18:48:49.373Z",
       "slug": "evidence-chain-v2",
       "title": "Replayable Evidence Chain for Autonomous Research Agents",
       "domain": "open-invention-corpus",
@@ -773,11 +977,11 @@
       "recommendedAction": "Add negative tests and rerun falsification before showcase promotion.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "2c877bf5f0fe60d945996dfc53fa15805b7280a05cef0286213cda825e463c1d"
+      "evidenceHash": "442740ef070c50be9fe8072f05f4bcbaf368dc3b32b0c7077087db0dccc6f8c3"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-04T18:12:25.857Z",
+      "evaluatedAt": "2026-05-04T18:48:49.380Z",
       "slug": "patch-risk-auditor",
       "title": "Patch Risk Auditor",
       "domain": "software-supply-chain",
@@ -875,11 +1079,11 @@
       "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "831c0d3a46a6b4057815d3d3a1ae786b04af8423b9ed8facff4cf65261154c9e"
+      "evidenceHash": "f50a9b0a3d135451db1da53e85aac89b12d99c9315ac115d8e9576c9255f85de"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-04T18:12:25.866Z",
+      "evaluatedAt": "2026-05-04T18:48:49.389Z",
       "slug": "patch-risk-auditor-v2",
       "title": "Patch Risk Auditor",
       "domain": "software-supply-chain",
@@ -977,11 +1181,113 @@
       "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "31cfeb4f4546d2b8e890ac5e78d960e74c37ba88b0c5b6346d27819c3571fb40"
+      "evidenceHash": "94e3c2192db03baecf382a5691509951609040ce8a9f7f98f687082fd01f8c65"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-04T18:12:25.878Z",
+      "evaluatedAt": "2026-05-04T18:48:49.396Z",
+      "slug": "patch-risk-auditor-v3",
+      "title": "Patch Risk Auditor",
+      "domain": "software-supply-chain",
+      "qualityLabel": "good",
+      "lifecycleStatus": "public_result",
+      "label": "passes_falsification",
+      "score": 96,
+      "checks": [
+        {
+          "checkId": "PUBLIC_HYGIENE_PASSED",
+          "passed": true,
+          "severity": "block",
+          "finding": "Public hygiene must pass before falsification can accept a result.",
+          "recommendedAction": "Remove leaks, raw logs, unsafe text, private paths, or secret-like values."
+        },
+        {
+          "checkId": "NO_OVERCLAIMS",
+          "passed": true,
+          "severity": "block",
+          "finding": "No overclaiming language found.",
+          "recommendedAction": "Rewrite public docs with bounded, evidence-backed claims."
+        },
+        {
+          "checkId": "NEGATIVE_TESTS_PRESENT",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Domain-specific negative tests should exist.",
+          "recommendedAction": "Add negative tests for false positives, false negatives, malformed inputs, and edge cases."
+        },
+        {
+          "checkId": "BENIGN_CASES_NOT_OVERFLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include benign cases that should not be overflagged.",
+          "recommendedAction": "Add benign cases that exercise false-positive risk."
+        },
+        {
+          "checkId": "ADVERSARIAL_SAFE_CASES_FLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include safe synthetic cases that should be flagged.",
+          "recommendedAction": "Add safe synthetic edge cases for likely false negatives."
+        },
+        {
+          "checkId": "README_CLAIMS_GROUNDED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "README and public docs should ground claims in evidence, tests, and limitations.",
+          "recommendedAction": "Add source evidence, test, and limitation sections."
+        },
+        {
+          "checkId": "QUALITY_NOT_WEAK",
+          "passed": true,
+          "severity": "block",
+          "finding": "Weak quality labels cannot pass falsification.",
+          "recommendedAction": "Revise the result or keep it out of showcase."
+        }
+      ],
+      "negativeTests": [
+        {
+          "testId": "benign-dependency-update",
+          "purpose": "Benign dependency update should not be scored as high risk without other suspicious signals.",
+          "inputCase": "synthetic package patch with a version bump and matching tests",
+          "expectedBehavior": "low or medium risk, not high risk",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "suspicious-install-script",
+          "purpose": "Suspicious install-script addition should be flagged for review.",
+          "inputCase": "synthetic package patch adds a postinstall script and weak provenance",
+          "expectedBehavior": "high review priority",
+          "falsificationTarget": "false-negative risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "harmless-refactor",
+          "purpose": "Harmless refactor should not be labeled dangerous.",
+          "inputCase": "synthetic code-only refactor with no dependency or script changes",
+          "expectedBehavior": "low risk",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "test-impact-mismatch",
+          "purpose": "Patch touching behavior without matching tests should be flagged.",
+          "inputCase": "synthetic behavior change with unchanged tests",
+          "expectedBehavior": "test-impact mismatch",
+          "falsificationTarget": "coverage risk",
+          "safeSyntheticOnly": true
+        }
+      ],
+      "overclaimFindings": [],
+      "counterEvidenceSummary": "No blocking falsification finding was detected. The review still requires benign patch, suspicious-script, harmless-refactor, and test-impact mismatch checks.",
+      "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
+      "publicHygienePassed": true,
+      "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+      "evidenceHash": "9959631d805d907f636ed60ac07518acb0dc80a285c5a376704b69ea934f7880"
+    },
+    {
+      "kind": "public_corpus_result_falsification",
+      "evaluatedAt": "2026-05-04T18:48:49.408Z",
       "slug": "toolchain-policy",
       "title": "Policy-Gated Toolchain Installation Protocol",
       "domain": "open-invention-corpus",
@@ -1063,9 +1369,9 @@
       "recommendedAction": "Add negative tests and rerun falsification before showcase promotion.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "29f7800000cb19c81a0ddcbc0073e03e362ffcb255ad8e7d8cfe3bc49217fee1"
+      "evidenceHash": "19c9fc76ec6c6edf0199a2f967a538fd1aa5bf02d774525eead889020c367e41"
     }
   ],
   "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-  "evidenceHash": "29b3716b2d207679c180b632fa2ce75f9bb39016171cb2be26d05203c0d99364"
+  "evidenceHash": "e341f8ed3cbffe9b1756c8f161fa0c021f41387a2e99b455efc45575e2495a8c"
 }

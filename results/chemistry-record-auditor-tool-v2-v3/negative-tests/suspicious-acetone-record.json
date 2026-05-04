@@ -1,0 +1,11 @@
+{
+  "kind": "public_corpus_negative_test_case",
+  "slug": "chemistry-record-auditor-tool-v2-v3",
+  "testId": "suspicious-acetone-record",
+  "purpose": "Suspicious acetone toy record should be flagged.",
+  "inputCase": "toy acetone boiling point appears as 999 C",
+  "expectedBehavior": "outlier flag",
+  "falsificationTarget": "false-negative risk",
+  "safeSyntheticOnly": true,
+  "evidenceHash": "9152ffe3bc521b8818b9561d1abec31ac57d1d7b434c03cf876e83319cf03357"
+}
