@@ -1,0 +1,18 @@
+{
+  "kind": "chemistry_record_auditor_package_lock_summary",
+  "runId": "chemistry-record-auditor-v2",
+  "packageManager": "pip",
+  "packages": [
+    {
+      "name": "pint",
+      "version": "0.25.3",
+      "status": "installed",
+      "isolatedEnvironment": "prototype/.venv",
+      "usedFor": "Celsius/Kelvin unit normalization during provisioning."
+    }
+  ],
+  "hostInstall": false,
+  "sudoUsed": false,
+  "curlPipeShellUsed": false,
+  "evidenceHash": "7b173b58dde0d96320da82b498b0c640d9ec737783c8d5e80253e127d8b214fe"
+}

@@ -1,6 +1,6 @@
 {
   "kind": "corpus_release_registry",
-  "updatedAt": "2026-05-04T13:59:20.956Z",
+  "updatedAt": "2026-05-04T14:32:33.746Z",
   "releases": [
     {
       "slug": "chemistry-record-auditor-tool",
@@ -8,6 +8,14 @@
       "path": "results/chemistry-record-auditor-tool",
       "sourceType": "pilot",
       "sourceId": "chemistry-record-auditor-tool",
+      "humanReviewRequired": false
+    },
+    {
+      "slug": "chemistry-record-auditor-tool-v2",
+      "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
+      "path": "results/chemistry-record-auditor-tool-v2",
+      "sourceType": "pilot",
+      "sourceId": "chemistry-record-auditor-tool-v2",
       "humanReviewRequired": false
     },
     {
@@ -43,5 +51,5 @@
       "humanReviewRequired": false
     }
   ],
-  "evidenceHash": "1783a3425c1a2ae270fde68441db91e9485504c780e7dee120b1c8af5c5fb3e3"
+  "evidenceHash": "23d89ec7e0e2ea7ab55fb177a29a297d602062771b5fb180dda8b9e208538fc9"
 }

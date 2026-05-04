@@ -1,7 +1,7 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-04T13:59:20.955Z",
-  "resultCount": 5,
+  "updatedAt": "2026-05-04T14:32:33.745Z",
+  "resultCount": 6,
   "results": [
     {
       "slug": "chemistry-record-auditor-tool",
@@ -17,6 +17,22 @@
       "publicationSafetyScore": 96,
       "humanReviewRequired": false,
       "path": "results/chemistry-record-auditor-tool",
+      "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use."
+    },
+    {
+      "slug": "chemistry-record-auditor-tool-v2",
+      "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
+      "resultId": "chemistry-record-auditor-tool-v2",
+      "sourceType": "pilot",
+      "sourceId": "chemistry-record-auditor-tool-v2",
+      "qualityLabel": "good",
+      "candidateStatus": "dry_run_ready",
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 96,
+      "publicationSafetyScore": 96,
+      "humanReviewRequired": false,
+      "path": "results/chemistry-record-auditor-tool-v2",
       "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use."
     },
     {
@@ -85,5 +101,5 @@
     }
   ],
   "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
-  "evidenceHash": "afd65d8d533fc01ab81e47af3ff3c558c1e43064bb403cdcfb93ff58653ffffe"
+  "evidenceHash": "9598ffb03ff7a4ba7fddf7d6c50ba70b42a776d9b9b92369d9c80d392d1a83e5"
 }

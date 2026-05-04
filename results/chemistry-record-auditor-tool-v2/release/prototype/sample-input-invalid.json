@@ -1,0 +1,74 @@
+[
+  {
+    "name": "ethanol",
+    "smiles": "CCO",
+    "property": "boiling_point",
+    "value": 78.37,
+    "unit": "C",
+    "source": "toy_reference_a"
+  },
+  {
+    "name": "ethyl alcohol",
+    "smiles": "OCC",
+    "property": "boiling_point",
+    "value": 351.52,
+    "unit": "K",
+    "source": "toy_reference_b"
+  },
+  {
+    "name": "water",
+    "smiles": "O",
+    "property": "boiling_point",
+    "value": 100,
+    "unit": "C",
+    "source": "toy_reference_a"
+  },
+  {
+    "name": "oxidane",
+    "smiles": "O",
+    "property": "boiling_point",
+    "value": 373.15,
+    "unit": "K",
+    "source": "toy_reference_b"
+  },
+  {
+    "name": "acetone",
+    "smiles": "CC(=O)C",
+    "property": "boiling_point",
+    "value": 56.05,
+    "unit": "C",
+    "source": "toy_reference_a"
+  },
+  {
+    "name": "propanone",
+    "smiles": "CC(C)=O",
+    "property": "boiling_point",
+    "value": 999,
+    "unit": "C",
+    "source": "toy_reference_unknown"
+  },
+  {
+    "name": "benzene",
+    "smiles": "c1ccccc1",
+    "property": "boiling_point",
+    "value": 80.1,
+    "unit": "C",
+    "source": "toy_reference_a"
+  },
+  {
+    "name": "benzol",
+    "smiles": "C1=CC=CC=C1",
+    "property": "boiling_point",
+    "value": 353.25,
+    "unit": "K",
+    "source": "toy_reference_b"
+  },
+  {
+    "name": "unknown sample",
+    "smiles": "",
+    "property": "boiling_point",
+    "value": 100,
+    "unit": "Celsius",
+    "source": "toy_reference_bad"
+  }
+]

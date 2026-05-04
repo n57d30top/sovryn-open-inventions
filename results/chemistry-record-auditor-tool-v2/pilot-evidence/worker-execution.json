@@ -1,0 +1,12 @@
+{
+  "kind": "pilot_worker_execution",
+  "missionId": "mis_20260504143202_bc6ad8ca",
+  "profile": "container-netoff",
+  "requestedProfile": "container-netoff",
+  "noSilentFallback": true,
+  "passed": true,
+  "exitCode": 0,
+  "externalPackageInvoked": true,
+  "finalNetworkAccess": false,
+  "evidenceHash": "180091c4df45ffe1f6386ca9493707164aeffb584d29881a49fff5019040be23"
+}

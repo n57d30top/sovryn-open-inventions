@@ -1,0 +1,18 @@
+{
+  "kind": "toolchain_summary",
+  "externalPackage": "pint",
+  "isolatedEnvironment": "prototype/.venv",
+  "packageVersion": [
+    {
+      "name": "pint",
+      "version": "0.25.3",
+      "status": "installed",
+      "isolatedEnvironment": "prototype/.venv",
+      "usedFor": "Celsius/Kelvin unit normalization during provisioning."
+    }
+  ],
+  "hostInstall": false,
+  "sudoUsed": false,
+  "curlPipeShellUsed": false,
+  "evidenceHash": "8529e28e3e6fe1fe36c9b55cef17049c31b3735aca948be2a6715dc1232066ab"
+}
