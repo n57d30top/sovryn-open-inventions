@@ -1,13 +1,13 @@
 # Verification
 
-Indexed results: 6
+Indexed results: 7
 New autopublished results in latest run: 1
 
 Every autopublished result includes SUMMARY.json, curated release evidence, pilot evidence, verification.json, PUBLICATION_INTENT.json, and AUTOPUBLISH_RECORD.json.
 
 ## Latest Results
 
-- chemistry-record-auditor-tool-v2: good, dry_run_ready, replay-critical 100
+- energy-usage-anomaly-auditor: good, dry_run_ready, replay-critical 100
 
 ## Automated Gates
 

@@ -1,6 +1,6 @@
 {
   "kind": "autopublish_ledger",
-  "updatedAt": "2026-05-04T14:32:35.749Z",
+  "updatedAt": "2026-05-04T14:47:32.464Z",
   "entries": [
     {
       "resultId": "chemistry-record-auditor-tool",
@@ -27,6 +27,18 @@
       "evidenceHash": "7875a1fe3d8ce3c5d397c87fa512c1ede6ba4d6dbe7faef114006d1ef971f5ac"
     },
     {
+      "resultId": "energy-usage-anomaly-auditor",
+      "slug": "energy-usage-anomaly-auditor",
+      "title": "Energy Usage Anomaly Auditor",
+      "mode": "corpus-autopublish",
+      "dryRun": false,
+      "pushed": false,
+      "pushedAt": null,
+      "commitHash": null,
+      "humanReviewRequired": false,
+      "evidenceHash": "dc3f131b3269128f7f7b30596ea2e34ff220d1359b37c19cc37f9f7370ef5b8e"
+    },
+    {
       "resultId": "develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc",
       "slug": "evidence-chain-v2",
       "title": "Replayable Evidence Chain for Autonomous Research Agents",
@@ -39,5 +51,5 @@
       "evidenceHash": "37d4a778ecc64bc132d0909649ace39929e87c7da247239ff385b6191e812178"
     }
   ],
-  "evidenceHash": "f46162c30b7d27213d7e9ca018a4d08e72e3388f49e0a9fbace3c20d0220f5fb"
+  "evidenceHash": "1c6c9937db0f262526ba393d29f6146e3ccef1c20a327b053656d4009cad6f4c"
 }

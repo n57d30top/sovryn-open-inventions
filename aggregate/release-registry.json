@@ -1,6 +1,6 @@
 {
   "kind": "corpus_release_registry",
-  "updatedAt": "2026-05-04T14:32:33.746Z",
+  "updatedAt": "2026-05-04T14:47:32.465Z",
   "releases": [
     {
       "slug": "chemistry-record-auditor-tool",
@@ -24,6 +24,14 @@
       "path": "results/corpus-deduplication",
       "sourceType": "pilot",
       "sourceId": "corpus-deduplication",
+      "humanReviewRequired": false
+    },
+    {
+      "slug": "energy-usage-anomaly-auditor",
+      "title": "Energy Usage Anomaly Auditor",
+      "path": "results/energy-usage-anomaly-auditor",
+      "sourceType": "pilot",
+      "sourceId": "energy-usage-anomaly-auditor",
       "humanReviewRequired": false
     },
     {
@@ -51,5 +59,5 @@
       "humanReviewRequired": false
     }
   ],
-  "evidenceHash": "23d89ec7e0e2ea7ab55fb177a29a297d602062771b5fb180dda8b9e208538fc9"
+  "evidenceHash": "3cd6362f2c5f75d89add7a3ab9e6005d40d4fcb61bf1ada586f2d96c4ef6a659"
 }

@@ -1,0 +1,15 @@
+{
+  "kind": "energy_record_auditor_package_lock_summary",
+  "packages": [
+    {
+      "name": "pandas",
+      "version": "3.0.2",
+      "manager": "pip",
+      "purpose": "tabular validation evidence for toy energy records"
+    }
+  ],
+  "hostInstall": false,
+  "sudoUsed": false,
+  "curlPipeShellUsed": false,
+  "evidenceHash": "b49af445134cee285c517752f8d2a531f13dd81b74c3e4d14346a2fc3fd668fb"
+}

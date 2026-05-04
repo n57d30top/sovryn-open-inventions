@@ -1,0 +1,33 @@
+{
+  "kind": "pilot_release_candidate",
+  "pilotId": "energy-usage-anomaly-auditor",
+  "scenario": "external-energy-usage-anomaly-auditor",
+  "title": "Energy Usage Anomaly Auditor",
+  "goal": "Develop an open-source method for detecting anomalous home-energy usage records using seasonal baselines, weather-normalized expectations, missing-data checks, and reproducible anomaly scoring.",
+  "ranAt": "2026-05-04T14:47:21.800Z",
+  "factoryId": "factory-energy-usage-anomaly-auditor",
+  "factorySlug": "energy-usage-anomaly-auditor",
+  "inventionMissionId": "mis_20260504144659_eb7988b8",
+  "releaseCandidateId": "energy-usage-anomaly-auditor",
+  "releasePath": ".sovryn/external-research/energy-usage-anomaly-auditor/release/public",
+  "qualityLabel": "good",
+  "releaseReadinessScore": 89,
+  "evidenceStrengthScore": 84,
+  "noveltyRiskScore": 45,
+  "reproducibilityScore": 95,
+  "publicationSafetyScore": 97,
+  "humanReviewPriority": "medium",
+  "candidateStatus": "dry_run_ready",
+  "recommendedDecision": "dry-run only",
+  "realPublicationPerformed": false,
+  "workerNoSilentFallback": true,
+  "workerProfileUsed": "container-netoff",
+  "requestedWorkerProfile": "container-netoff",
+  "replayCriticalPassRate": 100,
+  "artifactRefs": [
+    ".sovryn/pilots/energy-usage-anomaly-auditor/pilot-run.json",
+    ".sovryn/pilots/energy-usage-anomaly-auditor/publication-dry-run.json",
+    ".sovryn/pilots/energy-usage-anomaly-auditor/worker-execution.json"
+  ],
+  "evidenceHash": "bf83ed00cbd786756f08276e85e153a027913601d7d207c75ac114a64999c396"
+}

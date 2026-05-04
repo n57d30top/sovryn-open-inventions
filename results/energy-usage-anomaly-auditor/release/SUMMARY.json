@@ -1,0 +1,59 @@
+{
+  "kind": "energy_record_auditor_public_summary",
+  "title": "Energy Usage Anomaly Auditor",
+  "toolName": "energy-record-auditor",
+  "safeFraming": "A safe open-source data-quality method for auditing anonymized toy home-energy usage records.",
+  "externalPackage": "pandas",
+  "nodeAlphaProfile": "container-netoff",
+  "requestedNodeAlphaProfile": "container-netoff",
+  "workerAssurance": "container-netoff final validation",
+  "noSilentFallback": true,
+  "issuesDetected": [
+    {
+      "description": "Duplicate timestamp for anonymized toy household.",
+      "householdId": "toy-home-001",
+      "issueType": "duplicate_timestamp",
+      "severity": "medium",
+      "timestamp": "2026-01-03T00:00:00Z"
+    },
+    {
+      "description": "Usage is high relative to seasonal/weather-normalized expectation.",
+      "householdId": "toy-home-001",
+      "issueType": "high_usage_spike",
+      "score": 1.452,
+      "severity": "high",
+      "timestamp": "2026-01-03T00:00:00Z"
+    },
+    {
+      "description": "Usage is high relative to seasonal/weather-normalized expectation.",
+      "householdId": "toy-home-001",
+      "issueType": "high_usage_spike",
+      "score": 1.452,
+      "severity": "high",
+      "timestamp": "2026-01-03T00:00:00Z"
+    },
+    {
+      "description": "Missing 1 daily interval(s) before 2026-01-05T00:00:00Z.",
+      "householdId": "toy-home-001",
+      "issueType": "missing_interval",
+      "severity": "medium",
+      "timestamp": "2026-01-05T00:00:00Z"
+    },
+    {
+      "description": "Record source is weak or unknown.",
+      "householdId": "toy-home-001",
+      "issueType": "weak_provenance",
+      "severity": "medium",
+      "timestamp": "2026-07-02T00:00:00Z"
+    },
+    {
+      "description": "Warm-weather record has unusually high usage for the toy baseline.",
+      "householdId": "toy-home-001",
+      "issueType": "weather_normalized_anomaly",
+      "severity": "medium",
+      "timestamp": "2026-07-02T00:00:00Z"
+    }
+  ],
+  "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
+  "evidenceHash": "9712ddcbb9ef5c62e2c369fcba7c64b417e29014a0f4f3679e4d9876c0ebac3d"
+}

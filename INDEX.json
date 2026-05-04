@@ -1,7 +1,7 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-04T14:32:33.745Z",
-  "resultCount": 6,
+  "updatedAt": "2026-05-04T14:47:32.464Z",
+  "resultCount": 7,
   "results": [
     {
       "slug": "chemistry-record-auditor-tool",
@@ -49,6 +49,22 @@
       "publicationSafetyScore": 90,
       "humanReviewRequired": false,
       "path": "results/corpus-deduplication",
+      "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use."
+    },
+    {
+      "slug": "energy-usage-anomaly-auditor",
+      "title": "Energy Usage Anomaly Auditor",
+      "resultId": "energy-usage-anomaly-auditor",
+      "sourceType": "pilot",
+      "sourceId": "energy-usage-anomaly-auditor",
+      "qualityLabel": "good",
+      "candidateStatus": "dry_run_ready",
+      "releaseReadinessScore": 89,
+      "evidenceStrengthScore": 84,
+      "reproducibilityScore": 95,
+      "publicationSafetyScore": 97,
+      "humanReviewRequired": false,
+      "path": "results/energy-usage-anomaly-auditor",
       "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use."
     },
     {
@@ -101,5 +117,5 @@
     }
   ],
   "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
-  "evidenceHash": "9598ffb03ff7a4ba7fddf7d6c50ba70b42a776d9b9b92369d9c80d392d1a83e5"
+  "evidenceHash": "48c1084b4aa99636a1ffcbacd9ec8ba5183450a764f0522607d8ed0803d232c2"
 }
