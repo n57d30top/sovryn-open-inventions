@@ -1,6 +1,6 @@
 {
   "kind": "autopublish_ledger",
-  "updatedAt": "2026-05-04T14:47:32.464Z",
+  "updatedAt": "2026-05-04T14:47:34.069Z",
   "entries": [
     {
       "resultId": "chemistry-record-auditor-tool",
@@ -32,9 +32,9 @@
       "title": "Energy Usage Anomaly Auditor",
       "mode": "corpus-autopublish",
       "dryRun": false,
-      "pushed": false,
-      "pushedAt": null,
-      "commitHash": null,
+      "pushed": true,
+      "pushedAt": "2026-05-04T14:47:34.066Z",
+      "commitHash": "df8b4dcbb4a635d6c5044de60e3b936d6aae47d7",
       "humanReviewRequired": false,
       "evidenceHash": "dc3f131b3269128f7f7b30596ea2e34ff220d1359b37c19cc37f9f7370ef5b8e"
     },
@@ -51,5 +51,5 @@
       "evidenceHash": "37d4a778ecc64bc132d0909649ace39929e87c7da247239ff385b6191e812178"
     }
   ],
-  "evidenceHash": "1c6c9937db0f262526ba393d29f6146e3ccef1c20a327b053656d4009cad6f4c"
+  "evidenceHash": "279b0b7ff95da983ecf41d08e7948b739b78222f9235a5d2d4b64b233c6718e1"
 }
