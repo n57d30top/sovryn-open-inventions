@@ -1,0 +1,18 @@
+{
+  "kind": "chemistry_record_auditor_package_lock_summary",
+  "runId": "chemistry-record-auditor-v2",
+  "packageManager": "pip",
+  "packages": [
+    {
+      "name": "pint",
+      "version": "fixture-0.0",
+      "status": "provisioned_fixture",
+      "isolatedEnvironment": "prototype/.venv",
+      "usedFor": "Celsius/Kelvin unit normalization during provisioning."
+    }
+  ],
+  "hostInstall": false,
+  "sudoUsed": false,
+  "curlPipeShellUsed": false,
+  "evidenceHash": "12b175ea96870523fe280e02083b4cf9740cea58bdb4abd768b1d090ebc7d1e6"
+}

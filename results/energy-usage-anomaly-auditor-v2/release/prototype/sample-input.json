@@ -1,0 +1,60 @@
+{
+  "records": [
+    {
+      "timestamp": "2026-01-01T00:00:00Z",
+      "kwh": 12.2,
+      "outdoorTemperatureC": 1,
+      "season": "winter",
+      "householdId": "toy-home-001",
+      "source": "toy_reference_a"
+    },
+    {
+      "timestamp": "2026-01-02T00:00:00Z",
+      "kwh": 11.8,
+      "outdoorTemperatureC": 3,
+      "season": "winter",
+      "householdId": "toy-home-001",
+      "source": "toy_reference_a"
+    },
+    {
+      "timestamp": "2026-01-03T00:00:00Z",
+      "kwh": 32.5,
+      "outdoorTemperatureC": 2,
+      "season": "winter",
+      "householdId": "toy-home-001",
+      "source": "toy_reference_b"
+    },
+    {
+      "timestamp": "2026-01-03T00:00:00Z",
+      "kwh": 32.5,
+      "outdoorTemperatureC": 2,
+      "season": "winter",
+      "householdId": "toy-home-001",
+      "source": "toy_reference_b"
+    },
+    {
+      "timestamp": "2026-01-05T00:00:00Z",
+      "kwh": 10.9,
+      "outdoorTemperatureC": 4,
+      "season": "winter",
+      "householdId": "toy-home-001",
+      "source": "toy_reference_a"
+    },
+    {
+      "timestamp": "2026-07-01T00:00:00Z",
+      "kwh": 7.1,
+      "outdoorTemperatureC": 25,
+      "season": "summer",
+      "householdId": "toy-home-001",
+      "source": "toy_reference_a"
+    },
+    {
+      "timestamp": "2026-07-02T00:00:00Z",
+      "kwh": 24,
+      "outdoorTemperatureC": 22,
+      "season": "summer",
+      "householdId": "toy-home-001",
+      "source": "toy_reference_unknown"
+    }
+  ]
+}

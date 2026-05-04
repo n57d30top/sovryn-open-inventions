@@ -1,6 +1,6 @@
 {
   "kind": "corpus_release_registry",
-  "updatedAt": "2026-05-04T15:02:18.955Z",
+  "updatedAt": "2026-05-04T16:02:27.729Z",
   "releases": [
     {
       "slug": "chemistry-record-auditor-tool",
@@ -19,6 +19,14 @@
       "humanReviewRequired": false
     },
     {
+      "slug": "chemistry-record-auditor-tool-v2-v2",
+      "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
+      "path": "results/chemistry-record-auditor-tool-v2-v2",
+      "sourceType": "pilot",
+      "sourceId": "chemistry-record-auditor-tool-v2",
+      "humanReviewRequired": false
+    },
+    {
       "slug": "corpus-deduplication",
       "title": "Corpus Deduplication for Defensive Publications",
       "path": "results/corpus-deduplication",
@@ -30,6 +38,14 @@
       "slug": "energy-usage-anomaly-auditor",
       "title": "Energy Usage Anomaly Auditor",
       "path": "results/energy-usage-anomaly-auditor",
+      "sourceType": "pilot",
+      "sourceId": "energy-usage-anomaly-auditor",
+      "humanReviewRequired": false
+    },
+    {
+      "slug": "energy-usage-anomaly-auditor-v2",
+      "title": "Energy Usage Anomaly Auditor",
+      "path": "results/energy-usage-anomaly-auditor-v2",
       "sourceType": "pilot",
       "sourceId": "energy-usage-anomaly-auditor",
       "humanReviewRequired": false
@@ -59,6 +75,14 @@
       "humanReviewRequired": false
     },
     {
+      "slug": "patch-risk-auditor-v2",
+      "title": "Patch Risk Auditor",
+      "path": "results/patch-risk-auditor-v2",
+      "sourceType": "pilot",
+      "sourceId": "patch-risk-auditor",
+      "humanReviewRequired": false
+    },
+    {
       "slug": "toolchain-policy",
       "title": "Policy-Gated Toolchain Installation Protocol",
       "path": "results/toolchain-policy",
@@ -67,5 +91,5 @@
       "humanReviewRequired": false
     }
   ],
-  "evidenceHash": "16029b2529bbbba5524c9bd8faa9dcbe1e86aceb23e97bd8365c151cc079cbde"
+  "evidenceHash": "e7ec814b2a29a0e6be80ba621c3227d63ca12cbc36c688b69388945bf62c7173"
 }

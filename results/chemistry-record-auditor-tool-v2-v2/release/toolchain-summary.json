@@ -1,0 +1,18 @@
+{
+  "kind": "toolchain_summary",
+  "externalPackage": "pint",
+  "isolatedEnvironment": "prototype/.venv",
+  "packageVersion": [
+    {
+      "name": "pint",
+      "version": "fixture-0.0",
+      "status": "provisioned_fixture",
+      "isolatedEnvironment": "prototype/.venv",
+      "usedFor": "Celsius/Kelvin unit normalization during provisioning."
+    }
+  ],
+  "hostInstall": false,
+  "sudoUsed": false,
+  "curlPipeShellUsed": false,
+  "evidenceHash": "de1d280629c248cc6549ca41eefce7dc8e1a293c064e500a4c7789881a57ce28"
+}

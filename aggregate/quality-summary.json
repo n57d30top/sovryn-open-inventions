@@ -1,10 +1,11 @@
 {
-  "kind": "public_corpus_quality_summary",
-  "updatedAt": "2026-05-04T15:31:52.892Z",
-  "resultCount": 8,
-  "qualityCounts": {
-    "good": 8
+  "kind": "corpus_quality_summary",
+  "updatedAt": "2026-05-04T16:02:27.728Z",
+  "resultCount": 11,
+  "qualityLabels": {
+    "good": 11
   },
   "averageReleaseReadinessScore": 89,
-  "evidenceHash": "c8e7f77a24d9ac8794c607c009b16162481c6ce25b98a58f621fc1331dc853de"
+  "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
+  "evidenceHash": "6dfafcc2aba0032a5968c901a8a11cfd8cced98b721fa413c88c17e020533720"
 }

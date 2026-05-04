@@ -1,6 +1,6 @@
 {
   "kind": "autopublish_ledger",
-  "updatedAt": "2026-05-04T15:02:20.576Z",
+  "updatedAt": "2026-05-04T16:02:27.728Z",
   "entries": [
     {
       "resultId": "chemistry-record-auditor-tool",
@@ -27,6 +27,18 @@
       "evidenceHash": "7875a1fe3d8ce3c5d397c87fa512c1ede6ba4d6dbe7faef114006d1ef971f5ac"
     },
     {
+      "resultId": "chemistry-record-auditor-tool-v2",
+      "slug": "chemistry-record-auditor-tool-v2-v2",
+      "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
+      "mode": "corpus-autopublish",
+      "dryRun": false,
+      "pushed": false,
+      "pushedAt": null,
+      "commitHash": null,
+      "humanReviewRequired": false,
+      "evidenceHash": "4ce17dcd63da40048066ebb4ea58e723df8b74b92485e4af10690f58feb00bba"
+    },
+    {
       "resultId": "energy-usage-anomaly-auditor",
       "slug": "energy-usage-anomaly-auditor",
       "title": "Energy Usage Anomaly Auditor",
@@ -37,6 +49,18 @@
       "commitHash": "df8b4dcbb4a635d6c5044de60e3b936d6aae47d7",
       "humanReviewRequired": false,
       "evidenceHash": "dc3f131b3269128f7f7b30596ea2e34ff220d1359b37c19cc37f9f7370ef5b8e"
+    },
+    {
+      "resultId": "energy-usage-anomaly-auditor",
+      "slug": "energy-usage-anomaly-auditor-v2",
+      "title": "Energy Usage Anomaly Auditor",
+      "mode": "corpus-autopublish",
+      "dryRun": false,
+      "pushed": false,
+      "pushedAt": null,
+      "commitHash": null,
+      "humanReviewRequired": false,
+      "evidenceHash": "eba111c3bd8b6d92856ce37f2170679da0b24706eb97fdfff4d1a6dd22dd01a4"
     },
     {
       "resultId": "develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc",
@@ -61,7 +85,19 @@
       "commitHash": "c23b68bdc93b609f6a85086ad9ab5898a27bdfa3",
       "humanReviewRequired": false,
       "evidenceHash": "02c4b4d1d34129a429da6f7b73b5d34b750ee7761bcdcf3b9d42d2589ba8dfe3"
+    },
+    {
+      "resultId": "patch-risk-auditor",
+      "slug": "patch-risk-auditor-v2",
+      "title": "Patch Risk Auditor",
+      "mode": "corpus-autopublish",
+      "dryRun": false,
+      "pushed": false,
+      "pushedAt": null,
+      "commitHash": null,
+      "humanReviewRequired": false,
+      "evidenceHash": "4a967d14e14177d0ad50f67ea6a954df62b1970c71e5c0014ac3f0e1a0ef311c"
     }
   ],
-  "evidenceHash": "10569ebdab29a76af5aeb123975b02154e1d5c07ebb5e32caed06aa1b67d346e"
+  "evidenceHash": "c41bbdee81bac838be690ffc8096f53d8369f33a8f91ce55542df028bdd9bd82"
 }
