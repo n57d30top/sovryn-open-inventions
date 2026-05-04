@@ -10,6 +10,7 @@ Sovryn publishes into this existing corpus repository only after automated quali
 
 ## Results
 
+- [Molecular Record Auditor for Chemistry-Style Dataset Quality](results/chemistry-record-auditor-tool/) — good, dry_run_ready
 - [Corpus Deduplication for Defensive Publications](results/corpus-deduplication/) — good, dry_run_ready
 - [Replayable Evidence Chain for Autonomous Research Agents](results/evidence-chain/) — good, dry_run_ready
 - [Replayable Evidence Chain for Autonomous Research Agents](results/evidence-chain-v2/) — good, dry_run_ready

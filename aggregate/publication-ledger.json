@@ -1,7 +1,19 @@
 {
   "kind": "publication_ledger",
-  "updatedAt": "2026-05-04T13:18:18.485Z",
+  "updatedAt": "2026-05-04T13:59:20.956Z",
   "entries": [
+    {
+      "resultId": "chemistry-record-auditor-tool",
+      "slug": "chemistry-record-auditor-tool",
+      "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
+      "mode": "corpus-autopublish",
+      "dryRun": false,
+      "pushed": false,
+      "pushedAt": null,
+      "commitHash": null,
+      "humanReviewRequired": false,
+      "evidenceHash": "9df8b2c12cc5bd96c566b4818a8d3a1da600bb6be881fa7753434d8b5717b22a"
+    },
     {
       "resultId": "develop-an-evidence-chain-format-for-autonomous-research-agents-that-binds-sourc",
       "slug": "evidence-chain-v2",
@@ -15,5 +27,5 @@
       "evidenceHash": "37d4a778ecc64bc132d0909649ace39929e87c7da247239ff385b6191e812178"
     }
   ],
-  "evidenceHash": "80cb0ebca99b14e1303809a3a6cc2db58e1ccfdb010fbe9db73964be9117935f"
+  "evidenceHash": "69f96dca0f4ec0b41599cabc4edf1cf5b9e1b7a68e91a0be29d0ff450f266dec"
 }

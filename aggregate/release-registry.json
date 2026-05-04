@@ -1,7 +1,15 @@
 {
   "kind": "corpus_release_registry",
-  "updatedAt": "2026-05-04T13:00:36.731Z",
+  "updatedAt": "2026-05-04T13:59:20.956Z",
   "releases": [
+    {
+      "slug": "chemistry-record-auditor-tool",
+      "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
+      "path": "results/chemistry-record-auditor-tool",
+      "sourceType": "pilot",
+      "sourceId": "chemistry-record-auditor-tool",
+      "humanReviewRequired": false
+    },
     {
       "slug": "corpus-deduplication",
       "title": "Corpus Deduplication for Defensive Publications",
@@ -35,5 +43,5 @@
       "humanReviewRequired": false
     }
   ],
-  "evidenceHash": "2a177061d7c3a6268c6cfedaeb88e32ae8521952e37ee2fc3fb87b7ea371fbda"
+  "evidenceHash": "1783a3425c1a2ae270fde68441db91e9485504c780e7dee120b1c8af5c5fb3e3"
 }

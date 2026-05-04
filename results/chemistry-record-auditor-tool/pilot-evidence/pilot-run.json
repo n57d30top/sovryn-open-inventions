@@ -1,0 +1,30 @@
+{
+  "kind": "pilot_release_candidate",
+  "pilotId": "chemistry-record-auditor-tool",
+  "scenario": "external-chemistry-record-auditor",
+  "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
+  "goal": "Develop an open-source method for detecting inconsistent molecular-property records in public chemistry-style datasets using identifier normalization, unit normalization, duplicate detection, outlier analysis, provenance scoring, and reproducible quality scoring.",
+  "ranAt": "2026-05-04T13:59:04.318Z",
+  "factoryId": "factory-chemistry-record-auditor",
+  "factorySlug": "chemistry-record-auditor-tool",
+  "inventionMissionId": "mis_20260504135837_cd6f1394",
+  "releaseCandidateId": "chemistry-record-auditor-tool",
+  "releasePath": ".sovryn/external-research/chemistry-record-auditor/release/public",
+  "qualityLabel": "good",
+  "releaseReadinessScore": 90,
+  "evidenceStrengthScore": 86,
+  "noveltyRiskScore": 42,
+  "reproducibilityScore": 96,
+  "publicationSafetyScore": 96,
+  "humanReviewPriority": "medium",
+  "candidateStatus": "dry_run_ready",
+  "recommendedDecision": "dry-run only",
+  "realPublicationPerformed": false,
+  "workerNoSilentFallback": true,
+  "artifactRefs": [
+    ".sovryn/pilots/chemistry-record-auditor-tool/pilot-run.json",
+    ".sovryn/pilots/chemistry-record-auditor-tool/publication-dry-run.json",
+    ".sovryn/pilots/chemistry-record-auditor-tool/worker-execution.json"
+  ],
+  "evidenceHash": "cd878fc5b6705d01a26aac6c0585400bf538d70d217adb1afdb0a0b59159d371"
+}
