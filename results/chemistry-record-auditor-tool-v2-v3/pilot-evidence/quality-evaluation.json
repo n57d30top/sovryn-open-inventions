@@ -1,0 +1,13 @@
+{
+  "kind": "pilot_quality_evaluation",
+  "qualityLabel": "good",
+  "candidateStatus": "dry_run_ready",
+  "releaseReadinessScore": 90,
+  "evidenceStrengthScore": 88,
+  "noveltyRiskScore": 42,
+  "reproducibilityScore": 96,
+  "publicationSafetyScore": 96,
+  "replayCriticalPassRate": 100,
+  "corpusAutopublishEligible": true,
+  "evidenceHash": "904953697129d5875b775f0cb829fa53ecde0f3ee729d6aba203467dcea8fb34"
+}

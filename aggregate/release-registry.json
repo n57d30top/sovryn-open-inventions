@@ -1,6 +1,6 @@
 {
   "kind": "corpus_release_registry",
-  "updatedAt": "2026-05-04T16:02:27.729Z",
+  "updatedAt": "2026-05-04T18:48:32.197Z",
   "releases": [
     {
       "slug": "chemistry-record-auditor-tool",
@@ -27,6 +27,14 @@
       "humanReviewRequired": false
     },
     {
+      "slug": "chemistry-record-auditor-tool-v2-v3",
+      "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
+      "path": "results/chemistry-record-auditor-tool-v2-v3",
+      "sourceType": "pilot",
+      "sourceId": "chemistry-record-auditor-tool-v2",
+      "humanReviewRequired": false
+    },
+    {
       "slug": "corpus-deduplication",
       "title": "Corpus Deduplication for Defensive Publications",
       "path": "results/corpus-deduplication",
@@ -46,6 +54,14 @@
       "slug": "energy-usage-anomaly-auditor-v2",
       "title": "Energy Usage Anomaly Auditor",
       "path": "results/energy-usage-anomaly-auditor-v2",
+      "sourceType": "pilot",
+      "sourceId": "energy-usage-anomaly-auditor",
+      "humanReviewRequired": false
+    },
+    {
+      "slug": "energy-usage-anomaly-auditor-v3",
+      "title": "Energy Usage Anomaly Auditor",
+      "path": "results/energy-usage-anomaly-auditor-v3",
       "sourceType": "pilot",
       "sourceId": "energy-usage-anomaly-auditor",
       "humanReviewRequired": false
@@ -83,6 +99,14 @@
       "humanReviewRequired": false
     },
     {
+      "slug": "patch-risk-auditor-v3",
+      "title": "Patch Risk Auditor",
+      "path": "results/patch-risk-auditor-v3",
+      "sourceType": "pilot",
+      "sourceId": "patch-risk-auditor",
+      "humanReviewRequired": false
+    },
+    {
       "slug": "toolchain-policy",
       "title": "Policy-Gated Toolchain Installation Protocol",
       "path": "results/toolchain-policy",
@@ -91,5 +115,5 @@
       "humanReviewRequired": false
     }
   ],
-  "evidenceHash": "e7ec814b2a29a0e6be80ba621c3227d63ca12cbc36c688b69388945bf62c7173"
+  "evidenceHash": "08095a11e8027e33bbbabfb20141e5e9fa7a00a2f337ce7b8c157a9057334cad"
 }

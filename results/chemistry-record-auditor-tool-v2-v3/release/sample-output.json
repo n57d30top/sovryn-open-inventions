@@ -1,0 +1,221 @@
+{
+  "compounds": [
+    {
+      "canonicalizationConfidence": [
+        "equivalence_map_low_confidence"
+      ],
+      "compound": "acetone",
+      "consistentAfterUnitNormalization": false,
+      "normalizedValuesK": [
+        329.2,
+        1272.15
+      ],
+      "outlierCount": 1,
+      "property": "boiling_point",
+      "qualityScore": 30,
+      "recordCount": 2,
+      "records": [
+        {
+          "canonicalCompound": "acetone",
+          "canonicalizationConfidence": "equivalence_map_low_confidence",
+          "name": "acetone",
+          "property": "boiling_point",
+          "provenanceScore": 90,
+          "smiles": "CC(=O)C",
+          "source": "toy_reference_a",
+          "unitOriginal": "C",
+          "valueC": 56.05,
+          "valueK": 329.2,
+          "valueOriginal": 56.05
+        },
+        {
+          "canonicalCompound": "acetone",
+          "canonicalizationConfidence": "equivalence_map_low_confidence",
+          "name": "propanone",
+          "property": "boiling_point",
+          "provenanceScore": 40,
+          "smiles": "CC(C)=O",
+          "source": "toy_reference_unknown",
+          "unitOriginal": "C",
+          "valueC": 999,
+          "valueK": 1272.15,
+          "valueOriginal": 999
+        }
+      ],
+      "valueSpreadK": 942.95,
+      "weakProvenanceCount": 1
+    },
+    {
+      "canonicalizationConfidence": [
+        "equivalence_map_low_confidence"
+      ],
+      "compound": "benzene",
+      "consistentAfterUnitNormalization": true,
+      "normalizedValuesK": [
+        353.25,
+        353.25
+      ],
+      "outlierCount": 0,
+      "property": "boiling_point",
+      "qualityScore": 95,
+      "recordCount": 2,
+      "records": [
+        {
+          "canonicalCompound": "benzene",
+          "canonicalizationConfidence": "equivalence_map_low_confidence",
+          "name": "benzene",
+          "property": "boiling_point",
+          "provenanceScore": 90,
+          "smiles": "c1ccccc1",
+          "source": "toy_reference_a",
+          "unitOriginal": "C",
+          "valueC": 80.1,
+          "valueK": 353.25,
+          "valueOriginal": 80.1
+        },
+        {
+          "canonicalCompound": "benzene",
+          "canonicalizationConfidence": "equivalence_map_low_confidence",
+          "name": "benzol",
+          "property": "boiling_point",
+          "provenanceScore": 90,
+          "smiles": "C1=CC=CC=C1",
+          "source": "toy_reference_b",
+          "unitOriginal": "K",
+          "valueC": 80.1,
+          "valueK": 353.25,
+          "valueOriginal": 353.25
+        }
+      ],
+      "valueSpreadK": 0,
+      "weakProvenanceCount": 0
+    },
+    {
+      "canonicalizationConfidence": [
+        "equivalence_map_low_confidence"
+      ],
+      "compound": "ethanol",
+      "consistentAfterUnitNormalization": true,
+      "normalizedValuesK": [
+        351.52,
+        351.52
+      ],
+      "outlierCount": 0,
+      "property": "boiling_point",
+      "qualityScore": 95,
+      "recordCount": 2,
+      "records": [
+        {
+          "canonicalCompound": "ethanol",
+          "canonicalizationConfidence": "equivalence_map_low_confidence",
+          "name": "ethanol",
+          "property": "boiling_point",
+          "provenanceScore": 90,
+          "smiles": "CCO",
+          "source": "toy_reference_a",
+          "unitOriginal": "C",
+          "valueC": 78.37,
+          "valueK": 351.52,
+          "valueOriginal": 78.37
+        },
+        {
+          "canonicalCompound": "ethanol",
+          "canonicalizationConfidence": "equivalence_map_low_confidence",
+          "name": "ethyl alcohol",
+          "property": "boiling_point",
+          "provenanceScore": 90,
+          "smiles": "OCC",
+          "source": "toy_reference_b",
+          "unitOriginal": "K",
+          "valueC": 78.37,
+          "valueK": 351.52,
+          "valueOriginal": 351.52
+        }
+      ],
+      "valueSpreadK": 0,
+      "weakProvenanceCount": 0
+    },
+    {
+      "canonicalizationConfidence": [
+        "exact_identifier"
+      ],
+      "compound": "water",
+      "consistentAfterUnitNormalization": true,
+      "normalizedValuesK": [
+        373.15,
+        373.15
+      ],
+      "outlierCount": 0,
+      "property": "boiling_point",
+      "qualityScore": 100,
+      "recordCount": 2,
+      "records": [
+        {
+          "canonicalCompound": "water",
+          "canonicalizationConfidence": "exact_identifier",
+          "name": "water",
+          "property": "boiling_point",
+          "provenanceScore": 90,
+          "smiles": "O",
+          "source": "toy_reference_a",
+          "unitOriginal": "C",
+          "valueC": 100,
+          "valueK": 373.15,
+          "valueOriginal": 100
+        },
+        {
+          "canonicalCompound": "water",
+          "canonicalizationConfidence": "exact_identifier",
+          "name": "oxidane",
+          "property": "boiling_point",
+          "provenanceScore": 90,
+          "smiles": "O",
+          "source": "toy_reference_b",
+          "unitOriginal": "K",
+          "valueC": 100,
+          "valueK": 373.15,
+          "valueOriginal": 373.15
+        }
+      ],
+      "valueSpreadK": 0,
+      "weakProvenanceCount": 0
+    }
+  ],
+  "datasetIssues": [
+    {
+      "compound": "acetone",
+      "issueType": "conflicting_property_values",
+      "spreadK": 942.95
+    },
+    {
+      "compound": "acetone",
+      "issueType": "suspicious_property_outlier",
+      "records": [
+        "propanone"
+      ]
+    },
+    {
+      "compound": "acetone",
+      "issueType": "weak_provenance",
+      "records": [
+        "propanone"
+      ]
+    }
+  ],
+  "datasetReliabilityScore": 80,
+  "externalToolEvidence": {
+    "package": "pint",
+    "status": "used",
+    "usedForUnitNormalization": true,
+    "version": "fixture-0.0"
+  },
+  "limitations": [
+    "toy dataset only",
+    "limited equivalence map, not general SMILES canonicalization",
+    "not RDKit or OpenBabel",
+    "data-quality audit only, not synthesis or lab guidance"
+  ],
+  "malformedRecords": [],
+  "scope": "safe chemistry-style data-quality audit",
+  "tool": "mol-record-auditor"
+}

@@ -1,0 +1,11 @@
+{
+  "kind": "chemistry_record_auditor_worker_assurance_report",
+  "requestedProfile": "container-netoff",
+  "workerProfileUsed": "container-netoff",
+  "containerNetoffAvailable": true,
+  "dockerOrPodmanDetected": true,
+  "noSilentFallback": true,
+  "finalNetworkAccess": false,
+  "highAssuranceSatisfied": true,
+  "evidenceHash": "49f0091b3c7fc3a38695f6361f594a5d36d9c6ad2b5aea76444757944c238993"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "scripts": {
+    "audit": "node src/patch-risk-auditor.mjs sample-input.json sample-output.json",
+    "test": "node tests/patch-risk-auditor.test.mjs"
+  },
+  "dependencies": {
+    "acorn": "^8.0.0"
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "kind": "autopublish_verification",
+  "resultId": "chemistry-record-auditor-tool-v2",
+  "slug": "chemistry-record-auditor-tool-v2-v3",
+  "gates": [
+    {
+      "code": "QUALITY_THRESHOLD_PASSED",
+      "passed": true,
+      "message": "Quality label must meet corpus autopublish minimum.",
+      "details": {
+        "qualityLabel": "good",
+        "minimum": "good"
+      }
+    },
+    {
+      "code": "EVIDENCE_THRESHOLD_PASSED",
+      "passed": true,
+      "message": "Evidence strength score must meet corpus autopublish threshold.",
+      "details": {
+        "score": 88,
+        "minimum": 80
+      }
+    },
+    {
+      "code": "REPRODUCIBILITY_THRESHOLD_PASSED",
+      "passed": true,
+      "message": "Reproducibility score must meet corpus autopublish threshold.",
+      "details": {
+        "score": 96,
+        "minimum": 90
+      }
+    },
+    {
+      "code": "PUBLICATION_SAFETY_THRESHOLD_PASSED",
+      "passed": true,
+      "message": "Publication safety score must meet corpus autopublish threshold.",
+      "details": {
+        "score": 96,
+        "minimum": 85
+      }
+    },
+    {
+      "code": "REPLAY_CRITICAL_100",
+      "passed": true,
+      "message": "Replay critical pass rate must be 100 for autonomous corpus publication.",
+      "details": {
+        "replayCriticalPassRate": 100
+      }
+    },
+    {
+      "code": "SECURITY_AUDIT_PASSED",
+      "passed": true,
+      "message": "Security audit must pass.",
+      "details": {}
+    },
+    {
+      "code": "PUBLIC_HYGIENE_PASSED",
+      "passed": true,
+      "message": "Public hygiene audit must pass.",
+      "details": {
+        "findings": []
+      }
+    },
+    {
+      "code": "SAFETY_SCAN_PASSED",
+      "passed": true,
+      "message": "Safety scan must pass.",
+      "details": {}
+    },
+    {
+      "code": "RELIABILITY_REPLAY_PASSED",
+      "passed": true,
+      "message": "Reliability replay must pass.",
+      "details": {}
+    },
+    {
+      "code": "PUBLICATION_DRY_RUN_PRESENT",
+      "passed": true,
+      "message": "Publication dry-run evidence must exist.",
+      "details": {}
+    },
+    {
+      "code": "NO_PUBLIC_LEAKS",
+      "passed": true,
+      "message": "Candidate must have zero public leaks.",
+      "details": {}
+    },
+    {
+      "code": "NO_CRITICAL_FAILURES",
+      "passed": true,
+      "message": "Candidate must have zero critical failures.",
+      "details": {}
+    },
+    {
+      "code": "NO_RAW_LOGS",
+      "passed": true,
+      "message": "Candidate public evidence must not include raw logs.",
+      "details": {}
+    },
+    {
+      "code": "NO_SECRETS",
+      "passed": true,
+      "message": "Candidate public evidence must not include secrets.",
+      "details": {}
+    },
+    {
+      "code": "NO_LOCAL_PATHS",
+      "passed": true,
+      "message": "Candidate public evidence must not include local absolute paths.",
+      "details": {}
+    },
+    {
+      "code": "NO_FAKE_LEGAL_CLAIMS",
+      "passed": true,
+      "message": "Candidate must not make legal patentability, legal novelty, or FTO claims.",
+      "details": {}
+    },
+    {
+      "code": "NO_DANGEROUS_GOAL",
+      "passed": true,
+      "message": "Candidate goal must be legitimate and non-dangerous.",
+      "details": {}
+    },
+    {
+      "code": "SLUG_UNIQUE_OR_VERSIONED",
+      "passed": true,
+      "message": "Target slug must be unique or deterministically versioned.",
+      "details": {
+        "requestedSlug": "chemistry-record-auditor-tool-v2",
+        "targetSlug": "chemistry-record-auditor-tool-v2-v3"
+      }
+    },
+    {
+      "code": "WORKER_NO_SILENT_FALLBACK",
+      "passed": true,
+      "message": "Worker execution must record no-silent-fallback evidence when used.",
+      "details": {
+        "workerExecutionUsed": true,
+        "workerNoSilentFallback": true
+      }
+    },
+    {
+      "code": "REAL_SOURCE_SEARCH_ENABLED",
+      "passed": true,
+      "message": "Real-source candidates must explicitly mark real-source mode.",
+      "details": {
+        "realSourceMode": false
+      }
+    },
+    {
+      "code": "SOURCE_CARDS_REAL_SOURCE_BOUND",
+      "passed": true,
+      "message": "Real-source candidates must bind at least three source cards to concrete public sources.",
+      "details": {
+        "realSourceCardCount": 0
+      }
+    },
+    {
+      "code": "QUERY_LINKS_NOT_COUNTED_AS_REVIEWED",
+      "passed": true,
+      "message": "Query links must not be counted as reviewed prior art.",
+      "details": {
+        "queryLinksReviewedAsPriorArt": false
+      }
+    },
+    {
+      "code": "FIXTURE_FALLBACK_DECLARED",
+      "passed": true,
+      "message": "Fixture fallback use must be recorded for real-source candidates.",
+      "details": {
+        "fixtureFallbackUsed": false
+      }
+    },
+    {
+      "code": "AUTOPUBLISH_ONLY_IF_REAL_SOURCE_THRESHOLD_MET",
+      "passed": true,
+      "message": "Real-source campaign results may autopublish only when concrete source thresholds are met.",
+      "details": {
+        "realSourceThresholdMet": false,
+        "realSourceConcreteSourceCount": 0
+      }
+    },
+    {
+      "code": "RESULT_SPECIFICITY_PASSED",
+      "passed": true,
+      "message": "Result must be domain-specific and not template-like.",
+      "details": {
+        "specificityScore": 69
+      }
+    },
+    {
+      "code": "SOURCE_SPECIFICITY_PASSED",
+      "passed": true,
+      "message": "Source cards and public evidence must name concrete source context.",
+      "details": {
+        "sourceSpecificityScore": 100
+      }
+    },
+    {
+      "code": "PROTOTYPE_RELEVANCE_PASSED",
+      "passed": true,
+      "message": "Prototype must be relevant to the result domain.",
+      "details": {
+        "prototypeRelevanceScore": 100
+      }
+    },
+    {
+      "code": "TEST_NONTRIVIALITY_PASSED",
+      "passed": true,
+      "message": "Prototype tests must exercise non-trivial domain behavior.",
+      "details": {
+        "testNontrivialityScore": 77
+      }
+    },
+    {
+      "code": "LIMITATION_HONESTY_PASSED",
+      "passed": true,
+      "message": "Limitations must be explicit and result-specific.",
+      "details": {
+        "limitationHonestyScore": 60
+      }
+    },
+    {
+      "code": "CLAIM_EVIDENCE_GROUNDED",
+      "passed": true,
+      "message": "Claim/feature evidence must be grounded rather than generic.",
+      "details": {
+        "claimEvidenceGroundingScore": 74
+      }
+    },
+    {
+      "code": "COUNTER_EVIDENCE_SPECIFIC",
+      "passed": true,
+      "message": "Counter-evidence must be specific enough to pressure the candidate.",
+      "details": {
+        "counterEvidenceRelevanceScore": 40
+      }
+    },
+    {
+      "code": "PUBLIC_READABILITY_PASSED",
+      "passed": true,
+      "message": "Public README must explain the result clearly enough for review.",
+      "details": {
+        "publicReadabilityScore": 100
+      }
+    },
+    {
+      "code": "CANDIDATE_STATUS_ALLOWED",
+      "passed": true,
+      "message": "Candidate status must be dry_run_ready or review_ready.",
+      "details": {
+        "candidateStatus": "dry_run_ready"
+      }
+    },
+    {
+      "code": "RESULT_ELIGIBLE",
+      "passed": true,
+      "message": "Result must pass every automated eligibility gate.",
+      "details": {
+        "failedGates": []
+      }
+    }
+  ],
+  "evidenceHash": "534798fa482e9e55efbaf4ea6d233d00517665038b8799488fcb0bad3501dc21"
+}

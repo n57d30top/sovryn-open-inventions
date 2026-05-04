@@ -1,0 +1,34 @@
+{
+  "kind": "chemistry_record_auditor_public_summary",
+  "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
+  "toolName": "mol-record-auditor",
+  "safeFraming": "A safe open-source data-quality method for auditing chemistry-style molecular property records.",
+  "externalPackage": "pint",
+  "nodeAlphaProfile": "container-netoff",
+  "requestedNodeAlphaProfile": "container-netoff",
+  "workerAssurance": "container-netoff final validation",
+  "noSilentFallback": true,
+  "issuesDetected": [
+    {
+      "compound": "acetone",
+      "issueType": "conflicting_property_values",
+      "spreadK": 942.95
+    },
+    {
+      "compound": "acetone",
+      "issueType": "suspicious_property_outlier",
+      "records": [
+        "propanone"
+      ]
+    },
+    {
+      "compound": "acetone",
+      "issueType": "weak_provenance",
+      "records": [
+        "propanone"
+      ]
+    }
+  ],
+  "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
+  "evidenceHash": "930304e3318d26d378a6f74cdaf62381998e9facecb750f6b56a91bd7d258ac8"
+}

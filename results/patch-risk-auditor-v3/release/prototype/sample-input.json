@@ -1,0 +1,35 @@
+{
+  "patches": [
+    {
+      "patchId": "benign-docs-update",
+      "title": "Update README copy",
+      "provenance": "maintainer-reviewed",
+      "dependencyChanges": [],
+      "packageJsonChanges": {},
+      "diffSnippets": [
+        "README.md: clarify usage text"
+      ],
+      "testsChanged": true,
+      "codeChanged": false
+    },
+    {
+      "patchId": "risky-ai-generated-dependency",
+      "title": "Add helper dependency and generated code",
+      "provenance": "ai-generated-unverified",
+      "dependencyChanges": [
+        "postinstall-helper"
+      ],
+      "packageJsonChanges": {
+        "scripts": {
+          "postinstall": "node scripts/setup.js"
+        }
+      },
+      "diffSnippets": [
+        "src/index.js: eval(config.generatedExpression)",
+        "package.json: added postinstall script"
+      ],
+      "testsChanged": false,
+      "codeChanged": true
+    }
+  ]
+}

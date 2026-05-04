@@ -1,0 +1,61 @@
+{
+  "baselineSummary": {
+    "toy-home-001:summer": 15.55,
+    "toy-home-001:winter": 19.98
+  },
+  "datasetIssues": [
+    {
+      "description": "Duplicate timestamp for anonymized toy household.",
+      "householdId": "toy-home-001",
+      "issueType": "duplicate_timestamp",
+      "severity": "medium",
+      "timestamp": "2026-01-03T00:00:00Z"
+    },
+    {
+      "description": "Usage is high relative to seasonal/weather-normalized expectation.",
+      "householdId": "toy-home-001",
+      "issueType": "high_usage_spike",
+      "score": 1.452,
+      "severity": "high",
+      "timestamp": "2026-01-03T00:00:00Z"
+    },
+    {
+      "description": "Usage is high relative to seasonal/weather-normalized expectation.",
+      "householdId": "toy-home-001",
+      "issueType": "high_usage_spike",
+      "score": 1.452,
+      "severity": "high",
+      "timestamp": "2026-01-03T00:00:00Z"
+    },
+    {
+      "description": "Missing 1 daily interval(s) before 2026-01-05T00:00:00Z.",
+      "householdId": "toy-home-001",
+      "issueType": "missing_interval",
+      "severity": "medium",
+      "timestamp": "2026-01-05T00:00:00Z"
+    },
+    {
+      "description": "Record source is weak or unknown.",
+      "householdId": "toy-home-001",
+      "issueType": "weak_provenance",
+      "severity": "medium",
+      "timestamp": "2026-07-02T00:00:00Z"
+    },
+    {
+      "description": "Warm-weather record has unusually high usage for the toy baseline.",
+      "householdId": "toy-home-001",
+      "issueType": "weather_normalized_anomaly",
+      "severity": "medium",
+      "timestamp": "2026-07-02T00:00:00Z"
+    }
+  ],
+  "datasetReliabilityScore": 58,
+  "externalToolEvidence": {
+    "package": "pandas",
+    "usedForTabularValidation": true,
+    "version": "fixture-0.0"
+  },
+  "kind": "energy_record_auditor_output",
+  "recordCount": 7,
+  "safetyScope": "synthetic anonymized toy records only; no private smart-meter data"
+}
