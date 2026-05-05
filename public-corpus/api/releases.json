@@ -2,6 +2,15 @@
   "kind": "public_corpus_api_releases",
   "releases": [
     {
+      "slug": "autonomous-research-strategy-trial",
+      "path": "results/autonomous-research-strategy-trial",
+      "status": "strategy_trial_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "autonomous-research-strategy-trial",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "path": "results/chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "status": "autopublished",
@@ -98,7 +107,7 @@
       "lifecycleStatus": "autopublished",
       "versionGroup": "discovery-promising-unproven-method",
       "supersededBy": null,
-      "pushed": false
+      "pushed": true
     },
     {
       "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-public",
@@ -272,5 +281,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "0348cafa58c6f6695b42024d51580d8cd79cff8a18c2d62c5a9e6667d2e455b8"
+  "evidenceHash": "9d25d531ef351217b5996af989f15533d4dff0371a315de39b085dcb0cffa5ca"
 }

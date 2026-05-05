@@ -1,0 +1,15 @@
+{
+  "resultId": "autonomous-research-strategy-trial",
+  "slug": "autonomous-research-strategy-trial",
+  "publishedBy": "sovryn-strategy-autopublish",
+  "humanReviewRequired": false,
+  "automatedPolicyVersion": "3.8.0-rc.1-strategy-policy",
+  "targetRepo": "https://github.com/n57d30top/sovryn-open-inventions",
+  "targetPath": "results/autonomous-research-strategy-trial",
+  "pushed": true,
+  "dryRun": false,
+  "publicHygienePassed": true,
+  "noCriticalFailures": true,
+  "disclaimer": "Autonomous research strategy artifact. Not a patent filing, patentability opinion, legal novelty opinion, freedom-to-operate opinion, medical advice, wet-lab guidance, hazardous chemistry, biological optimization, exploit guidance, or safety-critical conclusion. Human interpretation remains required.",
+  "evidenceHash": "f305e063feeb3c2bb723a7e0ce6ccc5330938f31f36e232e3b0fd5999e0fcf03"
+}

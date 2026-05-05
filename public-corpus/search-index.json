@@ -1,8 +1,51 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-05T12:41:41.841Z",
-  "entryCount": 30,
+  "builtAt": "2026-05-05T13:28:54.846Z",
+  "entryCount": 31,
   "entries": [
+    {
+      "slug": "autonomous-research-strategy-trial",
+      "title": "Autonomous Research Strategist Trial",
+      "domain": "research-strategy",
+      "href": "results/autonomous-research-strategy-trial.html",
+      "qualityLabel": "good",
+      "publicationStatus": "strategy_trial_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "autonomous-research-strategy-trial",
+      "showcaseRank": null,
+      "terms": [
+        "adaptive",
+        "and",
+        "attempts",
+        "autonomous",
+        "autopublished",
+        "built",
+        "corpus",
+        "cycles",
+        "direction",
+        "executed",
+        "extracted",
+        "falsification",
+        "its",
+        "memory",
+        "next",
+        "opportunities",
+        "own",
+        "program",
+        "ran",
+        "ranked",
+        "read",
+        "reproduction",
+        "research",
+        "scientific",
+        "selected",
+        "sovryn",
+        "strategist",
+        "strategy",
+        "them",
+        "trial"
+      ]
+    },
     {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "title": "Can safe public dataset reliability checks identify schema drift and duplicate scientific records without using private data?",
@@ -1159,5 +1202,5 @@
       ]
     }
   ],
-  "evidenceHash": "cbc0a14b42617887efa5dc84c44de65e84d359c4e69fe8f98b07154284f6993a"
+  "evidenceHash": "ea8084806f81b3fcc6b9a83e015a14954fc209c7568f6dcee75bdb027380071f"
 }

@@ -1,7 +1,13 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-05T12:41:41.841Z",
+  "generatedAt": "2026-05-05T13:28:54.846Z",
   "nodes": [
+    {
+      "id": "result:autonomous-research-strategy-trial",
+      "kind": "result",
+      "label": "Autonomous Research Strategist Trial",
+      "domain": "research-strategy"
+    },
     {
       "id": "result:chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "kind": "result",
@@ -183,6 +189,11 @@
       "domain": "node-toolchain-policy"
     },
     {
+      "id": "domain:research-strategy",
+      "kind": "domain",
+      "label": "research-strategy"
+    },
+    {
       "id": "domain:chemistry-data-quality",
       "kind": "domain",
       "label": "chemistry-data-quality"
@@ -259,6 +270,11 @@
     }
   ],
   "edges": [
+    {
+      "source": "result:autonomous-research-strategy-trial",
+      "target": "domain:research-strategy",
+      "relation": "belongs_to_domain"
+    },
     {
       "source": "result:chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "target": "domain:chemistry-data-quality",
@@ -550,5 +566,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "72a320e2163e0ecebd8a462b425a56245ceaef4f370b5bab292c8161be396f68"
+  "evidenceHash": "523558e120b8db2a0b71e2ce91a93dd95f6e012c92d2310df2a22df5b708a155"
 }

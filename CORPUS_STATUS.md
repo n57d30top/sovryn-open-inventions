@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 30
+Results: 31
 
 ## Lifecycle Counts
 
-- autopublished: 1
+- autopublished: 2
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -12,6 +12,7 @@ Results: 30
 
 ## Version Groups
 
+- autonomous-research-strategy-trial: latest autonomous-research-strategy-trial; autonomous-research-strategy-trial
 - chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an: latest chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl; chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl
 - chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconf: latest chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-; chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-
 - chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-o: latest chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco; chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco

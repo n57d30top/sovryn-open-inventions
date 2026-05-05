@@ -1,8 +1,47 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-05T12:41:41.841Z",
-  "resultCount": 30,
+  "updatedAt": "2026-05-05T13:28:54.846Z",
+  "resultCount": 31,
   "results": [
+    {
+      "slug": "autonomous-research-strategy-trial",
+      "title": "Autonomous Research Strategist Trial",
+      "resultKind": "autonomous_research_strategy_trial",
+      "domain": "research-strategy",
+      "path": "results/autonomous-research-strategy-trial",
+      "qualityLabel": "good",
+      "candidateStatus": "strategy_trial_ready",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "autonomous-research-strategy-trial",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": false,
+        "limitations": true,
+        "examples": false
+      },
+      "revisionReason": null,
+      "humanReadableSummary": "Sovryn read its own corpus and scientific memory, extracted opportunities, ranked them, built a program, executed adaptive cycles, ran reproduction and falsification attempts, and selected a next research direction.",
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 100,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 82,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "strategy_falsification_executed",
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+    },
     {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "title": "Can safe public dataset reliability checks identify schema drift and duplicate scientific records without using private data?",
@@ -1266,5 +1305,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "0b42ac528b47979c28df73345103e5309018a73efb7ae313fac22fc2fe492471"
+  "evidenceHash": "b2060ec587fec2472de72b1b94eb18bba65bf3d5152c171cd86da0e276949731"
 }

@@ -1,0 +1,32 @@
+{
+  "slug": "autonomous-research-strategy-trial",
+  "title": "Autonomous Research Strategist Trial",
+  "resultKind": "autonomous_research_strategy_trial",
+  "domain": "research-strategy",
+  "qualityLabel": "good",
+  "lifecycleStatus": "autopublished",
+  "candidateStatus": "strategy_trial_ready",
+  "releaseReadinessScore": 90,
+  "evidenceStrengthScore": 88,
+  "specificityScore": 82,
+  "opportunitiesFound": 68,
+  "topOpportunities": [
+    "strategy-opp-16773e84ffcf",
+    "strategy-opp-6ebbbd6b1aa6",
+    "strategy-opp-06f089afe61a"
+  ],
+  "adaptiveCyclesCompleted": 5,
+  "reproductionAttempts": 1,
+  "falsificationAttempts": 1,
+  "scientificMemoryUpdated": true,
+  "publicationSafetyScore": 98,
+  "reproducibilityScore": 100,
+  "replayCriticalPassRate": 100,
+  "publicHygienePassed": true,
+  "falsificationStatus": "strategy_falsification_executed",
+  "peerReviewPresent": false,
+  "noCriticalFailures": true,
+  "noFakeBreakthroughClaims": true,
+  "disclaimer": "Autonomous research strategy artifact. Not a patent filing, patentability opinion, legal novelty opinion, freedom-to-operate opinion, medical advice, wet-lab guidance, hazardous chemistry, biological optimization, exploit guidance, or safety-critical conclusion. Human interpretation remains required.",
+  "evidenceHash": "4c685afd589cc4eb0587d1e2dd2761c88116cf53d6897d759786724f3945bd1f"
+}

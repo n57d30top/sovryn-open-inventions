@@ -1,13 +1,14 @@
 {
   "kind": "public_corpus_status",
-  "generatedAt": "2026-05-05T12:41:41.841Z",
+  "generatedAt": "2026-05-05T13:28:54.846Z",
   "statusCounts": {
     "autopublished": 28,
     "promising_but_unproven": 1,
+    "strategy_trial_ready": 1,
     "unknown": 1
   },
   "lifecycleCounts": {
-    "autopublished": 1,
+    "autopublished": 2,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -18,10 +19,11 @@
     "energy-data-quality": 8,
     "node-toolchain-policy": 1,
     "open-invention-corpus": 3,
+    "research-strategy": 1,
     "safe-computational-reproduction": 1,
     "scientific-dataset-reliability": 1,
     "software-supply-chain": 3,
     "software-supply-chain-assurance": 3
   },
-  "evidenceHash": "e3b66212904bdcfb44d465695aed35578fb3be6def0fc35639c47d396b504e81"
+  "evidenceHash": "9d20d61de79030c7b04159997f1aa410a013234caae7ab0b9d41cd8b3f59b318"
 }

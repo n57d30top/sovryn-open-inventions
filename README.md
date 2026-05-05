@@ -35,6 +35,7 @@ and safety scope in human-readable language.
 
 ## Results
 
+- [Autonomous Research Strategist Trial](results/autonomous-research-strategy-trial/) — good, autopublished, autonomous-research-strategy-trial, research-strategy
 - [Can safe public dataset reliability checks identify schema drift and duplicate scientific records without using private data?](results/chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl/) — good, showcase_science, chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an, chemistry-data-quality
 - [Does explicit low-confidence identifier equivalence reduce overconfident chemistry-style record audits when unit-normalized values agree?](results/chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-/) — good, showcase_science, chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconf, chemistry-data-quality
 - [Does unit-normalization plus provenance scoring improve detection of inconsistent chemistry-style molecular property records compared with unit normalization alone?](results/chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco/) — good, showcase_science, chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-o, chemistry-data-quality

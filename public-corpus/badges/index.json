@@ -1,7 +1,25 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-05T12:41:41.841Z",
+  "generatedAt": "2026-05-05T13:28:54.846Z",
   "badges": [
+    {
+      "slug": "autonomous-research-strategy-trial",
+      "badges": {
+        "quality": "good",
+        "status": "strategy_trial_ready",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "strategy_falsification_executed",
+        "lifecycle": "autopublished",
+        "version": "autonomous-research-strategy-trial",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
     {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "badges": {
@@ -543,5 +561,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "cb49237f30292e934fbf5531ca71f32f9ea71fe07b6df117c07c382f878fe73c"
+  "evidenceHash": "a6acd2a68cdab999531856fc37cb8a7431ab0553035d9721b11e916c2d85882e"
 }

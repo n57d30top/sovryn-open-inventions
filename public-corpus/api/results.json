@@ -2,6 +2,81 @@
   "kind": "public_corpus_api_results",
   "results": [
     {
+      "slug": "autonomous-research-strategy-trial",
+      "title": "Autonomous Research Strategist Trial",
+      "domain": "research-strategy",
+      "resultKind": "autonomous_research_strategy_trial",
+      "path": "results/autonomous-research-strategy-trial",
+      "qualityLabel": "good",
+      "publicationStatus": "strategy_trial_ready",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "autonomous-research-strategy-trial",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": null,
+      "humanReadableSummary": "Sovryn read its own corpus and scientific memory, extracted opportunities, ranked them, built a program, executed adaptive cycles, ran reproduction and falsification attempts, and selected a next research direction.",
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 100,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 82,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": true,
+      "externalPackages": [],
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "strategy_falsification_executed",
+      "scientificQuestion": null,
+      "hypothesisCount": 0,
+      "nullHypothesisPresent": false,
+      "experimentCount": 0,
+      "replicationRunCount": 0,
+      "peerReviewPresent": false,
+      "statisticalAnalysisPresent": false,
+      "baselineComparisonPresent": false,
+      "ablationPresent": false,
+      "sensitivityPresent": false,
+      "studyResultLabel": null,
+      "scientificMemoryUpdated": true,
+      "safetyScope": null,
+      "summary": "Sovryn read its own corpus and scientific memory, extracted opportunities, ranked them, built a program, executed adaptive cycles, ran reproduction and falsification attempts, and selected a next research direction.",
+      "limitations": [
+        "\"disclaimer\": \"Autonomous research strategy artifact. Not a patent filing, patentability opinion, legal novelty opinion, freedom-to-operate opinion, medical advice, wet-lab guidance, hazardous chemistry, biological optimization, exploit guidance, or safety-critical conclusion. Human interpretation remains required.\",",
+        "Top falsification item was executed in bounded mode and memory was updated.",
+        "Limitations",
+        "Autonomous research strategy artifact. Not a patent filing, patentability opinion, legal novelty opinion, freedom-to-operate opinion, medical advice, wet-lab guidance, hazardous chemistry, biological optimization, exploit guidance, or safety-critical conclusion. Human interpretation remains required.",
+        "The strategy ranking is a deterministic heuristic, not a guarantee of scientific importance or a breakthrough.",
+        "Top reproduction item was executed in bounded mode and memory was updated."
+      ],
+      "badges": {
+        "quality": "good",
+        "status": "strategy_trial_ready",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "strategy_falsification_executed",
+        "lifecycle": "autopublished",
+        "version": "autonomous-research-strategy-trial",
+        "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": false,
+        "limitations": true,
+        "examples": false
+      }
+    },
+    {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "title": "Can safe public dataset reliability checks identify schema drift and duplicate scientific records without using private data?",
       "domain": "chemistry-data-quality",
@@ -791,7 +866,7 @@
       "publicHygienePassed": true,
       "safetyScanPassed": true,
       "reliabilityReplayPassed": true,
-      "pushed": false,
+      "pushed": true,
       "externalPackages": [
         "numpy"
       ],
@@ -2296,5 +2371,5 @@
       }
     }
   ],
-  "evidenceHash": "ba5ff38c19810a2a6e9bc27d66cd055d27ff9f34e123bfd156a16b213378c669"
+  "evidenceHash": "f314cc94a825b67d47e96814466ff3b5ebb8959fe2f0edbb0c8d63e9d23422be"
 }

@@ -1,9 +1,14 @@
 {
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
-    "good": 30
+    "good": 31
   },
   "results": [
+    {
+      "slug": "autonomous-research-strategy-trial",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
     {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "qualityLabel": "good",
@@ -155,5 +160,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "cd7fc0209c6fd6ee65b9e9788c1bbaefc7cc671879e00f768495a9c38f463ffa"
+  "evidenceHash": "084727dccf6a25c3940ee2b02958d9e44250960df5731205b50e8b4866ec8cb3"
 }
