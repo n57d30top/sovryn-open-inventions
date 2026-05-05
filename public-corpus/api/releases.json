@@ -236,6 +236,15 @@
       "pushed": false
     },
     {
+      "slug": "scientific-knowledge-engine-trial",
+      "path": "results/scientific-knowledge-engine-trial",
+      "status": "knowledge_trial_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "scientific-knowledge-engine-trial",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
       "slug": "self-built-lab-reproduction-388ccd1946ad",
       "path": "results/self-built-lab-reproduction-388ccd1946ad",
       "status": "unknown",
@@ -281,5 +290,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "9d25d531ef351217b5996af989f15533d4dff0371a315de39b085dcb0cffa5ca"
+  "evidenceHash": "91926eb386675e6461138318d64d52efcc6d568842d041f604b29c11829adacc"
 }

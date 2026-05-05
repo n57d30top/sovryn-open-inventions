@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
-    "good": 31
+    "good": 32
   },
   "results": [
     {
@@ -135,6 +135,11 @@
       "releaseReadinessScore": 92
     },
     {
+      "slug": "scientific-knowledge-engine-trial",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
       "slug": "self-built-lab-reproduction-388ccd1946ad",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
@@ -160,5 +165,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "084727dccf6a25c3940ee2b02958d9e44250960df5731205b50e8b4866ec8cb3"
+  "evidenceHash": "63a96453a0b98337913fe2accd87e137efacff945dd0fac0abf67c3f551b6c23"
 }

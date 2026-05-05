@@ -1,7 +1,7 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-05T13:28:54.846Z",
-  "resultCount": 31,
+  "updatedAt": "2026-05-05T14:07:11.208Z",
+  "resultCount": 32,
   "results": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -1096,6 +1096,45 @@
       "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
+      "slug": "scientific-knowledge-engine-trial",
+      "title": "Scientific Knowledge Engine Trial",
+      "resultKind": "scientific_knowledge_engine_trial",
+      "domain": "scientific-knowledge-engine",
+      "path": "results/scientific-knowledge-engine-trial",
+      "qualityLabel": "good",
+      "candidateStatus": "knowledge_trial_ready",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "scientific-knowledge-engine-trial",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": false,
+        "limitations": true,
+        "examples": false
+      },
+      "revisionReason": null,
+      "humanReadableSummary": "Sovryn converted corpus and memory evidence into a claim graph, confidence scores, contradiction analysis, a method atlas, next-best-experiment ranking, and a bounded top-experiment knowledge update.",
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 100,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 84,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "not_evaluated",
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+    },
+    {
       "slug": "self-built-lab-reproduction-388ccd1946ad",
       "title": "Self-built lab reproduction challenge",
       "resultKind": "self_built_lab_reproduction",
@@ -1305,5 +1344,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "b2060ec587fec2472de72b1b94eb18bba65bf3d5152c171cd86da0e276949731"
+  "evidenceHash": "dec0810052cb83694ffdcbb5f3b3faedf38c3a26fea1493e365365b7e10e078f"
 }

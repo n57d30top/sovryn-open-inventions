@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-05T13:28:54.846Z",
+  "generatedAt": "2026-05-05T14:07:11.208Z",
   "badges": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -471,6 +471,24 @@
       "showcaseRank": null
     },
     {
+      "slug": "scientific-knowledge-engine-trial",
+      "badges": {
+        "quality": "good",
+        "status": "knowledge_trial_ready",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "not_evaluated",
+        "lifecycle": "autopublished",
+        "version": "scientific-knowledge-engine-trial",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
       "slug": "self-built-lab-reproduction-388ccd1946ad",
       "badges": {
         "quality": "good",
@@ -561,5 +579,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "a6acd2a68cdab999531856fc37cb8a7431ab0553035d9721b11e916c2d85882e"
+  "evidenceHash": "e979fc22d96826658324ffff454ca2503e60906d037ec97d2f45ee7e9b18aaf6"
 }

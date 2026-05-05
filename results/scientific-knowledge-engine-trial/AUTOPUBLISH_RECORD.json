@@ -1,0 +1,15 @@
+{
+  "resultId": "scientific-knowledge-engine-trial",
+  "slug": "scientific-knowledge-engine-trial",
+  "publishedBy": "sovryn-knowledge-autopublish",
+  "humanReviewRequired": false,
+  "automatedPolicyVersion": "3.9.0-rc.1-knowledge-policy",
+  "targetRepo": "https://github.com/n57d30top/sovryn-open-inventions",
+  "targetPath": "results/scientific-knowledge-engine-trial",
+  "pushed": true,
+  "dryRun": false,
+  "publicHygienePassed": true,
+  "noCriticalFailures": true,
+  "disclaimer": "Scientific Knowledge Engine artifact. It is not a patent filing, patentability opinion, legal novelty opinion, freedom-to-operate opinion, medical advice, wet-lab guidance, hazardous chemistry, biological optimization, exploit guidance, or a guarantee of scientific truth. Claims remain evidence-bound and limitation-bound.",
+  "evidenceHash": "ded2950ca469249ae3207eb54f0ffc797acbf1650ad0d8aa7df621f72bd79bbb"
+}

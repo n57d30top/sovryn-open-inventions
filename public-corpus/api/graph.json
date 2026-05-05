@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-05T13:28:54.846Z",
+  "generatedAt": "2026-05-05T14:07:11.208Z",
   "nodes": [
     {
       "id": "result:autonomous-research-strategy-trial",
@@ -159,6 +159,12 @@
       "domain": "scientific-dataset-reliability"
     },
     {
+      "id": "result:scientific-knowledge-engine-trial",
+      "kind": "result",
+      "label": "Scientific Knowledge Engine Trial",
+      "domain": "scientific-knowledge-engine"
+    },
+    {
       "id": "result:self-built-lab-reproduction-388ccd1946ad",
       "kind": "result",
       "label": "Self-built lab reproduction challenge",
@@ -217,6 +223,11 @@
       "id": "domain:scientific-dataset-reliability",
       "kind": "domain",
       "label": "scientific-dataset-reliability"
+    },
+    {
+      "id": "domain:scientific-knowledge-engine",
+      "kind": "domain",
+      "label": "scientific-knowledge-engine"
     },
     {
       "id": "domain:safe-computational-reproduction",
@@ -521,6 +532,11 @@
       "relation": "uses_public_tool_evidence"
     },
     {
+      "source": "result:scientific-knowledge-engine-trial",
+      "target": "domain:scientific-knowledge-engine",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:self-built-lab-reproduction-388ccd1946ad",
       "target": "domain:safe-computational-reproduction",
       "relation": "belongs_to_domain"
@@ -566,5 +582,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "523558e120b8db2a0b71e2ce91a93dd95f6e012c92d2310df2a22df5b708a155"
+  "evidenceHash": "b09aff7fe3c7b66085a4b2da41624df3d1a15ac40bc8145e2ef70da2115ef6ec"
 }

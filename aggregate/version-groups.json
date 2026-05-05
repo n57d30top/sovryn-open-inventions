@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-05T13:28:54.846Z",
+  "updatedAt": "2026-05-05T14:07:11.208Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-strategy-trial",
@@ -119,6 +119,13 @@
       ]
     },
     {
+      "versionGroup": "scientific-knowledge-engine-trial",
+      "latestSlug": "scientific-knowledge-engine-trial",
+      "resultSlugs": [
+        "scientific-knowledge-engine-trial"
+      ]
+    },
+    {
       "versionGroup": "self-built-lab-reproduction-388ccd1946ad",
       "latestSlug": "self-built-lab-reproduction-388ccd1946ad",
       "resultSlugs": [
@@ -148,5 +155,5 @@
       ]
     }
   ],
-  "evidenceHash": "9189d6eaffd95b8900a9290ab561edc57e0899f74b1279a5952c9c6e7640c159"
+  "evidenceHash": "6579899c27577f6c226ff3416ef0c0bcff04e86c8a55ea06dbe1f156c2b8191d"
 }

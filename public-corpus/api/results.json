@@ -1990,6 +1990,81 @@
       }
     },
     {
+      "slug": "scientific-knowledge-engine-trial",
+      "title": "Scientific Knowledge Engine Trial",
+      "domain": "scientific-knowledge-engine",
+      "resultKind": "scientific_knowledge_engine_trial",
+      "path": "results/scientific-knowledge-engine-trial",
+      "qualityLabel": "good",
+      "publicationStatus": "knowledge_trial_ready",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "scientific-knowledge-engine-trial",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": null,
+      "humanReadableSummary": "Sovryn converted corpus and memory evidence into a claim graph, confidence scores, contradiction analysis, a method atlas, next-best-experiment ranking, and a bounded top-experiment knowledge update.",
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 100,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 84,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": true,
+      "externalPackages": [],
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "not_evaluated",
+      "scientificQuestion": null,
+      "hypothesisCount": 0,
+      "nullHypothesisPresent": false,
+      "experimentCount": 0,
+      "replicationRunCount": 0,
+      "peerReviewPresent": false,
+      "statisticalAnalysisPresent": false,
+      "baselineComparisonPresent": false,
+      "ablationPresent": false,
+      "sensitivityPresent": false,
+      "studyResultLabel": null,
+      "scientificMemoryUpdated": true,
+      "safetyScope": null,
+      "summary": "Sovryn converted corpus and memory evidence into a claim graph, confidence scores, contradiction analysis, a method atlas, next-best-experiment ranking, and a bounded top-experiment knowledge update.",
+      "limitations": [
+        "\"disclaimer\": \"Scientific Knowledge Engine artifact. It is not a patent filing, patentability opinion, legal novelty opinion, freedom-to-operate opinion, medical advice, wet-lab guidance, hazardous chemistry, biological optimization, exploit guidance, or a guarantee of scientific truth. Claims remain evidence-bound and limitation-bound.\",",
+        "The selected experiment was run in bounded mode and updated knowledge artifacts.",
+        "Scientific Knowledge Engine artifact. It is not a patent filing, patentability opinion, legal novelty opinion, freedom-to-operate opinion, medical advice, wet-lab guidance, hazardous chemistry, biological optimization, exploit guidance, or a guarantee of scientific truth. Claims remain evidence-bound and limitation-bound.",
+        "Limitations",
+        "Knowledge scoring is deterministic and conservative. It is not a claim of scientific certainty.",
+        "Sovryn converted corpus and memory evidence into a claim graph, confidence scores, contradiction analysis, a method atlas, next-best-experiment ranking, and a bounded top-experiment knowledge update."
+      ],
+      "badges": {
+        "quality": "good",
+        "status": "knowledge_trial_ready",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "not_evaluated",
+        "lifecycle": "autopublished",
+        "version": "scientific-knowledge-engine-trial",
+        "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": false,
+        "limitations": true,
+        "examples": false
+      }
+    },
+    {
       "slug": "self-built-lab-reproduction-388ccd1946ad",
       "title": "Self-built lab reproduction challenge",
       "domain": "safe-computational-reproduction",
@@ -2371,5 +2446,5 @@
       }
     }
   ],
-  "evidenceHash": "f314cc94a825b67d47e96814466ff3b5ebb8959fe2f0edbb0c8d63e9d23422be"
+  "evidenceHash": "687d215991ab5102b45ae734855b1cc18d228da0cf0ae30b82fb2777f9bf6235"
 }

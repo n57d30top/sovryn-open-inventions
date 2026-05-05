@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-05T13:28:54.846Z",
-  "entryCount": 31,
+  "builtAt": "2026-05-05T14:07:11.208Z",
+  "entryCount": 32,
   "entries": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -1001,6 +1001,46 @@
       ]
     },
     {
+      "slug": "scientific-knowledge-engine-trial",
+      "title": "Scientific Knowledge Engine Trial",
+      "domain": "scientific-knowledge-engine",
+      "href": "results/scientific-knowledge-engine-trial.html",
+      "qualityLabel": "good",
+      "publicationStatus": "knowledge_trial_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "scientific-knowledge-engine-trial",
+      "showcaseRank": null,
+      "terms": [
+        "analysis",
+        "and",
+        "atlas",
+        "autopublished",
+        "best",
+        "bounded",
+        "claim",
+        "confidence",
+        "contradiction",
+        "converted",
+        "corpus",
+        "engine",
+        "evidence",
+        "experiment",
+        "graph",
+        "into",
+        "knowledge",
+        "memory",
+        "method",
+        "next",
+        "ranking",
+        "scientific",
+        "scores",
+        "sovryn",
+        "top",
+        "trial",
+        "update"
+      ]
+    },
+    {
       "slug": "self-built-lab-reproduction-388ccd1946ad",
       "title": "Self-built lab reproduction challenge",
       "domain": "safe-computational-reproduction",
@@ -1202,5 +1242,5 @@
       ]
     }
   ],
-  "evidenceHash": "ea8084806f81b3fcc6b9a83e015a14954fc209c7568f6dcee75bdb027380071f"
+  "evidenceHash": "c769001827276d815f47ae4423dd60d09528bba286721c8e215c89ac42cc031e"
 }
