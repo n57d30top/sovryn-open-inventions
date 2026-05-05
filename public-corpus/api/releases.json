@@ -200,6 +200,33 @@
       "pushed": true
     },
     {
+      "slug": "field-grade-autonomous-science-trial",
+      "path": "results/field-grade-autonomous-science-trial",
+      "status": "field_grade_trial_ready",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "field-grade-autonomous-science-trial",
+      "supersededBy": "field-grade-autonomous-science-trial-v3",
+      "pushed": true
+    },
+    {
+      "slug": "field-grade-autonomous-science-trial-v2",
+      "path": "results/field-grade-autonomous-science-trial-v2",
+      "status": "field_grade_trial_ready",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "field-grade-autonomous-science-trial",
+      "supersededBy": "field-grade-autonomous-science-trial-v3",
+      "pushed": true
+    },
+    {
+      "slug": "field-grade-autonomous-science-trial-v3",
+      "path": "results/field-grade-autonomous-science-trial-v3",
+      "status": "field_grade_trial_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "field-grade-autonomous-science-trial",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
       "slug": "patch-risk-auditor",
       "path": "results/patch-risk-auditor",
       "status": "autopublished",
@@ -299,5 +326,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "6b4cf5339a58c7c68e8147691d4e5c11f636ad63d5816fc9ca482f1a507425d8"
+  "evidenceHash": "e531ee2b83e1320da14465aedca828b9667e936e5e7e83f2e2a01e1f9fdae704"
 }

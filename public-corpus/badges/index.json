@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-05T14:51:46.578Z",
+  "generatedAt": "2026-05-05T15:32:15.441Z",
   "badges": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -399,6 +399,60 @@
       "showcaseRank": null
     },
     {
+      "slug": "field-grade-autonomous-science-trial",
+      "badges": {
+        "quality": "excellent",
+        "status": "field_grade_trial_ready",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "not_evaluated",
+        "lifecycle": "superseded",
+        "version": "field-grade-autonomous-science-trial",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "superseded",
+      "showcaseRank": null
+    },
+    {
+      "slug": "field-grade-autonomous-science-trial-v2",
+      "badges": {
+        "quality": "excellent",
+        "status": "field_grade_trial_ready",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "not_evaluated",
+        "lifecycle": "superseded",
+        "version": "field-grade-autonomous-science-trial",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "superseded",
+      "showcaseRank": null
+    },
+    {
+      "slug": "field-grade-autonomous-science-trial-v3",
+      "badges": {
+        "quality": "excellent",
+        "status": "field_grade_trial_ready",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "field-grade-autonomous-science-trial",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
       "slug": "patch-risk-auditor",
       "badges": {
         "quality": "good",
@@ -597,5 +651,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "3e1cf28656ada05aa946a37632460c10e9b2c095d373cd0f41fade6748bdea7e"
+  "evidenceHash": "e43a509bba17261e28eb6a0293561203fb25d1fbd855287ccd70f4fea74693c9"
 }

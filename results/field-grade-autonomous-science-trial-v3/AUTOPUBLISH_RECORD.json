@@ -1,0 +1,14 @@
+{
+  "resultId": "field-grade-autonomous-science-trial-v3",
+  "slug": "field-grade-autonomous-science-trial-v3",
+  "publishedBy": "sovryn-field-grade-autopublish",
+  "automatedPolicyVersion": "4.1.0-rc.1-field-grade-policy",
+  "targetRepo": "https://github.com/n57d30top/sovryn-open-inventions",
+  "targetPath": "results/field-grade-autonomous-science-trial-v3",
+  "pushed": true,
+  "dryRun": false,
+  "publicHygienePassed": true,
+  "noCriticalFailures": true,
+  "disclaimer": "Field-grade autonomous science artifact. Safe computational science only: public sources, public-safe datasets or explicit degraded fixtures, benchmarks, reproducibility, independent reproduction, adversarial falsification, and evidence-bound knowledge updates. This is not wet-lab guidance, hazardous chemistry, medical advice, exploit guidance, a patent filing, a patentability opinion, legal novelty advice, or a guarantee of scientific truth.",
+  "evidenceHash": "7d725a6482e20d5d4b359f6cc521dce794b4e4598039fe52dfbb5a96d5aae108"
+}

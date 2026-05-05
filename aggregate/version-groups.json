@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-05T14:51:46.578Z",
+  "updatedAt": "2026-05-05T15:32:15.441Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-strategy-trial",
@@ -103,6 +103,15 @@
       ]
     },
     {
+      "versionGroup": "field-grade-autonomous-science-trial",
+      "latestSlug": "field-grade-autonomous-science-trial-v3",
+      "resultSlugs": [
+        "field-grade-autonomous-science-trial",
+        "field-grade-autonomous-science-trial-v2",
+        "field-grade-autonomous-science-trial-v3"
+      ]
+    },
+    {
       "versionGroup": "patch-risk-auditor",
       "latestSlug": "patch-risk-auditor-v3",
       "resultSlugs": [
@@ -162,5 +171,5 @@
       ]
     }
   ],
-  "evidenceHash": "34209a9c7eb9b8108baad8d6c22671cd138e83d869d900020946f5728acfcd73"
+  "evidenceHash": "d153d85166d505c99d8e077eb6f373d6f9c5ba5ca0b0c8dc5ee22412990f9c04"
 }

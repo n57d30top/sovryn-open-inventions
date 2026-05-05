@@ -1,8 +1,9 @@
 {
   "kind": "public_corpus_status",
-  "generatedAt": "2026-05-05T14:51:46.578Z",
+  "generatedAt": "2026-05-05T15:32:15.441Z",
   "statusCounts": {
     "autopublished": 28,
+    "field_grade_trial_ready": 3,
     "knowledge_trial_ready": 1,
     "promising_but_unproven": 1,
     "reality_grade_trial_ready": 1,
@@ -10,15 +11,16 @@
     "unknown": 1
   },
   "lifecycleCounts": {
-    "autopublished": 4,
+    "autopublished": 5,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
-    "superseded": 12
+    "superseded": 14
   },
   "domainCounts": {
     "chemistry-data-quality": 10,
     "energy-data-quality": 8,
+    "field-grade-scientific-autonomy": 3,
     "node-toolchain-policy": 1,
     "open-invention-corpus": 3,
     "reality-grade-scientific-autonomy": 1,
@@ -29,5 +31,5 @@
     "software-supply-chain": 3,
     "software-supply-chain-assurance": 3
   },
-  "evidenceHash": "f70bc25ec899f5ae9a6f3a040784ee7c97f0fde0d6de7a3e8c24366fc4808185"
+  "evidenceHash": "e337dafe8335f8bf02ad9e80b2299f78db1bab56cfa64d2b9a339e3c76090a3c"
 }

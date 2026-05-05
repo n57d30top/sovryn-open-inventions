@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
-    "excellent": 1,
+    "excellent": 4,
     "good": 32
   },
   "results": [
@@ -116,6 +116,21 @@
       "releaseReadinessScore": 88
     },
     {
+      "slug": "field-grade-autonomous-science-trial",
+      "qualityLabel": "excellent",
+      "releaseReadinessScore": 93
+    },
+    {
+      "slug": "field-grade-autonomous-science-trial-v2",
+      "qualityLabel": "excellent",
+      "releaseReadinessScore": 93
+    },
+    {
+      "slug": "field-grade-autonomous-science-trial-v3",
+      "qualityLabel": "excellent",
+      "releaseReadinessScore": 93
+    },
+    {
       "slug": "patch-risk-auditor",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
@@ -171,5 +186,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "bb9b5e10a26f098d8ee0aa31b2e050ae2233348fdeb6ba1bdc5e6311e11f712b"
+  "evidenceHash": "38486660774345c0f450fd89a3cb7d61f688dadf0f38bccb4157f98ef3f057a7"
 }

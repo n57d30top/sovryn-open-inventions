@@ -1,16 +1,16 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-05T14:51:46.578Z",
+  "generatedAt": "2026-05-05T15:32:15.441Z",
   "qualityCounts": {
-    "excellent": 1,
+    "excellent": 4,
     "good": 32
   },
   "lifecycleCounts": {
-    "autopublished": 4,
+    "autopublished": 5,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
-    "superseded": 12
+    "superseded": 14
   },
   "results": [
     {
@@ -322,6 +322,48 @@
       "specificityScore": 51
     },
     {
+      "slug": "field-grade-autonomous-science-trial",
+      "qualityLabel": "excellent",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "field-grade-autonomous-science-trial",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 93,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 92,
+      "publicationSafetyScore": 98,
+      "specificityScore": 90
+    },
+    {
+      "slug": "field-grade-autonomous-science-trial-v2",
+      "qualityLabel": "excellent",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "field-grade-autonomous-science-trial",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 93,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 92,
+      "publicationSafetyScore": 98,
+      "specificityScore": 90
+    },
+    {
+      "slug": "field-grade-autonomous-science-trial-v3",
+      "qualityLabel": "excellent",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "field-grade-autonomous-science-trial",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 93,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 92,
+      "publicationSafetyScore": 98,
+      "specificityScore": 90
+    },
+    {
       "slug": "patch-risk-auditor",
       "qualityLabel": "good",
       "antiTemplateStatus": "unknown",
@@ -476,5 +518,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "bb9b5e10a26f098d8ee0aa31b2e050ae2233348fdeb6ba1bdc5e6311e11f712b"
+  "evidenceHash": "38486660774345c0f450fd89a3cb7d61f688dadf0f38bccb4157f98ef3f057a7"
 }

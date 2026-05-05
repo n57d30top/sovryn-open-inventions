@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-05T14:51:46.578Z",
+  "generatedAt": "2026-05-05T15:32:15.441Z",
   "nodes": [
     {
       "id": "result:autonomous-research-strategy-trial",
@@ -135,6 +135,24 @@
       "domain": "open-invention-corpus"
     },
     {
+      "id": "result:field-grade-autonomous-science-trial",
+      "kind": "result",
+      "label": "Field-Grade Autonomous Science Trial",
+      "domain": "field-grade-scientific-autonomy"
+    },
+    {
+      "id": "result:field-grade-autonomous-science-trial-v2",
+      "kind": "result",
+      "label": "Field-Grade Autonomous Science Trial",
+      "domain": "field-grade-scientific-autonomy"
+    },
+    {
+      "id": "result:field-grade-autonomous-science-trial-v3",
+      "kind": "result",
+      "label": "Field-Grade Autonomous Science Trial",
+      "domain": "field-grade-scientific-autonomy"
+    },
+    {
       "id": "result:patch-risk-auditor",
       "kind": "result",
       "label": "Patch Risk Auditor",
@@ -219,6 +237,11 @@
       "id": "domain:energy-data-quality",
       "kind": "domain",
       "label": "energy-data-quality"
+    },
+    {
+      "id": "domain:field-grade-scientific-autonomy",
+      "kind": "domain",
+      "label": "field-grade-scientific-autonomy"
     },
     {
       "id": "domain:software-supply-chain",
@@ -493,6 +516,21 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:field-grade-autonomous-science-trial",
+      "target": "domain:field-grade-scientific-autonomy",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:field-grade-autonomous-science-trial-v2",
+      "target": "domain:field-grade-scientific-autonomy",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:field-grade-autonomous-science-trial-v3",
+      "target": "domain:field-grade-scientific-autonomy",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:patch-risk-auditor",
       "target": "domain:software-supply-chain",
       "relation": "belongs_to_domain"
@@ -598,5 +636,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "ebf587c57b0d123b62313046bd831e7ee4bbde3eb69efd78d3ce3b6fbdb22503"
+  "evidenceHash": "4701422635517bc7f2f0803fe44e7cfc561111e942b39b8afebf7b985cb1afcf"
 }
