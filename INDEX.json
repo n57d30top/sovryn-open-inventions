@@ -1,7 +1,7 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-05T14:07:11.208Z",
-  "resultCount": 32,
+  "updatedAt": "2026-05-05T14:51:46.578Z",
+  "resultCount": 33,
   "results": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -1057,6 +1057,45 @@
       "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
+      "slug": "reality-grade-autonomous-science-trial",
+      "title": "Reality-Grade Autonomous Science Trial",
+      "resultKind": "reality_grade_autonomous_science_trial",
+      "domain": "reality-grade-scientific-autonomy",
+      "path": "results/reality-grade-autonomous-science-trial",
+      "qualityLabel": "excellent",
+      "candidateStatus": "reality_grade_trial_ready",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "reality-grade-autonomous-science-trial",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": false,
+        "limitations": true,
+        "examples": false
+      },
+      "revisionReason": null,
+      "humanReadableSummary": "Sovryn ingested external source cards, built a benchmark harness, ran independent reproductions, ran adversarial falsifications, updated knowledge artifacts, and selected the next research direction.",
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 91,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 88,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "not_evaluated",
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+    },
+    {
       "slug": "scientific-dataset-reliability-self-built-lab-study",
       "title": "Provenance-aware schema-drift checks reduce false positives and improve inconsistent-record detection compared with schema-only validation baselines.",
       "resultKind": "self_built_lab_science_study",
@@ -1344,5 +1383,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "dec0810052cb83694ffdcbb5f3b3faedf38c3a26fea1493e365365b7e10e078f"
+  "evidenceHash": "8bec04b9d75d203bf0cf2aa5b0c42083c480759427aa4bd7a8fbf3669682f1bd"
 }

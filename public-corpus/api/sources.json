@@ -163,6 +163,11 @@
       "customTool": "patch-risk-auditor"
     },
     {
+      "slug": "reality-grade-autonomous-science-trial",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "scientific-dataset-reliability-self-built-lab-study",
       "externalPackages": [
         "pandas",
@@ -208,5 +213,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "79bf9182d4a29e990c92375082a92fceee0a485e716975c2f748749d5bec7690"
+  "evidenceHash": "f0930b07cc72ede1807aa801c4564f46c8bebf6a72c1609a44d5c8412d1cb602"
 }

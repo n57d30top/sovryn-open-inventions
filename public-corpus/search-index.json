@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-05T14:07:11.208Z",
-  "entryCount": 32,
+  "builtAt": "2026-05-05T14:51:46.578Z",
+  "entryCount": 33,
   "entries": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -957,6 +957,49 @@
       ]
     },
     {
+      "slug": "reality-grade-autonomous-science-trial",
+      "title": "Reality-Grade Autonomous Science Trial",
+      "domain": "reality-grade-scientific-autonomy",
+      "href": "results/reality-grade-autonomous-science-trial.html",
+      "qualityLabel": "excellent",
+      "publicationStatus": "reality_grade_trial_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "reality-grade-autonomous-science-trial",
+      "showcaseRank": null,
+      "terms": [
+        "adversarial",
+        "and",
+        "artifacts",
+        "autonomous",
+        "autonomy",
+        "autopublished",
+        "benchmark",
+        "built",
+        "cards",
+        "direction",
+        "external",
+        "falsifications",
+        "grade",
+        "harness",
+        "independent",
+        "ingested",
+        "knowledge",
+        "next",
+        "ran",
+        "reality",
+        "reproductions",
+        "research",
+        "science",
+        "scientific",
+        "selected",
+        "source",
+        "sovryn",
+        "the",
+        "trial",
+        "updated"
+      ]
+    },
+    {
       "slug": "scientific-dataset-reliability-self-built-lab-study",
       "title": "Provenance-aware schema-drift checks reduce false positives and improve inconsistent-record detection compared with schema-only validation baselines.",
       "domain": "scientific-dataset-reliability",
@@ -1242,5 +1285,5 @@
       ]
     }
   ],
-  "evidenceHash": "c769001827276d815f47ae4423dd60d09528bba286721c8e215c89ac42cc031e"
+  "evidenceHash": "0a73daeaf1d30a0f0e530ae1495fcf3a7580661b07b0bca9c56985b93e9259ec"
 }

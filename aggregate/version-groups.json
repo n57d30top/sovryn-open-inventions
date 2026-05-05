@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-05T14:07:11.208Z",
+  "updatedAt": "2026-05-05T14:51:46.578Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-strategy-trial",
@@ -112,6 +112,13 @@
       ]
     },
     {
+      "versionGroup": "reality-grade-autonomous-science-trial",
+      "latestSlug": "reality-grade-autonomous-science-trial",
+      "resultSlugs": [
+        "reality-grade-autonomous-science-trial"
+      ]
+    },
+    {
       "versionGroup": "scientific-dataset-reliability-self-built-lab-study",
       "latestSlug": "scientific-dataset-reliability-self-built-lab-study",
       "resultSlugs": [
@@ -155,5 +162,5 @@
       ]
     }
   ],
-  "evidenceHash": "6579899c27577f6c226ff3416ef0c0bcff04e86c8a55ea06dbe1f156c2b8191d"
+  "evidenceHash": "34209a9c7eb9b8108baad8d6c22671cd138e83d869d900020946f5728acfcd73"
 }

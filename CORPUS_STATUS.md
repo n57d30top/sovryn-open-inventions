@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 32
+Results: 33
 
 ## Lifecycle Counts
 
-- autopublished: 3
+- autopublished: 4
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -26,6 +26,7 @@ Results: 32
 - energy-usage-anomaly-auditor: latest energy-usage-anomaly-auditor-v3; energy-usage-anomaly-auditor, energy-usage-anomaly-auditor-v2, energy-usage-anomaly-auditor-v3
 - evidence-chain: latest evidence-chain-v2; evidence-chain, evidence-chain-v2
 - patch-risk-auditor: latest patch-risk-auditor-v3; patch-risk-auditor, patch-risk-auditor-v2, patch-risk-auditor-v3
+- reality-grade-autonomous-science-trial: latest reality-grade-autonomous-science-trial; reality-grade-autonomous-science-trial
 - scientific-dataset-reliability-self-built-lab-study: latest scientific-dataset-reliability-self-built-lab-study; scientific-dataset-reliability-self-built-lab-study
 - scientific-knowledge-engine-trial: latest scientific-knowledge-engine-trial; scientific-knowledge-engine-trial
 - self-built-lab-reproduction-388ccd1946ad: latest self-built-lab-reproduction-388ccd1946ad; self-built-lab-reproduction-388ccd1946ad

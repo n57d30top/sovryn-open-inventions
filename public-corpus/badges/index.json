@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-05T14:07:11.208Z",
+  "generatedAt": "2026-05-05T14:51:46.578Z",
   "badges": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -453,6 +453,24 @@
       "showcaseRank": 3
     },
     {
+      "slug": "reality-grade-autonomous-science-trial",
+      "badges": {
+        "quality": "excellent",
+        "status": "reality_grade_trial_ready",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "not_evaluated",
+        "lifecycle": "autopublished",
+        "version": "reality-grade-autonomous-science-trial",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
       "slug": "scientific-dataset-reliability-self-built-lab-study",
       "badges": {
         "quality": "good",
@@ -579,5 +597,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "e979fc22d96826658324ffff454ca2503e60906d037ec97d2f45ee7e9b18aaf6"
+  "evidenceHash": "3e1cf28656ada05aa946a37632460c10e9b2c095d373cd0f41fade6748bdea7e"
 }

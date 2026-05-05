@@ -1911,6 +1911,78 @@
       }
     },
     {
+      "slug": "reality-grade-autonomous-science-trial",
+      "title": "Reality-Grade Autonomous Science Trial",
+      "domain": "reality-grade-scientific-autonomy",
+      "resultKind": "reality_grade_autonomous_science_trial",
+      "path": "results/reality-grade-autonomous-science-trial",
+      "qualityLabel": "excellent",
+      "publicationStatus": "reality_grade_trial_ready",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "reality-grade-autonomous-science-trial",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": null,
+      "humanReadableSummary": "Sovryn ingested external source cards, built a benchmark harness, ran independent reproductions, ran adversarial falsifications, updated knowledge artifacts, and selected the next research direction.",
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 91,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 88,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": true,
+      "externalPackages": [],
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "not_evaluated",
+      "scientificQuestion": null,
+      "hypothesisCount": 0,
+      "nullHypothesisPresent": false,
+      "experimentCount": 0,
+      "replicationRunCount": 0,
+      "peerReviewPresent": false,
+      "statisticalAnalysisPresent": false,
+      "baselineComparisonPresent": false,
+      "ablationPresent": false,
+      "sensitivityPresent": false,
+      "studyResultLabel": null,
+      "scientificMemoryUpdated": true,
+      "safetyScope": null,
+      "summary": "Sovryn ingested external source cards, built a benchmark harness, ran independent reproductions, ran adversarial falsifications, updated knowledge artifacts, and selected the next research direction.",
+      "limitations": [
+        "Limitations",
+        "This is a reality-grade bounded autonomy trial. It is stronger than fixture-only execution but remains evidence-bound, source-bound, and limitation-bound.",
+        "Two bounded independent reproduction attempts were recorded with altered seeds, reconstructed evaluation choices, and divergence reporting."
+      ],
+      "badges": {
+        "quality": "excellent",
+        "status": "reality_grade_trial_ready",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "not_evaluated",
+        "lifecycle": "autopublished",
+        "version": "reality-grade-autonomous-science-trial",
+        "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": false,
+        "limitations": true,
+        "examples": false
+      }
+    },
+    {
       "slug": "scientific-dataset-reliability-self-built-lab-study",
       "title": "Provenance-aware schema-drift checks reduce false positives and improve inconsistent-record detection compared with schema-only validation baselines.",
       "domain": "scientific-dataset-reliability",
@@ -2446,5 +2518,5 @@
       }
     }
   ],
-  "evidenceHash": "687d215991ab5102b45ae734855b1cc18d228da0cf0ae30b82fb2777f9bf6235"
+  "evidenceHash": "9d06adbefca8beb1f847c11e0f9e27c50b9c738d4d9206d10cd9028971175440"
 }

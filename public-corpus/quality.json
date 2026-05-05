@@ -1,11 +1,12 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-05T14:07:11.208Z",
+  "generatedAt": "2026-05-05T14:51:46.578Z",
   "qualityCounts": {
+    "excellent": 1,
     "good": 32
   },
   "lifecycleCounts": {
-    "autopublished": 3,
+    "autopublished": 4,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -363,6 +364,20 @@
       "specificityScore": 85
     },
     {
+      "slug": "reality-grade-autonomous-science-trial",
+      "qualityLabel": "excellent",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "reality-grade-autonomous-science-trial",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 91,
+      "publicationSafetyScore": 98,
+      "specificityScore": 88
+    },
+    {
       "slug": "scientific-dataset-reliability-self-built-lab-study",
       "qualityLabel": "good",
       "antiTemplateStatus": "review_ready_after_showcase_revision",
@@ -461,5 +476,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "63a96453a0b98337913fe2accd87e137efacff945dd0fac0abf67c3f551b6c23"
+  "evidenceHash": "bb9b5e10a26f098d8ee0aa31b2e050ae2233348fdeb6ba1bdc5e6311e11f712b"
 }

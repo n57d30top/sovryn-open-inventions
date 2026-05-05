@@ -227,6 +227,15 @@
       "pushed": true
     },
     {
+      "slug": "reality-grade-autonomous-science-trial",
+      "path": "results/reality-grade-autonomous-science-trial",
+      "status": "reality_grade_trial_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "reality-grade-autonomous-science-trial",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
       "slug": "scientific-dataset-reliability-self-built-lab-study",
       "path": "results/scientific-dataset-reliability-self-built-lab-study",
       "status": "autopublished",
@@ -290,5 +299,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "91926eb386675e6461138318d64d52efcc6d568842d041f604b29c11829adacc"
+  "evidenceHash": "6b4cf5339a58c7c68e8147691d4e5c11f636ad63d5816fc9ca482f1a507425d8"
 }

@@ -1,6 +1,7 @@
 {
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
+    "excellent": 1,
     "good": 32
   },
   "results": [
@@ -130,6 +131,11 @@
       "releaseReadinessScore": 88
     },
     {
+      "slug": "reality-grade-autonomous-science-trial",
+      "qualityLabel": "excellent",
+      "releaseReadinessScore": 92
+    },
+    {
       "slug": "scientific-dataset-reliability-self-built-lab-study",
       "qualityLabel": "good",
       "releaseReadinessScore": 92
@@ -165,5 +171,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "63a96453a0b98337913fe2accd87e137efacff945dd0fac0abf67c3f551b6c23"
+  "evidenceHash": "bb9b5e10a26f098d8ee0aa31b2e050ae2233348fdeb6ba1bdc5e6311e11f712b"
 }

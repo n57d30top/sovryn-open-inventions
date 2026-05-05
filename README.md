@@ -60,6 +60,7 @@ and safety scope in human-readable language.
 - [Patch Risk Auditor](results/patch-risk-auditor/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v2/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v3/) — good, showcase, patch-risk-auditor, software-supply-chain
+- [Reality-Grade Autonomous Science Trial](results/reality-grade-autonomous-science-trial/) — excellent, autopublished, reality-grade-autonomous-science-trial, reality-grade-scientific-autonomy
 - [Provenance-aware schema-drift checks reduce false positives and improve inconsistent-record detection compared with schema-only validation baselines.](results/scientific-dataset-reliability-self-built-lab-study/) — good, showcase_science, scientific-dataset-reliability-self-built-lab-study, scientific-dataset-reliability
 - [Scientific Knowledge Engine Trial](results/scientific-knowledge-engine-trial/) — good, autopublished, scientific-knowledge-engine-trial, scientific-knowledge-engine
 - [Self-built lab reproduction challenge](results/self-built-lab-reproduction-388ccd1946ad/) — good, needs_revision, self-built-lab-reproduction-388ccd1946ad, safe-computational-reproduction
