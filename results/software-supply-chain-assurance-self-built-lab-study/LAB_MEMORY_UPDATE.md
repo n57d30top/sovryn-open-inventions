@@ -1,3 +1,3 @@
 # Lab Memory Update
 
-The lab memory records packages, instruments, capabilities, limitations, worker profile, and reuse recommendations.
+The study is bound to the lab memory tool, package, instrument, pipeline, capability, and reuse registries.

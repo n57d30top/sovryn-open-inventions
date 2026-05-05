@@ -1,23 +1,25 @@
 {
   "kind": "public_corpus_status",
-  "generatedAt": "2026-05-05T09:26:48.587Z",
+  "generatedAt": "2026-05-05T10:23:50.647Z",
   "statusCounts": {
-    "autopublished": 24
+    "autopublished": 28,
+    "unknown": 1
   },
   "lifecycleCounts": {
-    "autopublished": 3,
-    "needs_revision": 3,
+    "needs_revision": 4,
     "showcase": 3,
-    "showcase_science": 6,
-    "superseded": 9
+    "showcase_science": 10,
+    "superseded": 12
   },
   "domainCounts": {
-    "chemistry-data-quality": 8,
-    "energy-data-quality": 7,
+    "chemistry-data-quality": 9,
+    "energy-data-quality": 8,
     "node-toolchain-policy": 1,
     "open-invention-corpus": 3,
+    "safe-computational-reproduction": 1,
+    "scientific-dataset-reliability": 1,
     "software-supply-chain": 3,
-    "software-supply-chain-assurance": 2
+    "software-supply-chain-assurance": 3
   },
-  "evidenceHash": "6124bd5bc01eb18cbcb2468a4a74f63db3244aba2c199096252295eb75e2da7a"
+  "evidenceHash": "e6d4dbf7963820ac040871f78537f48a82f6a8080449b227d8750c1c5509b84a"
 }

@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "energy-data-quality-self-built-lab-study-v2",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "review_ready_after_showcase_revision",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "container-netoff",
+    "falsification": "passes_falsification",
+    "lifecycle": "showcase_science",
+    "version": "energy-data-quality-self-built-lab-study",
+    "showcase": "showcase-science"
+  },
+  "lifecycleStatus": "showcase_science",
+  "showcaseRank": null,
+  "evidenceHash": "e0fff8272f4349cf78ec5272041f3626cd7d1ed1c8fba6842335f55ba97787ee"
+}

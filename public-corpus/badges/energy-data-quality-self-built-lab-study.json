@@ -4,17 +4,17 @@
   "badges": {
     "quality": "good",
     "status": "autopublished",
-    "antiTemplate": "unknown",
+    "antiTemplate": "review_ready_after_showcase_revision",
     "replay": "replay-100",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
     "worker": "container-netoff",
-    "falsification": "not_evaluated",
-    "lifecycle": "autopublished",
+    "falsification": "passes_falsification",
+    "lifecycle": "superseded",
     "version": "energy-data-quality-self-built-lab-study",
     "showcase": "not-showcase"
   },
-  "lifecycleStatus": "autopublished",
+  "lifecycleStatus": "superseded",
   "showcaseRank": null,
-  "evidenceHash": "347938baeef01099b3c9728fea8fb919bf60db6fdbb03931ddcf04985ffc6611"
+  "evidenceHash": "c390ed8ba4b8adf5d4b3d53cd0e0c7936415fa320d7093a61358c3e614e60f65"
 }

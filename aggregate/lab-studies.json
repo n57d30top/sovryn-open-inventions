@@ -1,0 +1,63 @@
+{
+  "kind": "lab_studies_aggregate",
+  "updatedAt": "2026-05-05T10:23:43.743Z",
+  "count": 7,
+  "studies": [
+    {
+      "slug": "chemistry-data-quality-self-built-lab-study",
+      "status": "hardened",
+      "lifecycleStatus": "showcase_science",
+      "falsificationStatus": "passes_falsification",
+      "peerReviewPresent": true,
+      "calibrationStatus": "calibrated_limited"
+    },
+    {
+      "slug": "chemistry-data-quality-self-built-lab-study-v2",
+      "status": "hardened",
+      "lifecycleStatus": "showcase_science",
+      "falsificationStatus": "passes_falsification",
+      "peerReviewPresent": true,
+      "calibrationStatus": "calibrated_limited"
+    },
+    {
+      "slug": "energy-data-quality-self-built-lab-study",
+      "status": "hardened",
+      "lifecycleStatus": "showcase_science",
+      "falsificationStatus": "passes_falsification",
+      "peerReviewPresent": true,
+      "calibrationStatus": "calibrated_limited"
+    },
+    {
+      "slug": "energy-data-quality-self-built-lab-study-v2",
+      "status": "hardened",
+      "lifecycleStatus": "showcase_science",
+      "falsificationStatus": "passes_falsification",
+      "peerReviewPresent": true,
+      "calibrationStatus": "calibrated_limited"
+    },
+    {
+      "slug": "scientific-dataset-reliability-self-built-lab-study",
+      "status": "hardened",
+      "lifecycleStatus": "showcase_science",
+      "falsificationStatus": "passes_falsification",
+      "peerReviewPresent": true,
+      "calibrationStatus": "calibrated_limited"
+    },
+    {
+      "slug": "software-supply-chain-assurance-self-built-lab-study",
+      "status": "hardened",
+      "lifecycleStatus": "showcase_science",
+      "falsificationStatus": "passes_falsification",
+      "peerReviewPresent": true,
+      "calibrationStatus": "calibrated_limited"
+    },
+    {
+      "slug": "software-supply-chain-assurance-self-built-lab-study-v2",
+      "status": "hardened",
+      "lifecycleStatus": "showcase_science",
+      "falsificationStatus": "passes_falsification",
+      "peerReviewPresent": true,
+      "calibrationStatus": "calibrated_limited"
+    }
+  ]
+}

@@ -32,7 +32,16 @@
       "slug": "chemistry-data-quality-self-built-lab-study",
       "path": "results/chemistry-data-quality-self-built-lab-study",
       "status": "autopublished",
-      "lifecycleStatus": "autopublished",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "chemistry-data-quality-self-built-lab-study",
+      "supersededBy": "chemistry-data-quality-self-built-lab-study-v2",
+      "pushed": false
+    },
+    {
+      "slug": "chemistry-data-quality-self-built-lab-study-v2",
+      "path": "results/chemistry-data-quality-self-built-lab-study-v2",
+      "status": "autopublished",
+      "lifecycleStatus": "showcase_science",
       "versionGroup": "chemistry-data-quality-self-built-lab-study",
       "supersededBy": null,
       "pushed": false
@@ -113,7 +122,16 @@
       "slug": "energy-data-quality-self-built-lab-study",
       "path": "results/energy-data-quality-self-built-lab-study",
       "status": "autopublished",
-      "lifecycleStatus": "autopublished",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "energy-data-quality-self-built-lab-study",
+      "supersededBy": "energy-data-quality-self-built-lab-study-v2",
+      "pushed": false
+    },
+    {
+      "slug": "energy-data-quality-self-built-lab-study-v2",
+      "path": "results/energy-data-quality-self-built-lab-study-v2",
+      "status": "autopublished",
+      "lifecycleStatus": "showcase_science",
       "versionGroup": "energy-data-quality-self-built-lab-study",
       "supersededBy": null,
       "pushed": false
@@ -191,6 +209,24 @@
       "pushed": true
     },
     {
+      "slug": "scientific-dataset-reliability-self-built-lab-study",
+      "path": "results/scientific-dataset-reliability-self-built-lab-study",
+      "status": "autopublished",
+      "lifecycleStatus": "showcase_science",
+      "versionGroup": "scientific-dataset-reliability-self-built-lab-study",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "self-built-lab-reproduction-388ccd1946ad",
+      "path": "results/self-built-lab-reproduction-388ccd1946ad",
+      "status": "unknown",
+      "lifecycleStatus": "needs_revision",
+      "versionGroup": "self-built-lab-reproduction-388ccd1946ad",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth",
       "path": "results/software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth",
       "status": "autopublished",
@@ -203,7 +239,16 @@
       "slug": "software-supply-chain-assurance-self-built-lab-study",
       "path": "results/software-supply-chain-assurance-self-built-lab-study",
       "status": "autopublished",
-      "lifecycleStatus": "autopublished",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "software-supply-chain-assurance-self-built-lab-study",
+      "supersededBy": "software-supply-chain-assurance-self-built-lab-study-v2",
+      "pushed": false
+    },
+    {
+      "slug": "software-supply-chain-assurance-self-built-lab-study-v2",
+      "path": "results/software-supply-chain-assurance-self-built-lab-study-v2",
+      "status": "autopublished",
+      "lifecycleStatus": "showcase_science",
       "versionGroup": "software-supply-chain-assurance-self-built-lab-study",
       "supersededBy": null,
       "pushed": false
@@ -218,5 +263,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "2e35e6661e9c05d4392356812162e7566d305a62d87c9428910010b5ba4ea32c"
+  "evidenceHash": "059d9c2169b28ac2b0246eb9db457c1b059a5caeea2b969030350fab60f24952"
 }

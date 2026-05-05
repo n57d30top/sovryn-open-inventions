@@ -1,7 +1,12 @@
 {
   "kind": "public_corpus_superseded_map",
-  "updatedAt": "2026-05-05T09:26:48.587Z",
+  "updatedAt": "2026-05-05T10:23:50.647Z",
   "results": [
+    {
+      "slug": "chemistry-data-quality-self-built-lab-study",
+      "supersededBy": "chemistry-data-quality-self-built-lab-study-v2",
+      "versionGroup": "chemistry-data-quality-self-built-lab-study"
+    },
     {
       "slug": "chemistry-record-auditor-tool",
       "supersededBy": "chemistry-record-auditor-tool-v2-v3",
@@ -21,6 +26,11 @@
       "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-public",
       "supersededBy": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe",
       "versionGroup": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-"
+    },
+    {
+      "slug": "energy-data-quality-self-built-lab-study",
+      "supersededBy": "energy-data-quality-self-built-lab-study-v2",
+      "versionGroup": "energy-data-quality-self-built-lab-study"
     },
     {
       "slug": "energy-usage-anomaly-auditor",
@@ -46,7 +56,12 @@
       "slug": "patch-risk-auditor-v2",
       "supersededBy": "patch-risk-auditor-v3",
       "versionGroup": "patch-risk-auditor"
+    },
+    {
+      "slug": "software-supply-chain-assurance-self-built-lab-study",
+      "supersededBy": "software-supply-chain-assurance-self-built-lab-study-v2",
+      "versionGroup": "software-supply-chain-assurance-self-built-lab-study"
     }
   ],
-  "evidenceHash": "6c458b5c7f0dd86bd9f1de0d8eb3511f9766a90da27e93ea4fde1c1ddac64ab6"
+  "evidenceHash": "ebc2128be9a5c8aa229c6b13bf5d7c424616ee5283f1eca0733dc0a54557fe59"
 }

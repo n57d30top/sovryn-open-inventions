@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-05T09:26:48.587Z",
+  "generatedAt": "2026-05-05T10:23:50.647Z",
   "sources": [
     {
       "resultSlug": "chemistry-data-quality-self-built-lab-study",
@@ -10,6 +10,18 @@
     },
     {
       "resultSlug": "chemistry-data-quality-self-built-lab-study",
+      "sourceKind": "external_package_or_tool",
+      "name": "rapidfuzz",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "chemistry-data-quality-self-built-lab-study-v2",
+      "sourceKind": "external_package_or_tool",
+      "name": "pint",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "chemistry-data-quality-self-built-lab-study-v2",
       "sourceKind": "external_package_or_tool",
       "name": "rapidfuzz",
       "publicOnly": true
@@ -57,6 +69,24 @@
       "publicOnly": true
     },
     {
+      "resultSlug": "energy-data-quality-self-built-lab-study-v2",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "energy-data-quality-self-built-lab-study-v2",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "energy-data-quality-self-built-lab-study-v2",
+      "sourceKind": "external_package_or_tool",
+      "name": "python-dateutil",
+      "publicOnly": true
+    },
+    {
       "resultSlug": "energy-usage-anomaly-auditor",
       "sourceKind": "external_package_or_tool",
       "name": "pandas",
@@ -93,6 +123,24 @@
       "publicOnly": true
     },
     {
+      "resultSlug": "scientific-dataset-reliability-self-built-lab-study",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "scientific-dataset-reliability-self-built-lab-study",
+      "sourceKind": "external_package_or_tool",
+      "name": "python-dateutil",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "scientific-dataset-reliability-self-built-lab-study",
+      "sourceKind": "external_package_or_tool",
+      "name": "rapidfuzz",
+      "publicOnly": true
+    },
+    {
       "resultSlug": "software-supply-chain-assurance-self-built-lab-study",
       "sourceKind": "external_package_or_tool",
       "name": "acorn",
@@ -103,7 +151,19 @@
       "sourceKind": "external_package_or_tool",
       "name": "simple-git",
       "publicOnly": true
+    },
+    {
+      "resultSlug": "software-supply-chain-assurance-self-built-lab-study-v2",
+      "sourceKind": "external_package_or_tool",
+      "name": "acorn",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "software-supply-chain-assurance-self-built-lab-study-v2",
+      "sourceKind": "external_package_or_tool",
+      "name": "simple-git",
+      "publicOnly": true
     }
   ],
-  "evidenceHash": "7ed0e47ccd019e7c4c022b7c367a31e66c54e018af2771fc2e5e2b2a4b713eb6"
+  "evidenceHash": "c2a05882e77c5e49d968b37ac87d93d07ff2aed4b0266a13251f4f8ec159200e"
 }

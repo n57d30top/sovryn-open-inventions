@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-05T09:26:48.587Z",
+  "updatedAt": "2026-05-05T10:23:50.647Z",
   "groups": [
     {
       "versionGroup": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an",
@@ -25,9 +25,10 @@
     },
     {
       "versionGroup": "chemistry-data-quality-self-built-lab-study",
-      "latestSlug": "chemistry-data-quality-self-built-lab-study",
+      "latestSlug": "chemistry-data-quality-self-built-lab-study-v2",
       "resultSlugs": [
-        "chemistry-data-quality-self-built-lab-study"
+        "chemistry-data-quality-self-built-lab-study",
+        "chemistry-data-quality-self-built-lab-study-v2"
       ]
     },
     {
@@ -64,9 +65,10 @@
     },
     {
       "versionGroup": "energy-data-quality-self-built-lab-study",
-      "latestSlug": "energy-data-quality-self-built-lab-study",
+      "latestSlug": "energy-data-quality-self-built-lab-study-v2",
       "resultSlugs": [
-        "energy-data-quality-self-built-lab-study"
+        "energy-data-quality-self-built-lab-study",
+        "energy-data-quality-self-built-lab-study-v2"
       ]
     },
     {
@@ -96,6 +98,20 @@
       ]
     },
     {
+      "versionGroup": "scientific-dataset-reliability-self-built-lab-study",
+      "latestSlug": "scientific-dataset-reliability-self-built-lab-study",
+      "resultSlugs": [
+        "scientific-dataset-reliability-self-built-lab-study"
+      ]
+    },
+    {
+      "versionGroup": "self-built-lab-reproduction-388ccd1946ad",
+      "latestSlug": "self-built-lab-reproduction-388ccd1946ad",
+      "resultSlugs": [
+        "self-built-lab-reproduction-388ccd1946ad"
+      ]
+    },
+    {
       "versionGroup": "software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for",
       "latestSlug": "software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth",
       "resultSlugs": [
@@ -104,9 +120,10 @@
     },
     {
       "versionGroup": "software-supply-chain-assurance-self-built-lab-study",
-      "latestSlug": "software-supply-chain-assurance-self-built-lab-study",
+      "latestSlug": "software-supply-chain-assurance-self-built-lab-study-v2",
       "resultSlugs": [
-        "software-supply-chain-assurance-self-built-lab-study"
+        "software-supply-chain-assurance-self-built-lab-study",
+        "software-supply-chain-assurance-self-built-lab-study-v2"
       ]
     },
     {
@@ -117,5 +134,5 @@
       ]
     }
   ],
-  "evidenceHash": "7688906c3da2d9f0dba3392ebdac61b55cd766a2ce0346fc57c6215c1d13c6aa"
+  "evidenceHash": "9c22f25c733671c0b6e29bfb42a57a360dc1623d5b5b25c243f51f1b8a8528db"
 }

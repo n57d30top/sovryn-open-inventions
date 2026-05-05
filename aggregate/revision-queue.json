@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_revision_queue",
-  "updatedAt": "2026-05-05T09:26:48.587Z",
+  "updatedAt": "2026-05-05T10:23:50.647Z",
   "results": [
     {
       "slug": "corpus-deduplication",
@@ -15,11 +15,17 @@
       "revisionReason": "Falsification status is insufficient_tests."
     },
     {
+      "slug": "self-built-lab-reproduction-388ccd1946ad",
+      "title": "Self-built lab reproduction challenge",
+      "lifecycleStatus": "needs_revision",
+      "revisionReason": "Specificity score is below the public corpus promotion threshold."
+    },
+    {
       "slug": "toolchain-policy",
       "title": "Policy-Gated Toolchain Installation Protocol",
       "lifecycleStatus": "needs_revision",
       "revisionReason": "Falsification status is insufficient_tests."
     }
   ],
-  "evidenceHash": "555d9b13c669762c64406d926a0f2fcd40489f6709e86a31f7f7e43021f89d5d"
+  "evidenceHash": "0b944684042cb27e81df7fccbfad4e0ee3dbbb29e67461aac88247c5e7ce92a5"
 }

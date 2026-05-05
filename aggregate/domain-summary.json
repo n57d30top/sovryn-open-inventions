@@ -1,13 +1,15 @@
 {
   "kind": "public_corpus_domain_summary",
-  "updatedAt": "2026-05-05T09:26:48.587Z",
+  "updatedAt": "2026-05-05T10:23:50.647Z",
   "domainCounts": {
-    "chemistry-data-quality": 8,
-    "energy-data-quality": 7,
+    "chemistry-data-quality": 9,
+    "energy-data-quality": 8,
     "node-toolchain-policy": 1,
     "open-invention-corpus": 3,
+    "safe-computational-reproduction": 1,
+    "scientific-dataset-reliability": 1,
     "software-supply-chain": 3,
-    "software-supply-chain-assurance": 2
+    "software-supply-chain-assurance": 3
   },
-  "evidenceHash": "1d47cd607ca3fa05b2357466296e0434a87f5be0aeb0268eaea6e33e0eb88d0d"
+  "evidenceHash": "4a07a548d4d1abebde1c2621c2a24aa4203053364410c7c24af78c92f4a317d6"
 }

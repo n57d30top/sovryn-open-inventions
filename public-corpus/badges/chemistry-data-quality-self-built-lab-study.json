@@ -4,17 +4,17 @@
   "badges": {
     "quality": "good",
     "status": "autopublished",
-    "antiTemplate": "unknown",
+    "antiTemplate": "review_ready_after_showcase_revision",
     "replay": "replay-100",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
     "worker": "container-netoff",
-    "falsification": "not_evaluated",
-    "lifecycle": "autopublished",
+    "falsification": "passes_falsification",
+    "lifecycle": "superseded",
     "version": "chemistry-data-quality-self-built-lab-study",
     "showcase": "not-showcase"
   },
-  "lifecycleStatus": "autopublished",
+  "lifecycleStatus": "superseded",
   "showcaseRank": null,
-  "evidenceHash": "6c74fd77a06fc6e30c52cfe648eaba41a4bf89d3c54c70761f6290be7c0545b7"
+  "evidenceHash": "6f95bcab233bde21ce62603d89f1ee729fd52b2ebc966bf0567e384c2952b958"
 }

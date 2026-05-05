@@ -25,6 +25,14 @@
       "customTool": "mol-record-auditor"
     },
     {
+      "slug": "chemistry-data-quality-self-built-lab-study-v2",
+      "externalPackages": [
+        "pint",
+        "rapidfuzz"
+      ],
+      "customTool": "mol-record-auditor"
+    },
+    {
       "slug": "chemistry-record-auditor-tool",
       "externalPackages": [
         "pint"
@@ -74,6 +82,15 @@
     },
     {
       "slug": "energy-data-quality-self-built-lab-study",
+      "externalPackages": [
+        "numpy",
+        "pandas",
+        "python-dateutil"
+      ],
+      "customTool": "energy-record-auditor"
+    },
+    {
+      "slug": "energy-data-quality-self-built-lab-study-v2",
       "externalPackages": [
         "numpy",
         "pandas",
@@ -134,6 +151,20 @@
       "customTool": "patch-risk-auditor"
     },
     {
+      "slug": "scientific-dataset-reliability-self-built-lab-study",
+      "externalPackages": [
+        "pandas",
+        "python-dateutil",
+        "rapidfuzz"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "self-built-lab-reproduction-388ccd1946ad",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth",
       "externalPackages": [],
       "customTool": null
@@ -147,10 +178,18 @@
       "customTool": "patch-risk-auditor"
     },
     {
+      "slug": "software-supply-chain-assurance-self-built-lab-study-v2",
+      "externalPackages": [
+        "acorn",
+        "simple-git"
+      ],
+      "customTool": "patch-risk-auditor"
+    },
+    {
       "slug": "toolchain-policy",
       "externalPackages": [],
       "customTool": null
     }
   ],
-  "evidenceHash": "7ed0e47ccd019e7c4c022b7c367a31e66c54e018af2771fc2e5e2b2a4b713eb6"
+  "evidenceHash": "c2a05882e77c5e49d968b37ac87d93d07ff2aed4b0266a13251f4f8ec159200e"
 }

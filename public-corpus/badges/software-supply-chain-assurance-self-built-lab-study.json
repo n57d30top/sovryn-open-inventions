@@ -4,17 +4,17 @@
   "badges": {
     "quality": "good",
     "status": "autopublished",
-    "antiTemplate": "unknown",
+    "antiTemplate": "review_ready_after_showcase_revision",
     "replay": "replay-100",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
     "worker": "container-netoff",
-    "falsification": "not_evaluated",
-    "lifecycle": "autopublished",
+    "falsification": "passes_falsification",
+    "lifecycle": "superseded",
     "version": "software-supply-chain-assurance-self-built-lab-study",
     "showcase": "not-showcase"
   },
-  "lifecycleStatus": "autopublished",
+  "lifecycleStatus": "superseded",
   "showcaseRank": null,
-  "evidenceHash": "93125ed95a1337143e97fa719fed2b2bcdfbe242cfe8231f490b2c56b7a4a366"
+  "evidenceHash": "1f6e2af4bd3cf06f980cca059d43498f5518734c5b649a43ca9b1726c55574ba"
 }

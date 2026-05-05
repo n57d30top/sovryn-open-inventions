@@ -1,3 +1,3 @@
 # Falsification
 
-Safe synthetic negative cases are included for false positives, false negatives, baseline-win cases, and overclaim checks.
+The study includes false-positive, false-negative, baseline-win, unsupported-claim, and overclaim checks. Material failures keep the study in needs_revision rather than showcase.

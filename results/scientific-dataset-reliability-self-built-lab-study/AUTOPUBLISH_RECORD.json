@@ -1,0 +1,19 @@
+{
+  "resultId": "scientific-dataset-reliability-self-built-lab-study",
+  "slug": "scientific-dataset-reliability-self-built-lab-study",
+  "title": "Provenance-aware schema-drift checks reduce false positives and improve inconsistent-record detection compared with schema-only validation baselines.",
+  "sourceType": "self_building_lab_trial",
+  "publishedBy": "sovryn-lab-autopublish",
+  "humanReviewRequired": false,
+  "automatedPolicyVersion": "3.5.0-rc.1-lab-policy",
+  "targetRepo": "https://github.com/n57d30top/sovryn-open-inventions",
+  "targetPath": "results/scientific-dataset-reliability-self-built-lab-study",
+  "pushed": false,
+  "dryRun": false,
+  "qualityLabel": "good",
+  "replayCriticalPassRate": 100,
+  "publicHygienePassed": true,
+  "noCriticalFailures": true,
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide patentability, legal novelty, or freedom-to-operate opinions.",
+  "evidenceHash": "61f5eb15932c3fc248351fea0d914334bb12b5f88cf60235640feefbbaaba4f3"
+}

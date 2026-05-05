@@ -1,15 +1,14 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-05T09:26:48.587Z",
+  "generatedAt": "2026-05-05T10:23:50.647Z",
   "qualityCounts": {
-    "good": 24
+    "good": 29
   },
   "lifecycleCounts": {
-    "autopublished": 3,
-    "needs_revision": 3,
+    "needs_revision": 4,
     "showcase": 3,
-    "showcase_science": 6,
-    "superseded": 9
+    "showcase_science": 10,
+    "superseded": 12
   },
   "results": [
     {
@@ -57,16 +56,30 @@
     {
       "slug": "chemistry-data-quality-self-built-lab-study",
       "qualityLabel": "good",
-      "antiTemplateStatus": "unknown",
-      "lifecycleStatus": "autopublished",
+      "antiTemplateStatus": "review_ready_after_showcase_revision",
+      "lifecycleStatus": "superseded",
       "versionGroup": "chemistry-data-quality-self-built-lab-study",
       "showcaseEligible": false,
       "showcaseRank": null,
-      "releaseReadinessScore": 91,
+      "releaseReadinessScore": 92,
       "evidenceStrengthScore": 90,
       "reproducibilityScore": 100,
       "publicationSafetyScore": 98,
-      "specificityScore": 95
+      "specificityScore": 88
+    },
+    {
+      "slug": "chemistry-data-quality-self-built-lab-study-v2",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready_after_showcase_revision",
+      "lifecycleStatus": "showcase_science",
+      "versionGroup": "chemistry-data-quality-self-built-lab-study",
+      "showcaseEligible": true,
+      "showcaseRank": null,
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 100,
+      "publicationSafetyScore": 98,
+      "specificityScore": 88
     },
     {
       "slug": "chemistry-record-auditor-tool",
@@ -183,16 +196,30 @@
     {
       "slug": "energy-data-quality-self-built-lab-study",
       "qualityLabel": "good",
-      "antiTemplateStatus": "unknown",
-      "lifecycleStatus": "autopublished",
+      "antiTemplateStatus": "review_ready_after_showcase_revision",
+      "lifecycleStatus": "superseded",
       "versionGroup": "energy-data-quality-self-built-lab-study",
       "showcaseEligible": false,
       "showcaseRank": null,
-      "releaseReadinessScore": 91,
+      "releaseReadinessScore": 92,
       "evidenceStrengthScore": 90,
       "reproducibilityScore": 100,
       "publicationSafetyScore": 98,
-      "specificityScore": 95
+      "specificityScore": 88
+    },
+    {
+      "slug": "energy-data-quality-self-built-lab-study-v2",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready_after_showcase_revision",
+      "lifecycleStatus": "showcase_science",
+      "versionGroup": "energy-data-quality-self-built-lab-study",
+      "showcaseEligible": true,
+      "showcaseRank": null,
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 100,
+      "publicationSafetyScore": 98,
+      "specificityScore": 88
     },
     {
       "slug": "energy-usage-anomaly-auditor",
@@ -307,6 +334,34 @@
       "specificityScore": 85
     },
     {
+      "slug": "scientific-dataset-reliability-self-built-lab-study",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready_after_showcase_revision",
+      "lifecycleStatus": "showcase_science",
+      "versionGroup": "scientific-dataset-reliability-self-built-lab-study",
+      "showcaseEligible": true,
+      "showcaseRank": null,
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 100,
+      "publicationSafetyScore": 98,
+      "specificityScore": 88
+    },
+    {
+      "slug": "self-built-lab-reproduction-388ccd1946ad",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "needs_revision",
+      "versionGroup": "self-built-lab-reproduction-388ccd1946ad",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 86,
+      "reproducibilityScore": 95,
+      "publicationSafetyScore": 98,
+      "specificityScore": 48
+    },
+    {
       "slug": "software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth",
       "qualityLabel": "good",
       "antiTemplateStatus": "unknown",
@@ -323,16 +378,30 @@
     {
       "slug": "software-supply-chain-assurance-self-built-lab-study",
       "qualityLabel": "good",
-      "antiTemplateStatus": "unknown",
-      "lifecycleStatus": "autopublished",
+      "antiTemplateStatus": "review_ready_after_showcase_revision",
+      "lifecycleStatus": "superseded",
       "versionGroup": "software-supply-chain-assurance-self-built-lab-study",
       "showcaseEligible": false,
       "showcaseRank": null,
-      "releaseReadinessScore": 91,
+      "releaseReadinessScore": 92,
       "evidenceStrengthScore": 90,
       "reproducibilityScore": 100,
       "publicationSafetyScore": 98,
-      "specificityScore": 95
+      "specificityScore": 88
+    },
+    {
+      "slug": "software-supply-chain-assurance-self-built-lab-study-v2",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready_after_showcase_revision",
+      "lifecycleStatus": "showcase_science",
+      "versionGroup": "software-supply-chain-assurance-self-built-lab-study",
+      "showcaseEligible": true,
+      "showcaseRank": null,
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 100,
+      "publicationSafetyScore": 98,
+      "specificityScore": 88
     },
     {
       "slug": "toolchain-policy",
@@ -349,5 +418,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "6862d94170097a65f9fcb19124a7a15e73a8223794b0582c02363e13aded78b7"
+  "evidenceHash": "1677fb0aab8eb61d9dd2c37ec65cbbed99b5c814a2051bc0402534cd9337727c"
 }
