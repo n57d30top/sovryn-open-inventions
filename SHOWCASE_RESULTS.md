@@ -15,10 +15,7 @@
 - Reproduce: results/chemistry-record-auditor-tool-v2-v3/REPRODUCE.md
 - Examples: results/chemistry-record-auditor-tool-v2-v3/EXAMPLES.md
 
-Result ID: chemistry-record-auditor-tool-v2
-Source: pilot / chemistry-record-auditor-tool-v2
-Quality label: good
-Candidate status: dryrunready
+Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.
 
 ## 2. Energy Usage Anomaly Auditor
 
@@ -35,10 +32,7 @@ Candidate status: dryrunready
 - Reproduce: results/energy-usage-anomaly-auditor-v3/REPRODUCE.md
 - Examples: results/energy-usage-anomaly-auditor-v3/EXAMPLES.md
 
-Result ID: energy-usage-anomaly-auditor
-Source: pilot / energy-usage-anomaly-auditor
-Quality label: good
-Candidate status: dryrunready
+Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.
 
 ## 3. Patch Risk Auditor
 
@@ -55,10 +49,7 @@ Candidate status: dryrunready
 - Reproduce: results/patch-risk-auditor-v3/REPRODUCE.md
 - Examples: results/patch-risk-auditor-v3/EXAMPLES.md
 
-Result ID: patch-risk-auditor
-Source: pilot / patch-risk-auditor
-Quality label: good
-Candidate status: dryrunready
+Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.
 
 
 Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.

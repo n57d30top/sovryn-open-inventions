@@ -45,11 +45,11 @@ adapter failures, and placeholders are not treated as reviewed prior art.
 ## Counter-Evidence And Limitations
 
 - "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
-- README_CLAIMS_GROUNDED: passed (warn). README and public docs should ground claims in evidence, tests, and limitations.
-- Input case: toy water boiling point appears as 100 C and 373.15 K
-- Purpose: Suspicious acetone toy record should be flagged.
-- Input case: toy acetone boiling point appears as 999 C
-- Input case: toy molecule record has an unknown identifier
+- Duplicate ethanol, water, acetone, or benzene toy records after bounded identifier equivalence.
+- A suspicious acetone toy record with an implausible boiling-point value.
+- It is not a general SMILES canonicalizer or cheminformatics toolkit.
+- It uses bounded toy equivalence rules unless a stronger approved toolkit is added later.
+- These examples are bounded demonstrations for public research artifacts. They
 
 ## How To Reproduce
 

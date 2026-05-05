@@ -1,0 +1,24 @@
+{
+  "kind": "science_study_public_evidence_manifest",
+  "files": [
+    "README.md",
+    "SCIENTIFIC_REPORT.md",
+    "PAPER.md",
+    "HYPOTHESES.md",
+    "EXPERIMENT_DESIGN.md",
+    "DATASET.md",
+    "INSTRUMENTS.md",
+    "STATISTICAL_ANALYSIS.md",
+    "BASELINE_COMPARISON.md",
+    "ABLATION_REPORT.md",
+    "SENSITIVITY_ANALYSIS.md",
+    "REPLICATION.md",
+    "FALSIFICATION.md",
+    "SCIENTIFIC_MEMORY_UPDATE.md",
+    "LIMITATIONS.md"
+  ],
+  "rawLogsIncluded": false,
+  "secretsIncluded": false,
+  "localPathsIncluded": false,
+  "evidenceHash": "8fff68b0bc35eb7b2f6c7cda348dc18381e869c8efb37dd42823ea138f3b7f0d"
+}

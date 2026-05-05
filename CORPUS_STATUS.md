@@ -1,17 +1,20 @@
 # Corpus Status
 
-Results: 14
+Results: 16
 
 ## Lifecycle Counts
 
+- autopublished: 2
 - needs_revision: 3
 - showcase: 3
 - superseded: 8
 
 ## Version Groups
 
+- chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-o: latest chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco; chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco
 - chemistry-record-auditor-tool: latest chemistry-record-auditor-tool-v2-v3; chemistry-record-auditor-tool, chemistry-record-auditor-tool-v2, chemistry-record-auditor-tool-v2-v2, chemistry-record-auditor-tool-v2-v3
 - corpus-deduplication: latest corpus-deduplication; corpus-deduplication
+- energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-: latest energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe; energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe
 - energy-usage-anomaly-auditor: latest energy-usage-anomaly-auditor-v3; energy-usage-anomaly-auditor, energy-usage-anomaly-auditor-v2, energy-usage-anomaly-auditor-v3
 - evidence-chain: latest evidence-chain-v2; evidence-chain, evidence-chain-v2
 - patch-risk-auditor: latest patch-risk-auditor-v3; patch-risk-auditor, patch-risk-auditor-v2, patch-risk-auditor-v3

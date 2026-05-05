@@ -10,10 +10,7 @@
 - Publication safety score: 97
 - Replay critical pass rate: 100
 
-Result ID: energy-usage-anomaly-auditor
-Source: pilot / energy-usage-anomaly-auditor
-Quality label: good
-Candidate status: dryrunready
+Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.
 
 ## Useful Public Reading Path
 

@@ -1,11 +1,11 @@
 # Limitations: Patch Risk Auditor
 
 - "disclaimer": "This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.",
+- Install-script or package metadata changes in toy repository examples.
+- These examples are bounded demonstrations for public research artifacts. They
 - README_CLAIMS_GROUNDED: passed (warn). README and public docs should ground claims in evidence, tests, and limitations.
 - This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.
-- This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.
-- Legal disclaimer: This is an autonomous open-research artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. It was published automatically after automated policy gates and still requires human interpretation before use.
-- Uses possible differentiator and candidate novelty axis language; not a legal novelty conclusion.
+- Limitations: Patch Risk Auditor
 
 ## Scope Limits
 

@@ -1,9 +1,15 @@
 {
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
-    "good": 14
+    "good": 14,
+    "science_study": 2
   },
   "results": [
+    {
+      "slug": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
+      "qualityLabel": "science_study",
+      "releaseReadinessScore": 0
+    },
     {
       "slug": "chemistry-record-auditor-tool",
       "qualityLabel": "good",
@@ -28,6 +34,11 @@
       "slug": "corpus-deduplication",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
+    },
+    {
+      "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe",
+      "qualityLabel": "science_study",
+      "releaseReadinessScore": 0
     },
     {
       "slug": "energy-usage-anomaly-auditor",
@@ -75,5 +86,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "3e79ce95a418fc8a7f6fdda1603701298eec4a5f5eaf77955bbf7e1b23ede179"
+  "evidenceHash": "25b7043225b39cf3c3d58e1b12e93e8cfd2e60cb1cd9b68d49c700cd5a890501"
 }

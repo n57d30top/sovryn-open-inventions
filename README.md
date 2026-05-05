@@ -11,6 +11,8 @@ Sovryn produces autonomous open-research artifacts, defensive publications, and 
 - Search index: [public-corpus/search-index.json](public-corpus/search-index.json)
 - Results API: [public-corpus/api/results.json](public-corpus/api/results.json)
 - Showcase page: [public-corpus/showcase.html](public-corpus/showcase.html)
+- Computational science studies: [public-corpus/science.html](public-corpus/science.html)
+- Science studies API: [public-corpus/api/science-studies.json](public-corpus/api/science-studies.json)
 
 ## Public Beta Reading Path
 
@@ -33,11 +35,13 @@ and safety scope in human-readable language.
 
 ## Results
 
+- [Does unit-normalization plus provenance scoring improve detection of inconsistent chemistry-style molecular property records compared with unit normalization alone?](results/chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco/) — science_study, autopublished, chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-o, chemistry-data-quality
 - [Molecular Record Auditor for Chemistry-Style Dataset Quality](results/chemistry-record-auditor-tool/) — good, superseded, chemistry-record-auditor-tool, chemistry-data-quality
 - [Molecular Record Auditor for Chemistry-Style Dataset Quality](results/chemistry-record-auditor-tool-v2/) — good, superseded, chemistry-record-auditor-tool, chemistry-data-quality
 - [Molecular Record Auditor for Chemistry-Style Dataset Quality](results/chemistry-record-auditor-tool-v2-v2/) — good, superseded, chemistry-record-auditor-tool, chemistry-data-quality
 - [Molecular Record Auditor for Chemistry-Style Dataset Quality](results/chemistry-record-auditor-tool-v2-v3/) — good, showcase, chemistry-record-auditor-tool, chemistry-data-quality
 - [Corpus Deduplication for Defensive Publications](results/corpus-deduplication/) — good, needs_revision, corpus-deduplication, open-invention-corpus
+- [Do provenance-aware anomaly scoring methods reduce false positives in synthetic energy-usage datasets compared with simple threshold baselines?](results/energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe/) — science_study, autopublished, energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-, energy-data-quality
 - [Energy Usage Anomaly Auditor](results/energy-usage-anomaly-auditor/) — good, superseded, energy-usage-anomaly-auditor, energy-data-quality
 - [Energy Usage Anomaly Auditor](results/energy-usage-anomaly-auditor-v2/) — good, superseded, energy-usage-anomaly-auditor, energy-data-quality
 - [Energy Usage Anomaly Auditor](results/energy-usage-anomaly-auditor-v3/) — good, showcase, energy-usage-anomaly-auditor, energy-data-quality

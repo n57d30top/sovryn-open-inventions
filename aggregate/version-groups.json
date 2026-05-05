@@ -1,7 +1,14 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-04T18:48:49.505Z",
+  "updatedAt": "2026-05-05T05:27:24.093Z",
   "groups": [
+    {
+      "versionGroup": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-o",
+      "latestSlug": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
+      "resultSlugs": [
+        "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco"
+      ]
+    },
     {
       "versionGroup": "chemistry-record-auditor-tool",
       "latestSlug": "chemistry-record-auditor-tool-v2-v3",
@@ -17,6 +24,13 @@
       "latestSlug": "corpus-deduplication",
       "resultSlugs": [
         "corpus-deduplication"
+      ]
+    },
+    {
+      "versionGroup": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-",
+      "latestSlug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe",
+      "resultSlugs": [
+        "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe"
       ]
     },
     {
@@ -53,5 +67,5 @@
       ]
     }
   ],
-  "evidenceHash": "0b49a7192c439e95ffbffc6d3626ade65e0ab37582f188892ddc5ff71f6c6c15"
+  "evidenceHash": "e1c89356605b5cc3865e7350a732943467ccbe57524b2a4d499c36c83465c166"
 }

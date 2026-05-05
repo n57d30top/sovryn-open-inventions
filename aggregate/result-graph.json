@@ -1,7 +1,13 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-04T18:48:49.505Z",
+  "generatedAt": "2026-05-05T05:27:24.093Z",
   "nodes": [
+    {
+      "id": "result:chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
+      "kind": "result",
+      "label": "Does unit-normalization plus provenance scoring improve detection of inconsistent chemistry-style molecular property records compared with unit normalization alone?",
+      "domain": "chemistry-data-quality"
+    },
     {
       "id": "result:chemistry-record-auditor-tool",
       "kind": "result",
@@ -31,6 +37,12 @@
       "kind": "result",
       "label": "Corpus Deduplication for Defensive Publications",
       "domain": "open-invention-corpus"
+    },
+    {
+      "id": "result:energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe",
+      "kind": "result",
+      "label": "Do provenance-aware anomaly scoring methods reduce false positives in synthetic energy-usage datasets compared with simple threshold baselines?",
+      "domain": "energy-data-quality"
     },
     {
       "id": "result:energy-usage-anomaly-auditor",
@@ -129,6 +141,11 @@
   ],
   "edges": [
     {
+      "source": "result:chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
+      "target": "domain:chemistry-data-quality",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:chemistry-record-auditor-tool",
       "target": "domain:chemistry-data-quality",
       "relation": "belongs_to_domain"
@@ -171,6 +188,11 @@
     {
       "source": "result:corpus-deduplication",
       "target": "domain:open-invention-corpus",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe",
+      "target": "domain:energy-data-quality",
       "relation": "belongs_to_domain"
     },
     {
@@ -249,5 +271,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "237f5512a145f48d592c6fbca16bd30ad2e5da76cdeb6f78af7e36c7e2189c2d"
+  "evidenceHash": "97c090978ed560ed543746ab44a101f095580bdbbee9a37b1d92c2c41188ab0f"
 }

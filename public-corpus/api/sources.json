@@ -2,6 +2,11 @@
   "kind": "public_corpus_api_sources",
   "sources": [
     {
+      "slug": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
+      "externalPackages": [],
+      "customTool": "mol-record-auditor"
+    },
+    {
       "slug": "chemistry-record-auditor-tool",
       "externalPackages": [
         "pint"
@@ -33,6 +38,11 @@
       "slug": "corpus-deduplication",
       "externalPackages": [],
       "customTool": null
+    },
+    {
+      "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe",
+      "externalPackages": [],
+      "customTool": "energy-record-auditor"
     },
     {
       "slug": "energy-usage-anomaly-auditor",
@@ -92,5 +102,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "08095a11e8027e33bbbabfb20141e5e9fa7a00a2f337ce7b8c157a9057334cad"
+  "evidenceHash": "424921ec5f86a4f451719cc59e8a8f357d280c344936ffeba58cb72bb6ce0445"
 }

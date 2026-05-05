@@ -1,20 +1,21 @@
 {
   "kind": "public_corpus_status",
-  "generatedAt": "2026-05-04T18:48:49.505Z",
+  "generatedAt": "2026-05-05T05:27:24.093Z",
   "statusCounts": {
-    "autopublished": 14
+    "autopublished": 16
   },
   "lifecycleCounts": {
+    "autopublished": 2,
     "needs_revision": 3,
     "showcase": 3,
     "superseded": 8
   },
   "domainCounts": {
-    "chemistry-data-quality": 4,
-    "energy-data-quality": 3,
+    "chemistry-data-quality": 5,
+    "energy-data-quality": 4,
     "node-toolchain-policy": 1,
     "open-invention-corpus": 3,
     "software-supply-chain": 3
   },
-  "evidenceHash": "8bc7be45e06b741f9c9cf912ee9abf43377591314e66ff573cf37878c0d48833"
+  "evidenceHash": "f26e578b3fc4901cd59fa5bddbe06861e65fb8588131004ed7e7c6f9b143d533"
 }

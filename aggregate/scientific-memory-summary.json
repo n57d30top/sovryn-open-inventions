@@ -1,0 +1,37 @@
+{
+  "kind": "public_corpus_scientific_memory_summary",
+  "updatedAt": "2026-05-05T05:27:24.093Z",
+  "studyCount": 2,
+  "resultLabels": {
+    "partially_supported": 2
+  },
+  "memoryUpdatedCount": 2,
+  "domains": {
+    "chemistry-data-quality": 1,
+    "energy-data-quality": 1
+  },
+  "studies": [
+    {
+      "slug": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
+      "title": "Does unit-normalization plus provenance scoring improve detection of inconsistent chemistry-style molecular property records compared with unit normalization alone?",
+      "domain": "chemistry-data-quality",
+      "scientificQuestion": "Does unit-normalization plus provenance scoring improve detection of inconsistent chemistry-style molecular property records compared with unit normalization alone?",
+      "studyResultLabel": "partially_supported",
+      "replicationRunCount": 3,
+      "falsificationStatus": "not_evaluated",
+      "scientificMemoryUpdated": true
+    },
+    {
+      "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe",
+      "title": "Do provenance-aware anomaly scoring methods reduce false positives in synthetic energy-usage datasets compared with simple threshold baselines?",
+      "domain": "energy-data-quality",
+      "scientificQuestion": "Do provenance-aware anomaly scoring methods reduce false positives in synthetic energy-usage datasets compared with simple threshold baselines?",
+      "studyResultLabel": "partially_supported",
+      "replicationRunCount": 3,
+      "falsificationStatus": "not_evaluated",
+      "scientificMemoryUpdated": true
+    }
+  ],
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+  "evidenceHash": "3e9bff9f0fa7b8c2e23489f01210784213ceef3f2c3f5a379f23a5aa68edb709"
+}

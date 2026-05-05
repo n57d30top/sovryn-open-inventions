@@ -1,7 +1,25 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-04T18:48:49.505Z",
+  "generatedAt": "2026-05-05T05:27:24.093Z",
   "badges": [
+    {
+      "slug": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
+      "badges": {
+        "quality": "science_study",
+        "status": "autopublished",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "not_evaluated",
+        "lifecycle": "autopublished",
+        "version": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-o",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
     {
       "slug": "chemistry-record-auditor-tool",
       "badges": {
@@ -90,6 +108,24 @@
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "needs_revision",
+      "showcaseRank": null
+    },
+    {
+      "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe",
+      "badges": {
+        "quality": "science_study",
+        "status": "autopublished",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "not_evaluated",
+        "lifecycle": "autopublished",
+        "version": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
       "showcaseRank": null
     },
     {
@@ -255,5 +291,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "7c86b834727e37ba7ec85a3ef92349ceb22939981fe04f2cd38b55aef23e7165"
+  "evidenceHash": "b1cc2339392c8b2892baff7ad234824e00e5e747e1dc8f78c3c843c774c80a84"
 }
