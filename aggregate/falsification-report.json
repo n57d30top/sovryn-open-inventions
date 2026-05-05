@@ -1,20 +1,20 @@
 {
   "kind": "public_corpus_falsification_report",
-  "updatedAt": "2026-05-05T07:52:48.539Z",
-  "resultCount": 16,
+  "updatedAt": "2026-05-05T08:15:49.434Z",
+  "resultCount": 21,
   "labelCounts": {
     "insufficient_tests": 4,
-    "passes_falsification": 12
+    "passes_falsification": 17
   },
   "results": [
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-05T07:52:48.369Z",
-      "slug": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
-      "title": "Does unit-normalization plus provenance scoring improve detection of inconsistent chemistry-style molecular property records compared with unit normalization alone?",
+      "evaluatedAt": "2026-05-05T08:15:49.183Z",
+      "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
+      "title": "Can safe public dataset reliability checks identify schema drift and duplicate scientific records without using private data?",
       "domain": "chemistry-data-quality",
-      "qualityLabel": "",
-      "lifecycleStatus": "public_result",
+      "qualityLabel": "good",
+      "lifecycleStatus": "showcase_science",
       "label": "passes_falsification",
       "score": 96,
       "checks": [
@@ -107,11 +107,215 @@
       "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "ff688867b9e0009096908548eb448b96c987dd7093a050e380aa82f7b8b54222"
+      "evidenceHash": "701f9349133251374d9fa115f39166cdc0c347ce713e79e46ae5d0357b70e133"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-05T07:52:48.382Z",
+      "evaluatedAt": "2026-05-05T08:15:49.192Z",
+      "slug": "chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-",
+      "title": "Does explicit low-confidence identifier equivalence reduce overconfident chemistry-style record audits when unit-normalized values agree?",
+      "domain": "chemistry-data-quality",
+      "qualityLabel": "good",
+      "lifecycleStatus": "showcase_science",
+      "label": "passes_falsification",
+      "score": 96,
+      "checks": [
+        {
+          "checkId": "PUBLIC_HYGIENE_PASSED",
+          "passed": true,
+          "severity": "block",
+          "finding": "Public hygiene must pass before falsification can accept a result.",
+          "recommendedAction": "Remove leaks, raw logs, unsafe text, private paths, or secret-like values."
+        },
+        {
+          "checkId": "NO_OVERCLAIMS",
+          "passed": true,
+          "severity": "block",
+          "finding": "No overclaiming language found.",
+          "recommendedAction": "Rewrite public docs with bounded, evidence-backed claims."
+        },
+        {
+          "checkId": "NEGATIVE_TESTS_PRESENT",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Domain-specific negative tests should exist.",
+          "recommendedAction": "Add negative tests for false positives, false negatives, malformed inputs, and edge cases."
+        },
+        {
+          "checkId": "BENIGN_CASES_NOT_OVERFLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include benign cases that should not be overflagged.",
+          "recommendedAction": "Add benign cases that exercise false-positive risk."
+        },
+        {
+          "checkId": "ADVERSARIAL_SAFE_CASES_FLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include safe synthetic cases that should be flagged.",
+          "recommendedAction": "Add safe synthetic edge cases for likely false negatives."
+        },
+        {
+          "checkId": "README_CLAIMS_GROUNDED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "README and public docs should ground claims in evidence, tests, and limitations.",
+          "recommendedAction": "Add source evidence, test, and limitation sections."
+        },
+        {
+          "checkId": "QUALITY_NOT_WEAK",
+          "passed": true,
+          "severity": "block",
+          "finding": "Weak quality labels cannot pass falsification.",
+          "recommendedAction": "Revise the result or keep it out of showcase."
+        }
+      ],
+      "negativeTests": [
+        {
+          "testId": "consistent-unit-conversion",
+          "purpose": "Consistent Celsius/Kelvin records should not be flagged as conflicts.",
+          "inputCase": "toy water boiling point appears as 100 C and 373.15 K",
+          "expectedBehavior": "no conflict after unit normalization",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "suspicious-acetone-record",
+          "purpose": "Suspicious acetone toy record should be flagged.",
+          "inputCase": "toy acetone boiling point appears as 999 C",
+          "expectedBehavior": "outlier flag",
+          "falsificationTarget": "false-negative risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "unknown-identifier",
+          "purpose": "Unknown identifier should be low confidence rather than silently canonicalized.",
+          "inputCase": "toy molecule record has an unknown identifier",
+          "expectedBehavior": "low confidence equivalence",
+          "falsificationTarget": "identifier-confidence risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "malformed-unit",
+          "purpose": "Malformed unit should be rejected or flagged.",
+          "inputCase": "toy record uses unsupported temperature unit text",
+          "expectedBehavior": "invalid unit flag",
+          "falsificationTarget": "input validation risk",
+          "safeSyntheticOnly": true
+        }
+      ],
+      "overclaimFindings": [],
+      "counterEvidenceSummary": "No blocking falsification finding was detected. The review still requires consistent-unit, suspicious outlier, unknown identifier, and malformed-unit checks.",
+      "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
+      "publicHygienePassed": true,
+      "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+      "evidenceHash": "9d16a0ff29e4a7117712911727c157ca8798d967b76856b493ded610b65801af"
+    },
+    {
+      "kind": "public_corpus_result_falsification",
+      "evaluatedAt": "2026-05-05T08:15:49.201Z",
+      "slug": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
+      "title": "Does unit-normalization plus provenance scoring improve detection of inconsistent chemistry-style molecular property records compared with unit normalization alone?",
+      "domain": "chemistry-data-quality",
+      "qualityLabel": "good",
+      "lifecycleStatus": "showcase_science",
+      "label": "passes_falsification",
+      "score": 96,
+      "checks": [
+        {
+          "checkId": "PUBLIC_HYGIENE_PASSED",
+          "passed": true,
+          "severity": "block",
+          "finding": "Public hygiene must pass before falsification can accept a result.",
+          "recommendedAction": "Remove leaks, raw logs, unsafe text, private paths, or secret-like values."
+        },
+        {
+          "checkId": "NO_OVERCLAIMS",
+          "passed": true,
+          "severity": "block",
+          "finding": "No overclaiming language found.",
+          "recommendedAction": "Rewrite public docs with bounded, evidence-backed claims."
+        },
+        {
+          "checkId": "NEGATIVE_TESTS_PRESENT",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Domain-specific negative tests should exist.",
+          "recommendedAction": "Add negative tests for false positives, false negatives, malformed inputs, and edge cases."
+        },
+        {
+          "checkId": "BENIGN_CASES_NOT_OVERFLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include benign cases that should not be overflagged.",
+          "recommendedAction": "Add benign cases that exercise false-positive risk."
+        },
+        {
+          "checkId": "ADVERSARIAL_SAFE_CASES_FLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include safe synthetic cases that should be flagged.",
+          "recommendedAction": "Add safe synthetic edge cases for likely false negatives."
+        },
+        {
+          "checkId": "README_CLAIMS_GROUNDED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "README and public docs should ground claims in evidence, tests, and limitations.",
+          "recommendedAction": "Add source evidence, test, and limitation sections."
+        },
+        {
+          "checkId": "QUALITY_NOT_WEAK",
+          "passed": true,
+          "severity": "block",
+          "finding": "Weak quality labels cannot pass falsification.",
+          "recommendedAction": "Revise the result or keep it out of showcase."
+        }
+      ],
+      "negativeTests": [
+        {
+          "testId": "consistent-unit-conversion",
+          "purpose": "Consistent Celsius/Kelvin records should not be flagged as conflicts.",
+          "inputCase": "toy water boiling point appears as 100 C and 373.15 K",
+          "expectedBehavior": "no conflict after unit normalization",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "suspicious-acetone-record",
+          "purpose": "Suspicious acetone toy record should be flagged.",
+          "inputCase": "toy acetone boiling point appears as 999 C",
+          "expectedBehavior": "outlier flag",
+          "falsificationTarget": "false-negative risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "unknown-identifier",
+          "purpose": "Unknown identifier should be low confidence rather than silently canonicalized.",
+          "inputCase": "toy molecule record has an unknown identifier",
+          "expectedBehavior": "low confidence equivalence",
+          "falsificationTarget": "identifier-confidence risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "malformed-unit",
+          "purpose": "Malformed unit should be rejected or flagged.",
+          "inputCase": "toy record uses unsupported temperature unit text",
+          "expectedBehavior": "invalid unit flag",
+          "falsificationTarget": "input validation risk",
+          "safeSyntheticOnly": true
+        }
+      ],
+      "overclaimFindings": [],
+      "counterEvidenceSummary": "No blocking falsification finding was detected. The review still requires consistent-unit, suspicious outlier, unknown identifier, and malformed-unit checks.",
+      "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
+      "publicHygienePassed": true,
+      "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+      "evidenceHash": "9c877af4a248b44ebef3d8e59d731c7ff88f9c0624b4d14bec022616ce244aee"
+    },
+    {
+      "kind": "public_corpus_result_falsification",
+      "evaluatedAt": "2026-05-05T08:15:49.214Z",
       "slug": "chemistry-record-auditor-tool",
       "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
       "domain": "chemistry-data-quality",
@@ -209,11 +413,11 @@
       "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "98a44ac8d5cb054ca09c23b99f1b7fe04af6eb56d47352b3a9d470ddef00678f"
+      "evidenceHash": "1528c898566b66fe0d8451dc0c127275e0f25746957226a5e7b0850e25de72a3"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-05T07:52:48.393Z",
+      "evaluatedAt": "2026-05-05T08:15:49.227Z",
       "slug": "chemistry-record-auditor-tool-v2",
       "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
       "domain": "chemistry-data-quality",
@@ -311,11 +515,11 @@
       "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "867c517d7f93b4e20afeaf4590b10e2faad97116b86451c184d0ae29f42f2f4c"
+      "evidenceHash": "2a913fc6c49656080ebad6aa9d2611e4baea28283c5703196137f1ac6c798043"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-05T07:52:48.405Z",
+      "evaluatedAt": "2026-05-05T08:15:49.244Z",
       "slug": "chemistry-record-auditor-tool-v2-v2",
       "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
       "domain": "chemistry-data-quality",
@@ -413,11 +617,11 @@
       "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "c5b4d29c38c8f83c16495b9de3ab422fe26dddd9ab124f61bd1f4e445a687126"
+      "evidenceHash": "7d0cfb758d094d2cd74d149c2befc20aabde99479cdcf91a7896f4b0c1d3ddca"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-05T07:52:48.417Z",
+      "evaluatedAt": "2026-05-05T08:15:49.261Z",
       "slug": "chemistry-record-auditor-tool-v2-v3",
       "title": "Molecular Record Auditor for Chemistry-Style Dataset Quality",
       "domain": "chemistry-data-quality",
@@ -515,11 +719,11 @@
       "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "d021850a1989b91819d6c384f55a7a20689f8c207c0fe568cfe27a33c42c0d19"
+      "evidenceHash": "4ab328a86fbc9f5a07a0b5f184f9f28f864d3fd9e0c75d08341c388c749bd8a0"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-05T07:52:48.432Z",
+      "evaluatedAt": "2026-05-05T08:15:49.279Z",
       "slug": "corpus-deduplication",
       "title": "Corpus Deduplication for Defensive Publications",
       "domain": "open-invention-corpus",
@@ -601,16 +805,16 @@
       "recommendedAction": "Add negative tests and rerun falsification before showcase promotion.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "922cfcfc7fd15f4fa7688c08365e0596c888d38eb9762de164518109d70342ad"
+      "evidenceHash": "96d663abdfd2c7f09d8c0193c8b5a55c5233f4444acf5d6b6666df6af6d26f15"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-05T07:52:48.437Z",
-      "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe",
-      "title": "Do provenance-aware anomaly scoring methods reduce false positives in synthetic energy-usage datasets compared with simple threshold baselines?",
+      "evaluatedAt": "2026-05-05T08:15:49.284Z",
+      "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-public",
+      "title": "Do provenance-aware anomaly scoring methods reduce false positives in public-weather-proxy energy datasets compared with simple threshold baselines?",
       "domain": "chemistry-data-quality",
-      "qualityLabel": "",
-      "lifecycleStatus": "public_result",
+      "qualityLabel": "good",
+      "lifecycleStatus": "showcase_science",
       "label": "passes_falsification",
       "score": 96,
       "checks": [
@@ -703,11 +907,215 @@
       "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "a0517ec83c4b9671c749c7b38d69bfc713868157804a081a2c70eed06fd17561"
+      "evidenceHash": "f31190bd38ac5c877ec009d3a01a7029c5f0b8442dece7bdc7bb6657a6340827"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-05T07:52:48.447Z",
+      "evaluatedAt": "2026-05-05T08:15:49.292Z",
+      "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe",
+      "title": "Do provenance-aware anomaly scoring methods reduce false positives in synthetic energy-usage datasets compared with simple threshold baselines?",
+      "domain": "chemistry-data-quality",
+      "qualityLabel": "good",
+      "lifecycleStatus": "showcase_science",
+      "label": "passes_falsification",
+      "score": 96,
+      "checks": [
+        {
+          "checkId": "PUBLIC_HYGIENE_PASSED",
+          "passed": true,
+          "severity": "block",
+          "finding": "Public hygiene must pass before falsification can accept a result.",
+          "recommendedAction": "Remove leaks, raw logs, unsafe text, private paths, or secret-like values."
+        },
+        {
+          "checkId": "NO_OVERCLAIMS",
+          "passed": true,
+          "severity": "block",
+          "finding": "No overclaiming language found.",
+          "recommendedAction": "Rewrite public docs with bounded, evidence-backed claims."
+        },
+        {
+          "checkId": "NEGATIVE_TESTS_PRESENT",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Domain-specific negative tests should exist.",
+          "recommendedAction": "Add negative tests for false positives, false negatives, malformed inputs, and edge cases."
+        },
+        {
+          "checkId": "BENIGN_CASES_NOT_OVERFLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include benign cases that should not be overflagged.",
+          "recommendedAction": "Add benign cases that exercise false-positive risk."
+        },
+        {
+          "checkId": "ADVERSARIAL_SAFE_CASES_FLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include safe synthetic cases that should be flagged.",
+          "recommendedAction": "Add safe synthetic edge cases for likely false negatives."
+        },
+        {
+          "checkId": "README_CLAIMS_GROUNDED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "README and public docs should ground claims in evidence, tests, and limitations.",
+          "recommendedAction": "Add source evidence, test, and limitation sections."
+        },
+        {
+          "checkId": "QUALITY_NOT_WEAK",
+          "passed": true,
+          "severity": "block",
+          "finding": "Weak quality labels cannot pass falsification.",
+          "recommendedAction": "Revise the result or keep it out of showcase."
+        }
+      ],
+      "negativeTests": [
+        {
+          "testId": "consistent-unit-conversion",
+          "purpose": "Consistent Celsius/Kelvin records should not be flagged as conflicts.",
+          "inputCase": "toy water boiling point appears as 100 C and 373.15 K",
+          "expectedBehavior": "no conflict after unit normalization",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "suspicious-acetone-record",
+          "purpose": "Suspicious acetone toy record should be flagged.",
+          "inputCase": "toy acetone boiling point appears as 999 C",
+          "expectedBehavior": "outlier flag",
+          "falsificationTarget": "false-negative risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "unknown-identifier",
+          "purpose": "Unknown identifier should be low confidence rather than silently canonicalized.",
+          "inputCase": "toy molecule record has an unknown identifier",
+          "expectedBehavior": "low confidence equivalence",
+          "falsificationTarget": "identifier-confidence risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "malformed-unit",
+          "purpose": "Malformed unit should be rejected or flagged.",
+          "inputCase": "toy record uses unsupported temperature unit text",
+          "expectedBehavior": "invalid unit flag",
+          "falsificationTarget": "input validation risk",
+          "safeSyntheticOnly": true
+        }
+      ],
+      "overclaimFindings": [],
+      "counterEvidenceSummary": "No blocking falsification finding was detected. The review still requires consistent-unit, suspicious outlier, unknown identifier, and malformed-unit checks.",
+      "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
+      "publicHygienePassed": true,
+      "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+      "evidenceHash": "11dcb3ead85712cfe39abafc28683c77e5acd65cca3ddc627a4a301178d3abe2"
+    },
+    {
+      "kind": "public_corpus_result_falsification",
+      "evaluatedAt": "2026-05-05T08:15:49.297Z",
+      "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene",
+      "title": "Do provenance-aware anomaly scoring methods remain stable when synthetic energy-usage datasets include real-data proxy limitations and missing intervals?",
+      "domain": "chemistry-data-quality",
+      "qualityLabel": "good",
+      "lifecycleStatus": "showcase_science",
+      "label": "passes_falsification",
+      "score": 96,
+      "checks": [
+        {
+          "checkId": "PUBLIC_HYGIENE_PASSED",
+          "passed": true,
+          "severity": "block",
+          "finding": "Public hygiene must pass before falsification can accept a result.",
+          "recommendedAction": "Remove leaks, raw logs, unsafe text, private paths, or secret-like values."
+        },
+        {
+          "checkId": "NO_OVERCLAIMS",
+          "passed": true,
+          "severity": "block",
+          "finding": "No overclaiming language found.",
+          "recommendedAction": "Rewrite public docs with bounded, evidence-backed claims."
+        },
+        {
+          "checkId": "NEGATIVE_TESTS_PRESENT",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Domain-specific negative tests should exist.",
+          "recommendedAction": "Add negative tests for false positives, false negatives, malformed inputs, and edge cases."
+        },
+        {
+          "checkId": "BENIGN_CASES_NOT_OVERFLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include benign cases that should not be overflagged.",
+          "recommendedAction": "Add benign cases that exercise false-positive risk."
+        },
+        {
+          "checkId": "ADVERSARIAL_SAFE_CASES_FLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include safe synthetic cases that should be flagged.",
+          "recommendedAction": "Add safe synthetic edge cases for likely false negatives."
+        },
+        {
+          "checkId": "README_CLAIMS_GROUNDED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "README and public docs should ground claims in evidence, tests, and limitations.",
+          "recommendedAction": "Add source evidence, test, and limitation sections."
+        },
+        {
+          "checkId": "QUALITY_NOT_WEAK",
+          "passed": true,
+          "severity": "block",
+          "finding": "Weak quality labels cannot pass falsification.",
+          "recommendedAction": "Revise the result or keep it out of showcase."
+        }
+      ],
+      "negativeTests": [
+        {
+          "testId": "consistent-unit-conversion",
+          "purpose": "Consistent Celsius/Kelvin records should not be flagged as conflicts.",
+          "inputCase": "toy water boiling point appears as 100 C and 373.15 K",
+          "expectedBehavior": "no conflict after unit normalization",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "suspicious-acetone-record",
+          "purpose": "Suspicious acetone toy record should be flagged.",
+          "inputCase": "toy acetone boiling point appears as 999 C",
+          "expectedBehavior": "outlier flag",
+          "falsificationTarget": "false-negative risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "unknown-identifier",
+          "purpose": "Unknown identifier should be low confidence rather than silently canonicalized.",
+          "inputCase": "toy molecule record has an unknown identifier",
+          "expectedBehavior": "low confidence equivalence",
+          "falsificationTarget": "identifier-confidence risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "malformed-unit",
+          "purpose": "Malformed unit should be rejected or flagged.",
+          "inputCase": "toy record uses unsupported temperature unit text",
+          "expectedBehavior": "invalid unit flag",
+          "falsificationTarget": "input validation risk",
+          "safeSyntheticOnly": true
+        }
+      ],
+      "overclaimFindings": [],
+      "counterEvidenceSummary": "No blocking falsification finding was detected. The review still requires consistent-unit, suspicious outlier, unknown identifier, and malformed-unit checks.",
+      "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
+      "publicHygienePassed": true,
+      "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+      "evidenceHash": "595cadeb8017f8f61d0b467f16587876b82672238ade72036f7d75b29196a8eb"
+    },
+    {
+      "kind": "public_corpus_result_falsification",
+      "evaluatedAt": "2026-05-05T08:15:49.310Z",
       "slug": "energy-usage-anomaly-auditor",
       "title": "Energy Usage Anomaly Auditor",
       "domain": "energy-data-quality",
@@ -805,11 +1213,11 @@
       "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "98d481b36b500446311ae32a1d39d72cbad6fed5b6d3e76bf90d70c0820ce68e"
+      "evidenceHash": "7d3643d5422218ac98a330646dc8e4ad6064e43f99b8daff366c498d3e628fc4"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-05T07:52:48.458Z",
+      "evaluatedAt": "2026-05-05T08:15:49.325Z",
       "slug": "energy-usage-anomaly-auditor-v2",
       "title": "Energy Usage Anomaly Auditor",
       "domain": "energy-data-quality",
@@ -907,11 +1315,11 @@
       "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "bb6ad90e6ec4903389a7af10065c64f58783d7b675063162da69b0521244b08e"
+      "evidenceHash": "8e61d43f1772b190afdeff989522c9b8d5c4602bb03174b8fdcc62dd63e02e59"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-05T07:52:48.469Z",
+      "evaluatedAt": "2026-05-05T08:15:49.339Z",
       "slug": "energy-usage-anomaly-auditor-v3",
       "title": "Energy Usage Anomaly Auditor",
       "domain": "energy-data-quality",
@@ -1009,11 +1417,11 @@
       "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "7af47fae1ace01a8efea20f3a3a2ffa480d938ed4e157fce21e7569fa8575fab"
+      "evidenceHash": "ecf9bd2a633c3c4429dfc24895a125ca19664b57bbfb714e7eb89b6f347840ad"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-05T07:52:48.482Z",
+      "evaluatedAt": "2026-05-05T08:15:49.358Z",
       "slug": "evidence-chain",
       "title": "Replayable Evidence Chain for Autonomous Research Agents",
       "domain": "open-invention-corpus",
@@ -1095,11 +1503,11 @@
       "recommendedAction": "Add negative tests and rerun falsification before showcase promotion.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "903bf0957ee9ca39a7cb42855be9fd49b30f2d8dc7e43d3157b2016514fae047"
+      "evidenceHash": "79b800fb570d09a972775529a646febab8bd20b91f67846e26c1d8792829438c"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-05T07:52:48.494Z",
+      "evaluatedAt": "2026-05-05T08:15:49.374Z",
       "slug": "evidence-chain-v2",
       "title": "Replayable Evidence Chain for Autonomous Research Agents",
       "domain": "open-invention-corpus",
@@ -1181,11 +1589,11 @@
       "recommendedAction": "Add negative tests and rerun falsification before showcase promotion.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "a9b09e27daf87c64f621e65893c75cd19c4eb02c308493a37b5d32faaf5c8838"
+      "evidenceHash": "f7c205c63beae54b631ab7c73db998c451317720201e74189416aab9d17d6498"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-05T07:52:48.501Z",
+      "evaluatedAt": "2026-05-05T08:15:49.383Z",
       "slug": "patch-risk-auditor",
       "title": "Patch Risk Auditor",
       "domain": "software-supply-chain",
@@ -1283,11 +1691,11 @@
       "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "50fe213bac2514f06c1f4f28db8f5ae50fb0529fe5694a5e4c5c02465d73895d"
+      "evidenceHash": "d36496a8d2051efe773b057d90a23d98cd74448cd8787326d586823b7731fb33"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-05T07:52:48.510Z",
+      "evaluatedAt": "2026-05-05T08:15:49.393Z",
       "slug": "patch-risk-auditor-v2",
       "title": "Patch Risk Auditor",
       "domain": "software-supply-chain",
@@ -1385,11 +1793,11 @@
       "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "b58639d51b316ccce88360051ae80bfb4a45ce10a5e512c28b15ade0038c009e"
+      "evidenceHash": "87246aec0aabf1345028e62c64be75fb1832fd9644529aeaf93af934005a9948"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-05T07:52:48.519Z",
+      "evaluatedAt": "2026-05-05T08:15:49.404Z",
       "slug": "patch-risk-auditor-v3",
       "title": "Patch Risk Auditor",
       "domain": "software-supply-chain",
@@ -1487,11 +1895,113 @@
       "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "a4d4fadc5b727f251710bf962b9a41312324efc65d7bac254f143f43953552e3"
+      "evidenceHash": "f1a8f5b849fbd8612882ce81fdf74e7199aebac0b785f99844e024c7ebc636c4"
     },
     {
       "kind": "public_corpus_result_falsification",
-      "evaluatedAt": "2026-05-05T07:52:48.532Z",
+      "evaluatedAt": "2026-05-05T08:15:49.410Z",
+      "slug": "software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth",
+      "title": "Do dependency-provenance features improve risk scoring for synthetic AI-generated pull requests compared with diff-pattern-only baselines?",
+      "domain": "chemistry-data-quality",
+      "qualityLabel": "good",
+      "lifecycleStatus": "showcase_science",
+      "label": "passes_falsification",
+      "score": 96,
+      "checks": [
+        {
+          "checkId": "PUBLIC_HYGIENE_PASSED",
+          "passed": true,
+          "severity": "block",
+          "finding": "Public hygiene must pass before falsification can accept a result.",
+          "recommendedAction": "Remove leaks, raw logs, unsafe text, private paths, or secret-like values."
+        },
+        {
+          "checkId": "NO_OVERCLAIMS",
+          "passed": true,
+          "severity": "block",
+          "finding": "No overclaiming language found.",
+          "recommendedAction": "Rewrite public docs with bounded, evidence-backed claims."
+        },
+        {
+          "checkId": "NEGATIVE_TESTS_PRESENT",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Domain-specific negative tests should exist.",
+          "recommendedAction": "Add negative tests for false positives, false negatives, malformed inputs, and edge cases."
+        },
+        {
+          "checkId": "BENIGN_CASES_NOT_OVERFLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include benign cases that should not be overflagged.",
+          "recommendedAction": "Add benign cases that exercise false-positive risk."
+        },
+        {
+          "checkId": "ADVERSARIAL_SAFE_CASES_FLAGGED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "Falsification should include safe synthetic cases that should be flagged.",
+          "recommendedAction": "Add safe synthetic edge cases for likely false negatives."
+        },
+        {
+          "checkId": "README_CLAIMS_GROUNDED",
+          "passed": true,
+          "severity": "warn",
+          "finding": "README and public docs should ground claims in evidence, tests, and limitations.",
+          "recommendedAction": "Add source evidence, test, and limitation sections."
+        },
+        {
+          "checkId": "QUALITY_NOT_WEAK",
+          "passed": true,
+          "severity": "block",
+          "finding": "Weak quality labels cannot pass falsification.",
+          "recommendedAction": "Revise the result or keep it out of showcase."
+        }
+      ],
+      "negativeTests": [
+        {
+          "testId": "consistent-unit-conversion",
+          "purpose": "Consistent Celsius/Kelvin records should not be flagged as conflicts.",
+          "inputCase": "toy water boiling point appears as 100 C and 373.15 K",
+          "expectedBehavior": "no conflict after unit normalization",
+          "falsificationTarget": "false-positive risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "suspicious-acetone-record",
+          "purpose": "Suspicious acetone toy record should be flagged.",
+          "inputCase": "toy acetone boiling point appears as 999 C",
+          "expectedBehavior": "outlier flag",
+          "falsificationTarget": "false-negative risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "unknown-identifier",
+          "purpose": "Unknown identifier should be low confidence rather than silently canonicalized.",
+          "inputCase": "toy molecule record has an unknown identifier",
+          "expectedBehavior": "low confidence equivalence",
+          "falsificationTarget": "identifier-confidence risk",
+          "safeSyntheticOnly": true
+        },
+        {
+          "testId": "malformed-unit",
+          "purpose": "Malformed unit should be rejected or flagged.",
+          "inputCase": "toy record uses unsupported temperature unit text",
+          "expectedBehavior": "invalid unit flag",
+          "falsificationTarget": "input validation risk",
+          "safeSyntheticOnly": true
+        }
+      ],
+      "overclaimFindings": [],
+      "counterEvidenceSummary": "No blocking falsification finding was detected. The review still requires consistent-unit, suspicious outlier, unknown identifier, and malformed-unit checks.",
+      "recommendedAction": "Keep as reviewable public corpus evidence; continue human interpretation before use.",
+      "publicHygienePassed": true,
+      "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
+      "evidenceHash": "83e149cff899245b19552c2916a0c30a6ec9f3d265e628491f505473db2ffbc7"
+    },
+    {
+      "kind": "public_corpus_result_falsification",
+      "evaluatedAt": "2026-05-05T08:15:49.427Z",
       "slug": "toolchain-policy",
       "title": "Policy-Gated Toolchain Installation Protocol",
       "domain": "open-invention-corpus",
@@ -1573,9 +2083,9 @@
       "recommendedAction": "Add negative tests and rerun falsification before showcase promotion.",
       "publicHygienePassed": true,
       "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-      "evidenceHash": "d40f697e9a6544e3af0f815b48415b052b6da36870b04fba2326253089b738a3"
+      "evidenceHash": "c853b0ff4aac353c8c9e4725b69644defec02657d059d33442484ce0b8619ecd"
     }
   ],
   "disclaimer": "This is an independent falsification and review artifact. It is not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion.",
-  "evidenceHash": "06fc5055f1084046e7e6ac45b9baf49b388dabe64518779c035cfc5c58b972d5"
+  "evidenceHash": "b7f603cac11148d72e98877bd6c60ceb1685fdfb6ff20893aef75a02e5751770"
 }

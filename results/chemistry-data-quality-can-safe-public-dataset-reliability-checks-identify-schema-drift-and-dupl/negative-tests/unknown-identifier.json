@@ -1,0 +1,11 @@
+{
+  "kind": "public_corpus_negative_test_case",
+  "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
+  "testId": "unknown-identifier",
+  "purpose": "Unknown identifier should be low confidence rather than silently canonicalized.",
+  "inputCase": "toy molecule record has an unknown identifier",
+  "expectedBehavior": "low confidence equivalence",
+  "falsificationTarget": "identifier-confidence risk",
+  "safeSyntheticOnly": true,
+  "evidenceHash": "622e504954398e69bf91311f8ea49851ddb5873fb23b7640d40c4a52f4d70d6d"
+}

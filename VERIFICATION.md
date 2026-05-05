@@ -16,9 +16,9 @@ Indexed public results: 21
 
 ## Lifecycle Counts
 
-- autopublished: 6
 - needs_revision: 3
 - showcase: 3
+- showcase_science: 6
 - superseded: 9
 
 ## Versioning And Showcase Gates

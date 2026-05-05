@@ -1,0 +1,11 @@
+{
+  "kind": "public_corpus_negative_test_case",
+  "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene",
+  "testId": "unknown-identifier",
+  "purpose": "Unknown identifier should be low confidence rather than silently canonicalized.",
+  "inputCase": "toy molecule record has an unknown identifier",
+  "expectedBehavior": "low confidence equivalence",
+  "falsificationTarget": "identifier-confidence risk",
+  "safeSyntheticOnly": true,
+  "evidenceHash": "622e504954398e69bf91311f8ea49851ddb5873fb23b7640d40c4a52f4d70d6d"
+}

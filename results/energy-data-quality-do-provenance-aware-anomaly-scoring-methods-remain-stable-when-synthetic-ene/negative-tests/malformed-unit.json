@@ -1,0 +1,11 @@
+{
+  "kind": "public_corpus_negative_test_case",
+  "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene",
+  "testId": "malformed-unit",
+  "purpose": "Malformed unit should be rejected or flagged.",
+  "inputCase": "toy record uses unsupported temperature unit text",
+  "expectedBehavior": "invalid unit flag",
+  "falsificationTarget": "input validation risk",
+  "safeSyntheticOnly": true,
+  "evidenceHash": "03478e0cd62d4628308ddac81898d99ea61fb946d06b855309205cab17b27011"
+}
