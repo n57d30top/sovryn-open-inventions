@@ -1,0 +1,14 @@
+{
+  "resultId": "external-scientific-production-result",
+  "slug": "external-scientific-production-result",
+  "publishedBy": "sovryn-external-scientific-production-autopublish",
+  "automatedPolicyVersion": "4.2.0-rc.1-external-scientific-production-policy",
+  "targetRepo": "https://github.com/n57d30top/sovryn-open-inventions",
+  "targetPath": "results/external-scientific-production-result",
+  "pushed": true,
+  "dryRun": false,
+  "publicHygienePassed": true,
+  "noCriticalFailures": true,
+  "disclaimer": "External scientific production artifact. Safe computational science only: public or public-safe metadata, datasets, benchmark descriptions, software metadata, source cards, baselines, reproductions, falsification, independent rebuilds, and evidence-bound claims. This is not wet-lab guidance, hazardous chemistry, medical advice, exploit guidance, a patent filing, a patentability opinion, legal novelty advice, freedom-to-operate advice, a confirmed breakthrough claim, or a guarantee of scientific truth.",
+  "evidenceHash": "51be2bedc568fb6033e9b6077d8258cf9fedf52d17cb6aa0f0391922ed3b2b58"
+}

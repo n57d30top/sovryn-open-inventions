@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-05T18:32:10.812Z",
+  "generatedAt": "2026-05-05T19:37:52.686Z",
   "nodes": [
     {
       "id": "result:autonomous-research-strategy-trial",
@@ -135,6 +135,12 @@
       "domain": "open-invention-corpus"
     },
     {
+      "id": "result:external-scientific-production-result",
+      "kind": "result",
+      "label": "External Scientific Production Result",
+      "domain": "source-evidence-extraction-quality"
+    },
+    {
       "id": "result:field-grade-autonomous-science-trial",
       "kind": "result",
       "label": "Field-Grade Autonomous Science Trial",
@@ -243,6 +249,11 @@
       "id": "domain:energy-data-quality",
       "kind": "domain",
       "label": "energy-data-quality"
+    },
+    {
+      "id": "domain:source-evidence-extraction-quality",
+      "kind": "domain",
+      "label": "source-evidence-extraction-quality"
     },
     {
       "id": "domain:field-grade-scientific-autonomy",
@@ -527,6 +538,11 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:external-scientific-production-result",
+      "target": "domain:source-evidence-extraction-quality",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:field-grade-autonomous-science-trial",
       "target": "domain:field-grade-scientific-autonomy",
       "relation": "belongs_to_domain"
@@ -652,5 +668,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "389890b1f32db6689c4b615492a7a4798950e36ac53b71487f7566be46f06788"
+  "evidenceHash": "281ab62afc1fc8f2bb443da3b28bf4c6c6d8862f30c35013091186cc95ebd47b"
 }

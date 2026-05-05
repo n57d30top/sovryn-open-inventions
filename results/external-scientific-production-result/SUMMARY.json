@@ -1,0 +1,169 @@
+{
+  "slug": "external-scientific-production-result",
+  "title": "External Scientific Production Result",
+  "resultKind": "external_scientific_production_result",
+  "targetVersion": "4.2.0-rc.1",
+  "domain": "source-evidence-extraction-quality",
+  "selectedProblemId": "external-problem-source-evidence-extraction-quality",
+  "preregistrationHash": "47af507f0ac194dd28155a16fdb6f1a29ca1d29ccb949502d38c92314588d6e6",
+  "baselineReproductionHash": "c9ac421f39449e6345025d14213c9d8f018a61b636ff7fe91ae0ff4a565abc6a",
+  "methodSearchHash": "d8ebd0f386ec9e6d6c4aff8c1a12db4e317c1b87f16afe9e199f970f99ed5089",
+  "killWeekHash": "cbbf9788e9fea32ded3a6e2d08ebf96a52a50b4df084d7f65d2c642b72c8f2e1",
+  "independentRebuildHash": "5a5323557590a85de59d77b1446155f87772fa1885ed64c68a68625dfc36b480",
+  "finalResult": "replication_supported_external_candidate",
+  "finalStatus": "replication_supported_external_candidate",
+  "generatedIdeas": 2000,
+  "implementedCandidates": 25,
+  "holdoutCandidates": 25,
+  "challengers": 8,
+  "failuresRecorded": 24,
+  "lossesRecorded": 185,
+  "rejectedCandidates": 23,
+  "replicationVariants": 5,
+  "knowledgeUpdated": true,
+  "publicHygienePassed": true,
+  "noRawLogs": true,
+  "noSecretLeaks": true,
+  "noLocalAbsolutePaths": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "knowledgeArtifacts": {
+    "claimGraphHash": "16baafdc500f126c600fddd89d194f790efff81ceb131b5a353c04077ac99c23",
+    "confidenceHash": "1270411d95c6abf78a461d51eab20ef3325f48b1236aa578536998f06f51f30c",
+    "contradictionCount": 0,
+    "methodAtlasHash": "fea7146b6d3f46c28a59d50a0c4d2f57900e340961b063afd21318866a247c5b",
+    "nextExperimentCount": 18
+  },
+  "nextResearchDirection": "Run independent external replication on additional public source/evidence extraction benchmarks and compare against maintained external baselines.",
+  "disclaimer": "External scientific production artifact. Safe computational science only: public or public-safe metadata, datasets, benchmark descriptions, software metadata, source cards, baselines, reproductions, falsification, independent rebuilds, and evidence-bound claims. This is not wet-lab guidance, hazardous chemistry, medical advice, exploit guidance, a patent filing, a patentability opinion, legal novelty advice, freedom-to-operate advice, a confirmed breakthrough claim, or a guarantee of scientific truth.",
+  "evidenceHash": "fbf6e2fa02b34ad0de0bc474238f9be6c0bc68e8c8ddb059bda5fbec3d3a58b7",
+  "gates": [
+    {
+      "code": "EXTERNAL_PROBLEM_BOUND",
+      "passed": true,
+      "severity": "info",
+      "message": "EXTERNAL_PROBLEM_BOUND passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "PREREGISTRATION_BOUND",
+      "passed": true,
+      "severity": "info",
+      "message": "PREREGISTRATION_BOUND passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "BASELINE_REPRODUCTION_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "BASELINE_REPRODUCTION_PRESENT passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "METHOD_SEARCH_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "METHOD_SEARCH_PRESENT passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "KILL_WEEK_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "KILL_WEEK_PRESENT passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "INDEPENDENT_REBUILD_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "INDEPENDENT_REBUILD_PRESENT passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "REPLICATION_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "REPLICATION_PRESENT passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "FAILURES_AND_LOSSES_RECORDED",
+      "passed": true,
+      "severity": "info",
+      "message": "FAILURES_AND_LOSSES_RECORDED passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "FINAL_STATUS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "FINAL_STATUS_PRESENT passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "KNOWLEDGE_UPDATED",
+      "passed": true,
+      "severity": "info",
+      "message": "KNOWLEDGE_UPDATED passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "PUBLIC_HYGIENE_PASSED",
+      "passed": true,
+      "severity": "info",
+      "message": "PUBLIC_HYGIENE_PASSED passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "NO_RAW_LOGS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_RAW_LOGS passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "NO_SECRET_LEAKS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_SECRET_LEAKS passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "NO_LOCAL_ABSOLUTE_PATHS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_LOCAL_ABSOLUTE_PATHS passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "NO_FAKE_BENCHMARK_WIN",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_FAKE_BENCHMARK_WIN passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "NO_FAKE_BREAKTHROUGH_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_FAKE_BREAKTHROUGH_CLAIMS passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "NO_UNSUPPORTED_SCIENTIFIC_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_UNSUPPORTED_SCIENTIFIC_CLAIMS passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "LIMITATIONS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "LIMITATIONS_PRESENT passed.",
+      "evidencePath": null
+    }
+  ]
+}

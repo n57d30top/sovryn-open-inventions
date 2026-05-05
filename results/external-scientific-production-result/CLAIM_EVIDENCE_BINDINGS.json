@@ -1,0 +1,61 @@
+{
+  "kind": "external_claim_evidence_bindings",
+  "bindingCount": 6,
+  "bindings": [
+    {
+      "claimId": "external-claim-problem-bound",
+      "claimText": "The production result is bound to an external preregistered computational science problem.",
+      "evidenceRefs": [
+        "problem-tournament/problem-tournament.json",
+        "problem-tournament/PREREGISTRATION.md"
+      ],
+      "evidenceHash": "592509bef3ef5c8e2492a790edb5ab457386652cf20218b04909bbd948bccdcb"
+    },
+    {
+      "claimId": "external-claim-baselines-reproduced",
+      "claimText": "External and standard baselines were reproduced or failed explicitly before candidate search.",
+      "evidenceRefs": [
+        "baseline-reproduction/baseline-reproduction-run.json",
+        "baseline-reproduction/BASELINE_FAILURES.md"
+      ],
+      "evidenceHash": "c9ac421f39449e6345025d14213c9d8f018a61b636ff7fe91ae0ff4a565abc6a"
+    },
+    {
+      "claimId": "external-claim-method-search-diverse",
+      "claimText": "Candidate search generated diverse method families and runnable candidates without holdout leakage.",
+      "evidenceRefs": [
+        "method-search/method-search-run.json",
+        "method-search/TOP_CANDIDATES_FOR_HOLDOUT.md"
+      ],
+      "evidenceHash": "d8ebd0f386ec9e6d6c4aff8c1a12db4e317c1b87f16afe9e199f970f99ed5089"
+    },
+    {
+      "claimId": "external-claim-kill-week",
+      "claimText": "Kill Week recorded wins, losses, ties, adversarial failures, and rejected dominated candidates.",
+      "evidenceRefs": [
+        "kill-week/kill-week-run.json",
+        "kill-week/WIN_LOSS_TIE_MATRIX.md"
+      ],
+      "evidenceHash": "cbbf9788e9fea32ded3a6e2d08ebf96a52a50b4df084d7f65d2c642b72c8f2e1"
+    },
+    {
+      "claimId": "external-claim-independent-rebuild",
+      "claimText": "Survivors were independently rebuilt from method specifications and tested with replication variants.",
+      "evidenceRefs": [
+        "independent-rebuild/independent-rebuild-run.json",
+        "independent-rebuild/DIVERGENCE_REPORT.md"
+      ],
+      "evidenceHash": "5a5323557590a85de59d77b1446155f87772fa1885ed64c68a68625dfc36b480"
+    },
+    {
+      "claimId": "external-claim-no-breakthrough",
+      "claimText": "The result is evidence-bound and does not claim a confirmed scientific breakthrough.",
+      "evidenceRefs": [
+        "publication/SUMMARY.json",
+        "publication/LIMITATIONS.md"
+      ],
+      "evidenceHash": "fbf6e2fa02b34ad0de0bc474238f9be6c0bc68e8c8ddb059bda5fbec3d3a58b7"
+    }
+  ],
+  "evidenceHash": "cafd38369c7848c33fec2c3b706ec77a27d0f50c14b1d341e495e282baed8be9"
+}

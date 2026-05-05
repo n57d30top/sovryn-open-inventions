@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-05T18:32:10.812Z",
+  "generatedAt": "2026-05-05T19:37:52.686Z",
   "badges": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -399,6 +399,24 @@
       "showcaseRank": null
     },
     {
+      "slug": "external-scientific-production-result",
+      "badges": {
+        "quality": "unknown",
+        "status": "unknown",
+        "antiTemplate": "unknown",
+        "replay": "replay-partial",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "not_evaluated",
+        "lifecycle": "autopublished",
+        "version": "external-scientific-production-result",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
       "slug": "field-grade-autonomous-science-trial",
       "badges": {
         "quality": "excellent",
@@ -669,5 +687,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "909c48214790c540edfe0a279965639c63d4fca1440e410233a25631dcb6c0b2"
+  "evidenceHash": "2b96758913aac1085bc5c265cb274888637ed161eb3f7fa22be27b3c11dc9e4a"
 }

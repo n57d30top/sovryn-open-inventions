@@ -200,6 +200,15 @@
       "pushed": true
     },
     {
+      "slug": "external-scientific-production-result",
+      "path": "results/external-scientific-production-result",
+      "status": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "external-scientific-production-result",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
       "slug": "field-grade-autonomous-science-trial",
       "path": "results/field-grade-autonomous-science-trial",
       "status": "field_grade_trial_ready",
@@ -335,5 +344,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "23b8e9b13df756869c8483e697c2a5c40da52348a5ad609025c13f802afd3943"
+  "evidenceHash": "62376aa32a7799fd6ff7eaeb2c48ac49db93dab854581098c0c010e1cf78cdf7"
 }

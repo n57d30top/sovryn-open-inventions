@@ -1,12 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-05T18:32:10.812Z",
+  "generatedAt": "2026-05-05T19:37:52.686Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 32
+    "good": 32,
+    "unknown": 1
   },
   "lifecycleCounts": {
-    "autopublished": 6,
+    "autopublished": 7,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -322,6 +323,20 @@
       "specificityScore": 51
     },
     {
+      "slug": "external-scientific-production-result",
+      "qualityLabel": "unknown",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "external-scientific-production-result",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 0,
+      "evidenceStrengthScore": 0,
+      "reproducibilityScore": 0,
+      "publicationSafetyScore": 0,
+      "specificityScore": 75
+    },
+    {
       "slug": "field-grade-autonomous-science-trial",
       "qualityLabel": "excellent",
       "antiTemplateStatus": "unknown",
@@ -532,5 +547,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "da3621ed10dabc45e2eceec19841bf430023ad896684aa38a324f4c73a7561b1"
+  "evidenceHash": "06e68567e5d67b1755eb324b481958f799388f3f52f0de0b6a973cffa8c76b13"
 }

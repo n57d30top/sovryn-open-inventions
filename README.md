@@ -57,6 +57,7 @@ and safety scope in human-readable language.
 - [Energy Usage Anomaly Auditor](results/energy-usage-anomaly-auditor-v3/) — good, showcase, energy-usage-anomaly-auditor, energy-data-quality
 - [Replayable Evidence Chain for Autonomous Research Agents](results/evidence-chain/) — good, superseded, evidence-chain, open-invention-corpus
 - [Replayable Evidence Chain for Autonomous Research Agents](results/evidence-chain-v2/) — good, needs_revision, evidence-chain, open-invention-corpus
+- [External Scientific Production Result](results/external-scientific-production-result/) — unknown, autopublished, external-scientific-production-result, source-evidence-extraction-quality
 - [Field-Grade Autonomous Science Trial](results/field-grade-autonomous-science-trial/) — excellent, superseded, field-grade-autonomous-science-trial, field-grade-scientific-autonomy
 - [Field-Grade Autonomous Science Trial](results/field-grade-autonomous-science-trial-v2/) — excellent, superseded, field-grade-autonomous-science-trial, field-grade-scientific-autonomy
 - [Field-Grade Autonomous Science Trial](results/field-grade-autonomous-science-trial-v3/) — excellent, autopublished, field-grade-autonomous-science-trial, field-grade-scientific-autonomy

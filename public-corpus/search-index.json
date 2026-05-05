@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-05T18:32:10.812Z",
-  "entryCount": 37,
+  "builtAt": "2026-05-05T19:37:52.686Z",
+  "entryCount": 38,
   "entries": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -839,6 +839,57 @@
       ]
     },
     {
+      "slug": "external-scientific-production-result",
+      "title": "External Scientific Production Result",
+      "domain": "source-evidence-extraction-quality",
+      "href": "results/external-scientific-production-result.html",
+      "qualityLabel": "unknown",
+      "publicationStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "external-scientific-production-result",
+      "showcaseRank": null,
+      "terms": [
+        "and",
+        "autopublished",
+        "baseline",
+        "bindings",
+        "campaign",
+        "candidates",
+        "claim",
+        "computational",
+        "evidence",
+        "external",
+        "externally",
+        "extraction",
+        "failures",
+        "grounded",
+        "independent",
+        "kill",
+        "limitations",
+        "losses",
+        "method",
+        "package",
+        "preregistration",
+        "problem",
+        "production",
+        "quality",
+        "rebuild",
+        "rejected",
+        "replication",
+        "reports",
+        "reproduction",
+        "result",
+        "science",
+        "scientific",
+        "search",
+        "source",
+        "this",
+        "tournament",
+        "variants",
+        "week"
+      ]
+    },
+    {
       "slug": "field-grade-autonomous-science-trial",
       "title": "Field-Grade Autonomous Science Trial",
       "domain": "field-grade-scientific-autonomy",
@@ -1476,5 +1527,5 @@
       ]
     }
   ],
-  "evidenceHash": "d54e8be7ec2bb1ca3be532898ba35174512d6d4c728c44061187a3fe585822cc"
+  "evidenceHash": "73be5c1f218617942c4c006be55c705f7fe31ae84186a870b4b5f52cd48e68dc"
 }
