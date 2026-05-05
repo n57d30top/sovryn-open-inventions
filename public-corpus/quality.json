@@ -1,10 +1,11 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-05T08:15:55.737Z",
+  "generatedAt": "2026-05-05T09:26:48.587Z",
   "qualityCounts": {
-    "good": 21
+    "good": 24
   },
   "lifecycleCounts": {
+    "autopublished": 3,
     "needs_revision": 3,
     "showcase": 3,
     "showcase_science": 6,
@@ -52,6 +53,20 @@
       "reproducibilityScore": 100,
       "publicationSafetyScore": 98,
       "specificityScore": 92
+    },
+    {
+      "slug": "chemistry-data-quality-self-built-lab-study",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "chemistry-data-quality-self-built-lab-study",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 100,
+      "publicationSafetyScore": 98,
+      "specificityScore": 95
     },
     {
       "slug": "chemistry-record-auditor-tool",
@@ -164,6 +179,20 @@
       "reproducibilityScore": 100,
       "publicationSafetyScore": 98,
       "specificityScore": 87
+    },
+    {
+      "slug": "energy-data-quality-self-built-lab-study",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "energy-data-quality-self-built-lab-study",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 100,
+      "publicationSafetyScore": 98,
+      "specificityScore": 95
     },
     {
       "slug": "energy-usage-anomaly-auditor",
@@ -292,6 +321,20 @@
       "specificityScore": 75
     },
     {
+      "slug": "software-supply-chain-assurance-self-built-lab-study",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "software-supply-chain-assurance-self-built-lab-study",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 100,
+      "publicationSafetyScore": 98,
+      "specificityScore": 95
+    },
+    {
       "slug": "toolchain-policy",
       "qualityLabel": "good",
       "antiTemplateStatus": "unknown",
@@ -306,5 +349,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "1355cf0923cb6aa168259e30f5834e53f0194b132938ff17fb20aec8c81472fd"
+  "evidenceHash": "6862d94170097a65f9fcb19124a7a15e73a8223794b0582c02363e13aded78b7"
 }

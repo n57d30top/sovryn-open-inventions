@@ -1,0 +1,29 @@
+{
+  "slug": "chemistry-data-quality-self-built-lab-study",
+  "title": "Unit normalization plus provenance scoring improves inconsistent record detection compared with unit normalization alone.",
+  "resultKind": "self_built_lab_science_study",
+  "domain": "chemistry-data-quality",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 90,
+  "reproducibilityScore": 100,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "labNeedsId": "lab-needs-b1200a1e4766",
+  "decisionId": "lab-decision-54ce00600aef",
+  "provisionId": "lab-provision-2db6bfce07ac",
+  "pipelineId": "lab-pipeline-dc0a93641b53",
+  "instrumentCount": 4,
+  "packagesProvisioned": [
+    "pint",
+    "rapidfuzz"
+  ],
+  "nodeAlphaExecution": true,
+  "workerProfile": "container-netoff",
+  "noSilentFallback": true,
+  "publicHygienePassed": true,
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide patentability, legal novelty, or freedom-to-operate opinions.",
+  "evidenceHash": "5cda9eba484bc07477a4014e66f99f7ef1a2770f0897702b3e44955b60185be0"
+}

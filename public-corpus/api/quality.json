@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
-    "good": 21
+    "good": 24
   },
   "results": [
     {
@@ -18,6 +18,11 @@
       "slug": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
       "qualityLabel": "good",
       "releaseReadinessScore": 90
+    },
+    {
+      "slug": "chemistry-data-quality-self-built-lab-study",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
     },
     {
       "slug": "chemistry-record-auditor-tool",
@@ -58,6 +63,11 @@
       "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene",
       "qualityLabel": "good",
       "releaseReadinessScore": 90
+    },
+    {
+      "slug": "energy-data-quality-self-built-lab-study",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
     },
     {
       "slug": "energy-usage-anomaly-auditor",
@@ -105,10 +115,15 @@
       "releaseReadinessScore": 90
     },
     {
+      "slug": "software-supply-chain-assurance-self-built-lab-study",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
       "slug": "toolchain-policy",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "1355cf0923cb6aa168259e30f5834e53f0194b132938ff17fb20aec8c81472fd"
+  "evidenceHash": "6862d94170097a65f9fcb19124a7a15e73a8223794b0582c02363e13aded78b7"
 }

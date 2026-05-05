@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-05T08:15:55.737Z",
+  "updatedAt": "2026-05-05T09:26:48.587Z",
   "groups": [
     {
       "versionGroup": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an",
@@ -21,6 +21,13 @@
       "latestSlug": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
       "resultSlugs": [
         "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco"
+      ]
+    },
+    {
+      "versionGroup": "chemistry-data-quality-self-built-lab-study",
+      "latestSlug": "chemistry-data-quality-self-built-lab-study",
+      "resultSlugs": [
+        "chemistry-data-quality-self-built-lab-study"
       ]
     },
     {
@@ -53,6 +60,13 @@
       "latestSlug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene",
       "resultSlugs": [
         "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene"
+      ]
+    },
+    {
+      "versionGroup": "energy-data-quality-self-built-lab-study",
+      "latestSlug": "energy-data-quality-self-built-lab-study",
+      "resultSlugs": [
+        "energy-data-quality-self-built-lab-study"
       ]
     },
     {
@@ -89,6 +103,13 @@
       ]
     },
     {
+      "versionGroup": "software-supply-chain-assurance-self-built-lab-study",
+      "latestSlug": "software-supply-chain-assurance-self-built-lab-study",
+      "resultSlugs": [
+        "software-supply-chain-assurance-self-built-lab-study"
+      ]
+    },
+    {
       "versionGroup": "toolchain-policy",
       "latestSlug": "toolchain-policy",
       "resultSlugs": [
@@ -96,5 +117,5 @@
       ]
     }
   ],
-  "evidenceHash": "04139f367cc84be947d2f8d99b1fd1ec448c00657327ffafef9631603edc6875"
+  "evidenceHash": "7688906c3da2d9f0dba3392ebdac61b55cd766a2ce0346fc57c6215c1d13c6aa"
 }

@@ -1,0 +1,29 @@
+{
+  "slug": "software-supply-chain-assurance-self-built-lab-study",
+  "title": "Dependency provenance plus test-impact signals improves detection of risky synthetic AI-generated patches compared with diff-pattern-only baselines.",
+  "resultKind": "self_built_lab_science_study",
+  "domain": "software-supply-chain-assurance",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 90,
+  "reproducibilityScore": 100,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "labNeedsId": "lab-needs-486b778122cc",
+  "decisionId": "lab-decision-9099313b9ba0",
+  "provisionId": "lab-provision-afed5c213917",
+  "pipelineId": "lab-pipeline-edbb2a3f893d",
+  "instrumentCount": 4,
+  "packagesProvisioned": [
+    "simple-git",
+    "acorn"
+  ],
+  "nodeAlphaExecution": true,
+  "workerProfile": "container-netoff",
+  "noSilentFallback": true,
+  "publicHygienePassed": true,
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide patentability, legal novelty, or freedom-to-operate opinions.",
+  "evidenceHash": "4897e7dd727b7935b6015ecb1a4310e895225b45a62ff50432f6d918bd6a259d"
+}

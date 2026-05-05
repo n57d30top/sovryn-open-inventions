@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-05T08:15:55.737Z",
+  "generatedAt": "2026-05-05T09:26:48.587Z",
   "nodes": [
     {
       "id": "result:chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -18,6 +18,12 @@
       "id": "result:chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
       "kind": "result",
       "label": "Does unit-normalization plus provenance scoring improve detection of inconsistent chemistry-style molecular property records compared with unit normalization alone?",
+      "domain": "chemistry-data-quality"
+    },
+    {
+      "id": "result:chemistry-data-quality-self-built-lab-study",
+      "kind": "result",
+      "label": "Unit normalization plus provenance scoring improves inconsistent record detection compared with unit normalization alone.",
       "domain": "chemistry-data-quality"
     },
     {
@@ -66,6 +72,12 @@
       "id": "result:energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene",
       "kind": "result",
       "label": "Do provenance-aware anomaly scoring methods remain stable when synthetic energy-usage datasets include real-data proxy limitations and missing intervals?",
+      "domain": "energy-data-quality"
+    },
+    {
+      "id": "result:energy-data-quality-self-built-lab-study",
+      "kind": "result",
+      "label": "Provenance-aware anomaly scoring reduces false positives compared with simple threshold baselines.",
       "domain": "energy-data-quality"
     },
     {
@@ -123,6 +135,12 @@
       "domain": "software-supply-chain-assurance"
     },
     {
+      "id": "result:software-supply-chain-assurance-self-built-lab-study",
+      "kind": "result",
+      "label": "Dependency provenance plus test-impact signals improves detection of risky synthetic AI-generated patches compared with diff-pattern-only baselines.",
+      "domain": "software-supply-chain-assurance"
+    },
+    {
       "id": "result:toolchain-policy",
       "kind": "result",
       "label": "Policy-Gated Toolchain Installation Protocol",
@@ -164,14 +182,34 @@
       "label": "pint"
     },
     {
+      "id": "tool:rapidfuzz",
+      "kind": "tool",
+      "label": "rapidfuzz"
+    },
+    {
+      "id": "tool:numpy",
+      "kind": "tool",
+      "label": "numpy"
+    },
+    {
       "id": "tool:pandas",
       "kind": "tool",
       "label": "pandas"
     },
     {
+      "id": "tool:python-dateutil",
+      "kind": "tool",
+      "label": "python-dateutil"
+    },
+    {
       "id": "tool:acorn",
       "kind": "tool",
       "label": "acorn"
+    },
+    {
+      "id": "tool:simple-git",
+      "kind": "tool",
+      "label": "simple-git"
     }
   ],
   "edges": [
@@ -189,6 +227,21 @@
       "source": "result:chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
       "target": "domain:chemistry-data-quality",
       "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:chemistry-data-quality-self-built-lab-study",
+      "target": "domain:chemistry-data-quality",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:chemistry-data-quality-self-built-lab-study",
+      "target": "tool:pint",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:chemistry-data-quality-self-built-lab-study",
+      "target": "tool:rapidfuzz",
+      "relation": "uses_public_tool_evidence"
     },
     {
       "source": "result:chemistry-record-auditor-tool",
@@ -249,6 +302,26 @@
       "source": "result:energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene",
       "target": "domain:energy-data-quality",
       "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:energy-data-quality-self-built-lab-study",
+      "target": "domain:energy-data-quality",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:energy-data-quality-self-built-lab-study",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:energy-data-quality-self-built-lab-study",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:energy-data-quality-self-built-lab-study",
+      "target": "tool:python-dateutil",
+      "relation": "uses_public_tool_evidence"
     },
     {
       "source": "result:energy-usage-anomaly-auditor",
@@ -326,10 +399,25 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:software-supply-chain-assurance-self-built-lab-study",
+      "target": "domain:software-supply-chain-assurance",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:software-supply-chain-assurance-self-built-lab-study",
+      "target": "tool:acorn",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:software-supply-chain-assurance-self-built-lab-study",
+      "target": "tool:simple-git",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
       "source": "result:toolchain-policy",
       "target": "domain:node-toolchain-policy",
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "9b75cb34b6c0802ed176004d23c01189d7f087eb82b6836e63138aa91b54bf35"
+  "evidenceHash": "4576606cb7c17379e490c57880ead7738dacd49ebfca266b997a8f161ed903e1"
 }

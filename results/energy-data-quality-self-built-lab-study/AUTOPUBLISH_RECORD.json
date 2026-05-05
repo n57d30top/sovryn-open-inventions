@@ -1,0 +1,19 @@
+{
+  "resultId": "energy-data-quality-self-built-lab-study",
+  "slug": "energy-data-quality-self-built-lab-study",
+  "title": "Provenance-aware anomaly scoring reduces false positives compared with simple threshold baselines.",
+  "sourceType": "self_building_lab_trial",
+  "publishedBy": "sovryn-lab-autopublish",
+  "humanReviewRequired": false,
+  "automatedPolicyVersion": "3.4.0-rc.1-lab-policy",
+  "targetRepo": "https://github.com/n57d30top/sovryn-open-inventions",
+  "targetPath": "results/energy-data-quality-self-built-lab-study",
+  "pushed": false,
+  "dryRun": false,
+  "qualityLabel": "good",
+  "replayCriticalPassRate": 100,
+  "publicHygienePassed": true,
+  "noCriticalFailures": true,
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide patentability, legal novelty, or freedom-to-operate opinions.",
+  "evidenceHash": "d9306fa53ab4587f6520b702adb043fdf5f480e54b626634d04ee8ce987b7f40"
+}

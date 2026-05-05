@@ -29,6 +29,15 @@
       "pushed": false
     },
     {
+      "slug": "chemistry-data-quality-self-built-lab-study",
+      "path": "results/chemistry-data-quality-self-built-lab-study",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "chemistry-data-quality-self-built-lab-study",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "chemistry-record-auditor-tool",
       "path": "results/chemistry-record-auditor-tool",
       "status": "autopublished",
@@ -97,6 +106,15 @@
       "status": "autopublished",
       "lifecycleStatus": "showcase_science",
       "versionGroup": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthet",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "energy-data-quality-self-built-lab-study",
+      "path": "results/energy-data-quality-self-built-lab-study",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "energy-data-quality-self-built-lab-study",
       "supersededBy": null,
       "pushed": false
     },
@@ -182,6 +200,15 @@
       "pushed": false
     },
     {
+      "slug": "software-supply-chain-assurance-self-built-lab-study",
+      "path": "results/software-supply-chain-assurance-self-built-lab-study",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "software-supply-chain-assurance-self-built-lab-study",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "toolchain-policy",
       "path": "results/toolchain-policy",
       "status": "autopublished",
@@ -191,5 +218,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "c0e3ce1d7803b85e5a20bc24e6a115f891545d089309c76a8ddbde009901d020"
+  "evidenceHash": "2e35e6661e9c05d4392356812162e7566d305a62d87c9428910010b5ba4ea32c"
 }

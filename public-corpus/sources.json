@@ -1,7 +1,19 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-05T08:15:55.737Z",
+  "generatedAt": "2026-05-05T09:26:48.587Z",
   "sources": [
+    {
+      "resultSlug": "chemistry-data-quality-self-built-lab-study",
+      "sourceKind": "external_package_or_tool",
+      "name": "pint",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "chemistry-data-quality-self-built-lab-study",
+      "sourceKind": "external_package_or_tool",
+      "name": "rapidfuzz",
+      "publicOnly": true
+    },
     {
       "resultSlug": "chemistry-record-auditor-tool",
       "sourceKind": "external_package_or_tool",
@@ -24,6 +36,24 @@
       "resultSlug": "chemistry-record-auditor-tool-v2-v3",
       "sourceKind": "external_package_or_tool",
       "name": "pint",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "energy-data-quality-self-built-lab-study",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "energy-data-quality-self-built-lab-study",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "energy-data-quality-self-built-lab-study",
+      "sourceKind": "external_package_or_tool",
+      "name": "python-dateutil",
       "publicOnly": true
     },
     {
@@ -61,7 +91,19 @@
       "sourceKind": "external_package_or_tool",
       "name": "acorn",
       "publicOnly": true
+    },
+    {
+      "resultSlug": "software-supply-chain-assurance-self-built-lab-study",
+      "sourceKind": "external_package_or_tool",
+      "name": "acorn",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "software-supply-chain-assurance-self-built-lab-study",
+      "sourceKind": "external_package_or_tool",
+      "name": "simple-git",
+      "publicOnly": true
     }
   ],
-  "evidenceHash": "6b8004bf4d6abc68c8ef22fd4ea0c16359670751ddc4169b00125f18400e3a32"
+  "evidenceHash": "7ed0e47ccd019e7c4c022b7c367a31e66c54e018af2771fc2e5e2b2a4b713eb6"
 }

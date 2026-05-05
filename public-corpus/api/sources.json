@@ -17,6 +17,14 @@
       "customTool": "mol-record-auditor"
     },
     {
+      "slug": "chemistry-data-quality-self-built-lab-study",
+      "externalPackages": [
+        "pint",
+        "rapidfuzz"
+      ],
+      "customTool": "mol-record-auditor"
+    },
+    {
       "slug": "chemistry-record-auditor-tool",
       "externalPackages": [
         "pint"
@@ -62,6 +70,15 @@
     {
       "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene",
       "externalPackages": [],
+      "customTool": "energy-record-auditor"
+    },
+    {
+      "slug": "energy-data-quality-self-built-lab-study",
+      "externalPackages": [
+        "numpy",
+        "pandas",
+        "python-dateutil"
+      ],
       "customTool": "energy-record-auditor"
     },
     {
@@ -122,10 +139,18 @@
       "customTool": null
     },
     {
+      "slug": "software-supply-chain-assurance-self-built-lab-study",
+      "externalPackages": [
+        "acorn",
+        "simple-git"
+      ],
+      "customTool": "patch-risk-auditor"
+    },
+    {
       "slug": "toolchain-policy",
       "externalPackages": [],
       "customTool": null
     }
   ],
-  "evidenceHash": "6b8004bf4d6abc68c8ef22fd4ea0c16359670751ddc4169b00125f18400e3a32"
+  "evidenceHash": "7ed0e47ccd019e7c4c022b7c367a31e66c54e018af2771fc2e5e2b2a4b713eb6"
 }

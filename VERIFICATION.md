@@ -1,6 +1,6 @@
 # Verification
 
-Indexed public results: 21
+Indexed public results: 24
 
 ## Public Corpus Product Gates
 
@@ -12,10 +12,11 @@ Indexed public results: 21
 
 ## Result Status Counts
 
-- autopublished: 21
+- autopublished: 24
 
 ## Lifecycle Counts
 
+- autopublished: 3
 - needs_revision: 3
 - showcase: 3
 - showcase_science: 6
