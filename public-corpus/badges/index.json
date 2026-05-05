@@ -1,18 +1,54 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-05T05:27:24.093Z",
+  "generatedAt": "2026-05-05T07:53:58.993Z",
   "badges": [
     {
-      "slug": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
+      "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "badges": {
-        "quality": "science_study",
+        "quality": "good",
         "status": "autopublished",
         "antiTemplate": "unknown",
         "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
-        "falsification": "not_evaluated",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconf",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "passes_falsification",
         "lifecycle": "autopublished",
         "version": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-o",
         "showcase": "not-showcase"
@@ -111,18 +147,54 @@
       "showcaseRank": null
     },
     {
-      "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe",
+      "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-public",
       "badges": {
-        "quality": "science_study",
+        "quality": "good",
         "status": "autopublished",
         "antiTemplate": "unknown",
         "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
-        "falsification": "not_evaluated",
+        "falsification": "passes_falsification",
+        "lifecycle": "superseded",
+        "version": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "superseded",
+      "showcaseRank": null
+    },
+    {
+      "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "passes_falsification",
         "lifecycle": "autopublished",
         "version": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthet",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -273,6 +345,24 @@
       "showcaseRank": 3
     },
     {
+      "slug": "software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
       "slug": "toolchain-policy",
       "badges": {
         "quality": "good",
@@ -291,5 +381,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "b1cc2339392c8b2892baff7ad234824e00e5e747e1dc8f78c3c843c774c80a84"
+  "evidenceHash": "7666d5c0d258a726dc2501a592e1704d1f416095c540e0d28a775cece87ed4c6"
 }

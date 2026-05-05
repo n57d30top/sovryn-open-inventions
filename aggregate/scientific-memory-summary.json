@@ -1,16 +1,37 @@
 {
   "kind": "public_corpus_scientific_memory_summary",
-  "updatedAt": "2026-05-05T05:27:24.093Z",
-  "studyCount": 2,
+  "updatedAt": "2026-05-05T07:53:58.993Z",
+  "studyCount": 7,
   "resultLabels": {
-    "partially_supported": 2
+    "partially_supported": 7
   },
-  "memoryUpdatedCount": 2,
+  "memoryUpdatedCount": 7,
   "domains": {
-    "chemistry-data-quality": 1,
-    "energy-data-quality": 1
+    "chemistry-data-quality": 3,
+    "energy-data-quality": 3,
+    "software-supply-chain-assurance": 1
   },
   "studies": [
+    {
+      "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
+      "title": "Can safe public dataset reliability checks identify schema drift and duplicate scientific records without using private data?",
+      "domain": "chemistry-data-quality",
+      "scientificQuestion": "Can safe public dataset reliability checks identify schema drift and duplicate scientific records without using private data?",
+      "studyResultLabel": "partially_supported",
+      "replicationRunCount": 3,
+      "falsificationStatus": "passes_falsification",
+      "scientificMemoryUpdated": true
+    },
+    {
+      "slug": "chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-",
+      "title": "Does explicit low-confidence identifier equivalence reduce overconfident chemistry-style record audits when unit-normalized values agree?",
+      "domain": "chemistry-data-quality",
+      "scientificQuestion": "Does explicit low-confidence identifier equivalence reduce overconfident chemistry-style record audits when unit-normalized values agree?",
+      "studyResultLabel": "partially_supported",
+      "replicationRunCount": 3,
+      "falsificationStatus": "passes_falsification",
+      "scientificMemoryUpdated": true
+    },
     {
       "slug": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
       "title": "Does unit-normalization plus provenance scoring improve detection of inconsistent chemistry-style molecular property records compared with unit normalization alone?",
@@ -18,7 +39,17 @@
       "scientificQuestion": "Does unit-normalization plus provenance scoring improve detection of inconsistent chemistry-style molecular property records compared with unit normalization alone?",
       "studyResultLabel": "partially_supported",
       "replicationRunCount": 3,
-      "falsificationStatus": "not_evaluated",
+      "falsificationStatus": "passes_falsification",
+      "scientificMemoryUpdated": true
+    },
+    {
+      "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-public",
+      "title": "Do provenance-aware anomaly scoring methods reduce false positives in public-weather-proxy energy datasets compared with simple threshold baselines?",
+      "domain": "energy-data-quality",
+      "scientificQuestion": "Do provenance-aware anomaly scoring methods reduce false positives in public-weather-proxy energy datasets compared with simple threshold baselines?",
+      "studyResultLabel": "partially_supported",
+      "replicationRunCount": 3,
+      "falsificationStatus": "passes_falsification",
       "scientificMemoryUpdated": true
     },
     {
@@ -28,10 +59,30 @@
       "scientificQuestion": "Do provenance-aware anomaly scoring methods reduce false positives in synthetic energy-usage datasets compared with simple threshold baselines?",
       "studyResultLabel": "partially_supported",
       "replicationRunCount": 3,
-      "falsificationStatus": "not_evaluated",
+      "falsificationStatus": "passes_falsification",
+      "scientificMemoryUpdated": true
+    },
+    {
+      "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene",
+      "title": "Do provenance-aware anomaly scoring methods remain stable when synthetic energy-usage datasets include real-data proxy limitations and missing intervals?",
+      "domain": "energy-data-quality",
+      "scientificQuestion": "Do provenance-aware anomaly scoring methods remain stable when synthetic energy-usage datasets include real-data proxy limitations and missing intervals?",
+      "studyResultLabel": "partially_supported",
+      "replicationRunCount": 3,
+      "falsificationStatus": "passes_falsification",
+      "scientificMemoryUpdated": true
+    },
+    {
+      "slug": "software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth",
+      "title": "Do dependency-provenance features improve risk scoring for synthetic AI-generated pull requests compared with diff-pattern-only baselines?",
+      "domain": "software-supply-chain-assurance",
+      "scientificQuestion": "Do dependency-provenance features improve risk scoring for synthetic AI-generated pull requests compared with diff-pattern-only baselines?",
+      "studyResultLabel": "partially_supported",
+      "replicationRunCount": 3,
+      "falsificationStatus": "passes_falsification",
       "scientificMemoryUpdated": true
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "3e9bff9f0fa7b8c2e23489f01210784213ceef3f2c3f5a379f23a5aa68edb709"
+  "evidenceHash": "3fac22f775c0b71352b36f400bc10c1e283706dd0a8cb4fda69e60bfa7a7cf49"
 }

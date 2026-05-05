@@ -11,7 +11,7 @@ This is an autonomous computational-science artifact published by Sovryn after a
 - Null hypotheses present: true
 - Experiments: 1
 - Replication runs: 3
-- Falsification status: passed
+- Falsification status: passes_falsification
 - Replay critical pass rate: 100
 
 ## Public Evidence

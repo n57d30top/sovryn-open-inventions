@@ -35,13 +35,17 @@ and safety scope in human-readable language.
 
 ## Results
 
-- [Does unit-normalization plus provenance scoring improve detection of inconsistent chemistry-style molecular property records compared with unit normalization alone?](results/chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco/) — science_study, autopublished, chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-o, chemistry-data-quality
+- [Can safe public dataset reliability checks identify schema drift and duplicate scientific records without using private data?](results/chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl/) — good, autopublished, chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an, chemistry-data-quality
+- [Does explicit low-confidence identifier equivalence reduce overconfident chemistry-style record audits when unit-normalized values agree?](results/chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-/) — good, autopublished, chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconf, chemistry-data-quality
+- [Does unit-normalization plus provenance scoring improve detection of inconsistent chemistry-style molecular property records compared with unit normalization alone?](results/chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco/) — good, autopublished, chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-o, chemistry-data-quality
 - [Molecular Record Auditor for Chemistry-Style Dataset Quality](results/chemistry-record-auditor-tool/) — good, superseded, chemistry-record-auditor-tool, chemistry-data-quality
 - [Molecular Record Auditor for Chemistry-Style Dataset Quality](results/chemistry-record-auditor-tool-v2/) — good, superseded, chemistry-record-auditor-tool, chemistry-data-quality
 - [Molecular Record Auditor for Chemistry-Style Dataset Quality](results/chemistry-record-auditor-tool-v2-v2/) — good, superseded, chemistry-record-auditor-tool, chemistry-data-quality
 - [Molecular Record Auditor for Chemistry-Style Dataset Quality](results/chemistry-record-auditor-tool-v2-v3/) — good, showcase, chemistry-record-auditor-tool, chemistry-data-quality
 - [Corpus Deduplication for Defensive Publications](results/corpus-deduplication/) — good, needs_revision, corpus-deduplication, open-invention-corpus
-- [Do provenance-aware anomaly scoring methods reduce false positives in synthetic energy-usage datasets compared with simple threshold baselines?](results/energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe/) — science_study, autopublished, energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-, energy-data-quality
+- [Do provenance-aware anomaly scoring methods reduce false positives in public-weather-proxy energy datasets compared with simple threshold baselines?](results/energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-public/) — good, superseded, energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-, energy-data-quality
+- [Do provenance-aware anomaly scoring methods reduce false positives in synthetic energy-usage datasets compared with simple threshold baselines?](results/energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe/) — good, autopublished, energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-, energy-data-quality
+- [Do provenance-aware anomaly scoring methods remain stable when synthetic energy-usage datasets include real-data proxy limitations and missing intervals?](results/energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene/) — good, autopublished, energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthet, energy-data-quality
 - [Energy Usage Anomaly Auditor](results/energy-usage-anomaly-auditor/) — good, superseded, energy-usage-anomaly-auditor, energy-data-quality
 - [Energy Usage Anomaly Auditor](results/energy-usage-anomaly-auditor-v2/) — good, superseded, energy-usage-anomaly-auditor, energy-data-quality
 - [Energy Usage Anomaly Auditor](results/energy-usage-anomaly-auditor-v3/) — good, showcase, energy-usage-anomaly-auditor, energy-data-quality
@@ -50,6 +54,7 @@ and safety scope in human-readable language.
 - [Patch Risk Auditor](results/patch-risk-auditor/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v2/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v3/) — good, showcase, patch-risk-auditor, software-supply-chain
+- [Do dependency-provenance features improve risk scoring for synthetic AI-generated pull requests compared with diff-pattern-only baselines?](results/software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth/) — good, autopublished, software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for, software-supply-chain-assurance
 - [Policy-Gated Toolchain Installation Protocol](results/toolchain-policy/) — good, needs_revision, toolchain-policy, node-toolchain-policy
 
 ## Corpus Lifecycle

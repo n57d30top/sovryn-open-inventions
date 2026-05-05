@@ -2,6 +2,16 @@
   "kind": "public_corpus_api_sources",
   "sources": [
     {
+      "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
+      "externalPackages": [],
+      "customTool": "mol-record-auditor"
+    },
+    {
+      "slug": "chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-",
+      "externalPackages": [],
+      "customTool": "mol-record-auditor"
+    },
+    {
       "slug": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
       "externalPackages": [],
       "customTool": "mol-record-auditor"
@@ -40,7 +50,17 @@
       "customTool": null
     },
     {
+      "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-public",
+      "externalPackages": [],
+      "customTool": "energy-record-auditor"
+    },
+    {
       "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe",
+      "externalPackages": [],
+      "customTool": "energy-record-auditor"
+    },
+    {
+      "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene",
       "externalPackages": [],
       "customTool": "energy-record-auditor"
     },
@@ -97,10 +117,15 @@
       "customTool": "patch-risk-auditor"
     },
     {
+      "slug": "software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "toolchain-policy",
       "externalPackages": [],
       "customTool": null
     }
   ],
-  "evidenceHash": "424921ec5f86a4f451719cc59e8a8f357d280c344936ffeba58cb72bb6ce0445"
+  "evidenceHash": "6b8004bf4d6abc68c8ef22fd4ea0c16359670751ddc4169b00125f18400e3a32"
 }

@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_superseded_map",
-  "updatedAt": "2026-05-05T05:27:24.093Z",
+  "updatedAt": "2026-05-05T07:53:58.993Z",
   "results": [
     {
       "slug": "chemistry-record-auditor-tool",
@@ -16,6 +16,11 @@
       "slug": "chemistry-record-auditor-tool-v2-v2",
       "supersededBy": "chemistry-record-auditor-tool-v2-v3",
       "versionGroup": "chemistry-record-auditor-tool"
+    },
+    {
+      "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-public",
+      "supersededBy": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe",
+      "versionGroup": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-"
     },
     {
       "slug": "energy-usage-anomaly-auditor",
@@ -43,5 +48,5 @@
       "versionGroup": "patch-risk-auditor"
     }
   ],
-  "evidenceHash": "f45bcec091c4ff6e32dc57d30d0af7cb2117948a9bb73f7defadbc6ae4f0e7fd"
+  "evidenceHash": "6c458b5c7f0dd86bd9f1de0d8eb3511f9766a90da27e93ea4fde1c1ddac64ab6"
 }

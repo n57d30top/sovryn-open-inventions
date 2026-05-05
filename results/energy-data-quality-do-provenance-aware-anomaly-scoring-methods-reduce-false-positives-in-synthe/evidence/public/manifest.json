@@ -2,6 +2,10 @@
   "kind": "science_study_public_evidence_manifest",
   "files": [
     "README.md",
+    "SHOWCASE.md",
+    "METHOD.md",
+    "REPRODUCE.md",
+    "EXAMPLES.md",
     "SCIENTIFIC_REPORT.md",
     "PAPER.md",
     "HYPOTHESES.md",
@@ -14,11 +18,13 @@
     "SENSITIVITY_ANALYSIS.md",
     "REPLICATION.md",
     "FALSIFICATION.md",
+    "PEER_REVIEW.md",
+    "STATISTICAL_INTERPRETATION.md",
     "SCIENTIFIC_MEMORY_UPDATE.md",
     "LIMITATIONS.md"
   ],
   "rawLogsIncluded": false,
   "secretsIncluded": false,
   "localPathsIncluded": false,
-  "evidenceHash": "8fff68b0bc35eb7b2f6c7cda348dc18381e869c8efb37dd42823ea138f3b7f0d"
+  "evidenceHash": "872f52459487325ee951cdf74db5a2a870d598c22ebc779e6be767caee9d2289"
 }

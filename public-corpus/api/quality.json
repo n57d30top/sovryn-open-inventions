@@ -1,14 +1,23 @@
 {
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
-    "good": 14,
-    "science_study": 2
+    "good": 21
   },
   "results": [
     {
+      "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
       "slug": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
-      "qualityLabel": "science_study",
-      "releaseReadinessScore": 0
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
     },
     {
       "slug": "chemistry-record-auditor-tool",
@@ -36,9 +45,19 @@
       "releaseReadinessScore": 88
     },
     {
+      "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-public",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
       "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe",
-      "qualityLabel": "science_study",
-      "releaseReadinessScore": 0
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
     },
     {
       "slug": "energy-usage-anomaly-auditor",
@@ -81,10 +100,15 @@
       "releaseReadinessScore": 88
     },
     {
+      "slug": "software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
       "slug": "toolchain-policy",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "25b7043225b39cf3c3d58e1b12e93e8cfd2e60cb1cd9b68d49c700cd5a890501"
+  "evidenceHash": "1355cf0923cb6aa168259e30f5834e53f0194b132938ff17fb20aec8c81472fd"
 }

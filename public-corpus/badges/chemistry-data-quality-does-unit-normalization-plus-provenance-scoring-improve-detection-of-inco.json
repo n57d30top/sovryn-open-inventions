@@ -2,19 +2,19 @@
   "kind": "public_corpus_result_badges",
   "slug": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
   "badges": {
-    "quality": "science_study",
+    "quality": "good",
     "status": "autopublished",
     "antiTemplate": "unknown",
     "replay": "replay-100",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
     "worker": "container-netoff",
-    "falsification": "not_evaluated",
+    "falsification": "passes_falsification",
     "lifecycle": "autopublished",
     "version": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-o",
     "showcase": "not-showcase"
   },
   "lifecycleStatus": "autopublished",
   "showcaseRank": null,
-  "evidenceHash": "264ad8938ace5020edeb3db0e8b74da17699d307952eaa592753d7b1d224dfae"
+  "evidenceHash": "669a1c4fc3fe2cdbe3f2bbc2b8709927a3a858cfc1ff42d964b25c9f87ac9e9e"
 }

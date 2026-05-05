@@ -1,7 +1,21 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-05T05:27:24.093Z",
+  "updatedAt": "2026-05-05T07:53:58.993Z",
   "groups": [
+    {
+      "versionGroup": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an",
+      "latestSlug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
+      "resultSlugs": [
+        "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl"
+      ]
+    },
+    {
+      "versionGroup": "chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconf",
+      "latestSlug": "chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-",
+      "resultSlugs": [
+        "chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-"
+      ]
+    },
     {
       "versionGroup": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-o",
       "latestSlug": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
@@ -30,7 +44,15 @@
       "versionGroup": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-",
       "latestSlug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe",
       "resultSlugs": [
+        "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-public",
         "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe"
+      ]
+    },
+    {
+      "versionGroup": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthet",
+      "latestSlug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene",
+      "resultSlugs": [
+        "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene"
       ]
     },
     {
@@ -60,6 +82,13 @@
       ]
     },
     {
+      "versionGroup": "software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for",
+      "latestSlug": "software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth",
+      "resultSlugs": [
+        "software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth"
+      ]
+    },
+    {
       "versionGroup": "toolchain-policy",
       "latestSlug": "toolchain-policy",
       "resultSlugs": [
@@ -67,5 +96,5 @@
       ]
     }
   ],
-  "evidenceHash": "e1c89356605b5cc3865e7350a732943467ccbe57524b2a4d499c36c83465c166"
+  "evidenceHash": "04139f367cc84be947d2f8d99b1fd1ec448c00657327ffafef9631603edc6875"
 }

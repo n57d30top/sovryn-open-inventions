@@ -2,6 +2,24 @@
   "kind": "public_corpus_api_releases",
   "releases": [
     {
+      "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
+      "path": "results/chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-",
+      "path": "results/chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconf",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
       "path": "results/chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
       "status": "autopublished",
@@ -56,11 +74,29 @@
       "pushed": false
     },
     {
+      "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-public",
+      "path": "results/energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-public",
+      "status": "autopublished",
+      "lifecycleStatus": "superseded",
+      "versionGroup": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-",
+      "supersededBy": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe",
+      "pushed": false
+    },
+    {
       "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe",
       "path": "results/energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe",
       "status": "autopublished",
       "lifecycleStatus": "autopublished",
       "versionGroup": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene",
+      "path": "results/energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthet",
       "supersededBy": null,
       "pushed": false
     },
@@ -137,6 +173,15 @@
       "pushed": true
     },
     {
+      "slug": "software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth",
+      "path": "results/software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "toolchain-policy",
       "path": "results/toolchain-policy",
       "status": "autopublished",
@@ -146,5 +191,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "8725088517fe53ebfc4e143cceb77c77348e688259c5e1713e21f082aa515f21"
+  "evidenceHash": "c0e3ce1d7803b85e5a20bc24e6a115f891545d089309c76a8ddbde009901d020"
 }
