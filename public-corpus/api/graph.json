@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-05T15:32:15.441Z",
+  "generatedAt": "2026-05-05T16:15:10.698Z",
   "nodes": [
     {
       "id": "result:autonomous-research-strategy-trial",
@@ -153,6 +153,12 @@
       "domain": "field-grade-scientific-autonomy"
     },
     {
+      "id": "result:frontier-scientific-production-trial",
+      "kind": "result",
+      "label": "Frontier Scientific Production Trial",
+      "domain": "provenance-aware-data-quality-methods"
+    },
+    {
       "id": "result:patch-risk-auditor",
       "kind": "result",
       "label": "Patch Risk Auditor",
@@ -242,6 +248,11 @@
       "id": "domain:field-grade-scientific-autonomy",
       "kind": "domain",
       "label": "field-grade-scientific-autonomy"
+    },
+    {
+      "id": "domain:provenance-aware-data-quality-methods",
+      "kind": "domain",
+      "label": "provenance-aware-data-quality-methods"
     },
     {
       "id": "domain:software-supply-chain",
@@ -531,6 +542,11 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:frontier-scientific-production-trial",
+      "target": "domain:provenance-aware-data-quality-methods",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:patch-risk-auditor",
       "target": "domain:software-supply-chain",
       "relation": "belongs_to_domain"
@@ -636,5 +652,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "4701422635517bc7f2f0803fe44e7cfc561111e942b39b8afebf7b985cb1afcf"
+  "evidenceHash": "ab28bc9bff8d784416c505e77b758e1fd5eb2074540bacead29e498c5f587f6f"
 }

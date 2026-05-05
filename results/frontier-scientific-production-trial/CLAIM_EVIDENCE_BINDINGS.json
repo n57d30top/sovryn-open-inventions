@@ -1,0 +1,44 @@
+{
+  "kind": "frontier_claim_evidence_bindings",
+  "targetVersion": "4.2.0-rc.1",
+  "bindingCount": 6,
+  "bindings": [
+    {
+      "claimId": "frontier-claim-benchmark-program",
+      "claimText": "The campaign used a verified benchmark expansion program with explicit degraded-source labels.",
+      "evidenceHash": "722884949040a0d449334db9641a643e6515efa5fb6250333d6cbffe3195a3d7",
+      "supportStatus": "supported_with_limitations"
+    },
+    {
+      "claimId": "frontier-claim-candidate-generation",
+      "claimText": "The candidate factory generated at least 1000 method variants and implemented 20 runnable prototypes.",
+      "evidenceHash": "8fc123b4f096a79fb5eaea667ad84652561d4093d40f73c44165e8407c47d24c",
+      "supportStatus": "supported"
+    },
+    {
+      "claimId": "frontier-claim-baseline-dominance",
+      "claimText": "Most implemented candidates were rejected by strong baseline-dominance falsification.",
+      "evidenceHash": "157392971ee9a1ecf73713fd63fcb7c520dbf9708bd07300f1ef6c7ab4a891a2",
+      "supportStatus": "supported_negative_evidence"
+    },
+    {
+      "claimId": "frontier-claim-replication-supported",
+      "claimText": "At most one surviving candidate is replication-supported under the bounded independent variants.",
+      "evidenceHash": "445aec9a8cc52921788defe676116093d469c3771ba3c50913667d8b31acee3b",
+      "supportStatus": "promising_unproven"
+    },
+    {
+      "claimId": "frontier-claim-no-breakthrough",
+      "claimText": "The result does not claim a breakthrough; labels remain evidence-bound and limitation-bound.",
+      "evidenceHash": "eb5845cb2da61d0bd25345df626570820dcb9a93857a62c1c4a1a86a8cb56751",
+      "supportStatus": "safety_scope"
+    },
+    {
+      "claimId": "frontier-claim-negative-results",
+      "claimText": "Rejected candidates, losses, and baseline wins are included as scientific output.",
+      "evidenceHash": "84fd51024849bc5c11e0bb7b7f31af273fadf1892e32dfdccb943ea8c2f9af3b",
+      "supportStatus": "supported"
+    }
+  ],
+  "evidenceHash": "ab6519ae9582f00564a7176c353e562986bd7f6da7765086fec24097d7e7e0e4"
+}

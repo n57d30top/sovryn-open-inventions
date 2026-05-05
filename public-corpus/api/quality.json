@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
-    "excellent": 4,
+    "excellent": 5,
     "good": 32
   },
   "results": [
@@ -131,6 +131,11 @@
       "releaseReadinessScore": 93
     },
     {
+      "slug": "frontier-scientific-production-trial",
+      "qualityLabel": "excellent",
+      "releaseReadinessScore": 92
+    },
+    {
       "slug": "patch-risk-auditor",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
@@ -186,5 +191,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "38486660774345c0f450fd89a3cb7d61f688dadf0f38bccb4157f98ef3f057a7"
+  "evidenceHash": "da3621ed10dabc45e2eceec19841bf430023ad896684aa38a324f4c73a7561b1"
 }

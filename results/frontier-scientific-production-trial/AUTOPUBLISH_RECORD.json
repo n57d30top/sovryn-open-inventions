@@ -1,0 +1,14 @@
+{
+  "resultId": "frontier-scientific-production-trial",
+  "slug": "frontier-scientific-production-trial",
+  "publishedBy": "sovryn-frontier-production-autopublish",
+  "automatedPolicyVersion": "4.2.0-rc.1-frontier-production-policy",
+  "targetRepo": "https://github.com/n57d30top/sovryn-open-inventions",
+  "targetPath": "results/frontier-scientific-production-trial",
+  "pushed": true,
+  "dryRun": false,
+  "publicHygienePassed": true,
+  "noCriticalFailures": true,
+  "disclaimer": "Frontier scientific production artifact. Safe computational science only: public or public-safe datasets, verified benchmark metadata, benchmarks, baseline comparisons, ablations, sensitivity tests, independent replication variants, adversarial falsification, negative results, and evidence-bound claims. This is not wet-lab guidance, hazardous chemistry, medical advice, exploit guidance, a patent filing, a patentability opinion, legal novelty advice, freedom-to-operate advice, or a guarantee of scientific truth.",
+  "evidenceHash": "7b2e6894d9ac6667d103648bc377bd85f86f5b14b61fa88efa7db1eefb353fc8"
+}

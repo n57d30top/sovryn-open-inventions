@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-05T15:32:15.441Z",
+  "generatedAt": "2026-05-05T16:15:10.698Z",
   "badges": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -453,6 +453,24 @@
       "showcaseRank": null
     },
     {
+      "slug": "frontier-scientific-production-trial",
+      "badges": {
+        "quality": "excellent",
+        "status": "replication_supported_candidate",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "frontier-scientific-production-trial",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
       "slug": "patch-risk-auditor",
       "badges": {
         "quality": "good",
@@ -651,5 +669,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "e43a509bba17261e28eb6a0293561203fb25d1fbd855287ccd70f4fea74693c9"
+  "evidenceHash": "909c48214790c540edfe0a279965639c63d4fca1440e410233a25631dcb6c0b2"
 }

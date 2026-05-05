@@ -1,7 +1,7 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-05T15:32:15.441Z",
-  "resultCount": 36,
+  "updatedAt": "2026-05-05T16:15:10.698Z",
+  "resultCount": 37,
   "results": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -1057,6 +1057,45 @@
       "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
+      "slug": "frontier-scientific-production-trial",
+      "title": "Frontier Scientific Production Trial",
+      "resultKind": "frontier_scientific_production_trial",
+      "domain": "provenance-aware-data-quality-methods",
+      "path": "results/frontier-scientific-production-trial",
+      "qualityLabel": "excellent",
+      "candidateStatus": "replication_supported_candidate",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "frontier-scientific-production-trial",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": true,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      },
+      "revisionReason": null,
+      "humanReadableSummary": "Sovryn ran a bounded frontier scientific production campaign for provenance-aware data-quality methods. The package reports benchmark expansion, candidate generation, candidate rejection, baseline-dominance falsification, independent replication variants, negative results, limitations, and evidence-bound method claims.",
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 92,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "passes_falsification",
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+    },
+    {
       "slug": "patch-risk-auditor",
       "title": "Patch Risk Auditor",
       "resultKind": "tool_result",
@@ -1500,5 +1539,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "9a76c361bc057f30a8c8c137e37af28612264374e15b53c92bd03a0a29bf4898"
+  "evidenceHash": "5666be329522da44c3ff897e72c938c9a4a2215e0074803cd435723a8e7ed758"
 }

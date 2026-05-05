@@ -1,17 +1,18 @@
 {
   "kind": "public_corpus_status",
-  "generatedAt": "2026-05-05T15:32:15.441Z",
+  "generatedAt": "2026-05-05T16:15:10.698Z",
   "statusCounts": {
     "autopublished": 28,
     "field_grade_trial_ready": 3,
     "knowledge_trial_ready": 1,
     "promising_but_unproven": 1,
     "reality_grade_trial_ready": 1,
+    "replication_supported_candidate": 1,
     "strategy_trial_ready": 1,
     "unknown": 1
   },
   "lifecycleCounts": {
-    "autopublished": 5,
+    "autopublished": 6,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -23,6 +24,7 @@
     "field-grade-scientific-autonomy": 3,
     "node-toolchain-policy": 1,
     "open-invention-corpus": 3,
+    "provenance-aware-data-quality-methods": 1,
     "reality-grade-scientific-autonomy": 1,
     "research-strategy": 1,
     "safe-computational-reproduction": 1,
@@ -31,5 +33,5 @@
     "software-supply-chain": 3,
     "software-supply-chain-assurance": 3
   },
-  "evidenceHash": "e337dafe8335f8bf02ad9e80b2299f78db1bab56cfa64d2b9a339e3c76090a3c"
+  "evidenceHash": "bae93957c7459546b595a10b99cedbbb3ad7ff9644a194ccf6fadf76287c7f82"
 }

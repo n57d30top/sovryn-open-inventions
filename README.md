@@ -60,6 +60,7 @@ and safety scope in human-readable language.
 - [Field-Grade Autonomous Science Trial](results/field-grade-autonomous-science-trial/) — excellent, superseded, field-grade-autonomous-science-trial, field-grade-scientific-autonomy
 - [Field-Grade Autonomous Science Trial](results/field-grade-autonomous-science-trial-v2/) — excellent, superseded, field-grade-autonomous-science-trial, field-grade-scientific-autonomy
 - [Field-Grade Autonomous Science Trial](results/field-grade-autonomous-science-trial-v3/) — excellent, autopublished, field-grade-autonomous-science-trial, field-grade-scientific-autonomy
+- [Frontier Scientific Production Trial](results/frontier-scientific-production-trial/) — excellent, autopublished, frontier-scientific-production-trial, provenance-aware-data-quality-methods
 - [Patch Risk Auditor](results/patch-risk-auditor/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v2/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v3/) — good, showcase, patch-risk-auditor, software-supply-chain

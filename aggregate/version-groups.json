@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-05T15:32:15.441Z",
+  "updatedAt": "2026-05-05T16:15:10.698Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-strategy-trial",
@@ -112,6 +112,13 @@
       ]
     },
     {
+      "versionGroup": "frontier-scientific-production-trial",
+      "latestSlug": "frontier-scientific-production-trial",
+      "resultSlugs": [
+        "frontier-scientific-production-trial"
+      ]
+    },
+    {
       "versionGroup": "patch-risk-auditor",
       "latestSlug": "patch-risk-auditor-v3",
       "resultSlugs": [
@@ -171,5 +178,5 @@
       ]
     }
   ],
-  "evidenceHash": "d153d85166d505c99d8e077eb6f373d6f9c5ba5ca0b0c8dc5ee22412990f9c04"
+  "evidenceHash": "705831414bc869115d8ac01bc830589275a5f8d7b3ed5ad634bd5ee6ff6753ba"
 }

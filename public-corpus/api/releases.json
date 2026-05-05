@@ -227,6 +227,15 @@
       "pushed": true
     },
     {
+      "slug": "frontier-scientific-production-trial",
+      "path": "results/frontier-scientific-production-trial",
+      "status": "replication_supported_candidate",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "frontier-scientific-production-trial",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
       "slug": "patch-risk-auditor",
       "path": "results/patch-risk-auditor",
       "status": "autopublished",
@@ -326,5 +335,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "e531ee2b83e1320da14465aedca828b9667e936e5e7e83f2e2a01e1f9fdae704"
+  "evidenceHash": "23b8e9b13df756869c8483e697c2a5c40da52348a5ad609025c13f802afd3943"
 }

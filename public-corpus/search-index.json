@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-05T15:32:15.441Z",
-  "entryCount": 36,
+  "builtAt": "2026-05-05T16:15:10.698Z",
+  "entryCount": 37,
   "entries": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -980,6 +980,56 @@
       ]
     },
     {
+      "slug": "frontier-scientific-production-trial",
+      "title": "Frontier Scientific Production Trial",
+      "domain": "provenance-aware-data-quality-methods",
+      "href": "results/frontier-scientific-production-trial.html",
+      "qualityLabel": "excellent",
+      "publicationStatus": "replication_supported_candidate",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "frontier-scientific-production-trial",
+      "showcaseRank": null,
+      "terms": [
+        "and",
+        "autopublished",
+        "aware",
+        "baseline",
+        "benchmark",
+        "bound",
+        "bounded",
+        "campaign",
+        "candidate",
+        "claims",
+        "data",
+        "dominance",
+        "evidence",
+        "expansion",
+        "falsification",
+        "for",
+        "frontier",
+        "generation",
+        "independent",
+        "limitations",
+        "method",
+        "methods",
+        "negative",
+        "package",
+        "production",
+        "provenance",
+        "quality",
+        "ran",
+        "rejection",
+        "replication",
+        "reports",
+        "results",
+        "scientific",
+        "sovryn",
+        "the",
+        "trial",
+        "variants"
+      ]
+    },
+    {
       "slug": "patch-risk-auditor",
       "title": "Patch Risk Auditor",
       "domain": "software-supply-chain",
@@ -1426,5 +1476,5 @@
       ]
     }
   ],
-  "evidenceHash": "7fe3bc34d3cbfe560a05235667950e4477c0f9a1d8e8826b0b4f5e185bbce19a"
+  "evidenceHash": "4aea82f824271174ea464bc6d74d5c6317888491f5c73b986042aa9c7898780e"
 }
