@@ -6,31 +6,31 @@
     {
       "claimId": "frontier-claim-benchmark-program",
       "claimText": "The campaign used a verified benchmark expansion program with explicit degraded-source labels.",
-      "evidenceHash": "b1a7342fb3b3b23dec610e351593168732cb37f43c785619086146e0bfc8b4a2",
+      "evidenceHash": "8eb312dd35d53909d7216b84e51f977ac973004625c63fa803b6d0504056dbd8",
       "supportStatus": "supported_with_limitations"
     },
     {
       "claimId": "frontier-claim-candidate-generation",
       "claimText": "The candidate factory generated at least 1000 method variants and implemented 20 runnable prototypes.",
-      "evidenceHash": "d5d8f615fc07f95f37adf75bffba8d521443dd97da5bf5b5bc50fac959d11524",
+      "evidenceHash": "0551a471d3326e3d3c3e5e9790360e1adad06058a9d2458fefb541cc134d3c33",
       "supportStatus": "supported"
     },
     {
       "claimId": "frontier-claim-baseline-dominance",
       "claimText": "Most implemented candidates were rejected by strong baseline-dominance falsification.",
-      "evidenceHash": "3ac7cbb0ae30caeec25caa86f35c80ab151e9bece464e779b73280d6544c526f",
+      "evidenceHash": "d552287272d48c7cdf666ea5a114c34bde9f6b614f4de2920529b4567e81d8e5",
       "supportStatus": "supported_negative_evidence"
     },
     {
       "claimId": "frontier-claim-replication-supported",
       "claimText": "At most one surviving candidate is replication-supported under the bounded independent variants.",
-      "evidenceHash": "f1ad7befd3e1f92d8ee42614ff83a77251e824d1b44cf7fecf5dde6ebae542cd",
+      "evidenceHash": "9adbe5b78f0db39717aa5d24eea49587ed13d3bdea8c18ad315a4f989b986f02",
       "supportStatus": "promising_unproven"
     },
     {
       "claimId": "frontier-claim-no-breakthrough",
       "claimText": "The result does not claim a breakthrough; labels remain evidence-bound and limitation-bound.",
-      "evidenceHash": "3264dba398a15708402ee4b23c106078d28b2f0e571d5781b982d05d67a97239",
+      "evidenceHash": "e9caf8650a919aaa578ad6e4e082ff397371658de908224148b1188b121cd77e",
       "supportStatus": "safety_scope"
     },
     {
@@ -40,5 +40,5 @@
       "supportStatus": "supported"
     }
   ],
-  "evidenceHash": "a8a0ab8e8d8ed36d3b04b7295adfb1490af418ef81bcdd8fca683e3d9256c571"
+  "evidenceHash": "d35c7ad4e6dcbb165ead089aa6a9c7599460a377a9a0461e57ee4e1454b5762d"
 }
