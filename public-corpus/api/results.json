@@ -766,6 +766,81 @@
       }
     },
     {
+      "slug": "discovery-promising-unproven-method",
+      "title": "Discover a new interpretable method for reducing false positives in provenance-aware data quality and anomaly detection tasks",
+      "domain": "chemistry-data-quality",
+      "resultKind": "discovery_promising_unproven",
+      "path": "results/discovery-promising-unproven-method",
+      "qualityLabel": "good",
+      "publicationStatus": "promising_but_unproven",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "discovery-promising-unproven-method",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": null,
+      "humanReadableSummary": "Goal: Discover a new interpretable method for reducing false positives in provenance-aware data quality and anomaly detection tasks",
+      "releaseReadinessScore": 0,
+      "evidenceStrengthScore": 0,
+      "reproducibilityScore": 100,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 81,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": false,
+      "externalPackages": [
+        "numpy"
+      ],
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "passes_falsification",
+      "scientificQuestion": null,
+      "hypothesisCount": 0,
+      "nullHypothesisPresent": false,
+      "experimentCount": 0,
+      "replicationRunCount": 0,
+      "peerReviewPresent": false,
+      "statisticalAnalysisPresent": false,
+      "baselineComparisonPresent": false,
+      "ablationPresent": false,
+      "sensitivityPresent": false,
+      "studyResultLabel": null,
+      "scientificMemoryUpdated": false,
+      "safetyScope": null,
+      "summary": "Goal: Discover a new interpretable method for reducing false positives in provenance-aware data quality and anomaly detection tasks",
+      "limitations": [
+        "\"disclaimer\": \"Autonomous computational discovery artifact. Not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. Human interpretation required.\",",
+        "Limitations",
+        "Safe computational discovery only. Not a patent filing, patentability opinion, legal novelty opinion, freedom-to-operate opinion, medical advice, wet-lab guidance, or hazardous-domain conclusion.",
+        "This is an autonomous computational discovery artifact. It uses scientific programs and invented discovery tools to search for interpretable method candidates. It is not a patent filing, patentability opinion, legal novelty opinion, freedom-to-operate opinion, medical advice, wet-lab guidance, hazardous chemistry, or exploit guidance."
+      ],
+      "badges": {
+        "quality": "good",
+        "status": "promising_but_unproven",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "discovery-promising-unproven-method",
+        "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": false,
+        "limitations": true,
+        "examples": false
+      }
+    },
+    {
       "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-public",
       "title": "Do provenance-aware anomaly scoring methods reduce false positives in public-weather-proxy energy datasets compared with simple threshold baselines?",
       "domain": "energy-data-quality",
@@ -2221,5 +2296,5 @@
       }
     }
   ],
-  "evidenceHash": "f7b3ac9d04c8244cfdd4bcae94a8101b3febe471637ee0653a289a0280bd0c4d"
+  "evidenceHash": "ba5ff38c19810a2a6e9bc27d66cd055d27ff9f34e123bfd156a16b213378c669"
 }

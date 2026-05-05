@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-05T10:23:50.647Z",
+  "updatedAt": "2026-05-05T12:41:41.841Z",
   "groups": [
     {
       "versionGroup": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an",
@@ -46,6 +46,13 @@
       "latestSlug": "corpus-deduplication",
       "resultSlugs": [
         "corpus-deduplication"
+      ]
+    },
+    {
+      "versionGroup": "discovery-promising-unproven-method",
+      "latestSlug": "discovery-promising-unproven-method",
+      "resultSlugs": [
+        "discovery-promising-unproven-method"
       ]
     },
     {
@@ -134,5 +141,5 @@
       ]
     }
   ],
-  "evidenceHash": "9c22f25c733671c0b6e29bfb42a57a360dc1623d5b5b25c243f51f1b8a8528db"
+  "evidenceHash": "390aa29887f19f3fe67c70395c339f7298e7703f9cf5504464ae142213254c32"
 }

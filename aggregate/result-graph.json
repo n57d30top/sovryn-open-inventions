@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-05T10:23:50.647Z",
+  "generatedAt": "2026-05-05T12:41:41.841Z",
   "nodes": [
     {
       "id": "result:chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -61,6 +61,12 @@
       "kind": "result",
       "label": "Corpus Deduplication for Defensive Publications",
       "domain": "open-invention-corpus"
+    },
+    {
+      "id": "result:discovery-promising-unproven-method",
+      "kind": "result",
+      "label": "Discover a new interpretable method for reducing false positives in provenance-aware data quality and anomaly detection tasks",
+      "domain": "chemistry-data-quality"
     },
     {
       "id": "result:energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-public",
@@ -344,6 +350,16 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:discovery-promising-unproven-method",
+      "target": "domain:chemistry-data-quality",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:discovery-promising-unproven-method",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
       "source": "result:energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-public",
       "target": "domain:energy-data-quality",
       "relation": "belongs_to_domain"
@@ -534,5 +550,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "5544a380e427dae53c5d83aff2320a01194999f102ac25fcbc8c92717d1c43c5"
+  "evidenceHash": "72a320e2163e0ecebd8a462b425a56245ceaef4f370b5bab292c8161be396f68"
 }

@@ -1,22 +1,24 @@
 {
   "kind": "sovryn_public_corpus_product",
-  "generatedAt": "2026-05-05T10:23:50.647Z",
-  "resultCount": 29,
+  "generatedAt": "2026-05-05T12:41:41.841Z",
+  "resultCount": 30,
   "qualityCounts": {
-    "good": 29
+    "good": 30
   },
   "statusCounts": {
     "autopublished": 28,
+    "promising_but_unproven": 1,
     "unknown": 1
   },
   "lifecycleCounts": {
+    "autopublished": 1,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
     "superseded": 12
   },
   "domainCounts": {
-    "chemistry-data-quality": 9,
+    "chemistry-data-quality": 10,
     "energy-data-quality": 8,
     "node-toolchain-policy": 1,
     "open-invention-corpus": 3,
@@ -787,6 +789,81 @@
         "method": false,
         "reproduce": false,
         "limitations": false,
+        "examples": false
+      }
+    },
+    {
+      "slug": "discovery-promising-unproven-method",
+      "title": "Discover a new interpretable method for reducing false positives in provenance-aware data quality and anomaly detection tasks",
+      "domain": "chemistry-data-quality",
+      "resultKind": "discovery_promising_unproven",
+      "path": "results/discovery-promising-unproven-method",
+      "qualityLabel": "good",
+      "publicationStatus": "promising_but_unproven",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "discovery-promising-unproven-method",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": null,
+      "humanReadableSummary": "Goal: Discover a new interpretable method for reducing false positives in provenance-aware data quality and anomaly detection tasks",
+      "releaseReadinessScore": 0,
+      "evidenceStrengthScore": 0,
+      "reproducibilityScore": 100,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 81,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": false,
+      "externalPackages": [
+        "numpy"
+      ],
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "passes_falsification",
+      "scientificQuestion": null,
+      "hypothesisCount": 0,
+      "nullHypothesisPresent": false,
+      "experimentCount": 0,
+      "replicationRunCount": 0,
+      "peerReviewPresent": false,
+      "statisticalAnalysisPresent": false,
+      "baselineComparisonPresent": false,
+      "ablationPresent": false,
+      "sensitivityPresent": false,
+      "studyResultLabel": null,
+      "scientificMemoryUpdated": false,
+      "safetyScope": null,
+      "summary": "Goal: Discover a new interpretable method for reducing false positives in provenance-aware data quality and anomaly detection tasks",
+      "limitations": [
+        "\"disclaimer\": \"Autonomous computational discovery artifact. Not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. Human interpretation required.\",",
+        "Limitations",
+        "Safe computational discovery only. Not a patent filing, patentability opinion, legal novelty opinion, freedom-to-operate opinion, medical advice, wet-lab guidance, or hazardous-domain conclusion.",
+        "This is an autonomous computational discovery artifact. It uses scientific programs and invented discovery tools to search for interpretable method candidates. It is not a patent filing, patentability opinion, legal novelty opinion, freedom-to-operate opinion, medical advice, wet-lab guidance, hazardous chemistry, or exploit guidance."
+      ],
+      "badges": {
+        "quality": "good",
+        "status": "promising_but_unproven",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "discovery-promising-unproven-method",
+        "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": false,
+        "limitations": true,
         "examples": false
       }
     },
@@ -2294,6 +2371,13 @@
       ]
     },
     {
+      "versionGroup": "discovery-promising-unproven-method",
+      "latestSlug": "discovery-promising-unproven-method",
+      "resultSlugs": [
+        "discovery-promising-unproven-method"
+      ]
+    },
+    {
       "versionGroup": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-",
       "latestSlug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe",
       "resultSlugs": [
@@ -3467,5 +3551,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "b2f8776febf0e2fb1bff98aadd78708ba3fcc970492e794aa6a9a5f45b61c4a0"
+  "evidenceHash": "965bc1f5d01e1166e2e76280330d0f8359d3a4786fac5b50479db367e6cbc976"
 }

@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
-    "good": 29
+    "good": 30
   },
   "results": [
     {
@@ -53,6 +53,11 @@
       "slug": "corpus-deduplication",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
+    },
+    {
+      "slug": "discovery-promising-unproven-method",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 0
     },
     {
       "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-public",
@@ -150,5 +155,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "1677fb0aab8eb61d9dd2c37ec65cbbed99b5c814a2051bc0402534cd9337727c"
+  "evidenceHash": "cd7fc0209c6fd6ee65b9e9788c1bbaefc7cc671879e00f768495a9c38f463ffa"
 }

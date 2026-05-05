@@ -1,0 +1,37 @@
+{
+  "slug": "discovery-promising-unproven-method",
+  "title": "Discover a new interpretable method for reducing false positives in provenance-aware data quality and anomaly detection tasks",
+  "resultKind": "discovery_promising_unproven",
+  "candidateId": "search-space-31ba09d496c4-candidate-003",
+  "qualityLabel": "good",
+  "lifecycleStatus": "autopublished",
+  "candidateStatus": "promising_but_unproven",
+  "candidatesGenerated": 500,
+  "candidatesEvaluated": 500,
+  "baselinesUsed": 3,
+  "externalProgramsUsed": [
+    "sympy",
+    "z3-solver",
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "networkx"
+  ],
+  "inventedToolsUsed": [
+    "counterexample-generator",
+    "formula-complexity-penalizer",
+    "novelty-gap-miner",
+    "baseline-gap-finder"
+  ],
+  "replicationRuns": 5,
+  "falsificationStatus": "passes_falsification",
+  "noveltyCheckPassed": true,
+  "publicationSafetyScore": 98,
+  "reproducibilityScore": 100,
+  "replayCriticalPassRate": 100,
+  "publicHygienePassed": true,
+  "noCriticalFailures": true,
+  "noForcedBreakthrough": true,
+  "disclaimer": "Autonomous computational discovery artifact. Not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. Human interpretation required.",
+  "evidenceHash": "869ab5ab364f970e185de2495fb1e5f6f1d5d5b2d1c9e10dbbc34af2922cc9d3"
+}

@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-05T10:23:50.647Z",
-  "entryCount": 29,
+  "builtAt": "2026-05-05T12:41:41.841Z",
+  "entryCount": 30,
   "entries": [
     {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -378,6 +378,42 @@
         "run",
         "score",
         "status"
+      ]
+    },
+    {
+      "slug": "discovery-promising-unproven-method",
+      "title": "Discover a new interpretable method for reducing false positives in provenance-aware data quality and anomaly detection tasks",
+      "domain": "chemistry-data-quality",
+      "href": "results/discovery-promising-unproven-method.html",
+      "qualityLabel": "good",
+      "publicationStatus": "promising_but_unproven",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "discovery-promising-unproven-method",
+      "showcaseRank": null,
+      "terms": [
+        "and",
+        "anomaly",
+        "autopublished",
+        "aware",
+        "chemistry",
+        "data",
+        "detection",
+        "discover",
+        "discovery",
+        "false",
+        "for",
+        "goal",
+        "interpretable",
+        "method",
+        "new",
+        "numpy",
+        "positives",
+        "promising",
+        "provenance",
+        "quality",
+        "reducing",
+        "tasks",
+        "unproven"
       ]
     },
     {
@@ -1123,5 +1159,5 @@
       ]
     }
   ],
-  "evidenceHash": "6c1a4ae6f04d5aab1a79b53a46c9c48e66bc72a602e9160e048ed41d07714366"
+  "evidenceHash": "cbc0a14b42617887efa5dc84c44de65e84d359c4e69fe8f98b07154284f6993a"
 }

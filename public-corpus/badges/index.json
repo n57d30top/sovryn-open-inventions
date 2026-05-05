@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-05T10:23:50.647Z",
+  "generatedAt": "2026-05-05T12:41:41.841Z",
   "badges": [
     {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -180,6 +180,24 @@
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "needs_revision",
+      "showcaseRank": null
+    },
+    {
+      "slug": "discovery-promising-unproven-method",
+      "badges": {
+        "quality": "good",
+        "status": "promising_but_unproven",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "discovery-promising-unproven-method",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
       "showcaseRank": null
     },
     {
@@ -525,5 +543,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "308952e01c4c8211620b1bdf053ee37f1bebbb18a7b4a93b5f763982d076992f"
+  "evidenceHash": "cb49237f30292e934fbf5531ca71f32f9ea71fe07b6df117c07c382f878fe73c"
 }

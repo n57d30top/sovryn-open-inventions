@@ -1,10 +1,11 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-05T10:23:50.647Z",
+  "generatedAt": "2026-05-05T12:41:41.841Z",
   "qualityCounts": {
-    "good": 29
+    "good": 30
   },
   "lifecycleCounts": {
+    "autopublished": 1,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -150,6 +151,20 @@
       "reproducibilityScore": 100,
       "publicationSafetyScore": 90,
       "specificityScore": 60
+    },
+    {
+      "slug": "discovery-promising-unproven-method",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "discovery-promising-unproven-method",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 0,
+      "evidenceStrengthScore": 0,
+      "reproducibilityScore": 100,
+      "publicationSafetyScore": 98,
+      "specificityScore": 81
     },
     {
       "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-public",
@@ -418,5 +433,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "1677fb0aab8eb61d9dd2c37ec65cbbed99b5c814a2051bc0402534cd9337727c"
+  "evidenceHash": "cd7fc0209c6fd6ee65b9e9788c1bbaefc7cc671879e00f768495a9c38f463ffa"
 }

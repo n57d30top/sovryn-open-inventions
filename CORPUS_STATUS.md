@@ -1,9 +1,10 @@
 # Corpus Status
 
-Results: 29
+Results: 30
 
 ## Lifecycle Counts
 
+- autopublished: 1
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -17,6 +18,7 @@ Results: 29
 - chemistry-data-quality-self-built-lab-study: latest chemistry-data-quality-self-built-lab-study-v2; chemistry-data-quality-self-built-lab-study, chemistry-data-quality-self-built-lab-study-v2
 - chemistry-record-auditor-tool: latest chemistry-record-auditor-tool-v2-v3; chemistry-record-auditor-tool, chemistry-record-auditor-tool-v2, chemistry-record-auditor-tool-v2-v2, chemistry-record-auditor-tool-v2-v3
 - corpus-deduplication: latest corpus-deduplication; corpus-deduplication
+- discovery-promising-unproven-method: latest discovery-promising-unproven-method; discovery-promising-unproven-method
 - energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-: latest energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe; energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-public, energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe
 - energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthet: latest energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene; energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene
 - energy-data-quality-self-built-lab-study: latest energy-data-quality-self-built-lab-study-v2; energy-data-quality-self-built-lab-study, energy-data-quality-self-built-lab-study-v2

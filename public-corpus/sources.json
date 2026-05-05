@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-05T10:23:50.647Z",
+  "generatedAt": "2026-05-05T12:41:41.841Z",
   "sources": [
     {
       "resultSlug": "chemistry-data-quality-self-built-lab-study",
@@ -48,6 +48,12 @@
       "resultSlug": "chemistry-record-auditor-tool-v2-v3",
       "sourceKind": "external_package_or_tool",
       "name": "pint",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "discovery-promising-unproven-method",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
       "publicOnly": true
     },
     {
@@ -165,5 +171,5 @@
       "publicOnly": true
     }
   ],
-  "evidenceHash": "c2a05882e77c5e49d968b37ac87d93d07ff2aed4b0266a13251f4f8ec159200e"
+  "evidenceHash": "1b94a7997099b0903e07f3c44a09bcbb8c9a93807bc7aac7916ace81679b6458"
 }

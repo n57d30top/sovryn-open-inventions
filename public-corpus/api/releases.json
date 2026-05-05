@@ -92,6 +92,15 @@
       "pushed": false
     },
     {
+      "slug": "discovery-promising-unproven-method",
+      "path": "results/discovery-promising-unproven-method",
+      "status": "promising_but_unproven",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "discovery-promising-unproven-method",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-public",
       "path": "results/energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-public",
       "status": "autopublished",
@@ -263,5 +272,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "059d9c2169b28ac2b0246eb9db457c1b059a5caeea2b969030350fab60f24952"
+  "evidenceHash": "0348cafa58c6f6695b42024d51580d8cd79cff8a18c2d62c5a9e6667d2e455b8"
 }
