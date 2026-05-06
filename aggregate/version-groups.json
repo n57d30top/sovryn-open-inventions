@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T12:28:07.919Z",
+  "updatedAt": "2026-05-06T13:02:54.031Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -77,6 +77,13 @@
       "latestSlug": "batch13-protocol-first-benchmark-validation-week1",
       "resultSlugs": [
         "batch13-protocol-first-benchmark-validation-week1"
+      ]
+    },
+    {
+      "versionGroup": "batch14-protocol-risk-expansion-week2",
+      "latestSlug": "batch14-protocol-risk-expansion-week2",
+      "resultSlugs": [
+        "batch14-protocol-risk-expansion-week2"
       ]
     },
     {
@@ -444,5 +451,5 @@
       ]
     }
   ],
-  "evidenceHash": "ac94aebeaf42e36a3045c378f104d24572ca09e34dc67b6c5332c2701a6a48f2"
+  "evidenceHash": "c1598d72f997e5ecbde219c37efbc8479374902a4ca71eed4047ab6234f9fced"
 }

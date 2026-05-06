@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T12:28:07.919Z",
+  "generatedAt": "2026-05-06T13:02:54.031Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -195,6 +195,24 @@
         "falsification": "protocol_split_risk_validated_with_limitations",
         "lifecycle": "autopublished",
         "version": "batch13-protocol-first-benchmark-validation-week1",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch14-protocol-risk-expansion-week2",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "protocol_risk_expansion_validated_with_limitations",
+        "lifecycle": "autopublished",
+        "version": "batch14-protocol-risk-expansion-week2",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -1353,5 +1371,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "d436af9312577ac448a32c234278a150ff4ec0b6b58189a45a6b6b5f860c28a5"
+  "evidenceHash": "5635959372b8133b6e617a5bbe8048522d144bc0a44c6cf23c65307e3f114882"
 }

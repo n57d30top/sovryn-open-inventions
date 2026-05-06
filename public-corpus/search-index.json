@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-06T12:28:07.919Z",
-  "entryCount": 75,
+  "builtAt": "2026-05-06T13:02:54.031Z",
+  "entryCount": 76,
   "entries": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -438,6 +438,44 @@
         "validation",
         "week",
         "week1"
+      ]
+    },
+    {
+      "slug": "batch14-protocol-risk-expansion-week2",
+      "title": "Batch 14 Protocol Risk Expansion Week 2",
+      "domain": "protocol-first-benchmark-validation-and-split-risk",
+      "href": "results/batch14-protocol-risk-expansion-week2.html",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch14-protocol-risk-expansion-week2",
+      "showcaseRank": null,
+      "terms": [
+        "and",
+        "autopublished",
+        "batch",
+        "batch14",
+        "benchmark",
+        "coverage",
+        "expands",
+        "expansion",
+        "first",
+        "four",
+        "from",
+        "harder",
+        "numpy",
+        "pandas",
+        "program",
+        "protocol",
+        "risk",
+        "split",
+        "targets",
+        "the",
+        "three",
+        "validation",
+        "week",
+        "week2",
+        "with"
       ]
     },
     {
@@ -3052,5 +3090,5 @@
       ]
     }
   ],
-  "evidenceHash": "f1c919bd620c0bd73150f64ba2a28300c8099411f791fe373121abf941cd8c38"
+  "evidenceHash": "4eb01ad4e78832be4f5084c5837debe9a850f987a572b4bf753a7a6a98ef4d6d"
 }

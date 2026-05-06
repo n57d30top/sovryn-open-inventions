@@ -16,6 +16,7 @@ can supersede earlier entries while preserving audit history.
 - batch11-multi-target-dataset-metric-validation-program: latest batch11-multi-target-dataset-metric-validation-program; versions batch11-multi-target-dataset-metric-validation-program
 - batch12-research-production-review-next-frontier-program: latest batch12-research-production-review-next-frontier-program; versions batch12-research-production-review-next-frontier-program
 - batch13-protocol-first-benchmark-validation-week1: latest batch13-protocol-first-benchmark-validation-week1; versions batch13-protocol-first-benchmark-validation-week1
+- batch14-protocol-risk-expansion-week2: latest batch14-protocol-risk-expansion-week2; versions batch14-protocol-risk-expansion-week2
 - batch2-climate-fever-claim-verification-followup: latest batch2-climate-fever-claim-verification-followup; versions batch2-climate-fever-claim-verification-followup
 - batch2-hotpotqa-source-evidence-extraction-challenge: latest batch2-hotpotqa-source-evidence-extraction-challenge; versions batch2-hotpotqa-source-evidence-extraction-challenge
 - batch2-pyod-reproducibility-audit: latest batch2-pyod-reproducibility-audit; versions batch2-pyod-reproducibility-audit

@@ -1,0 +1,264 @@
+{
+  "addedValueBeyondSklearn": "binds normal sklearn metrics to shuffled-label, class-risk, seed/split, and source-vs-random controls",
+  "classRisk": {
+    "maxProtocolClassF1": 0.87013,
+    "minProtocolClassF1": 0.531365,
+    "weakestProtocolClass": "H"
+  },
+  "flags": {
+    "accuracyCouldHideClassFailure": false,
+    "randomSplitMateriallyDifferent": false,
+    "shuffledControlSuspicious": false
+  },
+  "limitations": [
+    "Does not prove absence of leakage.",
+    "Does not turn source train/test files into a full paper benchmark reproduction."
+  ],
+  "macroVsAccuracy": {
+    "protocolAccuracy": 0.772,
+    "protocolAccuracyMinusMacroF1": 0.002059,
+    "protocolMacroF1": 0.769941,
+    "randomAccuracy": 0.77425,
+    "randomAccuracyMinusMacroF1": 0.001488,
+    "randomMacroF1": 0.772762
+  },
+  "seedSplitSensitivity": [
+    {
+      "logisticAccuracy": 0.7675,
+      "logisticMacroF1": 0.766245,
+      "seed": 7
+    },
+    {
+      "logisticAccuracy": 0.77425,
+      "logisticMacroF1": 0.772762,
+      "seed": 42
+    },
+    {
+      "logisticAccuracy": 0.774,
+      "logisticMacroF1": 0.772233,
+      "seed": 99
+    }
+  ],
+  "shuffledLabelControl": {
+    "accuracy": 0.03575,
+    "confusionSummary": [
+      {
+        "class": "A",
+        "correct": 0,
+        "support": 156,
+        "worstConfusedAs": "V",
+        "worstConfusionCount": 98
+      },
+      {
+        "class": "B",
+        "correct": 4,
+        "support": 136,
+        "worstConfusedAs": "A",
+        "worstConfusionCount": 26
+      },
+      {
+        "class": "C",
+        "correct": 3,
+        "support": 142,
+        "worstConfusedAs": "F",
+        "worstConfusionCount": 35
+      },
+      {
+        "class": "D",
+        "correct": 0,
+        "support": 167,
+        "worstConfusedAs": "B",
+        "worstConfusionCount": 32
+      },
+      {
+        "class": "E",
+        "correct": 2,
+        "support": 152,
+        "worstConfusedAs": "F",
+        "worstConfusionCount": 30
+      },
+      {
+        "class": "F",
+        "correct": 24,
+        "support": 153,
+        "worstConfusedAs": "T",
+        "worstConfusionCount": 37
+      },
+      {
+        "class": "G",
+        "correct": 11,
+        "support": 164,
+        "worstConfusedAs": "A",
+        "worstConfusionCount": 49
+      },
+      {
+        "class": "H",
+        "correct": 1,
+        "support": 151,
+        "worstConfusedAs": "X",
+        "worstConfusionCount": 28
+      },
+      {
+        "class": "I",
+        "correct": 0,
+        "support": 165,
+        "worstConfusedAs": "J",
+        "worstConfusionCount": 77
+      },
+      {
+        "class": "J",
+        "correct": 13,
+        "support": 148,
+        "worstConfusedAs": "F",
+        "worstConfusionCount": 33
+      },
+      {
+        "class": "K",
+        "correct": 23,
+        "support": 146,
+        "worstConfusedAs": "O",
+        "worstConfusionCount": 24
+      },
+      {
+        "class": "L",
+        "correct": 0,
+        "support": 157,
+        "worstConfusedAs": "N",
+        "worstConfusionCount": 76
+      },
+      {
+        "class": "M",
+        "correct": 0,
+        "support": 144,
+        "worstConfusedAs": "X",
+        "worstConfusionCount": 52
+      },
+      {
+        "class": "N",
+        "correct": 4,
+        "support": 166,
+        "worstConfusedAs": "T",
+        "worstConfusionCount": 50
+      },
+      {
+        "class": "O",
+        "correct": 4,
+        "support": 139,
+        "worstConfusedAs": "A",
+        "worstConfusionCount": 27
+      },
+      {
+        "class": "P",
+        "correct": 4,
+        "support": 168,
+        "worstConfusedAs": "Z",
+        "worstConfusionCount": 41
+      },
+      {
+        "class": "Q",
+        "correct": 0,
+        "support": 168,
+        "worstConfusedAs": "K",
+        "worstConfusionCount": 27
+      },
+      {
+        "class": "R",
+        "correct": 0,
+        "support": 161,
+        "worstConfusedAs": "X",
+        "worstConfusionCount": 38
+      },
+      {
+        "class": "S",
+        "correct": 0,
+        "support": 161,
+        "worstConfusedAs": "U",
+        "worstConfusionCount": 32
+      },
+      {
+        "class": "T",
+        "correct": 32,
+        "support": 151,
+        "worstConfusedAs": "M",
+        "worstConfusionCount": 48
+      },
+      {
+        "class": "U",
+        "correct": 1,
+        "support": 168,
+        "worstConfusedAs": "I",
+        "worstConfusionCount": 69
+      },
+      {
+        "class": "V",
+        "correct": 0,
+        "support": 136,
+        "worstConfusedAs": "D",
+        "worstConfusionCount": 37
+      },
+      {
+        "class": "W",
+        "correct": 0,
+        "support": 139,
+        "worstConfusedAs": "H",
+        "worstConfusionCount": 36
+      },
+      {
+        "class": "X",
+        "correct": 4,
+        "support": 159,
+        "worstConfusedAs": "T",
+        "worstConfusionCount": 37
+      },
+      {
+        "class": "Y",
+        "correct": 13,
+        "support": 145,
+        "worstConfusedAs": "D",
+        "worstConfusionCount": 38
+      },
+      {
+        "class": "Z",
+        "correct": 0,
+        "support": 158,
+        "worstConfusedAs": "B",
+        "worstConfusionCount": 41
+      }
+    ],
+    "fitNote": {
+      "rowsUsed": 16000,
+      "subsampled": false
+    },
+    "macroF1": 0.032618,
+    "perClassF1": {
+      "A": 0.0,
+      "B": 0.018868,
+      "C": 0.021352,
+      "D": 0.0,
+      "E": 0.015504,
+      "F": 0.124352,
+      "G": 0.062147,
+      "H": 0.007435,
+      "I": 0.0,
+      "J": 0.090909,
+      "K": 0.154362,
+      "L": 0.0,
+      "M": 0.0,
+      "N": 0.02046,
+      "O": 0.027304,
+      "P": 0.02649,
+      "Q": 0.0,
+      "R": 0.0,
+      "S": 0.0,
+      "T": 0.142222,
+      "U": 0.005747,
+      "V": 0.0,
+      "W": 0.0,
+      "X": 0.019324,
+      "Y": 0.111588,
+      "Z": 0.0
+    }
+  },
+  "tool": "metric_stress_validator",
+  "toolRole": "reusable_support_tool"
+}

@@ -1,0 +1,62 @@
+{
+  "addedValueBeyondPandas": "source-hash-bound evidence packaging and explicit protocol metadata, not raw discovery",
+  "classCount": 26,
+  "classDistribution": {
+    "A": 789,
+    "B": 766,
+    "C": 736,
+    "D": 805,
+    "E": 768,
+    "F": 775,
+    "G": 773,
+    "H": 734,
+    "I": 755,
+    "J": 747,
+    "K": 739,
+    "L": 761,
+    "M": 792,
+    "N": 783,
+    "O": 753,
+    "P": 803,
+    "Q": 783,
+    "R": 758,
+    "S": 748,
+    "T": 796,
+    "U": 813,
+    "V": 764,
+    "W": 752,
+    "X": 787,
+    "Y": 786,
+    "Z": 734
+  },
+  "duplicateFeatureRows": 1332,
+  "duplicateFullRows": 1332,
+  "featureCount": 16,
+  "limitations": [
+    "Does not prove semantic correctness of the source split.",
+    "Does not infer hidden group, temporal, or spatial structure when source metadata is absent."
+  ],
+  "missingCells": 0,
+  "pandasBaseline": {
+    "duplicatedFullRows": 1332,
+    "isnaSum": 0,
+    "valueCountsAvailable": true
+  },
+  "protocolMetadata": {
+    "documentationOrderSplit": "first 16000 train, remaining 4000 test",
+    "separateTrainTestFilesAvailable": false,
+    "singleDataFile": "letter-recognition.data",
+    "testRowsFromDocumentation": 4000,
+    "trainRowsFromDocumentation": 16000,
+    "typicalLanguagePresent": true
+  },
+  "rows": 20000,
+  "sourceBinding": {
+    "sha256": "3b5f07a334697b6cace4fbae22940393a18fee596e73f68d97ce5973d52dc60f",
+    "zipFile": "letter.zip"
+  },
+  "testRows": 4000,
+  "tool": "schema_provenance_auditor",
+  "toolRole": "packaging_only",
+  "trainRows": 16000
+}

@@ -1,0 +1,2147 @@
+{
+  "documentationUrl": "https://archive.ics.uci.edu/dataset/59/letter+recognition",
+  "expectedRisk": "the protocol depends on source row order and wording rather than explicit split files",
+  "loaded": true,
+  "metricStress": {
+    "addedValueBeyondSklearn": "binds normal sklearn metrics to shuffled-label, class-risk, seed/split, and source-vs-random controls",
+    "classRisk": {
+      "maxProtocolClassF1": 0.87013,
+      "minProtocolClassF1": 0.531365,
+      "weakestProtocolClass": "H"
+    },
+    "flags": {
+      "accuracyCouldHideClassFailure": false,
+      "randomSplitMateriallyDifferent": false,
+      "shuffledControlSuspicious": false
+    },
+    "limitations": [
+      "Does not prove absence of leakage.",
+      "Does not turn source train/test files into a full paper benchmark reproduction."
+    ],
+    "macroVsAccuracy": {
+      "protocolAccuracy": 0.772,
+      "protocolAccuracyMinusMacroF1": 0.002059,
+      "protocolMacroF1": 0.769941,
+      "randomAccuracy": 0.77425,
+      "randomAccuracyMinusMacroF1": 0.001488,
+      "randomMacroF1": 0.772762
+    },
+    "seedSplitSensitivity": [
+      {
+        "logisticAccuracy": 0.7675,
+        "logisticMacroF1": 0.766245,
+        "seed": 7
+      },
+      {
+        "logisticAccuracy": 0.77425,
+        "logisticMacroF1": 0.772762,
+        "seed": 42
+      },
+      {
+        "logisticAccuracy": 0.774,
+        "logisticMacroF1": 0.772233,
+        "seed": 99
+      }
+    ],
+    "shuffledLabelControl": {
+      "accuracy": 0.03575,
+      "confusionSummary": [
+        {
+          "class": "A",
+          "correct": 0,
+          "support": 156,
+          "worstConfusedAs": "V",
+          "worstConfusionCount": 98
+        },
+        {
+          "class": "B",
+          "correct": 4,
+          "support": 136,
+          "worstConfusedAs": "A",
+          "worstConfusionCount": 26
+        },
+        {
+          "class": "C",
+          "correct": 3,
+          "support": 142,
+          "worstConfusedAs": "F",
+          "worstConfusionCount": 35
+        },
+        {
+          "class": "D",
+          "correct": 0,
+          "support": 167,
+          "worstConfusedAs": "B",
+          "worstConfusionCount": 32
+        },
+        {
+          "class": "E",
+          "correct": 2,
+          "support": 152,
+          "worstConfusedAs": "F",
+          "worstConfusionCount": 30
+        },
+        {
+          "class": "F",
+          "correct": 24,
+          "support": 153,
+          "worstConfusedAs": "T",
+          "worstConfusionCount": 37
+        },
+        {
+          "class": "G",
+          "correct": 11,
+          "support": 164,
+          "worstConfusedAs": "A",
+          "worstConfusionCount": 49
+        },
+        {
+          "class": "H",
+          "correct": 1,
+          "support": 151,
+          "worstConfusedAs": "X",
+          "worstConfusionCount": 28
+        },
+        {
+          "class": "I",
+          "correct": 0,
+          "support": 165,
+          "worstConfusedAs": "J",
+          "worstConfusionCount": 77
+        },
+        {
+          "class": "J",
+          "correct": 13,
+          "support": 148,
+          "worstConfusedAs": "F",
+          "worstConfusionCount": 33
+        },
+        {
+          "class": "K",
+          "correct": 23,
+          "support": 146,
+          "worstConfusedAs": "O",
+          "worstConfusionCount": 24
+        },
+        {
+          "class": "L",
+          "correct": 0,
+          "support": 157,
+          "worstConfusedAs": "N",
+          "worstConfusionCount": 76
+        },
+        {
+          "class": "M",
+          "correct": 0,
+          "support": 144,
+          "worstConfusedAs": "X",
+          "worstConfusionCount": 52
+        },
+        {
+          "class": "N",
+          "correct": 4,
+          "support": 166,
+          "worstConfusedAs": "T",
+          "worstConfusionCount": 50
+        },
+        {
+          "class": "O",
+          "correct": 4,
+          "support": 139,
+          "worstConfusedAs": "A",
+          "worstConfusionCount": 27
+        },
+        {
+          "class": "P",
+          "correct": 4,
+          "support": 168,
+          "worstConfusedAs": "Z",
+          "worstConfusionCount": 41
+        },
+        {
+          "class": "Q",
+          "correct": 0,
+          "support": 168,
+          "worstConfusedAs": "K",
+          "worstConfusionCount": 27
+        },
+        {
+          "class": "R",
+          "correct": 0,
+          "support": 161,
+          "worstConfusedAs": "X",
+          "worstConfusionCount": 38
+        },
+        {
+          "class": "S",
+          "correct": 0,
+          "support": 161,
+          "worstConfusedAs": "U",
+          "worstConfusionCount": 32
+        },
+        {
+          "class": "T",
+          "correct": 32,
+          "support": 151,
+          "worstConfusedAs": "M",
+          "worstConfusionCount": 48
+        },
+        {
+          "class": "U",
+          "correct": 1,
+          "support": 168,
+          "worstConfusedAs": "I",
+          "worstConfusionCount": 69
+        },
+        {
+          "class": "V",
+          "correct": 0,
+          "support": 136,
+          "worstConfusedAs": "D",
+          "worstConfusionCount": 37
+        },
+        {
+          "class": "W",
+          "correct": 0,
+          "support": 139,
+          "worstConfusedAs": "H",
+          "worstConfusionCount": 36
+        },
+        {
+          "class": "X",
+          "correct": 4,
+          "support": 159,
+          "worstConfusedAs": "T",
+          "worstConfusionCount": 37
+        },
+        {
+          "class": "Y",
+          "correct": 13,
+          "support": 145,
+          "worstConfusedAs": "D",
+          "worstConfusionCount": 38
+        },
+        {
+          "class": "Z",
+          "correct": 0,
+          "support": 158,
+          "worstConfusedAs": "B",
+          "worstConfusionCount": 41
+        }
+      ],
+      "fitNote": {
+        "rowsUsed": 16000,
+        "subsampled": false
+      },
+      "macroF1": 0.032618,
+      "perClassF1": {
+        "A": 0.0,
+        "B": 0.018868,
+        "C": 0.021352,
+        "D": 0.0,
+        "E": 0.015504,
+        "F": 0.124352,
+        "G": 0.062147,
+        "H": 0.007435,
+        "I": 0.0,
+        "J": 0.090909,
+        "K": 0.154362,
+        "L": 0.0,
+        "M": 0.0,
+        "N": 0.02046,
+        "O": 0.027304,
+        "P": 0.02649,
+        "Q": 0.0,
+        "R": 0.0,
+        "S": 0.0,
+        "T": 0.142222,
+        "U": 0.005747,
+        "V": 0.0,
+        "W": 0.0,
+        "X": 0.019324,
+        "Y": 0.111588,
+        "Z": 0.0
+      }
+    },
+    "tool": "metric_stress_validator",
+    "toolRole": "reusable_support_tool"
+  },
+  "name": "UCI Letter Recognition",
+  "newVsBatch13": "new",
+  "protocolAmbiguity": "The archive provides one data file and says users typically train on the first 16000 items; no separate train/test files are present, so this is approximated rather than file-reproduced.",
+  "protocolDescription": "Used the source-described first 16000 rows for training and remaining 4000 rows for test.",
+  "protocolSignal": "source documentation says the first 16000 items are typically used for training and remaining 4000 for testing, but no separate train/test files are provided",
+  "protocolStatus": "protocol_approximated",
+  "protocolStatusExpectation": "likely_protocol_approximated",
+  "randomChallenger": {
+    "baselines": {
+      "dummy_most_frequent": {
+        "accuracy": 0.04075,
+        "confusionSummary": [
+          {
+            "class": "A",
+            "correct": 0,
+            "support": 158,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 158
+          },
+          {
+            "class": "B",
+            "correct": 0,
+            "support": 153,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 153
+          },
+          {
+            "class": "C",
+            "correct": 0,
+            "support": 147,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 147
+          },
+          {
+            "class": "D",
+            "correct": 0,
+            "support": 161,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 161
+          },
+          {
+            "class": "E",
+            "correct": 0,
+            "support": 154,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 154
+          },
+          {
+            "class": "F",
+            "correct": 0,
+            "support": 155,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 155
+          },
+          {
+            "class": "G",
+            "correct": 0,
+            "support": 155,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 155
+          },
+          {
+            "class": "H",
+            "correct": 0,
+            "support": 147,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 147
+          },
+          {
+            "class": "I",
+            "correct": 0,
+            "support": 151,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 151
+          },
+          {
+            "class": "J",
+            "correct": 0,
+            "support": 149,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 149
+          },
+          {
+            "class": "K",
+            "correct": 0,
+            "support": 148,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 148
+          },
+          {
+            "class": "L",
+            "correct": 0,
+            "support": 152,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 152
+          },
+          {
+            "class": "M",
+            "correct": 0,
+            "support": 158,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 158
+          },
+          {
+            "class": "N",
+            "correct": 0,
+            "support": 157,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 157
+          },
+          {
+            "class": "O",
+            "correct": 0,
+            "support": 150,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 150
+          },
+          {
+            "class": "P",
+            "correct": 0,
+            "support": 161,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 161
+          },
+          {
+            "class": "Q",
+            "correct": 0,
+            "support": 157,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 157
+          },
+          {
+            "class": "R",
+            "correct": 0,
+            "support": 151,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 151
+          },
+          {
+            "class": "S",
+            "correct": 0,
+            "support": 150,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 150
+          },
+          {
+            "class": "T",
+            "correct": 0,
+            "support": 159,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 159
+          },
+          {
+            "class": "U",
+            "correct": 163,
+            "support": 163,
+            "worstConfusedAs": "A",
+            "worstConfusionCount": 0
+          },
+          {
+            "class": "V",
+            "correct": 0,
+            "support": 153,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 153
+          },
+          {
+            "class": "W",
+            "correct": 0,
+            "support": 150,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 150
+          },
+          {
+            "class": "X",
+            "correct": 0,
+            "support": 157,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 157
+          },
+          {
+            "class": "Y",
+            "correct": 0,
+            "support": 157,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 157
+          },
+          {
+            "class": "Z",
+            "correct": 0,
+            "support": 147,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 147
+          }
+        ],
+        "fitNote": {
+          "rowsUsed": 16000,
+          "subsampled": false
+        },
+        "macroF1": 0.003012,
+        "perClassF1": {
+          "A": 0.0,
+          "B": 0.0,
+          "C": 0.0,
+          "D": 0.0,
+          "E": 0.0,
+          "F": 0.0,
+          "G": 0.0,
+          "H": 0.0,
+          "I": 0.0,
+          "J": 0.0,
+          "K": 0.0,
+          "L": 0.0,
+          "M": 0.0,
+          "N": 0.0,
+          "O": 0.0,
+          "P": 0.0,
+          "Q": 0.0,
+          "R": 0.0,
+          "S": 0.0,
+          "T": 0.0,
+          "U": 0.078309,
+          "V": 0.0,
+          "W": 0.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "dummy_stratified": {
+        "accuracy": 0.03925,
+        "confusionSummary": [
+          {
+            "class": "A",
+            "correct": 7,
+            "support": 158,
+            "worstConfusedAs": "K",
+            "worstConfusionCount": 11
+          },
+          {
+            "class": "B",
+            "correct": 7,
+            "support": 153,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 13
+          },
+          {
+            "class": "C",
+            "correct": 5,
+            "support": 147,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 12
+          },
+          {
+            "class": "D",
+            "correct": 7,
+            "support": 161,
+            "worstConfusedAs": "N",
+            "worstConfusionCount": 12
+          },
+          {
+            "class": "E",
+            "correct": 8,
+            "support": 154,
+            "worstConfusedAs": "Q",
+            "worstConfusionCount": 11
+          },
+          {
+            "class": "F",
+            "correct": 5,
+            "support": 155,
+            "worstConfusedAs": "K",
+            "worstConfusionCount": 11
+          },
+          {
+            "class": "G",
+            "correct": 10,
+            "support": 155,
+            "worstConfusedAs": "Q",
+            "worstConfusionCount": 10
+          },
+          {
+            "class": "H",
+            "correct": 6,
+            "support": 147,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 11
+          },
+          {
+            "class": "I",
+            "correct": 2,
+            "support": 151,
+            "worstConfusedAs": "G",
+            "worstConfusionCount": 10
+          },
+          {
+            "class": "J",
+            "correct": 8,
+            "support": 149,
+            "worstConfusedAs": "Q",
+            "worstConfusionCount": 11
+          },
+          {
+            "class": "K",
+            "correct": 6,
+            "support": 148,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 12
+          },
+          {
+            "class": "L",
+            "correct": 3,
+            "support": 152,
+            "worstConfusedAs": "F",
+            "worstConfusionCount": 10
+          },
+          {
+            "class": "M",
+            "correct": 8,
+            "support": 158,
+            "worstConfusedAs": "G",
+            "worstConfusionCount": 10
+          },
+          {
+            "class": "N",
+            "correct": 2,
+            "support": 157,
+            "worstConfusedAs": "D",
+            "worstConfusionCount": 12
+          },
+          {
+            "class": "O",
+            "correct": 6,
+            "support": 150,
+            "worstConfusedAs": "K",
+            "worstConfusionCount": 9
+          },
+          {
+            "class": "P",
+            "correct": 8,
+            "support": 161,
+            "worstConfusedAs": "G",
+            "worstConfusionCount": 12
+          },
+          {
+            "class": "Q",
+            "correct": 6,
+            "support": 157,
+            "worstConfusedAs": "R",
+            "worstConfusionCount": 11
+          },
+          {
+            "class": "R",
+            "correct": 4,
+            "support": 151,
+            "worstConfusedAs": "L",
+            "worstConfusionCount": 11
+          },
+          {
+            "class": "S",
+            "correct": 3,
+            "support": 150,
+            "worstConfusedAs": "N",
+            "worstConfusionCount": 10
+          },
+          {
+            "class": "T",
+            "correct": 10,
+            "support": 159,
+            "worstConfusedAs": "P",
+            "worstConfusionCount": 10
+          },
+          {
+            "class": "U",
+            "correct": 7,
+            "support": 163,
+            "worstConfusedAs": "E",
+            "worstConfusionCount": 12
+          },
+          {
+            "class": "V",
+            "correct": 4,
+            "support": 153,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 12
+          },
+          {
+            "class": "W",
+            "correct": 3,
+            "support": 150,
+            "worstConfusedAs": "E",
+            "worstConfusionCount": 13
+          },
+          {
+            "class": "X",
+            "correct": 11,
+            "support": 157,
+            "worstConfusedAs": "D",
+            "worstConfusionCount": 12
+          },
+          {
+            "class": "Y",
+            "correct": 9,
+            "support": 157,
+            "worstConfusedAs": "N",
+            "worstConfusionCount": 12
+          },
+          {
+            "class": "Z",
+            "correct": 2,
+            "support": 147,
+            "worstConfusedAs": "G",
+            "worstConfusionCount": 10
+          }
+        ],
+        "fitNote": {
+          "rowsUsed": 16000,
+          "subsampled": false
+        },
+        "macroF1": 0.038809,
+        "perClassF1": {
+          "A": 0.044728,
+          "B": 0.045307,
+          "C": 0.035587,
+          "D": 0.045307,
+          "E": 0.050157,
+          "F": 0.031949,
+          "G": 0.06079,
+          "H": 0.042403,
+          "I": 0.013841,
+          "J": 0.054237,
+          "K": 0.042105,
+          "L": 0.020478,
+          "M": 0.050473,
+          "N": 0.012461,
+          "O": 0.040404,
+          "P": 0.049844,
+          "Q": 0.035608,
+          "R": 0.026403,
+          "S": 0.019934,
+          "T": 0.060976,
+          "U": 0.042553,
+          "V": 0.026936,
+          "W": 0.019802,
+          "X": 0.063584,
+          "Y": 0.058632,
+          "Z": 0.014545
+        }
+      },
+      "logistic_regression": {
+        "accuracy": 0.77425,
+        "confusionSummary": [
+          {
+            "class": "A",
+            "correct": 142,
+            "support": 158,
+            "worstConfusedAs": "Y",
+            "worstConfusionCount": 4
+          },
+          {
+            "class": "B",
+            "correct": 113,
+            "support": 153,
+            "worstConfusedAs": "S",
+            "worstConfusionCount": 13
+          },
+          {
+            "class": "C",
+            "correct": 122,
+            "support": 147,
+            "worstConfusedAs": "K",
+            "worstConfusionCount": 6
+          },
+          {
+            "class": "D",
+            "correct": 129,
+            "support": 161,
+            "worstConfusedAs": "B",
+            "worstConfusionCount": 11
+          },
+          {
+            "class": "E",
+            "correct": 124,
+            "support": 154,
+            "worstConfusedAs": "S",
+            "worstConfusionCount": 8
+          },
+          {
+            "class": "F",
+            "correct": 119,
+            "support": 155,
+            "worstConfusedAs": "P",
+            "worstConfusionCount": 6
+          },
+          {
+            "class": "G",
+            "correct": 88,
+            "support": 155,
+            "worstConfusedAs": "Q",
+            "worstConfusionCount": 16
+          },
+          {
+            "class": "H",
+            "correct": 73,
+            "support": 147,
+            "worstConfusedAs": "O",
+            "worstConfusionCount": 16
+          },
+          {
+            "class": "I",
+            "correct": 118,
+            "support": 151,
+            "worstConfusedAs": "J",
+            "worstConfusionCount": 7
+          },
+          {
+            "class": "J",
+            "correct": 124,
+            "support": 149,
+            "worstConfusedAs": "I",
+            "worstConfusionCount": 5
+          },
+          {
+            "class": "K",
+            "correct": 104,
+            "support": 148,
+            "worstConfusedAs": "R",
+            "worstConfusionCount": 14
+          },
+          {
+            "class": "L",
+            "correct": 124,
+            "support": 152,
+            "worstConfusedAs": "E",
+            "worstConfusionCount": 8
+          },
+          {
+            "class": "M",
+            "correct": 140,
+            "support": 158,
+            "worstConfusedAs": "W",
+            "worstConfusionCount": 6
+          },
+          {
+            "class": "N",
+            "correct": 130,
+            "support": 157,
+            "worstConfusedAs": "D",
+            "worstConfusionCount": 6
+          },
+          {
+            "class": "O",
+            "correct": 95,
+            "support": 150,
+            "worstConfusedAs": "H",
+            "worstConfusionCount": 29
+          },
+          {
+            "class": "P",
+            "correct": 131,
+            "support": 161,
+            "worstConfusedAs": "F",
+            "worstConfusionCount": 12
+          },
+          {
+            "class": "Q",
+            "correct": 116,
+            "support": 157,
+            "worstConfusedAs": "S",
+            "worstConfusionCount": 13
+          },
+          {
+            "class": "R",
+            "correct": 115,
+            "support": 151,
+            "worstConfusedAs": "B",
+            "worstConfusionCount": 10
+          },
+          {
+            "class": "S",
+            "correct": 82,
+            "support": 150,
+            "worstConfusedAs": "B",
+            "worstConfusionCount": 16
+          },
+          {
+            "class": "T",
+            "correct": 123,
+            "support": 159,
+            "worstConfusedAs": "G",
+            "worstConfusionCount": 7
+          },
+          {
+            "class": "U",
+            "correct": 150,
+            "support": 163,
+            "worstConfusedAs": "H",
+            "worstConfusionCount": 4
+          },
+          {
+            "class": "V",
+            "correct": 137,
+            "support": 153,
+            "worstConfusedAs": "W",
+            "worstConfusionCount": 6
+          },
+          {
+            "class": "W",
+            "correct": 138,
+            "support": 150,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 5
+          },
+          {
+            "class": "X",
+            "correct": 118,
+            "support": 157,
+            "worstConfusedAs": "E",
+            "worstConfusionCount": 9
+          },
+          {
+            "class": "Y",
+            "correct": 129,
+            "support": 157,
+            "worstConfusedAs": "F",
+            "worstConfusionCount": 8
+          },
+          {
+            "class": "Z",
+            "correct": 113,
+            "support": 147,
+            "worstConfusedAs": "S",
+            "worstConfusionCount": 12
+          }
+        ],
+        "fitNote": {
+          "rowsUsed": 16000,
+          "subsampled": false
+        },
+        "macroF1": 0.772762,
+        "perClassF1": {
+          "A": 0.901587,
+          "B": 0.70405,
+          "C": 0.847222,
+          "D": 0.788991,
+          "E": 0.740299,
+          "F": 0.753165,
+          "G": 0.628571,
+          "H": 0.532847,
+          "I": 0.8223,
+          "J": 0.840678,
+          "K": 0.724739,
+          "L": 0.807818,
+          "M": 0.897436,
+          "N": 0.833333,
+          "O": 0.625,
+          "P": 0.826498,
+          "Q": 0.727273,
+          "R": 0.734824,
+          "S": 0.523962,
+          "T": 0.796117,
+          "U": 0.869565,
+          "V": 0.907285,
+          "W": 0.878981,
+          "X": 0.75641,
+          "Y": 0.824281,
+          "Z": 0.798587
+        }
+      },
+      "random_forest": {
+        "accuracy": 0.968,
+        "confusionSummary": [
+          {
+            "class": "A",
+            "correct": 157,
+            "support": 158,
+            "worstConfusedAs": "C",
+            "worstConfusionCount": 1
+          },
+          {
+            "class": "B",
+            "correct": 147,
+            "support": 153,
+            "worstConfusedAs": "V",
+            "worstConfusionCount": 2
+          },
+          {
+            "class": "C",
+            "correct": 143,
+            "support": 147,
+            "worstConfusedAs": "G",
+            "worstConfusionCount": 2
+          },
+          {
+            "class": "D",
+            "correct": 159,
+            "support": 161,
+            "worstConfusedAs": "H",
+            "worstConfusionCount": 1
+          },
+          {
+            "class": "E",
+            "correct": 147,
+            "support": 154,
+            "worstConfusedAs": "C",
+            "worstConfusionCount": 3
+          },
+          {
+            "class": "F",
+            "correct": 148,
+            "support": 155,
+            "worstConfusedAs": "B",
+            "worstConfusionCount": 2
+          },
+          {
+            "class": "G",
+            "correct": 147,
+            "support": 155,
+            "worstConfusedAs": "Q",
+            "worstConfusionCount": 4
+          },
+          {
+            "class": "H",
+            "correct": 128,
+            "support": 147,
+            "worstConfusedAs": "D",
+            "worstConfusionCount": 6
+          },
+          {
+            "class": "I",
+            "correct": 141,
+            "support": 151,
+            "worstConfusedAs": "J",
+            "worstConfusionCount": 6
+          },
+          {
+            "class": "J",
+            "correct": 145,
+            "support": 149,
+            "worstConfusedAs": "I",
+            "worstConfusionCount": 3
+          },
+          {
+            "class": "K",
+            "correct": 142,
+            "support": 148,
+            "worstConfusedAs": "R",
+            "worstConfusionCount": 3
+          },
+          {
+            "class": "L",
+            "correct": 148,
+            "support": 152,
+            "worstConfusedAs": "E",
+            "worstConfusionCount": 2
+          },
+          {
+            "class": "M",
+            "correct": 157,
+            "support": 158,
+            "worstConfusedAs": "G",
+            "worstConfusionCount": 1
+          },
+          {
+            "class": "N",
+            "correct": 150,
+            "support": 157,
+            "worstConfusedAs": "D",
+            "worstConfusionCount": 3
+          },
+          {
+            "class": "O",
+            "correct": 146,
+            "support": 150,
+            "worstConfusedAs": "D",
+            "worstConfusionCount": 2
+          },
+          {
+            "class": "P",
+            "correct": 155,
+            "support": 161,
+            "worstConfusedAs": "F",
+            "worstConfusionCount": 4
+          },
+          {
+            "class": "Q",
+            "correct": 154,
+            "support": 157,
+            "worstConfusedAs": "B",
+            "worstConfusionCount": 1
+          },
+          {
+            "class": "R",
+            "correct": 141,
+            "support": 151,
+            "worstConfusedAs": "B",
+            "worstConfusionCount": 3
+          },
+          {
+            "class": "S",
+            "correct": 145,
+            "support": 150,
+            "worstConfusedAs": "A",
+            "worstConfusionCount": 1
+          },
+          {
+            "class": "T",
+            "correct": 156,
+            "support": 159,
+            "worstConfusedAs": "Y",
+            "worstConfusionCount": 2
+          },
+          {
+            "class": "U",
+            "correct": 163,
+            "support": 163,
+            "worstConfusedAs": "A",
+            "worstConfusionCount": 0
+          },
+          {
+            "class": "V",
+            "correct": 149,
+            "support": 153,
+            "worstConfusedAs": "B",
+            "worstConfusionCount": 3
+          },
+          {
+            "class": "W",
+            "correct": 150,
+            "support": 150,
+            "worstConfusedAs": "A",
+            "worstConfusionCount": 0
+          },
+          {
+            "class": "X",
+            "correct": 154,
+            "support": 157,
+            "worstConfusedAs": "D",
+            "worstConfusionCount": 1
+          },
+          {
+            "class": "Y",
+            "correct": 156,
+            "support": 157,
+            "worstConfusedAs": "V",
+            "worstConfusionCount": 1
+          },
+          {
+            "class": "Z",
+            "correct": 144,
+            "support": 147,
+            "worstConfusedAs": "Q",
+            "worstConfusionCount": 2
+          }
+        ],
+        "fitNote": {
+          "rowsUsed": 16000,
+          "subsampled": false
+        },
+        "macroF1": 0.967767,
+        "perClassF1": {
+          "A": 0.990536,
+          "B": 0.939297,
+          "C": 0.966216,
+          "D": 0.949254,
+          "E": 0.960784,
+          "F": 0.948718,
+          "G": 0.951456,
+          "H": 0.904594,
+          "I": 0.955932,
+          "J": 0.966667,
+          "K": 0.949833,
+          "L": 0.983389,
+          "M": 0.993671,
+          "N": 0.970874,
+          "O": 0.979866,
+          "P": 0.971787,
+          "Q": 0.9625,
+          "R": 0.943144,
+          "S": 0.9699,
+          "T": 0.990476,
+          "U": 0.993902,
+          "V": 0.973856,
+          "W": 0.996678,
+          "X": 0.974684,
+          "Y": 0.984227,
+          "Z": 0.989691
+        }
+      }
+    },
+    "split": {
+      "seed": 42,
+      "testRows": 4000,
+      "testSizeFraction": 0.2,
+      "trainRows": 16000,
+      "type": "stratified_random_challenger"
+    }
+  },
+  "schemaProvenance": {
+    "addedValueBeyondPandas": "source-hash-bound evidence packaging and explicit protocol metadata, not raw discovery",
+    "classCount": 26,
+    "classDistribution": {
+      "A": 789,
+      "B": 766,
+      "C": 736,
+      "D": 805,
+      "E": 768,
+      "F": 775,
+      "G": 773,
+      "H": 734,
+      "I": 755,
+      "J": 747,
+      "K": 739,
+      "L": 761,
+      "M": 792,
+      "N": 783,
+      "O": 753,
+      "P": 803,
+      "Q": 783,
+      "R": 758,
+      "S": 748,
+      "T": 796,
+      "U": 813,
+      "V": 764,
+      "W": 752,
+      "X": 787,
+      "Y": 786,
+      "Z": 734
+    },
+    "duplicateFeatureRows": 1332,
+    "duplicateFullRows": 1332,
+    "featureCount": 16,
+    "limitations": [
+      "Does not prove semantic correctness of the source split.",
+      "Does not infer hidden group, temporal, or spatial structure when source metadata is absent."
+    ],
+    "missingCells": 0,
+    "pandasBaseline": {
+      "duplicatedFullRows": 1332,
+      "isnaSum": 0,
+      "valueCountsAvailable": true
+    },
+    "protocolMetadata": {
+      "documentationOrderSplit": "first 16000 train, remaining 4000 test",
+      "separateTrainTestFilesAvailable": false,
+      "singleDataFile": "letter-recognition.data",
+      "testRowsFromDocumentation": 4000,
+      "trainRowsFromDocumentation": 16000,
+      "typicalLanguagePresent": true
+    },
+    "rows": 20000,
+    "sourceBinding": {
+      "sha256": "3b5f07a334697b6cace4fbae22940393a18fee596e73f68d97ce5973d52dc60f",
+      "zipFile": "letter.zip"
+    },
+    "testRows": 4000,
+    "tool": "schema_provenance_auditor",
+    "toolRole": "packaging_only",
+    "trainRows": 16000
+  },
+  "slug": "uci-letter-recognition",
+  "sourceSplit": {
+    "baselines": {
+      "dummy_most_frequent": {
+        "accuracy": 0.036,
+        "confusionSummary": [
+          {
+            "class": "A",
+            "correct": 0,
+            "support": 156,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 156
+          },
+          {
+            "class": "B",
+            "correct": 0,
+            "support": 136,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 136
+          },
+          {
+            "class": "C",
+            "correct": 0,
+            "support": 142,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 142
+          },
+          {
+            "class": "D",
+            "correct": 0,
+            "support": 167,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 167
+          },
+          {
+            "class": "E",
+            "correct": 0,
+            "support": 152,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 152
+          },
+          {
+            "class": "F",
+            "correct": 0,
+            "support": 153,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 153
+          },
+          {
+            "class": "G",
+            "correct": 0,
+            "support": 164,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 164
+          },
+          {
+            "class": "H",
+            "correct": 0,
+            "support": 151,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 151
+          },
+          {
+            "class": "I",
+            "correct": 0,
+            "support": 165,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 165
+          },
+          {
+            "class": "J",
+            "correct": 0,
+            "support": 148,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 148
+          },
+          {
+            "class": "K",
+            "correct": 0,
+            "support": 146,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 146
+          },
+          {
+            "class": "L",
+            "correct": 0,
+            "support": 157,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 157
+          },
+          {
+            "class": "M",
+            "correct": 144,
+            "support": 144,
+            "worstConfusedAs": "A",
+            "worstConfusionCount": 0
+          },
+          {
+            "class": "N",
+            "correct": 0,
+            "support": 166,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 166
+          },
+          {
+            "class": "O",
+            "correct": 0,
+            "support": 139,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 139
+          },
+          {
+            "class": "P",
+            "correct": 0,
+            "support": 168,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 168
+          },
+          {
+            "class": "Q",
+            "correct": 0,
+            "support": 168,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 168
+          },
+          {
+            "class": "R",
+            "correct": 0,
+            "support": 161,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 161
+          },
+          {
+            "class": "S",
+            "correct": 0,
+            "support": 161,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 161
+          },
+          {
+            "class": "T",
+            "correct": 0,
+            "support": 151,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 151
+          },
+          {
+            "class": "U",
+            "correct": 0,
+            "support": 168,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 168
+          },
+          {
+            "class": "V",
+            "correct": 0,
+            "support": 136,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 136
+          },
+          {
+            "class": "W",
+            "correct": 0,
+            "support": 139,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 139
+          },
+          {
+            "class": "X",
+            "correct": 0,
+            "support": 159,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 159
+          },
+          {
+            "class": "Y",
+            "correct": 0,
+            "support": 145,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 145
+          },
+          {
+            "class": "Z",
+            "correct": 0,
+            "support": 158,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 158
+          }
+        ],
+        "fitNote": {
+          "rowsUsed": 16000,
+          "subsampled": false
+        },
+        "macroF1": 0.002673,
+        "perClassF1": {
+          "A": 0.0,
+          "B": 0.0,
+          "C": 0.0,
+          "D": 0.0,
+          "E": 0.0,
+          "F": 0.0,
+          "G": 0.0,
+          "H": 0.0,
+          "I": 0.0,
+          "J": 0.0,
+          "K": 0.0,
+          "L": 0.0,
+          "M": 0.069498,
+          "N": 0.0,
+          "O": 0.0,
+          "P": 0.0,
+          "Q": 0.0,
+          "R": 0.0,
+          "S": 0.0,
+          "T": 0.0,
+          "U": 0.0,
+          "V": 0.0,
+          "W": 0.0,
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        }
+      },
+      "dummy_stratified": {
+        "accuracy": 0.0365,
+        "confusionSummary": [
+          {
+            "class": "A",
+            "correct": 5,
+            "support": 156,
+            "worstConfusedAs": "F",
+            "worstConfusionCount": 17
+          },
+          {
+            "class": "B",
+            "correct": 5,
+            "support": 136,
+            "worstConfusedAs": "X",
+            "worstConfusionCount": 10
+          },
+          {
+            "class": "C",
+            "correct": 5,
+            "support": 142,
+            "worstConfusedAs": "Q",
+            "worstConfusionCount": 10
+          },
+          {
+            "class": "D",
+            "correct": 8,
+            "support": 167,
+            "worstConfusedAs": "A",
+            "worstConfusionCount": 11
+          },
+          {
+            "class": "E",
+            "correct": 3,
+            "support": 152,
+            "worstConfusedAs": "F",
+            "worstConfusionCount": 11
+          },
+          {
+            "class": "F",
+            "correct": 3,
+            "support": 153,
+            "worstConfusedAs": "P",
+            "worstConfusionCount": 11
+          },
+          {
+            "class": "G",
+            "correct": 4,
+            "support": 164,
+            "worstConfusedAs": "Q",
+            "worstConfusionCount": 12
+          },
+          {
+            "class": "H",
+            "correct": 2,
+            "support": 151,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 9
+          },
+          {
+            "class": "I",
+            "correct": 7,
+            "support": 165,
+            "worstConfusedAs": "E",
+            "worstConfusionCount": 11
+          },
+          {
+            "class": "J",
+            "correct": 4,
+            "support": 148,
+            "worstConfusedAs": "V",
+            "worstConfusionCount": 14
+          },
+          {
+            "class": "K",
+            "correct": 5,
+            "support": 146,
+            "worstConfusedAs": "Q",
+            "worstConfusionCount": 11
+          },
+          {
+            "class": "L",
+            "correct": 3,
+            "support": 157,
+            "worstConfusedAs": "C",
+            "worstConfusionCount": 12
+          },
+          {
+            "class": "M",
+            "correct": 3,
+            "support": 144,
+            "worstConfusedAs": "B",
+            "worstConfusionCount": 9
+          },
+          {
+            "class": "N",
+            "correct": 10,
+            "support": 166,
+            "worstConfusedAs": "D",
+            "worstConfusionCount": 11
+          },
+          {
+            "class": "O",
+            "correct": 6,
+            "support": 139,
+            "worstConfusedAs": "X",
+            "worstConfusionCount": 8
+          },
+          {
+            "class": "P",
+            "correct": 11,
+            "support": 168,
+            "worstConfusedAs": "U",
+            "worstConfusionCount": 13
+          },
+          {
+            "class": "Q",
+            "correct": 6,
+            "support": 168,
+            "worstConfusedAs": "O",
+            "worstConfusionCount": 11
+          },
+          {
+            "class": "R",
+            "correct": 7,
+            "support": 161,
+            "worstConfusedAs": "A",
+            "worstConfusionCount": 10
+          },
+          {
+            "class": "S",
+            "correct": 6,
+            "support": 161,
+            "worstConfusedAs": "X",
+            "worstConfusionCount": 14
+          },
+          {
+            "class": "T",
+            "correct": 7,
+            "support": 151,
+            "worstConfusedAs": "N",
+            "worstConfusionCount": 9
+          },
+          {
+            "class": "U",
+            "correct": 9,
+            "support": 168,
+            "worstConfusedAs": "V",
+            "worstConfusionCount": 11
+          },
+          {
+            "class": "V",
+            "correct": 5,
+            "support": 136,
+            "worstConfusedAs": "N",
+            "worstConfusionCount": 10
+          },
+          {
+            "class": "W",
+            "correct": 7,
+            "support": 139,
+            "worstConfusedAs": "K",
+            "worstConfusionCount": 9
+          },
+          {
+            "class": "X",
+            "correct": 3,
+            "support": 159,
+            "worstConfusedAs": "F",
+            "worstConfusionCount": 11
+          },
+          {
+            "class": "Y",
+            "correct": 6,
+            "support": 145,
+            "worstConfusedAs": "B",
+            "worstConfusionCount": 9
+          },
+          {
+            "class": "Z",
+            "correct": 6,
+            "support": 158,
+            "worstConfusedAs": "O",
+            "worstConfusionCount": 13
+          }
+        ],
+        "fitNote": {
+          "rowsUsed": 16000,
+          "subsampled": false
+        },
+        "macroF1": 0.036405,
+        "perClassF1": {
+          "A": 0.031847,
+          "B": 0.034247,
+          "C": 0.035714,
+          "D": 0.050794,
+          "E": 0.018809,
+          "F": 0.019481,
+          "G": 0.023599,
+          "H": 0.014134,
+          "I": 0.047138,
+          "J": 0.026936,
+          "K": 0.035211,
+          "L": 0.020339,
+          "M": 0.019608,
+          "N": 0.061728,
+          "O": 0.041096,
+          "P": 0.067901,
+          "Q": 0.034384,
+          "R": 0.045455,
+          "S": 0.038835,
+          "T": 0.04375,
+          "U": 0.053731,
+          "V": 0.034722,
+          "W": 0.04698,
+          "X": 0.017544,
+          "Y": 0.04,
+          "Z": 0.042553
+        }
+      },
+      "logistic_regression": {
+        "accuracy": 0.772,
+        "confusionSummary": [
+          {
+            "class": "A",
+            "correct": 137,
+            "support": 156,
+            "worstConfusedAs": "S",
+            "worstConfusionCount": 6
+          },
+          {
+            "class": "B",
+            "correct": 104,
+            "support": 136,
+            "worstConfusedAs": "R",
+            "worstConfusionCount": 8
+          },
+          {
+            "class": "C",
+            "correct": 108,
+            "support": 142,
+            "worstConfusedAs": "K",
+            "worstConfusionCount": 10
+          },
+          {
+            "class": "D",
+            "correct": 143,
+            "support": 167,
+            "worstConfusedAs": "B",
+            "worstConfusionCount": 6
+          },
+          {
+            "class": "E",
+            "correct": 122,
+            "support": 152,
+            "worstConfusedAs": "G",
+            "worstConfusionCount": 9
+          },
+          {
+            "class": "F",
+            "correct": 124,
+            "support": 153,
+            "worstConfusedAs": "T",
+            "worstConfusionCount": 7
+          },
+          {
+            "class": "G",
+            "correct": 81,
+            "support": 164,
+            "worstConfusedAs": "C",
+            "worstConfusionCount": 25
+          },
+          {
+            "class": "H",
+            "correct": 72,
+            "support": 151,
+            "worstConfusedAs": "O",
+            "worstConfusionCount": 14
+          },
+          {
+            "class": "I",
+            "correct": 135,
+            "support": 165,
+            "worstConfusedAs": "F",
+            "worstConfusionCount": 6
+          },
+          {
+            "class": "J",
+            "correct": 120,
+            "support": 148,
+            "worstConfusedAs": "I",
+            "worstConfusionCount": 7
+          },
+          {
+            "class": "K",
+            "correct": 107,
+            "support": 146,
+            "worstConfusedAs": "R",
+            "worstConfusionCount": 17
+          },
+          {
+            "class": "L",
+            "correct": 122,
+            "support": 157,
+            "worstConfusedAs": "X",
+            "worstConfusionCount": 7
+          },
+          {
+            "class": "M",
+            "correct": 134,
+            "support": 144,
+            "worstConfusedAs": "H",
+            "worstConfusionCount": 2
+          },
+          {
+            "class": "N",
+            "correct": 135,
+            "support": 166,
+            "worstConfusedAs": "D",
+            "worstConfusionCount": 6
+          },
+          {
+            "class": "O",
+            "correct": 85,
+            "support": 139,
+            "worstConfusedAs": "H",
+            "worstConfusionCount": 26
+          },
+          {
+            "class": "P",
+            "correct": 128,
+            "support": 168,
+            "worstConfusedAs": "F",
+            "worstConfusionCount": 12
+          },
+          {
+            "class": "Q",
+            "correct": 119,
+            "support": 168,
+            "worstConfusedAs": "O",
+            "worstConfusionCount": 8
+          },
+          {
+            "class": "R",
+            "correct": 128,
+            "support": 161,
+            "worstConfusedAs": "B",
+            "worstConfusionCount": 11
+          },
+          {
+            "class": "S",
+            "correct": 91,
+            "support": 161,
+            "worstConfusedAs": "Z",
+            "worstConfusionCount": 17
+          },
+          {
+            "class": "T",
+            "correct": 126,
+            "support": 151,
+            "worstConfusedAs": "G",
+            "worstConfusionCount": 6
+          },
+          {
+            "class": "U",
+            "correct": 146,
+            "support": 168,
+            "worstConfusedAs": "W",
+            "worstConfusionCount": 6
+          },
+          {
+            "class": "V",
+            "correct": 123,
+            "support": 136,
+            "worstConfusedAs": "W",
+            "worstConfusionCount": 4
+          },
+          {
+            "class": "W",
+            "correct": 124,
+            "support": 139,
+            "worstConfusedAs": "M",
+            "worstConfusionCount": 11
+          },
+          {
+            "class": "X",
+            "correct": 129,
+            "support": 159,
+            "worstConfusedAs": "I",
+            "worstConfusionCount": 4
+          },
+          {
+            "class": "Y",
+            "correct": 122,
+            "support": 145,
+            "worstConfusedAs": "V",
+            "worstConfusionCount": 5
+          },
+          {
+            "class": "Z",
+            "correct": 123,
+            "support": 158,
+            "worstConfusedAs": "S",
+            "worstConfusionCount": 10
+          }
+        ],
+        "fitNote": {
+          "rowsUsed": 16000,
+          "subsampled": false
+        },
+        "macroF1": 0.769941,
+        "perClassF1": {
+          "A": 0.864353,
+          "B": 0.722222,
+          "C": 0.752613,
+          "D": 0.792244,
+          "E": 0.807947,
+          "F": 0.779874,
+          "G": 0.549153,
+          "H": 0.531365,
+          "I": 0.851735,
+          "J": 0.821918,
+          "K": 0.730375,
+          "L": 0.784566,
+          "M": 0.87013,
+          "N": 0.84375,
+          "O": 0.625,
+          "P": 0.823151,
+          "Q": 0.706231,
+          "R": 0.748538,
+          "S": 0.592834,
+          "T": 0.820847,
+          "U": 0.866469,
+          "V": 0.869258,
+          "W": 0.867133,
+          "X": 0.770149,
+          "Y": 0.835616,
+          "Z": 0.790997
+        }
+      },
+      "random_forest": {
+        "accuracy": 0.96025,
+        "confusionSummary": [
+          {
+            "class": "A",
+            "correct": 154,
+            "support": 156,
+            "worstConfusedAs": "Y",
+            "worstConfusionCount": 2
+          },
+          {
+            "class": "B",
+            "correct": 133,
+            "support": 136,
+            "worstConfusedAs": "H",
+            "worstConfusionCount": 1
+          },
+          {
+            "class": "C",
+            "correct": 136,
+            "support": 142,
+            "worstConfusedAs": "G",
+            "worstConfusionCount": 2
+          },
+          {
+            "class": "D",
+            "correct": 165,
+            "support": 167,
+            "worstConfusedAs": "H",
+            "worstConfusionCount": 1
+          },
+          {
+            "class": "E",
+            "correct": 147,
+            "support": 152,
+            "worstConfusedAs": "C",
+            "worstConfusionCount": 1
+          },
+          {
+            "class": "F",
+            "correct": 146,
+            "support": 153,
+            "worstConfusedAs": "P",
+            "worstConfusionCount": 4
+          },
+          {
+            "class": "G",
+            "correct": 158,
+            "support": 164,
+            "worstConfusedAs": "B",
+            "worstConfusionCount": 2
+          },
+          {
+            "class": "H",
+            "correct": 132,
+            "support": 151,
+            "worstConfusedAs": "D",
+            "worstConfusionCount": 7
+          },
+          {
+            "class": "I",
+            "correct": 154,
+            "support": 165,
+            "worstConfusedAs": "F",
+            "worstConfusionCount": 4
+          },
+          {
+            "class": "J",
+            "correct": 140,
+            "support": 148,
+            "worstConfusedAs": "I",
+            "worstConfusionCount": 6
+          },
+          {
+            "class": "K",
+            "correct": 134,
+            "support": 146,
+            "worstConfusedAs": "R",
+            "worstConfusionCount": 3
+          },
+          {
+            "class": "L",
+            "correct": 150,
+            "support": 157,
+            "worstConfusedAs": "X",
+            "worstConfusionCount": 3
+          },
+          {
+            "class": "M",
+            "correct": 143,
+            "support": 144,
+            "worstConfusedAs": "B",
+            "worstConfusionCount": 1
+          },
+          {
+            "class": "N",
+            "correct": 156,
+            "support": 166,
+            "worstConfusedAs": "R",
+            "worstConfusionCount": 3
+          },
+          {
+            "class": "O",
+            "correct": 135,
+            "support": 139,
+            "worstConfusedAs": "Q",
+            "worstConfusionCount": 2
+          },
+          {
+            "class": "P",
+            "correct": 158,
+            "support": 168,
+            "worstConfusedAs": "F",
+            "worstConfusionCount": 3
+          },
+          {
+            "class": "Q",
+            "correct": 160,
+            "support": 168,
+            "worstConfusedAs": "O",
+            "worstConfusionCount": 5
+          },
+          {
+            "class": "R",
+            "correct": 154,
+            "support": 161,
+            "worstConfusedAs": "K",
+            "worstConfusionCount": 3
+          },
+          {
+            "class": "S",
+            "correct": 156,
+            "support": 161,
+            "worstConfusedAs": "H",
+            "worstConfusionCount": 2
+          },
+          {
+            "class": "T",
+            "correct": 149,
+            "support": 151,
+            "worstConfusedAs": "Y",
+            "worstConfusionCount": 1
+          },
+          {
+            "class": "U",
+            "correct": 166,
+            "support": 168,
+            "worstConfusedAs": "O",
+            "worstConfusionCount": 1
+          },
+          {
+            "class": "V",
+            "correct": 132,
+            "support": 136,
+            "worstConfusedAs": "B",
+            "worstConfusionCount": 1
+          },
+          {
+            "class": "W",
+            "correct": 137,
+            "support": 139,
+            "worstConfusedAs": "K",
+            "worstConfusionCount": 1
+          },
+          {
+            "class": "X",
+            "correct": 154,
+            "support": 159,
+            "worstConfusedAs": "K",
+            "worstConfusionCount": 4
+          },
+          {
+            "class": "Y",
+            "correct": 139,
+            "support": 145,
+            "worstConfusedAs": "V",
+            "worstConfusionCount": 3
+          },
+          {
+            "class": "Z",
+            "correct": 153,
+            "support": 158,
+            "worstConfusedAs": "E",
+            "worstConfusionCount": 2
+          }
+        ],
+        "fitNote": {
+          "rowsUsed": 16000,
+          "subsampled": false
+        },
+        "macroF1": 0.960241,
+        "perClassF1": {
+          "A": 0.990354,
+          "B": 0.93662,
+          "C": 0.97491,
+          "D": 0.945559,
+          "E": 0.951456,
+          "F": 0.944984,
+          "G": 0.969325,
+          "H": 0.90411,
+          "I": 0.947692,
+          "J": 0.962199,
+          "K": 0.924138,
+          "L": 0.974026,
+          "M": 0.979452,
+          "N": 0.954128,
+          "O": 0.950704,
+          "P": 0.951807,
+          "Q": 0.960961,
+          "R": 0.939024,
+          "S": 0.978056,
+          "T": 0.990033,
+          "U": 0.988095,
+          "V": 0.963504,
+          "W": 0.98917,
+          "X": 0.959502,
+          "Y": 0.961938,
+          "Z": 0.974522
+        }
+      }
+    },
+    "classCount": 26,
+    "featureCount": 16,
+    "protocolMetadata": {
+      "documentationOrderSplit": "first 16000 train, remaining 4000 test",
+      "separateTrainTestFilesAvailable": false,
+      "singleDataFile": "letter-recognition.data",
+      "testRowsFromDocumentation": 4000,
+      "trainRowsFromDocumentation": 16000,
+      "typicalLanguagePresent": true
+    },
+    "testRows": 4000,
+    "trainRows": 16000
+  },
+  "sourceUrl": "https://archive.ics.uci.edu/static/public/59/letter+recognition.zip",
+  "splitRiskFinding": {
+    "logisticMacroF1RandomMinusProtocol": 0.002821,
+    "notes": [
+      "protocol is approximated from documentation order rather than separate source split files"
+    ],
+    "severity": "low",
+    "status": "small_or_no_protocol_difference"
+  },
+  "splitRiskSeverity": {
+    "benchmarkClaimRiskScore": 1,
+    "classDistributionShift": 0.033,
+    "deltaAccuracySourceVsRandom": 0.00225,
+    "deltaMacroF1SourceVsRandom": 0.002821,
+    "groupSubjectFileTemporalRisk": false,
+    "protocolAmbiguityScore": 1,
+    "replayStabilityMaxRandomMacroF1Delta": 0.006517,
+    "severity": "low",
+    "severityPoints": 3
+  },
+  "splitRiskType": "documentation_order_split_ambiguity"
+}

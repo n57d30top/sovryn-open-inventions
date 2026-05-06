@@ -1,0 +1,764 @@
+{
+  "documentationUrl": "https://archive.ics.uci.edu/dataset/148/statlog+shuttle",
+  "expectedRisk": "80 percent majority class and documentation mentions original time order and randomization before validation split",
+  "loaded": true,
+  "metricStress": {
+    "addedValueBeyondSklearn": "binds normal sklearn metrics to shuffled-label, class-risk, seed/split, and source-vs-random controls",
+    "classRisk": {
+      "maxProtocolClassF1": 0.999382,
+      "minProtocolClassF1": 0.0,
+      "weakestProtocolClass": "2"
+    },
+    "flags": {
+      "accuracyCouldHideClassFailure": true,
+      "randomSplitMateriallyDifferent": true,
+      "shuffledControlSuspicious": false
+    },
+    "limitations": [
+      "Does not prove absence of leakage.",
+      "Does not turn source train/test files into a full paper benchmark reproduction."
+    ],
+    "macroVsAccuracy": {
+      "protocolAccuracy": 0.92869,
+      "protocolAccuracyMinusMacroF1": 0.545917,
+      "protocolMacroF1": 0.382773,
+      "randomAccuracy": 0.925517,
+      "randomAccuracyMinusMacroF1": 0.472496,
+      "randomMacroF1": 0.453021
+    },
+    "seedSplitSensitivity": [
+      {
+        "logisticAccuracy": 0.923034,
+        "logisticMacroF1": 0.494225,
+        "seed": 7
+      },
+      {
+        "logisticAccuracy": 0.925517,
+        "logisticMacroF1": 0.453021,
+        "seed": 42
+      },
+      {
+        "logisticAccuracy": 0.92669,
+        "logisticMacroF1": 0.382693,
+        "seed": 99
+      }
+    ],
+    "shuffledLabelControl": {
+      "accuracy": 0.791241,
+      "confusionSummary": [
+        {
+          "class": "1",
+          "correct": 11469,
+          "support": 11478,
+          "worstConfusedAs": "4",
+          "worstConfusionCount": 9
+        },
+        {
+          "class": "2",
+          "correct": 0,
+          "support": 13,
+          "worstConfusedAs": "1",
+          "worstConfusionCount": 13
+        },
+        {
+          "class": "3",
+          "correct": 0,
+          "support": 39,
+          "worstConfusedAs": "1",
+          "worstConfusionCount": 39
+        },
+        {
+          "class": "4",
+          "correct": 0,
+          "support": 2155,
+          "worstConfusedAs": "1",
+          "worstConfusionCount": 2155
+        },
+        {
+          "class": "5",
+          "correct": 4,
+          "support": 809,
+          "worstConfusedAs": "1",
+          "worstConfusionCount": 804
+        },
+        {
+          "class": "6",
+          "correct": 0,
+          "support": 4,
+          "worstConfusedAs": "5",
+          "worstConfusionCount": 4
+        },
+        {
+          "class": "7",
+          "correct": 0,
+          "support": 2,
+          "worstConfusedAs": "1",
+          "worstConfusionCount": 2
+        }
+      ],
+      "fitNote": {
+        "rowsUsed": 43500,
+        "subsampled": false
+      },
+      "macroF1": 0.127626,
+      "perClassF1": {
+        "1": 0.88359,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.009792,
+        "6": 0.0,
+        "7": 0.0
+      }
+    },
+    "tool": "metric_stress_validator",
+    "toolRole": "reusable_support_tool"
+  },
+  "name": "UCI Statlog Shuttle",
+  "newVsBatch13": "new",
+  "protocolAmbiguity": "Documentation says the original dataset was in time order, then randomized, and a portion removed for validation; the source split is reproducible but the original temporal protocol is not reconstructable.",
+  "protocolDescription": "Used shuttle.trn and shuttle.tst source files; shuttle.trn was decompressed from shuttle.trn.Z before analysis.",
+  "protocolSignal": "source archive contains train/test files and documentation says the dataset should be tackled by train/test",
+  "protocolStatus": "protocol_reproduced",
+  "protocolStatusExpectation": "likely_protocol_reproduced",
+  "randomChallenger": {
+    "baselines": {
+      "dummy_most_frequent": {
+        "accuracy": 0.785931,
+        "confusionSummary": [
+          {
+            "class": "1",
+            "correct": 11396,
+            "support": 11396,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 0
+          },
+          {
+            "class": "2",
+            "correct": 0,
+            "support": 12,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 12
+          },
+          {
+            "class": "3",
+            "correct": 0,
+            "support": 43,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 43
+          },
+          {
+            "class": "4",
+            "correct": 0,
+            "support": 2226,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 2226
+          },
+          {
+            "class": "5",
+            "correct": 0,
+            "support": 817,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 817
+          },
+          {
+            "class": "6",
+            "correct": 0,
+            "support": 3,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 3
+          },
+          {
+            "class": "7",
+            "correct": 0,
+            "support": 3,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 3
+          }
+        ],
+        "fitNote": {
+          "rowsUsed": 43500,
+          "subsampled": false
+        },
+        "macroF1": 0.125734,
+        "perClassF1": {
+          "1": 0.880136,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0,
+          "5": 0.0,
+          "6": 0.0,
+          "7": 0.0
+        }
+      },
+      "dummy_stratified": {
+        "accuracy": 0.643241,
+        "confusionSummary": [
+          {
+            "class": "1",
+            "correct": 8938,
+            "support": 11396,
+            "worstConfusedAs": "4",
+            "worstConfusionCount": 1773
+          },
+          {
+            "class": "2",
+            "correct": 0,
+            "support": 12,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 9
+          },
+          {
+            "class": "3",
+            "correct": 0,
+            "support": 43,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 36
+          },
+          {
+            "class": "4",
+            "correct": 356,
+            "support": 2226,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 1748
+          },
+          {
+            "class": "5",
+            "correct": 33,
+            "support": 817,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 656
+          },
+          {
+            "class": "6",
+            "correct": 0,
+            "support": 3,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 2
+          },
+          {
+            "class": "7",
+            "correct": 0,
+            "support": 3,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 2
+          }
+        ],
+        "fitNote": {
+          "rowsUsed": 43500,
+          "subsampled": false
+        },
+        "macroF1": 0.140662,
+        "perClassF1": {
+          "1": 0.784482,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.158539,
+          "5": 0.041614,
+          "6": 0.0,
+          "7": 0.0
+        }
+      },
+      "logistic_regression": {
+        "accuracy": 0.925517,
+        "confusionSummary": [
+          {
+            "class": "1",
+            "correct": 11264,
+            "support": 11396,
+            "worstConfusedAs": "4",
+            "worstConfusionCount": 131
+          },
+          {
+            "class": "2",
+            "correct": 0,
+            "support": 12,
+            "worstConfusedAs": "4",
+            "worstConfusionCount": 8
+          },
+          {
+            "class": "3",
+            "correct": 0,
+            "support": 43,
+            "worstConfusedAs": "4",
+            "worstConfusionCount": 28
+          },
+          {
+            "class": "4",
+            "correct": 1341,
+            "support": 2226,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 883
+          },
+          {
+            "class": "5",
+            "correct": 814,
+            "support": 817,
+            "worstConfusedAs": "4",
+            "worstConfusionCount": 2
+          },
+          {
+            "class": "6",
+            "correct": 0,
+            "support": 3,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 3
+          },
+          {
+            "class": "7",
+            "correct": 1,
+            "support": 3,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 1
+          }
+        ],
+        "fitNote": {
+          "rowsUsed": 43500,
+          "subsampled": false
+        },
+        "macroF1": 0.453021,
+        "perClassF1": {
+          "1": 0.955913,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.717688,
+          "5": 0.997549,
+          "6": 0.0,
+          "7": 0.5
+        }
+      },
+      "random_forest": {
+        "accuracy": 0.999448,
+        "confusionSummary": [
+          {
+            "class": "1",
+            "correct": 11396,
+            "support": 11396,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 0
+          },
+          {
+            "class": "2",
+            "correct": 9,
+            "support": 12,
+            "worstConfusedAs": "5",
+            "worstConfusionCount": 3
+          },
+          {
+            "class": "3",
+            "correct": 43,
+            "support": 43,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 0
+          },
+          {
+            "class": "4",
+            "correct": 2225,
+            "support": 2226,
+            "worstConfusedAs": "3",
+            "worstConfusionCount": 1
+          },
+          {
+            "class": "5",
+            "correct": 817,
+            "support": 817,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 0
+          },
+          {
+            "class": "6",
+            "correct": 0,
+            "support": 3,
+            "worstConfusedAs": "4",
+            "worstConfusionCount": 2
+          },
+          {
+            "class": "7",
+            "correct": 2,
+            "support": 3,
+            "worstConfusedAs": "3",
+            "worstConfusionCount": 1
+          }
+        ],
+        "fitNote": {
+          "originalRows": 43500,
+          "rowsUsed": 20000,
+          "subsampled": true
+        },
+        "macroF1": 0.804471,
+        "perClassF1": {
+          "1": 1.0,
+          "2": 0.857143,
+          "3": 0.977273,
+          "4": 0.999326,
+          "5": 0.997558,
+          "6": 0.0,
+          "7": 0.8
+        }
+      }
+    },
+    "split": {
+      "seed": 42,
+      "testRows": 14500,
+      "testSizeFraction": 0.25,
+      "trainRows": 43500,
+      "type": "stratified_random_challenger"
+    }
+  },
+  "schemaProvenance": {
+    "addedValueBeyondPandas": "source-hash-bound evidence packaging and explicit protocol metadata, not raw discovery",
+    "classCount": 7,
+    "classDistribution": {
+      "1": 45586,
+      "2": 50,
+      "3": 171,
+      "4": 8903,
+      "5": 3267,
+      "6": 10,
+      "7": 13
+    },
+    "duplicateFeatureRows": 0,
+    "duplicateFullRows": 0,
+    "featureCount": 9,
+    "limitations": [
+      "Does not prove semantic correctness of the source split.",
+      "Does not infer hidden group, temporal, or spatial structure when source metadata is absent."
+    ],
+    "missingCells": 0,
+    "pandasBaseline": {
+      "duplicatedFullRows": 0,
+      "isnaSum": 0,
+      "valueCountsAvailable": true
+    },
+    "protocolMetadata": {
+      "classImbalanceNotePresent": true,
+      "officialTestFile": "shuttle.tst",
+      "officialTrainFile": "shuttle.trn.Z",
+      "testRowsDocumented": 14500,
+      "timeOrderNotePresent": true,
+      "trainingRowsDocumented": 43500,
+      "uncompressedTrainSidecarUsed": true
+    },
+    "rows": 58000,
+    "sourceBinding": {
+      "sha256": "a03e1f23755093eff5b8d9656f944ae3240a376065cf4360d090f5fe0aff9bef",
+      "zipFile": "shuttle.zip"
+    },
+    "testRows": 14500,
+    "tool": "schema_provenance_auditor",
+    "toolRole": "packaging_only",
+    "trainRows": 43500
+  },
+  "slug": "uci-statlog-shuttle",
+  "sourceSplit": {
+    "baselines": {
+      "dummy_most_frequent": {
+        "accuracy": 0.791586,
+        "confusionSummary": [
+          {
+            "class": "1",
+            "correct": 11478,
+            "support": 11478,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 0
+          },
+          {
+            "class": "2",
+            "correct": 0,
+            "support": 13,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 13
+          },
+          {
+            "class": "3",
+            "correct": 0,
+            "support": 39,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 39
+          },
+          {
+            "class": "4",
+            "correct": 0,
+            "support": 2155,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 2155
+          },
+          {
+            "class": "5",
+            "correct": 0,
+            "support": 809,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 809
+          },
+          {
+            "class": "6",
+            "correct": 0,
+            "support": 4,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 4
+          },
+          {
+            "class": "7",
+            "correct": 0,
+            "support": 2,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 2
+          }
+        ],
+        "fitNote": {
+          "rowsUsed": 43500,
+          "subsampled": false
+        },
+        "macroF1": 0.126239,
+        "perClassF1": {
+          "1": 0.883671,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0,
+          "5": 0.0,
+          "6": 0.0,
+          "7": 0.0
+        }
+      },
+      "dummy_stratified": {
+        "accuracy": 0.645793,
+        "confusionSummary": [
+          {
+            "class": "1",
+            "correct": 8995,
+            "support": 11478,
+            "worstConfusedAs": "4",
+            "worstConfusionCount": 1816
+          },
+          {
+            "class": "2",
+            "correct": 0,
+            "support": 13,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 12
+          },
+          {
+            "class": "3",
+            "correct": 0,
+            "support": 39,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 32
+          },
+          {
+            "class": "4",
+            "correct": 327,
+            "support": 2155,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 1694
+          },
+          {
+            "class": "5",
+            "correct": 42,
+            "support": 809,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 634
+          },
+          {
+            "class": "6",
+            "correct": 0,
+            "support": 4,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 4
+          },
+          {
+            "class": "7",
+            "correct": 0,
+            "support": 2,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 2
+          }
+        ],
+        "fitNote": {
+          "rowsUsed": 43500,
+          "subsampled": false
+        },
+        "macroF1": 0.141124,
+        "perClassF1": {
+          "1": 0.787274,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.14753,
+          "5": 0.053064,
+          "6": 0.0,
+          "7": 0.0
+        }
+      },
+      "logistic_regression": {
+        "accuracy": 0.92869,
+        "confusionSummary": [
+          {
+            "class": "1",
+            "correct": 11351,
+            "support": 11478,
+            "worstConfusedAs": "4",
+            "worstConfusionCount": 125
+          },
+          {
+            "class": "2",
+            "correct": 0,
+            "support": 13,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 8
+          },
+          {
+            "class": "3",
+            "correct": 0,
+            "support": 39,
+            "worstConfusedAs": "4",
+            "worstConfusionCount": 23
+          },
+          {
+            "class": "4",
+            "correct": 1307,
+            "support": 2155,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 848
+          },
+          {
+            "class": "5",
+            "correct": 808,
+            "support": 809,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 1
+          },
+          {
+            "class": "6",
+            "correct": 0,
+            "support": 4,
+            "worstConfusedAs": "4",
+            "worstConfusionCount": 4
+          },
+          {
+            "class": "7",
+            "correct": 0,
+            "support": 2,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 2
+          }
+        ],
+        "fitNote": {
+          "rowsUsed": 43500,
+          "subsampled": false
+        },
+        "macroF1": 0.382773,
+        "perClassF1": {
+          "1": 0.957729,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.722299,
+          "5": 0.999382,
+          "6": 0.0,
+          "7": 0.0
+        }
+      },
+      "random_forest": {
+        "accuracy": 0.999655,
+        "confusionSummary": [
+          {
+            "class": "1",
+            "correct": 11477,
+            "support": 11478,
+            "worstConfusedAs": "3",
+            "worstConfusionCount": 1
+          },
+          {
+            "class": "2",
+            "correct": 12,
+            "support": 13,
+            "worstConfusedAs": "4",
+            "worstConfusionCount": 1
+          },
+          {
+            "class": "3",
+            "correct": 39,
+            "support": 39,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 0
+          },
+          {
+            "class": "4",
+            "correct": 2155,
+            "support": 2155,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 0
+          },
+          {
+            "class": "5",
+            "correct": 809,
+            "support": 809,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 0
+          },
+          {
+            "class": "6",
+            "correct": 3,
+            "support": 4,
+            "worstConfusedAs": "4",
+            "worstConfusionCount": 1
+          },
+          {
+            "class": "7",
+            "correct": 0,
+            "support": 2,
+            "worstConfusedAs": "3",
+            "worstConfusionCount": 2
+          }
+        ],
+        "fitNote": {
+          "originalRows": 43500,
+          "rowsUsed": 20000,
+          "subsampled": true
+        },
+        "macroF1": 0.825657,
+        "perClassF1": {
+          "1": 0.999956,
+          "2": 0.96,
+          "3": 0.962963,
+          "4": 0.999536,
+          "5": 1.0,
+          "6": 0.857143,
+          "7": 0.0
+        }
+      }
+    },
+    "classCount": 7,
+    "featureCount": 9,
+    "protocolMetadata": {
+      "classImbalanceNotePresent": true,
+      "officialTestFile": "shuttle.tst",
+      "officialTrainFile": "shuttle.trn.Z",
+      "testRowsDocumented": 14500,
+      "timeOrderNotePresent": true,
+      "trainingRowsDocumented": 43500,
+      "uncompressedTrainSidecarUsed": true
+    },
+    "testRows": 14500,
+    "trainRows": 43500
+  },
+  "sourceUrl": "https://archive.ics.uci.edu/static/public/148/statlog+shuttle.zip",
+  "splitRiskFinding": {
+    "logisticMacroF1RandomMinusProtocol": 0.070248,
+    "notes": [
+      "documentation reports majority-class dominance and original time-order relevance before randomization"
+    ],
+    "severity": "high",
+    "status": "material_protocol_difference"
+  },
+  "splitRiskSeverity": {
+    "benchmarkClaimRiskScore": 3,
+    "classDistributionShift": 0.007678,
+    "deltaAccuracySourceVsRandom": -0.003173,
+    "deltaMacroF1SourceVsRandom": 0.070248,
+    "groupSubjectFileTemporalRisk": true,
+    "protocolAmbiguityScore": 0,
+    "replayStabilityMaxRandomMacroF1Delta": 0.070328,
+    "severity": "high",
+    "severityPoints": 7
+  },
+  "splitRiskType": "class_imbalance_and_time_order_note"
+}

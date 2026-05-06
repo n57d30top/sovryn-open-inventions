@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 75
+Results: 76
 
 ## Lifecycle Counts
 
-- autopublished: 44
+- autopublished: 45
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -23,6 +23,7 @@ Results: 75
 - batch11-multi-target-dataset-metric-validation-program: latest batch11-multi-target-dataset-metric-validation-program; batch11-multi-target-dataset-metric-validation-program
 - batch12-research-production-review-next-frontier-program: latest batch12-research-production-review-next-frontier-program; batch12-research-production-review-next-frontier-program
 - batch13-protocol-first-benchmark-validation-week1: latest batch13-protocol-first-benchmark-validation-week1; batch13-protocol-first-benchmark-validation-week1
+- batch14-protocol-risk-expansion-week2: latest batch14-protocol-risk-expansion-week2; batch14-protocol-risk-expansion-week2
 - batch2-climate-fever-claim-verification-followup: latest batch2-climate-fever-claim-verification-followup; batch2-climate-fever-claim-verification-followup
 - batch2-hotpotqa-source-evidence-extraction-challenge: latest batch2-hotpotqa-source-evidence-extraction-challenge; batch2-hotpotqa-source-evidence-extraction-challenge
 - batch2-pyod-reproducibility-audit: latest batch2-pyod-reproducibility-audit; batch2-pyod-reproducibility-audit

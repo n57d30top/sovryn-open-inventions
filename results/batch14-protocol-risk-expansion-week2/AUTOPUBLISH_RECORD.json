@@ -1,0 +1,14 @@
+{
+  "candidateStatus": "autopublished",
+  "gates": [
+    "real_public_data_loaded",
+    "protocol_attempts_completed",
+    "random_challengers_completed",
+    "split_risk_severity_scored",
+    "container_netoff_replay_completed",
+    "public_hygiene_ready"
+  ],
+  "publishedAt": "2026-05-06T13:01:35.802Z",
+  "resultKind": "protocol_risk_expansion_week2",
+  "slug": "batch14-protocol-risk-expansion-week2"
+}

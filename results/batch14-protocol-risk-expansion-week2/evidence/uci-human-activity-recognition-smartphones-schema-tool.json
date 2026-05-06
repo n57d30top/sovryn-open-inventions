@@ -1,0 +1,42 @@
+{
+  "addedValueBeyondPandas": "source-hash-bound evidence packaging and explicit protocol metadata, not raw discovery",
+  "classCount": 6,
+  "classDistribution": {
+    "1": 1722,
+    "2": 1544,
+    "3": 1406,
+    "4": 1777,
+    "5": 1906,
+    "6": 1944
+  },
+  "duplicateFeatureRows": 0,
+  "duplicateFullRows": 0,
+  "featureCount": 561,
+  "limitations": [
+    "Does not prove semantic correctness of the source split.",
+    "Does not infer hidden group, temporal, or spatial structure when source metadata is absent."
+  ],
+  "missingCells": 0,
+  "pandasBaseline": {
+    "duplicatedFullRows": 0,
+    "isnaSum": 0,
+    "valueCountsAvailable": true
+  },
+  "protocolMetadata": {
+    "officialTestFile": "test/X_test.txt",
+    "officialTrainFile": "train/X_train.txt",
+    "subjectGroupingAvailable": true,
+    "subjectOverlapCount": 0,
+    "subjectTestCount": 9,
+    "subjectTrainCount": 21
+  },
+  "rows": 10299,
+  "sourceBinding": {
+    "sha256": "c00b803081a5c797cd5e4b83700a9810b38d53d9d84e01917e090e1fdbc81031",
+    "zipFile": "har.zip"
+  },
+  "testRows": 2947,
+  "tool": "schema_provenance_auditor",
+  "toolRole": "packaging_only",
+  "trainRows": 7352
+}

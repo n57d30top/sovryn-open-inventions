@@ -1,0 +1,230 @@
+{
+  "ambiguousOrHigherRiskCount": 3,
+  "baselineComparisonCount": 4,
+  "batch": "Batch 14 / Week 2",
+  "batch13Comparison": {
+    "ambiguityMoreImportant": true,
+    "anyLargerThanBatch13Range": true,
+    "batch13DeltaRange": {
+      "max": 0.029324,
+      "min": 0.02224
+    },
+    "batch14DeltaRange": {
+      "max": 0.070248,
+      "min": 0.002821
+    },
+    "protocolFirstStillJustified": true,
+    "targets": [
+      {
+        "batch13DeltaIfCarryForward": 0.028766,
+        "batch14Delta": 0.028766,
+        "largerThanBatch13Range": false,
+        "severity": "moderate",
+        "slug": "uci-human-activity-recognition-smartphones",
+        "withinBatch13Range": true
+      },
+      {
+        "batch13DeltaIfCarryForward": null,
+        "batch14Delta": 0.070248,
+        "largerThanBatch13Range": true,
+        "severity": "high",
+        "slug": "uci-statlog-shuttle",
+        "withinBatch13Range": false
+      },
+      {
+        "batch13DeltaIfCarryForward": null,
+        "batch14Delta": 0.022155,
+        "largerThanBatch13Range": false,
+        "severity": "high",
+        "slug": "uci-statlog-landsat-satellite",
+        "withinBatch13Range": true
+      },
+      {
+        "batch13DeltaIfCarryForward": null,
+        "batch14Delta": 0.002821,
+        "largerThanBatch13Range": false,
+        "severity": "low",
+        "slug": "uci-letter-recognition",
+        "withinBatch13Range": false
+      }
+    ]
+  },
+  "failedTargetCount": 0,
+  "failures": [],
+  "freshSeedReplay": {
+    "attempted": true,
+    "count": 4,
+    "results": [
+      {
+        "baselineLogisticMacroF1": 0.983189,
+        "baselineSeed": 42,
+        "freshSeed": 99,
+        "freshSeedLogisticMacroF1": 0.982306,
+        "macroF1DeltaFreshMinusBaseline": -0.000883,
+        "replayType": "fresh_seed_stratified_random_split",
+        "slug": "uci-human-activity-recognition-smartphones"
+      },
+      {
+        "baselineLogisticMacroF1": 0.453021,
+        "baselineSeed": 42,
+        "freshSeed": 99,
+        "freshSeedLogisticMacroF1": 0.382693,
+        "macroF1DeltaFreshMinusBaseline": -0.070328,
+        "replayType": "fresh_seed_stratified_random_split",
+        "slug": "uci-statlog-shuttle"
+      },
+      {
+        "baselineLogisticMacroF1": 0.819208,
+        "baselineSeed": 42,
+        "freshSeed": 99,
+        "freshSeedLogisticMacroF1": 0.814745,
+        "macroF1DeltaFreshMinusBaseline": -0.004463,
+        "replayType": "fresh_seed_stratified_random_split",
+        "slug": "uci-statlog-landsat-satellite"
+      },
+      {
+        "baselineLogisticMacroF1": 0.772762,
+        "baselineSeed": 42,
+        "freshSeed": 99,
+        "freshSeedLogisticMacroF1": 0.772233,
+        "macroF1DeltaFreshMinusBaseline": -0.000529,
+        "replayType": "fresh_seed_stratified_random_split",
+        "slug": "uci-letter-recognition"
+      }
+    ]
+  },
+  "hardQuestionAnswer": "Yes. Batch 14 found protocol-first evaluation still changes conclusions across 4 targets; 2 targets reached high or severe split-risk severity, and 1 target introduced documentation-order protocol ambiguity. Highest risk came from class imbalance, documentation-only order splits, and source train/test files whose random challengers substantially changed macro-F1.",
+  "loadedTargetCount": 4,
+  "metricStressValidationCount": 4,
+  "negativeOrPartialFindings": [
+    "No benchmark-win claim is supported; this batch only compares source-described protocols with random challengers.",
+    "At least one protocol was approximated from documentation rather than reproduced from separate train/test files.",
+    "At least one target had high or severe split-risk severity.",
+    "Accuracy alone hid enough class-level weakness to require macro-F1 and per-class reporting.",
+    "schema_provenance_auditor remained evidence packaging; pandas exposed the raw missingness and duplicate checks."
+  ],
+  "newTargetCountRelativeToBatch13": 3,
+  "packageVersions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "platform": "macOS-26.3.1-arm64-arm-64bit",
+    "python": "3.12.13",
+    "scikit_learn": "1.8.0"
+  },
+  "program": "Protocol-First Benchmark Validation and Split-Risk Program",
+  "protocolAttempts": [
+    {
+      "expectation": "likely_protocol_reproduced",
+      "signal": "source archive contains train/test files and subject_train/subject_test files",
+      "slug": "uci-human-activity-recognition-smartphones",
+      "status": "protocol_reproduced"
+    },
+    {
+      "expectation": "likely_protocol_reproduced",
+      "signal": "source archive contains train/test files and documentation says the dataset should be tackled by train/test",
+      "slug": "uci-statlog-shuttle",
+      "status": "protocol_reproduced"
+    },
+    {
+      "expectation": "likely_protocol_reproduced",
+      "signal": "source archive contains sat.trn and sat.tst and documentation says do not use cross-validation",
+      "slug": "uci-statlog-landsat-satellite",
+      "status": "protocol_reproduced"
+    },
+    {
+      "expectation": "likely_protocol_approximated",
+      "signal": "source documentation says the first 16000 items are typically used for training and remaining 4000 for testing, but no separate train/test files are provided",
+      "slug": "uci-letter-recognition",
+      "status": "protocol_approximated"
+    }
+  ],
+  "protocolReproducedOrApproximatedCount": 4,
+  "randomChallengerCount": 4,
+  "resultKind": "protocol_risk_expansion_week2",
+  "selectedTargets": [
+    "uci-human-activity-recognition-smartphones",
+    "uci-statlog-shuttle",
+    "uci-statlog-landsat-satellite",
+    "uci-letter-recognition"
+  ],
+  "splitRiskFindings": {
+    "uci-human-activity-recognition-smartphones": {
+      "logisticMacroF1RandomMinusProtocol": 0.028766,
+      "notes": [
+        "source split preserves a subject holdout boundary; random split mixes that boundary"
+      ],
+      "severity": "moderate",
+      "status": "material_protocol_difference"
+    },
+    "uci-letter-recognition": {
+      "logisticMacroF1RandomMinusProtocol": 0.002821,
+      "notes": [
+        "protocol is approximated from documentation order rather than separate source split files"
+      ],
+      "severity": "low",
+      "status": "small_or_no_protocol_difference"
+    },
+    "uci-statlog-landsat-satellite": {
+      "logisticMacroF1RandomMinusProtocol": 0.022155,
+      "notes": [
+        "documentation warns against cross-validation and describes image-derived spatial neighborhoods"
+      ],
+      "severity": "high",
+      "status": "material_protocol_difference"
+    },
+    "uci-statlog-shuttle": {
+      "logisticMacroF1RandomMinusProtocol": 0.070248,
+      "notes": [
+        "documentation reports majority-class dominance and original time-order relevance before randomization"
+      ],
+      "severity": "high",
+      "status": "material_protocol_difference"
+    }
+  },
+  "splitRiskSeverity": {
+    "uci-human-activity-recognition-smartphones": {
+      "benchmarkClaimRiskScore": 2,
+      "classDistributionShift": 0.023831,
+      "deltaAccuracySourceVsRandom": 0.027486,
+      "deltaMacroF1SourceVsRandom": 0.028766,
+      "groupSubjectFileTemporalRisk": true,
+      "protocolAmbiguityScore": 0,
+      "replayStabilityMaxRandomMacroF1Delta": 0.001589,
+      "severity": "moderate",
+      "severityPoints": 6
+    },
+    "uci-letter-recognition": {
+      "benchmarkClaimRiskScore": 1,
+      "classDistributionShift": 0.033,
+      "deltaAccuracySourceVsRandom": 0.00225,
+      "deltaMacroF1SourceVsRandom": 0.002821,
+      "groupSubjectFileTemporalRisk": false,
+      "protocolAmbiguityScore": 1,
+      "replayStabilityMaxRandomMacroF1Delta": 0.006517,
+      "severity": "low",
+      "severityPoints": 3
+    },
+    "uci-statlog-landsat-satellite": {
+      "benchmarkClaimRiskScore": 3,
+      "classDistributionShift": 0.029399,
+      "deltaAccuracySourceVsRandom": 0.0215,
+      "deltaMacroF1SourceVsRandom": 0.022155,
+      "groupSubjectFileTemporalRisk": true,
+      "protocolAmbiguityScore": 0,
+      "replayStabilityMaxRandomMacroF1Delta": 0.017595,
+      "severity": "high",
+      "severityPoints": 7
+    },
+    "uci-statlog-shuttle": {
+      "benchmarkClaimRiskScore": 3,
+      "classDistributionShift": 0.007678,
+      "deltaAccuracySourceVsRandom": -0.003173,
+      "deltaMacroF1SourceVsRandom": 0.070248,
+      "groupSubjectFileTemporalRisk": true,
+      "protocolAmbiguityScore": 0,
+      "replayStabilityMaxRandomMacroF1Delta": 0.070328,
+      "severity": "high",
+      "severityPoints": 7
+    }
+  }
+}

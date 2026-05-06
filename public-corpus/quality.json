@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T12:28:07.919Z",
+  "generatedAt": "2026-05-06T13:02:54.031Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 64,
+    "good": 65,
     "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 44,
+    "autopublished": 45,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -167,6 +167,20 @@
       "reproducibilityScore": 93,
       "publicationSafetyScore": 98,
       "specificityScore": 92
+    },
+    {
+      "slug": "batch14-protocol-risk-expansion-week2",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch14-protocol-risk-expansion-week2",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 95,
+      "reproducibilityScore": 93,
+      "publicationSafetyScore": 98,
+      "specificityScore": 93
     },
     {
       "slug": "batch2-climate-fever-claim-verification-followup",
@@ -1065,5 +1079,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "c72f6da1e60115217a908aa957d5176d4edb4f0e98a7913614190ece49df9273"
+  "evidenceHash": "4b924975032142ce22c34331e06c506e2a60386675664649cdb00756064559dd"
 }

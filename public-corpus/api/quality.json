@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 64,
+    "good": 65,
     "reviewable": 6
   },
   "results": [
@@ -60,6 +60,11 @@
       "slug": "batch13-protocol-first-benchmark-validation-week1",
       "qualityLabel": "good",
       "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch14-protocol-risk-expansion-week2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 92
     },
     {
       "slug": "batch2-climate-fever-claim-verification-followup",
@@ -382,5 +387,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "c72f6da1e60115217a908aa957d5176d4edb4f0e98a7913614190ece49df9273"
+  "evidenceHash": "4b924975032142ce22c34331e06c506e2a60386675664649cdb00756064559dd"
 }

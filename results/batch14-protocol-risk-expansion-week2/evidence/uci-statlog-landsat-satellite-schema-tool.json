@@ -1,0 +1,41 @@
+{
+  "addedValueBeyondPandas": "source-hash-bound evidence packaging and explicit protocol metadata, not raw discovery",
+  "classCount": 6,
+  "classDistribution": {
+    "1": 1533,
+    "2": 703,
+    "3": 1358,
+    "4": 626,
+    "5": 707,
+    "7": 1508
+  },
+  "duplicateFeatureRows": 0,
+  "duplicateFullRows": 0,
+  "featureCount": 36,
+  "limitations": [
+    "Does not prove semantic correctness of the source split.",
+    "Does not infer hidden group, temporal, or spatial structure when source metadata is absent."
+  ],
+  "missingCells": 0,
+  "pandasBaseline": {
+    "duplicatedFullRows": 0,
+    "isnaSum": 0,
+    "valueCountsAvailable": true
+  },
+  "protocolMetadata": {
+    "classSixAbsentNotePresent": true,
+    "doNotUseCrossValidationNotePresent": true,
+    "imageNeighborhoodData": true,
+    "officialTestFile": "sat.tst",
+    "officialTrainFile": "sat.trn"
+  },
+  "rows": 6435,
+  "sourceBinding": {
+    "sha256": "7c54e0e11c872a1b0b647da370d596dcb06746159cce4121d92ccd70b7d7ce3c",
+    "zipFile": "landsat.zip"
+  },
+  "testRows": 2000,
+  "tool": "schema_provenance_auditor",
+  "toolRole": "packaging_only",
+  "trainRows": 4435
+}

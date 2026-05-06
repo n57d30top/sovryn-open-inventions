@@ -1,0 +1,39 @@
+{
+  "failures": [],
+  "mode": "replay_only",
+  "networkReachability": {
+    "errorType": "URLError",
+    "externalNetworkReachable": false
+  },
+  "targetReplaySummary": [
+    {
+      "protocolLogisticMacroF1": 0.955014,
+      "protocolStatus": "protocol_reproduced",
+      "randomLogisticMacroF1": 0.983189,
+      "slug": "uci-human-activity-recognition-smartphones",
+      "splitRiskSeverity": "moderate"
+    },
+    {
+      "protocolLogisticMacroF1": 0.382773,
+      "protocolStatus": "protocol_reproduced",
+      "randomLogisticMacroF1": 0.453043,
+      "slug": "uci-statlog-shuttle",
+      "splitRiskSeverity": "high"
+    },
+    {
+      "protocolLogisticMacroF1": 0.797053,
+      "protocolStatus": "protocol_reproduced",
+      "randomLogisticMacroF1": 0.819208,
+      "slug": "uci-statlog-landsat-satellite",
+      "splitRiskSeverity": "high"
+    },
+    {
+      "protocolLogisticMacroF1": 0.769941,
+      "protocolStatus": "protocol_approximated",
+      "randomLogisticMacroF1": 0.772762,
+      "slug": "uci-letter-recognition",
+      "splitRiskSeverity": "low"
+    }
+  ],
+  "targetsLoaded": 4
+}

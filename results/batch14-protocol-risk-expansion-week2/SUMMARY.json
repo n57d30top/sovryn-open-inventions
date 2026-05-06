@@ -1,0 +1,194 @@
+{
+  "actualExecutionPerformed": "Loaded four public UCI protocol-risk benchmark targets, followed or approximated source-described split protocols, ran dummy/logistic/tree baselines on source and stratified-random splits, ran metric stress checks, scored split-risk severity, compared against Batch 13, and replayed the run in a network-off container.",
+  "antiTemplateStatus": "review_ready",
+  "baselineComparisonCount": 4,
+  "candidateStatus": "autopublished",
+  "containerNetoffReplay": {
+    "attempted": true,
+    "network": "none",
+    "succeeded": true,
+    "targetsLoaded": 4
+  },
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+  "domain": "protocol-first-benchmark-validation-and-split-risk",
+  "evidenceHash": "6a257315948b5d85fc44b88af5a30591988b08a5f173baa46325db0c1a7b5550",
+  "evidenceStrengthScore": 95,
+  "falsificationStatus": "protocol_risk_expansion_validated_with_limitations",
+  "freshSeedReplayCount": 4,
+  "hardQuestionAnswer": "Yes. Batch 14 found protocol-first evaluation still changes conclusions across 4 targets; 2 targets reached high or severe split-risk severity, and 1 target introduced documentation-order protocol ambiguity. Highest risk came from class imbalance, documentation-only order splits, and source train/test files whose random challengers substantially changed macro-F1.",
+  "lifecycleStatus": "autopublished",
+  "loadedTargetCount": 4,
+  "negativeOrPartial": true,
+  "negativeOrPartialFindings": [
+    "No benchmark-win claim is supported; this batch only compares source-described protocols with random challengers.",
+    "At least one protocol was approximated from documentation rather than reproduced from separate train/test files.",
+    "At least one target had high or severe split-risk severity.",
+    "Accuracy alone hid enough class-level weakness to require macro-F1 and per-class reporting.",
+    "schema_provenance_auditor remained evidence packaging; pandas exposed the raw missingness and duplicate checks."
+  ],
+  "newTargetsRelativeToBatch13": [
+    "UCI Statlog Shuttle",
+    "UCI Statlog Landsat Satellite",
+    "UCI Letter Recognition"
+  ],
+  "nextResearchDirection": "Batch 15 should choose a deep target around Shuttle or Landsat and test split-risk helpers, rare-class controls, and replayed protocol cards.",
+  "packageVersions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "platform": "macOS-26.3.1-arm64-arm-64bit",
+    "python": "3.12.13",
+    "scikit_learn": "1.8.0"
+  },
+  "protocolAttempts": [
+    {
+      "expectation": "likely_protocol_reproduced",
+      "signal": "source archive contains train/test files and subject_train/subject_test files",
+      "slug": "uci-human-activity-recognition-smartphones",
+      "status": "protocol_reproduced"
+    },
+    {
+      "expectation": "likely_protocol_reproduced",
+      "signal": "source archive contains train/test files and documentation says the dataset should be tackled by train/test",
+      "slug": "uci-statlog-shuttle",
+      "status": "protocol_reproduced"
+    },
+    {
+      "expectation": "likely_protocol_reproduced",
+      "signal": "source archive contains sat.trn and sat.tst and documentation says do not use cross-validation",
+      "slug": "uci-statlog-landsat-satellite",
+      "status": "protocol_reproduced"
+    },
+    {
+      "expectation": "likely_protocol_approximated",
+      "signal": "source documentation says the first 16000 items are typically used for training and remaining 4000 for testing, but no separate train/test files are provided",
+      "slug": "uci-letter-recognition",
+      "status": "protocol_approximated"
+    }
+  ],
+  "publicHygienePassed": true,
+  "publicationSafetyScore": 98,
+  "qualityLabel": "good",
+  "randomChallengerCount": 4,
+  "releaseReadinessScore": 92,
+  "reliabilityReplayPassed": true,
+  "replayCriticalPassRate": 100,
+  "reproducibilityScore": 93,
+  "resultKind": "protocol_risk_expansion_week2",
+  "safetyScanPassed": true,
+  "selectedTargets": [
+    "UCI Human Activity Recognition Using Smartphones",
+    "UCI Statlog Shuttle",
+    "UCI Statlog Landsat Satellite",
+    "UCI Letter Recognition"
+  ],
+  "slug": "batch14-protocol-risk-expansion-week2",
+  "sourceUrls": [
+    "https://archive.ics.uci.edu/static/public/240/human+activity+recognition+using+smartphones.zip",
+    "https://archive.ics.uci.edu/static/public/148/statlog+shuttle.zip",
+    "https://archive.ics.uci.edu/static/public/146/statlog+landsat+satellite.zip",
+    "https://archive.ics.uci.edu/static/public/59/letter+recognition.zip",
+    "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones",
+    "https://archive.ics.uci.edu/dataset/148/statlog+shuttle",
+    "https://archive.ics.uci.edu/dataset/146/statlog+landsat+satellite",
+    "https://archive.ics.uci.edu/dataset/59/letter+recognition",
+    "https://pandas.pydata.org/",
+    "https://scikit-learn.org/",
+    "https://numpy.org/"
+  ],
+  "specificityScore": 93,
+  "splitRiskFindings": {
+    "uci-human-activity-recognition-smartphones": {
+      "logisticMacroF1RandomMinusProtocol": 0.028766,
+      "notes": [
+        "source split preserves a subject holdout boundary; random split mixes that boundary"
+      ],
+      "severity": "moderate",
+      "status": "material_protocol_difference"
+    },
+    "uci-letter-recognition": {
+      "logisticMacroF1RandomMinusProtocol": 0.002821,
+      "notes": [
+        "protocol is approximated from documentation order rather than separate source split files"
+      ],
+      "severity": "low",
+      "status": "small_or_no_protocol_difference"
+    },
+    "uci-statlog-landsat-satellite": {
+      "logisticMacroF1RandomMinusProtocol": 0.022155,
+      "notes": [
+        "documentation warns against cross-validation and describes image-derived spatial neighborhoods"
+      ],
+      "severity": "high",
+      "status": "material_protocol_difference"
+    },
+    "uci-statlog-shuttle": {
+      "logisticMacroF1RandomMinusProtocol": 0.070248,
+      "notes": [
+        "documentation reports majority-class dominance and original time-order relevance before randomization"
+      ],
+      "severity": "high",
+      "status": "material_protocol_difference"
+    }
+  },
+  "splitRiskSeverity": {
+    "uci-human-activity-recognition-smartphones": {
+      "benchmarkClaimRiskScore": 2,
+      "classDistributionShift": 0.023831,
+      "deltaAccuracySourceVsRandom": 0.027486,
+      "deltaMacroF1SourceVsRandom": 0.028766,
+      "groupSubjectFileTemporalRisk": true,
+      "protocolAmbiguityScore": 0,
+      "replayStabilityMaxRandomMacroF1Delta": 0.001589,
+      "severity": "moderate",
+      "severityPoints": 6
+    },
+    "uci-letter-recognition": {
+      "benchmarkClaimRiskScore": 1,
+      "classDistributionShift": 0.033,
+      "deltaAccuracySourceVsRandom": 0.00225,
+      "deltaMacroF1SourceVsRandom": 0.002821,
+      "groupSubjectFileTemporalRisk": false,
+      "protocolAmbiguityScore": 1,
+      "replayStabilityMaxRandomMacroF1Delta": 0.006517,
+      "severity": "low",
+      "severityPoints": 3
+    },
+    "uci-statlog-landsat-satellite": {
+      "benchmarkClaimRiskScore": 3,
+      "classDistributionShift": 0.029399,
+      "deltaAccuracySourceVsRandom": 0.0215,
+      "deltaMacroF1SourceVsRandom": 0.022155,
+      "groupSubjectFileTemporalRisk": true,
+      "protocolAmbiguityScore": 0,
+      "replayStabilityMaxRandomMacroF1Delta": 0.017595,
+      "severity": "high",
+      "severityPoints": 7
+    },
+    "uci-statlog-shuttle": {
+      "benchmarkClaimRiskScore": 3,
+      "classDistributionShift": 0.007678,
+      "deltaAccuracySourceVsRandom": -0.003173,
+      "deltaMacroF1SourceVsRandom": 0.070248,
+      "groupSubjectFileTemporalRisk": true,
+      "protocolAmbiguityScore": 0,
+      "replayStabilityMaxRandomMacroF1Delta": 0.070328,
+      "severity": "high",
+      "severityPoints": 7
+    }
+  },
+  "targetCount": 4,
+  "title": "Batch 14 Protocol Risk Expansion Week 2",
+  "toolDecisionsAfterBatch14": {
+    "container_netoff_replay_recipe": "reusable_for_protocol_replay_after_data_provisioning",
+    "metric_stress_validator": "reusable_support_tool_for_protocol_severity_and_class_risk",
+    "schema_provenance_auditor": "packaging_only_source_hash_and_schema_card_role"
+  },
+  "toolsUsed": [
+    "metric_stress_validator",
+    "schema_provenance_auditor",
+    "container_netoff_replay_recipe"
+  ],
+  "versionGroup": "batch14-protocol-risk-expansion-week2",
+  "whatSovrynLearned": "Batch 13's +0.02 to +0.03 macro-F1 split-risk range was not the full story. Shuttle produced a larger +0.0702 macro-F1 random-over-source delta and severe class-risk symptoms, Landsat remained high risk, and Letter showed that documented order splits can be ambiguous even when the measured random delta is small.",
+  "workerAssurance": "host_venv_plus_container_netoff_replay"
+}

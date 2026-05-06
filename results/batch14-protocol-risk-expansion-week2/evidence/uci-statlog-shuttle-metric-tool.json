@@ -1,0 +1,112 @@
+{
+  "addedValueBeyondSklearn": "binds normal sklearn metrics to shuffled-label, class-risk, seed/split, and source-vs-random controls",
+  "classRisk": {
+    "maxProtocolClassF1": 0.999382,
+    "minProtocolClassF1": 0.0,
+    "weakestProtocolClass": "2"
+  },
+  "flags": {
+    "accuracyCouldHideClassFailure": true,
+    "randomSplitMateriallyDifferent": true,
+    "shuffledControlSuspicious": false
+  },
+  "limitations": [
+    "Does not prove absence of leakage.",
+    "Does not turn source train/test files into a full paper benchmark reproduction."
+  ],
+  "macroVsAccuracy": {
+    "protocolAccuracy": 0.92869,
+    "protocolAccuracyMinusMacroF1": 0.545917,
+    "protocolMacroF1": 0.382773,
+    "randomAccuracy": 0.925517,
+    "randomAccuracyMinusMacroF1": 0.472496,
+    "randomMacroF1": 0.453021
+  },
+  "seedSplitSensitivity": [
+    {
+      "logisticAccuracy": 0.923034,
+      "logisticMacroF1": 0.494225,
+      "seed": 7
+    },
+    {
+      "logisticAccuracy": 0.925517,
+      "logisticMacroF1": 0.453021,
+      "seed": 42
+    },
+    {
+      "logisticAccuracy": 0.92669,
+      "logisticMacroF1": 0.382693,
+      "seed": 99
+    }
+  ],
+  "shuffledLabelControl": {
+    "accuracy": 0.791241,
+    "confusionSummary": [
+      {
+        "class": "1",
+        "correct": 11469,
+        "support": 11478,
+        "worstConfusedAs": "4",
+        "worstConfusionCount": 9
+      },
+      {
+        "class": "2",
+        "correct": 0,
+        "support": 13,
+        "worstConfusedAs": "1",
+        "worstConfusionCount": 13
+      },
+      {
+        "class": "3",
+        "correct": 0,
+        "support": 39,
+        "worstConfusedAs": "1",
+        "worstConfusionCount": 39
+      },
+      {
+        "class": "4",
+        "correct": 0,
+        "support": 2155,
+        "worstConfusedAs": "1",
+        "worstConfusionCount": 2155
+      },
+      {
+        "class": "5",
+        "correct": 4,
+        "support": 809,
+        "worstConfusedAs": "1",
+        "worstConfusionCount": 804
+      },
+      {
+        "class": "6",
+        "correct": 0,
+        "support": 4,
+        "worstConfusedAs": "5",
+        "worstConfusionCount": 4
+      },
+      {
+        "class": "7",
+        "correct": 0,
+        "support": 2,
+        "worstConfusedAs": "1",
+        "worstConfusionCount": 2
+      }
+    ],
+    "fitNote": {
+      "rowsUsed": 43500,
+      "subsampled": false
+    },
+    "macroF1": 0.127626,
+    "perClassF1": {
+      "1": 0.88359,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "5": 0.009792,
+      "6": 0.0,
+      "7": 0.0
+    }
+  },
+  "tool": "metric_stress_validator",
+  "toolRole": "reusable_support_tool"
+}

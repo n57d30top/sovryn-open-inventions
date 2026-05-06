@@ -1,0 +1,8 @@
+FROM python:3.12-slim
+
+RUN pip install --no-cache-dir numpy pandas scikit-learn
+
+WORKDIR /work
+COPY evidence/batch14_protocol_risk_analysis.py /work/batch14_protocol_risk_analysis.py
+
+ENTRYPOINT ["python", "/work/batch14_protocol_risk_analysis.py"]
