@@ -2,19 +2,19 @@
   "kind": "public_corpus_result_badges",
   "slug": "batch15-shuttle-deep-protocol-risk-study",
   "badges": {
-    "quality": "unknown",
-    "status": "unknown",
-    "antiTemplate": "unknown",
-    "replay": "replay-partial",
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "review_ready",
+    "replay": "replay-100",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
     "worker": "container-netoff",
-    "falsification": "not_evaluated",
+    "falsification": "deep_protocol_risk_validated_with_limitations",
     "lifecycle": "autopublished",
     "version": "batch15-shuttle-deep-protocol-risk-study",
     "showcase": "not-showcase"
   },
   "lifecycleStatus": "autopublished",
   "showcaseRank": null,
-  "evidenceHash": "480a35dbfac15834763760518308105b5d0451e3397a86fc9ed81f5360e301c4"
+  "evidenceHash": "8089d05dfcab2154988ff8ca6641e25afa01d8297a697570dced182087d96a6c"
 }

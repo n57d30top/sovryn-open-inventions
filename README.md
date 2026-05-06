@@ -47,17 +47,17 @@ and safety scope in human-readable language.
 - [Batch 12 Research Production Review and Next Frontier Program Selection](results/batch12-research-production-review-next-frontier-program/) — good, autopublished, batch12-research-production-review-next-frontier-program, autonomous-research-production-strategy
 - [Batch 13 Protocol-First Benchmark Validation Week 1](results/batch13-protocol-first-benchmark-validation-week1/) — good, autopublished, batch13-protocol-first-benchmark-validation-week1, protocol-first-benchmark-validation-and-split-risk
 - [Batch 14 Protocol Risk Expansion Week 2](results/batch14-protocol-risk-expansion-week2/) — good, autopublished, batch14-protocol-risk-expansion-week2, protocol-first-benchmark-validation-and-split-risk
-- [Batch15 Shuttle Deep Protocol Risk Study](results/batch15-shuttle-deep-protocol-risk-study/) — unknown, autopublished, batch15-shuttle-deep-protocol-risk-study, open-research
-- [Batch16 Landsat Deep Protocol Risk Study](results/batch16-landsat-deep-protocol-risk-study/) — unknown, needs_revision, batch16-landsat-deep-protocol-risk-study, open-research
-- [Batch17 Protocol Extraction Ambiguity Tournament](results/batch17-protocol-extraction-ambiguity-tournament/) — unknown, autopublished, batch17-protocol-extraction-ambiguity-tournament, open-research
-- [Batch18 Cross Target Split Risk Atlas](results/batch18-cross-target-split-risk-atlas/) — unknown, autopublished, batch18-cross-target-split-risk-atlas, open-research
-- [Batch19 Protocol Risk Kill Week](results/batch19-protocol-risk-kill-week/) — unknown, autopublished, batch19-protocol-risk-kill-week, open-research
+- [Batch 15 Shuttle Deep Protocol-Risk Study](results/batch15-shuttle-deep-protocol-risk-study/) — good, autopublished, batch15-shuttle-deep-protocol-risk-study, open-research
+- [Batch 16 Landsat Deep Protocol-Risk Study](results/batch16-landsat-deep-protocol-risk-study/) — good, autopublished, batch16-landsat-deep-protocol-risk-study, open-research
+- [Batch 17 Protocol Extraction and Ambiguity Tournament](results/batch17-protocol-extraction-ambiguity-tournament/) — good, autopublished, batch17-protocol-extraction-ambiguity-tournament, open-research
+- [Batch 18 Cross-Target Split-Risk Atlas](results/batch18-cross-target-split-risk-atlas/) — good, autopublished, batch18-cross-target-split-risk-atlas, open-research
+- [Batch 19 Protocol-Risk Kill Week](results/batch19-protocol-risk-kill-week/) — good, autopublished, batch19-protocol-risk-kill-week, open-research
 - [Climate-FEVER Claim Verification Source-Card Reproduction Follow-Up](results/batch2-climate-fever-claim-verification-followup/) — reviewable, autopublished, batch2-climate-fever-claim-verification-followup, claim-verification-benchmark-quality
 - [HotpotQA Source/Evidence Extraction Challenge](results/batch2-hotpotqa-source-evidence-extraction-challenge/) — good, autopublished, batch2-hotpotqa-source-evidence-extraction-challenge, source-evidence-extraction-quality
 - [PyOD Repository Reproducibility Audit](results/batch2-pyod-reproducibility-audit/) — reviewable, autopublished, batch2-pyod-reproducibility-audit, public-repo-reproducibility-audit
 - [UCI Auto MPG Public Dataset Quality Audit](results/batch2-uci-auto-mpg-dataset-quality-audit/) — good, autopublished, batch2-uci-auto-mpg-dataset-quality-audit, public-dataset-quality-audit
 - [UCI Occupancy Detection Benchmark Challenge](results/batch2-uci-occupancy-benchmark-challenge/) — good, autopublished, batch2-uci-occupancy-benchmark-challenge, time-series-benchmark-challenge
-- [Batch20 Protocol Risk Paper Grade Frontier Result](results/batch20-protocol-risk-paper-grade-frontier-result/) — unknown, autopublished, batch20-protocol-risk-paper-grade-frontier-result, open-research
+- [Batch 20 Protocol-Risk Paper-Grade Frontier Result](results/batch20-protocol-risk-paper-grade-frontier-result/) — good, autopublished, batch20-protocol-risk-paper-grade-frontier-result, open-research
 - [Palmer Penguins Dataset Quality Execution Audit](results/batch3-palmer-penguins-dataset-quality-execution/) — good, autopublished, batch3-palmer-penguins-dataset-quality-execution, public-dataset-quality-audit
 - [RapidFuzz Repository Install and Example Reproduction Audit](results/batch3-rapidfuzz-repo-install-example-reproduction/) — reviewable, autopublished, batch3-rapidfuzz-repo-install-example-reproduction, public-repo-reproducibility-audit
 - [SQuAD v2 Source/Evidence Extraction Audit](results/batch3-squad-v2-source-evidence-extraction-audit/) — good, autopublished, batch3-squad-v2-source-evidence-extraction-audit, source-evidence-extraction-quality

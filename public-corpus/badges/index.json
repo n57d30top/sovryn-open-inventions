@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T13:41:18.123Z",
+  "generatedAt": "2026-05-06T14:11:54.242Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -221,14 +221,14 @@
     {
       "slug": "batch15-shuttle-deep-protocol-risk-study",
       "badges": {
-        "quality": "unknown",
-        "status": "unknown",
-        "antiTemplate": "unknown",
-        "replay": "replay-partial",
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
-        "falsification": "not_evaluated",
+        "falsification": "deep_protocol_risk_validated_with_limitations",
         "lifecycle": "autopublished",
         "version": "batch15-shuttle-deep-protocol-risk-study",
         "showcase": "not-showcase"
@@ -239,32 +239,32 @@
     {
       "slug": "batch16-landsat-deep-protocol-risk-study",
       "badges": {
-        "quality": "unknown",
-        "status": "unknown",
-        "antiTemplate": "unknown",
-        "replay": "replay-partial",
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "not-recorded",
-        "falsification": "not_evaluated",
-        "lifecycle": "needs_revision",
+        "falsification": "spatial_file_protocol_risk_validated_with_limitations",
+        "lifecycle": "autopublished",
         "version": "batch16-landsat-deep-protocol-risk-study",
         "showcase": "not-showcase"
       },
-      "lifecycleStatus": "needs_revision",
+      "lifecycleStatus": "autopublished",
       "showcaseRank": null
     },
     {
       "slug": "batch17-protocol-extraction-ambiguity-tournament",
       "badges": {
-        "quality": "unknown",
-        "status": "unknown",
-        "antiTemplate": "unknown",
-        "replay": "replay-partial",
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "not-recorded",
-        "falsification": "not_evaluated",
+        "falsification": "protocol_tournament_completed_with_rejections",
         "lifecycle": "autopublished",
         "version": "batch17-protocol-extraction-ambiguity-tournament",
         "showcase": "not-showcase"
@@ -275,14 +275,14 @@
     {
       "slug": "batch18-cross-target-split-risk-atlas",
       "badges": {
-        "quality": "unknown",
-        "status": "unknown",
-        "antiTemplate": "unknown",
-        "replay": "replay-partial",
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "not-recorded",
-        "falsification": "not_evaluated",
+        "falsification": "cross_target_atlas_validated_with_controls",
         "lifecycle": "autopublished",
         "version": "batch18-cross-target-split-risk-atlas",
         "showcase": "not-showcase"
@@ -293,14 +293,14 @@
     {
       "slug": "batch19-protocol-risk-kill-week",
       "badges": {
-        "quality": "unknown",
-        "status": "unknown",
-        "antiTemplate": "unknown",
-        "replay": "replay-partial",
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "not-recorded",
-        "falsification": "not_evaluated",
+        "falsification": "kill_week_completed_with_claim_downgrades",
         "lifecycle": "autopublished",
         "version": "batch19-protocol-risk-kill-week",
         "showcase": "not-showcase"
@@ -401,14 +401,14 @@
     {
       "slug": "batch20-protocol-risk-paper-grade-frontier-result",
       "badges": {
-        "quality": "unknown",
-        "status": "unknown",
-        "antiTemplate": "unknown",
-        "replay": "replay-partial",
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "not-recorded",
-        "falsification": "not_evaluated",
+        "falsification": "paper_grade_synthesis_completed_with_limitations",
         "lifecycle": "autopublished",
         "version": "batch20-protocol-risk-paper-grade-frontier-result",
         "showcase": "not-showcase"
@@ -1479,5 +1479,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "b40283c03d4119cb7ade7f9bc953d673d34dc30d3365de5e4371de9d0dfad644"
+  "evidenceHash": "e497cab0bea3c28c59dc82785581d25cff348f0c973ed756dec01b2bb6ad0e4e"
 }

@@ -16,5 +16,22 @@
     "uci-statlog-vehicle-silhouettes",
     "uci-pen-based-handwritten-digits"
   ],
-  "slug": "batch17-protocol-extraction-ambiguity-tournament"
+  "slug": "batch17-protocol-extraction-ambiguity-tournament",
+  "title": "Batch 17 Protocol Extraction and Ambiguity Tournament",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "antiTemplateStatus": "review_ready",
+  "lifecycleStatus": "autopublished",
+  "revisionReason": null,
+  "releaseReadinessScore": 86,
+  "evidenceStrengthScore": 88,
+  "reproducibilityScore": 84,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 86,
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "protocol_tournament_completed_with_rejections",
+  "metadataPromotionRationale": "Ten candidates scored, six load attempts, three minimal runs, explicit selected and rejected/deferred targets."
 }

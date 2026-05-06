@@ -1,13 +1,7 @@
 {
   "kind": "public_corpus_revision_queue",
-  "updatedAt": "2026-05-06T13:41:18.123Z",
+  "updatedAt": "2026-05-06T14:11:54.242Z",
   "results": [
-    {
-      "slug": "batch16-landsat-deep-protocol-risk-study",
-      "title": "Batch16 Landsat Deep Protocol Risk Study",
-      "lifecycleStatus": "needs_revision",
-      "revisionReason": "Specificity score is below the public corpus promotion threshold."
-    },
     {
       "slug": "corpus-deduplication",
       "title": "Corpus Deduplication for Defensive Publications",
@@ -33,5 +27,5 @@
       "revisionReason": "Falsification status is insufficient_tests."
     }
   ],
-  "evidenceHash": "dd425aac743220c602d2423fcd97b4b455e239adf7c4acb3523f026a9b43c165"
+  "evidenceHash": "0b944684042cb27e81df7fccbfad4e0ee3dbbb29e67461aac88247c5e7ce92a5"
 }

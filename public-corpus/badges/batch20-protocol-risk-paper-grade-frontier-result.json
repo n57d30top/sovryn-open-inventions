@@ -2,19 +2,19 @@
   "kind": "public_corpus_result_badges",
   "slug": "batch20-protocol-risk-paper-grade-frontier-result",
   "badges": {
-    "quality": "unknown",
-    "status": "unknown",
-    "antiTemplate": "unknown",
-    "replay": "replay-partial",
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "review_ready",
+    "replay": "replay-100",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
     "worker": "not-recorded",
-    "falsification": "not_evaluated",
+    "falsification": "paper_grade_synthesis_completed_with_limitations",
     "lifecycle": "autopublished",
     "version": "batch20-protocol-risk-paper-grade-frontier-result",
     "showcase": "not-showcase"
   },
   "lifecycleStatus": "autopublished",
   "showcaseRank": null,
-  "evidenceHash": "416dd08d54e9ff5308ba63b882359a297f46f10bab78cf105bd627634a104178"
+  "evidenceHash": "8929103f038177ab3311102e5d3ae3784b9526973c1a0664275a38604f5adef4"
 }

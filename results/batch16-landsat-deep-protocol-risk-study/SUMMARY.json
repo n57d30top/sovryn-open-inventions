@@ -27,5 +27,22 @@
   "severityDecision": "high",
   "slug": "batch16-landsat-deep-protocol-risk-study",
   "sourceLinearMacroF1": 0.797053,
-  "target": "UCI Statlog Landsat Satellite"
+  "target": "UCI Statlog Landsat Satellite",
+  "title": "Batch 16 Landsat Deep Protocol-Risk Study",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "antiTemplateStatus": "review_ready",
+  "lifecycleStatus": "autopublished",
+  "revisionReason": null,
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 93,
+  "reproducibilityScore": 92,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 90,
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "spatial_file_protocol_risk_validated_with_limitations",
+  "metadataPromotionRationale": "Real Landsat data, source sat.trn/sat.tst protocol, split-family experiments, Shuttle comparison, metric stress, and network-off replay."
 }

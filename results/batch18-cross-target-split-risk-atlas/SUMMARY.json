@@ -16,5 +16,22 @@
   "refreshedExecutionCount": 6,
   "resultKind": "cross_target_split_risk_atlas",
   "slug": "batch18-cross-target-split-risk-atlas",
-  "targetCount": 8
+  "targetCount": 8,
+  "title": "Batch 18 Cross-Target Split-Risk Atlas",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "antiTemplateStatus": "review_ready",
+  "lifecycleStatus": "autopublished",
+  "revisionReason": null,
+  "releaseReadinessScore": 90,
+  "evidenceStrengthScore": 92,
+  "reproducibilityScore": 89,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 90,
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "cross_target_atlas_validated_with_controls",
+  "metadataPromotionRationale": "Eight-target atlas, refreshed executions, low-risk controls, protocol ambiguity report, tool constraints, and atlas conclusions."
 }

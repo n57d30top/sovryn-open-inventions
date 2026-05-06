@@ -2,9 +2,8 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 65,
-    "reviewable": 6,
-    "unknown": 6
+    "good": 71,
+    "reviewable": 6
   },
   "results": [
     {
@@ -69,28 +68,28 @@
     },
     {
       "slug": "batch15-shuttle-deep-protocol-risk-study",
-      "qualityLabel": "unknown",
-      "releaseReadinessScore": 0
+      "qualityLabel": "good",
+      "releaseReadinessScore": 92
     },
     {
       "slug": "batch16-landsat-deep-protocol-risk-study",
-      "qualityLabel": "unknown",
-      "releaseReadinessScore": 0
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
     },
     {
       "slug": "batch17-protocol-extraction-ambiguity-tournament",
-      "qualityLabel": "unknown",
-      "releaseReadinessScore": 0
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
     },
     {
       "slug": "batch18-cross-target-split-risk-atlas",
-      "qualityLabel": "unknown",
-      "releaseReadinessScore": 0
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
     },
     {
       "slug": "batch19-protocol-risk-kill-week",
-      "qualityLabel": "unknown",
-      "releaseReadinessScore": 0
+      "qualityLabel": "good",
+      "releaseReadinessScore": 89
     },
     {
       "slug": "batch2-climate-fever-claim-verification-followup",
@@ -119,8 +118,8 @@
     },
     {
       "slug": "batch20-protocol-risk-paper-grade-frontier-result",
-      "qualityLabel": "unknown",
-      "releaseReadinessScore": 0
+      "qualityLabel": "good",
+      "releaseReadinessScore": 92
     },
     {
       "slug": "batch3-palmer-penguins-dataset-quality-execution",
@@ -418,5 +417,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "855d8b58d81c318adba7ee3b3c6561fdce012b66c06e94cb50e46f4d75f54b3f"
+  "evidenceHash": "23868c2e71354d9c7bb221430f5306deaf3b40fbb4c64457cbb42a6da95aa5b1"
 }

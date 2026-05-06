@@ -11,5 +11,22 @@
     "protocol_card_replay": "reusable_support_tool",
     "schema_provenance_auditor": "packaging_only",
     "split_risk_helper": "narrow_but_useful_for_protocol_vs_random_tables"
-  }
+  },
+  "title": "Batch 19 Protocol-Risk Kill Week",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "antiTemplateStatus": "review_ready",
+  "lifecycleStatus": "autopublished",
+  "revisionReason": null,
+  "releaseReadinessScore": 89,
+  "evidenceStrengthScore": 91,
+  "reproducibilityScore": 86,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 89,
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "kill_week_completed_with_claim_downgrades",
+  "metadataPromotionRationale": "Attacked six prior components, downgraded universal claims, preserved bounded claims, updated confidence, and constrained tools."
 }

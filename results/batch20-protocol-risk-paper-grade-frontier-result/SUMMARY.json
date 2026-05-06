@@ -14,5 +14,22 @@
     "batch17",
     "batch18",
     "batch19"
-  ]
+  ],
+  "title": "Batch 20 Protocol-Risk Paper-Grade Frontier Result",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "antiTemplateStatus": "review_ready",
+  "lifecycleStatus": "autopublished",
+  "revisionReason": null,
+  "releaseReadinessScore": 92,
+  "evidenceStrengthScore": 94,
+  "reproducibilityScore": 90,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 92,
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "paper_grade_synthesis_completed_with_limitations",
+  "metadataPromotionRationale": "Synthesized Batches 13-19, eight-target evidence table, claim/evidence bindings, negative results, final tool decisions, and one next program."
 }

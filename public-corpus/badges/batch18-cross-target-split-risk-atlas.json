@@ -2,19 +2,19 @@
   "kind": "public_corpus_result_badges",
   "slug": "batch18-cross-target-split-risk-atlas",
   "badges": {
-    "quality": "unknown",
-    "status": "unknown",
-    "antiTemplate": "unknown",
-    "replay": "replay-partial",
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "review_ready",
+    "replay": "replay-100",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
     "worker": "not-recorded",
-    "falsification": "not_evaluated",
+    "falsification": "cross_target_atlas_validated_with_controls",
     "lifecycle": "autopublished",
     "version": "batch18-cross-target-split-risk-atlas",
     "showcase": "not-showcase"
   },
   "lifecycleStatus": "autopublished",
   "showcaseRank": null,
-  "evidenceHash": "ddbac18e57818e702884f6ba6d69048957af2a1988bac0a84a3a0c565f1ae4ec"
+  "evidenceHash": "051a96e6ae93b3b1af70152dc152d8d40b01e4b1c3e73299263ff356bccb2973"
 }

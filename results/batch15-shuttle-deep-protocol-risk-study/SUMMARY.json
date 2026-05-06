@@ -36,5 +36,22 @@
   "slug": "batch15-shuttle-deep-protocol-risk-study",
   "sourceLinearMacroF1": 0.386205,
   "splitFamilyCount": 6,
-  "target": "UCI Statlog Shuttle"
+  "target": "UCI Statlog Shuttle",
+  "title": "Batch 15 Shuttle Deep Protocol-Risk Study",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "antiTemplateStatus": "review_ready",
+  "lifecycleStatus": "autopublished",
+  "revisionReason": null,
+  "releaseReadinessScore": 92,
+  "evidenceStrengthScore": 94,
+  "reproducibilityScore": 93,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 91,
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "deep_protocol_risk_validated_with_limitations",
+  "metadataPromotionRationale": "Real Shuttle data, reproduced source train/test files, split-family experiments, rare-class metric risk analysis, helper tests, and network-off replay."
 }

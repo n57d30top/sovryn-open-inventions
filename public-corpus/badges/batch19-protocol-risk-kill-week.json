@@ -2,19 +2,19 @@
   "kind": "public_corpus_result_badges",
   "slug": "batch19-protocol-risk-kill-week",
   "badges": {
-    "quality": "unknown",
-    "status": "unknown",
-    "antiTemplate": "unknown",
-    "replay": "replay-partial",
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "review_ready",
+    "replay": "replay-100",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
     "worker": "not-recorded",
-    "falsification": "not_evaluated",
+    "falsification": "kill_week_completed_with_claim_downgrades",
     "lifecycle": "autopublished",
     "version": "batch19-protocol-risk-kill-week",
     "showcase": "not-showcase"
   },
   "lifecycleStatus": "autopublished",
   "showcaseRank": null,
-  "evidenceHash": "53de78da57b918c1bcbecd324806fe7f2113ab32af84088de262685132a65237"
+  "evidenceHash": "7d662a90f3f0763db5e94e4d932b89a3a1c916481b2852682ae55a1e35ecd2e9"
 }

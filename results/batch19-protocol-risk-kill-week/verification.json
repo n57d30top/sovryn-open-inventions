@@ -1,5 +1,10 @@
 {
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
   "publicHygieneExpected": true,
-  "requiredArtifactsPresent": true
+  "requiredArtifactsPresent": true,
+  "metadataPromotionAudit": "passed",
+  "promotedLifecycleStatus": "autopublished",
+  "promotedQualityLabel": "good",
+  "promotedCandidateStatus": "autopublished",
+  "scoreRationale": "Attacked six prior components, downgraded universal claims, preserved bounded claims, updated confidence, and constrained tools."
 }

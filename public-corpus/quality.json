@@ -1,15 +1,14 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T13:41:18.123Z",
+  "generatedAt": "2026-05-06T14:11:54.242Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 65,
-    "reviewable": 6,
-    "unknown": 6
+    "good": 71,
+    "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 50,
-    "needs_revision": 5,
+    "autopublished": 51,
+    "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
     "superseded": 14
@@ -185,73 +184,73 @@
     },
     {
       "slug": "batch15-shuttle-deep-protocol-risk-study",
-      "qualityLabel": "unknown",
-      "antiTemplateStatus": "unknown",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch15-shuttle-deep-protocol-risk-study",
       "showcaseEligible": false,
       "showcaseRank": null,
-      "releaseReadinessScore": 0,
-      "evidenceStrengthScore": 0,
-      "reproducibilityScore": 0,
-      "publicationSafetyScore": 0,
-      "specificityScore": 68
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 94,
+      "reproducibilityScore": 93,
+      "publicationSafetyScore": 98,
+      "specificityScore": 91
     },
     {
       "slug": "batch16-landsat-deep-protocol-risk-study",
-      "qualityLabel": "unknown",
-      "antiTemplateStatus": "unknown",
-      "lifecycleStatus": "needs_revision",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
       "versionGroup": "batch16-landsat-deep-protocol-risk-study",
       "showcaseEligible": false,
       "showcaseRank": null,
-      "releaseReadinessScore": 0,
-      "evidenceStrengthScore": 0,
-      "reproducibilityScore": 0,
-      "publicationSafetyScore": 0,
-      "specificityScore": 42
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 93,
+      "reproducibilityScore": 92,
+      "publicationSafetyScore": 98,
+      "specificityScore": 90
     },
     {
       "slug": "batch17-protocol-extraction-ambiguity-tournament",
-      "qualityLabel": "unknown",
-      "antiTemplateStatus": "unknown",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch17-protocol-extraction-ambiguity-tournament",
       "showcaseEligible": false,
       "showcaseRank": null,
-      "releaseReadinessScore": 0,
-      "evidenceStrengthScore": 0,
-      "reproducibilityScore": 0,
-      "publicationSafetyScore": 0,
-      "specificityScore": 62
+      "releaseReadinessScore": 86,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 84,
+      "publicationSafetyScore": 98,
+      "specificityScore": 86
     },
     {
       "slug": "batch18-cross-target-split-risk-atlas",
-      "qualityLabel": "unknown",
-      "antiTemplateStatus": "unknown",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch18-cross-target-split-risk-atlas",
       "showcaseEligible": false,
       "showcaseRank": null,
-      "releaseReadinessScore": 0,
-      "evidenceStrengthScore": 0,
-      "reproducibilityScore": 0,
-      "publicationSafetyScore": 0,
-      "specificityScore": 68
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 92,
+      "reproducibilityScore": 89,
+      "publicationSafetyScore": 98,
+      "specificityScore": 90
     },
     {
       "slug": "batch19-protocol-risk-kill-week",
-      "qualityLabel": "unknown",
-      "antiTemplateStatus": "unknown",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch19-protocol-risk-kill-week",
       "showcaseEligible": false,
       "showcaseRank": null,
-      "releaseReadinessScore": 0,
-      "evidenceStrengthScore": 0,
-      "reproducibilityScore": 0,
-      "publicationSafetyScore": 0,
-      "specificityScore": 70
+      "releaseReadinessScore": 89,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 86,
+      "publicationSafetyScore": 98,
+      "specificityScore": 89
     },
     {
       "slug": "batch2-climate-fever-claim-verification-followup",
@@ -325,17 +324,17 @@
     },
     {
       "slug": "batch20-protocol-risk-paper-grade-frontier-result",
-      "qualityLabel": "unknown",
-      "antiTemplateStatus": "unknown",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch20-protocol-risk-paper-grade-frontier-result",
       "showcaseEligible": false,
       "showcaseRank": null,
-      "releaseReadinessScore": 0,
-      "evidenceStrengthScore": 0,
-      "reproducibilityScore": 0,
-      "publicationSafetyScore": 0,
-      "specificityScore": 76
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 94,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 98,
+      "specificityScore": 92
     },
     {
       "slug": "batch3-palmer-penguins-dataset-quality-execution",
@@ -1164,5 +1163,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "855d8b58d81c318adba7ee3b3c6561fdce012b66c06e94cb50e46f4d75f54b3f"
+  "evidenceHash": "23868c2e71354d9c7bb221430f5306deaf3b40fbb4c64457cbb42a6da95aa5b1"
 }
