@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 271,
+    "good": 283,
     "reviewable": 6
   },
   "results": [
@@ -1217,6 +1217,66 @@
       "releaseReadinessScore": 90
     },
     {
+      "slug": "narrowed-stage01-scope-and-baseline-definition",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "narrowed-stage02-freeze-predictions",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "narrowed-stage03-blind-holdout-selection",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "narrowed-stage04-holdout-execution-wave1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "narrowed-stage05-holdout-execution-wave2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "narrowed-stage06-strong-baseline-challenge",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "narrowed-stage07-counterexample-search",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "narrowed-stage08-mutation-and-ablation-tests",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "narrowed-stage09-independent-replay-gauntlet",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "narrowed-stage10-adversarial-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "narrowed-stage11-final-candidate-decision",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "narrowed-stage12-next-frontier",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
       "slug": "nobel-stage0-product-kernel",
       "qualityLabel": "good",
       "releaseReadinessScore": 91
@@ -1417,5 +1477,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "8a626a0705d515093da6afe505e8fc255085a9920672df647c5e0597f6e1c126"
+  "evidenceHash": "3ec9a8825188f279b63f322b89a7a369483c2bc670a1ab046c53d94c63a4bb37"
 }

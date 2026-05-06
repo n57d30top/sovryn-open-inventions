@@ -1,0 +1,110 @@
+[
+  {
+    "replayId": "NRP-01",
+    "targetId": "NH-TAB-01",
+    "evidenceItem": "taxis public table",
+    "itemKind": "holdout_support",
+    "replayKind": "fresh workspace replay",
+    "outcome": "replayed_or_documented",
+    "claimImpact": "claim preserved with caveat"
+  },
+  {
+    "replayId": "NRP-02",
+    "targetId": "NH-TAB-02",
+    "evidenceItem": "tips public table",
+    "itemKind": "holdout_support",
+    "replayKind": "fresh workspace replay",
+    "outcome": "replayed_or_documented",
+    "claimImpact": "claim preserved with caveat"
+  },
+  {
+    "replayId": "NRP-03",
+    "targetId": "NH-TAB-03",
+    "evidenceItem": "flights public table",
+    "itemKind": "holdout_support",
+    "replayKind": "fresh workspace replay",
+    "outcome": "replayed_with_caveat",
+    "claimImpact": "decisive claim downgraded"
+  },
+  {
+    "replayId": "NRP-04",
+    "targetId": "NH-TAB-04",
+    "evidenceItem": "diamonds public table",
+    "itemKind": "holdout_support",
+    "replayKind": "fresh workspace replay",
+    "outcome": "replayed_or_documented",
+    "claimImpact": "claim preserved with caveat"
+  },
+  {
+    "replayId": "NRP-05",
+    "targetId": "NCE-01",
+    "evidenceItem": "receipt-stable but no residual",
+    "itemKind": "counterexample_or_partial",
+    "replayKind": "fresh workspace replay",
+    "outcome": "replayed_or_documented",
+    "claimImpact": "claim preserved with caveat"
+  },
+  {
+    "replayId": "NRP-06",
+    "targetId": "NCE-05",
+    "evidenceItem": "low-risk control",
+    "itemKind": "counterexample_or_partial",
+    "replayKind": "fresh workspace replay",
+    "outcome": "replayed_or_documented",
+    "claimImpact": "claim preserved with caveat"
+  },
+  {
+    "replayId": "NRP-07",
+    "targetId": "NCE-06",
+    "evidenceItem": "receipt-stable but no residual",
+    "itemKind": "counterexample_or_partial",
+    "replayKind": "container-style clean replay",
+    "outcome": "replayed_with_caveat",
+    "claimImpact": "decisive claim downgraded"
+  },
+  {
+    "replayId": "NRP-08",
+    "targetId": "NCE-09",
+    "evidenceItem": "package-metadata but artifact-like",
+    "itemKind": "counterexample_or_partial",
+    "replayKind": "container-style clean replay",
+    "outcome": "replayed_or_documented",
+    "claimImpact": "claim preserved with caveat"
+  },
+  {
+    "replayId": "NRP-09",
+    "targetId": "NMT-01",
+    "evidenceItem": "descriptor mutation",
+    "itemKind": "mutation_test",
+    "replayKind": "container-style clean replay",
+    "outcome": "replayed_or_documented",
+    "claimImpact": "claim preserved with caveat"
+  },
+  {
+    "replayId": "NRP-10",
+    "targetId": "NMT-02",
+    "evidenceItem": "receipt mutation",
+    "itemKind": "mutation_test",
+    "replayKind": "container-style clean replay",
+    "outcome": "replayed_with_caveat",
+    "claimImpact": "decisive claim downgraded"
+  },
+  {
+    "replayId": "NRP-11",
+    "targetId": "NH-TAB-01",
+    "evidenceItem": "taxis public table",
+    "itemKind": "baseline_resistant",
+    "replayKind": "container-style clean replay",
+    "outcome": "replayed_or_documented",
+    "claimImpact": "claim preserved with caveat"
+  },
+  {
+    "replayId": "NRP-12",
+    "targetId": "NH-TAB-02",
+    "evidenceItem": "tips public table",
+    "itemKind": "baseline_resistant",
+    "replayKind": "container-style clean replay",
+    "outcome": "replayed_or_documented",
+    "claimImpact": "claim preserved with caveat"
+  }
+]

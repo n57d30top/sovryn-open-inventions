@@ -1,0 +1,560 @@
+{
+  "cands": [
+    {
+      "id": "NCE-01",
+      "pattern": "receipt-stable but no residual",
+      "sourceHint": "zod npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-02",
+      "pattern": "residual-like but receipt-unstable",
+      "sourceHint": "yaml npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-03",
+      "pattern": "sparse-table but baseline-explained",
+      "sourceHint": "commander npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-04",
+      "pattern": "package-metadata but artifact-like",
+      "sourceHint": "minimist npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-05",
+      "pattern": "low-risk control",
+      "sourceHint": "glob npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-06",
+      "pattern": "receipt-stable but no residual",
+      "sourceHint": "chalk npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-07",
+      "pattern": "residual-like but receipt-unstable",
+      "sourceHint": "debug npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-08",
+      "pattern": "sparse-table but baseline-explained",
+      "sourceHint": "ms npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-09",
+      "pattern": "package-metadata but artifact-like",
+      "sourceHint": "nanoid npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-10",
+      "pattern": "low-risk control",
+      "sourceHint": "semver npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-11",
+      "pattern": "receipt-stable but no residual",
+      "sourceHint": "yargs npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-12",
+      "pattern": "residual-like but receipt-unstable",
+      "sourceHint": "uuid npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-13",
+      "pattern": "sparse-table but baseline-explained",
+      "sourceHint": "axios npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-14",
+      "pattern": "package-metadata but artifact-like",
+      "sourceHint": "marked npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-15",
+      "pattern": "low-risk control",
+      "sourceHint": "toml npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-16",
+      "pattern": "receipt-stable but no residual",
+      "sourceHint": "date-fns npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-17",
+      "pattern": "residual-like but receipt-unstable",
+      "sourceHint": "rxjs npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-18",
+      "pattern": "sparse-table but baseline-explained",
+      "sourceHint": "winston npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-19",
+      "pattern": "package-metadata but artifact-like",
+      "sourceHint": "vite npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-20",
+      "pattern": "low-risk control",
+      "sourceHint": "esbuild npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-21",
+      "pattern": "receipt-stable but no residual",
+      "sourceHint": "taxis public table",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-22",
+      "pattern": "residual-like but receipt-unstable",
+      "sourceHint": "tips public table",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-23",
+      "pattern": "sparse-table but baseline-explained",
+      "sourceHint": "flights public table",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-24",
+      "pattern": "package-metadata but artifact-like",
+      "sourceHint": "diamonds public table",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-25",
+      "pattern": "low-risk control",
+      "sourceHint": "healthexp public table",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-26",
+      "pattern": "receipt-stable but no residual",
+      "sourceHint": "geyser public table",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-27",
+      "pattern": "residual-like but receipt-unstable",
+      "sourceHint": "mpg public table",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-28",
+      "pattern": "sparse-table but baseline-explained",
+      "sourceHint": "attention public table",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-29",
+      "pattern": "package-metadata but artifact-like",
+      "sourceHint": "exercise public table",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-30",
+      "pattern": "low-risk control",
+      "sourceHint": "dowjones public table",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-31",
+      "pattern": "receipt-stable but no residual",
+      "sourceHint": "fmri public table",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-32",
+      "pattern": "residual-like but receipt-unstable",
+      "sourceHint": "car_crashes public table",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-33",
+      "pattern": "sparse-table but baseline-explained",
+      "sourceHint": "is-number low-risk package/control",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-34",
+      "pattern": "package-metadata but artifact-like",
+      "sourceHint": "ini low-risk package/control",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-35",
+      "pattern": "low-risk control",
+      "sourceHint": "kleur low-risk package/control",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-36",
+      "pattern": "receipt-stable but no residual",
+      "sourceHint": "picocolors low-risk package/control",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-37",
+      "pattern": "residual-like but receipt-unstable",
+      "sourceHint": "tiny-invariant low-risk package/control",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-38",
+      "pattern": "sparse-table but baseline-explained",
+      "sourceHint": "slash low-risk package/control",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-39",
+      "pattern": "package-metadata but artifact-like",
+      "sourceHint": "camelcase low-risk package/control",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-40",
+      "pattern": "low-risk control",
+      "sourceHint": "decamelize low-risk package/control",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-41",
+      "pattern": "receipt-stable but no residual",
+      "sourceHint": "react rival-favoring target",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-42",
+      "pattern": "residual-like but receipt-unstable",
+      "sourceHint": "vue rival-favoring target",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-43",
+      "pattern": "sparse-table but baseline-explained",
+      "sourceHint": "express rival-favoring target",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-44",
+      "pattern": "package-metadata but artifact-like",
+      "sourceHint": "webpack rival-favoring target",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-45",
+      "pattern": "low-risk control",
+      "sourceHint": "anscombe rival-favoring target",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-46",
+      "pattern": "receipt-stable but no residual",
+      "sourceHint": "dots rival-favoring target",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-47",
+      "pattern": "residual-like but receipt-unstable",
+      "sourceHint": "brain_networks rival-favoring target",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-48",
+      "pattern": "sparse-table but baseline-explained",
+      "sourceHint": "glue rival-favoring target",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-49",
+      "pattern": "package-metadata but artifact-like",
+      "sourceHint": "zod npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    },
+    {
+      "id": "NCE-50",
+      "pattern": "low-risk control",
+      "sourceHint": "yaml npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status"
+    }
+  ],
+  "executed": [
+    {
+      "id": "NCE-01",
+      "pattern": "receipt-stable but no residual",
+      "sourceHint": "zod npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "counterexample_found",
+      "candidateImpact": "weakens or narrows candidate"
+    },
+    {
+      "id": "NCE-02",
+      "pattern": "residual-like but receipt-unstable",
+      "sourceHint": "yaml npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "not_counterexample",
+      "candidateImpact": "does not break narrowed scope"
+    },
+    {
+      "id": "NCE-03",
+      "pattern": "sparse-table but baseline-explained",
+      "sourceHint": "commander npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "not_counterexample",
+      "candidateImpact": "does not break narrowed scope"
+    },
+    {
+      "id": "NCE-04",
+      "pattern": "package-metadata but artifact-like",
+      "sourceHint": "minimist npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "not_counterexample",
+      "candidateImpact": "does not break narrowed scope"
+    },
+    {
+      "id": "NCE-05",
+      "pattern": "low-risk control",
+      "sourceHint": "glob npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "counterexample_found",
+      "candidateImpact": "weakens or narrows candidate"
+    },
+    {
+      "id": "NCE-06",
+      "pattern": "receipt-stable but no residual",
+      "sourceHint": "chalk npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "partial_counterexample",
+      "candidateImpact": "adds caveat"
+    },
+    {
+      "id": "NCE-07",
+      "pattern": "residual-like but receipt-unstable",
+      "sourceHint": "debug npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "not_counterexample",
+      "candidateImpact": "does not break narrowed scope"
+    },
+    {
+      "id": "NCE-08",
+      "pattern": "sparse-table but baseline-explained",
+      "sourceHint": "ms npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "not_counterexample",
+      "candidateImpact": "does not break narrowed scope"
+    },
+    {
+      "id": "NCE-09",
+      "pattern": "package-metadata but artifact-like",
+      "sourceHint": "nanoid npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "counterexample_found",
+      "candidateImpact": "weakens or narrows candidate"
+    },
+    {
+      "id": "NCE-10",
+      "pattern": "low-risk control",
+      "sourceHint": "semver npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "not_counterexample",
+      "candidateImpact": "does not break narrowed scope"
+    },
+    {
+      "id": "NCE-11",
+      "pattern": "receipt-stable but no residual",
+      "sourceHint": "yargs npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "partial_counterexample",
+      "candidateImpact": "adds caveat"
+    },
+    {
+      "id": "NCE-12",
+      "pattern": "residual-like but receipt-unstable",
+      "sourceHint": "uuid npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "not_counterexample",
+      "candidateImpact": "does not break narrowed scope"
+    },
+    {
+      "id": "NCE-13",
+      "pattern": "sparse-table but baseline-explained",
+      "sourceHint": "axios npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "counterexample_found",
+      "candidateImpact": "weakens or narrows candidate"
+    },
+    {
+      "id": "NCE-14",
+      "pattern": "package-metadata but artifact-like",
+      "sourceHint": "marked npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "not_counterexample",
+      "candidateImpact": "does not break narrowed scope"
+    },
+    {
+      "id": "NCE-15",
+      "pattern": "low-risk control",
+      "sourceHint": "toml npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "not_counterexample",
+      "candidateImpact": "does not break narrowed scope"
+    },
+    {
+      "id": "NCE-16",
+      "pattern": "receipt-stable but no residual",
+      "sourceHint": "date-fns npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "partial_counterexample",
+      "candidateImpact": "adds caveat"
+    },
+    {
+      "id": "NCE-17",
+      "pattern": "residual-like but receipt-unstable",
+      "sourceHint": "rxjs npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "counterexample_found",
+      "candidateImpact": "weakens or narrows candidate"
+    },
+    {
+      "id": "NCE-18",
+      "pattern": "sparse-table but baseline-explained",
+      "sourceHint": "winston npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "not_counterexample",
+      "candidateImpact": "does not break narrowed scope"
+    },
+    {
+      "id": "NCE-19",
+      "pattern": "package-metadata but artifact-like",
+      "sourceHint": "vite npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "not_counterexample",
+      "candidateImpact": "does not break narrowed scope"
+    },
+    {
+      "id": "NCE-20",
+      "pattern": "low-risk control",
+      "sourceHint": "esbuild npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "not_counterexample",
+      "candidateImpact": "does not break narrowed scope"
+    }
+  ],
+  "found": [
+    {
+      "id": "NCE-01",
+      "pattern": "receipt-stable but no residual",
+      "sourceHint": "zod npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "counterexample_found",
+      "candidateImpact": "weakens or narrows candidate"
+    },
+    {
+      "id": "NCE-05",
+      "pattern": "low-risk control",
+      "sourceHint": "glob npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "counterexample_found",
+      "candidateImpact": "weakens or narrows candidate"
+    },
+    {
+      "id": "NCE-06",
+      "pattern": "receipt-stable but no residual",
+      "sourceHint": "chalk npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "partial_counterexample",
+      "candidateImpact": "adds caveat"
+    },
+    {
+      "id": "NCE-09",
+      "pattern": "package-metadata but artifact-like",
+      "sourceHint": "nanoid npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "counterexample_found",
+      "candidateImpact": "weakens or narrows candidate"
+    },
+    {
+      "id": "NCE-11",
+      "pattern": "receipt-stable but no residual",
+      "sourceHint": "yargs npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "partial_counterexample",
+      "candidateImpact": "adds caveat"
+    },
+    {
+      "id": "NCE-13",
+      "pattern": "sparse-table but baseline-explained",
+      "sourceHint": "axios npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "counterexample_found",
+      "candidateImpact": "weakens or narrows candidate"
+    },
+    {
+      "id": "NCE-16",
+      "pattern": "receipt-stable but no residual",
+      "sourceHint": "date-fns npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "partial_counterexample",
+      "candidateImpact": "adds caveat"
+    },
+    {
+      "id": "NCE-17",
+      "pattern": "residual-like but receipt-unstable",
+      "sourceHint": "rxjs npm package metadata",
+      "plannedCheck": "compare residual score to baseline dominance and replay status",
+      "executed": true,
+      "outcome": "counterexample_found",
+      "candidateImpact": "weakens or narrows candidate"
+    }
+  ]
+}

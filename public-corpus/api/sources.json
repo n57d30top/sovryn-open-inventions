@@ -1476,6 +1476,66 @@
       "customTool": null
     },
     {
+      "slug": "narrowed-stage01-scope-and-baseline-definition",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "narrowed-stage02-freeze-predictions",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "narrowed-stage03-blind-holdout-selection",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "narrowed-stage04-holdout-execution-wave1",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "narrowed-stage05-holdout-execution-wave2",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "narrowed-stage06-strong-baseline-challenge",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "narrowed-stage07-counterexample-search",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "narrowed-stage08-mutation-and-ablation-tests",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "narrowed-stage09-independent-replay-gauntlet",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "narrowed-stage10-adversarial-kill-week",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "narrowed-stage11-final-candidate-decision",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "narrowed-stage12-next-frontier",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "nobel-stage0-product-kernel",
       "externalPackages": [],
       "customTool": null
@@ -1692,5 +1752,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "717a40bd118e62b0d942e8238fe61631878a6b706f719ecd17bca7e73aa86285"
+  "evidenceHash": "ba4e459c8eeeacc52710b4317e82fc84121c9670ab84585b41b48335e074b339"
 }

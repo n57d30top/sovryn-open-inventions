@@ -1,0 +1,15 @@
+{
+  "classification": "failed_validation_attempt",
+  "confidence": 0.34,
+  "revisedCandidateClaim": "Inside the narrowed package-metadata and sparse-table scope, receipt stability remains useful as a hygiene requirement, but the descriptor residual candidate did not show enough baseline-resistant, replay-stable signal to remain a discovery candidate.",
+  "rejectedComponents": [
+    "package metadata residual as discovery signal",
+    "sparse-table residual when missingness baseline dominates",
+    "residual claims without strong-baseline resistance"
+  ],
+  "preservedComponents": [
+    "receipt stability as a necessary audit field",
+    "baseline and mutation diagnostics as review tools",
+    "some partial residual signals for future hypothesis generation"
+  ]
+}

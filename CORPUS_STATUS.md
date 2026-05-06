@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 282
+Results: 294
 
 ## Lifecycle Counts
 
-- autopublished: 251
+- autopublished: 263
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -243,6 +243,18 @@ Results: 282
 - grandchallenge-stage7-conceptual-compression: latest grandchallenge-stage7-conceptual-compression; grandchallenge-stage7-conceptual-compression
 - grandchallenge-stage8-external-usefulness-challenge: latest grandchallenge-stage8-external-usefulness-challenge; grandchallenge-stage8-external-usefulness-challenge
 - grandchallenge-stage9-adversarial-final-kill-week: latest grandchallenge-stage9-adversarial-final-kill-week; grandchallenge-stage9-adversarial-final-kill-week
+- narrowed-stage01-scope-and-baseline-definition: latest narrowed-stage01-scope-and-baseline-definition; narrowed-stage01-scope-and-baseline-definition
+- narrowed-stage02-freeze-predictions: latest narrowed-stage02-freeze-predictions; narrowed-stage02-freeze-predictions
+- narrowed-stage03-blind-holdout-selection: latest narrowed-stage03-blind-holdout-selection; narrowed-stage03-blind-holdout-selection
+- narrowed-stage04-holdout-execution-wave1: latest narrowed-stage04-holdout-execution-wave1; narrowed-stage04-holdout-execution-wave1
+- narrowed-stage05-holdout-execution-wave2: latest narrowed-stage05-holdout-execution-wave2; narrowed-stage05-holdout-execution-wave2
+- narrowed-stage06-strong-baseline-challenge: latest narrowed-stage06-strong-baseline-challenge; narrowed-stage06-strong-baseline-challenge
+- narrowed-stage07-counterexample-search: latest narrowed-stage07-counterexample-search; narrowed-stage07-counterexample-search
+- narrowed-stage08-mutation-and-ablation-tests: latest narrowed-stage08-mutation-and-ablation-tests; narrowed-stage08-mutation-and-ablation-tests
+- narrowed-stage09-independent-replay-gauntlet: latest narrowed-stage09-independent-replay-gauntlet; narrowed-stage09-independent-replay-gauntlet
+- narrowed-stage10-adversarial-kill-week: latest narrowed-stage10-adversarial-kill-week; narrowed-stage10-adversarial-kill-week
+- narrowed-stage11-final-candidate-decision: latest narrowed-stage11-final-candidate-decision; narrowed-stage11-final-candidate-decision
+- narrowed-stage12-next-frontier: latest narrowed-stage12-next-frontier; narrowed-stage12-next-frontier
 - nobel-stage0-product-kernel: latest nobel-stage0-product-kernel; nobel-stage0-product-kernel
 - nobel-stage1-domain-portfolio-selection: latest nobel-stage1-domain-portfolio-selection; nobel-stage1-domain-portfolio-selection
 - nobel-stage10-adversarial-theory-kill-week: latest nobel-stage10-adversarial-theory-kill-week; nobel-stage10-adversarial-theory-kill-week

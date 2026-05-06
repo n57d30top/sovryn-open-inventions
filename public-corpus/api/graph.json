@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T20:59:34.482Z",
+  "generatedAt": "2026-05-06T21:16:31.291Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1455,6 +1455,78 @@
       "domain": "original principle discovery grand challenge"
     },
     {
+      "id": "result:narrowed-stage01-scope-and-baseline-definition",
+      "kind": "result",
+      "label": "Narrowed Stage 01 Scope and Baseline Definition",
+      "domain": "larger blind holdout validation for narrowed receipt-stable descriptor residual candidate"
+    },
+    {
+      "id": "result:narrowed-stage02-freeze-predictions",
+      "kind": "result",
+      "label": "Narrowed Stage 02 Freeze Predictions",
+      "domain": "larger blind holdout validation for narrowed receipt-stable descriptor residual candidate"
+    },
+    {
+      "id": "result:narrowed-stage03-blind-holdout-selection",
+      "kind": "result",
+      "label": "Narrowed Stage 03 Blind Holdout Selection",
+      "domain": "larger blind holdout validation for narrowed receipt-stable descriptor residual candidate"
+    },
+    {
+      "id": "result:narrowed-stage04-holdout-execution-wave1",
+      "kind": "result",
+      "label": "Narrowed Stage 04 Holdout Execution Wave 1",
+      "domain": "larger blind holdout validation for narrowed receipt-stable descriptor residual candidate"
+    },
+    {
+      "id": "result:narrowed-stage05-holdout-execution-wave2",
+      "kind": "result",
+      "label": "Narrowed Stage 05 Holdout Execution Wave 2",
+      "domain": "larger blind holdout validation for narrowed receipt-stable descriptor residual candidate"
+    },
+    {
+      "id": "result:narrowed-stage06-strong-baseline-challenge",
+      "kind": "result",
+      "label": "Narrowed Stage 06 Strong Baseline Challenge",
+      "domain": "larger blind holdout validation for narrowed receipt-stable descriptor residual candidate"
+    },
+    {
+      "id": "result:narrowed-stage07-counterexample-search",
+      "kind": "result",
+      "label": "Narrowed Stage 07 Counterexample Search",
+      "domain": "larger blind holdout validation for narrowed receipt-stable descriptor residual candidate"
+    },
+    {
+      "id": "result:narrowed-stage08-mutation-and-ablation-tests",
+      "kind": "result",
+      "label": "Narrowed Stage 08 Mutation and Ablation Tests",
+      "domain": "larger blind holdout validation for narrowed receipt-stable descriptor residual candidate"
+    },
+    {
+      "id": "result:narrowed-stage09-independent-replay-gauntlet",
+      "kind": "result",
+      "label": "Narrowed Stage 09 Independent Replay Gauntlet",
+      "domain": "larger blind holdout validation for narrowed receipt-stable descriptor residual candidate"
+    },
+    {
+      "id": "result:narrowed-stage10-adversarial-kill-week",
+      "kind": "result",
+      "label": "Narrowed Stage 10 Adversarial Kill Week",
+      "domain": "larger blind holdout validation for narrowed receipt-stable descriptor residual candidate"
+    },
+    {
+      "id": "result:narrowed-stage11-final-candidate-decision",
+      "kind": "result",
+      "label": "Narrowed Stage 11 Final Candidate Decision",
+      "domain": "larger blind holdout validation for narrowed receipt-stable descriptor residual candidate"
+    },
+    {
+      "id": "result:narrowed-stage12-next-frontier",
+      "kind": "result",
+      "label": "Narrowed Stage 12 Next Frontier",
+      "domain": "larger blind holdout validation for narrowed receipt-stable descriptor residual candidate"
+    },
+    {
       "id": "result:nobel-stage0-product-kernel",
       "kind": "result",
       "label": "Build Nobel Discovery Product Kernel",
@@ -1938,6 +2010,11 @@
       "id": "domain:original principle discovery grand challenge",
       "kind": "domain",
       "label": "original principle discovery grand challenge"
+    },
+    {
+      "id": "domain:larger blind holdout validation for narrowed receipt-stable descriptor residual candidate",
+      "kind": "domain",
+      "label": "larger blind holdout validation for narrowed receipt-stable descriptor residual candidate"
     },
     {
       "id": "domain:nobel discovery portfolio v0",
@@ -4082,6 +4159,66 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:narrowed-stage01-scope-and-baseline-definition",
+      "target": "domain:larger blind holdout validation for narrowed receipt-stable descriptor residual candidate",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:narrowed-stage02-freeze-predictions",
+      "target": "domain:larger blind holdout validation for narrowed receipt-stable descriptor residual candidate",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:narrowed-stage03-blind-holdout-selection",
+      "target": "domain:larger blind holdout validation for narrowed receipt-stable descriptor residual candidate",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:narrowed-stage04-holdout-execution-wave1",
+      "target": "domain:larger blind holdout validation for narrowed receipt-stable descriptor residual candidate",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:narrowed-stage05-holdout-execution-wave2",
+      "target": "domain:larger blind holdout validation for narrowed receipt-stable descriptor residual candidate",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:narrowed-stage06-strong-baseline-challenge",
+      "target": "domain:larger blind holdout validation for narrowed receipt-stable descriptor residual candidate",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:narrowed-stage07-counterexample-search",
+      "target": "domain:larger blind holdout validation for narrowed receipt-stable descriptor residual candidate",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:narrowed-stage08-mutation-and-ablation-tests",
+      "target": "domain:larger blind holdout validation for narrowed receipt-stable descriptor residual candidate",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:narrowed-stage09-independent-replay-gauntlet",
+      "target": "domain:larger blind holdout validation for narrowed receipt-stable descriptor residual candidate",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:narrowed-stage10-adversarial-kill-week",
+      "target": "domain:larger blind holdout validation for narrowed receipt-stable descriptor residual candidate",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:narrowed-stage11-final-candidate-decision",
+      "target": "domain:larger blind holdout validation for narrowed receipt-stable descriptor residual candidate",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:narrowed-stage12-next-frontier",
+      "target": "domain:larger blind holdout validation for narrowed receipt-stable descriptor residual candidate",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:nobel-stage0-product-kernel",
       "target": "domain:nobel discovery portfolio v0",
       "relation": "belongs_to_domain"
@@ -4332,5 +4469,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "b65f47f111309ac34cc10a24e9c67c5370fac512201303791188153dfb504607"
+  "evidenceHash": "93605d2ee4bea54f56010ad2f46b4510b54aa031189cbe6bfbe338e392e27c3e"
 }

@@ -1,0 +1,272 @@
+[
+  {
+    "id": "NMT-01",
+    "class": "descriptor mutation",
+    "target": "NH-PKG-01",
+    "expected": "expected_break",
+    "executed": true,
+    "outcome": "broke_as_expected",
+    "candidateImpact": "mutation sensitivity supported"
+  },
+  {
+    "id": "NMT-02",
+    "class": "receipt mutation",
+    "target": "NH-PKG-02",
+    "expected": "expected_caveat_or_no_break",
+    "executed": true,
+    "outcome": "broke_as_expected",
+    "candidateImpact": "mutation sensitivity supported"
+  },
+  {
+    "id": "NMT-03",
+    "class": "sparsity mutation",
+    "target": "NH-PKG-03",
+    "expected": "expected_caveat_or_no_break",
+    "executed": true,
+    "outcome": "broke_as_expected",
+    "candidateImpact": "mutation sensitivity supported"
+  },
+  {
+    "id": "NMT-04",
+    "class": "baseline mutation",
+    "target": "NH-PKG-04",
+    "expected": "expected_break",
+    "executed": true,
+    "outcome": "broke_as_expected",
+    "candidateImpact": "mutation sensitivity supported"
+  },
+  {
+    "id": "NMT-05",
+    "class": "threshold mutation",
+    "target": "NH-PKG-05",
+    "expected": "expected_caveat_or_no_break",
+    "executed": true,
+    "outcome": "broke_as_expected",
+    "candidateImpact": "mutation sensitivity supported"
+  },
+  {
+    "id": "NMT-06",
+    "class": "randomization control",
+    "target": "NH-PKG-06",
+    "expected": "expected_caveat_or_no_break",
+    "executed": true,
+    "outcome": "broke_as_expected",
+    "candidateImpact": "mutation sensitivity supported"
+  },
+  {
+    "id": "NMT-07",
+    "class": "metadata proxy removal",
+    "target": "NH-PKG-07",
+    "expected": "expected_break",
+    "executed": true,
+    "outcome": "caveated_or_preserved",
+    "candidateImpact": "scope caveated"
+  },
+  {
+    "id": "NMT-08",
+    "class": "descriptor mutation",
+    "target": "NH-PKG-08",
+    "expected": "expected_caveat_or_no_break",
+    "executed": true,
+    "outcome": "unexpected_result",
+    "candidateImpact": "confidence reduced"
+  },
+  {
+    "id": "NMT-09",
+    "class": "receipt mutation",
+    "target": "NH-PKG-09",
+    "expected": "expected_caveat_or_no_break",
+    "executed": true,
+    "outcome": "caveated_or_preserved",
+    "candidateImpact": "scope caveated"
+  },
+  {
+    "id": "NMT-10",
+    "class": "sparsity mutation",
+    "target": "NH-PKG-10",
+    "expected": "expected_break",
+    "executed": true,
+    "outcome": "caveated_or_preserved",
+    "candidateImpact": "scope caveated"
+  },
+  {
+    "id": "NMT-11",
+    "class": "baseline mutation",
+    "target": "NH-PKG-11",
+    "expected": "expected_caveat_or_no_break",
+    "executed": true,
+    "outcome": "caveated_or_preserved",
+    "candidateImpact": "scope caveated"
+  },
+  {
+    "id": "NMT-12",
+    "class": "threshold mutation",
+    "target": "NH-PKG-12",
+    "expected": "expected_caveat_or_no_break",
+    "executed": true,
+    "outcome": "caveated_or_preserved",
+    "candidateImpact": "scope caveated"
+  },
+  {
+    "id": "NMT-13",
+    "class": "randomization control",
+    "target": "NH-PKG-13",
+    "expected": "expected_break",
+    "executed": true,
+    "outcome": "unexpected_result",
+    "candidateImpact": "confidence reduced"
+  },
+  {
+    "id": "NMT-14",
+    "class": "metadata proxy removal",
+    "target": "NH-PKG-14",
+    "expected": "expected_caveat_or_no_break",
+    "executed": true,
+    "outcome": "caveated_or_preserved",
+    "candidateImpact": "scope caveated"
+  },
+  {
+    "id": "NMT-15",
+    "class": "descriptor mutation",
+    "target": "NH-PKG-15",
+    "expected": "expected_caveat_or_no_break",
+    "executed": true,
+    "outcome": "caveated_or_preserved",
+    "candidateImpact": "scope caveated"
+  },
+  {
+    "id": "NMT-16",
+    "class": "receipt mutation",
+    "target": "NH-PKG-16",
+    "expected": "expected_break",
+    "executed": true,
+    "outcome": "caveated_or_preserved",
+    "candidateImpact": "scope caveated"
+  },
+  {
+    "id": "NMT-17",
+    "class": "sparsity mutation",
+    "target": "NH-PKG-17",
+    "expected": "expected_caveat_or_no_break",
+    "executed": true,
+    "outcome": "caveated_or_preserved",
+    "candidateImpact": "scope caveated"
+  },
+  {
+    "id": "NMT-18",
+    "class": "baseline mutation",
+    "target": "NH-PKG-18",
+    "expected": "expected_caveat_or_no_break",
+    "executed": true,
+    "outcome": "unexpected_result",
+    "candidateImpact": "confidence reduced"
+  },
+  {
+    "id": "NMT-19",
+    "class": "threshold mutation",
+    "target": "NH-PKG-19",
+    "expected": "expected_break",
+    "executed": true,
+    "outcome": "caveated_or_preserved",
+    "candidateImpact": "scope caveated"
+  },
+  {
+    "id": "NMT-20",
+    "class": "randomization control",
+    "target": "NH-PKG-20",
+    "expected": "expected_caveat_or_no_break",
+    "executed": true,
+    "outcome": "caveated_or_preserved",
+    "candidateImpact": "scope caveated"
+  },
+  {
+    "id": "NMT-21",
+    "class": "metadata proxy removal",
+    "target": "NH-TAB-01",
+    "expected": "expected_caveat_or_no_break",
+    "executed": false,
+    "outcome": "not_executed",
+    "candidateImpact": "scope caveated"
+  },
+  {
+    "id": "NMT-22",
+    "class": "descriptor mutation",
+    "target": "NH-TAB-02",
+    "expected": "expected_break",
+    "executed": false,
+    "outcome": "not_executed",
+    "candidateImpact": "scope caveated"
+  },
+  {
+    "id": "NMT-23",
+    "class": "receipt mutation",
+    "target": "NH-TAB-03",
+    "expected": "expected_caveat_or_no_break",
+    "executed": false,
+    "outcome": "not_executed",
+    "candidateImpact": "scope caveated"
+  },
+  {
+    "id": "NMT-24",
+    "class": "sparsity mutation",
+    "target": "NH-TAB-04",
+    "expected": "expected_caveat_or_no_break",
+    "executed": false,
+    "outcome": "not_executed",
+    "candidateImpact": "scope caveated"
+  },
+  {
+    "id": "NMT-25",
+    "class": "baseline mutation",
+    "target": "NH-TAB-05",
+    "expected": "expected_break",
+    "executed": false,
+    "outcome": "not_executed",
+    "candidateImpact": "scope caveated"
+  },
+  {
+    "id": "NMT-26",
+    "class": "threshold mutation",
+    "target": "NH-TAB-06",
+    "expected": "expected_caveat_or_no_break",
+    "executed": false,
+    "outcome": "not_executed",
+    "candidateImpact": "scope caveated"
+  },
+  {
+    "id": "NMT-27",
+    "class": "randomization control",
+    "target": "NH-TAB-07",
+    "expected": "expected_caveat_or_no_break",
+    "executed": false,
+    "outcome": "not_executed",
+    "candidateImpact": "scope caveated"
+  },
+  {
+    "id": "NMT-28",
+    "class": "metadata proxy removal",
+    "target": "NH-TAB-08",
+    "expected": "expected_break",
+    "executed": false,
+    "outcome": "not_executed",
+    "candidateImpact": "scope caveated"
+  },
+  {
+    "id": "NMT-29",
+    "class": "descriptor mutation",
+    "target": "NH-TAB-09",
+    "expected": "expected_caveat_or_no_break",
+    "executed": false,
+    "outcome": "not_executed",
+    "candidateImpact": "scope caveated"
+  },
+  {
+    "id": "NMT-30",
+    "class": "receipt mutation",
+    "target": "NH-TAB-10",
+    "expected": "expected_caveat_or_no_break",
+    "executed": false,
+    "outcome": "not_executed",
+    "candidateImpact": "scope caveated"
+  }
+]

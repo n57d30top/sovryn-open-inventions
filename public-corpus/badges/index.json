@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T20:59:34.482Z",
+  "generatedAt": "2026-05-06T21:16:31.291Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -4359,6 +4359,222 @@
       "showcaseRank": null
     },
     {
+      "slug": "narrowed-stage01-scope-and-baseline-definition",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "narrowed-stage01-scope-and-baseline-definition",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "narrowed-stage02-freeze-predictions",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "narrowed-stage02-freeze-predictions",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "narrowed-stage03-blind-holdout-selection",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "narrowed-stage03-blind-holdout-selection",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "narrowed-stage04-holdout-execution-wave1",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "narrowed-stage04-holdout-execution-wave1",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "narrowed-stage05-holdout-execution-wave2",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "narrowed-stage05-holdout-execution-wave2",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "narrowed-stage06-strong-baseline-challenge",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "narrowed-stage06-strong-baseline-challenge",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "narrowed-stage07-counterexample-search",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "narrowed-stage07-counterexample-search",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "narrowed-stage08-mutation-and-ablation-tests",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "narrowed-stage08-mutation-and-ablation-tests",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "narrowed-stage09-independent-replay-gauntlet",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "narrowed-stage09-independent-replay-gauntlet",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "narrowed-stage10-adversarial-kill-week",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "narrowed-stage10-adversarial-kill-week",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "narrowed-stage11-final-candidate-decision",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "narrowed-stage11-final-candidate-decision",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "narrowed-stage12-next-frontier",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "narrowed-stage12-next-frontier",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
       "slug": "nobel-stage0-product-kernel",
       "badges": {
         "quality": "good",
@@ -5079,5 +5295,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "296f983f3b4bdf943684fce362348d00ee2c96167ad96bfa11de90e9ce346853"
+  "evidenceHash": "dace537ad4da0ee135179be7438f325c5fc845d890cf732763ac071702a02275"
 }

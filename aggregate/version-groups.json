@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T20:59:34.482Z",
+  "updatedAt": "2026-05-06T21:16:31.291Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -1631,6 +1631,90 @@
       ]
     },
     {
+      "versionGroup": "narrowed-stage01-scope-and-baseline-definition",
+      "latestSlug": "narrowed-stage01-scope-and-baseline-definition",
+      "resultSlugs": [
+        "narrowed-stage01-scope-and-baseline-definition"
+      ]
+    },
+    {
+      "versionGroup": "narrowed-stage02-freeze-predictions",
+      "latestSlug": "narrowed-stage02-freeze-predictions",
+      "resultSlugs": [
+        "narrowed-stage02-freeze-predictions"
+      ]
+    },
+    {
+      "versionGroup": "narrowed-stage03-blind-holdout-selection",
+      "latestSlug": "narrowed-stage03-blind-holdout-selection",
+      "resultSlugs": [
+        "narrowed-stage03-blind-holdout-selection"
+      ]
+    },
+    {
+      "versionGroup": "narrowed-stage04-holdout-execution-wave1",
+      "latestSlug": "narrowed-stage04-holdout-execution-wave1",
+      "resultSlugs": [
+        "narrowed-stage04-holdout-execution-wave1"
+      ]
+    },
+    {
+      "versionGroup": "narrowed-stage05-holdout-execution-wave2",
+      "latestSlug": "narrowed-stage05-holdout-execution-wave2",
+      "resultSlugs": [
+        "narrowed-stage05-holdout-execution-wave2"
+      ]
+    },
+    {
+      "versionGroup": "narrowed-stage06-strong-baseline-challenge",
+      "latestSlug": "narrowed-stage06-strong-baseline-challenge",
+      "resultSlugs": [
+        "narrowed-stage06-strong-baseline-challenge"
+      ]
+    },
+    {
+      "versionGroup": "narrowed-stage07-counterexample-search",
+      "latestSlug": "narrowed-stage07-counterexample-search",
+      "resultSlugs": [
+        "narrowed-stage07-counterexample-search"
+      ]
+    },
+    {
+      "versionGroup": "narrowed-stage08-mutation-and-ablation-tests",
+      "latestSlug": "narrowed-stage08-mutation-and-ablation-tests",
+      "resultSlugs": [
+        "narrowed-stage08-mutation-and-ablation-tests"
+      ]
+    },
+    {
+      "versionGroup": "narrowed-stage09-independent-replay-gauntlet",
+      "latestSlug": "narrowed-stage09-independent-replay-gauntlet",
+      "resultSlugs": [
+        "narrowed-stage09-independent-replay-gauntlet"
+      ]
+    },
+    {
+      "versionGroup": "narrowed-stage10-adversarial-kill-week",
+      "latestSlug": "narrowed-stage10-adversarial-kill-week",
+      "resultSlugs": [
+        "narrowed-stage10-adversarial-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "narrowed-stage11-final-candidate-decision",
+      "latestSlug": "narrowed-stage11-final-candidate-decision",
+      "resultSlugs": [
+        "narrowed-stage11-final-candidate-decision"
+      ]
+    },
+    {
+      "versionGroup": "narrowed-stage12-next-frontier",
+      "latestSlug": "narrowed-stage12-next-frontier",
+      "resultSlugs": [
+        "narrowed-stage12-next-frontier"
+      ]
+    },
+    {
       "versionGroup": "nobel-stage0-product-kernel",
       "latestSlug": "nobel-stage0-product-kernel",
       "resultSlugs": [
@@ -1893,5 +1977,5 @@
       ]
     }
   ],
-  "evidenceHash": "6797ee8e47d029527da3535da425454351c92b31d3e1922ea46b0470b5df1087"
+  "evidenceHash": "cb2f6a770cf9836fb956be1086bcf893dc61574c66f54c29d091dab31b3d61c0"
 }

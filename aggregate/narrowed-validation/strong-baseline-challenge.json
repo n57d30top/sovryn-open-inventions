@@ -1,0 +1,194 @@
+[
+  {
+    "targetId": "NH-PKG-01",
+    "family": "package_metadata",
+    "residualScore": 0.183,
+    "baselineDominance": 0.95,
+    "dominantBaseline": "popularity/proxy baseline",
+    "decision": "baseline_explains_or_dominates"
+  },
+  {
+    "targetId": "NH-PKG-02",
+    "family": "package_metadata",
+    "residualScore": 0.183,
+    "baselineDominance": 0.95,
+    "dominantBaseline": "popularity/proxy baseline",
+    "decision": "baseline_explains_or_dominates"
+  },
+  {
+    "targetId": "NH-PKG-03",
+    "family": "package_metadata",
+    "residualScore": 0.183,
+    "baselineDominance": 0.95,
+    "dominantBaseline": "popularity/proxy baseline",
+    "decision": "baseline_explains_or_dominates"
+  },
+  {
+    "targetId": "NH-PKG-04",
+    "family": "package_metadata",
+    "residualScore": 0.183,
+    "baselineDominance": 0.95,
+    "dominantBaseline": "popularity/proxy baseline",
+    "decision": "baseline_explains_or_dominates"
+  },
+  {
+    "targetId": "NH-PKG-05",
+    "family": "package_metadata",
+    "residualScore": 0.183,
+    "baselineDominance": 0.95,
+    "dominantBaseline": "popularity/proxy baseline",
+    "decision": "baseline_explains_or_dominates"
+  },
+  {
+    "targetId": "NH-PKG-06",
+    "family": "package_metadata",
+    "residualScore": 0.143,
+    "baselineDominance": 0.95,
+    "dominantBaseline": "popularity/proxy baseline",
+    "decision": "baseline_explains_or_dominates"
+  },
+  {
+    "targetId": "NH-PKG-07",
+    "family": "package_metadata",
+    "residualScore": 0.143,
+    "baselineDominance": 0.95,
+    "dominantBaseline": "popularity/proxy baseline",
+    "decision": "baseline_explains_or_dominates"
+  },
+  {
+    "targetId": "NH-PKG-08",
+    "family": "package_metadata",
+    "residualScore": 0.143,
+    "baselineDominance": 0.95,
+    "dominantBaseline": "popularity/proxy baseline",
+    "decision": "baseline_explains_or_dominates"
+  },
+  {
+    "targetId": "NH-PKG-09",
+    "family": "package_metadata",
+    "residualScore": 0.143,
+    "baselineDominance": 0.95,
+    "dominantBaseline": "popularity/proxy baseline",
+    "decision": "baseline_explains_or_dominates"
+  },
+  {
+    "targetId": "NH-PKG-10",
+    "family": "package_metadata",
+    "residualScore": 0.183,
+    "baselineDominance": 0.95,
+    "dominantBaseline": "popularity/proxy baseline",
+    "decision": "baseline_explains_or_dominates"
+  },
+  {
+    "targetId": "NH-PKG-11",
+    "family": "package_metadata",
+    "residualScore": 0.183,
+    "baselineDominance": 0.95,
+    "dominantBaseline": "popularity/proxy baseline",
+    "decision": "baseline_explains_or_dominates"
+  },
+  {
+    "targetId": "NH-PKG-12",
+    "family": "package_metadata",
+    "residualScore": 0.183,
+    "baselineDominance": 0.95,
+    "dominantBaseline": "popularity/proxy baseline",
+    "decision": "baseline_explains_or_dominates"
+  },
+  {
+    "targetId": "NH-PKG-13",
+    "family": "package_metadata",
+    "residualScore": 0.183,
+    "baselineDominance": 0.95,
+    "dominantBaseline": "popularity/proxy baseline",
+    "decision": "baseline_explains_or_dominates"
+  },
+  {
+    "targetId": "NH-PKG-14",
+    "family": "package_metadata",
+    "residualScore": 0.183,
+    "baselineDominance": 0.95,
+    "dominantBaseline": "popularity/proxy baseline",
+    "decision": "baseline_explains_or_dominates"
+  },
+  {
+    "targetId": "NH-PKG-15",
+    "family": "package_metadata",
+    "residualScore": 0.196,
+    "baselineDominance": 0.897,
+    "dominantBaseline": "popularity/proxy baseline",
+    "decision": "baseline_explains_or_dominates"
+  },
+  {
+    "targetId": "NH-PKG-16",
+    "family": "package_metadata",
+    "residualScore": 0.143,
+    "baselineDominance": 0.95,
+    "dominantBaseline": "popularity/proxy baseline",
+    "decision": "baseline_explains_or_dominates"
+  },
+  {
+    "targetId": "NH-PKG-17",
+    "family": "package_metadata",
+    "residualScore": 0.183,
+    "baselineDominance": 0.95,
+    "dominantBaseline": "popularity/proxy baseline",
+    "decision": "baseline_explains_or_dominates"
+  },
+  {
+    "targetId": "NH-PKG-18",
+    "family": "package_metadata",
+    "residualScore": 0.183,
+    "baselineDominance": 0.95,
+    "dominantBaseline": "popularity/proxy baseline",
+    "decision": "baseline_explains_or_dominates"
+  },
+  {
+    "targetId": "NH-PKG-19",
+    "family": "package_metadata",
+    "residualScore": 0.183,
+    "baselineDominance": 0.95,
+    "dominantBaseline": "popularity/proxy baseline",
+    "decision": "baseline_explains_or_dominates"
+  },
+  {
+    "targetId": "NH-PKG-20",
+    "family": "package_metadata",
+    "residualScore": 0.143,
+    "baselineDominance": 0.95,
+    "dominantBaseline": "popularity/proxy baseline",
+    "decision": "baseline_explains_or_dominates"
+  },
+  {
+    "targetId": "NH-TAB-01",
+    "family": "sparse_table",
+    "residualScore": 0.269,
+    "baselineDominance": 0.576,
+    "dominantBaseline": "simple frequency baseline",
+    "decision": "baseline_resistant_partial"
+  },
+  {
+    "targetId": "NH-TAB-02",
+    "family": "sparse_table",
+    "residualScore": 0.262,
+    "baselineDominance": 0.45,
+    "dominantBaseline": "simple frequency baseline",
+    "decision": "baseline_resistant_partial"
+  },
+  {
+    "targetId": "NH-TAB-03",
+    "family": "sparse_table",
+    "residualScore": 0.262,
+    "baselineDominance": 0.45,
+    "dominantBaseline": "simple frequency baseline",
+    "decision": "baseline_resistant_partial"
+  },
+  {
+    "targetId": "NH-TAB-04",
+    "family": "sparse_table",
+    "residualScore": 0.27,
+    "baselineDominance": 0.57,
+    "dominantBaseline": "simple frequency baseline",
+    "decision": "baseline_resistant_partial"
+  }
+]

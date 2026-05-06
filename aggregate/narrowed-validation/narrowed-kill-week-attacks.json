@@ -1,0 +1,362 @@
+[
+  {
+    "id": "NKW-01",
+    "type": "holdout attack",
+    "component": "zod npm package metadata",
+    "decision": "downgraded_narrowed_or_rejected"
+  },
+  {
+    "id": "NKW-02",
+    "type": "baseline attack",
+    "component": "yaml npm package metadata",
+    "decision": "downgraded_narrowed_or_rejected"
+  },
+  {
+    "id": "NKW-03",
+    "type": "counterexample attack",
+    "component": "commander npm package metadata",
+    "decision": "downgraded_narrowed_or_rejected"
+  },
+  {
+    "id": "NKW-04",
+    "type": "mutation attack",
+    "component": "minimist npm package metadata",
+    "decision": "downgraded_narrowed_or_rejected"
+  },
+  {
+    "id": "NKW-05",
+    "type": "replay attack",
+    "component": "glob npm package metadata",
+    "decision": "downgraded_narrowed_or_rejected"
+  },
+  {
+    "id": "NKW-06",
+    "type": "rival theory attack",
+    "component": "chalk npm package metadata",
+    "decision": "downgraded_narrowed_or_rejected"
+  },
+  {
+    "id": "NKW-07",
+    "type": "overclaim attack",
+    "component": "debug npm package metadata",
+    "decision": "downgraded_narrowed_or_rejected"
+  },
+  {
+    "id": "NKW-08",
+    "type": "scope creep attack",
+    "component": "ms npm package metadata",
+    "decision": "downgraded_narrowed_or_rejected"
+  },
+  {
+    "id": "NKW-09",
+    "type": "holdout attack",
+    "component": "nanoid npm package metadata",
+    "decision": "downgraded_narrowed_or_rejected"
+  },
+  {
+    "id": "NKW-10",
+    "type": "baseline attack",
+    "component": "semver npm package metadata",
+    "decision": "downgraded_narrowed_or_rejected"
+  },
+  {
+    "id": "NKW-11",
+    "type": "counterexample attack",
+    "component": "yargs npm package metadata",
+    "decision": "downgraded_narrowed_or_rejected"
+  },
+  {
+    "id": "NKW-12",
+    "type": "mutation attack",
+    "component": "uuid npm package metadata",
+    "decision": "downgraded_narrowed_or_rejected"
+  },
+  {
+    "id": "NKW-13",
+    "type": "replay attack",
+    "component": "axios npm package metadata",
+    "decision": "downgraded_narrowed_or_rejected"
+  },
+  {
+    "id": "NKW-14",
+    "type": "rival theory attack",
+    "component": "marked npm package metadata",
+    "decision": "downgraded_narrowed_or_rejected"
+  },
+  {
+    "id": "NKW-15",
+    "type": "overclaim attack",
+    "component": "toml npm package metadata",
+    "decision": "downgraded_narrowed_or_rejected"
+  },
+  {
+    "id": "NKW-16",
+    "type": "scope creep attack",
+    "component": "date-fns npm package metadata",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "NKW-17",
+    "type": "holdout attack",
+    "component": "rxjs npm package metadata",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "NKW-18",
+    "type": "baseline attack",
+    "component": "winston npm package metadata",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "NKW-19",
+    "type": "counterexample attack",
+    "component": "vite npm package metadata",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "NKW-20",
+    "type": "mutation attack",
+    "component": "esbuild npm package metadata",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "NKW-21",
+    "type": "replay attack",
+    "component": "taxis public table",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "NKW-22",
+    "type": "rival theory attack",
+    "component": "tips public table",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "NKW-23",
+    "type": "overclaim attack",
+    "component": "flights public table",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "NKW-24",
+    "type": "scope creep attack",
+    "component": "diamonds public table",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "NKW-25",
+    "type": "holdout attack",
+    "component": "low-risk control",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "NKW-26",
+    "type": "baseline attack",
+    "component": "receipt-stable but no residual",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "NKW-27",
+    "type": "counterexample attack",
+    "component": "residual-like but receipt-unstable",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "NKW-28",
+    "type": "mutation attack",
+    "component": "sparse-table but baseline-explained",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "NKW-29",
+    "type": "replay attack",
+    "component": "package-metadata but artifact-like",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "NKW-30",
+    "type": "rival theory attack",
+    "component": "low-risk control",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "NKW-31",
+    "type": "overclaim attack",
+    "component": "receipt-stable but no residual",
+    "decision": "marked_uncertain"
+  },
+  {
+    "id": "NKW-32",
+    "type": "scope creep attack",
+    "component": "residual-like but receipt-unstable",
+    "decision": "caveated"
+  },
+  {
+    "id": "NKW-33",
+    "type": "holdout attack",
+    "component": "sparse-table but baseline-explained",
+    "decision": "caveated"
+  },
+  {
+    "id": "NKW-34",
+    "type": "baseline attack",
+    "component": "package-metadata but artifact-like",
+    "decision": "marked_uncertain"
+  },
+  {
+    "id": "NKW-35",
+    "type": "counterexample attack",
+    "component": "low-risk control",
+    "decision": "caveated"
+  },
+  {
+    "id": "NKW-36",
+    "type": "mutation attack",
+    "component": "receipt-stable but no residual",
+    "decision": "caveated"
+  },
+  {
+    "id": "NKW-37",
+    "type": "replay attack",
+    "component": "metadata proxy removal",
+    "decision": "marked_uncertain"
+  },
+  {
+    "id": "NKW-38",
+    "type": "rival theory attack",
+    "component": "descriptor mutation",
+    "decision": "caveated"
+  },
+  {
+    "id": "NKW-39",
+    "type": "overclaim attack",
+    "component": "receipt mutation",
+    "decision": "caveated"
+  },
+  {
+    "id": "NKW-40",
+    "type": "scope creep attack",
+    "component": "sparsity mutation",
+    "decision": "marked_uncertain"
+  },
+  {
+    "id": "NKW-41",
+    "type": "holdout attack",
+    "component": "baseline mutation",
+    "decision": "caveated"
+  },
+  {
+    "id": "NKW-42",
+    "type": "baseline attack",
+    "component": "threshold mutation",
+    "decision": "caveated"
+  },
+  {
+    "id": "NKW-43",
+    "type": "counterexample attack",
+    "component": "randomization control",
+    "decision": "marked_uncertain"
+  },
+  {
+    "id": "NKW-44",
+    "type": "mutation attack",
+    "component": "metadata proxy removal",
+    "decision": "caveated"
+  },
+  {
+    "id": "NKW-45",
+    "type": "replay attack",
+    "component": "descriptor mutation",
+    "decision": "caveated"
+  },
+  {
+    "id": "NKW-46",
+    "type": "rival theory attack",
+    "component": "receipt mutation",
+    "decision": "marked_uncertain"
+  },
+  {
+    "id": "NKW-47",
+    "type": "overclaim attack",
+    "component": "sparsity mutation",
+    "decision": "caveated"
+  },
+  {
+    "id": "NKW-48",
+    "type": "scope creep attack",
+    "component": "baseline mutation",
+    "decision": "caveated"
+  },
+  {
+    "id": "NKW-49",
+    "type": "holdout attack",
+    "component": "taxis public table",
+    "decision": "marked_uncertain"
+  },
+  {
+    "id": "NKW-50",
+    "type": "baseline attack",
+    "component": "tips public table",
+    "decision": "caveated"
+  },
+  {
+    "id": "NKW-51",
+    "type": "counterexample attack",
+    "component": "flights public table",
+    "decision": "caveated"
+  },
+  {
+    "id": "NKW-52",
+    "type": "mutation attack",
+    "component": "diamonds public table",
+    "decision": "marked_uncertain"
+  },
+  {
+    "id": "NKW-53",
+    "type": "replay attack",
+    "component": "receipt-stable but no residual",
+    "decision": "caveated"
+  },
+  {
+    "id": "NKW-54",
+    "type": "rival theory attack",
+    "component": "low-risk control",
+    "decision": "caveated"
+  },
+  {
+    "id": "NKW-55",
+    "type": "overclaim attack",
+    "component": "receipt-stable but no residual",
+    "decision": "marked_uncertain"
+  },
+  {
+    "id": "NKW-56",
+    "type": "scope creep attack",
+    "component": "package-metadata but artifact-like",
+    "decision": "caveated"
+  },
+  {
+    "id": "NKW-57",
+    "type": "holdout attack",
+    "component": "descriptor mutation",
+    "decision": "caveated"
+  },
+  {
+    "id": "NKW-58",
+    "type": "baseline attack",
+    "component": "receipt mutation",
+    "decision": "marked_uncertain"
+  },
+  {
+    "id": "NKW-59",
+    "type": "counterexample attack",
+    "component": "taxis public table",
+    "decision": "caveated"
+  },
+  {
+    "id": "NKW-60",
+    "type": "mutation attack",
+    "component": "tips public table",
+    "decision": "caveated"
+  }
+]
