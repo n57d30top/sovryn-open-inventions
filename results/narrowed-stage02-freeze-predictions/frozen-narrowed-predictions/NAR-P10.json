@@ -1,0 +1,16 @@
+{
+  "predictionId": "NAR-P10",
+  "predictionClass": "expected_support",
+  "claimComponent": "package metadata residual",
+  "expectedSignal": "bounded residual persists after strong baselines",
+  "expectedBaselineBehavior": "baseline explains less than half of residual pressure",
+  "expectedRivalBehavior": "rival remains possible but weaker",
+  "expectedMutationBehavior": "descriptor or sparsity mutation should change residual classification",
+  "expectedReplayBehavior": "receipt and coarse descriptor should replay",
+  "numericExpectedRange": "residualScore 0.18-0.45 after strong baselines",
+  "categoricalFalsifier": "Candidate is falsified for this target if the selected strong baseline fully explains the residual or if replay cannot preserve the decisive receipt/descriptor summary.",
+  "falsifier": "Kill or downgrade if baseline dominance is high, counterexample pressure expands, or decisive replay diverges.",
+  "preregistrationHash": "9a51d07a7073f3a2b77d0c7850ee1b1e586869bb530c9c8ba6249d2d228ddd35",
+  "frozenTimestamp": "2026-05-06T00:00:00Z",
+  "noEditRule": "Frozen before blind holdout selection; no post-hoc edits."
+}

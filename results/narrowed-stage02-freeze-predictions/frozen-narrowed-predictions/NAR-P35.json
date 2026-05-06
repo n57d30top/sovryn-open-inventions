@@ -1,0 +1,16 @@
+{
+  "predictionId": "NAR-P35",
+  "predictionClass": "rival_favoring",
+  "claimComponent": "sparse-table residual",
+  "expectedSignal": "rival explanation explains the target better than candidate",
+  "expectedBaselineBehavior": "baseline explains most residual pressure or leaves no residual",
+  "expectedRivalBehavior": "rival gains confidence",
+  "expectedMutationBehavior": "descriptor or sparsity mutation should change residual classification",
+  "expectedReplayBehavior": "replay may reproduce receipt but not residual strength",
+  "numericExpectedRange": null,
+  "categoricalFalsifier": "Candidate is falsified for this target if the selected strong baseline fully explains the residual or if replay cannot preserve the decisive receipt/descriptor summary.",
+  "falsifier": "Kill or downgrade if baseline dominance is high, counterexample pressure expands, or decisive replay diverges.",
+  "preregistrationHash": "b98f70461a38599bc0c8cbfe7b0cef3845848cf4e05333f35614f3609f09548c",
+  "frozenTimestamp": "2026-05-06T00:00:00Z",
+  "noEditRule": "Frozen before blind holdout selection; no post-hoc edits."
+}

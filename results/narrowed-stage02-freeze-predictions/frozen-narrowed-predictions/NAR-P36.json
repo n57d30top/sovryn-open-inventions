@@ -1,0 +1,16 @@
+{
+  "predictionId": "NAR-P36",
+  "predictionClass": "rival_favoring",
+  "claimComponent": "receipt-stable descriptor residual",
+  "expectedSignal": "rival explanation explains the target better than candidate",
+  "expectedBaselineBehavior": "baseline explains most residual pressure or leaves no residual",
+  "expectedRivalBehavior": "rival gains confidence",
+  "expectedMutationBehavior": "descriptor or sparsity mutation should change residual classification",
+  "expectedReplayBehavior": "replay may reproduce receipt but not residual strength",
+  "numericExpectedRange": null,
+  "categoricalFalsifier": "Candidate is falsified for this target if the selected strong baseline fully explains the residual or if replay cannot preserve the decisive receipt/descriptor summary.",
+  "falsifier": "Kill or downgrade if baseline dominance is high, counterexample pressure expands, or decisive replay diverges.",
+  "preregistrationHash": "640bab580b597900e9f58922b83914cc0842336b9fe419e55ce2f3f029a8541b",
+  "frozenTimestamp": "2026-05-06T00:00:00Z",
+  "noEditRule": "Frozen before blind holdout selection; no post-hoc edits."
+}

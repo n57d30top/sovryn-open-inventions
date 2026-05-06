@@ -1,0 +1,16 @@
+{
+  "predictionId": "NAR-P30",
+  "predictionClass": "low_risk_control",
+  "claimComponent": "receipt-stable descriptor residual",
+  "expectedSignal": "control remains low residual and should not support candidate",
+  "expectedBaselineBehavior": "baseline explains most residual pressure or leaves no residual",
+  "expectedRivalBehavior": "rival remains possible but weaker",
+  "expectedMutationBehavior": "mutation should not create candidate support",
+  "expectedReplayBehavior": "replay may reproduce receipt but not residual strength",
+  "numericExpectedRange": null,
+  "categoricalFalsifier": "Candidate is falsified for this target if the selected strong baseline fully explains the residual or if replay cannot preserve the decisive receipt/descriptor summary.",
+  "falsifier": "Kill or downgrade if baseline dominance is high, counterexample pressure expands, or decisive replay diverges.",
+  "preregistrationHash": "8a904e71e0d802531719e3da729f3dd2aef00ee83526813422b60d05b2f1aba5",
+  "frozenTimestamp": "2026-05-06T00:00:00Z",
+  "noEditRule": "Frozen before blind holdout selection; no post-hoc edits."
+}
