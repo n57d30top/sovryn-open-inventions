@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T05:59:49.056Z",
+  "generatedAt": "2026-05-06T06:18:32.363Z",
   "badges": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -15,6 +15,96 @@
         "falsification": "strategy_falsification_executed",
         "lifecycle": "autopublished",
         "version": "autonomous-research-strategy-trial",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch1-evidence-extraction-reproducibility-audit",
+      "badges": {
+        "quality": "unknown",
+        "status": "unknown",
+        "antiTemplate": "unknown",
+        "replay": "replay-partial",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "not_evaluated",
+        "lifecycle": "autopublished",
+        "version": "batch1-evidence-extraction-reproducibility-audit",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch1-feverous-claim-verification-followup",
+      "badges": {
+        "quality": "unknown",
+        "status": "unknown",
+        "antiTemplate": "unknown",
+        "replay": "replay-partial",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "not_evaluated",
+        "lifecycle": "autopublished",
+        "version": "batch1-feverous-claim-verification-followup",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch1-nab-time-series-anomaly-challenge",
+      "badges": {
+        "quality": "unknown",
+        "status": "unknown",
+        "antiTemplate": "unknown",
+        "replay": "replay-partial",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "not_evaluated",
+        "lifecycle": "autopublished",
+        "version": "batch1-nab-time-series-anomaly-challenge",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch1-qasper-source-evidence-extraction-challenge",
+      "badges": {
+        "quality": "unknown",
+        "status": "unknown",
+        "antiTemplate": "unknown",
+        "replay": "replay-partial",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "not_evaluated",
+        "lifecycle": "autopublished",
+        "version": "batch1-qasper-source-evidence-extraction-challenge",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch1-uci-wine-quality-dataset-audit",
+      "badges": {
+        "quality": "unknown",
+        "status": "unknown",
+        "antiTemplate": "unknown",
+        "replay": "replay-partial",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "not_evaluated",
+        "lifecycle": "autopublished",
+        "version": "batch1-uci-wine-quality-dataset-audit",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -705,5 +795,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "571a51c9c260db487f8005402aa74bfe830f2292d8621e6ebec8888f6eaa6aa1"
+  "evidenceHash": "d56bf13e9207cdf6b2cdadc3d21f68e937c14004bb234f5a8f878eb531759dab"
 }

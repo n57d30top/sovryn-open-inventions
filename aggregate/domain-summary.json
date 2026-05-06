@@ -1,13 +1,16 @@
 {
   "kind": "public_corpus_domain_summary",
-  "updatedAt": "2026-05-06T05:59:49.056Z",
+  "updatedAt": "2026-05-06T06:18:32.363Z",
   "domainCounts": {
     "chemistry-data-quality": 10,
+    "claim-verification-benchmark": 1,
+    "computational-reproducibility-audit": 1,
     "energy-data-quality": 8,
     "field-grade-scientific-autonomy": 3,
     "node-toolchain-policy": 1,
     "open-invention-corpus": 3,
     "provenance-aware-data-quality-methods": 1,
+    "public-dataset-quality-audit": 1,
     "reality-grade-scientific-autonomy": 1,
     "research-strategy": 1,
     "safe-computational-reproduction": 1,
@@ -16,7 +19,9 @@
     "scientific-knowledge-engine": 1,
     "software-supply-chain": 3,
     "software-supply-chain-assurance": 3,
-    "source-evidence-extraction-quality": 1
+    "source-evidence-extraction-benchmark": 1,
+    "source-evidence-extraction-quality": 1,
+    "time-series-anomaly-benchmark": 1
   },
-  "evidenceHash": "834fc5b6adc444b8ada0c4d7bacc20c97dd700663668c281a5ed1158115540f2"
+  "evidenceHash": "a04aba15c6a78d6798a58be8a2751a29da28d8251c5208eea0ee277de2c55238"
 }

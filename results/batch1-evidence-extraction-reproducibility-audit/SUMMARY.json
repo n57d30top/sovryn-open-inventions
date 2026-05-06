@@ -1,0 +1,42 @@
+{
+  "slug": "batch1-evidence-extraction-reproducibility-audit",
+  "title": "Evidence-Extraction Repository Reproducibility Audit",
+  "resultKind": "external_research_production_result",
+  "targetVersion": "4.2.0-rc.1",
+  "domain": "computational-reproducibility-audit",
+  "selectedExternalTarget": "danishpruthi/evidence-extraction",
+  "selectedExternalTargetUrl": "https://github.com/danishpruthi/evidence-extraction",
+  "finalResult": "external_reproduction_partial",
+  "finalStatus": "external_reproduction_partial",
+  "preregistered": true,
+  "baselineReproductionPresent": true,
+  "concreteMetricsPresent": true,
+  "failuresAndLossesRecorded": true,
+  "rejectedIdeasRecorded": true,
+  "reproducibilityInstructionsPresent": true,
+  "publicHygienePassed": true,
+  "noRawLogs": true,
+  "noSecretLeaks": true,
+  "noLocalAbsolutePaths": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "metrics": {
+    "READMEPresent": 1,
+    "environmentFilePresent": 1,
+    "repoTopLevelEntriesInspected": 4,
+    "datasetsDirectoryPresent": 1,
+    "srcDirectoryPresent": 1,
+    "lockfilePresent": 0,
+    "READMEOnlyChecklistRecall": 0.5,
+    "repoStructureChecklistRecall": 0.75,
+    "reproducibilityScore": 67
+  },
+  "lossesRecorded": 2,
+  "rejectedIdeas": 3,
+  "sourceFacts": [
+    "The public repository describes code and datasets for Weakly- and Semi-supervised Evidence Extraction.",
+    "The repository contains README.md, datasets, environment.yml, and src at top level during this audit."
+  ],
+  "evidenceHash": "0a4e45c7bb5214a83ffb4c101d83d2b078ba2b1ef258781fe7aa11594c5600fe"
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "batch1-nab-time-series-anomaly-challenge",
+  "title": "NAB Time-Series Anomaly Benchmark Challenge",
+  "resultKind": "external_research_production_result",
+  "targetVersion": "4.2.0-rc.1",
+  "domain": "time-series-anomaly-benchmark",
+  "selectedExternalTarget": "Numenta Anomaly Benchmark art_daily_jumpsup",
+  "selectedExternalTargetUrl": "https://github.com/numenta/NAB",
+  "finalResult": "strong_external_negative_result",
+  "finalStatus": "strong_external_negative_result",
+  "preregistered": true,
+  "baselineReproductionPresent": true,
+  "concreteMetricsPresent": true,
+  "failuresAndLossesRecorded": true,
+  "rejectedIdeasRecorded": true,
+  "reproducibilityInstructionsPresent": true,
+  "publicHygienePassed": true,
+  "noRawLogs": true,
+  "noSecretLeaks": true,
+  "noLocalAbsolutePaths": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "metrics": {
+    "rowsEvaluated": 4032,
+    "labelWindows": 1,
+    "labeledPoints": 403,
+    "globalZScorePrecision": 1,
+    "globalZScoreRecall": 0.179,
+    "rollingMADPrecision": 0.105,
+    "rollingMADRecall": 0.154,
+    "derivativeChallengerPrecision": 0.324,
+    "candidateRejected": 1
+  },
+  "lossesRecorded": 3,
+  "rejectedIdeas": 3,
+  "sourceFacts": [
+    "NAB is a public benchmark with labeled time-series files and scoring tools.",
+    "The audited file has one labeled anomaly window in combined_windows.json."
+  ],
+  "evidenceHash": "a4b1cb507a9722d0008186d78cdf4b173dd3f175fe699ad70be11ad7cf3fe82b"
+}

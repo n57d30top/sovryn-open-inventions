@@ -1,0 +1,42 @@
+{
+  "slug": "batch1-uci-wine-quality-dataset-audit",
+  "title": "UCI Wine Quality Public Dataset-Quality Audit",
+  "resultKind": "external_research_production_result",
+  "targetVersion": "4.2.0-rc.1",
+  "domain": "public-dataset-quality-audit",
+  "selectedExternalTarget": "UCI Wine Quality",
+  "selectedExternalTargetUrl": "https://archive.ics.uci.edu/dataset/186/wine+quality",
+  "finalResult": "dataset_quality_audit_supported",
+  "finalStatus": "dataset_quality_audit_supported",
+  "preregistered": true,
+  "baselineReproductionPresent": true,
+  "concreteMetricsPresent": true,
+  "failuresAndLossesRecorded": true,
+  "rejectedIdeasRecorded": true,
+  "reproducibilityInstructionsPresent": true,
+  "publicHygienePassed": true,
+  "noRawLogs": true,
+  "noSecretLeaks": true,
+  "noLocalAbsolutePaths": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "metrics": {
+    "rowsAudited": 1599,
+    "columnsAudited": 12,
+    "missingCells": 0,
+    "duplicateRows": 240,
+    "duplicateRate": 0.15,
+    "majorityQualityShare": 0.426,
+    "rareExtremeQualityRows": 81,
+    "schemaOnlyIssueRecall": 0.4,
+    "schemaDistributionIssueRecall": 0.8
+  },
+  "lossesRecorded": 2,
+  "rejectedIdeas": 3,
+  "sourceFacts": [
+    "UCI describes Wine Quality as two physicochemical wine datasets for classification/regression.",
+    "The UCI page states no missing values and notes class imbalance."
+  ],
+  "evidenceHash": "a3daa477c120c3a53986fdfd206921f6d1165ddbefd51cf6dea235df8677dabf"
+}

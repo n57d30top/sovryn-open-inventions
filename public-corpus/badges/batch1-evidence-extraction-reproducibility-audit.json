@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "batch1-evidence-extraction-reproducibility-audit",
+  "badges": {
+    "quality": "unknown",
+    "status": "unknown",
+    "antiTemplate": "unknown",
+    "replay": "replay-partial",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "not_evaluated",
+    "lifecycle": "autopublished",
+    "version": "batch1-evidence-extraction-reproducibility-audit",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "45db3395d6039aabb784211d57f550d61abe6ada2fd69f016042c32f77ec4d8e"
+}

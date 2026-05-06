@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T05:59:49.056Z",
+  "generatedAt": "2026-05-06T06:18:32.363Z",
   "qualityCounts": {
     "excellent": 5,
     "good": 32,
-    "unknown": 2
+    "unknown": 7
   },
   "lifecycleCounts": {
-    "autopublished": 8,
+    "autopublished": 13,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -27,6 +27,76 @@
       "reproducibilityScore": 100,
       "publicationSafetyScore": 98,
       "specificityScore": 82
+    },
+    {
+      "slug": "batch1-evidence-extraction-reproducibility-audit",
+      "qualityLabel": "unknown",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch1-evidence-extraction-reproducibility-audit",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 0,
+      "evidenceStrengthScore": 0,
+      "reproducibilityScore": 0,
+      "publicationSafetyScore": 0,
+      "specificityScore": 73
+    },
+    {
+      "slug": "batch1-feverous-claim-verification-followup",
+      "qualityLabel": "unknown",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch1-feverous-claim-verification-followup",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 0,
+      "evidenceStrengthScore": 0,
+      "reproducibilityScore": 0,
+      "publicationSafetyScore": 0,
+      "specificityScore": 73
+    },
+    {
+      "slug": "batch1-nab-time-series-anomaly-challenge",
+      "qualityLabel": "unknown",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch1-nab-time-series-anomaly-challenge",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 0,
+      "evidenceStrengthScore": 0,
+      "reproducibilityScore": 0,
+      "publicationSafetyScore": 0,
+      "specificityScore": 73
+    },
+    {
+      "slug": "batch1-qasper-source-evidence-extraction-challenge",
+      "qualityLabel": "unknown",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch1-qasper-source-evidence-extraction-challenge",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 0,
+      "evidenceStrengthScore": 0,
+      "reproducibilityScore": 0,
+      "publicationSafetyScore": 0,
+      "specificityScore": 73
+    },
+    {
+      "slug": "batch1-uci-wine-quality-dataset-audit",
+      "qualityLabel": "unknown",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch1-uci-wine-quality-dataset-audit",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 0,
+      "evidenceStrengthScore": 0,
+      "reproducibilityScore": 0,
+      "publicationSafetyScore": 0,
+      "specificityScore": 73
     },
     {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -561,5 +631,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "ebabdf4fba814562b523e3fc011fb15381dbfb61c4f6cf9840784463ebdbb686"
+  "evidenceHash": "01325ffe190ea0704767ee11b56379e94e6e04372cb98d44442f88457c7e6caa"
 }

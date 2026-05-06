@@ -1,0 +1,31 @@
+{
+  "kind": "external_batch_metrics",
+  "slug": "batch1-qasper-source-evidence-extraction-challenge",
+  "metrics": [
+    [
+      "expected source-card fields",
+      6
+    ],
+    [
+      "README length chars inspected",
+      9639
+    ],
+    [
+      "expected fields present in source",
+      6
+    ],
+    [
+      "keyword baseline field recall",
+      0.667
+    ],
+    [
+      "source-card parser field recall",
+      1
+    ],
+    [
+      "official baseline Token F1 found",
+      1
+    ]
+  ],
+  "evidenceHash": "3a77ba6faac4c438b96d1f849d9a12811c44e04eafc44952a6bb0ad742d7cc3b"
+}

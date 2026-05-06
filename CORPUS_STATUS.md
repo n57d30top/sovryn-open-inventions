@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 39
+Results: 44
 
 ## Lifecycle Counts
 
-- autopublished: 8
+- autopublished: 13
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -13,6 +13,11 @@ Results: 39
 ## Version Groups
 
 - autonomous-research-strategy-trial: latest autonomous-research-strategy-trial; autonomous-research-strategy-trial
+- batch1-evidence-extraction-reproducibility-audit: latest batch1-evidence-extraction-reproducibility-audit; batch1-evidence-extraction-reproducibility-audit
+- batch1-feverous-claim-verification-followup: latest batch1-feverous-claim-verification-followup; batch1-feverous-claim-verification-followup
+- batch1-nab-time-series-anomaly-challenge: latest batch1-nab-time-series-anomaly-challenge; batch1-nab-time-series-anomaly-challenge
+- batch1-qasper-source-evidence-extraction-challenge: latest batch1-qasper-source-evidence-extraction-challenge; batch1-qasper-source-evidence-extraction-challenge
+- batch1-uci-wine-quality-dataset-audit: latest batch1-uci-wine-quality-dataset-audit; batch1-uci-wine-quality-dataset-audit
 - chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an: latest chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl; chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl
 - chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconf: latest chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-; chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-
 - chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-o: latest chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco; chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco

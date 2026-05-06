@@ -1,12 +1,47 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T05:59:49.056Z",
+  "updatedAt": "2026-05-06T06:18:32.363Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-strategy-trial",
       "latestSlug": "autonomous-research-strategy-trial",
       "resultSlugs": [
         "autonomous-research-strategy-trial"
+      ]
+    },
+    {
+      "versionGroup": "batch1-evidence-extraction-reproducibility-audit",
+      "latestSlug": "batch1-evidence-extraction-reproducibility-audit",
+      "resultSlugs": [
+        "batch1-evidence-extraction-reproducibility-audit"
+      ]
+    },
+    {
+      "versionGroup": "batch1-feverous-claim-verification-followup",
+      "latestSlug": "batch1-feverous-claim-verification-followup",
+      "resultSlugs": [
+        "batch1-feverous-claim-verification-followup"
+      ]
+    },
+    {
+      "versionGroup": "batch1-nab-time-series-anomaly-challenge",
+      "latestSlug": "batch1-nab-time-series-anomaly-challenge",
+      "resultSlugs": [
+        "batch1-nab-time-series-anomaly-challenge"
+      ]
+    },
+    {
+      "versionGroup": "batch1-qasper-source-evidence-extraction-challenge",
+      "latestSlug": "batch1-qasper-source-evidence-extraction-challenge",
+      "resultSlugs": [
+        "batch1-qasper-source-evidence-extraction-challenge"
+      ]
+    },
+    {
+      "versionGroup": "batch1-uci-wine-quality-dataset-audit",
+      "latestSlug": "batch1-uci-wine-quality-dataset-audit",
+      "resultSlugs": [
+        "batch1-uci-wine-quality-dataset-audit"
       ]
     },
     {
@@ -192,5 +227,5 @@
       ]
     }
   ],
-  "evidenceHash": "cf3e9fe7c5585812dbbd527a1368b81eef6865b24cfee93aefad06a7350f0452"
+  "evidenceHash": "a2c8bfbe2156f2de765295654aef352466d10e4f81be15e4d6238a7a500cb0c3"
 }

@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "batch1-uci-wine-quality-dataset-audit",
+  "badges": {
+    "quality": "unknown",
+    "status": "unknown",
+    "antiTemplate": "unknown",
+    "replay": "replay-partial",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "not_evaluated",
+    "lifecycle": "autopublished",
+    "version": "batch1-uci-wine-quality-dataset-audit",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "1e975132fa42aa405fcd479fb92b1009c4f5d24a83f487d4d18f7d0ed612dcf4"
+}

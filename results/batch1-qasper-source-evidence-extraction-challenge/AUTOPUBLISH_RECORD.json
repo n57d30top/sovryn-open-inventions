@@ -1,0 +1,14 @@
+{
+  "resultId": "batch1-qasper-source-evidence-extraction-challenge",
+  "slug": "batch1-qasper-source-evidence-extraction-challenge",
+  "publishedBy": "sovryn-existing-corpus-publication-flow",
+  "automatedPolicyVersion": "4.2.0-rc.1-external-research-production-batch-policy",
+  "targetRepo": "https://github.com/n57d30top/sovryn-open-inventions",
+  "targetPath": "results/batch1-qasper-source-evidence-extraction-challenge",
+  "pushed": true,
+  "dryRun": false,
+  "publicHygienePassed": true,
+  "noCriticalFailures": true,
+  "disclaimer": "Public-safe external research production result. Safe computational science only: public datasets, benchmark metadata, open-source repositories, bounded metric summaries, failures, losses, rejected candidates, limitations, and reproducibility instructions. This is not wet-lab guidance, hazardous chemistry, medical advice, exploit guidance, a patent filing, a patentability opinion, legal novelty advice, freedom-to-operate advice, a confirmed breakthrough claim, or a guarantee of scientific truth.",
+  "evidenceHash": "a40d1e977c35c1a134c0343f7bc7c7cc75ab0b4b14e9e9dcd205c5934a8ca3e5"
+}

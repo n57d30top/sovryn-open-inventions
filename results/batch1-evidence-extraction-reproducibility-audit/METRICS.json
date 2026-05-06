@@ -1,0 +1,43 @@
+{
+  "kind": "external_batch_metrics",
+  "slug": "batch1-evidence-extraction-reproducibility-audit",
+  "metrics": [
+    [
+      "README present",
+      1
+    ],
+    [
+      "environment file present",
+      1
+    ],
+    [
+      "repo top-level entries inspected",
+      4
+    ],
+    [
+      "datasets directory present",
+      1
+    ],
+    [
+      "src directory present",
+      1
+    ],
+    [
+      "lockfile present",
+      0
+    ],
+    [
+      "README-only checklist recall",
+      0.5
+    ],
+    [
+      "repo-structure checklist recall",
+      0.75
+    ],
+    [
+      "reproducibility score",
+      67
+    ]
+  ],
+  "evidenceHash": "55aef00a3617bd00dee01ff2cb7e371e6fa381141d1c75e754d185fe8a65905c"
+}

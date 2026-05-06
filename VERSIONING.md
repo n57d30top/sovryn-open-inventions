@@ -6,6 +6,11 @@ can supersede earlier entries while preserving audit history.
 ## Groups
 
 - autonomous-research-strategy-trial: latest autonomous-research-strategy-trial; versions autonomous-research-strategy-trial
+- batch1-evidence-extraction-reproducibility-audit: latest batch1-evidence-extraction-reproducibility-audit; versions batch1-evidence-extraction-reproducibility-audit
+- batch1-feverous-claim-verification-followup: latest batch1-feverous-claim-verification-followup; versions batch1-feverous-claim-verification-followup
+- batch1-nab-time-series-anomaly-challenge: latest batch1-nab-time-series-anomaly-challenge; versions batch1-nab-time-series-anomaly-challenge
+- batch1-qasper-source-evidence-extraction-challenge: latest batch1-qasper-source-evidence-extraction-challenge; versions batch1-qasper-source-evidence-extraction-challenge
+- batch1-uci-wine-quality-dataset-audit: latest batch1-uci-wine-quality-dataset-audit; versions batch1-uci-wine-quality-dataset-audit
 - chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an: latest chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl; versions chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl
 - chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconf: latest chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-; versions chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-
 - chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-o: latest chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco; versions chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco

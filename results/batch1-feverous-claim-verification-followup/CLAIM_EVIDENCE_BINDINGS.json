@@ -1,0 +1,59 @@
+{
+  "kind": "external_research_batch_claim_evidence_bindings",
+  "slug": "batch1-feverous-claim-verification-followup",
+  "bindingCount": 6,
+  "bindings": [
+    {
+      "claimId": "batch1-feverous-claim-verification-followup-target",
+      "claimText": "Result is bound to a public external target.",
+      "evidenceRefs": [
+        "SELECTED_EXTERNAL_TARGET.md",
+        "SUMMARY.json"
+      ],
+      "evidenceHash": "1e517329e99f1a23517d9daa17ddbc8fdfc715ff87de026ea9cb52c9eda56df6"
+    },
+    {
+      "claimId": "batch1-feverous-claim-verification-followup-prereg",
+      "claimText": "Metrics and kill criteria were preregistered before result interpretation.",
+      "evidenceRefs": [
+        "PREREGISTRATION.md"
+      ],
+      "evidenceHash": "0d36c3903fffa93dc451773ded783d9246dd20c5e4d8850ea3aab3b919d24979"
+    },
+    {
+      "claimId": "batch1-feverous-claim-verification-followup-baseline",
+      "claimText": "Baseline or reference behavior was reproduced or explicitly limited.",
+      "evidenceRefs": [
+        "BASELINE_REPRODUCTION.md"
+      ],
+      "evidenceHash": "c623805a7d61f671d87156e663e9f4c4ab2d6da635c9f55e1f18b0d4656e380c"
+    },
+    {
+      "claimId": "batch1-feverous-claim-verification-followup-metrics",
+      "claimText": "Concrete bounded metrics were recorded.",
+      "evidenceRefs": [
+        "RESULTS.md",
+        "METRICS.json"
+      ],
+      "evidenceHash": "7aa9b3e36c3273b0cf07a36d6a42550a44b00b6486cf9e9703058d5125fca260"
+    },
+    {
+      "claimId": "batch1-feverous-claim-verification-followup-losses",
+      "claimText": "Failures, losses, and rejected ideas are public.",
+      "evidenceRefs": [
+        "FAILURES_AND_LOSSES.md",
+        "NEGATIVE_RESULTS.md"
+      ],
+      "evidenceHash": "e57be25cfe0e1a2ed493a1890eec9cf5a03de9758b1abee4fb7317e80f74517b"
+    },
+    {
+      "claimId": "batch1-feverous-claim-verification-followup-safety",
+      "claimText": "No breakthrough, legal novelty, patentability, or scientific truth guarantee is claimed.",
+      "evidenceRefs": [
+        "LIMITATIONS.md"
+      ],
+      "evidenceHash": "ae2348f18acb0ef966b3db694317c2880e5e623fc5213c3b0f1c638ec55fc547"
+    }
+  ],
+  "evidenceHash": "b06058f2e28b8dc149580b3f27071f6f06442ec784de622c8401f9b2ab83306f"
+}

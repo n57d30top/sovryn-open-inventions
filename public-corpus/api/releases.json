@@ -11,6 +11,51 @@
       "pushed": true
     },
     {
+      "slug": "batch1-evidence-extraction-reproducibility-audit",
+      "path": "results/batch1-evidence-extraction-reproducibility-audit",
+      "status": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch1-evidence-extraction-reproducibility-audit",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch1-feverous-claim-verification-followup",
+      "path": "results/batch1-feverous-claim-verification-followup",
+      "status": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch1-feverous-claim-verification-followup",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch1-nab-time-series-anomaly-challenge",
+      "path": "results/batch1-nab-time-series-anomaly-challenge",
+      "status": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch1-nab-time-series-anomaly-challenge",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch1-qasper-source-evidence-extraction-challenge",
+      "path": "results/batch1-qasper-source-evidence-extraction-challenge",
+      "status": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch1-qasper-source-evidence-extraction-challenge",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch1-uci-wine-quality-dataset-audit",
+      "path": "results/batch1-uci-wine-quality-dataset-audit",
+      "status": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch1-uci-wine-quality-dataset-audit",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "path": "results/chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "status": "autopublished",
@@ -353,5 +398,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "43f7919754f7987829c120194cfed62b4c66e9d5c59b06b48036985ff51e638b"
+  "evidenceHash": "a5fcc3a8ee070441a838182762daec89df458321d529abad19501e59d985e5ed"
 }

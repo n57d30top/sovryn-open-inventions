@@ -1,0 +1,38 @@
+{
+  "slug": "batch1-feverous-claim-verification-followup",
+  "title": "FEVEROUS Claim-Verification Follow-Up Reproduction",
+  "resultKind": "external_research_production_result",
+  "targetVersion": "4.2.0-rc.1",
+  "domain": "claim-verification-benchmark",
+  "selectedExternalTarget": "FEVEROUS",
+  "selectedExternalTargetUrl": "https://github.com/Raldir/FEVEROUS",
+  "finalResult": "external_reproduction_partial",
+  "finalStatus": "external_reproduction_partial",
+  "preregistered": true,
+  "baselineReproductionPresent": true,
+  "concreteMetricsPresent": true,
+  "failuresAndLossesRecorded": true,
+  "rejectedIdeasRecorded": true,
+  "reproducibilityInstructionsPresent": true,
+  "publicHygienePassed": true,
+  "noRawLogs": true,
+  "noSecretLeaks": true,
+  "noLocalAbsolutePaths": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "metrics": {
+    "requiredEvaluationFields": 4,
+    "READMEMentionsEvaluationCommand": 1,
+    "baselineFieldRecall": 0.75,
+    "schemaAwareFieldRecall": 1,
+    "reproductionScore": 78
+  },
+  "lossesRecorded": 2,
+  "rejectedIdeas": 3,
+  "sourceFacts": [
+    "FEVEROUS is an external fact extraction and verification benchmark with text and table evidence.",
+    "The public README documents local evaluation and required input fields."
+  ],
+  "evidenceHash": "3d4edae2665831d0853499abd5995a8fe81b9f66425525107d21e37cee8be02c"
+}

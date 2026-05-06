@@ -1,0 +1,39 @@
+{
+  "slug": "batch1-qasper-source-evidence-extraction-challenge",
+  "title": "QASPER Source/Evidence Extraction Challenge",
+  "resultKind": "external_research_production_result",
+  "targetVersion": "4.2.0-rc.1",
+  "domain": "source-evidence-extraction-benchmark",
+  "selectedExternalTarget": "QASPER dataset card",
+  "selectedExternalTargetUrl": "https://huggingface.co/datasets/allenai/qasper",
+  "finalResult": "source_evidence_extraction_audit_supported",
+  "finalStatus": "source_evidence_extraction_audit_supported",
+  "preregistered": true,
+  "baselineReproductionPresent": true,
+  "concreteMetricsPresent": true,
+  "failuresAndLossesRecorded": true,
+  "rejectedIdeasRecorded": true,
+  "reproducibilityInstructionsPresent": true,
+  "publicHygienePassed": true,
+  "noRawLogs": true,
+  "noSecretLeaks": true,
+  "noLocalAbsolutePaths": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "metrics": {
+    "expectedSourceCardFields": 6,
+    "READMELengthCharsInspected": 9639,
+    "expectedFieldsPresentInSource": 6,
+    "keywordBaselineFieldRecall": 0.667,
+    "sourceCardParserFieldRecall": 1,
+    "officialBaselineTokenF1Found": 1
+  },
+  "lossesRecorded": 3,
+  "rejectedIdeas": 3,
+  "sourceFacts": [
+    "QASPER is a public scientific QA dataset card with homepage, license, leaderboard, and baseline metadata.",
+    "The public card mentions an official baseline Token F1 score."
+  ],
+  "evidenceHash": "06c9bd71c4755e3f78780f952fad25e89fb4ba3537d88666acdfd8f6ba5e57c9"
+}

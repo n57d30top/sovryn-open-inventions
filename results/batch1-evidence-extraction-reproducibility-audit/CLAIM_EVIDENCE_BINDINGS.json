@@ -1,0 +1,59 @@
+{
+  "kind": "external_research_batch_claim_evidence_bindings",
+  "slug": "batch1-evidence-extraction-reproducibility-audit",
+  "bindingCount": 6,
+  "bindings": [
+    {
+      "claimId": "batch1-evidence-extraction-reproducibility-audit-target",
+      "claimText": "Result is bound to a public external target.",
+      "evidenceRefs": [
+        "SELECTED_EXTERNAL_TARGET.md",
+        "SUMMARY.json"
+      ],
+      "evidenceHash": "02642194ca886e3a27b11ef1e8af71f6f82326f046f6e012ed1bb0f755bebfa0"
+    },
+    {
+      "claimId": "batch1-evidence-extraction-reproducibility-audit-prereg",
+      "claimText": "Metrics and kill criteria were preregistered before result interpretation.",
+      "evidenceRefs": [
+        "PREREGISTRATION.md"
+      ],
+      "evidenceHash": "057ad51af970997205c6fd20899ffebbca04a4281b0f04b072e509769d742b03"
+    },
+    {
+      "claimId": "batch1-evidence-extraction-reproducibility-audit-baseline",
+      "claimText": "Baseline or reference behavior was reproduced or explicitly limited.",
+      "evidenceRefs": [
+        "BASELINE_REPRODUCTION.md"
+      ],
+      "evidenceHash": "39590dbea3f45a8869165e87cdec1a533cec0f16ec5358c5ea34648929502362"
+    },
+    {
+      "claimId": "batch1-evidence-extraction-reproducibility-audit-metrics",
+      "claimText": "Concrete bounded metrics were recorded.",
+      "evidenceRefs": [
+        "RESULTS.md",
+        "METRICS.json"
+      ],
+      "evidenceHash": "55aef00a3617bd00dee01ff2cb7e371e6fa381141d1c75e754d185fe8a65905c"
+    },
+    {
+      "claimId": "batch1-evidence-extraction-reproducibility-audit-losses",
+      "claimText": "Failures, losses, and rejected ideas are public.",
+      "evidenceRefs": [
+        "FAILURES_AND_LOSSES.md",
+        "NEGATIVE_RESULTS.md"
+      ],
+      "evidenceHash": "7b932e6b484e7b78f2e74d9dba9884198f3f99f9fd226574e689ea5354f994cc"
+    },
+    {
+      "claimId": "batch1-evidence-extraction-reproducibility-audit-safety",
+      "claimText": "No breakthrough, legal novelty, patentability, or scientific truth guarantee is claimed.",
+      "evidenceRefs": [
+        "LIMITATIONS.md"
+      ],
+      "evidenceHash": "ae2348f18acb0ef966b3db694317c2880e5e623fc5213c3b0f1c638ec55fc547"
+    }
+  ],
+  "evidenceHash": "7b81b2313c02ea600468a65a5099bd3760df310f50cce2e1a358ef4502a50256"
+}

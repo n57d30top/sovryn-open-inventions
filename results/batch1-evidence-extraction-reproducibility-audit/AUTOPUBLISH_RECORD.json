@@ -1,0 +1,14 @@
+{
+  "resultId": "batch1-evidence-extraction-reproducibility-audit",
+  "slug": "batch1-evidence-extraction-reproducibility-audit",
+  "publishedBy": "sovryn-existing-corpus-publication-flow",
+  "automatedPolicyVersion": "4.2.0-rc.1-external-research-production-batch-policy",
+  "targetRepo": "https://github.com/n57d30top/sovryn-open-inventions",
+  "targetPath": "results/batch1-evidence-extraction-reproducibility-audit",
+  "pushed": true,
+  "dryRun": false,
+  "publicHygienePassed": true,
+  "noCriticalFailures": true,
+  "disclaimer": "Public-safe external research production result. Safe computational science only: public datasets, benchmark metadata, open-source repositories, bounded metric summaries, failures, losses, rejected candidates, limitations, and reproducibility instructions. This is not wet-lab guidance, hazardous chemistry, medical advice, exploit guidance, a patent filing, a patentability opinion, legal novelty advice, freedom-to-operate advice, a confirmed breakthrough claim, or a guarantee of scientific truth.",
+  "evidenceHash": "13cb15e0a45bd1450d5477b7145fb1af1a33b0bfa7020ef0c168b6bfb6277554"
+}

@@ -1,0 +1,59 @@
+{
+  "kind": "external_research_batch_claim_evidence_bindings",
+  "slug": "batch1-uci-wine-quality-dataset-audit",
+  "bindingCount": 6,
+  "bindings": [
+    {
+      "claimId": "batch1-uci-wine-quality-dataset-audit-target",
+      "claimText": "Result is bound to a public external target.",
+      "evidenceRefs": [
+        "SELECTED_EXTERNAL_TARGET.md",
+        "SUMMARY.json"
+      ],
+      "evidenceHash": "ad5424f8c0b830bb743d677ef295716a1a4985860825b84aace57de8c2e2df83"
+    },
+    {
+      "claimId": "batch1-uci-wine-quality-dataset-audit-prereg",
+      "claimText": "Metrics and kill criteria were preregistered before result interpretation.",
+      "evidenceRefs": [
+        "PREREGISTRATION.md"
+      ],
+      "evidenceHash": "5a6a5dae626f45209d0e43f8f505e5843507b5756a4a04585ccddfb15f79a022"
+    },
+    {
+      "claimId": "batch1-uci-wine-quality-dataset-audit-baseline",
+      "claimText": "Baseline or reference behavior was reproduced or explicitly limited.",
+      "evidenceRefs": [
+        "BASELINE_REPRODUCTION.md"
+      ],
+      "evidenceHash": "be06889aefe9a7207f5e5b8b257583664e874e10e071aed0d4924f948fe1c9ac"
+    },
+    {
+      "claimId": "batch1-uci-wine-quality-dataset-audit-metrics",
+      "claimText": "Concrete bounded metrics were recorded.",
+      "evidenceRefs": [
+        "RESULTS.md",
+        "METRICS.json"
+      ],
+      "evidenceHash": "056302beb3a16f49661918ca5bba86ebd904ac932bc8acf7522bc558bfc8bcd7"
+    },
+    {
+      "claimId": "batch1-uci-wine-quality-dataset-audit-losses",
+      "claimText": "Failures, losses, and rejected ideas are public.",
+      "evidenceRefs": [
+        "FAILURES_AND_LOSSES.md",
+        "NEGATIVE_RESULTS.md"
+      ],
+      "evidenceHash": "30235f83e70892d89dc370e787eb3a35e9d6259e706e9c156ad10d4a7e19beb7"
+    },
+    {
+      "claimId": "batch1-uci-wine-quality-dataset-audit-safety",
+      "claimText": "No breakthrough, legal novelty, patentability, or scientific truth guarantee is claimed.",
+      "evidenceRefs": [
+        "LIMITATIONS.md"
+      ],
+      "evidenceHash": "ae2348f18acb0ef966b3db694317c2880e5e623fc5213c3b0f1c638ec55fc547"
+    }
+  ],
+  "evidenceHash": "c5227d880c0ba1e73dfcb6d81969fe4a259edaa22460a783943d4efa5e924fd2"
+}

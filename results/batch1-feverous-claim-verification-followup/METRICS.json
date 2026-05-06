@@ -1,0 +1,27 @@
+{
+  "kind": "external_batch_metrics",
+  "slug": "batch1-feverous-claim-verification-followup",
+  "metrics": [
+    [
+      "required evaluation fields",
+      4
+    ],
+    [
+      "README mentions evaluation command",
+      1
+    ],
+    [
+      "baseline field recall",
+      0.75
+    ],
+    [
+      "schema-aware field recall",
+      1
+    ],
+    [
+      "reproduction score",
+      78
+    ]
+  ],
+  "evidenceHash": "7aa9b3e36c3273b0cf07a36d6a42550a44b00b6486cf9e9703058d5125fca260"
+}

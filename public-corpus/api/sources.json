@@ -7,6 +7,31 @@
       "customTool": null
     },
     {
+      "slug": "batch1-evidence-extraction-reproducibility-audit",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch1-feverous-claim-verification-followup",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch1-nab-time-series-anomaly-challenge",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch1-qasper-source-evidence-extraction-challenge",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch1-uci-wine-quality-dataset-audit",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "externalPackages": [],
       "customTool": "mol-record-auditor"
@@ -243,5 +268,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "edccaa45c10679632c6d80ff4e35b69bfd3fd6fcfe9269f19d7b6c4838369fe6"
+  "evidenceHash": "f1ae18bd2d4076e805a9ea2c83416b6b908f39cb43e2ddc33c7fcfc01fef66eb"
 }

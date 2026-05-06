@@ -1,12 +1,42 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T05:59:49.056Z",
+  "generatedAt": "2026-05-06T06:18:32.363Z",
   "nodes": [
     {
       "id": "result:autonomous-research-strategy-trial",
       "kind": "result",
       "label": "Autonomous Research Strategist Trial",
       "domain": "research-strategy"
+    },
+    {
+      "id": "result:batch1-evidence-extraction-reproducibility-audit",
+      "kind": "result",
+      "label": "Evidence-Extraction Repository Reproducibility Audit",
+      "domain": "computational-reproducibility-audit"
+    },
+    {
+      "id": "result:batch1-feverous-claim-verification-followup",
+      "kind": "result",
+      "label": "FEVEROUS Claim-Verification Follow-Up Reproduction",
+      "domain": "claim-verification-benchmark"
+    },
+    {
+      "id": "result:batch1-nab-time-series-anomaly-challenge",
+      "kind": "result",
+      "label": "NAB Time-Series Anomaly Benchmark Challenge",
+      "domain": "time-series-anomaly-benchmark"
+    },
+    {
+      "id": "result:batch1-qasper-source-evidence-extraction-challenge",
+      "kind": "result",
+      "label": "QASPER Source/Evidence Extraction Challenge",
+      "domain": "source-evidence-extraction-benchmark"
+    },
+    {
+      "id": "result:batch1-uci-wine-quality-dataset-audit",
+      "kind": "result",
+      "label": "UCI Wine Quality Public Dataset-Quality Audit",
+      "domain": "public-dataset-quality-audit"
     },
     {
       "id": "result:chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -242,6 +272,31 @@
       "label": "research-strategy"
     },
     {
+      "id": "domain:computational-reproducibility-audit",
+      "kind": "domain",
+      "label": "computational-reproducibility-audit"
+    },
+    {
+      "id": "domain:claim-verification-benchmark",
+      "kind": "domain",
+      "label": "claim-verification-benchmark"
+    },
+    {
+      "id": "domain:time-series-anomaly-benchmark",
+      "kind": "domain",
+      "label": "time-series-anomaly-benchmark"
+    },
+    {
+      "id": "domain:source-evidence-extraction-benchmark",
+      "kind": "domain",
+      "label": "source-evidence-extraction-benchmark"
+    },
+    {
+      "id": "domain:public-dataset-quality-audit",
+      "kind": "domain",
+      "label": "public-dataset-quality-audit"
+    },
+    {
       "id": "domain:chemistry-data-quality",
       "kind": "domain",
       "label": "chemistry-data-quality"
@@ -351,6 +406,31 @@
     {
       "source": "result:autonomous-research-strategy-trial",
       "target": "domain:research-strategy",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch1-evidence-extraction-reproducibility-audit",
+      "target": "domain:computational-reproducibility-audit",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch1-feverous-claim-verification-followup",
+      "target": "domain:claim-verification-benchmark",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch1-nab-time-series-anomaly-challenge",
+      "target": "domain:time-series-anomaly-benchmark",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch1-qasper-source-evidence-extraction-challenge",
+      "target": "domain:source-evidence-extraction-benchmark",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch1-uci-wine-quality-dataset-audit",
+      "target": "domain:public-dataset-quality-audit",
       "relation": "belongs_to_domain"
     },
     {
@@ -684,5 +764,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "3bedb774de14ecc24cb5590b6381f37b71b49ac0b16f083224a48421d1abcadd"
+  "evidenceHash": "28e6261e770666a3ece06eb28983c7f6a8bff627a02eca0935f2ca538d06164c"
 }

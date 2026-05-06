@@ -1,0 +1,59 @@
+{
+  "kind": "external_research_batch_claim_evidence_bindings",
+  "slug": "batch1-nab-time-series-anomaly-challenge",
+  "bindingCount": 6,
+  "bindings": [
+    {
+      "claimId": "batch1-nab-time-series-anomaly-challenge-target",
+      "claimText": "Result is bound to a public external target.",
+      "evidenceRefs": [
+        "SELECTED_EXTERNAL_TARGET.md",
+        "SUMMARY.json"
+      ],
+      "evidenceHash": "e589fb5f89ff9fbb94bdb01b3433322723e0acc7f28aeb6508e327bb3be905e2"
+    },
+    {
+      "claimId": "batch1-nab-time-series-anomaly-challenge-prereg",
+      "claimText": "Metrics and kill criteria were preregistered before result interpretation.",
+      "evidenceRefs": [
+        "PREREGISTRATION.md"
+      ],
+      "evidenceHash": "2ec9d73b94ca0da890c5e9469d2e3ab006571d888cfbb8cb154fde068f07df79"
+    },
+    {
+      "claimId": "batch1-nab-time-series-anomaly-challenge-baseline",
+      "claimText": "Baseline or reference behavior was reproduced or explicitly limited.",
+      "evidenceRefs": [
+        "BASELINE_REPRODUCTION.md"
+      ],
+      "evidenceHash": "2ba391ca9288688d93c7acfd499a60f35c808f63dcb2255042df60870df4af0f"
+    },
+    {
+      "claimId": "batch1-nab-time-series-anomaly-challenge-metrics",
+      "claimText": "Concrete bounded metrics were recorded.",
+      "evidenceRefs": [
+        "RESULTS.md",
+        "METRICS.json"
+      ],
+      "evidenceHash": "983a6fd4f321fc1b367318a45d82183d324773bd184f22052de80ba49a807a4c"
+    },
+    {
+      "claimId": "batch1-nab-time-series-anomaly-challenge-losses",
+      "claimText": "Failures, losses, and rejected ideas are public.",
+      "evidenceRefs": [
+        "FAILURES_AND_LOSSES.md",
+        "NEGATIVE_RESULTS.md"
+      ],
+      "evidenceHash": "a3c084aff9142d3981a331f9a53d75f3529267210a68c2f77197d09810cb937f"
+    },
+    {
+      "claimId": "batch1-nab-time-series-anomaly-challenge-safety",
+      "claimText": "No breakthrough, legal novelty, patentability, or scientific truth guarantee is claimed.",
+      "evidenceRefs": [
+        "LIMITATIONS.md"
+      ],
+      "evidenceHash": "ae2348f18acb0ef966b3db694317c2880e5e623fc5213c3b0f1c638ec55fc547"
+    }
+  ],
+  "evidenceHash": "527c55205b30e715a63c2ff74b34cd6283dafa84fea6e6bfc0813cbcf1009387"
+}

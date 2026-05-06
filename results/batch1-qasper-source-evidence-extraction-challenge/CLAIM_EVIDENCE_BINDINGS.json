@@ -1,0 +1,59 @@
+{
+  "kind": "external_research_batch_claim_evidence_bindings",
+  "slug": "batch1-qasper-source-evidence-extraction-challenge",
+  "bindingCount": 6,
+  "bindings": [
+    {
+      "claimId": "batch1-qasper-source-evidence-extraction-challenge-target",
+      "claimText": "Result is bound to a public external target.",
+      "evidenceRefs": [
+        "SELECTED_EXTERNAL_TARGET.md",
+        "SUMMARY.json"
+      ],
+      "evidenceHash": "bddd019e49c9fb92e5301732952e4a1c0db29db9527beea09257ca07fd0abbec"
+    },
+    {
+      "claimId": "batch1-qasper-source-evidence-extraction-challenge-prereg",
+      "claimText": "Metrics and kill criteria were preregistered before result interpretation.",
+      "evidenceRefs": [
+        "PREREGISTRATION.md"
+      ],
+      "evidenceHash": "30e803356b7e5b31edff5af32bcea1fe490f67b3ef7231ef33d7513904cf126b"
+    },
+    {
+      "claimId": "batch1-qasper-source-evidence-extraction-challenge-baseline",
+      "claimText": "Baseline or reference behavior was reproduced or explicitly limited.",
+      "evidenceRefs": [
+        "BASELINE_REPRODUCTION.md"
+      ],
+      "evidenceHash": "a8dbde8f2ea55afe619e1d3f2d5ad76465ec010af4176e66e8b9bf7102640311"
+    },
+    {
+      "claimId": "batch1-qasper-source-evidence-extraction-challenge-metrics",
+      "claimText": "Concrete bounded metrics were recorded.",
+      "evidenceRefs": [
+        "RESULTS.md",
+        "METRICS.json"
+      ],
+      "evidenceHash": "3a77ba6faac4c438b96d1f849d9a12811c44e04eafc44952a6bb0ad742d7cc3b"
+    },
+    {
+      "claimId": "batch1-qasper-source-evidence-extraction-challenge-losses",
+      "claimText": "Failures, losses, and rejected ideas are public.",
+      "evidenceRefs": [
+        "FAILURES_AND_LOSSES.md",
+        "NEGATIVE_RESULTS.md"
+      ],
+      "evidenceHash": "a2c7cd482bc9a3365774ef2a50171cdfc3fa16394b027103c0423465744bfe16"
+    },
+    {
+      "claimId": "batch1-qasper-source-evidence-extraction-challenge-safety",
+      "claimText": "No breakthrough, legal novelty, patentability, or scientific truth guarantee is claimed.",
+      "evidenceRefs": [
+        "LIMITATIONS.md"
+      ],
+      "evidenceHash": "ae2348f18acb0ef966b3db694317c2880e5e623fc5213c3b0f1c638ec55fc547"
+    }
+  ],
+  "evidenceHash": "2d4f8c62041ac33760398981a92b043bdb900b4b7948764a4fbd45780592c2ea"
+}

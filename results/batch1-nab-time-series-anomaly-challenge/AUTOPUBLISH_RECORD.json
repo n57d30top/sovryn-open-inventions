@@ -1,0 +1,14 @@
+{
+  "resultId": "batch1-nab-time-series-anomaly-challenge",
+  "slug": "batch1-nab-time-series-anomaly-challenge",
+  "publishedBy": "sovryn-existing-corpus-publication-flow",
+  "automatedPolicyVersion": "4.2.0-rc.1-external-research-production-batch-policy",
+  "targetRepo": "https://github.com/n57d30top/sovryn-open-inventions",
+  "targetPath": "results/batch1-nab-time-series-anomaly-challenge",
+  "pushed": true,
+  "dryRun": false,
+  "publicHygienePassed": true,
+  "noCriticalFailures": true,
+  "disclaimer": "Public-safe external research production result. Safe computational science only: public datasets, benchmark metadata, open-source repositories, bounded metric summaries, failures, losses, rejected candidates, limitations, and reproducibility instructions. This is not wet-lab guidance, hazardous chemistry, medical advice, exploit guidance, a patent filing, a patentability opinion, legal novelty advice, freedom-to-operate advice, a confirmed breakthrough claim, or a guarantee of scientific truth.",
+  "evidenceHash": "4138857b157c22dbbdf3de19281b6099d19ec327397bfd62c8ec950b02e00024"
+}

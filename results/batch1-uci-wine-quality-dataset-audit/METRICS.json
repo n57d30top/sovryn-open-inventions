@@ -1,0 +1,43 @@
+{
+  "kind": "external_batch_metrics",
+  "slug": "batch1-uci-wine-quality-dataset-audit",
+  "metrics": [
+    [
+      "rows audited",
+      1599
+    ],
+    [
+      "columns audited",
+      12
+    ],
+    [
+      "missing cells",
+      0
+    ],
+    [
+      "duplicate rows",
+      240
+    ],
+    [
+      "duplicate rate",
+      0.15
+    ],
+    [
+      "majority quality share",
+      0.426
+    ],
+    [
+      "rare extreme-quality rows",
+      81
+    ],
+    [
+      "schema-only issue recall",
+      0.4
+    ],
+    [
+      "schema+distribution issue recall",
+      0.8
+    ]
+  ],
+  "evidenceHash": "056302beb3a16f49661918ca5bba86ebd904ac932bc8acf7522bc558bfc8bcd7"
+}
