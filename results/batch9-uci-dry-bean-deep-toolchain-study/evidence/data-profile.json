@@ -1,0 +1,214 @@
+{
+  "classDistribution": {
+    "BARBUNYA": 1322,
+    "BOMBAY": 522,
+    "CALI": 1630,
+    "DERMASON": 3546,
+    "HOROZ": 1928,
+    "SEKER": 2027,
+    "SIRA": 2636
+  },
+  "columns": 17,
+  "csvSha256": "1330e4ccc5c54a925e43daf60d1409ac62dad2a21de9a25213765bee4b655787",
+  "datasetLoaded": true,
+  "duplicateFeatureRows": 68,
+  "duplicateFullRows": 68,
+  "featureCount": 16,
+  "featureNames": [
+    "Area",
+    "Perimeter",
+    "MajorAxisLength",
+    "MinorAxisLength",
+    "AspectRatio",
+    "Eccentricity",
+    "ConvexArea",
+    "EquivDiameter",
+    "Extent",
+    "Solidity",
+    "Roundness",
+    "Compactness",
+    "ShapeFactor1",
+    "ShapeFactor2",
+    "ShapeFactor3",
+    "ShapeFactor4"
+  ],
+  "headerlessCsvSha256": "84945321d9f542aa624c4a7061d9a1e1a402154008272415460f0908adba962e",
+  "metadata": {
+    "doi": "https://doi.org/10.24432/C50S4B",
+    "name": "Dry Bean",
+    "repositoryUrl": "https://archive.ics.uci.edu/dataset/602/dry"
+  },
+  "missingCells": 0,
+  "packageVersions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "python": "3.14.4",
+    "scikitLearn": "1.8.0",
+    "ucimlrepo": "0.0.7"
+  },
+  "rows": 13611,
+  "suspiciousSentinelValueCounts": {
+    "-1": 0,
+    "0": 0,
+    "999": 0,
+    "9999": 0
+  },
+  "target": "UCI Dry Bean Dataset",
+  "targetColumn": "Class",
+  "uciId": 602,
+  "variables": [
+    {
+      "demographic": null,
+      "description": "The area of a bean zone and the number of pixels within its boundaries",
+      "missing_values": "no",
+      "name": "Area",
+      "role": "Feature",
+      "type": "Integer",
+      "units": "pixels"
+    },
+    {
+      "demographic": null,
+      "description": "Bean circumference is defined as the length of its border.",
+      "missing_values": "no",
+      "name": "Perimeter",
+      "role": "Feature",
+      "type": "Continuous",
+      "units": null
+    },
+    {
+      "demographic": null,
+      "description": "The distance between the ends of the longest line that can be drawn from a bean",
+      "missing_values": "no",
+      "name": "MajorAxisLength",
+      "role": "Feature",
+      "type": "Continuous",
+      "units": null
+    },
+    {
+      "demographic": null,
+      "description": "The longest line that can be drawn from the bean while standing perpendicular to the main axis",
+      "missing_values": "no",
+      "name": "MinorAxisLength",
+      "role": "Feature",
+      "type": "Continuous",
+      "units": null
+    },
+    {
+      "demographic": null,
+      "description": "Defines the relationship between MajorAxisLength and MinorAxisLength",
+      "missing_values": "no",
+      "name": "AspectRatio",
+      "role": "Feature",
+      "type": "Continuous",
+      "units": null
+    },
+    {
+      "demographic": null,
+      "description": "Eccentricity of the ellipse having the same moments as the region",
+      "missing_values": "no",
+      "name": "Eccentricity",
+      "role": "Feature",
+      "type": "Continuous",
+      "units": null
+    },
+    {
+      "demographic": null,
+      "description": "Number of pixels in the smallest convex polygon that can contain the area of a bean seed",
+      "missing_values": "no",
+      "name": "ConvexArea",
+      "role": "Feature",
+      "type": "Integer",
+      "units": null
+    },
+    {
+      "demographic": null,
+      "description": "Equivalent diameter: The diameter of a circle having the same area as a bean seed area",
+      "missing_values": "no",
+      "name": "EquivDiameter",
+      "role": "Feature",
+      "type": "Continuous",
+      "units": null
+    },
+    {
+      "demographic": null,
+      "description": "The ratio of the pixels in the bounding box to the bean area",
+      "missing_values": "no",
+      "name": "Extent",
+      "role": "Feature",
+      "type": "Continuous",
+      "units": null
+    },
+    {
+      "demographic": null,
+      "description": "Also known as convexity. The ratio of the pixels in the convex shell to those found in beans.",
+      "missing_values": "no",
+      "name": "Solidity",
+      "role": "Feature",
+      "type": "Continuous",
+      "units": null
+    },
+    {
+      "demographic": null,
+      "description": "Calculated with the following formula: (4piA)/(P^2)",
+      "missing_values": "no",
+      "name": "Roundness",
+      "role": "Feature",
+      "type": "Continuous",
+      "units": null
+    },
+    {
+      "demographic": null,
+      "description": "Measures the roundness of an object",
+      "missing_values": "no",
+      "name": "Compactness",
+      "role": "Feature",
+      "type": "Continuous",
+      "units": "Ed/L"
+    },
+    {
+      "demographic": null,
+      "description": null,
+      "missing_values": "no",
+      "name": "ShapeFactor1",
+      "role": "Feature",
+      "type": "Continuous",
+      "units": null
+    },
+    {
+      "demographic": null,
+      "description": null,
+      "missing_values": "no",
+      "name": "ShapeFactor2",
+      "role": "Feature",
+      "type": "Continuous",
+      "units": null
+    },
+    {
+      "demographic": null,
+      "description": null,
+      "missing_values": "no",
+      "name": "ShapeFactor3",
+      "role": "Feature",
+      "type": "Continuous",
+      "units": null
+    },
+    {
+      "demographic": null,
+      "description": null,
+      "missing_values": "no",
+      "name": "ShapeFactor4",
+      "role": "Feature",
+      "type": "Continuous",
+      "units": null
+    },
+    {
+      "demographic": null,
+      "description": "(Seker, Barbunya, Bombay, Cali, Dermosan, Horoz and Sira)",
+      "missing_values": "no",
+      "name": "Class",
+      "role": "Target",
+      "type": "Categorical",
+      "units": null
+    }
+  ]
+}

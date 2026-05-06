@@ -1,0 +1,8 @@
+{
+  "findings": [
+    "No official benchmark protocol was reproduced; this is a controlled baseline study.",
+    "The dataset has no official train/test split in this run, so split sensitivity remains a limitation.",
+    "schema_provenance_auditor needed Batch 9 wrapper context to identify the target column and class distribution.",
+    "Any class-weight extension claim is bounded to measured macro-F1 on one split and replay seed."
+  ]
+}

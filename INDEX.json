@@ -1,7 +1,7 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-06T09:57:04.183Z",
-  "resultCount": 70,
+  "updatedAt": "2026-05-06T10:47:08.910Z",
+  "resultCount": 71,
   "results": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -1249,6 +1249,45 @@
       "customTool": null,
       "workerAssurance": "not-recorded",
       "falsificationStatus": "passes_falsification",
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+    },
+    {
+      "slug": "batch9-uci-dry-bean-deep-toolchain-study",
+      "title": "Batch 9 UCI Dry Bean Deep Toolchain Study",
+      "resultKind": "deep_external_toolchain_reproduction_study",
+      "domain": "dataset-and-metric-validation",
+      "path": "results/batch9-uci-dry-bean-deep-toolchain-study",
+      "qualityLabel": "good",
+      "candidateStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch9-uci-dry-bean-deep-toolchain-study",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      },
+      "revisionReason": null,
+      "humanReadableSummary": "Batch 9 is a deep external target study, not a continuity review. Sovryn used the UCI Dry Bean Dataset as one concrete public target and ran the existing Batch 7/8 toolchain on real data.",
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 94,
+      "reproducibilityScore": 93,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 91,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "passes_falsification_with_limitations",
       "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
@@ -2826,5 +2865,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "011f952d6532ef46357782d582e8823191198b4e1f78d72b325c920cf94d687f"
+  "evidenceHash": "15d4569caa8a7f1ad1ef11e6e6a399e7133fb3f88c71cff894dc27721b5eab01"
 }

@@ -1,0 +1,149 @@
+{
+  "actualExecutionPerformed": "Loaded the real UCI Dry Bean dataset with ucimlrepo, wrote curated CSV forms, ran schema_provenance_auditor, ran metric_stress_validator, trained dummy/logistic/random-forest baselines, ran shuffled-label and split/seed stress checks, attempted a class-weight extension, and replayed the toolchain in a network-off container.",
+  "antiTemplateStatus": "review_ready",
+  "baselineResults": {
+    "dummy_most_frequent": {
+      "accuracy": 0.2605288932419197,
+      "macroF1": 0.059052059052059055
+    },
+    "dummy_stratified": {
+      "accuracy": 0.1696865817825661,
+      "macroF1": 0.14025741693060867
+    },
+    "logistic_regression": {
+      "accuracy": 0.9218903036238981,
+      "macroF1": 0.9346530851714174
+    },
+    "random_forest": {
+      "accuracy": 0.9196865817825661,
+      "macroF1": 0.9322342413743672
+    }
+  },
+  "candidateStatus": "autopublished",
+  "datasetShape": {
+    "classes": 7,
+    "columns": 17,
+    "features": 16,
+    "rows": 13611
+  },
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+  "domain": "dataset-and-metric-validation",
+  "evidenceHash": "c1855712d779b6c259f35ee4fb2459bbc9f04c8d92e33a1bde16b9c01cb1500f",
+  "evidenceStrengthScore": 94,
+  "extensionAttempt": {
+    "decision": "reject_no_macro_f1_gain",
+    "extension": "class_weight_balanced_logistic_regression",
+    "macroF1Delta": -0.003783519682186265
+  },
+  "falsificationStatus": "passes_falsification_with_limitations",
+  "hardQuestionAnswer": "Yes, Sovryn used its self-built schema/provenance and metric-stress tools on one external scientific target. The tools revealed 68 duplicate full/feature rows, no missing/sentinel values, low shuffled-label control performance, stable but not official split-family replay, and that a class-weight extension did not improve macro-F1 on the primary split.",
+  "installProvisioningPerformed": {
+    "containerNetwork": "none",
+    "containerPackages": {
+      "pandas": "2.3.3",
+      "python": "3.10.20",
+      "scikitLearn": "1.7.2"
+    },
+    "hostVenvPackages": {
+      "numpy": "2.4.4",
+      "pandas": "3.0.2",
+      "python": "3.14.4",
+      "scikitLearn": "1.8.0",
+      "ucimlrepo": "0.0.7"
+    }
+  },
+  "lifecycleStatus": "autopublished",
+  "metricStressFindings": {
+    "accuracyCouldHideClassFailure": false,
+    "logisticSeedMacroF1Range": [
+      0.9346045820586524,
+      0.9382298792731316
+    ],
+    "shuffledLabelAccuracy": 0.2605288932419197,
+    "shuffledLabelMacroF1": 0.06231087965902514,
+    "simpleBaselineExplainsResult": false
+  },
+  "negativeOrPartial": true,
+  "negativeOrPartialFindings": [
+    "No official benchmark protocol was reproduced; this is a controlled baseline study.",
+    "The dataset has no official train/test split in this run, so split sensitivity remains a limitation.",
+    "schema_provenance_auditor needed Batch 9 wrapper context to identify the target column and class distribution.",
+    "Any class-weight extension claim is bounded to measured macro-F1 on one split and replay seed."
+  ],
+  "nextResearchDirection": "Run the next deep target on another multiclass tabular dataset with an official or paper-defined split if available, then compare duplicate-aware and class-risk reporting across datasets.",
+  "optionalToolNotUsed": {
+    "pytest_repro_summary": "Dataset target only; no repository test evidence involved."
+  },
+  "publicHygienePassed": true,
+  "publicationSafetyScore": 98,
+  "qualityLabel": "good",
+  "rejectedAlternatives": [
+    "UCI Rice Cammeo/Osmancik: useful fallback but binary and less demanding for multiclass metric stress.",
+    "UCI Breast Cancer Wisconsin Diagnostic: measurable and public, but not selected because Dry Bean is the safer agricultural tabular target.",
+    "UCI Optical Recognition of Handwritten Digits: strong benchmark but less aligned with Batch 8.5 dataset/provenance direction for tabular agricultural data."
+  ],
+  "releaseReadinessScore": 92,
+  "reliabilityReplayPassed": true,
+  "replayCriticalPassRate": 100,
+  "replayResult": {
+    "containerNetoffReplay": {
+      "accuracy": 0.9221351616062684,
+      "macroF1": 0.9338229654838324
+    },
+    "freshSeedReplay": {
+      "logisticMacroF1DeltaReplayMinusPrimary": 0.003576794101714187,
+      "randomForestMacroF1DeltaReplayMinusPrimary": 0.003894654367305961
+    },
+    "toolsReplayedInContainer": {
+      "metric_stress_validator": true,
+      "schema_provenance_auditor": true
+    }
+  },
+  "reproducibilityScore": 93,
+  "resultKind": "deep_external_toolchain_reproduction_study",
+  "safetyScanPassed": true,
+  "schemaProvenanceFindings": {
+    "classDistribution": {
+      "BARBUNYA": 1322,
+      "BOMBAY": 522,
+      "CALI": 1630,
+      "DERMASON": 3546,
+      "HOROZ": 1928,
+      "SEKER": 2027,
+      "SIRA": 2636
+    },
+    "columns": 17,
+    "duplicateFeatureRows": 68,
+    "duplicateFullRows": 68,
+    "featureCount": 16,
+    "missingCells": 0,
+    "rows": 13611,
+    "schemaMatch": true,
+    "suspiciousSentinelValueCounts": {
+      "-1": 0,
+      "0": 0,
+      "999": 0,
+      "9999": 0
+    },
+    "targetColumn": "Class"
+  },
+  "slug": "batch9-uci-dry-bean-deep-toolchain-study",
+  "sourceUrls": [
+    "https://archive.ics.uci.edu/dataset/602/dry+bean+dataset",
+    "https://doi.org/10.24432/C50S4B",
+    "https://github.com/uci-ml-repo/ucimlrepo",
+    "https://pandas.pydata.org/",
+    "https://scikit-learn.org/"
+  ],
+  "specificityScore": 91,
+  "target": "UCI Dry Bean Dataset",
+  "targetChosen": "UCI Dry Bean Dataset",
+  "title": "Batch 9 UCI Dry Bean Deep Toolchain Study",
+  "toolsUsed": [
+    "schema_provenance_auditor",
+    "metric_stress_validator"
+  ],
+  "versionGroup": "batch9-uci-dry-bean-deep-toolchain-study",
+  "whatSovrynLearned": "The self-built toolchain adds value beyond normal sklearn execution by forcing duplicate/provenance evidence, shuffled-label controls, seed/split stress, and a measured rejection of a class-weight extension instead of accepting a headline benchmark score.",
+  "workerAssurance": "host_venv_plus_container_netoff_replay"
+}

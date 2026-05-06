@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T09:57:04.183Z",
+  "generatedAt": "2026-05-06T10:47:08.910Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -193,6 +193,12 @@
       "kind": "result",
       "label": "Batch 8 Tool Reuse and Failure Benchmark",
       "domain": "autonomous-research-production-continuity"
+    },
+    {
+      "id": "result:batch9-uci-dry-bean-deep-toolchain-study",
+      "kind": "result",
+      "label": "Batch 9 UCI Dry Bean Deep Toolchain Study",
+      "domain": "dataset-and-metric-validation"
     },
     {
       "id": "result:chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -538,6 +544,11 @@
       "label": "dataset-schema-provenance-auditing"
     },
     {
+      "id": "domain:dataset-and-metric-validation",
+      "kind": "domain",
+      "label": "dataset-and-metric-validation"
+    },
+    {
       "id": "domain:chemistry-data-quality",
       "kind": "domain",
       "label": "chemistry-data-quality"
@@ -613,14 +624,14 @@
       "label": "pandas"
     },
     {
-      "id": "tool:pint",
-      "kind": "tool",
-      "label": "pint"
-    },
-    {
       "id": "tool:numpy",
       "kind": "tool",
       "label": "numpy"
+    },
+    {
+      "id": "tool:pint",
+      "kind": "tool",
+      "label": "pint"
     },
     {
       "id": "tool:python-dateutil",
@@ -826,6 +837,21 @@
     },
     {
       "source": "result:batch8-tool-reuse-failure-benchmark",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch9-uci-dry-bean-deep-toolchain-study",
+      "target": "domain:dataset-and-metric-validation",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch9-uci-dry-bean-deep-toolchain-study",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch9-uci-dry-bean-deep-toolchain-study",
       "target": "tool:pandas",
       "relation": "uses_public_tool_evidence"
     },
@@ -1160,5 +1186,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "83abb7dfe6a141d38d9c4a713eeffb4514fdb3eb72221bd818bccb8fd327f427"
+  "evidenceHash": "3a44ee035f6f7c14fd2f5a368f42951fa08fd4975eaa33e6904ebfcb8c4c5503"
 }

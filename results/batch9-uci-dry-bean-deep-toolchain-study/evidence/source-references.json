@@ -1,0 +1,60 @@
+{
+  "createdAt": "2026-05-06T10:46:10Z",
+  "slug": "batch9-uci-dry-bean-deep-toolchain-study",
+  "sources": [
+    {
+      "id": "uci-dry-bean-dataset",
+      "kind": "dataset",
+      "role": "primary dataset source",
+      "url": "https://archive.ics.uci.edu/dataset/602/dry+bean+dataset"
+    },
+    {
+      "id": "uci-dry-bean-doi",
+      "kind": "dataset-doi",
+      "role": "dataset citation and documentation anchor",
+      "url": "https://doi.org/10.24432/C50S4B"
+    },
+    {
+      "id": "ucimlrepo",
+      "kind": "package",
+      "role": "dataset loading package",
+      "url": "https://github.com/uci-ml-repo/ucimlrepo"
+    },
+    {
+      "id": "pandas",
+      "kind": "package",
+      "role": "data loading and schema checks",
+      "url": "https://pandas.pydata.org/"
+    },
+    {
+      "id": "scikit-learn",
+      "kind": "package",
+      "role": "baseline, metric, and stress-test models",
+      "url": "https://scikit-learn.org/"
+    },
+    {
+      "id": "batch7-schema-tool",
+      "kind": "prior-result",
+      "role": "source of schema_provenance_auditor",
+      "slug": "batch7-wine-quality-schema-provenance-tool"
+    },
+    {
+      "id": "batch7-metric-tool",
+      "kind": "prior-result",
+      "role": "source of metric_stress_validator",
+      "slug": "batch7-banknote-metric-stress-validator"
+    },
+    {
+      "id": "batch8-tool-reuse",
+      "kind": "prior-result",
+      "role": "tool decision context",
+      "slug": "batch8-tool-reuse-failure-benchmark"
+    },
+    {
+      "id": "batch8-5-program-continuity",
+      "kind": "prior-result",
+      "role": "direction-selection context only, not Batch 9 completion",
+      "slug": "autonomous-research-program-continuity-batches5-8"
+    }
+  ]
+}

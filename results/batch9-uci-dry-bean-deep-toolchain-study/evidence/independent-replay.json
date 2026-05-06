@@ -1,0 +1,18 @@
+{
+  "claim": "Replay supports metric stability within this random split family, but it is not an official reproduction protocol.",
+  "divergence": {
+    "logisticMacroF1DeltaReplayMinusPrimary": 0.003576794101714187,
+    "randomForestMacroF1DeltaReplayMinusPrimary": 0.003894654367305961
+  },
+  "primary": {
+    "logisticMacroF1": 0.9346530851714174,
+    "randomForestMacroF1": 0.9322342413743672
+  },
+  "primarySeed": 42,
+  "replay": {
+    "logisticMacroF1": 0.9382298792731316,
+    "randomForestMacroF1": 0.9361288957416731
+  },
+  "replaySeed": 2026,
+  "replayType": "fresh_seed_and_split_replay"
+}

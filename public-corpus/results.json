@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_results",
-  "generatedAt": "2026-05-06T09:57:04.183Z",
+  "generatedAt": "2026-05-06T10:47:08.910Z",
   "results": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -2393,6 +2393,84 @@
         "falsification": "passes_falsification",
         "lifecycle": "autopublished",
         "version": "batch8-tool-reuse-failure-benchmark",
+        "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      }
+    },
+    {
+      "slug": "batch9-uci-dry-bean-deep-toolchain-study",
+      "title": "Batch 9 UCI Dry Bean Deep Toolchain Study",
+      "domain": "dataset-and-metric-validation",
+      "resultKind": "deep_external_toolchain_reproduction_study",
+      "path": "results/batch9-uci-dry-bean-deep-toolchain-study",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch9-uci-dry-bean-deep-toolchain-study",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": null,
+      "humanReadableSummary": "Batch 9 is a deep external target study, not a continuity review. Sovryn used the UCI Dry Bean Dataset as one concrete public target and ran the existing Batch 7/8 toolchain on real data.",
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 94,
+      "reproducibilityScore": 93,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 91,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": false,
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "passes_falsification_with_limitations",
+      "scientificQuestion": null,
+      "hypothesisCount": 0,
+      "nullHypothesisPresent": false,
+      "experimentCount": 0,
+      "replicationRunCount": 0,
+      "peerReviewPresent": false,
+      "statisticalAnalysisPresent": false,
+      "baselineComparisonPresent": false,
+      "ablationPresent": false,
+      "sensitivityPresent": false,
+      "studyResultLabel": null,
+      "scientificMemoryUpdated": false,
+      "safetyScope": null,
+      "summary": "Batch 9 is a deep external target study, not a continuity review. Sovryn used the UCI Dry Bean Dataset as one concrete public target and ran the existing Batch 7/8 toolchain on real data.",
+      "limitations": [
+        "This is a controlled baseline execution, not a full benchmark reproduction. No official train/test split or exact published protocol was reproduced.",
+        "Decision: promote for single-table tabular benchmark screening, but keep the target-context limitation.",
+        "Not used. The target is a dataset, not a repository test target.",
+        "`schema_provenance_auditor` moves from `narrow_but_useful` to `reusable_for_single_table_tabular_benchmark_screening`, with the limitation that it still needs target-specific context.",
+        "The extension is rejected as a general improvement claim because macro-F1 decreased on the primary split. The useful part is not an improved score; it is the class-risk reporting that prevents a fake improvement claim.",
+        "Limitations"
+      ],
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification_with_limitations",
+        "lifecycle": "autopublished",
+        "version": "batch9-uci-dry-bean-deep-toolchain-study",
         "showcase": "not-showcase"
       },
       "showcaseDocumentation": {
@@ -5294,5 +5372,5 @@
       }
     }
   ],
-  "evidenceHash": "efdd22ddec18c5800ed7f798fa69a176b57433b9eda3758a4f850e6b6708abae"
+  "evidenceHash": "cca4835554b21f20306c16adf6d80b5c5fcb3bc2e5e449d2153c410a1e760832"
 }

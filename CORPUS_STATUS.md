@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 70
+Results: 71
 
 ## Lifecycle Counts
 
-- autopublished: 39
+- autopublished: 40
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -44,6 +44,7 @@ Results: 70
 - batch7-pluggy-pytest-repro-summary-tool: latest batch7-pluggy-pytest-repro-summary-tool; batch7-pluggy-pytest-repro-summary-tool
 - batch7-wine-quality-schema-provenance-tool: latest batch7-wine-quality-schema-provenance-tool; batch7-wine-quality-schema-provenance-tool
 - batch8-tool-reuse-failure-benchmark: latest batch8-tool-reuse-failure-benchmark; batch8-tool-reuse-failure-benchmark
+- batch9-uci-dry-bean-deep-toolchain-study: latest batch9-uci-dry-bean-deep-toolchain-study; batch9-uci-dry-bean-deep-toolchain-study
 - chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an: latest chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl; chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl
 - chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconf: latest chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-; chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-
 - chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-o: latest chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco; chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco

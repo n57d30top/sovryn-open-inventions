@@ -174,6 +174,14 @@
       "customTool": null
     },
     {
+      "slug": "batch9-uci-dry-bean-deep-toolchain-study",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "externalPackages": [],
       "customTool": "mol-record-auditor"
@@ -410,5 +418,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "276638a054b80de55b4e54ad5643cc5a2e45d93bca684622e9937f91a9309b90"
+  "evidenceHash": "e88ffa9f26300e713fac432ba924a40c22f405148aba7bd6f4e96a05b2208082"
 }

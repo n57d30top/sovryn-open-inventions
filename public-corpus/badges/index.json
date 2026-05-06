@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T09:57:04.183Z",
+  "generatedAt": "2026-05-06T10:47:08.910Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -573,6 +573,24 @@
         "falsification": "passes_falsification",
         "lifecycle": "autopublished",
         "version": "batch8-tool-reuse-failure-benchmark",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch9-uci-dry-bean-deep-toolchain-study",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification_with_limitations",
+        "lifecycle": "autopublished",
+        "version": "batch9-uci-dry-bean-deep-toolchain-study",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -1263,5 +1281,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "bc8cddf425628486b01f8d360ae9a521c5a41b5f918f6516d7c16c7729feac28"
+  "evidenceHash": "8ee5d30e15edcc29e254b23b537a4d6c3a7a4154e5802fa5c442f527776152cd"
 }

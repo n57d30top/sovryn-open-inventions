@@ -1,0 +1,21 @@
+{
+  "claim": "The container replay used preloaded public data and disabled networking; it supports replayability of the local toolchain but not official benchmark reproduction.",
+  "datasetColumns": 17,
+  "datasetRows": 13611,
+  "logisticRegression": {
+    "accuracy": 0.9221351616062684,
+    "macroF1": 0.9338229654838324
+  },
+  "network": "none",
+  "packageVersions": {
+    "pandas": "2.3.3",
+    "python": "3.10.20",
+    "scikitLearn": "1.7.2"
+  },
+  "replayType": "container_netoff",
+  "seed": 909,
+  "toolsReplayed": {
+    "metric_stress_validator": true,
+    "schema_provenance_auditor": true
+  }
+}

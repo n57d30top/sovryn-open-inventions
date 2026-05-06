@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-06T09:57:04.183Z",
-  "entryCount": 70,
+  "builtAt": "2026-05-06T10:47:08.910Z",
+  "entryCount": 71,
   "entries": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -1323,6 +1323,49 @@
         "three",
         "tool",
         "tools"
+      ]
+    },
+    {
+      "slug": "batch9-uci-dry-bean-deep-toolchain-study",
+      "title": "Batch 9 UCI Dry Bean Deep Toolchain Study",
+      "domain": "dataset-and-metric-validation",
+      "href": "results/batch9-uci-dry-bean-deep-toolchain-study.html",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch9-uci-dry-bean-deep-toolchain-study",
+      "showcaseRank": null,
+      "terms": [
+        "and",
+        "autopublished",
+        "batch",
+        "batch9",
+        "bean",
+        "concrete",
+        "continuity",
+        "data",
+        "dataset",
+        "deep",
+        "dry",
+        "existing",
+        "external",
+        "metric",
+        "not",
+        "numpy",
+        "one",
+        "pandas",
+        "public",
+        "ran",
+        "real",
+        "review",
+        "sovryn",
+        "study",
+        "target",
+        "the",
+        "toolchain",
+        "uci",
+        "used",
+        "validation"
       ]
     },
     {
@@ -2859,5 +2902,5 @@
       ]
     }
   ],
-  "evidenceHash": "ff1647b470e8d6307a88e64108914cd4eabe33ca496091066b7e5748cdb2b5de"
+  "evidenceHash": "b4b7eccbb34692d7af3941964ae19d6b79d01754ba596160fc96c05db12eac2f"
 }

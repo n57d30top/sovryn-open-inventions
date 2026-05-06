@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-06T09:57:04.183Z",
+  "generatedAt": "2026-05-06T10:47:08.910Z",
   "sources": [
     {
       "resultSlug": "batch3-rapidfuzz-repo-install-example-reproduction",
@@ -34,6 +34,18 @@
     },
     {
       "resultSlug": "batch8-tool-reuse-failure-benchmark",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch9-uci-dry-bean-deep-toolchain-study",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch9-uci-dry-bean-deep-toolchain-study",
       "sourceKind": "external_package_or_tool",
       "name": "pandas",
       "publicOnly": true
@@ -207,5 +219,5 @@
       "publicOnly": true
     }
   ],
-  "evidenceHash": "276638a054b80de55b4e54ad5643cc5a2e45d93bca684622e9937f91a9309b90"
+  "evidenceHash": "e88ffa9f26300e713fac432ba924a40c22f405148aba7bd6f4e96a05b2208082"
 }

@@ -1,0 +1,21 @@
+{
+  "hardQuestionAnswer": "The self-built toolchain revealed duplicate-feature and provenance limitations, made shuffled-label and split-stability controls first-class evidence, and showed that class-balanced logistic regression is a measured extension rather than an unqualified benchmark win.",
+  "toolsUsed": {
+    "metric_stress_validator": {
+      "batch8Status": "reusable",
+      "batch9Decision": "keep_reusable",
+      "source": "Batch 7 research tool",
+      "used": true
+    },
+    "pytest_repro_summary": {
+      "reason": "The primary target is a dataset, not a repository test target.",
+      "used": false
+    },
+    "schema_provenance_auditor": {
+      "batch8Status": "narrow_but_useful",
+      "batch9Decision": "promote_for_single_table_tabular_benchmark_screening",
+      "source": "Batch 7 research tool",
+      "used": true
+    }
+  }
+}

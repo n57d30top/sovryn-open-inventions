@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T09:57:04.183Z",
+  "updatedAt": "2026-05-06T10:47:08.910Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -227,6 +227,13 @@
       ]
     },
     {
+      "versionGroup": "batch9-uci-dry-bean-deep-toolchain-study",
+      "latestSlug": "batch9-uci-dry-bean-deep-toolchain-study",
+      "resultSlugs": [
+        "batch9-uci-dry-bean-deep-toolchain-study"
+      ]
+    },
+    {
       "versionGroup": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an",
       "latestSlug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "resultSlugs": [
@@ -409,5 +416,5 @@
       ]
     }
   ],
-  "evidenceHash": "5e389dd8c23d45b081dbbf4326320c29a7ffa4c3abdfd1c9c84963dda030fc2f"
+  "evidenceHash": "c3acd57cc617309df70d990b7b8bac95c6652e24a76f166c46f6600bd9616185"
 }

@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 59,
+    "good": 60,
     "reviewable": 6
   },
   "results": [
@@ -165,6 +165,11 @@
       "slug": "batch8-tool-reuse-failure-benchmark",
       "qualityLabel": "good",
       "releaseReadinessScore": 90
+    },
+    {
+      "slug": "batch9-uci-dry-bean-deep-toolchain-study",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 92
     },
     {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -357,5 +362,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "d7324e84bc1c98a5fdcd0bae456935a82d322f68917bc5a99b80f48c93578ac4"
+  "evidenceHash": "a4a72c5f8ee3d29e0c879dd0e2beb0df80caf5f335becd194dcf9478d0937acb"
 }

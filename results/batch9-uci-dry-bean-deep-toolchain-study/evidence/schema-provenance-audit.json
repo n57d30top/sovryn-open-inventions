@@ -1,0 +1,41 @@
+{
+  "manualBaselineComparison": {
+    "addedByTool": "hash-bound per-file schema/provenance card and explicit duplicate/missing gates",
+    "manualSchemaOnlyCheck": "pandas shape, column list, null count, duplicate count, and class value counts"
+  },
+  "rawToolFindingHash": "764f7faab76b080f6f0cf63aec870a79b158ab7965596bb959def66d67538336",
+  "statusAfterBatch9": "reusable_for_single_table_tabular_benchmark_screening",
+  "statusBeforeBatch9": "narrow_but_useful",
+  "tool": "schema_provenance_auditor",
+  "toolSource": "batch7-wine-quality-schema-provenance-tool",
+  "whatItFound": {
+    "classDistribution": {
+      "BARBUNYA": 1322,
+      "BOMBAY": 522,
+      "CALI": 1630,
+      "DERMASON": 3546,
+      "HOROZ": 1928,
+      "SEKER": 2027,
+      "SIRA": 2636
+    },
+    "columns": 17,
+    "duplicateFeatureRows": 68,
+    "duplicateFullRows": 68,
+    "featureCount": 16,
+    "missingCells": 0,
+    "rows": 13611,
+    "schemaMatch": true,
+    "suspiciousSentinelValueCounts": {
+      "-1": 0,
+      "0": 0,
+      "999": 0,
+      "9999": 0
+    },
+    "targetColumn": "Class"
+  },
+  "whatItMissed": [
+    "It did not know the target column semantics without the Batch 9 wrapper adding UCI metadata.",
+    "It did not detect train/test leakage because UCI publishes one table without an official split.",
+    "It cannot decide whether duplicate feature vectors would be legitimate without row-level provenance."
+  ]
+}

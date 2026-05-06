@@ -1,0 +1,464 @@
+{
+  "interpretation": [
+    "The majority dummy baseline is far below linear and tree baselines, so a simple majority rule does not explain the result.",
+    "The shuffled-label control remains far below the real-label challenger, which reduces but does not eliminate leakage concern.",
+    "Accuracy and macro-F1 are close for the stronger baselines, so headline accuracy is not hiding a large macro-F1 collapse."
+  ],
+  "rawToolFindingHash": "e38d8512a82bcb0bef346e8c92e935ed297cd5eb0fc24adc53cf5b83970333d4",
+  "rawToolSummary": {
+    "flags": {
+      "accuracyCouldHideClassFailure": false,
+      "challengerBeatsMajorityBalancedAccuracy": true,
+      "shuffledControlSuspicious": false
+    },
+    "logisticChallenger": {
+      "accuracy": 0.9218903036238981,
+      "balancedAccuracy": 0.9337848941248378,
+      "confusionMatrix": [
+        [
+          358,
+          0,
+          20,
+          0,
+          2,
+          8,
+          9
+        ],
+        [
+          0,
+          157,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          14,
+          0,
+          461,
+          0,
+          8,
+          2,
+          4
+        ],
+        [
+          0,
+          0,
+          0,
+          962,
+          0,
+          21,
+          81
+        ],
+        [
+          2,
+          0,
+          7,
+          6,
+          555,
+          0,
+          8
+        ],
+        [
+          2,
+          0,
+          0,
+          8,
+          0,
+          577,
+          21
+        ],
+        [
+          0,
+          0,
+          3,
+          65,
+          14,
+          14,
+          695
+        ]
+      ],
+      "f1Macro": 0.9346530851714174
+    },
+    "majorityBaseline": {
+      "accuracy": 0.2605288932419197,
+      "balancedAccuracy": 0.14285714285714285,
+      "confusionMatrix": [
+        [
+          0,
+          0,
+          0,
+          397,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          157,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          489,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1064,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          578,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          608,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          791,
+          0,
+          0,
+          0
+        ]
+      ],
+      "f1Macro": 0.059052059052059055
+    },
+    "shuffledLabelControl": {
+      "accuracy": 0.2605288932419197,
+      "balancedAccuracy": 0.14348572246235958,
+      "confusionMatrix": [
+        [
+          0,
+          0,
+          0,
+          377,
+          0,
+          0,
+          20
+        ],
+        [
+          0,
+          0,
+          0,
+          131,
+          0,
+          0,
+          26
+        ],
+        [
+          0,
+          0,
+          0,
+          488,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1058,
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          572,
+          2,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          0,
+          603,
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          791,
+          0,
+          0,
+          0
+        ]
+      ],
+      "f1Macro": 0.06231087965902514
+    }
+  },
+  "requiredChecks": {
+    "macroF1VsAccuracy": {
+      "dummy_most_frequent": {
+        "accuracy": 0.2605288932419197,
+        "accuracyMinusMacroF1": 0.20147683418986062,
+        "macroF1": 0.059052059052059055
+      },
+      "dummy_stratified": {
+        "accuracy": 0.1696865817825661,
+        "accuracyMinusMacroF1": 0.02942916485195743,
+        "macroF1": 0.14025741693060867
+      },
+      "logistic_regression": {
+        "accuracy": 0.9218903036238981,
+        "accuracyMinusMacroF1": -0.012762781547519308,
+        "macroF1": 0.9346530851714174
+      },
+      "random_forest": {
+        "accuracy": 0.9196865817825661,
+        "accuracyMinusMacroF1": -0.012547659591801041,
+        "macroF1": 0.9322342413743672
+      }
+    },
+    "perClassErrorAnalysis": {
+      "confusionMatrix": [
+        [
+          358,
+          0,
+          20,
+          0,
+          2,
+          8,
+          9
+        ],
+        [
+          0,
+          157,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          14,
+          0,
+          461,
+          0,
+          8,
+          2,
+          4
+        ],
+        [
+          0,
+          0,
+          0,
+          962,
+          0,
+          21,
+          81
+        ],
+        [
+          2,
+          0,
+          7,
+          6,
+          555,
+          0,
+          8
+        ],
+        [
+          2,
+          0,
+          0,
+          8,
+          0,
+          577,
+          21
+        ],
+        [
+          0,
+          0,
+          3,
+          65,
+          14,
+          14,
+          695
+        ]
+      ],
+      "confusionMatrixLabelOrder": [
+        "BARBUNYA",
+        "BOMBAY",
+        "CALI",
+        "DERMASON",
+        "HOROZ",
+        "SEKER",
+        "SIRA"
+      ],
+      "perClassF1": {
+        "BARBUNYA": 0.926261319534282,
+        "BOMBAY": 1.0,
+        "CALI": 0.9408163265306122,
+        "DERMASON": 0.9140142517814727,
+        "HOROZ": 0.9593777009507347,
+        "SEKER": 0.9382113821138212,
+        "SIRA": 0.8638906152889994
+      }
+    },
+    "randomSeedVariation": [
+      {
+        "logisticAccuracy": 0.9240940254652301,
+        "logisticMacroF1": 0.9361525630722912,
+        "randomForestAccuracy": 0.9233594515181195,
+        "randomForestMacroF1": 0.9343134699836414,
+        "seed": 7
+      },
+      {
+        "logisticAccuracy": 0.9218903036238981,
+        "logisticMacroF1": 0.9346530851714174,
+        "randomForestAccuracy": 0.9196865817825661,
+        "randomForestMacroF1": 0.9322342413743672,
+        "seed": 42
+      },
+      {
+        "logisticAccuracy": 0.92384916748286,
+        "logisticMacroF1": 0.937272706859852,
+        "randomForestAccuracy": 0.9255631733594515,
+        "randomForestMacroF1": 0.9370219343171209,
+        "seed": 99
+      },
+      {
+        "logisticAccuracy": 0.9223800195886386,
+        "logisticMacroF1": 0.9346045820586524,
+        "randomForestAccuracy": 0.9191968658178257,
+        "randomForestMacroF1": 0.9306189559414728,
+        "seed": 123
+      },
+      {
+        "logisticAccuracy": 0.9285014691478942,
+        "logisticMacroF1": 0.9382298792731316,
+        "randomForestAccuracy": 0.9260528893241919,
+        "randomForestMacroF1": 0.9361288957416731,
+        "seed": 2026
+      }
+    ],
+    "shuffledLabelControl": {
+      "accuracy": 0.2605288932419197,
+      "confusionMatrix": [
+        [
+          0,
+          0,
+          0,
+          377,
+          0,
+          0,
+          20
+        ],
+        [
+          0,
+          0,
+          0,
+          131,
+          0,
+          0,
+          26
+        ],
+        [
+          0,
+          0,
+          0,
+          488,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1058,
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          572,
+          2,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          0,
+          603,
+          0,
+          4,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          791,
+          0,
+          0,
+          0
+        ]
+      ],
+      "macroF1": 0.06231087965902514,
+      "perClassF1": {
+        "BARBUNYA": 0.0,
+        "BOMBAY": 0.0,
+        "CALI": 0.0,
+        "DERMASON": 0.4162077104642014,
+        "HOROZ": 0.006896551724137931,
+        "SEKER": 0.013071895424836602,
+        "SIRA": 0.0
+      }
+    },
+    "simpleBaselineExplainsResult": false,
+    "stratifiedVsNonStratified": {
+      "nonStratifiedSeed42": {
+        "logisticMacroF1": 0.9344860414845739,
+        "randomForestMacroF1": 0.9328331371360744
+      },
+      "stratifiedSeed42": {
+        "logisticMacroF1": 0.9346530851714174,
+        "randomForestMacroF1": 0.9322342413743672
+      }
+    }
+  },
+  "statusAfterBatch9": "reusable_for_tabular_classification_metric_stress",
+  "statusBeforeBatch9": "reusable",
+  "tool": "metric_stress_validator",
+  "toolSource": "batch7-banknote-metric-stress-validator"
+}
