@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "batch50-surprise-prediction-tournament",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "specific_public_evidence",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "container-netoff",
+    "falsification": "passes_falsification",
+    "lifecycle": "autopublished",
+    "version": "batch50-surprise-prediction-tournament",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "4c6d9224b6db5d2d980d1aa51ba2c64fb182f6d0554a11b5987b6662244b785c"
+}

@@ -1,0 +1,12 @@
+{
+  "predictionId": "X06",
+  "principleId": "P01",
+  "domain": "time-series",
+  "target": "Daily temperature",
+  "prediction": "temporal field should change claim-safety versus random split",
+  "expectedOutcome": "success",
+  "falsifier": "Transfer fails if claim-safety does not depend on required fields or if replay alone resolves missing-field claims.",
+  "frozenTimestamp": "2026-05-06T17:50:00Z",
+  "noEditRule": "Frozen before transfer execution.",
+  "preregistrationHash": "3f1975254e3378193c5c4768a314ef3be39379ca3929256a76a3825717f1bbed"
+}

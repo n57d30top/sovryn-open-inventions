@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 98,
+    "good": 104,
     "reviewable": 6
   },
   "results": [
@@ -302,6 +302,21 @@
       "releaseReadinessScore": 91
     },
     {
+      "slug": "batch47-anomaly-and-assumption-mining",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch48-rival-principle-generation",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch49-discriminating-experiment-design",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
       "slug": "batch5-itsdangerous-repo-install-test-reproduction",
       "qualityLabel": "good",
       "releaseReadinessScore": 92
@@ -315,6 +330,21 @@
       "slug": "batch5-uci-letter-recognition-baseline-challenge",
       "qualityLabel": "good",
       "releaseReadinessScore": 93
+    },
+    {
+      "slug": "batch50-surprise-prediction-tournament",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch51-cross-domain-principle-test",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch52-conceptual-discovery-paper",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
     },
     {
       "slug": "batch6-diamonds-data-quality-netoff-ladder",
@@ -552,5 +582,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "1a1e46b53fa2d232154ce16fc85a2f07bb686f0c68c0af42001b243a221d6d6d"
+  "evidenceHash": "b673ed978b79c614b6db5cae80af9804396eb12df94179bff8b69c0efff0de5d"
 }

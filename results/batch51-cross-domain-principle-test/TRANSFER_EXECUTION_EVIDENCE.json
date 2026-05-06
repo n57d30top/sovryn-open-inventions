@@ -1,0 +1,63 @@
+{
+  "kind": "cross_domain_principle_transfer_evidence",
+  "executed": [
+    {
+      "predictionId": "X01",
+      "domain": "benchmark/protocol",
+      "target": "HAR",
+      "observedOutcome": "success",
+      "note": "Executed or evidence-checked using Batch 50 public evidence and package/runtime checks."
+    },
+    {
+      "predictionId": "X02",
+      "domain": "benchmark/protocol",
+      "target": "Vehicle",
+      "observedOutcome": "success",
+      "note": "Executed or evidence-checked using Batch 50 public evidence and package/runtime checks."
+    },
+    {
+      "predictionId": "X03",
+      "domain": "dataset reliability",
+      "target": "Wine",
+      "observedOutcome": "success",
+      "note": "Executed or evidence-checked using Batch 50 public evidence and package/runtime checks."
+    },
+    {
+      "predictionId": "X04",
+      "domain": "package install/test",
+      "target": "itsdangerous",
+      "observedOutcome": "partial",
+      "note": "Executed or evidence-checked using Batch 50 public evidence and package/runtime checks."
+    },
+    {
+      "predictionId": "X05",
+      "domain": "package install/test",
+      "target": "markupsafe",
+      "observedOutcome": "partial",
+      "note": "Executed or evidence-checked using Batch 50 public evidence and package/runtime checks."
+    },
+    {
+      "predictionId": "X06",
+      "domain": "time-series",
+      "target": "Daily temperature",
+      "observedOutcome": "success",
+      "note": "Executed or evidence-checked using Batch 50 public evidence and package/runtime checks."
+    },
+    {
+      "predictionId": "X07",
+      "domain": "repo/test reproduction",
+      "target": "package import fixture",
+      "observedOutcome": "partial",
+      "note": "Executed or evidence-checked using Batch 50 public evidence and package/runtime checks."
+    },
+    {
+      "predictionId": "X08",
+      "domain": "dataset reliability",
+      "target": "Letter",
+      "observedOutcome": "success",
+      "note": "Executed or evidence-checked using Batch 50 public evidence and package/runtime checks."
+    }
+  ],
+  "frozenPredictionCount": 10,
+  "hash": "6ee22385e4788d0929ed31f659576e89d3de00aaead01a71cae2375edafc88eb"
+}

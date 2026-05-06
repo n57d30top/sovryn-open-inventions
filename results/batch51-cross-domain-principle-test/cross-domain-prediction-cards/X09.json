@@ -1,0 +1,12 @@
+{
+  "predictionId": "X09",
+  "principleId": "P01",
+  "domain": "source/evidence extraction",
+  "target": "metadata-only source",
+  "prediction": "principle should not transfer without execution fields",
+  "expectedOutcome": "not_applicable",
+  "falsifier": "Transfer fails if claim-safety does not depend on required fields or if replay alone resolves missing-field claims.",
+  "frozenTimestamp": "2026-05-06T17:50:00Z",
+  "noEditRule": "Frozen before transfer execution.",
+  "preregistrationHash": "311bef458c8a1b89c1042d89dc96b9dbf3891b218dfeedc40b63fa11bd7349a3"
+}

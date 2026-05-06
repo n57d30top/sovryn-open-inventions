@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T17:18:55.156Z",
+  "generatedAt": "2026-05-06T17:35:32.374Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -357,6 +357,24 @@
       "domain": "mechanism-guided benchmark repair"
     },
     {
+      "id": "result:batch47-anomaly-and-assumption-mining",
+      "kind": "result",
+      "label": "Batch 47 Anomaly and Assumption Mining",
+      "domain": "bounded conceptual discovery"
+    },
+    {
+      "id": "result:batch48-rival-principle-generation",
+      "kind": "result",
+      "label": "Batch 48 Rival Principle Generation",
+      "domain": "bounded conceptual discovery"
+    },
+    {
+      "id": "result:batch49-discriminating-experiment-design",
+      "kind": "result",
+      "label": "Batch 49 Discriminating Experiment Design",
+      "domain": "bounded conceptual discovery"
+    },
+    {
       "id": "result:batch5-itsdangerous-repo-install-test-reproduction",
       "kind": "result",
       "label": "itsdangerous Repository Install and Test Reproduction",
@@ -373,6 +391,24 @@
       "kind": "result",
       "label": "UCI Letter Recognition Vowel Benchmark Negative Challenge",
       "domain": "tabular-benchmark-baseline-dominance"
+    },
+    {
+      "id": "result:batch50-surprise-prediction-tournament",
+      "kind": "result",
+      "label": "Batch 50 Surprise Prediction Tournament",
+      "domain": "bounded conceptual discovery"
+    },
+    {
+      "id": "result:batch51-cross-domain-principle-test",
+      "kind": "result",
+      "label": "Batch 51 Cross-Domain Principle Test",
+      "domain": "bounded conceptual discovery"
+    },
+    {
+      "id": "result:batch52-conceptual-discovery-paper",
+      "kind": "result",
+      "label": "Batch 52 Conceptual Discovery Paper",
+      "domain": "bounded conceptual discovery"
     },
     {
       "id": "result:batch6-diamonds-data-quality-netoff-ladder",
@@ -795,6 +831,11 @@
       "id": "domain:mechanism-guided benchmark repair",
       "kind": "domain",
       "label": "mechanism-guided benchmark repair"
+    },
+    {
+      "id": "domain:bounded conceptual discovery",
+      "kind": "domain",
+      "label": "bounded conceptual discovery"
     },
     {
       "id": "domain:time-series-dataset-quality-audit",
@@ -1424,6 +1465,51 @@
       "relation": "uses_public_tool_evidence"
     },
     {
+      "source": "result:batch47-anomaly-and-assumption-mining",
+      "target": "domain:bounded conceptual discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch47-anomaly-and-assumption-mining",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch47-anomaly-and-assumption-mining",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch48-rival-principle-generation",
+      "target": "domain:bounded conceptual discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch48-rival-principle-generation",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch48-rival-principle-generation",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch49-discriminating-experiment-design",
+      "target": "domain:bounded conceptual discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch49-discriminating-experiment-design",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch49-discriminating-experiment-design",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
       "source": "result:batch5-itsdangerous-repo-install-test-reproduction",
       "target": "domain:public-repo-reproducibility",
       "relation": "belongs_to_domain"
@@ -1437,6 +1523,51 @@
       "source": "result:batch5-uci-letter-recognition-baseline-challenge",
       "target": "domain:tabular-benchmark-baseline-dominance",
       "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch50-surprise-prediction-tournament",
+      "target": "domain:bounded conceptual discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch50-surprise-prediction-tournament",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch50-surprise-prediction-tournament",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch51-cross-domain-principle-test",
+      "target": "domain:bounded conceptual discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch51-cross-domain-principle-test",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch51-cross-domain-principle-test",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch52-conceptual-discovery-paper",
+      "target": "domain:bounded conceptual discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch52-conceptual-discovery-paper",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch52-conceptual-discovery-paper",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
     },
     {
       "source": "result:batch6-diamonds-data-quality-netoff-ladder",
@@ -1849,5 +1980,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "ea12c4ae6e5fa03b29b4e089f2c24c2449747fd0020299c86742a0951a43b1b9"
+  "evidenceHash": "74bc42bf034a36b571115da179d08fbb207057cb96da32bf53f62bcdc0029311"
 }

@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 109
+Results: 115
 
 ## Lifecycle Counts
 
-- autopublished: 78
+- autopublished: 84
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -71,9 +71,15 @@ Results: 109
 - batch44-ambiguity-rareclass-repair-experiments: latest batch44-ambiguity-rareclass-repair-experiments; batch44-ambiguity-rareclass-repair-experiments
 - batch45-repair-kill-week: latest batch45-repair-kill-week; batch45-repair-kill-week
 - batch46-repair-standard-and-next-frontier: latest batch46-repair-standard-and-next-frontier; batch46-repair-standard-and-next-frontier
+- batch47-anomaly-and-assumption-mining: latest batch47-anomaly-and-assumption-mining; batch47-anomaly-and-assumption-mining
+- batch48-rival-principle-generation: latest batch48-rival-principle-generation; batch48-rival-principle-generation
+- batch49-discriminating-experiment-design: latest batch49-discriminating-experiment-design; batch49-discriminating-experiment-design
 - batch5-itsdangerous-repo-install-test-reproduction: latest batch5-itsdangerous-repo-install-test-reproduction; batch5-itsdangerous-repo-install-test-reproduction
 - batch5-uci-air-quality-time-series-dataset-audit: latest batch5-uci-air-quality-time-series-dataset-audit; batch5-uci-air-quality-time-series-dataset-audit
 - batch5-uci-letter-recognition-baseline-challenge: latest batch5-uci-letter-recognition-baseline-challenge; batch5-uci-letter-recognition-baseline-challenge
+- batch50-surprise-prediction-tournament: latest batch50-surprise-prediction-tournament; batch50-surprise-prediction-tournament
+- batch51-cross-domain-principle-test: latest batch51-cross-domain-principle-test; batch51-cross-domain-principle-test
+- batch52-conceptual-discovery-paper: latest batch52-conceptual-discovery-paper; batch52-conceptual-discovery-paper
 - batch6-diamonds-data-quality-netoff-ladder: latest batch6-diamonds-data-quality-netoff-ladder; batch6-diamonds-data-quality-netoff-ladder
 - batch6-scikit-learn-iris-reproduction-ladder: latest batch6-scikit-learn-iris-reproduction-ladder; batch6-scikit-learn-iris-reproduction-ladder
 - batch6-uci-concrete-baseline-reproduction-ladder: latest batch6-uci-concrete-baseline-reproduction-ladder; batch6-uci-concrete-baseline-reproduction-ladder

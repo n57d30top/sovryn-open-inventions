@@ -1,0 +1,12 @@
+{
+  "predictionId": "X08",
+  "principleId": "P01",
+  "domain": "dataset reliability",
+  "target": "Letter",
+  "prediction": "low-risk control should not need field-bound repair",
+  "expectedOutcome": "success",
+  "falsifier": "Transfer fails if claim-safety does not depend on required fields or if replay alone resolves missing-field claims.",
+  "frozenTimestamp": "2026-05-06T17:50:00Z",
+  "noEditRule": "Frozen before transfer execution.",
+  "preregistrationHash": "9aaa30abf3f8be49d7bfc62d2cf513c295855422515f83678601612d012079a5"
+}

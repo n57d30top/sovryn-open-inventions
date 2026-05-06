@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-06T17:18:55.156Z",
+  "generatedAt": "2026-05-06T17:35:32.374Z",
   "sources": [
     {
       "resultSlug": "batch10-toolchain-kill-week",
@@ -231,6 +231,78 @@
       "publicOnly": true
     },
     {
+      "resultSlug": "batch47-anomaly-and-assumption-mining",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch47-anomaly-and-assumption-mining",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch48-rival-principle-generation",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch48-rival-principle-generation",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch49-discriminating-experiment-design",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch49-discriminating-experiment-design",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch50-surprise-prediction-tournament",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch50-surprise-prediction-tournament",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch51-cross-domain-principle-test",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch51-cross-domain-principle-test",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch52-conceptual-discovery-paper",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch52-conceptual-discovery-paper",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
       "resultSlug": "batch6-diamonds-data-quality-netoff-ladder",
       "sourceKind": "external_package_or_tool",
       "name": "pandas",
@@ -441,5 +513,5 @@
       "publicOnly": true
     }
   ],
-  "evidenceHash": "50b29243fed26fa0de903229c2b18e445c92194affce0bf9de97460e62a3c8ad"
+  "evidenceHash": "85e7671992b00d72aebc2c8b338bfdeb316e8848933ee4b699f632d511820c25"
 }

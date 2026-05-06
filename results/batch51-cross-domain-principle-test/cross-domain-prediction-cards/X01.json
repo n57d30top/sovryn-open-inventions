@@ -1,0 +1,12 @@
+{
+  "predictionId": "X01",
+  "principleId": "P01",
+  "domain": "benchmark/protocol",
+  "target": "HAR",
+  "prediction": "field-complete protocol should narrow random-only claim",
+  "expectedOutcome": "success",
+  "falsifier": "Transfer fails if claim-safety does not depend on required fields or if replay alone resolves missing-field claims.",
+  "frozenTimestamp": "2026-05-06T17:50:00Z",
+  "noEditRule": "Frozen before transfer execution.",
+  "preregistrationHash": "081e0b085997450ff52c99763a7d07bb7064d47d928eb6f4c90e4d3650295f5e"
+}

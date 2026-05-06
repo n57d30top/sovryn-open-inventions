@@ -1,0 +1,33 @@
+{
+  "claim_1": {
+    "claim": "Required evidence fields limit claim strength.",
+    "evidence": [
+      "batch47-anomaly-and-assumption-mining",
+      "batch50-surprise-prediction-tournament",
+      "batch51-cross-domain-principle-test"
+    ],
+    "limitation": "bounded to public computational evidence"
+  },
+  "claim_2": {
+    "claim": "Replay is integrity evidence, not validity by itself.",
+    "evidence": [
+      "batch50-surprise-prediction-tournament"
+    ],
+    "limitation": "package runtime checks remain narrow successes"
+  },
+  "claim_3": {
+    "claim": "Claim safety can improve without metric improvement.",
+    "evidence": [
+      "batch44-ambiguity-rareclass-repair-experiments",
+      "batch50-surprise-prediction-tournament"
+    ],
+    "limitation": "not every control needs intervention"
+  },
+  "claim_4": {
+    "claim": "Cross-domain transfer is partial.",
+    "evidence": [
+      "batch51-cross-domain-principle-test"
+    ],
+    "limitation": "source/evidence extraction was not applicable without execution fields"
+  }
+}

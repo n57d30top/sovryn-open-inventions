@@ -1,0 +1,26 @@
+{
+  "experimentId": "E05",
+  "target": "itsdangerous",
+  "sourceUrl": "https://palletsprojects.com/projects/itsdangerous/",
+  "domain": "package reproduction",
+  "principlesCompared": [
+    "P01",
+    "P02",
+    "P03"
+  ],
+  "predictionUnderP01": "P01 predicts package claim needs runtime fields not benchmark metrics",
+  "predictionUnderP02": "P02 predicts metric repair concepts do not transfer strongly",
+  "predictionUnderP03": "P03 predicts replay/import success is mostly sufficient for install claim",
+  "expectedObservation": "import/version runtime check",
+  "falsifier": "supports P03 only for narrow runtime existence claim",
+  "requiredDataOrRepo": "public data or public package metadata only",
+  "baseline": "simple load/import or logistic baseline where relevant",
+  "negativeControl": "shuffled label, protocol-absent control, or failed import control as relevant",
+  "metric": "claim-safety label plus accuracy/macro-F1 where relevant",
+  "replayPlan": "container-netoff or public evidence hash replay when feasible",
+  "feasibility": "feasible",
+  "safetyNotes": "safe public computational target only",
+  "frozenTimestamp": "2026-05-06T17:35:00Z",
+  "noEditRule": "Frozen before Batch 50 execution.",
+  "preregistrationHash": "1a9ba54e8480c6cb1166dc71c3e63677afec8ec750051f6e8543bee5da9a5a23"
+}

@@ -1,0 +1,12 @@
+{
+  "predictionId": "X03",
+  "principleId": "P01",
+  "domain": "dataset reliability",
+  "target": "Wine",
+  "prediction": "protocol-absent dataset should block protocol-first claim",
+  "expectedOutcome": "success",
+  "falsifier": "Transfer fails if claim-safety does not depend on required fields or if replay alone resolves missing-field claims.",
+  "frozenTimestamp": "2026-05-06T17:50:00Z",
+  "noEditRule": "Frozen before transfer execution.",
+  "preregistrationHash": "59e7cbe0be9d810fb7615bd8cb3d25c400a00dc9d97ff2d148b0443f26f5aac3"
+}

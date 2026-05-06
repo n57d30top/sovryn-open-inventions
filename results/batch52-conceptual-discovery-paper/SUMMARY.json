@@ -1,0 +1,43 @@
+{
+  "kind": "conceptual_discovery_paper_summary",
+  "slug": "batch52-conceptual-discovery-paper",
+  "title": "Batch 52 Conceptual Discovery Paper",
+  "resultKind": "conceptual_discovery_paper",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 90,
+  "reproducibilityScore": 88,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 94,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "passes_falsification",
+  "baselineComparisonPresent": true,
+  "scientificMemoryUpdated": true,
+  "scientificQuestion": "Did the trial refine a measurable principle that explains evidence and makes useful predictions?",
+  "domain": "bounded conceptual discovery",
+  "limitations": [
+    "Candidate principles are bounded and falsifiable.",
+    "Prediction failures narrow scope.",
+    "No principle is treated as universally true."
+  ],
+  "synthesizedBatches": [
+    "batch47",
+    "batch48",
+    "batch49",
+    "batch50",
+    "batch51"
+  ],
+  "rivalPrincipleCount": 3,
+  "executedExperimentCount": 8,
+  "crossDomainTestsAttempted": 10,
+  "failedPartialFindingCount": 6,
+  "discoveryClassification": "promising_principle_candidate",
+  "nextFrontier": "Field-Bound Claim Safety Trials at Larger Scale",
+  "evidenceHash": "7ce038ac0ef65d2c03fd596dc31f0b23dd4272bfafaf091f8338368e95bd25c3"
+}

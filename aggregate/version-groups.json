@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T17:18:55.156Z",
+  "updatedAt": "2026-05-06T17:35:32.374Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -416,6 +416,27 @@
       ]
     },
     {
+      "versionGroup": "batch47-anomaly-and-assumption-mining",
+      "latestSlug": "batch47-anomaly-and-assumption-mining",
+      "resultSlugs": [
+        "batch47-anomaly-and-assumption-mining"
+      ]
+    },
+    {
+      "versionGroup": "batch48-rival-principle-generation",
+      "latestSlug": "batch48-rival-principle-generation",
+      "resultSlugs": [
+        "batch48-rival-principle-generation"
+      ]
+    },
+    {
+      "versionGroup": "batch49-discriminating-experiment-design",
+      "latestSlug": "batch49-discriminating-experiment-design",
+      "resultSlugs": [
+        "batch49-discriminating-experiment-design"
+      ]
+    },
+    {
       "versionGroup": "batch5-itsdangerous-repo-install-test-reproduction",
       "latestSlug": "batch5-itsdangerous-repo-install-test-reproduction",
       "resultSlugs": [
@@ -434,6 +455,27 @@
       "latestSlug": "batch5-uci-letter-recognition-baseline-challenge",
       "resultSlugs": [
         "batch5-uci-letter-recognition-baseline-challenge"
+      ]
+    },
+    {
+      "versionGroup": "batch50-surprise-prediction-tournament",
+      "latestSlug": "batch50-surprise-prediction-tournament",
+      "resultSlugs": [
+        "batch50-surprise-prediction-tournament"
+      ]
+    },
+    {
+      "versionGroup": "batch51-cross-domain-principle-test",
+      "latestSlug": "batch51-cross-domain-principle-test",
+      "resultSlugs": [
+        "batch51-cross-domain-principle-test"
+      ]
+    },
+    {
+      "versionGroup": "batch52-conceptual-discovery-paper",
+      "latestSlug": "batch52-conceptual-discovery-paper",
+      "resultSlugs": [
+        "batch52-conceptual-discovery-paper"
       ]
     },
     {
@@ -682,5 +724,5 @@
       ]
     }
   ],
-  "evidenceHash": "a96c5839be78033df74d5fe46793744175b8d4895b024af82381f0481cfd8463"
+  "evidenceHash": "53386fb881f420e3adb4caddb14a80a8f658522bd3d1016e5937d345f6b8b3c5"
 }

@@ -1,0 +1,15 @@
+{
+  "kind": "verification",
+  "slug": "batch51-cross-domain-principle-test",
+  "resultKind": "cross_domain_principle_test",
+  "publicHygienePassed": true,
+  "evidenceHash": "f6fc629af33c3e0d0b0685e920efb0e2e93c87b2e9f3b9acd53d08b9ee42a7ad",
+  "domainsTestedOrAttempted": 6,
+  "frozenPredictions": 10,
+  "executedPredictions": 8,
+  "failedPartialNotApplicable": 4,
+  "scopeNarrowed": true,
+  "containerNetoffReplay": "passed",
+  "replayAssertion": "container_netoff_batch51_transfer_assertion",
+  "replayEvidenceHash": "6ee22385e4788d0929ed31f659576e89d3de00aaead01a71cae2375edafc88eb"
+}

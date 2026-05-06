@@ -1,0 +1,33 @@
+{
+  "kind": "rival_principle_generation_summary",
+  "slug": "batch48-rival-principle-generation",
+  "title": "Batch 48 Rival Principle Generation",
+  "resultKind": "rival_principle_generation",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 90,
+  "reproducibilityScore": 88,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 94,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "passes_falsification",
+  "baselineComparisonPresent": true,
+  "scientificMemoryUpdated": true,
+  "scientificQuestion": "Which rival principles best explain the anomaly seeds?",
+  "domain": "bounded conceptual discovery",
+  "limitations": [
+    "This is a bounded computational concept trial.",
+    "Principles are candidates, not universal truths.",
+    "Failed or not-testable cases are part of the evidence."
+  ],
+  "principleCandidateCount": 15,
+  "principleCardCount": 6,
+  "selectedRivalPrincipleCount": 3,
+  "evidenceHash": "6b40cbcbc76153b3731964839e601c1cd2b7efc0c14dc876e4e2f60eb8e7b137"
+}

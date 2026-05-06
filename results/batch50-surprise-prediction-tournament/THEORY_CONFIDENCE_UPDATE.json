@@ -1,0 +1,15 @@
+{
+  "P01": {
+    "before": 0.62,
+    "after": 0.72
+  },
+  "P02": {
+    "before": 0.56,
+    "after": 0.58
+  },
+  "P03": {
+    "before": 0.48,
+    "after": 0.43,
+    "reason": "Supported package-runtime claims but lost confidence for benchmark validity claims."
+  }
+}

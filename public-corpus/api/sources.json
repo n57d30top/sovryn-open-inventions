@@ -356,6 +356,30 @@
       "customTool": null
     },
     {
+      "slug": "batch47-anomaly-and-assumption-mining",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch48-rival-principle-generation",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch49-discriminating-experiment-design",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
       "slug": "batch5-itsdangerous-repo-install-test-reproduction",
       "externalPackages": [],
       "customTool": null
@@ -368,6 +392,30 @@
     {
       "slug": "batch5-uci-letter-recognition-baseline-challenge",
       "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch50-surprise-prediction-tournament",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch51-cross-domain-principle-test",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch52-conceptual-discovery-paper",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
       "customTool": null
     },
     {
@@ -665,5 +713,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "50b29243fed26fa0de903229c2b18e445c92194affce0bf9de97460e62a3c8ad"
+  "evidenceHash": "85e7671992b00d72aebc2c8b338bfdeb316e8848933ee4b699f632d511820c25"
 }

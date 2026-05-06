@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T17:18:55.156Z",
+  "generatedAt": "2026-05-06T17:35:32.374Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -1065,6 +1065,60 @@
       "showcaseRank": null
     },
     {
+      "slug": "batch47-anomaly-and-assumption-mining",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch47-anomaly-and-assumption-mining",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch48-rival-principle-generation",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch48-rival-principle-generation",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch49-discriminating-experiment-design",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch49-discriminating-experiment-design",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
       "slug": "batch5-itsdangerous-repo-install-test-reproduction",
       "badges": {
         "quality": "good",
@@ -1113,6 +1167,60 @@
         "falsification": "candidate_rejected_by_falsification",
         "lifecycle": "autopublished",
         "version": "batch5-uci-letter-recognition-baseline-challenge",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch50-surprise-prediction-tournament",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch50-surprise-prediction-tournament",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch51-cross-domain-principle-test",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch51-cross-domain-principle-test",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch52-conceptual-discovery-paper",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch52-conceptual-discovery-paper",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -1965,5 +2073,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "709b4083729facba1ef2d6d5b7fe04cf49e6fbaf823cbb3f9892caf958b2db98"
+  "evidenceHash": "dd66288dc8113325479fcc16c07ad2dad3019204302fc7231008610762b55237"
 }

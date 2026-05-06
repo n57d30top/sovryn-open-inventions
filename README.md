@@ -94,9 +94,15 @@ and safety scope in human-readable language.
 - [Ambiguity and Rare-Class Repair Experiments](results/batch44-ambiguity-rareclass-repair-experiments/) — good, autopublished, batch44-ambiguity-rareclass-repair-experiments, mechanism-guided benchmark repair
 - [Repair Kill Week](results/batch45-repair-kill-week/) — good, autopublished, batch45-repair-kill-week, mechanism-guided benchmark repair
 - [Repair Standard and Next Frontier](results/batch46-repair-standard-and-next-frontier/) — good, autopublished, batch46-repair-standard-and-next-frontier, mechanism-guided benchmark repair
+- [Batch 47 Anomaly and Assumption Mining](results/batch47-anomaly-and-assumption-mining/) — good, autopublished, batch47-anomaly-and-assumption-mining, bounded conceptual discovery
+- [Batch 48 Rival Principle Generation](results/batch48-rival-principle-generation/) — good, autopublished, batch48-rival-principle-generation, bounded conceptual discovery
+- [Batch 49 Discriminating Experiment Design](results/batch49-discriminating-experiment-design/) — good, autopublished, batch49-discriminating-experiment-design, bounded conceptual discovery
 - [itsdangerous Repository Install and Test Reproduction](results/batch5-itsdangerous-repo-install-test-reproduction/) — good, autopublished, batch5-itsdangerous-repo-install-test-reproduction, public-repo-reproducibility
 - [UCI Air Quality Time-Series Dataset Audit](results/batch5-uci-air-quality-time-series-dataset-audit/) — good, autopublished, batch5-uci-air-quality-time-series-dataset-audit, time-series-dataset-quality-audit
 - [UCI Letter Recognition Vowel Benchmark Negative Challenge](results/batch5-uci-letter-recognition-baseline-challenge/) — good, autopublished, batch5-uci-letter-recognition-baseline-challenge, tabular-benchmark-baseline-dominance
+- [Batch 50 Surprise Prediction Tournament](results/batch50-surprise-prediction-tournament/) — good, autopublished, batch50-surprise-prediction-tournament, bounded conceptual discovery
+- [Batch 51 Cross-Domain Principle Test](results/batch51-cross-domain-principle-test/) — good, autopublished, batch51-cross-domain-principle-test, bounded conceptual discovery
+- [Batch 52 Conceptual Discovery Paper](results/batch52-conceptual-discovery-paper/) — good, autopublished, batch52-conceptual-discovery-paper, bounded conceptual discovery
 - [seaborn-data Diamonds Network-Off Quality Reproduction Ladder](results/batch6-diamonds-data-quality-netoff-ladder/) — good, autopublished, batch6-diamonds-data-quality-netoff-ladder, public-dataset-quality-audit
 - [scikit-learn Iris Example Reproduction Ladder](results/batch6-scikit-learn-iris-reproduction-ladder/) — good, autopublished, batch6-scikit-learn-iris-reproduction-ladder, ml-repository-reproduction
 - [UCI Concrete Strength Baseline Reproduction Ladder](results/batch6-uci-concrete-baseline-reproduction-ladder/) — good, autopublished, batch6-uci-concrete-baseline-reproduction-ladder, tabular-regression-benchmark

@@ -1,0 +1,12 @@
+{
+  "predictionId": "X02",
+  "principleId": "P01",
+  "domain": "benchmark/protocol",
+  "target": "Vehicle",
+  "prediction": "missing protocol field should block strong claim",
+  "expectedOutcome": "success",
+  "falsifier": "Transfer fails if claim-safety does not depend on required fields or if replay alone resolves missing-field claims.",
+  "frozenTimestamp": "2026-05-06T17:50:00Z",
+  "noEditRule": "Frozen before transfer execution.",
+  "preregistrationHash": "53faa6f416fcd9612601f41a70837356c5bb8d0e3d63ecb673cda7f508ac0341"
+}

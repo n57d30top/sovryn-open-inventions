@@ -1,0 +1,12 @@
+{
+  "predictionId": "X04",
+  "principleId": "P01",
+  "domain": "package install/test",
+  "target": "itsdangerous",
+  "prediction": "package runtime fields support only narrow install claim",
+  "expectedOutcome": "partial",
+  "falsifier": "Transfer fails if claim-safety does not depend on required fields or if replay alone resolves missing-field claims.",
+  "frozenTimestamp": "2026-05-06T17:50:00Z",
+  "noEditRule": "Frozen before transfer execution.",
+  "preregistrationHash": "ffc10f21781dcf28fc0d5d0865f0d7f0c951f69dd2bc2760eb649d01682c7dff"
+}

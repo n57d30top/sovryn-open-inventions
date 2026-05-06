@@ -1,0 +1,26 @@
+{
+  "experimentId": "E08",
+  "target": "markupsafe",
+  "sourceUrl": "https://markupsafe.palletsprojects.com/",
+  "domain": "package reproduction",
+  "principlesCompared": [
+    "P01",
+    "P02",
+    "P03"
+  ],
+  "predictionUnderP01": "P01 predicts install fields define narrow claim scope",
+  "predictionUnderP02": "P02 predicts no benchmark repair value",
+  "predictionUnderP03": "P03 predicts replay/import evidence sufficient for package-runtime claim",
+  "expectedObservation": "import/runtime negative control",
+  "falsifier": "low-risk package control",
+  "requiredDataOrRepo": "public data or public package metadata only",
+  "baseline": "simple load/import or logistic baseline where relevant",
+  "negativeControl": "shuffled label, protocol-absent control, or failed import control as relevant",
+  "metric": "claim-safety label plus accuracy/macro-F1 where relevant",
+  "replayPlan": "container-netoff or public evidence hash replay when feasible",
+  "feasibility": "feasible",
+  "safetyNotes": "safe public computational target only",
+  "frozenTimestamp": "2026-05-06T17:35:00Z",
+  "noEditRule": "Frozen before Batch 50 execution.",
+  "preregistrationHash": "403893a6f62416c3876cda84650b8b6bd0522aed2301dad347d8731810acace6"
+}

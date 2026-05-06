@@ -1,0 +1,53 @@
+{
+  "principleId": "P02",
+  "name": "Claim Safety Over Metric Gain",
+  "oneSentenceClaim": "A scientific intervention can be valuable by blocking or narrowing claims even when metrics do not improve.",
+  "mechanism": "Claim quality is limited by the interaction between evidence fields, controls, metrics, and replay state.",
+  "hiddenAssumptionChallenged": "Prior work often treated metric quality, replay, or tool output as enough for claim validity.",
+  "variables": [
+    "required_field_presence",
+    "claim_safety_change",
+    "metric_delta",
+    "control_outcome",
+    "replay_status",
+    "not_testable_rate"
+  ],
+  "measurableIndicators": [
+    "required fields present or absent",
+    "claim blocked/narrowed/preserved",
+    "metric change under baseline",
+    "negative control status",
+    "replay divergence"
+  ],
+  "examples": [
+    "Shuttle rare-class reporting",
+    "Vehicle ambiguity gate",
+    "Batch 41 partial risk detector"
+  ],
+  "nonExamples": [
+    "Protocol-absent low-risk control",
+    "Metric improvement without claim-safety change",
+    "Replay success with missing mechanism fields"
+  ],
+  "predictions": [
+    "Targets missing required fields become not-testable or blocked",
+    "Some useful interventions do not improve metrics",
+    "Replay alone will not settle ambiguity-heavy claims"
+  ],
+  "falsificationTests": [
+    "Find a missing-field target where strong mechanism claim remains valid",
+    "Show metric gain consistently predicts claim safety without field checks",
+    "Show replay success resolves ambiguity without protocol evidence"
+  ],
+  "rivalPrinciples": [
+    "P01",
+    "P02",
+    "P03"
+  ],
+  "whyExistingConceptsAreInsufficient": "Prior concepts described fragility but did not separate field availability, claim safety, and replay integrity.",
+  "expectedCrossDomainScope": "Benchmark, repo/package, dataset reliability, and temporal evaluation when analogous fields exist.",
+  "confidence": 0.56,
+  "simplicity": 0.72,
+  "explanatoryCompressionScore": 0.68,
+  "predictionReadinessScore": 0.7
+}

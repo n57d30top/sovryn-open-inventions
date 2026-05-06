@@ -1,0 +1,12 @@
+{
+  "predictionId": "X07",
+  "principleId": "P01",
+  "domain": "repo/test reproduction",
+  "target": "package import fixture",
+  "prediction": "test protocol maps partially to required-field idea",
+  "expectedOutcome": "partial",
+  "falsifier": "Transfer fails if claim-safety does not depend on required fields or if replay alone resolves missing-field claims.",
+  "frozenTimestamp": "2026-05-06T17:50:00Z",
+  "noEditRule": "Frozen before transfer execution.",
+  "preregistrationHash": "30a254f7602716bc1809e2de17ce43177a3d60a9c3e4fde2157f9b54e1c65e1c"
+}

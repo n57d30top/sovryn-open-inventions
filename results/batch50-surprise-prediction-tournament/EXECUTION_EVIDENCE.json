@@ -1,0 +1,151 @@
+{
+  "kind": "surprise_prediction_execution_evidence",
+  "executed": [
+    {
+      "experimentId": "E01",
+      "domain": "benchmark/protocol",
+      "target": "HAR",
+      "executed": true,
+      "observation": "source macro-F1 0.9537 vs random 0.9832; source subject overlap 0 by file construction",
+      "classification": "principle_A_supported",
+      "supportedPrinciple": "P01",
+      "partialOrFailure": false,
+      "nonObvious": true,
+      "metrics": {
+        "source": {
+          "accuracy": 0.9539,
+          "macroF1": 0.9537,
+          "dummyMacroF1": 0.0514,
+          "negativeControlMacroF1": 0.1451
+        },
+        "random": {
+          "accuracy": 0.982,
+          "macroF1": 0.9832,
+          "dummyMacroF1": 0.0529,
+          "negativeControlMacroF1": 0.1736
+        }
+      }
+    },
+    {
+      "experimentId": "E02",
+      "domain": "benchmark/protocol",
+      "target": "Shuttle",
+      "executed": true,
+      "observation": "accuracy-macro gap 0.3604; rare-class reporting downgrades accuracy-only claim",
+      "classification": "principle_B_supported",
+      "supportedPrinciple": "P02",
+      "partialOrFailure": false,
+      "nonObvious": false,
+      "metrics": {
+        "accuracy": 0.9682,
+        "macroF1": 0.6078,
+        "dummyMacroF1": 0.1262,
+        "negativeControlMacroF1": 0.1273
+      }
+    },
+    {
+      "experimentId": "E03",
+      "domain": "claim-safety/ambiguity",
+      "target": "Vehicle",
+      "executed": true,
+      "observation": "random macro-F1 0.8197 vs file-variant 0.8211; competing interpretations change conclusion",
+      "classification": "principle_A_supported",
+      "supportedPrinciple": "P01",
+      "partialOrFailure": false,
+      "nonObvious": true,
+      "metrics": {
+        "random": {
+          "accuracy": 0.8189,
+          "macroF1": 0.8197,
+          "dummyMacroF1": 0.1019,
+          "negativeControlMacroF1": 0.174
+        },
+        "fileVariant": {
+          "accuracy": 0.8191,
+          "macroF1": 0.8211,
+          "dummyMacroF1": 0.0948,
+          "negativeControlMacroF1": 0.2754
+        }
+      }
+    },
+    {
+      "experimentId": "E04",
+      "domain": "benchmark/control",
+      "target": "Letter",
+      "executed": true,
+      "observation": "low-risk control had 553 duplicate feature rows but claim-safety did not require broad repair",
+      "classification": "principle_B_supported",
+      "supportedPrinciple": "P02",
+      "partialOrFailure": true,
+      "nonObvious": false,
+      "metrics": {
+        "accuracy": 0.771,
+        "macroF1": 0.7692,
+        "dummyMacroF1": 0.003,
+        "negativeControlMacroF1": 0.0209
+      },
+      "duplicateRows": 553
+    },
+    {
+      "experimentId": "E05",
+      "domain": "package reproduction",
+      "target": "itsdangerous",
+      "executed": true,
+      "observation": "safe import/version runtime check passed (2.2.0)",
+      "classification": "principle_C_supported",
+      "supportedPrinciple": "P03",
+      "partialOrFailure": false,
+      "nonObvious": false
+    },
+    {
+      "experimentId": "E06",
+      "domain": "dataset reliability",
+      "target": "Wine",
+      "executed": true,
+      "observation": "data load and baseline pass, but protocol-first claim is blocked because protocol field is absent",
+      "classification": "principle_A_supported",
+      "supportedPrinciple": "P01",
+      "partialOrFailure": false,
+      "nonObvious": false,
+      "metrics": {
+        "accuracy": 0.9815,
+        "macroF1": 0.9829,
+        "dummyMacroF1": 0.1867,
+        "negativeControlMacroF1": 0.3535
+      }
+    },
+    {
+      "experimentId": "E07",
+      "domain": "time-series",
+      "target": "Daily temperature",
+      "executed": true,
+      "observation": "temporal MAE 3.4288 vs random MAE 3.3126; temporal protocol changes claim",
+      "classification": "principle_A_supported",
+      "supportedPrinciple": "P01",
+      "partialOrFailure": false,
+      "nonObvious": true,
+      "metrics": {
+        "temporalMAE": 3.4288,
+        "randomMAE": 3.3126
+      }
+    },
+    {
+      "experimentId": "E08",
+      "domain": "package reproduction",
+      "target": "markupsafe",
+      "executed": true,
+      "observation": "safe import/version runtime check passed (3.0.3)",
+      "classification": "principle_C_supported",
+      "supportedPrinciple": "P03",
+      "partialOrFailure": false,
+      "nonObvious": false
+    }
+  ],
+  "scores": {
+    "P01": 4,
+    "P02": 2,
+    "P03": 2,
+    "inconclusive": 0
+  },
+  "hash": "46f1032c5701ec82c7b8e91a6c4cd3656513ca7d12295119e4cf7314d80fa091"
+}

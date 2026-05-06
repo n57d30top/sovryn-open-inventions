@@ -1,0 +1,12 @@
+{
+  "predictionId": "X10",
+  "principleId": "P01",
+  "domain": "benchmark/control",
+  "target": "Digits",
+  "prediction": "protocol-absent control should block protocol-specific claim",
+  "expectedOutcome": "not_applicable",
+  "falsifier": "Transfer fails if claim-safety does not depend on required fields or if replay alone resolves missing-field claims.",
+  "frozenTimestamp": "2026-05-06T17:50:00Z",
+  "noEditRule": "Frozen before transfer execution.",
+  "preregistrationHash": "095c883f2836c6b9d8f3a9464ef160e780eb0da1702c65dcf4a5a5a4047bce2f"
+}

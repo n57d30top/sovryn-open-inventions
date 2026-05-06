@@ -1,0 +1,12 @@
+{
+  "predictionId": "X05",
+  "principleId": "P01",
+  "domain": "package install/test",
+  "target": "markupsafe",
+  "prediction": "package runtime control supports narrow install claim",
+  "expectedOutcome": "partial",
+  "falsifier": "Transfer fails if claim-safety does not depend on required fields or if replay alone resolves missing-field claims.",
+  "frozenTimestamp": "2026-05-06T17:50:00Z",
+  "noEditRule": "Frozen before transfer execution.",
+  "preregistrationHash": "882ff9e0066e4ce99bf1f6d7756e2ebf88d11d1cb6c1f5938ffbc2618bac81fb"
+}
