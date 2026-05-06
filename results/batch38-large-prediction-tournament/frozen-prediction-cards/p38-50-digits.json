@@ -1,0 +1,16 @@
+{
+  "predictionId": "p38-50-digits",
+  "frozenTimestamp": "2026-05-06T16:39:24Z",
+  "target": "scikit-learn digits",
+  "sourceUrl": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html",
+  "domain": "sklearn",
+  "linkedFormalTheory": "protocol_sensitivity",
+  "mechanism": "random_split_inflation",
+  "predictedLabel": "high",
+  "predictedMetricRange": "high: >0.04, moderate: 0.015-0.04, low: <0.015, ambiguous: not point-estimated",
+  "predictedFalsifier": "low-risk control, missing required field, alternative mechanism, or replay/model-family disagreement",
+  "executionPlan": "load public data or run safe package check; compare baseline, control, protocol, and replay evidence",
+  "noEditRule": "Frozen before execution and not rewritten after observation",
+  "priorDepth": "previously_studied",
+  "preregistrationHash": "f49643b446e6c41b559c2f7be003ab495cbf3f7f85351a272c8655ee3209d511"
+}

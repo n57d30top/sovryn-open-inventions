@@ -1,0 +1,41 @@
+{
+  "mechanismId": "protocol_sensitivity",
+  "name": "Protocol Sensitivity",
+  "definition": "evaluation outcome changes when a source-described protocol replaces a convenient split",
+  "linkedTheoryOrConcept": "Evaluation Fragility",
+  "examples": [
+    "UCI HAR Smartphones subject split",
+    "UCI Statlog Shuttle rare-class metric behavior",
+    "UCI Vehicle Silhouettes file-protocol ambiguity"
+  ],
+  "nonExamples": [
+    "scikit-learn digits control",
+    "UCI Letter as protocol-absent control",
+    "duplicate transfer on HAR"
+  ],
+  "supportingResults": [
+    "batch32-mechanism-specific-prediction-freeze",
+    "batch33-group-file-duplicate-control-execution",
+    "batch35-narrowed-theory-update-and-next-frontier"
+  ],
+  "weakeningResults": [
+    "batch19-protocol-risk-kill-week",
+    "batch24-protocol-card-kill-week-next-frontier"
+  ],
+  "distinguishingTests": [
+    "source-vs-random comparison",
+    "negative control",
+    "model-family stress"
+  ],
+  "falsificationTests": [
+    "low-risk control shows same effect",
+    "simple duplicate check explains less than claimed",
+    "replay changes conclusion"
+  ],
+  "confidence": 0.72,
+  "scope": "safe public computational benchmarks and reproduction artifacts",
+  "outOfScopeCases": [
+    "unexecuted claims",
+    "targets without required fields"
+  ]
+}

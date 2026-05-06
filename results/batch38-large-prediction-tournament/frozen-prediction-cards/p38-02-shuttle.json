@@ -1,0 +1,16 @@
+{
+  "predictionId": "p38-02-shuttle",
+  "frozenTimestamp": "2026-05-06T16:39:24Z",
+  "target": "UCI Statlog Shuttle",
+  "sourceUrl": "https://archive.ics.uci.edu/dataset/148/statlog+shuttle",
+  "domain": "UCI",
+  "linkedFormalTheory": "rare_class_metric_illusion",
+  "mechanism": "class_imbalance_metric_illusion",
+  "predictedLabel": "high",
+  "predictedMetricRange": "high: >0.04, moderate: 0.015-0.04, low: <0.015, ambiguous: not point-estimated",
+  "predictedFalsifier": "low-risk control, missing required field, alternative mechanism, or replay/model-family disagreement",
+  "executionPlan": "load public data or run safe package check; compare baseline, control, protocol, and replay evidence",
+  "noEditRule": "Frozen before execution and not rewritten after observation",
+  "priorDepth": "previously_studied",
+  "preregistrationHash": "e31bd30fa07d3fd37226d0f9bed3910d1e16c24ee23022e072e03810d90c8dda"
+}

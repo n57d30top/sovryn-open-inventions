@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 98
+Results: 104
 
 ## Lifecycle Counts
 
-- autopublished: 67
+- autopublished: 73
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -55,11 +55,17 @@ Results: 98
 - batch33-group-file-duplicate-control-execution: latest batch33-group-file-duplicate-control-execution; batch33-group-file-duplicate-control-execution
 - batch34-ambiguous-target-mechanism-deep-study: latest batch34-ambiguous-target-mechanism-deep-study; batch34-ambiguous-target-mechanism-deep-study
 - batch35-narrowed-theory-update-and-next-frontier: latest batch35-narrowed-theory-update-and-next-frontier; batch35-narrowed-theory-update-and-next-frontier
+- batch36-mechanism-atlas: latest batch36-mechanism-atlas-v0; batch36-mechanism-atlas-v0
+- batch37-formal-theory-model: latest batch37-formal-theory-model-v0; batch37-formal-theory-model-v0
+- batch38-large-prediction-tournament: latest batch38-large-prediction-tournament; batch38-large-prediction-tournament
+- batch39-cross-domain-mechanism-transfer-scale: latest batch39-cross-domain-mechanism-transfer-scale; batch39-cross-domain-mechanism-transfer-scale
 - batch4-markupsafe-repo-install-test-reproduction: latest batch4-markupsafe-repo-install-test-reproduction; batch4-markupsafe-repo-install-test-reproduction
 - batch4-uci-abalone-baseline-dominance-negative: latest batch4-uci-abalone-baseline-dominance-negative; batch4-uci-abalone-baseline-dominance-negative
 - batch4-uci-bike-sharing-time-series-benchmark: latest batch4-uci-bike-sharing-time-series-benchmark; batch4-uci-bike-sharing-time-series-benchmark
 - batch4-uci-glass-csvkit-tool-dataset-audit: latest batch4-uci-glass-csvkit-tool-dataset-audit; batch4-uci-glass-csvkit-tool-dataset-audit
 - batch4-uci-seeds-dataset-quality-execution: latest batch4-uci-seeds-dataset-quality-execution; batch4-uci-seeds-dataset-quality-execution
+- batch40-conceptual-compression-program: latest batch40-conceptual-compression-program; batch40-conceptual-compression-program
+- batch41-scientific-discovery-challenge: latest batch41-scientific-discovery-challenge; batch41-scientific-discovery-challenge
 - batch5-itsdangerous-repo-install-test-reproduction: latest batch5-itsdangerous-repo-install-test-reproduction; batch5-itsdangerous-repo-install-test-reproduction
 - batch5-uci-air-quality-time-series-dataset-audit: latest batch5-uci-air-quality-time-series-dataset-audit; batch5-uci-air-quality-time-series-dataset-audit
 - batch5-uci-letter-recognition-baseline-challenge: latest batch5-uci-letter-recognition-baseline-challenge; batch5-uci-letter-recognition-baseline-challenge

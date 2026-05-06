@@ -1,0 +1,28 @@
+{
+  "kind": "theory_update_from_predictions",
+  "updates": {
+    "Evaluation Fragility": {
+      "before": 0.77,
+      "after": 0.78
+    },
+    "Protocol Sensitivity": {
+      "before": 0.73,
+      "after": 0.74
+    },
+    "Random-Split Inflation": {
+      "before": 0.48,
+      "after": 0.44
+    },
+    "Protocol Ambiguity Barrier": {
+      "before": 0.71,
+      "after": 0.73
+    }
+  },
+  "calibration": {
+    "executed": 20,
+    "exact": 12,
+    "partial": 1,
+    "wrong": 7,
+    "notTestable": 0
+  }
+}

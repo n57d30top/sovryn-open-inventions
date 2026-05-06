@@ -1,0 +1,18 @@
+{
+  "kind": "autopublish_record",
+  "slug": "batch38-large-prediction-tournament",
+  "resultKind": "large_prediction_tournament",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "releaseReadinessScore": 92,
+  "evidenceStrengthScore": 91,
+  "reproducibilityScore": 89,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 94,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "pushed": true
+}

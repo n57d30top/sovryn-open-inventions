@@ -1,0 +1,16 @@
+{
+  "predictionId": "p38-23-wine",
+  "frozenTimestamp": "2026-05-06T16:39:24Z",
+  "target": "scikit-learn wine",
+  "sourceUrl": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_wine.html",
+  "domain": "sklearn",
+  "linkedFormalTheory": "protocol_sensitivity",
+  "mechanism": "no_material_mechanism_control",
+  "predictedLabel": "low",
+  "predictedMetricRange": "high: >0.04, moderate: 0.015-0.04, low: <0.015, ambiguous: not point-estimated",
+  "predictedFalsifier": "low-risk control, missing required field, alternative mechanism, or replay/model-family disagreement",
+  "executionPlan": "load public data or run safe package check; compare baseline, control, protocol, and replay evidence",
+  "noEditRule": "Frozen before execution and not rewritten after observation",
+  "priorDepth": "not_deeply_studied",
+  "preregistrationHash": "467ec70fbebd13a345613f8171910fa2c3d680cea19a266bc900d484f4144a08"
+}

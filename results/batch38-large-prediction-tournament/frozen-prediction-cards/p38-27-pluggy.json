@@ -1,0 +1,16 @@
+{
+  "predictionId": "p38-27-pluggy",
+  "frozenTimestamp": "2026-05-06T16:39:24Z",
+  "target": "pluggy runtime hook check",
+  "sourceUrl": "https://pluggy.readthedocs.io/",
+  "domain": "repo-test",
+  "linkedFormalTheory": "replay_robustness",
+  "mechanism": "replay_instability",
+  "predictedLabel": "moderate",
+  "predictedMetricRange": "high: >0.04, moderate: 0.015-0.04, low: <0.015, ambiguous: not point-estimated",
+  "predictedFalsifier": "low-risk control, missing required field, alternative mechanism, or replay/model-family disagreement",
+  "executionPlan": "load public data or run safe package check; compare baseline, control, protocol, and replay evidence",
+  "noEditRule": "Frozen before execution and not rewritten after observation",
+  "priorDepth": "not_deeply_studied",
+  "preregistrationHash": "f2c8b4ff1ca8da78d6b107d16c32d06b050495eb4cdc916df9038ca3fe7db662"
+}

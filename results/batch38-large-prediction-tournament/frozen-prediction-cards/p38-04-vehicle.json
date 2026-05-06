@@ -1,0 +1,16 @@
+{
+  "predictionId": "p38-04-vehicle",
+  "frozenTimestamp": "2026-05-06T16:39:24Z",
+  "target": "UCI Vehicle Silhouettes",
+  "sourceUrl": "https://archive.ics.uci.edu/dataset/149/statlog+vehicle+silhouettes",
+  "domain": "UCI",
+  "linkedFormalTheory": "protocol_ambiguity_barrier",
+  "mechanism": "protocol_ambiguity_barrier",
+  "predictedLabel": "ambiguous",
+  "predictedMetricRange": "high: >0.04, moderate: 0.015-0.04, low: <0.015, ambiguous: not point-estimated",
+  "predictedFalsifier": "low-risk control, missing required field, alternative mechanism, or replay/model-family disagreement",
+  "executionPlan": "load public data or run safe package check; compare baseline, control, protocol, and replay evidence",
+  "noEditRule": "Frozen before execution and not rewritten after observation",
+  "priorDepth": "previously_studied",
+  "preregistrationHash": "da13efaeb08b1dadd2b8a4bf44838b9f05f106bdb497f56e9ec26571893a5b2f"
+}

@@ -1,0 +1,16 @@
+{
+  "predictionId": "p38-35-image",
+  "frozenTimestamp": "2026-05-06T16:39:24Z",
+  "target": "UCI Image Segmentation",
+  "sourceUrl": "https://archive.ics.uci.edu/dataset/50/image+segmentation",
+  "domain": "UCI",
+  "linkedFormalTheory": "protocol_ambiguity_barrier",
+  "mechanism": "protocol_ambiguity_barrier",
+  "predictedLabel": "ambiguous",
+  "predictedMetricRange": "high: >0.04, moderate: 0.015-0.04, low: <0.015, ambiguous: not point-estimated",
+  "predictedFalsifier": "low-risk control, missing required field, alternative mechanism, or replay/model-family disagreement",
+  "executionPlan": "load public data or run safe package check; compare baseline, control, protocol, and replay evidence",
+  "noEditRule": "Frozen before execution and not rewritten after observation",
+  "priorDepth": "not_deeply_studied",
+  "preregistrationHash": "b0e442b0dd0d60b80c1891f42f807ff9331d1a2b9c3a4676cb3e39d98023ed81"
+}

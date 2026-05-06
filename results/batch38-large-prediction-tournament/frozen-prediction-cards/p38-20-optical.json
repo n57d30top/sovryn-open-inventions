@@ -1,0 +1,16 @@
+{
+  "predictionId": "p38-20-optical",
+  "frozenTimestamp": "2026-05-06T16:39:24Z",
+  "target": "UCI Optical Digits",
+  "sourceUrl": "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits",
+  "domain": "UCI",
+  "linkedFormalTheory": "protocol_sensitivity",
+  "mechanism": "protocol_ambiguity_barrier",
+  "predictedLabel": "ambiguous",
+  "predictedMetricRange": "high: >0.04, moderate: 0.015-0.04, low: <0.015, ambiguous: not point-estimated",
+  "predictedFalsifier": "low-risk control, missing required field, alternative mechanism, or replay/model-family disagreement",
+  "executionPlan": "load public data or run safe package check; compare baseline, control, protocol, and replay evidence",
+  "noEditRule": "Frozen before execution and not rewritten after observation",
+  "priorDepth": "previously_studied",
+  "preregistrationHash": "05c5eb9e558f20fb70a7cb495dfd4eb1898eaf7c4cddf755a5e602c4c2bfa8c5"
+}

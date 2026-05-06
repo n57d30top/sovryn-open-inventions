@@ -1,0 +1,18 @@
+{
+  "kind": "verification",
+  "slug": "batch41-scientific-discovery-challenge",
+  "selectedOutputType": "Risk-Detector Tool Candidate",
+  "preregistrationHash": "53bba970633010b03e562192db25677e184ca09a91001b2c2b7d562051a907a1",
+  "realExternalTargets": 8,
+  "baselineComparison": true,
+  "negativeControls": [
+    "Letter",
+    "digits",
+    "iris"
+  ],
+  "classification": "partial_result",
+  "detectorHits": 2,
+  "baselineHits": 5,
+  "containerNetoffReplay": "passed",
+  "replayAssertion": "container_netoff_discovery_assertion"
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "verification",
+  "slug": "batch40-conceptual-compression-program",
+  "candidateConcepts": 20,
+  "conceptCards": 8,
+  "testedConcepts": 5,
+  "rejectedOrDowngraded": 10,
+  "survivors": [
+    "Evaluation Fragility",
+    "Mechanism Testability Boundary",
+    "Replayable Claim Object"
+  ],
+  "nonExamples": 5
+}

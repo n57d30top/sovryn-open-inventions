@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T16:22:19.476Z",
+  "generatedAt": "2026-05-06T16:41:21.818Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -777,6 +777,78 @@
       "showcaseRank": null
     },
     {
+      "slug": "batch36-mechanism-atlas-v0",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch36-mechanism-atlas",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch37-formal-theory-model-v0",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch37-formal-theory-model",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch38-large-prediction-tournament",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch38-large-prediction-tournament",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch39-cross-domain-mechanism-transfer-scale",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch39-cross-domain-mechanism-transfer-scale",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
       "slug": "batch4-markupsafe-repo-install-test-reproduction",
       "badges": {
         "quality": "good",
@@ -861,6 +933,42 @@
         "falsification": "audited_with_limitations",
         "lifecycle": "autopublished",
         "version": "batch4-uci-seeds-dataset-quality-execution",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch40-conceptual-compression-program",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch40-conceptual-compression-program",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch41-scientific-discovery-challenge",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch41-scientific-discovery-challenge",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -1767,5 +1875,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "6bd56c154aa2fec752e77ec2075609404539455ed37205279c1604239672e910"
+  "evidenceHash": "90fea662a40c4a51317c769a4585f47b22f1ff3618d553ab77b9e1094606f4d2"
 }

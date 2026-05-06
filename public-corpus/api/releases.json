@@ -389,6 +389,42 @@
       "pushed": true
     },
     {
+      "slug": "batch36-mechanism-atlas-v0",
+      "path": "results/batch36-mechanism-atlas-v0",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch36-mechanism-atlas",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch37-formal-theory-model-v0",
+      "path": "results/batch37-formal-theory-model-v0",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch37-formal-theory-model",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch38-large-prediction-tournament",
+      "path": "results/batch38-large-prediction-tournament",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch38-large-prediction-tournament",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch39-cross-domain-mechanism-transfer-scale",
+      "path": "results/batch39-cross-domain-mechanism-transfer-scale",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch39-cross-domain-mechanism-transfer-scale",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
       "slug": "batch4-markupsafe-repo-install-test-reproduction",
       "path": "results/batch4-markupsafe-repo-install-test-reproduction",
       "status": "external_reproduction_success",
@@ -430,6 +466,24 @@
       "status": "dataset_quality_audit_supported",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch4-uci-seeds-dataset-quality-execution",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch40-conceptual-compression-program",
+      "path": "results/batch40-conceptual-compression-program",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch40-conceptual-compression-program",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch41-scientific-discovery-challenge",
+      "path": "results/batch41-scientific-discovery-challenge",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch41-scientific-discovery-challenge",
       "supersededBy": null,
       "pushed": true
     },
@@ -884,5 +938,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "6135ec70e74845d99a1d914958547b91047919552e7bf9e8c44f0457499d2783"
+  "evidenceHash": "49b7964257726907ef3d5f1ad888f7b8e8b22afa84b105cbc216d8fc0c3d55d4"
 }

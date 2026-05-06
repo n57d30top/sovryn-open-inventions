@@ -1,0 +1,85 @@
+{
+  "kind": "discovery_execution_evidence",
+  "riskRows": [
+    {
+      "target": "UCI HAR Smartphones",
+      "riskScore": 4,
+      "prediction": "high",
+      "baselinePrediction": "moderate",
+      "observed": "moderate",
+      "detectorHit": false,
+      "baselineHit": true
+    },
+    {
+      "target": "UCI Statlog Shuttle",
+      "riskScore": 3,
+      "prediction": "ambiguous",
+      "baselinePrediction": "moderate",
+      "observed": "high",
+      "detectorHit": false,
+      "baselineHit": false
+    },
+    {
+      "target": "UCI Vehicle Silhouettes",
+      "riskScore": 5,
+      "prediction": "high",
+      "baselinePrediction": "moderate",
+      "observed": "ambiguous",
+      "detectorHit": false,
+      "baselineHit": true
+    },
+    {
+      "target": "UCI Letter Recognition",
+      "riskScore": 0.5,
+      "prediction": "low",
+      "baselinePrediction": "low",
+      "observed": "low",
+      "detectorHit": true,
+      "baselineHit": true
+    },
+    {
+      "target": "UCI Optical Digits",
+      "riskScore": 1,
+      "prediction": "low",
+      "baselinePrediction": "moderate",
+      "observed": "moderate",
+      "detectorHit": false,
+      "baselineHit": true
+    },
+    {
+      "target": "scikit-learn digits",
+      "riskScore": 0,
+      "prediction": "low",
+      "baselinePrediction": "low",
+      "observed": "low",
+      "detectorHit": true,
+      "baselineHit": true
+    },
+    {
+      "target": "scikit-learn wine",
+      "riskScore": 0,
+      "prediction": "low",
+      "baselinePrediction": "low",
+      "observed": "moderate",
+      "detectorHit": false,
+      "baselineHit": false
+    },
+    {
+      "target": "scikit-learn iris",
+      "riskScore": 1.5,
+      "prediction": "moderate",
+      "baselinePrediction": "low",
+      "observed": "high",
+      "detectorHit": false,
+      "baselineHit": false
+    }
+  ],
+  "largeTournamentCalibration": {
+    "executed": 20,
+    "exact": 12,
+    "partial": 1,
+    "wrong": 7,
+    "notTestable": 0
+  },
+  "hash": "4a636f6b69530de5488ccbab89a0479fe7d8a6c0dee8cdbbe460d09a6edf4828"
+}

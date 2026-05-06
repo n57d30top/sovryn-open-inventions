@@ -1,0 +1,105 @@
+{
+  "kind": "causal_mechanism_graphs",
+  "theories": [
+    {
+      "theoryId": "evaluation_fragility",
+      "nodes": [
+        "protocol",
+        "data_fields",
+        "model_family",
+        "metric",
+        "replay",
+        "claim"
+      ],
+      "edges": [
+        {
+          "from": "protocol",
+          "to": "metric"
+        },
+        {
+          "from": "data_fields",
+          "to": "testability"
+        },
+        {
+          "from": "metric",
+          "to": "claim"
+        }
+      ]
+    },
+    {
+      "theoryId": "protocol_sensitivity",
+      "nodes": [
+        "protocol",
+        "data_fields",
+        "model_family",
+        "metric",
+        "replay",
+        "claim"
+      ],
+      "edges": [
+        {
+          "from": "protocol",
+          "to": "metric"
+        },
+        {
+          "from": "data_fields",
+          "to": "testability"
+        },
+        {
+          "from": "metric",
+          "to": "claim"
+        }
+      ]
+    },
+    {
+      "theoryId": "leakage_vs_difficulty",
+      "nodes": [
+        "protocol",
+        "data_fields",
+        "model_family",
+        "metric",
+        "replay",
+        "claim"
+      ],
+      "edges": [
+        {
+          "from": "protocol",
+          "to": "metric"
+        },
+        {
+          "from": "data_fields",
+          "to": "testability"
+        },
+        {
+          "from": "metric",
+          "to": "claim"
+        }
+      ]
+    },
+    {
+      "theoryId": "rare_class_metric_illusion",
+      "nodes": [
+        "protocol",
+        "data_fields",
+        "model_family",
+        "metric",
+        "replay",
+        "claim"
+      ],
+      "edges": [
+        {
+          "from": "protocol",
+          "to": "metric"
+        },
+        {
+          "from": "data_fields",
+          "to": "testability"
+        },
+        {
+          "from": "metric",
+          "to": "claim"
+        }
+      ]
+    }
+  ]
+}

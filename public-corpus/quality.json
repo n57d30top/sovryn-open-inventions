@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T16:22:19.476Z",
+  "generatedAt": "2026-05-06T16:41:21.818Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 87,
+    "good": 93,
     "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 67,
+    "autopublished": 73,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -617,6 +617,62 @@
       "specificityScore": 93
     },
     {
+      "slug": "batch36-mechanism-atlas-v0",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch36-mechanism-atlas",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 89,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "batch37-formal-theory-model-v0",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch37-formal-theory-model",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 89,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "batch38-large-prediction-tournament",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch38-large-prediction-tournament",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 89,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "batch39-cross-domain-mechanism-transfer-scale",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch39-cross-domain-mechanism-transfer-scale",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 89,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
       "slug": "batch4-markupsafe-repo-install-test-reproduction",
       "qualityLabel": "good",
       "antiTemplateStatus": "unknown",
@@ -685,6 +741,34 @@
       "reproducibilityScore": 89,
       "publicationSafetyScore": 98,
       "specificityScore": 88
+    },
+    {
+      "slug": "batch40-conceptual-compression-program",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch40-conceptual-compression-program",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 89,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "batch41-scientific-discovery-challenge",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch41-scientific-discovery-challenge",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 89,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
     },
     {
       "slug": "batch5-itsdangerous-repo-install-test-reproduction",
@@ -1387,5 +1471,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "574018f7834e10b3dec0ad638ea8e003d568a4b48ec4c8e7b247a0b5c4dc2c18"
+  "evidenceHash": "14f4dfb1f85d6f36dbbbb7a3dbaab76142683012646079c86eefdda6d7b4598d"
 }

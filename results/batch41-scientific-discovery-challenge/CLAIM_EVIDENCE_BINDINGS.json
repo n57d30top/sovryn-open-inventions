@@ -1,0 +1,17 @@
+{
+  "kind": "claim_evidence_bindings",
+  "bindings": [
+    {
+      "claim": "risk score improves over protocol-present baseline on this evidence set",
+      "artifact": "EXECUTION_RESULTS.md",
+      "metric": "detector hits vs baseline hits",
+      "limitation": "small public evidence set"
+    },
+    {
+      "claim": "controls remain bounded",
+      "artifact": "BASELINE_AND_ABLATION.md",
+      "metric": "negative controls not all high risk",
+      "limitation": "more controls needed"
+    }
+  ]
+}

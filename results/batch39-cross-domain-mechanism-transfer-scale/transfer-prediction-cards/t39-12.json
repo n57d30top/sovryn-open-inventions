@@ -1,0 +1,12 @@
+{
+  "transferPredictionId": "t39-12",
+  "domain": "source/evidence extraction evidence check",
+  "target": "Batch evidence-card completeness check",
+  "theoryOrConcept": "Protocol Sensitivity",
+  "expectedMechanism": "protocol or replay condition changes claim strength",
+  "expectedObservation": "success, partial, failed, or not-testable evidence category",
+  "falsifier": "no observable protocol-like condition or missing execution evidence",
+  "frozenTimestamp": "2026-05-06T16:39:24Z",
+  "noEditRule": "Frozen before transfer scoring",
+  "preregistrationHash": "186d112651162a7bb93bed11a7799116e4af948a4632407ae377109dc2e0a77d"
+}

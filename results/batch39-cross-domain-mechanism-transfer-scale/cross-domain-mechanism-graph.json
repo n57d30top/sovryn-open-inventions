@@ -1,0 +1,46 @@
+{
+  "kind": "cross_domain_mechanism_graph",
+  "nodes": [
+    "repo/test reproduction with runtime evidence",
+    "package install/test reproduction",
+    "scientific dataset reliability",
+    "time-series temporal split benchmark",
+    "protocol-card benchmark validation",
+    "source/evidence extraction evidence check",
+    "Evaluation Fragility",
+    "Protocol Sensitivity",
+    "Protocol Ambiguity Barrier"
+  ],
+  "edges": [
+    {
+      "from": "Evaluation Fragility",
+      "to": "repo/test reproduction with runtime evidence",
+      "type": "transfers_partially"
+    },
+    {
+      "from": "Evaluation Fragility",
+      "to": "package install/test reproduction",
+      "type": "transfers_partially"
+    },
+    {
+      "from": "Evaluation Fragility",
+      "to": "scientific dataset reliability",
+      "type": "transfers_partially"
+    },
+    {
+      "from": "Evaluation Fragility",
+      "to": "time-series temporal split benchmark",
+      "type": "transfers_partially"
+    },
+    {
+      "from": "Evaluation Fragility",
+      "to": "protocol-card benchmark validation",
+      "type": "transfers_partially"
+    },
+    {
+      "from": "Evaluation Fragility",
+      "to": "source/evidence extraction evidence check",
+      "type": "transfers_partially"
+    }
+  ]
+}

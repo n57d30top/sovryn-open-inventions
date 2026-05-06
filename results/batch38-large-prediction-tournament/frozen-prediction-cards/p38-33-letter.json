@@ -1,0 +1,16 @@
+{
+  "predictionId": "p38-33-letter",
+  "frozenTimestamp": "2026-05-06T16:39:24Z",
+  "target": "UCI Letter Recognition",
+  "sourceUrl": "https://archive.ics.uci.edu/dataset/59/letter+recognition",
+  "domain": "UCI",
+  "linkedFormalTheory": "protocol_sensitivity",
+  "mechanism": "no_material_mechanism_control",
+  "predictedLabel": "low",
+  "predictedMetricRange": "high: >0.04, moderate: 0.015-0.04, low: <0.015, ambiguous: not point-estimated",
+  "predictedFalsifier": "low-risk control, missing required field, alternative mechanism, or replay/model-family disagreement",
+  "executionPlan": "load public data or run safe package check; compare baseline, control, protocol, and replay evidence",
+  "noEditRule": "Frozen before execution and not rewritten after observation",
+  "priorDepth": "previously_studied",
+  "preregistrationHash": "495ef75523f2a40d107bfe77b876554bc1009ea7424894f3f1fb17cdf859cfa7"
+}

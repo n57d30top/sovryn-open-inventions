@@ -1,0 +1,58 @@
+{
+  "conceptId": "protocol_leakage_shadow",
+  "name": "Protocol Leakage Shadow",
+  "definition": "Protocol Leakage Shadow is retained only if it compresses examples, non-examples, predictions, and falsifiers.",
+  "whyExistingTermsInsufficient": "Existing labels are insufficient when they do not predict or falsify target behavior.",
+  "evidenceCompressed": [
+    "mechanism atlas",
+    "formal model",
+    "large tournament",
+    "transfer tests"
+  ],
+  "examples": [
+    "UCI HAR Smartphones subject split",
+    "UCI Statlog Shuttle rare-class metric behavior",
+    "UCI Vehicle Silhouettes file-protocol ambiguity"
+  ],
+  "nonExamples": [
+    "scikit-learn digits control",
+    "UCI Letter as protocol-absent control",
+    "duplicate transfer on HAR"
+  ],
+  "measurableIndicators": [
+    "source_random_delta_macro_f1",
+    "source_random_delta_accuracy",
+    "class_distribution_shift",
+    "rare_class_support_min",
+    "train_test_duplicate_overlap",
+    "feature_vector_overlap"
+  ],
+  "variables": [
+    "source_random_delta_macro_f1",
+    "source_random_delta_accuracy",
+    "class_distribution_shift",
+    "rare_class_support_min",
+    "train_test_duplicate_overlap",
+    "feature_vector_overlap",
+    "group_subject_overlap",
+    "protocol_clarity_score"
+  ],
+  "predictions": [
+    "should improve calibration or reject a weak claim"
+  ],
+  "falsifiers": [
+    "no prediction improvement",
+    "dominated by existing concept",
+    "not measurable"
+  ],
+  "transferScope": "safe public computational evidence only",
+  "failureCases": [
+    "too broad",
+    "too narrow",
+    "not testable"
+  ],
+  "confidence": 0.42,
+  "simplicity": 0.7,
+  "compressionValue": 0.35,
+  "predictionValue": 0.3
+}

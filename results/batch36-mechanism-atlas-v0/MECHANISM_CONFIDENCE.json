@@ -1,0 +1,137 @@
+{
+  "kind": "mechanism_confidence",
+  "mechanisms": {
+    "protocol_sensitivity": {
+      "evidenceStrength": 0.72,
+      "predictionSupport": 0.69,
+      "falsificationExposure": 0.78,
+      "crossTargetSupport": 0.64,
+      "negativeControlSupport": 0.72,
+      "replaySupport": 0.75,
+      "ambiguityPenalty": 0.08,
+      "overclaimRisk": 0.18,
+      "confidence": 0.72
+    },
+    "random_split_inflation": {
+      "evidenceStrength": 0.55,
+      "predictionSupport": 0.52,
+      "falsificationExposure": 0.78,
+      "crossTargetSupport": 0.47,
+      "negativeControlSupport": 0.72,
+      "replaySupport": 0.75,
+      "ambiguityPenalty": 0.08,
+      "overclaimRisk": 0.3,
+      "confidence": 0.55
+    },
+    "class_imbalance_metric_illusion": {
+      "evidenceStrength": 0.72,
+      "predictionSupport": 0.69,
+      "falsificationExposure": 0.78,
+      "crossTargetSupport": 0.64,
+      "negativeControlSupport": 0.72,
+      "replaySupport": 0.75,
+      "ambiguityPenalty": 0.08,
+      "overclaimRisk": 0.18,
+      "confidence": 0.72
+    },
+    "protocol_ambiguity_barrier": {
+      "evidenceStrength": 0.72,
+      "predictionSupport": 0.69,
+      "falsificationExposure": 0.78,
+      "crossTargetSupport": 0.64,
+      "negativeControlSupport": 0.72,
+      "replaySupport": 0.75,
+      "ambiguityPenalty": 0.2,
+      "overclaimRisk": 0.18,
+      "confidence": 0.72
+    },
+    "duplicate_transfer": {
+      "evidenceStrength": 0.43,
+      "predictionSupport": 0.4,
+      "falsificationExposure": 0.78,
+      "crossTargetSupport": 0.35,
+      "negativeControlSupport": 0.72,
+      "replaySupport": 0.75,
+      "ambiguityPenalty": 0.08,
+      "overclaimRisk": 0.3,
+      "confidence": 0.43
+    },
+    "group_file_subject_overlap": {
+      "evidenceStrength": 0.72,
+      "predictionSupport": 0.69,
+      "falsificationExposure": 0.78,
+      "crossTargetSupport": 0.64,
+      "negativeControlSupport": 0.72,
+      "replaySupport": 0.75,
+      "ambiguityPenalty": 0.08,
+      "overclaimRisk": 0.18,
+      "confidence": 0.72
+    },
+    "model_family_sensitivity": {
+      "evidenceStrength": 0.55,
+      "predictionSupport": 0.52,
+      "falsificationExposure": 0.78,
+      "crossTargetSupport": 0.47,
+      "negativeControlSupport": 0.72,
+      "replaySupport": 0.75,
+      "ambiguityPenalty": 0.08,
+      "overclaimRisk": 0.18,
+      "confidence": 0.55
+    },
+    "replay_instability": {
+      "evidenceStrength": 0.43,
+      "predictionSupport": 0.4,
+      "falsificationExposure": 0.78,
+      "crossTargetSupport": 0.35,
+      "negativeControlSupport": 0.72,
+      "replaySupport": 0.75,
+      "ambiguityPenalty": 0.08,
+      "overclaimRisk": 0.18,
+      "confidence": 0.43
+    },
+    "ordinary_benchmark_difficulty": {
+      "evidenceStrength": 0.55,
+      "predictionSupport": 0.52,
+      "falsificationExposure": 0.78,
+      "crossTargetSupport": 0.47,
+      "negativeControlSupport": 0.72,
+      "replaySupport": 0.75,
+      "ambiguityPenalty": 0.08,
+      "overclaimRisk": 0.18,
+      "confidence": 0.55
+    },
+    "evidence_packaging_dominance": {
+      "evidenceStrength": 0.55,
+      "predictionSupport": 0.52,
+      "falsificationExposure": 0.78,
+      "crossTargetSupport": 0.47,
+      "negativeControlSupport": 0.72,
+      "replaySupport": 0.75,
+      "ambiguityPenalty": 0.08,
+      "overclaimRisk": 0.18,
+      "confidence": 0.55
+    },
+    "tool_value_compression": {
+      "evidenceStrength": 0.43,
+      "predictionSupport": 0.4,
+      "falsificationExposure": 0.78,
+      "crossTargetSupport": 0.35,
+      "negativeControlSupport": 0.72,
+      "replaySupport": 0.75,
+      "ambiguityPenalty": 0.08,
+      "overclaimRisk": 0.18,
+      "confidence": 0.43
+    },
+    "no_material_mechanism_control": {
+      "evidenceStrength": 0.55,
+      "predictionSupport": 0.52,
+      "falsificationExposure": 0.78,
+      "crossTargetSupport": 0.47,
+      "negativeControlSupport": 0.72,
+      "replaySupport": 0.75,
+      "ambiguityPenalty": 0.08,
+      "overclaimRisk": 0.18,
+      "confidence": 0.55
+    }
+  }
+}

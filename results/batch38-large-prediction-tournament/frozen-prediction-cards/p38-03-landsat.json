@@ -1,0 +1,16 @@
+{
+  "predictionId": "p38-03-landsat",
+  "frozenTimestamp": "2026-05-06T16:39:24Z",
+  "target": "UCI Statlog Landsat Satellite",
+  "sourceUrl": "https://archive.ics.uci.edu/dataset/146/statlog+landsat+satellite",
+  "domain": "UCI",
+  "linkedFormalTheory": "protocol_sensitivity",
+  "mechanism": "ordinary_benchmark_difficulty",
+  "predictedLabel": "moderate",
+  "predictedMetricRange": "high: >0.04, moderate: 0.015-0.04, low: <0.015, ambiguous: not point-estimated",
+  "predictedFalsifier": "low-risk control, missing required field, alternative mechanism, or replay/model-family disagreement",
+  "executionPlan": "load public data or run safe package check; compare baseline, control, protocol, and replay evidence",
+  "noEditRule": "Frozen before execution and not rewritten after observation",
+  "priorDepth": "previously_studied",
+  "preregistrationHash": "448fa874bc7a38895e89b638120222f1358a5d7ff43648eac4aca1e43df7ae08"
+}

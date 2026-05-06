@@ -1,0 +1,16 @@
+{
+  "predictionId": "p38-39-itsdangerous",
+  "frozenTimestamp": "2026-05-06T16:39:24Z",
+  "target": "itsdangerous signing check",
+  "sourceUrl": "https://palletsprojects.com/projects/itsdangerous/",
+  "domain": "package",
+  "linkedFormalTheory": "replay_robustness",
+  "mechanism": "replay_instability",
+  "predictedLabel": "ambiguous",
+  "predictedMetricRange": "high: >0.04, moderate: 0.015-0.04, low: <0.015, ambiguous: not point-estimated",
+  "predictedFalsifier": "low-risk control, missing required field, alternative mechanism, or replay/model-family disagreement",
+  "executionPlan": "load public data or run safe package check; compare baseline, control, protocol, and replay evidence",
+  "noEditRule": "Frozen before execution and not rewritten after observation",
+  "priorDepth": "not_deeply_studied",
+  "preregistrationHash": "2b66e8a35137be517a0bb562676f044202ee38bd137740b0ca2df9f232dec170"
+}

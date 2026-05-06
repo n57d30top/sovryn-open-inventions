@@ -1,0 +1,16 @@
+{
+  "predictionId": "p38-01-har",
+  "frozenTimestamp": "2026-05-06T16:39:24Z",
+  "target": "UCI HAR Smartphones",
+  "sourceUrl": "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones",
+  "domain": "UCI",
+  "linkedFormalTheory": "protocol_sensitivity",
+  "mechanism": "group_file_subject_overlap",
+  "predictedLabel": "moderate",
+  "predictedMetricRange": "high: >0.04, moderate: 0.015-0.04, low: <0.015, ambiguous: not point-estimated",
+  "predictedFalsifier": "low-risk control, missing required field, alternative mechanism, or replay/model-family disagreement",
+  "executionPlan": "load public data or run safe package check; compare baseline, control, protocol, and replay evidence",
+  "noEditRule": "Frozen before execution and not rewritten after observation",
+  "priorDepth": "previously_studied",
+  "preregistrationHash": "f0949c4cbe312ce32845faa1e7e9539b7597cb153cbf0239cafe9f4d57ba61da"
+}

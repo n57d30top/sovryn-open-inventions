@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T16:22:19.476Z",
+  "generatedAt": "2026-05-06T16:41:21.818Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -261,6 +261,30 @@
       "domain": "theory-guided protocol and leakage mechanism trials"
     },
     {
+      "id": "result:batch36-mechanism-atlas-v0",
+      "kind": "result",
+      "label": "Batch 36 Mechanism Atlas v0",
+      "domain": "formal predictive mechanism science"
+    },
+    {
+      "id": "result:batch37-formal-theory-model-v0",
+      "kind": "result",
+      "label": "Batch 37 Formal Theory Model v0",
+      "domain": "formal predictive mechanism science"
+    },
+    {
+      "id": "result:batch38-large-prediction-tournament",
+      "kind": "result",
+      "label": "Batch 38 Large Prediction Tournament",
+      "domain": "formal predictive mechanism science"
+    },
+    {
+      "id": "result:batch39-cross-domain-mechanism-transfer-scale",
+      "kind": "result",
+      "label": "Batch 39 Cross-Domain Mechanism Transfer at Scale",
+      "domain": "formal predictive mechanism science"
+    },
+    {
       "id": "result:batch4-markupsafe-repo-install-test-reproduction",
       "kind": "result",
       "label": "MarkupSafe Repository Install and Test Reproduction",
@@ -289,6 +313,18 @@
       "kind": "result",
       "label": "UCI Seeds Dataset Quality Execution Audit",
       "domain": "scientific-tabular-dataset-quality"
+    },
+    {
+      "id": "result:batch40-conceptual-compression-program",
+      "kind": "result",
+      "label": "Batch 40 Conceptual Compression Program",
+      "domain": "formal predictive mechanism science"
+    },
+    {
+      "id": "result:batch41-scientific-discovery-challenge",
+      "kind": "result",
+      "label": "Batch 41 Scientific Discovery Challenge",
+      "domain": "formal predictive mechanism science"
     },
     {
       "id": "result:batch5-itsdangerous-repo-install-test-reproduction",
@@ -694,6 +730,11 @@
       "id": "domain:theory-guided protocol and leakage mechanism trials",
       "kind": "domain",
       "label": "theory-guided protocol and leakage mechanism trials"
+    },
+    {
+      "id": "domain:formal predictive mechanism science",
+      "kind": "domain",
+      "label": "formal predictive mechanism science"
     },
     {
       "id": "domain:public-repo-reproducibility",
@@ -1218,6 +1259,26 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:batch36-mechanism-atlas-v0",
+      "target": "domain:formal predictive mechanism science",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch37-formal-theory-model-v0",
+      "target": "domain:formal predictive mechanism science",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch38-large-prediction-tournament",
+      "target": "domain:formal predictive mechanism science",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch39-cross-domain-mechanism-transfer-scale",
+      "target": "domain:formal predictive mechanism science",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:batch4-markupsafe-repo-install-test-reproduction",
       "target": "domain:public-repo-reproducibility",
       "relation": "belongs_to_domain"
@@ -1240,6 +1301,16 @@
     {
       "source": "result:batch4-uci-seeds-dataset-quality-execution",
       "target": "domain:scientific-tabular-dataset-quality",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch40-conceptual-compression-program",
+      "target": "domain:formal predictive mechanism science",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch41-scientific-discovery-challenge",
+      "target": "domain:formal predictive mechanism science",
       "relation": "belongs_to_domain"
     },
     {
@@ -1668,5 +1739,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "ceaee42100c2845f1cd10d5aac80aac7941ed60fe2ded0827f0c1ce75d4c8eb7"
+  "evidenceHash": "6471f580d7f2de7f5718d746eb88bffe2d9f8f82bbaa1c6fe26e0da353befd6c"
 }

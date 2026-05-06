@@ -1,0 +1,74 @@
+{
+  "theoryId": "rare_class_metric_illusion",
+  "name": "Rare-Class Metric Illusion",
+  "formalStatement": "Rare-class support and metric choice can make accuracy look stable while macro/per-class behavior changes.",
+  "variables": [
+    "source_random_delta_macro_f1",
+    "source_random_delta_accuracy",
+    "class_distribution_shift",
+    "rare_class_support_min",
+    "train_test_duplicate_overlap",
+    "feature_vector_overlap",
+    "group_subject_overlap",
+    "protocol_clarity_score",
+    "ambiguity_score",
+    "model_family_variance"
+  ],
+  "assumptions": [
+    "public source evidence is available",
+    "baseline and negative controls are run"
+  ],
+  "causalMechanismGraph": {
+    "nodes": [
+      "protocol",
+      "data_fields",
+      "model_family",
+      "metric",
+      "replay",
+      "claim"
+    ],
+    "edges": [
+      {
+        "from": "protocol",
+        "to": "metric"
+      },
+      {
+        "from": "data_fields",
+        "to": "testability"
+      },
+      {
+        "from": "metric",
+        "to": "claim"
+      }
+    ]
+  },
+  "measurableIndicators": [
+    "macro-F1 delta",
+    "accuracy delta",
+    "duplicate overlap",
+    "group overlap",
+    "ambiguity score"
+  ],
+  "predictionFunction": "rule-based risk label with missing-data downgrade",
+  "uncertaintyHandling": "missing fields produce not-testable or partial labels",
+  "falsificationConditions": [
+    "low-risk control shows same behavior",
+    "alternative mechanism explains the effect",
+    "replay instability changes conclusion"
+  ],
+  "examples": [
+    "UCI HAR Smartphones subject split",
+    "UCI Statlog Shuttle rare-class metric behavior",
+    "UCI Vehicle Silhouettes file-protocol ambiguity"
+  ],
+  "nonExamples": [
+    "scikit-learn digits control",
+    "UCI Letter as protocol-absent control",
+    "duplicate transfer on HAR"
+  ],
+  "scope": "safe public computational evaluations",
+  "knownFailureCases": [
+    "protocol absent single-table controls",
+    "ambiguous documentation"
+  ]
+}

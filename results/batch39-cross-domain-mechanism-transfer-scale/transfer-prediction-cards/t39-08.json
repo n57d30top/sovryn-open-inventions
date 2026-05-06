@@ -1,0 +1,12 @@
+{
+  "transferPredictionId": "t39-08",
+  "domain": "package install/test reproduction",
+  "target": "itsdangerous signing check",
+  "theoryOrConcept": "Protocol Ambiguity Barrier",
+  "expectedMechanism": "protocol or replay condition changes claim strength",
+  "expectedObservation": "success, partial, failed, or not-testable evidence category",
+  "falsifier": "no observable protocol-like condition or missing execution evidence",
+  "frozenTimestamp": "2026-05-06T16:39:24Z",
+  "noEditRule": "Frozen before transfer scoring",
+  "preregistrationHash": "e2534f7e84a81b6b4559bc402481d9577241ccb8f08d77111e49855e2b882f19"
+}

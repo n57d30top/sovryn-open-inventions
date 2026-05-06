@@ -1,0 +1,49 @@
+{
+  "kind": "mechanism_relation_graph",
+  "nodes": [
+    "protocol_sensitivity",
+    "random_split_inflation",
+    "class_imbalance_metric_illusion",
+    "protocol_ambiguity_barrier",
+    "duplicate_transfer",
+    "group_file_subject_overlap",
+    "model_family_sensitivity",
+    "replay_instability",
+    "ordinary_benchmark_difficulty",
+    "evidence_packaging_dominance",
+    "tool_value_compression",
+    "no_material_mechanism_control"
+  ],
+  "edges": [
+    {
+      "from": "class_imbalance_metric_illusion",
+      "to": "duplicate_transfer",
+      "type": "competes_with",
+      "example": "Shuttle-like targets"
+    },
+    {
+      "from": "group_file_subject_overlap",
+      "to": "random_split_inflation",
+      "type": "explains",
+      "example": "HAR-like subject protocols"
+    },
+    {
+      "from": "protocol_ambiguity_barrier",
+      "to": "protocol_sensitivity",
+      "type": "weakens",
+      "example": "Vehicle-like ambiguous files"
+    },
+    {
+      "from": "no_material_mechanism_control",
+      "to": "random_split_inflation",
+      "type": "falsified_by",
+      "example": "Letter and digits controls"
+    },
+    {
+      "from": "model_family_sensitivity",
+      "to": "protocol_sensitivity",
+      "type": "masks",
+      "example": "Shuttle linear vs forest"
+    }
+  ]
+}

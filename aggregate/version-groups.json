@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T16:22:19.476Z",
+  "updatedAt": "2026-05-06T16:41:21.818Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -304,6 +304,34 @@
       ]
     },
     {
+      "versionGroup": "batch36-mechanism-atlas",
+      "latestSlug": "batch36-mechanism-atlas-v0",
+      "resultSlugs": [
+        "batch36-mechanism-atlas-v0"
+      ]
+    },
+    {
+      "versionGroup": "batch37-formal-theory-model",
+      "latestSlug": "batch37-formal-theory-model-v0",
+      "resultSlugs": [
+        "batch37-formal-theory-model-v0"
+      ]
+    },
+    {
+      "versionGroup": "batch38-large-prediction-tournament",
+      "latestSlug": "batch38-large-prediction-tournament",
+      "resultSlugs": [
+        "batch38-large-prediction-tournament"
+      ]
+    },
+    {
+      "versionGroup": "batch39-cross-domain-mechanism-transfer-scale",
+      "latestSlug": "batch39-cross-domain-mechanism-transfer-scale",
+      "resultSlugs": [
+        "batch39-cross-domain-mechanism-transfer-scale"
+      ]
+    },
+    {
       "versionGroup": "batch4-markupsafe-repo-install-test-reproduction",
       "latestSlug": "batch4-markupsafe-repo-install-test-reproduction",
       "resultSlugs": [
@@ -336,6 +364,20 @@
       "latestSlug": "batch4-uci-seeds-dataset-quality-execution",
       "resultSlugs": [
         "batch4-uci-seeds-dataset-quality-execution"
+      ]
+    },
+    {
+      "versionGroup": "batch40-conceptual-compression-program",
+      "latestSlug": "batch40-conceptual-compression-program",
+      "resultSlugs": [
+        "batch40-conceptual-compression-program"
+      ]
+    },
+    {
+      "versionGroup": "batch41-scientific-discovery-challenge",
+      "latestSlug": "batch41-scientific-discovery-challenge",
+      "resultSlugs": [
+        "batch41-scientific-discovery-challenge"
       ]
     },
     {
@@ -605,5 +647,5 @@
       ]
     }
   ],
-  "evidenceHash": "c3f538abb655896173527c5fe11950092d290aea45e1c389c3a356e93e88a82e"
+  "evidenceHash": "8cf390bab1ee0f8e3b40e128524f61edd5cdf5d64b6e6574fa74230c86887323"
 }

@@ -1,0 +1,12 @@
+{
+  "transferPredictionId": "t39-11",
+  "domain": "protocol-card benchmark validation",
+  "target": "HAR protocol source control",
+  "theoryOrConcept": "Evaluation Fragility",
+  "expectedMechanism": "protocol or replay condition changes claim strength",
+  "expectedObservation": "success, partial, failed, or not-testable evidence category",
+  "falsifier": "no observable protocol-like condition or missing execution evidence",
+  "frozenTimestamp": "2026-05-06T16:39:24Z",
+  "noEditRule": "Frozen before transfer scoring",
+  "preregistrationHash": "adbe396de5ad9ff31d1acde47f094301b1533cac781353233c57320132d43468"
+}

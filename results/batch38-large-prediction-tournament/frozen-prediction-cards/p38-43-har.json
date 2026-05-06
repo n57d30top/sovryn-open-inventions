@@ -1,0 +1,16 @@
+{
+  "predictionId": "p38-43-har",
+  "frozenTimestamp": "2026-05-06T16:39:24Z",
+  "target": "UCI HAR Smartphones",
+  "sourceUrl": "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones",
+  "domain": "UCI",
+  "linkedFormalTheory": "protocol_sensitivity",
+  "mechanism": "protocol_ambiguity_barrier",
+  "predictedLabel": "ambiguous",
+  "predictedMetricRange": "high: >0.04, moderate: 0.015-0.04, low: <0.015, ambiguous: not point-estimated",
+  "predictedFalsifier": "low-risk control, missing required field, alternative mechanism, or replay/model-family disagreement",
+  "executionPlan": "load public data or run safe package check; compare baseline, control, protocol, and replay evidence",
+  "noEditRule": "Frozen before execution and not rewritten after observation",
+  "priorDepth": "previously_studied",
+  "preregistrationHash": "8048aae6272b54c33a5e912e2b0a56a62cea041984e9689a1e9b7a1a280a40ac"
+}

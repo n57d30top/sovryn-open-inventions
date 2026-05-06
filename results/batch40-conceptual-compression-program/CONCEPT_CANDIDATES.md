@@ -1,0 +1,22 @@
+# Concept Candidates
+
+- Evaluation Fragility
+- Protocol Sensitivity
+- Replay Robustness
+- Ambiguity Barrier
+- Evidence-Claim Gap
+- Metric Illusion Zone
+- Tool Value Compression
+- Protocol Leakage Shadow
+- Split-Induced Optimism
+- Reproduction Protocol Fragility
+- Benchmark Claim Fragility
+- Evaluation Surface Instability
+- Evidence Compression Failure
+- Mechanism Testability Boundary
+- Replayable Claim Object
+- Protocol Repairability
+- Mechanism Separability
+- Control-Bounded Claim
+- Execution-First Concept
+- Ambiguity-Tolerant Prediction

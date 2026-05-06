@@ -1,0 +1,12 @@
+{
+  "transferPredictionId": "t39-10",
+  "domain": "time-series temporal split benchmark",
+  "target": "daily minimum temperature temporal split",
+  "theoryOrConcept": "Evidence-Claim Gap",
+  "expectedMechanism": "protocol or replay condition changes claim strength",
+  "expectedObservation": "success, partial, failed, or not-testable evidence category",
+  "falsifier": "no observable protocol-like condition or missing execution evidence",
+  "frozenTimestamp": "2026-05-06T16:39:24Z",
+  "noEditRule": "Frozen before transfer scoring",
+  "preregistrationHash": "c23706fe00e84b60c6e421281f240a8fc8c0cb8291a84cf83e80c73533206391"
+}

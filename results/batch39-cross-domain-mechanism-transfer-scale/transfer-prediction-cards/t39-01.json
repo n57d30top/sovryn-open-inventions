@@ -1,0 +1,12 @@
+{
+  "transferPredictionId": "t39-01",
+  "domain": "repo/test reproduction with runtime evidence",
+  "target": "pluggy runtime hook check",
+  "theoryOrConcept": "Evaluation Fragility",
+  "expectedMechanism": "protocol or replay condition changes claim strength",
+  "expectedObservation": "success, partial, failed, or not-testable evidence category",
+  "falsifier": "no observable protocol-like condition or missing execution evidence",
+  "frozenTimestamp": "2026-05-06T16:39:24Z",
+  "noEditRule": "Frozen before transfer scoring",
+  "preregistrationHash": "4d42d371741e19c178ea052bf3367fb8a742cf2f168e85b7413881145d5f4c01"
+}
