@@ -4,7 +4,7 @@ Objective: Final completion report and hard-mode audit.
 
 ## Evidence
 
-- Product commit: `14a98bfd64ec0905d2ec36e88e38b0b78fd48de0`
+- Product commit: `a2dc463eedcd7e3018c9e5190df3f67cddbc91a9`
 - externalClaimCandidatesConsidered: 500
 - claimsScreened: 200
 - frozenPredictionCount: 100
@@ -36,7 +36,7 @@ Objective: Final completion report and hard-mode audit.
 - fullProductTestCount: 3369
 - receiptCount: 100
 - receiptVerificationPassed: True
-- productCommit: 14a98bfd64ec0905d2ec36e88e38b0b78fd48de0
+- productCommit: a2dc463eedcd7e3018c9e5190df3f67cddbc91a9
 - finalClassification: promising_external_review_candidate
 - einsteinPathScore: 54
 - nextFrontierProgram: Controlled external reviewer brief pilot with independent external reviewers
