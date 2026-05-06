@@ -1,0 +1,3 @@
+- preserve: Protocol-first evaluation changes conclusions on Shuttle. Evidence: Shuttle delta macro-F1 0.0656, severity high.
+- preserve_with_limitations: Landsat remains a different spatial/file protocol-risk case. Evidence: Landsat delta macro-F1 0.0222, severity high.
+- preserve: Low-risk controls are necessary. Evidence: Letter delta macro-F1 0.0000, severity low.

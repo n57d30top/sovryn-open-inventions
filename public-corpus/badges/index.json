@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T13:02:54.031Z",
+  "generatedAt": "2026-05-06T13:41:18.123Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -219,6 +219,96 @@
       "showcaseRank": null
     },
     {
+      "slug": "batch15-shuttle-deep-protocol-risk-study",
+      "badges": {
+        "quality": "unknown",
+        "status": "unknown",
+        "antiTemplate": "unknown",
+        "replay": "replay-partial",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "not_evaluated",
+        "lifecycle": "autopublished",
+        "version": "batch15-shuttle-deep-protocol-risk-study",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch16-landsat-deep-protocol-risk-study",
+      "badges": {
+        "quality": "unknown",
+        "status": "unknown",
+        "antiTemplate": "unknown",
+        "replay": "replay-partial",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "not_evaluated",
+        "lifecycle": "needs_revision",
+        "version": "batch16-landsat-deep-protocol-risk-study",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "needs_revision",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch17-protocol-extraction-ambiguity-tournament",
+      "badges": {
+        "quality": "unknown",
+        "status": "unknown",
+        "antiTemplate": "unknown",
+        "replay": "replay-partial",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "not_evaluated",
+        "lifecycle": "autopublished",
+        "version": "batch17-protocol-extraction-ambiguity-tournament",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch18-cross-target-split-risk-atlas",
+      "badges": {
+        "quality": "unknown",
+        "status": "unknown",
+        "antiTemplate": "unknown",
+        "replay": "replay-partial",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "not_evaluated",
+        "lifecycle": "autopublished",
+        "version": "batch18-cross-target-split-risk-atlas",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch19-protocol-risk-kill-week",
+      "badges": {
+        "quality": "unknown",
+        "status": "unknown",
+        "antiTemplate": "unknown",
+        "replay": "replay-partial",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "not_evaluated",
+        "lifecycle": "autopublished",
+        "version": "batch19-protocol-risk-kill-week",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
       "slug": "batch2-climate-fever-claim-verification-followup",
       "badges": {
         "quality": "reviewable",
@@ -303,6 +393,24 @@
         "falsification": "candidate_rejected_by_falsification",
         "lifecycle": "autopublished",
         "version": "batch2-uci-occupancy-benchmark-challenge",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch20-protocol-risk-paper-grade-frontier-result",
+      "badges": {
+        "quality": "unknown",
+        "status": "unknown",
+        "antiTemplate": "unknown",
+        "replay": "replay-partial",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "not_evaluated",
+        "lifecycle": "autopublished",
+        "version": "batch20-protocol-risk-paper-grade-frontier-result",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -1371,5 +1479,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "5635959372b8133b6e617a5bbe8048522d144bc0a44c6cf23c65307e3f114882"
+  "evidenceHash": "b40283c03d4119cb7ade7f9bc953d673d34dc30d3365de5e4371de9d0dfad644"
 }

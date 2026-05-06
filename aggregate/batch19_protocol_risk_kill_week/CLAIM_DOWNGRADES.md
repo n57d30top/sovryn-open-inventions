@@ -1,0 +1,3 @@
+- downgrade: Protocol-first risk is systematic across every benchmark. Evidence: Letter and control-style targets show low or absent protocol effects.
+- narrow: metric_stress_validator discovers split risk by itself. Evidence: It packages controls and class-risk evidence but does not replace model-family and split-family experiments.
+- downgrade: Source-described files equal official leaderboard reproduction. Evidence: The program followed source files but did not reproduce external leaderboard protocols.

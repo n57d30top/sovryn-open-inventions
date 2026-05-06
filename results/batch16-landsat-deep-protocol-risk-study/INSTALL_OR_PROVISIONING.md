@@ -1,0 +1,3 @@
+# Install Or Provisioning
+
+Installed/provisioned packages: pandas 3.0.2, numpy 2.4.4, scikit-learn 1.8.0.

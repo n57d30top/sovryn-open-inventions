@@ -1,0 +1,1 @@
+The strongest evidence is Shuttle and Landsat. Low-risk controls and approximated protocols prevent universal claims. The next batch should attack cherry-picking, model-family dependence, and metric choice.

@@ -75,6 +75,40 @@
       "customTool": null
     },
     {
+      "slug": "batch15-shuttle-deep-protocol-risk-study",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch16-landsat-deep-protocol-risk-study",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch17-protocol-extraction-ambiguity-tournament",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch18-cross-target-split-risk-atlas",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch19-protocol-risk-kill-week",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
       "slug": "batch2-climate-fever-claim-verification-followup",
       "externalPackages": [],
       "customTool": null
@@ -97,6 +131,14 @@
     {
       "slug": "batch2-uci-occupancy-benchmark-challenge",
       "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch20-protocol-risk-paper-grade-frontier-result",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
       "customTool": null
     },
     {
@@ -456,5 +498,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "e260a68493fc13cdcfdc2e4aaffdf2ca0d7cf9ae420128ee81ee7d4ef5a4d629"
+  "evidenceHash": "e96574952308103985acb07b1d17e3b4eb56d49d4c4c1795b5b7650842cd6a9a"
 }

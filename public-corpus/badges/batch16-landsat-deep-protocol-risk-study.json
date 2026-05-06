@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "batch16-landsat-deep-protocol-risk-study",
+  "badges": {
+    "quality": "unknown",
+    "status": "unknown",
+    "antiTemplate": "unknown",
+    "replay": "replay-partial",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "not_evaluated",
+    "lifecycle": "needs_revision",
+    "version": "batch16-landsat-deep-protocol-risk-study",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "needs_revision",
+  "showcaseRank": null,
+  "evidenceHash": "94c1c82b6d0758ec30e92aa2e9d7ff9c4a25847853736934fcfaf47a12d0745a"
+}

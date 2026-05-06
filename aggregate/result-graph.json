@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T13:02:54.031Z",
+  "generatedAt": "2026-05-06T13:41:18.123Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -75,6 +75,36 @@
       "domain": "protocol-first-benchmark-validation-and-split-risk"
     },
     {
+      "id": "result:batch15-shuttle-deep-protocol-risk-study",
+      "kind": "result",
+      "label": "Batch15 Shuttle Deep Protocol Risk Study",
+      "domain": "open-research"
+    },
+    {
+      "id": "result:batch16-landsat-deep-protocol-risk-study",
+      "kind": "result",
+      "label": "Batch16 Landsat Deep Protocol Risk Study",
+      "domain": "open-research"
+    },
+    {
+      "id": "result:batch17-protocol-extraction-ambiguity-tournament",
+      "kind": "result",
+      "label": "Batch17 Protocol Extraction Ambiguity Tournament",
+      "domain": "open-research"
+    },
+    {
+      "id": "result:batch18-cross-target-split-risk-atlas",
+      "kind": "result",
+      "label": "Batch18 Cross Target Split Risk Atlas",
+      "domain": "open-research"
+    },
+    {
+      "id": "result:batch19-protocol-risk-kill-week",
+      "kind": "result",
+      "label": "Batch19 Protocol Risk Kill Week",
+      "domain": "open-research"
+    },
+    {
       "id": "result:batch2-climate-fever-claim-verification-followup",
       "kind": "result",
       "label": "Climate-FEVER Claim Verification Source-Card Reproduction Follow-Up",
@@ -103,6 +133,12 @@
       "kind": "result",
       "label": "UCI Occupancy Detection Benchmark Challenge",
       "domain": "time-series-benchmark-challenge"
+    },
+    {
+      "id": "result:batch20-protocol-risk-paper-grade-frontier-result",
+      "kind": "result",
+      "label": "Batch20 Protocol Risk Paper Grade Frontier Result",
+      "domain": "open-research"
     },
     {
       "id": "result:batch3-palmer-penguins-dataset-quality-execution",
@@ -514,6 +550,11 @@
       "label": "protocol-first-benchmark-validation-and-split-risk"
     },
     {
+      "id": "domain:open-research",
+      "kind": "domain",
+      "label": "open-research"
+    },
+    {
       "id": "domain:claim-verification-benchmark-quality",
       "kind": "domain",
       "label": "claim-verification-benchmark-quality"
@@ -801,6 +842,61 @@
       "relation": "uses_public_tool_evidence"
     },
     {
+      "source": "result:batch15-shuttle-deep-protocol-risk-study",
+      "target": "domain:open-research",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch15-shuttle-deep-protocol-risk-study",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch15-shuttle-deep-protocol-risk-study",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch16-landsat-deep-protocol-risk-study",
+      "target": "domain:open-research",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch16-landsat-deep-protocol-risk-study",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch16-landsat-deep-protocol-risk-study",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch17-protocol-extraction-ambiguity-tournament",
+      "target": "domain:open-research",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch18-cross-target-split-risk-atlas",
+      "target": "domain:open-research",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch19-protocol-risk-kill-week",
+      "target": "domain:open-research",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch19-protocol-risk-kill-week",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch19-protocol-risk-kill-week",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
       "source": "result:batch2-climate-fever-claim-verification-followup",
       "target": "domain:claim-verification-benchmark-quality",
       "relation": "belongs_to_domain"
@@ -824,6 +920,21 @@
       "source": "result:batch2-uci-occupancy-benchmark-challenge",
       "target": "domain:time-series-benchmark-challenge",
       "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch20-protocol-risk-paper-grade-frontier-result",
+      "target": "domain:open-research",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch20-protocol-risk-paper-grade-frontier-result",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch20-protocol-risk-paper-grade-frontier-result",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
     },
     {
       "source": "result:batch3-palmer-penguins-dataset-quality-execution",
@@ -1301,5 +1412,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "ddae7ba2caf840f536c03d4f34307ad825120e1339480653928192f3d5d71839"
+  "evidenceHash": "1597bdb74c360d1ddca3f196456e529367f6c43b2cf99417e84cf2e7ee6c5a9d"
 }

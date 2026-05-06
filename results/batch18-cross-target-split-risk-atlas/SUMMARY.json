@@ -1,0 +1,20 @@
+{
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+  "lowRiskControls": [
+    "UCI Image Segmentation",
+    "UCI Letter Recognition",
+    "UCI Optical Recognition of Handwritten Digits",
+    "UCI Pen-Based Recognition of Handwritten Digits",
+    "UCI Wine Recognition"
+  ],
+  "moderateOrHighTargets": [
+    "UCI Human Activity Recognition Using Smartphones",
+    "UCI Statlog Landsat Satellite",
+    "UCI Statlog Shuttle"
+  ],
+  "negativeOrPartial": true,
+  "refreshedExecutionCount": 6,
+  "resultKind": "cross_target_split_risk_atlas",
+  "slug": "batch18-cross-target-split-risk-atlas",
+  "targetCount": 8
+}

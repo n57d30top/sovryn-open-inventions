@@ -1,0 +1,5 @@
+- metric_stress_validator: reusable_support_tool
+- schema_provenance_auditor: packaging_only
+- protocol-card replay: reusable_support_tool
+- split-risk helper: narrow_but_useful
+- reproduction ladder pack: reusable_support_tool

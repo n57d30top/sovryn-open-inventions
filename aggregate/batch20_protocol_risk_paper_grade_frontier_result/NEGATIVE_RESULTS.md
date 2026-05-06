@@ -1,0 +1,5 @@
+- Letter remained protocol-approximated.
+- Wine and Iris-style controls do not support protocol-risk claims.
+- Universal random-split inflation was downgraded.
+- metric_stress_validator remains support, not discovery.
+- schema_provenance_auditor remains packaging-only for this program.

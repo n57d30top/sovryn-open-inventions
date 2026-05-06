@@ -17,11 +17,17 @@ can supersede earlier entries while preserving audit history.
 - batch12-research-production-review-next-frontier-program: latest batch12-research-production-review-next-frontier-program; versions batch12-research-production-review-next-frontier-program
 - batch13-protocol-first-benchmark-validation-week1: latest batch13-protocol-first-benchmark-validation-week1; versions batch13-protocol-first-benchmark-validation-week1
 - batch14-protocol-risk-expansion-week2: latest batch14-protocol-risk-expansion-week2; versions batch14-protocol-risk-expansion-week2
+- batch15-shuttle-deep-protocol-risk-study: latest batch15-shuttle-deep-protocol-risk-study; versions batch15-shuttle-deep-protocol-risk-study
+- batch16-landsat-deep-protocol-risk-study: latest batch16-landsat-deep-protocol-risk-study; versions batch16-landsat-deep-protocol-risk-study
+- batch17-protocol-extraction-ambiguity-tournament: latest batch17-protocol-extraction-ambiguity-tournament; versions batch17-protocol-extraction-ambiguity-tournament
+- batch18-cross-target-split-risk-atlas: latest batch18-cross-target-split-risk-atlas; versions batch18-cross-target-split-risk-atlas
+- batch19-protocol-risk-kill-week: latest batch19-protocol-risk-kill-week; versions batch19-protocol-risk-kill-week
 - batch2-climate-fever-claim-verification-followup: latest batch2-climate-fever-claim-verification-followup; versions batch2-climate-fever-claim-verification-followup
 - batch2-hotpotqa-source-evidence-extraction-challenge: latest batch2-hotpotqa-source-evidence-extraction-challenge; versions batch2-hotpotqa-source-evidence-extraction-challenge
 - batch2-pyod-reproducibility-audit: latest batch2-pyod-reproducibility-audit; versions batch2-pyod-reproducibility-audit
 - batch2-uci-auto-mpg-dataset-quality-audit: latest batch2-uci-auto-mpg-dataset-quality-audit; versions batch2-uci-auto-mpg-dataset-quality-audit
 - batch2-uci-occupancy-benchmark-challenge: latest batch2-uci-occupancy-benchmark-challenge; versions batch2-uci-occupancy-benchmark-challenge
+- batch20-protocol-risk-paper-grade-frontier-result: latest batch20-protocol-risk-paper-grade-frontier-result; versions batch20-protocol-risk-paper-grade-frontier-result
 - batch3-palmer-penguins-dataset-quality-execution: latest batch3-palmer-penguins-dataset-quality-execution; versions batch3-palmer-penguins-dataset-quality-execution
 - batch3-rapidfuzz-repo-install-example-reproduction: latest batch3-rapidfuzz-repo-install-example-reproduction; versions batch3-rapidfuzz-repo-install-example-reproduction
 - batch3-squad-v2-source-evidence-extraction-audit: latest batch3-squad-v2-source-evidence-extraction-audit; versions batch3-squad-v2-source-evidence-extraction-audit

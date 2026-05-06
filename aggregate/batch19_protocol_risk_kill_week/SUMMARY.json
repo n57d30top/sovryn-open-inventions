@@ -1,0 +1,15 @@
+{
+  "attackedComponentCount": 6,
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+  "downgradedClaimCount": 3,
+  "negativeOrPartial": true,
+  "preservedClaimCount": 3,
+  "resultKind": "protocol_risk_kill_week",
+  "slug": "batch19-protocol-risk-kill-week",
+  "toolDecisions": {
+    "metric_stress_validator": "reusable_support_tool_with_model_family_checks_required",
+    "protocol_card_replay": "reusable_support_tool",
+    "schema_provenance_auditor": "packaging_only",
+    "split_risk_helper": "narrow_but_useful_for_protocol_vs_random_tables"
+  }
+}

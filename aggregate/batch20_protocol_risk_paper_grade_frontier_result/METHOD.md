@@ -1,0 +1,1 @@
+Protocol-first validation means reconstructing source-described splits first, then comparing them against random challengers with common baselines, negative controls, per-class metrics, replay, and explicit claim downgrade rules.

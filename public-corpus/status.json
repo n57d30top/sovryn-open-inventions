@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_status",
-  "generatedAt": "2026-05-06T13:02:54.031Z",
+  "generatedAt": "2026-05-06T13:41:18.123Z",
   "statusCounts": {
     "autopublished": 42,
     "benchmark_challenge_negative_result": 4,
@@ -17,11 +17,12 @@
     "replication_supported_external_candidate": 1,
     "source_evidence_extraction_audit_supported": 3,
     "strategy_trial_ready": 1,
-    "strong_external_negative_result": 1
+    "strong_external_negative_result": 1,
+    "unknown": 6
   },
   "lifecycleCounts": {
-    "autopublished": 45,
-    "needs_revision": 4,
+    "autopublished": 50,
+    "needs_revision": 5,
     "showcase": 3,
     "showcase_science": 10,
     "superseded": 14
@@ -43,6 +44,7 @@
     "ml-repository-reproduction": 1,
     "node-toolchain-policy": 1,
     "open-invention-corpus": 3,
+    "open-research": 6,
     "protocol-first-benchmark-validation-and-split-risk": 2,
     "provenance-aware-data-quality-methods": 1,
     "public-dataset-quality-audit": 5,
@@ -69,5 +71,5 @@
     "time-series-tabular-benchmark": 1,
     "tool-backed-dataset-quality-audit": 1
   },
-  "evidenceHash": "eaf092aefc24f2ce59ee2de25087d8357c5ac877326ecd914dcead2f4b880821"
+  "evidenceHash": "961fb95e967aecad777cc05edfc7b0679682e1dda5c2226d2bd10b0485cb6a89"
 }

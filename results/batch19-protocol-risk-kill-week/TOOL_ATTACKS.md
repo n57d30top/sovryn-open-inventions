@@ -1,0 +1,4 @@
+- metric_stress_validator: reusable_support_tool_with_model_family_checks_required
+- protocol_card_replay: reusable_support_tool
+- schema_provenance_auditor: packaging_only
+- split_risk_helper: narrow_but_useful_for_protocol_vs_random_tables

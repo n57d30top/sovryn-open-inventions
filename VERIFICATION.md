@@ -1,6 +1,6 @@
 # Verification
 
-Indexed public results: 76
+Indexed public results: 82
 
 ## Public Corpus Product Gates
 
@@ -28,11 +28,12 @@ Indexed public results: 76
 - source_evidence_extraction_audit_supported: 3
 - strategy_trial_ready: 1
 - strong_external_negative_result: 1
+- unknown: 6
 
 ## Lifecycle Counts
 
-- autopublished: 45
-- needs_revision: 4
+- autopublished: 50
+- needs_revision: 5
 - showcase: 3
 - showcase_science: 10
 - superseded: 14

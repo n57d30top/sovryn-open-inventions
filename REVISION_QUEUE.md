@@ -1,6 +1,7 @@
 # Revision Queue
 
 
+- batch16-landsat-deep-protocol-risk-study: needs_revision. Specificity score is below the public corpus promotion threshold.
 - corpus-deduplication: needs_revision. Falsification status is insufficient_tests.
 - evidence-chain-v2: needs_revision. Falsification status is insufficient_tests.
 - self-built-lab-reproduction-388ccd1946ad: needs_revision. Specificity score is below the public corpus promotion threshold.

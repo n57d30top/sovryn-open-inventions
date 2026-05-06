@@ -110,6 +110,51 @@
       "pushed": false
     },
     {
+      "slug": "batch15-shuttle-deep-protocol-risk-study",
+      "path": "results/batch15-shuttle-deep-protocol-risk-study",
+      "status": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch15-shuttle-deep-protocol-risk-study",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch16-landsat-deep-protocol-risk-study",
+      "path": "results/batch16-landsat-deep-protocol-risk-study",
+      "status": "unknown",
+      "lifecycleStatus": "needs_revision",
+      "versionGroup": "batch16-landsat-deep-protocol-risk-study",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch17-protocol-extraction-ambiguity-tournament",
+      "path": "results/batch17-protocol-extraction-ambiguity-tournament",
+      "status": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch17-protocol-extraction-ambiguity-tournament",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch18-cross-target-split-risk-atlas",
+      "path": "results/batch18-cross-target-split-risk-atlas",
+      "status": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch18-cross-target-split-risk-atlas",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch19-protocol-risk-kill-week",
+      "path": "results/batch19-protocol-risk-kill-week",
+      "status": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch19-protocol-risk-kill-week",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
       "slug": "batch2-climate-fever-claim-verification-followup",
       "path": "results/batch2-climate-fever-claim-verification-followup",
       "status": "external_reproduction_partial",
@@ -151,6 +196,15 @@
       "status": "benchmark_challenge_negative_result",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch2-uci-occupancy-benchmark-challenge",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch20-protocol-risk-paper-grade-frontier-result",
+      "path": "results/batch20-protocol-risk-paper-grade-frontier-result",
+      "status": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch20-protocol-risk-paper-grade-frontier-result",
       "supersededBy": null,
       "pushed": true
     },
@@ -686,5 +740,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "b75077a5a960c3163c943ba509fed2501d29192bf5f7cec5bedb7f4bdbd37e0c"
+  "evidenceHash": "650f18bbb339054e4eeff324cf3c8e4cabaf0ba421538ef003190fb3dcdb5c75"
 }

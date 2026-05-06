@@ -1,0 +1,40 @@
+{
+  "containerNetoffReplay": {
+    "batch": "15",
+    "externalNetworkReachable": false,
+    "network": "none",
+    "packageVersions": {
+      "numpy": "2.4.4",
+      "pandas": "3.0.2",
+      "platform": "Linux-6.8.0-100-generic-aarch64-with-glibc2.41",
+      "python": "3.12.13",
+      "scikit_learn": "1.8.0"
+    },
+    "protocolStatus": "protocol_reproduced",
+    "randomLinearMacroF1": 0.451798,
+    "severity": "high",
+    "sourceLinearMacroF1": 0.386205,
+    "succeeded": true,
+    "target": "UCI Statlog Shuttle"
+  },
+  "deltaMacroF1RandomMinusSource": 0.065593,
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+  "metricStressValidatorUsed": true,
+  "negativeOrPartial": true,
+  "randomLinearMacroF1": 0.451798,
+  "realDataLoaded": true,
+  "repeatedSplitSeeds": [
+    1,
+    7,
+    13,
+    42,
+    99
+  ],
+  "resultKind": "deep_protocol_risk_study",
+  "schemaProvenanceAuditorRole": "packaging_only",
+  "severityDecision": "high",
+  "slug": "batch15-shuttle-deep-protocol-risk-study",
+  "sourceLinearMacroF1": 0.386205,
+  "splitFamilyCount": 6,
+  "target": "UCI Statlog Shuttle"
+}

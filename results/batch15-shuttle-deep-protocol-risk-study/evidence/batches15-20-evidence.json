@@ -1,0 +1,6553 @@
+{
+  "batch15": {
+    "analysis": {
+      "classBalancedVariants": {
+        "source": {
+          "classCountsTest": {
+            "1": 11478,
+            "2": 13,
+            "3": 39,
+            "4": 2155,
+            "5": 809,
+            "6": 4,
+            "7": 2
+          },
+          "classCountsTrain": {
+            "1": 34108,
+            "2": 37,
+            "3": 132,
+            "4": 6748,
+            "5": 2458,
+            "6": 6,
+            "7": 11
+          },
+          "family": "source",
+          "models": {
+            "balanced_linear": {
+              "accuracy": 0.954483,
+              "confusionDiagonal": {
+                "1": 10824,
+                "2": 13,
+                "3": 39,
+                "4": 2152,
+                "5": 806,
+                "6": 4,
+                "7": 2
+              },
+              "fitRows": 43500,
+              "macroF1": 0.818481,
+              "model": "balanced_linear",
+              "perClassF1": {
+                "1": 0.970675,
+                "2": 0.742857,
+                "3": 0.847826,
+                "4": 0.871784,
+                "5": 0.997525,
+                "6": 0.727273,
+                "7": 0.571429
+              },
+              "requestedModel": "balanced_linear",
+              "trainRows": 43500,
+              "trainSampled": false,
+              "weightedF1": 0.956819,
+              "worstClasses": [
+                {
+                  "class": "7",
+                  "f1": 0.571429
+                },
+                {
+                  "class": "6",
+                  "f1": 0.727273
+                },
+                {
+                  "class": "2",
+                  "f1": 0.742857
+                },
+                {
+                  "class": "3",
+                  "f1": 0.847826
+                },
+                {
+                  "class": "4",
+                  "f1": 0.871784
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 14500,
+          "trainCount": 43500
+        },
+        "stratified_random": {
+          "classCountsTest": {
+            "1": 11396,
+            "2": 12,
+            "3": 43,
+            "4": 2226,
+            "5": 817,
+            "6": 3,
+            "7": 3
+          },
+          "classCountsTrain": {
+            "1": 34190,
+            "2": 38,
+            "3": 128,
+            "4": 6677,
+            "5": 2450,
+            "6": 7,
+            "7": 10
+          },
+          "family": "stratified_random",
+          "models": {
+            "balanced_linear": {
+              "accuracy": 0.956621,
+              "confusionDiagonal": {
+                "1": 10776,
+                "2": 12,
+                "3": 43,
+                "4": 2221,
+                "5": 814,
+                "6": 2,
+                "7": 3
+              },
+              "fitRows": 43500,
+              "macroF1": 0.84686,
+              "model": "balanced_linear",
+              "perClassF1": {
+                "1": 0.971993,
+                "2": 0.727273,
+                "3": 0.826923,
+                "4": 0.880476,
+                "5": 0.997549,
+                "6": 0.666667,
+                "7": 0.857143
+              },
+              "requestedModel": "balanced_linear",
+              "trainRows": 43500,
+              "trainSampled": false,
+              "weightedF1": 0.958664,
+              "worstClasses": [
+                {
+                  "class": "6",
+                  "f1": 0.666667
+                },
+                {
+                  "class": "2",
+                  "f1": 0.727273
+                },
+                {
+                  "class": "3",
+                  "f1": 0.826923
+                },
+                {
+                  "class": "7",
+                  "f1": 0.857143
+                },
+                {
+                  "class": "4",
+                  "f1": 0.880476
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 14500,
+          "trainCount": 43500
+        }
+      },
+      "dataset": {
+        "classCount": 7,
+        "classCounts": {
+          "1": 45586,
+          "2": 50,
+          "3": 171,
+          "4": 8903,
+          "5": 3267,
+          "6": 10,
+          "7": 13
+        },
+        "duplicateFeatureRows": 0,
+        "extra": {
+          "sourceDocMentionsTimeOrder": true,
+          "sourceDocMentionsTrainTest": true
+        },
+        "featureCount": 9,
+        "missingCells": 0,
+        "rowCount": 58000,
+        "testClassCounts": {
+          "1": 11478,
+          "2": 13,
+          "3": 39,
+          "4": 2155,
+          "5": 809,
+          "6": 4,
+          "7": 2
+        },
+        "testCount": 14500,
+        "trainClassCounts": {
+          "1": 34108,
+          "2": 37,
+          "3": 132,
+          "4": 6748,
+          "5": 2458,
+          "6": 6,
+          "7": 11
+        },
+        "trainCount": 43500
+      },
+      "metricStress": {
+        "accuracyCanHideClassRisk": true,
+        "accuracyMinusMacroF1RandomLinear": 0.472822,
+        "accuracyMinusMacroF1SourceLinear": 0.547313,
+        "randomMinusSourceAccuracy": -0.008897,
+        "randomMinusSourceMacroF1": 0.065594,
+        "repeatedSeedMacroF1Range": 0.111519,
+        "role": "support tool for anti-hype metric stress, not benchmark proof",
+        "shuffledLabelControl": {
+          "accuracy": 0.791172,
+          "confusionDiagonal": {
+            "1": 11469,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 3,
+            "6": 0,
+            "7": 0
+          },
+          "fitRows": 43500,
+          "macroF1": 0.127278,
+          "model": "sgd_linear",
+          "perClassF1": {
+            "1": 0.88359,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.007353,
+            "6": 0.0,
+            "7": 0.0
+          },
+          "requestedModel": "linear",
+          "trainRows": 43500,
+          "trainSampled": false,
+          "weightedF1": 0.699848,
+          "worstClasses": [
+            {
+              "class": "2",
+              "f1": 0.0
+            },
+            {
+              "class": "3",
+              "f1": 0.0
+            },
+            {
+              "class": "4",
+              "f1": 0.0
+            },
+            {
+              "class": "6",
+              "f1": 0.0
+            },
+            {
+              "class": "7",
+              "f1": 0.0
+            }
+          ]
+        },
+        "toolName": "metric_stress_validator"
+      },
+      "repeatedStratifiedSeeds": [
+        {
+          "classCountsTest": {
+            "1": 11396,
+            "2": 12,
+            "3": 43,
+            "4": 2226,
+            "5": 817,
+            "6": 3,
+            "7": 3
+          },
+          "classCountsTrain": {
+            "1": 34190,
+            "2": 38,
+            "3": 128,
+            "4": 6677,
+            "5": 2450,
+            "6": 7,
+            "7": 10
+          },
+          "family": "repeated_stratified",
+          "models": {
+            "linear": {
+              "accuracy": 0.923793,
+              "confusionDiagonal": {
+                "1": 11280,
+                "2": 0,
+                "3": 0,
+                "4": 1297,
+                "5": 816,
+                "6": 0,
+                "7": 2
+              },
+              "fitRows": 43500,
+              "macroF1": 0.45143,
+              "model": "sgd_linear",
+              "perClassF1": {
+                "1": 0.954961,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.705658,
+                "5": 0.999388,
+                "6": 0.0,
+                "7": 0.5
+              },
+              "requestedModel": "linear",
+              "trainRows": 43500,
+              "trainSampled": false,
+              "weightedF1": 0.915278,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "6",
+                  "f1": 0.0
+                },
+                {
+                  "class": "7",
+                  "f1": 0.5
+                },
+                {
+                  "class": "4",
+                  "f1": 0.705658
+                }
+              ]
+            }
+          },
+          "seed": 1,
+          "testCount": 14500,
+          "trainCount": 43500
+        },
+        {
+          "classCountsTest": {
+            "1": 11396,
+            "2": 12,
+            "3": 43,
+            "4": 2226,
+            "5": 817,
+            "6": 3,
+            "7": 3
+          },
+          "classCountsTrain": {
+            "1": 34190,
+            "2": 38,
+            "3": 128,
+            "4": 6677,
+            "5": 2450,
+            "6": 7,
+            "7": 10
+          },
+          "family": "repeated_stratified",
+          "models": {
+            "linear": {
+              "accuracy": 0.923931,
+              "confusionDiagonal": {
+                "1": 11252,
+                "2": 0,
+                "3": 0,
+                "4": 1328,
+                "5": 815,
+                "6": 0,
+                "7": 2
+              },
+              "fitRows": 43500,
+              "macroF1": 0.495076,
+              "model": "sgd_linear",
+              "perClassF1": {
+                "1": 0.954692,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.712064,
+                "5": 0.998775,
+                "6": 0.0,
+                "7": 0.8
+              },
+              "requestedModel": "linear",
+              "trainRows": 43500,
+              "trainSampled": false,
+              "weightedF1": 0.916078,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "6",
+                  "f1": 0.0
+                },
+                {
+                  "class": "4",
+                  "f1": 0.712064
+                },
+                {
+                  "class": "7",
+                  "f1": 0.8
+                }
+              ]
+            }
+          },
+          "seed": 7,
+          "testCount": 14500,
+          "trainCount": 43500
+        },
+        {
+          "classCountsTest": {
+            "1": 11396,
+            "2": 12,
+            "3": 43,
+            "4": 2226,
+            "5": 817,
+            "6": 3,
+            "7": 3
+          },
+          "classCountsTrain": {
+            "1": 34190,
+            "2": 38,
+            "3": 128,
+            "4": 6677,
+            "5": 2450,
+            "6": 7,
+            "7": 10
+          },
+          "family": "repeated_stratified",
+          "models": {
+            "linear": {
+              "accuracy": 0.930069,
+              "confusionDiagonal": {
+                "1": 11279,
+                "2": 0,
+                "3": 0,
+                "4": 1397,
+                "5": 809,
+                "6": 0,
+                "7": 1
+              },
+              "fitRows": 43500,
+              "macroF1": 0.456098,
+              "model": "sgd_linear",
+              "perClassF1": {
+                "1": 0.95865,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.738958,
+                "5": 0.99508,
+                "6": 0.0,
+                "7": 0.5
+              },
+              "requestedModel": "linear",
+              "trainRows": 43500,
+              "trainSampled": false,
+              "weightedF1": 0.923047,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "6",
+                  "f1": 0.0
+                },
+                {
+                  "class": "7",
+                  "f1": 0.5
+                },
+                {
+                  "class": "4",
+                  "f1": 0.738958
+                }
+              ]
+            }
+          },
+          "seed": 13,
+          "testCount": 14500,
+          "trainCount": 43500
+        },
+        {
+          "classCountsTest": {
+            "1": 11396,
+            "2": 12,
+            "3": 43,
+            "4": 2226,
+            "5": 817,
+            "6": 3,
+            "7": 3
+          },
+          "classCountsTrain": {
+            "1": 34190,
+            "2": 38,
+            "3": 128,
+            "4": 6677,
+            "5": 2450,
+            "6": 7,
+            "7": 10
+          },
+          "family": "repeated_stratified",
+          "models": {
+            "linear": {
+              "accuracy": 0.924621,
+              "confusionDiagonal": {
+                "1": 11262,
+                "2": 0,
+                "3": 0,
+                "4": 1339,
+                "5": 805,
+                "6": 0,
+                "7": 1
+              },
+              "fitRows": 43500,
+              "macroF1": 0.451798,
+              "model": "sgd_linear",
+              "perClassF1": {
+                "1": 0.955703,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.714896,
+                "5": 0.99199,
+                "6": 0.0,
+                "7": 0.5
+              },
+              "requestedModel": "linear",
+              "trainRows": 43500,
+              "trainSampled": false,
+              "weightedF1": 0.916862,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "6",
+                  "f1": 0.0
+                },
+                {
+                  "class": "7",
+                  "f1": 0.5
+                },
+                {
+                  "class": "4",
+                  "f1": 0.714896
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 14500,
+          "trainCount": 43500
+        },
+        {
+          "classCountsTest": {
+            "1": 11396,
+            "2": 12,
+            "3": 43,
+            "4": 2226,
+            "5": 817,
+            "6": 3,
+            "7": 3
+          },
+          "classCountsTrain": {
+            "1": 34190,
+            "2": 38,
+            "3": 128,
+            "4": 6677,
+            "5": 2450,
+            "6": 7,
+            "7": 10
+          },
+          "family": "repeated_stratified",
+          "models": {
+            "linear": {
+              "accuracy": 0.927586,
+              "confusionDiagonal": {
+                "1": 11260,
+                "2": 0,
+                "3": 0,
+                "4": 1375,
+                "5": 815,
+                "6": 0,
+                "7": 0
+              },
+              "fitRows": 43500,
+              "macroF1": 0.383557,
+              "model": "sgd_linear",
+              "perClassF1": {
+                "1": 0.956873,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.72925,
+                "5": 0.998775,
+                "6": 0.0,
+                "7": 0.0
+              },
+              "requestedModel": "linear",
+              "trainRows": 43500,
+              "trainSampled": false,
+              "weightedF1": 0.920264,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "6",
+                  "f1": 0.0
+                },
+                {
+                  "class": "7",
+                  "f1": 0.0
+                },
+                {
+                  "class": "4",
+                  "f1": 0.72925
+                }
+              ]
+            }
+          },
+          "seed": 99,
+          "testCount": 14500,
+          "trainCount": 43500
+        }
+      ],
+      "schemaPackaging": {
+        "addedValueBeyondPandas": "packaging_only",
+        "classCount": 7,
+        "duplicateFeatureRows": 0,
+        "featureCount": 9,
+        "missingCells": 0,
+        "role": "evidence packaging only",
+        "rowCount": 58000,
+        "toolName": "schema_provenance_auditor",
+        "zipFile": "shuttle.zip",
+        "zipSha256": "a03e1f23755093eff5b8d9656f944ae3240a376065cf4360d090f5fe0aff9bef"
+      },
+      "splitFamilies": {
+        "non_stratified_random": {
+          "classCountsTest": {
+            "1": 11411,
+            "2": 15,
+            "3": 40,
+            "4": 2172,
+            "5": 857,
+            "6": 3,
+            "7": 2
+          },
+          "classCountsTrain": {
+            "1": 34175,
+            "2": 35,
+            "3": 131,
+            "4": 6731,
+            "5": 2410,
+            "6": 7,
+            "7": 11
+          },
+          "family": "non_stratified_random",
+          "models": {
+            "dummy_majority": {
+              "accuracy": 0.786966,
+              "confusionDiagonal": {
+                "1": 11411,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0,
+                "6": 0,
+                "7": 0
+              },
+              "fitRows": 43500,
+              "macroF1": 0.125826,
+              "model": "dummy_majority",
+              "perClassF1": {
+                "1": 0.880784,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.0,
+                "5": 0.0,
+                "6": 0.0,
+                "7": 0.0
+              },
+              "requestedModel": "dummy_majority",
+              "trainRows": 43500,
+              "trainSampled": false,
+              "weightedF1": 0.693147,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "4",
+                  "f1": 0.0
+                },
+                {
+                  "class": "5",
+                  "f1": 0.0
+                },
+                {
+                  "class": "6",
+                  "f1": 0.0
+                }
+              ]
+            },
+            "dummy_stratified": {
+              "accuracy": 0.640621,
+              "confusionDiagonal": {
+                "1": 8953,
+                "2": 0,
+                "3": 0,
+                "4": 306,
+                "5": 30,
+                "6": 0,
+                "7": 0
+              },
+              "fitRows": 43500,
+              "macroF1": 0.137139,
+              "model": "dummy_stratified",
+              "perClassF1": {
+                "1": 0.785316,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.137621,
+                "5": 0.037037,
+                "6": 0.0,
+                "7": 0.0
+              },
+              "requestedModel": "dummy_stratified",
+              "trainRows": 43500,
+              "trainSampled": false,
+              "weightedF1": 0.640821,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "6",
+                  "f1": 0.0
+                },
+                {
+                  "class": "7",
+                  "f1": 0.0
+                },
+                {
+                  "class": "5",
+                  "f1": 0.037037
+                }
+              ]
+            },
+            "extra_trees": {
+              "accuracy": 0.99931,
+              "confusionDiagonal": {
+                "1": 11411,
+                "2": 13,
+                "3": 36,
+                "4": 2172,
+                "5": 857,
+                "6": 0,
+                "7": 1
+              },
+              "fitRows": 25000,
+              "macroF1": 0.789804,
+              "model": "extra_trees",
+              "perClassF1": {
+                "1": 0.999825,
+                "2": 0.928571,
+                "3": 0.935065,
+                "4": 0.99908,
+                "5": 0.999417,
+                "6": 0.0,
+                "7": 0.666667
+              },
+              "requestedModel": "extra_trees",
+              "trainRows": 43500,
+              "trainSampled": true,
+              "weightedF1": 0.999184,
+              "worstClasses": [
+                {
+                  "class": "6",
+                  "f1": 0.0
+                },
+                {
+                  "class": "7",
+                  "f1": 0.666667
+                },
+                {
+                  "class": "2",
+                  "f1": 0.928571
+                },
+                {
+                  "class": "3",
+                  "f1": 0.935065
+                },
+                {
+                  "class": "4",
+                  "f1": 0.99908
+                }
+              ]
+            },
+            "forest": {
+              "accuracy": 0.999586,
+              "confusionDiagonal": {
+                "1": 11411,
+                "2": 12,
+                "3": 40,
+                "4": 2172,
+                "5": 857,
+                "6": 0,
+                "7": 2
+              },
+              "fitRows": 25000,
+              "macroF1": 0.841126,
+              "model": "forest",
+              "perClassF1": {
+                "1": 0.999912,
+                "2": 0.888889,
+                "3": 1.0,
+                "4": 0.99908,
+                "5": 1.0,
+                "6": 0.0,
+                "7": 1.0
+              },
+              "requestedModel": "forest",
+              "trainRows": 43500,
+              "trainSampled": true,
+              "weightedF1": 0.999471,
+              "worstClasses": [
+                {
+                  "class": "6",
+                  "f1": 0.0
+                },
+                {
+                  "class": "2",
+                  "f1": 0.888889
+                },
+                {
+                  "class": "4",
+                  "f1": 0.99908
+                },
+                {
+                  "class": "1",
+                  "f1": 0.999912
+                },
+                {
+                  "class": "3",
+                  "f1": 1.0
+                }
+              ]
+            },
+            "linear": {
+              "accuracy": 0.927793,
+              "confusionDiagonal": {
+                "1": 11282,
+                "2": 0,
+                "3": 0,
+                "4": 1315,
+                "5": 856,
+                "6": 0,
+                "7": 0
+              },
+              "fitRows": 43500,
+              "macroF1": 0.382535,
+              "model": "sgd_linear",
+              "perClassF1": {
+                "1": 0.956994,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.721338,
+                "5": 0.999416,
+                "6": 0.0,
+                "7": 0.0
+              },
+              "requestedModel": "linear",
+              "trainRows": 43500,
+              "trainSampled": false,
+              "weightedF1": 0.920242,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "6",
+                  "f1": 0.0
+                },
+                {
+                  "class": "7",
+                  "f1": 0.0
+                },
+                {
+                  "class": "4",
+                  "f1": 0.721338
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 14500,
+          "trainCount": 43500
+        },
+        "source": {
+          "classCountsTest": {
+            "1": 11478,
+            "2": 13,
+            "3": 39,
+            "4": 2155,
+            "5": 809,
+            "6": 4,
+            "7": 2
+          },
+          "classCountsTrain": {
+            "1": 34108,
+            "2": 37,
+            "3": 132,
+            "4": 6748,
+            "5": 2458,
+            "6": 6,
+            "7": 11
+          },
+          "family": "source",
+          "models": {
+            "dummy_majority": {
+              "accuracy": 0.791586,
+              "confusionDiagonal": {
+                "1": 11478,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0,
+                "6": 0,
+                "7": 0
+              },
+              "fitRows": 43500,
+              "macroF1": 0.126239,
+              "model": "dummy_majority",
+              "perClassF1": {
+                "1": 0.883671,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.0,
+                "5": 0.0,
+                "6": 0.0,
+                "7": 0.0
+              },
+              "requestedModel": "dummy_majority",
+              "trainRows": 43500,
+              "trainSampled": false,
+              "weightedF1": 0.699502,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "4",
+                  "f1": 0.0
+                },
+                {
+                  "class": "5",
+                  "f1": 0.0
+                },
+                {
+                  "class": "6",
+                  "f1": 0.0
+                }
+              ]
+            },
+            "dummy_stratified": {
+              "accuracy": 0.645793,
+              "confusionDiagonal": {
+                "1": 8995,
+                "2": 0,
+                "3": 0,
+                "4": 327,
+                "5": 42,
+                "6": 0,
+                "7": 0
+              },
+              "fitRows": 43500,
+              "macroF1": 0.141124,
+              "model": "dummy_stratified",
+              "perClassF1": {
+                "1": 0.787274,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.14753,
+                "5": 0.053064,
+                "6": 0.0,
+                "7": 0.0
+              },
+              "requestedModel": "dummy_stratified",
+              "trainRows": 43500,
+              "trainSampled": false,
+              "weightedF1": 0.648082,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "6",
+                  "f1": 0.0
+                },
+                {
+                  "class": "7",
+                  "f1": 0.0
+                },
+                {
+                  "class": "5",
+                  "f1": 0.053064
+                }
+              ]
+            },
+            "extra_trees": {
+              "accuracy": 0.999448,
+              "confusionDiagonal": {
+                "1": 11477,
+                "2": 12,
+                "3": 34,
+                "4": 2155,
+                "5": 808,
+                "6": 4,
+                "7": 2
+              },
+              "fitRows": 25000,
+              "macroF1": 0.982538,
+              "model": "extra_trees",
+              "perClassF1": {
+                "1": 0.999695,
+                "2": 0.96,
+                "3": 0.918919,
+                "4": 0.999768,
+                "5": 0.999382,
+                "6": 1.0,
+                "7": 1.0
+              },
+              "requestedModel": "extra_trees",
+              "trainRows": 43500,
+              "trainSampled": true,
+              "weightedF1": 0.999436,
+              "worstClasses": [
+                {
+                  "class": "3",
+                  "f1": 0.918919
+                },
+                {
+                  "class": "2",
+                  "f1": 0.96
+                },
+                {
+                  "class": "5",
+                  "f1": 0.999382
+                },
+                {
+                  "class": "1",
+                  "f1": 0.999695
+                },
+                {
+                  "class": "4",
+                  "f1": 0.999768
+                }
+              ]
+            },
+            "forest": {
+              "accuracy": 0.999586,
+              "confusionDiagonal": {
+                "1": 11478,
+                "2": 12,
+                "3": 37,
+                "4": 2155,
+                "5": 808,
+                "6": 3,
+                "7": 1
+              },
+              "fitRows": 25000,
+              "macroF1": 0.920519,
+              "model": "forest",
+              "perClassF1": {
+                "1": 0.999869,
+                "2": 0.96,
+                "3": 0.961039,
+                "4": 0.999536,
+                "5": 0.999382,
+                "6": 0.857143,
+                "7": 0.666667
+              },
+              "requestedModel": "forest",
+              "trainRows": 43500,
+              "trainSampled": true,
+              "weightedF1": 0.999567,
+              "worstClasses": [
+                {
+                  "class": "7",
+                  "f1": 0.666667
+                },
+                {
+                  "class": "6",
+                  "f1": 0.857143
+                },
+                {
+                  "class": "2",
+                  "f1": 0.96
+                },
+                {
+                  "class": "3",
+                  "f1": 0.961039
+                },
+                {
+                  "class": "5",
+                  "f1": 0.999382
+                }
+              ]
+            },
+            "linear": {
+              "accuracy": 0.933517,
+              "confusionDiagonal": {
+                "1": 11334,
+                "2": 0,
+                "3": 0,
+                "4": 1407,
+                "5": 795,
+                "6": 0,
+                "7": 0
+              },
+              "fitRows": 43500,
+              "macroF1": 0.386205,
+              "model": "sgd_linear",
+              "perClassF1": {
+                "1": 0.96116,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.751001,
+                "5": 0.991272,
+                "6": 0.0,
+                "7": 0.0
+              },
+              "requestedModel": "linear",
+              "trainRows": 43500,
+              "trainSampled": false,
+              "weightedF1": 0.927761,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "6",
+                  "f1": 0.0
+                },
+                {
+                  "class": "7",
+                  "f1": 0.0
+                },
+                {
+                  "class": "4",
+                  "f1": 0.751001
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 14500,
+          "trainCount": 43500
+        },
+        "stratified_random": {
+          "classCountsTest": {
+            "1": 11396,
+            "2": 12,
+            "3": 43,
+            "4": 2226,
+            "5": 817,
+            "6": 3,
+            "7": 3
+          },
+          "classCountsTrain": {
+            "1": 34190,
+            "2": 38,
+            "3": 128,
+            "4": 6677,
+            "5": 2450,
+            "6": 7,
+            "7": 10
+          },
+          "family": "stratified_random",
+          "models": {
+            "dummy_majority": {
+              "accuracy": 0.785931,
+              "confusionDiagonal": {
+                "1": 11396,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0,
+                "6": 0,
+                "7": 0
+              },
+              "fitRows": 43500,
+              "macroF1": 0.125734,
+              "model": "dummy_majority",
+              "perClassF1": {
+                "1": 0.880136,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.0,
+                "5": 0.0,
+                "6": 0.0,
+                "7": 0.0
+              },
+              "requestedModel": "dummy_majority",
+              "trainRows": 43500,
+              "trainSampled": false,
+              "weightedF1": 0.691726,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "4",
+                  "f1": 0.0
+                },
+                {
+                  "class": "5",
+                  "f1": 0.0
+                },
+                {
+                  "class": "6",
+                  "f1": 0.0
+                }
+              ]
+            },
+            "dummy_stratified": {
+              "accuracy": 0.643241,
+              "confusionDiagonal": {
+                "1": 8938,
+                "2": 0,
+                "3": 0,
+                "4": 356,
+                "5": 33,
+                "6": 0,
+                "7": 0
+              },
+              "fitRows": 43500,
+              "macroF1": 0.140662,
+              "model": "dummy_stratified",
+              "perClassF1": {
+                "1": 0.784482,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.158539,
+                "5": 0.041614,
+                "6": 0.0,
+                "7": 0.0
+              },
+              "requestedModel": "dummy_stratified",
+              "trainRows": 43500,
+              "trainSampled": false,
+              "weightedF1": 0.643232,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "6",
+                  "f1": 0.0
+                },
+                {
+                  "class": "7",
+                  "f1": 0.0
+                },
+                {
+                  "class": "5",
+                  "f1": 0.041614
+                }
+              ]
+            },
+            "extra_trees": {
+              "accuracy": 0.999172,
+              "confusionDiagonal": {
+                "1": 11396,
+                "2": 12,
+                "3": 37,
+                "4": 2225,
+                "5": 815,
+                "6": 0,
+                "7": 3
+              },
+              "fitRows": 25000,
+              "macroF1": 0.844282,
+              "model": "extra_trees",
+              "perClassF1": {
+                "1": 0.999737,
+                "2": 1.0,
+                "3": 0.91358,
+                "4": 0.999102,
+                "5": 0.997552,
+                "6": 0.0,
+                "7": 1.0
+              },
+              "requestedModel": "extra_trees",
+              "trainRows": 43500,
+              "trainSampled": true,
+              "weightedF1": 0.999054,
+              "worstClasses": [
+                {
+                  "class": "6",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.91358
+                },
+                {
+                  "class": "5",
+                  "f1": 0.997552
+                },
+                {
+                  "class": "4",
+                  "f1": 0.999102
+                },
+                {
+                  "class": "1",
+                  "f1": 0.999737
+                }
+              ]
+            },
+            "forest": {
+              "accuracy": 0.99931,
+              "confusionDiagonal": {
+                "1": 11395,
+                "2": 12,
+                "3": 43,
+                "4": 2225,
+                "5": 815,
+                "6": 0,
+                "7": 0
+              },
+              "fitRows": 25000,
+              "macroF1": 0.707501,
+              "model": "forest",
+              "perClassF1": {
+                "1": 0.999912,
+                "2": 1.0,
+                "3": 0.955556,
+                "4": 0.998878,
+                "5": 0.998163,
+                "6": 0.0,
+                "7": 0.0
+              },
+              "requestedModel": "forest",
+              "trainRows": 43500,
+              "trainSampled": true,
+              "weightedF1": 0.99911,
+              "worstClasses": [
+                {
+                  "class": "6",
+                  "f1": 0.0
+                },
+                {
+                  "class": "7",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.955556
+                },
+                {
+                  "class": "5",
+                  "f1": 0.998163
+                },
+                {
+                  "class": "4",
+                  "f1": 0.998878
+                }
+              ]
+            },
+            "linear": {
+              "accuracy": 0.924621,
+              "confusionDiagonal": {
+                "1": 11262,
+                "2": 0,
+                "3": 0,
+                "4": 1339,
+                "5": 805,
+                "6": 0,
+                "7": 1
+              },
+              "fitRows": 43500,
+              "macroF1": 0.451798,
+              "model": "sgd_linear",
+              "perClassF1": {
+                "1": 0.955703,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.714896,
+                "5": 0.99199,
+                "6": 0.0,
+                "7": 0.5
+              },
+              "requestedModel": "linear",
+              "trainRows": 43500,
+              "trainSampled": false,
+              "weightedF1": 0.916862,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "6",
+                  "f1": 0.0
+                },
+                {
+                  "class": "7",
+                  "f1": 0.5
+                },
+                {
+                  "class": "4",
+                  "f1": 0.714896
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 14500,
+          "trainCount": 43500
+        }
+      },
+      "splitRiskSeverity": {
+        "deltaAccuracyRandomMinusSource": -0.008897,
+        "deltaMacroF1RandomMinusSource": 0.065594,
+        "replayMacroF1Range": 0.111519,
+        "severity": "high",
+        "severityPoints": 6,
+        "trainTestClassDistributionDelta": 0.007494
+      },
+      "target": {
+        "documentationUrl": "https://archive.ics.uci.edu/dataset/148/statlog+shuttle",
+        "name": "UCI Statlog Shuttle",
+        "protocolSignal": "source archive contains shuttle train/test files and documentation says train/test should be used",
+        "protocolStatus": "protocol_reproduced",
+        "slug": "uci-statlog-shuttle",
+        "sourceUrl": "https://archive.ics.uci.edu/static/public/148/statlog+shuttle.zip",
+        "splitRiskType": "rare_class_and_metric_risk",
+        "targetKey": "shuttle",
+        "targetNotes": "Batch 14 high-risk target with the largest random-over-source macro-F1 delta."
+      }
+    }
+  },
+  "batch16": {
+    "analysis": {
+      "classBalancedVariants": {
+        "source": {
+          "classCountsTest": {
+            "1": 461,
+            "2": 224,
+            "3": 397,
+            "4": 211,
+            "5": 237,
+            "7": 470
+          },
+          "classCountsTrain": {
+            "1": 1072,
+            "2": 479,
+            "3": 961,
+            "4": 415,
+            "5": 470,
+            "7": 1038
+          },
+          "family": "source",
+          "models": {
+            "balanced_linear": {
+              "accuracy": 0.8435,
+              "confusionDiagonal": {
+                "1": 445,
+                "2": 209,
+                "3": 335,
+                "4": 144,
+                "5": 192,
+                "7": 362
+              },
+              "fitRows": 4435,
+              "macroF1": 0.829439,
+              "model": "balanced_linear",
+              "perClassF1": {
+                "1": 0.972678,
+                "2": 0.943567,
+                "3": 0.872396,
+                "4": 0.571429,
+                "5": 0.806723,
+                "7": 0.809843
+              },
+              "requestedModel": "balanced_linear",
+              "trainRows": 4435,
+              "trainSampled": false,
+              "weightedF1": 0.849248,
+              "worstClasses": [
+                {
+                  "class": "4",
+                  "f1": 0.571429
+                },
+                {
+                  "class": "5",
+                  "f1": 0.806723
+                },
+                {
+                  "class": "7",
+                  "f1": 0.809843
+                },
+                {
+                  "class": "3",
+                  "f1": 0.872396
+                },
+                {
+                  "class": "2",
+                  "f1": 0.943567
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 2000,
+          "trainCount": 4435
+        },
+        "stratified_random": {
+          "classCountsTest": {
+            "1": 476,
+            "2": 218,
+            "3": 422,
+            "4": 195,
+            "5": 220,
+            "7": 469
+          },
+          "classCountsTrain": {
+            "1": 1057,
+            "2": 485,
+            "3": 936,
+            "4": 431,
+            "5": 487,
+            "7": 1039
+          },
+          "family": "stratified_random",
+          "models": {
+            "balanced_linear": {
+              "accuracy": 0.8565,
+              "confusionDiagonal": {
+                "1": 461,
+                "2": 205,
+                "3": 370,
+                "4": 123,
+                "5": 181,
+                "7": 373
+              },
+              "fitRows": 4435,
+              "macroF1": 0.835569,
+              "model": "balanced_linear",
+              "perClassF1": {
+                "1": 0.963427,
+                "2": 0.960187,
+                "3": 0.883055,
+                "4": 0.557823,
+                "5": 0.811659,
+                "7": 0.837262
+              },
+              "requestedModel": "balanced_linear",
+              "trainRows": 4435,
+              "trainSampled": false,
+              "weightedF1": 0.860289,
+              "worstClasses": [
+                {
+                  "class": "4",
+                  "f1": 0.557823
+                },
+                {
+                  "class": "5",
+                  "f1": 0.811659
+                },
+                {
+                  "class": "7",
+                  "f1": 0.837262
+                },
+                {
+                  "class": "3",
+                  "f1": 0.883055
+                },
+                {
+                  "class": "2",
+                  "f1": 0.960187
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 2000,
+          "trainCount": 4435
+        }
+      },
+      "dataset": {
+        "classCount": 6,
+        "classCounts": {
+          "1": 1533,
+          "2": 703,
+          "3": 1358,
+          "4": 626,
+          "5": 707,
+          "7": 1508
+        },
+        "duplicateFeatureRows": 0,
+        "extra": {
+          "missingClassSix": true,
+          "sourceDocWarnsNoCrossValidation": true
+        },
+        "featureCount": 36,
+        "missingCells": 0,
+        "rowCount": 6435,
+        "testClassCounts": {
+          "1": 461,
+          "2": 224,
+          "3": 397,
+          "4": 211,
+          "5": 237,
+          "7": 470
+        },
+        "testCount": 2000,
+        "trainClassCounts": {
+          "1": 1072,
+          "2": 479,
+          "3": 961,
+          "4": 415,
+          "5": 470,
+          "7": 1038
+        },
+        "trainCount": 4435
+      },
+      "metricStress": {
+        "accuracyCanHideClassRisk": false,
+        "accuracyMinusMacroF1RandomLinear": 0.041792,
+        "accuracyMinusMacroF1SourceLinear": 0.042447,
+        "randomMinusSourceAccuracy": 0.0215,
+        "randomMinusSourceMacroF1": 0.022155,
+        "repeatedSeedMacroF1Range": 0.021333,
+        "role": "support tool for anti-hype metric stress, not benchmark proof",
+        "shuffledLabelControl": {
+          "accuracy": 0.1845,
+          "confusionDiagonal": {
+            "1": 175,
+            "2": 1,
+            "3": 54,
+            "4": 0,
+            "5": 0,
+            "7": 139
+          },
+          "fitRows": 4435,
+          "macroF1": 0.106803,
+          "model": "linear",
+          "perClassF1": {
+            "1": 0.258112,
+            "2": 0.008889,
+            "3": 0.145946,
+            "4": 0.0,
+            "5": 0.0,
+            "7": 0.227869
+          },
+          "requestedModel": "linear",
+          "trainRows": 4435,
+          "trainSampled": false,
+          "weightedF1": 0.14301,
+          "worstClasses": [
+            {
+              "class": "4",
+              "f1": 0.0
+            },
+            {
+              "class": "5",
+              "f1": 0.0
+            },
+            {
+              "class": "2",
+              "f1": 0.008889
+            },
+            {
+              "class": "3",
+              "f1": 0.145946
+            },
+            {
+              "class": "7",
+              "f1": 0.227869
+            }
+          ]
+        },
+        "toolName": "metric_stress_validator"
+      },
+      "repeatedStratifiedSeeds": [
+        {
+          "classCountsTest": {
+            "1": 476,
+            "2": 218,
+            "3": 422,
+            "4": 195,
+            "5": 220,
+            "7": 469
+          },
+          "classCountsTrain": {
+            "1": 1057,
+            "2": 485,
+            "3": 936,
+            "4": 431,
+            "5": 487,
+            "7": 1039
+          },
+          "family": "repeated_stratified",
+          "models": {
+            "linear": {
+              "accuracy": 0.8635,
+              "confusionDiagonal": {
+                "1": 468,
+                "2": 207,
+                "3": 395,
+                "4": 78,
+                "5": 170,
+                "7": 409
+              },
+              "fitRows": 4435,
+              "macroF1": 0.822946,
+              "model": "linear",
+              "perClassF1": {
+                "1": 0.976017,
+                "2": 0.949541,
+                "3": 0.922897,
+                "4": 0.467066,
+                "5": 0.792541,
+                "7": 0.829615
+              },
+              "requestedModel": "linear",
+              "trainRows": 4435,
+              "trainSampled": false,
+              "weightedF1": 0.857786,
+              "worstClasses": [
+                {
+                  "class": "4",
+                  "f1": 0.467066
+                },
+                {
+                  "class": "5",
+                  "f1": 0.792541
+                },
+                {
+                  "class": "7",
+                  "f1": 0.829615
+                },
+                {
+                  "class": "3",
+                  "f1": 0.922897
+                },
+                {
+                  "class": "2",
+                  "f1": 0.949541
+                }
+              ]
+            }
+          },
+          "seed": 1,
+          "testCount": 2000,
+          "trainCount": 4435
+        },
+        {
+          "classCountsTest": {
+            "1": 476,
+            "2": 218,
+            "3": 422,
+            "4": 195,
+            "5": 220,
+            "7": 469
+          },
+          "classCountsTrain": {
+            "1": 1057,
+            "2": 485,
+            "3": 936,
+            "4": 431,
+            "5": 487,
+            "7": 1039
+          },
+          "family": "repeated_stratified",
+          "models": {
+            "linear": {
+              "accuracy": 0.848,
+              "confusionDiagonal": {
+                "1": 466,
+                "2": 205,
+                "3": 398,
+                "4": 65,
+                "5": 161,
+                "7": 401
+              },
+              "fitRows": 4435,
+              "macroF1": 0.801613,
+              "model": "linear",
+              "perClassF1": {
+                "1": 0.966805,
+                "2": 0.953488,
+                "3": 0.908676,
+                "4": 0.396341,
+                "5": 0.768496,
+                "7": 0.81587
+              },
+              "requestedModel": "linear",
+              "trainRows": 4435,
+              "trainSampled": false,
+              "weightedF1": 0.84026,
+              "worstClasses": [
+                {
+                  "class": "4",
+                  "f1": 0.396341
+                },
+                {
+                  "class": "5",
+                  "f1": 0.768496
+                },
+                {
+                  "class": "7",
+                  "f1": 0.81587
+                },
+                {
+                  "class": "3",
+                  "f1": 0.908676
+                },
+                {
+                  "class": "2",
+                  "f1": 0.953488
+                }
+              ]
+            }
+          },
+          "seed": 7,
+          "testCount": 2000,
+          "trainCount": 4435
+        },
+        {
+          "classCountsTest": {
+            "1": 476,
+            "2": 218,
+            "3": 422,
+            "4": 195,
+            "5": 220,
+            "7": 469
+          },
+          "classCountsTrain": {
+            "1": 1057,
+            "2": 485,
+            "3": 936,
+            "4": 431,
+            "5": 487,
+            "7": 1039
+          },
+          "family": "repeated_stratified",
+          "models": {
+            "linear": {
+              "accuracy": 0.8605,
+              "confusionDiagonal": {
+                "1": 468,
+                "2": 205,
+                "3": 392,
+                "4": 71,
+                "5": 170,
+                "7": 415
+              },
+              "fitRows": 4435,
+              "macroF1": 0.818418,
+              "model": "linear",
+              "perClassF1": {
+                "1": 0.976017,
+                "2": 0.957944,
+                "3": 0.894977,
+                "4": 0.435583,
+                "5": 0.807601,
+                "7": 0.838384
+              },
+              "requestedModel": "linear",
+              "trainRows": 4435,
+              "trainSampled": false,
+              "weightedF1": 0.853454,
+              "worstClasses": [
+                {
+                  "class": "4",
+                  "f1": 0.435583
+                },
+                {
+                  "class": "5",
+                  "f1": 0.807601
+                },
+                {
+                  "class": "7",
+                  "f1": 0.838384
+                },
+                {
+                  "class": "3",
+                  "f1": 0.894977
+                },
+                {
+                  "class": "2",
+                  "f1": 0.957944
+                }
+              ]
+            }
+          },
+          "seed": 13,
+          "testCount": 2000,
+          "trainCount": 4435
+        },
+        {
+          "classCountsTest": {
+            "1": 476,
+            "2": 218,
+            "3": 422,
+            "4": 195,
+            "5": 220,
+            "7": 469
+          },
+          "classCountsTrain": {
+            "1": 1057,
+            "2": 485,
+            "3": 936,
+            "4": 431,
+            "5": 487,
+            "7": 1039
+          },
+          "family": "repeated_stratified",
+          "models": {
+            "linear": {
+              "accuracy": 0.861,
+              "confusionDiagonal": {
+                "1": 467,
+                "2": 205,
+                "3": 394,
+                "4": 73,
+                "5": 169,
+                "7": 414
+              },
+              "fitRows": 4435,
+              "macroF1": 0.819208,
+              "model": "linear",
+              "perClassF1": {
+                "1": 0.96388,
+                "2": 0.957944,
+                "3": 0.904707,
+                "4": 0.446483,
+                "5": 0.799054,
+                "7": 0.843177
+              },
+              "requestedModel": "linear",
+              "trainRows": 4435,
+              "trainSampled": false,
+              "weightedF1": 0.853866,
+              "worstClasses": [
+                {
+                  "class": "4",
+                  "f1": 0.446483
+                },
+                {
+                  "class": "5",
+                  "f1": 0.799054
+                },
+                {
+                  "class": "7",
+                  "f1": 0.843177
+                },
+                {
+                  "class": "3",
+                  "f1": 0.904707
+                },
+                {
+                  "class": "2",
+                  "f1": 0.957944
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 2000,
+          "trainCount": 4435
+        },
+        {
+          "classCountsTest": {
+            "1": 476,
+            "2": 218,
+            "3": 422,
+            "4": 195,
+            "5": 220,
+            "7": 469
+          },
+          "classCountsTrain": {
+            "1": 1057,
+            "2": 485,
+            "3": 936,
+            "4": 431,
+            "5": 487,
+            "7": 1039
+          },
+          "family": "repeated_stratified",
+          "models": {
+            "linear": {
+              "accuracy": 0.854,
+              "confusionDiagonal": {
+                "1": 462,
+                "2": 206,
+                "3": 390,
+                "4": 78,
+                "5": 178,
+                "7": 394
+              },
+              "fitRows": 4435,
+              "macroF1": 0.814745,
+              "model": "linear",
+              "perClassF1": {
+                "1": 0.967539,
+                "2": 0.944954,
+                "3": 0.902778,
+                "4": 0.453488,
+                "5": 0.791111,
+                "7": 0.828601
+              },
+              "requestedModel": "linear",
+              "trainRows": 4435,
+              "trainSampled": false,
+              "weightedF1": 0.849305,
+              "worstClasses": [
+                {
+                  "class": "4",
+                  "f1": 0.453488
+                },
+                {
+                  "class": "5",
+                  "f1": 0.791111
+                },
+                {
+                  "class": "7",
+                  "f1": 0.828601
+                },
+                {
+                  "class": "3",
+                  "f1": 0.902778
+                },
+                {
+                  "class": "2",
+                  "f1": 0.944954
+                }
+              ]
+            }
+          },
+          "seed": 99,
+          "testCount": 2000,
+          "trainCount": 4435
+        }
+      ],
+      "schemaPackaging": {
+        "addedValueBeyondPandas": "packaging_only",
+        "classCount": 6,
+        "duplicateFeatureRows": 0,
+        "featureCount": 36,
+        "missingCells": 0,
+        "role": "evidence packaging only",
+        "rowCount": 6435,
+        "toolName": "schema_provenance_auditor",
+        "zipFile": "landsat.zip",
+        "zipSha256": "7c54e0e11c872a1b0b647da370d596dcb06746159cce4121d92ccd70b7d7ce3c"
+      },
+      "splitFamilies": {
+        "non_stratified_random": {
+          "classCountsTest": {
+            "1": 465,
+            "2": 191,
+            "3": 433,
+            "4": 205,
+            "5": 228,
+            "7": 478
+          },
+          "classCountsTrain": {
+            "1": 1068,
+            "2": 512,
+            "3": 925,
+            "4": 421,
+            "5": 479,
+            "7": 1030
+          },
+          "family": "non_stratified_random",
+          "models": {
+            "dummy_majority": {
+              "accuracy": 0.2325,
+              "confusionDiagonal": {
+                "1": 465,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0,
+                "7": 0
+              },
+              "fitRows": 4435,
+              "macroF1": 0.06288,
+              "model": "dummy_majority",
+              "perClassF1": {
+                "1": 0.377282,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.0,
+                "5": 0.0,
+                "7": 0.0
+              },
+              "requestedModel": "dummy_majority",
+              "trainRows": 4435,
+              "trainSampled": false,
+              "weightedF1": 0.087718,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "4",
+                  "f1": 0.0
+                },
+                {
+                  "class": "5",
+                  "f1": 0.0
+                },
+                {
+                  "class": "7",
+                  "f1": 0.0
+                }
+              ]
+            },
+            "dummy_stratified": {
+              "accuracy": 0.1815,
+              "confusionDiagonal": {
+                "1": 105,
+                "2": 16,
+                "3": 83,
+                "4": 17,
+                "5": 23,
+                "7": 119
+              },
+              "fitRows": 4435,
+              "macroF1": 0.155811,
+              "model": "dummy_stratified",
+              "perClassF1": {
+                "1": 0.22293,
+                "2": 0.07619,
+                "3": 0.201946,
+                "4": 0.083951,
+                "5": 0.10245,
+                "7": 0.247401
+              },
+              "requestedModel": "dummy_stratified",
+              "trainRows": 4435,
+              "trainSampled": false,
+              "weightedF1": 0.182242,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.07619
+                },
+                {
+                  "class": "4",
+                  "f1": 0.083951
+                },
+                {
+                  "class": "5",
+                  "f1": 0.10245
+                },
+                {
+                  "class": "3",
+                  "f1": 0.201946
+                },
+                {
+                  "class": "1",
+                  "f1": 0.22293
+                }
+              ]
+            },
+            "forest": {
+              "accuracy": 0.907,
+              "confusionDiagonal": {
+                "1": 457,
+                "2": 183,
+                "3": 414,
+                "4": 136,
+                "5": 198,
+                "7": 426
+              },
+              "fitRows": 4435,
+              "macroF1": 0.891829,
+              "model": "forest",
+              "perClassF1": {
+                "1": 0.971307,
+                "2": 0.970822,
+                "3": 0.927212,
+                "4": 0.706494,
+                "5": 0.883929,
+                "7": 0.891213
+              },
+              "requestedModel": "forest",
+              "trainRows": 4435,
+              "trainSampled": false,
+              "weightedF1": 0.905467,
+              "worstClasses": [
+                {
+                  "class": "4",
+                  "f1": 0.706494
+                },
+                {
+                  "class": "5",
+                  "f1": 0.883929
+                },
+                {
+                  "class": "7",
+                  "f1": 0.891213
+                },
+                {
+                  "class": "3",
+                  "f1": 0.927212
+                },
+                {
+                  "class": "2",
+                  "f1": 0.970822
+                }
+              ]
+            },
+            "linear": {
+              "accuracy": 0.8475,
+              "confusionDiagonal": {
+                "1": 455,
+                "2": 179,
+                "3": 393,
+                "4": 71,
+                "5": 181,
+                "7": 416
+              },
+              "fitRows": 4435,
+              "macroF1": 0.809446,
+              "model": "linear",
+              "perClassF1": {
+                "1": 0.968085,
+                "2": 0.949602,
+                "3": 0.888136,
+                "4": 0.412791,
+                "5": 0.813483,
+                "7": 0.824579
+              },
+              "requestedModel": "linear",
+              "trainRows": 4435,
+              "trainSampled": false,
+              "weightedF1": 0.840171,
+              "worstClasses": [
+                {
+                  "class": "4",
+                  "f1": 0.412791
+                },
+                {
+                  "class": "5",
+                  "f1": 0.813483
+                },
+                {
+                  "class": "7",
+                  "f1": 0.824579
+                },
+                {
+                  "class": "3",
+                  "f1": 0.888136
+                },
+                {
+                  "class": "2",
+                  "f1": 0.949602
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 2000,
+          "trainCount": 4435
+        },
+        "source": {
+          "classCountsTest": {
+            "1": 461,
+            "2": 224,
+            "3": 397,
+            "4": 211,
+            "5": 237,
+            "7": 470
+          },
+          "classCountsTrain": {
+            "1": 1072,
+            "2": 479,
+            "3": 961,
+            "4": 415,
+            "5": 470,
+            "7": 1038
+          },
+          "family": "source",
+          "models": {
+            "dummy_majority": {
+              "accuracy": 0.2305,
+              "confusionDiagonal": {
+                "1": 461,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0,
+                "7": 0
+              },
+              "fitRows": 4435,
+              "macroF1": 0.062441,
+              "model": "dummy_majority",
+              "perClassF1": {
+                "1": 0.374644,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.0,
+                "5": 0.0,
+                "7": 0.0
+              },
+              "requestedModel": "dummy_majority",
+              "trainRows": 4435,
+              "trainSampled": false,
+              "weightedF1": 0.086356,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "4",
+                  "f1": 0.0
+                },
+                {
+                  "class": "5",
+                  "f1": 0.0
+                },
+                {
+                  "class": "7",
+                  "f1": 0.0
+                }
+              ]
+            },
+            "dummy_stratified": {
+              "accuracy": 0.1735,
+              "confusionDiagonal": {
+                "1": 103,
+                "2": 28,
+                "3": 75,
+                "4": 14,
+                "5": 18,
+                "7": 109
+              },
+              "fitRows": 4435,
+              "macroF1": 0.151553,
+              "model": "dummy_stratified",
+              "perClassF1": {
+                "1": 0.219382,
+                "2": 0.126411,
+                "3": 0.187032,
+                "4": 0.069307,
+                "5": 0.078431,
+                "7": 0.228751
+              },
+              "requestedModel": "dummy_stratified",
+              "trainRows": 4435,
+              "trainSampled": false,
+              "weightedF1": 0.172214,
+              "worstClasses": [
+                {
+                  "class": "4",
+                  "f1": 0.069307
+                },
+                {
+                  "class": "5",
+                  "f1": 0.078431
+                },
+                {
+                  "class": "2",
+                  "f1": 0.126411
+                },
+                {
+                  "class": "3",
+                  "f1": 0.187032
+                },
+                {
+                  "class": "1",
+                  "f1": 0.219382
+                }
+              ]
+            },
+            "forest": {
+              "accuracy": 0.9095,
+              "confusionDiagonal": {
+                "1": 458,
+                "2": 217,
+                "3": 375,
+                "4": 132,
+                "5": 217,
+                "7": 420
+              },
+              "fitRows": 4435,
+              "macroF1": 0.893926,
+              "model": "forest",
+              "perClassF1": {
+                "1": 0.989201,
+                "2": 0.973094,
+                "3": 0.914634,
+                "4": 0.683938,
+                "5": 0.917548,
+                "7": 0.885142
+              },
+              "requestedModel": "forest",
+              "trainRows": 4435,
+              "trainSampled": false,
+              "weightedF1": 0.907445,
+              "worstClasses": [
+                {
+                  "class": "4",
+                  "f1": 0.683938
+                },
+                {
+                  "class": "7",
+                  "f1": 0.885142
+                },
+                {
+                  "class": "3",
+                  "f1": 0.914634
+                },
+                {
+                  "class": "5",
+                  "f1": 0.917548
+                },
+                {
+                  "class": "2",
+                  "f1": 0.973094
+                }
+              ]
+            },
+            "linear": {
+              "accuracy": 0.8395,
+              "confusionDiagonal": {
+                "1": 454,
+                "2": 208,
+                "3": 368,
+                "4": 64,
+                "5": 179,
+                "7": 406
+              },
+              "fitRows": 4435,
+              "macroF1": 0.797053,
+              "model": "linear",
+              "perClassF1": {
+                "1": 0.976344,
+                "2": 0.939052,
+                "3": 0.889964,
+                "4": 0.379822,
+                "5": 0.795556,
+                "7": 0.801579
+              },
+              "requestedModel": "linear",
+              "trainRows": 4435,
+              "trainSampled": false,
+              "weightedF1": 0.829595,
+              "worstClasses": [
+                {
+                  "class": "4",
+                  "f1": 0.379822
+                },
+                {
+                  "class": "5",
+                  "f1": 0.795556
+                },
+                {
+                  "class": "7",
+                  "f1": 0.801579
+                },
+                {
+                  "class": "3",
+                  "f1": 0.889964
+                },
+                {
+                  "class": "2",
+                  "f1": 0.939052
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 2000,
+          "trainCount": 4435
+        },
+        "stratified_random": {
+          "classCountsTest": {
+            "1": 476,
+            "2": 218,
+            "3": 422,
+            "4": 195,
+            "5": 220,
+            "7": 469
+          },
+          "classCountsTrain": {
+            "1": 1057,
+            "2": 485,
+            "3": 936,
+            "4": 431,
+            "5": 487,
+            "7": 1039
+          },
+          "family": "stratified_random",
+          "models": {
+            "dummy_majority": {
+              "accuracy": 0.238,
+              "confusionDiagonal": {
+                "1": 476,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0,
+                "7": 0
+              },
+              "fitRows": 4435,
+              "macroF1": 0.064082,
+              "model": "dummy_majority",
+              "perClassF1": {
+                "1": 0.384491,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.0,
+                "5": 0.0,
+                "7": 0.0
+              },
+              "requestedModel": "dummy_majority",
+              "trainRows": 4435,
+              "trainSampled": false,
+              "weightedF1": 0.091509,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "4",
+                  "f1": 0.0
+                },
+                {
+                  "class": "5",
+                  "f1": 0.0
+                },
+                {
+                  "class": "7",
+                  "f1": 0.0
+                }
+              ]
+            },
+            "dummy_stratified": {
+              "accuracy": 0.187,
+              "confusionDiagonal": {
+                "1": 111,
+                "2": 28,
+                "3": 89,
+                "4": 18,
+                "5": 18,
+                "7": 110
+              },
+              "fitRows": 4435,
+              "macroF1": 0.163688,
+              "model": "dummy_stratified",
+              "perClassF1": {
+                "1": 0.234672,
+                "2": 0.127854,
+                "3": 0.218137,
+                "4": 0.09068,
+                "5": 0.080178,
+                "7": 0.230608
+              },
+              "requestedModel": "dummy_stratified",
+              "trainRows": 4435,
+              "trainSampled": false,
+              "weightedF1": 0.187554,
+              "worstClasses": [
+                {
+                  "class": "5",
+                  "f1": 0.080178
+                },
+                {
+                  "class": "4",
+                  "f1": 0.09068
+                },
+                {
+                  "class": "2",
+                  "f1": 0.127854
+                },
+                {
+                  "class": "3",
+                  "f1": 0.218137
+                },
+                {
+                  "class": "7",
+                  "f1": 0.230608
+                }
+              ]
+            },
+            "forest": {
+              "accuracy": 0.9165,
+              "confusionDiagonal": {
+                "1": 468,
+                "2": 211,
+                "3": 405,
+                "4": 120,
+                "5": 195,
+                "7": 434
+              },
+              "fitRows": 4435,
+              "macroF1": 0.89689,
+              "model": "forest",
+              "perClassF1": {
+                "1": 0.975,
+                "2": 0.97235,
+                "3": 0.923603,
+                "4": 0.691643,
+                "5": 0.906977,
+                "7": 0.911765
+              },
+              "requestedModel": "forest",
+              "trainRows": 4435,
+              "trainSampled": false,
+              "weightedF1": 0.913928,
+              "worstClasses": [
+                {
+                  "class": "4",
+                  "f1": 0.691643
+                },
+                {
+                  "class": "5",
+                  "f1": 0.906977
+                },
+                {
+                  "class": "7",
+                  "f1": 0.911765
+                },
+                {
+                  "class": "3",
+                  "f1": 0.923603
+                },
+                {
+                  "class": "2",
+                  "f1": 0.97235
+                }
+              ]
+            },
+            "linear": {
+              "accuracy": 0.861,
+              "confusionDiagonal": {
+                "1": 467,
+                "2": 205,
+                "3": 394,
+                "4": 73,
+                "5": 169,
+                "7": 414
+              },
+              "fitRows": 4435,
+              "macroF1": 0.819208,
+              "model": "linear",
+              "perClassF1": {
+                "1": 0.96388,
+                "2": 0.957944,
+                "3": 0.904707,
+                "4": 0.446483,
+                "5": 0.799054,
+                "7": 0.843177
+              },
+              "requestedModel": "linear",
+              "trainRows": 4435,
+              "trainSampled": false,
+              "weightedF1": 0.853866,
+              "worstClasses": [
+                {
+                  "class": "4",
+                  "f1": 0.446483
+                },
+                {
+                  "class": "5",
+                  "f1": 0.799054
+                },
+                {
+                  "class": "7",
+                  "f1": 0.843177
+                },
+                {
+                  "class": "3",
+                  "f1": 0.904707
+                },
+                {
+                  "class": "2",
+                  "f1": 0.957944
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 2000,
+          "trainCount": 4435
+        }
+      },
+      "splitRiskSeverity": {
+        "deltaAccuracyRandomMinusSource": 0.0215,
+        "deltaMacroF1RandomMinusSource": 0.022155,
+        "replayMacroF1Range": 0.021333,
+        "severity": "high",
+        "severityPoints": 6,
+        "trainTestClassDistributionDelta": 0.018185
+      },
+      "target": {
+        "documentationUrl": "https://archive.ics.uci.edu/dataset/146/statlog+landsat+satellite",
+        "name": "UCI Statlog Landsat Satellite",
+        "protocolSignal": "source archive contains sat.trn and sat.tst and documentation warns not to use cross-validation",
+        "protocolStatus": "protocol_reproduced",
+        "slug": "uci-statlog-landsat-satellite",
+        "sourceUrl": "https://archive.ics.uci.edu/static/public/146/statlog+landsat+satellite.zip",
+        "splitRiskType": "spatial_file_protocol_risk",
+        "targetKey": "landsat",
+        "targetNotes": "Image-derived benchmark with source train/test files and spatial/file-like protocol risk."
+      }
+    }
+  },
+  "batch17": {
+    "candidates": {
+      "har": {
+        "name": "UCI Human Activity Recognition Using Smartphones",
+        "protocolSignal": "source archive contains train/test files and subject train/test files",
+        "protocolStatus": "protocol_reproduced",
+        "score": {
+          "baselineFeasibility": 5,
+          "executionFeasibility": 5,
+          "expectedScientificValue": 28,
+          "metricRiskPotential": 3,
+          "protocolClarity": 5,
+          "safety": 5,
+          "splitRiskPotential": 5
+        },
+        "sourceUrl": "https://archive.ics.uci.edu/static/public/240/human+activity+recognition+using+smartphones.zip",
+        "splitRiskType": "subject_holdout_risk"
+      },
+      "image": {
+        "name": "UCI Image Segmentation",
+        "protocolSignal": "source archive contains segmentation.data and segmentation.test files",
+        "protocolStatus": "protocol_reproduced",
+        "score": {
+          "baselineFeasibility": 5,
+          "executionFeasibility": 5,
+          "expectedScientificValue": 27,
+          "metricRiskPotential": 3,
+          "protocolClarity": 5,
+          "safety": 5,
+          "splitRiskPotential": 4
+        },
+        "sourceUrl": "https://archive.ics.uci.edu/static/public/50/image+segmentation.zip",
+        "splitRiskType": "image_file_split_risk"
+      },
+      "iris": {
+        "name": "UCI Iris",
+        "protocolSignal": "source archive has one data file and no source train/test protocol",
+        "protocolStatus": "protocol_absent",
+        "score": {
+          "baselineFeasibility": 5,
+          "executionFeasibility": 5,
+          "expectedScientificValue": 17,
+          "metricRiskPotential": 1,
+          "protocolClarity": 0,
+          "safety": 5,
+          "splitRiskPotential": 1
+        },
+        "sourceUrl": "https://archive.ics.uci.edu/static/public/53/iris.zip",
+        "splitRiskType": "low_risk_control_random_only"
+      },
+      "landsat": {
+        "name": "UCI Statlog Landsat Satellite",
+        "protocolSignal": "source archive contains sat.trn and sat.tst and documentation warns not to use cross-validation",
+        "protocolStatus": "protocol_reproduced",
+        "score": {
+          "baselineFeasibility": 5,
+          "executionFeasibility": 5,
+          "expectedScientificValue": 28,
+          "metricRiskPotential": 3,
+          "protocolClarity": 5,
+          "safety": 5,
+          "splitRiskPotential": 5
+        },
+        "sourceUrl": "https://archive.ics.uci.edu/static/public/146/statlog+landsat+satellite.zip",
+        "splitRiskType": "spatial_file_protocol_risk"
+      },
+      "letter": {
+        "name": "UCI Letter Recognition",
+        "protocolSignal": "documentation says first 16000 examples are typically train and remaining 4000 test",
+        "protocolStatus": "protocol_approximated",
+        "score": {
+          "baselineFeasibility": 5,
+          "executionFeasibility": 5,
+          "expectedScientificValue": 23,
+          "metricRiskPotential": 1,
+          "protocolClarity": 3,
+          "safety": 5,
+          "splitRiskPotential": 4
+        },
+        "sourceUrl": "https://archive.ics.uci.edu/static/public/59/letter+recognition.zip",
+        "splitRiskType": "documentation_order_split_ambiguity"
+      },
+      "optical": {
+        "name": "UCI Optical Recognition of Handwritten Digits",
+        "protocolSignal": "source archive contains optdigits train/test files",
+        "protocolStatus": "protocol_reproduced",
+        "score": {
+          "baselineFeasibility": 5,
+          "executionFeasibility": 5,
+          "expectedScientificValue": 25,
+          "metricRiskPotential": 1,
+          "protocolClarity": 5,
+          "safety": 5,
+          "splitRiskPotential": 4
+        },
+        "sourceUrl": "https://archive.ics.uci.edu/static/public/80/optical+recognition+of+handwritten+digits.zip",
+        "splitRiskType": "source_file_split_risk"
+      },
+      "pen": {
+        "name": "UCI Pen-Based Recognition of Handwritten Digits",
+        "protocolSignal": "source archive contains pendigits train/test files",
+        "protocolStatus": "protocol_reproduced",
+        "score": {
+          "baselineFeasibility": 5,
+          "executionFeasibility": 5,
+          "expectedScientificValue": 25,
+          "metricRiskPotential": 1,
+          "protocolClarity": 5,
+          "safety": 5,
+          "splitRiskPotential": 4
+        },
+        "sourceUrl": "https://archive.ics.uci.edu/static/public/81/pen+based+recognition+of+handwritten+digits.zip",
+        "splitRiskType": "source_file_split_risk"
+      },
+      "shuttle": {
+        "name": "UCI Statlog Shuttle",
+        "protocolSignal": "source archive contains shuttle train/test files and documentation says train/test should be used",
+        "protocolStatus": "protocol_reproduced",
+        "score": {
+          "baselineFeasibility": 5,
+          "executionFeasibility": 5,
+          "expectedScientificValue": 30,
+          "metricRiskPotential": 5,
+          "protocolClarity": 5,
+          "safety": 5,
+          "splitRiskPotential": 5
+        },
+        "sourceUrl": "https://archive.ics.uci.edu/static/public/148/statlog+shuttle.zip",
+        "splitRiskType": "rare_class_and_metric_risk"
+      },
+      "vehicle": {
+        "name": "UCI Statlog Vehicle Silhouettes",
+        "protocolSignal": "source archive contains multiple xaa-xai data shards but no clean train/test file pair",
+        "protocolStatus": "protocol_ambiguous",
+        "score": {
+          "baselineFeasibility": 5,
+          "executionFeasibility": 3,
+          "expectedScientificValue": 17,
+          "metricRiskPotential": 1,
+          "protocolClarity": 2,
+          "safety": 5,
+          "splitRiskPotential": 1
+        },
+        "sourceUrl": "https://archive.ics.uci.edu/static/public/149/statlog+vehicle+silhouettes.zip",
+        "splitRiskType": "file_shard_protocol_ambiguity"
+      },
+      "wine": {
+        "name": "UCI Wine Recognition",
+        "protocolSignal": "source archive has one data file and no source train/test protocol",
+        "protocolStatus": "protocol_absent",
+        "score": {
+          "baselineFeasibility": 5,
+          "executionFeasibility": 5,
+          "expectedScientificValue": 17,
+          "metricRiskPotential": 1,
+          "protocolClarity": 0,
+          "safety": 5,
+          "splitRiskPotential": 1
+        },
+        "sourceUrl": "https://archive.ics.uci.edu/static/public/109/wine.zip",
+        "splitRiskType": "low_risk_control_random_only"
+      }
+    },
+    "loadAttempts": {
+      "image": {
+        "success": true,
+        "summary": {
+          "classCount": 7,
+          "classCounts": {
+            "BRICKFACE": 330,
+            "CEMENT": 330,
+            "FOLIAGE": 330,
+            "GRASS": 330,
+            "PATH": 330,
+            "SKY": 330,
+            "WINDOW": 330
+          },
+          "duplicateFeatureRows": 224,
+          "extra": {},
+          "featureCount": 19,
+          "missingCells": 0,
+          "rowCount": 2310,
+          "testClassCounts": {
+            "BRICKFACE": 300,
+            "CEMENT": 300,
+            "FOLIAGE": 300,
+            "GRASS": 300,
+            "PATH": 300,
+            "SKY": 300,
+            "WINDOW": 300
+          },
+          "testCount": 2100,
+          "trainClassCounts": {
+            "BRICKFACE": 30,
+            "CEMENT": 30,
+            "FOLIAGE": 30,
+            "GRASS": 30,
+            "PATH": 30,
+            "SKY": 30,
+            "WINDOW": 30
+          },
+          "trainCount": 210
+        }
+      },
+      "iris": {
+        "success": true,
+        "summary": {
+          "classCount": 3,
+          "classCounts": {
+            "Iris-setosa": 50,
+            "Iris-versicolor": 50,
+            "Iris-virginica": 50
+          },
+          "duplicateFeatureRows": 3,
+          "extra": {
+            "protocolApproximation": "random split only; no source protocol"
+          },
+          "featureCount": 4,
+          "missingCells": 0,
+          "rowCount": 150,
+          "testClassCounts": {
+            "Iris-setosa": 15,
+            "Iris-versicolor": 15,
+            "Iris-virginica": 15
+          },
+          "testCount": 45,
+          "trainClassCounts": {
+            "Iris-setosa": 35,
+            "Iris-versicolor": 35,
+            "Iris-virginica": 35
+          },
+          "trainCount": 105
+        }
+      },
+      "optical": {
+        "success": true,
+        "summary": {
+          "classCount": 10,
+          "classCounts": {
+            "0": 554,
+            "1": 571,
+            "2": 557,
+            "3": 572,
+            "4": 568,
+            "5": 558,
+            "6": 558,
+            "7": 566,
+            "8": 554,
+            "9": 562
+          },
+          "duplicateFeatureRows": 0,
+          "extra": {},
+          "featureCount": 64,
+          "missingCells": 0,
+          "rowCount": 5620,
+          "testClassCounts": {
+            "0": 178,
+            "1": 182,
+            "2": 177,
+            "3": 183,
+            "4": 181,
+            "5": 182,
+            "6": 181,
+            "7": 179,
+            "8": 174,
+            "9": 180
+          },
+          "testCount": 1797,
+          "trainClassCounts": {
+            "0": 376,
+            "1": 389,
+            "2": 380,
+            "3": 389,
+            "4": 387,
+            "5": 376,
+            "6": 377,
+            "7": 387,
+            "8": 380,
+            "9": 382
+          },
+          "trainCount": 3823
+        }
+      },
+      "pen": {
+        "success": true,
+        "summary": {
+          "classCount": 10,
+          "classCounts": {
+            "0": 1143,
+            "1": 1143,
+            "2": 1144,
+            "3": 1055,
+            "4": 1144,
+            "5": 1055,
+            "6": 1056,
+            "7": 1142,
+            "8": 1055,
+            "9": 1055
+          },
+          "duplicateFeatureRows": 0,
+          "extra": {},
+          "featureCount": 16,
+          "missingCells": 0,
+          "rowCount": 10992,
+          "testClassCounts": {
+            "0": 363,
+            "1": 364,
+            "2": 364,
+            "3": 336,
+            "4": 364,
+            "5": 335,
+            "6": 336,
+            "7": 364,
+            "8": 336,
+            "9": 336
+          },
+          "testCount": 3498,
+          "trainClassCounts": {
+            "0": 780,
+            "1": 779,
+            "2": 780,
+            "3": 719,
+            "4": 780,
+            "5": 720,
+            "6": 720,
+            "7": 778,
+            "8": 719,
+            "9": 719
+          },
+          "trainCount": 7494
+        }
+      },
+      "vehicle": {
+        "success": true,
+        "summary": {
+          "classCount": 4,
+          "classCounts": {
+            "bus": 218,
+            "opel": 212,
+            "saab": 217,
+            "van": 199
+          },
+          "duplicateFeatureRows": 0,
+          "extra": {
+            "fileShardCount": 9,
+            "protocolApproximation": "random split only; source shards are ambiguous"
+          },
+          "featureCount": 18,
+          "missingCells": 0,
+          "rowCount": 846,
+          "testClassCounts": {
+            "bus": 65,
+            "opel": 64,
+            "saab": 65,
+            "van": 60
+          },
+          "testCount": 254,
+          "trainClassCounts": {
+            "bus": 153,
+            "opel": 148,
+            "saab": 152,
+            "van": 139
+          },
+          "trainCount": 592
+        }
+      },
+      "wine": {
+        "success": true,
+        "summary": {
+          "classCount": 3,
+          "classCounts": {
+            "1": 59,
+            "2": 71,
+            "3": 48
+          },
+          "duplicateFeatureRows": 0,
+          "extra": {
+            "protocolApproximation": "random split only; no source protocol"
+          },
+          "featureCount": 13,
+          "missingCells": 0,
+          "rowCount": 178,
+          "testClassCounts": {
+            "1": 18,
+            "2": 21,
+            "3": 15
+          },
+          "testCount": 54,
+          "trainClassCounts": {
+            "1": 41,
+            "2": 50,
+            "3": 33
+          },
+          "trainCount": 124
+        }
+      }
+    },
+    "minimalRuns": {
+      "image": {
+        "classCountsTest": {
+          "BRICKFACE": 300,
+          "CEMENT": 300,
+          "FOLIAGE": 300,
+          "GRASS": 300,
+          "PATH": 300,
+          "SKY": 300,
+          "WINDOW": 300
+        },
+        "classCountsTrain": {
+          "BRICKFACE": 30,
+          "CEMENT": 30,
+          "FOLIAGE": 30,
+          "GRASS": 30,
+          "PATH": 30,
+          "SKY": 30,
+          "WINDOW": 30
+        },
+        "family": "source",
+        "models": {
+          "dummy_majority": {
+            "accuracy": 0.142857,
+            "confusionDiagonal": {
+              "BRICKFACE": 300,
+              "CEMENT": 0,
+              "FOLIAGE": 0,
+              "GRASS": 0,
+              "PATH": 0,
+              "SKY": 0,
+              "WINDOW": 0
+            },
+            "fitRows": 210,
+            "macroF1": 0.035714,
+            "model": "dummy_majority",
+            "perClassF1": {
+              "BRICKFACE": 0.25,
+              "CEMENT": 0.0,
+              "FOLIAGE": 0.0,
+              "GRASS": 0.0,
+              "PATH": 0.0,
+              "SKY": 0.0,
+              "WINDOW": 0.0
+            },
+            "requestedModel": "dummy_majority",
+            "trainRows": 210,
+            "trainSampled": false,
+            "weightedF1": 0.035714,
+            "worstClasses": [
+              {
+                "class": "CEMENT",
+                "f1": 0.0
+              },
+              {
+                "class": "FOLIAGE",
+                "f1": 0.0
+              },
+              {
+                "class": "GRASS",
+                "f1": 0.0
+              },
+              {
+                "class": "PATH",
+                "f1": 0.0
+              },
+              {
+                "class": "SKY",
+                "f1": 0.0
+              }
+            ]
+          },
+          "linear": {
+            "accuracy": 0.899048,
+            "confusionDiagonal": {
+              "BRICKFACE": 277,
+              "CEMENT": 268,
+              "FOLIAGE": 244,
+              "GRASS": 297,
+              "PATH": 300,
+              "SKY": 300,
+              "WINDOW": 202
+            },
+            "fitRows": 210,
+            "macroF1": 0.898239,
+            "model": "linear",
+            "perClassF1": {
+              "BRICKFACE": 0.953528,
+              "CEMENT": 0.8576,
+              "FOLIAGE": 0.787097,
+              "GRASS": 0.994975,
+              "PATH": 0.97561,
+              "SKY": 1.0,
+              "WINDOW": 0.718861
+            },
+            "requestedModel": "linear",
+            "trainRows": 210,
+            "trainSampled": false,
+            "weightedF1": 0.898239,
+            "worstClasses": [
+              {
+                "class": "WINDOW",
+                "f1": 0.718861
+              },
+              {
+                "class": "FOLIAGE",
+                "f1": 0.787097
+              },
+              {
+                "class": "CEMENT",
+                "f1": 0.8576
+              },
+              {
+                "class": "BRICKFACE",
+                "f1": 0.953528
+              },
+              {
+                "class": "PATH",
+                "f1": 0.97561
+              }
+            ]
+          }
+        },
+        "seed": 42,
+        "testCount": 2100,
+        "trainCount": 210
+      },
+      "optical": {
+        "classCountsTest": {
+          "0": 178,
+          "1": 182,
+          "2": 177,
+          "3": 183,
+          "4": 181,
+          "5": 182,
+          "6": 181,
+          "7": 179,
+          "8": 174,
+          "9": 180
+        },
+        "classCountsTrain": {
+          "0": 376,
+          "1": 389,
+          "2": 380,
+          "3": 389,
+          "4": 387,
+          "5": 376,
+          "6": 377,
+          "7": 387,
+          "8": 380,
+          "9": 382
+        },
+        "family": "source",
+        "models": {
+          "dummy_majority": {
+            "accuracy": 0.10128,
+            "confusionDiagonal": {
+              "0": 0,
+              "1": 182,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 0,
+              "7": 0,
+              "8": 0,
+              "9": 0
+            },
+            "fitRows": 3823,
+            "macroF1": 0.018393,
+            "model": "dummy_majority",
+            "perClassF1": {
+              "0": 0.0,
+              "1": 0.183931,
+              "2": 0.0,
+              "3": 0.0,
+              "4": 0.0,
+              "5": 0.0,
+              "6": 0.0,
+              "7": 0.0,
+              "8": 0.0,
+              "9": 0.0
+            },
+            "requestedModel": "dummy_majority",
+            "trainRows": 3823,
+            "trainSampled": false,
+            "weightedF1": 0.018629,
+            "worstClasses": [
+              {
+                "class": "0",
+                "f1": 0.0
+              },
+              {
+                "class": "2",
+                "f1": 0.0
+              },
+              {
+                "class": "3",
+                "f1": 0.0
+              },
+              {
+                "class": "4",
+                "f1": 0.0
+              },
+              {
+                "class": "5",
+                "f1": 0.0
+              }
+            ]
+          },
+          "linear": {
+            "accuracy": 0.949917,
+            "confusionDiagonal": {
+              "0": 174,
+              "1": 176,
+              "2": 171,
+              "3": 169,
+              "4": 174,
+              "5": 176,
+              "6": 177,
+              "7": 164,
+              "8": 155,
+              "9": 171
+            },
+            "fitRows": 3823,
+            "macroF1": 0.949983,
+            "model": "linear",
+            "perClassF1": {
+              "0": 0.988636,
+              "1": 0.941176,
+              "2": 0.968839,
+              "3": 0.949438,
+              "4": 0.963989,
+              "5": 0.93617,
+              "6": 0.980609,
+              "7": 0.947977,
+              "8": 0.901163,
+              "9": 0.921833
+            },
+            "requestedModel": "linear",
+            "trainRows": 3823,
+            "trainSampled": false,
+            "weightedF1": 0.950071,
+            "worstClasses": [
+              {
+                "class": "8",
+                "f1": 0.901163
+              },
+              {
+                "class": "9",
+                "f1": 0.921833
+              },
+              {
+                "class": "5",
+                "f1": 0.93617
+              },
+              {
+                "class": "1",
+                "f1": 0.941176
+              },
+              {
+                "class": "7",
+                "f1": 0.947977
+              }
+            ]
+          }
+        },
+        "seed": 42,
+        "testCount": 1797,
+        "trainCount": 3823
+      },
+      "wine": {
+        "classCountsTest": {
+          "1": 18,
+          "2": 21,
+          "3": 15
+        },
+        "classCountsTrain": {
+          "1": 41,
+          "2": 50,
+          "3": 33
+        },
+        "family": "stratified_random",
+        "models": {
+          "dummy_majority": {
+            "accuracy": 0.388889,
+            "confusionDiagonal": {
+              "1": 0,
+              "2": 21,
+              "3": 0
+            },
+            "fitRows": 124,
+            "macroF1": 0.186667,
+            "model": "dummy_majority",
+            "perClassF1": {
+              "1": 0.0,
+              "2": 0.56,
+              "3": 0.0
+            },
+            "requestedModel": "dummy_majority",
+            "trainRows": 124,
+            "trainSampled": false,
+            "weightedF1": 0.217778,
+            "worstClasses": [
+              {
+                "class": "1",
+                "f1": 0.0
+              },
+              {
+                "class": "3",
+                "f1": 0.0
+              },
+              {
+                "class": "2",
+                "f1": 0.56
+              }
+            ]
+          },
+          "linear": {
+            "accuracy": 0.962963,
+            "confusionDiagonal": {
+              "1": 18,
+              "2": 19,
+              "3": 15
+            },
+            "fitRows": 124,
+            "macroF1": 0.963572,
+            "model": "linear",
+            "perClassF1": {
+              "1": 0.972973,
+              "2": 0.95,
+              "3": 0.967742
+            },
+            "requestedModel": "linear",
+            "trainRows": 124,
+            "trainSampled": false,
+            "weightedF1": 0.962586,
+            "worstClasses": [
+              {
+                "class": "2",
+                "f1": 0.95
+              },
+              {
+                "class": "3",
+                "f1": 0.967742
+              },
+              {
+                "class": "1",
+                "f1": 0.972973
+              }
+            ]
+          }
+        },
+        "seed": 42,
+        "testCount": 54,
+        "trainCount": 124
+      }
+    },
+    "rejectedOrDeferred": [
+      "uci-wine-recognition",
+      "uci-statlog-shuttle",
+      "uci-statlog-landsat-satellite",
+      "uci-human-activity-recognition-smartphones"
+    ],
+    "selectedBroadRunTargets": [
+      "uci-optical-recognition-handwritten-digits",
+      "uci-letter-recognition",
+      "uci-iris"
+    ],
+    "selectedDeepTargets": [
+      "uci-image-segmentation",
+      "uci-statlog-vehicle-silhouettes",
+      "uci-pen-based-handwritten-digits"
+    ]
+  },
+  "batch18": {
+    "refreshedExecutions": {
+      "har": {
+        "dataset": {
+          "classCount": 6,
+          "classCounts": {
+            "1": 1722,
+            "2": 1544,
+            "3": 1406,
+            "4": 1777,
+            "5": 1906,
+            "6": 1944
+          },
+          "duplicateFeatureRows": 0,
+          "extra": {
+            "subjectOverlap": 0,
+            "testSubjects": 9,
+            "trainSubjects": 21
+          },
+          "featureCount": 561,
+          "missingCells": 0,
+          "rowCount": 10299,
+          "testClassCounts": {
+            "1": 496,
+            "2": 471,
+            "3": 420,
+            "4": 491,
+            "5": 532,
+            "6": 537
+          },
+          "testCount": 2947,
+          "trainClassCounts": {
+            "1": 1226,
+            "2": 1073,
+            "3": 986,
+            "4": 1286,
+            "5": 1374,
+            "6": 1407
+          },
+          "trainCount": 7352
+        },
+        "random": {
+          "classCountsTest": {
+            "1": 493,
+            "2": 442,
+            "3": 402,
+            "4": 509,
+            "5": 545,
+            "6": 556
+          },
+          "classCountsTrain": {
+            "1": 1229,
+            "2": 1102,
+            "3": 1004,
+            "4": 1268,
+            "5": 1361,
+            "6": 1388
+          },
+          "family": "stratified_random",
+          "models": {
+            "dummy_majority": {
+              "accuracy": 0.188666,
+              "confusionDiagonal": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0,
+                "6": 556
+              },
+              "fitRows": 7352,
+              "macroF1": 0.052907,
+              "model": "dummy_majority",
+              "perClassF1": {
+                "1": 0.0,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.0,
+                "5": 0.0,
+                "6": 0.317442
+              },
+              "requestedModel": "dummy_majority",
+              "trainRows": 7352,
+              "trainSampled": false,
+              "weightedF1": 0.059891,
+              "worstClasses": [
+                {
+                  "class": "1",
+                  "f1": 0.0
+                },
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "4",
+                  "f1": 0.0
+                },
+                {
+                  "class": "5",
+                  "f1": 0.0
+                }
+              ]
+            },
+            "forest": {
+              "accuracy": 0.977265,
+              "confusionDiagonal": {
+                "1": 489,
+                "2": 440,
+                "3": 391,
+                "4": 485,
+                "5": 520,
+                "6": 555
+              },
+              "fitRows": 7352,
+              "macroF1": 0.977617,
+              "model": "forest",
+              "perClassF1": {
+                "1": 0.992893,
+                "2": 0.986547,
+                "3": 0.981179,
+                "4": 0.95098,
+                "5": 0.955005,
+                "6": 0.9991
+              },
+              "requestedModel": "forest",
+              "trainRows": 7352,
+              "trainSampled": false,
+              "weightedF1": 0.977269,
+              "worstClasses": [
+                {
+                  "class": "4",
+                  "f1": 0.95098
+                },
+                {
+                  "class": "5",
+                  "f1": 0.955005
+                },
+                {
+                  "class": "3",
+                  "f1": 0.981179
+                },
+                {
+                  "class": "2",
+                  "f1": 0.986547
+                },
+                {
+                  "class": "1",
+                  "f1": 0.992893
+                }
+              ]
+            },
+            "linear": {
+              "accuracy": 0.982016,
+              "confusionDiagonal": {
+                "1": 493,
+                "2": 441,
+                "3": 402,
+                "4": 489,
+                "5": 513,
+                "6": 556
+              },
+              "fitRows": 7352,
+              "macroF1": 0.983189,
+              "model": "linear",
+              "perClassF1": {
+                "1": 0.998987,
+                "2": 0.998867,
+                "3": 1.0,
+                "4": 0.949515,
+                "5": 0.951763,
+                "6": 1.0
+              },
+              "requestedModel": "linear",
+              "trainRows": 7352,
+              "trainSampled": false,
+              "weightedF1": 0.98202,
+              "worstClasses": [
+                {
+                  "class": "4",
+                  "f1": 0.949515
+                },
+                {
+                  "class": "5",
+                  "f1": 0.951763
+                },
+                {
+                  "class": "2",
+                  "f1": 0.998867
+                },
+                {
+                  "class": "1",
+                  "f1": 0.998987
+                },
+                {
+                  "class": "3",
+                  "f1": 1.0
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 2947,
+          "trainCount": 7352
+        },
+        "source": {
+          "classCountsTest": {
+            "1": 496,
+            "2": 471,
+            "3": 420,
+            "4": 491,
+            "5": 532,
+            "6": 537
+          },
+          "classCountsTrain": {
+            "1": 1226,
+            "2": 1073,
+            "3": 986,
+            "4": 1286,
+            "5": 1374,
+            "6": 1407
+          },
+          "family": "source",
+          "models": {
+            "dummy_majority": {
+              "accuracy": 0.182219,
+              "confusionDiagonal": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0,
+                "6": 537
+              },
+              "fitRows": 7352,
+              "macroF1": 0.051378,
+              "model": "dummy_majority",
+              "perClassF1": {
+                "1": 0.0,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.0,
+                "5": 0.0,
+                "6": 0.308266
+              },
+              "requestedModel": "dummy_majority",
+              "trainRows": 7352,
+              "trainSampled": false,
+              "weightedF1": 0.056172,
+              "worstClasses": [
+                {
+                  "class": "1",
+                  "f1": 0.0
+                },
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "4",
+                  "f1": 0.0
+                },
+                {
+                  "class": "5",
+                  "f1": 0.0
+                }
+              ]
+            },
+            "forest": {
+              "accuracy": 0.923312,
+              "confusionDiagonal": {
+                "1": 482,
+                "2": 415,
+                "3": 361,
+                "4": 439,
+                "5": 487,
+                "6": 537
+              },
+              "fitRows": 7352,
+              "macroF1": 0.921555,
+              "model": "forest",
+              "perClassF1": {
+                "1": 0.921606,
+                "2": 0.889603,
+                "3": 0.908176,
+                "4": 0.900513,
+                "5": 0.90943,
+                "6": 1.0
+              },
+              "requestedModel": "forest",
+              "trainRows": 7352,
+              "trainSampled": false,
+              "weightedF1": 0.92315,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.889603
+                },
+                {
+                  "class": "4",
+                  "f1": 0.900513
+                },
+                {
+                  "class": "3",
+                  "f1": 0.908176
+                },
+                {
+                  "class": "5",
+                  "f1": 0.90943
+                },
+                {
+                  "class": "1",
+                  "f1": 0.921606
+                }
+              ]
+            },
+            "linear": {
+              "accuracy": 0.953851,
+              "confusionDiagonal": {
+                "1": 493,
+                "2": 447,
+                "3": 393,
+                "4": 429,
+                "5": 519,
+                "6": 530
+              },
+              "fitRows": 7352,
+              "macroF1": 0.953739,
+              "model": "linear",
+              "perClassF1": {
+                "1": 0.968566,
+                "2": 0.952077,
+                "3": 0.962056,
+                "4": 0.919614,
+                "5": 0.927614,
+                "6": 0.992509
+              },
+              "requestedModel": "linear",
+              "trainRows": 7352,
+              "trainSampled": false,
+              "weightedF1": 0.953817,
+              "worstClasses": [
+                {
+                  "class": "4",
+                  "f1": 0.919614
+                },
+                {
+                  "class": "5",
+                  "f1": 0.927614
+                },
+                {
+                  "class": "2",
+                  "f1": 0.952077
+                },
+                {
+                  "class": "3",
+                  "f1": 0.962056
+                },
+                {
+                  "class": "1",
+                  "f1": 0.968566
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 2947,
+          "trainCount": 7352
+        }
+      },
+      "image": {
+        "dataset": {
+          "classCount": 7,
+          "classCounts": {
+            "BRICKFACE": 330,
+            "CEMENT": 330,
+            "FOLIAGE": 330,
+            "GRASS": 330,
+            "PATH": 330,
+            "SKY": 330,
+            "WINDOW": 330
+          },
+          "duplicateFeatureRows": 224,
+          "extra": {},
+          "featureCount": 19,
+          "missingCells": 0,
+          "rowCount": 2310,
+          "testClassCounts": {
+            "BRICKFACE": 300,
+            "CEMENT": 300,
+            "FOLIAGE": 300,
+            "GRASS": 300,
+            "PATH": 300,
+            "SKY": 300,
+            "WINDOW": 300
+          },
+          "testCount": 2100,
+          "trainClassCounts": {
+            "BRICKFACE": 30,
+            "CEMENT": 30,
+            "FOLIAGE": 30,
+            "GRASS": 30,
+            "PATH": 30,
+            "SKY": 30,
+            "WINDOW": 30
+          },
+          "trainCount": 210
+        },
+        "random": {
+          "classCountsTest": {
+            "BRICKFACE": 300,
+            "CEMENT": 300,
+            "FOLIAGE": 300,
+            "GRASS": 300,
+            "PATH": 300,
+            "SKY": 300,
+            "WINDOW": 300
+          },
+          "classCountsTrain": {
+            "BRICKFACE": 30,
+            "CEMENT": 30,
+            "FOLIAGE": 30,
+            "GRASS": 30,
+            "PATH": 30,
+            "SKY": 30,
+            "WINDOW": 30
+          },
+          "family": "stratified_random",
+          "models": {
+            "dummy_majority": {
+              "accuracy": 0.142857,
+              "confusionDiagonal": {
+                "BRICKFACE": 300,
+                "CEMENT": 0,
+                "FOLIAGE": 0,
+                "GRASS": 0,
+                "PATH": 0,
+                "SKY": 0,
+                "WINDOW": 0
+              },
+              "fitRows": 210,
+              "macroF1": 0.035714,
+              "model": "dummy_majority",
+              "perClassF1": {
+                "BRICKFACE": 0.25,
+                "CEMENT": 0.0,
+                "FOLIAGE": 0.0,
+                "GRASS": 0.0,
+                "PATH": 0.0,
+                "SKY": 0.0,
+                "WINDOW": 0.0
+              },
+              "requestedModel": "dummy_majority",
+              "trainRows": 210,
+              "trainSampled": false,
+              "weightedF1": 0.035714,
+              "worstClasses": [
+                {
+                  "class": "CEMENT",
+                  "f1": 0.0
+                },
+                {
+                  "class": "FOLIAGE",
+                  "f1": 0.0
+                },
+                {
+                  "class": "GRASS",
+                  "f1": 0.0
+                },
+                {
+                  "class": "PATH",
+                  "f1": 0.0
+                },
+                {
+                  "class": "SKY",
+                  "f1": 0.0
+                }
+              ]
+            },
+            "forest": {
+              "accuracy": 0.940952,
+              "confusionDiagonal": {
+                "BRICKFACE": 292,
+                "CEMENT": 269,
+                "FOLIAGE": 255,
+                "GRASS": 299,
+                "PATH": 296,
+                "SKY": 300,
+                "WINDOW": 265
+              },
+              "fitRows": 210,
+              "macroF1": 0.941086,
+              "model": "forest",
+              "perClassF1": {
+                "BRICKFACE": 0.962109,
+                "CEMENT": 0.886326,
+                "FOLIAGE": 0.891608,
+                "GRASS": 0.998331,
+                "PATH": 0.991625,
+                "SKY": 1.0,
+                "WINDOW": 0.857605
+              },
+              "requestedModel": "forest",
+              "trainRows": 210,
+              "trainSampled": false,
+              "weightedF1": 0.941086,
+              "worstClasses": [
+                {
+                  "class": "WINDOW",
+                  "f1": 0.857605
+                },
+                {
+                  "class": "CEMENT",
+                  "f1": 0.886326
+                },
+                {
+                  "class": "FOLIAGE",
+                  "f1": 0.891608
+                },
+                {
+                  "class": "BRICKFACE",
+                  "f1": 0.962109
+                },
+                {
+                  "class": "PATH",
+                  "f1": 0.991625
+                }
+              ]
+            },
+            "linear": {
+              "accuracy": 0.90381,
+              "confusionDiagonal": {
+                "BRICKFACE": 291,
+                "CEMENT": 246,
+                "FOLIAGE": 253,
+                "GRASS": 297,
+                "PATH": 298,
+                "SKY": 300,
+                "WINDOW": 213
+              },
+              "fitRows": 210,
+              "macroF1": 0.904047,
+              "model": "linear",
+              "perClassF1": {
+                "BRICKFACE": 0.983108,
+                "CEMENT": 0.855652,
+                "FOLIAGE": 0.803175,
+                "GRASS": 0.994975,
+                "PATH": 0.97545,
+                "SKY": 1.0,
+                "WINDOW": 0.715966
+              },
+              "requestedModel": "linear",
+              "trainRows": 210,
+              "trainSampled": false,
+              "weightedF1": 0.904047,
+              "worstClasses": [
+                {
+                  "class": "WINDOW",
+                  "f1": 0.715966
+                },
+                {
+                  "class": "FOLIAGE",
+                  "f1": 0.803175
+                },
+                {
+                  "class": "CEMENT",
+                  "f1": 0.855652
+                },
+                {
+                  "class": "PATH",
+                  "f1": 0.97545
+                },
+                {
+                  "class": "BRICKFACE",
+                  "f1": 0.983108
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 2100,
+          "trainCount": 210
+        },
+        "source": {
+          "classCountsTest": {
+            "BRICKFACE": 300,
+            "CEMENT": 300,
+            "FOLIAGE": 300,
+            "GRASS": 300,
+            "PATH": 300,
+            "SKY": 300,
+            "WINDOW": 300
+          },
+          "classCountsTrain": {
+            "BRICKFACE": 30,
+            "CEMENT": 30,
+            "FOLIAGE": 30,
+            "GRASS": 30,
+            "PATH": 30,
+            "SKY": 30,
+            "WINDOW": 30
+          },
+          "family": "source",
+          "models": {
+            "dummy_majority": {
+              "accuracy": 0.142857,
+              "confusionDiagonal": {
+                "BRICKFACE": 300,
+                "CEMENT": 0,
+                "FOLIAGE": 0,
+                "GRASS": 0,
+                "PATH": 0,
+                "SKY": 0,
+                "WINDOW": 0
+              },
+              "fitRows": 210,
+              "macroF1": 0.035714,
+              "model": "dummy_majority",
+              "perClassF1": {
+                "BRICKFACE": 0.25,
+                "CEMENT": 0.0,
+                "FOLIAGE": 0.0,
+                "GRASS": 0.0,
+                "PATH": 0.0,
+                "SKY": 0.0,
+                "WINDOW": 0.0
+              },
+              "requestedModel": "dummy_majority",
+              "trainRows": 210,
+              "trainSampled": false,
+              "weightedF1": 0.035714,
+              "worstClasses": [
+                {
+                  "class": "CEMENT",
+                  "f1": 0.0
+                },
+                {
+                  "class": "FOLIAGE",
+                  "f1": 0.0
+                },
+                {
+                  "class": "GRASS",
+                  "f1": 0.0
+                },
+                {
+                  "class": "PATH",
+                  "f1": 0.0
+                },
+                {
+                  "class": "SKY",
+                  "f1": 0.0
+                }
+              ]
+            },
+            "forest": {
+              "accuracy": 0.958095,
+              "confusionDiagonal": {
+                "BRICKFACE": 298,
+                "CEMENT": 282,
+                "FOLIAGE": 272,
+                "GRASS": 300,
+                "PATH": 298,
+                "SKY": 300,
+                "WINDOW": 262
+              },
+              "fitRows": 210,
+              "macroF1": 0.957991,
+              "model": "forest",
+              "perClassF1": {
+                "BRICKFACE": 0.988391,
+                "CEMENT": 0.935323,
+                "FOLIAGE": 0.909699,
+                "GRASS": 1.0,
+                "PATH": 0.994992,
+                "SKY": 0.998336,
+                "WINDOW": 0.879195
+              },
+              "requestedModel": "forest",
+              "trainRows": 210,
+              "trainSampled": false,
+              "weightedF1": 0.957991,
+              "worstClasses": [
+                {
+                  "class": "WINDOW",
+                  "f1": 0.879195
+                },
+                {
+                  "class": "FOLIAGE",
+                  "f1": 0.909699
+                },
+                {
+                  "class": "CEMENT",
+                  "f1": 0.935323
+                },
+                {
+                  "class": "BRICKFACE",
+                  "f1": 0.988391
+                },
+                {
+                  "class": "PATH",
+                  "f1": 0.994992
+                }
+              ]
+            },
+            "linear": {
+              "accuracy": 0.899048,
+              "confusionDiagonal": {
+                "BRICKFACE": 277,
+                "CEMENT": 268,
+                "FOLIAGE": 244,
+                "GRASS": 297,
+                "PATH": 300,
+                "SKY": 300,
+                "WINDOW": 202
+              },
+              "fitRows": 210,
+              "macroF1": 0.898239,
+              "model": "linear",
+              "perClassF1": {
+                "BRICKFACE": 0.953528,
+                "CEMENT": 0.8576,
+                "FOLIAGE": 0.787097,
+                "GRASS": 0.994975,
+                "PATH": 0.97561,
+                "SKY": 1.0,
+                "WINDOW": 0.718861
+              },
+              "requestedModel": "linear",
+              "trainRows": 210,
+              "trainSampled": false,
+              "weightedF1": 0.898239,
+              "worstClasses": [
+                {
+                  "class": "WINDOW",
+                  "f1": 0.718861
+                },
+                {
+                  "class": "FOLIAGE",
+                  "f1": 0.787097
+                },
+                {
+                  "class": "CEMENT",
+                  "f1": 0.8576
+                },
+                {
+                  "class": "BRICKFACE",
+                  "f1": 0.953528
+                },
+                {
+                  "class": "PATH",
+                  "f1": 0.97561
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 2100,
+          "trainCount": 210
+        }
+      },
+      "letter": {
+        "dataset": {
+          "classCount": 26,
+          "classCounts": {
+            "A": 789,
+            "B": 766,
+            "C": 736,
+            "D": 805,
+            "E": 768,
+            "F": 775,
+            "G": 773,
+            "H": 734,
+            "I": 755,
+            "J": 747,
+            "K": 739,
+            "L": 761,
+            "M": 792,
+            "N": 783,
+            "O": 753,
+            "P": 803,
+            "Q": 783,
+            "R": 758,
+            "S": 748,
+            "T": 796,
+            "U": 813,
+            "V": 764,
+            "W": 752,
+            "X": 787,
+            "Y": 786,
+            "Z": 734
+          },
+          "duplicateFeatureRows": 1332,
+          "extra": {
+            "protocolApproximation": "first 16000 rows train, remaining 4000 rows test"
+          },
+          "featureCount": 16,
+          "missingCells": 0,
+          "rowCount": 20000,
+          "testClassCounts": {
+            "A": 156,
+            "B": 136,
+            "C": 142,
+            "D": 167,
+            "E": 152,
+            "F": 153,
+            "G": 164,
+            "H": 151,
+            "I": 165,
+            "J": 148,
+            "K": 146,
+            "L": 157,
+            "M": 144,
+            "N": 166,
+            "O": 139,
+            "P": 168,
+            "Q": 168,
+            "R": 161,
+            "S": 161,
+            "T": 151,
+            "U": 168,
+            "V": 136,
+            "W": 139,
+            "X": 159,
+            "Y": 145,
+            "Z": 158
+          },
+          "testCount": 4000,
+          "trainClassCounts": {
+            "A": 633,
+            "B": 630,
+            "C": 594,
+            "D": 638,
+            "E": 616,
+            "F": 622,
+            "G": 609,
+            "H": 583,
+            "I": 590,
+            "J": 599,
+            "K": 593,
+            "L": 604,
+            "M": 648,
+            "N": 617,
+            "O": 614,
+            "P": 635,
+            "Q": 615,
+            "R": 597,
+            "S": 587,
+            "T": 645,
+            "U": 645,
+            "V": 628,
+            "W": 613,
+            "X": 628,
+            "Y": 641,
+            "Z": 576
+          },
+          "trainCount": 16000
+        },
+        "random": {
+          "classCountsTest": {
+            "A": 158,
+            "B": 153,
+            "C": 147,
+            "D": 161,
+            "E": 154,
+            "F": 155,
+            "G": 155,
+            "H": 147,
+            "I": 151,
+            "J": 149,
+            "K": 148,
+            "L": 152,
+            "M": 158,
+            "N": 157,
+            "O": 150,
+            "P": 161,
+            "Q": 157,
+            "R": 151,
+            "S": 150,
+            "T": 159,
+            "U": 163,
+            "V": 153,
+            "W": 150,
+            "X": 157,
+            "Y": 157,
+            "Z": 147
+          },
+          "classCountsTrain": {
+            "A": 631,
+            "B": 613,
+            "C": 589,
+            "D": 644,
+            "E": 614,
+            "F": 620,
+            "G": 618,
+            "H": 587,
+            "I": 604,
+            "J": 598,
+            "K": 591,
+            "L": 609,
+            "M": 634,
+            "N": 626,
+            "O": 603,
+            "P": 642,
+            "Q": 626,
+            "R": 607,
+            "S": 598,
+            "T": 637,
+            "U": 650,
+            "V": 611,
+            "W": 602,
+            "X": 630,
+            "Y": 629,
+            "Z": 587
+          },
+          "family": "stratified_random",
+          "models": {
+            "dummy_majority": {
+              "accuracy": 0.04075,
+              "confusionDiagonal": {
+                "A": 0,
+                "B": 0,
+                "C": 0,
+                "D": 0,
+                "E": 0,
+                "F": 0,
+                "G": 0,
+                "H": 0,
+                "I": 0,
+                "J": 0,
+                "K": 0,
+                "L": 0,
+                "M": 0,
+                "N": 0,
+                "O": 0,
+                "P": 0,
+                "Q": 0,
+                "R": 0,
+                "S": 0,
+                "T": 0,
+                "U": 163,
+                "V": 0,
+                "W": 0,
+                "X": 0,
+                "Y": 0,
+                "Z": 0
+              },
+              "fitRows": 16000,
+              "macroF1": 0.003012,
+              "model": "dummy_majority",
+              "perClassF1": {
+                "A": 0.0,
+                "B": 0.0,
+                "C": 0.0,
+                "D": 0.0,
+                "E": 0.0,
+                "F": 0.0,
+                "G": 0.0,
+                "H": 0.0,
+                "I": 0.0,
+                "J": 0.0,
+                "K": 0.0,
+                "L": 0.0,
+                "M": 0.0,
+                "N": 0.0,
+                "O": 0.0,
+                "P": 0.0,
+                "Q": 0.0,
+                "R": 0.0,
+                "S": 0.0,
+                "T": 0.0,
+                "U": 0.078309,
+                "V": 0.0,
+                "W": 0.0,
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "requestedModel": "dummy_majority",
+              "trainRows": 16000,
+              "trainSampled": false,
+              "weightedF1": 0.003191,
+              "worstClasses": [
+                {
+                  "class": "A",
+                  "f1": 0.0
+                },
+                {
+                  "class": "B",
+                  "f1": 0.0
+                },
+                {
+                  "class": "C",
+                  "f1": 0.0
+                },
+                {
+                  "class": "D",
+                  "f1": 0.0
+                },
+                {
+                  "class": "E",
+                  "f1": 0.0
+                }
+              ]
+            },
+            "forest": {
+              "accuracy": 0.96825,
+              "confusionDiagonal": {
+                "A": 156,
+                "B": 148,
+                "C": 143,
+                "D": 159,
+                "E": 148,
+                "F": 148,
+                "G": 147,
+                "H": 130,
+                "I": 140,
+                "J": 145,
+                "K": 141,
+                "L": 148,
+                "M": 157,
+                "N": 149,
+                "O": 146,
+                "P": 154,
+                "Q": 154,
+                "R": 141,
+                "S": 145,
+                "T": 156,
+                "U": 163,
+                "V": 150,
+                "W": 150,
+                "X": 155,
+                "Y": 156,
+                "Z": 144
+              },
+              "fitRows": 16000,
+              "macroF1": 0.968059,
+              "model": "forest",
+              "perClassF1": {
+                "A": 0.990476,
+                "B": 0.942675,
+                "C": 0.969492,
+                "D": 0.949254,
+                "E": 0.961039,
+                "F": 0.942675,
+                "G": 0.957655,
+                "H": 0.918728,
+                "I": 0.952381,
+                "J": 0.963455,
+                "K": 0.949495,
+                "L": 0.983389,
+                "M": 0.993671,
+                "N": 0.967532,
+                "O": 0.973333,
+                "P": 0.968553,
+                "Q": 0.965517,
+                "R": 0.943144,
+                "S": 0.973154,
+                "T": 0.990476,
+                "U": 0.993902,
+                "V": 0.977199,
+                "W": 0.996678,
+                "X": 0.977918,
+                "Y": 0.978056,
+                "Z": 0.989691
+              },
+              "requestedModel": "forest",
+              "trainRows": 16000,
+              "trainSampled": false,
+              "weightedF1": 0.968232,
+              "worstClasses": [
+                {
+                  "class": "H",
+                  "f1": 0.918728
+                },
+                {
+                  "class": "B",
+                  "f1": 0.942675
+                },
+                {
+                  "class": "F",
+                  "f1": 0.942675
+                },
+                {
+                  "class": "R",
+                  "f1": 0.943144
+                },
+                {
+                  "class": "D",
+                  "f1": 0.949254
+                }
+              ]
+            },
+            "linear": {
+              "accuracy": 0.77425,
+              "confusionDiagonal": {
+                "A": 142,
+                "B": 113,
+                "C": 122,
+                "D": 129,
+                "E": 124,
+                "F": 119,
+                "G": 88,
+                "H": 73,
+                "I": 118,
+                "J": 124,
+                "K": 104,
+                "L": 124,
+                "M": 140,
+                "N": 130,
+                "O": 95,
+                "P": 131,
+                "Q": 116,
+                "R": 115,
+                "S": 82,
+                "T": 123,
+                "U": 150,
+                "V": 137,
+                "W": 138,
+                "X": 118,
+                "Y": 129,
+                "Z": 113
+              },
+              "fitRows": 16000,
+              "macroF1": 0.772762,
+              "model": "linear",
+              "perClassF1": {
+                "A": 0.901587,
+                "B": 0.70405,
+                "C": 0.847222,
+                "D": 0.788991,
+                "E": 0.740299,
+                "F": 0.753165,
+                "G": 0.628571,
+                "H": 0.532847,
+                "I": 0.8223,
+                "J": 0.840678,
+                "K": 0.724739,
+                "L": 0.807818,
+                "M": 0.897436,
+                "N": 0.833333,
+                "O": 0.625,
+                "P": 0.826498,
+                "Q": 0.727273,
+                "R": 0.734824,
+                "S": 0.523962,
+                "T": 0.796117,
+                "U": 0.869565,
+                "V": 0.907285,
+                "W": 0.878981,
+                "X": 0.75641,
+                "Y": 0.824281,
+                "Z": 0.798587
+              },
+              "requestedModel": "linear",
+              "trainRows": 16000,
+              "trainSampled": false,
+              "weightedF1": 0.773861,
+              "worstClasses": [
+                {
+                  "class": "S",
+                  "f1": 0.523962
+                },
+                {
+                  "class": "H",
+                  "f1": 0.532847
+                },
+                {
+                  "class": "O",
+                  "f1": 0.625
+                },
+                {
+                  "class": "G",
+                  "f1": 0.628571
+                },
+                {
+                  "class": "B",
+                  "f1": 0.70405
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 4000,
+          "trainCount": 16000
+        },
+        "source": {
+          "classCountsTest": {
+            "A": 158,
+            "B": 153,
+            "C": 147,
+            "D": 161,
+            "E": 154,
+            "F": 155,
+            "G": 155,
+            "H": 147,
+            "I": 151,
+            "J": 149,
+            "K": 148,
+            "L": 152,
+            "M": 158,
+            "N": 157,
+            "O": 150,
+            "P": 161,
+            "Q": 157,
+            "R": 151,
+            "S": 150,
+            "T": 159,
+            "U": 163,
+            "V": 153,
+            "W": 150,
+            "X": 157,
+            "Y": 157,
+            "Z": 147
+          },
+          "classCountsTrain": {
+            "A": 631,
+            "B": 613,
+            "C": 589,
+            "D": 644,
+            "E": 614,
+            "F": 620,
+            "G": 618,
+            "H": 587,
+            "I": 604,
+            "J": 598,
+            "K": 591,
+            "L": 609,
+            "M": 634,
+            "N": 626,
+            "O": 603,
+            "P": 642,
+            "Q": 626,
+            "R": 607,
+            "S": 598,
+            "T": 637,
+            "U": 650,
+            "V": 611,
+            "W": 602,
+            "X": 630,
+            "Y": 629,
+            "Z": 587
+          },
+          "family": "stratified_random",
+          "models": {
+            "dummy_majority": {
+              "accuracy": 0.04075,
+              "confusionDiagonal": {
+                "A": 0,
+                "B": 0,
+                "C": 0,
+                "D": 0,
+                "E": 0,
+                "F": 0,
+                "G": 0,
+                "H": 0,
+                "I": 0,
+                "J": 0,
+                "K": 0,
+                "L": 0,
+                "M": 0,
+                "N": 0,
+                "O": 0,
+                "P": 0,
+                "Q": 0,
+                "R": 0,
+                "S": 0,
+                "T": 0,
+                "U": 163,
+                "V": 0,
+                "W": 0,
+                "X": 0,
+                "Y": 0,
+                "Z": 0
+              },
+              "fitRows": 16000,
+              "macroF1": 0.003012,
+              "model": "dummy_majority",
+              "perClassF1": {
+                "A": 0.0,
+                "B": 0.0,
+                "C": 0.0,
+                "D": 0.0,
+                "E": 0.0,
+                "F": 0.0,
+                "G": 0.0,
+                "H": 0.0,
+                "I": 0.0,
+                "J": 0.0,
+                "K": 0.0,
+                "L": 0.0,
+                "M": 0.0,
+                "N": 0.0,
+                "O": 0.0,
+                "P": 0.0,
+                "Q": 0.0,
+                "R": 0.0,
+                "S": 0.0,
+                "T": 0.0,
+                "U": 0.078309,
+                "V": 0.0,
+                "W": 0.0,
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "requestedModel": "dummy_majority",
+              "trainRows": 16000,
+              "trainSampled": false,
+              "weightedF1": 0.003191,
+              "worstClasses": [
+                {
+                  "class": "A",
+                  "f1": 0.0
+                },
+                {
+                  "class": "B",
+                  "f1": 0.0
+                },
+                {
+                  "class": "C",
+                  "f1": 0.0
+                },
+                {
+                  "class": "D",
+                  "f1": 0.0
+                },
+                {
+                  "class": "E",
+                  "f1": 0.0
+                }
+              ]
+            },
+            "forest": {
+              "accuracy": 0.96825,
+              "confusionDiagonal": {
+                "A": 156,
+                "B": 148,
+                "C": 143,
+                "D": 159,
+                "E": 148,
+                "F": 148,
+                "G": 147,
+                "H": 130,
+                "I": 140,
+                "J": 145,
+                "K": 141,
+                "L": 148,
+                "M": 157,
+                "N": 149,
+                "O": 146,
+                "P": 154,
+                "Q": 154,
+                "R": 141,
+                "S": 145,
+                "T": 156,
+                "U": 163,
+                "V": 150,
+                "W": 150,
+                "X": 155,
+                "Y": 156,
+                "Z": 144
+              },
+              "fitRows": 16000,
+              "macroF1": 0.968059,
+              "model": "forest",
+              "perClassF1": {
+                "A": 0.990476,
+                "B": 0.942675,
+                "C": 0.969492,
+                "D": 0.949254,
+                "E": 0.961039,
+                "F": 0.942675,
+                "G": 0.957655,
+                "H": 0.918728,
+                "I": 0.952381,
+                "J": 0.963455,
+                "K": 0.949495,
+                "L": 0.983389,
+                "M": 0.993671,
+                "N": 0.967532,
+                "O": 0.973333,
+                "P": 0.968553,
+                "Q": 0.965517,
+                "R": 0.943144,
+                "S": 0.973154,
+                "T": 0.990476,
+                "U": 0.993902,
+                "V": 0.977199,
+                "W": 0.996678,
+                "X": 0.977918,
+                "Y": 0.978056,
+                "Z": 0.989691
+              },
+              "requestedModel": "forest",
+              "trainRows": 16000,
+              "trainSampled": false,
+              "weightedF1": 0.968232,
+              "worstClasses": [
+                {
+                  "class": "H",
+                  "f1": 0.918728
+                },
+                {
+                  "class": "B",
+                  "f1": 0.942675
+                },
+                {
+                  "class": "F",
+                  "f1": 0.942675
+                },
+                {
+                  "class": "R",
+                  "f1": 0.943144
+                },
+                {
+                  "class": "D",
+                  "f1": 0.949254
+                }
+              ]
+            },
+            "linear": {
+              "accuracy": 0.77425,
+              "confusionDiagonal": {
+                "A": 142,
+                "B": 113,
+                "C": 122,
+                "D": 129,
+                "E": 124,
+                "F": 119,
+                "G": 88,
+                "H": 73,
+                "I": 118,
+                "J": 124,
+                "K": 104,
+                "L": 124,
+                "M": 140,
+                "N": 130,
+                "O": 95,
+                "P": 131,
+                "Q": 116,
+                "R": 115,
+                "S": 82,
+                "T": 123,
+                "U": 150,
+                "V": 137,
+                "W": 138,
+                "X": 118,
+                "Y": 129,
+                "Z": 113
+              },
+              "fitRows": 16000,
+              "macroF1": 0.772762,
+              "model": "linear",
+              "perClassF1": {
+                "A": 0.901587,
+                "B": 0.70405,
+                "C": 0.847222,
+                "D": 0.788991,
+                "E": 0.740299,
+                "F": 0.753165,
+                "G": 0.628571,
+                "H": 0.532847,
+                "I": 0.8223,
+                "J": 0.840678,
+                "K": 0.724739,
+                "L": 0.807818,
+                "M": 0.897436,
+                "N": 0.833333,
+                "O": 0.625,
+                "P": 0.826498,
+                "Q": 0.727273,
+                "R": 0.734824,
+                "S": 0.523962,
+                "T": 0.796117,
+                "U": 0.869565,
+                "V": 0.907285,
+                "W": 0.878981,
+                "X": 0.75641,
+                "Y": 0.824281,
+                "Z": 0.798587
+              },
+              "requestedModel": "linear",
+              "trainRows": 16000,
+              "trainSampled": false,
+              "weightedF1": 0.773861,
+              "worstClasses": [
+                {
+                  "class": "S",
+                  "f1": 0.523962
+                },
+                {
+                  "class": "H",
+                  "f1": 0.532847
+                },
+                {
+                  "class": "O",
+                  "f1": 0.625
+                },
+                {
+                  "class": "G",
+                  "f1": 0.628571
+                },
+                {
+                  "class": "B",
+                  "f1": 0.70405
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 4000,
+          "trainCount": 16000
+        }
+      },
+      "optical": {
+        "dataset": {
+          "classCount": 10,
+          "classCounts": {
+            "0": 554,
+            "1": 571,
+            "2": 557,
+            "3": 572,
+            "4": 568,
+            "5": 558,
+            "6": 558,
+            "7": 566,
+            "8": 554,
+            "9": 562
+          },
+          "duplicateFeatureRows": 0,
+          "extra": {},
+          "featureCount": 64,
+          "missingCells": 0,
+          "rowCount": 5620,
+          "testClassCounts": {
+            "0": 178,
+            "1": 182,
+            "2": 177,
+            "3": 183,
+            "4": 181,
+            "5": 182,
+            "6": 181,
+            "7": 179,
+            "8": 174,
+            "9": 180
+          },
+          "testCount": 1797,
+          "trainClassCounts": {
+            "0": 376,
+            "1": 389,
+            "2": 380,
+            "3": 389,
+            "4": 387,
+            "5": 376,
+            "6": 377,
+            "7": 387,
+            "8": 380,
+            "9": 382
+          },
+          "trainCount": 3823
+        },
+        "random": {
+          "classCountsTest": {
+            "0": 177,
+            "1": 183,
+            "2": 178,
+            "3": 183,
+            "4": 182,
+            "5": 178,
+            "6": 178,
+            "7": 181,
+            "8": 177,
+            "9": 180
+          },
+          "classCountsTrain": {
+            "0": 377,
+            "1": 388,
+            "2": 379,
+            "3": 389,
+            "4": 386,
+            "5": 380,
+            "6": 380,
+            "7": 385,
+            "8": 377,
+            "9": 382
+          },
+          "family": "stratified_random",
+          "models": {
+            "dummy_majority": {
+              "accuracy": 0.101836,
+              "confusionDiagonal": {
+                "0": 0,
+                "1": 0,
+                "2": 0,
+                "3": 183,
+                "4": 0,
+                "5": 0,
+                "6": 0,
+                "7": 0,
+                "8": 0,
+                "9": 0
+              },
+              "fitRows": 3823,
+              "macroF1": 0.018485,
+              "model": "dummy_majority",
+              "perClassF1": {
+                "0": 0.0,
+                "1": 0.0,
+                "2": 0.0,
+                "3": 0.184848,
+                "4": 0.0,
+                "5": 0.0,
+                "6": 0.0,
+                "7": 0.0,
+                "8": 0.0,
+                "9": 0.0
+              },
+              "requestedModel": "dummy_majority",
+              "trainRows": 3823,
+              "trainSampled": false,
+              "weightedF1": 0.018824,
+              "worstClasses": [
+                {
+                  "class": "0",
+                  "f1": 0.0
+                },
+                {
+                  "class": "1",
+                  "f1": 0.0
+                },
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "4",
+                  "f1": 0.0
+                },
+                {
+                  "class": "5",
+                  "f1": 0.0
+                }
+              ]
+            },
+            "forest": {
+              "accuracy": 0.985531,
+              "confusionDiagonal": {
+                "0": 175,
+                "1": 182,
+                "2": 176,
+                "3": 182,
+                "4": 179,
+                "5": 176,
+                "6": 176,
+                "7": 179,
+                "8": 173,
+                "9": 173
+              },
+              "fitRows": 3823,
+              "macroF1": 0.985549,
+              "model": "forest",
+              "perClassF1": {
+                "0": 0.994318,
+                "1": 0.994536,
+                "2": 0.99435,
+                "3": 0.98645,
+                "4": 0.980822,
+                "5": 0.991549,
+                "6": 0.988764,
+                "7": 0.980822,
+                "8": 0.977401,
+                "9": 0.96648
+              },
+              "requestedModel": "forest",
+              "trainRows": 3823,
+              "trainSampled": false,
+              "weightedF1": 0.985537,
+              "worstClasses": [
+                {
+                  "class": "9",
+                  "f1": 0.96648
+                },
+                {
+                  "class": "8",
+                  "f1": 0.977401
+                },
+                {
+                  "class": "4",
+                  "f1": 0.980822
+                },
+                {
+                  "class": "7",
+                  "f1": 0.980822
+                },
+                {
+                  "class": "3",
+                  "f1": 0.98645
+                }
+              ]
+            },
+            "linear": {
+              "accuracy": 0.972176,
+              "confusionDiagonal": {
+                "0": 175,
+                "1": 179,
+                "2": 175,
+                "3": 179,
+                "4": 175,
+                "5": 172,
+                "6": 173,
+                "7": 179,
+                "8": 167,
+                "9": 173
+              },
+              "fitRows": 3823,
+              "macroF1": 0.972223,
+              "model": "linear",
+              "perClassF1": {
+                "0": 0.991501,
+                "1": 0.959786,
+                "2": 0.983146,
+                "3": 0.980822,
+                "4": 0.969529,
+                "5": 0.963585,
+                "6": 0.982955,
+                "7": 0.98895,
+                "8": 0.940845,
+                "9": 0.961111
+              },
+              "requestedModel": "linear",
+              "trainRows": 3823,
+              "trainSampled": false,
+              "weightedF1": 0.972229,
+              "worstClasses": [
+                {
+                  "class": "8",
+                  "f1": 0.940845
+                },
+                {
+                  "class": "1",
+                  "f1": 0.959786
+                },
+                {
+                  "class": "9",
+                  "f1": 0.961111
+                },
+                {
+                  "class": "5",
+                  "f1": 0.963585
+                },
+                {
+                  "class": "4",
+                  "f1": 0.969529
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 1797,
+          "trainCount": 3823
+        },
+        "source": {
+          "classCountsTest": {
+            "0": 178,
+            "1": 182,
+            "2": 177,
+            "3": 183,
+            "4": 181,
+            "5": 182,
+            "6": 181,
+            "7": 179,
+            "8": 174,
+            "9": 180
+          },
+          "classCountsTrain": {
+            "0": 376,
+            "1": 389,
+            "2": 380,
+            "3": 389,
+            "4": 387,
+            "5": 376,
+            "6": 377,
+            "7": 387,
+            "8": 380,
+            "9": 382
+          },
+          "family": "source",
+          "models": {
+            "dummy_majority": {
+              "accuracy": 0.10128,
+              "confusionDiagonal": {
+                "0": 0,
+                "1": 182,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0,
+                "6": 0,
+                "7": 0,
+                "8": 0,
+                "9": 0
+              },
+              "fitRows": 3823,
+              "macroF1": 0.018393,
+              "model": "dummy_majority",
+              "perClassF1": {
+                "0": 0.0,
+                "1": 0.183931,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.0,
+                "5": 0.0,
+                "6": 0.0,
+                "7": 0.0,
+                "8": 0.0,
+                "9": 0.0
+              },
+              "requestedModel": "dummy_majority",
+              "trainRows": 3823,
+              "trainSampled": false,
+              "weightedF1": 0.018629,
+              "worstClasses": [
+                {
+                  "class": "0",
+                  "f1": 0.0
+                },
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "4",
+                  "f1": 0.0
+                },
+                {
+                  "class": "5",
+                  "f1": 0.0
+                }
+              ]
+            },
+            "forest": {
+              "accuracy": 0.96828,
+              "confusionDiagonal": {
+                "0": 177,
+                "1": 181,
+                "2": 175,
+                "3": 178,
+                "4": 178,
+                "5": 178,
+                "6": 176,
+                "7": 167,
+                "8": 163,
+                "9": 167
+              },
+              "fitRows": 3823,
+              "macroF1": 0.968231,
+              "model": "forest",
+              "perClassF1": {
+                "0": 0.991597,
+                "1": 0.973118,
+                "2": 0.991501,
+                "3": 0.970027,
+                "4": 0.980716,
+                "5": 0.978022,
+                "6": 0.98324,
+                "7": 0.95702,
+                "8": 0.939481,
+                "9": 0.917582
+              },
+              "requestedModel": "forest",
+              "trainRows": 3823,
+              "trainSampled": false,
+              "weightedF1": 0.968303,
+              "worstClasses": [
+                {
+                  "class": "9",
+                  "f1": 0.917582
+                },
+                {
+                  "class": "8",
+                  "f1": 0.939481
+                },
+                {
+                  "class": "7",
+                  "f1": 0.95702
+                },
+                {
+                  "class": "3",
+                  "f1": 0.970027
+                },
+                {
+                  "class": "1",
+                  "f1": 0.973118
+                }
+              ]
+            },
+            "linear": {
+              "accuracy": 0.949917,
+              "confusionDiagonal": {
+                "0": 174,
+                "1": 176,
+                "2": 171,
+                "3": 169,
+                "4": 174,
+                "5": 176,
+                "6": 177,
+                "7": 164,
+                "8": 155,
+                "9": 171
+              },
+              "fitRows": 3823,
+              "macroF1": 0.949983,
+              "model": "linear",
+              "perClassF1": {
+                "0": 0.988636,
+                "1": 0.941176,
+                "2": 0.968839,
+                "3": 0.949438,
+                "4": 0.963989,
+                "5": 0.93617,
+                "6": 0.980609,
+                "7": 0.947977,
+                "8": 0.901163,
+                "9": 0.921833
+              },
+              "requestedModel": "linear",
+              "trainRows": 3823,
+              "trainSampled": false,
+              "weightedF1": 0.950071,
+              "worstClasses": [
+                {
+                  "class": "8",
+                  "f1": 0.901163
+                },
+                {
+                  "class": "9",
+                  "f1": 0.921833
+                },
+                {
+                  "class": "5",
+                  "f1": 0.93617
+                },
+                {
+                  "class": "1",
+                  "f1": 0.941176
+                },
+                {
+                  "class": "7",
+                  "f1": 0.947977
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 1797,
+          "trainCount": 3823
+        }
+      },
+      "pen": {
+        "dataset": {
+          "classCount": 10,
+          "classCounts": {
+            "0": 1143,
+            "1": 1143,
+            "2": 1144,
+            "3": 1055,
+            "4": 1144,
+            "5": 1055,
+            "6": 1056,
+            "7": 1142,
+            "8": 1055,
+            "9": 1055
+          },
+          "duplicateFeatureRows": 0,
+          "extra": {},
+          "featureCount": 16,
+          "missingCells": 0,
+          "rowCount": 10992,
+          "testClassCounts": {
+            "0": 363,
+            "1": 364,
+            "2": 364,
+            "3": 336,
+            "4": 364,
+            "5": 335,
+            "6": 336,
+            "7": 364,
+            "8": 336,
+            "9": 336
+          },
+          "testCount": 3498,
+          "trainClassCounts": {
+            "0": 780,
+            "1": 779,
+            "2": 780,
+            "3": 719,
+            "4": 780,
+            "5": 720,
+            "6": 720,
+            "7": 778,
+            "8": 719,
+            "9": 719
+          },
+          "trainCount": 7494
+        },
+        "random": {
+          "classCountsTest": {
+            "0": 364,
+            "1": 364,
+            "2": 364,
+            "3": 336,
+            "4": 364,
+            "5": 335,
+            "6": 336,
+            "7": 363,
+            "8": 336,
+            "9": 336
+          },
+          "classCountsTrain": {
+            "0": 779,
+            "1": 779,
+            "2": 780,
+            "3": 719,
+            "4": 780,
+            "5": 720,
+            "6": 720,
+            "7": 779,
+            "8": 719,
+            "9": 719
+          },
+          "family": "stratified_random",
+          "models": {
+            "dummy_majority": {
+              "accuracy": 0.104059,
+              "confusionDiagonal": {
+                "0": 0,
+                "1": 0,
+                "2": 364,
+                "3": 0,
+                "4": 0,
+                "5": 0,
+                "6": 0,
+                "7": 0,
+                "8": 0,
+                "9": 0
+              },
+              "fitRows": 7494,
+              "macroF1": 0.01885,
+              "model": "dummy_majority",
+              "perClassF1": {
+                "0": 0.0,
+                "1": 0.0,
+                "2": 0.188503,
+                "3": 0.0,
+                "4": 0.0,
+                "5": 0.0,
+                "6": 0.0,
+                "7": 0.0,
+                "8": 0.0,
+                "9": 0.0
+              },
+              "requestedModel": "dummy_majority",
+              "trainRows": 7494,
+              "trainSampled": false,
+              "weightedF1": 0.019616,
+              "worstClasses": [
+                {
+                  "class": "0",
+                  "f1": 0.0
+                },
+                {
+                  "class": "1",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "4",
+                  "f1": 0.0
+                },
+                {
+                  "class": "5",
+                  "f1": 0.0
+                }
+              ]
+            },
+            "forest": {
+              "accuracy": 0.987707,
+              "confusionDiagonal": {
+                "0": 359,
+                "1": 344,
+                "2": 362,
+                "3": 333,
+                "4": 363,
+                "5": 334,
+                "6": 334,
+                "7": 360,
+                "8": 334,
+                "9": 332
+              },
+              "fitRows": 7494,
+              "macroF1": 0.987913,
+              "model": "forest",
+              "perClassF1": {
+                "0": 0.993084,
+                "1": 0.966292,
+                "2": 0.971812,
+                "3": 0.988131,
+                "4": 0.994521,
+                "5": 0.997015,
+                "6": 0.995529,
+                "7": 0.987654,
+                "8": 0.994048,
+                "9": 0.991045
+              },
+              "requestedModel": "forest",
+              "trainRows": 7494,
+              "trainSampled": false,
+              "weightedF1": 0.987701,
+              "worstClasses": [
+                {
+                  "class": "1",
+                  "f1": 0.966292
+                },
+                {
+                  "class": "2",
+                  "f1": 0.971812
+                },
+                {
+                  "class": "7",
+                  "f1": 0.987654
+                },
+                {
+                  "class": "3",
+                  "f1": 0.988131
+                },
+                {
+                  "class": "9",
+                  "f1": 0.991045
+                }
+              ]
+            },
+            "linear": {
+              "accuracy": 0.946255,
+              "confusionDiagonal": {
+                "0": 342,
+                "1": 336,
+                "2": 357,
+                "3": 332,
+                "4": 356,
+                "5": 292,
+                "6": 334,
+                "7": 343,
+                "8": 307,
+                "9": 311
+              },
+              "fitRows": 7494,
+              "macroF1": 0.945754,
+              "model": "linear",
+              "perClassF1": {
+                "0": 0.960674,
+                "1": 0.923077,
+                "2": 0.970109,
+                "3": 0.972182,
+                "4": 0.983425,
+                "5": 0.879518,
+                "6": 0.994048,
+                "7": 0.951456,
+                "8": 0.91369,
+                "9": 0.909357
+              },
+              "requestedModel": "linear",
+              "trainRows": 7494,
+              "trainSampled": false,
+              "weightedF1": 0.946251,
+              "worstClasses": [
+                {
+                  "class": "5",
+                  "f1": 0.879518
+                },
+                {
+                  "class": "9",
+                  "f1": 0.909357
+                },
+                {
+                  "class": "8",
+                  "f1": 0.91369
+                },
+                {
+                  "class": "1",
+                  "f1": 0.923077
+                },
+                {
+                  "class": "7",
+                  "f1": 0.951456
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 3498,
+          "trainCount": 7494
+        },
+        "source": {
+          "classCountsTest": {
+            "0": 363,
+            "1": 364,
+            "2": 364,
+            "3": 336,
+            "4": 364,
+            "5": 335,
+            "6": 336,
+            "7": 364,
+            "8": 336,
+            "9": 336
+          },
+          "classCountsTrain": {
+            "0": 780,
+            "1": 779,
+            "2": 780,
+            "3": 719,
+            "4": 780,
+            "5": 720,
+            "6": 720,
+            "7": 778,
+            "8": 719,
+            "9": 719
+          },
+          "family": "source",
+          "models": {
+            "dummy_majority": {
+              "accuracy": 0.103774,
+              "confusionDiagonal": {
+                "0": 363,
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0,
+                "6": 0,
+                "7": 0,
+                "8": 0,
+                "9": 0
+              },
+              "fitRows": 7494,
+              "macroF1": 0.018803,
+              "model": "dummy_majority",
+              "perClassF1": {
+                "0": 0.188034,
+                "1": 0.0,
+                "2": 0.0,
+                "3": 0.0,
+                "4": 0.0,
+                "5": 0.0,
+                "6": 0.0,
+                "7": 0.0,
+                "8": 0.0,
+                "9": 0.0
+              },
+              "requestedModel": "dummy_majority",
+              "trainRows": 7494,
+              "trainSampled": false,
+              "weightedF1": 0.019513,
+              "worstClasses": [
+                {
+                  "class": "1",
+                  "f1": 0.0
+                },
+                {
+                  "class": "2",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "4",
+                  "f1": 0.0
+                },
+                {
+                  "class": "5",
+                  "f1": 0.0
+                }
+              ]
+            },
+            "forest": {
+              "accuracy": 0.963979,
+              "confusionDiagonal": {
+                "0": 347,
+                "1": 333,
+                "2": 358,
+                "3": 331,
+                "4": 362,
+                "5": 316,
+                "6": 335,
+                "7": 324,
+                "8": 335,
+                "9": 331
+              },
+              "fitRows": 7494,
+              "macroF1": 0.96449,
+              "model": "forest",
+              "perClassF1": {
+                "0": 0.97609,
+                "1": 0.901218,
+                "2": 0.952128,
+                "3": 0.977843,
+                "4": 0.995873,
+                "5": 0.969325,
+                "6": 0.99851,
+                "7": 0.935065,
+                "8": 0.973837,
+                "9": 0.965015
+              },
+              "requestedModel": "forest",
+              "trainRows": 7494,
+              "trainSampled": false,
+              "weightedF1": 0.963989,
+              "worstClasses": [
+                {
+                  "class": "1",
+                  "f1": 0.901218
+                },
+                {
+                  "class": "7",
+                  "f1": 0.935065
+                },
+                {
+                  "class": "2",
+                  "f1": 0.952128
+                },
+                {
+                  "class": "9",
+                  "f1": 0.965015
+                },
+                {
+                  "class": "5",
+                  "f1": 0.969325
+                }
+              ]
+            },
+            "linear": {
+              "accuracy": 0.915952,
+              "confusionDiagonal": {
+                "0": 323,
+                "1": 291,
+                "2": 360,
+                "3": 330,
+                "4": 353,
+                "5": 317,
+                "6": 324,
+                "7": 302,
+                "8": 296,
+                "9": 308
+              },
+              "fitRows": 7494,
+              "macroF1": 0.91643,
+              "model": "linear",
+              "perClassF1": {
+                "0": 0.926829,
+                "1": 0.816269,
+                "2": 0.967742,
+                "3": 0.976331,
+                "4": 0.967123,
+                "5": 0.849866,
+                "6": 0.96861,
+                "7": 0.896142,
+                "8": 0.859216,
+                "9": 0.93617
+              },
+              "requestedModel": "linear",
+              "trainRows": 7494,
+              "trainSampled": false,
+              "weightedF1": 0.916382,
+              "worstClasses": [
+                {
+                  "class": "1",
+                  "f1": 0.816269
+                },
+                {
+                  "class": "5",
+                  "f1": 0.849866
+                },
+                {
+                  "class": "8",
+                  "f1": 0.859216
+                },
+                {
+                  "class": "7",
+                  "f1": 0.896142
+                },
+                {
+                  "class": "0",
+                  "f1": 0.926829
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 3498,
+          "trainCount": 7494
+        }
+      },
+      "wine": {
+        "dataset": {
+          "classCount": 3,
+          "classCounts": {
+            "1": 59,
+            "2": 71,
+            "3": 48
+          },
+          "duplicateFeatureRows": 0,
+          "extra": {
+            "protocolApproximation": "random split only; no source protocol"
+          },
+          "featureCount": 13,
+          "missingCells": 0,
+          "rowCount": 178,
+          "testClassCounts": {
+            "1": 18,
+            "2": 21,
+            "3": 15
+          },
+          "testCount": 54,
+          "trainClassCounts": {
+            "1": 41,
+            "2": 50,
+            "3": 33
+          },
+          "trainCount": 124
+        },
+        "random": {
+          "classCountsTest": {
+            "1": 18,
+            "2": 21,
+            "3": 15
+          },
+          "classCountsTrain": {
+            "1": 41,
+            "2": 50,
+            "3": 33
+          },
+          "family": "stratified_random",
+          "models": {
+            "dummy_majority": {
+              "accuracy": 0.388889,
+              "confusionDiagonal": {
+                "1": 0,
+                "2": 21,
+                "3": 0
+              },
+              "fitRows": 124,
+              "macroF1": 0.186667,
+              "model": "dummy_majority",
+              "perClassF1": {
+                "1": 0.0,
+                "2": 0.56,
+                "3": 0.0
+              },
+              "requestedModel": "dummy_majority",
+              "trainRows": 124,
+              "trainSampled": false,
+              "weightedF1": 0.217778,
+              "worstClasses": [
+                {
+                  "class": "1",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "2",
+                  "f1": 0.56
+                }
+              ]
+            },
+            "forest": {
+              "accuracy": 0.962963,
+              "confusionDiagonal": {
+                "1": 18,
+                "2": 19,
+                "3": 15
+              },
+              "fitRows": 124,
+              "macroF1": 0.963572,
+              "model": "forest",
+              "perClassF1": {
+                "1": 0.972973,
+                "2": 0.95,
+                "3": 0.967742
+              },
+              "requestedModel": "forest",
+              "trainRows": 124,
+              "trainSampled": false,
+              "weightedF1": 0.962586,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.95
+                },
+                {
+                  "class": "3",
+                  "f1": 0.967742
+                },
+                {
+                  "class": "1",
+                  "f1": 0.972973
+                }
+              ]
+            },
+            "linear": {
+              "accuracy": 0.962963,
+              "confusionDiagonal": {
+                "1": 18,
+                "2": 19,
+                "3": 15
+              },
+              "fitRows": 124,
+              "macroF1": 0.963572,
+              "model": "linear",
+              "perClassF1": {
+                "1": 0.972973,
+                "2": 0.95,
+                "3": 0.967742
+              },
+              "requestedModel": "linear",
+              "trainRows": 124,
+              "trainSampled": false,
+              "weightedF1": 0.962586,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.95
+                },
+                {
+                  "class": "3",
+                  "f1": 0.967742
+                },
+                {
+                  "class": "1",
+                  "f1": 0.972973
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 54,
+          "trainCount": 124
+        },
+        "source": {
+          "classCountsTest": {
+            "1": 18,
+            "2": 21,
+            "3": 15
+          },
+          "classCountsTrain": {
+            "1": 41,
+            "2": 50,
+            "3": 33
+          },
+          "family": "stratified_random",
+          "models": {
+            "dummy_majority": {
+              "accuracy": 0.388889,
+              "confusionDiagonal": {
+                "1": 0,
+                "2": 21,
+                "3": 0
+              },
+              "fitRows": 124,
+              "macroF1": 0.186667,
+              "model": "dummy_majority",
+              "perClassF1": {
+                "1": 0.0,
+                "2": 0.56,
+                "3": 0.0
+              },
+              "requestedModel": "dummy_majority",
+              "trainRows": 124,
+              "trainSampled": false,
+              "weightedF1": 0.217778,
+              "worstClasses": [
+                {
+                  "class": "1",
+                  "f1": 0.0
+                },
+                {
+                  "class": "3",
+                  "f1": 0.0
+                },
+                {
+                  "class": "2",
+                  "f1": 0.56
+                }
+              ]
+            },
+            "forest": {
+              "accuracy": 0.962963,
+              "confusionDiagonal": {
+                "1": 18,
+                "2": 19,
+                "3": 15
+              },
+              "fitRows": 124,
+              "macroF1": 0.963572,
+              "model": "forest",
+              "perClassF1": {
+                "1": 0.972973,
+                "2": 0.95,
+                "3": 0.967742
+              },
+              "requestedModel": "forest",
+              "trainRows": 124,
+              "trainSampled": false,
+              "weightedF1": 0.962586,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.95
+                },
+                {
+                  "class": "3",
+                  "f1": 0.967742
+                },
+                {
+                  "class": "1",
+                  "f1": 0.972973
+                }
+              ]
+            },
+            "linear": {
+              "accuracy": 0.962963,
+              "confusionDiagonal": {
+                "1": 18,
+                "2": 19,
+                "3": 15
+              },
+              "fitRows": 124,
+              "macroF1": 0.963572,
+              "model": "linear",
+              "perClassF1": {
+                "1": 0.972973,
+                "2": 0.95,
+                "3": 0.967742
+              },
+              "requestedModel": "linear",
+              "trainRows": 124,
+              "trainSampled": false,
+              "weightedF1": 0.962586,
+              "worstClasses": [
+                {
+                  "class": "2",
+                  "f1": 0.95
+                },
+                {
+                  "class": "3",
+                  "f1": 0.967742
+                },
+                {
+                  "class": "1",
+                  "f1": 0.972973
+                }
+              ]
+            }
+          },
+          "seed": 42,
+          "testCount": 54,
+          "trainCount": 124
+        }
+      }
+    },
+    "targets": {
+      "har": {
+        "deltaMacroF1": 0.029449,
+        "name": "UCI Human Activity Recognition Using Smartphones",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.982016,
+        "randomMacroF1": 0.983189,
+        "severity": "moderate",
+        "sourceAccuracy": 0.953851,
+        "sourceMacroF1": 0.953739,
+        "splitRiskType": "subject_holdout_risk"
+      },
+      "image": {
+        "deltaMacroF1": 0.005808,
+        "name": "UCI Image Segmentation",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.90381,
+        "randomMacroF1": 0.904047,
+        "severity": "low",
+        "sourceAccuracy": 0.899048,
+        "sourceMacroF1": 0.898239,
+        "splitRiskType": "image_file_split_risk"
+      },
+      "landsat": {
+        "deltaMacroF1": 0.022155,
+        "name": "UCI Statlog Landsat Satellite",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.861,
+        "randomMacroF1": 0.819208,
+        "severity": "high",
+        "sourceAccuracy": 0.8395,
+        "sourceMacroF1": 0.797053,
+        "splitRiskType": "spatial_file_protocol_risk"
+      },
+      "letter": {
+        "deltaMacroF1": 0.0,
+        "name": "UCI Letter Recognition",
+        "protocolStatus": "protocol_approximated",
+        "randomAccuracy": 0.77425,
+        "randomMacroF1": 0.772762,
+        "severity": "low",
+        "sourceAccuracy": 0.77425,
+        "sourceMacroF1": 0.772762,
+        "splitRiskType": "documentation_order_split_ambiguity"
+      },
+      "optical": {
+        "deltaMacroF1": 0.02224,
+        "name": "UCI Optical Recognition of Handwritten Digits",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.972176,
+        "randomMacroF1": 0.972223,
+        "severity": "low",
+        "sourceAccuracy": 0.949917,
+        "sourceMacroF1": 0.949983,
+        "splitRiskType": "source_file_split_risk"
+      },
+      "pen": {
+        "deltaMacroF1": 0.029324,
+        "name": "UCI Pen-Based Recognition of Handwritten Digits",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.946255,
+        "randomMacroF1": 0.945754,
+        "severity": "low",
+        "sourceAccuracy": 0.915952,
+        "sourceMacroF1": 0.91643,
+        "splitRiskType": "source_file_split_risk"
+      },
+      "shuttle": {
+        "deltaMacroF1": 0.065594,
+        "name": "UCI Statlog Shuttle",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.924621,
+        "randomMacroF1": 0.451798,
+        "severity": "high",
+        "sourceAccuracy": 0.933517,
+        "sourceMacroF1": 0.386205,
+        "splitRiskType": "rare_class_and_metric_risk"
+      },
+      "wine": {
+        "deltaMacroF1": 0.0,
+        "name": "UCI Wine Recognition",
+        "protocolStatus": "protocol_absent",
+        "randomAccuracy": 0.962963,
+        "randomMacroF1": 0.963572,
+        "severity": "low",
+        "sourceAccuracy": 0.962963,
+        "sourceMacroF1": 0.963572,
+        "splitRiskType": "low_risk_control_random_only"
+      }
+    }
+  },
+  "batch19": {
+    "attackedComponents": [
+      "batch13 protocol-vs-random digit/HAR comparisons",
+      "batch14 Shuttle/Landsat/Letter severity matrix",
+      "batch15 Shuttle deep study",
+      "batch16 Landsat deep study",
+      "batch18 split-risk atlas",
+      "batch11 random single-table dataset program"
+    ],
+    "downgradedClaims": [
+      {
+        "claim": "Protocol-first risk is systematic across every benchmark.",
+        "decision": "downgrade",
+        "evidence": "Letter and control-style targets show low or absent protocol effects."
+      },
+      {
+        "claim": "metric_stress_validator discovers split risk by itself.",
+        "decision": "narrow",
+        "evidence": "It packages controls and class-risk evidence but does not replace model-family and split-family experiments."
+      },
+      {
+        "claim": "Source-described files equal official leaderboard reproduction.",
+        "decision": "downgrade",
+        "evidence": "The program followed source files but did not reproduce external leaderboard protocols."
+      }
+    ],
+    "preservedClaims": [
+      {
+        "claim": "Protocol-first evaluation changes conclusions on Shuttle.",
+        "decision": "preserve",
+        "evidence": "Shuttle delta macro-F1 0.0656, severity high."
+      },
+      {
+        "claim": "Landsat remains a different spatial/file protocol-risk case.",
+        "decision": "preserve_with_limitations",
+        "evidence": "Landsat delta macro-F1 0.0222, severity high."
+      },
+      {
+        "claim": "Low-risk controls are necessary.",
+        "decision": "preserve",
+        "evidence": "Letter delta macro-F1 0.0000, severity low."
+      }
+    ],
+    "toolDecisions": {
+      "metric_stress_validator": "reusable_support_tool_with_model_family_checks_required",
+      "protocol_card_replay": "reusable_support_tool",
+      "schema_provenance_auditor": "packaging_only",
+      "split_risk_helper": "narrow_but_useful_for_protocol_vs_random_tables"
+    },
+    "updatedConfidence": {
+      "landsat_spatial_file_risk": 0.74,
+      "metric_stress_validator_discovery_tool": 0.34,
+      "protocol_first_matters_some_targets": 0.82,
+      "random_split_inflation_universal": 0.28,
+      "shuttle_high_risk": 0.86
+    }
+  },
+  "batch20": {
+    "claimBindings": [
+      {
+        "artifact": "RARE_CLASS_METRIC_RISK.md",
+        "claim": "Shuttle is the strongest rare-class metric-risk target in this program.",
+        "confidence": 0.86,
+        "metric": "random_minus_source_macro_f1",
+        "slug": "batch15-shuttle-deep-protocol-risk-study"
+      },
+      {
+        "artifact": "SPATIAL_FILE_PROTOCOL_RISK.md",
+        "claim": "Landsat is a distinct spatial/file protocol-risk target.",
+        "confidence": 0.74,
+        "metric": "random_minus_source_macro_f1",
+        "slug": "batch16-landsat-deep-protocol-risk-study"
+      },
+      {
+        "artifact": "PROTOCOL_SPLIT_ATTEMPT.md",
+        "claim": "Protocol ambiguity matters even when metric delta is small.",
+        "confidence": 0.72,
+        "metric": "letter_protocol_approximated",
+        "slug": "batch14-protocol-risk-expansion-week2"
+      },
+      {
+        "artifact": "CLAIM_DOWNGRADES.md",
+        "claim": "The split-risk thesis is not universal.",
+        "confidence": 0.81,
+        "metric": "low_risk_controls",
+        "slug": "batch19-protocol-risk-kill-week"
+      },
+      {
+        "artifact": "TOOL_DECISION_FINAL.md",
+        "claim": "Protocol-card replay should be promoted as a support tool.",
+        "confidence": 0.78,
+        "metric": "tool_decision",
+        "slug": "batch20-protocol-risk-paper-grade-frontier-result"
+      }
+    ],
+    "evidenceRows": {
+      "har": {
+        "deltaMacroF1": 0.029449,
+        "name": "UCI Human Activity Recognition Using Smartphones",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.982016,
+        "randomMacroF1": 0.983189,
+        "severity": "moderate",
+        "sourceAccuracy": 0.953851,
+        "sourceMacroF1": 0.953739,
+        "splitRiskType": "subject_holdout_risk"
+      },
+      "image": {
+        "deltaMacroF1": 0.005808,
+        "name": "UCI Image Segmentation",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.90381,
+        "randomMacroF1": 0.904047,
+        "severity": "low",
+        "sourceAccuracy": 0.899048,
+        "sourceMacroF1": 0.898239,
+        "splitRiskType": "image_file_split_risk"
+      },
+      "landsat": {
+        "deltaMacroF1": 0.022155,
+        "name": "UCI Statlog Landsat Satellite",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.861,
+        "randomMacroF1": 0.819208,
+        "severity": "high",
+        "sourceAccuracy": 0.8395,
+        "sourceMacroF1": 0.797053,
+        "splitRiskType": "spatial_file_protocol_risk"
+      },
+      "letter": {
+        "deltaMacroF1": 0.0,
+        "name": "UCI Letter Recognition",
+        "protocolStatus": "protocol_approximated",
+        "randomAccuracy": 0.77425,
+        "randomMacroF1": 0.772762,
+        "severity": "low",
+        "sourceAccuracy": 0.77425,
+        "sourceMacroF1": 0.772762,
+        "splitRiskType": "documentation_order_split_ambiguity"
+      },
+      "optical": {
+        "deltaMacroF1": 0.02224,
+        "name": "UCI Optical Recognition of Handwritten Digits",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.972176,
+        "randomMacroF1": 0.972223,
+        "severity": "low",
+        "sourceAccuracy": 0.949917,
+        "sourceMacroF1": 0.949983,
+        "splitRiskType": "source_file_split_risk"
+      },
+      "pen": {
+        "deltaMacroF1": 0.029324,
+        "name": "UCI Pen-Based Recognition of Handwritten Digits",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.946255,
+        "randomMacroF1": 0.945754,
+        "severity": "low",
+        "sourceAccuracy": 0.915952,
+        "sourceMacroF1": 0.91643,
+        "splitRiskType": "source_file_split_risk"
+      },
+      "shuttle": {
+        "deltaMacroF1": 0.065594,
+        "name": "UCI Statlog Shuttle",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.924621,
+        "randomMacroF1": 0.451798,
+        "severity": "high",
+        "sourceAccuracy": 0.933517,
+        "sourceMacroF1": 0.386205,
+        "splitRiskType": "rare_class_and_metric_risk"
+      },
+      "wine": {
+        "deltaMacroF1": 0.0,
+        "name": "UCI Wine Recognition",
+        "protocolStatus": "protocol_absent",
+        "randomAccuracy": 0.962963,
+        "randomMacroF1": 0.963572,
+        "severity": "low",
+        "sourceAccuracy": 0.962963,
+        "sourceMacroF1": 0.963572,
+        "splitRiskType": "low_risk_control_random_only"
+      }
+    },
+    "nextProgram": {
+      "rejectedAlternatives": [
+        "More random UCI scoring was rejected because it would not test protocol claims.",
+        "Repo/test reproduction was deferred because it is a different research family.",
+        "Time-series anomaly negative controls were deferred until protocol-card replay is better established."
+      ],
+      "stopCriteria": "Stop or narrow if fewer than three targets have reproducible source protocols or if low-risk controls dominate the results.",
+      "title": "Protocol-Card Replay at Scale",
+      "weeks": [
+        "Week 1: build protocol cards for ten candidate benchmarks and run three source-vs-random comparisons.",
+        "Week 2: add replay and model-family stress on five protocol-bearing targets.",
+        "Week 3: run one deep ambiguous-protocol target with explicit downgrade criteria.",
+        "Week 4: kill week and next-target selection."
+      ],
+      "whySelected": "It is the most direct next step from the evidence: protocol extraction, source-vs-random comparisons, negative controls, and replay can be scaled without adding product framework layers."
+    }
+  },
+  "builtAt": "2026-05-06T00:00:00Z",
+  "packageVersions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "platform": "macOS-26.3.1-arm64-arm-64bit",
+    "python": "3.12.13",
+    "scikit_learn": "1.8.0"
+  }
+}

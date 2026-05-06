@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T13:02:54.031Z",
+  "updatedAt": "2026-05-06T13:41:18.123Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -87,6 +87,41 @@
       ]
     },
     {
+      "versionGroup": "batch15-shuttle-deep-protocol-risk-study",
+      "latestSlug": "batch15-shuttle-deep-protocol-risk-study",
+      "resultSlugs": [
+        "batch15-shuttle-deep-protocol-risk-study"
+      ]
+    },
+    {
+      "versionGroup": "batch16-landsat-deep-protocol-risk-study",
+      "latestSlug": "batch16-landsat-deep-protocol-risk-study",
+      "resultSlugs": [
+        "batch16-landsat-deep-protocol-risk-study"
+      ]
+    },
+    {
+      "versionGroup": "batch17-protocol-extraction-ambiguity-tournament",
+      "latestSlug": "batch17-protocol-extraction-ambiguity-tournament",
+      "resultSlugs": [
+        "batch17-protocol-extraction-ambiguity-tournament"
+      ]
+    },
+    {
+      "versionGroup": "batch18-cross-target-split-risk-atlas",
+      "latestSlug": "batch18-cross-target-split-risk-atlas",
+      "resultSlugs": [
+        "batch18-cross-target-split-risk-atlas"
+      ]
+    },
+    {
+      "versionGroup": "batch19-protocol-risk-kill-week",
+      "latestSlug": "batch19-protocol-risk-kill-week",
+      "resultSlugs": [
+        "batch19-protocol-risk-kill-week"
+      ]
+    },
+    {
       "versionGroup": "batch2-climate-fever-claim-verification-followup",
       "latestSlug": "batch2-climate-fever-claim-verification-followup",
       "resultSlugs": [
@@ -119,6 +154,13 @@
       "latestSlug": "batch2-uci-occupancy-benchmark-challenge",
       "resultSlugs": [
         "batch2-uci-occupancy-benchmark-challenge"
+      ]
+    },
+    {
+      "versionGroup": "batch20-protocol-risk-paper-grade-frontier-result",
+      "latestSlug": "batch20-protocol-risk-paper-grade-frontier-result",
+      "resultSlugs": [
+        "batch20-protocol-risk-paper-grade-frontier-result"
       ]
     },
     {
@@ -451,5 +493,5 @@
       ]
     }
   ],
-  "evidenceHash": "c1598d72f997e5ecbde219c37efbc8479374902a4ca71eed4047ab6234f9fced"
+  "evidenceHash": "29ed719b41476ba6d965de74f0e86c81a2fb4593bcc1ddbd9ac9f379660d1e6d"
 }

@@ -1,0 +1,20 @@
+{
+  "candidateCount": 10,
+  "dataLoadAttemptCount": 6,
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+  "minimalBaselineRunCount": 3,
+  "negativeOrPartial": true,
+  "rejectedOrDeferred": [
+    "uci-wine-recognition",
+    "uci-statlog-shuttle",
+    "uci-statlog-landsat-satellite",
+    "uci-human-activity-recognition-smartphones"
+  ],
+  "resultKind": "protocol_extraction_ambiguity_tournament",
+  "selectedDeepTargets": [
+    "uci-image-segmentation",
+    "uci-statlog-vehicle-silhouettes",
+    "uci-pen-based-handwritten-digits"
+  ],
+  "slug": "batch17-protocol-extraction-ambiguity-tournament"
+}

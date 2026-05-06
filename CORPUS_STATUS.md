@@ -1,11 +1,11 @@
 # Corpus Status
 
-Results: 76
+Results: 82
 
 ## Lifecycle Counts
 
-- autopublished: 45
-- needs_revision: 4
+- autopublished: 50
+- needs_revision: 5
 - showcase: 3
 - showcase_science: 10
 - superseded: 14
@@ -24,11 +24,17 @@ Results: 76
 - batch12-research-production-review-next-frontier-program: latest batch12-research-production-review-next-frontier-program; batch12-research-production-review-next-frontier-program
 - batch13-protocol-first-benchmark-validation-week1: latest batch13-protocol-first-benchmark-validation-week1; batch13-protocol-first-benchmark-validation-week1
 - batch14-protocol-risk-expansion-week2: latest batch14-protocol-risk-expansion-week2; batch14-protocol-risk-expansion-week2
+- batch15-shuttle-deep-protocol-risk-study: latest batch15-shuttle-deep-protocol-risk-study; batch15-shuttle-deep-protocol-risk-study
+- batch16-landsat-deep-protocol-risk-study: latest batch16-landsat-deep-protocol-risk-study; batch16-landsat-deep-protocol-risk-study
+- batch17-protocol-extraction-ambiguity-tournament: latest batch17-protocol-extraction-ambiguity-tournament; batch17-protocol-extraction-ambiguity-tournament
+- batch18-cross-target-split-risk-atlas: latest batch18-cross-target-split-risk-atlas; batch18-cross-target-split-risk-atlas
+- batch19-protocol-risk-kill-week: latest batch19-protocol-risk-kill-week; batch19-protocol-risk-kill-week
 - batch2-climate-fever-claim-verification-followup: latest batch2-climate-fever-claim-verification-followup; batch2-climate-fever-claim-verification-followup
 - batch2-hotpotqa-source-evidence-extraction-challenge: latest batch2-hotpotqa-source-evidence-extraction-challenge; batch2-hotpotqa-source-evidence-extraction-challenge
 - batch2-pyod-reproducibility-audit: latest batch2-pyod-reproducibility-audit; batch2-pyod-reproducibility-audit
 - batch2-uci-auto-mpg-dataset-quality-audit: latest batch2-uci-auto-mpg-dataset-quality-audit; batch2-uci-auto-mpg-dataset-quality-audit
 - batch2-uci-occupancy-benchmark-challenge: latest batch2-uci-occupancy-benchmark-challenge; batch2-uci-occupancy-benchmark-challenge
+- batch20-protocol-risk-paper-grade-frontier-result: latest batch20-protocol-risk-paper-grade-frontier-result; batch20-protocol-risk-paper-grade-frontier-result
 - batch3-palmer-penguins-dataset-quality-execution: latest batch3-palmer-penguins-dataset-quality-execution; batch3-palmer-penguins-dataset-quality-execution
 - batch3-rapidfuzz-repo-install-example-reproduction: latest batch3-rapidfuzz-repo-install-example-reproduction; batch3-rapidfuzz-repo-install-example-reproduction
 - batch3-squad-v2-source-evidence-extraction-audit: latest batch3-squad-v2-source-evidence-extraction-audit; batch3-squad-v2-source-evidence-extraction-audit

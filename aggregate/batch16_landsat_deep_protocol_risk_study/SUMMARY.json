@@ -1,0 +1,31 @@
+{
+  "containerNetoffReplay": {
+    "batch": "16",
+    "externalNetworkReachable": false,
+    "network": "none",
+    "packageVersions": {
+      "numpy": "2.4.4",
+      "pandas": "3.0.2",
+      "platform": "Linux-6.8.0-100-generic-aarch64-with-glibc2.41",
+      "python": "3.12.13",
+      "scikit_learn": "1.8.0"
+    },
+    "protocolStatus": "protocol_reproduced",
+    "randomLinearMacroF1": 0.819208,
+    "severity": "high",
+    "sourceLinearMacroF1": 0.797053,
+    "succeeded": true,
+    "target": "UCI Statlog Landsat Satellite"
+  },
+  "deltaMacroF1RandomMinusSource": 0.022155,
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+  "negativeOrPartial": true,
+  "randomLinearMacroF1": 0.819208,
+  "realDataLoaded": true,
+  "resultKind": "second_deep_protocol_risk_study",
+  "riskMechanism": "spatial_file_protocol_risk",
+  "severityDecision": "high",
+  "slug": "batch16-landsat-deep-protocol-risk-study",
+  "sourceLinearMacroF1": 0.797053,
+  "target": "UCI Statlog Landsat Satellite"
+}

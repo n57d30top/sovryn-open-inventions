@@ -3,7 +3,8 @@
   "qualityCounts": {
     "excellent": 5,
     "good": 65,
-    "reviewable": 6
+    "reviewable": 6,
+    "unknown": 6
   },
   "results": [
     {
@@ -67,6 +68,31 @@
       "releaseReadinessScore": 92
     },
     {
+      "slug": "batch15-shuttle-deep-protocol-risk-study",
+      "qualityLabel": "unknown",
+      "releaseReadinessScore": 0
+    },
+    {
+      "slug": "batch16-landsat-deep-protocol-risk-study",
+      "qualityLabel": "unknown",
+      "releaseReadinessScore": 0
+    },
+    {
+      "slug": "batch17-protocol-extraction-ambiguity-tournament",
+      "qualityLabel": "unknown",
+      "releaseReadinessScore": 0
+    },
+    {
+      "slug": "batch18-cross-target-split-risk-atlas",
+      "qualityLabel": "unknown",
+      "releaseReadinessScore": 0
+    },
+    {
+      "slug": "batch19-protocol-risk-kill-week",
+      "qualityLabel": "unknown",
+      "releaseReadinessScore": 0
+    },
+    {
       "slug": "batch2-climate-fever-claim-verification-followup",
       "qualityLabel": "reviewable",
       "releaseReadinessScore": 78
@@ -90,6 +116,11 @@
       "slug": "batch2-uci-occupancy-benchmark-challenge",
       "qualityLabel": "good",
       "releaseReadinessScore": 92
+    },
+    {
+      "slug": "batch20-protocol-risk-paper-grade-frontier-result",
+      "qualityLabel": "unknown",
+      "releaseReadinessScore": 0
     },
     {
       "slug": "batch3-palmer-penguins-dataset-quality-execution",
@@ -387,5 +418,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "4b924975032142ce22c34331e06c506e2a60386675664649cdb00756064559dd"
+  "evidenceHash": "855d8b58d81c318adba7ee3b3c6561fdce012b66c06e94cb50e46f4d75f54b3f"
 }

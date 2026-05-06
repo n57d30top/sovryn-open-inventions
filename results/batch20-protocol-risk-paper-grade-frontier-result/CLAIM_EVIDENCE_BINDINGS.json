@@ -1,0 +1,37 @@
+[
+  {
+    "artifact": "RARE_CLASS_METRIC_RISK.md",
+    "claim": "Shuttle is the strongest rare-class metric-risk target in this program.",
+    "confidence": 0.86,
+    "metric": "random_minus_source_macro_f1",
+    "slug": "batch15-shuttle-deep-protocol-risk-study"
+  },
+  {
+    "artifact": "SPATIAL_FILE_PROTOCOL_RISK.md",
+    "claim": "Landsat is a distinct spatial/file protocol-risk target.",
+    "confidence": 0.74,
+    "metric": "random_minus_source_macro_f1",
+    "slug": "batch16-landsat-deep-protocol-risk-study"
+  },
+  {
+    "artifact": "PROTOCOL_SPLIT_ATTEMPT.md",
+    "claim": "Protocol ambiguity matters even when metric delta is small.",
+    "confidence": 0.72,
+    "metric": "letter_protocol_approximated",
+    "slug": "batch14-protocol-risk-expansion-week2"
+  },
+  {
+    "artifact": "CLAIM_DOWNGRADES.md",
+    "claim": "The split-risk thesis is not universal.",
+    "confidence": 0.81,
+    "metric": "low_risk_controls",
+    "slug": "batch19-protocol-risk-kill-week"
+  },
+  {
+    "artifact": "TOOL_DECISION_FINAL.md",
+    "claim": "Protocol-card replay should be promoted as a support tool.",
+    "confidence": 0.78,
+    "metric": "tool_decision",
+    "slug": "batch20-protocol-risk-paper-grade-frontier-result"
+  }
+]
