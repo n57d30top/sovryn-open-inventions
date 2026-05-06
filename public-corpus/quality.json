@@ -1,11 +1,11 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T06:46:11.283Z",
+  "generatedAt": "2026-05-06T06:50:00.296Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 35,
-    "reviewable": 2,
-    "unknown": 7
+    "good": 38,
+    "reviewable": 4,
+    "unknown": 2
   },
   "lifecycleCounts": {
     "autopublished": 18,
@@ -31,73 +31,73 @@
     },
     {
       "slug": "batch1-evidence-extraction-reproducibility-audit",
-      "qualityLabel": "unknown",
+      "qualityLabel": "reviewable",
       "antiTemplateStatus": "unknown",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch1-evidence-extraction-reproducibility-audit",
       "showcaseEligible": false,
       "showcaseRank": null,
-      "releaseReadinessScore": 0,
-      "evidenceStrengthScore": 0,
-      "reproducibilityScore": 0,
-      "publicationSafetyScore": 0,
-      "specificityScore": 73
+      "releaseReadinessScore": 72,
+      "evidenceStrengthScore": 76,
+      "reproducibilityScore": 67,
+      "publicationSafetyScore": 98,
+      "specificityScore": 78
     },
     {
       "slug": "batch1-feverous-claim-verification-followup",
-      "qualityLabel": "unknown",
+      "qualityLabel": "reviewable",
       "antiTemplateStatus": "unknown",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch1-feverous-claim-verification-followup",
       "showcaseEligible": false,
       "showcaseRank": null,
-      "releaseReadinessScore": 0,
-      "evidenceStrengthScore": 0,
-      "reproducibilityScore": 0,
-      "publicationSafetyScore": 0,
-      "specificityScore": 73
+      "releaseReadinessScore": 78,
+      "evidenceStrengthScore": 80,
+      "reproducibilityScore": 78,
+      "publicationSafetyScore": 98,
+      "specificityScore": 78
     },
     {
       "slug": "batch1-nab-time-series-anomaly-challenge",
-      "qualityLabel": "unknown",
+      "qualityLabel": "good",
       "antiTemplateStatus": "unknown",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch1-nab-time-series-anomaly-challenge",
       "showcaseEligible": false,
       "showcaseRank": null,
-      "releaseReadinessScore": 0,
-      "evidenceStrengthScore": 0,
-      "reproducibilityScore": 0,
-      "publicationSafetyScore": 0,
-      "specificityScore": 73
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 86,
+      "publicationSafetyScore": 98,
+      "specificityScore": 88
     },
     {
       "slug": "batch1-qasper-source-evidence-extraction-challenge",
-      "qualityLabel": "unknown",
+      "qualityLabel": "good",
       "antiTemplateStatus": "unknown",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch1-qasper-source-evidence-extraction-challenge",
       "showcaseEligible": false,
       "showcaseRank": null,
-      "releaseReadinessScore": 0,
-      "evidenceStrengthScore": 0,
-      "reproducibilityScore": 0,
-      "publicationSafetyScore": 0,
-      "specificityScore": 73
+      "releaseReadinessScore": 84,
+      "evidenceStrengthScore": 86,
+      "reproducibilityScore": 80,
+      "publicationSafetyScore": 98,
+      "specificityScore": 84
     },
     {
       "slug": "batch1-uci-wine-quality-dataset-audit",
-      "qualityLabel": "unknown",
+      "qualityLabel": "good",
       "antiTemplateStatus": "unknown",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch1-uci-wine-quality-dataset-audit",
       "showcaseEligible": false,
       "showcaseRank": null,
-      "releaseReadinessScore": 0,
-      "evidenceStrengthScore": 0,
-      "reproducibilityScore": 0,
-      "publicationSafetyScore": 0,
-      "specificityScore": 73
+      "releaseReadinessScore": 86,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 82,
+      "publicationSafetyScore": 98,
+      "specificityScore": 86
     },
     {
       "slug": "batch2-climate-fever-claim-verification-followup",
@@ -702,5 +702,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "9250207192723150d51ba65f1a843d1dce3bc34ffcdcc40946e043589b1d1ba3"
+  "evidenceHash": "3570f4f1ef12f98eef16cf291a3a9efb192d92b1fe41aaf509e376de6194e431"
 }

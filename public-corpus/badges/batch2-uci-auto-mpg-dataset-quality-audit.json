@@ -3,7 +3,7 @@
   "slug": "batch2-uci-auto-mpg-dataset-quality-audit",
   "badges": {
     "quality": "good",
-    "status": "unknown",
+    "status": "dataset_quality_audit_supported",
     "antiTemplate": "unknown",
     "replay": "replay-100",
     "safety": "safety-passed",
@@ -16,5 +16,5 @@
   },
   "lifecycleStatus": "autopublished",
   "showcaseRank": null,
-  "evidenceHash": "07ec8bcc2ae020a216542d871b6ff27fa19c64374de0013587eeda9788418214"
+  "evidenceHash": "9ae0c3706c6dbc537470622eb57decadc1f47f8e199ade773a2e5a510edab088"
 }

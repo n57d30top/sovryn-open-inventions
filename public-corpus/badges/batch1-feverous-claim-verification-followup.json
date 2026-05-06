@@ -2,19 +2,19 @@
   "kind": "public_corpus_result_badges",
   "slug": "batch1-feverous-claim-verification-followup",
   "badges": {
-    "quality": "unknown",
-    "status": "unknown",
+    "quality": "reviewable",
+    "status": "external_reproduction_partial",
     "antiTemplate": "unknown",
-    "replay": "replay-partial",
+    "replay": "replay-100",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
     "worker": "not-recorded",
-    "falsification": "not_evaluated",
+    "falsification": "evaluated_with_limitations",
     "lifecycle": "autopublished",
     "version": "batch1-feverous-claim-verification-followup",
     "showcase": "not-showcase"
   },
   "lifecycleStatus": "autopublished",
   "showcaseRank": null,
-  "evidenceHash": "b20ae82da62986b3b1b3ec28d228c5ada4283cd312e9bf96fa2a69c099dbc643"
+  "evidenceHash": "17e382bd1d94e4d2257be08593f7c6bc6758a9de44fce8a65f5b489cf46571f7"
 }

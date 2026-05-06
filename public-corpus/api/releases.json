@@ -13,7 +13,7 @@
     {
       "slug": "batch1-evidence-extraction-reproducibility-audit",
       "path": "results/batch1-evidence-extraction-reproducibility-audit",
-      "status": "unknown",
+      "status": "external_reproduction_partial",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch1-evidence-extraction-reproducibility-audit",
       "supersededBy": null,
@@ -22,7 +22,7 @@
     {
       "slug": "batch1-feverous-claim-verification-followup",
       "path": "results/batch1-feverous-claim-verification-followup",
-      "status": "unknown",
+      "status": "external_reproduction_partial",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch1-feverous-claim-verification-followup",
       "supersededBy": null,
@@ -31,7 +31,7 @@
     {
       "slug": "batch1-nab-time-series-anomaly-challenge",
       "path": "results/batch1-nab-time-series-anomaly-challenge",
-      "status": "unknown",
+      "status": "strong_external_negative_result",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch1-nab-time-series-anomaly-challenge",
       "supersededBy": null,
@@ -40,7 +40,7 @@
     {
       "slug": "batch1-qasper-source-evidence-extraction-challenge",
       "path": "results/batch1-qasper-source-evidence-extraction-challenge",
-      "status": "unknown",
+      "status": "source_evidence_extraction_audit_supported",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch1-qasper-source-evidence-extraction-challenge",
       "supersededBy": null,
@@ -49,7 +49,7 @@
     {
       "slug": "batch1-uci-wine-quality-dataset-audit",
       "path": "results/batch1-uci-wine-quality-dataset-audit",
-      "status": "unknown",
+      "status": "dataset_quality_audit_supported",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch1-uci-wine-quality-dataset-audit",
       "supersededBy": null,
@@ -58,7 +58,7 @@
     {
       "slug": "batch2-climate-fever-claim-verification-followup",
       "path": "results/batch2-climate-fever-claim-verification-followup",
-      "status": "unknown",
+      "status": "external_reproduction_partial",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch2-climate-fever-claim-verification-followup",
       "supersededBy": null,
@@ -67,7 +67,7 @@
     {
       "slug": "batch2-hotpotqa-source-evidence-extraction-challenge",
       "path": "results/batch2-hotpotqa-source-evidence-extraction-challenge",
-      "status": "unknown",
+      "status": "source_evidence_extraction_audit_supported",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch2-hotpotqa-source-evidence-extraction-challenge",
       "supersededBy": null,
@@ -76,7 +76,7 @@
     {
       "slug": "batch2-pyod-reproducibility-audit",
       "path": "results/batch2-pyod-reproducibility-audit",
-      "status": "unknown",
+      "status": "external_reproduction_partial",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch2-pyod-reproducibility-audit",
       "supersededBy": null,
@@ -85,7 +85,7 @@
     {
       "slug": "batch2-uci-auto-mpg-dataset-quality-audit",
       "path": "results/batch2-uci-auto-mpg-dataset-quality-audit",
-      "status": "unknown",
+      "status": "dataset_quality_audit_supported",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch2-uci-auto-mpg-dataset-quality-audit",
       "supersededBy": null,
@@ -94,7 +94,7 @@
     {
       "slug": "batch2-uci-occupancy-benchmark-challenge",
       "path": "results/batch2-uci-occupancy-benchmark-challenge",
-      "status": "unknown",
+      "status": "benchmark_challenge_negative_result",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch2-uci-occupancy-benchmark-challenge",
       "supersededBy": null,

@@ -2,19 +2,19 @@
   "kind": "public_corpus_result_badges",
   "slug": "batch1-qasper-source-evidence-extraction-challenge",
   "badges": {
-    "quality": "unknown",
-    "status": "unknown",
+    "quality": "good",
+    "status": "source_evidence_extraction_audit_supported",
     "antiTemplate": "unknown",
-    "replay": "replay-partial",
+    "replay": "replay-100",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
     "worker": "not-recorded",
-    "falsification": "not_evaluated",
+    "falsification": "audited_with_limitations",
     "lifecycle": "autopublished",
     "version": "batch1-qasper-source-evidence-extraction-challenge",
     "showcase": "not-showcase"
   },
   "lifecycleStatus": "autopublished",
   "showcaseRank": null,
-  "evidenceHash": "7849ee727de85441bdbfb97c0067a125d7c60c78217b1d8536bd740aa8e25adb"
+  "evidenceHash": "b015acc3bdc8d49435bb934a31071f222ab8be8195d4c9227f45244e479c09ed"
 }

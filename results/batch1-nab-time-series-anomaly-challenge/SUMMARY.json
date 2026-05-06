@@ -38,5 +38,15 @@
     "NAB is a public benchmark with labeled time-series files and scoring tools.",
     "The audited file has one labeled anomaly window in combined_windows.json."
   ],
-  "evidenceHash": "a4b1cb507a9722d0008186d78cdf4b173dd3f175fe699ad70be11ad7cf3fe82b"
+  "evidenceHash": "a4b1cb507a9722d0008186d78cdf4b173dd3f175fe699ad70be11ad7cf3fe82b",
+  "qualityLabel": "good",
+  "candidateStatus": "strong_external_negative_result",
+  "releaseReadinessScore": 90,
+  "evidenceStrengthScore": 88,
+  "reproducibilityScore": 86,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 88,
+  "falsificationStatus": "candidate_rejected_by_falsification",
+  "resultType": "external_research_production_result"
 }

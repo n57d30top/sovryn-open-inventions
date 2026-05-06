@@ -36,11 +36,11 @@ and safety scope in human-readable language.
 ## Results
 
 - [Autonomous Research Strategist Trial](results/autonomous-research-strategy-trial/) — good, autopublished, autonomous-research-strategy-trial, research-strategy
-- [Evidence-Extraction Repository Reproducibility Audit](results/batch1-evidence-extraction-reproducibility-audit/) — unknown, autopublished, batch1-evidence-extraction-reproducibility-audit, computational-reproducibility-audit
-- [FEVEROUS Claim-Verification Follow-Up Reproduction](results/batch1-feverous-claim-verification-followup/) — unknown, autopublished, batch1-feverous-claim-verification-followup, claim-verification-benchmark
-- [NAB Time-Series Anomaly Benchmark Challenge](results/batch1-nab-time-series-anomaly-challenge/) — unknown, autopublished, batch1-nab-time-series-anomaly-challenge, time-series-anomaly-benchmark
-- [QASPER Source/Evidence Extraction Challenge](results/batch1-qasper-source-evidence-extraction-challenge/) — unknown, autopublished, batch1-qasper-source-evidence-extraction-challenge, source-evidence-extraction-benchmark
-- [UCI Wine Quality Public Dataset-Quality Audit](results/batch1-uci-wine-quality-dataset-audit/) — unknown, autopublished, batch1-uci-wine-quality-dataset-audit, public-dataset-quality-audit
+- [Evidence-Extraction Repository Reproducibility Audit](results/batch1-evidence-extraction-reproducibility-audit/) — reviewable, autopublished, batch1-evidence-extraction-reproducibility-audit, computational-reproducibility-audit
+- [FEVEROUS Claim-Verification Follow-Up Reproduction](results/batch1-feverous-claim-verification-followup/) — reviewable, autopublished, batch1-feverous-claim-verification-followup, claim-verification-benchmark
+- [NAB Time-Series Anomaly Benchmark Challenge](results/batch1-nab-time-series-anomaly-challenge/) — good, autopublished, batch1-nab-time-series-anomaly-challenge, time-series-anomaly-benchmark
+- [QASPER Source/Evidence Extraction Challenge](results/batch1-qasper-source-evidence-extraction-challenge/) — good, autopublished, batch1-qasper-source-evidence-extraction-challenge, source-evidence-extraction-benchmark
+- [UCI Wine Quality Public Dataset-Quality Audit](results/batch1-uci-wine-quality-dataset-audit/) — good, autopublished, batch1-uci-wine-quality-dataset-audit, public-dataset-quality-audit
 - [Climate-FEVER Claim Verification Source-Card Reproduction Follow-Up](results/batch2-climate-fever-claim-verification-followup/) — reviewable, autopublished, batch2-climate-fever-claim-verification-followup, claim-verification-benchmark-quality
 - [HotpotQA Source/Evidence Extraction Challenge](results/batch2-hotpotqa-source-evidence-extraction-challenge/) — good, autopublished, batch2-hotpotqa-source-evidence-extraction-challenge, source-evidence-extraction-quality
 - [PyOD Repository Reproducibility Audit](results/batch2-pyod-reproducibility-audit/) — reviewable, autopublished, batch2-pyod-reproducibility-audit, public-repo-reproducibility-audit

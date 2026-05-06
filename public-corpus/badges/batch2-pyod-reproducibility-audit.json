@@ -3,7 +3,7 @@
   "slug": "batch2-pyod-reproducibility-audit",
   "badges": {
     "quality": "reviewable",
-    "status": "unknown",
+    "status": "external_reproduction_partial",
     "antiTemplate": "unknown",
     "replay": "replay-100",
     "safety": "safety-passed",
@@ -16,5 +16,5 @@
   },
   "lifecycleStatus": "autopublished",
   "showcaseRank": null,
-  "evidenceHash": "02633e778236c280fb883f60bdbfded0a3f2ee187467304c1a85678a9e6be65a"
+  "evidenceHash": "4dcd4f3bfc5f86fbaea0ba9c42ca49d186dcc3ce6741d87043eaec4d69a89a41"
 }

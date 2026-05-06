@@ -34,5 +34,15 @@
     "FEVEROUS is an external fact extraction and verification benchmark with text and table evidence.",
     "The public README documents local evaluation and required input fields."
   ],
-  "evidenceHash": "3d4edae2665831d0853499abd5995a8fe81b9f66425525107d21e37cee8be02c"
+  "evidenceHash": "3d4edae2665831d0853499abd5995a8fe81b9f66425525107d21e37cee8be02c",
+  "qualityLabel": "reviewable",
+  "candidateStatus": "external_reproduction_partial",
+  "releaseReadinessScore": 78,
+  "evidenceStrengthScore": 80,
+  "reproducibilityScore": 78,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 78,
+  "falsificationStatus": "evaluated_with_limitations",
+  "resultType": "external_research_production_result"
 }

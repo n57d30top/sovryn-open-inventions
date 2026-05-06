@@ -38,5 +38,15 @@
     "The public repository describes code and datasets for Weakly- and Semi-supervised Evidence Extraction.",
     "The repository contains README.md, datasets, environment.yml, and src at top level during this audit."
   ],
-  "evidenceHash": "0a4e45c7bb5214a83ffb4c101d83d2b078ba2b1ef258781fe7aa11594c5600fe"
+  "evidenceHash": "0a4e45c7bb5214a83ffb4c101d83d2b078ba2b1ef258781fe7aa11594c5600fe",
+  "qualityLabel": "reviewable",
+  "candidateStatus": "external_reproduction_partial",
+  "releaseReadinessScore": 72,
+  "evidenceStrengthScore": 76,
+  "reproducibilityScore": 67,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 78,
+  "falsificationStatus": "evaluated_with_limitations",
+  "resultType": "external_research_production_result"
 }

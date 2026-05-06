@@ -2,19 +2,19 @@
   "kind": "public_corpus_result_badges",
   "slug": "batch1-uci-wine-quality-dataset-audit",
   "badges": {
-    "quality": "unknown",
-    "status": "unknown",
+    "quality": "good",
+    "status": "dataset_quality_audit_supported",
     "antiTemplate": "unknown",
-    "replay": "replay-partial",
+    "replay": "replay-100",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
     "worker": "not-recorded",
-    "falsification": "not_evaluated",
+    "falsification": "audited_with_limitations",
     "lifecycle": "autopublished",
     "version": "batch1-uci-wine-quality-dataset-audit",
     "showcase": "not-showcase"
   },
   "lifecycleStatus": "autopublished",
   "showcaseRank": null,
-  "evidenceHash": "1e975132fa42aa405fcd479fb92b1009c4f5d24a83f487d4d18f7d0ed612dcf4"
+  "evidenceHash": "71902f0c7a238b1efa85fafaf57d635d4f2088b1b30f3de92b360fb1991beb1a"
 }

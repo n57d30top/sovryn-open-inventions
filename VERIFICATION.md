@@ -13,13 +13,18 @@ Indexed public results: 49
 ## Result Status Counts
 
 - autopublished: 28
+- benchmark_challenge_negative_result: 1
+- dataset_quality_audit_supported: 2
+- external_reproduction_partial: 4
 - field_grade_trial_ready: 3
 - knowledge_trial_ready: 1
 - promising_but_unproven: 1
 - reality_grade_trial_ready: 1
 - replication_supported_candidate: 1
+- source_evidence_extraction_audit_supported: 2
 - strategy_trial_ready: 1
-- unknown: 13
+- strong_external_negative_result: 1
+- unknown: 3
 
 ## Lifecycle Counts
 

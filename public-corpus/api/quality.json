@@ -2,9 +2,9 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 35,
-    "reviewable": 2,
-    "unknown": 7
+    "good": 38,
+    "reviewable": 4,
+    "unknown": 2
   },
   "results": [
     {
@@ -14,28 +14,28 @@
     },
     {
       "slug": "batch1-evidence-extraction-reproducibility-audit",
-      "qualityLabel": "unknown",
-      "releaseReadinessScore": 0
+      "qualityLabel": "reviewable",
+      "releaseReadinessScore": 72
     },
     {
       "slug": "batch1-feverous-claim-verification-followup",
-      "qualityLabel": "unknown",
-      "releaseReadinessScore": 0
+      "qualityLabel": "reviewable",
+      "releaseReadinessScore": 78
     },
     {
       "slug": "batch1-nab-time-series-anomaly-challenge",
-      "qualityLabel": "unknown",
-      "releaseReadinessScore": 0
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
     },
     {
       "slug": "batch1-qasper-source-evidence-extraction-challenge",
-      "qualityLabel": "unknown",
-      "releaseReadinessScore": 0
+      "qualityLabel": "good",
+      "releaseReadinessScore": 84
     },
     {
       "slug": "batch1-uci-wine-quality-dataset-audit",
-      "qualityLabel": "unknown",
-      "releaseReadinessScore": 0
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
     },
     {
       "slug": "batch2-climate-fever-claim-verification-followup",
@@ -253,5 +253,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "9250207192723150d51ba65f1a843d1dce3bc34ffcdcc40946e043589b1d1ba3"
+  "evidenceHash": "3570f4f1ef12f98eef16cf291a3a9efb192d92b1fe41aaf509e376de6194e431"
 }

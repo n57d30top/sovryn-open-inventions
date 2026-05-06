@@ -35,5 +35,15 @@
     "QASPER is a public scientific QA dataset card with homepage, license, leaderboard, and baseline metadata.",
     "The public card mentions an official baseline Token F1 score."
   ],
-  "evidenceHash": "06c9bd71c4755e3f78780f952fad25e89fb4ba3537d88666acdfd8f6ba5e57c9"
+  "evidenceHash": "06c9bd71c4755e3f78780f952fad25e89fb4ba3537d88666acdfd8f6ba5e57c9",
+  "qualityLabel": "good",
+  "candidateStatus": "source_evidence_extraction_audit_supported",
+  "releaseReadinessScore": 84,
+  "evidenceStrengthScore": 86,
+  "reproducibilityScore": 80,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 84,
+  "falsificationStatus": "audited_with_limitations",
+  "resultType": "external_research_production_result"
 }
