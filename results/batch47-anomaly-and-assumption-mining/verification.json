@@ -3,5 +3,10 @@
   "slug": "batch47-anomaly-and-assumption-mining",
   "resultKind": "anomaly_assumption_mining",
   "publicHygienePassed": true,
-  "evidenceHash": "e0e363aeb0efd8af8818105d7159a8e1e6cf006341bf48534b48351ccf54995f"
+  "evidenceHash": "00892154a40f9e71fd9249d1ae9fdcbc2cc4ed0f8fe20c482bb0ab6de8407d58",
+  "anomalyCount": 24,
+  "hiddenAssumptionCount": 18,
+  "contradictionCount": 12,
+  "failedPredictionAnalyses": 8,
+  "discoverySeedCount": 5
 }

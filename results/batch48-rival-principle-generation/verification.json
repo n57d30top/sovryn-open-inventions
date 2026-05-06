@@ -3,5 +3,10 @@
   "slug": "batch48-rival-principle-generation",
   "resultKind": "rival_principle_generation",
   "publicHygienePassed": true,
-  "evidenceHash": "6b40cbcbc76153b3731964839e601c1cd2b7efc0c14dc876e4e2f60eb8e7b137"
+  "evidenceHash": "5349973928e98acd3a4545fc0113c857b962ecf3183d89ee7b9f8bccfa60155c",
+  "principleCandidateCount": 15,
+  "principleCardCount": 6,
+  "selectedRivalPrincipleCount": 3,
+  "nonExampleMinimumMet": true,
+  "falsificationTestMinimumMet": true
 }

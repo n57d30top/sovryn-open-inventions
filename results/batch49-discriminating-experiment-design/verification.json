@@ -3,5 +3,10 @@
   "slug": "batch49-discriminating-experiment-design",
   "resultKind": "discriminating_experiment_design",
   "publicHygienePassed": true,
-  "evidenceHash": "350b2a5fbc88836638e2488d44cabe5c138fd58690882b0ad498df8bf9c2a949"
+  "evidenceHash": "831db2ee71664c2ac06b784cd20c80afa6213f834a58923bdde55a91ea06919c",
+  "designedExperimentCount": 12,
+  "selectedFrozenExperimentCount": 8,
+  "rivalPrincipleCount": 3,
+  "domainCount": 5,
+  "noExecutionBeforeFreeze": true
 }
