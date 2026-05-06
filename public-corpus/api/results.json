@@ -2,6 +2,81 @@
   "kind": "public_corpus_api_results",
   "results": [
     {
+      "slug": "autonomous-research-program-continuity-batches5-8",
+      "title": "Autonomous Research Program Continuity: Batches 5-8",
+      "domain": "autonomous-research-production-continuity",
+      "resultKind": "autonomous_research_program_continuity_review",
+      "path": "results/autonomous-research-program-continuity-batches5-8",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "autonomous-research-program-continuity-batches5-8",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": true,
+      "showcaseRank": null,
+      "revisionReason": null,
+      "humanReadableSummary": "This result turns the recent external-research production work into one coherent autonomous scientific program record.",
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 92,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 88,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": false,
+      "externalPackages": [],
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "passes_falsification",
+      "scientificQuestion": null,
+      "hypothesisCount": 0,
+      "nullHypothesisPresent": false,
+      "experimentCount": 0,
+      "replicationRunCount": 0,
+      "peerReviewPresent": false,
+      "statisticalAnalysisPresent": false,
+      "baselineComparisonPresent": false,
+      "ablationPresent": false,
+      "sensitivityPresent": false,
+      "studyResultLabel": null,
+      "scientificMemoryUpdated": false,
+      "safetyScope": null,
+      "summary": "This result turns the recent external-research production work into one coherent autonomous scientific program record.",
+      "limitations": [
+        "Batch 7 tools were not assumed reusable. Batch 8 tested them on six new targets. The schema tool was narrowed, the metric tool was promoted, and the pytest summary tool was kept narrow.",
+        "Limitations",
+        "This is a program-continuity synthesis over Batches 5-8, not a new scientific benchmark result.",
+        "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+        "3. Verify Batch 7 tool cards, tool tests, execution summaries, and limitations.",
+        "\"disclaimer\": \"Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.\","
+      ],
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "autonomous-research-program-continuity-batches5-8",
+        "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      }
+    },
+    {
       "slug": "autonomous-research-strategy-trial",
       "title": "Autonomous Research Strategist Trial",
       "domain": "research-strategy",
@@ -5218,5 +5293,5 @@
       }
     }
   ],
-  "evidenceHash": "5e75a343a59eca6638a865cdc6c16552abe4e95b82822371c6961477f0cbd2d0"
+  "evidenceHash": "efdd22ddec18c5800ed7f798fa69a176b57433b9eda3758a4f850e6b6708abae"
 }

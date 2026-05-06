@@ -1,7 +1,14 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T09:45:26.807Z",
+  "updatedAt": "2026-05-06T09:57:04.183Z",
   "groups": [
+    {
+      "versionGroup": "autonomous-research-program-continuity-batches5-8",
+      "latestSlug": "autonomous-research-program-continuity-batches5-8",
+      "resultSlugs": [
+        "autonomous-research-program-continuity-batches5-8"
+      ]
+    },
     {
       "versionGroup": "autonomous-research-strategy-trial",
       "latestSlug": "autonomous-research-strategy-trial",
@@ -402,5 +409,5 @@
       ]
     }
   ],
-  "evidenceHash": "90c6b04b4e150ee44ca64c79bcd4bc459ed64f952074fbbe9b781ac4f15b423c"
+  "evidenceHash": "5e389dd8c23d45b081dbbf4326320c29a7ffa4c3abdfd1c9c84963dda030fc2f"
 }

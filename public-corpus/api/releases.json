@@ -2,6 +2,15 @@
   "kind": "public_corpus_api_releases",
   "releases": [
     {
+      "slug": "autonomous-research-program-continuity-batches5-8",
+      "path": "results/autonomous-research-program-continuity-batches5-8",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "autonomous-research-program-continuity-batches5-8",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "autonomous-research-strategy-trial",
       "path": "results/autonomous-research-strategy-trial",
       "status": "strategy_trial_ready",
@@ -623,5 +632,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "85ab07d928058ccd1727439a3d6ed70922b79eeb105969c605ac467443245de1"
+  "evidenceHash": "f59e22e8c63b7c45a034f2dcbdc499e752c10503fdaa2229c4c0f00ff89f85bf"
 }

@@ -1,19 +1,33 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T09:45:26.807Z",
+  "generatedAt": "2026-05-06T09:57:04.183Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 58,
+    "good": 59,
     "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 38,
+    "autopublished": 39,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
     "superseded": 14
   },
   "results": [
+    {
+      "slug": "autonomous-research-program-continuity-batches5-8",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "autonomous-research-program-continuity-batches5-8",
+      "showcaseEligible": true,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 92,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 98,
+      "specificityScore": 88
+    },
     {
       "slug": "autonomous-research-strategy-trial",
       "qualityLabel": "good",
@@ -981,5 +995,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "abefd9827724fe3ef1de74ffc23e6a5d7089b326accd743d76d1ffb8ee69ef58"
+  "evidenceHash": "d7324e84bc1c98a5fdcd0bae456935a82d322f68917bc5a99b80f48c93578ac4"
 }

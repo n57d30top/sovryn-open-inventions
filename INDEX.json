@@ -1,8 +1,47 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-06T09:45:26.807Z",
-  "resultCount": 69,
+  "updatedAt": "2026-05-06T09:57:04.183Z",
+  "resultCount": 70,
   "results": [
+    {
+      "slug": "autonomous-research-program-continuity-batches5-8",
+      "title": "Autonomous Research Program Continuity: Batches 5-8",
+      "resultKind": "autonomous_research_program_continuity_review",
+      "domain": "autonomous-research-production-continuity",
+      "path": "results/autonomous-research-program-continuity-batches5-8",
+      "qualityLabel": "good",
+      "candidateStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "autonomous-research-program-continuity-batches5-8",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": true,
+      "showcaseRank": null,
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      },
+      "revisionReason": null,
+      "humanReadableSummary": "This result turns the recent external-research production work into one coherent autonomous scientific program record.",
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 92,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 88,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "passes_falsification",
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+    },
     {
       "slug": "autonomous-research-strategy-trial",
       "title": "Autonomous Research Strategist Trial",
@@ -2787,5 +2826,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "83a9846b9849368295e3a2a7a9280be8448f73bdacbb3545fb401a68f637fa25"
+  "evidenceHash": "011f952d6532ef46357782d582e8823191198b4e1f78d72b325c920cf94d687f"
 }

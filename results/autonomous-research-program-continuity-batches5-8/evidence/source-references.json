@@ -1,0 +1,21 @@
+{
+  "slug": "autonomous-research-program-continuity-batches5-8",
+  "resultRefs": [
+    "batch5-itsdangerous-repo-install-test-reproduction",
+    "batch5-uci-air-quality-time-series-dataset-audit",
+    "batch5-uci-letter-recognition-baseline-challenge",
+    "batch6-diamonds-data-quality-netoff-ladder",
+    "batch6-scikit-learn-iris-reproduction-ladder",
+    "batch6-uci-concrete-baseline-reproduction-ladder",
+    "batch7-banknote-metric-stress-validator",
+    "batch7-pluggy-pytest-repro-summary-tool",
+    "batch7-wine-quality-schema-provenance-tool",
+    "batch8-tool-reuse-failure-benchmark"
+  ],
+  "aggregateRefs": [
+    "aggregate/batch8/UPDATED_CONFIDENCE.json",
+    "aggregate/batch8/CLAIM_ATTACKS.md",
+    "aggregate/batch8/NEXT_RESEARCH_DIRECTION.md",
+    "aggregate/batch8/PROGRAM_CONTINUITY.md"
+  ]
+}

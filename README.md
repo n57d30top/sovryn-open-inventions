@@ -35,6 +35,7 @@ and safety scope in human-readable language.
 
 ## Results
 
+- [Autonomous Research Program Continuity: Batches 5-8](results/autonomous-research-program-continuity-batches5-8/) — good, autopublished, autonomous-research-program-continuity-batches5-8, autonomous-research-production-continuity
 - [Autonomous Research Strategist Trial](results/autonomous-research-strategy-trial/) — good, autopublished, autonomous-research-strategy-trial, research-strategy
 - [Evidence-Extraction Repository Reproducibility Audit](results/batch1-evidence-extraction-reproducibility-audit/) — reviewable, autopublished, batch1-evidence-extraction-reproducibility-audit, computational-reproducibility-audit
 - [FEVEROUS Claim-Verification Follow-Up Reproduction](results/batch1-feverous-claim-verification-followup/) — reviewable, autopublished, batch1-feverous-claim-verification-followup, claim-verification-benchmark

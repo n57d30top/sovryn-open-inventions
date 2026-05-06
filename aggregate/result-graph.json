@@ -1,7 +1,13 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T09:45:26.807Z",
+  "generatedAt": "2026-05-06T09:57:04.183Z",
   "nodes": [
+    {
+      "id": "result:autonomous-research-program-continuity-batches5-8",
+      "kind": "result",
+      "label": "Autonomous Research Program Continuity: Batches 5-8",
+      "domain": "autonomous-research-production-continuity"
+    },
     {
       "id": "result:autonomous-research-strategy-trial",
       "kind": "result",
@@ -417,6 +423,11 @@
       "domain": "node-toolchain-policy"
     },
     {
+      "id": "domain:autonomous-research-production-continuity",
+      "kind": "domain",
+      "label": "autonomous-research-production-continuity"
+    },
+    {
       "id": "domain:research-strategy",
       "kind": "domain",
       "label": "research-strategy"
@@ -527,11 +538,6 @@
       "label": "dataset-schema-provenance-auditing"
     },
     {
-      "id": "domain:autonomous-research-production-continuity",
-      "kind": "domain",
-      "label": "autonomous-research-production-continuity"
-    },
-    {
       "id": "domain:chemistry-data-quality",
       "kind": "domain",
       "label": "chemistry-data-quality"
@@ -633,6 +639,11 @@
     }
   ],
   "edges": [
+    {
+      "source": "result:autonomous-research-program-continuity-batches5-8",
+      "target": "domain:autonomous-research-production-continuity",
+      "relation": "belongs_to_domain"
+    },
     {
       "source": "result:autonomous-research-strategy-trial",
       "target": "domain:research-strategy",
@@ -1149,5 +1160,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "a7115bff3fe6cc1f742650a6c8136d8aa412cc9fdde856f5f1b0c9b7a7afd1a4"
+  "evidenceHash": "83abb7dfe6a141d38d9c4a713eeffb4514fdb3eb72221bd818bccb8fd327f427"
 }

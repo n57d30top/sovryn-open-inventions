@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 69
+Results: 70
 
 ## Lifecycle Counts
 
-- autopublished: 38
+- autopublished: 39
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -12,6 +12,7 @@ Results: 69
 
 ## Version Groups
 
+- autonomous-research-program-continuity-batches5-8: latest autonomous-research-program-continuity-batches5-8; autonomous-research-program-continuity-batches5-8
 - autonomous-research-strategy-trial: latest autonomous-research-strategy-trial; autonomous-research-strategy-trial
 - batch1-evidence-extraction-reproducibility-audit: latest batch1-evidence-extraction-reproducibility-audit; batch1-evidence-extraction-reproducibility-audit
 - batch1-feverous-claim-verification-followup: latest batch1-feverous-claim-verification-followup; batch1-feverous-claim-verification-followup

@@ -5,6 +5,7 @@ can supersede earlier entries while preserving audit history.
 
 ## Groups
 
+- autonomous-research-program-continuity-batches5-8: latest autonomous-research-program-continuity-batches5-8; versions autonomous-research-program-continuity-batches5-8
 - autonomous-research-strategy-trial: latest autonomous-research-strategy-trial; versions autonomous-research-strategy-trial
 - batch1-evidence-extraction-reproducibility-audit: latest batch1-evidence-extraction-reproducibility-audit; versions batch1-evidence-extraction-reproducibility-audit
 - batch1-feverous-claim-verification-followup: latest batch1-feverous-claim-verification-followup; versions batch1-feverous-claim-verification-followup

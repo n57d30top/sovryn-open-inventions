@@ -2,10 +2,15 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 58,
+    "good": 59,
     "reviewable": 6
   },
   "results": [
+    {
+      "slug": "autonomous-research-program-continuity-batches5-8",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
     {
       "slug": "autonomous-research-strategy-trial",
       "qualityLabel": "good",
@@ -352,5 +357,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "abefd9827724fe3ef1de74ffc23e6a5d7089b326accd743d76d1ffb8ee69ef58"
+  "evidenceHash": "d7324e84bc1c98a5fdcd0bae456935a82d322f68917bc5a99b80f48c93578ac4"
 }
