@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T11:45:14.611Z",
+  "generatedAt": "2026-05-06T12:04:21.689Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 62,
+    "good": 63,
     "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 42,
+    "autopublished": 43,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -139,6 +139,20 @@
       "reproducibilityScore": 92,
       "publicationSafetyScore": 98,
       "specificityScore": 90
+    },
+    {
+      "slug": "batch12-research-production-review-next-frontier-program",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch12-research-production-review-next-frontier-program",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 92,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 98,
+      "specificityScore": 91
     },
     {
       "slug": "batch2-climate-fever-claim-verification-followup",
@@ -1037,5 +1051,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "290f8e62b748906922c07d387ec6f3241dde49f52664c051c5b7ecf83813f080"
+  "evidenceHash": "40abc73125be02e48ea84d61771a5921fcd24f6a6cdec296edf81c33def6b2d9"
 }

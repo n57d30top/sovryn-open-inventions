@@ -1,0 +1,42 @@
+[
+  {
+    "decision": "preserve",
+    "lesson": "A simple challenger can dominate or falsify a proposed method, so baseline-dominance checks must be mandatory.",
+    "result": "batch5-uci-letter-recognition-baseline-challenge"
+  },
+  {
+    "decision": "preserve_with_scope",
+    "lesson": "Duplicate and zero-dimension records are useful data-quality signals but do not make the entire dataset unusable.",
+    "result": "batch6-diamonds-data-quality-netoff-ladder"
+  },
+  {
+    "decision": "preserve_with_tool_downgrade",
+    "lesson": "Duplicate rows matter, but pandas can produce the raw finding; tool value is evidence packaging.",
+    "result": "batch7-wine-quality-schema-provenance-tool"
+  },
+  {
+    "decision": "preserve_with_scope",
+    "lesson": "Dummy and shuffled-label controls are valuable, but one split cannot certify a benchmark protocol.",
+    "result": "batch7-banknote-metric-stress-validator"
+  },
+  {
+    "decision": "preserve_with_tool_narrowing",
+    "lesson": "Static test inventory is useful only when reconciled against runtime collection and execution.",
+    "result": "batch7-pluggy-pytest-repro-summary-tool"
+  },
+  {
+    "decision": "preserve",
+    "lesson": "Tool reuse evidence is only credible when failures and downgraded targets stay visible.",
+    "result": "batch8-tool-reuse-failure-benchmark"
+  },
+  {
+    "decision": "preserve",
+    "lesson": "The rejected class-weight extension prevented an unsupported improvement claim.",
+    "result": "batch9-uci-dry-bean-deep-toolchain-study"
+  },
+  {
+    "decision": "preserve_with_program_narrowing",
+    "lesson": "Seven of eight class-weight extensions were rejected or downgraded, and Vehicle fallback showed target access can fail honestly.",
+    "result": "batch11-multi-target-dataset-metric-validation-program"
+  }
+]

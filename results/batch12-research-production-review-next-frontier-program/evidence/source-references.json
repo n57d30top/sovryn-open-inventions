@@ -1,0 +1,152 @@
+{
+  "externalSourcePagesConsulted": [
+    "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones",
+    "https://archive.ics.uci.edu/dataset/59/letter+recognition",
+    "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits",
+    "https://archive.ics.uci.edu/dataset/81/pen+based+recognition+of+handwritten+digits",
+    "https://archive.ics.uci.edu/dataset/146/statlog+landsat+satellite",
+    "https://archive.ics.uci.edu/dataset/148/statlog+shuttle",
+    "https://archive.ics.uci.edu/dataset/50/image+segmentation",
+    "https://archive.ics.uci.edu/dataset/149/statlog+vehicle+silhouettes",
+    "https://github.com/scikit-learn/scikit-learn",
+    "https://github.com/pallets/click"
+  ],
+  "nextTargetSources": [
+    {
+      "domain": "benchmark protocol / split-risk validation",
+      "name": "UCI Human Activity Recognition Using Smartphones",
+      "url": "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones"
+    },
+    {
+      "domain": "benchmark protocol validation",
+      "name": "UCI Letter Recognition",
+      "url": "https://archive.ics.uci.edu/dataset/59/letter+recognition"
+    },
+    {
+      "domain": "benchmark protocol validation",
+      "name": "UCI Optical Recognition of Handwritten Digits",
+      "url": "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits"
+    },
+    {
+      "domain": "writer split validation",
+      "name": "UCI Pen-Based Recognition of Handwritten Digits",
+      "url": "https://archive.ics.uci.edu/dataset/81/pen+based+recognition+of+handwritten+digits"
+    },
+    {
+      "domain": "source split validation",
+      "name": "UCI Statlog Landsat Satellite",
+      "url": "https://archive.ics.uci.edu/dataset/146/statlog+landsat+satellite"
+    },
+    {
+      "domain": "imbalance and protocol validation",
+      "name": "UCI Statlog Shuttle",
+      "url": "https://archive.ics.uci.edu/dataset/148/statlog+shuttle"
+    },
+    {
+      "domain": "train/test protocol validation",
+      "name": "UCI Image Segmentation",
+      "url": "https://archive.ics.uci.edu/dataset/50/image+segmentation"
+    },
+    {
+      "domain": "target-access failure follow-up",
+      "name": "UCI Statlog Vehicle Silhouettes",
+      "url": "https://archive.ics.uci.edu/dataset/149/statlog+vehicle+silhouettes"
+    },
+    {
+      "domain": "repo/test reproduction",
+      "name": "scikit-learn repository targeted test reproduction",
+      "url": "https://github.com/scikit-learn/scikit-learn"
+    },
+    {
+      "domain": "repo/test reproduction",
+      "name": "pallets/click repository test reproduction",
+      "url": "https://github.com/pallets/click"
+    }
+  ],
+  "priorResults": [
+    {
+      "domain": "public-repo-reproducibility",
+      "path": "results/batch5-itsdangerous-repo-install-test-reproduction/",
+      "resultKind": "external_research_production_result",
+      "slug": "batch5-itsdangerous-repo-install-test-reproduction"
+    },
+    {
+      "domain": "time-series-dataset-quality-audit",
+      "path": "results/batch5-uci-air-quality-time-series-dataset-audit/",
+      "resultKind": "external_research_production_result",
+      "slug": "batch5-uci-air-quality-time-series-dataset-audit"
+    },
+    {
+      "domain": "tabular-benchmark-baseline-dominance",
+      "path": "results/batch5-uci-letter-recognition-baseline-challenge/",
+      "resultKind": "external_research_production_result",
+      "slug": "batch5-uci-letter-recognition-baseline-challenge"
+    },
+    {
+      "domain": "public-dataset-quality-audit",
+      "path": "results/batch6-diamonds-data-quality-netoff-ladder/",
+      "resultKind": "external_reproduction_ladder_result",
+      "slug": "batch6-diamonds-data-quality-netoff-ladder"
+    },
+    {
+      "domain": "ml-repository-reproduction",
+      "path": "results/batch6-scikit-learn-iris-reproduction-ladder/",
+      "resultKind": "external_reproduction_ladder_result",
+      "slug": "batch6-scikit-learn-iris-reproduction-ladder"
+    },
+    {
+      "domain": "tabular-regression-benchmark",
+      "path": "results/batch6-uci-concrete-baseline-reproduction-ladder/",
+      "resultKind": "external_reproduction_ladder_result",
+      "slug": "batch6-uci-concrete-baseline-reproduction-ladder"
+    },
+    {
+      "domain": "benchmark-metric-validation",
+      "path": "results/batch7-banknote-metric-stress-validator/",
+      "resultKind": "external_tool_building_under_pressure_result",
+      "slug": "batch7-banknote-metric-stress-validator"
+    },
+    {
+      "domain": "repo-test-result-extraction",
+      "path": "results/batch7-pluggy-pytest-repro-summary-tool/",
+      "resultKind": "external_tool_building_under_pressure_result",
+      "slug": "batch7-pluggy-pytest-repro-summary-tool"
+    },
+    {
+      "domain": "dataset-schema-provenance-auditing",
+      "path": "results/batch7-wine-quality-schema-provenance-tool/",
+      "resultKind": "external_tool_building_under_pressure_result",
+      "slug": "batch7-wine-quality-schema-provenance-tool"
+    },
+    {
+      "domain": "autonomous-research-production-continuity",
+      "path": "results/batch8-tool-reuse-failure-benchmark/",
+      "resultKind": "tool_reuse_failure_benchmark",
+      "slug": "batch8-tool-reuse-failure-benchmark"
+    },
+    {
+      "domain": "autonomous-research-production-continuity",
+      "path": "results/autonomous-research-program-continuity-batches5-8/",
+      "resultKind": "autonomous_research_program_continuity_review",
+      "slug": "autonomous-research-program-continuity-batches5-8"
+    },
+    {
+      "domain": "dataset-and-metric-validation",
+      "path": "results/batch9-uci-dry-bean-deep-toolchain-study/",
+      "resultKind": "deep_external_toolchain_reproduction_study",
+      "slug": "batch9-uci-dry-bean-deep-toolchain-study"
+    },
+    {
+      "domain": "autonomous-research-toolchain-falsification",
+      "path": "results/batch10-toolchain-kill-week/",
+      "resultKind": "toolchain_kill_week_review",
+      "slug": "batch10-toolchain-kill-week"
+    },
+    {
+      "domain": "tabular-and-image-derived-classification-benchmark-validation",
+      "path": "results/batch11-multi-target-dataset-metric-validation-program/",
+      "resultKind": "multi_target_dataset_metric_validation_program",
+      "slug": "batch11-multi-target-dataset-metric-validation-program"
+    }
+  ]
+}

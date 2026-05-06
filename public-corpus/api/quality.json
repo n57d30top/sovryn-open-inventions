@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 62,
+    "good": 63,
     "reviewable": 6
   },
   "results": [
@@ -50,6 +50,11 @@
       "slug": "batch11-multi-target-dataset-metric-validation-program",
       "qualityLabel": "good",
       "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch12-research-production-review-next-frontier-program",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
     },
     {
       "slug": "batch2-climate-fever-claim-verification-followup",
@@ -372,5 +377,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "290f8e62b748906922c07d387ec6f3241dde49f52664c051c5b7ecf83813f080"
+  "evidenceHash": "40abc73125be02e48ea84d61771a5921fcd24f6a6cdec296edf81c33def6b2d9"
 }

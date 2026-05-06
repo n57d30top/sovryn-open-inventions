@@ -1,0 +1,34 @@
+# Tool Reuse Map
+
+| Tool | Final decision | Promoted | Evidence summary | Next use condition | Must-not-use condition |
+| --- | --- | --- | --- | --- | --- |
+| metric_stress_validator | reusable_support_tool | true | Built in Batch 7, generalized in Batch 8, used in Batch 9 and Batch 11, and narrowed by Batch 10. | Use whenever a benchmark score is reported, paired with dummy, shuffled-label, per-class, seed, and split controls. | Do not use it to claim benchmark reproduction or absence of leakage. |
+| schema_provenance_auditor | packaging_only | false | Found useful duplicate/schema evidence in Wine Quality and Dry Bean, but Batch 10 and Batch 11 showed pandas dominates raw single-table findings. | Use for source-hash cards, schema comparison across split files, duplicate/missingness gates, and public evidence packaging. | Do not call it a discovery tool on one simple CSV unless it finds something the declared pandas baseline misses. |
+| pytest_repro_summary | narrow_but_useful | false | Built on pluggy and reused in Batch 8; Batch 10 reaffirmed static inventory as support-only. | Use only beside real pytest collection/execution output. | Do not treat static test inventory as runtime reproduction. |
+| container_netoff_replay_recipe | reusable | true | Used in Batch 5, Batch 6, Batch 9, and Batch 11 to separate download/provisioning from isolated replay. | Use for replay of packaged data, baselines, and custom tools after download/provisioning is complete. | Do not silently fall back to host execution. |
+| reproduction_ladder_artifact_pack | reusable_support_tool | true | Batch 6 made ladder depth explicit, and later batches used similar execution/replay/report stages. | Use for every deep target to record highest achieved reproduction level and failed steps. | Do not count a ladder level without concrete evidence. |
+| single_table_schema_discovery_use | dominated_by_simple_baseline | false | Batch 11 showed ordinary pandas checks explain most single-table schema findings. | Only as packaging evidence. | Do not promote as a raw discovery method. |
+
+## metric_stress_validator
+
+Failure modes: One split only; not a leakage proof; not an official protocol checker by itself.
+
+## schema_provenance_auditor
+
+Failure modes: Weak semantic inference; needs wrapper context for target columns; raw discoveries are often pandas-equivalent.
+
+## pytest_repro_summary
+
+Failure modes: Static test definitions can diverge from runtime parametrized collection; dependency failures can dominate.
+
+## container_netoff_replay_recipe
+
+Failure modes: Requires prepared local data and package availability; cannot validate download-time provenance alone.
+
+## reproduction_ladder_artifact_pack
+
+Failure modes: Can become paperwork if not tied to actual execution.
+
+## single_table_schema_discovery_use
+
+Failure modes: Overstates tool value on clean CSVs.

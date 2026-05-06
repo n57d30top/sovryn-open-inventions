@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T11:45:14.611Z",
+  "generatedAt": "2026-05-06T12:04:21.689Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -159,6 +159,24 @@
         "falsification": "passes_falsification_with_limitations",
         "lifecycle": "autopublished",
         "version": "batch11-multi-target-dataset-metric-validation-program",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch12-research-production-review-next-frontier-program",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "decision_review_completed_with_constraints",
+        "lifecycle": "autopublished",
+        "version": "batch12-research-production-review-next-frontier-program",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -1317,5 +1335,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "75699b51504d524dca0f7bf73a1eca6d3b02202be2c8a3507199975d08b28224"
+  "evidenceHash": "d778409a175d27e6eea03719c81d6baa8fe945bdd288358cc55d5ffb09e2b87e"
 }

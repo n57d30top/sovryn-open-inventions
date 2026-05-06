@@ -52,6 +52,13 @@
       "customTool": null
     },
     {
+      "slug": "batch12-research-production-review-next-frontier-program",
+      "externalPackages": [
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
       "slug": "batch2-climate-fever-claim-verification-followup",
       "externalPackages": [],
       "customTool": null
@@ -433,5 +440,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "49f21750c571a7c989faf4f6bcb988930eb2a51e3294a3506ce2854f6209c015"
+  "evidenceHash": "7ab4cfb8e5aaaa24cd45c123dece739fc2edfd3cba5f865d28ee3a8f3bd1a5f8"
 }

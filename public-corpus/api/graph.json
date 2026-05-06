@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T11:45:14.611Z",
+  "generatedAt": "2026-05-06T12:04:21.689Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -55,6 +55,12 @@
       "kind": "result",
       "label": "Batch 11 Multi-Target Dataset and Metric Validation Program",
       "domain": "tabular-and-image-derived-classification-benchmark-validation"
+    },
+    {
+      "id": "result:batch12-research-production-review-next-frontier-program",
+      "kind": "result",
+      "label": "Batch 12 Research Production Review and Next Frontier Program Selection",
+      "domain": "autonomous-research-production-strategy"
     },
     {
       "id": "result:batch2-climate-fever-claim-verification-followup",
@@ -486,6 +492,11 @@
       "label": "tabular-and-image-derived-classification-benchmark-validation"
     },
     {
+      "id": "domain:autonomous-research-production-strategy",
+      "kind": "domain",
+      "label": "autonomous-research-production-strategy"
+    },
+    {
       "id": "domain:claim-verification-benchmark-quality",
       "kind": "domain",
       "label": "claim-verification-benchmark-quality"
@@ -729,6 +740,16 @@
     },
     {
       "source": "result:batch11-multi-target-dataset-metric-validation-program",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch12-research-production-review-next-frontier-program",
+      "target": "domain:autonomous-research-production-strategy",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch12-research-production-review-next-frontier-program",
       "target": "tool:pandas",
       "relation": "uses_public_tool_evidence"
     },
@@ -1233,5 +1254,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "94e08cae7f7be53b07858352c01a8a15c4301f537ca1d8dbc7347313f836bcf3"
+  "evidenceHash": "4e100db28e93221364987aa6caaadb88e1d3b892e2f3c96f710c7011dc324525"
 }

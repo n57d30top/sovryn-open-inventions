@@ -1,0 +1,112 @@
+[
+  [
+    "UCI Human Activity Recognition Using Smartphones",
+    "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones",
+    "benchmark protocol / split-risk validation",
+    "Explicit subject train/test split and enough rows for protocol-aware checks.",
+    "schema, metric, split-risk, container replay",
+    "medium",
+    "high",
+    "subject split and feature provenance ambiguity",
+    "yes"
+  ],
+  [
+    "UCI Letter Recognition",
+    "https://archive.ics.uci.edu/dataset/59/letter+recognition",
+    "benchmark protocol validation",
+    "Prior Batch 5 negative result plus source-described first-16000/last-4000 protocol.",
+    "metric, protocol card, baseline challenger",
+    "low",
+    "high",
+    "easy to overclaim random split scores",
+    "yes"
+  ],
+  [
+    "UCI Optical Recognition of Handwritten Digits",
+    "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits",
+    "benchmark protocol validation",
+    "Batch 11 used controlled splits; source describes separate train/test contributors.",
+    "metric, split-risk, per-class error",
+    "low",
+    "high",
+    "random split can hide contributor split difference",
+    "yes"
+  ],
+  [
+    "UCI Pen-Based Recognition of Handwritten Digits",
+    "https://archive.ics.uci.edu/dataset/81/pen+based+recognition+of+handwritten+digits",
+    "writer split validation",
+    "Files expose train/test variants and writer-dependent versus independent framing.",
+    "protocol card, metric, replay",
+    "low",
+    "high",
+    "writer split mismatch",
+    "yes"
+  ],
+  [
+    "UCI Statlog Landsat Satellite",
+    "https://archive.ics.uci.edu/dataset/146/statlog+landsat+satellite",
+    "source split validation",
+    "Known train/test file family and remote-sensing class imbalance risks.",
+    "schema, metric, split-risk",
+    "medium",
+    "high",
+    "class 6 absence and feature-neighborhood artifacts",
+    "yes"
+  ],
+  [
+    "UCI Statlog Shuttle",
+    "https://archive.ics.uci.edu/dataset/148/statlog+shuttle",
+    "imbalance and protocol validation",
+    "Strong class imbalance and high default accuracy make it ideal for anti-hype metric controls.",
+    "metric, class-risk, baseline dominance",
+    "low",
+    "high",
+    "accuracy inflation from majority class",
+    "yes"
+  ],
+  [
+    "UCI Image Segmentation",
+    "https://archive.ics.uci.edu/dataset/50/image+segmentation",
+    "train/test protocol validation",
+    "Public train/test files and multiclass feature setting support split-risk checks.",
+    "schema, metric, protocol card",
+    "low",
+    "medium",
+    "small source-image count may create leakage risk",
+    "yes"
+  ],
+  [
+    "UCI Statlog Vehicle Silhouettes",
+    "https://archive.ics.uci.edu/dataset/149/statlog+vehicle+silhouettes",
+    "target-access failure follow-up",
+    "Batch 11 failed on a one-row class issue; worth a focused source-file/protocol replay.",
+    "schema, target-cleaning, metric",
+    "medium",
+    "medium",
+    "target-class anomaly and source-file ambiguity",
+    "yes"
+  ],
+  [
+    "scikit-learn repository targeted test reproduction",
+    "https://github.com/scikit-learn/scikit-learn",
+    "repo/test reproduction",
+    "Large public repo with clear test infrastructure and examples; useful after pytest summary narrowing.",
+    "pytest runtime summary, container replay",
+    "high",
+    "medium",
+    "dependency and runtime cost",
+    "possible"
+  ],
+  [
+    "pallets/click repository test reproduction",
+    "https://github.com/pallets/click",
+    "repo/test reproduction",
+    "Moderate-size Python repo from the same ecosystem as itsdangerous; good runtime evidence target.",
+    "pytest summary, install/test reproduction",
+    "medium",
+    "medium",
+    "dependency/version mismatch",
+    "yes"
+  ]
+]

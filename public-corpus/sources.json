@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-06T11:45:14.611Z",
+  "generatedAt": "2026-05-06T12:04:21.689Z",
   "sources": [
     {
       "resultSlug": "batch10-toolchain-kill-week",
@@ -16,6 +16,12 @@
     },
     {
       "resultSlug": "batch11-multi-target-dataset-metric-validation-program",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch12-research-production-review-next-frontier-program",
       "sourceKind": "external_package_or_tool",
       "name": "pandas",
       "publicOnly": true
@@ -237,5 +243,5 @@
       "publicOnly": true
     }
   ],
-  "evidenceHash": "49f21750c571a7c989faf4f6bcb988930eb2a51e3294a3506ce2854f6209c015"
+  "evidenceHash": "7ab4cfb8e5aaaa24cd45c123dece739fc2edfd3cba5f865d28ee3a8f3bd1a5f8"
 }

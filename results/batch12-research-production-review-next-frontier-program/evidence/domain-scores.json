@@ -1,0 +1,90 @@
+[
+  {
+    "action": "continue_with_constraints",
+    "baselineAvailability": 64,
+    "domain": "dataset quality / provenance auditing",
+    "execution": 88,
+    "externalUsefulness": 82,
+    "reason": "Repeated useful negative findings appeared in Air Quality, Diamonds, Wine Quality, Dry Bean, and Batch 11, but pandas often explains the raw finding.",
+    "reproducibility": 82,
+    "toolchainFit": 72,
+    "value": 78
+  },
+  {
+    "action": "promote",
+    "baselineAvailability": 92,
+    "domain": "benchmark metric validation",
+    "execution": 92,
+    "externalUsefulness": 86,
+    "reason": "Batch 7, 9, 10, and 11 show repeatable baselines, metric stress, negative controls, and clear anti-hype value.",
+    "reproducibility": 84,
+    "toolchainFit": 88,
+    "value": 88
+  },
+  {
+    "action": "continue_with_constraints",
+    "baselineAvailability": 58,
+    "domain": "repo/test reproduction",
+    "execution": 78,
+    "externalUsefulness": 88,
+    "reason": "itsdangerous and pluggy produced real execution, but dependency variance and static/runtime pytest mismatch remain unresolved.",
+    "reproducibility": 70,
+    "toolchainFit": 62,
+    "value": 82
+  },
+  {
+    "action": "deprioritize",
+    "baselineAvailability": 42,
+    "domain": "source/evidence extraction",
+    "execution": 38,
+    "externalUsefulness": 66,
+    "reason": "The recent program produced stronger value from executed datasets and repos than from source-only review.",
+    "reproducibility": 54,
+    "toolchainFit": 48,
+    "value": 55
+  },
+  {
+    "action": "narrow",
+    "baselineAvailability": 70,
+    "domain": "time-series anomaly benchmarks",
+    "execution": 76,
+    "externalUsefulness": 80,
+    "reason": "Air Quality showed sentinel-aware value, but the current custom tools are less mature for temporal protocols than for split and metric checks.",
+    "reproducibility": 68,
+    "toolchainFit": 58,
+    "value": 74
+  },
+  {
+    "action": "deprioritize",
+    "baselineAvailability": 40,
+    "domain": "claim verification / evidence datasets",
+    "execution": 32,
+    "externalUsefulness": 68,
+    "reason": "Potentially useful, but under-executed in Batches 5-11 compared with dataset and benchmark work.",
+    "reproducibility": 50,
+    "toolchainFit": 42,
+    "value": 50
+  },
+  {
+    "action": "narrow",
+    "baselineAvailability": 50,
+    "domain": "package install/test reproduction",
+    "execution": 80,
+    "externalUsefulness": 86,
+    "reason": "Install/test reproduction is externally useful, but it needs runtime evidence improvements before promotion.",
+    "reproducibility": 70,
+    "toolchainFit": 60,
+    "value": 76
+  },
+  {
+    "action": "promote",
+    "baselineAvailability": 86,
+    "domain": "scientific dataset reliability",
+    "execution": 90,
+    "externalUsefulness": 88,
+    "reason": "The strongest repeated pattern is public dataset execution plus schema, split, metric, baseline, negative-control, and replay discipline.",
+    "reproducibility": 84,
+    "toolchainFit": 84,
+    "value": 86
+  }
+]

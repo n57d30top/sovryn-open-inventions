@@ -1,7 +1,7 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-06T11:45:14.611Z",
-  "resultCount": 73,
+  "updatedAt": "2026-05-06T12:04:21.689Z",
+  "resultCount": 74,
   "results": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -352,6 +352,45 @@
       "customTool": null,
       "workerAssurance": "not-recorded",
       "falsificationStatus": "passes_falsification_with_limitations",
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+    },
+    {
+      "slug": "batch12-research-production-review-next-frontier-program",
+      "title": "Batch 12 Research Production Review and Next Frontier Program Selection",
+      "resultKind": "research_production_review_next_frontier_program",
+      "domain": "autonomous-research-production-strategy",
+      "path": "results/batch12-research-production-review-next-frontier-program",
+      "qualityLabel": "good",
+      "candidateStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch12-research-production-review-next-frontier-program",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      },
+      "revisionReason": null,
+      "humanReadableSummary": "Batch 12 reviews Batches 5 through 11 and selects one next frontier program. It is not a continuity note and not a generic roadmap. The decision is based on public corpus evidence.",
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 92,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 91,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "decision_review_completed_with_constraints",
       "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
@@ -2943,5 +2982,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "2d71cb70ee22dc74291ee97319f4d44c63b7b13b3d7440c11e70a87b428939ab"
+  "evidenceHash": "0e6e7ba91b7805797479b87c482890572e1e10a3ba2002a5fa47ea90413cba2a"
 }

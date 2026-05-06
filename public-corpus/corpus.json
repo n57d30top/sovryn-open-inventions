@@ -1,14 +1,14 @@
 {
   "kind": "sovryn_public_corpus_product",
-  "generatedAt": "2026-05-06T11:45:14.611Z",
-  "resultCount": 73,
+  "generatedAt": "2026-05-06T12:04:21.689Z",
+  "resultCount": 74,
   "qualityCounts": {
     "excellent": 5,
-    "good": 62,
+    "good": 63,
     "reviewable": 6
   },
   "statusCounts": {
-    "autopublished": 39,
+    "autopublished": 40,
     "benchmark_challenge_negative_result": 4,
     "dataset_quality_audit_supported": 7,
     "external_extension_supported": 1,
@@ -26,7 +26,7 @@
     "strong_external_negative_result": 1
   },
   "lifecycleCounts": {
-    "autopublished": 42,
+    "autopublished": 43,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -34,6 +34,7 @@
   },
   "domainCounts": {
     "autonomous-research-production-continuity": 2,
+    "autonomous-research-production-strategy": 1,
     "autonomous-research-toolchain-falsification": 1,
     "benchmark-challenge-baseline-dominance": 1,
     "benchmark-metric-validation": 1,
@@ -743,6 +744,83 @@
         "falsification": "passes_falsification_with_limitations",
         "lifecycle": "autopublished",
         "version": "batch11-multi-target-dataset-metric-validation-program",
+        "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      }
+    },
+    {
+      "slug": "batch12-research-production-review-next-frontier-program",
+      "title": "Batch 12 Research Production Review and Next Frontier Program Selection",
+      "domain": "autonomous-research-production-strategy",
+      "resultKind": "research_production_review_next_frontier_program",
+      "path": "results/batch12-research-production-review-next-frontier-program",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch12-research-production-review-next-frontier-program",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": null,
+      "humanReadableSummary": "Batch 12 reviews Batches 5 through 11 and selects one next frontier program. It is not a continuity note and not a generic roadmap. The decision is based on public corpus evidence.",
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 92,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 91,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": false,
+      "externalPackages": [
+        "pandas"
+      ],
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "decision_review_completed_with_constraints",
+      "scientificQuestion": null,
+      "hypothesisCount": 0,
+      "nullHypothesisPresent": false,
+      "experimentCount": 0,
+      "replicationRunCount": 0,
+      "peerReviewPresent": false,
+      "statisticalAnalysisPresent": false,
+      "baselineComparisonPresent": false,
+      "ablationPresent": false,
+      "sensitivityPresent": false,
+      "studyResultLabel": null,
+      "scientificMemoryUpdated": false,
+      "safetyScope": null,
+      "summary": "Batch 12 reviews Batches 5 through 11 and selects one next frontier program. It is not a continuity note and not a generic roadmap. The decision is based on public corpus evidence.",
+      "limitations": [
+        "Batch 12 reviews Batches 5 through 11 and selects one next frontier program. It is not a continuity note and not a generic roadmap. The decision is based on public corpus evidence.",
+        "Counts are lower-bound counts from public artifacts, not a reconstruction of private run output.",
+        "Limitations",
+        "This is a decision-grade review, not a new external target execution.",
+        "Batches 9 and 11 repeatedly hit the same limitation: strong baselines ran, but official protocols were not reproduced. Batch 10 narrowed the tools to support roles, so the next useful frontier is protocol-aware execution, not more single-table scoring.",
+        "tiny target-specific split loader only if a source protocol requires it"
+      ],
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "decision_review_completed_with_constraints",
+        "lifecycle": "autopublished",
+        "version": "batch12-research-production-review-next-frontier-program",
         "showcase": "not-showcase"
       },
       "showcaseDocumentation": {
@@ -5664,6 +5742,13 @@
       ]
     },
     {
+      "versionGroup": "batch12-research-production-review-next-frontier-program",
+      "latestSlug": "batch12-research-production-review-next-frontier-program",
+      "resultSlugs": [
+        "batch12-research-production-review-next-frontier-program"
+      ]
+    },
+    {
       "versionGroup": "batch2-climate-fever-claim-verification-followup",
       "latestSlug": "batch2-climate-fever-claim-verification-followup",
       "resultSlugs": [
@@ -7126,5 +7211,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "407c9237a385796f366a3a7e6513db29d934d2d38a3ba12fc5d75b6a74cf1206"
+  "evidenceHash": "2d83c80ff9c491ce7144dc59047151193b058b5e5745ca4d0e1aec104732b27a"
 }

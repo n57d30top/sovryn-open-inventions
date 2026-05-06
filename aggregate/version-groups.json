@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T11:45:14.611Z",
+  "updatedAt": "2026-05-06T12:04:21.689Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -63,6 +63,13 @@
       "latestSlug": "batch11-multi-target-dataset-metric-validation-program",
       "resultSlugs": [
         "batch11-multi-target-dataset-metric-validation-program"
+      ]
+    },
+    {
+      "versionGroup": "batch12-research-production-review-next-frontier-program",
+      "latestSlug": "batch12-research-production-review-next-frontier-program",
+      "resultSlugs": [
+        "batch12-research-production-review-next-frontier-program"
       ]
     },
     {
@@ -430,5 +437,5 @@
       ]
     }
   ],
-  "evidenceHash": "bcfb5886df9e8b6b1d9b36ab44e5b222fcf2afd8d643688e40affb71199fe1b5"
+  "evidenceHash": "ebc0b9b83f5486f31bd4985be2205d96a25eb4ca03ab9b4805d7671d92220b7c"
 }

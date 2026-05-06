@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 73
+Results: 74
 
 ## Lifecycle Counts
 
-- autopublished: 42
+- autopublished: 43
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -21,6 +21,7 @@ Results: 73
 - batch1-uci-wine-quality-dataset-audit: latest batch1-uci-wine-quality-dataset-audit; batch1-uci-wine-quality-dataset-audit
 - batch10-toolchain-kill-week: latest batch10-toolchain-kill-week; batch10-toolchain-kill-week
 - batch11-multi-target-dataset-metric-validation-program: latest batch11-multi-target-dataset-metric-validation-program; batch11-multi-target-dataset-metric-validation-program
+- batch12-research-production-review-next-frontier-program: latest batch12-research-production-review-next-frontier-program; batch12-research-production-review-next-frontier-program
 - batch2-climate-fever-claim-verification-followup: latest batch2-climate-fever-claim-verification-followup; batch2-climate-fever-claim-verification-followup
 - batch2-hotpotqa-source-evidence-extraction-challenge: latest batch2-hotpotqa-source-evidence-extraction-challenge; batch2-hotpotqa-source-evidence-extraction-challenge
 - batch2-pyod-reproducibility-audit: latest batch2-pyod-reproducibility-audit; batch2-pyod-reproducibility-audit

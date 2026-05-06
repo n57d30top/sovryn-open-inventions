@@ -1,0 +1,88 @@
+{
+  "analyzedBatches": [
+    "Batch 5",
+    "Batch 6",
+    "Batch 7",
+    "Batch 8",
+    "Batch 8.5",
+    "Batch 9",
+    "Batch 10",
+    "Batch 11"
+  ],
+  "analyzedResultSlugs": [
+    "batch5-itsdangerous-repo-install-test-reproduction",
+    "batch5-uci-air-quality-time-series-dataset-audit",
+    "batch5-uci-letter-recognition-baseline-challenge",
+    "batch6-diamonds-data-quality-netoff-ladder",
+    "batch6-scikit-learn-iris-reproduction-ladder",
+    "batch6-uci-concrete-baseline-reproduction-ladder",
+    "batch7-banknote-metric-stress-validator",
+    "batch7-pluggy-pytest-repro-summary-tool",
+    "batch7-wine-quality-schema-provenance-tool",
+    "batch8-tool-reuse-failure-benchmark",
+    "autonomous-research-program-continuity-batches5-8",
+    "batch9-uci-dry-bean-deep-toolchain-study",
+    "batch10-toolchain-kill-week",
+    "batch11-multi-target-dataset-metric-validation-program"
+  ],
+  "antiTemplateStatus": "review_ready",
+  "candidateStatus": "autopublished",
+  "deprioritizedOrAbandonedDomains": [
+    "source/evidence extraction",
+    "claim verification / evidence datasets"
+  ],
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+  "domain": "autonomous-research-production-strategy",
+  "domainCountScored": 8,
+  "downgradedNarrowedOrRetiredTools": [
+    "schema_provenance_auditor",
+    "pytest_repro_summary",
+    "single_table_schema_discovery_use"
+  ],
+  "evidenceHash": "b114a694500f57bb015338fe139ea7e1d0e6d754e552943c7052b70a2232e775",
+  "evidenceStrengthScore": 92,
+  "falsificationStatus": "decision_review_completed_with_constraints",
+  "hardQuestionAnswer": "Sovryn should next run a protocol-first benchmark validation and split-risk program. That choice is stronger than more single-table metric validation because Batches 9-11 showed that ordinary pandas/sklearn explain most raw findings, while the unresolved scientific question is whether source protocols and split choices change benchmark conclusions.",
+  "lifecycleStatus": "autopublished",
+  "methodDirectionCount": 7,
+  "narrowedDomains": [
+    "time-series anomaly benchmarks",
+    "package install/test reproduction"
+  ],
+  "negativeOrPartial": true,
+  "negativeOrPartialFindings": [
+    "Single-table dataset metric validation is too shallow unless source protocols or split risks are tested.",
+    "schema_provenance_auditor should not be promoted as a raw discovery tool for simple CSV targets.",
+    "pytest_repro_summary remains support-only until runtime collection is reconciled.",
+    "Source/evidence-only work and claim-verification datasets are deprioritized because recent evidence was less execution-backed."
+  ],
+  "negativeResultsReviewed": 8,
+  "nextDeepTargetCount": 10,
+  "nextResearchDirection": "Protocol-First Benchmark Validation and Split-Risk Program",
+  "promotedDomains": [
+    "benchmark metric validation",
+    "scientific dataset reliability"
+  ],
+  "promotedTools": [
+    "metric_stress_validator",
+    "container_netoff_replay_recipe",
+    "reproduction_ladder_artifact_pack"
+  ],
+  "publicHygienePassed": true,
+  "publicationSafetyScore": 98,
+  "qualityLabel": "good",
+  "releaseReadinessScore": 90,
+  "reliabilityReplayPassed": true,
+  "replayCriticalPassRate": 100,
+  "reproducibilityScore": 88,
+  "resultKind": "research_production_review_next_frontier_program",
+  "safetyScanPassed": true,
+  "selectedNextProgram": "Protocol-First Benchmark Validation and Split-Risk Program",
+  "selectedNextProgramDomain": "benchmark metric validation plus scientific dataset reliability",
+  "slug": "batch12-research-production-review-next-frontier-program",
+  "specificityScore": 91,
+  "title": "Batch 12 Research Production Review and Next Frontier Program Selection",
+  "versionGroup": "batch12-research-production-review-next-frontier-program",
+  "whatSovrynLearned": "The six-week program moved from isolated execution to tool use, tool attack, and multi-target learning. The central update is that tools are valuable only when they force evidence, controls, replay, and downgrades.",
+  "workerAssurance": "corpus_audited_public_evidence_review"
+}

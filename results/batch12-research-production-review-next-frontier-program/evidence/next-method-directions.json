@@ -1,0 +1,51 @@
+[
+  {
+    "falsify": "If source protocol cannot be identified or random/official split differences are negligible across several targets.",
+    "name": "benchmark protocol extraction and validation",
+    "notFramework": "It is target-bound: every output must run on a named external dataset.",
+    "test": "Extract source protocol, implement official split, compare against random split, publish divergence.",
+    "why": "The biggest repeated limitation in Batch 9 and Batch 11 was controlled split evaluation without official protocol reproduction."
+  },
+  {
+    "falsify": "If it only restates sklearn split parameters and finds no measurable divergence.",
+    "name": "split-risk detector",
+    "notFramework": "It is a small analysis instrument attached to executed benchmark targets.",
+    "test": "Run official, random, stratified, and group-like splits where source metadata allows.",
+    "why": "Vehicle fallback, Dry Bean split limits, and Optical contributor splits show split choice can dominate interpretation."
+  },
+  {
+    "falsify": "If ordinary pandas checks catch every case with no added packaging or risk ranking.",
+    "name": "leakage-risk auditor",
+    "notFramework": "It is only accepted if tested on positive and negative leakage controls.",
+    "test": "Inject known leakage controls and detect them before applying to public targets.",
+    "why": "Current tools cannot prove absence of leakage; a scoped auditor could look for target-coded columns, duplicate crossing, and group leakage."
+  },
+  {
+    "falsify": "If dynamic tests still make counts unreliable without target-specific manual work.",
+    "name": "repo test execution summarizer v2",
+    "notFramework": "It must be built only inside a repo/test reproduction batch.",
+    "test": "Compare AST inventory, pytest collection, and executed cases across several public repos.",
+    "why": "pytest_repro_summary is support-only until static inventory is reconciled with runtime collection."
+  },
+  {
+    "falsify": "If controls do not change conclusions beyond existing metric stress reports.",
+    "name": "negative-control generator",
+    "notFramework": "It is evaluated only through public target runs and baseline-dominance checks.",
+    "test": "Generate shuffled-label, permuted-feature, duplicate-crossing, and majority-class controls for executed targets.",
+    "why": "metric_stress_validator is useful because it forces controls; broader negative controls could prevent overclaiming."
+  },
+  {
+    "falsify": "If manual source cards remain faster and more reliable.",
+    "name": "dataset-card-to-execution-plan extractor",
+    "notFramework": "It produces no standalone platform; it emits target-specific reproduction plans.",
+    "test": "Extract execution plans from UCI pages and verify against actual loaded files.",
+    "why": "Source metadata often names files, splits, and limits that controlled split scripts ignore."
+  },
+  {
+    "falsify": "If selected baselines are weaker than obvious hand-picked baselines.",
+    "name": "baseline-dominance challenge generator",
+    "notFramework": "It is accepted only when it runs against concrete external benchmarks.",
+    "test": "Automatically choose dummy, linear, tree, and source-protocol baselines for a public target.",
+    "why": "Batch 5 and later batches show simple baselines are the best anti-hype guard."
+  }
+]
