@@ -1,0 +1,31 @@
+{
+  "kind": "nobel_hypothesis_rival_theory_generation_summary",
+  "slug": "nobel-stage4-hypothesis-rival-theory-generation",
+  "title": "Generate Discovery Hypotheses and Rival Theories",
+  "resultKind": "nobel_hypothesis_rival_theory_generation",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 90,
+  "reproducibilityScore": 91,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 92,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "bounded_falsification_attempted",
+  "baselineComparisonPresent": true,
+  "scientificMemoryUpdated": true,
+  "scientificQuestion": "Can safe computational public evidence produce a bounded externally testable discovery candidate without overclaiming?",
+  "domain": "nobel discovery portfolio v0",
+  "objective": "Generate Discovery Hypotheses and Rival Theories",
+  "limitations": [
+    "Safe computational public evidence only.",
+    "No prize, broad autonomy, or major-discovery claim.",
+    "No physical-lab, clinical, hazardous, legal, or universal claim."
+  ],
+  "evidenceHash": "cdd33a4a4705eb76888c653721a092ee15fb64935626e62b6b7f88e496db274d"
+}

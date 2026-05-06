@@ -1,0 +1,546 @@
+{
+  "domains": [
+    {
+      "domainId": "astrophysics_open_data",
+      "name": "Astrophysics open-data anomaly mining",
+      "expectedAnomalyType": "residual anomaly",
+      "sources": [
+        "NASA Exoplanet Archive",
+        "NASA GISTEMP"
+      ],
+      "anomalies": [
+        "period-radius residual",
+        "stellar-temperature residual"
+      ],
+      "selected": true,
+      "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+      "expectedTools": [
+        "public API or CSV retrieval",
+        "simple statistical baseline",
+        "negative-control check"
+      ],
+      "expectedBaselines": [
+        "median/linear/simple-null baseline",
+        "shuffled or random-label negative control"
+      ],
+      "expectedRivals": [
+        "artifact_or_noise",
+        "baseline_sufficiency",
+        "descriptor_overfit"
+      ],
+      "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+      "score": 92
+    },
+    {
+      "domainId": "particle_physics_open_data",
+      "name": "Particle-physics open-data derived analysis",
+      "expectedAnomalyType": "derived distribution anomaly",
+      "sources": [
+        "CERN Open Data Portal"
+      ],
+      "anomalies": [
+        "record-size tail",
+        "metadata missingness"
+      ],
+      "selected": true,
+      "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+      "expectedTools": [
+        "public API or CSV retrieval",
+        "simple statistical baseline",
+        "negative-control check"
+      ],
+      "expectedBaselines": [
+        "median/linear/simple-null baseline",
+        "shuffled or random-label negative control"
+      ],
+      "expectedRivals": [
+        "artifact_or_noise",
+        "baseline_sufficiency",
+        "descriptor_overfit"
+      ],
+      "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+      "score": 91
+    },
+    {
+      "domainId": "computational_materials",
+      "name": "Computational materials descriptor discovery",
+      "expectedAnomalyType": "descriptor residual anomaly",
+      "sources": [
+        "Matbench / Hugging Face public mirror",
+        "Matbench GitHub"
+      ],
+      "anomalies": [
+        "composition-length residual",
+        "classification imbalance"
+      ],
+      "selected": true,
+      "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+      "expectedTools": [
+        "public API or CSV retrieval",
+        "simple statistical baseline",
+        "negative-control check"
+      ],
+      "expectedBaselines": [
+        "median/linear/simple-null baseline",
+        "shuffled or random-label negative control"
+      ],
+      "expectedRivals": [
+        "artifact_or_noise",
+        "baseline_sufficiency",
+        "descriptor_overfit"
+      ],
+      "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+      "score": 90
+    },
+    {
+      "domainId": "protein_structure_metadata",
+      "name": "Protein structure metadata regularity analysis",
+      "expectedAnomalyType": "structural regularity",
+      "sources": [
+        "RCSB PDB Data API"
+      ],
+      "anomalies": [
+        "resolution-method boundary",
+        "polymer-count residual"
+      ],
+      "selected": true,
+      "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+      "expectedTools": [
+        "public API or CSV retrieval",
+        "simple statistical baseline",
+        "negative-control check"
+      ],
+      "expectedBaselines": [
+        "median/linear/simple-null baseline",
+        "shuffled or random-label negative control"
+      ],
+      "expectedRivals": [
+        "artifact_or_noise",
+        "baseline_sufficiency",
+        "descriptor_overfit"
+      ],
+      "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+      "score": 89
+    },
+    {
+      "domainId": "climate_energy_residuals",
+      "name": "Climate and energy public data residual analysis",
+      "expectedAnomalyType": "temporal residual anomaly",
+      "sources": [
+        "NASA GISTEMP"
+      ],
+      "anomalies": [
+        "trend residual",
+        "hemisphere divergence"
+      ],
+      "selected": true,
+      "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+      "expectedTools": [
+        "public API or CSV retrieval",
+        "simple statistical baseline",
+        "negative-control check"
+      ],
+      "expectedBaselines": [
+        "median/linear/simple-null baseline",
+        "shuffled or random-label negative control"
+      ],
+      "expectedRivals": [
+        "artifact_or_noise",
+        "baseline_sufficiency",
+        "descriptor_overfit"
+      ],
+      "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+      "score": 88
+    },
+    {
+      "domainId": "formal_math_pattern_discovery",
+      "name": "Mathematical conjecture and formal pattern discovery",
+      "expectedAnomalyType": "mathematical pattern",
+      "sources": [
+        "OEIS b-files",
+        "local formal computation"
+      ],
+      "anomalies": [
+        "gap residual",
+        "growth-rate residual"
+      ],
+      "selected": true,
+      "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+      "expectedTools": [
+        "public API or CSV retrieval",
+        "simple statistical baseline",
+        "negative-control check"
+      ],
+      "expectedBaselines": [
+        "median/linear/simple-null baseline",
+        "shuffled or random-label negative control"
+      ],
+      "expectedRivals": [
+        "artifact_or_noise",
+        "baseline_sufficiency",
+        "descriptor_overfit"
+      ],
+      "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+      "score": 87
+    },
+    {
+      "domainId": "scientific_simulation_reproducibility",
+      "name": "Scientific simulation reproducibility",
+      "expectedAnomalyType": "reproduction anomaly",
+      "sources": [
+        "public simulation repos"
+      ],
+      "anomalies": [
+        "runtime/documentation mismatch"
+      ],
+      "selected": false,
+      "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+      "expectedTools": [
+        "public API or CSV retrieval",
+        "simple statistical baseline",
+        "negative-control check"
+      ],
+      "expectedBaselines": [
+        "median/linear/simple-null baseline",
+        "shuffled or random-label negative control"
+      ],
+      "expectedRivals": [
+        "artifact_or_noise",
+        "baseline_sufficiency",
+        "descriptor_overfit"
+      ],
+      "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+      "score": 86
+    },
+    {
+      "domainId": "open_source_scientific_software",
+      "name": "Open-source scientific software reproduction",
+      "expectedAnomalyType": "tool failure anomaly",
+      "sources": [
+        "npm/PyPI package metadata"
+      ],
+      "anomalies": [
+        "install/readme mismatch"
+      ],
+      "selected": false,
+      "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+      "expectedTools": [
+        "public API or CSV retrieval",
+        "simple statistical baseline",
+        "negative-control check"
+      ],
+      "expectedBaselines": [
+        "median/linear/simple-null baseline",
+        "shuffled or random-label negative control"
+      ],
+      "expectedRivals": [
+        "artifact_or_noise",
+        "baseline_sufficiency",
+        "descriptor_overfit"
+      ],
+      "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+      "score": 85
+    },
+    {
+      "domainId": "time_series_anomaly_mechanisms",
+      "name": "Time-series anomaly mechanisms",
+      "expectedAnomalyType": "temporal anomaly",
+      "sources": [
+        "public time-series datasets"
+      ],
+      "anomalies": [
+        "random-vs-temporal split gap"
+      ],
+      "selected": false,
+      "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+      "expectedTools": [
+        "public API or CSV retrieval",
+        "simple statistical baseline",
+        "negative-control check"
+      ],
+      "expectedBaselines": [
+        "median/linear/simple-null baseline",
+        "shuffled or random-label negative control"
+      ],
+      "expectedRivals": [
+        "artifact_or_noise",
+        "baseline_sufficiency",
+        "descriptor_overfit"
+      ],
+      "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+      "score": 84
+    },
+    {
+      "domainId": "benchmark_protocol_fragility",
+      "name": "Benchmark and protocol fragility",
+      "expectedAnomalyType": "protocol anomaly",
+      "sources": [
+        "UCI/OpenML documentation"
+      ],
+      "anomalies": [
+        "source protocol ambiguity"
+      ],
+      "selected": false,
+      "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+      "expectedTools": [
+        "public API or CSV retrieval",
+        "simple statistical baseline",
+        "negative-control check"
+      ],
+      "expectedBaselines": [
+        "median/linear/simple-null baseline",
+        "shuffled or random-label negative control"
+      ],
+      "expectedRivals": [
+        "artifact_or_noise",
+        "baseline_sufficiency",
+        "descriptor_overfit"
+      ],
+      "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+      "score": 83
+    },
+    {
+      "domainId": "dataset_reliability_claims",
+      "name": "Dataset reliability and evidence-bound claims",
+      "expectedAnomalyType": "missing-field anomaly",
+      "sources": [
+        "public dataset records"
+      ],
+      "anomalies": [
+        "schema/provenance missingness"
+      ],
+      "selected": false,
+      "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+      "expectedTools": [
+        "public API or CSV retrieval",
+        "simple statistical baseline",
+        "negative-control check"
+      ],
+      "expectedBaselines": [
+        "median/linear/simple-null baseline",
+        "shuffled or random-label negative control"
+      ],
+      "expectedRivals": [
+        "artifact_or_noise",
+        "baseline_sufficiency",
+        "descriptor_overfit"
+      ],
+      "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+      "score": 82
+    },
+    {
+      "domainId": "safe_molecular_property_metadata",
+      "name": "Safe molecular property metadata analysis",
+      "expectedAnomalyType": "metadata regularity",
+      "sources": [
+        "PubChem metadata"
+      ],
+      "anomalies": [
+        "property-field coverage boundary"
+      ],
+      "selected": false,
+      "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+      "expectedTools": [
+        "public API or CSV retrieval",
+        "simple statistical baseline",
+        "negative-control check"
+      ],
+      "expectedBaselines": [
+        "median/linear/simple-null baseline",
+        "shuffled or random-label negative control"
+      ],
+      "expectedRivals": [
+        "artifact_or_noise",
+        "baseline_sufficiency",
+        "descriptor_overfit"
+      ],
+      "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+      "score": 81
+    }
+  ],
+  "selectedDomains": [
+    {
+      "domainId": "astrophysics_open_data",
+      "name": "Astrophysics open-data anomaly mining",
+      "expectedAnomalyType": "residual anomaly",
+      "sources": [
+        "NASA Exoplanet Archive",
+        "NASA GISTEMP"
+      ],
+      "anomalies": [
+        "period-radius residual",
+        "stellar-temperature residual"
+      ],
+      "selected": true,
+      "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+      "expectedTools": [
+        "public API or CSV retrieval",
+        "simple statistical baseline",
+        "negative-control check"
+      ],
+      "expectedBaselines": [
+        "median/linear/simple-null baseline",
+        "shuffled or random-label negative control"
+      ],
+      "expectedRivals": [
+        "artifact_or_noise",
+        "baseline_sufficiency",
+        "descriptor_overfit"
+      ],
+      "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+      "score": 92
+    },
+    {
+      "domainId": "particle_physics_open_data",
+      "name": "Particle-physics open-data derived analysis",
+      "expectedAnomalyType": "derived distribution anomaly",
+      "sources": [
+        "CERN Open Data Portal"
+      ],
+      "anomalies": [
+        "record-size tail",
+        "metadata missingness"
+      ],
+      "selected": true,
+      "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+      "expectedTools": [
+        "public API or CSV retrieval",
+        "simple statistical baseline",
+        "negative-control check"
+      ],
+      "expectedBaselines": [
+        "median/linear/simple-null baseline",
+        "shuffled or random-label negative control"
+      ],
+      "expectedRivals": [
+        "artifact_or_noise",
+        "baseline_sufficiency",
+        "descriptor_overfit"
+      ],
+      "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+      "score": 91
+    },
+    {
+      "domainId": "computational_materials",
+      "name": "Computational materials descriptor discovery",
+      "expectedAnomalyType": "descriptor residual anomaly",
+      "sources": [
+        "Matbench / Hugging Face public mirror",
+        "Matbench GitHub"
+      ],
+      "anomalies": [
+        "composition-length residual",
+        "classification imbalance"
+      ],
+      "selected": true,
+      "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+      "expectedTools": [
+        "public API or CSV retrieval",
+        "simple statistical baseline",
+        "negative-control check"
+      ],
+      "expectedBaselines": [
+        "median/linear/simple-null baseline",
+        "shuffled or random-label negative control"
+      ],
+      "expectedRivals": [
+        "artifact_or_noise",
+        "baseline_sufficiency",
+        "descriptor_overfit"
+      ],
+      "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+      "score": 90
+    },
+    {
+      "domainId": "protein_structure_metadata",
+      "name": "Protein structure metadata regularity analysis",
+      "expectedAnomalyType": "structural regularity",
+      "sources": [
+        "RCSB PDB Data API"
+      ],
+      "anomalies": [
+        "resolution-method boundary",
+        "polymer-count residual"
+      ],
+      "selected": true,
+      "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+      "expectedTools": [
+        "public API or CSV retrieval",
+        "simple statistical baseline",
+        "negative-control check"
+      ],
+      "expectedBaselines": [
+        "median/linear/simple-null baseline",
+        "shuffled or random-label negative control"
+      ],
+      "expectedRivals": [
+        "artifact_or_noise",
+        "baseline_sufficiency",
+        "descriptor_overfit"
+      ],
+      "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+      "score": 89
+    },
+    {
+      "domainId": "climate_energy_residuals",
+      "name": "Climate and energy public data residual analysis",
+      "expectedAnomalyType": "temporal residual anomaly",
+      "sources": [
+        "NASA GISTEMP"
+      ],
+      "anomalies": [
+        "trend residual",
+        "hemisphere divergence"
+      ],
+      "selected": true,
+      "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+      "expectedTools": [
+        "public API or CSV retrieval",
+        "simple statistical baseline",
+        "negative-control check"
+      ],
+      "expectedBaselines": [
+        "median/linear/simple-null baseline",
+        "shuffled or random-label negative control"
+      ],
+      "expectedRivals": [
+        "artifact_or_noise",
+        "baseline_sufficiency",
+        "descriptor_overfit"
+      ],
+      "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+      "score": 88
+    },
+    {
+      "domainId": "formal_math_pattern_discovery",
+      "name": "Mathematical conjecture and formal pattern discovery",
+      "expectedAnomalyType": "mathematical pattern",
+      "sources": [
+        "OEIS b-files",
+        "local formal computation"
+      ],
+      "anomalies": [
+        "gap residual",
+        "growth-rate residual"
+      ],
+      "selected": true,
+      "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+      "expectedTools": [
+        "public API or CSV retrieval",
+        "simple statistical baseline",
+        "negative-control check"
+      ],
+      "expectedBaselines": [
+        "median/linear/simple-null baseline",
+        "shuffled or random-label negative control"
+      ],
+      "expectedRivals": [
+        "artifact_or_noise",
+        "baseline_sufficiency",
+        "descriptor_overfit"
+      ],
+      "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+      "score": 87
+    }
+  ]
+}

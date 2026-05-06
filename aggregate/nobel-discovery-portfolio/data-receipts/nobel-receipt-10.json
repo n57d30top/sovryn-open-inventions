@@ -1,0 +1,19 @@
+{
+  "receiptId": "nobel-receipt-10",
+  "targetId": "pdb-4hhb",
+  "domainId": "protein_structure_metadata",
+  "sourceUrl": "https://data.rcsb.org/rest/v1/core/entry/4HHB",
+  "retrievalMethod": "public HTTPS fetch",
+  "retrievalTimestamp": "2026-05-06T20:11:09.551Z",
+  "statusCode": 200,
+  "loadAttempted": true,
+  "loadSucceeded": true,
+  "downloadedBytes": 24923,
+  "sourceHash": "019d60655ab79c8992317c06e2cb39222aedfbd5d4ef9c39e6e10bc5be0b36f5",
+  "parsedFormat": "json",
+  "failureReason": null,
+  "publicReleaseRedactionStatus": "summary_only_no_raw_payload",
+  "noRawLogsPublic": true,
+  "noLocalPathsPublic": true,
+  "safetyScope": "safe public computational data only"
+}

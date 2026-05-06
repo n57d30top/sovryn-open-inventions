@@ -1,0 +1,31 @@
+{
+  "kind": "nobel_preregistered_prediction_freeze_summary",
+  "slug": "nobel-stage5-preregistered-prediction-freeze",
+  "title": "Freeze Preregistered Discovery Predictions",
+  "resultKind": "nobel_preregistered_prediction_freeze",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 90,
+  "reproducibilityScore": 91,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 92,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "bounded_falsification_attempted",
+  "baselineComparisonPresent": true,
+  "scientificMemoryUpdated": true,
+  "scientificQuestion": "Can safe computational public evidence produce a bounded externally testable discovery candidate without overclaiming?",
+  "domain": "nobel discovery portfolio v0",
+  "objective": "Freeze Preregistered Discovery Predictions",
+  "limitations": [
+    "Safe computational public evidence only.",
+    "No prize, broad autonomy, or major-discovery claim.",
+    "No physical-lab, clinical, hazardous, legal, or universal claim."
+  ],
+  "evidenceHash": "f525829f1c8936aa61667cebcb0a9e2d8b8c0c035cdf1c9170eecbc8fceabc69"
+}

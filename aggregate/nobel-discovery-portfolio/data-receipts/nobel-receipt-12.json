@@ -1,0 +1,19 @@
+{
+  "receiptId": "nobel-receipt-12",
+  "targetId": "pdb-6vxx",
+  "domainId": "protein_structure_metadata",
+  "sourceUrl": "https://data.rcsb.org/rest/v1/core/entry/6VXX",
+  "retrievalMethod": "public HTTPS fetch",
+  "retrievalTimestamp": "2026-05-06T20:11:09.551Z",
+  "statusCode": 200,
+  "loadAttempted": true,
+  "loadSucceeded": true,
+  "downloadedBytes": 19843,
+  "sourceHash": "238cafd87e723a8156804f10b620887e3b650a9973d0878c7333e78538cdce7c",
+  "parsedFormat": "json",
+  "failureReason": null,
+  "publicReleaseRedactionStatus": "summary_only_no_raw_payload",
+  "noRawLogsPublic": true,
+  "noLocalPathsPublic": true,
+  "safetyScope": "safe public computational data only"
+}

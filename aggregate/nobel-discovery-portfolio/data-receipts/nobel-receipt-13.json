@@ -1,0 +1,19 @@
+{
+  "receiptId": "nobel-receipt-13",
+  "targetId": "climate-gistemp-global",
+  "domainId": "climate_energy_residuals",
+  "sourceUrl": "https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv",
+  "retrievalMethod": "public HTTPS fetch",
+  "retrievalTimestamp": "2026-05-06T20:11:09.551Z",
+  "statusCode": 200,
+  "loadAttempted": true,
+  "loadSucceeded": true,
+  "downloadedBytes": 12877,
+  "sourceHash": "e92dd897b7052169f30b50a3a48b987ab88e330f525163383538e992250da12b",
+  "parsedFormat": "csv",
+  "failureReason": null,
+  "publicReleaseRedactionStatus": "summary_only_no_raw_payload",
+  "noRawLogsPublic": true,
+  "noLocalPathsPublic": true,
+  "safetyScope": "safe public computational data only"
+}

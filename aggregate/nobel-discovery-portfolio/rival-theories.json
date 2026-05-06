@@ -1,0 +1,170 @@
+[
+  {
+    "rivalId": "NOBEL-R01A",
+    "hypothesisId": "NOBEL-H01",
+    "name": "Artifact or source-schema explanation",
+    "prediction": "The apparent signal disappears after source parsing changes, shuffle controls, or target substitution.",
+    "weakenedBy": "signal direction survives holdout and replay while control collapses"
+  },
+  {
+    "rivalId": "NOBEL-R01B",
+    "hypothesisId": "NOBEL-H01",
+    "name": "Simple baseline sufficiency explanation",
+    "prediction": "A median, linear, or row-count baseline explains the observation without a new descriptor.",
+    "weakenedBy": "candidate descriptor adds stable residual separation beyond baseline"
+  },
+  {
+    "rivalId": "NOBEL-R02A",
+    "hypothesisId": "NOBEL-H02",
+    "name": "Artifact or source-schema explanation",
+    "prediction": "The apparent signal disappears after source parsing changes, shuffle controls, or target substitution.",
+    "weakenedBy": "signal direction survives holdout and replay while control collapses"
+  },
+  {
+    "rivalId": "NOBEL-R02B",
+    "hypothesisId": "NOBEL-H02",
+    "name": "Simple baseline sufficiency explanation",
+    "prediction": "A median, linear, or row-count baseline explains the observation without a new descriptor.",
+    "weakenedBy": "candidate descriptor adds stable residual separation beyond baseline"
+  },
+  {
+    "rivalId": "NOBEL-R03A",
+    "hypothesisId": "NOBEL-H03",
+    "name": "Artifact or source-schema explanation",
+    "prediction": "The apparent signal disappears after source parsing changes, shuffle controls, or target substitution.",
+    "weakenedBy": "signal direction survives holdout and replay while control collapses"
+  },
+  {
+    "rivalId": "NOBEL-R03B",
+    "hypothesisId": "NOBEL-H03",
+    "name": "Simple baseline sufficiency explanation",
+    "prediction": "A median, linear, or row-count baseline explains the observation without a new descriptor.",
+    "weakenedBy": "candidate descriptor adds stable residual separation beyond baseline"
+  },
+  {
+    "rivalId": "NOBEL-R04A",
+    "hypothesisId": "NOBEL-H04",
+    "name": "Artifact or source-schema explanation",
+    "prediction": "The apparent signal disappears after source parsing changes, shuffle controls, or target substitution.",
+    "weakenedBy": "signal direction survives holdout and replay while control collapses"
+  },
+  {
+    "rivalId": "NOBEL-R04B",
+    "hypothesisId": "NOBEL-H04",
+    "name": "Simple baseline sufficiency explanation",
+    "prediction": "A median, linear, or row-count baseline explains the observation without a new descriptor.",
+    "weakenedBy": "candidate descriptor adds stable residual separation beyond baseline"
+  },
+  {
+    "rivalId": "NOBEL-R05A",
+    "hypothesisId": "NOBEL-H05",
+    "name": "Artifact or source-schema explanation",
+    "prediction": "The apparent signal disappears after source parsing changes, shuffle controls, or target substitution.",
+    "weakenedBy": "signal direction survives holdout and replay while control collapses"
+  },
+  {
+    "rivalId": "NOBEL-R05B",
+    "hypothesisId": "NOBEL-H05",
+    "name": "Simple baseline sufficiency explanation",
+    "prediction": "A median, linear, or row-count baseline explains the observation without a new descriptor.",
+    "weakenedBy": "candidate descriptor adds stable residual separation beyond baseline"
+  },
+  {
+    "rivalId": "NOBEL-R06A",
+    "hypothesisId": "NOBEL-H06",
+    "name": "Artifact or source-schema explanation",
+    "prediction": "The apparent signal disappears after source parsing changes, shuffle controls, or target substitution.",
+    "weakenedBy": "signal direction survives holdout and replay while control collapses"
+  },
+  {
+    "rivalId": "NOBEL-R06B",
+    "hypothesisId": "NOBEL-H06",
+    "name": "Simple baseline sufficiency explanation",
+    "prediction": "A median, linear, or row-count baseline explains the observation without a new descriptor.",
+    "weakenedBy": "candidate descriptor adds stable residual separation beyond baseline"
+  },
+  {
+    "rivalId": "NOBEL-R07A",
+    "hypothesisId": "NOBEL-H07",
+    "name": "Artifact or source-schema explanation",
+    "prediction": "The apparent signal disappears after source parsing changes, shuffle controls, or target substitution.",
+    "weakenedBy": "signal direction survives holdout and replay while control collapses"
+  },
+  {
+    "rivalId": "NOBEL-R07B",
+    "hypothesisId": "NOBEL-H07",
+    "name": "Simple baseline sufficiency explanation",
+    "prediction": "A median, linear, or row-count baseline explains the observation without a new descriptor.",
+    "weakenedBy": "candidate descriptor adds stable residual separation beyond baseline"
+  },
+  {
+    "rivalId": "NOBEL-R08A",
+    "hypothesisId": "NOBEL-H08",
+    "name": "Artifact or source-schema explanation",
+    "prediction": "The apparent signal disappears after source parsing changes, shuffle controls, or target substitution.",
+    "weakenedBy": "signal direction survives holdout and replay while control collapses"
+  },
+  {
+    "rivalId": "NOBEL-R08B",
+    "hypothesisId": "NOBEL-H08",
+    "name": "Simple baseline sufficiency explanation",
+    "prediction": "A median, linear, or row-count baseline explains the observation without a new descriptor.",
+    "weakenedBy": "candidate descriptor adds stable residual separation beyond baseline"
+  },
+  {
+    "rivalId": "NOBEL-R09A",
+    "hypothesisId": "NOBEL-H09",
+    "name": "Artifact or source-schema explanation",
+    "prediction": "The apparent signal disappears after source parsing changes, shuffle controls, or target substitution.",
+    "weakenedBy": "signal direction survives holdout and replay while control collapses"
+  },
+  {
+    "rivalId": "NOBEL-R09B",
+    "hypothesisId": "NOBEL-H09",
+    "name": "Simple baseline sufficiency explanation",
+    "prediction": "A median, linear, or row-count baseline explains the observation without a new descriptor.",
+    "weakenedBy": "candidate descriptor adds stable residual separation beyond baseline"
+  },
+  {
+    "rivalId": "NOBEL-R10A",
+    "hypothesisId": "NOBEL-H10",
+    "name": "Artifact or source-schema explanation",
+    "prediction": "The apparent signal disappears after source parsing changes, shuffle controls, or target substitution.",
+    "weakenedBy": "signal direction survives holdout and replay while control collapses"
+  },
+  {
+    "rivalId": "NOBEL-R10B",
+    "hypothesisId": "NOBEL-H10",
+    "name": "Simple baseline sufficiency explanation",
+    "prediction": "A median, linear, or row-count baseline explains the observation without a new descriptor.",
+    "weakenedBy": "candidate descriptor adds stable residual separation beyond baseline"
+  },
+  {
+    "rivalId": "NOBEL-R11A",
+    "hypothesisId": "NOBEL-H11",
+    "name": "Artifact or source-schema explanation",
+    "prediction": "The apparent signal disappears after source parsing changes, shuffle controls, or target substitution.",
+    "weakenedBy": "signal direction survives holdout and replay while control collapses"
+  },
+  {
+    "rivalId": "NOBEL-R11B",
+    "hypothesisId": "NOBEL-H11",
+    "name": "Simple baseline sufficiency explanation",
+    "prediction": "A median, linear, or row-count baseline explains the observation without a new descriptor.",
+    "weakenedBy": "candidate descriptor adds stable residual separation beyond baseline"
+  },
+  {
+    "rivalId": "NOBEL-R12A",
+    "hypothesisId": "NOBEL-H12",
+    "name": "Artifact or source-schema explanation",
+    "prediction": "The apparent signal disappears after source parsing changes, shuffle controls, or target substitution.",
+    "weakenedBy": "signal direction survives holdout and replay while control collapses"
+  },
+  {
+    "rivalId": "NOBEL-R12B",
+    "hypothesisId": "NOBEL-H12",
+    "name": "Simple baseline sufficiency explanation",
+    "prediction": "A median, linear, or row-count baseline explains the observation without a new descriptor.",
+    "weakenedBy": "candidate descriptor adds stable residual separation beyond baseline"
+  }
+]

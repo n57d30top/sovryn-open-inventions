@@ -1,0 +1,19 @@
+{
+  "receiptId": "nobel-receipt-17",
+  "targetId": "oeis-fibonacci",
+  "domainId": "formal_math_pattern_discovery",
+  "sourceUrl": "https://oeis.org/A000045/b000045.txt",
+  "retrievalMethod": "public HTTPS fetch",
+  "retrievalTimestamp": "2026-05-06T20:11:09.551Z",
+  "statusCode": 200,
+  "loadAttempted": true,
+  "loadSucceeded": true,
+  "downloadedBytes": 429385,
+  "sourceHash": "fb52264d1faa56aa9d3bc9f52eb42fe5c9beaba71cef4a0e50689bbbbeb923e4",
+  "parsedFormat": "text",
+  "failureReason": null,
+  "publicReleaseRedactionStatus": "summary_only_no_raw_payload",
+  "noRawLogsPublic": true,
+  "noLocalPathsPublic": true,
+  "safetyScope": "safe public computational data only"
+}

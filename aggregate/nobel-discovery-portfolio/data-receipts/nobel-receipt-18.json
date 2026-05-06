@@ -1,0 +1,19 @@
+{
+  "receiptId": "nobel-receipt-18",
+  "targetId": "oeis-partitions",
+  "domainId": "formal_math_pattern_discovery",
+  "sourceUrl": "https://oeis.org/A000041/b000041.txt",
+  "retrievalMethod": "public HTTPS fetch",
+  "retrievalTimestamp": "2026-05-06T20:11:09.551Z",
+  "statusCode": 200,
+  "loadAttempted": true,
+  "loadSucceeded": true,
+  "downloadedBytes": 762618,
+  "sourceHash": "5e6635b699198a367e5e158c770cf95633d7c334d113549b1ab56e6ba36fc2f7",
+  "parsedFormat": "text",
+  "failureReason": null,
+  "publicReleaseRedactionStatus": "summary_only_no_raw_payload",
+  "noRawLogsPublic": true,
+  "noLocalPathsPublic": true,
+  "safetyScope": "safe public computational data only"
+}

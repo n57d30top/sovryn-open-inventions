@@ -1,0 +1,30 @@
+{
+  "predictionId": "NOBEL-P01",
+  "hypothesisId": "NOBEL-H01",
+  "domainId": "astrophysics_open_data",
+  "target": "astro-exoplanet-radius-period",
+  "sourceUrl": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+top+200+pl_name,pl_orbper,pl_rade,st_teff+from+pscomppars+where+pl_orbper+is+not+null+and+pl_rade+is+not+null+and+st_teff+is+not+null&format=csv",
+  "rivalTheoryPredictions": [
+    {
+      "rival": "artifact_or_noise",
+      "expected": "signal collapses under control"
+    },
+    {
+      "rival": "baseline_sufficiency",
+      "expected": "baseline nearly matches candidate"
+    }
+  ],
+  "expectedObservation": "Candidate descriptor or residual differs from baseline and weakens at least one rival explanation.",
+  "expectedOutcome": "partial_or_inconclusive",
+  "expectedBaselineResult": "baseline competitive",
+  "expectedNegativeControlResult": "negative control partially preserves signal",
+  "falsifier": "Prediction fails if the planned public target cannot be retrieved, if the control matches the candidate signal, or if holdout reverses the expected direction.",
+  "holdoutRequirement": "Use a public target not used for anomaly generation where feasible.",
+  "executionPlan": "Retrieve public source, compute summary metric, compare with baseline and negative control, then replay or document replay failure.",
+  "replayPlan": "Re-fetch source or rerun local formal computation from a fresh process and compare summary hash/metric direction.",
+  "safetyScope": "safe public computational evidence only",
+  "riskLabel": "high_risk",
+  "frozenTimestamp": "2026-05-06T20:11:09.551Z",
+  "noEditRule": "Frozen prediction card must not be edited after the freeze commit.",
+  "preregistrationHash": "ab49ba0a20876f63070d5978eef4f082938e1ccad5e0a98c02952d431c4a11c4"
+}

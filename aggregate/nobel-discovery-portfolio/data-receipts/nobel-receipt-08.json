@@ -1,0 +1,19 @@
+{
+  "receiptId": "nobel-receipt-08",
+  "targetId": "materials-steels",
+  "domainId": "computational_materials",
+  "sourceUrl": "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_steels.json",
+  "retrievalMethod": "public HTTPS fetch",
+  "retrievalTimestamp": "2026-05-06T20:11:09.551Z",
+  "statusCode": 200,
+  "loadAttempted": true,
+  "loadSucceeded": true,
+  "downloadedBytes": 14935,
+  "sourceHash": "d6ca4d04f7448217c3b52ac2fb5f0d19be9492eafb179fad80e157378613d86b",
+  "parsedFormat": "json",
+  "failureReason": null,
+  "publicReleaseRedactionStatus": "summary_only_no_raw_payload",
+  "noRawLogsPublic": true,
+  "noLocalPathsPublic": true,
+  "safetyScope": "safe public computational data only"
+}

@@ -1,0 +1,19 @@
+{
+  "receiptId": "nobel-receipt-09",
+  "targetId": "materials-glass",
+  "domainId": "computational_materials",
+  "sourceUrl": "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_glass.json",
+  "retrievalMethod": "public HTTPS fetch",
+  "retrievalTimestamp": "2026-05-06T20:11:09.551Z",
+  "statusCode": 200,
+  "loadAttempted": true,
+  "loadSucceeded": true,
+  "downloadedBytes": 144154,
+  "sourceHash": "97e6b6a66e886a0b846b9ff8795a1c64058a1ffe0e626761ae29af59780592a6",
+  "parsedFormat": "json",
+  "failureReason": null,
+  "publicReleaseRedactionStatus": "summary_only_no_raw_payload",
+  "noRawLogsPublic": true,
+  "noLocalPathsPublic": true,
+  "safetyScope": "safe public computational data only"
+}

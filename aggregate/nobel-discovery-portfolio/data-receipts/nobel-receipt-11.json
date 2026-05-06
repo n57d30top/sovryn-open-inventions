@@ -1,0 +1,19 @@
+{
+  "receiptId": "nobel-receipt-11",
+  "targetId": "pdb-1crn",
+  "domainId": "protein_structure_metadata",
+  "sourceUrl": "https://data.rcsb.org/rest/v1/core/entry/1CRN",
+  "retrievalMethod": "public HTTPS fetch",
+  "retrievalTimestamp": "2026-05-06T20:11:09.551Z",
+  "statusCode": 200,
+  "loadAttempted": true,
+  "loadSucceeded": true,
+  "downloadedBytes": 9033,
+  "sourceHash": "3d3297448898cd9586cc808ea4091225545e6d557da03355dc7c865118dc79c1",
+  "parsedFormat": "json",
+  "failureReason": null,
+  "publicReleaseRedactionStatus": "summary_only_no_raw_payload",
+  "noRawLogsPublic": true,
+  "noLocalPathsPublic": true,
+  "safetyScope": "safe public computational data only"
+}

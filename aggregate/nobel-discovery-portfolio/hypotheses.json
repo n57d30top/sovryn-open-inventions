@@ -1,0 +1,1562 @@
+[
+  {
+    "hypothesisId": "NOBEL-H01",
+    "domainId": "astrophysics_open_data",
+    "claim": "residual anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A01",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R01A",
+      "NOBEL-R01B"
+    ],
+    "selected": true,
+    "confidence": 0.42
+  },
+  {
+    "hypothesisId": "NOBEL-H02",
+    "domainId": "particle_physics_open_data",
+    "claim": "derived distribution anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A02",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R02A",
+      "NOBEL-R02B"
+    ],
+    "selected": true,
+    "confidence": 0.45999999999999996
+  },
+  {
+    "hypothesisId": "NOBEL-H03",
+    "domainId": "computational_materials",
+    "claim": "descriptor residual anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A03",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R03A",
+      "NOBEL-R03B"
+    ],
+    "selected": true,
+    "confidence": 0.5
+  },
+  {
+    "hypothesisId": "NOBEL-H04",
+    "domainId": "protein_structure_metadata",
+    "claim": "structural regularity survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A04",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R04A",
+      "NOBEL-R04B"
+    ],
+    "selected": true,
+    "confidence": 0.42
+  },
+  {
+    "hypothesisId": "NOBEL-H05",
+    "domainId": "climate_energy_residuals",
+    "claim": "temporal residual anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A05",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R05A",
+      "NOBEL-R05B"
+    ],
+    "selected": true,
+    "confidence": 0.45999999999999996
+  },
+  {
+    "hypothesisId": "NOBEL-H06",
+    "domainId": "formal_math_pattern_discovery",
+    "claim": "mathematical pattern survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A06",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R06A",
+      "NOBEL-R06B"
+    ],
+    "selected": true,
+    "confidence": 0.5
+  },
+  {
+    "hypothesisId": "NOBEL-H07",
+    "domainId": "astrophysics_open_data",
+    "claim": "residual anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A07",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R07A",
+      "NOBEL-R07B"
+    ],
+    "selected": true,
+    "confidence": 0.42
+  },
+  {
+    "hypothesisId": "NOBEL-H08",
+    "domainId": "particle_physics_open_data",
+    "claim": "derived distribution anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A08",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R08A",
+      "NOBEL-R08B"
+    ],
+    "selected": true,
+    "confidence": 0.45999999999999996
+  },
+  {
+    "hypothesisId": "NOBEL-H09",
+    "domainId": "computational_materials",
+    "claim": "descriptor residual anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A09",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R09A",
+      "NOBEL-R09B"
+    ],
+    "selected": true,
+    "confidence": 0.5
+  },
+  {
+    "hypothesisId": "NOBEL-H10",
+    "domainId": "protein_structure_metadata",
+    "claim": "structural regularity survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A10",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R10A",
+      "NOBEL-R10B"
+    ],
+    "selected": true,
+    "confidence": 0.42
+  },
+  {
+    "hypothesisId": "NOBEL-H11",
+    "domainId": "climate_energy_residuals",
+    "claim": "temporal residual anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A11",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R11A",
+      "NOBEL-R11B"
+    ],
+    "selected": true,
+    "confidence": 0.45999999999999996
+  },
+  {
+    "hypothesisId": "NOBEL-H12",
+    "domainId": "formal_math_pattern_discovery",
+    "claim": "mathematical pattern survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A12",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R12A",
+      "NOBEL-R12B"
+    ],
+    "selected": true,
+    "confidence": 0.5
+  },
+  {
+    "hypothesisId": "NOBEL-H13",
+    "domainId": "astrophysics_open_data",
+    "claim": "residual anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A13",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R01A",
+      "NOBEL-R01B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H14",
+    "domainId": "particle_physics_open_data",
+    "claim": "derived distribution anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A14",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R02A",
+      "NOBEL-R02B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H15",
+    "domainId": "computational_materials",
+    "claim": "descriptor residual anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A15",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R03A",
+      "NOBEL-R03B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H16",
+    "domainId": "protein_structure_metadata",
+    "claim": "structural regularity survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A16",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R04A",
+      "NOBEL-R04B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H17",
+    "domainId": "climate_energy_residuals",
+    "claim": "temporal residual anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A17",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R05A",
+      "NOBEL-R05B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H18",
+    "domainId": "formal_math_pattern_discovery",
+    "claim": "mathematical pattern survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A18",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R06A",
+      "NOBEL-R06B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H19",
+    "domainId": "astrophysics_open_data",
+    "claim": "residual anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A19",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R07A",
+      "NOBEL-R07B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H20",
+    "domainId": "particle_physics_open_data",
+    "claim": "derived distribution anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A20",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R08A",
+      "NOBEL-R08B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H21",
+    "domainId": "computational_materials",
+    "claim": "descriptor residual anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A21",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R09A",
+      "NOBEL-R09B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H22",
+    "domainId": "protein_structure_metadata",
+    "claim": "structural regularity survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A22",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R10A",
+      "NOBEL-R10B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H23",
+    "domainId": "climate_energy_residuals",
+    "claim": "temporal residual anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A23",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R11A",
+      "NOBEL-R11B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H24",
+    "domainId": "formal_math_pattern_discovery",
+    "claim": "mathematical pattern survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A24",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R12A",
+      "NOBEL-R12B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H25",
+    "domainId": "astrophysics_open_data",
+    "claim": "residual anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A25",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R01A",
+      "NOBEL-R01B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H26",
+    "domainId": "particle_physics_open_data",
+    "claim": "derived distribution anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A26",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R02A",
+      "NOBEL-R02B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H27",
+    "domainId": "computational_materials",
+    "claim": "descriptor residual anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A27",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R03A",
+      "NOBEL-R03B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H28",
+    "domainId": "protein_structure_metadata",
+    "claim": "structural regularity survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A28",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R04A",
+      "NOBEL-R04B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H29",
+    "domainId": "climate_energy_residuals",
+    "claim": "temporal residual anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A29",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R05A",
+      "NOBEL-R05B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H30",
+    "domainId": "formal_math_pattern_discovery",
+    "claim": "mathematical pattern survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A30",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R06A",
+      "NOBEL-R06B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H31",
+    "domainId": "astrophysics_open_data",
+    "claim": "residual anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A01",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R07A",
+      "NOBEL-R07B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H32",
+    "domainId": "particle_physics_open_data",
+    "claim": "derived distribution anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A02",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R08A",
+      "NOBEL-R08B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H33",
+    "domainId": "computational_materials",
+    "claim": "descriptor residual anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A03",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R09A",
+      "NOBEL-R09B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H34",
+    "domainId": "protein_structure_metadata",
+    "claim": "structural regularity survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A04",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R10A",
+      "NOBEL-R10B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H35",
+    "domainId": "climate_energy_residuals",
+    "claim": "temporal residual anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A05",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R11A",
+      "NOBEL-R11B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H36",
+    "domainId": "formal_math_pattern_discovery",
+    "claim": "mathematical pattern survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A06",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R12A",
+      "NOBEL-R12B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H37",
+    "domainId": "astrophysics_open_data",
+    "claim": "residual anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A07",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R01A",
+      "NOBEL-R01B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H38",
+    "domainId": "particle_physics_open_data",
+    "claim": "derived distribution anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A08",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R02A",
+      "NOBEL-R02B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H39",
+    "domainId": "computational_materials",
+    "claim": "descriptor residual anomaly survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A09",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R03A",
+      "NOBEL-R03B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  },
+  {
+    "hypothesisId": "NOBEL-H40",
+    "domainId": "protein_structure_metadata",
+    "claim": "structural regularity survives only when a simple descriptor beats a domain-null baseline and a negative-control replay.",
+    "anomalyExplained": "NOBEL-A10",
+    "mechanism": "descriptor residual plus evidence-field completeness boundary",
+    "assumptions": [
+      "public data schema is stable enough for repeated parsing",
+      "baseline/control separation is meaningful"
+    ],
+    "variables": [
+      "descriptor_residual",
+      "baseline_gap",
+      "negative_control_gap",
+      "holdout_stability",
+      "receipt_replay_status"
+    ],
+    "predictions": [
+      "descriptor residual should shrink under negative control",
+      "holdout should preserve direction only in bounded domains"
+    ],
+    "falsifiers": [
+      "negative control matches the candidate signal",
+      "holdout reverses direction",
+      "replay cannot retrieve the public source"
+    ],
+    "requiredData": "public URL, receipt hash, parsed field summary",
+    "requiredToolchain": "public API or CSV retrieval; simple statistical baseline; negative-control check",
+    "baseline": "median/linear/simple-null baseline",
+    "negativeControl": "shuffled or random-label negative control",
+    "holdoutStrategy": "fresh public target not used to generate the hypothesis",
+    "safetyScope": "safe public computational metadata or open data only; no physical-lab instructions, no clinical guidance, no hazardous optimization",
+    "rivals": [
+      "NOBEL-R04A",
+      "NOBEL-R04B"
+    ],
+    "selected": false,
+    "confidence": 0.25
+  }
+]

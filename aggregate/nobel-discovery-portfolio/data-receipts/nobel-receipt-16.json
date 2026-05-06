@@ -1,0 +1,19 @@
+{
+  "receiptId": "nobel-receipt-16",
+  "targetId": "oeis-primes",
+  "domainId": "formal_math_pattern_discovery",
+  "sourceUrl": "https://oeis.org/A000040/b000040.txt",
+  "retrievalMethod": "public HTTPS fetch",
+  "retrievalTimestamp": "2026-05-06T20:11:09.551Z",
+  "statusCode": 200,
+  "loadAttempted": true,
+  "loadSucceeded": true,
+  "downloadedBytes": 107883,
+  "sourceHash": "ef3beecd3bca4a02ca5053e5a3afc3e0d69e43b49b9aaa91073fc4fb9e4d50de",
+  "parsedFormat": "text",
+  "failureReason": null,
+  "publicReleaseRedactionStatus": "summary_only_no_raw_payload",
+  "noRawLogsPublic": true,
+  "noLocalPathsPublic": true,
+  "safetyScope": "safe public computational data only"
+}

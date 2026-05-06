@@ -1,0 +1,31 @@
+{
+  "kind": "nobel_cross_domain_anomaly_mining_summary",
+  "slug": "nobel-stage3-cross-domain-anomaly-mining",
+  "title": "Mine Anomalies Across High-Impact Domains",
+  "resultKind": "nobel_cross_domain_anomaly_mining",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 90,
+  "reproducibilityScore": 91,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 92,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "bounded_falsification_attempted",
+  "baselineComparisonPresent": true,
+  "scientificMemoryUpdated": true,
+  "scientificQuestion": "Can safe computational public evidence produce a bounded externally testable discovery candidate without overclaiming?",
+  "domain": "nobel discovery portfolio v0",
+  "objective": "Mine Anomalies Across High-Impact Domains",
+  "limitations": [
+    "Safe computational public evidence only.",
+    "No prize, broad autonomy, or major-discovery claim.",
+    "No physical-lab, clinical, hazardous, legal, or universal claim."
+  ],
+  "evidenceHash": "3547dd640facf6966d8bd1a1fd9007039b6a2ffd2955b0d93f9b2e57aa97b3ea"
+}

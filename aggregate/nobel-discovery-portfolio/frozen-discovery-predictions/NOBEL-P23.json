@@ -1,0 +1,30 @@
+{
+  "predictionId": "NOBEL-P23",
+  "hypothesisId": "NOBEL-H11",
+  "domainId": "particle_physics_open_data",
+  "target": "cern-record-12350",
+  "sourceUrl": "https://opendata.cern.ch/api/records/12350",
+  "rivalTheoryPredictions": [
+    {
+      "rival": "artifact_or_noise",
+      "expected": "signal collapses under control"
+    },
+    {
+      "rival": "baseline_sufficiency",
+      "expected": "baseline leaves residual gap"
+    }
+  ],
+  "expectedObservation": "Candidate descriptor or residual differs from baseline and weakens at least one rival explanation.",
+  "expectedOutcome": "bounded_signal_supported",
+  "expectedBaselineResult": "baseline insufficient for full observed pattern",
+  "expectedNegativeControlResult": "negative control weakens signal",
+  "falsifier": "Prediction fails if the planned public target cannot be retrieved, if the control matches the candidate signal, or if holdout reverses the expected direction.",
+  "holdoutRequirement": "Use a public target not used for anomaly generation where feasible.",
+  "executionPlan": "Retrieve public source, compute summary metric, compare with baseline and negative control, then replay or document replay failure.",
+  "replayPlan": "Re-fetch source or rerun local formal computation from a fresh process and compare summary hash/metric direction.",
+  "safetyScope": "safe public computational evidence only",
+  "riskLabel": "standard",
+  "frozenTimestamp": "2026-05-06T20:11:09.551Z",
+  "noEditRule": "Frozen prediction card must not be edited after the freeze commit.",
+  "preregistrationHash": "7cb8de54f5a7c68ad8bff5cf0289b88c2fc2130831f52299339f801e30a87d75"
+}

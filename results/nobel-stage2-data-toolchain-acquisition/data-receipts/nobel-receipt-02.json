@@ -1,0 +1,19 @@
+{
+  "receiptId": "nobel-receipt-02",
+  "targetId": "astro-exoplanet-mass-orbit",
+  "domainId": "astrophysics_open_data",
+  "sourceUrl": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+top+200+pl_name,pl_bmasse,pl_orbsmax,st_mass+from+pscomppars+where+pl_bmasse+is+not+null+and+pl_orbsmax+is+not+null+and+st_mass+is+not+null&format=csv",
+  "retrievalMethod": "public TAP CSV query",
+  "retrievalTimestamp": "2026-05-06T20:11:09.551Z",
+  "statusCode": 200,
+  "loadAttempted": true,
+  "loadSucceeded": true,
+  "downloadedBytes": 9773,
+  "sourceHash": "66dfa951333bdece15e81c3e967b29baec98df400e6997cc4be30579acb92ae7",
+  "parsedFormat": "csv",
+  "failureReason": null,
+  "publicReleaseRedactionStatus": "summary_only_no_raw_payload",
+  "noRawLogsPublic": true,
+  "noLocalPathsPublic": true,
+  "safetyScope": "safe public computational data only"
+}

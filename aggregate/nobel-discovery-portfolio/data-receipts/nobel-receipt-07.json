@@ -1,0 +1,19 @@
+{
+  "receiptId": "nobel-receipt-07",
+  "targetId": "materials-expt-gap",
+  "domainId": "computational_materials",
+  "sourceUrl": "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json",
+  "retrievalMethod": "public HTTPS fetch",
+  "retrievalTimestamp": "2026-05-06T20:11:09.551Z",
+  "statusCode": 200,
+  "loadAttempted": true,
+  "loadSucceeded": true,
+  "downloadedBytes": 99468,
+  "sourceHash": "e982f9d9586ab9603c588782646870542fb2b39f915ccb0fdb513426e2ff9859",
+  "parsedFormat": "json",
+  "failureReason": null,
+  "publicReleaseRedactionStatus": "summary_only_no_raw_payload",
+  "noRawLogsPublic": true,
+  "noLocalPathsPublic": true,
+  "safetyScope": "safe public computational data only"
+}

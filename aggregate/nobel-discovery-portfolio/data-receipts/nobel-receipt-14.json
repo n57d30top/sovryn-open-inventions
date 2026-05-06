@@ -1,0 +1,19 @@
+{
+  "receiptId": "nobel-receipt-14",
+  "targetId": "climate-gistemp-nh",
+  "domainId": "climate_energy_residuals",
+  "sourceUrl": "https://data.giss.nasa.gov/gistemp/tabledata_v4/NH.Ts+dSST.csv",
+  "retrievalMethod": "public HTTPS fetch",
+  "retrievalTimestamp": "2026-05-06T20:11:09.551Z",
+  "statusCode": 200,
+  "loadAttempted": true,
+  "loadSucceeded": true,
+  "downloadedBytes": 12934,
+  "sourceHash": "f9520b75c0e64310e19570210619aa34f39691fe3ec0ca9a6f9b1548e8d14ed5",
+  "parsedFormat": "csv",
+  "failureReason": null,
+  "publicReleaseRedactionStatus": "summary_only_no_raw_payload",
+  "noRawLogsPublic": true,
+  "noLocalPathsPublic": true,
+  "safetyScope": "safe public computational data only"
+}

@@ -1,0 +1,19 @@
+{
+  "receiptId": "nobel-receipt-03",
+  "targetId": "astro-exoplanet-eccentricity",
+  "domainId": "astrophysics_open_data",
+  "sourceUrl": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+top+200+pl_name,pl_orbeccen,pl_orbper,pl_rade+from+pscomppars+where+pl_orbeccen+is+not+null+and+pl_orbper+is+not+null+and+pl_rade+is+not+null&format=csv",
+  "retrievalMethod": "public TAP CSV query",
+  "retrievalTimestamp": "2026-05-06T20:11:09.551Z",
+  "statusCode": 200,
+  "loadAttempted": true,
+  "loadSucceeded": true,
+  "downloadedBytes": 9890,
+  "sourceHash": "beca14976648602505200a398bbcf39ca55b39c351bc32c41d1e6678ce6d40b1",
+  "parsedFormat": "csv",
+  "failureReason": null,
+  "publicReleaseRedactionStatus": "summary_only_no_raw_payload",
+  "noRawLogsPublic": true,
+  "noLocalPathsPublic": true,
+  "safetyScope": "safe public computational data only"
+}

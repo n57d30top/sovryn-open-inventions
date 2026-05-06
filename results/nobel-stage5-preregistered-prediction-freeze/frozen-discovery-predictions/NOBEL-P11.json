@@ -1,0 +1,30 @@
+{
+  "predictionId": "NOBEL-P11",
+  "hypothesisId": "NOBEL-H11",
+  "domainId": "protein_structure_metadata",
+  "target": "pdb-1crn",
+  "sourceUrl": "https://data.rcsb.org/rest/v1/core/entry/1CRN",
+  "rivalTheoryPredictions": [
+    {
+      "rival": "artifact_or_noise",
+      "expected": "control explains observation"
+    },
+    {
+      "rival": "baseline_sufficiency",
+      "expected": "baseline leaves residual gap"
+    }
+  ],
+  "expectedObservation": "No candidate signal beyond the simple baseline.",
+  "expectedOutcome": "control_preserved",
+  "expectedBaselineResult": "baseline insufficient for full observed pattern",
+  "expectedNegativeControlResult": "negative control weakens signal",
+  "falsifier": "Prediction fails if the planned public target cannot be retrieved, if the control matches the candidate signal, or if holdout reverses the expected direction.",
+  "holdoutRequirement": "Use a public target not used for anomaly generation where feasible.",
+  "executionPlan": "Retrieve public source, compute summary metric, compare with baseline and negative control, then replay or document replay failure.",
+  "replayPlan": "Re-fetch source or rerun local formal computation from a fresh process and compare summary hash/metric direction.",
+  "safetyScope": "safe public computational evidence only",
+  "riskLabel": "low_risk_control",
+  "frozenTimestamp": "2026-05-06T20:11:09.551Z",
+  "noEditRule": "Frozen prediction card must not be edited after the freeze commit.",
+  "preregistrationHash": "ba88b04338c779c8edef278f239f024ef5132a7958d5d7688acb6a450d295d37"
+}

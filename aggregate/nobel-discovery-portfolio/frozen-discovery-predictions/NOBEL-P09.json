@@ -1,0 +1,30 @@
+{
+  "predictionId": "NOBEL-P09",
+  "hypothesisId": "NOBEL-H09",
+  "domainId": "computational_materials",
+  "target": "materials-glass",
+  "sourceUrl": "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_glass.json",
+  "rivalTheoryPredictions": [
+    {
+      "rival": "artifact_or_noise",
+      "expected": "signal collapses under control"
+    },
+    {
+      "rival": "baseline_sufficiency",
+      "expected": "baseline leaves residual gap"
+    }
+  ],
+  "expectedObservation": "Candidate descriptor or residual differs from baseline and weakens at least one rival explanation.",
+  "expectedOutcome": "bounded_signal_supported",
+  "expectedBaselineResult": "baseline insufficient for full observed pattern",
+  "expectedNegativeControlResult": "negative control partially preserves signal",
+  "falsifier": "Prediction fails if the planned public target cannot be retrieved, if the control matches the candidate signal, or if holdout reverses the expected direction.",
+  "holdoutRequirement": "Use a public target not used for anomaly generation where feasible.",
+  "executionPlan": "Retrieve public source, compute summary metric, compare with baseline and negative control, then replay or document replay failure.",
+  "replayPlan": "Re-fetch source or rerun local formal computation from a fresh process and compare summary hash/metric direction.",
+  "safetyScope": "safe public computational evidence only",
+  "riskLabel": "rival_weaken_expected",
+  "frozenTimestamp": "2026-05-06T20:11:09.551Z",
+  "noEditRule": "Frozen prediction card must not be edited after the freeze commit.",
+  "preregistrationHash": "73883360cd16df2de536630c3dee415833f96ceda23b9018053a1bc20061144e"
+}

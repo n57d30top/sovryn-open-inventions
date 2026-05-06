@@ -1,0 +1,30 @@
+{
+  "predictionId": "NOBEL-P31",
+  "hypothesisId": "NOBEL-H07",
+  "domainId": "climate_energy_residuals",
+  "target": "climate-gistemp-global",
+  "sourceUrl": "https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv",
+  "rivalTheoryPredictions": [
+    {
+      "rival": "artifact_or_noise",
+      "expected": "signal collapses under control"
+    },
+    {
+      "rival": "baseline_sufficiency",
+      "expected": "baseline nearly matches candidate"
+    }
+  ],
+  "expectedObservation": "Candidate descriptor or residual differs from baseline and weakens at least one rival explanation.",
+  "expectedOutcome": "rival_weakened",
+  "expectedBaselineResult": "baseline competitive",
+  "expectedNegativeControlResult": "negative control weakens signal",
+  "falsifier": "Prediction fails if the planned public target cannot be retrieved, if the control matches the candidate signal, or if holdout reverses the expected direction.",
+  "holdoutRequirement": "Use a public target not used for anomaly generation where feasible.",
+  "executionPlan": "Retrieve public source, compute summary metric, compare with baseline and negative control, then replay or document replay failure.",
+  "replayPlan": "Re-fetch source or rerun local formal computation from a fresh process and compare summary hash/metric direction.",
+  "safetyScope": "safe public computational evidence only",
+  "riskLabel": "high_risk",
+  "frozenTimestamp": "2026-05-06T20:11:09.551Z",
+  "noEditRule": "Frozen prediction card must not be edited after the freeze commit.",
+  "preregistrationHash": "28b21f3dd3f9116c9e561d9eeaccc7ad78bdf5a2df283150daaee48c3654b6b7"
+}

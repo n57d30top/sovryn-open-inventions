@@ -1,0 +1,19 @@
+{
+  "receiptId": "nobel-receipt-06",
+  "targetId": "cern-cms-records",
+  "domainId": "particle_physics_open_data",
+  "sourceUrl": "https://opendata.cern.ch/api/records/?q=CMS&size=10",
+  "retrievalMethod": "public API fetch",
+  "retrievalTimestamp": "2026-05-06T20:11:09.551Z",
+  "statusCode": 200,
+  "loadAttempted": true,
+  "loadSucceeded": true,
+  "downloadedBytes": 63424,
+  "sourceHash": "0b2830a4d6c3cb1e433840a9f86814173c8506c113bb5dadc9841e219ae75edf",
+  "parsedFormat": "json",
+  "failureReason": null,
+  "publicReleaseRedactionStatus": "summary_only_no_raw_payload",
+  "noRawLogsPublic": true,
+  "noLocalPathsPublic": true,
+  "safetyScope": "safe public computational data only"
+}
