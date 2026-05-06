@@ -1,0 +1,35 @@
+[
+  {
+    "datasetSource": "https://archive.ics.uci.edu/static/public/240/human+activity+recognition+using+smartphones.zip",
+    "documentation": "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones",
+    "protocolSignal": "source archive contains train/test files and subject_train/subject_test files",
+    "sourceHash": "c00b803081a5c797cd5e4b83700a9810b38d53d9d84e01917e090e1fdbc81031",
+    "target": "UCI Human Activity Recognition Using Smartphones"
+  },
+  {
+    "datasetSource": "https://archive.ics.uci.edu/static/public/80/optical+recognition+of+handwritten+digits.zip",
+    "documentation": "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits",
+    "protocolSignal": "source archive contains optdigits.tra and optdigits.tes files",
+    "sourceHash": "0d7b054fea010270e9b3f06411c654c5e59547732ad626381980baffe0a23fb0",
+    "target": "UCI Optical Recognition of Handwritten Digits"
+  },
+  {
+    "datasetSource": "https://archive.ics.uci.edu/static/public/81/pen+based+recognition+of+handwritten+digits.zip",
+    "documentation": "https://archive.ics.uci.edu/dataset/81/pen+based+recognition+of+handwritten+digits",
+    "protocolSignal": "source archive contains pendigits.tra and pendigits.tes files",
+    "sourceHash": "1e02bea023613c2b11c9492f6f34caf975420455934f3527d270cee9a1f03b64",
+    "target": "UCI Pen-Based Recognition of Handwritten Digits"
+  },
+  {
+    "source": "https://pandas.pydata.org/",
+    "tool": "pandas"
+  },
+  {
+    "source": "https://numpy.org/",
+    "tool": "numpy"
+  },
+  {
+    "source": "https://scikit-learn.org/",
+    "tool": "scikit-learn"
+  }
+]

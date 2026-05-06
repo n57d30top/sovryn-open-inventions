@@ -1,7 +1,7 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-06T12:04:21.689Z",
-  "resultCount": 74,
+  "updatedAt": "2026-05-06T12:28:07.919Z",
+  "resultCount": 75,
   "results": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -391,6 +391,45 @@
       "customTool": null,
       "workerAssurance": "not-recorded",
       "falsificationStatus": "decision_review_completed_with_constraints",
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+    },
+    {
+      "slug": "batch13-protocol-first-benchmark-validation-week1",
+      "title": "Batch 13 Protocol-First Benchmark Validation Week 1",
+      "resultKind": "protocol_first_benchmark_validation_week1",
+      "domain": "protocol-first-benchmark-validation-and-split-risk",
+      "path": "results/batch13-protocol-first-benchmark-validation-week1",
+      "qualityLabel": "good",
+      "candidateStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch13-protocol-first-benchmark-validation-week1",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      },
+      "revisionReason": null,
+      "humanReadableSummary": "Batch 13 is the first execution batch of the Protocol-First Benchmark Validation and Split-Risk Program selected in Batch 12.",
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 94,
+      "reproducibilityScore": 93,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 92,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "customTool": null,
+      "workerAssurance": "container-netoff",
+      "falsificationStatus": "protocol_split_risk_validated_with_limitations",
       "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
@@ -2982,5 +3021,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "0e6e7ba91b7805797479b87c482890572e1e10a3ba2002a5fa47ea90413cba2a"
+  "evidenceHash": "cd3581439fc130965392d0ebb5f5d0e56a3ed35e1b75eafaa7b5029ea1041d99"
 }

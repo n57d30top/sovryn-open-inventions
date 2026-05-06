@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T12:04:21.689Z",
+  "generatedAt": "2026-05-06T12:28:07.919Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 63,
+    "good": 64,
     "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 43,
+    "autopublished": 44,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -153,6 +153,20 @@
       "reproducibilityScore": 88,
       "publicationSafetyScore": 98,
       "specificityScore": 91
+    },
+    {
+      "slug": "batch13-protocol-first-benchmark-validation-week1",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch13-protocol-first-benchmark-validation-week1",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 94,
+      "reproducibilityScore": 93,
+      "publicationSafetyScore": 98,
+      "specificityScore": 92
     },
     {
       "slug": "batch2-climate-fever-claim-verification-followup",
@@ -1051,5 +1065,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "40abc73125be02e48ea84d61771a5921fcd24f6a6cdec296edf81c33def6b2d9"
+  "evidenceHash": "c72f6da1e60115217a908aa957d5176d4edb4f0e98a7913614190ece49df9273"
 }

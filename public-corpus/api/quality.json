@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 63,
+    "good": 64,
     "reviewable": 6
   },
   "results": [
@@ -55,6 +55,11 @@
       "slug": "batch12-research-production-review-next-frontier-program",
       "qualityLabel": "good",
       "releaseReadinessScore": 90
+    },
+    {
+      "slug": "batch13-protocol-first-benchmark-validation-week1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
     },
     {
       "slug": "batch2-climate-fever-claim-verification-followup",
@@ -377,5 +382,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "40abc73125be02e48ea84d61771a5921fcd24f6a6cdec296edf81c33def6b2d9"
+  "evidenceHash": "c72f6da1e60115217a908aa957d5176d4edb4f0e98a7913614190ece49df9273"
 }

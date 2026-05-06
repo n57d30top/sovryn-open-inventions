@@ -759,6 +759,84 @@
       }
     },
     {
+      "slug": "batch13-protocol-first-benchmark-validation-week1",
+      "title": "Batch 13 Protocol-First Benchmark Validation Week 1",
+      "domain": "protocol-first-benchmark-validation-and-split-risk",
+      "resultKind": "protocol_first_benchmark_validation_week1",
+      "path": "results/batch13-protocol-first-benchmark-validation-week1",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch13-protocol-first-benchmark-validation-week1",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": null,
+      "humanReadableSummary": "Batch 13 is the first execution batch of the Protocol-First Benchmark Validation and Split-Risk Program selected in Batch 12.",
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 94,
+      "reproducibilityScore": 93,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 92,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": false,
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null,
+      "workerAssurance": "container-netoff",
+      "falsificationStatus": "protocol_split_risk_validated_with_limitations",
+      "scientificQuestion": null,
+      "hypothesisCount": 0,
+      "nullHypothesisPresent": false,
+      "experimentCount": 0,
+      "replicationRunCount": 0,
+      "peerReviewPresent": false,
+      "statisticalAnalysisPresent": false,
+      "baselineComparisonPresent": false,
+      "ablationPresent": false,
+      "sensitivityPresent": false,
+      "studyResultLabel": null,
+      "scientificMemoryUpdated": false,
+      "safetyScope": null,
+      "summary": "Batch 13 is the first execution batch of the Protocol-First Benchmark Validation and Split-Risk Program selected in Batch 12.",
+      "limitations": [
+        "The linear and tree baselines both stayed far above dummy baselines. The result is not a benchmark win; it is a protocol-vs-random split comparison.",
+        "Limitations",
+        "The random challenger uses one stratified random split family and seed/stress checks; it is not an exhaustive split search.",
+        "`metric_stress_validator` was used as anti-hype support, not as proof of benchmark validity.",
+        "Shuffled-label controls remained low on all completed targets. The useful stress finding was not a magic discovery; it was that random split performance differed materially from source train/test performance on all three targets.",
+        "The source train/test split can be followed, but this is not a full paper benchmark reproduction."
+      ],
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "protocol_split_risk_validated_with_limitations",
+        "lifecycle": "autopublished",
+        "version": "batch13-protocol-first-benchmark-validation-week1",
+        "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      }
+    },
+    {
       "slug": "batch2-climate-fever-claim-verification-followup",
       "title": "Climate-FEVER Claim Verification Source-Card Reproduction Follow-Up",
       "domain": "claim-verification-benchmark-quality",
@@ -5603,5 +5681,5 @@
       }
     }
   ],
-  "evidenceHash": "87bd7b4cb3df87364404fccb5410cc157ce9deb84e4afdf084c1b7ac43389440"
+  "evidenceHash": "3393ef6e4446aae4670c93e55656012fcc3d51de3efb4f0e1d942b55c8479dbb"
 }

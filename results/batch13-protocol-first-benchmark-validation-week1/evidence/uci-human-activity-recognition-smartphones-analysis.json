@@ -1,0 +1,691 @@
+{
+  "documentationUrl": "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones",
+  "expectedRisk": "ordinary random split can mix subjects and weaken the source holdout question",
+  "loaded": true,
+  "metricStress": {
+    "addedValueBeyondSklearn": "binds normal sklearn metrics to shuffled-label, class-risk, and seed/split controls",
+    "classRisk": {
+      "maxProtocolClassF1": 0.994393,
+      "minProtocolClassF1": 0.91863,
+      "weakestProtocolClass": "4"
+    },
+    "flags": {
+      "accuracyCouldHideClassFailure": false,
+      "randomSplitMateriallyDifferent": true,
+      "shuffledControlSuspicious": false
+    },
+    "limitations": [
+      "Does not prove the source protocol is the official published benchmark protocol.",
+      "Does not prove absence of leakage; it only exposes stress symptoms."
+    ],
+    "macroVsAccuracy": {
+      "protocolAccuracy": 0.95453,
+      "protocolAccuracyMinusMacroF1": 0.000107,
+      "protocolMacroF1": 0.954423,
+      "randomAccuracy": 0.982016,
+      "randomAccuracyMinusMacroF1": -0.001173,
+      "randomMacroF1": 0.983189
+    },
+    "seedSplitSensitivity": [
+      {
+        "logisticAccuracy": 0.980658,
+        "logisticMacroF1": 0.9816,
+        "seed": 7
+      },
+      {
+        "logisticAccuracy": 0.982016,
+        "logisticMacroF1": 0.983189,
+        "seed": 42
+      },
+      {
+        "logisticAccuracy": 0.981337,
+        "logisticMacroF1": 0.982306,
+        "seed": 99
+      }
+    ],
+    "shuffledLabelControl": {
+      "accuracy": 0.154055,
+      "confusionSummary": [
+        {
+          "class": "1",
+          "correct": 59,
+          "support": 496,
+          "worstConfusedAs": "4",
+          "worstConfusionCount": 126
+        },
+        {
+          "class": "2",
+          "correct": 57,
+          "support": 471,
+          "worstConfusedAs": "5",
+          "worstConfusionCount": 189
+        },
+        {
+          "class": "3",
+          "correct": 45,
+          "support": 420,
+          "worstConfusedAs": "6",
+          "worstConfusionCount": 89
+        },
+        {
+          "class": "4",
+          "correct": 84,
+          "support": 491,
+          "worstConfusedAs": "5",
+          "worstConfusionCount": 146
+        },
+        {
+          "class": "5",
+          "correct": 98,
+          "support": 532,
+          "worstConfusedAs": "4",
+          "worstConfusionCount": 126
+        },
+        {
+          "class": "6",
+          "correct": 111,
+          "support": 537,
+          "worstConfusedAs": "4",
+          "worstConfusionCount": 148
+        }
+      ],
+      "macroF1": 0.151212,
+      "perClassF1": {
+        "1": 0.126609,
+        "2": 0.139194,
+        "3": 0.136571,
+        "4": 0.148673,
+        "5": 0.161317,
+        "6": 0.194908
+      }
+    },
+    "tool": "metric_stress_validator",
+    "toolRole": "reusable_support_tool"
+  },
+  "name": "UCI Human Activity Recognition Using Smartphones",
+  "officialSplit": {
+    "baselines": {
+      "dummy_most_frequent": {
+        "accuracy": 0.182219,
+        "confusionSummary": [
+          {
+            "class": "1",
+            "correct": 0,
+            "support": 496,
+            "worstConfusedAs": "6",
+            "worstConfusionCount": 496
+          },
+          {
+            "class": "2",
+            "correct": 0,
+            "support": 471,
+            "worstConfusedAs": "6",
+            "worstConfusionCount": 471
+          },
+          {
+            "class": "3",
+            "correct": 0,
+            "support": 420,
+            "worstConfusedAs": "6",
+            "worstConfusionCount": 420
+          },
+          {
+            "class": "4",
+            "correct": 0,
+            "support": 491,
+            "worstConfusedAs": "6",
+            "worstConfusionCount": 491
+          },
+          {
+            "class": "5",
+            "correct": 0,
+            "support": 532,
+            "worstConfusedAs": "6",
+            "worstConfusionCount": 532
+          },
+          {
+            "class": "6",
+            "correct": 537,
+            "support": 537,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 0
+          }
+        ],
+        "macroF1": 0.051378,
+        "perClassF1": {
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0,
+          "5": 0.0,
+          "6": 0.308266
+        }
+      },
+      "dummy_stratified": {
+        "accuracy": 0.171021,
+        "confusionSummary": [
+          {
+            "class": "1",
+            "correct": 89,
+            "support": 496,
+            "worstConfusedAs": "6",
+            "worstConfusionCount": 109
+          },
+          {
+            "class": "2",
+            "correct": 80,
+            "support": 471,
+            "worstConfusedAs": "6",
+            "worstConfusionCount": 92
+          },
+          {
+            "class": "3",
+            "correct": 50,
+            "support": 420,
+            "worstConfusedAs": "4",
+            "worstConfusionCount": 81
+          },
+          {
+            "class": "4",
+            "correct": 74,
+            "support": 491,
+            "worstConfusedAs": "6",
+            "worstConfusionCount": 104
+          },
+          {
+            "class": "5",
+            "correct": 96,
+            "support": 532,
+            "worstConfusedAs": "6",
+            "worstConfusionCount": 127
+          },
+          {
+            "class": "6",
+            "correct": 115,
+            "support": 537,
+            "worstConfusedAs": "5",
+            "worstConfusionCount": 104
+          }
+        ],
+        "macroF1": 0.168855,
+        "perClassF1": {
+          "1": 0.183505,
+          "2": 0.177976,
+          "3": 0.12987,
+          "4": 0.146245,
+          "5": 0.177943,
+          "6": 0.197595
+        }
+      },
+      "logistic_regression": {
+        "accuracy": 0.95453,
+        "confusionSummary": [
+          {
+            "class": "1",
+            "correct": 493,
+            "support": 496,
+            "worstConfusedAs": "3",
+            "worstConfusionCount": 3
+          },
+          {
+            "class": "2",
+            "correct": 446,
+            "support": 471,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 24
+          },
+          {
+            "class": "3",
+            "correct": 395,
+            "support": 420,
+            "worstConfusedAs": "2",
+            "worstConfusionCount": 17
+          },
+          {
+            "class": "4",
+            "correct": 429,
+            "support": 491,
+            "worstConfusedAs": "5",
+            "worstConfusionCount": 59
+          },
+          {
+            "class": "5",
+            "correct": 518,
+            "support": 532,
+            "worstConfusedAs": "4",
+            "worstConfusionCount": 14
+          },
+          {
+            "class": "6",
+            "correct": 532,
+            "support": 537,
+            "worstConfusedAs": "5",
+            "worstConfusionCount": 5
+          }
+        ],
+        "macroF1": 0.954423,
+        "perClassF1": {
+          "1": 0.967615,
+          "2": 0.952991,
+          "3": 0.964591,
+          "4": 0.91863,
+          "5": 0.928315,
+          "6": 0.994393
+        }
+      },
+      "random_forest": {
+        "accuracy": 0.923312,
+        "confusionSummary": [
+          {
+            "class": "1",
+            "correct": 482,
+            "support": 496,
+            "worstConfusedAs": "2",
+            "worstConfusionCount": 8
+          },
+          {
+            "class": "2",
+            "correct": 415,
+            "support": 471,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 48
+          },
+          {
+            "class": "3",
+            "correct": 361,
+            "support": 420,
+            "worstConfusedAs": "2",
+            "worstConfusionCount": 39
+          },
+          {
+            "class": "4",
+            "correct": 439,
+            "support": 491,
+            "worstConfusedAs": "5",
+            "worstConfusionCount": 52
+          },
+          {
+            "class": "5",
+            "correct": 487,
+            "support": 532,
+            "worstConfusedAs": "4",
+            "worstConfusionCount": 45
+          },
+          {
+            "class": "6",
+            "correct": 537,
+            "support": 537,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 0
+          }
+        ],
+        "macroF1": 0.921555,
+        "perClassF1": {
+          "1": 0.921606,
+          "2": 0.889603,
+          "3": 0.908176,
+          "4": 0.900513,
+          "5": 0.90943,
+          "6": 1.0
+        }
+      }
+    },
+    "classCount": 6,
+    "featureCount": 561,
+    "protocolMetadata": {
+      "officialTestFile": "test/X_test.txt",
+      "officialTrainFile": "train/X_train.txt",
+      "subjectGroupingAvailable": true,
+      "subjectOverlapCount": 0,
+      "subjectTestCount": 9,
+      "subjectTrainCount": 21
+    },
+    "testRows": 2947,
+    "trainRows": 7352
+  },
+  "protocolSignal": "source archive contains train/test files and subject_train/subject_test files",
+  "protocolStatus": "protocol_reproduced",
+  "protocolVsRandom": {
+    "logisticAccuracyDeltaRandomMinusProtocol": 0.027486,
+    "logisticMacroF1DeltaRandomMinusProtocol": 0.028766,
+    "randomForestMacroF1DeltaRandomMinusProtocol": 0.056062
+  },
+  "randomChallenger": {
+    "baselines": {
+      "dummy_most_frequent": {
+        "accuracy": 0.188666,
+        "confusionSummary": [
+          {
+            "class": "1",
+            "correct": 0,
+            "support": 493,
+            "worstConfusedAs": "6",
+            "worstConfusionCount": 493
+          },
+          {
+            "class": "2",
+            "correct": 0,
+            "support": 442,
+            "worstConfusedAs": "6",
+            "worstConfusionCount": 442
+          },
+          {
+            "class": "3",
+            "correct": 0,
+            "support": 402,
+            "worstConfusedAs": "6",
+            "worstConfusionCount": 402
+          },
+          {
+            "class": "4",
+            "correct": 0,
+            "support": 509,
+            "worstConfusedAs": "6",
+            "worstConfusionCount": 509
+          },
+          {
+            "class": "5",
+            "correct": 0,
+            "support": 545,
+            "worstConfusedAs": "6",
+            "worstConfusionCount": 545
+          },
+          {
+            "class": "6",
+            "correct": 556,
+            "support": 556,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 0
+          }
+        ],
+        "macroF1": 0.052907,
+        "perClassF1": {
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0,
+          "5": 0.0,
+          "6": 0.317442
+        }
+      },
+      "dummy_stratified": {
+        "accuracy": 0.170003,
+        "confusionSummary": [
+          {
+            "class": "1",
+            "correct": 80,
+            "support": 493,
+            "worstConfusedAs": "6",
+            "worstConfusionCount": 107
+          },
+          {
+            "class": "2",
+            "correct": 56,
+            "support": 442,
+            "worstConfusedAs": "5",
+            "worstConfusionCount": 94
+          },
+          {
+            "class": "3",
+            "correct": 48,
+            "support": 402,
+            "worstConfusedAs": "6",
+            "worstConfusionCount": 98
+          },
+          {
+            "class": "4",
+            "correct": 84,
+            "support": 509,
+            "worstConfusedAs": "6",
+            "worstConfusionCount": 97
+          },
+          {
+            "class": "5",
+            "correct": 102,
+            "support": 545,
+            "worstConfusedAs": "6",
+            "worstConfusionCount": 107
+          },
+          {
+            "class": "6",
+            "correct": 131,
+            "support": 556,
+            "worstConfusedAs": "4",
+            "worstConfusionCount": 111
+          }
+        ],
+        "macroF1": 0.165661,
+        "perClassF1": {
+          "1": 0.166147,
+          "2": 0.126268,
+          "3": 0.126482,
+          "4": 0.162791,
+          "5": 0.18854,
+          "6": 0.22374
+        }
+      },
+      "logistic_regression": {
+        "accuracy": 0.982016,
+        "confusionSummary": [
+          {
+            "class": "1",
+            "correct": 493,
+            "support": 493,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 0
+          },
+          {
+            "class": "2",
+            "correct": 441,
+            "support": 442,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 1
+          },
+          {
+            "class": "3",
+            "correct": 402,
+            "support": 402,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 0
+          },
+          {
+            "class": "4",
+            "correct": 489,
+            "support": 509,
+            "worstConfusedAs": "5",
+            "worstConfusionCount": 20
+          },
+          {
+            "class": "5",
+            "correct": 513,
+            "support": 545,
+            "worstConfusedAs": "4",
+            "worstConfusionCount": 32
+          },
+          {
+            "class": "6",
+            "correct": 556,
+            "support": 556,
+            "worstConfusedAs": "1",
+            "worstConfusionCount": 0
+          }
+        ],
+        "macroF1": 0.983189,
+        "perClassF1": {
+          "1": 0.998987,
+          "2": 0.998867,
+          "3": 1.0,
+          "4": 0.949515,
+          "5": 0.951763,
+          "6": 1.0
+        }
+      },
+      "random_forest": {
+        "accuracy": 0.977265,
+        "confusionSummary": [
+          {
+            "class": "1",
+            "correct": 489,
+            "support": 493,
+            "worstConfusedAs": "2",
+            "worstConfusionCount": 2
+          },
+          {
+            "class": "2",
+            "correct": 440,
+            "support": 442,
+            "worstConfusedAs": "3",
+            "worstConfusionCount": 2
+          },
+          {
+            "class": "3",
+            "correct": 391,
+            "support": 402,
+            "worstConfusedAs": "2",
+            "worstConfusionCount": 8
+          },
+          {
+            "class": "4",
+            "correct": 485,
+            "support": 509,
+            "worstConfusedAs": "5",
+            "worstConfusionCount": 24
+          },
+          {
+            "class": "5",
+            "correct": 520,
+            "support": 545,
+            "worstConfusedAs": "4",
+            "worstConfusionCount": 25
+          },
+          {
+            "class": "6",
+            "correct": 555,
+            "support": 556,
+            "worstConfusedAs": "4",
+            "worstConfusionCount": 1
+          }
+        ],
+        "macroF1": 0.977617,
+        "perClassF1": {
+          "1": 0.992893,
+          "2": 0.986547,
+          "3": 0.981179,
+          "4": 0.95098,
+          "5": 0.955005,
+          "6": 0.9991
+        }
+      }
+    },
+    "split": {
+      "seed": 42,
+      "testRows": 2947,
+      "testSizeFraction": 0.286144,
+      "trainRows": 7352,
+      "type": "stratified_random_challenger"
+    }
+  },
+  "schemaProvenance": {
+    "addedValueBeyondPandas": "source-hash-bound evidence packaging and explicit protocol metadata, not raw discovery",
+    "classCount": 6,
+    "classDistribution": {
+      "1": 1722,
+      "2": 1544,
+      "3": 1406,
+      "4": 1777,
+      "5": 1906,
+      "6": 1944
+    },
+    "duplicateFeatureRows": 0,
+    "duplicateFullRows": 0,
+    "featureCount": 561,
+    "limitations": [
+      "Does not prove semantic correctness of the source split.",
+      "Duplicate feature rows may be legitimate repeated observations."
+    ],
+    "missingCells": 0,
+    "numericRangeSample": {
+      "f_0_tBodyAcc-mean()-X": {
+        "max": 1.0,
+        "mean": 0.274347,
+        "min": -1.0
+      },
+      "f_1_tBodyAcc-mean()-Y": {
+        "max": 1.0,
+        "mean": -0.017743,
+        "min": -1.0
+      },
+      "f_2_tBodyAcc-mean()-Z": {
+        "max": 1.0,
+        "mean": -0.108925,
+        "min": -1.0
+      },
+      "f_3_tBodyAcc-std()-X": {
+        "max": 1.0,
+        "mean": -0.607784,
+        "min": -1.0
+      },
+      "f_4_tBodyAcc-std()-Y": {
+        "max": 1.0,
+        "mean": -0.510191,
+        "min": -1.0
+      },
+      "f_5_tBodyAcc-std()-Z": {
+        "max": 1.0,
+        "mean": -0.613064,
+        "min": -1.0
+      },
+      "f_6_tBodyAcc-mad()-X": {
+        "max": 1.0,
+        "mean": -0.633593,
+        "min": -1.0
+      },
+      "f_7_tBodyAcc-mad()-Y": {
+        "max": 1.0,
+        "mean": -0.525697,
+        "min": -1.0
+      },
+      "f_8_tBodyAcc-mad()-Z": {
+        "max": 1.0,
+        "mean": -0.614989,
+        "min": -1.0
+      },
+      "f_9_tBodyAcc-max()-X": {
+        "max": 1.0,
+        "mean": -0.466732,
+        "min": -1.0
+      }
+    },
+    "pandasBaseline": {
+      "duplicatedFullRows": 0,
+      "isnaSum": 0,
+      "valueCountsAvailable": true
+    },
+    "protocolMetadata": {
+      "officialTestFile": "test/X_test.txt",
+      "officialTrainFile": "train/X_train.txt",
+      "subjectGroupingAvailable": true,
+      "subjectOverlapCount": 0,
+      "subjectTestCount": 9,
+      "subjectTrainCount": 21
+    },
+    "rows": 10299,
+    "sourceBinding": {
+      "sha256": "c00b803081a5c797cd5e4b83700a9810b38d53d9d84e01917e090e1fdbc81031",
+      "zipFile": "har.zip"
+    },
+    "testRows": 2947,
+    "tool": "schema_provenance_auditor",
+    "toolRole": "packaging_only",
+    "trainRows": 7352
+  },
+  "slug": "uci-human-activity-recognition-smartphones",
+  "sourceUrl": "https://archive.ics.uci.edu/static/public/240/human+activity+recognition+using+smartphones.zip",
+  "splitRiskFinding": {
+    "logisticMacroF1RandomMinusProtocol": 0.028766,
+    "notes": [
+      "source split preserves subject holdout; random split mixes the source subject boundary"
+    ],
+    "status": "material_protocol_difference"
+  }
+}

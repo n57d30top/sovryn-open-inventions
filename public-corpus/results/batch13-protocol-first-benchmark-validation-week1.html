@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Batch 13 Protocol-First Benchmark Validation Week 1</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; color: #20242a; background: #ffffff; }
+    main { max-width: 900px; margin: 0 auto; padding: 28px; }
+    .score { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; }
+    .box { border: 1px solid #d8dde5; border-radius: 8px; padding: 12px; background: #f7f8fa; }
+    .notice { color: #56616f; }
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="../index.html">Back to corpus</a></p>
+    <h1>Batch 13 Protocol-First Benchmark Validation Week 1</h1>
+    <p class="notice">Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.</p>
+    <h2>Problem And Method</h2>
+    <p>Batch 13 is the first execution batch of the Protocol-First Benchmark Validation and Split-Risk Program selected in Batch 12.</p>
+    <h2>Evidence Profile</h2>
+    <div class="score">
+      <div class="box">Quality: good</div>
+      <div class="box">Lifecycle: autopublished</div>
+      <div class="box">Version group: batch13-protocol-first-benchmark-validation-week1</div>
+      <div class="box">Showcase rank: not showcase</div>
+      <div class="box">Readiness: 91</div>
+      <div class="box">Evidence: 94</div>
+      <div class="box">Reproducibility: 93</div>
+      <div class="box">Safety: 98</div>
+    </div>
+    <h2>Tooling</h2>
+    <p>Custom tool: not recorded</p>
+    <p>External package/tool evidence: numpy, pandas</p>
+    <p>Worker assurance: container-netoff</p>
+    <h2>Lifecycle Notes</h2>
+    <p>Supersedes: none</p>
+    <p>Superseded by: none</p>
+    <p>Revision reason: none</p>
+    <h2>Limitations</h2>
+    <ul><li>The linear and tree baselines both stayed far above dummy baselines. The result is not a benchmark win; it is a protocol-vs-random split comparison.</li><li>Limitations</li><li>The random challenger uses one stratified random split family and seed/stress checks; it is not an exhaustive split search.</li><li>`metric_stress_validator` was used as anti-hype support, not as proof of benchmark validity.</li><li>Shuffled-label controls remained low on all completed targets. The useful stress finding was not a magic discovery; it was that random split performance differed materially from source train/test performance on all three targets.</li><li>The source train/test split can be followed, but this is not a full paper benchmark reproduction.</li></ul>
+    <h2>Public Artifacts</h2>
+    <ul>
+      <li><a href="../../results/batch13-protocol-first-benchmark-validation-week1/SUMMARY.json">SUMMARY.json</a></li>
+      <li><a href="../../results/batch13-protocol-first-benchmark-validation-week1/verification.json">verification.json</a></li>
+      <li><a href="../../results/batch13-protocol-first-benchmark-validation-week1/AUTOPUBLISH_RECORD.json">AUTOPUBLISH_RECORD.json</a></li>
+      <li><a href="../../results/batch13-protocol-first-benchmark-validation-week1/SHOWCASE.md">SHOWCASE.md</a></li>
+      <li><a href="../../results/batch13-protocol-first-benchmark-validation-week1/METHOD.md">METHOD.md</a></li>
+      <li><a href="../../results/batch13-protocol-first-benchmark-validation-week1/REPRODUCE.md">REPRODUCE.md</a></li>
+      <li><a href="../../results/batch13-protocol-first-benchmark-validation-week1/LIMITATIONS.md">LIMITATIONS.md</a></li>
+      <li><a href="../../results/batch13-protocol-first-benchmark-validation-week1/EXAMPLES.md">EXAMPLES.md</a></li>
+      <li><a href="../../results/batch13-protocol-first-benchmark-validation-week1/FALSIFICATION.md">FALSIFICATION.md</a></li>
+      <li><a href="../../results/batch13-protocol-first-benchmark-validation-week1/negative-tests/negative-tests.json">negative-tests.json</a></li>
+      <li><a href="../../results/batch13-protocol-first-benchmark-validation-week1/release/">Curated release folder</a></li>
+    </ul>
+  </main>
+</body>
+</html>

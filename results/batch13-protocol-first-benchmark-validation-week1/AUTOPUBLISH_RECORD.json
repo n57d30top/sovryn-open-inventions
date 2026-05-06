@@ -1,0 +1,14 @@
+{
+  "candidateStatus": "autopublished",
+  "gates": [
+    "real_public_data_loaded",
+    "source_protocol_attempts_completed",
+    "random_challengers_completed",
+    "metric_stress_completed",
+    "container_netoff_replay_completed",
+    "public_hygiene_ready"
+  ],
+  "publishedAt": "2026-05-06T12:27:40.792Z",
+  "resultKind": "protocol_first_benchmark_validation_week1",
+  "slug": "batch13-protocol-first-benchmark-validation-week1"
+}

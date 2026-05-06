@@ -1,0 +1,96 @@
+{
+  "addedValueBeyondPandas": "source-hash-bound evidence packaging and explicit protocol metadata, not raw discovery",
+  "classCount": 10,
+  "classDistribution": {
+    "0": 554,
+    "1": 571,
+    "2": 557,
+    "3": 572,
+    "4": 568,
+    "5": 558,
+    "6": 558,
+    "7": 566,
+    "8": 554,
+    "9": 562
+  },
+  "duplicateFeatureRows": 0,
+  "duplicateFullRows": 0,
+  "featureCount": 64,
+  "limitations": [
+    "Does not prove semantic correctness of the source split.",
+    "Duplicate feature rows may be legitimate repeated observations."
+  ],
+  "missingCells": 0,
+  "numericRangeSample": {
+    "pixel_0": {
+      "max": 0.0,
+      "mean": 0.0,
+      "min": 0.0
+    },
+    "pixel_1": {
+      "max": 8.0,
+      "mean": 0.302135,
+      "min": 0.0
+    },
+    "pixel_2": {
+      "max": 16.0,
+      "mean": 5.393238,
+      "min": 0.0
+    },
+    "pixel_3": {
+      "max": 16.0,
+      "mean": 11.81548,
+      "min": 0.0
+    },
+    "pixel_4": {
+      "max": 16.0,
+      "mean": 11.578292,
+      "min": 0.0
+    },
+    "pixel_5": {
+      "max": 16.0,
+      "mean": 5.593772,
+      "min": 0.0
+    },
+    "pixel_6": {
+      "max": 16.0,
+      "mean": 1.379359,
+      "min": 0.0
+    },
+    "pixel_7": {
+      "max": 16.0,
+      "mean": 0.138256,
+      "min": 0.0
+    },
+    "pixel_8": {
+      "max": 5.0,
+      "mean": 0.003203,
+      "min": 0.0
+    },
+    "pixel_9": {
+      "max": 16.0,
+      "mean": 1.971174,
+      "min": 0.0
+    }
+  },
+  "pandasBaseline": {
+    "duplicatedFullRows": 0,
+    "isnaSum": 0,
+    "valueCountsAvailable": true
+  },
+  "protocolMetadata": {
+    "groupingAvailable": false,
+    "officialTestFile": "optdigits.tes",
+    "officialTrainFile": "optdigits.tra",
+    "sourceSplitFilesAvailable": true
+  },
+  "rows": 5620,
+  "sourceBinding": {
+    "sha256": "0d7b054fea010270e9b3f06411c654c5e59547732ad626381980baffe0a23fb0",
+    "zipFile": "optdigits.zip"
+  },
+  "testRows": 1797,
+  "tool": "schema_provenance_auditor",
+  "toolRole": "packaging_only",
+  "trainRows": 3823
+}

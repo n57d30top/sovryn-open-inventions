@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-06T12:04:21.689Z",
-  "entryCount": 74,
+  "builtAt": "2026-05-06T12:28:07.919Z",
+  "entryCount": 75,
   "entries": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -407,6 +407,37 @@
         "strategy",
         "the",
         "through"
+      ]
+    },
+    {
+      "slug": "batch13-protocol-first-benchmark-validation-week1",
+      "title": "Batch 13 Protocol-First Benchmark Validation Week 1",
+      "domain": "protocol-first-benchmark-validation-and-split-risk",
+      "href": "results/batch13-protocol-first-benchmark-validation-week1.html",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch13-protocol-first-benchmark-validation-week1",
+      "showcaseRank": null,
+      "terms": [
+        "and",
+        "autopublished",
+        "batch",
+        "batch13",
+        "benchmark",
+        "execution",
+        "first",
+        "numpy",
+        "pandas",
+        "program",
+        "protocol",
+        "risk",
+        "selected",
+        "split",
+        "the",
+        "validation",
+        "week",
+        "week1"
       ]
     },
     {
@@ -3021,5 +3052,5 @@
       ]
     }
   ],
-  "evidenceHash": "b4d5da78e42ffd430a25b558769a7d2fd4ba9eb78e6f9e170750a8de5e172602"
+  "evidenceHash": "f1c919bd620c0bd73150f64ba2a28300c8099411f791fe373121abf941cd8c38"
 }

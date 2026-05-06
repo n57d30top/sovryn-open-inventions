@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-06T12:04:21.689Z",
+  "generatedAt": "2026-05-06T12:28:07.919Z",
   "sources": [
     {
       "resultSlug": "batch10-toolchain-kill-week",
@@ -22,6 +22,18 @@
     },
     {
       "resultSlug": "batch12-research-production-review-next-frontier-program",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch13-protocol-first-benchmark-validation-week1",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch13-protocol-first-benchmark-validation-week1",
       "sourceKind": "external_package_or_tool",
       "name": "pandas",
       "publicOnly": true
@@ -243,5 +255,5 @@
       "publicOnly": true
     }
   ],
-  "evidenceHash": "7ab4cfb8e5aaaa24cd45c123dece739fc2edfd3cba5f865d28ee3a8f3bd1a5f8"
+  "evidenceHash": "1a548df5906b4d6affa5f25a02446a4653baae6813fc201450012426cca9f1ae"
 }

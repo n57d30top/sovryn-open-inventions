@@ -1,0 +1,96 @@
+{
+  "addedValueBeyondPandas": "source-hash-bound evidence packaging and explicit protocol metadata, not raw discovery",
+  "classCount": 10,
+  "classDistribution": {
+    "0": 1143,
+    "1": 1143,
+    "2": 1144,
+    "3": 1055,
+    "4": 1144,
+    "5": 1055,
+    "6": 1056,
+    "7": 1142,
+    "8": 1055,
+    "9": 1055
+  },
+  "duplicateFeatureRows": 0,
+  "duplicateFullRows": 0,
+  "featureCount": 16,
+  "limitations": [
+    "Does not prove semantic correctness of the source split.",
+    "Duplicate feature rows may be legitimate repeated observations."
+  ],
+  "missingCells": 0,
+  "numericRangeSample": {
+    "coordinate_0": {
+      "max": 100.0,
+      "mean": 38.81432,
+      "min": 0.0
+    },
+    "coordinate_1": {
+      "max": 100.0,
+      "mean": 85.120269,
+      "min": 0.0
+    },
+    "coordinate_2": {
+      "max": 100.0,
+      "mean": 40.605622,
+      "min": 0.0
+    },
+    "coordinate_3": {
+      "max": 100.0,
+      "mean": 83.774199,
+      "min": 0.0
+    },
+    "coordinate_4": {
+      "max": 100.0,
+      "mean": 49.770378,
+      "min": 0.0
+    },
+    "coordinate_5": {
+      "max": 100.0,
+      "mean": 65.573144,
+      "min": 0.0
+    },
+    "coordinate_6": {
+      "max": 100.0,
+      "mean": 51.220251,
+      "min": 0.0
+    },
+    "coordinate_7": {
+      "max": 100.0,
+      "mean": 44.498999,
+      "min": 0.0
+    },
+    "coordinate_8": {
+      "max": 100.0,
+      "mean": 56.868541,
+      "min": 0.0
+    },
+    "coordinate_9": {
+      "max": 100.0,
+      "mean": 33.695961,
+      "min": 0.0
+    }
+  },
+  "pandasBaseline": {
+    "duplicatedFullRows": 0,
+    "isnaSum": 0,
+    "valueCountsAvailable": true
+  },
+  "protocolMetadata": {
+    "groupingAvailable": false,
+    "officialTestFile": "pendigits.tes",
+    "officialTrainFile": "pendigits.tra",
+    "sourceSplitFilesAvailable": true
+  },
+  "rows": 10992,
+  "sourceBinding": {
+    "sha256": "1e02bea023613c2b11c9492f6f34caf975420455934f3527d270cee9a1f03b64",
+    "zipFile": "pendigits.zip"
+  },
+  "testRows": 3498,
+  "tool": "schema_provenance_auditor",
+  "toolRole": "packaging_only",
+  "trainRows": 7494
+}

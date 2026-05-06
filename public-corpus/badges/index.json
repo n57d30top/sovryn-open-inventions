@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T12:04:21.689Z",
+  "generatedAt": "2026-05-06T12:28:07.919Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -177,6 +177,24 @@
         "falsification": "decision_review_completed_with_constraints",
         "lifecycle": "autopublished",
         "version": "batch12-research-production-review-next-frontier-program",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch13-protocol-first-benchmark-validation-week1",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "protocol_split_risk_validated_with_limitations",
+        "lifecycle": "autopublished",
+        "version": "batch13-protocol-first-benchmark-validation-week1",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -1335,5 +1353,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "d778409a175d27e6eea03719c81d6baa8fe945bdd288358cc55d5ffb09e2b87e"
+  "evidenceHash": "d436af9312577ac448a32c234278a150ff4ec0b6b58189a45a6b6b5f860c28a5"
 }

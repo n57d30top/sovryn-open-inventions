@@ -59,6 +59,14 @@
       "customTool": null
     },
     {
+      "slug": "batch13-protocol-first-benchmark-validation-week1",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
       "slug": "batch2-climate-fever-claim-verification-followup",
       "externalPackages": [],
       "customTool": null
@@ -440,5 +448,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "7ab4cfb8e5aaaa24cd45c123dece739fc2edfd3cba5f865d28ee3a8f3bd1a5f8"
+  "evidenceHash": "1a548df5906b4d6affa5f25a02446a4653baae6813fc201450012426cca9f1ae"
 }

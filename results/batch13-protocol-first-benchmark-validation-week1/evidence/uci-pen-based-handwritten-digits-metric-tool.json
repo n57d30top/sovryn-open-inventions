@@ -1,0 +1,132 @@
+{
+  "addedValueBeyondSklearn": "binds normal sklearn metrics to shuffled-label, class-risk, and seed/split controls",
+  "classRisk": {
+    "maxProtocolClassF1": 0.976331,
+    "minProtocolClassF1": 0.816269,
+    "weakestProtocolClass": "1"
+  },
+  "flags": {
+    "accuracyCouldHideClassFailure": false,
+    "randomSplitMateriallyDifferent": true,
+    "shuffledControlSuspicious": false
+  },
+  "limitations": [
+    "Does not prove the source protocol is the official published benchmark protocol.",
+    "Does not prove absence of leakage; it only exposes stress symptoms."
+  ],
+  "macroVsAccuracy": {
+    "protocolAccuracy": 0.915952,
+    "protocolAccuracyMinusMacroF1": -0.000478,
+    "protocolMacroF1": 0.91643,
+    "randomAccuracy": 0.946255,
+    "randomAccuracyMinusMacroF1": 0.000501,
+    "randomMacroF1": 0.945754
+  },
+  "seedSplitSensitivity": [
+    {
+      "logisticAccuracy": 0.949114,
+      "logisticMacroF1": 0.948712,
+      "seed": 7
+    },
+    {
+      "logisticAccuracy": 0.946255,
+      "logisticMacroF1": 0.945754,
+      "seed": 42
+    },
+    {
+      "logisticAccuracy": 0.953688,
+      "logisticMacroF1": 0.953264,
+      "seed": 99
+    }
+  ],
+  "shuffledLabelControl": {
+    "accuracy": 0.07976,
+    "confusionSummary": [
+      {
+        "class": "0",
+        "correct": 43,
+        "support": 363,
+        "worstConfusedAs": "7",
+        "worstConfusionCount": 151
+      },
+      {
+        "class": "1",
+        "correct": 22,
+        "support": 364,
+        "worstConfusedAs": "4",
+        "worstConfusionCount": 119
+      },
+      {
+        "class": "2",
+        "correct": 113,
+        "support": 364,
+        "worstConfusedAs": "0",
+        "worstConfusionCount": 91
+      },
+      {
+        "class": "3",
+        "correct": 0,
+        "support": 336,
+        "worstConfusedAs": "2",
+        "worstConfusionCount": 147
+      },
+      {
+        "class": "4",
+        "correct": 41,
+        "support": 364,
+        "worstConfusedAs": "1",
+        "worstConfusionCount": 135
+      },
+      {
+        "class": "5",
+        "correct": 0,
+        "support": 335,
+        "worstConfusedAs": "0",
+        "worstConfusionCount": 116
+      },
+      {
+        "class": "6",
+        "correct": 34,
+        "support": 336,
+        "worstConfusedAs": "5",
+        "worstConfusionCount": 207
+      },
+      {
+        "class": "7",
+        "correct": 0,
+        "support": 364,
+        "worstConfusedAs": "4",
+        "worstConfusionCount": 267
+      },
+      {
+        "class": "8",
+        "correct": 2,
+        "support": 336,
+        "worstConfusedAs": "1",
+        "worstConfusionCount": 111
+      },
+      {
+        "class": "9",
+        "correct": 24,
+        "support": 336,
+        "worstConfusedAs": "2",
+        "worstConfusionCount": 153
+      }
+    ],
+    "macroF1": 0.068706,
+    "perClassF1": {
+      "0": 0.098737,
+      "1": 0.050343,
+      "2": 0.233471,
+      "3": 0.0,
+      "4": 0.080471,
+      "5": 0.0,
+      "6": 0.14346,
+      "7": 0.0,
+      "8": 0.011111,
+      "9": 0.069465
+    }
+  },
+  "tool": "metric_stress_validator",
+  "toolRole": "reusable_support_tool"
+}

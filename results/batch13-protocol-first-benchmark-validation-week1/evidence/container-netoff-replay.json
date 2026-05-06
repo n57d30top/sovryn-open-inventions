@@ -1,0 +1,29 @@
+{
+  "failures": [],
+  "mode": "replay_only",
+  "networkReachability": {
+    "errorType": "URLError",
+    "externalNetworkReachable": false
+  },
+  "targetReplaySummary": [
+    {
+      "protocolLogisticMacroF1": 0.955014,
+      "randomLogisticMacroF1": 0.983189,
+      "slug": "uci-human-activity-recognition-smartphones",
+      "splitRiskStatus": "material_protocol_difference"
+    },
+    {
+      "protocolLogisticMacroF1": 0.949983,
+      "randomLogisticMacroF1": 0.972223,
+      "slug": "uci-optical-recognition-handwritten-digits",
+      "splitRiskStatus": "material_protocol_difference"
+    },
+    {
+      "protocolLogisticMacroF1": 0.91643,
+      "randomLogisticMacroF1": 0.945754,
+      "slug": "uci-pen-based-handwritten-digits",
+      "splitRiskStatus": "material_protocol_difference"
+    }
+  ],
+  "targetsLoaded": 3
+}

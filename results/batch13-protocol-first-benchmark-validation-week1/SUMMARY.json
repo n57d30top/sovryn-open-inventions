@@ -1,0 +1,113 @@
+{
+  "actualExecutionPerformed": "Loaded three public UCI protocol-bearing benchmark archives, followed their source train/test files, ran dummy/logistic/random-forest baselines on protocol and stratified-random challenger splits, ran shuffled-label and seed/split metric stress checks, packaged schema/provenance evidence, and replayed the run in a container with network mode none.",
+  "antiTemplateStatus": "review_ready",
+  "baselineComparisonCount": 3,
+  "candidateStatus": "autopublished",
+  "containerNetoffReplay": {
+    "attempted": true,
+    "network": "none",
+    "succeeded": true,
+    "targetsLoaded": 3
+  },
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+  "domain": "protocol-first-benchmark-validation-and-split-risk",
+  "evidenceHash": "3c386224046b5342067296645feae5864004b3198d3753decd23b13ba04bdad6",
+  "evidenceStrengthScore": 94,
+  "falsificationStatus": "protocol_split_risk_validated_with_limitations",
+  "freshSeedReplayCount": 3,
+  "hardQuestionAnswer": "Yes, at least one source-described protocol changed Sovryn's conclusion materially versus a random challenger, so Batch 13 supports protocol-first benchmark validation.",
+  "lifecycleStatus": "autopublished",
+  "loadedTargetCount": 3,
+  "negativeOrPartial": true,
+  "negativeOrPartialFindings": [
+    "No benchmark-win claim is supported; this batch only compares source split behavior against random challengers.",
+    "schema_provenance_auditor remained evidence packaging; pandas exposed the same raw missingness and duplicate checks."
+  ],
+  "nextResearchDirection": "Expand protocol-first validation to four targets, including at least one more complex or imbalanced benchmark, and keep official/source protocol claims scoped.",
+  "packageVersions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "platform": "macOS-26.3.1-arm64-arm-64bit",
+    "python": "3.12.13",
+    "scikit_learn": "1.8.0"
+  },
+  "protocolAttempts": [
+    {
+      "signal": "source archive contains train/test files and subject_train/subject_test files",
+      "slug": "uci-human-activity-recognition-smartphones",
+      "status": "protocol_reproduced"
+    },
+    {
+      "signal": "source archive contains optdigits.tra and optdigits.tes files",
+      "slug": "uci-optical-recognition-handwritten-digits",
+      "status": "protocol_reproduced"
+    },
+    {
+      "signal": "source archive contains pendigits.tra and pendigits.tes files",
+      "slug": "uci-pen-based-handwritten-digits",
+      "status": "protocol_reproduced"
+    }
+  ],
+  "publicHygienePassed": true,
+  "publicationSafetyScore": 98,
+  "qualityLabel": "good",
+  "randomChallengerCount": 3,
+  "releaseReadinessScore": 91,
+  "reliabilityReplayPassed": true,
+  "replayCriticalPassRate": 100,
+  "reproducibilityScore": 93,
+  "resultKind": "protocol_first_benchmark_validation_week1",
+  "safetyScanPassed": true,
+  "selectedTargets": [
+    "UCI Human Activity Recognition Using Smartphones",
+    "UCI Optical Recognition of Handwritten Digits",
+    "UCI Pen-Based Recognition of Handwritten Digits"
+  ],
+  "slug": "batch13-protocol-first-benchmark-validation-week1",
+  "sourceUrls": [
+    "https://archive.ics.uci.edu/static/public/240/human+activity+recognition+using+smartphones.zip",
+    "https://archive.ics.uci.edu/static/public/80/optical+recognition+of+handwritten+digits.zip",
+    "https://archive.ics.uci.edu/static/public/81/pen+based+recognition+of+handwritten+digits.zip",
+    "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones",
+    "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits",
+    "https://archive.ics.uci.edu/dataset/81/pen+based+recognition+of+handwritten+digits",
+    "https://pandas.pydata.org/",
+    "https://scikit-learn.org/",
+    "https://numpy.org/"
+  ],
+  "specificityScore": 92,
+  "splitRiskFindings": {
+    "uci-human-activity-recognition-smartphones": {
+      "logisticMacroF1RandomMinusProtocol": 0.028766,
+      "notes": [
+        "source split preserves subject holdout; random split mixes the source subject boundary"
+      ],
+      "status": "material_protocol_difference"
+    },
+    "uci-optical-recognition-handwritten-digits": {
+      "logisticMacroF1RandomMinusProtocol": 0.02224,
+      "notes": [],
+      "status": "material_protocol_difference"
+    },
+    "uci-pen-based-handwritten-digits": {
+      "logisticMacroF1RandomMinusProtocol": 0.029324,
+      "notes": [],
+      "status": "material_protocol_difference"
+    }
+  },
+  "targetCount": 3,
+  "title": "Batch 13 Protocol-First Benchmark Validation Week 1",
+  "toolDecisionsAfterBatch13": {
+    "container_netoff_replay_recipe": "reusable_for_protocol_replay_after_data_provisioning",
+    "metric_stress_validator": "reusable_support_tool_for_protocol_vs_random_anti_hype_checks",
+    "schema_provenance_auditor": "packaging_only_source_hash_and_schema_card_role"
+  },
+  "toolsUsed": [
+    "metric_stress_validator",
+    "schema_provenance_auditor",
+    "container_netoff_replay_recipe"
+  ],
+  "versionGroup": "batch13-protocol-first-benchmark-validation-week1",
+  "whatSovrynLearned": "Source-described train/test files materially changed logistic macro-F1 on all three Week 1 targets relative to stratified-random challenger splits. The result supports protocol-first benchmark validation and narrows random-split scoring to a challenger, not a substitute for source protocol execution.",
+  "workerAssurance": "host_venv_plus_container_netoff_replay"
+}

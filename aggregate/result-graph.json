@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T12:04:21.689Z",
+  "generatedAt": "2026-05-06T12:28:07.919Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -61,6 +61,12 @@
       "kind": "result",
       "label": "Batch 12 Research Production Review and Next Frontier Program Selection",
       "domain": "autonomous-research-production-strategy"
+    },
+    {
+      "id": "result:batch13-protocol-first-benchmark-validation-week1",
+      "kind": "result",
+      "label": "Batch 13 Protocol-First Benchmark Validation Week 1",
+      "domain": "protocol-first-benchmark-validation-and-split-risk"
     },
     {
       "id": "result:batch2-climate-fever-claim-verification-followup",
@@ -497,6 +503,11 @@
       "label": "autonomous-research-production-strategy"
     },
     {
+      "id": "domain:protocol-first-benchmark-validation-and-split-risk",
+      "kind": "domain",
+      "label": "protocol-first-benchmark-validation-and-split-risk"
+    },
+    {
       "id": "domain:claim-verification-benchmark-quality",
       "kind": "domain",
       "label": "claim-verification-benchmark-quality"
@@ -750,6 +761,21 @@
     },
     {
       "source": "result:batch12-research-production-review-next-frontier-program",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch13-protocol-first-benchmark-validation-week1",
+      "target": "domain:protocol-first-benchmark-validation-and-split-risk",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch13-protocol-first-benchmark-validation-week1",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch13-protocol-first-benchmark-validation-week1",
       "target": "tool:pandas",
       "relation": "uses_public_tool_evidence"
     },
@@ -1254,5 +1280,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "4e100db28e93221364987aa6caaadb88e1d3b892e2f3c96f710c7011dc324525"
+  "evidenceHash": "b0b37c72365532c90c5732b4e37f359aba01a2690d67a1c1adab2b48846a6c5f"
 }

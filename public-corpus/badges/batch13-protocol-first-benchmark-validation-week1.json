@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "batch13-protocol-first-benchmark-validation-week1",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "review_ready",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "container-netoff",
+    "falsification": "protocol_split_risk_validated_with_limitations",
+    "lifecycle": "autopublished",
+    "version": "batch13-protocol-first-benchmark-validation-week1",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "b9e5209aafa4fa0630927cdb146d99ded4a2020268bc7953776f7c6b29d77943"
+}

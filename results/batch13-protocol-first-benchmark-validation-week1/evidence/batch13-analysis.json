@@ -1,0 +1,98 @@
+{
+  "baselineComparisonCount": 3,
+  "batch": "Batch 13 / Week 1",
+  "failedTargetCount": 0,
+  "failures": [],
+  "freshSeedReplay": {
+    "attempted": true,
+    "count": 3,
+    "results": [
+      {
+        "baselineLogisticMacroF1": 0.983189,
+        "baselineSeed": 42,
+        "freshSeed": 99,
+        "freshSeedLogisticMacroF1": 0.982306,
+        "macroF1DeltaFreshMinusBaseline": -0.000883,
+        "replayType": "fresh_seed_stratified_random_split",
+        "slug": "uci-human-activity-recognition-smartphones"
+      },
+      {
+        "baselineLogisticMacroF1": 0.972223,
+        "baselineSeed": 42,
+        "freshSeed": 99,
+        "freshSeedLogisticMacroF1": 0.970087,
+        "macroF1DeltaFreshMinusBaseline": -0.002136,
+        "replayType": "fresh_seed_stratified_random_split",
+        "slug": "uci-optical-recognition-handwritten-digits"
+      },
+      {
+        "baselineLogisticMacroF1": 0.945754,
+        "baselineSeed": 42,
+        "freshSeed": 99,
+        "freshSeedLogisticMacroF1": 0.953264,
+        "macroF1DeltaFreshMinusBaseline": 0.00751,
+        "replayType": "fresh_seed_stratified_random_split",
+        "slug": "uci-pen-based-handwritten-digits"
+      }
+    ]
+  },
+  "hardQuestionAnswer": "Yes, at least one source-described protocol changed Sovryn's conclusion materially versus a random challenger, so Batch 13 supports protocol-first benchmark validation.",
+  "loadedTargetCount": 3,
+  "metricStressValidationCount": 3,
+  "negativeOrPartialFindings": [
+    "No benchmark-win claim is supported; this batch only compares source split behavior against random challengers.",
+    "schema_provenance_auditor remained evidence packaging; pandas exposed the same raw missingness and duplicate checks."
+  ],
+  "packageVersions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "platform": "macOS-26.3.1-arm64-arm-64bit",
+    "python": "3.12.13",
+    "scikit_learn": "1.8.0"
+  },
+  "program": "Protocol-First Benchmark Validation and Split-Risk Program",
+  "protocolAttempts": [
+    {
+      "signal": "source archive contains train/test files and subject_train/subject_test files",
+      "slug": "uci-human-activity-recognition-smartphones",
+      "status": "protocol_reproduced"
+    },
+    {
+      "signal": "source archive contains optdigits.tra and optdigits.tes files",
+      "slug": "uci-optical-recognition-handwritten-digits",
+      "status": "protocol_reproduced"
+    },
+    {
+      "signal": "source archive contains pendigits.tra and pendigits.tes files",
+      "slug": "uci-pen-based-handwritten-digits",
+      "status": "protocol_reproduced"
+    }
+  ],
+  "randomChallengerCount": 3,
+  "resultKind": "protocol_first_benchmark_validation_week1",
+  "schemaPackagingCount": 3,
+  "selectedTargets": [
+    "uci-human-activity-recognition-smartphones",
+    "uci-optical-recognition-handwritten-digits",
+    "uci-pen-based-handwritten-digits"
+  ],
+  "splitRiskFindings": {
+    "uci-human-activity-recognition-smartphones": {
+      "logisticMacroF1RandomMinusProtocol": 0.028766,
+      "notes": [
+        "source split preserves subject holdout; random split mixes the source subject boundary"
+      ],
+      "status": "material_protocol_difference"
+    },
+    "uci-optical-recognition-handwritten-digits": {
+      "logisticMacroF1RandomMinusProtocol": 0.02224,
+      "notes": [],
+      "status": "material_protocol_difference"
+    },
+    "uci-pen-based-handwritten-digits": {
+      "logisticMacroF1RandomMinusProtocol": 0.029324,
+      "notes": [],
+      "status": "material_protocol_difference"
+    }
+  }
+}
