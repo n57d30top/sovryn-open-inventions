@@ -1,7 +1,7 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-06T09:07:32.749Z",
-  "resultCount": 68,
+  "updatedAt": "2026-05-06T09:45:26.807Z",
+  "resultCount": 69,
   "results": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -1165,6 +1165,45 @@
       "publicationSafetyScore": 98,
       "replayCriticalPassRate": 100,
       "specificityScore": 82,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "passes_falsification",
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+    },
+    {
+      "slug": "batch8-tool-reuse-failure-benchmark",
+      "title": "Batch 8 Tool Reuse and Failure Benchmark",
+      "resultKind": "tool_reuse_failure_benchmark",
+      "domain": "autonomous-research-production-continuity",
+      "path": "results/batch8-tool-reuse-failure-benchmark",
+      "qualityLabel": "good",
+      "candidateStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch8-tool-reuse-failure-benchmark",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": true,
+      "showcaseRank": null,
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      },
+      "revisionReason": null,
+      "humanReadableSummary": "Batch 8 reused the three custom tools created in Batch 7 across six new external public-safe targets.",
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 92,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 85,
       "publicHygienePassed": true,
       "safetyScanPassed": true,
       "reliabilityReplayPassed": true,
@@ -2748,5 +2787,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "27c31c70501772b1ba9515fbadc1401b58f8ae9ee9a28208ca70295852302f3b"
+  "evidenceHash": "83a9846b9849368295e3a2a7a9280be8448f73bdacbb3545fb401a68f637fa25"
 }

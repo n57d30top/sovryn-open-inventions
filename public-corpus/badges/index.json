@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T09:07:32.749Z",
+  "generatedAt": "2026-05-06T09:45:26.807Z",
   "badges": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -537,6 +537,24 @@
         "falsification": "passes_falsification",
         "lifecycle": "autopublished",
         "version": "batch7-wine-quality-schema-provenance-tool",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch8-tool-reuse-failure-benchmark",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch8-tool-reuse-failure-benchmark",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -1227,5 +1245,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "9df4baa503b8850880887efd22a2f83e41efd9bcef06a9fa30119f9a09579e39"
+  "evidenceHash": "d07c3f02468d503222c1a182e734ccdb34413590dd843b0aacc46cc4b4fc0b07"
 }

@@ -162,6 +162,13 @@
       "customTool": null
     },
     {
+      "slug": "batch8-tool-reuse-failure-benchmark",
+      "externalPackages": [
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "externalPackages": [],
       "customTool": "mol-record-auditor"
@@ -398,5 +405,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "e7b2b8091c310f0ee77a1d923a31f215645b35086d198a0c32604891abe1dc89"
+  "evidenceHash": "08efd23140410a87992780166292a17e7cf5bb4ecb48be8e0ed3be0c3c552d68"
 }

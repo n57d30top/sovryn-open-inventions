@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T09:07:32.749Z",
+  "generatedAt": "2026-05-06T09:45:26.807Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 57,
+    "good": 58,
     "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 37,
+    "autopublished": 38,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -433,6 +433,20 @@
       "reproducibilityScore": 94,
       "publicationSafetyScore": 98,
       "specificityScore": 82
+    },
+    {
+      "slug": "batch8-tool-reuse-failure-benchmark",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch8-tool-reuse-failure-benchmark",
+      "showcaseEligible": true,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 92,
+      "publicationSafetyScore": 98,
+      "specificityScore": 85
     },
     {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -967,5 +981,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "a8c17aae0d518d7313517cad8df9b673fb24e8baccb5d117955e6f8e801c5814"
+  "evidenceHash": "abefd9827724fe3ef1de74ffc23e6a5d7089b326accd743d76d1ffb8ee69ef58"
 }

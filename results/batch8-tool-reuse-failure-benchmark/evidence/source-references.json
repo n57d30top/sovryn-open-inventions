@@ -1,0 +1,142 @@
+{
+  "slug": "batch8-tool-reuse-failure-benchmark",
+  "sources": [
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/00275/Bike-Sharing-Dataset.zip",
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/00320/student.zip",
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/spambase/spambase.data",
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/undocumented/connectionist-bench/sonar/sonar.all-data",
+    "https://github.com/pypa/pyproject-hooks",
+    "https://github.com/pytest-dev/iniconfig"
+  ],
+  "targetResults": [
+    {
+      "id": "student-performance-splits",
+      "tool": "schema_provenance_auditor",
+      "target": "UCI Student Performance math and Portuguese CSV splits",
+      "sourceUrls": [
+        "https://archive.ics.uci.edu/ml/machine-learning-databases/00320/student.zip"
+      ],
+      "execution": "network-off replay after public archive download",
+      "status": "reusable_success",
+      "summary": "schema_match=True; rows=1044; missing_cells=0; duplicate_full_rows=0",
+      "metrics": {
+        "rows": 1044,
+        "schemaMatch": true,
+        "missingCells": 0,
+        "duplicateFullRows": 0
+      }
+    },
+    {
+      "id": "bike-sharing-day-hour",
+      "tool": "schema_provenance_auditor",
+      "target": "UCI Bike Sharing day and hour CSV files",
+      "sourceUrls": [
+        "https://archive.ics.uci.edu/ml/machine-learning-databases/00275/Bike-Sharing-Dataset.zip"
+      ],
+      "execution": "network-off replay after public archive download",
+      "status": "failure_case_expected_schema_mismatch",
+      "summary": "schema_match=False; rows=18110; hour file adds an hr column, so split-schema equality is not a valid assumption",
+      "metrics": {
+        "rows": 18110,
+        "schemaMatch": false,
+        "missingCells": 0,
+        "duplicateFullRows": 0,
+        "mismatchCount": 1
+      }
+    },
+    {
+      "id": "sonar-classification",
+      "tool": "metric_stress_validator",
+      "target": "UCI Sonar binary classification dataset",
+      "sourceUrls": [
+        "https://archive.ics.uci.edu/ml/machine-learning-databases/undocumented/connectionist-bench/sonar/sonar.all-data"
+      ],
+      "execution": "deterministic stratified split with dummy, logistic, and shuffled-label controls",
+      "status": "reusable_success_with_high_error_rates",
+      "summary": "logistic_balanced_accuracy=0.794; majority_balanced_accuracy=0.500; shuffled_balanced_accuracy=0.445; false_positive_rate=0.206; false_negative_rate=0.207",
+      "metrics": {
+        "rows": 208,
+        "features": 60,
+        "majorityBalancedAccuracy": 0.5,
+        "logisticBalancedAccuracy": 0.7936105476673427,
+        "shuffledBalancedAccuracy": 0.4447261663286004,
+        "falsePositiveRate": 0.20588235294117646,
+        "falseNegativeRate": 0.20689655172413793
+      }
+    },
+    {
+      "id": "spambase-classification",
+      "tool": "metric_stress_validator",
+      "target": "UCI Spambase binary classification dataset",
+      "sourceUrls": [
+        "https://archive.ics.uci.edu/ml/machine-learning-databases/spambase/spambase.data"
+      ],
+      "execution": "deterministic stratified split with dummy, logistic, and shuffled-label controls",
+      "status": "reusable_success",
+      "summary": "logistic_balanced_accuracy=0.914; majority_balanced_accuracy=0.500; shuffled_balanced_accuracy=0.511; false_positive_rate=0.053; false_negative_rate=0.119",
+      "metrics": {
+        "rows": 4601,
+        "features": 57,
+        "majorityBalancedAccuracy": 0.5,
+        "logisticBalancedAccuracy": 0.9139730040761824,
+        "shuffledBalancedAccuracy": 0.5112149922693091,
+        "falsePositiveRate": 0.052568697729988054,
+        "falseNegativeRate": 0.11948529411764706
+      }
+    },
+    {
+      "id": "iniconfig-pytest",
+      "tool": "pytest_repro_summary",
+      "target": "pytest-dev/iniconfig repository",
+      "sourceUrls": [
+        "https://github.com/pytest-dev/iniconfig"
+      ],
+      "execution": "editable package install, AST inventory, grep baseline, and pytest target execution",
+      "status": "reusable_success",
+      "summary": "ast_tests=31; grep_tests=31; runtime_passed=49; return_code=0",
+      "metrics": {
+        "repoCommit": "77db208ab4ae0cd2061d909fe222a1db72867850",
+        "astDiscoveredTests": 31,
+        "grepDefTestLineCount": 31,
+        "runtimePassed": 49,
+        "returnCode": 0
+      }
+    },
+    {
+      "id": "pyproject-hooks-pytest",
+      "tool": "pytest_repro_summary",
+      "target": "pypa/pyproject-hooks repository",
+      "sourceUrls": [
+        "https://github.com/pypa/pyproject-hooks"
+      ],
+      "execution": "editable package install, AST inventory, grep baseline, and pytest target execution",
+      "status": "failure_case_minimal_environment_errors",
+      "summary": "ast_tests=32; grep_tests=32; runtime_errors=6; return_code=2",
+      "metrics": {
+        "repoCommit": "d9ee8a0fe9f1fe351187ff85965a8b8fcb7e78a6",
+        "astDiscoveredTests": 32,
+        "grepDefTestLineCount": 32,
+        "runtimeErrors": 6,
+        "returnCode": 2
+      }
+    }
+  ],
+  "toolDecisions": {
+    "schema_provenance_auditor": {
+      "decision": "narrow_but_useful",
+      "reason": "Reusable on split CSV datasets, but must not assume related files are schema-identical.",
+      "batch7Decision": "keep_as_reusable_candidate"
+    },
+    "metric_stress_validator": {
+      "decision": "reusable",
+      "reason": "Reusable across Sonar and Spambase for dummy/challenger/shuffled-control checks, with error-rate caveats.",
+      "batch7Decision": "downgraded_to_narrow_but_useful"
+    },
+    "pytest_repro_summary": {
+      "decision": "narrow_but_useful",
+      "reason": "Static inventory generalized, but runtime success depends on target-specific test dependencies.",
+      "batch7Decision": "keep_but_mark_dynamic_parametrization_limit"
+    }
+  },
+  "evidenceHash": "30d30cacd1da75b8a8624608db1cbad0aae16bf86bfb2217e07c382a99b97e27"
+}

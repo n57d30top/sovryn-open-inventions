@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-06T09:07:32.749Z",
+  "generatedAt": "2026-05-06T09:45:26.807Z",
   "sources": [
     {
       "resultSlug": "batch3-rapidfuzz-repo-install-example-reproduction",
@@ -28,6 +28,12 @@
     },
     {
       "resultSlug": "batch7-wine-quality-schema-provenance-tool",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch8-tool-reuse-failure-benchmark",
       "sourceKind": "external_package_or_tool",
       "name": "pandas",
       "publicOnly": true
@@ -201,5 +207,5 @@
       "publicOnly": true
     }
   ],
-  "evidenceHash": "e7b2b8091c310f0ee77a1d923a31f215645b35086d198a0c32604891abe1dc89"
+  "evidenceHash": "08efd23140410a87992780166292a17e7cf5bb4ecb48be8e0ed3be0c3c552d68"
 }

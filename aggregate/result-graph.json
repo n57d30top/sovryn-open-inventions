@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T09:07:32.749Z",
+  "generatedAt": "2026-05-06T09:45:26.807Z",
   "nodes": [
     {
       "id": "result:autonomous-research-strategy-trial",
@@ -181,6 +181,12 @@
       "kind": "result",
       "label": "Batch 7 Wine Quality Schema Provenance Tool",
       "domain": "dataset-schema-provenance-auditing"
+    },
+    {
+      "id": "result:batch8-tool-reuse-failure-benchmark",
+      "kind": "result",
+      "label": "Batch 8 Tool Reuse and Failure Benchmark",
+      "domain": "autonomous-research-production-continuity"
     },
     {
       "id": "result:chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -521,6 +527,11 @@
       "label": "dataset-schema-provenance-auditing"
     },
     {
+      "id": "domain:autonomous-research-production-continuity",
+      "kind": "domain",
+      "label": "autonomous-research-production-continuity"
+    },
+    {
       "id": "domain:chemistry-data-quality",
       "kind": "domain",
       "label": "chemistry-data-quality"
@@ -794,6 +805,16 @@
     },
     {
       "source": "result:batch7-wine-quality-schema-provenance-tool",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch8-tool-reuse-failure-benchmark",
+      "target": "domain:autonomous-research-production-continuity",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch8-tool-reuse-failure-benchmark",
       "target": "tool:pandas",
       "relation": "uses_public_tool_evidence"
     },
@@ -1128,5 +1149,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "6cb92ffead7a86f7ccc716a16ef94f8d3ccd7dce00f0d53e1ca6dc42ffa1e17f"
+  "evidenceHash": "a7115bff3fe6cc1f742650a6c8136d8aa412cc9fdde856f5f1b0c9b7a7afd1a4"
 }

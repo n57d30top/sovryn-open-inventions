@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 57,
+    "good": 58,
     "reviewable": 6
   },
   "results": [
@@ -153,6 +153,11 @@
     },
     {
       "slug": "batch7-wine-quality-schema-provenance-tool",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "batch8-tool-reuse-failure-benchmark",
       "qualityLabel": "good",
       "releaseReadinessScore": 90
     },
@@ -347,5 +352,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "a8c17aae0d518d7313517cad8df9b673fb24e8baccb5d117955e6f8e801c5814"
+  "evidenceHash": "abefd9827724fe3ef1de74ffc23e6a5d7089b326accd743d76d1ffb8ee69ef58"
 }

@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-06T09:07:32.749Z",
-  "entryCount": 68,
+  "builtAt": "2026-05-06T09:45:26.807Z",
+  "entryCount": 69,
   "entries": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -1251,6 +1251,45 @@
         "tried",
         "were",
         "wine"
+      ]
+    },
+    {
+      "slug": "batch8-tool-reuse-failure-benchmark",
+      "title": "Batch 8 Tool Reuse and Failure Benchmark",
+      "domain": "autonomous-research-production-continuity",
+      "href": "results/batch8-tool-reuse-failure-benchmark.html",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch8-tool-reuse-failure-benchmark",
+      "showcaseRank": null,
+      "terms": [
+        "across",
+        "and",
+        "autonomous",
+        "autopublished",
+        "batch",
+        "batch8",
+        "benchmark",
+        "continuity",
+        "created",
+        "custom",
+        "external",
+        "failure",
+        "new",
+        "pandas",
+        "production",
+        "public",
+        "research",
+        "reuse",
+        "reused",
+        "safe",
+        "six",
+        "targets",
+        "the",
+        "three",
+        "tool",
+        "tools"
       ]
     },
     {
@@ -2787,5 +2826,5 @@
       ]
     }
   ],
-  "evidenceHash": "7ca64ffb829d3a47183b6d19f8f399c4ea6bed1107b8e39b713ec9b3e04fcba0"
+  "evidenceHash": "ff01f9c0d85688fecaedcf7a81e75ea23efbb6b649adc307eed87798e406e1e1"
 }

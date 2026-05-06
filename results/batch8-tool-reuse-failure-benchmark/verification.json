@@ -1,0 +1,15 @@
+{
+  "slug": "batch8-tool-reuse-failure-benchmark",
+  "priorBatchReused": true,
+  "toolsTested": 3,
+  "externalTargets": 6,
+  "targetsPerTool": 2,
+  "actualExecutions": 6,
+  "failureCases": 2,
+  "downgradedOrNarrowedTools": 2,
+  "reusableToolPromoted": "metric_stress_validator",
+  "publicSafe": true,
+  "noFrameworkLayerAdded": true,
+  "noStandaloneRepoCreated": true,
+  "verifiedAt": "2026-05-06T09:44:48.644353Z"
+}

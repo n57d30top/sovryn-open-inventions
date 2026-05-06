@@ -1,14 +1,14 @@
 {
   "kind": "sovryn_public_corpus_product",
-  "generatedAt": "2026-05-06T09:07:32.749Z",
-  "resultCount": 68,
+  "generatedAt": "2026-05-06T09:45:26.807Z",
+  "resultCount": 69,
   "qualityCounts": {
     "excellent": 5,
-    "good": 57,
+    "good": 58,
     "reviewable": 6
   },
   "statusCounts": {
-    "autopublished": 34,
+    "autopublished": 35,
     "benchmark_challenge_negative_result": 4,
     "dataset_quality_audit_supported": 7,
     "external_extension_supported": 1,
@@ -26,13 +26,14 @@
     "strong_external_negative_result": 1
   },
   "lifecycleCounts": {
-    "autopublished": 37,
+    "autopublished": 38,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
     "superseded": 14
   },
   "domainCounts": {
+    "autonomous-research-production-continuity": 1,
     "benchmark-challenge-baseline-dominance": 1,
     "benchmark-metric-validation": 1,
     "chemistry-data-quality": 10,
@@ -2309,6 +2310,83 @@
         "falsification": "passes_falsification",
         "lifecycle": "autopublished",
         "version": "batch7-wine-quality-schema-provenance-tool",
+        "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      }
+    },
+    {
+      "slug": "batch8-tool-reuse-failure-benchmark",
+      "title": "Batch 8 Tool Reuse and Failure Benchmark",
+      "domain": "autonomous-research-production-continuity",
+      "resultKind": "tool_reuse_failure_benchmark",
+      "path": "results/batch8-tool-reuse-failure-benchmark",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch8-tool-reuse-failure-benchmark",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": true,
+      "showcaseRank": null,
+      "revisionReason": null,
+      "humanReadableSummary": "Batch 8 reused the three custom tools created in Batch 7 across six new external public-safe targets.",
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 92,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 85,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": false,
+      "externalPackages": [
+        "pandas"
+      ],
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "passes_falsification",
+      "scientificQuestion": null,
+      "hypothesisCount": 0,
+      "nullHypothesisPresent": false,
+      "experimentCount": 0,
+      "replicationRunCount": 0,
+      "peerReviewPresent": false,
+      "statisticalAnalysisPresent": false,
+      "baselineComparisonPresent": false,
+      "ablationPresent": false,
+      "sensitivityPresent": false,
+      "studyResultLabel": null,
+      "scientificMemoryUpdated": false,
+      "safetyScope": null,
+      "summary": "Batch 8 reused the three custom tools created in Batch 7 across six new external public-safe targets.",
+      "limitations": [
+        "bike-sharing-day-hour: schema_match=False; rows=18110; hour file adds an hr column, so split-schema equality is not a valid assumption",
+        "Limitations",
+        "Repository test failures are reported as reproduction evidence, not as claims about project quality.",
+        "Claim attack: Batch 7 claims that tools were reusable candidates were tested, not assumed.",
+        "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+        "\"summary\": \"schema_match=False; rows=18110; hour file adds an hr column, so split-schema equality is not a valid assumption\","
+      ],
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch8-tool-reuse-failure-benchmark",
         "showcase": "not-showcase"
       },
       "showcaseDocumentation": {
@@ -5422,6 +5500,13 @@
       ]
     },
     {
+      "versionGroup": "batch8-tool-reuse-failure-benchmark",
+      "latestSlug": "batch8-tool-reuse-failure-benchmark",
+      "resultSlugs": [
+        "batch8-tool-reuse-failure-benchmark"
+      ]
+    },
+    {
       "versionGroup": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an",
       "latestSlug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "resultSlugs": [
@@ -6702,5 +6787,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "6ecc9e351b92be81f2afa74ee2b55e2a74ad171aa040a61c527562aabbc38da3"
+  "evidenceHash": "5a56c8aea5b0e0c63a6b3138c9f5e0530f169f4997dc10f70e84cf47ac0dc305"
 }

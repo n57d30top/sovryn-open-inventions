@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T09:07:32.749Z",
+  "updatedAt": "2026-05-06T09:45:26.807Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-strategy-trial",
@@ -213,6 +213,13 @@
       ]
     },
     {
+      "versionGroup": "batch8-tool-reuse-failure-benchmark",
+      "latestSlug": "batch8-tool-reuse-failure-benchmark",
+      "resultSlugs": [
+        "batch8-tool-reuse-failure-benchmark"
+      ]
+    },
+    {
       "versionGroup": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an",
       "latestSlug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "resultSlugs": [
@@ -395,5 +402,5 @@
       ]
     }
   ],
-  "evidenceHash": "7ebe7b7c135105742ef0c6850e23fd80f182eebafc56a91b1e1044697f145c04"
+  "evidenceHash": "90c6b04b4e150ee44ca64c79bcd4bc459ed64f952074fbbe9b781ac4f15b423c"
 }

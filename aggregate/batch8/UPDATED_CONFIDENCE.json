@@ -1,0 +1,18 @@
+{
+  "schema_provenance_auditor": {
+    "batch7": "keep_as_reusable_candidate",
+    "batch8": "narrow_but_useful",
+    "confidence": 0.68
+  },
+  "metric_stress_validator": {
+    "batch7": "downgraded_to_narrow_but_useful",
+    "batch8": "reusable",
+    "confidence": 0.78
+  },
+  "pytest_repro_summary": {
+    "batch7": "keep_but_mark_dynamic_parametrization_limit",
+    "batch8": "narrow_but_useful",
+    "confidence": 0.64
+  },
+  "updatedAt": "2026-05-06T09:44:48.644353Z"
+}
