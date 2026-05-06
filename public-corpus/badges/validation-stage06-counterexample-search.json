@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "validation-stage06-counterexample-search",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "specific_public_evidence",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "passes_falsification",
+    "lifecycle": "autopublished",
+    "version": "validation-stage06-counterexample-search",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "5b3ac0197a525cfd574362bf36f656e58dc8c7c63c95d1efe5fe7206dffbe303"
+}

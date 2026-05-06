@@ -257,6 +257,22 @@ can supersede earlier entries while preserving audit history.
 - software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for: latest software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth; versions software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth
 - software-supply-chain-assurance-self-built-lab-study: latest software-supply-chain-assurance-self-built-lab-study-v2; versions software-supply-chain-assurance-self-built-lab-study, software-supply-chain-assurance-self-built-lab-study-v2
 - toolchain-policy: latest toolchain-policy; versions toolchain-policy
+- validation-stage01-candidate-inspection: latest validation-stage01-candidate-inspection; versions validation-stage01-candidate-inspection
+- validation-stage02-freeze-ledger-and-predictions: latest validation-stage02-freeze-ledger-and-predictions; versions validation-stage02-freeze-ledger-and-predictions
+- validation-stage03-blind-holdout-selection: latest validation-stage03-blind-holdout-selection; versions validation-stage03-blind-holdout-selection
+- validation-stage04-holdout-execution-wave1: latest validation-stage04-holdout-execution-wave1; versions validation-stage04-holdout-execution-wave1
+- validation-stage05-holdout-execution-wave2: latest validation-stage05-holdout-execution-wave2; versions validation-stage05-holdout-execution-wave2
+- validation-stage06-counterexample-search: latest validation-stage06-counterexample-search; versions validation-stage06-counterexample-search
+- validation-stage07-rival-theory-stress: latest validation-stage07-rival-theory-stress; versions validation-stage07-rival-theory-stress
+- validation-stage08-mutation-tests: latest validation-stage08-mutation-tests; versions validation-stage08-mutation-tests
+- validation-stage09-fresh-workspace-replay: latest validation-stage09-fresh-workspace-replay; versions validation-stage09-fresh-workspace-replay
+- validation-stage10-synthetic-reviewer-panel: latest validation-stage10-synthetic-reviewer-panel; versions validation-stage10-synthetic-reviewer-panel
+- validation-stage11-adversarial-kill-week: latest validation-stage11-adversarial-kill-week; versions validation-stage11-adversarial-kill-week
+- validation-stage12-decision-calibration: latest validation-stage12-decision-calibration; versions validation-stage12-decision-calibration
+- validation-stage13-candidate-revision-or-rejection: latest validation-stage13-candidate-revision-or-rejection; versions validation-stage13-candidate-revision-or-rejection
+- validation-stage14-paper-or-failure-package: latest validation-stage14-paper-or-failure-package; versions validation-stage14-paper-or-failure-package
+- validation-stage15-final-gauntlet-audit: latest validation-stage15-final-gauntlet-audit; versions validation-stage15-final-gauntlet-audit
+- validation-stage16-next-frontier-selection: latest validation-stage16-next-frontier-selection; versions validation-stage16-next-frontier-selection
 
 ## Superseded Map
 

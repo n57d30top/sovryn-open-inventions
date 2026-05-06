@@ -1,0 +1,341 @@
+{
+  "candidates": [
+    {
+      "id": "CE-01",
+      "pattern": "descriptor-stable but non-residual case",
+      "sourceHint": "Iris CSV schema residual",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-02",
+      "pattern": "residual-like but receipt-caveated case",
+      "sourceHint": "Penguins CSV missingness residual",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-03",
+      "pattern": "receipt-stable but trivial-baseline case",
+      "sourceHint": "Planets CSV sparse field residual",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-04",
+      "pattern": "rival-theory-favoring case",
+      "sourceHint": "UCI Wine class-field residual",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-05",
+      "pattern": "low-risk control",
+      "sourceHint": "NASA GISTEMP temporal descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-06",
+      "pattern": "descriptor-stable but non-residual case",
+      "sourceHint": "NOAA Mauna Loa monthly CO2 descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-07",
+      "pattern": "residual-like but receipt-caveated case",
+      "sourceHint": "SILSO monthly sunspot descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-08",
+      "pattern": "receipt-stable but trivial-baseline case",
+      "sourceHint": "RCSB PDB 1CRN atom descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-09",
+      "pattern": "rival-theory-favoring case",
+      "sourceHint": "RCSB PDB 4HHB chain descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-10",
+      "pattern": "low-risk control",
+      "sourceHint": "NASA exoplanet table descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-11",
+      "pattern": "descriptor-stable but non-residual case",
+      "sourceHint": "simple-statistics package metadata",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-12",
+      "pattern": "residual-like but receipt-caveated case",
+      "sourceHint": "csv-parse package metadata",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-13",
+      "pattern": "receipt-stable but trivial-baseline case",
+      "sourceHint": "fast-xml-parser package metadata",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-14",
+      "pattern": "rival-theory-favoring case",
+      "sourceHint": "dayjs package metadata",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-15",
+      "pattern": "low-risk control",
+      "sourceHint": "ajv package metadata",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-16",
+      "pattern": "descriptor-stable but non-residual case",
+      "sourceHint": "lodash package manifest",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-17",
+      "pattern": "residual-like but receipt-caveated case",
+      "sourceHint": "d3-array package manifest",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-18",
+      "pattern": "receipt-stable but trivial-baseline case",
+      "sourceHint": "scikit-learn pyproject manifest",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-19",
+      "pattern": "rival-theory-favoring case",
+      "sourceHint": "pymatgen pyproject manifest",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-20",
+      "pattern": "low-risk control",
+      "sourceHint": "RCSB JSON entry 1CRN descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-21",
+      "pattern": "descriptor-stable but non-residual case",
+      "sourceHint": "Iris CSV schema residual",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-22",
+      "pattern": "residual-like but receipt-caveated case",
+      "sourceHint": "Penguins CSV missingness residual",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-23",
+      "pattern": "receipt-stable but trivial-baseline case",
+      "sourceHint": "Planets CSV sparse field residual",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-24",
+      "pattern": "rival-theory-favoring case",
+      "sourceHint": "UCI Wine class-field residual",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-25",
+      "pattern": "low-risk control",
+      "sourceHint": "NASA GISTEMP temporal descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-26",
+      "pattern": "descriptor-stable but non-residual case",
+      "sourceHint": "NOAA Mauna Loa monthly CO2 descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-27",
+      "pattern": "residual-like but receipt-caveated case",
+      "sourceHint": "SILSO monthly sunspot descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-28",
+      "pattern": "receipt-stable but trivial-baseline case",
+      "sourceHint": "RCSB PDB 1CRN atom descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-29",
+      "pattern": "rival-theory-favoring case",
+      "sourceHint": "RCSB PDB 4HHB chain descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    },
+    {
+      "id": "CE-30",
+      "pattern": "low-risk control",
+      "sourceHint": "NASA exoplanet table descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status"
+    }
+  ],
+  "executed": [
+    {
+      "id": "CE-01",
+      "pattern": "descriptor-stable but non-residual case",
+      "sourceHint": "Iris CSV schema residual",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status",
+      "executed": true,
+      "outcome": "counterexample_found",
+      "candidateImpact": "narrows candidate"
+    },
+    {
+      "id": "CE-02",
+      "pattern": "residual-like but receipt-caveated case",
+      "sourceHint": "Penguins CSV missingness residual",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status",
+      "executed": true,
+      "outcome": "not_counterexample",
+      "candidateImpact": "preserves scoped claim"
+    },
+    {
+      "id": "CE-03",
+      "pattern": "receipt-stable but trivial-baseline case",
+      "sourceHint": "Planets CSV sparse field residual",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status",
+      "executed": true,
+      "outcome": "not_counterexample",
+      "candidateImpact": "preserves scoped claim"
+    },
+    {
+      "id": "CE-04",
+      "pattern": "rival-theory-favoring case",
+      "sourceHint": "UCI Wine class-field residual",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status",
+      "executed": true,
+      "outcome": "not_counterexample",
+      "candidateImpact": "preserves scoped claim"
+    },
+    {
+      "id": "CE-05",
+      "pattern": "low-risk control",
+      "sourceHint": "NASA GISTEMP temporal descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status",
+      "executed": true,
+      "outcome": "counterexample_found",
+      "candidateImpact": "narrows candidate"
+    },
+    {
+      "id": "CE-06",
+      "pattern": "descriptor-stable but non-residual case",
+      "sourceHint": "NOAA Mauna Loa monthly CO2 descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status",
+      "executed": true,
+      "outcome": "partial_counterexample",
+      "candidateImpact": "adds caveat"
+    },
+    {
+      "id": "CE-07",
+      "pattern": "residual-like but receipt-caveated case",
+      "sourceHint": "SILSO monthly sunspot descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status",
+      "executed": true,
+      "outcome": "not_counterexample",
+      "candidateImpact": "preserves scoped claim"
+    },
+    {
+      "id": "CE-08",
+      "pattern": "receipt-stable but trivial-baseline case",
+      "sourceHint": "RCSB PDB 1CRN atom descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status",
+      "executed": true,
+      "outcome": "not_counterexample",
+      "candidateImpact": "preserves scoped claim"
+    },
+    {
+      "id": "CE-09",
+      "pattern": "rival-theory-favoring case",
+      "sourceHint": "RCSB PDB 4HHB chain descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status",
+      "executed": true,
+      "outcome": "counterexample_found",
+      "candidateImpact": "narrows candidate"
+    },
+    {
+      "id": "CE-10",
+      "pattern": "low-risk control",
+      "sourceHint": "NASA exoplanet table descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status",
+      "executed": true,
+      "outcome": "not_counterexample",
+      "candidateImpact": "preserves scoped claim"
+    },
+    {
+      "id": "CE-11",
+      "pattern": "descriptor-stable but non-residual case",
+      "sourceHint": "simple-statistics package metadata",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status",
+      "executed": true,
+      "outcome": "partial_counterexample",
+      "candidateImpact": "adds caveat"
+    },
+    {
+      "id": "CE-12",
+      "pattern": "residual-like but receipt-caveated case",
+      "sourceHint": "csv-parse package metadata",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status",
+      "executed": true,
+      "outcome": "not_counterexample",
+      "candidateImpact": "preserves scoped claim"
+    }
+  ],
+  "found": [
+    {
+      "id": "CE-01",
+      "pattern": "descriptor-stable but non-residual case",
+      "sourceHint": "Iris CSV schema residual",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status",
+      "executed": true,
+      "outcome": "counterexample_found",
+      "candidateImpact": "narrows candidate"
+    },
+    {
+      "id": "CE-05",
+      "pattern": "low-risk control",
+      "sourceHint": "NASA GISTEMP temporal descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status",
+      "executed": true,
+      "outcome": "counterexample_found",
+      "candidateImpact": "narrows candidate"
+    },
+    {
+      "id": "CE-06",
+      "pattern": "descriptor-stable but non-residual case",
+      "sourceHint": "NOAA Mauna Loa monthly CO2 descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status",
+      "executed": true,
+      "outcome": "partial_counterexample",
+      "candidateImpact": "adds caveat"
+    },
+    {
+      "id": "CE-09",
+      "pattern": "rival-theory-favoring case",
+      "sourceHint": "RCSB PDB 4HHB chain descriptor",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status",
+      "executed": true,
+      "outcome": "counterexample_found",
+      "candidateImpact": "narrows candidate"
+    },
+    {
+      "id": "CE-11",
+      "pattern": "descriptor-stable but non-residual case",
+      "sourceHint": "simple-statistics package metadata",
+      "plannedCheck": "compare descriptor residual against baseline and receipt status",
+      "executed": true,
+      "outcome": "partial_counterexample",
+      "candidateImpact": "adds caveat"
+    }
+  ]
+}

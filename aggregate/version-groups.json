@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T20:15:33.067Z",
+  "updatedAt": "2026-05-06T20:59:34.482Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -1779,7 +1779,119 @@
       "resultSlugs": [
         "toolchain-policy"
       ]
+    },
+    {
+      "versionGroup": "validation-stage01-candidate-inspection",
+      "latestSlug": "validation-stage01-candidate-inspection",
+      "resultSlugs": [
+        "validation-stage01-candidate-inspection"
+      ]
+    },
+    {
+      "versionGroup": "validation-stage02-freeze-ledger-and-predictions",
+      "latestSlug": "validation-stage02-freeze-ledger-and-predictions",
+      "resultSlugs": [
+        "validation-stage02-freeze-ledger-and-predictions"
+      ]
+    },
+    {
+      "versionGroup": "validation-stage03-blind-holdout-selection",
+      "latestSlug": "validation-stage03-blind-holdout-selection",
+      "resultSlugs": [
+        "validation-stage03-blind-holdout-selection"
+      ]
+    },
+    {
+      "versionGroup": "validation-stage04-holdout-execution-wave1",
+      "latestSlug": "validation-stage04-holdout-execution-wave1",
+      "resultSlugs": [
+        "validation-stage04-holdout-execution-wave1"
+      ]
+    },
+    {
+      "versionGroup": "validation-stage05-holdout-execution-wave2",
+      "latestSlug": "validation-stage05-holdout-execution-wave2",
+      "resultSlugs": [
+        "validation-stage05-holdout-execution-wave2"
+      ]
+    },
+    {
+      "versionGroup": "validation-stage06-counterexample-search",
+      "latestSlug": "validation-stage06-counterexample-search",
+      "resultSlugs": [
+        "validation-stage06-counterexample-search"
+      ]
+    },
+    {
+      "versionGroup": "validation-stage07-rival-theory-stress",
+      "latestSlug": "validation-stage07-rival-theory-stress",
+      "resultSlugs": [
+        "validation-stage07-rival-theory-stress"
+      ]
+    },
+    {
+      "versionGroup": "validation-stage08-mutation-tests",
+      "latestSlug": "validation-stage08-mutation-tests",
+      "resultSlugs": [
+        "validation-stage08-mutation-tests"
+      ]
+    },
+    {
+      "versionGroup": "validation-stage09-fresh-workspace-replay",
+      "latestSlug": "validation-stage09-fresh-workspace-replay",
+      "resultSlugs": [
+        "validation-stage09-fresh-workspace-replay"
+      ]
+    },
+    {
+      "versionGroup": "validation-stage10-synthetic-reviewer-panel",
+      "latestSlug": "validation-stage10-synthetic-reviewer-panel",
+      "resultSlugs": [
+        "validation-stage10-synthetic-reviewer-panel"
+      ]
+    },
+    {
+      "versionGroup": "validation-stage11-adversarial-kill-week",
+      "latestSlug": "validation-stage11-adversarial-kill-week",
+      "resultSlugs": [
+        "validation-stage11-adversarial-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "validation-stage12-decision-calibration",
+      "latestSlug": "validation-stage12-decision-calibration",
+      "resultSlugs": [
+        "validation-stage12-decision-calibration"
+      ]
+    },
+    {
+      "versionGroup": "validation-stage13-candidate-revision-or-rejection",
+      "latestSlug": "validation-stage13-candidate-revision-or-rejection",
+      "resultSlugs": [
+        "validation-stage13-candidate-revision-or-rejection"
+      ]
+    },
+    {
+      "versionGroup": "validation-stage14-paper-or-failure-package",
+      "latestSlug": "validation-stage14-paper-or-failure-package",
+      "resultSlugs": [
+        "validation-stage14-paper-or-failure-package"
+      ]
+    },
+    {
+      "versionGroup": "validation-stage15-final-gauntlet-audit",
+      "latestSlug": "validation-stage15-final-gauntlet-audit",
+      "resultSlugs": [
+        "validation-stage15-final-gauntlet-audit"
+      ]
+    },
+    {
+      "versionGroup": "validation-stage16-next-frontier-selection",
+      "latestSlug": "validation-stage16-next-frontier-selection",
+      "resultSlugs": [
+        "validation-stage16-next-frontier-selection"
+      ]
     }
   ],
-  "evidenceHash": "046be3d699a42667386434a2c38eea09c582941c419cf413c986fb56e5064e5b"
+  "evidenceHash": "6797ee8e47d029527da3535da425454351c92b31d3e1922ea46b0470b5df1087"
 }

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "FWR-1",
+    "targetId": "VH-01",
+    "evidenceItem": "Iris CSV schema residual",
+    "replayKind": "fresh workspace replay",
+    "outcome": "replayed",
+    "claimImpact": "claim preserved or caveated"
+  },
+  {
+    "id": "FWR-2",
+    "targetId": "VH-02",
+    "evidenceItem": "Penguins CSV missingness residual",
+    "replayKind": "fresh workspace replay",
+    "outcome": "replayed",
+    "claimImpact": "claim preserved or caveated"
+  },
+  {
+    "id": "FWR-3",
+    "targetId": "VH-03",
+    "evidenceItem": "Planets CSV sparse field residual",
+    "replayKind": "fresh workspace replay",
+    "outcome": "replayed_with_caveat",
+    "claimImpact": "claim narrowed"
+  },
+  {
+    "id": "FWR-4",
+    "targetId": "VH-02",
+    "evidenceItem": "Penguins CSV missingness residual",
+    "replayKind": "fresh workspace replay",
+    "outcome": "replayed",
+    "claimImpact": "claim preserved or caveated"
+  },
+  {
+    "id": "FWR-5",
+    "targetId": "VH-03",
+    "evidenceItem": "Planets CSV sparse field residual",
+    "replayKind": "container-equivalent clean command replay",
+    "outcome": "documented_replay_failure_or_not_available",
+    "claimImpact": "claim preserved or caveated"
+  },
+  {
+    "id": "FWR-6",
+    "targetId": "VH-05",
+    "evidenceItem": "NASA GISTEMP temporal descriptor",
+    "replayKind": "container-equivalent clean command replay",
+    "outcome": "replayed_with_caveat",
+    "claimImpact": "claim narrowed"
+  },
+  {
+    "id": "FWR-7",
+    "targetId": "VH-11",
+    "evidenceItem": "simple-statistics package metadata",
+    "replayKind": "container-equivalent clean command replay",
+    "outcome": "replayed",
+    "claimImpact": "claim preserved or caveated"
+  },
+  {
+    "id": "FWR-8",
+    "targetId": "VH-12",
+    "evidenceItem": "csv-parse package metadata",
+    "replayKind": "container-equivalent clean command replay",
+    "outcome": "replayed",
+    "claimImpact": "claim preserved or caveated"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "validation-stage10-synthetic-reviewer-panel",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "specific_public_evidence",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "passes_falsification",
+    "lifecycle": "autopublished",
+    "version": "validation-stage10-synthetic-reviewer-panel",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "65b1e60e95f282042dc63e876927af0aa71da39ed428f5143d820ae73709747c"
+}

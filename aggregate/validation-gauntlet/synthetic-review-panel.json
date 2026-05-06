@@ -1,0 +1,146 @@
+{
+  "roles": [
+    {
+      "role": "domain skeptic",
+      "syntheticOnly": true,
+      "decision": "major_revision"
+    },
+    {
+      "role": "statistician",
+      "syntheticOnly": true,
+      "decision": "major_revision"
+    },
+    {
+      "role": "reproducibility reviewer",
+      "syntheticOnly": true,
+      "decision": "continue_testing"
+    },
+    {
+      "role": "baseline reviewer",
+      "syntheticOnly": true,
+      "decision": "continue_testing"
+    },
+    {
+      "role": "data artifact reviewer",
+      "syntheticOnly": true,
+      "decision": "continue_testing"
+    },
+    {
+      "role": "theory reviewer",
+      "syntheticOnly": true,
+      "decision": "promising_but_unproven"
+    },
+    {
+      "role": "practical usefulness reviewer",
+      "syntheticOnly": true,
+      "decision": "promising_but_unproven"
+    }
+  ],
+  "objections": [
+    {
+      "role": "domain skeptic",
+      "objection": "domain skeptic objection 1: require stronger evidence before strengthening the candidate.",
+      "action": "led to downgrade or revision"
+    },
+    {
+      "role": "domain skeptic",
+      "objection": "domain skeptic objection 2: require stronger evidence before strengthening the candidate.",
+      "action": "led to additional caveat"
+    },
+    {
+      "role": "domain skeptic",
+      "objection": "domain skeptic objection 3: require stronger evidence before strengthening the candidate.",
+      "action": "tracked as limitation"
+    },
+    {
+      "role": "statistician",
+      "objection": "statistician objection 1: require stronger evidence before strengthening the candidate.",
+      "action": "led to downgrade or revision"
+    },
+    {
+      "role": "statistician",
+      "objection": "statistician objection 2: require stronger evidence before strengthening the candidate.",
+      "action": "led to additional caveat"
+    },
+    {
+      "role": "statistician",
+      "objection": "statistician objection 3: require stronger evidence before strengthening the candidate.",
+      "action": "tracked as limitation"
+    },
+    {
+      "role": "reproducibility reviewer",
+      "objection": "reproducibility reviewer objection 1: require stronger evidence before strengthening the candidate.",
+      "action": "led to downgrade or revision"
+    },
+    {
+      "role": "reproducibility reviewer",
+      "objection": "reproducibility reviewer objection 2: require stronger evidence before strengthening the candidate.",
+      "action": "led to additional caveat"
+    },
+    {
+      "role": "reproducibility reviewer",
+      "objection": "reproducibility reviewer objection 3: require stronger evidence before strengthening the candidate.",
+      "action": "tracked as limitation"
+    },
+    {
+      "role": "baseline reviewer",
+      "objection": "baseline reviewer objection 1: require stronger evidence before strengthening the candidate.",
+      "action": "led to downgrade or revision"
+    },
+    {
+      "role": "baseline reviewer",
+      "objection": "baseline reviewer objection 2: require stronger evidence before strengthening the candidate.",
+      "action": "led to additional caveat"
+    },
+    {
+      "role": "baseline reviewer",
+      "objection": "baseline reviewer objection 3: require stronger evidence before strengthening the candidate.",
+      "action": "tracked as limitation"
+    },
+    {
+      "role": "data artifact reviewer",
+      "objection": "data artifact reviewer objection 1: require stronger evidence before strengthening the candidate.",
+      "action": "led to downgrade or revision"
+    },
+    {
+      "role": "data artifact reviewer",
+      "objection": "data artifact reviewer objection 2: require stronger evidence before strengthening the candidate.",
+      "action": "led to additional caveat"
+    },
+    {
+      "role": "data artifact reviewer",
+      "objection": "data artifact reviewer objection 3: require stronger evidence before strengthening the candidate.",
+      "action": "tracked as limitation"
+    },
+    {
+      "role": "theory reviewer",
+      "objection": "theory reviewer objection 1: require stronger evidence before strengthening the candidate.",
+      "action": "led to downgrade or revision"
+    },
+    {
+      "role": "theory reviewer",
+      "objection": "theory reviewer objection 2: require stronger evidence before strengthening the candidate.",
+      "action": "led to additional caveat"
+    },
+    {
+      "role": "theory reviewer",
+      "objection": "theory reviewer objection 3: require stronger evidence before strengthening the candidate.",
+      "action": "tracked as limitation"
+    },
+    {
+      "role": "practical usefulness reviewer",
+      "objection": "practical usefulness reviewer objection 1: require stronger evidence before strengthening the candidate.",
+      "action": "led to downgrade or revision"
+    },
+    {
+      "role": "practical usefulness reviewer",
+      "objection": "practical usefulness reviewer objection 2: require stronger evidence before strengthening the candidate.",
+      "action": "led to additional caveat"
+    },
+    {
+      "role": "practical usefulness reviewer",
+      "objection": "practical usefulness reviewer objection 3: require stronger evidence before strengthening the candidate.",
+      "action": "tracked as limitation"
+    }
+  ]
+}

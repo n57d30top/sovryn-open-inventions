@@ -1,0 +1,69 @@
+{
+  "rivals": [
+    "data artifact",
+    "descriptor artifact",
+    "overfitting",
+    "receipt/retrieval artifact",
+    "baseline insufficiency",
+    "random residual noise",
+    "domain triviality"
+  ],
+  "tests": [
+    {
+      "id": "RV-1",
+      "rival": "data artifact",
+      "prediction": "rival explains a subset if it matches observed descriptor or baseline behavior better than the candidate",
+      "outcome": "candidate_more_specific",
+      "candidateImpact": "preserve scoped candidate"
+    },
+    {
+      "id": "RV-2",
+      "rival": "descriptor artifact",
+      "prediction": "rival explains a subset if it matches observed descriptor or baseline behavior better than the candidate",
+      "outcome": "rival_gains_partial_confidence",
+      "candidateImpact": "narrow candidate on this subset"
+    },
+    {
+      "id": "RV-3",
+      "rival": "overfitting",
+      "prediction": "rival explains a subset if it matches observed descriptor or baseline behavior better than the candidate",
+      "outcome": "candidate_more_specific",
+      "candidateImpact": "preserve scoped candidate"
+    },
+    {
+      "id": "RV-4",
+      "rival": "receipt/retrieval artifact",
+      "prediction": "rival explains a subset if it matches observed descriptor or baseline behavior better than the candidate",
+      "outcome": "candidate_more_specific",
+      "candidateImpact": "preserve scoped candidate"
+    },
+    {
+      "id": "RV-5",
+      "rival": "baseline insufficiency",
+      "prediction": "rival explains a subset if it matches observed descriptor or baseline behavior better than the candidate",
+      "outcome": "rival_gains_partial_confidence",
+      "candidateImpact": "narrow candidate on this subset"
+    },
+    {
+      "id": "RV-6",
+      "rival": "random residual noise",
+      "prediction": "rival explains a subset if it matches observed descriptor or baseline behavior better than the candidate",
+      "outcome": "rival_gains_partial_confidence",
+      "candidateImpact": "narrow candidate on this subset"
+    },
+    {
+      "id": "RV-7",
+      "rival": "domain triviality",
+      "prediction": "rival explains a subset if it matches observed descriptor or baseline behavior better than the candidate",
+      "outcome": "candidate_more_specific",
+      "candidateImpact": "preserve scoped candidate"
+    },
+    {
+      "id": "RV-8",
+      "rival": "data artifact",
+      "prediction": "rival explains a subset if it matches observed descriptor or baseline behavior better than the candidate",
+      "outcome": "candidate_more_specific",
+      "candidateImpact": "preserve scoped candidate"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "validation-stage08-mutation-tests",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "specific_public_evidence",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "passes_falsification",
+    "lifecycle": "autopublished",
+    "version": "validation-stage08-mutation-tests",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "d51629913ce89194aeaec2db9c23660a35f781648267fbd53d03959f498ff5f1"
+}

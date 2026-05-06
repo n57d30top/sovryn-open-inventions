@@ -1,0 +1,146 @@
+{
+  "candidate": "Receipt-Stable Descriptor Residual Candidate",
+  "decision": "promising_with_strong_caveats",
+  "bindings": [
+    {
+      "targetId": "VH-01",
+      "sourceUrl": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv",
+      "observed": "candidate_support",
+      "impact": "preserved_with_scope",
+      "hashPrefix": "c76b424120d7"
+    },
+    {
+      "targetId": "VH-02",
+      "sourceUrl": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/penguins.csv",
+      "observed": "partial",
+      "impact": "caveated",
+      "hashPrefix": "90cdda4f48a0"
+    },
+    {
+      "targetId": "VH-03",
+      "sourceUrl": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/planets.csv",
+      "observed": "rival_support",
+      "impact": "narrowed_by_rival",
+      "hashPrefix": "5faf135560b2"
+    },
+    {
+      "targetId": "VH-04",
+      "sourceUrl": "https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data",
+      "observed": "candidate_support",
+      "impact": "preserved_with_scope",
+      "hashPrefix": "89a0a6bc24f8"
+    },
+    {
+      "targetId": "VH-05",
+      "sourceUrl": "https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv",
+      "observed": "partial",
+      "impact": "caveated",
+      "hashPrefix": "bc693141c420"
+    },
+    {
+      "targetId": "VH-06",
+      "sourceUrl": "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_mm_mlo.csv",
+      "observed": "candidate_support",
+      "impact": "preserved_with_scope",
+      "hashPrefix": "827613dd63fe"
+    },
+    {
+      "targetId": "VH-07",
+      "sourceUrl": "https://www.sidc.be/SILSO/DATA/SN_m_tot_V2.0.txt",
+      "observed": "inconclusive",
+      "impact": "inconclusive_or_not_testable",
+      "hashPrefix": "ce41996d1c27"
+    },
+    {
+      "targetId": "VH-08",
+      "sourceUrl": "https://files.rcsb.org/download/1CRN.pdb",
+      "observed": "candidate_support",
+      "impact": "preserved_with_scope",
+      "hashPrefix": "cef1c2cba127"
+    },
+    {
+      "targetId": "VH-09",
+      "sourceUrl": "https://files.rcsb.org/download/4HHB.pdb",
+      "observed": "partial",
+      "impact": "caveated",
+      "hashPrefix": "17a1748ff77b"
+    },
+    {
+      "targetId": "VH-10",
+      "sourceUrl": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+top+50+pl_name,hostname,disc_year,pl_orbper+from+pscomppars&format=csv",
+      "observed": "execution_failed",
+      "impact": "inconclusive_or_not_testable",
+      "hashPrefix": ""
+    },
+    {
+      "targetId": "VH-11",
+      "sourceUrl": "https://registry.npmjs.org/simple-statistics/latest",
+      "observed": "candidate_support",
+      "impact": "preserved_with_scope",
+      "hashPrefix": "1a5f5507601b"
+    },
+    {
+      "targetId": "VH-12",
+      "sourceUrl": "https://registry.npmjs.org/csv-parse/latest",
+      "observed": "partial",
+      "impact": "caveated",
+      "hashPrefix": "1889699515d8"
+    },
+    {
+      "targetId": "VH-13",
+      "sourceUrl": "https://registry.npmjs.org/fast-xml-parser/latest",
+      "observed": "candidate_support",
+      "impact": "preserved_with_scope",
+      "hashPrefix": "b8436f88042d"
+    },
+    {
+      "targetId": "VH-14",
+      "sourceUrl": "https://registry.npmjs.org/dayjs/latest",
+      "observed": "candidate_support",
+      "impact": "preserved_with_scope",
+      "hashPrefix": "b3f501ef3292"
+    },
+    {
+      "targetId": "VH-15",
+      "sourceUrl": "https://registry.npmjs.org/ajv/latest",
+      "observed": "rival_support",
+      "impact": "narrowed_by_rival",
+      "hashPrefix": "c6ca6d3dc5b4"
+    },
+    {
+      "targetId": "VH-16",
+      "sourceUrl": "https://raw.githubusercontent.com/lodash/lodash/main/package.json",
+      "observed": "candidate_support",
+      "impact": "preserved_with_scope",
+      "hashPrefix": "d346efacea8d"
+    },
+    {
+      "targetId": "VH-17",
+      "sourceUrl": "https://raw.githubusercontent.com/d3/d3-array/main/package.json",
+      "observed": "candidate_support",
+      "impact": "preserved_with_scope",
+      "hashPrefix": "d63733ff12d6"
+    },
+    {
+      "targetId": "VH-18",
+      "sourceUrl": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/pyproject.toml",
+      "observed": "partial",
+      "impact": "caveated",
+      "hashPrefix": "d260c04dd5dd"
+    },
+    {
+      "targetId": "VH-19",
+      "sourceUrl": "https://raw.githubusercontent.com/materialsproject/pymatgen/master/pyproject.toml",
+      "observed": "inconclusive",
+      "impact": "inconclusive_or_not_testable",
+      "hashPrefix": "64141d62fd80"
+    },
+    {
+      "targetId": "VH-20",
+      "sourceUrl": "https://data.rcsb.org/rest/v1/core/entry/1crn",
+      "observed": "candidate_support",
+      "impact": "preserved_with_scope",
+      "hashPrefix": "66072168e1e1"
+    }
+  ]
+}

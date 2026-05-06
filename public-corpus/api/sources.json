@@ -1610,7 +1610,87 @@
       "slug": "toolchain-policy",
       "externalPackages": [],
       "customTool": null
+    },
+    {
+      "slug": "validation-stage01-candidate-inspection",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "validation-stage02-freeze-ledger-and-predictions",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "validation-stage03-blind-holdout-selection",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "validation-stage04-holdout-execution-wave1",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "validation-stage05-holdout-execution-wave2",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "validation-stage06-counterexample-search",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "validation-stage07-rival-theory-stress",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "validation-stage08-mutation-tests",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "validation-stage09-fresh-workspace-replay",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "validation-stage10-synthetic-reviewer-panel",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "validation-stage11-adversarial-kill-week",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "validation-stage12-decision-calibration",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "validation-stage13-candidate-revision-or-rejection",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "validation-stage14-paper-or-failure-package",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "validation-stage15-final-gauntlet-audit",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "validation-stage16-next-frontier-selection",
+      "externalPackages": [],
+      "customTool": null
     }
   ],
-  "evidenceHash": "ee78ba2861e3d549dbaedbfc4ae7db2da5211370209b964738b990f982619937"
+  "evidenceHash": "717a40bd118e62b0d942e8238fe61631878a6b706f719ecd17bca7e73aa86285"
 }

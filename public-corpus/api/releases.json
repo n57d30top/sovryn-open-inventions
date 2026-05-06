@@ -2394,7 +2394,151 @@
       "versionGroup": "toolchain-policy",
       "supersededBy": null,
       "pushed": false
+    },
+    {
+      "slug": "validation-stage01-candidate-inspection",
+      "path": "results/validation-stage01-candidate-inspection",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "validation-stage01-candidate-inspection",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "validation-stage02-freeze-ledger-and-predictions",
+      "path": "results/validation-stage02-freeze-ledger-and-predictions",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "validation-stage02-freeze-ledger-and-predictions",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "validation-stage03-blind-holdout-selection",
+      "path": "results/validation-stage03-blind-holdout-selection",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "validation-stage03-blind-holdout-selection",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "validation-stage04-holdout-execution-wave1",
+      "path": "results/validation-stage04-holdout-execution-wave1",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "validation-stage04-holdout-execution-wave1",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "validation-stage05-holdout-execution-wave2",
+      "path": "results/validation-stage05-holdout-execution-wave2",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "validation-stage05-holdout-execution-wave2",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "validation-stage06-counterexample-search",
+      "path": "results/validation-stage06-counterexample-search",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "validation-stage06-counterexample-search",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "validation-stage07-rival-theory-stress",
+      "path": "results/validation-stage07-rival-theory-stress",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "validation-stage07-rival-theory-stress",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "validation-stage08-mutation-tests",
+      "path": "results/validation-stage08-mutation-tests",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "validation-stage08-mutation-tests",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "validation-stage09-fresh-workspace-replay",
+      "path": "results/validation-stage09-fresh-workspace-replay",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "validation-stage09-fresh-workspace-replay",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "validation-stage10-synthetic-reviewer-panel",
+      "path": "results/validation-stage10-synthetic-reviewer-panel",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "validation-stage10-synthetic-reviewer-panel",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "validation-stage11-adversarial-kill-week",
+      "path": "results/validation-stage11-adversarial-kill-week",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "validation-stage11-adversarial-kill-week",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "validation-stage12-decision-calibration",
+      "path": "results/validation-stage12-decision-calibration",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "validation-stage12-decision-calibration",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "validation-stage13-candidate-revision-or-rejection",
+      "path": "results/validation-stage13-candidate-revision-or-rejection",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "validation-stage13-candidate-revision-or-rejection",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "validation-stage14-paper-or-failure-package",
+      "path": "results/validation-stage14-paper-or-failure-package",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "validation-stage14-paper-or-failure-package",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "validation-stage15-final-gauntlet-audit",
+      "path": "results/validation-stage15-final-gauntlet-audit",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "validation-stage15-final-gauntlet-audit",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "validation-stage16-next-frontier-selection",
+      "path": "results/validation-stage16-next-frontier-selection",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "validation-stage16-next-frontier-selection",
+      "supersededBy": null,
+      "pushed": false
     }
   ],
-  "evidenceHash": "24c4b6927a2340715da61abdf50d4836a451d4252f421e8f7b34f49ee04ed17b"
+  "evidenceHash": "407f95ccb19f3728693483e90a0fb09c41cebe7da203a20b2a23ca1f2477919c"
 }

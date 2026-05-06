@@ -1,0 +1,242 @@
+[
+  {
+    "id": "AK-01",
+    "type": "holdout attack",
+    "component": "Iris CSV schema residual",
+    "decision": "downgraded_or_narrowed"
+  },
+  {
+    "id": "AK-02",
+    "type": "counterexample attack",
+    "component": "Penguins CSV missingness residual",
+    "decision": "downgraded_or_narrowed"
+  },
+  {
+    "id": "AK-03",
+    "type": "rival theory attack",
+    "component": "Planets CSV sparse field residual",
+    "decision": "downgraded_or_narrowed"
+  },
+  {
+    "id": "AK-04",
+    "type": "mutation attack",
+    "component": "UCI Wine class-field residual",
+    "decision": "downgraded_or_narrowed"
+  },
+  {
+    "id": "AK-05",
+    "type": "replay attack",
+    "component": "NASA GISTEMP temporal descriptor",
+    "decision": "downgraded_or_narrowed"
+  },
+  {
+    "id": "AK-06",
+    "type": "baseline attack",
+    "component": "NOAA Mauna Loa monthly CO2 descriptor",
+    "decision": "downgraded_or_narrowed"
+  },
+  {
+    "id": "AK-07",
+    "type": "overclaim attack",
+    "component": "SILSO monthly sunspot descriptor",
+    "decision": "downgraded_or_narrowed"
+  },
+  {
+    "id": "AK-08",
+    "type": "usefulness attack",
+    "component": "RCSB PDB 1CRN atom descriptor",
+    "decision": "downgraded_or_narrowed"
+  },
+  {
+    "id": "AK-09",
+    "type": "hidden assumption attack",
+    "component": "RCSB PDB 4HHB chain descriptor",
+    "decision": "downgraded_or_narrowed"
+  },
+  {
+    "id": "AK-10",
+    "type": "holdout attack",
+    "component": "NASA exoplanet table descriptor",
+    "decision": "downgraded_or_narrowed"
+  },
+  {
+    "id": "AK-11",
+    "type": "counterexample attack",
+    "component": "simple-statistics package metadata",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "AK-12",
+    "type": "rival theory attack",
+    "component": "csv-parse package metadata",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "AK-13",
+    "type": "mutation attack",
+    "component": "fast-xml-parser package metadata",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "AK-14",
+    "type": "replay attack",
+    "component": "dayjs package metadata",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "AK-15",
+    "type": "baseline attack",
+    "component": "ajv package metadata",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "AK-16",
+    "type": "overclaim attack",
+    "component": "lodash package manifest",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "AK-17",
+    "type": "usefulness attack",
+    "component": "d3-array package manifest",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "AK-18",
+    "type": "hidden assumption attack",
+    "component": "scikit-learn pyproject manifest",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "AK-19",
+    "type": "holdout attack",
+    "component": "pymatgen pyproject manifest",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "AK-20",
+    "type": "counterexample attack",
+    "component": "RCSB JSON entry 1CRN descriptor",
+    "decision": "preserved_with_evidence"
+  },
+  {
+    "id": "AK-21",
+    "type": "rival theory attack",
+    "component": "descriptor-stable but non-residual case",
+    "decision": "caveated"
+  },
+  {
+    "id": "AK-22",
+    "type": "mutation attack",
+    "component": "residual-like but receipt-caveated case",
+    "decision": "caveated"
+  },
+  {
+    "id": "AK-23",
+    "type": "replay attack",
+    "component": "receipt-stable but trivial-baseline case",
+    "decision": "caveated"
+  },
+  {
+    "id": "AK-24",
+    "type": "baseline attack",
+    "component": "rival-theory-favoring case",
+    "decision": "marked_uncertain"
+  },
+  {
+    "id": "AK-25",
+    "type": "overclaim attack",
+    "component": "low-risk control",
+    "decision": "caveated"
+  },
+  {
+    "id": "AK-26",
+    "type": "usefulness attack",
+    "component": "descriptor-stable but non-residual case",
+    "decision": "caveated"
+  },
+  {
+    "id": "AK-27",
+    "type": "hidden assumption attack",
+    "component": "residual-like but receipt-caveated case",
+    "decision": "caveated"
+  },
+  {
+    "id": "AK-28",
+    "type": "holdout attack",
+    "component": "receipt-stable but trivial-baseline case",
+    "decision": "marked_uncertain"
+  },
+  {
+    "id": "AK-29",
+    "type": "counterexample attack",
+    "component": "data artifact",
+    "decision": "caveated"
+  },
+  {
+    "id": "AK-30",
+    "type": "rival theory attack",
+    "component": "descriptor artifact",
+    "decision": "caveated"
+  },
+  {
+    "id": "AK-31",
+    "type": "mutation attack",
+    "component": "overfitting",
+    "decision": "caveated"
+  },
+  {
+    "id": "AK-32",
+    "type": "replay attack",
+    "component": "receipt/retrieval artifact",
+    "decision": "marked_uncertain"
+  },
+  {
+    "id": "AK-33",
+    "type": "baseline attack",
+    "component": "baseline insufficiency",
+    "decision": "caveated"
+  },
+  {
+    "id": "AK-34",
+    "type": "overclaim attack",
+    "component": "random residual noise",
+    "decision": "caveated"
+  },
+  {
+    "id": "AK-35",
+    "type": "usefulness attack",
+    "component": "descriptor mutation",
+    "decision": "caveated"
+  },
+  {
+    "id": "AK-36",
+    "type": "hidden assumption attack",
+    "component": "receipt/source mutation",
+    "decision": "marked_uncertain"
+  },
+  {
+    "id": "AK-37",
+    "type": "holdout attack",
+    "component": "baseline mutation",
+    "decision": "caveated"
+  },
+  {
+    "id": "AK-38",
+    "type": "counterexample attack",
+    "component": "residual threshold mutation",
+    "decision": "caveated"
+  },
+  {
+    "id": "AK-39",
+    "type": "rival theory attack",
+    "component": "label/target mutation",
+    "decision": "caveated"
+  },
+  {
+    "id": "AK-40",
+    "type": "mutation attack",
+    "component": "randomization control",
+    "decision": "marked_uncertain"
+  }
+]

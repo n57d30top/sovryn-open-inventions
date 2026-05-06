@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 255,
+    "good": 271,
     "reviewable": 6
   },
   "results": [
@@ -1335,7 +1335,87 @@
       "slug": "toolchain-policy",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
+    },
+    {
+      "slug": "validation-stage01-candidate-inspection",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "validation-stage02-freeze-ledger-and-predictions",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "validation-stage03-blind-holdout-selection",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "validation-stage04-holdout-execution-wave1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "validation-stage05-holdout-execution-wave2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "validation-stage06-counterexample-search",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "validation-stage07-rival-theory-stress",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "validation-stage08-mutation-tests",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "validation-stage09-fresh-workspace-replay",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "validation-stage10-synthetic-reviewer-panel",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "validation-stage11-adversarial-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "validation-stage12-decision-calibration",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "validation-stage13-candidate-revision-or-rejection",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "validation-stage14-paper-or-failure-package",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "validation-stage15-final-gauntlet-audit",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "validation-stage16-next-frontier-selection",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "98cb20ae8ed6f2c8ec6d5eaa1d6abdc2545127648d486ad7141bd4d6a2c9166d"
+  "evidenceHash": "8a626a0705d515093da6afe505e8fc255085a9920672df647c5e0597f6e1c126"
 }

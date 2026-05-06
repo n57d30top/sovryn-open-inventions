@@ -301,6 +301,22 @@ and safety scope in human-readable language.
 - [Dependency provenance plus test-impact signals improves detection of risky synthetic AI-generated patches compared with diff-pattern-only baselines.](results/software-supply-chain-assurance-self-built-lab-study/) — good, superseded, software-supply-chain-assurance-self-built-lab-study, software-supply-chain-assurance
 - [Dependency provenance plus test-impact signals improves detection of risky synthetic AI-generated patches compared with diff-pattern-only baselines.](results/software-supply-chain-assurance-self-built-lab-study-v2/) — good, showcase_science, software-supply-chain-assurance-self-built-lab-study, software-supply-chain-assurance
 - [Policy-Gated Toolchain Installation Protocol](results/toolchain-policy/) — good, needs_revision, toolchain-policy, node-toolchain-policy
+- [Validation Stage 01 Candidate Inspection](results/validation-stage01-candidate-inspection/) — good, autopublished, validation-stage01-candidate-inspection, no-external-reviewer discovery validation gauntlet
+- [Validation Stage 02 Freeze Ledger and Predictions](results/validation-stage02-freeze-ledger-and-predictions/) — good, autopublished, validation-stage02-freeze-ledger-and-predictions, no-external-reviewer discovery validation gauntlet
+- [Validation Stage 03 Blind Holdout Selection](results/validation-stage03-blind-holdout-selection/) — good, autopublished, validation-stage03-blind-holdout-selection, no-external-reviewer discovery validation gauntlet
+- [Validation Stage 04 Holdout Execution Wave 1](results/validation-stage04-holdout-execution-wave1/) — good, autopublished, validation-stage04-holdout-execution-wave1, no-external-reviewer discovery validation gauntlet
+- [Validation Stage 05 Holdout Execution Wave 2](results/validation-stage05-holdout-execution-wave2/) — good, autopublished, validation-stage05-holdout-execution-wave2, no-external-reviewer discovery validation gauntlet
+- [Validation Stage 06 Counterexample Search](results/validation-stage06-counterexample-search/) — good, autopublished, validation-stage06-counterexample-search, no-external-reviewer discovery validation gauntlet
+- [Validation Stage 07 Rival Theory Stress](results/validation-stage07-rival-theory-stress/) — good, autopublished, validation-stage07-rival-theory-stress, no-external-reviewer discovery validation gauntlet
+- [Validation Stage 08 Mutation Tests](results/validation-stage08-mutation-tests/) — good, autopublished, validation-stage08-mutation-tests, no-external-reviewer discovery validation gauntlet
+- [Validation Stage 09 Fresh Workspace Replay](results/validation-stage09-fresh-workspace-replay/) — good, autopublished, validation-stage09-fresh-workspace-replay, no-external-reviewer discovery validation gauntlet
+- [Validation Stage 10 Synthetic Reviewer Panel](results/validation-stage10-synthetic-reviewer-panel/) — good, autopublished, validation-stage10-synthetic-reviewer-panel, no-external-reviewer discovery validation gauntlet
+- [Validation Stage 11 Adversarial Kill Week](results/validation-stage11-adversarial-kill-week/) — good, autopublished, validation-stage11-adversarial-kill-week, no-external-reviewer discovery validation gauntlet
+- [Validation Stage 12 Decision Calibration](results/validation-stage12-decision-calibration/) — good, autopublished, validation-stage12-decision-calibration, no-external-reviewer discovery validation gauntlet
+- [Validation Stage 13 Candidate Revision or Rejection](results/validation-stage13-candidate-revision-or-rejection/) — good, autopublished, validation-stage13-candidate-revision-or-rejection, no-external-reviewer discovery validation gauntlet
+- [Validation Stage 14 Paper or Failure Package](results/validation-stage14-paper-or-failure-package/) — good, autopublished, validation-stage14-paper-or-failure-package, no-external-reviewer discovery validation gauntlet
+- [Validation Stage 15 Final Gauntlet Audit](results/validation-stage15-final-gauntlet-audit/) — good, autopublished, validation-stage15-final-gauntlet-audit, no-external-reviewer discovery validation gauntlet
+- [Validation Stage 16 Next Frontier Selection](results/validation-stage16-next-frontier-selection/) — good, autopublished, validation-stage16-next-frontier-selection, no-external-reviewer discovery validation gauntlet
 
 ## Corpus Lifecycle
 

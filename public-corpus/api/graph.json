@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T20:15:33.067Z",
+  "generatedAt": "2026-05-06T20:59:34.482Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1599,6 +1599,102 @@
       "domain": "node-toolchain-policy"
     },
     {
+      "id": "result:validation-stage01-candidate-inspection",
+      "kind": "result",
+      "label": "Validation Stage 01 Candidate Inspection",
+      "domain": "no-external-reviewer discovery validation gauntlet"
+    },
+    {
+      "id": "result:validation-stage02-freeze-ledger-and-predictions",
+      "kind": "result",
+      "label": "Validation Stage 02 Freeze Ledger and Predictions",
+      "domain": "no-external-reviewer discovery validation gauntlet"
+    },
+    {
+      "id": "result:validation-stage03-blind-holdout-selection",
+      "kind": "result",
+      "label": "Validation Stage 03 Blind Holdout Selection",
+      "domain": "no-external-reviewer discovery validation gauntlet"
+    },
+    {
+      "id": "result:validation-stage04-holdout-execution-wave1",
+      "kind": "result",
+      "label": "Validation Stage 04 Holdout Execution Wave 1",
+      "domain": "no-external-reviewer discovery validation gauntlet"
+    },
+    {
+      "id": "result:validation-stage05-holdout-execution-wave2",
+      "kind": "result",
+      "label": "Validation Stage 05 Holdout Execution Wave 2",
+      "domain": "no-external-reviewer discovery validation gauntlet"
+    },
+    {
+      "id": "result:validation-stage06-counterexample-search",
+      "kind": "result",
+      "label": "Validation Stage 06 Counterexample Search",
+      "domain": "no-external-reviewer discovery validation gauntlet"
+    },
+    {
+      "id": "result:validation-stage07-rival-theory-stress",
+      "kind": "result",
+      "label": "Validation Stage 07 Rival Theory Stress",
+      "domain": "no-external-reviewer discovery validation gauntlet"
+    },
+    {
+      "id": "result:validation-stage08-mutation-tests",
+      "kind": "result",
+      "label": "Validation Stage 08 Mutation Tests",
+      "domain": "no-external-reviewer discovery validation gauntlet"
+    },
+    {
+      "id": "result:validation-stage09-fresh-workspace-replay",
+      "kind": "result",
+      "label": "Validation Stage 09 Fresh Workspace Replay",
+      "domain": "no-external-reviewer discovery validation gauntlet"
+    },
+    {
+      "id": "result:validation-stage10-synthetic-reviewer-panel",
+      "kind": "result",
+      "label": "Validation Stage 10 Synthetic Reviewer Panel",
+      "domain": "no-external-reviewer discovery validation gauntlet"
+    },
+    {
+      "id": "result:validation-stage11-adversarial-kill-week",
+      "kind": "result",
+      "label": "Validation Stage 11 Adversarial Kill Week",
+      "domain": "no-external-reviewer discovery validation gauntlet"
+    },
+    {
+      "id": "result:validation-stage12-decision-calibration",
+      "kind": "result",
+      "label": "Validation Stage 12 Decision Calibration",
+      "domain": "no-external-reviewer discovery validation gauntlet"
+    },
+    {
+      "id": "result:validation-stage13-candidate-revision-or-rejection",
+      "kind": "result",
+      "label": "Validation Stage 13 Candidate Revision or Rejection",
+      "domain": "no-external-reviewer discovery validation gauntlet"
+    },
+    {
+      "id": "result:validation-stage14-paper-or-failure-package",
+      "kind": "result",
+      "label": "Validation Stage 14 Paper or Failure Package",
+      "domain": "no-external-reviewer discovery validation gauntlet"
+    },
+    {
+      "id": "result:validation-stage15-final-gauntlet-audit",
+      "kind": "result",
+      "label": "Validation Stage 15 Final Gauntlet Audit",
+      "domain": "no-external-reviewer discovery validation gauntlet"
+    },
+    {
+      "id": "result:validation-stage16-next-frontier-selection",
+      "kind": "result",
+      "label": "Validation Stage 16 Next Frontier Selection",
+      "domain": "no-external-reviewer discovery validation gauntlet"
+    },
+    {
       "id": "domain:autonomous-research-production-continuity",
       "kind": "domain",
       "label": "autonomous-research-production-continuity"
@@ -1882,6 +1978,11 @@
       "id": "domain:node-toolchain-policy",
       "kind": "domain",
       "label": "node-toolchain-policy"
+    },
+    {
+      "id": "domain:no-external-reviewer discovery validation gauntlet",
+      "kind": "domain",
+      "label": "no-external-reviewer discovery validation gauntlet"
     },
     {
       "id": "tool:pandas",
@@ -4149,7 +4250,87 @@
       "source": "result:toolchain-policy",
       "target": "domain:node-toolchain-policy",
       "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:validation-stage01-candidate-inspection",
+      "target": "domain:no-external-reviewer discovery validation gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:validation-stage02-freeze-ledger-and-predictions",
+      "target": "domain:no-external-reviewer discovery validation gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:validation-stage03-blind-holdout-selection",
+      "target": "domain:no-external-reviewer discovery validation gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:validation-stage04-holdout-execution-wave1",
+      "target": "domain:no-external-reviewer discovery validation gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:validation-stage05-holdout-execution-wave2",
+      "target": "domain:no-external-reviewer discovery validation gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:validation-stage06-counterexample-search",
+      "target": "domain:no-external-reviewer discovery validation gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:validation-stage07-rival-theory-stress",
+      "target": "domain:no-external-reviewer discovery validation gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:validation-stage08-mutation-tests",
+      "target": "domain:no-external-reviewer discovery validation gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:validation-stage09-fresh-workspace-replay",
+      "target": "domain:no-external-reviewer discovery validation gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:validation-stage10-synthetic-reviewer-panel",
+      "target": "domain:no-external-reviewer discovery validation gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:validation-stage11-adversarial-kill-week",
+      "target": "domain:no-external-reviewer discovery validation gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:validation-stage12-decision-calibration",
+      "target": "domain:no-external-reviewer discovery validation gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:validation-stage13-candidate-revision-or-rejection",
+      "target": "domain:no-external-reviewer discovery validation gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:validation-stage14-paper-or-failure-package",
+      "target": "domain:no-external-reviewer discovery validation gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:validation-stage15-final-gauntlet-audit",
+      "target": "domain:no-external-reviewer discovery validation gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:validation-stage16-next-frontier-selection",
+      "target": "domain:no-external-reviewer discovery validation gauntlet",
+      "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "281a5eab969814a1424a834f9d591a9ddc6c60cb5e6f0a289ad00883ea0f309b"
+  "evidenceHash": "b65f47f111309ac34cc10a24e9c67c5370fac512201303791188153dfb504607"
 }

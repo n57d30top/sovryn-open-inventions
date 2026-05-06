@@ -1,0 +1,16 @@
+{
+  "decision": "promising_with_strong_caveats",
+  "revisedClaim": "Receipt-stable descriptor residuals remain a promising bounded signal only when the receipt is stable, the descriptor is explicit, the baseline does not fully explain the residual, and replay preserves the coarse descriptor. The gauntlet narrowed the candidate on package metadata and sparse public-table cases.",
+  "confidence": 0.58,
+  "downgradedComponents": [
+    "package metadata residuals without runtime evidence",
+    "sparse-table residuals explained by missingness",
+    "receipt stability used without baseline pressure"
+  ],
+  "preservedComponents": [
+    "receipt hash stability as a necessary screen",
+    "descriptor mutation sensitivity on structured datasets",
+    "fresh holdout support on several public data artifacts"
+  ],
+  "einsteinPathScoreUpdate": "64 -> 62 because the gauntlet improved falsification pressure but narrowed the discovery candidate."
+}

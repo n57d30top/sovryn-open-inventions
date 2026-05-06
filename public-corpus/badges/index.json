@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T20:15:33.067Z",
+  "generatedAt": "2026-05-06T20:59:34.482Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -4789,7 +4789,295 @@
       },
       "lifecycleStatus": "needs_revision",
       "showcaseRank": null
+    },
+    {
+      "slug": "validation-stage01-candidate-inspection",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "validation-stage01-candidate-inspection",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "validation-stage02-freeze-ledger-and-predictions",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "validation-stage02-freeze-ledger-and-predictions",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "validation-stage03-blind-holdout-selection",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "validation-stage03-blind-holdout-selection",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "validation-stage04-holdout-execution-wave1",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "validation-stage04-holdout-execution-wave1",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "validation-stage05-holdout-execution-wave2",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "validation-stage05-holdout-execution-wave2",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "validation-stage06-counterexample-search",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "validation-stage06-counterexample-search",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "validation-stage07-rival-theory-stress",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "validation-stage07-rival-theory-stress",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "validation-stage08-mutation-tests",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "validation-stage08-mutation-tests",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "validation-stage09-fresh-workspace-replay",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "validation-stage09-fresh-workspace-replay",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "validation-stage10-synthetic-reviewer-panel",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "validation-stage10-synthetic-reviewer-panel",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "validation-stage11-adversarial-kill-week",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "validation-stage11-adversarial-kill-week",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "validation-stage12-decision-calibration",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "validation-stage12-decision-calibration",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "validation-stage13-candidate-revision-or-rejection",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "validation-stage13-candidate-revision-or-rejection",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "validation-stage14-paper-or-failure-package",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "validation-stage14-paper-or-failure-package",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "validation-stage15-final-gauntlet-audit",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "validation-stage15-final-gauntlet-audit",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "validation-stage16-next-frontier-selection",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "validation-stage16-next-frontier-selection",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
     }
   ],
-  "evidenceHash": "53554da52903a8d61163ab5c4e820da18d69e19e9dd3f5e6492843d70e8ac8f7"
+  "evidenceHash": "296f983f3b4bdf943684fce362348d00ee2c96167ad96bfa11de90e9ce346853"
 }
