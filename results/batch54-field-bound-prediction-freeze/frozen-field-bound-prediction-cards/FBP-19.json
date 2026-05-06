@@ -1,0 +1,45 @@
+{
+  "predictionId": "FBP-19",
+  "target": "sklearn_linnerud_quality",
+  "domain": "dataset_quality_reliability",
+  "claimType": "dataset_quality_claim",
+  "proposedClaim": "Field-bound safety decision for sklearn_linnerud_quality.",
+  "requiredFields": [
+    "source_url",
+    "data_access_method",
+    "task_definition",
+    "target_or_claim_variable",
+    "protocol_or_procedure",
+    "baseline_result",
+    "stronger_comparator",
+    "negative_control",
+    "metric_plan",
+    "metric_result",
+    "schema_summary",
+    "missingness_summary"
+  ],
+  "fieldsExpectedPresent": [
+    "source_url",
+    "data_access_method",
+    "task_definition",
+    "target_or_claim_variable",
+    "protocol_or_procedure",
+    "baseline_result",
+    "stronger_comparator",
+    "negative_control",
+    "metric_plan"
+  ],
+  "fieldsExpectedMissing": [
+    "metric_result",
+    "schema_summary",
+    "missingness_summary"
+  ],
+  "predictedClaimSafetyLabel": "claim_allowed_with_caveats",
+  "expectedFalsifier": "Observed required fields support a different claim-safety label than predicted.",
+  "negativeControl": "Remove or scramble a required field and check whether the decision weakens.",
+  "replayPlan": "Repeat field collection or rerun the public evidence check.",
+  "control": "ordinary",
+  "frozenTimestamp": "2026-05-06T17:54:45Z",
+  "noEditRule": "Prediction was frozen before Batch 55 execution.",
+  "preregistrationHash": "e7f0c5fe03aef24d9216ba0e6b9864c03adf72cf53aa381ed5a9788269980145"
+}

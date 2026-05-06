@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T17:38:59.800Z",
+  "generatedAt": "2026-05-06T17:55:43.838Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 104,
+    "good": 110,
     "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 84,
+    "autopublished": 90,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -967,6 +967,90 @@
       "specificityScore": 94
     },
     {
+      "slug": "batch53-evidence-field-taxonomy-and-claim-boundaries",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch53-evidence-field-taxonomy-and-claim-boundaries",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "batch54-field-bound-prediction-freeze",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch54-field-bound-prediction-freeze",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "batch55-field-bound-claim-safety-execution",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch55-field-bound-claim-safety-execution",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "batch56-cross-domain-field-bound-transfer",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch56-cross-domain-field-bound-transfer",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "batch57-field-bound-kill-week",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch57-field-bound-kill-week",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "batch58-field-bound-claim-safety-standard",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch58-field-bound-claim-safety-standard",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
       "slug": "batch6-diamonds-data-quality-netoff-ladder",
       "qualityLabel": "good",
       "antiTemplateStatus": "review_ready",
@@ -1625,5 +1709,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "b673ed978b79c614b6db5cae80af9804396eb12df94179bff8b69c0efff0de5d"
+  "evidenceHash": "e11272d9a05f3aab2376141303e6c2d4b425de48791c75889d775b50b2feed3d"
 }

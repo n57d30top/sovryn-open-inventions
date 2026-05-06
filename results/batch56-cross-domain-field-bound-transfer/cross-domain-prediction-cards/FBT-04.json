@@ -1,0 +1,12 @@
+{
+  "transferPredictionId": "FBT-04",
+  "principle": "Required Evidence Field Boundary",
+  "domain": "repo_test_reproduction",
+  "target": "repo_test_reproduction_case_04",
+  "domainMapping": "Required fields become the minimal evidence cells needed for a claim-safety decision in this domain.",
+  "predictedTransferLabel": "not_applicable",
+  "expectedFalsifier": "A claim decision remains well-supported despite missing the field marked required.",
+  "frozenTimestamp": "2026-05-06T17:54:45Z",
+  "noEditRule": "Transfer prediction was frozen before execution.",
+  "preregistrationHash": "f2f4c113f4a6407f7f637ada265beeccf7fe3488d674f5b393573fa7826dd8c8"
+}

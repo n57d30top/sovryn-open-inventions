@@ -73,6 +73,12 @@ can supersede earlier entries while preserving audit history.
 - batch50-surprise-prediction-tournament: latest batch50-surprise-prediction-tournament; versions batch50-surprise-prediction-tournament
 - batch51-cross-domain-principle-test: latest batch51-cross-domain-principle-test; versions batch51-cross-domain-principle-test
 - batch52-conceptual-discovery-paper: latest batch52-conceptual-discovery-paper; versions batch52-conceptual-discovery-paper
+- batch53-evidence-field-taxonomy-and-claim-boundaries: latest batch53-evidence-field-taxonomy-and-claim-boundaries; versions batch53-evidence-field-taxonomy-and-claim-boundaries
+- batch54-field-bound-prediction-freeze: latest batch54-field-bound-prediction-freeze; versions batch54-field-bound-prediction-freeze
+- batch55-field-bound-claim-safety-execution: latest batch55-field-bound-claim-safety-execution; versions batch55-field-bound-claim-safety-execution
+- batch56-cross-domain-field-bound-transfer: latest batch56-cross-domain-field-bound-transfer; versions batch56-cross-domain-field-bound-transfer
+- batch57-field-bound-kill-week: latest batch57-field-bound-kill-week; versions batch57-field-bound-kill-week
+- batch58-field-bound-claim-safety-standard: latest batch58-field-bound-claim-safety-standard; versions batch58-field-bound-claim-safety-standard
 - batch6-diamonds-data-quality-netoff-ladder: latest batch6-diamonds-data-quality-netoff-ladder; versions batch6-diamonds-data-quality-netoff-ladder
 - batch6-scikit-learn-iris-reproduction-ladder: latest batch6-scikit-learn-iris-reproduction-ladder; versions batch6-scikit-learn-iris-reproduction-ladder
 - batch6-uci-concrete-baseline-reproduction-ladder: latest batch6-uci-concrete-baseline-reproduction-ladder; versions batch6-uci-concrete-baseline-reproduction-ladder

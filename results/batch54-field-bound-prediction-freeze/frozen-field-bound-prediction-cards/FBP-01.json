@@ -1,0 +1,45 @@
+{
+  "predictionId": "FBP-01",
+  "target": "sklearn_digits_control",
+  "domain": "benchmark_protocol_validation",
+  "claimType": "benchmark_performance_claim",
+  "proposedClaim": "Field-bound safety decision for sklearn_digits_control.",
+  "requiredFields": [
+    "source_url",
+    "data_access_method",
+    "task_definition",
+    "target_or_claim_variable",
+    "protocol_or_procedure",
+    "baseline_result",
+    "stronger_comparator",
+    "negative_control",
+    "metric_plan",
+    "metric_result",
+    "train_test_split_definition",
+    "random_or_stratified_challenger"
+  ],
+  "fieldsExpectedPresent": [
+    "source_url",
+    "data_access_method",
+    "task_definition",
+    "target_or_claim_variable",
+    "protocol_or_procedure",
+    "baseline_result",
+    "stronger_comparator",
+    "negative_control",
+    "metric_plan"
+  ],
+  "fieldsExpectedMissing": [
+    "metric_result",
+    "train_test_split_definition",
+    "random_or_stratified_challenger"
+  ],
+  "predictedClaimSafetyLabel": "claim_allowed_with_caveats",
+  "expectedFalsifier": "Observed required fields support a different claim-safety label than predicted.",
+  "negativeControl": "Remove or scramble a required field and check whether the decision weakens.",
+  "replayPlan": "Repeat field collection or rerun the public evidence check.",
+  "control": "low_risk",
+  "frozenTimestamp": "2026-05-06T17:54:45Z",
+  "noEditRule": "Prediction was frozen before Batch 55 execution.",
+  "preregistrationHash": "b3f701bab0c57a7d5d2d8c4ecdb48c0a84a51630459d546d4d06ed123f49010e"
+}

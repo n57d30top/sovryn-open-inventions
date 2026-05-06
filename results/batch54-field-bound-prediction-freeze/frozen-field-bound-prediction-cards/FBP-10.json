@@ -1,0 +1,45 @@
+{
+  "predictionId": "FBP-10",
+  "target": "shuffled_temporal_control",
+  "domain": "time_series_temporal_evaluation",
+  "claimType": "time_series_anomaly_claim",
+  "proposedClaim": "Field-bound safety decision for shuffled_temporal_control.",
+  "requiredFields": [
+    "source_url",
+    "data_access_method",
+    "task_definition",
+    "target_or_claim_variable",
+    "protocol_or_procedure",
+    "baseline_result",
+    "stronger_comparator",
+    "negative_control",
+    "metric_plan",
+    "metric_result",
+    "temporal_order_binding",
+    "temporal_split_definition"
+  ],
+  "fieldsExpectedPresent": [
+    "source_url",
+    "data_access_method",
+    "task_definition",
+    "target_or_claim_variable",
+    "protocol_or_procedure",
+    "baseline_result",
+    "stronger_comparator",
+    "negative_control",
+    "metric_plan"
+  ],
+  "fieldsExpectedMissing": [
+    "metric_result",
+    "temporal_order_binding",
+    "temporal_split_definition"
+  ],
+  "predictedClaimSafetyLabel": "claim_downgraded",
+  "expectedFalsifier": "Observed required fields support a different claim-safety label than predicted.",
+  "negativeControl": "Remove or scramble a required field and check whether the decision weakens.",
+  "replayPlan": "Repeat field collection or rerun the public evidence check.",
+  "control": "ordinary",
+  "frozenTimestamp": "2026-05-06T17:54:45Z",
+  "noEditRule": "Prediction was frozen before Batch 55 execution.",
+  "preregistrationHash": "0decc7bddf41ebf6af6a92767202e40aa21aec1e06be1a98ee47f0b98b9af46e"
+}

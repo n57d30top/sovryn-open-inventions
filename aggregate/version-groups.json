@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T17:38:59.800Z",
+  "updatedAt": "2026-05-06T17:55:43.838Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -479,6 +479,48 @@
       ]
     },
     {
+      "versionGroup": "batch53-evidence-field-taxonomy-and-claim-boundaries",
+      "latestSlug": "batch53-evidence-field-taxonomy-and-claim-boundaries",
+      "resultSlugs": [
+        "batch53-evidence-field-taxonomy-and-claim-boundaries"
+      ]
+    },
+    {
+      "versionGroup": "batch54-field-bound-prediction-freeze",
+      "latestSlug": "batch54-field-bound-prediction-freeze",
+      "resultSlugs": [
+        "batch54-field-bound-prediction-freeze"
+      ]
+    },
+    {
+      "versionGroup": "batch55-field-bound-claim-safety-execution",
+      "latestSlug": "batch55-field-bound-claim-safety-execution",
+      "resultSlugs": [
+        "batch55-field-bound-claim-safety-execution"
+      ]
+    },
+    {
+      "versionGroup": "batch56-cross-domain-field-bound-transfer",
+      "latestSlug": "batch56-cross-domain-field-bound-transfer",
+      "resultSlugs": [
+        "batch56-cross-domain-field-bound-transfer"
+      ]
+    },
+    {
+      "versionGroup": "batch57-field-bound-kill-week",
+      "latestSlug": "batch57-field-bound-kill-week",
+      "resultSlugs": [
+        "batch57-field-bound-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "batch58-field-bound-claim-safety-standard",
+      "latestSlug": "batch58-field-bound-claim-safety-standard",
+      "resultSlugs": [
+        "batch58-field-bound-claim-safety-standard"
+      ]
+    },
+    {
       "versionGroup": "batch6-diamonds-data-quality-netoff-ladder",
       "latestSlug": "batch6-diamonds-data-quality-netoff-ladder",
       "resultSlugs": [
@@ -724,5 +766,5 @@
       ]
     }
   ],
-  "evidenceHash": "53386fb881f420e3adb4caddb14a80a8f658522bd3d1016e5937d345f6b8b3c5"
+  "evidenceHash": "4e762783d36dbd38e3732595eba6e5a522f0a1048e416541563a64ed93698f9f"
 }

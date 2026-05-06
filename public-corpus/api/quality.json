@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 104,
+    "good": 110,
     "reviewable": 6
   },
   "results": [
@@ -347,6 +347,36 @@
       "releaseReadinessScore": 91
     },
     {
+      "slug": "batch53-evidence-field-taxonomy-and-claim-boundaries",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch54-field-bound-prediction-freeze",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch55-field-bound-claim-safety-execution",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch56-cross-domain-field-bound-transfer",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch57-field-bound-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch58-field-bound-claim-safety-standard",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
       "slug": "batch6-diamonds-data-quality-netoff-ladder",
       "qualityLabel": "good",
       "releaseReadinessScore": 90
@@ -582,5 +612,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "b673ed978b79c614b6db5cae80af9804396eb12df94179bff8b69c0efff0de5d"
+  "evidenceHash": "e11272d9a05f3aab2376141303e6c2d4b425de48791c75889d775b50b2feed3d"
 }

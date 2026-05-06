@@ -1,0 +1,43 @@
+{
+  "kind": "field_bound_claim_safety_standard_summary",
+  "slug": "batch58-field-bound-claim-safety-standard",
+  "title": "Batch 58 Field-Bound Claim Safety Standard",
+  "resultKind": "field_bound_claim_safety_standard",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 89,
+  "reproducibilityScore": 88,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 94,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "passes_falsification",
+  "baselineComparisonPresent": true,
+  "scientificMemoryUpdated": true,
+  "scientificQuestion": "Can Required Evidence Field Boundary predict and enforce claim safety across safe computational domains?",
+  "domain": "field-bound claim safety",
+  "limitations": [
+    "Bounded public computational evidence only.",
+    "Claim-safety labels are decision aids, not proof.",
+    "Failed and partial cases narrow the scope."
+  ],
+  "standardClassification": "field_bound_claim_safety_standard_v0_5",
+  "synthesizedBatches": [
+    "batch53",
+    "batch54",
+    "batch55",
+    "batch56",
+    "batch57"
+  ],
+  "claimTypesEvaluated": 10,
+  "evidenceFieldsConsidered": 240,
+  "finalRuleCount": 12,
+  "failedPartialCaseCount": 7,
+  "nextFrontierProgram": "Field-Bound Claim Safety External Pilot",
+  "evidenceHash": "e259b9c35bf2e26de731942a75e34e6d2f7b5ff36fb49851ac99dbac656e4685"
+}

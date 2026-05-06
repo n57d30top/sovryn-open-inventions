@@ -1,0 +1,12 @@
+{
+  "transferPredictionId": "FBT-09",
+  "principle": "Required Evidence Field Boundary",
+  "domain": "leakage_risk",
+  "target": "leakage_risk_case_09",
+  "domainMapping": "Required fields become the minimal evidence cells needed for a claim-safety decision in this domain.",
+  "predictedTransferLabel": "transfers_cleanly",
+  "expectedFalsifier": "A claim decision remains well-supported despite missing the field marked required.",
+  "frozenTimestamp": "2026-05-06T17:54:45Z",
+  "noEditRule": "Transfer prediction was frozen before execution.",
+  "preregistrationHash": "06f01417bcb01524254897c68c0f5b61717f5faad71cea56a3f982c71a99d26c"
+}

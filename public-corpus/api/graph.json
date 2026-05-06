@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T17:38:59.800Z",
+  "generatedAt": "2026-05-06T17:55:43.838Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -409,6 +409,42 @@
       "kind": "result",
       "label": "Batch 52 Conceptual Discovery Paper",
       "domain": "bounded conceptual discovery"
+    },
+    {
+      "id": "result:batch53-evidence-field-taxonomy-and-claim-boundaries",
+      "kind": "result",
+      "label": "Batch 53 Evidence Field Taxonomy and Claim Boundaries",
+      "domain": "field-bound claim safety"
+    },
+    {
+      "id": "result:batch54-field-bound-prediction-freeze",
+      "kind": "result",
+      "label": "Batch 54 Field-Bound Prediction Freeze",
+      "domain": "field-bound claim safety"
+    },
+    {
+      "id": "result:batch55-field-bound-claim-safety-execution",
+      "kind": "result",
+      "label": "Batch 55 Field-Bound Claim Safety Execution",
+      "domain": "field-bound claim safety"
+    },
+    {
+      "id": "result:batch56-cross-domain-field-bound-transfer",
+      "kind": "result",
+      "label": "Batch 56 Cross-Domain Field-Bound Transfer",
+      "domain": "field-bound claim safety"
+    },
+    {
+      "id": "result:batch57-field-bound-kill-week",
+      "kind": "result",
+      "label": "Batch 57 Field-Bound Kill Week",
+      "domain": "field-bound claim safety"
+    },
+    {
+      "id": "result:batch58-field-bound-claim-safety-standard",
+      "kind": "result",
+      "label": "Batch 58 Field-Bound Claim Safety Standard",
+      "domain": "field-bound claim safety"
     },
     {
       "id": "result:batch6-diamonds-data-quality-netoff-ladder",
@@ -841,6 +877,11 @@
       "id": "domain:time-series-dataset-quality-audit",
       "kind": "domain",
       "label": "time-series-dataset-quality-audit"
+    },
+    {
+      "id": "domain:field-bound claim safety",
+      "kind": "domain",
+      "label": "field-bound claim safety"
     },
     {
       "id": "domain:ml-repository-reproduction",
@@ -1570,6 +1611,96 @@
       "relation": "uses_public_tool_evidence"
     },
     {
+      "source": "result:batch53-evidence-field-taxonomy-and-claim-boundaries",
+      "target": "domain:field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch53-evidence-field-taxonomy-and-claim-boundaries",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch53-evidence-field-taxonomy-and-claim-boundaries",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch54-field-bound-prediction-freeze",
+      "target": "domain:field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch54-field-bound-prediction-freeze",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch54-field-bound-prediction-freeze",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch55-field-bound-claim-safety-execution",
+      "target": "domain:field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch55-field-bound-claim-safety-execution",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch55-field-bound-claim-safety-execution",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch56-cross-domain-field-bound-transfer",
+      "target": "domain:field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch56-cross-domain-field-bound-transfer",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch56-cross-domain-field-bound-transfer",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch57-field-bound-kill-week",
+      "target": "domain:field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch57-field-bound-kill-week",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch57-field-bound-kill-week",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch58-field-bound-claim-safety-standard",
+      "target": "domain:field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch58-field-bound-claim-safety-standard",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch58-field-bound-claim-safety-standard",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
       "source": "result:batch6-diamonds-data-quality-netoff-ladder",
       "target": "domain:public-dataset-quality-audit",
       "relation": "belongs_to_domain"
@@ -1980,5 +2111,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "43e81cc8f6cf8133fff98fc8b91fe03799d5828116dcb6cbac1ed82208ed5423"
+  "evidenceHash": "7e9c02c73b526c54619c7fc7960ebb811c4b832d0c3e2783c08d1781f39a226f"
 }

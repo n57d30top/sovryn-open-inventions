@@ -1,0 +1,12 @@
+{
+  "transferPredictionId": "FBT-06",
+  "principle": "Required Evidence Field Boundary",
+  "domain": "time_series_temporal_evaluation",
+  "target": "time_series_temporal_evaluation_case_06",
+  "domainMapping": "Required fields become the minimal evidence cells needed for a claim-safety decision in this domain.",
+  "predictedTransferLabel": "needs_domain_specific_adaptation",
+  "expectedFalsifier": "A claim decision remains well-supported despite missing the field marked required.",
+  "frozenTimestamp": "2026-05-06T17:54:45Z",
+  "noEditRule": "Transfer prediction was frozen before execution.",
+  "preregistrationHash": "7b2b35b5a390aa02106d3f8bc53a9c61b0b1aa91fecbdb755d9ed4e44f12696e"
+}

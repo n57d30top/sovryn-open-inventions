@@ -1,0 +1,45 @@
+{
+  "predictionId": "FBP-20",
+  "target": "digits_leakage_control",
+  "domain": "leakage_risk_detection",
+  "claimType": "leakage_risk_claim",
+  "proposedClaim": "Field-bound safety decision for digits_leakage_control.",
+  "requiredFields": [
+    "source_url",
+    "data_access_method",
+    "task_definition",
+    "target_or_claim_variable",
+    "protocol_or_procedure",
+    "baseline_result",
+    "stronger_comparator",
+    "negative_control",
+    "metric_plan",
+    "metric_result",
+    "direct_leakage_indicator",
+    "leakage_testability"
+  ],
+  "fieldsExpectedPresent": [
+    "source_url",
+    "data_access_method",
+    "task_definition",
+    "target_or_claim_variable",
+    "protocol_or_procedure",
+    "baseline_result",
+    "stronger_comparator",
+    "negative_control",
+    "metric_plan"
+  ],
+  "fieldsExpectedMissing": [
+    "metric_result",
+    "direct_leakage_indicator",
+    "leakage_testability"
+  ],
+  "predictedClaimSafetyLabel": "claim_blocked",
+  "expectedFalsifier": "Observed required fields support a different claim-safety label than predicted.",
+  "negativeControl": "Remove or scramble a required field and check whether the decision weakens.",
+  "replayPlan": "Repeat field collection or rerun the public evidence check.",
+  "control": "ordinary",
+  "frozenTimestamp": "2026-05-06T17:54:45Z",
+  "noEditRule": "Prediction was frozen before Batch 55 execution.",
+  "preregistrationHash": "20a83c3d0f24ffbb359a5e936628a8d354b647c7d33ad5e9fafc579eb95c4736"
+}

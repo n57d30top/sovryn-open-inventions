@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 115
+Results: 121
 
 ## Lifecycle Counts
 
-- autopublished: 84
+- autopublished: 90
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -80,6 +80,12 @@ Results: 115
 - batch50-surprise-prediction-tournament: latest batch50-surprise-prediction-tournament; batch50-surprise-prediction-tournament
 - batch51-cross-domain-principle-test: latest batch51-cross-domain-principle-test; batch51-cross-domain-principle-test
 - batch52-conceptual-discovery-paper: latest batch52-conceptual-discovery-paper; batch52-conceptual-discovery-paper
+- batch53-evidence-field-taxonomy-and-claim-boundaries: latest batch53-evidence-field-taxonomy-and-claim-boundaries; batch53-evidence-field-taxonomy-and-claim-boundaries
+- batch54-field-bound-prediction-freeze: latest batch54-field-bound-prediction-freeze; batch54-field-bound-prediction-freeze
+- batch55-field-bound-claim-safety-execution: latest batch55-field-bound-claim-safety-execution; batch55-field-bound-claim-safety-execution
+- batch56-cross-domain-field-bound-transfer: latest batch56-cross-domain-field-bound-transfer; batch56-cross-domain-field-bound-transfer
+- batch57-field-bound-kill-week: latest batch57-field-bound-kill-week; batch57-field-bound-kill-week
+- batch58-field-bound-claim-safety-standard: latest batch58-field-bound-claim-safety-standard; batch58-field-bound-claim-safety-standard
 - batch6-diamonds-data-quality-netoff-ladder: latest batch6-diamonds-data-quality-netoff-ladder; batch6-diamonds-data-quality-netoff-ladder
 - batch6-scikit-learn-iris-reproduction-ladder: latest batch6-scikit-learn-iris-reproduction-ladder; batch6-scikit-learn-iris-reproduction-ladder
 - batch6-uci-concrete-baseline-reproduction-ladder: latest batch6-uci-concrete-baseline-reproduction-ladder; batch6-uci-concrete-baseline-reproduction-ladder

@@ -1,0 +1,45 @@
+{
+  "predictionId": "FBP-17",
+  "target": "package_import_markupsafe",
+  "domain": "repo_test_reproduction",
+  "claimType": "repo_test_reproduction_claim",
+  "proposedClaim": "Field-bound safety decision for package_import_markupsafe.",
+  "requiredFields": [
+    "source_url",
+    "data_access_method",
+    "task_definition",
+    "target_or_claim_variable",
+    "protocol_or_procedure",
+    "baseline_result",
+    "stronger_comparator",
+    "negative_control",
+    "metric_plan",
+    "metric_result",
+    "repo_revision",
+    "install_or_build_result"
+  ],
+  "fieldsExpectedPresent": [
+    "source_url",
+    "data_access_method",
+    "task_definition",
+    "target_or_claim_variable",
+    "protocol_or_procedure",
+    "baseline_result",
+    "stronger_comparator",
+    "negative_control",
+    "metric_plan"
+  ],
+  "fieldsExpectedMissing": [
+    "metric_result",
+    "repo_revision",
+    "install_or_build_result"
+  ],
+  "predictedClaimSafetyLabel": "claim_allowed",
+  "expectedFalsifier": "Observed required fields support a different claim-safety label than predicted.",
+  "negativeControl": "Remove or scramble a required field and check whether the decision weakens.",
+  "replayPlan": "Repeat field collection or rerun the public evidence check.",
+  "control": "low_risk",
+  "frozenTimestamp": "2026-05-06T17:54:45Z",
+  "noEditRule": "Prediction was frozen before Batch 55 execution.",
+  "preregistrationHash": "b788d03e64ecb3bc941fd176e346394c67a839bc387980890b8be56f1d1e98d9"
+}

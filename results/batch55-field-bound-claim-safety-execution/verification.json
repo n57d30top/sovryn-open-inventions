@@ -1,0 +1,14 @@
+{
+  "slug": "batch55-field-bound-claim-safety-execution",
+  "resultKind": "field_bound_claim_safety_execution",
+  "checkedAt": "2026-05-06T17:54:45Z",
+  "executedPredictionCount": 16,
+  "domainCount": 8,
+  "evidenceCheckOrExecutionCount": 10,
+  "installProvisionOrExecutionAttempts": 6,
+  "replayAttemptCount": 4,
+  "negativeControlCount": 5,
+  "claimBlockedOrDowngradedCount": 7,
+  "claimCaveatedOrPreservedCount": 9,
+  "wrongPartialInconclusiveCount": 2
+}

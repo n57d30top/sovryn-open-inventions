@@ -1,0 +1,168 @@
+{
+  "createdAt": "2026-05-06T17:54:45Z",
+  "environment": {
+    "packages": [
+      {
+        "name": "markupsafe",
+        "version": "3.0.3"
+      },
+      {
+        "name": "itsdangerous",
+        "version": "2.2.0"
+      },
+      {
+        "name": "pandas",
+        "version": "3.0.2"
+      },
+      {
+        "name": "scikit-learn",
+        "version": "1.8.0"
+      },
+      {
+        "name": "statsmodels",
+        "version": "0.14.6"
+      },
+      {
+        "name": "numpy",
+        "version": "2.4.4"
+      }
+    ],
+    "importChecksPassed": true
+  },
+  "datasets": [
+    {
+      "name": "sklearn_iris",
+      "rows": 150,
+      "features": 4,
+      "missingValues": 0,
+      "duplicateFeatureRows": 1,
+      "targetClasses": 3,
+      "minClassSupport": 50
+    },
+    {
+      "name": "sklearn_wine",
+      "rows": 178,
+      "features": 13,
+      "missingValues": 0,
+      "duplicateFeatureRows": 0,
+      "targetClasses": 3,
+      "minClassSupport": 48
+    },
+    {
+      "name": "sklearn_digits",
+      "rows": 1797,
+      "features": 64,
+      "missingValues": 0,
+      "duplicateFeatureRows": 0,
+      "targetClasses": 10,
+      "minClassSupport": 174
+    },
+    {
+      "name": "sklearn_linnerud",
+      "rows": 20,
+      "features": 3,
+      "missingValues": 0,
+      "duplicateFeatureRows": 0,
+      "targetClasses": 35,
+      "minClassSupport": null
+    }
+  ],
+  "classificationRuns": [
+    {
+      "name": "sklearn_wine",
+      "seed": 53,
+      "trainRows": 124,
+      "testRows": 54,
+      "logisticAccuracy": 1.0,
+      "logisticMacroF1": 1.0,
+      "dummyAccuracy": 0.3889,
+      "dummyMacroF1": 0.1867,
+      "shuffledLabelAccuracy": 0.5,
+      "shuffledLabelMacroF1": 0.4466,
+      "freshSeedAccuracy": 0.9815,
+      "freshSeedMacroF1": 0.9829
+    },
+    {
+      "name": "sklearn_digits",
+      "seed": 54,
+      "trainRows": 1257,
+      "testRows": 540,
+      "logisticAccuracy": 0.9667,
+      "logisticMacroF1": 0.9667,
+      "dummyAccuracy": 0.1019,
+      "dummyMacroF1": 0.0185,
+      "shuffledLabelAccuracy": 0.0963,
+      "shuffledLabelMacroF1": 0.0955,
+      "freshSeedAccuracy": 0.9722,
+      "freshSeedMacroF1": 0.9721
+    },
+    {
+      "name": "sklearn_iris",
+      "seed": 55,
+      "trainRows": 105,
+      "testRows": 45,
+      "logisticAccuracy": 1.0,
+      "logisticMacroF1": 1.0,
+      "dummyAccuracy": 0.3333,
+      "dummyMacroF1": 0.1667,
+      "shuffledLabelAccuracy": 0.1111,
+      "shuffledLabelMacroF1": 0.11,
+      "freshSeedAccuracy": 0.9556,
+      "freshSeedMacroF1": 0.9554
+    }
+  ],
+  "temporalRun": {
+    "name": "statsmodels_sunspots",
+    "rows": 309,
+    "temporalOrderPresent": true,
+    "trainRows": 216,
+    "testRows": 93,
+    "naiveMAE": 40.8839,
+    "seasonalWindowMAE": 46.5903,
+    "shuffledOrderNaiveMAE": 32.4194
+  },
+  "repoRuntime": {
+    "repoRevision": "53acd6357ec1",
+    "version": "4.2.0-rc.1",
+    "scriptCount": 5,
+    "hasBuild": true,
+    "hasTest": true,
+    "hasFormatCheck": true,
+    "cliHelpExitCode": 0,
+    "cliHelpMentionsScientist": true,
+    "cliHelpMentionsTheory": true
+  },
+  "artifactChecks": [
+    {
+      "slug": "batch52-conceptual-discovery-paper",
+      "exists": true,
+      "filesPresent": {
+        "SUMMARY.json": true,
+        "SURVIVING_PRINCIPLE.md": true,
+        "CLAIM_EVIDENCE_BINDINGS.json": true
+      },
+      "presentCount": 3
+    },
+    {
+      "slug": "batch25-leakage-risk-cards-week1",
+      "exists": true,
+      "filesPresent": {
+        "SUMMARY.json": true,
+        "EXECUTED_LEAKAGE_CHECKS.md": true,
+        "SPLIT_RISK_VS_LEAKAGE_RISK.md": true
+      },
+      "presentCount": 3
+    },
+    {
+      "slug": "batch41-scientific-discovery-challenge",
+      "exists": true,
+      "filesPresent": {
+        "SUMMARY.json": true,
+        "DISCOVERY_RESULT.md": true,
+        "FALSIFICATION_REVIEW.md": true
+      },
+      "presentCount": 3
+    }
+  ],
+  "evidenceHash": "c37dcae89befa06946802a3528c63074e05f390dbdc85434a43860e12a1205b1"
+}

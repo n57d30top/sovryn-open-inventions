@@ -1,0 +1,45 @@
+{
+  "predictionId": "FBP-12",
+  "target": "metric_stress_validator_support",
+  "domain": "tool_usefulness",
+  "claimType": "tool_usefulness_claim",
+  "proposedClaim": "Field-bound safety decision for metric_stress_validator_support.",
+  "requiredFields": [
+    "source_url",
+    "data_access_method",
+    "task_definition",
+    "target_or_claim_variable",
+    "protocol_or_procedure",
+    "baseline_result",
+    "stronger_comparator",
+    "negative_control",
+    "metric_plan",
+    "metric_result",
+    "simple_baseline_comparison",
+    "tool_ablation"
+  ],
+  "fieldsExpectedPresent": [
+    "source_url",
+    "data_access_method",
+    "task_definition",
+    "target_or_claim_variable",
+    "protocol_or_procedure",
+    "baseline_result",
+    "stronger_comparator",
+    "negative_control",
+    "metric_plan"
+  ],
+  "fieldsExpectedMissing": [
+    "metric_result",
+    "simple_baseline_comparison",
+    "tool_ablation"
+  ],
+  "predictedClaimSafetyLabel": "claim_allowed_with_caveats",
+  "expectedFalsifier": "Observed required fields support a different claim-safety label than predicted.",
+  "negativeControl": "Remove or scramble a required field and check whether the decision weakens.",
+  "replayPlan": "Repeat field collection or rerun the public evidence check.",
+  "control": "ordinary",
+  "frozenTimestamp": "2026-05-06T17:54:45Z",
+  "noEditRule": "Prediction was frozen before Batch 55 execution.",
+  "preregistrationHash": "ca0521eea9f6db5a7038bc217567acc72e91c4c8f5589121de09c52c53a5b168"
+}

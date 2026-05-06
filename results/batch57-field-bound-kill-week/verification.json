@@ -1,0 +1,11 @@
+{
+  "slug": "batch57-field-bound-kill-week",
+  "resultKind": "field_bound_kill_week",
+  "checkedAt": "2026-05-06T17:54:45Z",
+  "attackedComponentCount": 20,
+  "domainCount": 8,
+  "rulesDowngradedNarrowedRejected": 4,
+  "rulesPreserved": 5,
+  "revisionRequirementCount": 5,
+  "wrongPartialInconclusiveInputs": 4
+}

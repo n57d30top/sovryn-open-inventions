@@ -1,0 +1,45 @@
+{
+  "predictionId": "FBP-13",
+  "target": "required_evidence_field_boundary",
+  "domain": "conceptual_principle",
+  "claimType": "conceptual_principle_claim",
+  "proposedClaim": "Field-bound safety decision for required_evidence_field_boundary.",
+  "requiredFields": [
+    "source_url",
+    "data_access_method",
+    "task_definition",
+    "target_or_claim_variable",
+    "protocol_or_procedure",
+    "baseline_result",
+    "stronger_comparator",
+    "negative_control",
+    "metric_plan",
+    "metric_result",
+    "rival_principles",
+    "discriminating_predictions"
+  ],
+  "fieldsExpectedPresent": [
+    "source_url",
+    "data_access_method",
+    "task_definition",
+    "target_or_claim_variable",
+    "protocol_or_procedure",
+    "baseline_result",
+    "stronger_comparator",
+    "negative_control",
+    "metric_plan"
+  ],
+  "fieldsExpectedMissing": [
+    "metric_result",
+    "rival_principles",
+    "discriminating_predictions"
+  ],
+  "predictedClaimSafetyLabel": "claim_allowed_with_caveats",
+  "expectedFalsifier": "Observed required fields support a different claim-safety label than predicted.",
+  "negativeControl": "Remove or scramble a required field and check whether the decision weakens.",
+  "replayPlan": "Repeat field collection or rerun the public evidence check.",
+  "control": "ordinary",
+  "frozenTimestamp": "2026-05-06T17:54:45Z",
+  "noEditRule": "Prediction was frozen before Batch 55 execution.",
+  "preregistrationHash": "254e0e94540456444e3d49c384ea9cbee82c0423fd30c5deca960dce770694b6"
+}

@@ -1,0 +1,2576 @@
+{
+  "nodes": [
+    {
+      "id": "benchmark_performance_claim",
+      "type": "claim_type",
+      "label": "Benchmark performance claim"
+    },
+    {
+      "id": "benchmark_performance_claim.source_url",
+      "type": "evidence_field",
+      "label": "source_url"
+    },
+    {
+      "id": "benchmark_performance_claim.data_access_method",
+      "type": "evidence_field",
+      "label": "data_access_method"
+    },
+    {
+      "id": "benchmark_performance_claim.task_definition",
+      "type": "evidence_field",
+      "label": "task_definition"
+    },
+    {
+      "id": "benchmark_performance_claim.target_or_claim_variable",
+      "type": "evidence_field",
+      "label": "target_or_claim_variable"
+    },
+    {
+      "id": "benchmark_performance_claim.protocol_or_procedure",
+      "type": "evidence_field",
+      "label": "protocol_or_procedure"
+    },
+    {
+      "id": "benchmark_performance_claim.baseline_result",
+      "type": "evidence_field",
+      "label": "baseline_result"
+    },
+    {
+      "id": "benchmark_performance_claim.stronger_comparator",
+      "type": "evidence_field",
+      "label": "stronger_comparator"
+    },
+    {
+      "id": "benchmark_performance_claim.negative_control",
+      "type": "evidence_field",
+      "label": "negative_control"
+    },
+    {
+      "id": "benchmark_performance_claim.metric_plan",
+      "type": "evidence_field",
+      "label": "metric_plan"
+    },
+    {
+      "id": "benchmark_performance_claim.metric_result",
+      "type": "evidence_field",
+      "label": "metric_result"
+    },
+    {
+      "id": "benchmark_performance_claim.class_or_case_distribution",
+      "type": "evidence_field",
+      "label": "class_or_case_distribution"
+    },
+    {
+      "id": "benchmark_performance_claim.group_file_subject_fields",
+      "type": "evidence_field",
+      "label": "group_file_subject_fields"
+    },
+    {
+      "id": "benchmark_performance_claim.duplicate_or_overlap_check",
+      "type": "evidence_field",
+      "label": "duplicate_or_overlap_check"
+    },
+    {
+      "id": "benchmark_performance_claim.feature_target_leakage_check",
+      "type": "evidence_field",
+      "label": "feature_target_leakage_check"
+    },
+    {
+      "id": "benchmark_performance_claim.environment_summary",
+      "type": "evidence_field",
+      "label": "environment_summary"
+    },
+    {
+      "id": "benchmark_performance_claim.package_versions",
+      "type": "evidence_field",
+      "label": "package_versions"
+    },
+    {
+      "id": "benchmark_performance_claim.replay_status",
+      "type": "evidence_field",
+      "label": "replay_status"
+    },
+    {
+      "id": "benchmark_performance_claim.artifact_manifest",
+      "type": "evidence_field",
+      "label": "artifact_manifest"
+    },
+    {
+      "id": "benchmark_performance_claim.claim_scope",
+      "type": "evidence_field",
+      "label": "claim_scope"
+    },
+    {
+      "id": "benchmark_performance_claim.limitations",
+      "type": "evidence_field",
+      "label": "limitations"
+    },
+    {
+      "id": "benchmark_performance_claim.train_test_split_definition",
+      "type": "evidence_field",
+      "label": "train_test_split_definition"
+    },
+    {
+      "id": "benchmark_performance_claim.random_or_stratified_challenger",
+      "type": "evidence_field",
+      "label": "random_or_stratified_challenger"
+    },
+    {
+      "id": "benchmark_performance_claim.per_class_metric_summary",
+      "type": "evidence_field",
+      "label": "per_class_metric_summary"
+    },
+    {
+      "id": "benchmark_performance_claim.seed_record",
+      "type": "evidence_field",
+      "label": "seed_record"
+    },
+    {
+      "id": "protocol_first_evaluation_claim",
+      "type": "claim_type",
+      "label": "Protocol-first evaluation claim"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.source_url",
+      "type": "evidence_field",
+      "label": "source_url"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.data_access_method",
+      "type": "evidence_field",
+      "label": "data_access_method"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.task_definition",
+      "type": "evidence_field",
+      "label": "task_definition"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.target_or_claim_variable",
+      "type": "evidence_field",
+      "label": "target_or_claim_variable"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.protocol_or_procedure",
+      "type": "evidence_field",
+      "label": "protocol_or_procedure"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.baseline_result",
+      "type": "evidence_field",
+      "label": "baseline_result"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.stronger_comparator",
+      "type": "evidence_field",
+      "label": "stronger_comparator"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.negative_control",
+      "type": "evidence_field",
+      "label": "negative_control"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.metric_plan",
+      "type": "evidence_field",
+      "label": "metric_plan"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.metric_result",
+      "type": "evidence_field",
+      "label": "metric_result"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.class_or_case_distribution",
+      "type": "evidence_field",
+      "label": "class_or_case_distribution"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.group_file_subject_fields",
+      "type": "evidence_field",
+      "label": "group_file_subject_fields"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.duplicate_or_overlap_check",
+      "type": "evidence_field",
+      "label": "duplicate_or_overlap_check"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.feature_target_leakage_check",
+      "type": "evidence_field",
+      "label": "feature_target_leakage_check"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.environment_summary",
+      "type": "evidence_field",
+      "label": "environment_summary"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.package_versions",
+      "type": "evidence_field",
+      "label": "package_versions"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.replay_status",
+      "type": "evidence_field",
+      "label": "replay_status"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.artifact_manifest",
+      "type": "evidence_field",
+      "label": "artifact_manifest"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.claim_scope",
+      "type": "evidence_field",
+      "label": "claim_scope"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.limitations",
+      "type": "evidence_field",
+      "label": "limitations"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.source_protocol_card",
+      "type": "evidence_field",
+      "label": "source_protocol_card"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.protocol_ambiguity_notes",
+      "type": "evidence_field",
+      "label": "protocol_ambiguity_notes"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.source_vs_random_delta",
+      "type": "evidence_field",
+      "label": "source_vs_random_delta"
+    },
+    {
+      "id": "protocol_first_evaluation_claim.protocol_status_label",
+      "type": "evidence_field",
+      "label": "protocol_status_label"
+    },
+    {
+      "id": "leakage_risk_claim",
+      "type": "claim_type",
+      "label": "Leakage-risk claim"
+    },
+    {
+      "id": "leakage_risk_claim.source_url",
+      "type": "evidence_field",
+      "label": "source_url"
+    },
+    {
+      "id": "leakage_risk_claim.data_access_method",
+      "type": "evidence_field",
+      "label": "data_access_method"
+    },
+    {
+      "id": "leakage_risk_claim.task_definition",
+      "type": "evidence_field",
+      "label": "task_definition"
+    },
+    {
+      "id": "leakage_risk_claim.target_or_claim_variable",
+      "type": "evidence_field",
+      "label": "target_or_claim_variable"
+    },
+    {
+      "id": "leakage_risk_claim.protocol_or_procedure",
+      "type": "evidence_field",
+      "label": "protocol_or_procedure"
+    },
+    {
+      "id": "leakage_risk_claim.baseline_result",
+      "type": "evidence_field",
+      "label": "baseline_result"
+    },
+    {
+      "id": "leakage_risk_claim.stronger_comparator",
+      "type": "evidence_field",
+      "label": "stronger_comparator"
+    },
+    {
+      "id": "leakage_risk_claim.negative_control",
+      "type": "evidence_field",
+      "label": "negative_control"
+    },
+    {
+      "id": "leakage_risk_claim.metric_plan",
+      "type": "evidence_field",
+      "label": "metric_plan"
+    },
+    {
+      "id": "leakage_risk_claim.metric_result",
+      "type": "evidence_field",
+      "label": "metric_result"
+    },
+    {
+      "id": "leakage_risk_claim.class_or_case_distribution",
+      "type": "evidence_field",
+      "label": "class_or_case_distribution"
+    },
+    {
+      "id": "leakage_risk_claim.group_file_subject_fields",
+      "type": "evidence_field",
+      "label": "group_file_subject_fields"
+    },
+    {
+      "id": "leakage_risk_claim.duplicate_or_overlap_check",
+      "type": "evidence_field",
+      "label": "duplicate_or_overlap_check"
+    },
+    {
+      "id": "leakage_risk_claim.feature_target_leakage_check",
+      "type": "evidence_field",
+      "label": "feature_target_leakage_check"
+    },
+    {
+      "id": "leakage_risk_claim.environment_summary",
+      "type": "evidence_field",
+      "label": "environment_summary"
+    },
+    {
+      "id": "leakage_risk_claim.package_versions",
+      "type": "evidence_field",
+      "label": "package_versions"
+    },
+    {
+      "id": "leakage_risk_claim.replay_status",
+      "type": "evidence_field",
+      "label": "replay_status"
+    },
+    {
+      "id": "leakage_risk_claim.artifact_manifest",
+      "type": "evidence_field",
+      "label": "artifact_manifest"
+    },
+    {
+      "id": "leakage_risk_claim.claim_scope",
+      "type": "evidence_field",
+      "label": "claim_scope"
+    },
+    {
+      "id": "leakage_risk_claim.limitations",
+      "type": "evidence_field",
+      "label": "limitations"
+    },
+    {
+      "id": "leakage_risk_claim.direct_leakage_indicator",
+      "type": "evidence_field",
+      "label": "direct_leakage_indicator"
+    },
+    {
+      "id": "leakage_risk_claim.leakage_testability",
+      "type": "evidence_field",
+      "label": "leakage_testability"
+    },
+    {
+      "id": "leakage_risk_claim.group_overlap_result",
+      "type": "evidence_field",
+      "label": "group_overlap_result"
+    },
+    {
+      "id": "leakage_risk_claim.duplicate_transfer_result",
+      "type": "evidence_field",
+      "label": "duplicate_transfer_result"
+    },
+    {
+      "id": "repair_success_claim",
+      "type": "claim_type",
+      "label": "Repair-success claim"
+    },
+    {
+      "id": "repair_success_claim.source_url",
+      "type": "evidence_field",
+      "label": "source_url"
+    },
+    {
+      "id": "repair_success_claim.data_access_method",
+      "type": "evidence_field",
+      "label": "data_access_method"
+    },
+    {
+      "id": "repair_success_claim.task_definition",
+      "type": "evidence_field",
+      "label": "task_definition"
+    },
+    {
+      "id": "repair_success_claim.target_or_claim_variable",
+      "type": "evidence_field",
+      "label": "target_or_claim_variable"
+    },
+    {
+      "id": "repair_success_claim.protocol_or_procedure",
+      "type": "evidence_field",
+      "label": "protocol_or_procedure"
+    },
+    {
+      "id": "repair_success_claim.baseline_result",
+      "type": "evidence_field",
+      "label": "baseline_result"
+    },
+    {
+      "id": "repair_success_claim.stronger_comparator",
+      "type": "evidence_field",
+      "label": "stronger_comparator"
+    },
+    {
+      "id": "repair_success_claim.negative_control",
+      "type": "evidence_field",
+      "label": "negative_control"
+    },
+    {
+      "id": "repair_success_claim.metric_plan",
+      "type": "evidence_field",
+      "label": "metric_plan"
+    },
+    {
+      "id": "repair_success_claim.metric_result",
+      "type": "evidence_field",
+      "label": "metric_result"
+    },
+    {
+      "id": "repair_success_claim.class_or_case_distribution",
+      "type": "evidence_field",
+      "label": "class_or_case_distribution"
+    },
+    {
+      "id": "repair_success_claim.group_file_subject_fields",
+      "type": "evidence_field",
+      "label": "group_file_subject_fields"
+    },
+    {
+      "id": "repair_success_claim.duplicate_or_overlap_check",
+      "type": "evidence_field",
+      "label": "duplicate_or_overlap_check"
+    },
+    {
+      "id": "repair_success_claim.feature_target_leakage_check",
+      "type": "evidence_field",
+      "label": "feature_target_leakage_check"
+    },
+    {
+      "id": "repair_success_claim.environment_summary",
+      "type": "evidence_field",
+      "label": "environment_summary"
+    },
+    {
+      "id": "repair_success_claim.package_versions",
+      "type": "evidence_field",
+      "label": "package_versions"
+    },
+    {
+      "id": "repair_success_claim.replay_status",
+      "type": "evidence_field",
+      "label": "replay_status"
+    },
+    {
+      "id": "repair_success_claim.artifact_manifest",
+      "type": "evidence_field",
+      "label": "artifact_manifest"
+    },
+    {
+      "id": "repair_success_claim.claim_scope",
+      "type": "evidence_field",
+      "label": "claim_scope"
+    },
+    {
+      "id": "repair_success_claim.limitations",
+      "type": "evidence_field",
+      "label": "limitations"
+    },
+    {
+      "id": "repair_success_claim.before_after_matrix",
+      "type": "evidence_field",
+      "label": "before_after_matrix"
+    },
+    {
+      "id": "repair_success_claim.repair_falsifier",
+      "type": "evidence_field",
+      "label": "repair_falsifier"
+    },
+    {
+      "id": "repair_success_claim.claim_safety_before_after",
+      "type": "evidence_field",
+      "label": "claim_safety_before_after"
+    },
+    {
+      "id": "repair_success_claim.failed_or_partial_repair_cases",
+      "type": "evidence_field",
+      "label": "failed_or_partial_repair_cases"
+    },
+    {
+      "id": "repo_test_reproduction_claim",
+      "type": "claim_type",
+      "label": "Repo/test reproduction claim"
+    },
+    {
+      "id": "repo_test_reproduction_claim.source_url",
+      "type": "evidence_field",
+      "label": "source_url"
+    },
+    {
+      "id": "repo_test_reproduction_claim.data_access_method",
+      "type": "evidence_field",
+      "label": "data_access_method"
+    },
+    {
+      "id": "repo_test_reproduction_claim.task_definition",
+      "type": "evidence_field",
+      "label": "task_definition"
+    },
+    {
+      "id": "repo_test_reproduction_claim.target_or_claim_variable",
+      "type": "evidence_field",
+      "label": "target_or_claim_variable"
+    },
+    {
+      "id": "repo_test_reproduction_claim.protocol_or_procedure",
+      "type": "evidence_field",
+      "label": "protocol_or_procedure"
+    },
+    {
+      "id": "repo_test_reproduction_claim.baseline_result",
+      "type": "evidence_field",
+      "label": "baseline_result"
+    },
+    {
+      "id": "repo_test_reproduction_claim.stronger_comparator",
+      "type": "evidence_field",
+      "label": "stronger_comparator"
+    },
+    {
+      "id": "repo_test_reproduction_claim.negative_control",
+      "type": "evidence_field",
+      "label": "negative_control"
+    },
+    {
+      "id": "repo_test_reproduction_claim.metric_plan",
+      "type": "evidence_field",
+      "label": "metric_plan"
+    },
+    {
+      "id": "repo_test_reproduction_claim.metric_result",
+      "type": "evidence_field",
+      "label": "metric_result"
+    },
+    {
+      "id": "repo_test_reproduction_claim.class_or_case_distribution",
+      "type": "evidence_field",
+      "label": "class_or_case_distribution"
+    },
+    {
+      "id": "repo_test_reproduction_claim.group_file_subject_fields",
+      "type": "evidence_field",
+      "label": "group_file_subject_fields"
+    },
+    {
+      "id": "repo_test_reproduction_claim.duplicate_or_overlap_check",
+      "type": "evidence_field",
+      "label": "duplicate_or_overlap_check"
+    },
+    {
+      "id": "repo_test_reproduction_claim.feature_target_leakage_check",
+      "type": "evidence_field",
+      "label": "feature_target_leakage_check"
+    },
+    {
+      "id": "repo_test_reproduction_claim.environment_summary",
+      "type": "evidence_field",
+      "label": "environment_summary"
+    },
+    {
+      "id": "repo_test_reproduction_claim.package_versions",
+      "type": "evidence_field",
+      "label": "package_versions"
+    },
+    {
+      "id": "repo_test_reproduction_claim.replay_status",
+      "type": "evidence_field",
+      "label": "replay_status"
+    },
+    {
+      "id": "repo_test_reproduction_claim.artifact_manifest",
+      "type": "evidence_field",
+      "label": "artifact_manifest"
+    },
+    {
+      "id": "repo_test_reproduction_claim.claim_scope",
+      "type": "evidence_field",
+      "label": "claim_scope"
+    },
+    {
+      "id": "repo_test_reproduction_claim.limitations",
+      "type": "evidence_field",
+      "label": "limitations"
+    },
+    {
+      "id": "repo_test_reproduction_claim.repo_revision",
+      "type": "evidence_field",
+      "label": "repo_revision"
+    },
+    {
+      "id": "repo_test_reproduction_claim.install_or_build_result",
+      "type": "evidence_field",
+      "label": "install_or_build_result"
+    },
+    {
+      "id": "repo_test_reproduction_claim.test_command_result",
+      "type": "evidence_field",
+      "label": "test_command_result"
+    },
+    {
+      "id": "repo_test_reproduction_claim.runtime_error_classification",
+      "type": "evidence_field",
+      "label": "runtime_error_classification"
+    },
+    {
+      "id": "dataset_quality_claim",
+      "type": "claim_type",
+      "label": "Dataset quality claim"
+    },
+    {
+      "id": "dataset_quality_claim.source_url",
+      "type": "evidence_field",
+      "label": "source_url"
+    },
+    {
+      "id": "dataset_quality_claim.data_access_method",
+      "type": "evidence_field",
+      "label": "data_access_method"
+    },
+    {
+      "id": "dataset_quality_claim.task_definition",
+      "type": "evidence_field",
+      "label": "task_definition"
+    },
+    {
+      "id": "dataset_quality_claim.target_or_claim_variable",
+      "type": "evidence_field",
+      "label": "target_or_claim_variable"
+    },
+    {
+      "id": "dataset_quality_claim.protocol_or_procedure",
+      "type": "evidence_field",
+      "label": "protocol_or_procedure"
+    },
+    {
+      "id": "dataset_quality_claim.baseline_result",
+      "type": "evidence_field",
+      "label": "baseline_result"
+    },
+    {
+      "id": "dataset_quality_claim.stronger_comparator",
+      "type": "evidence_field",
+      "label": "stronger_comparator"
+    },
+    {
+      "id": "dataset_quality_claim.negative_control",
+      "type": "evidence_field",
+      "label": "negative_control"
+    },
+    {
+      "id": "dataset_quality_claim.metric_plan",
+      "type": "evidence_field",
+      "label": "metric_plan"
+    },
+    {
+      "id": "dataset_quality_claim.metric_result",
+      "type": "evidence_field",
+      "label": "metric_result"
+    },
+    {
+      "id": "dataset_quality_claim.class_or_case_distribution",
+      "type": "evidence_field",
+      "label": "class_or_case_distribution"
+    },
+    {
+      "id": "dataset_quality_claim.group_file_subject_fields",
+      "type": "evidence_field",
+      "label": "group_file_subject_fields"
+    },
+    {
+      "id": "dataset_quality_claim.duplicate_or_overlap_check",
+      "type": "evidence_field",
+      "label": "duplicate_or_overlap_check"
+    },
+    {
+      "id": "dataset_quality_claim.feature_target_leakage_check",
+      "type": "evidence_field",
+      "label": "feature_target_leakage_check"
+    },
+    {
+      "id": "dataset_quality_claim.environment_summary",
+      "type": "evidence_field",
+      "label": "environment_summary"
+    },
+    {
+      "id": "dataset_quality_claim.package_versions",
+      "type": "evidence_field",
+      "label": "package_versions"
+    },
+    {
+      "id": "dataset_quality_claim.replay_status",
+      "type": "evidence_field",
+      "label": "replay_status"
+    },
+    {
+      "id": "dataset_quality_claim.artifact_manifest",
+      "type": "evidence_field",
+      "label": "artifact_manifest"
+    },
+    {
+      "id": "dataset_quality_claim.claim_scope",
+      "type": "evidence_field",
+      "label": "claim_scope"
+    },
+    {
+      "id": "dataset_quality_claim.limitations",
+      "type": "evidence_field",
+      "label": "limitations"
+    },
+    {
+      "id": "dataset_quality_claim.schema_summary",
+      "type": "evidence_field",
+      "label": "schema_summary"
+    },
+    {
+      "id": "dataset_quality_claim.missingness_summary",
+      "type": "evidence_field",
+      "label": "missingness_summary"
+    },
+    {
+      "id": "dataset_quality_claim.provenance_binding",
+      "type": "evidence_field",
+      "label": "provenance_binding"
+    },
+    {
+      "id": "dataset_quality_claim.quality_negative_control",
+      "type": "evidence_field",
+      "label": "quality_negative_control"
+    },
+    {
+      "id": "time_series_anomaly_claim",
+      "type": "claim_type",
+      "label": "Time-series anomaly claim"
+    },
+    {
+      "id": "time_series_anomaly_claim.source_url",
+      "type": "evidence_field",
+      "label": "source_url"
+    },
+    {
+      "id": "time_series_anomaly_claim.data_access_method",
+      "type": "evidence_field",
+      "label": "data_access_method"
+    },
+    {
+      "id": "time_series_anomaly_claim.task_definition",
+      "type": "evidence_field",
+      "label": "task_definition"
+    },
+    {
+      "id": "time_series_anomaly_claim.target_or_claim_variable",
+      "type": "evidence_field",
+      "label": "target_or_claim_variable"
+    },
+    {
+      "id": "time_series_anomaly_claim.protocol_or_procedure",
+      "type": "evidence_field",
+      "label": "protocol_or_procedure"
+    },
+    {
+      "id": "time_series_anomaly_claim.baseline_result",
+      "type": "evidence_field",
+      "label": "baseline_result"
+    },
+    {
+      "id": "time_series_anomaly_claim.stronger_comparator",
+      "type": "evidence_field",
+      "label": "stronger_comparator"
+    },
+    {
+      "id": "time_series_anomaly_claim.negative_control",
+      "type": "evidence_field",
+      "label": "negative_control"
+    },
+    {
+      "id": "time_series_anomaly_claim.metric_plan",
+      "type": "evidence_field",
+      "label": "metric_plan"
+    },
+    {
+      "id": "time_series_anomaly_claim.metric_result",
+      "type": "evidence_field",
+      "label": "metric_result"
+    },
+    {
+      "id": "time_series_anomaly_claim.class_or_case_distribution",
+      "type": "evidence_field",
+      "label": "class_or_case_distribution"
+    },
+    {
+      "id": "time_series_anomaly_claim.group_file_subject_fields",
+      "type": "evidence_field",
+      "label": "group_file_subject_fields"
+    },
+    {
+      "id": "time_series_anomaly_claim.duplicate_or_overlap_check",
+      "type": "evidence_field",
+      "label": "duplicate_or_overlap_check"
+    },
+    {
+      "id": "time_series_anomaly_claim.feature_target_leakage_check",
+      "type": "evidence_field",
+      "label": "feature_target_leakage_check"
+    },
+    {
+      "id": "time_series_anomaly_claim.environment_summary",
+      "type": "evidence_field",
+      "label": "environment_summary"
+    },
+    {
+      "id": "time_series_anomaly_claim.package_versions",
+      "type": "evidence_field",
+      "label": "package_versions"
+    },
+    {
+      "id": "time_series_anomaly_claim.replay_status",
+      "type": "evidence_field",
+      "label": "replay_status"
+    },
+    {
+      "id": "time_series_anomaly_claim.artifact_manifest",
+      "type": "evidence_field",
+      "label": "artifact_manifest"
+    },
+    {
+      "id": "time_series_anomaly_claim.claim_scope",
+      "type": "evidence_field",
+      "label": "claim_scope"
+    },
+    {
+      "id": "time_series_anomaly_claim.limitations",
+      "type": "evidence_field",
+      "label": "limitations"
+    },
+    {
+      "id": "time_series_anomaly_claim.temporal_order_binding",
+      "type": "evidence_field",
+      "label": "temporal_order_binding"
+    },
+    {
+      "id": "time_series_anomaly_claim.temporal_split_definition",
+      "type": "evidence_field",
+      "label": "temporal_split_definition"
+    },
+    {
+      "id": "time_series_anomaly_claim.lookahead_leakage_check",
+      "type": "evidence_field",
+      "label": "lookahead_leakage_check"
+    },
+    {
+      "id": "time_series_anomaly_claim.seasonality_or_window_assumption",
+      "type": "evidence_field",
+      "label": "seasonality_or_window_assumption"
+    },
+    {
+      "id": "cross_domain_transfer_claim",
+      "type": "claim_type",
+      "label": "Cross-domain transfer claim"
+    },
+    {
+      "id": "cross_domain_transfer_claim.source_url",
+      "type": "evidence_field",
+      "label": "source_url"
+    },
+    {
+      "id": "cross_domain_transfer_claim.data_access_method",
+      "type": "evidence_field",
+      "label": "data_access_method"
+    },
+    {
+      "id": "cross_domain_transfer_claim.task_definition",
+      "type": "evidence_field",
+      "label": "task_definition"
+    },
+    {
+      "id": "cross_domain_transfer_claim.target_or_claim_variable",
+      "type": "evidence_field",
+      "label": "target_or_claim_variable"
+    },
+    {
+      "id": "cross_domain_transfer_claim.protocol_or_procedure",
+      "type": "evidence_field",
+      "label": "protocol_or_procedure"
+    },
+    {
+      "id": "cross_domain_transfer_claim.baseline_result",
+      "type": "evidence_field",
+      "label": "baseline_result"
+    },
+    {
+      "id": "cross_domain_transfer_claim.stronger_comparator",
+      "type": "evidence_field",
+      "label": "stronger_comparator"
+    },
+    {
+      "id": "cross_domain_transfer_claim.negative_control",
+      "type": "evidence_field",
+      "label": "negative_control"
+    },
+    {
+      "id": "cross_domain_transfer_claim.metric_plan",
+      "type": "evidence_field",
+      "label": "metric_plan"
+    },
+    {
+      "id": "cross_domain_transfer_claim.metric_result",
+      "type": "evidence_field",
+      "label": "metric_result"
+    },
+    {
+      "id": "cross_domain_transfer_claim.class_or_case_distribution",
+      "type": "evidence_field",
+      "label": "class_or_case_distribution"
+    },
+    {
+      "id": "cross_domain_transfer_claim.group_file_subject_fields",
+      "type": "evidence_field",
+      "label": "group_file_subject_fields"
+    },
+    {
+      "id": "cross_domain_transfer_claim.duplicate_or_overlap_check",
+      "type": "evidence_field",
+      "label": "duplicate_or_overlap_check"
+    },
+    {
+      "id": "cross_domain_transfer_claim.feature_target_leakage_check",
+      "type": "evidence_field",
+      "label": "feature_target_leakage_check"
+    },
+    {
+      "id": "cross_domain_transfer_claim.environment_summary",
+      "type": "evidence_field",
+      "label": "environment_summary"
+    },
+    {
+      "id": "cross_domain_transfer_claim.package_versions",
+      "type": "evidence_field",
+      "label": "package_versions"
+    },
+    {
+      "id": "cross_domain_transfer_claim.replay_status",
+      "type": "evidence_field",
+      "label": "replay_status"
+    },
+    {
+      "id": "cross_domain_transfer_claim.artifact_manifest",
+      "type": "evidence_field",
+      "label": "artifact_manifest"
+    },
+    {
+      "id": "cross_domain_transfer_claim.claim_scope",
+      "type": "evidence_field",
+      "label": "claim_scope"
+    },
+    {
+      "id": "cross_domain_transfer_claim.limitations",
+      "type": "evidence_field",
+      "label": "limitations"
+    },
+    {
+      "id": "cross_domain_transfer_claim.domain_mapping",
+      "type": "evidence_field",
+      "label": "domain_mapping"
+    },
+    {
+      "id": "cross_domain_transfer_claim.source_domain_control",
+      "type": "evidence_field",
+      "label": "source_domain_control"
+    },
+    {
+      "id": "cross_domain_transfer_claim.failed_transfer_case",
+      "type": "evidence_field",
+      "label": "failed_transfer_case"
+    },
+    {
+      "id": "cross_domain_transfer_claim.scope_update",
+      "type": "evidence_field",
+      "label": "scope_update"
+    },
+    {
+      "id": "conceptual_principle_claim",
+      "type": "claim_type",
+      "label": "Conceptual principle claim"
+    },
+    {
+      "id": "conceptual_principle_claim.source_url",
+      "type": "evidence_field",
+      "label": "source_url"
+    },
+    {
+      "id": "conceptual_principle_claim.data_access_method",
+      "type": "evidence_field",
+      "label": "data_access_method"
+    },
+    {
+      "id": "conceptual_principle_claim.task_definition",
+      "type": "evidence_field",
+      "label": "task_definition"
+    },
+    {
+      "id": "conceptual_principle_claim.target_or_claim_variable",
+      "type": "evidence_field",
+      "label": "target_or_claim_variable"
+    },
+    {
+      "id": "conceptual_principle_claim.protocol_or_procedure",
+      "type": "evidence_field",
+      "label": "protocol_or_procedure"
+    },
+    {
+      "id": "conceptual_principle_claim.baseline_result",
+      "type": "evidence_field",
+      "label": "baseline_result"
+    },
+    {
+      "id": "conceptual_principle_claim.stronger_comparator",
+      "type": "evidence_field",
+      "label": "stronger_comparator"
+    },
+    {
+      "id": "conceptual_principle_claim.negative_control",
+      "type": "evidence_field",
+      "label": "negative_control"
+    },
+    {
+      "id": "conceptual_principle_claim.metric_plan",
+      "type": "evidence_field",
+      "label": "metric_plan"
+    },
+    {
+      "id": "conceptual_principle_claim.metric_result",
+      "type": "evidence_field",
+      "label": "metric_result"
+    },
+    {
+      "id": "conceptual_principle_claim.class_or_case_distribution",
+      "type": "evidence_field",
+      "label": "class_or_case_distribution"
+    },
+    {
+      "id": "conceptual_principle_claim.group_file_subject_fields",
+      "type": "evidence_field",
+      "label": "group_file_subject_fields"
+    },
+    {
+      "id": "conceptual_principle_claim.duplicate_or_overlap_check",
+      "type": "evidence_field",
+      "label": "duplicate_or_overlap_check"
+    },
+    {
+      "id": "conceptual_principle_claim.feature_target_leakage_check",
+      "type": "evidence_field",
+      "label": "feature_target_leakage_check"
+    },
+    {
+      "id": "conceptual_principle_claim.environment_summary",
+      "type": "evidence_field",
+      "label": "environment_summary"
+    },
+    {
+      "id": "conceptual_principle_claim.package_versions",
+      "type": "evidence_field",
+      "label": "package_versions"
+    },
+    {
+      "id": "conceptual_principle_claim.replay_status",
+      "type": "evidence_field",
+      "label": "replay_status"
+    },
+    {
+      "id": "conceptual_principle_claim.artifact_manifest",
+      "type": "evidence_field",
+      "label": "artifact_manifest"
+    },
+    {
+      "id": "conceptual_principle_claim.claim_scope",
+      "type": "evidence_field",
+      "label": "claim_scope"
+    },
+    {
+      "id": "conceptual_principle_claim.limitations",
+      "type": "evidence_field",
+      "label": "limitations"
+    },
+    {
+      "id": "conceptual_principle_claim.rival_principles",
+      "type": "evidence_field",
+      "label": "rival_principles"
+    },
+    {
+      "id": "conceptual_principle_claim.discriminating_predictions",
+      "type": "evidence_field",
+      "label": "discriminating_predictions"
+    },
+    {
+      "id": "conceptual_principle_claim.failed_prediction_analysis",
+      "type": "evidence_field",
+      "label": "failed_prediction_analysis"
+    },
+    {
+      "id": "conceptual_principle_claim.confidence_update",
+      "type": "evidence_field",
+      "label": "confidence_update"
+    },
+    {
+      "id": "tool_usefulness_claim",
+      "type": "claim_type",
+      "label": "Tool usefulness claim"
+    },
+    {
+      "id": "tool_usefulness_claim.source_url",
+      "type": "evidence_field",
+      "label": "source_url"
+    },
+    {
+      "id": "tool_usefulness_claim.data_access_method",
+      "type": "evidence_field",
+      "label": "data_access_method"
+    },
+    {
+      "id": "tool_usefulness_claim.task_definition",
+      "type": "evidence_field",
+      "label": "task_definition"
+    },
+    {
+      "id": "tool_usefulness_claim.target_or_claim_variable",
+      "type": "evidence_field",
+      "label": "target_or_claim_variable"
+    },
+    {
+      "id": "tool_usefulness_claim.protocol_or_procedure",
+      "type": "evidence_field",
+      "label": "protocol_or_procedure"
+    },
+    {
+      "id": "tool_usefulness_claim.baseline_result",
+      "type": "evidence_field",
+      "label": "baseline_result"
+    },
+    {
+      "id": "tool_usefulness_claim.stronger_comparator",
+      "type": "evidence_field",
+      "label": "stronger_comparator"
+    },
+    {
+      "id": "tool_usefulness_claim.negative_control",
+      "type": "evidence_field",
+      "label": "negative_control"
+    },
+    {
+      "id": "tool_usefulness_claim.metric_plan",
+      "type": "evidence_field",
+      "label": "metric_plan"
+    },
+    {
+      "id": "tool_usefulness_claim.metric_result",
+      "type": "evidence_field",
+      "label": "metric_result"
+    },
+    {
+      "id": "tool_usefulness_claim.class_or_case_distribution",
+      "type": "evidence_field",
+      "label": "class_or_case_distribution"
+    },
+    {
+      "id": "tool_usefulness_claim.group_file_subject_fields",
+      "type": "evidence_field",
+      "label": "group_file_subject_fields"
+    },
+    {
+      "id": "tool_usefulness_claim.duplicate_or_overlap_check",
+      "type": "evidence_field",
+      "label": "duplicate_or_overlap_check"
+    },
+    {
+      "id": "tool_usefulness_claim.feature_target_leakage_check",
+      "type": "evidence_field",
+      "label": "feature_target_leakage_check"
+    },
+    {
+      "id": "tool_usefulness_claim.environment_summary",
+      "type": "evidence_field",
+      "label": "environment_summary"
+    },
+    {
+      "id": "tool_usefulness_claim.package_versions",
+      "type": "evidence_field",
+      "label": "package_versions"
+    },
+    {
+      "id": "tool_usefulness_claim.replay_status",
+      "type": "evidence_field",
+      "label": "replay_status"
+    },
+    {
+      "id": "tool_usefulness_claim.artifact_manifest",
+      "type": "evidence_field",
+      "label": "artifact_manifest"
+    },
+    {
+      "id": "tool_usefulness_claim.claim_scope",
+      "type": "evidence_field",
+      "label": "claim_scope"
+    },
+    {
+      "id": "tool_usefulness_claim.limitations",
+      "type": "evidence_field",
+      "label": "limitations"
+    },
+    {
+      "id": "tool_usefulness_claim.simple_baseline_comparison",
+      "type": "evidence_field",
+      "label": "simple_baseline_comparison"
+    },
+    {
+      "id": "tool_usefulness_claim.tool_ablation",
+      "type": "evidence_field",
+      "label": "tool_ablation"
+    },
+    {
+      "id": "tool_usefulness_claim.tool_failure_mode",
+      "type": "evidence_field",
+      "label": "tool_failure_mode"
+    },
+    {
+      "id": "tool_usefulness_claim.promotion_or_support_decision",
+      "type": "evidence_field",
+      "label": "promotion_or_support_decision"
+    },
+    {
+      "id": "R01",
+      "type": "rule",
+      "label": "missing_source_binding"
+    },
+    {
+      "id": "R02",
+      "type": "rule",
+      "label": "missing_required_protocol"
+    },
+    {
+      "id": "R03",
+      "type": "rule",
+      "label": "missing_baseline"
+    },
+    {
+      "id": "R04",
+      "type": "rule",
+      "label": "missing_negative_control"
+    },
+    {
+      "id": "R05",
+      "type": "rule",
+      "label": "missing_replay"
+    },
+    {
+      "id": "R06",
+      "type": "rule",
+      "label": "ambiguous_group_fields"
+    },
+    {
+      "id": "R07",
+      "type": "rule",
+      "label": "missing_metric_scope"
+    },
+    {
+      "id": "R08",
+      "type": "rule",
+      "label": "missing_failure_cases"
+    },
+    {
+      "id": "R09",
+      "type": "rule",
+      "label": "missing_environment"
+    },
+    {
+      "id": "R10",
+      "type": "rule",
+      "label": "missing_artifact_manifest"
+    },
+    {
+      "id": "R11",
+      "type": "rule",
+      "label": "tool_no_ablation"
+    },
+    {
+      "id": "R12",
+      "type": "rule",
+      "label": "transfer_no_scope_update"
+    }
+  ],
+  "edges": [
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.source_url",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.data_access_method",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.task_definition",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.target_or_claim_variable",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.protocol_or_procedure",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.baseline_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.stronger_comparator",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.negative_control",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.metric_plan",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.metric_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.class_or_case_distribution",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.group_file_subject_fields",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.duplicate_or_overlap_check",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.feature_target_leakage_check",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.environment_summary",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.package_versions",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.replay_status",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.artifact_manifest",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.claim_scope",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.limitations",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.train_test_split_definition",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.random_or_stratified_challenger",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.per_class_metric_summary",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "benchmark_performance_claim",
+      "target": "benchmark_performance_claim.seed_record",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.source_url",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.data_access_method",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.task_definition",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.target_or_claim_variable",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.protocol_or_procedure",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.baseline_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.stronger_comparator",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.negative_control",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.metric_plan",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.metric_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.class_or_case_distribution",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.group_file_subject_fields",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.duplicate_or_overlap_check",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.feature_target_leakage_check",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.environment_summary",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.package_versions",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.replay_status",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.artifact_manifest",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.claim_scope",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.limitations",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.source_protocol_card",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.protocol_ambiguity_notes",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.source_vs_random_delta",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "protocol_first_evaluation_claim",
+      "target": "protocol_first_evaluation_claim.protocol_status_label",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.source_url",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.data_access_method",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.task_definition",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.target_or_claim_variable",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.protocol_or_procedure",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.baseline_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.stronger_comparator",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.negative_control",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.metric_plan",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.metric_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.class_or_case_distribution",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.group_file_subject_fields",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.duplicate_or_overlap_check",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.feature_target_leakage_check",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.environment_summary",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.package_versions",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.replay_status",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.artifact_manifest",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.claim_scope",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.limitations",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.direct_leakage_indicator",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.leakage_testability",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.group_overlap_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "leakage_risk_claim",
+      "target": "leakage_risk_claim.duplicate_transfer_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.source_url",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.data_access_method",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.task_definition",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.target_or_claim_variable",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.protocol_or_procedure",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.baseline_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.stronger_comparator",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.negative_control",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.metric_plan",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.metric_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.class_or_case_distribution",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.group_file_subject_fields",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.duplicate_or_overlap_check",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.feature_target_leakage_check",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.environment_summary",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.package_versions",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.replay_status",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.artifact_manifest",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.claim_scope",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.limitations",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.before_after_matrix",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.repair_falsifier",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.claim_safety_before_after",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repair_success_claim",
+      "target": "repair_success_claim.failed_or_partial_repair_cases",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.source_url",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.data_access_method",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.task_definition",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.target_or_claim_variable",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.protocol_or_procedure",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.baseline_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.stronger_comparator",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.negative_control",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.metric_plan",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.metric_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.class_or_case_distribution",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.group_file_subject_fields",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.duplicate_or_overlap_check",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.feature_target_leakage_check",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.environment_summary",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.package_versions",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.replay_status",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.artifact_manifest",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.claim_scope",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.limitations",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.repo_revision",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.install_or_build_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.test_command_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "repo_test_reproduction_claim",
+      "target": "repo_test_reproduction_claim.runtime_error_classification",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.source_url",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.data_access_method",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.task_definition",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.target_or_claim_variable",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.protocol_or_procedure",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.baseline_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.stronger_comparator",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.negative_control",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.metric_plan",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.metric_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.class_or_case_distribution",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.group_file_subject_fields",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.duplicate_or_overlap_check",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.feature_target_leakage_check",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.environment_summary",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.package_versions",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.replay_status",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.artifact_manifest",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.claim_scope",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.limitations",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.schema_summary",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.missingness_summary",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.provenance_binding",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "dataset_quality_claim",
+      "target": "dataset_quality_claim.quality_negative_control",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.source_url",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.data_access_method",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.task_definition",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.target_or_claim_variable",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.protocol_or_procedure",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.baseline_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.stronger_comparator",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.negative_control",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.metric_plan",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.metric_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.class_or_case_distribution",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.group_file_subject_fields",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.duplicate_or_overlap_check",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.feature_target_leakage_check",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.environment_summary",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.package_versions",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.replay_status",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.artifact_manifest",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.claim_scope",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.limitations",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.temporal_order_binding",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.temporal_split_definition",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.lookahead_leakage_check",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "time_series_anomaly_claim",
+      "target": "time_series_anomaly_claim.seasonality_or_window_assumption",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.source_url",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.data_access_method",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.task_definition",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.target_or_claim_variable",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.protocol_or_procedure",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.baseline_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.stronger_comparator",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.negative_control",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.metric_plan",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.metric_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.class_or_case_distribution",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.group_file_subject_fields",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.duplicate_or_overlap_check",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.feature_target_leakage_check",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.environment_summary",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.package_versions",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.replay_status",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.artifact_manifest",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.claim_scope",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.limitations",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.domain_mapping",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.source_domain_control",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.failed_transfer_case",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "cross_domain_transfer_claim",
+      "target": "cross_domain_transfer_claim.scope_update",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.source_url",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.data_access_method",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.task_definition",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.target_or_claim_variable",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.protocol_or_procedure",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.baseline_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.stronger_comparator",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.negative_control",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.metric_plan",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.metric_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.class_or_case_distribution",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.group_file_subject_fields",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.duplicate_or_overlap_check",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.feature_target_leakage_check",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.environment_summary",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.package_versions",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.replay_status",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.artifact_manifest",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.claim_scope",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.limitations",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.rival_principles",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.discriminating_predictions",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.failed_prediction_analysis",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "conceptual_principle_claim",
+      "target": "conceptual_principle_claim.confidence_update",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.source_url",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.data_access_method",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.task_definition",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.target_or_claim_variable",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.protocol_or_procedure",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.baseline_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.stronger_comparator",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.negative_control",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.metric_plan",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.metric_result",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.class_or_case_distribution",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.group_file_subject_fields",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.duplicate_or_overlap_check",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.feature_target_leakage_check",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.environment_summary",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.package_versions",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.replay_status",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.artifact_manifest",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.claim_scope",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.limitations",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.simple_baseline_comparison",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.tool_ablation",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.tool_failure_mode",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "tool_usefulness_claim",
+      "target": "tool_usefulness_claim.promotion_or_support_decision",
+      "relation": "requires_or_conditions"
+    },
+    {
+      "source": "R01",
+      "target": "claim_scope",
+      "relation": "bounds"
+    },
+    {
+      "source": "R02",
+      "target": "claim_scope",
+      "relation": "bounds"
+    },
+    {
+      "source": "R03",
+      "target": "claim_scope",
+      "relation": "bounds"
+    },
+    {
+      "source": "R04",
+      "target": "claim_scope",
+      "relation": "bounds"
+    },
+    {
+      "source": "R05",
+      "target": "claim_scope",
+      "relation": "bounds"
+    },
+    {
+      "source": "R06",
+      "target": "claim_scope",
+      "relation": "bounds"
+    },
+    {
+      "source": "R07",
+      "target": "claim_scope",
+      "relation": "bounds"
+    },
+    {
+      "source": "R08",
+      "target": "claim_scope",
+      "relation": "bounds"
+    },
+    {
+      "source": "R09",
+      "target": "claim_scope",
+      "relation": "bounds"
+    },
+    {
+      "source": "R10",
+      "target": "claim_scope",
+      "relation": "bounds"
+    },
+    {
+      "source": "R11",
+      "target": "claim_scope",
+      "relation": "bounds"
+    },
+    {
+      "source": "R12",
+      "target": "claim_scope",
+      "relation": "bounds"
+    }
+  ]
+}

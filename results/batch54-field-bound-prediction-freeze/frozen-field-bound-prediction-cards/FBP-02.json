@@ -1,0 +1,45 @@
+{
+  "predictionId": "FBP-02",
+  "target": "uci_har_prior_artifact",
+  "domain": "benchmark_protocol_validation",
+  "claimType": "protocol_first_evaluation_claim",
+  "proposedClaim": "Field-bound safety decision for uci_har_prior_artifact.",
+  "requiredFields": [
+    "source_url",
+    "data_access_method",
+    "task_definition",
+    "target_or_claim_variable",
+    "protocol_or_procedure",
+    "baseline_result",
+    "stronger_comparator",
+    "negative_control",
+    "metric_plan",
+    "metric_result",
+    "source_protocol_card",
+    "protocol_ambiguity_notes"
+  ],
+  "fieldsExpectedPresent": [
+    "source_url",
+    "data_access_method",
+    "task_definition",
+    "target_or_claim_variable",
+    "protocol_or_procedure",
+    "baseline_result",
+    "stronger_comparator",
+    "negative_control",
+    "metric_plan"
+  ],
+  "fieldsExpectedMissing": [
+    "metric_result",
+    "source_protocol_card",
+    "protocol_ambiguity_notes"
+  ],
+  "predictedClaimSafetyLabel": "claim_allowed",
+  "expectedFalsifier": "Observed required fields support a different claim-safety label than predicted.",
+  "negativeControl": "Remove or scramble a required field and check whether the decision weakens.",
+  "replayPlan": "Repeat field collection or rerun the public evidence check.",
+  "control": "ordinary",
+  "frozenTimestamp": "2026-05-06T17:54:45Z",
+  "noEditRule": "Prediction was frozen before Batch 55 execution.",
+  "preregistrationHash": "432d36a282b377d6757b208a2a63029540469ba224a1d5bbecade95141de0d12"
+}

@@ -1,0 +1,45 @@
+{
+  "predictionId": "FBP-03",
+  "target": "batch25_shuttle_leakage",
+  "domain": "leakage_risk_detection",
+  "claimType": "leakage_risk_claim",
+  "proposedClaim": "Field-bound safety decision for batch25_shuttle_leakage.",
+  "requiredFields": [
+    "source_url",
+    "data_access_method",
+    "task_definition",
+    "target_or_claim_variable",
+    "protocol_or_procedure",
+    "baseline_result",
+    "stronger_comparator",
+    "negative_control",
+    "metric_plan",
+    "metric_result",
+    "direct_leakage_indicator",
+    "leakage_testability"
+  ],
+  "fieldsExpectedPresent": [
+    "source_url",
+    "data_access_method",
+    "task_definition",
+    "target_or_claim_variable",
+    "protocol_or_procedure",
+    "baseline_result",
+    "stronger_comparator",
+    "negative_control",
+    "metric_plan"
+  ],
+  "fieldsExpectedMissing": [
+    "metric_result",
+    "direct_leakage_indicator",
+    "leakage_testability"
+  ],
+  "predictedClaimSafetyLabel": "claim_downgraded",
+  "expectedFalsifier": "Observed required fields support a different claim-safety label than predicted.",
+  "negativeControl": "Remove or scramble a required field and check whether the decision weakens.",
+  "replayPlan": "Repeat field collection or rerun the public evidence check.",
+  "control": "ordinary",
+  "frozenTimestamp": "2026-05-06T17:54:45Z",
+  "noEditRule": "Prediction was frozen before Batch 55 execution.",
+  "preregistrationHash": "f09b8d6762b5c534a1791ce864c5706933ec5af1cb16a1fd380cf9a175e92dd6"
+}

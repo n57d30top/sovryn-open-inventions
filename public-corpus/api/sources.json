@@ -419,6 +419,54 @@
       "customTool": null
     },
     {
+      "slug": "batch53-evidence-field-taxonomy-and-claim-boundaries",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch54-field-bound-prediction-freeze",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch55-field-bound-claim-safety-execution",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch56-cross-domain-field-bound-transfer",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch57-field-bound-kill-week",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch58-field-bound-claim-safety-standard",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
       "slug": "batch6-diamonds-data-quality-netoff-ladder",
       "externalPackages": [
         "pandas"
@@ -713,5 +761,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "85e7671992b00d72aebc2c8b338bfdeb316e8848933ee4b699f632d511820c25"
+  "evidenceHash": "7058b4c16a005a98ad0eafd9079f3bc4c59ce16499914a368ad4f43548b2f4d5"
 }

@@ -1,0 +1,12 @@
+{
+  "transferPredictionId": "FBT-08",
+  "principle": "Required Evidence Field Boundary",
+  "domain": "benchmark_protocol_validation",
+  "target": "benchmark_protocol_validation_case_08",
+  "domainMapping": "Required fields become the minimal evidence cells needed for a claim-safety decision in this domain.",
+  "predictedTransferLabel": "not_applicable",
+  "expectedFalsifier": "A claim decision remains well-supported despite missing the field marked required.",
+  "frozenTimestamp": "2026-05-06T17:54:45Z",
+  "noEditRule": "Transfer prediction was frozen before execution.",
+  "preregistrationHash": "d08264907a16e99472cf71511d7c0ac380ea7e6d7d0820183c9c3fe06cb022cd"
+}

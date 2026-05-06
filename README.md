@@ -103,6 +103,12 @@ and safety scope in human-readable language.
 - [Batch 50 Surprise Prediction Tournament](results/batch50-surprise-prediction-tournament/) — good, autopublished, batch50-surprise-prediction-tournament, bounded conceptual discovery
 - [Batch 51 Cross-Domain Principle Test](results/batch51-cross-domain-principle-test/) — good, autopublished, batch51-cross-domain-principle-test, bounded conceptual discovery
 - [Batch 52 Conceptual Discovery Paper](results/batch52-conceptual-discovery-paper/) — good, autopublished, batch52-conceptual-discovery-paper, bounded conceptual discovery
+- [Batch 53 Evidence Field Taxonomy and Claim Boundaries](results/batch53-evidence-field-taxonomy-and-claim-boundaries/) — good, autopublished, batch53-evidence-field-taxonomy-and-claim-boundaries, field-bound claim safety
+- [Batch 54 Field-Bound Prediction Freeze](results/batch54-field-bound-prediction-freeze/) — good, autopublished, batch54-field-bound-prediction-freeze, field-bound claim safety
+- [Batch 55 Field-Bound Claim Safety Execution](results/batch55-field-bound-claim-safety-execution/) — good, autopublished, batch55-field-bound-claim-safety-execution, field-bound claim safety
+- [Batch 56 Cross-Domain Field-Bound Transfer](results/batch56-cross-domain-field-bound-transfer/) — good, autopublished, batch56-cross-domain-field-bound-transfer, field-bound claim safety
+- [Batch 57 Field-Bound Kill Week](results/batch57-field-bound-kill-week/) — good, autopublished, batch57-field-bound-kill-week, field-bound claim safety
+- [Batch 58 Field-Bound Claim Safety Standard](results/batch58-field-bound-claim-safety-standard/) — good, autopublished, batch58-field-bound-claim-safety-standard, field-bound claim safety
 - [seaborn-data Diamonds Network-Off Quality Reproduction Ladder](results/batch6-diamonds-data-quality-netoff-ladder/) — good, autopublished, batch6-diamonds-data-quality-netoff-ladder, public-dataset-quality-audit
 - [scikit-learn Iris Example Reproduction Ladder](results/batch6-scikit-learn-iris-reproduction-ladder/) — good, autopublished, batch6-scikit-learn-iris-reproduction-ladder, ml-repository-reproduction
 - [UCI Concrete Strength Baseline Reproduction Ladder](results/batch6-uci-concrete-baseline-reproduction-ladder/) — good, autopublished, batch6-uci-concrete-baseline-reproduction-ladder, tabular-regression-benchmark

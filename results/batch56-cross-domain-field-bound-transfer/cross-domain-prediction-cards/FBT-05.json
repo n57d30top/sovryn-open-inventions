@@ -1,0 +1,12 @@
+{
+  "transferPredictionId": "FBT-05",
+  "principle": "Required Evidence Field Boundary",
+  "domain": "dataset_quality",
+  "target": "dataset_quality_case_05",
+  "domainMapping": "Required fields become the minimal evidence cells needed for a claim-safety decision in this domain.",
+  "predictedTransferLabel": "transfers_cleanly",
+  "expectedFalsifier": "A claim decision remains well-supported despite missing the field marked required.",
+  "frozenTimestamp": "2026-05-06T17:54:45Z",
+  "noEditRule": "Transfer prediction was frozen before execution.",
+  "preregistrationHash": "fc2569fda994badface158c75a12f7bb13ef16dec8b119e206b5e78dda6717d9"
+}

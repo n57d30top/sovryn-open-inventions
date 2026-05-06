@@ -1,0 +1,12 @@
+{
+  "transferPredictionId": "FBT-07",
+  "principle": "Required Evidence Field Boundary",
+  "domain": "conceptual_principle_theory_claims",
+  "target": "conceptual_principle_theory_claims_case_07",
+  "domainMapping": "Required fields become the minimal evidence cells needed for a claim-safety decision in this domain.",
+  "predictedTransferLabel": "partial_transfer",
+  "expectedFalsifier": "A claim decision remains well-supported despite missing the field marked required.",
+  "frozenTimestamp": "2026-05-06T17:54:45Z",
+  "noEditRule": "Transfer prediction was frozen before execution.",
+  "preregistrationHash": "35b540bcdf0f290638965b4c83d5cb96ac404ed93a3b48c6c6435c21db56e105"
+}

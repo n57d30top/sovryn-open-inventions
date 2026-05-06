@@ -1,0 +1,18 @@
+{
+  "principle": "Required Evidence Field Boundary",
+  "before": "promising_principle_candidate",
+  "after": "promising_with_domain_specific_rules",
+  "confidenceDelta": "slight_narrowing",
+  "preservedRules": [
+    "R01",
+    "R03",
+    "R06",
+    "R08"
+  ],
+  "narrowedRules": [
+    "R04",
+    "R05",
+    "R10",
+    "R12"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-06T17:38:59.800Z",
+  "generatedAt": "2026-05-06T17:55:43.838Z",
   "sources": [
     {
       "resultSlug": "batch10-toolchain-kill-week",
@@ -303,6 +303,78 @@
       "publicOnly": true
     },
     {
+      "resultSlug": "batch53-evidence-field-taxonomy-and-claim-boundaries",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch53-evidence-field-taxonomy-and-claim-boundaries",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch54-field-bound-prediction-freeze",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch54-field-bound-prediction-freeze",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch55-field-bound-claim-safety-execution",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch55-field-bound-claim-safety-execution",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch56-cross-domain-field-bound-transfer",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch56-cross-domain-field-bound-transfer",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch57-field-bound-kill-week",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch57-field-bound-kill-week",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch58-field-bound-claim-safety-standard",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch58-field-bound-claim-safety-standard",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
       "resultSlug": "batch6-diamonds-data-quality-netoff-ladder",
       "sourceKind": "external_package_or_tool",
       "name": "pandas",
@@ -513,5 +585,5 @@
       "publicOnly": true
     }
   ],
-  "evidenceHash": "85e7671992b00d72aebc2c8b338bfdeb316e8848933ee4b699f632d511820c25"
+  "evidenceHash": "7058b4c16a005a98ad0eafd9079f3bc4c59ce16499914a368ad4f43548b2f4d5"
 }
