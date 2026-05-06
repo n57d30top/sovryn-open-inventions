@@ -180,7 +180,138 @@
       "customTool": null
     },
     {
+      "slug": "batch121-external-review-scientist-kernel",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch122-evidence-receipt-kernel-hardening",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch123-external-target-miner-500",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch124-claim-screening-stratification-200",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch125-field-bound-prediction-freeze-100",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch126-execution-wave-planner",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch127-calibration-execution-run",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch128-calibration-kill-plan-revision",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch129-benchmark-protocol-audit-wave-1",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
       "slug": "batch13-protocol-first-benchmark-validation-week1",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch130-benchmark-protocol-audit-wave-2",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch131-repo-test-reproduction-wave-1",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch132-repo-test-reproduction-wave-2",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch133-dataset-quality-audit-wave-1",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch134-dataset-quality-audit-wave-2",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch135-timeseries-temporal-audit-wave-1",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch136-timeseries-temporal-audit-wave-2",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch137-tool-usefulness-audit-wave",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch138-conceptual-principle-audit-wave",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch139-package-install-test-wave",
       "externalPackages": [
         "numpy",
         "pandas"
@@ -196,11 +327,144 @@
       "customTool": null
     },
     {
+      "slug": "batch140-cross-family-replay-negative-control-wave",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch141-hard-artifact-selection-deep-studies",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch142-deep-repo-study-a",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch143-deep-repo-study-b",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch144-deep-benchmark-study-a",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch145-deep-benchmark-study-b",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch146-deep-timeseries-study-a",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch147-deep-timeseries-study-b",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch148-deep-dataset-reliability-study",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch149-independent-replay-study",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
       "slug": "batch15-shuttle-deep-protocol-risk-study",
       "externalPackages": [
         "numpy",
         "pandas"
       ],
+      "customTool": null
+    },
+    {
+      "slug": "batch150-hard-evidence-atlas",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch151-external-anomaly-mining-hard-mode",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch152-rival-principle-generation-hard-mode",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch153-discriminating-experiment-freeze-hard-mode",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch154-surprise-prediction-execution-hard-mode",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch155-cross-domain-transfer-hard-mode",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch156-principle-confidence-update-hard-mode",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch157-large-reviewer-brief-package",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch158-adversarial-reviewer-attack",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch159-overblocking-underblocking-calibration",
+      "externalPackages": [],
       "customTool": null
     },
     {
@@ -212,13 +476,130 @@
       "customTool": null
     },
     {
+      "slug": "batch160-reviewer-burden-study",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch161-field-bound-standard-v1-candidate",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch162-standard-kill-week",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch163-intervention-candidate-generation-hard-mode",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch164-intervention-execution-wave-1",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch165-intervention-execution-wave-2",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch166-intervention-replay-control-study",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch167-useful-tool-or-standard-candidate-v3",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch168-candidate-kill-week",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch169-global-evidence-consistency-audit",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "batch17-protocol-extraction-ambiguity-tournament",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch170-final-claim-decision-atlas",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch171-final-rival-principle-concept-atlas",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch172-final-external-usefulness-assessment",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch173-final-failure-negative-result-map",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch174-final-standard-tool-decision",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch175-external-review-scientist-paper",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch176-adversarial-final-review",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch177-final-einstein-path-score-v3",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch178-next-frontier-program-selection",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch179-public-corpus-integrity-metadata-repair",
       "externalPackages": [],
       "customTool": null
     },
     {
       "slug": "batch18-cross-target-split-risk-atlas",
       "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch180-final-completion-report-hard-mode",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
       "customTool": null
     },
     {
@@ -1116,5 +1497,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "0dbf662db8476121077d0b7b11509f073f0fc7b3c6045d90bad05037edcf5b9d"
+  "evidenceHash": "b7326734adf00a53c899a0df7b8ea10fbfdfc3dc0b4a94986bda4180875cfc26"
 }

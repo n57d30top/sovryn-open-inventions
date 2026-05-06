@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T18:43:33.698Z",
+  "generatedAt": "2026-05-06T19:15:48.251Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -189,10 +189,124 @@
       "domain": "extended external field evidence and claim safety v2"
     },
     {
+      "id": "result:batch121-external-review-scientist-kernel",
+      "kind": "result",
+      "label": "Batch 121 External Review Scientist Kernel",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch122-evidence-receipt-kernel-hardening",
+      "kind": "result",
+      "label": "Batch 122 Evidence Receipt Kernel Hardening",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch123-external-target-miner-500",
+      "kind": "result",
+      "label": "Batch 123 External Target Miner 500",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch124-claim-screening-stratification-200",
+      "kind": "result",
+      "label": "Batch 124 Claim Screening Stratification 200",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch125-field-bound-prediction-freeze-100",
+      "kind": "result",
+      "label": "Batch 125 Field Bound Prediction Freeze 100",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch126-execution-wave-planner",
+      "kind": "result",
+      "label": "Batch 126 Execution Wave Planner",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch127-calibration-execution-run",
+      "kind": "result",
+      "label": "Batch 127 Calibration Execution Run",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch128-calibration-kill-plan-revision",
+      "kind": "result",
+      "label": "Batch 128 Calibration Kill Plan Revision",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch129-benchmark-protocol-audit-wave-1",
+      "kind": "result",
+      "label": "Batch 129 Benchmark Protocol Audit Wave 1",
+      "domain": "external review scientist hard mode"
+    },
+    {
       "id": "result:batch13-protocol-first-benchmark-validation-week1",
       "kind": "result",
       "label": "Batch 13 Protocol-First Benchmark Validation Week 1",
       "domain": "protocol-first-benchmark-validation-and-split-risk"
+    },
+    {
+      "id": "result:batch130-benchmark-protocol-audit-wave-2",
+      "kind": "result",
+      "label": "Batch 130 Benchmark Protocol Audit Wave 2",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch131-repo-test-reproduction-wave-1",
+      "kind": "result",
+      "label": "Batch 131 Repo Test Reproduction Wave 1",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch132-repo-test-reproduction-wave-2",
+      "kind": "result",
+      "label": "Batch 132 Repo Test Reproduction Wave 2",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch133-dataset-quality-audit-wave-1",
+      "kind": "result",
+      "label": "Batch 133 Dataset Quality Audit Wave 1",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch134-dataset-quality-audit-wave-2",
+      "kind": "result",
+      "label": "Batch 134 Dataset Quality Audit Wave 2",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch135-timeseries-temporal-audit-wave-1",
+      "kind": "result",
+      "label": "Batch 135 Timeseries Temporal Audit Wave 1",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch136-timeseries-temporal-audit-wave-2",
+      "kind": "result",
+      "label": "Batch 136 Timeseries Temporal Audit Wave 2",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch137-tool-usefulness-audit-wave",
+      "kind": "result",
+      "label": "Batch 137 Tool Usefulness Audit Wave",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch138-conceptual-principle-audit-wave",
+      "kind": "result",
+      "label": "Batch 138 Conceptual Principle Audit Wave",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch139-package-install-test-wave",
+      "kind": "result",
+      "label": "Batch 139 Package Install Test Wave",
+      "domain": "external review scientist hard mode"
     },
     {
       "id": "result:batch14-protocol-risk-expansion-week2",
@@ -201,10 +315,130 @@
       "domain": "protocol-first-benchmark-validation-and-split-risk"
     },
     {
+      "id": "result:batch140-cross-family-replay-negative-control-wave",
+      "kind": "result",
+      "label": "Batch 140 Cross Family Replay Negative Control Wave",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch141-hard-artifact-selection-deep-studies",
+      "kind": "result",
+      "label": "Batch 141 Hard Artifact Selection Deep Studies",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch142-deep-repo-study-a",
+      "kind": "result",
+      "label": "Batch 142 Deep Repo Study A",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch143-deep-repo-study-b",
+      "kind": "result",
+      "label": "Batch 143 Deep Repo Study B",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch144-deep-benchmark-study-a",
+      "kind": "result",
+      "label": "Batch 144 Deep Benchmark Study A",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch145-deep-benchmark-study-b",
+      "kind": "result",
+      "label": "Batch 145 Deep Benchmark Study B",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch146-deep-timeseries-study-a",
+      "kind": "result",
+      "label": "Batch 146 Deep Timeseries Study A",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch147-deep-timeseries-study-b",
+      "kind": "result",
+      "label": "Batch 147 Deep Timeseries Study B",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch148-deep-dataset-reliability-study",
+      "kind": "result",
+      "label": "Batch 148 Deep Dataset Reliability Study",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch149-independent-replay-study",
+      "kind": "result",
+      "label": "Batch 149 Independent Replay Study",
+      "domain": "external review scientist hard mode"
+    },
+    {
       "id": "result:batch15-shuttle-deep-protocol-risk-study",
       "kind": "result",
       "label": "Batch 15 Shuttle Deep Protocol-Risk Study",
       "domain": "open-research"
+    },
+    {
+      "id": "result:batch150-hard-evidence-atlas",
+      "kind": "result",
+      "label": "Batch 150 Hard Evidence Atlas",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch151-external-anomaly-mining-hard-mode",
+      "kind": "result",
+      "label": "Batch 151 External Anomaly Mining Hard Mode",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch152-rival-principle-generation-hard-mode",
+      "kind": "result",
+      "label": "Batch 152 Rival Principle Generation Hard Mode",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch153-discriminating-experiment-freeze-hard-mode",
+      "kind": "result",
+      "label": "Batch 153 Discriminating Experiment Freeze Hard Mode",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch154-surprise-prediction-execution-hard-mode",
+      "kind": "result",
+      "label": "Batch 154 Surprise Prediction Execution Hard Mode",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch155-cross-domain-transfer-hard-mode",
+      "kind": "result",
+      "label": "Batch 155 Cross Domain Transfer Hard Mode",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch156-principle-confidence-update-hard-mode",
+      "kind": "result",
+      "label": "Batch 156 Principle Confidence Update Hard Mode",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch157-large-reviewer-brief-package",
+      "kind": "result",
+      "label": "Batch 157 Large Reviewer Brief Package",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch158-adversarial-reviewer-attack",
+      "kind": "result",
+      "label": "Batch 158 Adversarial Reviewer Attack",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch159-overblocking-underblocking-calibration",
+      "kind": "result",
+      "label": "Batch 159 Overblocking Underblocking Calibration",
+      "domain": "external review scientist hard mode"
     },
     {
       "id": "result:batch16-landsat-deep-protocol-risk-study",
@@ -213,16 +447,142 @@
       "domain": "open-research"
     },
     {
+      "id": "result:batch160-reviewer-burden-study",
+      "kind": "result",
+      "label": "Batch 160 Reviewer Burden Study",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch161-field-bound-standard-v1-candidate",
+      "kind": "result",
+      "label": "Batch 161 Field Bound Standard v1 Candidate",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch162-standard-kill-week",
+      "kind": "result",
+      "label": "Batch 162 Standard Kill Week",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch163-intervention-candidate-generation-hard-mode",
+      "kind": "result",
+      "label": "Batch 163 Intervention Candidate Generation Hard Mode",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch164-intervention-execution-wave-1",
+      "kind": "result",
+      "label": "Batch 164 Intervention Execution Wave 1",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch165-intervention-execution-wave-2",
+      "kind": "result",
+      "label": "Batch 165 Intervention Execution Wave 2",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch166-intervention-replay-control-study",
+      "kind": "result",
+      "label": "Batch 166 Intervention Replay Control Study",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch167-useful-tool-or-standard-candidate-v3",
+      "kind": "result",
+      "label": "Batch 167 Useful Tool Or Standard Candidate v3",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch168-candidate-kill-week",
+      "kind": "result",
+      "label": "Batch 168 Candidate Kill Week",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch169-global-evidence-consistency-audit",
+      "kind": "result",
+      "label": "Batch 169 Global Evidence Consistency Audit",
+      "domain": "external review scientist hard mode"
+    },
+    {
       "id": "result:batch17-protocol-extraction-ambiguity-tournament",
       "kind": "result",
       "label": "Batch 17 Protocol Extraction and Ambiguity Tournament",
       "domain": "open-research"
     },
     {
+      "id": "result:batch170-final-claim-decision-atlas",
+      "kind": "result",
+      "label": "Batch 170 Final Claim Decision Atlas",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch171-final-rival-principle-concept-atlas",
+      "kind": "result",
+      "label": "Batch 171 Final Rival Principle Concept Atlas",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch172-final-external-usefulness-assessment",
+      "kind": "result",
+      "label": "Batch 172 Final External Usefulness Assessment",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch173-final-failure-negative-result-map",
+      "kind": "result",
+      "label": "Batch 173 Final Failure Negative Result Map",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch174-final-standard-tool-decision",
+      "kind": "result",
+      "label": "Batch 174 Final Standard Tool Decision",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch175-external-review-scientist-paper",
+      "kind": "result",
+      "label": "Batch 175 External Review Scientist Paper",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch176-adversarial-final-review",
+      "kind": "result",
+      "label": "Batch 176 Adversarial Final Review",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch177-final-einstein-path-score-v3",
+      "kind": "result",
+      "label": "Batch 177 Final Einstein Path Score v3",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch178-next-frontier-program-selection",
+      "kind": "result",
+      "label": "Batch 178 Next Frontier Program Selection",
+      "domain": "external review scientist hard mode"
+    },
+    {
+      "id": "result:batch179-public-corpus-integrity-metadata-repair",
+      "kind": "result",
+      "label": "Batch 179 Public Corpus Integrity Metadata Repair",
+      "domain": "external review scientist hard mode"
+    },
+    {
       "id": "result:batch18-cross-target-split-risk-atlas",
       "kind": "result",
       "label": "Batch 18 Cross-Target Split-Risk Atlas",
       "domain": "open-research"
+    },
+    {
+      "id": "result:batch180-final-completion-report-hard-mode",
+      "kind": "result",
+      "label": "Batch 180 Final Completion Report Hard Mode",
+      "domain": "external review scientist hard mode"
     },
     {
       "id": "result:batch19-protocol-risk-kill-week",
@@ -1156,6 +1516,11 @@
       "label": "autonomous-research-production-strategy"
     },
     {
+      "id": "domain:external review scientist hard mode",
+      "kind": "domain",
+      "label": "external review scientist hard mode"
+    },
+    {
       "id": "domain:protocol-first-benchmark-validation-and-split-risk",
       "kind": "domain",
       "label": "protocol-first-benchmark-validation-and-split-risk"
@@ -1633,6 +1998,71 @@
       "relation": "uses_public_tool_evidence"
     },
     {
+      "source": "result:batch121-external-review-scientist-kernel",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch122-evidence-receipt-kernel-hardening",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch123-external-target-miner-500",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch124-claim-screening-stratification-200",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch125-field-bound-prediction-freeze-100",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch126-execution-wave-planner",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch127-calibration-execution-run",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch127-calibration-execution-run",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch127-calibration-execution-run",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch128-calibration-kill-plan-revision",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch129-benchmark-protocol-audit-wave-1",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch129-benchmark-protocol-audit-wave-1",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch129-benchmark-protocol-audit-wave-1",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
       "source": "result:batch13-protocol-first-benchmark-validation-week1",
       "target": "domain:protocol-first-benchmark-validation-and-split-risk",
       "relation": "belongs_to_domain"
@@ -1648,6 +2078,156 @@
       "relation": "uses_public_tool_evidence"
     },
     {
+      "source": "result:batch130-benchmark-protocol-audit-wave-2",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch130-benchmark-protocol-audit-wave-2",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch130-benchmark-protocol-audit-wave-2",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch131-repo-test-reproduction-wave-1",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch131-repo-test-reproduction-wave-1",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch131-repo-test-reproduction-wave-1",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch132-repo-test-reproduction-wave-2",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch132-repo-test-reproduction-wave-2",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch132-repo-test-reproduction-wave-2",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch133-dataset-quality-audit-wave-1",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch133-dataset-quality-audit-wave-1",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch133-dataset-quality-audit-wave-1",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch134-dataset-quality-audit-wave-2",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch134-dataset-quality-audit-wave-2",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch134-dataset-quality-audit-wave-2",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch135-timeseries-temporal-audit-wave-1",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch135-timeseries-temporal-audit-wave-1",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch135-timeseries-temporal-audit-wave-1",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch136-timeseries-temporal-audit-wave-2",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch136-timeseries-temporal-audit-wave-2",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch136-timeseries-temporal-audit-wave-2",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch137-tool-usefulness-audit-wave",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch137-tool-usefulness-audit-wave",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch137-tool-usefulness-audit-wave",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch138-conceptual-principle-audit-wave",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch138-conceptual-principle-audit-wave",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch138-conceptual-principle-audit-wave",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch139-package-install-test-wave",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch139-package-install-test-wave",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch139-package-install-test-wave",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
       "source": "result:batch14-protocol-risk-expansion-week2",
       "target": "domain:protocol-first-benchmark-validation-and-split-risk",
       "relation": "belongs_to_domain"
@@ -1659,6 +2239,146 @@
     },
     {
       "source": "result:batch14-protocol-risk-expansion-week2",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch140-cross-family-replay-negative-control-wave",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch140-cross-family-replay-negative-control-wave",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch140-cross-family-replay-negative-control-wave",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch141-hard-artifact-selection-deep-studies",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch142-deep-repo-study-a",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch142-deep-repo-study-a",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch142-deep-repo-study-a",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch143-deep-repo-study-b",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch143-deep-repo-study-b",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch143-deep-repo-study-b",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch144-deep-benchmark-study-a",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch144-deep-benchmark-study-a",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch144-deep-benchmark-study-a",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch145-deep-benchmark-study-b",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch145-deep-benchmark-study-b",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch145-deep-benchmark-study-b",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch146-deep-timeseries-study-a",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch146-deep-timeseries-study-a",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch146-deep-timeseries-study-a",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch147-deep-timeseries-study-b",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch147-deep-timeseries-study-b",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch147-deep-timeseries-study-b",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch148-deep-dataset-reliability-study",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch148-deep-dataset-reliability-study",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch148-deep-dataset-reliability-study",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch149-independent-replay-study",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch149-independent-replay-study",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch149-independent-replay-study",
       "target": "tool:pandas",
       "relation": "uses_public_tool_evidence"
     },
@@ -1678,6 +2398,76 @@
       "relation": "uses_public_tool_evidence"
     },
     {
+      "source": "result:batch150-hard-evidence-atlas",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch151-external-anomaly-mining-hard-mode",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch152-rival-principle-generation-hard-mode",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch153-discriminating-experiment-freeze-hard-mode",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch154-surprise-prediction-execution-hard-mode",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch154-surprise-prediction-execution-hard-mode",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch154-surprise-prediction-execution-hard-mode",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch155-cross-domain-transfer-hard-mode",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch155-cross-domain-transfer-hard-mode",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch155-cross-domain-transfer-hard-mode",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch156-principle-confidence-update-hard-mode",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch157-large-reviewer-brief-package",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch158-adversarial-reviewer-attack",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch159-overblocking-underblocking-calibration",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:batch16-landsat-deep-protocol-risk-study",
       "target": "domain:open-research",
       "relation": "belongs_to_domain"
@@ -1691,6 +2481,86 @@
       "source": "result:batch16-landsat-deep-protocol-risk-study",
       "target": "tool:pandas",
       "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch160-reviewer-burden-study",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch161-field-bound-standard-v1-candidate",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch162-standard-kill-week",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch163-intervention-candidate-generation-hard-mode",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch164-intervention-execution-wave-1",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch164-intervention-execution-wave-1",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch164-intervention-execution-wave-1",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch165-intervention-execution-wave-2",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch165-intervention-execution-wave-2",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch165-intervention-execution-wave-2",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch166-intervention-replay-control-study",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch166-intervention-replay-control-study",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch166-intervention-replay-control-study",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch167-useful-tool-or-standard-candidate-v3",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch168-candidate-kill-week",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch169-global-evidence-consistency-audit",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
     },
     {
       "source": "result:batch17-protocol-extraction-ambiguity-tournament",
@@ -1698,9 +2568,74 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:batch170-final-claim-decision-atlas",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch171-final-rival-principle-concept-atlas",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch172-final-external-usefulness-assessment",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch173-final-failure-negative-result-map",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch174-final-standard-tool-decision",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch175-external-review-scientist-paper",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch176-adversarial-final-review",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch177-final-einstein-path-score-v3",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch178-next-frontier-program-selection",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch179-public-corpus-integrity-metadata-repair",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:batch18-cross-target-split-risk-atlas",
       "target": "domain:open-research",
       "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch180-final-completion-report-hard-mode",
+      "target": "domain:external review scientist hard mode",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch180-final-completion-report-hard-mode",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch180-final-completion-report-hard-mode",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
     },
     {
       "source": "result:batch19-protocol-risk-kill-week",
@@ -2953,5 +3888,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "b24376ca1f83d3d0b4b74fa19aa80489628d0c702d9733ccb59bd7e41bbd6ec8"
+  "evidenceHash": "eddc91f03a1cc5e0eef54ec8d15d3834c3a6f6bfc7761db4bc1d54b8376db406"
 }

@@ -66,12 +66,72 @@ and safety scope in human-readable language.
 - [Batch 119 Adversarial Discovery Kill Week v2](results/batch119-adversarial-discovery-kill-week-v2/) — good, autopublished, batch119-adversarial-discovery-kill-week, extended external field evidence and claim safety v2
 - [Batch 12 Research Production Review and Next Frontier Program Selection](results/batch12-research-production-review-next-frontier-program/) — good, autopublished, batch12-research-production-review-next-frontier-program, autonomous-research-production-strategy
 - [Batch 120 Final External Einstein Track Synthesis](results/batch120-final-external-einstein-track-synthesis/) — good, autopublished, batch120-final-external-einstein-track-synthesis, extended external field evidence and claim safety v2
+- [Batch 121 External Review Scientist Kernel](results/batch121-external-review-scientist-kernel/) — good, autopublished, batch121-external-review-scientist-kernel, external review scientist hard mode
+- [Batch 122 Evidence Receipt Kernel Hardening](results/batch122-evidence-receipt-kernel-hardening/) — good, autopublished, batch122-evidence-receipt-kernel-hardening, external review scientist hard mode
+- [Batch 123 External Target Miner 500](results/batch123-external-target-miner-500/) — good, autopublished, batch123-external-target-miner-500, external review scientist hard mode
+- [Batch 124 Claim Screening Stratification 200](results/batch124-claim-screening-stratification-200/) — good, autopublished, batch124-claim-screening-stratification-200, external review scientist hard mode
+- [Batch 125 Field Bound Prediction Freeze 100](results/batch125-field-bound-prediction-freeze-100/) — good, autopublished, batch125-field-bound-prediction-freeze-100, external review scientist hard mode
+- [Batch 126 Execution Wave Planner](results/batch126-execution-wave-planner/) — good, autopublished, batch126-execution-wave-planner, external review scientist hard mode
+- [Batch 127 Calibration Execution Run](results/batch127-calibration-execution-run/) — good, autopublished, batch127-calibration-execution-run, external review scientist hard mode
+- [Batch 128 Calibration Kill Plan Revision](results/batch128-calibration-kill-plan-revision/) — good, autopublished, batch128-calibration-kill-plan-revision, external review scientist hard mode
+- [Batch 129 Benchmark Protocol Audit Wave 1](results/batch129-benchmark-protocol-audit-wave-1/) — good, autopublished, batch129-benchmark-protocol-audit-wave-1, external review scientist hard mode
 - [Batch 13 Protocol-First Benchmark Validation Week 1](results/batch13-protocol-first-benchmark-validation-week1/) — good, autopublished, batch13-protocol-first-benchmark-validation-week1, protocol-first-benchmark-validation-and-split-risk
+- [Batch 130 Benchmark Protocol Audit Wave 2](results/batch130-benchmark-protocol-audit-wave-2/) — good, autopublished, batch130-benchmark-protocol-audit-wave-2, external review scientist hard mode
+- [Batch 131 Repo Test Reproduction Wave 1](results/batch131-repo-test-reproduction-wave-1/) — good, autopublished, batch131-repo-test-reproduction-wave-1, external review scientist hard mode
+- [Batch 132 Repo Test Reproduction Wave 2](results/batch132-repo-test-reproduction-wave-2/) — good, autopublished, batch132-repo-test-reproduction-wave-2, external review scientist hard mode
+- [Batch 133 Dataset Quality Audit Wave 1](results/batch133-dataset-quality-audit-wave-1/) — good, autopublished, batch133-dataset-quality-audit-wave-1, external review scientist hard mode
+- [Batch 134 Dataset Quality Audit Wave 2](results/batch134-dataset-quality-audit-wave-2/) — good, autopublished, batch134-dataset-quality-audit-wave-2, external review scientist hard mode
+- [Batch 135 Timeseries Temporal Audit Wave 1](results/batch135-timeseries-temporal-audit-wave-1/) — good, autopublished, batch135-timeseries-temporal-audit-wave-1, external review scientist hard mode
+- [Batch 136 Timeseries Temporal Audit Wave 2](results/batch136-timeseries-temporal-audit-wave-2/) — good, autopublished, batch136-timeseries-temporal-audit-wave-2, external review scientist hard mode
+- [Batch 137 Tool Usefulness Audit Wave](results/batch137-tool-usefulness-audit-wave/) — good, autopublished, batch137-tool-usefulness-audit-wave, external review scientist hard mode
+- [Batch 138 Conceptual Principle Audit Wave](results/batch138-conceptual-principle-audit-wave/) — good, autopublished, batch138-conceptual-principle-audit-wave, external review scientist hard mode
+- [Batch 139 Package Install Test Wave](results/batch139-package-install-test-wave/) — good, autopublished, batch139-package-install-test-wave, external review scientist hard mode
 - [Batch 14 Protocol Risk Expansion Week 2](results/batch14-protocol-risk-expansion-week2/) — good, autopublished, batch14-protocol-risk-expansion-week2, protocol-first-benchmark-validation-and-split-risk
+- [Batch 140 Cross Family Replay Negative Control Wave](results/batch140-cross-family-replay-negative-control-wave/) — good, autopublished, batch140-cross-family-replay-negative-control-wave, external review scientist hard mode
+- [Batch 141 Hard Artifact Selection Deep Studies](results/batch141-hard-artifact-selection-deep-studies/) — good, autopublished, batch141-hard-artifact-selection-deep-studies, external review scientist hard mode
+- [Batch 142 Deep Repo Study A](results/batch142-deep-repo-study-a/) — good, autopublished, batch142-deep-repo-study-a, external review scientist hard mode
+- [Batch 143 Deep Repo Study B](results/batch143-deep-repo-study-b/) — good, autopublished, batch143-deep-repo-study-b, external review scientist hard mode
+- [Batch 144 Deep Benchmark Study A](results/batch144-deep-benchmark-study-a/) — good, autopublished, batch144-deep-benchmark-study-a, external review scientist hard mode
+- [Batch 145 Deep Benchmark Study B](results/batch145-deep-benchmark-study-b/) — good, autopublished, batch145-deep-benchmark-study-b, external review scientist hard mode
+- [Batch 146 Deep Timeseries Study A](results/batch146-deep-timeseries-study-a/) — good, autopublished, batch146-deep-timeseries-study-a, external review scientist hard mode
+- [Batch 147 Deep Timeseries Study B](results/batch147-deep-timeseries-study-b/) — good, autopublished, batch147-deep-timeseries-study-b, external review scientist hard mode
+- [Batch 148 Deep Dataset Reliability Study](results/batch148-deep-dataset-reliability-study/) — good, autopublished, batch148-deep-dataset-reliability-study, external review scientist hard mode
+- [Batch 149 Independent Replay Study](results/batch149-independent-replay-study/) — good, autopublished, batch149-independent-replay-study, external review scientist hard mode
 - [Batch 15 Shuttle Deep Protocol-Risk Study](results/batch15-shuttle-deep-protocol-risk-study/) — good, autopublished, batch15-shuttle-deep-protocol-risk-study, open-research
+- [Batch 150 Hard Evidence Atlas](results/batch150-hard-evidence-atlas/) — good, autopublished, batch150-hard-evidence-atlas, external review scientist hard mode
+- [Batch 151 External Anomaly Mining Hard Mode](results/batch151-external-anomaly-mining-hard-mode/) — good, autopublished, batch151-external-anomaly-mining-hard-mode, external review scientist hard mode
+- [Batch 152 Rival Principle Generation Hard Mode](results/batch152-rival-principle-generation-hard-mode/) — good, autopublished, batch152-rival-principle-generation-hard-mode, external review scientist hard mode
+- [Batch 153 Discriminating Experiment Freeze Hard Mode](results/batch153-discriminating-experiment-freeze-hard-mode/) — good, autopublished, batch153-discriminating-experiment-freeze-hard-mode, external review scientist hard mode
+- [Batch 154 Surprise Prediction Execution Hard Mode](results/batch154-surprise-prediction-execution-hard-mode/) — good, autopublished, batch154-surprise-prediction-execution-hard-mode, external review scientist hard mode
+- [Batch 155 Cross Domain Transfer Hard Mode](results/batch155-cross-domain-transfer-hard-mode/) — good, autopublished, batch155-cross-domain-transfer-hard-mode, external review scientist hard mode
+- [Batch 156 Principle Confidence Update Hard Mode](results/batch156-principle-confidence-update-hard-mode/) — good, autopublished, batch156-principle-confidence-update-hard-mode, external review scientist hard mode
+- [Batch 157 Large Reviewer Brief Package](results/batch157-large-reviewer-brief-package/) — good, autopublished, batch157-large-reviewer-brief-package, external review scientist hard mode
+- [Batch 158 Adversarial Reviewer Attack](results/batch158-adversarial-reviewer-attack/) — good, autopublished, batch158-adversarial-reviewer-attack, external review scientist hard mode
+- [Batch 159 Overblocking Underblocking Calibration](results/batch159-overblocking-underblocking-calibration/) — good, autopublished, batch159-overblocking-underblocking-calibration, external review scientist hard mode
 - [Batch 16 Landsat Deep Protocol-Risk Study](results/batch16-landsat-deep-protocol-risk-study/) — good, autopublished, batch16-landsat-deep-protocol-risk-study, open-research
+- [Batch 160 Reviewer Burden Study](results/batch160-reviewer-burden-study/) — good, autopublished, batch160-reviewer-burden-study, external review scientist hard mode
+- [Batch 161 Field Bound Standard v1 Candidate](results/batch161-field-bound-standard-v1-candidate/) — good, autopublished, batch161-field-bound-standard-v1-candidate, external review scientist hard mode
+- [Batch 162 Standard Kill Week](results/batch162-standard-kill-week/) — good, autopublished, batch162-standard-kill-week, external review scientist hard mode
+- [Batch 163 Intervention Candidate Generation Hard Mode](results/batch163-intervention-candidate-generation-hard-mode/) — good, autopublished, batch163-intervention-candidate-generation-hard-mode, external review scientist hard mode
+- [Batch 164 Intervention Execution Wave 1](results/batch164-intervention-execution-wave-1/) — good, autopublished, batch164-intervention-execution-wave-1, external review scientist hard mode
+- [Batch 165 Intervention Execution Wave 2](results/batch165-intervention-execution-wave-2/) — good, autopublished, batch165-intervention-execution-wave-2, external review scientist hard mode
+- [Batch 166 Intervention Replay Control Study](results/batch166-intervention-replay-control-study/) — good, autopublished, batch166-intervention-replay-control-study, external review scientist hard mode
+- [Batch 167 Useful Tool Or Standard Candidate v3](results/batch167-useful-tool-or-standard-candidate-v3/) — good, autopublished, batch167-useful-tool-or-standard-candidate, external review scientist hard mode
+- [Batch 168 Candidate Kill Week](results/batch168-candidate-kill-week/) — good, autopublished, batch168-candidate-kill-week, external review scientist hard mode
+- [Batch 169 Global Evidence Consistency Audit](results/batch169-global-evidence-consistency-audit/) — good, autopublished, batch169-global-evidence-consistency-audit, external review scientist hard mode
 - [Batch 17 Protocol Extraction and Ambiguity Tournament](results/batch17-protocol-extraction-ambiguity-tournament/) — good, autopublished, batch17-protocol-extraction-ambiguity-tournament, open-research
+- [Batch 170 Final Claim Decision Atlas](results/batch170-final-claim-decision-atlas/) — good, autopublished, batch170-final-claim-decision-atlas, external review scientist hard mode
+- [Batch 171 Final Rival Principle Concept Atlas](results/batch171-final-rival-principle-concept-atlas/) — good, autopublished, batch171-final-rival-principle-concept-atlas, external review scientist hard mode
+- [Batch 172 Final External Usefulness Assessment](results/batch172-final-external-usefulness-assessment/) — good, autopublished, batch172-final-external-usefulness-assessment, external review scientist hard mode
+- [Batch 173 Final Failure Negative Result Map](results/batch173-final-failure-negative-result-map/) — good, autopublished, batch173-final-failure-negative-result-map, external review scientist hard mode
+- [Batch 174 Final Standard Tool Decision](results/batch174-final-standard-tool-decision/) — good, autopublished, batch174-final-standard-tool-decision, external review scientist hard mode
+- [Batch 175 External Review Scientist Paper](results/batch175-external-review-scientist-paper/) — good, autopublished, batch175-external-review-scientist-paper, external review scientist hard mode
+- [Batch 176 Adversarial Final Review](results/batch176-adversarial-final-review/) — good, autopublished, batch176-adversarial-final-review, external review scientist hard mode
+- [Batch 177 Final Einstein Path Score v3](results/batch177-final-einstein-path-score-v3/) — good, autopublished, batch177-final-einstein-path-score, external review scientist hard mode
+- [Batch 178 Next Frontier Program Selection](results/batch178-next-frontier-program-selection/) — good, autopublished, batch178-next-frontier-program-selection, external review scientist hard mode
+- [Batch 179 Public Corpus Integrity Metadata Repair](results/batch179-public-corpus-integrity-metadata-repair/) — good, autopublished, batch179-public-corpus-integrity-metadata-repair, external review scientist hard mode
 - [Batch 18 Cross-Target Split-Risk Atlas](results/batch18-cross-target-split-risk-atlas/) — good, autopublished, batch18-cross-target-split-risk-atlas, open-research
+- [Batch 180 Final Completion Report Hard Mode](results/batch180-final-completion-report-hard-mode/) — good, autopublished, batch180-final-completion-report-hard-mode, external review scientist hard mode
 - [Batch 19 Protocol-Risk Kill Week](results/batch19-protocol-risk-kill-week/) — good, autopublished, batch19-protocol-risk-kill-week, open-research
 - [Climate-FEVER Claim Verification Source-Card Reproduction Follow-Up](results/batch2-climate-fever-claim-verification-followup/) — reviewable, autopublished, batch2-climate-fever-claim-verification-followup, claim-verification-benchmark-quality
 - [HotpotQA Source/Evidence Extraction Challenge](results/batch2-hotpotqa-source-evidence-extraction-challenge/) — good, autopublished, batch2-hotpotqa-source-evidence-extraction-challenge, source-evidence-extraction-quality

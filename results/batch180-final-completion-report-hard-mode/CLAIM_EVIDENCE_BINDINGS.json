@@ -1,0 +1,706 @@
+{
+  "bindingCount": 100,
+  "summaryOnly": true,
+  "bindings": [
+    {
+      "claimId": "ERV3-C0001",
+      "targetId": "erv3-target-0001",
+      "predictionId": "ERV3-P0001",
+      "receiptId": "receipt-erv3-target-0001",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0176",
+      "targetId": "erv3-target-0176",
+      "predictionId": "ERV3-P0002",
+      "receiptId": "receipt-erv3-target-0176",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0351",
+      "targetId": "erv3-target-0351",
+      "predictionId": "ERV3-P0003",
+      "receiptId": "receipt-erv3-target-0351",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0106",
+      "targetId": "erv3-target-0106",
+      "predictionId": "ERV3-P0004",
+      "receiptId": "receipt-erv3-target-0106",
+      "observedDecision": "not_testable"
+    },
+    {
+      "claimId": "ERV3-C0281",
+      "targetId": "erv3-target-0281",
+      "predictionId": "ERV3-P0005",
+      "receiptId": "receipt-erv3-target-0281",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0456",
+      "targetId": "erv3-target-0456",
+      "predictionId": "ERV3-P0006",
+      "receiptId": "receipt-erv3-target-0456",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0036",
+      "targetId": "erv3-target-0036",
+      "predictionId": "ERV3-P0007",
+      "receiptId": "receipt-erv3-target-0036",
+      "observedDecision": "not_testable"
+    },
+    {
+      "claimId": "ERV3-C0211",
+      "targetId": "erv3-target-0211",
+      "predictionId": "ERV3-P0008",
+      "receiptId": "receipt-erv3-target-0211",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0386",
+      "targetId": "erv3-target-0386",
+      "predictionId": "ERV3-P0009",
+      "receiptId": "receipt-erv3-target-0386",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0141",
+      "targetId": "erv3-target-0141",
+      "predictionId": "ERV3-P0010",
+      "receiptId": "receipt-erv3-target-0141",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0316",
+      "targetId": "erv3-target-0316",
+      "predictionId": "ERV3-P0011",
+      "receiptId": "receipt-erv3-target-0316",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0491",
+      "targetId": "erv3-target-0491",
+      "predictionId": "ERV3-P0012",
+      "receiptId": "receipt-erv3-target-0491",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0071",
+      "targetId": "erv3-target-0071",
+      "predictionId": "ERV3-P0013",
+      "receiptId": "receipt-erv3-target-0071",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0246",
+      "targetId": "erv3-target-0246",
+      "predictionId": "ERV3-P0014",
+      "receiptId": "receipt-erv3-target-0246",
+      "observedDecision": "not_testable"
+    },
+    {
+      "claimId": "ERV3-C0421",
+      "targetId": "erv3-target-0421",
+      "predictionId": "ERV3-P0015",
+      "receiptId": "receipt-erv3-target-0421",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0002",
+      "targetId": "erv3-target-0002",
+      "predictionId": "ERV3-P0016",
+      "receiptId": "receipt-erv3-target-0002",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0177",
+      "targetId": "erv3-target-0177",
+      "predictionId": "ERV3-P0017",
+      "receiptId": "receipt-erv3-target-0177",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0352",
+      "targetId": "erv3-target-0352",
+      "predictionId": "ERV3-P0018",
+      "receiptId": "receipt-erv3-target-0352",
+      "observedDecision": "not_testable"
+    },
+    {
+      "claimId": "ERV3-C0107",
+      "targetId": "erv3-target-0107",
+      "predictionId": "ERV3-P0019",
+      "receiptId": "receipt-erv3-target-0107",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0282",
+      "targetId": "erv3-target-0282",
+      "predictionId": "ERV3-P0020",
+      "receiptId": "receipt-erv3-target-0282",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0457",
+      "targetId": "erv3-target-0457",
+      "predictionId": "ERV3-P0021",
+      "receiptId": "receipt-erv3-target-0457",
+      "observedDecision": "not_testable"
+    },
+    {
+      "claimId": "ERV3-C0037",
+      "targetId": "erv3-target-0037",
+      "predictionId": "ERV3-P0022",
+      "receiptId": "receipt-erv3-target-0037",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0212",
+      "targetId": "erv3-target-0212",
+      "predictionId": "ERV3-P0023",
+      "receiptId": "receipt-erv3-target-0212",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0387",
+      "targetId": "erv3-target-0387",
+      "predictionId": "ERV3-P0024",
+      "receiptId": "receipt-erv3-target-0387",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0142",
+      "targetId": "erv3-target-0142",
+      "predictionId": "ERV3-P0025",
+      "receiptId": "receipt-erv3-target-0142",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0317",
+      "targetId": "erv3-target-0317",
+      "predictionId": "ERV3-P0026",
+      "receiptId": "receipt-erv3-target-0317",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0492",
+      "targetId": "erv3-target-0492",
+      "predictionId": "ERV3-P0027",
+      "receiptId": "receipt-erv3-target-0492",
+      "observedDecision": "not_testable"
+    },
+    {
+      "claimId": "ERV3-C0072",
+      "targetId": "erv3-target-0072",
+      "predictionId": "ERV3-P0028",
+      "receiptId": "receipt-erv3-target-0072",
+      "observedDecision": "not_testable"
+    },
+    {
+      "claimId": "ERV3-C0247",
+      "targetId": "erv3-target-0247",
+      "predictionId": "ERV3-P0029",
+      "receiptId": "receipt-erv3-target-0247",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0422",
+      "targetId": "erv3-target-0422",
+      "predictionId": "ERV3-P0030",
+      "receiptId": "receipt-erv3-target-0422",
+      "observedDecision": "not_testable"
+    },
+    {
+      "claimId": "ERV3-C0003",
+      "targetId": "erv3-target-0003",
+      "predictionId": "ERV3-P0031",
+      "receiptId": "receipt-erv3-target-0003",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0178",
+      "targetId": "erv3-target-0178",
+      "predictionId": "ERV3-P0032",
+      "receiptId": "receipt-erv3-target-0178",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0353",
+      "targetId": "erv3-target-0353",
+      "predictionId": "ERV3-P0033",
+      "receiptId": "receipt-erv3-target-0353",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0108",
+      "targetId": "erv3-target-0108",
+      "predictionId": "ERV3-P0034",
+      "receiptId": "receipt-erv3-target-0108",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0283",
+      "targetId": "erv3-target-0283",
+      "predictionId": "ERV3-P0035",
+      "receiptId": "receipt-erv3-target-0283",
+      "observedDecision": "not_testable"
+    },
+    {
+      "claimId": "ERV3-C0458",
+      "targetId": "erv3-target-0458",
+      "predictionId": "ERV3-P0036",
+      "receiptId": "receipt-erv3-target-0458",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0038",
+      "targetId": "erv3-target-0038",
+      "predictionId": "ERV3-P0037",
+      "receiptId": "receipt-erv3-target-0038",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0213",
+      "targetId": "erv3-target-0213",
+      "predictionId": "ERV3-P0038",
+      "receiptId": "receipt-erv3-target-0213",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0388",
+      "targetId": "erv3-target-0388",
+      "predictionId": "ERV3-P0039",
+      "receiptId": "receipt-erv3-target-0388",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0143",
+      "targetId": "erv3-target-0143",
+      "predictionId": "ERV3-P0040",
+      "receiptId": "receipt-erv3-target-0143",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0318",
+      "targetId": "erv3-target-0318",
+      "predictionId": "ERV3-P0041",
+      "receiptId": "receipt-erv3-target-0318",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0493",
+      "targetId": "erv3-target-0493",
+      "predictionId": "ERV3-P0042",
+      "receiptId": "receipt-erv3-target-0493",
+      "observedDecision": "not_testable"
+    },
+    {
+      "claimId": "ERV3-C0073",
+      "targetId": "erv3-target-0073",
+      "predictionId": "ERV3-P0043",
+      "receiptId": "receipt-erv3-target-0073",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0248",
+      "targetId": "erv3-target-0248",
+      "predictionId": "ERV3-P0044",
+      "receiptId": "receipt-erv3-target-0248",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0423",
+      "targetId": "erv3-target-0423",
+      "predictionId": "ERV3-P0045",
+      "receiptId": "receipt-erv3-target-0423",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0004",
+      "targetId": "erv3-target-0004",
+      "predictionId": "ERV3-P0046",
+      "receiptId": "receipt-erv3-target-0004",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0179",
+      "targetId": "erv3-target-0179",
+      "predictionId": "ERV3-P0047",
+      "receiptId": "receipt-erv3-target-0179",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0354",
+      "targetId": "erv3-target-0354",
+      "predictionId": "ERV3-P0048",
+      "receiptId": "receipt-erv3-target-0354",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0109",
+      "targetId": "erv3-target-0109",
+      "predictionId": "ERV3-P0049",
+      "receiptId": "receipt-erv3-target-0109",
+      "observedDecision": "not_testable"
+    },
+    {
+      "claimId": "ERV3-C0284",
+      "targetId": "erv3-target-0284",
+      "predictionId": "ERV3-P0050",
+      "receiptId": "receipt-erv3-target-0284",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0459",
+      "targetId": "erv3-target-0459",
+      "predictionId": "ERV3-P0051",
+      "receiptId": "receipt-erv3-target-0459",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0039",
+      "targetId": "erv3-target-0039",
+      "predictionId": "ERV3-P0052",
+      "receiptId": "receipt-erv3-target-0039",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0214",
+      "targetId": "erv3-target-0214",
+      "predictionId": "ERV3-P0053",
+      "receiptId": "receipt-erv3-target-0214",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0389",
+      "targetId": "erv3-target-0389",
+      "predictionId": "ERV3-P0054",
+      "receiptId": "receipt-erv3-target-0389",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0144",
+      "targetId": "erv3-target-0144",
+      "predictionId": "ERV3-P0055",
+      "receiptId": "receipt-erv3-target-0144",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0319",
+      "targetId": "erv3-target-0319",
+      "predictionId": "ERV3-P0056",
+      "receiptId": "receipt-erv3-target-0319",
+      "observedDecision": "not_testable"
+    },
+    {
+      "claimId": "ERV3-C0494",
+      "targetId": "erv3-target-0494",
+      "predictionId": "ERV3-P0057",
+      "receiptId": "receipt-erv3-target-0494",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0074",
+      "targetId": "erv3-target-0074",
+      "predictionId": "ERV3-P0058",
+      "receiptId": "receipt-erv3-target-0074",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0249",
+      "targetId": "erv3-target-0249",
+      "predictionId": "ERV3-P0059",
+      "receiptId": "receipt-erv3-target-0249",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0424",
+      "targetId": "erv3-target-0424",
+      "predictionId": "ERV3-P0060",
+      "receiptId": "receipt-erv3-target-0424",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0005",
+      "targetId": "erv3-target-0005",
+      "predictionId": "ERV3-P0061",
+      "receiptId": "receipt-erv3-target-0005",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0180",
+      "targetId": "erv3-target-0180",
+      "predictionId": "ERV3-P0062",
+      "receiptId": "receipt-erv3-target-0180",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0355",
+      "targetId": "erv3-target-0355",
+      "predictionId": "ERV3-P0063",
+      "receiptId": "receipt-erv3-target-0355",
+      "observedDecision": "not_testable"
+    },
+    {
+      "claimId": "ERV3-C0110",
+      "targetId": "erv3-target-0110",
+      "predictionId": "ERV3-P0064",
+      "receiptId": "receipt-erv3-target-0110",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0285",
+      "targetId": "erv3-target-0285",
+      "predictionId": "ERV3-P0065",
+      "receiptId": "receipt-erv3-target-0285",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0460",
+      "targetId": "erv3-target-0460",
+      "predictionId": "ERV3-P0066",
+      "receiptId": "receipt-erv3-target-0460",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0040",
+      "targetId": "erv3-target-0040",
+      "predictionId": "ERV3-P0067",
+      "receiptId": "receipt-erv3-target-0040",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0215",
+      "targetId": "erv3-target-0215",
+      "predictionId": "ERV3-P0068",
+      "receiptId": "receipt-erv3-target-0215",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0390",
+      "targetId": "erv3-target-0390",
+      "predictionId": "ERV3-P0069",
+      "receiptId": "receipt-erv3-target-0390",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0145",
+      "targetId": "erv3-target-0145",
+      "predictionId": "ERV3-P0070",
+      "receiptId": "receipt-erv3-target-0145",
+      "observedDecision": "not_testable"
+    },
+    {
+      "claimId": "ERV3-C0320",
+      "targetId": "erv3-target-0320",
+      "predictionId": "ERV3-P0071",
+      "receiptId": "receipt-erv3-target-0320",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0495",
+      "targetId": "erv3-target-0495",
+      "predictionId": "ERV3-P0072",
+      "receiptId": "receipt-erv3-target-0495",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0075",
+      "targetId": "erv3-target-0075",
+      "predictionId": "ERV3-P0073",
+      "receiptId": "receipt-erv3-target-0075",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0250",
+      "targetId": "erv3-target-0250",
+      "predictionId": "ERV3-P0074",
+      "receiptId": "receipt-erv3-target-0250",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0425",
+      "targetId": "erv3-target-0425",
+      "predictionId": "ERV3-P0075",
+      "receiptId": "receipt-erv3-target-0425",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0076",
+      "targetId": "erv3-target-0076",
+      "predictionId": "ERV3-P0076",
+      "receiptId": "receipt-erv3-target-0076",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0251",
+      "targetId": "erv3-target-0251",
+      "predictionId": "ERV3-P0077",
+      "receiptId": "receipt-erv3-target-0251",
+      "observedDecision": "not_testable"
+    },
+    {
+      "claimId": "ERV3-C0426",
+      "targetId": "erv3-target-0426",
+      "predictionId": "ERV3-P0078",
+      "receiptId": "receipt-erv3-target-0426",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0006",
+      "targetId": "erv3-target-0006",
+      "predictionId": "ERV3-P0079",
+      "receiptId": "receipt-erv3-target-0006",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0181",
+      "targetId": "erv3-target-0181",
+      "predictionId": "ERV3-P0080",
+      "receiptId": "receipt-erv3-target-0181",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0356",
+      "targetId": "erv3-target-0356",
+      "predictionId": "ERV3-P0081",
+      "receiptId": "receipt-erv3-target-0356",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0111",
+      "targetId": "erv3-target-0111",
+      "predictionId": "ERV3-P0082",
+      "receiptId": "receipt-erv3-target-0111",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0286",
+      "targetId": "erv3-target-0286",
+      "predictionId": "ERV3-P0083",
+      "receiptId": "receipt-erv3-target-0286",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0461",
+      "targetId": "erv3-target-0461",
+      "predictionId": "ERV3-P0084",
+      "receiptId": "receipt-erv3-target-0461",
+      "observedDecision": "not_testable"
+    },
+    {
+      "claimId": "ERV3-C0041",
+      "targetId": "erv3-target-0041",
+      "predictionId": "ERV3-P0085",
+      "receiptId": "receipt-erv3-target-0041",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0216",
+      "targetId": "erv3-target-0216",
+      "predictionId": "ERV3-P0086",
+      "receiptId": "receipt-erv3-target-0216",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0391",
+      "targetId": "erv3-target-0391",
+      "predictionId": "ERV3-P0087",
+      "receiptId": "receipt-erv3-target-0391",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0146",
+      "targetId": "erv3-target-0146",
+      "predictionId": "ERV3-P0088",
+      "receiptId": "receipt-erv3-target-0146",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0321",
+      "targetId": "erv3-target-0321",
+      "predictionId": "ERV3-P0089",
+      "receiptId": "receipt-erv3-target-0321",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0496",
+      "targetId": "erv3-target-0496",
+      "predictionId": "ERV3-P0090",
+      "receiptId": "receipt-erv3-target-0496",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0077",
+      "targetId": "erv3-target-0077",
+      "predictionId": "ERV3-P0091",
+      "receiptId": "receipt-erv3-target-0077",
+      "observedDecision": "not_testable"
+    },
+    {
+      "claimId": "ERV3-C0252",
+      "targetId": "erv3-target-0252",
+      "predictionId": "ERV3-P0092",
+      "receiptId": "receipt-erv3-target-0252",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0427",
+      "targetId": "erv3-target-0427",
+      "predictionId": "ERV3-P0093",
+      "receiptId": "receipt-erv3-target-0427",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0007",
+      "targetId": "erv3-target-0007",
+      "predictionId": "ERV3-P0094",
+      "receiptId": "receipt-erv3-target-0007",
+      "observedDecision": "allowed"
+    },
+    {
+      "claimId": "ERV3-C0182",
+      "targetId": "erv3-target-0182",
+      "predictionId": "ERV3-P0095",
+      "receiptId": "receipt-erv3-target-0182",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0357",
+      "targetId": "erv3-target-0357",
+      "predictionId": "ERV3-P0096",
+      "receiptId": "receipt-erv3-target-0357",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0112",
+      "targetId": "erv3-target-0112",
+      "predictionId": "ERV3-P0097",
+      "receiptId": "receipt-erv3-target-0112",
+      "observedDecision": "allowed_with_caveats"
+    },
+    {
+      "claimId": "ERV3-C0287",
+      "targetId": "erv3-target-0287",
+      "predictionId": "ERV3-P0098",
+      "receiptId": "receipt-erv3-target-0287",
+      "observedDecision": "not_testable"
+    },
+    {
+      "claimId": "ERV3-C0462",
+      "targetId": "erv3-target-0462",
+      "predictionId": "ERV3-P0099",
+      "receiptId": "receipt-erv3-target-0462",
+      "observedDecision": "not_testable"
+    },
+    {
+      "claimId": "ERV3-C0042",
+      "targetId": "erv3-target-0042",
+      "predictionId": "ERV3-P0100",
+      "receiptId": "receipt-erv3-target-0042",
+      "observedDecision": "not_testable"
+    }
+  ]
+}

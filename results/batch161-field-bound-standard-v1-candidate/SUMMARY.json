@@ -1,0 +1,33 @@
+{
+  "kind": "field_bound_standard_v1_candidate_summary",
+  "slug": "batch161-field-bound-standard-v1-candidate",
+  "title": "Batch 161 Field Bound Standard v1 Candidate",
+  "resultKind": "field_bound_standard_v1_candidate",
+  "qualityLabel": "good",
+  "candidateStatus": "v1_candidate_with_limits",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 88,
+  "evidenceStrengthScore": 86,
+  "reproducibilityScore": 91,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 94,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "passes_falsification",
+  "baselineComparisonPresent": true,
+  "scientificMemoryUpdated": true,
+  "scientificQuestion": "Can Field-Bound Claim Safety support receipt-backed external scientific and technical claim review at scale?",
+  "domain": "external review scientist hard mode",
+  "phase": "Phase 5 Reviewer Package Calibration and Practicality",
+  "objective": "Field-bound standard v1 candidate",
+  "limitations": [
+    "Bounded safe computational evidence only.",
+    "Claim labels are review decisions, not proof.",
+    "No outside-party uptake or broad maturity claim is made."
+  ],
+  "evidenceBoundRules": 12,
+  "evidenceHash": "9dbb3eacd5592039ef8022aa905d8eecdc7804a9f7c103bcc9a99e17ccd0e2c0"
+}

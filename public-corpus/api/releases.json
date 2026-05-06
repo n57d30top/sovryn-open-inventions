@@ -281,11 +281,182 @@
       "pushed": true
     },
     {
+      "slug": "batch121-external-review-scientist-kernel",
+      "path": "results/batch121-external-review-scientist-kernel",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch121-external-review-scientist-kernel",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch122-evidence-receipt-kernel-hardening",
+      "path": "results/batch122-evidence-receipt-kernel-hardening",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch122-evidence-receipt-kernel-hardening",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch123-external-target-miner-500",
+      "path": "results/batch123-external-target-miner-500",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch123-external-target-miner-500",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch124-claim-screening-stratification-200",
+      "path": "results/batch124-claim-screening-stratification-200",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch124-claim-screening-stratification-200",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch125-field-bound-prediction-freeze-100",
+      "path": "results/batch125-field-bound-prediction-freeze-100",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch125-field-bound-prediction-freeze-100",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch126-execution-wave-planner",
+      "path": "results/batch126-execution-wave-planner",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch126-execution-wave-planner",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch127-calibration-execution-run",
+      "path": "results/batch127-calibration-execution-run",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch127-calibration-execution-run",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch128-calibration-kill-plan-revision",
+      "path": "results/batch128-calibration-kill-plan-revision",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch128-calibration-kill-plan-revision",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch129-benchmark-protocol-audit-wave-1",
+      "path": "results/batch129-benchmark-protocol-audit-wave-1",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch129-benchmark-protocol-audit-wave-1",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "batch13-protocol-first-benchmark-validation-week1",
       "path": "results/batch13-protocol-first-benchmark-validation-week1",
       "status": "autopublished",
       "lifecycleStatus": "autopublished",
       "versionGroup": "batch13-protocol-first-benchmark-validation-week1",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch130-benchmark-protocol-audit-wave-2",
+      "path": "results/batch130-benchmark-protocol-audit-wave-2",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch130-benchmark-protocol-audit-wave-2",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch131-repo-test-reproduction-wave-1",
+      "path": "results/batch131-repo-test-reproduction-wave-1",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch131-repo-test-reproduction-wave-1",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch132-repo-test-reproduction-wave-2",
+      "path": "results/batch132-repo-test-reproduction-wave-2",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch132-repo-test-reproduction-wave-2",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch133-dataset-quality-audit-wave-1",
+      "path": "results/batch133-dataset-quality-audit-wave-1",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch133-dataset-quality-audit-wave-1",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch134-dataset-quality-audit-wave-2",
+      "path": "results/batch134-dataset-quality-audit-wave-2",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch134-dataset-quality-audit-wave-2",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch135-timeseries-temporal-audit-wave-1",
+      "path": "results/batch135-timeseries-temporal-audit-wave-1",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch135-timeseries-temporal-audit-wave-1",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch136-timeseries-temporal-audit-wave-2",
+      "path": "results/batch136-timeseries-temporal-audit-wave-2",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch136-timeseries-temporal-audit-wave-2",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch137-tool-usefulness-audit-wave",
+      "path": "results/batch137-tool-usefulness-audit-wave",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch137-tool-usefulness-audit-wave",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch138-conceptual-principle-audit-wave",
+      "path": "results/batch138-conceptual-principle-audit-wave",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch138-conceptual-principle-audit-wave",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch139-package-install-test-wave",
+      "path": "results/batch139-package-install-test-wave",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch139-package-install-test-wave",
       "supersededBy": null,
       "pushed": false
     },
@@ -299,6 +470,96 @@
       "pushed": false
     },
     {
+      "slug": "batch140-cross-family-replay-negative-control-wave",
+      "path": "results/batch140-cross-family-replay-negative-control-wave",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch140-cross-family-replay-negative-control-wave",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch141-hard-artifact-selection-deep-studies",
+      "path": "results/batch141-hard-artifact-selection-deep-studies",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch141-hard-artifact-selection-deep-studies",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch142-deep-repo-study-a",
+      "path": "results/batch142-deep-repo-study-a",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch142-deep-repo-study-a",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch143-deep-repo-study-b",
+      "path": "results/batch143-deep-repo-study-b",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch143-deep-repo-study-b",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch144-deep-benchmark-study-a",
+      "path": "results/batch144-deep-benchmark-study-a",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch144-deep-benchmark-study-a",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch145-deep-benchmark-study-b",
+      "path": "results/batch145-deep-benchmark-study-b",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch145-deep-benchmark-study-b",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch146-deep-timeseries-study-a",
+      "path": "results/batch146-deep-timeseries-study-a",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch146-deep-timeseries-study-a",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch147-deep-timeseries-study-b",
+      "path": "results/batch147-deep-timeseries-study-b",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch147-deep-timeseries-study-b",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch148-deep-dataset-reliability-study",
+      "path": "results/batch148-deep-dataset-reliability-study",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch148-deep-dataset-reliability-study",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch149-independent-replay-study",
+      "path": "results/batch149-independent-replay-study",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch149-independent-replay-study",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "batch15-shuttle-deep-protocol-risk-study",
       "path": "results/batch15-shuttle-deep-protocol-risk-study",
       "status": "autopublished",
@@ -306,6 +567,96 @@
       "versionGroup": "batch15-shuttle-deep-protocol-risk-study",
       "supersededBy": null,
       "pushed": true
+    },
+    {
+      "slug": "batch150-hard-evidence-atlas",
+      "path": "results/batch150-hard-evidence-atlas",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch150-hard-evidence-atlas",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch151-external-anomaly-mining-hard-mode",
+      "path": "results/batch151-external-anomaly-mining-hard-mode",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch151-external-anomaly-mining-hard-mode",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch152-rival-principle-generation-hard-mode",
+      "path": "results/batch152-rival-principle-generation-hard-mode",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch152-rival-principle-generation-hard-mode",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch153-discriminating-experiment-freeze-hard-mode",
+      "path": "results/batch153-discriminating-experiment-freeze-hard-mode",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch153-discriminating-experiment-freeze-hard-mode",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch154-surprise-prediction-execution-hard-mode",
+      "path": "results/batch154-surprise-prediction-execution-hard-mode",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch154-surprise-prediction-execution-hard-mode",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch155-cross-domain-transfer-hard-mode",
+      "path": "results/batch155-cross-domain-transfer-hard-mode",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch155-cross-domain-transfer-hard-mode",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch156-principle-confidence-update-hard-mode",
+      "path": "results/batch156-principle-confidence-update-hard-mode",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch156-principle-confidence-update-hard-mode",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch157-large-reviewer-brief-package",
+      "path": "results/batch157-large-reviewer-brief-package",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch157-large-reviewer-brief-package",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch158-adversarial-reviewer-attack",
+      "path": "results/batch158-adversarial-reviewer-attack",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch158-adversarial-reviewer-attack",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch159-overblocking-underblocking-calibration",
+      "path": "results/batch159-overblocking-underblocking-calibration",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch159-overblocking-underblocking-calibration",
+      "supersededBy": null,
+      "pushed": false
     },
     {
       "slug": "batch16-landsat-deep-protocol-risk-study",
@@ -317,6 +668,96 @@
       "pushed": true
     },
     {
+      "slug": "batch160-reviewer-burden-study",
+      "path": "results/batch160-reviewer-burden-study",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch160-reviewer-burden-study",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch161-field-bound-standard-v1-candidate",
+      "path": "results/batch161-field-bound-standard-v1-candidate",
+      "status": "v1_candidate_with_limits",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch161-field-bound-standard-v1-candidate",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch162-standard-kill-week",
+      "path": "results/batch162-standard-kill-week",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch162-standard-kill-week",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch163-intervention-candidate-generation-hard-mode",
+      "path": "results/batch163-intervention-candidate-generation-hard-mode",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch163-intervention-candidate-generation-hard-mode",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch164-intervention-execution-wave-1",
+      "path": "results/batch164-intervention-execution-wave-1",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch164-intervention-execution-wave-1",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch165-intervention-execution-wave-2",
+      "path": "results/batch165-intervention-execution-wave-2",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch165-intervention-execution-wave-2",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch166-intervention-replay-control-study",
+      "path": "results/batch166-intervention-replay-control-study",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch166-intervention-replay-control-study",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch167-useful-tool-or-standard-candidate-v3",
+      "path": "results/batch167-useful-tool-or-standard-candidate-v3",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch167-useful-tool-or-standard-candidate",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch168-candidate-kill-week",
+      "path": "results/batch168-candidate-kill-week",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch168-candidate-kill-week",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch169-global-evidence-consistency-audit",
+      "path": "results/batch169-global-evidence-consistency-audit",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch169-global-evidence-consistency-audit",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "batch17-protocol-extraction-ambiguity-tournament",
       "path": "results/batch17-protocol-extraction-ambiguity-tournament",
       "status": "autopublished",
@@ -326,6 +767,96 @@
       "pushed": true
     },
     {
+      "slug": "batch170-final-claim-decision-atlas",
+      "path": "results/batch170-final-claim-decision-atlas",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch170-final-claim-decision-atlas",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch171-final-rival-principle-concept-atlas",
+      "path": "results/batch171-final-rival-principle-concept-atlas",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch171-final-rival-principle-concept-atlas",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch172-final-external-usefulness-assessment",
+      "path": "results/batch172-final-external-usefulness-assessment",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch172-final-external-usefulness-assessment",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch173-final-failure-negative-result-map",
+      "path": "results/batch173-final-failure-negative-result-map",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch173-final-failure-negative-result-map",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch174-final-standard-tool-decision",
+      "path": "results/batch174-final-standard-tool-decision",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch174-final-standard-tool-decision",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch175-external-review-scientist-paper",
+      "path": "results/batch175-external-review-scientist-paper",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch175-external-review-scientist-paper",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch176-adversarial-final-review",
+      "path": "results/batch176-adversarial-final-review",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch176-adversarial-final-review",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch177-final-einstein-path-score-v3",
+      "path": "results/batch177-final-einstein-path-score-v3",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch177-final-einstein-path-score",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch178-next-frontier-program-selection",
+      "path": "results/batch178-next-frontier-program-selection",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch178-next-frontier-program-selection",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch179-public-corpus-integrity-metadata-repair",
+      "path": "results/batch179-public-corpus-integrity-metadata-repair",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch179-public-corpus-integrity-metadata-repair",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "batch18-cross-target-split-risk-atlas",
       "path": "results/batch18-cross-target-split-risk-atlas",
       "status": "autopublished",
@@ -333,6 +864,15 @@
       "versionGroup": "batch18-cross-target-split-risk-atlas",
       "supersededBy": null,
       "pushed": true
+    },
+    {
+      "slug": "batch180-final-completion-report-hard-mode",
+      "path": "results/batch180-final-completion-report-hard-mode",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch180-final-completion-report-hard-mode",
+      "supersededBy": null,
+      "pushed": false
     },
     {
       "slug": "batch19-protocol-risk-kill-week",
@@ -1649,5 +2189,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "ee29dcec8794f7428318719a43fc24fa79babf843bb3cbdc212e06250cf8af32"
+  "evidenceHash": "91818556765d817ebf406ec2d5961298302dabb49c5ea72100710464c011b359"
 }

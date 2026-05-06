@@ -1,0 +1,32 @@
+# Examples and Non-Examples
+
+- Example 1: receipt-backed claim decision with actionable field requirements.
+- Example 2: receipt-backed claim decision with actionable field requirements.
+- Example 3: receipt-backed claim decision with actionable field requirements.
+- Example 4: receipt-backed claim decision with actionable field requirements.
+- Example 5: receipt-backed claim decision with actionable field requirements.
+- Example 6: receipt-backed claim decision with actionable field requirements.
+- Example 7: receipt-backed claim decision with actionable field requirements.
+- Example 8: receipt-backed claim decision with actionable field requirements.
+- Example 9: receipt-backed claim decision with actionable field requirements.
+- Example 10: receipt-backed claim decision with actionable field requirements.
+- Example 11: receipt-backed claim decision with actionable field requirements.
+- Example 12: receipt-backed claim decision with actionable field requirements.
+- Example 13: receipt-backed claim decision with actionable field requirements.
+- Example 14: receipt-backed claim decision with actionable field requirements.
+- Example 15: receipt-backed claim decision with actionable field requirements.
+- Example 16: receipt-backed claim decision with actionable field requirements.
+- Example 17: receipt-backed claim decision with actionable field requirements.
+- Example 18: receipt-backed claim decision with actionable field requirements.
+- Example 19: receipt-backed claim decision with actionable field requirements.
+- Example 20: receipt-backed claim decision with actionable field requirements.
+- Non-example 1: vague field checklist without execution receipt or falsifier.
+- Non-example 2: vague field checklist without execution receipt or falsifier.
+- Non-example 3: vague field checklist without execution receipt or falsifier.
+- Non-example 4: vague field checklist without execution receipt or falsifier.
+- Non-example 5: vague field checklist without execution receipt or falsifier.
+- Non-example 6: vague field checklist without execution receipt or falsifier.
+- Non-example 7: vague field checklist without execution receipt or falsifier.
+- Non-example 8: vague field checklist without execution receipt or falsifier.
+- Non-example 9: vague field checklist without execution receipt or falsifier.
+- Non-example 10: vague field checklist without execution receipt or falsifier.

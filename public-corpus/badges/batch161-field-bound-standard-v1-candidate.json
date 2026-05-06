@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "batch161-field-bound-standard-v1-candidate",
+  "badges": {
+    "quality": "good",
+    "status": "v1_candidate_with_limits",
+    "antiTemplate": "specific_public_evidence",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "passes_falsification",
+    "lifecycle": "autopublished",
+    "version": "batch161-field-bound-standard-v1-candidate",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "70603dcb4e2db157ebb4037b359ce4484ae713221319d462ef97076c901cf0f9"
+}

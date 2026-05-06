@@ -1,0 +1,26 @@
+# Discriminating Experiments
+
+- Experiment 1: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 2: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 3: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 4: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 5: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 6: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 7: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 8: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 9: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 10: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 11: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 12: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 13: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 14: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 15: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 16: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 17: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 18: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 19: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 20: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 21: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 22: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 23: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.
+- Experiment 24: compare field-specific boundary, receipt dominance, and checklist sufficiency on a fresh public claim family.

@@ -1,0 +1,37 @@
+{
+  "kind": "final_einstein_path_score_v3_summary",
+  "slug": "batch177-final-einstein-path-score-v3",
+  "title": "Batch 177 Final Einstein Path Score v3",
+  "resultKind": "final_einstein_path_score_v3",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 86,
+  "reproducibilityScore": 91,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 94,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "passes_falsification",
+  "baselineComparisonPresent": true,
+  "scientificMemoryUpdated": true,
+  "scientificQuestion": "Can Field-Bound Claim Safety support receipt-backed external scientific and technical claim review at scale?",
+  "domain": "external review scientist hard mode",
+  "phase": "Phase 7 Final External Review Scientist Synthesis",
+  "objective": "Final Einstein path score v3",
+  "limitations": [
+    "Bounded safe computational evidence only.",
+    "Claim labels are review decisions, not proof.",
+    "No outside-party uptake or broad maturity claim is made."
+  ],
+  "einsteinPathScore": 54,
+  "previousScores": [
+    42,
+    49
+  ],
+  "evidenceHash": "72254c14e1e74277c68ca99d451b8dfa85e14d58be41cbf5f10890f620514458"
+}

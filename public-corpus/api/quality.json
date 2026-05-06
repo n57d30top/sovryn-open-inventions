@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 172,
+    "good": 232,
     "reviewable": 6
   },
   "results": [
@@ -162,9 +162,104 @@
       "releaseReadinessScore": 91
     },
     {
+      "slug": "batch121-external-review-scientist-kernel",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch122-evidence-receipt-kernel-hardening",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch123-external-target-miner-500",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch124-claim-screening-stratification-200",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch125-field-bound-prediction-freeze-100",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch126-execution-wave-planner",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch127-calibration-execution-run",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch128-calibration-kill-plan-revision",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch129-benchmark-protocol-audit-wave-1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
       "slug": "batch13-protocol-first-benchmark-validation-week1",
       "qualityLabel": "good",
       "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch130-benchmark-protocol-audit-wave-2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch131-repo-test-reproduction-wave-1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch132-repo-test-reproduction-wave-2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch133-dataset-quality-audit-wave-1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch134-dataset-quality-audit-wave-2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch135-timeseries-temporal-audit-wave-1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch136-timeseries-temporal-audit-wave-2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch137-tool-usefulness-audit-wave",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch138-conceptual-principle-audit-wave",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch139-package-install-test-wave",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
     },
     {
       "slug": "batch14-protocol-risk-expansion-week2",
@@ -172,12 +267,162 @@
       "releaseReadinessScore": 92
     },
     {
+      "slug": "batch140-cross-family-replay-negative-control-wave",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch141-hard-artifact-selection-deep-studies",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch142-deep-repo-study-a",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch143-deep-repo-study-b",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch144-deep-benchmark-study-a",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch145-deep-benchmark-study-b",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch146-deep-timeseries-study-a",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch147-deep-timeseries-study-b",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch148-deep-dataset-reliability-study",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch149-independent-replay-study",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
       "slug": "batch15-shuttle-deep-protocol-risk-study",
       "qualityLabel": "good",
       "releaseReadinessScore": 92
     },
     {
+      "slug": "batch150-hard-evidence-atlas",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch151-external-anomaly-mining-hard-mode",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch152-rival-principle-generation-hard-mode",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch153-discriminating-experiment-freeze-hard-mode",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch154-surprise-prediction-execution-hard-mode",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch155-cross-domain-transfer-hard-mode",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch156-principle-confidence-update-hard-mode",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch157-large-reviewer-brief-package",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch158-adversarial-reviewer-attack",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch159-overblocking-underblocking-calibration",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
       "slug": "batch16-landsat-deep-protocol-risk-study",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch160-reviewer-burden-study",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch161-field-bound-standard-v1-candidate",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch162-standard-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch163-intervention-candidate-generation-hard-mode",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch164-intervention-execution-wave-1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch165-intervention-execution-wave-2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch166-intervention-replay-control-study",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch167-useful-tool-or-standard-candidate-v3",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch168-candidate-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch169-global-evidence-consistency-audit",
       "qualityLabel": "good",
       "releaseReadinessScore": 91
     },
@@ -187,9 +432,64 @@
       "releaseReadinessScore": 86
     },
     {
+      "slug": "batch170-final-claim-decision-atlas",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch171-final-rival-principle-concept-atlas",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch172-final-external-usefulness-assessment",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch173-final-failure-negative-result-map",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch174-final-standard-tool-decision",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch175-external-review-scientist-paper",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch176-adversarial-final-review",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch177-final-einstein-path-score-v3",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch178-next-frontier-program-selection",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch179-public-corpus-integrity-metadata-repair",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
       "slug": "batch18-cross-target-split-risk-atlas",
       "qualityLabel": "good",
       "releaseReadinessScore": 90
+    },
+    {
+      "slug": "batch180-final-completion-report-hard-mode",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
     },
     {
       "slug": "batch19-protocol-risk-kill-week",
@@ -922,5 +1222,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "3055be20efa4927652a1d6b11039b1fd8f4d1295302fd6a38106f2574778ae16"
+  "evidenceHash": "574eecc373c2f9e6ef9017f87aaf442e91fa946b987562c7a981ba50b9a1ee49"
 }

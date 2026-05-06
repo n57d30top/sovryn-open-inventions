@@ -1,0 +1,207 @@
+{
+  "summaryOnly": true,
+  "receiptVerificationPassed": true,
+  "receiptsShown": 20,
+  "receiptSummaries": [
+    {
+      "claimId": "ERV3-C0001",
+      "targetId": "erv3-target-0001",
+      "claimFamily": "benchmark_protocol",
+      "sourceUrl": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html",
+      "predictedDecision": "blocked",
+      "observedDecision": "allowed",
+      "wrongPartialOrInconclusive": true,
+      "receiptId": "receipt-erv3-target-0001"
+    },
+    {
+      "claimId": "ERV3-C0176",
+      "targetId": "erv3-target-0176",
+      "claimFamily": "tool_usefulness",
+      "sourceUrl": "https://pypi.org/project/requests/",
+      "predictedDecision": "blocked",
+      "observedDecision": "allowed",
+      "wrongPartialOrInconclusive": true,
+      "receiptId": "receipt-erv3-target-0176"
+    },
+    {
+      "claimId": "ERV3-C0351",
+      "targetId": "erv3-target-0351",
+      "claimFamily": "benchmark_protocol",
+      "sourceUrl": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html",
+      "predictedDecision": "blocked",
+      "observedDecision": "allowed",
+      "wrongPartialOrInconclusive": true,
+      "receiptId": "receipt-erv3-target-0351"
+    },
+    {
+      "claimId": "ERV3-C0106",
+      "targetId": "erv3-target-0106",
+      "claimFamily": "tool_usefulness",
+      "sourceUrl": "https://docs.pytest.org/en/stable/explanation/goodpractices.html",
+      "predictedDecision": "blocked",
+      "observedDecision": "not_testable",
+      "wrongPartialOrInconclusive": true,
+      "receiptId": "receipt-erv3-target-0106"
+    },
+    {
+      "claimId": "ERV3-C0281",
+      "targetId": "erv3-target-0281",
+      "claimFamily": "benchmark_protocol",
+      "sourceUrl": "https://www.statsmodels.org/stable/datasets/generated/co2.html",
+      "predictedDecision": "blocked",
+      "observedDecision": "allowed",
+      "wrongPartialOrInconclusive": true,
+      "receiptId": "receipt-erv3-target-0281"
+    },
+    {
+      "claimId": "ERV3-C0456",
+      "targetId": "erv3-target-0456",
+      "claimFamily": "tool_usefulness",
+      "sourceUrl": "https://packaging.pypa.io/en/stable/version.html",
+      "predictedDecision": "blocked",
+      "observedDecision": "allowed",
+      "wrongPartialOrInconclusive": true,
+      "receiptId": "receipt-erv3-target-0456"
+    },
+    {
+      "claimId": "ERV3-C0036",
+      "targetId": "erv3-target-0036",
+      "claimFamily": "tool_usefulness",
+      "sourceUrl": "https://packaging.pypa.io/en/stable/version.html",
+      "predictedDecision": "blocked",
+      "observedDecision": "not_testable",
+      "wrongPartialOrInconclusive": true,
+      "receiptId": "receipt-erv3-target-0036"
+    },
+    {
+      "claimId": "ERV3-C0211",
+      "targetId": "erv3-target-0211",
+      "claimFamily": "benchmark_protocol",
+      "sourceUrl": "https://pypi.org/project/pandas/",
+      "predictedDecision": "blocked",
+      "observedDecision": "allowed_with_caveats",
+      "wrongPartialOrInconclusive": true,
+      "receiptId": "receipt-erv3-target-0211"
+    },
+    {
+      "claimId": "ERV3-C0386",
+      "targetId": "erv3-target-0386",
+      "claimFamily": "tool_usefulness",
+      "sourceUrl": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_wine.html",
+      "predictedDecision": "blocked",
+      "observedDecision": "allowed_with_caveats",
+      "wrongPartialOrInconclusive": true,
+      "receiptId": "receipt-erv3-target-0386"
+    },
+    {
+      "claimId": "ERV3-C0141",
+      "targetId": "erv3-target-0141",
+      "claimFamily": "benchmark_protocol",
+      "sourceUrl": "https://github.com/pypa/sampleproject",
+      "predictedDecision": "blocked",
+      "observedDecision": "allowed",
+      "wrongPartialOrInconclusive": true,
+      "receiptId": "receipt-erv3-target-0141"
+    },
+    {
+      "claimId": "ERV3-C0316",
+      "targetId": "erv3-target-0316",
+      "claimFamily": "tool_usefulness",
+      "sourceUrl": "https://www.statsmodels.org/stable/datasets/generated/sunspots.html",
+      "predictedDecision": "downgraded",
+      "observedDecision": "allowed_with_caveats",
+      "wrongPartialOrInconclusive": true,
+      "receiptId": "receipt-erv3-target-0316"
+    },
+    {
+      "claimId": "ERV3-C0491",
+      "targetId": "erv3-target-0491",
+      "claimFamily": "benchmark_protocol",
+      "sourceUrl": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+      "predictedDecision": "downgraded",
+      "observedDecision": "allowed_with_caveats",
+      "wrongPartialOrInconclusive": true,
+      "receiptId": "receipt-erv3-target-0491"
+    },
+    {
+      "claimId": "ERV3-C0071",
+      "targetId": "erv3-target-0071",
+      "claimFamily": "benchmark_protocol",
+      "sourceUrl": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+      "predictedDecision": "downgraded",
+      "observedDecision": "allowed",
+      "wrongPartialOrInconclusive": true,
+      "receiptId": "receipt-erv3-target-0071"
+    },
+    {
+      "claimId": "ERV3-C0246",
+      "targetId": "erv3-target-0246",
+      "claimFamily": "tool_usefulness",
+      "sourceUrl": "https://pypi.org/project/numpy/",
+      "predictedDecision": "downgraded",
+      "observedDecision": "not_testable",
+      "wrongPartialOrInconclusive": true,
+      "receiptId": "receipt-erv3-target-0246"
+    },
+    {
+      "claimId": "ERV3-C0421",
+      "targetId": "erv3-target-0421",
+      "claimFamily": "benchmark_protocol",
+      "sourceUrl": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html",
+      "predictedDecision": "downgraded",
+      "observedDecision": "allowed",
+      "wrongPartialOrInconclusive": true,
+      "receiptId": "receipt-erv3-target-0421"
+    },
+    {
+      "claimId": "ERV3-C0002",
+      "targetId": "erv3-target-0002",
+      "claimFamily": "repo_test_reproduction",
+      "sourceUrl": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_wine.html",
+      "predictedDecision": "downgraded",
+      "observedDecision": "allowed_with_caveats",
+      "wrongPartialOrInconclusive": true,
+      "receiptId": "receipt-erv3-target-0002"
+    },
+    {
+      "claimId": "ERV3-C0177",
+      "targetId": "erv3-target-0177",
+      "claimFamily": "conceptual_principle",
+      "sourceUrl": "https://github.com/pypa/sampleproject",
+      "predictedDecision": "downgraded",
+      "observedDecision": "allowed",
+      "wrongPartialOrInconclusive": true,
+      "receiptId": "receipt-erv3-target-0177"
+    },
+    {
+      "claimId": "ERV3-C0352",
+      "targetId": "erv3-target-0352",
+      "claimFamily": "repo_test_reproduction",
+      "sourceUrl": "https://www.statsmodels.org/stable/datasets/generated/sunspots.html",
+      "predictedDecision": "downgraded",
+      "observedDecision": "not_testable",
+      "wrongPartialOrInconclusive": true,
+      "receiptId": "receipt-erv3-target-0352"
+    },
+    {
+      "claimId": "ERV3-C0107",
+      "targetId": "erv3-target-0107",
+      "claimFamily": "conceptual_principle",
+      "sourceUrl": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+      "predictedDecision": "downgraded",
+      "observedDecision": "allowed",
+      "wrongPartialOrInconclusive": true,
+      "receiptId": "receipt-erv3-target-0107"
+    },
+    {
+      "claimId": "ERV3-C0282",
+      "targetId": "erv3-target-0282",
+      "claimFamily": "repo_test_reproduction",
+      "sourceUrl": "https://pypi.org/project/numpy/",
+      "predictedDecision": "downgraded",
+      "observedDecision": "allowed_with_caveats",
+      "wrongPartialOrInconclusive": true,
+      "receiptId": "receipt-erv3-target-0282"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Verification
 
-Indexed public results: 183
+Indexed public results: 243
 
 ## Public Corpus Product Gates
 
@@ -12,7 +12,7 @@ Indexed public results: 183
 
 ## Result Status Counts
 
-- autopublished: 149
+- autopublished: 208
 - benchmark_challenge_negative_result: 4
 - dataset_quality_audit_supported: 7
 - external_extension_supported: 1
@@ -28,10 +28,11 @@ Indexed public results: 183
 - source_evidence_extraction_audit_supported: 3
 - strategy_trial_ready: 1
 - strong_external_negative_result: 1
+- v1_candidate_with_limits: 1
 
 ## Lifecycle Counts
 
-- autopublished: 152
+- autopublished: 212
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10

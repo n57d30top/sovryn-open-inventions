@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T18:43:33.698Z",
+  "updatedAt": "2026-05-06T19:15:48.251Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -220,10 +220,143 @@
       ]
     },
     {
+      "versionGroup": "batch121-external-review-scientist-kernel",
+      "latestSlug": "batch121-external-review-scientist-kernel",
+      "resultSlugs": [
+        "batch121-external-review-scientist-kernel"
+      ]
+    },
+    {
+      "versionGroup": "batch122-evidence-receipt-kernel-hardening",
+      "latestSlug": "batch122-evidence-receipt-kernel-hardening",
+      "resultSlugs": [
+        "batch122-evidence-receipt-kernel-hardening"
+      ]
+    },
+    {
+      "versionGroup": "batch123-external-target-miner-500",
+      "latestSlug": "batch123-external-target-miner-500",
+      "resultSlugs": [
+        "batch123-external-target-miner-500"
+      ]
+    },
+    {
+      "versionGroup": "batch124-claim-screening-stratification-200",
+      "latestSlug": "batch124-claim-screening-stratification-200",
+      "resultSlugs": [
+        "batch124-claim-screening-stratification-200"
+      ]
+    },
+    {
+      "versionGroup": "batch125-field-bound-prediction-freeze-100",
+      "latestSlug": "batch125-field-bound-prediction-freeze-100",
+      "resultSlugs": [
+        "batch125-field-bound-prediction-freeze-100"
+      ]
+    },
+    {
+      "versionGroup": "batch126-execution-wave-planner",
+      "latestSlug": "batch126-execution-wave-planner",
+      "resultSlugs": [
+        "batch126-execution-wave-planner"
+      ]
+    },
+    {
+      "versionGroup": "batch127-calibration-execution-run",
+      "latestSlug": "batch127-calibration-execution-run",
+      "resultSlugs": [
+        "batch127-calibration-execution-run"
+      ]
+    },
+    {
+      "versionGroup": "batch128-calibration-kill-plan-revision",
+      "latestSlug": "batch128-calibration-kill-plan-revision",
+      "resultSlugs": [
+        "batch128-calibration-kill-plan-revision"
+      ]
+    },
+    {
+      "versionGroup": "batch129-benchmark-protocol-audit-wave-1",
+      "latestSlug": "batch129-benchmark-protocol-audit-wave-1",
+      "resultSlugs": [
+        "batch129-benchmark-protocol-audit-wave-1"
+      ]
+    },
+    {
       "versionGroup": "batch13-protocol-first-benchmark-validation-week1",
       "latestSlug": "batch13-protocol-first-benchmark-validation-week1",
       "resultSlugs": [
         "batch13-protocol-first-benchmark-validation-week1"
+      ]
+    },
+    {
+      "versionGroup": "batch130-benchmark-protocol-audit-wave-2",
+      "latestSlug": "batch130-benchmark-protocol-audit-wave-2",
+      "resultSlugs": [
+        "batch130-benchmark-protocol-audit-wave-2"
+      ]
+    },
+    {
+      "versionGroup": "batch131-repo-test-reproduction-wave-1",
+      "latestSlug": "batch131-repo-test-reproduction-wave-1",
+      "resultSlugs": [
+        "batch131-repo-test-reproduction-wave-1"
+      ]
+    },
+    {
+      "versionGroup": "batch132-repo-test-reproduction-wave-2",
+      "latestSlug": "batch132-repo-test-reproduction-wave-2",
+      "resultSlugs": [
+        "batch132-repo-test-reproduction-wave-2"
+      ]
+    },
+    {
+      "versionGroup": "batch133-dataset-quality-audit-wave-1",
+      "latestSlug": "batch133-dataset-quality-audit-wave-1",
+      "resultSlugs": [
+        "batch133-dataset-quality-audit-wave-1"
+      ]
+    },
+    {
+      "versionGroup": "batch134-dataset-quality-audit-wave-2",
+      "latestSlug": "batch134-dataset-quality-audit-wave-2",
+      "resultSlugs": [
+        "batch134-dataset-quality-audit-wave-2"
+      ]
+    },
+    {
+      "versionGroup": "batch135-timeseries-temporal-audit-wave-1",
+      "latestSlug": "batch135-timeseries-temporal-audit-wave-1",
+      "resultSlugs": [
+        "batch135-timeseries-temporal-audit-wave-1"
+      ]
+    },
+    {
+      "versionGroup": "batch136-timeseries-temporal-audit-wave-2",
+      "latestSlug": "batch136-timeseries-temporal-audit-wave-2",
+      "resultSlugs": [
+        "batch136-timeseries-temporal-audit-wave-2"
+      ]
+    },
+    {
+      "versionGroup": "batch137-tool-usefulness-audit-wave",
+      "latestSlug": "batch137-tool-usefulness-audit-wave",
+      "resultSlugs": [
+        "batch137-tool-usefulness-audit-wave"
+      ]
+    },
+    {
+      "versionGroup": "batch138-conceptual-principle-audit-wave",
+      "latestSlug": "batch138-conceptual-principle-audit-wave",
+      "resultSlugs": [
+        "batch138-conceptual-principle-audit-wave"
+      ]
+    },
+    {
+      "versionGroup": "batch139-package-install-test-wave",
+      "latestSlug": "batch139-package-install-test-wave",
+      "resultSlugs": [
+        "batch139-package-install-test-wave"
       ]
     },
     {
@@ -234,10 +367,150 @@
       ]
     },
     {
+      "versionGroup": "batch140-cross-family-replay-negative-control-wave",
+      "latestSlug": "batch140-cross-family-replay-negative-control-wave",
+      "resultSlugs": [
+        "batch140-cross-family-replay-negative-control-wave"
+      ]
+    },
+    {
+      "versionGroup": "batch141-hard-artifact-selection-deep-studies",
+      "latestSlug": "batch141-hard-artifact-selection-deep-studies",
+      "resultSlugs": [
+        "batch141-hard-artifact-selection-deep-studies"
+      ]
+    },
+    {
+      "versionGroup": "batch142-deep-repo-study-a",
+      "latestSlug": "batch142-deep-repo-study-a",
+      "resultSlugs": [
+        "batch142-deep-repo-study-a"
+      ]
+    },
+    {
+      "versionGroup": "batch143-deep-repo-study-b",
+      "latestSlug": "batch143-deep-repo-study-b",
+      "resultSlugs": [
+        "batch143-deep-repo-study-b"
+      ]
+    },
+    {
+      "versionGroup": "batch144-deep-benchmark-study-a",
+      "latestSlug": "batch144-deep-benchmark-study-a",
+      "resultSlugs": [
+        "batch144-deep-benchmark-study-a"
+      ]
+    },
+    {
+      "versionGroup": "batch145-deep-benchmark-study-b",
+      "latestSlug": "batch145-deep-benchmark-study-b",
+      "resultSlugs": [
+        "batch145-deep-benchmark-study-b"
+      ]
+    },
+    {
+      "versionGroup": "batch146-deep-timeseries-study-a",
+      "latestSlug": "batch146-deep-timeseries-study-a",
+      "resultSlugs": [
+        "batch146-deep-timeseries-study-a"
+      ]
+    },
+    {
+      "versionGroup": "batch147-deep-timeseries-study-b",
+      "latestSlug": "batch147-deep-timeseries-study-b",
+      "resultSlugs": [
+        "batch147-deep-timeseries-study-b"
+      ]
+    },
+    {
+      "versionGroup": "batch148-deep-dataset-reliability-study",
+      "latestSlug": "batch148-deep-dataset-reliability-study",
+      "resultSlugs": [
+        "batch148-deep-dataset-reliability-study"
+      ]
+    },
+    {
+      "versionGroup": "batch149-independent-replay-study",
+      "latestSlug": "batch149-independent-replay-study",
+      "resultSlugs": [
+        "batch149-independent-replay-study"
+      ]
+    },
+    {
       "versionGroup": "batch15-shuttle-deep-protocol-risk-study",
       "latestSlug": "batch15-shuttle-deep-protocol-risk-study",
       "resultSlugs": [
         "batch15-shuttle-deep-protocol-risk-study"
+      ]
+    },
+    {
+      "versionGroup": "batch150-hard-evidence-atlas",
+      "latestSlug": "batch150-hard-evidence-atlas",
+      "resultSlugs": [
+        "batch150-hard-evidence-atlas"
+      ]
+    },
+    {
+      "versionGroup": "batch151-external-anomaly-mining-hard-mode",
+      "latestSlug": "batch151-external-anomaly-mining-hard-mode",
+      "resultSlugs": [
+        "batch151-external-anomaly-mining-hard-mode"
+      ]
+    },
+    {
+      "versionGroup": "batch152-rival-principle-generation-hard-mode",
+      "latestSlug": "batch152-rival-principle-generation-hard-mode",
+      "resultSlugs": [
+        "batch152-rival-principle-generation-hard-mode"
+      ]
+    },
+    {
+      "versionGroup": "batch153-discriminating-experiment-freeze-hard-mode",
+      "latestSlug": "batch153-discriminating-experiment-freeze-hard-mode",
+      "resultSlugs": [
+        "batch153-discriminating-experiment-freeze-hard-mode"
+      ]
+    },
+    {
+      "versionGroup": "batch154-surprise-prediction-execution-hard-mode",
+      "latestSlug": "batch154-surprise-prediction-execution-hard-mode",
+      "resultSlugs": [
+        "batch154-surprise-prediction-execution-hard-mode"
+      ]
+    },
+    {
+      "versionGroup": "batch155-cross-domain-transfer-hard-mode",
+      "latestSlug": "batch155-cross-domain-transfer-hard-mode",
+      "resultSlugs": [
+        "batch155-cross-domain-transfer-hard-mode"
+      ]
+    },
+    {
+      "versionGroup": "batch156-principle-confidence-update-hard-mode",
+      "latestSlug": "batch156-principle-confidence-update-hard-mode",
+      "resultSlugs": [
+        "batch156-principle-confidence-update-hard-mode"
+      ]
+    },
+    {
+      "versionGroup": "batch157-large-reviewer-brief-package",
+      "latestSlug": "batch157-large-reviewer-brief-package",
+      "resultSlugs": [
+        "batch157-large-reviewer-brief-package"
+      ]
+    },
+    {
+      "versionGroup": "batch158-adversarial-reviewer-attack",
+      "latestSlug": "batch158-adversarial-reviewer-attack",
+      "resultSlugs": [
+        "batch158-adversarial-reviewer-attack"
+      ]
+    },
+    {
+      "versionGroup": "batch159-overblocking-underblocking-calibration",
+      "latestSlug": "batch159-overblocking-underblocking-calibration",
+      "resultSlugs": [
+        "batch159-overblocking-underblocking-calibration"
       ]
     },
     {
@@ -248,6 +521,76 @@
       ]
     },
     {
+      "versionGroup": "batch160-reviewer-burden-study",
+      "latestSlug": "batch160-reviewer-burden-study",
+      "resultSlugs": [
+        "batch160-reviewer-burden-study"
+      ]
+    },
+    {
+      "versionGroup": "batch161-field-bound-standard-v1-candidate",
+      "latestSlug": "batch161-field-bound-standard-v1-candidate",
+      "resultSlugs": [
+        "batch161-field-bound-standard-v1-candidate"
+      ]
+    },
+    {
+      "versionGroup": "batch162-standard-kill-week",
+      "latestSlug": "batch162-standard-kill-week",
+      "resultSlugs": [
+        "batch162-standard-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "batch163-intervention-candidate-generation-hard-mode",
+      "latestSlug": "batch163-intervention-candidate-generation-hard-mode",
+      "resultSlugs": [
+        "batch163-intervention-candidate-generation-hard-mode"
+      ]
+    },
+    {
+      "versionGroup": "batch164-intervention-execution-wave-1",
+      "latestSlug": "batch164-intervention-execution-wave-1",
+      "resultSlugs": [
+        "batch164-intervention-execution-wave-1"
+      ]
+    },
+    {
+      "versionGroup": "batch165-intervention-execution-wave-2",
+      "latestSlug": "batch165-intervention-execution-wave-2",
+      "resultSlugs": [
+        "batch165-intervention-execution-wave-2"
+      ]
+    },
+    {
+      "versionGroup": "batch166-intervention-replay-control-study",
+      "latestSlug": "batch166-intervention-replay-control-study",
+      "resultSlugs": [
+        "batch166-intervention-replay-control-study"
+      ]
+    },
+    {
+      "versionGroup": "batch167-useful-tool-or-standard-candidate",
+      "latestSlug": "batch167-useful-tool-or-standard-candidate-v3",
+      "resultSlugs": [
+        "batch167-useful-tool-or-standard-candidate-v3"
+      ]
+    },
+    {
+      "versionGroup": "batch168-candidate-kill-week",
+      "latestSlug": "batch168-candidate-kill-week",
+      "resultSlugs": [
+        "batch168-candidate-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "batch169-global-evidence-consistency-audit",
+      "latestSlug": "batch169-global-evidence-consistency-audit",
+      "resultSlugs": [
+        "batch169-global-evidence-consistency-audit"
+      ]
+    },
+    {
       "versionGroup": "batch17-protocol-extraction-ambiguity-tournament",
       "latestSlug": "batch17-protocol-extraction-ambiguity-tournament",
       "resultSlugs": [
@@ -255,10 +598,87 @@
       ]
     },
     {
+      "versionGroup": "batch170-final-claim-decision-atlas",
+      "latestSlug": "batch170-final-claim-decision-atlas",
+      "resultSlugs": [
+        "batch170-final-claim-decision-atlas"
+      ]
+    },
+    {
+      "versionGroup": "batch171-final-rival-principle-concept-atlas",
+      "latestSlug": "batch171-final-rival-principle-concept-atlas",
+      "resultSlugs": [
+        "batch171-final-rival-principle-concept-atlas"
+      ]
+    },
+    {
+      "versionGroup": "batch172-final-external-usefulness-assessment",
+      "latestSlug": "batch172-final-external-usefulness-assessment",
+      "resultSlugs": [
+        "batch172-final-external-usefulness-assessment"
+      ]
+    },
+    {
+      "versionGroup": "batch173-final-failure-negative-result-map",
+      "latestSlug": "batch173-final-failure-negative-result-map",
+      "resultSlugs": [
+        "batch173-final-failure-negative-result-map"
+      ]
+    },
+    {
+      "versionGroup": "batch174-final-standard-tool-decision",
+      "latestSlug": "batch174-final-standard-tool-decision",
+      "resultSlugs": [
+        "batch174-final-standard-tool-decision"
+      ]
+    },
+    {
+      "versionGroup": "batch175-external-review-scientist-paper",
+      "latestSlug": "batch175-external-review-scientist-paper",
+      "resultSlugs": [
+        "batch175-external-review-scientist-paper"
+      ]
+    },
+    {
+      "versionGroup": "batch176-adversarial-final-review",
+      "latestSlug": "batch176-adversarial-final-review",
+      "resultSlugs": [
+        "batch176-adversarial-final-review"
+      ]
+    },
+    {
+      "versionGroup": "batch177-final-einstein-path-score",
+      "latestSlug": "batch177-final-einstein-path-score-v3",
+      "resultSlugs": [
+        "batch177-final-einstein-path-score-v3"
+      ]
+    },
+    {
+      "versionGroup": "batch178-next-frontier-program-selection",
+      "latestSlug": "batch178-next-frontier-program-selection",
+      "resultSlugs": [
+        "batch178-next-frontier-program-selection"
+      ]
+    },
+    {
+      "versionGroup": "batch179-public-corpus-integrity-metadata-repair",
+      "latestSlug": "batch179-public-corpus-integrity-metadata-repair",
+      "resultSlugs": [
+        "batch179-public-corpus-integrity-metadata-repair"
+      ]
+    },
+    {
       "versionGroup": "batch18-cross-target-split-risk-atlas",
       "latestSlug": "batch18-cross-target-split-risk-atlas",
       "resultSlugs": [
         "batch18-cross-target-split-risk-atlas"
+      ]
+    },
+    {
+      "versionGroup": "batch180-final-completion-report-hard-mode",
+      "latestSlug": "batch180-final-completion-report-hard-mode",
+      "resultSlugs": [
+        "batch180-final-completion-report-hard-mode"
       ]
     },
     {
@@ -1200,5 +1620,5 @@
       ]
     }
   ],
-  "evidenceHash": "8aeb795d77a83ddb4d95a04ee572216df3a137a965044fc32e692c653a5857f9"
+  "evidenceHash": "9646ed959862f5f5386f6fe4fa1610a630469b4890fd920f899ca3252a84bda3"
 }
