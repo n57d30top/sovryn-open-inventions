@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "batch7-wine-quality-schema-provenance-tool",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "review_ready",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "passes_falsification",
+    "lifecycle": "autopublished",
+    "version": "batch7-wine-quality-schema-provenance-tool",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "161c7f7b08a57fc9b47bddea4ff700503865b858153df0343182dde2cd08a4db"
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "batch7-banknote-metric-stress-validator",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "review_ready",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "sandbox-local",
+    "falsification": "passes_falsification",
+    "lifecycle": "autopublished",
+    "version": "batch7-banknote-metric-stress-validator",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "69a135de4179c25e3fbb71294b0e85be6313930cda8fde5c14f8489f58cbf05a"
+}

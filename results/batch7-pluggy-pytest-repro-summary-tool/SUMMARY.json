@@ -1,0 +1,52 @@
+{
+  "slug": "batch7-pluggy-pytest-repro-summary-tool",
+  "title": "Batch 7 Pluggy Pytest Reproduction Summary Tool",
+  "resultKind": "external_tool_building_under_pressure_result",
+  "domain": "repo-test-result-extraction",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "antiTemplateStatus": "review_ready",
+  "lifecycleStatus": "autopublished",
+  "versionGroup": "batch7-pluggy-pytest-repro-summary-tool",
+  "releaseReadinessScore": 88,
+  "evidenceStrengthScore": 87,
+  "reproducibilityScore": 90,
+  "publicationSafetyScore": 98,
+  "specificityScore": 79,
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "replayCriticalPassRate": 100,
+  "falsificationStatus": "passes_falsification",
+  "workerAssurance": "sandbox-local",
+  "targetType": "Repo/test/result extraction or reproduction-analysis problem",
+  "target": "pytest-dev/pluggy repository test suite",
+  "customTool": "pytest_repro_summary",
+  "toolStatus": "used_successfully_limited",
+  "toolDecision": "keep_but_mark_dynamic_parametrization_limit",
+  "actualExecutionPerformed": "Cloned the public pluggy repository, installed the checked-out package in editable mode, inventoried pytest-style tests with AST and grep baselines, then ran the repository testing target through pytest.",
+  "installOrProvisioningPerformed": [
+    "pytest 9.0.1",
+    "pluggy editable checkout a469596df2c9f7f9d5219b85c764c644b81896f7"
+  ],
+  "baselineOrManualComparison": "Simple grep found 107 def-test lines; the AST inventory found 107 test definitions.",
+  "negativeOrPartial": true,
+  "resultLabel": "negative_or_partial_tool_result",
+  "whatSovrynLearned": "The summarizer can create a public-safe reconciliation between static inventory and execution counts, but it must be marked limited because dynamic parametrization means static definitions do not equal runtime cases.",
+  "hardQuestionAnswer": "Existing tools were not enough for repo/test/result extraction or reproduction-analysis problem; Sovryn built pytest_repro_summary, used it on pytest-dev/pluggy repository test suite, and learned: The summarizer can create a public-safe reconciliation between static inventory and execution counts, but it must be marked limited because dynamic parametrization means static definitions do not equal runtime cases.",
+  "sourceUrls": [
+    "https://github.com/pytest-dev/pluggy"
+  ],
+  "metrics": {
+    "repoCommit": "a469596df2c9f7f9d5219b85c764c644b81896f7",
+    "candidatePythonFiles": 11,
+    "astDiscoveredTests": 107,
+    "grepDefTestLineCount": 107,
+    "pytestReturnCode": 0,
+    "pytestPassed": 126,
+    "astMinusGrepCount": 0
+  },
+  "humanReadableSummary": "Cloned the public pluggy repository, installed the checked-out package in editable mode, inventoried pytest-style tests with AST and grep baselines, then ran the repository testing target through pytest. The repository test run returned code 0 with 126 passing runtime cases. AST and grep agreed on static definitions, while runtime cases were higher due to test expansion.",
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+  "evidenceHash": "fc6b6e41376bb43124cb1e9f2ccffd8f32b9b470b7b1b49a6ee716c1cc373217"
+}

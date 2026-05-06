@@ -32,6 +32,9 @@ can supersede earlier entries while preserving audit history.
 - batch6-diamonds-data-quality-netoff-ladder: latest batch6-diamonds-data-quality-netoff-ladder; versions batch6-diamonds-data-quality-netoff-ladder
 - batch6-scikit-learn-iris-reproduction-ladder: latest batch6-scikit-learn-iris-reproduction-ladder; versions batch6-scikit-learn-iris-reproduction-ladder
 - batch6-uci-concrete-baseline-reproduction-ladder: latest batch6-uci-concrete-baseline-reproduction-ladder; versions batch6-uci-concrete-baseline-reproduction-ladder
+- batch7-banknote-metric-stress-validator: latest batch7-banknote-metric-stress-validator; versions batch7-banknote-metric-stress-validator
+- batch7-pluggy-pytest-repro-summary-tool: latest batch7-pluggy-pytest-repro-summary-tool; versions batch7-pluggy-pytest-repro-summary-tool
+- batch7-wine-quality-schema-provenance-tool: latest batch7-wine-quality-schema-provenance-tool; versions batch7-wine-quality-schema-provenance-tool
 - chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an: latest chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl; versions chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl
 - chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconf: latest chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-; versions chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-
 - chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-o: latest chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco; versions chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco

@@ -143,6 +143,25 @@
       "customTool": null
     },
     {
+      "slug": "batch7-banknote-metric-stress-validator",
+      "externalPackages": [
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch7-pluggy-pytest-repro-summary-tool",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch7-wine-quality-schema-provenance-tool",
+      "externalPackages": [
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "externalPackages": [],
       "customTool": "mol-record-auditor"
@@ -379,5 +398,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "8a6ef24ea462f22fa4ad2fa715e2c977bd9cae5ff613506dcbccac5ef62fde82"
+  "evidenceHash": "e7b2b8091c310f0ee77a1d923a31f215645b35086d198a0c32604891abe1dc89"
 }

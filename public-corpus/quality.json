@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T08:34:57.494Z",
+  "generatedAt": "2026-05-06T09:07:32.749Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 54,
+    "good": 57,
     "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 34,
+    "autopublished": 37,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -391,6 +391,48 @@
       "reproducibilityScore": 94,
       "publicationSafetyScore": 98,
       "specificityScore": 74
+    },
+    {
+      "slug": "batch7-banknote-metric-stress-validator",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch7-banknote-metric-stress-validator",
+      "showcaseEligible": true,
+      "showcaseRank": null,
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 92,
+      "publicationSafetyScore": 98,
+      "specificityScore": 80
+    },
+    {
+      "slug": "batch7-pluggy-pytest-repro-summary-tool",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch7-pluggy-pytest-repro-summary-tool",
+      "showcaseEligible": true,
+      "showcaseRank": null,
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 87,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 98,
+      "specificityScore": 79
+    },
+    {
+      "slug": "batch7-wine-quality-schema-provenance-tool",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch7-wine-quality-schema-provenance-tool",
+      "showcaseEligible": true,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 94,
+      "publicationSafetyScore": 98,
+      "specificityScore": 82
     },
     {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -925,5 +967,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "508a1312a953c45416b8c6196dd84f3a11e128a78b04d32ad8fc40069dbf9362"
+  "evidenceHash": "a8c17aae0d518d7313517cad8df9b673fb24e8baccb5d117955e6f8e801c5814"
 }

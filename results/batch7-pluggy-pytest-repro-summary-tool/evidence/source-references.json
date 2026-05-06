@@ -1,0 +1,16 @@
+{
+  "slug": "batch7-pluggy-pytest-repro-summary-tool",
+  "sources": [
+    "https://github.com/pytest-dev/pluggy"
+  ],
+  "metrics": {
+    "repoCommit": "a469596df2c9f7f9d5219b85c764c644b81896f7",
+    "candidatePythonFiles": 11,
+    "astDiscoveredTests": 107,
+    "grepDefTestLineCount": 107,
+    "pytestReturnCode": 0,
+    "pytestPassed": 126,
+    "astMinusGrepCount": 0
+  },
+  "evidenceHash": "fc6b6e41376bb43124cb1e9f2ccffd8f32b9b470b7b1b49a6ee716c1cc373217"
+}

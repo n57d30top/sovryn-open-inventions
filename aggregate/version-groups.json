@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T08:34:57.494Z",
+  "updatedAt": "2026-05-06T09:07:32.749Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-strategy-trial",
@@ -192,6 +192,27 @@
       ]
     },
     {
+      "versionGroup": "batch7-banknote-metric-stress-validator",
+      "latestSlug": "batch7-banknote-metric-stress-validator",
+      "resultSlugs": [
+        "batch7-banknote-metric-stress-validator"
+      ]
+    },
+    {
+      "versionGroup": "batch7-pluggy-pytest-repro-summary-tool",
+      "latestSlug": "batch7-pluggy-pytest-repro-summary-tool",
+      "resultSlugs": [
+        "batch7-pluggy-pytest-repro-summary-tool"
+      ]
+    },
+    {
+      "versionGroup": "batch7-wine-quality-schema-provenance-tool",
+      "latestSlug": "batch7-wine-quality-schema-provenance-tool",
+      "resultSlugs": [
+        "batch7-wine-quality-schema-provenance-tool"
+      ]
+    },
+    {
       "versionGroup": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an",
       "latestSlug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "resultSlugs": [
@@ -374,5 +395,5 @@
       ]
     }
   ],
-  "evidenceHash": "0f4b98511e3c2ac8852a3b04c33f0764e0e4d65f54612574c736f957caddf3a0"
+  "evidenceHash": "7ebe7b7c135105742ef0c6850e23fd80f182eebafc56a91b1e1044697f145c04"
 }

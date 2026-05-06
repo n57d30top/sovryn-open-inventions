@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 65
+Results: 68
 
 ## Lifecycle Counts
 
-- autopublished: 34
+- autopublished: 37
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -39,6 +39,9 @@ Results: 65
 - batch6-diamonds-data-quality-netoff-ladder: latest batch6-diamonds-data-quality-netoff-ladder; batch6-diamonds-data-quality-netoff-ladder
 - batch6-scikit-learn-iris-reproduction-ladder: latest batch6-scikit-learn-iris-reproduction-ladder; batch6-scikit-learn-iris-reproduction-ladder
 - batch6-uci-concrete-baseline-reproduction-ladder: latest batch6-uci-concrete-baseline-reproduction-ladder; batch6-uci-concrete-baseline-reproduction-ladder
+- batch7-banknote-metric-stress-validator: latest batch7-banknote-metric-stress-validator; batch7-banknote-metric-stress-validator
+- batch7-pluggy-pytest-repro-summary-tool: latest batch7-pluggy-pytest-repro-summary-tool; batch7-pluggy-pytest-repro-summary-tool
+- batch7-wine-quality-schema-provenance-tool: latest batch7-wine-quality-schema-provenance-tool; batch7-wine-quality-schema-provenance-tool
 - chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an: latest chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl; chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl
 - chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconf: latest chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-; chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-
 - chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-o: latest chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco; chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco

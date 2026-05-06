@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-06T08:34:57.494Z",
+  "generatedAt": "2026-05-06T09:07:32.749Z",
   "sources": [
     {
       "resultSlug": "batch3-rapidfuzz-repo-install-example-reproduction",
@@ -16,6 +16,18 @@
     },
     {
       "resultSlug": "batch6-uci-concrete-baseline-reproduction-ladder",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch7-banknote-metric-stress-validator",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch7-wine-quality-schema-provenance-tool",
       "sourceKind": "external_package_or_tool",
       "name": "pandas",
       "publicOnly": true
@@ -189,5 +201,5 @@
       "publicOnly": true
     }
   ],
-  "evidenceHash": "8a6ef24ea462f22fa4ad2fa715e2c977bd9cae5ff613506dcbccac5ef62fde82"
+  "evidenceHash": "e7b2b8091c310f0ee77a1d923a31f215645b35086d198a0c32604891abe1dc89"
 }

@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 54,
+    "good": 57,
     "reviewable": 6
   },
   "results": [
@@ -140,6 +140,21 @@
       "slug": "batch6-uci-concrete-baseline-reproduction-ladder",
       "qualityLabel": "good",
       "releaseReadinessScore": 89
+    },
+    {
+      "slug": "batch7-banknote-metric-stress-validator",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch7-pluggy-pytest-repro-summary-tool",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch7-wine-quality-schema-provenance-tool",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
     },
     {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -332,5 +347,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "508a1312a953c45416b8c6196dd84f3a11e128a78b04d32ad8fc40069dbf9362"
+  "evidenceHash": "a8c17aae0d518d7313517cad8df9b673fb24e8baccb5d117955e6f8e801c5814"
 }

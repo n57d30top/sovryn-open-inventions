@@ -245,6 +245,33 @@
       "pushed": false
     },
     {
+      "slug": "batch7-banknote-metric-stress-validator",
+      "path": "results/batch7-banknote-metric-stress-validator",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch7-banknote-metric-stress-validator",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch7-pluggy-pytest-repro-summary-tool",
+      "path": "results/batch7-pluggy-pytest-repro-summary-tool",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch7-pluggy-pytest-repro-summary-tool",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch7-wine-quality-schema-provenance-tool",
+      "path": "results/batch7-wine-quality-schema-provenance-tool",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch7-wine-quality-schema-provenance-tool",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "path": "results/chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "status": "autopublished",
@@ -587,5 +614,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "25f0934eed19d400ce215139aaca4eede46b59a469c0b89d51b365f7e49114fd"
+  "evidenceHash": "7124f52e1334e4bb669f7bda89490c2f865d6c54e71c35db6226beee038f86f2"
 }

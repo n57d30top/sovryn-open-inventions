@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T08:34:57.494Z",
+  "generatedAt": "2026-05-06T09:07:32.749Z",
   "badges": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -483,6 +483,60 @@
         "falsification": "passes_falsification",
         "lifecycle": "autopublished",
         "version": "batch6-uci-concrete-baseline-reproduction-ladder",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch7-banknote-metric-stress-validator",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "sandbox-local",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch7-banknote-metric-stress-validator",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch7-pluggy-pytest-repro-summary-tool",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "sandbox-local",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch7-pluggy-pytest-repro-summary-tool",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch7-wine-quality-schema-provenance-tool",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch7-wine-quality-schema-provenance-tool",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -1173,5 +1227,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "20626efb309b6f6fb26bfc189f37c3c193fc4a600c3f65a42d9be4dca73cd080"
+  "evidenceHash": "9df4baa503b8850880887efd22a2f83e41efd9bcef06a9fa30119f9a09579e39"
 }

@@ -1,0 +1,21 @@
+{
+  "slug": "batch7-wine-quality-schema-provenance-tool",
+  "sources": [
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv",
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-white.csv",
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality.names"
+  ],
+  "metrics": {
+    "rows": 6497,
+    "missingCells": 0,
+    "duplicateFullRows": 1177,
+    "schemaMatch": true,
+    "redRows": 1599,
+    "whiteRows": 4898,
+    "redDuplicateRows": 240,
+    "whiteDuplicateRows": 937,
+    "redSha256": "4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e",
+    "whiteSha256": "76c3f809815c17c07212622f776311faeb31e87610d52c26d87d6e361b169836"
+  },
+  "evidenceHash": "9609ced641461758ab8732642e9f0259bb38d65e9d02206b0ecebd50241e8a68"
+}

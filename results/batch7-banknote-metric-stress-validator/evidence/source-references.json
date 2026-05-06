@@ -1,0 +1,19 @@
+{
+  "slug": "batch7-banknote-metric-stress-validator",
+  "sources": [
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/00267/data_banknote_authentication.txt"
+  ],
+  "metrics": {
+    "rows": 1372,
+    "features": 4,
+    "majorityAccuracy": 0.5558252427184466,
+    "majorityBalancedAccuracy": 0.5,
+    "logisticAccuracy": 0.9757281553398058,
+    "logisticBalancedAccuracy": 0.9776171045410075,
+    "logisticF1Macro": 0.9755199049316696,
+    "shuffledBalancedAccuracy": 0.4759825327510917,
+    "falsePositiveRate": 0.039301310043668124,
+    "falseNegativeRate": 0.00546448087431694
+  },
+  "evidenceHash": "80587f72868da0ec826a8ac99047ade1c54bcd55739575dc030d89429bd10753"
+}
