@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 87
+Results: 88
 
 ## Lifecycle Counts
 
-- autopublished: 56
+- autopublished: 57
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -77,6 +77,7 @@ Results: 87
 - external-scientific-production-result: latest external-scientific-production-result; external-scientific-production-result
 - field-grade-autonomous-science-trial: latest field-grade-autonomous-science-trial-v3; field-grade-autonomous-science-trial, field-grade-autonomous-science-trial-v2, field-grade-autonomous-science-trial-v3
 - frontier-scientific-production-trial: latest frontier-scientific-production-trial; frontier-scientific-production-trial
+- general-ai-scientist-v0-trial: latest general-ai-scientist-v0-trial; general-ai-scientist-v0-trial
 - patch-risk-auditor: latest patch-risk-auditor-v3; patch-risk-auditor, patch-risk-auditor-v2, patch-risk-auditor-v3
 - reality-grade-autonomous-science-trial: latest reality-grade-autonomous-science-trial; reality-grade-autonomous-science-trial
 - scientific-dataset-reliability-self-built-lab-study: latest scientific-dataset-reliability-self-built-lab-study; scientific-dataset-reliability-self-built-lab-study

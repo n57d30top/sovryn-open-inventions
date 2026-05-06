@@ -1,7 +1,7 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-06T14:57:26.932Z",
-  "resultCount": 87,
+  "updatedAt": "2026-05-06T15:25:10.610Z",
+  "resultCount": 88,
   "results": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -3046,6 +3046,45 @@
       "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
+      "slug": "general-ai-scientist-v0-trial",
+      "title": "General AI Scientist v0 bounded trial",
+      "resultKind": "general_ai_scientist_v0_trial",
+      "domain": "bounded computational scientist orchestration",
+      "path": "results/general-ai-scientist-v0-trial",
+      "qualityLabel": "good",
+      "candidateStatus": "autopublished",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "general-ai-scientist-v0-trial",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      },
+      "revisionReason": null,
+      "humanReadableSummary": "This result reports a bounded computational orchestration trial. It does not claim AGI, human-level science, guaranteed discovery, a benchmark win, a legal conclusion, medical validity, wet-lab capability, or unsafe-domain capability.",
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 99,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 92,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "passes_falsification",
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+    },
+    {
       "slug": "patch-risk-auditor",
       "title": "Patch Risk Auditor",
       "resultKind": "tool_result",
@@ -3489,5 +3528,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "e55e50150a6fa5c700f2574883bd1764683cbb96e5f52259f6da76450252e595"
+  "evidenceHash": "8eff49d62dfe51e84066ee93982f1eb72c69e588a04e97b16ea49dffaae7ccf9"
 }

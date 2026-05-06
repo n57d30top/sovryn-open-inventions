@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T14:57:26.932Z",
+  "generatedAt": "2026-05-06T15:25:10.610Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -459,6 +459,12 @@
       "domain": "provenance-aware-data-quality-methods"
     },
     {
+      "id": "result:general-ai-scientist-v0-trial",
+      "kind": "result",
+      "label": "General AI Scientist v0 bounded trial",
+      "domain": "bounded computational scientist orchestration"
+    },
+    {
       "id": "result:patch-risk-auditor",
       "kind": "result",
       "label": "Patch Risk Auditor",
@@ -708,6 +714,11 @@
       "id": "domain:provenance-aware-data-quality-methods",
       "kind": "domain",
       "label": "provenance-aware-data-quality-methods"
+    },
+    {
+      "id": "domain:bounded computational scientist orchestration",
+      "kind": "domain",
+      "label": "bounded computational scientist orchestration"
     },
     {
       "id": "domain:software-supply-chain",
@@ -1417,6 +1428,11 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:general-ai-scientist-v0-trial",
+      "target": "domain:bounded computational scientist orchestration",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:patch-risk-auditor",
       "target": "domain:software-supply-chain",
       "relation": "belongs_to_domain"
@@ -1522,5 +1538,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "fe8184e8a87f23095ca54b7a748953fd3a9b72ba3a1ab656ccf8cc2d6875b950"
+  "evidenceHash": "a4139992038b2291609d5aaad08f1ca8b2db2fc8bc20fee1aedc6ef186ee2c08"
 }

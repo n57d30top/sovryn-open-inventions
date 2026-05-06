@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T14:57:26.932Z",
+  "generatedAt": "2026-05-06T15:25:10.610Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 76,
+    "good": 77,
     "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 56,
+    "autopublished": 57,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -1079,6 +1079,20 @@
       "specificityScore": 92
     },
     {
+      "slug": "general-ai-scientist-v0-trial",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "general-ai-scientist-v0-trial",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 99,
+      "specificityScore": 92
+    },
+    {
       "slug": "patch-risk-auditor",
       "qualityLabel": "good",
       "antiTemplateStatus": "unknown",
@@ -1233,5 +1247,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "3466d1d740b8a18e13fb5cffcf9894a2f8315ddb50d74a623dbc28bcf1602bdf"
+  "evidenceHash": "94cc8657fae3371ef736f03cfaaab572286b35862216c04491983f21aeb45730"
 }

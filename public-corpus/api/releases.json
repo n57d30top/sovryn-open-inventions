@@ -686,6 +686,15 @@
       "pushed": true
     },
     {
+      "slug": "general-ai-scientist-v0-trial",
+      "path": "results/general-ai-scientist-v0-trial",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "general-ai-scientist-v0-trial",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "patch-risk-auditor",
       "path": "results/patch-risk-auditor",
       "status": "autopublished",
@@ -785,5 +794,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "d3b83124f27b6cc68ea947e6c87e047f9d21cc51faff9dad2b16feac3fb329de"
+  "evidenceHash": "3593852eefc127150f77e3a2bf0409cadd3bed41ac2dbaf54ab7b5e4a6674c0d"
 }

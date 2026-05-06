@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T14:57:26.932Z",
+  "generatedAt": "2026-05-06T15:25:10.610Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -1371,6 +1371,24 @@
       "showcaseRank": null
     },
     {
+      "slug": "general-ai-scientist-v0-trial",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "general-ai-scientist-v0-trial",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
       "slug": "patch-risk-auditor",
       "badges": {
         "quality": "good",
@@ -1569,5 +1587,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "ab79ad381ac4f013ad2c5f973aa05fb7cc79de2abe456d35c006252d2c93a48f"
+  "evidenceHash": "60887765d928d9110e23764f1f8416ab2df107d0df3b6513d7cc7f37524ff7d5"
 }

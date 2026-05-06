@@ -70,6 +70,7 @@ can supersede earlier entries while preserving audit history.
 - external-scientific-production-result: latest external-scientific-production-result; versions external-scientific-production-result
 - field-grade-autonomous-science-trial: latest field-grade-autonomous-science-trial-v3; versions field-grade-autonomous-science-trial, field-grade-autonomous-science-trial-v2, field-grade-autonomous-science-trial-v3
 - frontier-scientific-production-trial: latest frontier-scientific-production-trial; versions frontier-scientific-production-trial
+- general-ai-scientist-v0-trial: latest general-ai-scientist-v0-trial; versions general-ai-scientist-v0-trial
 - patch-risk-auditor: latest patch-risk-auditor-v3; versions patch-risk-auditor, patch-risk-auditor-v2, patch-risk-auditor-v3
 - reality-grade-autonomous-science-trial: latest reality-grade-autonomous-science-trial; versions reality-grade-autonomous-science-trial
 - scientific-dataset-reliability-self-built-lab-study: latest scientific-dataset-reliability-self-built-lab-study; versions scientific-dataset-reliability-self-built-lab-study

@@ -1,0 +1,10 @@
+{
+  "kind": "scientist_trial_verification",
+  "slug": "general-ai-scientist-v0-trial",
+  "requiredArtifactCount": 13,
+  "requiredArtifactsPresent": true,
+  "noFakeAgiClaim": true,
+  "noBreakthroughClaim": true,
+  "noLegalMedicalUnsafeClaim": true,
+  "evidenceHash": "cac03731b75d4056285380256b1f531226f693c7668d6867a6e16e58581de52d"
+}

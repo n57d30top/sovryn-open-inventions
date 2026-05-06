@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 76,
+    "good": 77,
     "reviewable": 6
   },
   "results": [
@@ -387,6 +387,11 @@
       "releaseReadinessScore": 92
     },
     {
+      "slug": "general-ai-scientist-v0-trial",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
       "slug": "patch-risk-auditor",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
@@ -442,5 +447,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "3466d1d740b8a18e13fb5cffcf9894a2f8315ddb50d74a623dbc28bcf1602bdf"
+  "evidenceHash": "94cc8657fae3371ef736f03cfaaab572286b35862216c04491983f21aeb45730"
 }

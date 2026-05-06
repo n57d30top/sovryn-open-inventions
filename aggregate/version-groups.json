@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T14:57:26.932Z",
+  "updatedAt": "2026-05-06T15:25:10.610Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -469,6 +469,13 @@
       ]
     },
     {
+      "versionGroup": "general-ai-scientist-v0-trial",
+      "latestSlug": "general-ai-scientist-v0-trial",
+      "resultSlugs": [
+        "general-ai-scientist-v0-trial"
+      ]
+    },
+    {
       "versionGroup": "patch-risk-auditor",
       "latestSlug": "patch-risk-auditor-v3",
       "resultSlugs": [
@@ -528,5 +535,5 @@
       ]
     }
   ],
-  "evidenceHash": "82b60fff06b72cff5be77acf30104c3b47e4791c80efbf112670e8a68ccc29a2"
+  "evidenceHash": "9032502bcdb32a9f5b0173fcfd91efff1199a6b6eead7fe080722b1a6d8534f1"
 }

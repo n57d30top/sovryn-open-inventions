@@ -5754,6 +5754,81 @@
       }
     },
     {
+      "slug": "general-ai-scientist-v0-trial",
+      "title": "General AI Scientist v0 bounded trial",
+      "domain": "bounded computational scientist orchestration",
+      "resultKind": "general_ai_scientist_v0_trial",
+      "path": "results/general-ai-scientist-v0-trial",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "general-ai-scientist-v0-trial",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": null,
+      "humanReadableSummary": "This result reports a bounded computational orchestration trial. It does not claim AGI, human-level science, guaranteed discovery, a benchmark win, a legal conclusion, medical validity, wet-lab capability, or unsafe-domain capability.",
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 99,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 92,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": false,
+      "externalPackages": [],
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "passes_falsification",
+      "scientificQuestion": "Can Sovryn select, execute, falsify, publish, and learn from two bounded safe computational research programs using existing evidence capabilities?",
+      "hypothesisCount": 2,
+      "nullHypothesisPresent": true,
+      "experimentCount": 2,
+      "replicationRunCount": 2,
+      "peerReviewPresent": false,
+      "statisticalAnalysisPresent": false,
+      "baselineComparisonPresent": true,
+      "ablationPresent": false,
+      "sensitivityPresent": false,
+      "studyResultLabel": null,
+      "scientificMemoryUpdated": true,
+      "safetyScope": null,
+      "summary": "This result reports a bounded computational orchestration trial. It does not claim AGI, human-level science, guaranteed discovery, a benchmark win, a legal conclusion, medical validity, wet-lab capability, or unsafe-domain capability.",
+      "limitations": [
+        "\"title\": \"General AI Scientist v0 bounded trial\",",
+        "\"disclaimer\": \"This bounded computational trial is not an AGI claim, human-level science claim, legal opinion, medical advice, wet-lab protocol, exploit work, or guaranteed-discovery claim.\",",
+        "No direct duplicate/group/file/feature leakage mechanism was confirmed in the bounded continuation.",
+        "The bounded trial can select, execute, falsify, package, and update memory for two safe computational programs.",
+        "Limitations",
+        "General AI Scientist v0 is a bounded computational controller, not an AGI or human-level scientist."
+      ],
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "general-ai-scientist-v0-trial",
+        "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      }
+    },
+    {
       "slug": "patch-risk-auditor",
       "title": "Patch Risk Auditor",
       "domain": "software-supply-chain",
@@ -6592,5 +6667,5 @@
       }
     }
   ],
-  "evidenceHash": "176213a23195f92e5230f56325aafb970d3b69185b9d64dd88c595e54b9130bb"
+  "evidenceHash": "5cccc16293e05cb02373d92de97d3be35bf63cab1ea41700c215802010e90eb0"
 }

@@ -1,0 +1,42 @@
+{
+  "kind": "general_ai_scientist_v0_trial_summary",
+  "slug": "general-ai-scientist-v0-trial",
+  "title": "General AI Scientist v0 bounded trial",
+  "resultKind": "general_ai_scientist_v0_trial",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 90,
+  "reproducibilityScore": 90,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 92,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "scientificQuestion": "Can Sovryn select, execute, falsify, publish, and learn from two bounded safe computational research programs using existing evidence capabilities?",
+  "domain": "bounded computational scientist orchestration",
+  "hypothesisCount": 2,
+  "nullHypothesisPresent": true,
+  "experimentCount": 2,
+  "replicationRunCount": 2,
+  "falsificationStatus": "passes_falsification",
+  "baselineComparisonPresent": true,
+  "scientificMemoryUpdated": true,
+  "generalScientistReadinessLabel": "general_scientist_v0_ready",
+  "selectedProgramIds": [
+    "sci-v0-program-1-prob-batch25-leakage-continuation",
+    "sci-v0-program-2-prob-repo-test-runtime-evidence"
+  ],
+  "memoryUpdateHash": "71f5cfe0b83e0b7f4e13495b530f2d9dd20497fe0f14a2e801e4c91db3bd2e96",
+  "limitations": [
+    "General AI Scientist v0 is a bounded computational controller, not an AGI or human-level scientist.",
+    "The trial selects and executes safe computational programs only.",
+    "Leakage-risk deltas are not treated as confirmed leakage without direct mechanism evidence.",
+    "Repo/test runtime evidence is a bounded smoke route until used on third-party public repositories.",
+    "Public artifacts contain summaries only and do not publish raw logs."
+  ],
+  "evidenceHash": "abbaed09c79ab81b9e24f17e42ee919891d479c2e2a241340d6bb3ac6b92b14b"
+}

@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-06T14:57:26.932Z",
-  "entryCount": 87,
+  "builtAt": "2026-05-06T15:25:10.610Z",
+  "entryCount": 88,
   "entries": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -3106,6 +3106,49 @@
       ]
     },
     {
+      "slug": "general-ai-scientist-v0-trial",
+      "title": "General AI Scientist v0 bounded trial",
+      "domain": "bounded computational scientist orchestration",
+      "href": "results/general-ai-scientist-v0-trial.html",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "general-ai-scientist-v0-trial",
+      "showcaseRank": null,
+      "terms": [
+        "agi",
+        "autopublished",
+        "benchmark",
+        "bounded",
+        "capability",
+        "claim",
+        "computational",
+        "conclusion",
+        "discovery",
+        "does",
+        "domain",
+        "general",
+        "guaranteed",
+        "human",
+        "lab",
+        "legal",
+        "level",
+        "medical",
+        "not",
+        "orchestration",
+        "reports",
+        "result",
+        "science",
+        "scientist",
+        "this",
+        "trial",
+        "unsafe",
+        "validity",
+        "wet",
+        "win"
+      ]
+    },
+    {
       "slug": "patch-risk-auditor",
       "title": "Patch Risk Auditor",
       "domain": "software-supply-chain",
@@ -3552,5 +3595,5 @@
       ]
     }
   ],
-  "evidenceHash": "a6ed3dd2796628be8a70431364ef10cbad06bf7ddd0c9a5c1ed7321e6c30473a"
+  "evidenceHash": "23c5fff03dfdf9213cec838e208f2fd420be88b59d669ac2b20b7435df56d57e"
 }
