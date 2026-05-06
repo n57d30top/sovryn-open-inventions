@@ -1,0 +1,21 @@
+{
+  "kind": "corpus_autopublish_record",
+  "slug": "batch5-itsdangerous-repo-install-test-reproduction",
+  "publishedAt": "2026-05-06T08:15:00.000Z",
+  "dryRun": false,
+  "pushed": true,
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "resultKind": "external_research_production_result",
+  "qualityLabel": "good",
+  "candidateStatus": "external_reproduction_success",
+  "antiTemplateStatus": "review_ready",
+  "releaseReadinessScore": 92,
+  "evidenceStrengthScore": 92,
+  "reproducibilityScore": 90,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 89,
+  "evidenceHash": "ef3336cd63350220daa0991d2c596ec01bcdd8edd8da9c79534c4422e022b85d"
+}

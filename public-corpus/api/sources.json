@@ -109,6 +109,21 @@
       "customTool": null
     },
     {
+      "slug": "batch5-itsdangerous-repo-install-test-reproduction",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch5-uci-air-quality-time-series-dataset-audit",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch5-uci-letter-recognition-baseline-challenge",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "externalPackages": [],
       "customTool": "mol-record-auditor"
@@ -345,5 +360,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "ade19826a1af2f3a7a787e659f5a7e478ffe5d04955b59f0415c95823fa6ffa2"
+  "evidenceHash": "078fdcc0dd1c2afebd168595e5f7ae57c6b48dca3e8fbe2e753e172a16dbba80"
 }

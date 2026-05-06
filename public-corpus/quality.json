@@ -1,14 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T07:30:46.465Z",
+  "generatedAt": "2026-05-06T07:54:21.351Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 47,
-    "reviewable": 6,
-    "unknown": 1
+    "good": 51,
+    "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 28,
+    "autopublished": 31,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -252,10 +251,13 @@
       "reproducibilityScore": 88,
       "publicationSafetyScore": 98,
       "specificityScore": 90,
-      "workerAssurance": "venv-local-isolated",
       "executionIncluded": true,
-      "revisionReason": null,
-      "falsificationStatus": "tests_and_examples_executed"
+      "workerAssurance": "venv-local-isolated",
+      "candidateStatus": "external_reproduction_success",
+      "finalResult": "external_reproduction_success",
+      "replayCriticalPassRate": 100,
+      "falsificationStatus": "tests_and_examples_executed",
+      "customTool": null
     },
     {
       "slug": "batch4-uci-abalone-baseline-dominance-negative",
@@ -271,8 +273,12 @@
       "publicationSafetyScore": 98,
       "specificityScore": 90,
       "executionIncluded": true,
-      "revisionReason": null,
-      "falsificationStatus": "candidate_rejected_by_falsification"
+      "workerAssurance": "container-netoff",
+      "candidateStatus": "benchmark_challenge_negative_result",
+      "finalResult": "benchmark_challenge_negative_result",
+      "replayCriticalPassRate": 100,
+      "falsificationStatus": "candidate_rejected_by_falsification",
+      "customTool": null
     },
     {
       "slug": "batch4-uci-bike-sharing-time-series-benchmark",
@@ -288,8 +294,12 @@
       "publicationSafetyScore": 98,
       "specificityScore": 88,
       "executionIncluded": true,
-      "revisionReason": null,
-      "falsificationStatus": "tie_no_benchmark_win"
+      "workerAssurance": "container-netoff",
+      "candidateStatus": "external_reproduction_partial",
+      "finalResult": "external_reproduction_partial",
+      "replayCriticalPassRate": 100,
+      "falsificationStatus": "tie_no_benchmark_win",
+      "customTool": null
     },
     {
       "slug": "batch4-uci-glass-csvkit-tool-dataset-audit",
@@ -304,10 +314,13 @@
       "reproducibilityScore": 88,
       "publicationSafetyScore": 98,
       "specificityScore": 90,
-      "workerAssurance": "venv-tool-plus-container-netoff",
       "executionIncluded": true,
-      "revisionReason": null,
-      "falsificationStatus": "tool_execution_and_dataset_audit_passed"
+      "workerAssurance": "venv-tool-plus-container-netoff",
+      "candidateStatus": "dataset_quality_audit_supported",
+      "finalResult": "dataset_quality_audit_supported",
+      "replayCriticalPassRate": 100,
+      "falsificationStatus": "tool_execution_and_dataset_audit_passed",
+      "customTool": "csvkit"
     },
     {
       "slug": "batch4-uci-seeds-dataset-quality-execution",
@@ -323,8 +336,75 @@
       "publicationSafetyScore": 98,
       "specificityScore": 88,
       "executionIncluded": true,
-      "revisionReason": null,
-      "falsificationStatus": "audited_with_limitations"
+      "workerAssurance": "container-netoff",
+      "candidateStatus": "dataset_quality_audit_supported",
+      "finalResult": "dataset_quality_audit_supported",
+      "replayCriticalPassRate": 100,
+      "falsificationStatus": "audited_with_limitations",
+      "customTool": null
+    },
+    {
+      "slug": "batch5-itsdangerous-repo-install-test-reproduction",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch5-itsdangerous-repo-install-test-reproduction",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 92,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 98,
+      "specificityScore": 89,
+      "executionIncluded": true,
+      "workerAssurance": "venv-local-isolated",
+      "candidateStatus": "external_reproduction_success",
+      "finalResult": "external_reproduction_success",
+      "replayCriticalPassRate": 100,
+      "falsificationStatus": "tests_and_examples_executed",
+      "customTool": null
+    },
+    {
+      "slug": "batch5-uci-air-quality-time-series-dataset-audit",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch5-uci-air-quality-time-series-dataset-audit",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 94,
+      "reproducibilityScore": 91,
+      "publicationSafetyScore": 98,
+      "specificityScore": 91,
+      "executionIncluded": true,
+      "workerAssurance": "container-netoff",
+      "candidateStatus": "dataset_quality_audit_supported",
+      "finalResult": "dataset_quality_audit_supported",
+      "replayCriticalPassRate": 100,
+      "falsificationStatus": "sentinel_missingness_challenger_supported",
+      "customTool": null
+    },
+    {
+      "slug": "batch5-uci-letter-recognition-baseline-challenge",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch5-uci-letter-recognition-baseline-challenge",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 93,
+      "evidenceStrengthScore": 94,
+      "reproducibilityScore": 91,
+      "publicationSafetyScore": 98,
+      "specificityScore": 90,
+      "executionIncluded": true,
+      "workerAssurance": "container-netoff",
+      "candidateStatus": "benchmark_challenge_negative_result",
+      "finalResult": "benchmark_challenge_negative_result",
+      "replayCriticalPassRate": 100,
+      "falsificationStatus": "candidate_rejected_by_falsification",
+      "customTool": null
     },
     {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -474,8 +554,8 @@
       "versionGroup": "discovery-promising-unproven-method",
       "showcaseEligible": false,
       "showcaseRank": null,
-      "releaseReadinessScore": 0,
-      "evidenceStrengthScore": 0,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 91,
       "reproducibilityScore": 100,
       "publicationSafetyScore": 98,
       "specificityScore": 81
@@ -622,17 +702,17 @@
     },
     {
       "slug": "external-reproduction-extension-result",
-      "qualityLabel": "unknown",
-      "antiTemplateStatus": "unknown",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
       "lifecycleStatus": "autopublished",
       "versionGroup": "external-reproduction-extension-result",
       "showcaseEligible": false,
       "showcaseRank": null,
-      "releaseReadinessScore": 0,
-      "evidenceStrengthScore": 0,
-      "reproducibilityScore": 0,
-      "publicationSafetyScore": 0,
-      "specificityScore": 80
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 82,
+      "publicationSafetyScore": 98,
+      "specificityScore": 86
     },
     {
       "slug": "external-scientific-production-result",
@@ -646,11 +726,7 @@
       "evidenceStrengthScore": 94,
       "reproducibilityScore": 91,
       "publicationSafetyScore": 98,
-      "specificityScore": 90,
-      "candidateStatus": "replication_supported_external_candidate",
-      "finalResult": "replication_supported_external_candidate",
-      "replayCriticalPassRate": 100,
-      "falsificationStatus": "baseline_dominance_and_replication_supported"
+      "specificityScore": 90
     },
     {
       "slug": "field-grade-autonomous-science-trial",
@@ -804,7 +880,7 @@
       "evidenceStrengthScore": 86,
       "reproducibilityScore": 95,
       "publicationSafetyScore": 98,
-      "specificityScore": 48
+      "specificityScore": 54
     },
     {
       "slug": "software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth",
@@ -863,5 +939,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "7438dbc96e0805d10fb9e60a12669885da412c4a6a03257edf423e2f43f5f27c"
+  "evidenceHash": "0d49af2550d96df935dc5380f79baecf3b1d25812003058c4ae5130c68d29457"
 }

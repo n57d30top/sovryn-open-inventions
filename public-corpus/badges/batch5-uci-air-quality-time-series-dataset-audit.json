@@ -1,0 +1,21 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "batch5-uci-air-quality-time-series-dataset-audit",
+  "badges": {
+    "quality": "good",
+    "status": "dataset_quality_audit_supported",
+    "antiTemplate": "review_ready",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "container-netoff",
+    "falsification": "sentinel_missingness_challenger_supported",
+    "lifecycle": "autopublished",
+    "version": "batch5-uci-air-quality-time-series-dataset-audit",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "58940f169707139f0f566df147fbd858a67c4ef90dcdf0a5aa0d6ab029bedd0c",
+  "executionIncluded": true
+}

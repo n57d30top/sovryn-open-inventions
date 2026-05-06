@@ -7,5 +7,13 @@
   "pushed": false,
   "publicHygienePassed": true,
   "noCriticalFailures": true,
+  "resultKind": "self_built_lab_reproduction",
+  "qualityLabel": "good",
+  "candidateStatus": "partially_reproduced",
+  "releaseReadinessScore": 88,
+  "evidenceStrengthScore": 86,
+  "reproducibilityScore": 95,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide patentability, legal novelty, or freedom-to-operate opinions."
 }

@@ -1,0 +1,232 @@
+{
+  "slug": "batch5-uci-letter-recognition-baseline-challenge",
+  "title": "UCI Letter Recognition Vowel Benchmark Negative Challenge",
+  "resultKind": "external_research_production_result",
+  "resultType": "external_research_production_result",
+  "targetVersion": "4.2.0-rc.1",
+  "batch": "batch5",
+  "domain": "tabular-benchmark-baseline-dominance",
+  "selectedExternalTarget": "UCI Letter Recognition dataset",
+  "targetUrl": "https://archive.ics.uci.edu/ml/machine-learning-databases/letter-recognition/letter-recognition.data",
+  "sourceAccessLicenseNote": "Public UCI Machine Learning Repository dataset. The public package publishes aggregate metrics and task descriptions only, not the raw dataset.",
+  "whyTargetMatters": "The Letter Recognition dataset is a well-known public tabular benchmark. A vowel-versus-consonant challenge is a measurable external task where a compact challenger can be killed by a simple feature-threshold baseline.",
+  "executionIncluded": true,
+  "executionProfile": "container-netoff",
+  "workerAssurance": "container-netoff",
+  "finalResult": "benchmark_challenge_negative_result",
+  "candidateStatus": "benchmark_challenge_negative_result",
+  "qualityLabel": "good",
+  "antiTemplateStatus": "review_ready",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "noRawLogs": true,
+  "noSecretLeaks": true,
+  "noLocalAbsolutePaths": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "failuresRecorded": 1,
+  "lossesRecorded": 1,
+  "tiesRecorded": 0,
+  "winsRecorded": 0,
+  "rejectedCandidates": 1,
+  "releaseReadinessScore": 93,
+  "evidenceStrengthScore": 94,
+  "reproducibilityScore": 91,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 90,
+  "customTool": null,
+  "metrics": {
+    "target": "UCI Letter Recognition vowel-vs-consonant challenge",
+    "executionProfile": "container-netoff",
+    "rowCount": 20000,
+    "columnCount": 17,
+    "trainRows": 16000,
+    "testRows": 4000,
+    "positiveClass": "vowels A/E/I/O/U",
+    "negativeClass": "consonants",
+    "classCountLetters": 26,
+    "duplicateRows": 1332,
+    "missing": {
+      "letter": 0,
+      "xbox": 0,
+      "ybox": 0,
+      "width": 0,
+      "height": 0,
+      "onpix": 0,
+      "xbar": 0,
+      "ybar": 0,
+      "x2bar": 0,
+      "y2bar": 0,
+      "xybar": 0,
+      "x2ybar": 0,
+      "xy2bar": 0,
+      "xedge": 0,
+      "xedgey": 0,
+      "yedge": 0,
+      "yedgex": 0
+    },
+    "bestBaseline": {
+      "feature": "xy2bar",
+      "threshold": 8,
+      "direction": "gte",
+      "metric": {
+        "tp": 654,
+        "fp": 1931,
+        "tn": 1305,
+        "fn": 110,
+        "precision": 0.253,
+        "recall": 0.856,
+        "specificity": 0.403,
+        "accuracy": 0.49,
+        "f1": 0.391,
+        "balancedAccuracy": 0.63
+      }
+    },
+    "challenger": {
+      "name": "compact_geometry_vowel_score",
+      "threshold": 2.6,
+      "direction": "lt",
+      "metric": {
+        "tp": 605,
+        "fp": 2188,
+        "tn": 1048,
+        "fn": 159,
+        "precision": 0.217,
+        "recall": 0.792,
+        "specificity": 0.324,
+        "accuracy": 0.413,
+        "f1": 0.34,
+        "balancedAccuracy": 0.558
+      },
+      "rejected": true
+    },
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "baselineTop3": [
+      {
+        "feature": "xy2bar",
+        "threshold": 8,
+        "direction": "gte",
+        "f1": 0.391
+      },
+      {
+        "feature": "ybar",
+        "threshold": 9,
+        "direction": "lt",
+        "f1": 0.38
+      },
+      {
+        "feature": "xedgey",
+        "threshold": 10,
+        "direction": "lt",
+        "f1": 0.371
+      }
+    ]
+  },
+  "limitations": [
+    "Bounded external research production run; not a claim of scientific truth.",
+    "Public package contains aggregate metrics and curated reports, not raw logs, private data, local paths, or raw source dumps.",
+    "Negative, partial, rejected, and tie outcomes are preserved instead of being converted into wins."
+  ],
+  "nextResearchDirection": "Test whether lightweight calibrated models can improve specificity without losing the simple threshold baseline's recall advantage.",
+  "disclaimer": "External research production artifact. Safe computational science only: public datasets, public repositories, isolated execution, aggregate metrics, baseline comparisons, reproducibility notes, losses, and limitations. This is not a patent filing, legal novelty claim, medical advice, exploit guidance, breakthrough claim, or guarantee of scientific truth.",
+  "evidenceHash": "7505edd14633a890b17e37d47ef8f4f1e8ea12c03c7e116dcb456ce3b4a5285b",
+  "gates": [
+    {
+      "code": "EXTERNAL_TARGET_BOUND",
+      "passed": true,
+      "severity": "info",
+      "message": "EXTERNAL_TARGET_BOUND passed."
+    },
+    {
+      "code": "SOURCE_ACCESS_LICENSE_NOTED",
+      "passed": true,
+      "severity": "info",
+      "message": "SOURCE_ACCESS_LICENSE_NOTED passed."
+    },
+    {
+      "code": "PREREGISTRATION_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "PREREGISTRATION_PRESENT passed."
+    },
+    {
+      "code": "EXECUTION_ENVIRONMENT_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "EXECUTION_ENVIRONMENT_PRESENT passed."
+    },
+    {
+      "code": "BASELINE_REPRODUCTION_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "BASELINE_REPRODUCTION_PRESENT passed."
+    },
+    {
+      "code": "CONCRETE_METRICS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "CONCRETE_METRICS_PRESENT passed."
+    },
+    {
+      "code": "FAILURES_AND_LIMITATIONS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "FAILURES_AND_LIMITATIONS_PRESENT passed."
+    },
+    {
+      "code": "REJECTED_IDEAS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "REJECTED_IDEAS_PRESENT passed."
+    },
+    {
+      "code": "REPRODUCIBILITY_INSTRUCTIONS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "REPRODUCIBILITY_INSTRUCTIONS_PRESENT passed."
+    },
+    {
+      "code": "PUBLIC_HYGIENE_PASSED",
+      "passed": true,
+      "severity": "info",
+      "message": "PUBLIC_HYGIENE_PASSED passed."
+    },
+    {
+      "code": "NO_FAKE_BENCHMARK_WIN",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_FAKE_BENCHMARK_WIN passed."
+    },
+    {
+      "code": "NO_FAKE_BREAKTHROUGH_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_FAKE_BREAKTHROUGH_CLAIMS passed."
+    },
+    {
+      "code": "NO_UNSUPPORTED_SCIENTIFIC_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_UNSUPPORTED_SCIENTIFIC_CLAIMS passed."
+    },
+    {
+      "code": "ACTUAL_EXECUTION_INCLUDED",
+      "passed": true,
+      "severity": "info",
+      "message": "ACTUAL_EXECUTION_INCLUDED passed."
+    },
+    {
+      "code": "CONTAINER_WORKER_EVIDENCE_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "CONTAINER_WORKER_EVIDENCE_PRESENT passed."
+    }
+  ],
+  "falsificationStatus": "candidate_rejected_by_falsification",
+  "lifecycleStatus": "autopublished"
+}

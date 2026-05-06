@@ -10,6 +10,14 @@
   "dryRun": false,
   "publicHygienePassed": true,
   "noCriticalFailures": true,
+  "resultKind": "discovery_promising_unproven",
+  "qualityLabel": "good",
+  "candidateStatus": "promising_but_unproven",
+  "releaseReadinessScore": 90,
+  "evidenceStrengthScore": 91,
+  "reproducibilityScore": 100,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
   "disclaimer": "Autonomous computational discovery artifact. Not a patent filing, patentability opinion, legal novelty opinion, or freedom-to-operate opinion. Human interpretation required.",
   "evidenceHash": "0a7be61517fe94d75fa41f325302dcd3dfd0b3cecea22a36fca8f6944312a215"
 }

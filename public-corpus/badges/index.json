@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T07:30:46.465Z",
+  "generatedAt": "2026-05-06T07:54:21.351Z",
   "badges": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -375,6 +375,60 @@
         "falsification": "audited_with_limitations",
         "lifecycle": "autopublished",
         "version": "batch4-uci-seeds-dataset-quality-execution",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch5-itsdangerous-repo-install-test-reproduction",
+      "badges": {
+        "quality": "good",
+        "status": "external_reproduction_success",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "tests_and_examples_executed",
+        "lifecycle": "autopublished",
+        "version": "batch5-itsdangerous-repo-install-test-reproduction",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch5-uci-air-quality-time-series-dataset-audit",
+      "badges": {
+        "quality": "good",
+        "status": "dataset_quality_audit_supported",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "sentinel_missingness_challenger_supported",
+        "lifecycle": "autopublished",
+        "version": "batch5-uci-air-quality-time-series-dataset-audit",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch5-uci-letter-recognition-baseline-challenge",
+      "badges": {
+        "quality": "good",
+        "status": "benchmark_challenge_negative_result",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "candidate_rejected_by_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch5-uci-letter-recognition-baseline-challenge",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -761,10 +815,10 @@
     {
       "slug": "external-reproduction-extension-result",
       "badges": {
-        "quality": "unknown",
-        "status": "unknown",
-        "antiTemplate": "unknown",
-        "replay": "replay-partial",
+        "quality": "good",
+        "status": "external_extension_supported",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
@@ -978,7 +1032,7 @@
       "slug": "self-built-lab-reproduction-388ccd1946ad",
       "badges": {
         "quality": "good",
-        "status": "unknown",
+        "status": "partially_reproduced",
         "antiTemplate": "unknown",
         "replay": "replay-100",
         "safety": "safety-passed",
@@ -1065,5 +1119,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "209d131ccb6ecfb81a1cbe879ae78d5242a466a550e0375a679c39535b5a04b4"
+  "evidenceHash": "93333a43d58811c631f31b641f6c840997de41e20056ede6a199b92c77907406"
 }

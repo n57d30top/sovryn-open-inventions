@@ -1,0 +1,28 @@
+{
+  "kind": "claim_evidence_bindings",
+  "slug": "batch5-itsdangerous-repo-install-test-reproduction",
+  "evidenceHash": "ef3336cd63350220daa0991d2c596ec01bcdd8edd8da9c79534c4422e022b85d",
+  "claims": [
+    {
+      "claimId": "batch5-itsdangerous-repo-install-test-reproduction-claim-1",
+      "claimText": "297 upstream tests passed after installing the missing test dependency freezegun; 1 curated signing example passed.",
+      "supportStatus": "evidence_bound",
+      "sourceArtifacts": [
+        "SUMMARY.json",
+        "METRICS.json",
+        "RESULTS.md",
+        "METRIC_BREAKDOWN.md"
+      ]
+    },
+    {
+      "claimId": "batch5-itsdangerous-repo-install-test-reproduction-claim-2",
+      "claimText": "Final result label is external_reproduction_success; stronger claims are not made.",
+      "supportStatus": "bounded",
+      "sourceArtifacts": [
+        "SUMMARY.json",
+        "LIMITATIONS.md",
+        "FALSIFICATION.md"
+      ]
+    }
+  ]
+}

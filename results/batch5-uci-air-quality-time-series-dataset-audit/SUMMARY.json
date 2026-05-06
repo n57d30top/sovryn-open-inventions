@@ -1,0 +1,323 @@
+{
+  "slug": "batch5-uci-air-quality-time-series-dataset-audit",
+  "title": "UCI Air Quality Time-Series Dataset Audit",
+  "resultKind": "external_research_production_result",
+  "resultType": "external_research_production_result",
+  "targetVersion": "4.2.0-rc.1",
+  "batch": "batch5",
+  "domain": "time-series-dataset-quality-audit",
+  "selectedExternalTarget": "UCI Air Quality dataset",
+  "targetUrl": "https://archive.ics.uci.edu/ml/machine-learning-databases/00360/AirQualityUCI.zip",
+  "sourceAccessLicenseNote": "Public UCI Machine Learning Repository dataset. The public package publishes aggregate data-quality metrics and benchmark-audit outcomes only, not the raw dataset.",
+  "whyTargetMatters": "The Air Quality dataset is a real public time-series dataset with documented missing-value sentinels. It is useful for testing whether schema-only audits miss dataset-quality issues that sentinel-aware checks catch.",
+  "executionIncluded": true,
+  "executionProfile": "container-netoff",
+  "workerAssurance": "container-netoff",
+  "finalResult": "dataset_quality_audit_supported",
+  "candidateStatus": "dataset_quality_audit_supported",
+  "qualityLabel": "good",
+  "antiTemplateStatus": "review_ready",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "noRawLogs": true,
+  "noSecretLeaks": true,
+  "noLocalAbsolutePaths": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "failuresRecorded": 0,
+  "lossesRecorded": 0,
+  "tiesRecorded": 0,
+  "winsRecorded": 1,
+  "rejectedCandidates": 1,
+  "releaseReadinessScore": 92,
+  "evidenceStrengthScore": 94,
+  "reproducibilityScore": 91,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 91,
+  "customTool": null,
+  "metrics": {
+    "target": "UCI Air Quality UCI time-series dataset",
+    "executionProfile": "container-netoff",
+    "rowCount": 9357,
+    "columnCount": 15,
+    "numericColumnCount": 13,
+    "duplicateTimestamps": 0,
+    "timeGapCount": 0,
+    "maxGapHours": 1,
+    "negativeTimeDiffs": 0,
+    "missingSentinelCounts": {
+      "CO(GT)": 1683,
+      "PT08.S1(CO)": 366,
+      "NMHC(GT)": 8443,
+      "C6H6(GT)": 366,
+      "PT08.S2(NMHC)": 366,
+      "NOx(GT)": 1639,
+      "PT08.S3(NOx)": 366,
+      "NO2(GT)": 1642,
+      "PT08.S4(NO2)": 366,
+      "PT08.S5(O3)": 366,
+      "T": 366,
+      "RH": 366,
+      "AH": 366
+    },
+    "missingRates": {
+      "CO(GT)": 0.18,
+      "PT08.S1(CO)": 0.039,
+      "NMHC(GT)": 0.902,
+      "C6H6(GT)": 0.039,
+      "PT08.S2(NMHC)": 0.039,
+      "NOx(GT)": 0.175,
+      "PT08.S3(NOx)": 0.039,
+      "NO2(GT)": 0.175,
+      "PT08.S4(NO2)": 0.039,
+      "PT08.S5(O3)": 0.039,
+      "T": 0.039,
+      "RH": 0.039,
+      "AH": 0.039
+    },
+    "numericSummaries": {
+      "CO(GT)": {
+        "usableCount": 7674,
+        "min": 0.1,
+        "max": 11.9,
+        "mean": 2.153,
+        "iqr": 1.8,
+        "iqrOutliers": 215
+      },
+      "PT08.S1(CO)": {
+        "usableCount": 8991,
+        "min": 647,
+        "max": 2040,
+        "mean": 1099.833,
+        "iqr": 294,
+        "iqrOutliers": 118
+      },
+      "NMHC(GT)": {
+        "usableCount": 914,
+        "min": 7,
+        "max": 1189,
+        "mean": 218.812,
+        "iqr": 230,
+        "iqrOutliers": 55
+      },
+      "C6H6(GT)": {
+        "usableCount": 8991,
+        "min": 0.1,
+        "max": 63.7,
+        "mean": 10.083,
+        "iqr": 9.6,
+        "iqrOutliers": 228
+      },
+      "PT08.S2(NMHC)": {
+        "usableCount": 8991,
+        "min": 383,
+        "max": 2214,
+        "mean": 939.153,
+        "iqr": 382,
+        "iqrOutliers": 64
+      },
+      "NOx(GT)": {
+        "usableCount": 7718,
+        "min": 2,
+        "max": 1479,
+        "mean": 246.897,
+        "iqr": 228,
+        "iqrOutliers": 435
+      },
+      "PT08.S3(NOx)": {
+        "usableCount": 8991,
+        "min": 322,
+        "max": 2683,
+        "mean": 835.494,
+        "iqr": 312,
+        "iqrOutliers": 240
+      },
+      "NO2(GT)": {
+        "usableCount": 7715,
+        "min": 2,
+        "max": 340,
+        "mean": 113.091,
+        "iqr": 64,
+        "iqrOutliers": 107
+      },
+      "PT08.S4(NO2)": {
+        "usableCount": 8991,
+        "min": 551,
+        "max": 2775,
+        "mean": 1456.265,
+        "iqr": 447,
+        "iqrOutliers": 97
+      },
+      "PT08.S5(O3)": {
+        "usableCount": 8991,
+        "min": 221,
+        "max": 2523,
+        "mean": 1022.906,
+        "iqr": 543,
+        "iqrOutliers": 91
+      },
+      "T": {
+        "usableCount": 8991,
+        "min": -1.9,
+        "max": 44.6,
+        "mean": 18.318,
+        "iqr": 12.6,
+        "iqrOutliers": 3
+      },
+      "RH": {
+        "usableCount": 8991,
+        "min": 9.2,
+        "max": 88.7,
+        "mean": 49.234,
+        "iqr": 26.7,
+        "iqrOutliers": 0
+      },
+      "AH": {
+        "usableCount": 8991,
+        "min": 0.185,
+        "max": 2.231,
+        "mean": 1.026,
+        "iqr": 0.577,
+        "iqrOutliers": 2
+      }
+    },
+    "baseline": {
+      "name": "schema_only_missing_detector",
+      "metric": {
+        "tp": 0,
+        "fp": 0,
+        "tn": 9,
+        "fn": 4,
+        "precision": 0,
+        "recall": 0,
+        "f1": 0
+      }
+    },
+    "challenger": {
+      "name": "sentinel_aware_missing_detector",
+      "metric": {
+        "tp": 4,
+        "fp": 0,
+        "tn": 9,
+        "fn": 0,
+        "precision": 1,
+        "recall": 1,
+        "f1": 1
+      }
+    },
+    "wins": 1,
+    "losses": 0,
+    "ties": 0,
+    "highMissingColumns": [
+      "CO(GT)",
+      "NMHC(GT)",
+      "NOx(GT)",
+      "NO2(GT)"
+    ]
+  },
+  "limitations": [
+    "Bounded external research production run; not a claim of scientific truth.",
+    "Public package contains aggregate metrics and curated reports, not raw logs, private data, local paths, or raw source dumps.",
+    "Negative, partial, rejected, and tie outcomes are preserved instead of being converted into wins."
+  ],
+  "nextResearchDirection": "Run sentinel-aware audits on additional public sensor datasets and test whether provenance notes can distinguish expected missingness from suspicious missingness.",
+  "disclaimer": "External research production artifact. Safe computational science only: public datasets, public repositories, isolated execution, aggregate metrics, baseline comparisons, reproducibility notes, losses, and limitations. This is not a patent filing, legal novelty claim, medical advice, exploit guidance, breakthrough claim, or guarantee of scientific truth.",
+  "evidenceHash": "43d30b980b522a25f47be9e90462f169cc6869238d0471d3ab5ee666f7a43ad5",
+  "gates": [
+    {
+      "code": "EXTERNAL_TARGET_BOUND",
+      "passed": true,
+      "severity": "info",
+      "message": "EXTERNAL_TARGET_BOUND passed."
+    },
+    {
+      "code": "SOURCE_ACCESS_LICENSE_NOTED",
+      "passed": true,
+      "severity": "info",
+      "message": "SOURCE_ACCESS_LICENSE_NOTED passed."
+    },
+    {
+      "code": "PREREGISTRATION_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "PREREGISTRATION_PRESENT passed."
+    },
+    {
+      "code": "EXECUTION_ENVIRONMENT_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "EXECUTION_ENVIRONMENT_PRESENT passed."
+    },
+    {
+      "code": "BASELINE_REPRODUCTION_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "BASELINE_REPRODUCTION_PRESENT passed."
+    },
+    {
+      "code": "CONCRETE_METRICS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "CONCRETE_METRICS_PRESENT passed."
+    },
+    {
+      "code": "FAILURES_AND_LIMITATIONS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "FAILURES_AND_LIMITATIONS_PRESENT passed."
+    },
+    {
+      "code": "REJECTED_IDEAS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "REJECTED_IDEAS_PRESENT passed."
+    },
+    {
+      "code": "REPRODUCIBILITY_INSTRUCTIONS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "REPRODUCIBILITY_INSTRUCTIONS_PRESENT passed."
+    },
+    {
+      "code": "PUBLIC_HYGIENE_PASSED",
+      "passed": true,
+      "severity": "info",
+      "message": "PUBLIC_HYGIENE_PASSED passed."
+    },
+    {
+      "code": "NO_FAKE_BENCHMARK_WIN",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_FAKE_BENCHMARK_WIN passed."
+    },
+    {
+      "code": "NO_FAKE_BREAKTHROUGH_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_FAKE_BREAKTHROUGH_CLAIMS passed."
+    },
+    {
+      "code": "NO_UNSUPPORTED_SCIENTIFIC_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_UNSUPPORTED_SCIENTIFIC_CLAIMS passed."
+    },
+    {
+      "code": "ACTUAL_EXECUTION_INCLUDED",
+      "passed": true,
+      "severity": "info",
+      "message": "ACTUAL_EXECUTION_INCLUDED passed."
+    },
+    {
+      "code": "CONTAINER_WORKER_EVIDENCE_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "CONTAINER_WORKER_EVIDENCE_PRESENT passed."
+    }
+  ],
+  "falsificationStatus": "sentinel_missingness_challenger_supported",
+  "lifecycleStatus": "autopublished"
+}

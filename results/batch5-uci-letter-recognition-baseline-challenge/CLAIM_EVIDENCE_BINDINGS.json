@@ -1,0 +1,28 @@
+{
+  "kind": "claim_evidence_bindings",
+  "slug": "batch5-uci-letter-recognition-baseline-challenge",
+  "evidenceHash": "7505edd14633a890b17e37d47ef8f4f1e8ea12c03c7e116dcb456ce3b4a5285b",
+  "claims": [
+    {
+      "claimId": "batch5-uci-letter-recognition-baseline-challenge-claim-1",
+      "claimText": "Container-netoff benchmark over 20000 rows. Best single-feature baseline F1 0.391; compact challenger F1 0.34; challenger rejected.",
+      "supportStatus": "evidence_bound",
+      "sourceArtifacts": [
+        "SUMMARY.json",
+        "METRICS.json",
+        "RESULTS.md",
+        "METRIC_BREAKDOWN.md"
+      ]
+    },
+    {
+      "claimId": "batch5-uci-letter-recognition-baseline-challenge-claim-2",
+      "claimText": "Final result label is benchmark_challenge_negative_result; stronger claims are not made.",
+      "supportStatus": "bounded",
+      "sourceArtifacts": [
+        "SUMMARY.json",
+        "LIMITATIONS.md",
+        "FALSIFICATION.md"
+      ]
+    }
+  ]
+}

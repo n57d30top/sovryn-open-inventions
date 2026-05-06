@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T07:30:46.465Z",
+  "updatedAt": "2026-05-06T07:54:21.351Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-strategy-trial",
@@ -147,6 +147,27 @@
       "latestSlug": "batch4-uci-seeds-dataset-quality-execution",
       "resultSlugs": [
         "batch4-uci-seeds-dataset-quality-execution"
+      ]
+    },
+    {
+      "versionGroup": "batch5-itsdangerous-repo-install-test-reproduction",
+      "latestSlug": "batch5-itsdangerous-repo-install-test-reproduction",
+      "resultSlugs": [
+        "batch5-itsdangerous-repo-install-test-reproduction"
+      ]
+    },
+    {
+      "versionGroup": "batch5-uci-air-quality-time-series-dataset-audit",
+      "latestSlug": "batch5-uci-air-quality-time-series-dataset-audit",
+      "resultSlugs": [
+        "batch5-uci-air-quality-time-series-dataset-audit"
+      ]
+    },
+    {
+      "versionGroup": "batch5-uci-letter-recognition-baseline-challenge",
+      "latestSlug": "batch5-uci-letter-recognition-baseline-challenge",
+      "resultSlugs": [
+        "batch5-uci-letter-recognition-baseline-challenge"
       ]
     },
     {
@@ -332,5 +353,5 @@
       ]
     }
   ],
-  "evidenceHash": "8ef1151af695086c650e8ffef8bea1daeae6eb137a0702e2b6b0ecb82b2575e6"
+  "evidenceHash": "81227b783461dbcd5af69126a411450913af21aaf06feb157a48a2eacf4b1d59"
 }

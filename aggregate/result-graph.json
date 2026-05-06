@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T07:30:46.465Z",
+  "generatedAt": "2026-05-06T07:54:21.351Z",
   "nodes": [
     {
       "id": "result:autonomous-research-strategy-trial",
@@ -127,6 +127,24 @@
       "kind": "result",
       "label": "UCI Seeds Dataset Quality Execution Audit",
       "domain": "scientific-tabular-dataset-quality"
+    },
+    {
+      "id": "result:batch5-itsdangerous-repo-install-test-reproduction",
+      "kind": "result",
+      "label": "itsdangerous Repository Install and Test Reproduction",
+      "domain": "public-repo-reproducibility"
+    },
+    {
+      "id": "result:batch5-uci-air-quality-time-series-dataset-audit",
+      "kind": "result",
+      "label": "UCI Air Quality Time-Series Dataset Audit",
+      "domain": "time-series-dataset-quality-audit"
+    },
+    {
+      "id": "result:batch5-uci-letter-recognition-baseline-challenge",
+      "kind": "result",
+      "label": "UCI Letter Recognition Vowel Benchmark Negative Challenge",
+      "domain": "tabular-benchmark-baseline-dominance"
     },
     {
       "id": "result:chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -437,6 +455,11 @@
       "label": "scientific-tabular-dataset-quality"
     },
     {
+      "id": "domain:time-series-dataset-quality-audit",
+      "kind": "domain",
+      "label": "time-series-dataset-quality-audit"
+    },
+    {
       "id": "domain:chemistry-data-quality",
       "kind": "domain",
       "label": "chemistry-data-quality"
@@ -646,6 +669,21 @@
     {
       "source": "result:batch4-uci-seeds-dataset-quality-execution",
       "target": "domain:scientific-tabular-dataset-quality",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch5-itsdangerous-repo-install-test-reproduction",
+      "target": "domain:public-repo-reproducibility",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch5-uci-air-quality-time-series-dataset-audit",
+      "target": "domain:time-series-dataset-quality-audit",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch5-uci-letter-recognition-baseline-challenge",
+      "target": "domain:tabular-benchmark-baseline-dominance",
       "relation": "belongs_to_domain"
     },
     {
@@ -979,5 +1017,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "3f5da9c76b3f505a99d2ffbebda20a272128f29bdb402cd71f2076d89721c127"
+  "evidenceHash": "a59a08673b5ff681e4c6a368066f63aa7fd54657b0b3f92570f2e65832be7956"
 }

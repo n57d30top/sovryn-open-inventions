@@ -1,25 +1,26 @@
 {
   "kind": "public_corpus_status",
-  "generatedAt": "2026-05-06T07:30:46.465Z",
+  "generatedAt": "2026-05-06T07:54:21.351Z",
   "statusCounts": {
     "autopublished": 28,
-    "benchmark_challenge_negative_result": 3,
-    "dataset_quality_audit_supported": 6,
+    "benchmark_challenge_negative_result": 4,
+    "dataset_quality_audit_supported": 7,
+    "external_extension_supported": 1,
     "external_reproduction_partial": 6,
-    "external_reproduction_success": 1,
+    "external_reproduction_success": 2,
     "field_grade_trial_ready": 3,
     "knowledge_trial_ready": 1,
+    "partially_reproduced": 1,
     "promising_but_unproven": 1,
     "reality_grade_trial_ready": 1,
     "replication_supported_candidate": 1,
     "replication_supported_external_candidate": 1,
     "source_evidence_extraction_audit_supported": 3,
     "strategy_trial_ready": 1,
-    "strong_external_negative_result": 1,
-    "unknown": 2
+    "strong_external_negative_result": 1
   },
   "lifecycleCounts": {
-    "autopublished": 28,
+    "autopublished": 31,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -37,7 +38,7 @@
     "open-invention-corpus": 3,
     "provenance-aware-data-quality-methods": 1,
     "public-dataset-quality-audit": 4,
-    "public-repo-reproducibility": 1,
+    "public-repo-reproducibility": 2,
     "public-repo-reproducibility-audit": 2,
     "reality-grade-scientific-autonomy": 1,
     "research-strategy": 1,
@@ -50,11 +51,12 @@
     "software-supply-chain-assurance": 3,
     "source-evidence-extraction-benchmark": 1,
     "source-evidence-extraction-quality": 3,
-    "tabular-benchmark-baseline-dominance": 1,
+    "tabular-benchmark-baseline-dominance": 2,
     "time-series-anomaly-benchmark": 1,
     "time-series-benchmark-challenge": 1,
+    "time-series-dataset-quality-audit": 1,
     "time-series-tabular-benchmark": 1,
     "tool-backed-dataset-quality-audit": 1
   },
-  "evidenceHash": "d4092c99d9b3cee6286799db63adee574ff805242e65bd05d7e15b4fdcbec3c0"
+  "evidenceHash": "79985d7102da6213ced7bfe41cc28e4080fa09d6cafc82df6c4de244774994df"
 }

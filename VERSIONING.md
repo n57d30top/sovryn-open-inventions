@@ -26,6 +26,9 @@ can supersede earlier entries while preserving audit history.
 - batch4-uci-bike-sharing-time-series-benchmark: latest batch4-uci-bike-sharing-time-series-benchmark; versions batch4-uci-bike-sharing-time-series-benchmark
 - batch4-uci-glass-csvkit-tool-dataset-audit: latest batch4-uci-glass-csvkit-tool-dataset-audit; versions batch4-uci-glass-csvkit-tool-dataset-audit
 - batch4-uci-seeds-dataset-quality-execution: latest batch4-uci-seeds-dataset-quality-execution; versions batch4-uci-seeds-dataset-quality-execution
+- batch5-itsdangerous-repo-install-test-reproduction: latest batch5-itsdangerous-repo-install-test-reproduction; versions batch5-itsdangerous-repo-install-test-reproduction
+- batch5-uci-air-quality-time-series-dataset-audit: latest batch5-uci-air-quality-time-series-dataset-audit; versions batch5-uci-air-quality-time-series-dataset-audit
+- batch5-uci-letter-recognition-baseline-challenge: latest batch5-uci-letter-recognition-baseline-challenge; versions batch5-uci-letter-recognition-baseline-challenge
 - chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an: latest chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl; versions chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl
 - chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconf: latest chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-; versions chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-
 - chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-o: latest chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco; versions chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco

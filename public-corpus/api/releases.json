@@ -191,6 +191,33 @@
       "pushed": true
     },
     {
+      "slug": "batch5-itsdangerous-repo-install-test-reproduction",
+      "path": "results/batch5-itsdangerous-repo-install-test-reproduction",
+      "status": "external_reproduction_success",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch5-itsdangerous-repo-install-test-reproduction",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch5-uci-air-quality-time-series-dataset-audit",
+      "path": "results/batch5-uci-air-quality-time-series-dataset-audit",
+      "status": "dataset_quality_audit_supported",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch5-uci-air-quality-time-series-dataset-audit",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch5-uci-letter-recognition-baseline-challenge",
+      "path": "results/batch5-uci-letter-recognition-baseline-challenge",
+      "status": "benchmark_challenge_negative_result",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch5-uci-letter-recognition-baseline-challenge",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "path": "results/chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "status": "autopublished",
@@ -382,7 +409,7 @@
     {
       "slug": "external-reproduction-extension-result",
       "path": "results/external-reproduction-extension-result",
-      "status": "unknown",
+      "status": "external_extension_supported",
       "lifecycleStatus": "autopublished",
       "versionGroup": "external-reproduction-extension-result",
       "supersededBy": null,
@@ -490,7 +517,7 @@
     {
       "slug": "self-built-lab-reproduction-388ccd1946ad",
       "path": "results/self-built-lab-reproduction-388ccd1946ad",
-      "status": "unknown",
+      "status": "partially_reproduced",
       "lifecycleStatus": "needs_revision",
       "versionGroup": "self-built-lab-reproduction-388ccd1946ad",
       "supersededBy": null,
@@ -533,5 +560,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "0f9c5e97fa7b69c3b55452c122a559d34052e5e6b3bb48797a6020d8b366acd8"
+  "evidenceHash": "36c447a973059fada5f0e026bd94664917894a6e6ec5f7b241176bf5ce23cff4"
 }

@@ -1,0 +1,159 @@
+{
+  "slug": "batch5-itsdangerous-repo-install-test-reproduction",
+  "title": "itsdangerous Repository Install and Test Reproduction",
+  "resultKind": "external_research_production_result",
+  "resultType": "external_research_production_result",
+  "targetVersion": "4.2.0-rc.1",
+  "batch": "batch5",
+  "domain": "public-repo-reproducibility",
+  "selectedExternalTarget": "pallets/itsdangerous GitHub repository",
+  "targetUrl": "https://github.com/pallets/itsdangerous",
+  "sourceAccessLicenseNote": "Public GitHub repository. The checked-out license text is BSD-style. The public package reports installation, test, and example outcomes only; it does not redistribute raw source dumps or logs.",
+  "whyTargetMatters": "itsdangerous is a widely used Python signing and serialization library. Reproducing its install path and tests exercises a real external repository with dependency handling rather than a fixture.",
+  "executionIncluded": true,
+  "executionProfile": "venv-local-isolated",
+  "workerAssurance": "venv-local-isolated",
+  "finalResult": "external_reproduction_success",
+  "candidateStatus": "external_reproduction_success",
+  "qualityLabel": "good",
+  "antiTemplateStatus": "review_ready",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "noRawLogs": true,
+  "noSecretLeaks": true,
+  "noLocalAbsolutePaths": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "failuresRecorded": 1,
+  "lossesRecorded": 0,
+  "tiesRecorded": 0,
+  "winsRecorded": 0,
+  "rejectedCandidates": 0,
+  "releaseReadinessScore": 92,
+  "evidenceStrengthScore": 92,
+  "reproducibilityScore": 90,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 89,
+  "customTool": null,
+  "metrics": {
+    "target": "pallets/itsdangerous",
+    "executionProfile": "venv-local-isolated",
+    "installSucceeded": true,
+    "testDependencyInstalled": "freezegun",
+    "packageVersion": "2.3.0.dev0",
+    "pytestExitCode": 0,
+    "pytestSummary": "297 passed in 0.34s",
+    "testsPassed": 297,
+    "testsSkipped": 0,
+    "testsFailed": 0,
+    "examplesPassed": 1,
+    "examplesFailed": 0,
+    "finalLabel": "external_reproduction_success",
+    "whyTargetMatters": "itsdangerous is a widely used public Python signing/serialization library; reproducing its tests exercises a real external repo rather than a fixture."
+  },
+  "limitations": [
+    "Bounded external research production run; not a claim of scientific truth.",
+    "Public package contains aggregate metrics and curated reports, not raw logs, private data, local paths, or raw source dumps.",
+    "Negative, partial, rejected, and tie outcomes are preserved instead of being converted into wins."
+  ],
+  "nextResearchDirection": "Repeat the repo reproduction with a fresh container variant and dependency-version variants to test stability beyond a single isolated venv.",
+  "disclaimer": "External research production artifact. Safe computational science only: public datasets, public repositories, isolated execution, aggregate metrics, baseline comparisons, reproducibility notes, losses, and limitations. This is not a patent filing, legal novelty claim, medical advice, exploit guidance, breakthrough claim, or guarantee of scientific truth.",
+  "evidenceHash": "ef3336cd63350220daa0991d2c596ec01bcdd8edd8da9c79534c4422e022b85d",
+  "gates": [
+    {
+      "code": "EXTERNAL_TARGET_BOUND",
+      "passed": true,
+      "severity": "info",
+      "message": "EXTERNAL_TARGET_BOUND passed."
+    },
+    {
+      "code": "SOURCE_ACCESS_LICENSE_NOTED",
+      "passed": true,
+      "severity": "info",
+      "message": "SOURCE_ACCESS_LICENSE_NOTED passed."
+    },
+    {
+      "code": "PREREGISTRATION_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "PREREGISTRATION_PRESENT passed."
+    },
+    {
+      "code": "EXECUTION_ENVIRONMENT_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "EXECUTION_ENVIRONMENT_PRESENT passed."
+    },
+    {
+      "code": "BASELINE_REPRODUCTION_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "BASELINE_REPRODUCTION_PRESENT passed."
+    },
+    {
+      "code": "CONCRETE_METRICS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "CONCRETE_METRICS_PRESENT passed."
+    },
+    {
+      "code": "FAILURES_AND_LIMITATIONS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "FAILURES_AND_LIMITATIONS_PRESENT passed."
+    },
+    {
+      "code": "REJECTED_IDEAS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "REJECTED_IDEAS_PRESENT passed."
+    },
+    {
+      "code": "REPRODUCIBILITY_INSTRUCTIONS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "REPRODUCIBILITY_INSTRUCTIONS_PRESENT passed."
+    },
+    {
+      "code": "PUBLIC_HYGIENE_PASSED",
+      "passed": true,
+      "severity": "info",
+      "message": "PUBLIC_HYGIENE_PASSED passed."
+    },
+    {
+      "code": "NO_FAKE_BENCHMARK_WIN",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_FAKE_BENCHMARK_WIN passed."
+    },
+    {
+      "code": "NO_FAKE_BREAKTHROUGH_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_FAKE_BREAKTHROUGH_CLAIMS passed."
+    },
+    {
+      "code": "NO_UNSUPPORTED_SCIENTIFIC_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_UNSUPPORTED_SCIENTIFIC_CLAIMS passed."
+    },
+    {
+      "code": "ACTUAL_EXECUTION_INCLUDED",
+      "passed": true,
+      "severity": "info",
+      "message": "ACTUAL_EXECUTION_INCLUDED passed."
+    },
+    {
+      "code": "ISOLATED_TOOL_EXECUTION_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "ISOLATED_TOOL_EXECUTION_PRESENT passed."
+    }
+  ],
+  "falsificationStatus": "tests_and_examples_executed",
+  "lifecycleStatus": "autopublished"
+}

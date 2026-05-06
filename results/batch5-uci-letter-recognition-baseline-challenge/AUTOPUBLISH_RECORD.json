@@ -1,0 +1,21 @@
+{
+  "kind": "corpus_autopublish_record",
+  "slug": "batch5-uci-letter-recognition-baseline-challenge",
+  "publishedAt": "2026-05-06T08:15:00.000Z",
+  "dryRun": false,
+  "pushed": true,
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "resultKind": "external_research_production_result",
+  "qualityLabel": "good",
+  "candidateStatus": "benchmark_challenge_negative_result",
+  "antiTemplateStatus": "review_ready",
+  "releaseReadinessScore": 93,
+  "evidenceStrengthScore": 94,
+  "reproducibilityScore": 91,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 90,
+  "evidenceHash": "7505edd14633a890b17e37d47ef8f4f1e8ea12c03c7e116dcb456ce3b4a5285b"
+}

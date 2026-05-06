@@ -1,0 +1,21 @@
+{
+  "kind": "corpus_autopublish_record",
+  "slug": "batch5-uci-air-quality-time-series-dataset-audit",
+  "publishedAt": "2026-05-06T08:15:00.000Z",
+  "dryRun": false,
+  "pushed": true,
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "resultKind": "external_research_production_result",
+  "qualityLabel": "good",
+  "candidateStatus": "dataset_quality_audit_supported",
+  "antiTemplateStatus": "review_ready",
+  "releaseReadinessScore": 92,
+  "evidenceStrengthScore": 94,
+  "reproducibilityScore": 91,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 91,
+  "evidenceHash": "43d30b980b522a25f47be9e90462f169cc6869238d0471d3ab5ee666f7a43ad5"
+}

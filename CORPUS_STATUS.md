@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 59
+Results: 62
 
 ## Lifecycle Counts
 
-- autopublished: 28
+- autopublished: 31
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -33,6 +33,9 @@ Results: 59
 - batch4-uci-bike-sharing-time-series-benchmark: latest batch4-uci-bike-sharing-time-series-benchmark; batch4-uci-bike-sharing-time-series-benchmark
 - batch4-uci-glass-csvkit-tool-dataset-audit: latest batch4-uci-glass-csvkit-tool-dataset-audit; batch4-uci-glass-csvkit-tool-dataset-audit
 - batch4-uci-seeds-dataset-quality-execution: latest batch4-uci-seeds-dataset-quality-execution; batch4-uci-seeds-dataset-quality-execution
+- batch5-itsdangerous-repo-install-test-reproduction: latest batch5-itsdangerous-repo-install-test-reproduction; batch5-itsdangerous-repo-install-test-reproduction
+- batch5-uci-air-quality-time-series-dataset-audit: latest batch5-uci-air-quality-time-series-dataset-audit; batch5-uci-air-quality-time-series-dataset-audit
+- batch5-uci-letter-recognition-baseline-challenge: latest batch5-uci-letter-recognition-baseline-challenge; batch5-uci-letter-recognition-baseline-challenge
 - chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an: latest chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl; chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl
 - chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconf: latest chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-; chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-
 - chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-o: latest chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco; chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco

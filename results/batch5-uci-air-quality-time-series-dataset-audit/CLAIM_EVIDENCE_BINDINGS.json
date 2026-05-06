@@ -1,0 +1,28 @@
+{
+  "kind": "claim_evidence_bindings",
+  "slug": "batch5-uci-air-quality-time-series-dataset-audit",
+  "evidenceHash": "43d30b980b522a25f47be9e90462f169cc6869238d0471d3ab5ee666f7a43ad5",
+  "claims": [
+    {
+      "claimId": "batch5-uci-air-quality-time-series-dataset-audit-claim-1",
+      "claimText": "Container-netoff audit over 9357 rows and 15 columns. NMHC(GT) missing-sentinel rate 0.902; sentinel-aware detector F1 1 versus schema-only F1 0.",
+      "supportStatus": "evidence_bound",
+      "sourceArtifacts": [
+        "SUMMARY.json",
+        "METRICS.json",
+        "RESULTS.md",
+        "METRIC_BREAKDOWN.md"
+      ]
+    },
+    {
+      "claimId": "batch5-uci-air-quality-time-series-dataset-audit-claim-2",
+      "claimText": "Final result label is dataset_quality_audit_supported; stronger claims are not made.",
+      "supportStatus": "bounded",
+      "sourceArtifacts": [
+        "SUMMARY.json",
+        "LIMITATIONS.md",
+        "FALSIFICATION.md"
+      ]
+    }
+  ]
+}

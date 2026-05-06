@@ -1,0 +1,89 @@
+{
+  "target": "UCI Letter Recognition vowel-vs-consonant challenge",
+  "executionProfile": "container-netoff",
+  "rowCount": 20000,
+  "columnCount": 17,
+  "trainRows": 16000,
+  "testRows": 4000,
+  "positiveClass": "vowels A/E/I/O/U",
+  "negativeClass": "consonants",
+  "classCountLetters": 26,
+  "duplicateRows": 1332,
+  "missing": {
+    "letter": 0,
+    "xbox": 0,
+    "ybox": 0,
+    "width": 0,
+    "height": 0,
+    "onpix": 0,
+    "xbar": 0,
+    "ybar": 0,
+    "x2bar": 0,
+    "y2bar": 0,
+    "xybar": 0,
+    "x2ybar": 0,
+    "xy2bar": 0,
+    "xedge": 0,
+    "xedgey": 0,
+    "yedge": 0,
+    "yedgex": 0
+  },
+  "bestBaseline": {
+    "feature": "xy2bar",
+    "threshold": 8,
+    "direction": "gte",
+    "metric": {
+      "tp": 654,
+      "fp": 1931,
+      "tn": 1305,
+      "fn": 110,
+      "precision": 0.253,
+      "recall": 0.856,
+      "specificity": 0.403,
+      "accuracy": 0.49,
+      "f1": 0.391,
+      "balancedAccuracy": 0.63
+    }
+  },
+  "challenger": {
+    "name": "compact_geometry_vowel_score",
+    "threshold": 2.6,
+    "direction": "lt",
+    "metric": {
+      "tp": 605,
+      "fp": 2188,
+      "tn": 1048,
+      "fn": 159,
+      "precision": 0.217,
+      "recall": 0.792,
+      "specificity": 0.324,
+      "accuracy": 0.413,
+      "f1": 0.34,
+      "balancedAccuracy": 0.558
+    },
+    "rejected": true
+  },
+  "wins": 0,
+  "losses": 1,
+  "ties": 0,
+  "baselineTop3": [
+    {
+      "feature": "xy2bar",
+      "threshold": 8,
+      "direction": "gte",
+      "f1": 0.391
+    },
+    {
+      "feature": "ybar",
+      "threshold": 9,
+      "direction": "lt",
+      "f1": 0.38
+    },
+    {
+      "feature": "xedgey",
+      "threshold": 10,
+      "direction": "lt",
+      "f1": 0.371
+    }
+  ]
+}
