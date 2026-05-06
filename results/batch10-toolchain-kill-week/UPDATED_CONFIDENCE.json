@@ -1,0 +1,33 @@
+{
+  "schema_provenance_auditor": {
+    "batch7": "keep_as_reusable_candidate",
+    "batch8": "narrow_but_useful",
+    "batch9": "promoted_for_single_table_tabular_benchmark_screening",
+    "batch10": "downgraded_to_narrow_but_useful",
+    "confidence": 0.62,
+    "reason": "Useful for public evidence packaging and source-hash-bound schema cards, but ordinary pandas checks dominate the raw findings on single-table audits."
+  },
+  "metric_stress_validator": {
+    "batch7": "downgraded_to_narrow_but_useful",
+    "batch8": "reusable",
+    "batch9": "kept_reusable",
+    "batch10": "narrowed_to_reusable_support_tool",
+    "confidence": 0.74,
+    "reason": "Useful for anti-hype metric controls and public packaging, but shuffled-label and split-family checks are not leakage proof or official reproduction."
+  },
+  "pytest_repro_summary": {
+    "batch7": "keep_but_mark_dynamic_parametrization_limit",
+    "batch8": "narrow_but_useful",
+    "batch9": "not_applicable_dataset_target",
+    "batch10": "reaffirmed_narrow_but_useful_support_only",
+    "confidence": 0.6,
+    "reason": "Useful for static/runtime evidence summaries, but not enough for reproduction claims without runtime collection or execution."
+  },
+  "batch9_deep_target_result": {
+    "batch9": "accepted_as_deep_external_toolchain_study",
+    "batch10": "preserved_with_narrower_toolchain_value_claim",
+    "confidence": 0.82,
+    "reason": "Execution evidence is strong, but toolchain novelty is narrower than raw Batch 9 framing could imply."
+  },
+  "updatedAt": "2026-05-06T11:05:00Z"
+}

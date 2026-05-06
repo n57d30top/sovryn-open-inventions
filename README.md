@@ -42,6 +42,7 @@ and safety scope in human-readable language.
 - [NAB Time-Series Anomaly Benchmark Challenge](results/batch1-nab-time-series-anomaly-challenge/) — good, autopublished, batch1-nab-time-series-anomaly-challenge, time-series-anomaly-benchmark
 - [QASPER Source/Evidence Extraction Challenge](results/batch1-qasper-source-evidence-extraction-challenge/) — good, autopublished, batch1-qasper-source-evidence-extraction-challenge, source-evidence-extraction-benchmark
 - [UCI Wine Quality Public Dataset-Quality Audit](results/batch1-uci-wine-quality-dataset-audit/) — good, autopublished, batch1-uci-wine-quality-dataset-audit, public-dataset-quality-audit
+- [Batch 10 Toolchain Kill Week and Anti-Hype Review](results/batch10-toolchain-kill-week/) — good, autopublished, batch10-toolchain-kill-week, autonomous-research-toolchain-falsification
 - [Climate-FEVER Claim Verification Source-Card Reproduction Follow-Up](results/batch2-climate-fever-claim-verification-followup/) — reviewable, autopublished, batch2-climate-fever-claim-verification-followup, claim-verification-benchmark-quality
 - [HotpotQA Source/Evidence Extraction Challenge](results/batch2-hotpotqa-source-evidence-extraction-challenge/) — good, autopublished, batch2-hotpotqa-source-evidence-extraction-challenge, source-evidence-extraction-quality
 - [PyOD Repository Reproducibility Audit](results/batch2-pyod-reproducibility-audit/) — reviewable, autopublished, batch2-pyod-reproducibility-audit, public-repo-reproducibility-audit

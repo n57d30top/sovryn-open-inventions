@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T10:47:08.910Z",
+  "generatedAt": "2026-05-06T11:22:17.812Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 60,
+    "good": 61,
     "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 40,
+    "autopublished": 41,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -111,6 +111,20 @@
       "reproducibilityScore": 82,
       "publicationSafetyScore": 98,
       "specificityScore": 86
+    },
+    {
+      "slug": "batch10-toolchain-kill-week",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch10-toolchain-kill-week",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 98,
+      "specificityScore": 89
     },
     {
       "slug": "batch2-climate-fever-claim-verification-followup",
@@ -1009,5 +1023,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "a4a72c5f8ee3d29e0c879dd0e2beb0df80caf5f335becd194dcf9478d0937acb"
+  "evidenceHash": "424d116aa95e5e4a1427088486242deb12edf141e5d89e1b8e61b337232e1686"
 }

@@ -1,7 +1,13 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-06T10:47:08.910Z",
+  "generatedAt": "2026-05-06T11:22:17.812Z",
   "sources": [
+    {
+      "resultSlug": "batch10-toolchain-kill-week",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
     {
       "resultSlug": "batch3-rapidfuzz-repo-install-example-reproduction",
       "sourceKind": "external_package_or_tool",
@@ -219,5 +225,5 @@
       "publicOnly": true
     }
   ],
-  "evidenceHash": "e88ffa9f26300e713fac432ba924a40c22f405148aba7bd6f4e96a05b2208082"
+  "evidenceHash": "2f34298708b3dd158bd1c602a0b658223a93f3658bd2bbb51bed0771392250d5"
 }

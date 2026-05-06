@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 71
+Results: 72
 
 ## Lifecycle Counts
 
-- autopublished: 40
+- autopublished: 41
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -19,6 +19,7 @@ Results: 71
 - batch1-nab-time-series-anomaly-challenge: latest batch1-nab-time-series-anomaly-challenge; batch1-nab-time-series-anomaly-challenge
 - batch1-qasper-source-evidence-extraction-challenge: latest batch1-qasper-source-evidence-extraction-challenge; batch1-qasper-source-evidence-extraction-challenge
 - batch1-uci-wine-quality-dataset-audit: latest batch1-uci-wine-quality-dataset-audit; batch1-uci-wine-quality-dataset-audit
+- batch10-toolchain-kill-week: latest batch10-toolchain-kill-week; batch10-toolchain-kill-week
 - batch2-climate-fever-claim-verification-followup: latest batch2-climate-fever-claim-verification-followup; batch2-climate-fever-claim-verification-followup
 - batch2-hotpotqa-source-evidence-extraction-challenge: latest batch2-hotpotqa-source-evidence-extraction-challenge; batch2-hotpotqa-source-evidence-extraction-challenge
 - batch2-pyod-reproducibility-audit: latest batch2-pyod-reproducibility-audit; batch2-pyod-reproducibility-audit

@@ -65,6 +65,15 @@
       "pushed": true
     },
     {
+      "slug": "batch10-toolchain-kill-week",
+      "path": "results/batch10-toolchain-kill-week",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch10-toolchain-kill-week",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "batch2-climate-fever-claim-verification-followup",
       "path": "results/batch2-climate-fever-claim-verification-followup",
       "status": "external_reproduction_partial",
@@ -641,5 +650,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "9e6c394cf2e28d62a49b5dbf9234bac4a1a28ef1a307ac5eaa612ac6ef46e8be"
+  "evidenceHash": "30321123871cd75f544c9629edd22e0163959a2df9a0618b54dd6bbf47370b97"
 }

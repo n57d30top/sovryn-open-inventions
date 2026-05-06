@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T10:47:08.910Z",
+  "updatedAt": "2026-05-06T11:22:17.812Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -49,6 +49,13 @@
       "latestSlug": "batch1-uci-wine-quality-dataset-audit",
       "resultSlugs": [
         "batch1-uci-wine-quality-dataset-audit"
+      ]
+    },
+    {
+      "versionGroup": "batch10-toolchain-kill-week",
+      "latestSlug": "batch10-toolchain-kill-week",
+      "resultSlugs": [
+        "batch10-toolchain-kill-week"
       ]
     },
     {
@@ -416,5 +423,5 @@
       ]
     }
   ],
-  "evidenceHash": "c3acd57cc617309df70d990b7b8bac95c6652e24a76f166c46f6600bd9616185"
+  "evidenceHash": "dcc5d60878dbcca724b7edb9ad144f863d635d835a81d3318d5f59f62f71b9c8"
 }

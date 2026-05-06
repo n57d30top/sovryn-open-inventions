@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_results",
-  "generatedAt": "2026-05-06T10:47:08.910Z",
+  "generatedAt": "2026-05-06T11:22:17.812Z",
   "results": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -525,6 +525,83 @@
         "reproduce": true,
         "limitations": true,
         "examples": true
+      }
+    },
+    {
+      "slug": "batch10-toolchain-kill-week",
+      "title": "Batch 10 Toolchain Kill Week and Anti-Hype Review",
+      "domain": "autonomous-research-toolchain-falsification",
+      "resultKind": "toolchain_kill_week_review",
+      "path": "results/batch10-toolchain-kill-week",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch10-toolchain-kill-week",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": null,
+      "humanReadableSummary": "Batch 10 attacks Sovryn's recent toolchain claims. It is not a new positive research result, a roadmap, or another continuity review.",
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 89,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": false,
+      "externalPackages": [
+        "pandas"
+      ],
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "anti_hype_review_completed_with_downgrades",
+      "scientificQuestion": null,
+      "hypothesisCount": 0,
+      "nullHypothesisPresent": false,
+      "experimentCount": 0,
+      "replicationRunCount": 0,
+      "peerReviewPresent": false,
+      "statisticalAnalysisPresent": false,
+      "baselineComparisonPresent": false,
+      "ablationPresent": false,
+      "sensitivityPresent": false,
+      "studyResultLabel": null,
+      "scientificMemoryUpdated": false,
+      "safetyScope": null,
+      "summary": "Batch 10 attacks Sovryn's recent toolchain claims. It is not a new positive research result, a roadmap, or another continuity review.",
+      "limitations": [
+        "This baseline can reproduce the raw Dry Bean and Wine Quality findings: row count, missingness, duplicate rows, and class distribution. Therefore, the schema tool is not a discovery engine for ordinary single-table audits.",
+        "Limitations",
+        "This is an evidence-inspection and claim-attack result, not a new external benchmark run.",
+        "The review is bounded to public-safe computational artifacts already in the corpus.",
+        "Was the result already bounded?",
+        "Preserved with scope. The result already states that these are useful data-quality findings, not a claim that the dataset is unusable."
+      ],
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "anti_hype_review_completed_with_downgrades",
+        "lifecycle": "autopublished",
+        "version": "batch10-toolchain-kill-week",
+        "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
       }
     },
     {
@@ -5372,5 +5449,5 @@
       }
     }
   ],
-  "evidenceHash": "cca4835554b21f20306c16adf6d80b5c5fcb3bc2e5e449d2153c410a1e760832"
+  "evidenceHash": "f150cd8652175665e11bbb44d75baa9b2d71822fae0a76ceebffe116beb021be"
 }

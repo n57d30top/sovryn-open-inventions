@@ -1,0 +1,41 @@
+{
+  "slug": "batch10-toolchain-kill-week",
+  "sources": [
+    {
+      "kind": "prior-result",
+      "slug": "batch9-uci-dry-bean-deep-toolchain-study",
+      "role": "mandatory Batch 9 attack target"
+    },
+    {
+      "kind": "prior-result",
+      "slug": "batch7-wine-quality-schema-provenance-tool",
+      "role": "schema tool attack target"
+    },
+    {
+      "kind": "prior-result",
+      "slug": "batch7-banknote-metric-stress-validator",
+      "role": "metric tool attack target"
+    },
+    {
+      "kind": "prior-result",
+      "slug": "batch7-pluggy-pytest-repro-summary-tool",
+      "role": "repo-test summary attack target"
+    },
+    {
+      "kind": "prior-result",
+      "slug": "batch8-tool-reuse-failure-benchmark",
+      "role": "tool reuse and confidence attack target"
+    },
+    {
+      "kind": "prior-result",
+      "slug": "batch6-diamonds-data-quality-netoff-ladder",
+      "role": "negative result recheck"
+    },
+    {
+      "kind": "prior-result",
+      "slug": "batch5-uci-air-quality-time-series-dataset-audit",
+      "role": "older executed result review"
+    }
+  ],
+  "createdAt": "2026-05-06T11:05:00Z"
+}

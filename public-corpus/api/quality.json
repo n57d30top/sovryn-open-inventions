@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 60,
+    "good": 61,
     "reviewable": 6
   },
   "results": [
@@ -40,6 +40,11 @@
       "slug": "batch1-uci-wine-quality-dataset-audit",
       "qualityLabel": "good",
       "releaseReadinessScore": 86
+    },
+    {
+      "slug": "batch10-toolchain-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
     },
     {
       "slug": "batch2-climate-fever-claim-verification-followup",
@@ -362,5 +367,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "a4a72c5f8ee3d29e0c879dd0e2beb0df80caf5f335becd194dcf9478d0937acb"
+  "evidenceHash": "424d116aa95e5e4a1427088486242deb12edf141e5d89e1b8e61b337232e1686"
 }

@@ -1,0 +1,112 @@
+{
+  "slug": "batch10-toolchain-kill-week",
+  "title": "Batch 10 Toolchain Kill Week and Anti-Hype Review",
+  "resultKind": "toolchain_kill_week_review",
+  "domain": "autonomous-research-toolchain-falsification",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "antiTemplateStatus": "review_ready",
+  "lifecycleStatus": "autopublished",
+  "versionGroup": "batch10-toolchain-kill-week",
+  "releaseReadinessScore": 90,
+  "evidenceStrengthScore": 91,
+  "reproducibilityScore": 90,
+  "publicationSafetyScore": 98,
+  "specificityScore": 89,
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "replayCriticalPassRate": 100,
+  "falsificationStatus": "anti_hype_review_completed_with_downgrades",
+  "workerAssurance": "corpus-audited-evidence-inspection",
+  "attackedResults": [
+    "batch9-uci-dry-bean-deep-toolchain-study",
+    "batch7-wine-quality-schema-provenance-tool",
+    "batch7-banknote-metric-stress-validator",
+    "batch7-pluggy-pytest-repro-summary-tool",
+    "batch8-tool-reuse-failure-benchmark",
+    "batch6-diamonds-data-quality-netoff-ladder",
+    "batch5-uci-air-quality-time-series-dataset-audit"
+  ],
+  "attackedResultComponents": 10,
+  "toolsAttacked": [
+    "schema_provenance_auditor",
+    "metric_stress_validator",
+    "pytest_repro_summary"
+  ],
+  "claimDowngrades": [
+    {
+      "claim": "schema_provenance_auditor became reusable for single-table tabular benchmark screening after Batch 9.",
+      "decision": "downgraded_to_narrow_but_useful",
+      "reason": "The raw Dry Bean findings are reproducible with ordinary pandas shape, null, duplicate, and value-count checks; the tool adds packaging and gates, not unique discovery."
+    },
+    {
+      "claim": "Existing tools were not enough for the Wine Quality duplicate/schema finding.",
+      "decision": "downgraded",
+      "reason": "Existing pandas checks were enough for the raw duplicate and missingness finding; the custom tool's value is a source-hash-bound evidence card."
+    },
+    {
+      "claim": "metric_stress_validator is broadly reusable as the strongest Batch 7 tool.",
+      "decision": "narrowed",
+      "reason": "It is useful as an anti-hype support tool, but ordinary sklearn metrics can produce the base numbers and shuffled-label control alone cannot prove absence of leakage."
+    },
+    {
+      "claim": "pytest_repro_summary can summarize repository reproduction reliably.",
+      "decision": "narrowed_to_support_only",
+      "reason": "Static inventory is not runtime collection, dynamic parametrization changes case counts, and dependency readiness remains target-specific."
+    }
+  ],
+  "preservedClaims": [
+    "Batch 9 did load real public UCI Dry Bean data and execute baselines, metric stress, extension, and replay checks.",
+    "Batch 9 correctly avoided a full benchmark reproduction claim.",
+    "Batch 9 correctly rejected the class-weight balanced LogisticRegression extension because macro-F1 decreased on the primary split.",
+    "Batch 6 Diamonds remains a useful negative data-quality result: duplicate rows and nonpositive dimensions are audit signals, not proof that the dataset is unusable.",
+    "Batch 8's pyproject-hooks failure remains a useful negative tool-reuse case for pytest_repro_summary."
+  ],
+  "negativeResultRecheck": {
+    "result": "batch6-diamonds-data-quality-netoff-ladder",
+    "outcome": "preserved_with_scope",
+    "reason": "The result already states that duplicate rows and nonpositive dimensions are useful data-quality evidence, not an unusable-dataset claim."
+  },
+  "toolDecisionsAfterAttack": {
+    "schema_provenance_auditor": {
+      "decision": "narrow_but_useful",
+      "confidence": 0.62,
+      "reason": "Useful for reproducible packaging, source-hash binding, and public evidence cards; dominated by pandas for raw single-table findings."
+    },
+    "metric_stress_validator": {
+      "decision": "reusable_support_tool",
+      "confidence": 0.74,
+      "reason": "Useful for forcing dummy and shuffled-label controls plus macro-F1/error reporting; not sufficient for leakage proof or official benchmark reproduction."
+    },
+    "pytest_repro_summary": {
+      "decision": "narrow_but_useful_support_only",
+      "confidence": 0.6,
+      "reason": "Useful as a public-safe evidence summarizer; static inventory should not be treated as runtime reproduction."
+    }
+  },
+  "whatSovrynLearned": "Sovryn learned that its toolchain is valuable mainly when it prevents overclaiming, packages reproducible evidence, and forces negative controls. The tools are less valuable as raw discovery engines because simpler baselines often produce the same base findings.",
+  "nextResearchDirection": "Use the toolchain only with explicit simple-baseline dominance checks. Prefer targets with official splits or source-provided protocols, and treat schema/provenance tools as audit-packaging instruments unless they find issues that a declared pandas baseline misses.",
+  "negativeOrPartial": true,
+  "actualExecutionPerformed": "Inspected and attacked the public evidence for Batch 7, Batch 8, Batch 9, Batch 6 Diamonds, and Batch 5 Air Quality. Rechecked baseline dominance, metric inflation, schema/provenance value, repo-test summary limits, and negative-result scope using existing public artifacts.",
+  "sourceResultRefs": [
+    "batch9-uci-dry-bean-deep-toolchain-study",
+    "batch7-wine-quality-schema-provenance-tool",
+    "batch7-banknote-metric-stress-validator",
+    "batch7-pluggy-pytest-repro-summary-tool",
+    "batch8-tool-reuse-failure-benchmark",
+    "batch6-diamonds-data-quality-netoff-ladder",
+    "batch5-uci-air-quality-time-series-dataset-audit"
+  ],
+  "sourceUrls": [
+    "results/batch9-uci-dry-bean-deep-toolchain-study/",
+    "results/batch7-wine-quality-schema-provenance-tool/",
+    "results/batch7-banknote-metric-stress-validator/",
+    "results/batch7-pluggy-pytest-repro-summary-tool/",
+    "results/batch8-tool-reuse-failure-benchmark/",
+    "results/batch6-diamonds-data-quality-netoff-ladder/",
+    "results/batch5-uci-air-quality-time-series-dataset-audit/"
+  ],
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+  "evidenceHash": "9339deaca16034ada92a110e386c5ac0ab24ba12f811a34ddf18930a476b792d"
+}

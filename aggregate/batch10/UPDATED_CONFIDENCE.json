@@ -1,0 +1,19 @@
+{
+  "schema_provenance_auditor": {
+    "decision": "narrow_but_useful",
+    "confidence": 0.62
+  },
+  "metric_stress_validator": {
+    "decision": "reusable_support_tool",
+    "confidence": 0.74
+  },
+  "pytest_repro_summary": {
+    "decision": "narrow_but_useful_support_only",
+    "confidence": 0.6
+  },
+  "batch9_deep_target_result": {
+    "decision": "preserved_with_narrower_toolchain_value_claim",
+    "confidence": 0.82
+  },
+  "updatedAt": "2026-05-06T11:05:00Z"
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "batch10-toolchain-kill-week",
+  "resultKind": "toolchain_kill_week_review",
+  "batch9ExplicitlyAttacked": true,
+  "allThreeCustomToolsAttacked": true,
+  "attackedResultComponents": 10,
+  "olderBatch5Or6Included": true,
+  "negativeResultRechecked": true,
+  "claimDowngradesOrPreservations": 9,
+  "toolDowngradedOrReaffirmedNarrow": true,
+  "updatedConfidencePresent": true,
+  "noFrameworkLayerAdded": true,
+  "noCliGroupAdded": true,
+  "noGenericServiceAdded": true,
+  "noStandaloneRepoCreated": true,
+  "notRoadmapOnly": true,
+  "notContinuityOnly": true,
+  "publicSafe": true,
+  "verifiedAt": "2026-05-06T11:05:00Z"
+}

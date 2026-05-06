@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-06T10:47:08.910Z",
-  "entryCount": 71,
+  "builtAt": "2026-05-06T11:22:17.812Z",
+  "entryCount": 72,
   "entries": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -288,6 +288,44 @@
         "uci",
         "uses",
         "wine"
+      ]
+    },
+    {
+      "slug": "batch10-toolchain-kill-week",
+      "title": "Batch 10 Toolchain Kill Week and Anti-Hype Review",
+      "domain": "autonomous-research-toolchain-falsification",
+      "href": "results/batch10-toolchain-kill-week.html",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch10-toolchain-kill-week",
+      "showcaseRank": null,
+      "terms": [
+        "and",
+        "another",
+        "anti",
+        "attacks",
+        "autonomous",
+        "autopublished",
+        "batch",
+        "batch10",
+        "claims",
+        "continuity",
+        "falsification",
+        "hype",
+        "kill",
+        "new",
+        "not",
+        "pandas",
+        "positive",
+        "recent",
+        "research",
+        "result",
+        "review",
+        "roadmap",
+        "sovryn",
+        "toolchain",
+        "week"
       ]
     },
     {
@@ -2902,5 +2940,5 @@
       ]
     }
   ],
-  "evidenceHash": "b4b7eccbb34692d7af3941964ae19d6b79d01754ba596160fc96c05db12eac2f"
+  "evidenceHash": "696809aef0f351b44529fceaa49dd8ea0c9b83a31377e5e765fe4f8c7bcc96c3"
 }

@@ -1,7 +1,7 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-06T10:47:08.910Z",
-  "resultCount": 71,
+  "updatedAt": "2026-05-06T11:22:17.812Z",
+  "resultCount": 72,
   "results": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -274,6 +274,45 @@
       "customTool": null,
       "workerAssurance": "not-recorded",
       "falsificationStatus": "audited_with_limitations",
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+    },
+    {
+      "slug": "batch10-toolchain-kill-week",
+      "title": "Batch 10 Toolchain Kill Week and Anti-Hype Review",
+      "resultKind": "toolchain_kill_week_review",
+      "domain": "autonomous-research-toolchain-falsification",
+      "path": "results/batch10-toolchain-kill-week",
+      "qualityLabel": "good",
+      "candidateStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch10-toolchain-kill-week",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      },
+      "revisionReason": null,
+      "humanReadableSummary": "Batch 10 attacks Sovryn's recent toolchain claims. It is not a new positive research result, a roadmap, or another continuity review.",
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 89,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "anti_hype_review_completed_with_downgrades",
       "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
@@ -2865,5 +2904,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "15d4569caa8a7f1ad1ef11e6e6a399e7133fb3f88c71cff894dc27721b5eab01"
+  "evidenceHash": "44bac4b364a6c43757a2ed9e43c5229c2445eaf3218e3dcbe59c28a518e9cb06"
 }

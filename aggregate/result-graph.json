@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T10:47:08.910Z",
+  "generatedAt": "2026-05-06T11:22:17.812Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -43,6 +43,12 @@
       "kind": "result",
       "label": "UCI Wine Quality Public Dataset-Quality Audit",
       "domain": "public-dataset-quality-audit"
+    },
+    {
+      "id": "result:batch10-toolchain-kill-week",
+      "kind": "result",
+      "label": "Batch 10 Toolchain Kill Week and Anti-Hype Review",
+      "domain": "autonomous-research-toolchain-falsification"
     },
     {
       "id": "result:batch2-climate-fever-claim-verification-followup",
@@ -464,6 +470,11 @@
       "label": "public-dataset-quality-audit"
     },
     {
+      "id": "domain:autonomous-research-toolchain-falsification",
+      "kind": "domain",
+      "label": "autonomous-research-toolchain-falsification"
+    },
+    {
       "id": "domain:claim-verification-benchmark-quality",
       "kind": "domain",
       "label": "claim-verification-benchmark-quality"
@@ -614,14 +625,14 @@
       "label": "node-toolchain-policy"
     },
     {
-      "id": "tool:rapidfuzz",
-      "kind": "tool",
-      "label": "rapidfuzz"
-    },
-    {
       "id": "tool:pandas",
       "kind": "tool",
       "label": "pandas"
+    },
+    {
+      "id": "tool:rapidfuzz",
+      "kind": "tool",
+      "label": "rapidfuzz"
     },
     {
       "id": "tool:numpy",
@@ -684,6 +695,16 @@
       "source": "result:batch1-uci-wine-quality-dataset-audit",
       "target": "domain:public-dataset-quality-audit",
       "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch10-toolchain-kill-week",
+      "target": "domain:autonomous-research-toolchain-falsification",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch10-toolchain-kill-week",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
     },
     {
       "source": "result:batch2-climate-fever-claim-verification-followup",
@@ -1186,5 +1207,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "3a44ee035f6f7c14fd2f5a368f42951fa08fd4975eaa33e6904ebfcb8c4c5503"
+  "evidenceHash": "a5e2db86c4baabf73151eae5ee18b098519a55437081839e82dceb6046fadc5c"
 }
