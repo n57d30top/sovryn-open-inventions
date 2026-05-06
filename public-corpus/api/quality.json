@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 93,
+    "good": 98,
     "reviewable": 6
   },
   "results": [
@@ -277,6 +277,31 @@
       "releaseReadinessScore": 92
     },
     {
+      "slug": "batch42-benchmark-repair-candidate-selection",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch43-group-duplicate-repair-experiments",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch44-ambiguity-rareclass-repair-experiments",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch45-repair-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch46-repair-standard-and-next-frontier",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
       "slug": "batch5-itsdangerous-repo-install-test-reproduction",
       "qualityLabel": "good",
       "releaseReadinessScore": 92
@@ -527,5 +552,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "14f4dfb1f85d6f36dbbbb7a3dbaab76142683012646079c86eefdda6d7b4598d"
+  "evidenceHash": "1a1e46b53fa2d232154ce16fc85a2f07bb686f0c68c0af42001b243a221d6d6d"
 }

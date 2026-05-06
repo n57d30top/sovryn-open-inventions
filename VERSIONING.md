@@ -59,6 +59,11 @@ can supersede earlier entries while preserving audit history.
 - batch4-uci-seeds-dataset-quality-execution: latest batch4-uci-seeds-dataset-quality-execution; versions batch4-uci-seeds-dataset-quality-execution
 - batch40-conceptual-compression-program: latest batch40-conceptual-compression-program; versions batch40-conceptual-compression-program
 - batch41-scientific-discovery-challenge: latest batch41-scientific-discovery-challenge; versions batch41-scientific-discovery-challenge
+- batch42-benchmark-repair-candidate-selection: latest batch42-benchmark-repair-candidate-selection; versions batch42-benchmark-repair-candidate-selection
+- batch43-group-duplicate-repair-experiments: latest batch43-group-duplicate-repair-experiments; versions batch43-group-duplicate-repair-experiments
+- batch44-ambiguity-rareclass-repair-experiments: latest batch44-ambiguity-rareclass-repair-experiments; versions batch44-ambiguity-rareclass-repair-experiments
+- batch45-repair-kill-week: latest batch45-repair-kill-week; versions batch45-repair-kill-week
+- batch46-repair-standard-and-next-frontier: latest batch46-repair-standard-and-next-frontier; versions batch46-repair-standard-and-next-frontier
 - batch5-itsdangerous-repo-install-test-reproduction: latest batch5-itsdangerous-repo-install-test-reproduction; versions batch5-itsdangerous-repo-install-test-reproduction
 - batch5-uci-air-quality-time-series-dataset-audit: latest batch5-uci-air-quality-time-series-dataset-audit; versions batch5-uci-air-quality-time-series-dataset-audit
 - batch5-uci-letter-recognition-baseline-challenge: latest batch5-uci-letter-recognition-baseline-challenge; versions batch5-uci-letter-recognition-baseline-challenge

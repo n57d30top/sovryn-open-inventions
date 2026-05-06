@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T16:41:21.818Z",
+  "generatedAt": "2026-05-06T17:18:55.156Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -325,6 +325,36 @@
       "kind": "result",
       "label": "Batch 41 Scientific Discovery Challenge",
       "domain": "formal predictive mechanism science"
+    },
+    {
+      "id": "result:batch42-benchmark-repair-candidate-selection",
+      "kind": "result",
+      "label": "Benchmark Repair Candidate Selection",
+      "domain": "mechanism-guided benchmark repair"
+    },
+    {
+      "id": "result:batch43-group-duplicate-repair-experiments",
+      "kind": "result",
+      "label": "Group and Duplicate Repair Experiments",
+      "domain": "mechanism-guided benchmark repair"
+    },
+    {
+      "id": "result:batch44-ambiguity-rareclass-repair-experiments",
+      "kind": "result",
+      "label": "Ambiguity and Rare-Class Repair Experiments",
+      "domain": "mechanism-guided benchmark repair"
+    },
+    {
+      "id": "result:batch45-repair-kill-week",
+      "kind": "result",
+      "label": "Repair Kill Week",
+      "domain": "mechanism-guided benchmark repair"
+    },
+    {
+      "id": "result:batch46-repair-standard-and-next-frontier",
+      "kind": "result",
+      "label": "Repair Standard and Next Frontier",
+      "domain": "mechanism-guided benchmark repair"
     },
     {
       "id": "result:batch5-itsdangerous-repo-install-test-reproduction",
@@ -760,6 +790,11 @@
       "id": "domain:scientific-tabular-dataset-quality",
       "kind": "domain",
       "label": "scientific-tabular-dataset-quality"
+    },
+    {
+      "id": "domain:mechanism-guided benchmark repair",
+      "kind": "domain",
+      "label": "mechanism-guided benchmark repair"
     },
     {
       "id": "domain:time-series-dataset-quality-audit",
@@ -1314,6 +1349,81 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:batch42-benchmark-repair-candidate-selection",
+      "target": "domain:mechanism-guided benchmark repair",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch42-benchmark-repair-candidate-selection",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch42-benchmark-repair-candidate-selection",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch43-group-duplicate-repair-experiments",
+      "target": "domain:mechanism-guided benchmark repair",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch43-group-duplicate-repair-experiments",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch43-group-duplicate-repair-experiments",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch44-ambiguity-rareclass-repair-experiments",
+      "target": "domain:mechanism-guided benchmark repair",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch44-ambiguity-rareclass-repair-experiments",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch44-ambiguity-rareclass-repair-experiments",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch45-repair-kill-week",
+      "target": "domain:mechanism-guided benchmark repair",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch45-repair-kill-week",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch45-repair-kill-week",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch46-repair-standard-and-next-frontier",
+      "target": "domain:mechanism-guided benchmark repair",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch46-repair-standard-and-next-frontier",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch46-repair-standard-and-next-frontier",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
       "source": "result:batch5-itsdangerous-repo-install-test-reproduction",
       "target": "domain:public-repo-reproducibility",
       "relation": "belongs_to_domain"
@@ -1739,5 +1849,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "6471f580d7f2de7f5718d746eb88bffe2d9f8f82bbaa1c6fe26e0da353befd6c"
+  "evidenceHash": "ea12c4ae6e5fa03b29b4e089f2c24c2449747fd0020299c86742a0951a43b1b9"
 }

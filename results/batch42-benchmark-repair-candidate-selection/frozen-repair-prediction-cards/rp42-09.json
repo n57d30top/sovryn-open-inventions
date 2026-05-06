@@ -1,0 +1,18 @@
+{
+  "predictionId": "rp42-09",
+  "target": "UCI Letter Recognition",
+  "targetKey": "letter",
+  "sourceUrl": "https://archive.ics.uci.edu/static/public/59/letter+recognition.zip",
+  "repairCandidate": "rare-class metric reporting",
+  "repairType": "rare_class_metric",
+  "predictionLabel": "repair_expected_to_not_help",
+  "expectedEffect": "balanced classes should make rare-class reporting mostly confirmatory",
+  "expectedMetricChange": "material only when protocol or metric mechanism is present; near-zero for controls",
+  "expectedClaimSafetyChange": "unsafe or underspecified claims should become blocked, narrowed, or caveated",
+  "falsifier": "Repair is falsified or narrowed if it does not change claim-safety, does not affect the predicted mechanism, or simple baseline reporting explains the same result.",
+  "negativeControl": "low-risk/control target or shuffled-label metric sanity check where relevant",
+  "replayPlan": "fresh seed plus public evidence hash replay; container-netoff assertion where feasible",
+  "frozenTimestamp": "2026-05-06T17:00:00Z",
+  "noEditRule": "Prediction was frozen before repair result interpretation.",
+  "preregistrationHash": "6408c179915b8fa1b38ccf25c73a25537701b48b932aaf917dd95d68bb6d0c6d"
+}

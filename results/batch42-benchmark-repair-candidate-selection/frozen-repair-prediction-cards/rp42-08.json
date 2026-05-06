@@ -1,0 +1,18 @@
+{
+  "predictionId": "rp42-08",
+  "target": "UCI Statlog Shuttle",
+  "targetKey": "shuttle",
+  "sourceUrl": "https://archive.ics.uci.edu/static/public/148/statlog+shuttle.zip",
+  "repairCandidate": "rare-class metric reporting",
+  "repairType": "rare_class_metric",
+  "predictionLabel": "repair_expected_to_help",
+  "expectedEffect": "accuracy-only claim should be downgraded by macro/per-class evidence",
+  "expectedMetricChange": "material only when protocol or metric mechanism is present; near-zero for controls",
+  "expectedClaimSafetyChange": "unsafe or underspecified claims should become blocked, narrowed, or caveated",
+  "falsifier": "Repair is falsified or narrowed if it does not change claim-safety, does not affect the predicted mechanism, or simple baseline reporting explains the same result.",
+  "negativeControl": "low-risk/control target or shuffled-label metric sanity check where relevant",
+  "replayPlan": "fresh seed plus public evidence hash replay; container-netoff assertion where feasible",
+  "frozenTimestamp": "2026-05-06T17:00:00Z",
+  "noEditRule": "Prediction was frozen before repair result interpretation.",
+  "preregistrationHash": "4dccca228885d7a052952240f10c72fdc36ccf7d57faecb6a1be4b3eaeb5d34e"
+}

@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T16:41:21.818Z",
+  "generatedAt": "2026-05-06T17:18:55.156Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 93,
+    "good": 98,
     "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 73,
+    "autopublished": 78,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -771,6 +771,76 @@
       "specificityScore": 94
     },
     {
+      "slug": "batch42-benchmark-repair-candidate-selection",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch42-benchmark-repair-candidate-selection",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "batch43-group-duplicate-repair-experiments",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch43-group-duplicate-repair-experiments",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "batch44-ambiguity-rareclass-repair-experiments",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch44-ambiguity-rareclass-repair-experiments",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "batch45-repair-kill-week",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch45-repair-kill-week",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "batch46-repair-standard-and-next-frontier",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch46-repair-standard-and-next-frontier",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
       "slug": "batch5-itsdangerous-repo-install-test-reproduction",
       "qualityLabel": "good",
       "antiTemplateStatus": "review_ready",
@@ -1471,5 +1541,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "14f4dfb1f85d6f36dbbbb7a3dbaab76142683012646079c86eefdda6d7b4598d"
+  "evidenceHash": "1a1e46b53fa2d232154ce16fc85a2f07bb686f0c68c0af42001b243a221d6d6d"
 }

@@ -1,0 +1,14 @@
+{
+  "kind": "verification",
+  "slug": "batch43-group-duplicate-repair-experiments",
+  "resultKind": "group_duplicate_repair_experiments",
+  "publicHygienePassed": true,
+  "evidenceHash": "52933285e4ff47325610d9269efeff4faec0a0566723dff726ce9a8236e96e84",
+  "executedRepairPredictions": 5,
+  "datasetsLoaded": 5,
+  "partialFailedNoImprove": 3,
+  "claimBlockedOrDowngraded": 2,
+  "containerNetoffReplay": "passed",
+  "replayAssertion": "container_netoff_batch43_repair_assertion",
+  "replayEvidenceHash": "2915ee2748723767615f1c98f02a691a48e2b8bf38d36e9980dc5ee8261ca4eb"
+}

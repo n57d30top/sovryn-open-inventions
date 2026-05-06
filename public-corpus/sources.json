@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-06T16:41:21.818Z",
+  "generatedAt": "2026-05-06T17:18:55.156Z",
   "sources": [
     {
       "resultSlug": "batch10-toolchain-kill-week",
@@ -166,6 +166,66 @@
     },
     {
       "resultSlug": "batch33-group-file-duplicate-control-execution",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch42-benchmark-repair-candidate-selection",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch42-benchmark-repair-candidate-selection",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch43-group-duplicate-repair-experiments",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch43-group-duplicate-repair-experiments",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch44-ambiguity-rareclass-repair-experiments",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch44-ambiguity-rareclass-repair-experiments",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch45-repair-kill-week",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch45-repair-kill-week",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch46-repair-standard-and-next-frontier",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch46-repair-standard-and-next-frontier",
       "sourceKind": "external_package_or_tool",
       "name": "pandas",
       "publicOnly": true
@@ -381,5 +441,5 @@
       "publicOnly": true
     }
   ],
-  "evidenceHash": "930c07c4e8f6c0d9b756e66d67a2933355508e39b98ddc219e71f4a7dfaab2f1"
+  "evidenceHash": "50b29243fed26fa0de903229c2b18e445c92194affce0bf9de97460e62a3c8ad"
 }

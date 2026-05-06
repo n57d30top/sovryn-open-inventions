@@ -1,0 +1,18 @@
+{
+  "predictionId": "rp42-01",
+  "target": "UCI HAR Smartphones",
+  "targetKey": "har",
+  "sourceUrl": "https://archive.ics.uci.edu/static/public/240/human+activity+recognition+using+smartphones.zip",
+  "repairCandidate": "group-aware split repair",
+  "repairType": "group_aware",
+  "predictionLabel": "repair_expected_to_block_claim",
+  "expectedEffect": "random-only claims weaken when subject-aware/source protocol is used",
+  "expectedMetricChange": "material only when protocol or metric mechanism is present; near-zero for controls",
+  "expectedClaimSafetyChange": "unsafe or underspecified claims should become blocked, narrowed, or caveated",
+  "falsifier": "Repair is falsified or narrowed if it does not change claim-safety, does not affect the predicted mechanism, or simple baseline reporting explains the same result.",
+  "negativeControl": "low-risk/control target or shuffled-label metric sanity check where relevant",
+  "replayPlan": "fresh seed plus public evidence hash replay; container-netoff assertion where feasible",
+  "frozenTimestamp": "2026-05-06T17:00:00Z",
+  "noEditRule": "Prediction was frozen before repair result interpretation.",
+  "preregistrationHash": "5752cb943545dc2f6bc5bb0b0a871abcf61da21286e332272c6af9d269d00ac6"
+}

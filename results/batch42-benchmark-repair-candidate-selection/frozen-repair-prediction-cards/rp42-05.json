@@ -1,0 +1,18 @@
+{
+  "predictionId": "rp42-05",
+  "target": "scikit-learn digits",
+  "targetKey": "digits",
+  "sourceUrl": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html",
+  "repairCandidate": "duplicate-aware evaluation",
+  "repairType": "duplicate_aware",
+  "predictionLabel": "repair_expected_to_not_help",
+  "expectedEffect": "duplicate repair should be mostly no-op",
+  "expectedMetricChange": "material only when protocol or metric mechanism is present; near-zero for controls",
+  "expectedClaimSafetyChange": "unsafe or underspecified claims should become blocked, narrowed, or caveated",
+  "falsifier": "Repair is falsified or narrowed if it does not change claim-safety, does not affect the predicted mechanism, or simple baseline reporting explains the same result.",
+  "negativeControl": "low-risk/control target or shuffled-label metric sanity check where relevant",
+  "replayPlan": "fresh seed plus public evidence hash replay; container-netoff assertion where feasible",
+  "frozenTimestamp": "2026-05-06T17:00:00Z",
+  "noEditRule": "Prediction was frozen before repair result interpretation.",
+  "preregistrationHash": "9f01819aea1476f5c56fd5620aff735dd78e7bc05702c54bb95a55e4c86519fc"
+}

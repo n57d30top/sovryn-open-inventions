@@ -488,6 +488,51 @@
       "pushed": true
     },
     {
+      "slug": "batch42-benchmark-repair-candidate-selection",
+      "path": "results/batch42-benchmark-repair-candidate-selection",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch42-benchmark-repair-candidate-selection",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch43-group-duplicate-repair-experiments",
+      "path": "results/batch43-group-duplicate-repair-experiments",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch43-group-duplicate-repair-experiments",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch44-ambiguity-rareclass-repair-experiments",
+      "path": "results/batch44-ambiguity-rareclass-repair-experiments",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch44-ambiguity-rareclass-repair-experiments",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch45-repair-kill-week",
+      "path": "results/batch45-repair-kill-week",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch45-repair-kill-week",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch46-repair-standard-and-next-frontier",
+      "path": "results/batch46-repair-standard-and-next-frontier",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch46-repair-standard-and-next-frontier",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
       "slug": "batch5-itsdangerous-repo-install-test-reproduction",
       "path": "results/batch5-itsdangerous-repo-install-test-reproduction",
       "status": "external_reproduction_success",
@@ -938,5 +983,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "49b7964257726907ef3d5f1ad888f7b8e8b22afa84b105cbc216d8fc0c3d55d4"
+  "evidenceHash": "5105cd4b70197e984c4617db3fa29b6d8f6741d8f784b7623bb50358df083902"
 }

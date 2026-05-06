@@ -316,6 +316,46 @@
       "customTool": null
     },
     {
+      "slug": "batch42-benchmark-repair-candidate-selection",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch43-group-duplicate-repair-experiments",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch44-ambiguity-rareclass-repair-experiments",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch45-repair-kill-week",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch46-repair-standard-and-next-frontier",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
       "slug": "batch5-itsdangerous-repo-install-test-reproduction",
       "externalPackages": [],
       "customTool": null
@@ -625,5 +665,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "930c07c4e8f6c0d9b756e66d67a2933355508e39b98ddc219e71f4a7dfaab2f1"
+  "evidenceHash": "50b29243fed26fa0de903229c2b18e445c92194affce0bf9de97460e62a3c8ad"
 }

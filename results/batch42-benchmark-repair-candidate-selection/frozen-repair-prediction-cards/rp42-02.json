@@ -1,0 +1,18 @@
+{
+  "predictionId": "rp42-02",
+  "target": "UCI Optical Digits",
+  "targetKey": "optical",
+  "sourceUrl": "https://archive.ics.uci.edu/static/public/80/optical+recognition+of+handwritten+digits.zip",
+  "repairCandidate": "file-aware source split repair",
+  "repairType": "group_file",
+  "predictionLabel": "repair_expected_to_block_claim",
+  "expectedEffect": "source-file split lowers optimism compared with random split",
+  "expectedMetricChange": "material only when protocol or metric mechanism is present; near-zero for controls",
+  "expectedClaimSafetyChange": "unsafe or underspecified claims should become blocked, narrowed, or caveated",
+  "falsifier": "Repair is falsified or narrowed if it does not change claim-safety, does not affect the predicted mechanism, or simple baseline reporting explains the same result.",
+  "negativeControl": "low-risk/control target or shuffled-label metric sanity check where relevant",
+  "replayPlan": "fresh seed plus public evidence hash replay; container-netoff assertion where feasible",
+  "frozenTimestamp": "2026-05-06T17:00:00Z",
+  "noEditRule": "Prediction was frozen before repair result interpretation.",
+  "preregistrationHash": "e82d26adfd8731657d95ca31f139dd124b5b4026f19a0e65f6d7e62719e5714b"
+}

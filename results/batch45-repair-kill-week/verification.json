@@ -1,0 +1,11 @@
+{
+  "kind": "verification",
+  "slug": "batch45-repair-kill-week",
+  "resultKind": "benchmark_repair_kill_week",
+  "publicHygienePassed": true,
+  "evidenceHash": "687b383b5dcf10c4c97dd17ee0c386f5338fe152f2eaebf0f4f9d9d37ad69a83",
+  "attackedComponents": 10,
+  "downgradedOrNarrowedClaims": 4,
+  "preservedClaims": 4,
+  "repairTypesNarrowedOrRejected": 3
+}

@@ -1,0 +1,18 @@
+{
+  "predictionId": "rp42-07",
+  "target": "scikit-learn wine",
+  "targetKey": "wine",
+  "sourceUrl": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_wine.html",
+  "repairCandidate": "ambiguity gate",
+  "repairType": "ambiguity_gate",
+  "predictionLabel": "repair_expected_to_block_claim",
+  "expectedEffect": "protocol-first claims should be blocked when no protocol exists",
+  "expectedMetricChange": "material only when protocol or metric mechanism is present; near-zero for controls",
+  "expectedClaimSafetyChange": "unsafe or underspecified claims should become blocked, narrowed, or caveated",
+  "falsifier": "Repair is falsified or narrowed if it does not change claim-safety, does not affect the predicted mechanism, or simple baseline reporting explains the same result.",
+  "negativeControl": "low-risk/control target or shuffled-label metric sanity check where relevant",
+  "replayPlan": "fresh seed plus public evidence hash replay; container-netoff assertion where feasible",
+  "frozenTimestamp": "2026-05-06T17:00:00Z",
+  "noEditRule": "Prediction was frozen before repair result interpretation.",
+  "preregistrationHash": "b4983bbc4f1a9ed1a895549d50aae4420cebf077495b4a53a1ae303829a349c2"
+}

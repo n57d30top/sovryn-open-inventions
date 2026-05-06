@@ -1,0 +1,11 @@
+{
+  "kind": "verification",
+  "slug": "batch42-benchmark-repair-candidate-selection",
+  "resultKind": "benchmark_repair_candidate_selection",
+  "publicHygienePassed": true,
+  "evidenceHash": "9d7beb07c67e1e31fe049f70bde4344091d555afee0735e2229fac7388236bbd",
+  "targetsSelected": 8,
+  "repairHypotheses": 12,
+  "frozenRepairPredictions": 10,
+  "repairTypesRepresented": 4
+}

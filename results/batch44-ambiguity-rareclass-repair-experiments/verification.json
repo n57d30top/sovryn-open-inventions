@@ -1,0 +1,14 @@
+{
+  "kind": "verification",
+  "slug": "batch44-ambiguity-rareclass-repair-experiments",
+  "resultKind": "ambiguity_rareclass_repair_experiments",
+  "publicHygienePassed": true,
+  "evidenceHash": "b5c480dfc59f44f064a3f8c3ebc138c07ae409ba7fcba45908ef09109c9486d4",
+  "executedRepairPredictions": 5,
+  "ambiguityGateTests": 3,
+  "rareClassMetricTests": 2,
+  "claimBlockedOrDowngraded": 3,
+  "containerNetoffReplay": "passed",
+  "replayAssertion": "container_netoff_batch44_repair_assertion",
+  "replayEvidenceHash": "07554bad250dccb4bcb6602ef075b9a06d3219157bbba5a72f95d40c98552e5f"
+}

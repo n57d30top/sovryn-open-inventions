@@ -1,0 +1,36 @@
+{
+  "kind": "group_duplicate_repair_execution_evidence",
+  "executed": [
+    {
+      "predictionId": "rp42-01",
+      "target": "UCI HAR Smartphones",
+      "outcome": "supported_or_partial",
+      "claimSafety": "downgraded_random_only_claim"
+    },
+    {
+      "predictionId": "rp42-02",
+      "target": "UCI Optical Digits",
+      "outcome": "supported_or_partial",
+      "claimSafety": "downgraded_random_only_claim"
+    },
+    {
+      "predictionId": "rp42-03",
+      "target": "UCI Letter Recognition",
+      "outcome": "partial_or_failed",
+      "claimSafety": "narrowed_duplicate_sensitive_claim"
+    },
+    {
+      "predictionId": "rp42-04",
+      "target": "UCI Statlog Shuttle",
+      "outcome": "confirmed_no_improvement_control",
+      "claimSafety": "no_material_repair"
+    },
+    {
+      "predictionId": "rp42-05",
+      "target": "scikit-learn digits",
+      "outcome": "confirmed_no_improvement_control",
+      "claimSafety": "no_material_repair"
+    }
+  ],
+  "hash": "2915ee2748723767615f1c98f02a691a48e2b8bf38d36e9980dc5ee8261ca4eb"
+}

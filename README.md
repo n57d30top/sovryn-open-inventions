@@ -89,6 +89,11 @@ and safety scope in human-readable language.
 - [UCI Seeds Dataset Quality Execution Audit](results/batch4-uci-seeds-dataset-quality-execution/) — good, autopublished, batch4-uci-seeds-dataset-quality-execution, scientific-tabular-dataset-quality
 - [Batch 40 Conceptual Compression Program](results/batch40-conceptual-compression-program/) — good, autopublished, batch40-conceptual-compression-program, formal predictive mechanism science
 - [Batch 41 Scientific Discovery Challenge](results/batch41-scientific-discovery-challenge/) — good, autopublished, batch41-scientific-discovery-challenge, formal predictive mechanism science
+- [Benchmark Repair Candidate Selection](results/batch42-benchmark-repair-candidate-selection/) — good, autopublished, batch42-benchmark-repair-candidate-selection, mechanism-guided benchmark repair
+- [Group and Duplicate Repair Experiments](results/batch43-group-duplicate-repair-experiments/) — good, autopublished, batch43-group-duplicate-repair-experiments, mechanism-guided benchmark repair
+- [Ambiguity and Rare-Class Repair Experiments](results/batch44-ambiguity-rareclass-repair-experiments/) — good, autopublished, batch44-ambiguity-rareclass-repair-experiments, mechanism-guided benchmark repair
+- [Repair Kill Week](results/batch45-repair-kill-week/) — good, autopublished, batch45-repair-kill-week, mechanism-guided benchmark repair
+- [Repair Standard and Next Frontier](results/batch46-repair-standard-and-next-frontier/) — good, autopublished, batch46-repair-standard-and-next-frontier, mechanism-guided benchmark repair
 - [itsdangerous Repository Install and Test Reproduction](results/batch5-itsdangerous-repo-install-test-reproduction/) — good, autopublished, batch5-itsdangerous-repo-install-test-reproduction, public-repo-reproducibility
 - [UCI Air Quality Time-Series Dataset Audit](results/batch5-uci-air-quality-time-series-dataset-audit/) — good, autopublished, batch5-uci-air-quality-time-series-dataset-audit, time-series-dataset-quality-audit
 - [UCI Letter Recognition Vowel Benchmark Negative Challenge](results/batch5-uci-letter-recognition-baseline-challenge/) — good, autopublished, batch5-uci-letter-recognition-baseline-challenge, tabular-benchmark-baseline-dominance

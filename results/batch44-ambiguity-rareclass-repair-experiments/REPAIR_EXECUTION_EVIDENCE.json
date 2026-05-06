@@ -1,0 +1,36 @@
+{
+  "kind": "ambiguity_rareclass_repair_execution_evidence",
+  "executed": [
+    {
+      "predictionId": "rp42-06",
+      "target": "UCI Vehicle Silhouettes",
+      "outcome": "supported_or_partial",
+      "claimSafety": "blocked_or_needs_clarification"
+    },
+    {
+      "predictionId": "rp42-07",
+      "target": "scikit-learn wine",
+      "outcome": "supported_or_partial",
+      "claimSafety": "blocked_or_needs_clarification"
+    },
+    {
+      "predictionId": "rp42-08",
+      "target": "UCI Statlog Shuttle",
+      "outcome": "supported",
+      "claimSafety": "downgraded_accuracy_only_claim"
+    },
+    {
+      "predictionId": "rp42-09",
+      "target": "UCI Letter Recognition",
+      "outcome": "confirmed_no_improvement_control",
+      "claimSafety": "preserved_low_risk_metric_claim"
+    },
+    {
+      "predictionId": "rp42-10",
+      "target": "UCI Image Segmentation",
+      "outcome": "supported_or_partial",
+      "claimSafety": "pass_with_caveats"
+    }
+  ],
+  "hash": "07554bad250dccb4bcb6602ef075b9a06d3219157bbba5a72f95d40c98552e5f"
+}

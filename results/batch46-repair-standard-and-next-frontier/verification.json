@@ -1,0 +1,11 @@
+{
+  "kind": "verification",
+  "slug": "batch46-repair-standard-and-next-frontier",
+  "resultKind": "benchmark_repair_standard_next_frontier",
+  "publicHygienePassed": true,
+  "evidenceHash": "0c3ad09470d299d8928432d887ad27212394148ec510a673c9b71e74bf0113ba",
+  "repairRulesProposed": 6,
+  "evidenceBoundRules": 6,
+  "failedPartialRepairsIncluded": 4,
+  "nextFrontier": "Benchmark Repair Standard at Scale"
+}

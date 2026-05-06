@@ -1,0 +1,18 @@
+{
+  "predictionId": "rp42-04",
+  "target": "UCI Statlog Shuttle",
+  "targetKey": "shuttle",
+  "sourceUrl": "https://archive.ics.uci.edu/static/public/148/statlog+shuttle.zip",
+  "repairCandidate": "duplicate-aware evaluation",
+  "repairType": "duplicate_aware",
+  "predictionLabel": "repair_expected_to_not_help",
+  "expectedEffect": "duplicate checks will not explain Shuttle fragility",
+  "expectedMetricChange": "material only when protocol or metric mechanism is present; near-zero for controls",
+  "expectedClaimSafetyChange": "unsafe or underspecified claims should become blocked, narrowed, or caveated",
+  "falsifier": "Repair is falsified or narrowed if it does not change claim-safety, does not affect the predicted mechanism, or simple baseline reporting explains the same result.",
+  "negativeControl": "low-risk/control target or shuffled-label metric sanity check where relevant",
+  "replayPlan": "fresh seed plus public evidence hash replay; container-netoff assertion where feasible",
+  "frozenTimestamp": "2026-05-06T17:00:00Z",
+  "noEditRule": "Prediction was frozen before repair result interpretation.",
+  "preregistrationHash": "632f1fc22c872ed074881f33b9dd4ad55787b4688cc8a0efe5f4a8773d4733a1"
+}

@@ -1,0 +1,18 @@
+{
+  "predictionId": "rp42-06",
+  "target": "UCI Vehicle Silhouettes",
+  "targetKey": "vehicle",
+  "sourceUrl": "https://archive.ics.uci.edu/static/public/149/statlog+vehicle+silhouettes.zip",
+  "repairCandidate": "ambiguity gate",
+  "repairType": "ambiguity_gate",
+  "predictionLabel": "repair_expected_to_reveal_ambiguity",
+  "expectedEffect": "claim should be blocked or sent to clarification",
+  "expectedMetricChange": "material only when protocol or metric mechanism is present; near-zero for controls",
+  "expectedClaimSafetyChange": "unsafe or underspecified claims should become blocked, narrowed, or caveated",
+  "falsifier": "Repair is falsified or narrowed if it does not change claim-safety, does not affect the predicted mechanism, or simple baseline reporting explains the same result.",
+  "negativeControl": "low-risk/control target or shuffled-label metric sanity check where relevant",
+  "replayPlan": "fresh seed plus public evidence hash replay; container-netoff assertion where feasible",
+  "frozenTimestamp": "2026-05-06T17:00:00Z",
+  "noEditRule": "Prediction was frozen before repair result interpretation.",
+  "preregistrationHash": "a4076a86209cd99247320c99d6b941f6881b23dfba3b7a57dd259afd4889a837"
+}
