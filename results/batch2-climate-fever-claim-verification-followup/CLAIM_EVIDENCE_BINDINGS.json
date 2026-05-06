@@ -1,0 +1,9 @@
+[
+  {
+    "claim": "Climate-FEVER public metadata supports bounded schema reconstruction.",
+    "evidence": "https://huggingface.co/datasets/tdiggelm/climate_fever/raw/main/README.md",
+    "metric": "schemaAwareFieldRecall",
+    "value": 1,
+    "limitation": "No model-level benchmark reproduction."
+  }
+]

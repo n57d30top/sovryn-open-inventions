@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T06:18:32.363Z",
+  "generatedAt": "2026-05-06T06:46:11.283Z",
   "badges": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -105,6 +105,96 @@
         "falsification": "not_evaluated",
         "lifecycle": "autopublished",
         "version": "batch1-uci-wine-quality-dataset-audit",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch2-climate-fever-claim-verification-followup",
+      "badges": {
+        "quality": "reviewable",
+        "status": "unknown",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "evaluated_with_limitations",
+        "lifecycle": "autopublished",
+        "version": "batch2-climate-fever-claim-verification-followup",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch2-hotpotqa-source-evidence-extraction-challenge",
+      "badges": {
+        "quality": "good",
+        "status": "unknown",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "audited_with_limitations",
+        "lifecycle": "autopublished",
+        "version": "batch2-hotpotqa-source-evidence-extraction-challenge",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch2-pyod-reproducibility-audit",
+      "badges": {
+        "quality": "reviewable",
+        "status": "unknown",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "evaluated_with_limitations",
+        "lifecycle": "autopublished",
+        "version": "batch2-pyod-reproducibility-audit",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch2-uci-auto-mpg-dataset-quality-audit",
+      "badges": {
+        "quality": "good",
+        "status": "unknown",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "audited_with_limitations",
+        "lifecycle": "autopublished",
+        "version": "batch2-uci-auto-mpg-dataset-quality-audit",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch2-uci-occupancy-benchmark-challenge",
+      "badges": {
+        "quality": "good",
+        "status": "unknown",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "candidate_rejected_by_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch2-uci-occupancy-benchmark-challenge",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -795,5 +885,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "d56bf13e9207cdf6b2cdadc3d21f68e937c14004bb234f5a8f878eb531759dab"
+  "evidenceHash": "b002da36043cba3816cf59f53244931b7966930cd222ddc6cf52a1c6a2e611cf"
 }

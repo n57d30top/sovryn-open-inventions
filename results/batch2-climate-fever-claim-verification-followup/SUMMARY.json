@@ -1,0 +1,50 @@
+{
+  "resultType": "external_research_production_result",
+  "resultKind": "external_research_production_result",
+  "slug": "batch2-climate-fever-claim-verification-followup",
+  "title": "Climate-FEVER Claim Verification Source-Card Reproduction Follow-Up",
+  "targetVersion": "4.2.0-rc.1",
+  "domain": "claim-verification-benchmark-quality",
+  "selectedExternalTarget": "Climate-FEVER",
+  "sourceUrls": [
+    "https://huggingface.co/datasets/tdiggelm/climate_fever/raw/main/README.md"
+  ],
+  "finalResult": "external_reproduction_partial",
+  "publicHygienePassed": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "failuresRecorded": 2,
+  "lossesRecorded": 2,
+  "winsRecorded": 1,
+  "tiesRecorded": 0,
+  "rejectedCandidates": 1,
+  "concreteMetricsPresent": true,
+  "deeperReportFile": "METRIC_BREAKDOWN.md",
+  "qualityLabel": "reviewable",
+  "releaseReadinessScore": 78,
+  "evidenceStrengthScore": 82,
+  "reproducibilityScore": 76,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 78,
+  "falsificationStatus": "evaluated_with_limitations",
+  "metrics": {
+    "sourceUrl": "https://huggingface.co/datasets/tdiggelm/climate_fever/raw/main/README.md",
+    "readmeChars": 8088,
+    "expectedFields": 10,
+    "fieldsPresent": 10,
+    "keywordBaselineFieldRecall": 0.6,
+    "schemaAwareFieldRecall": 1,
+    "reproductionScore": 76,
+    "baselineCount": 2,
+    "wins": 1,
+    "losses": 2,
+    "ties": 0,
+    "notes": [
+      "Dataset card schema can be reconstructed from public metadata.",
+      "Full-scale benchmark metric reproduction was not attempted in this public-safe batch run."
+    ]
+  },
+  "evidenceHash": "9486a2e87fee87b4c0e5eb2b4c2a73edd1a391e842a9344ab5872ba1025e99db"
+}

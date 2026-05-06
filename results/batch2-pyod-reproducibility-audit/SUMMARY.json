@@ -1,0 +1,94 @@
+{
+  "resultType": "external_research_production_result",
+  "resultKind": "external_research_production_result",
+  "slug": "batch2-pyod-reproducibility-audit",
+  "title": "PyOD Repository Reproducibility Audit",
+  "targetVersion": "4.2.0-rc.1",
+  "domain": "public-repo-reproducibility-audit",
+  "selectedExternalTarget": "PyOD",
+  "sourceUrls": [
+    "https://github.com/yzhao062/pyod",
+    "https://raw.githubusercontent.com/yzhao062/pyod/master/README.rst",
+    "https://api.github.com/repos/yzhao062/pyod/contents"
+  ],
+  "finalResult": "external_reproduction_partial",
+  "publicHygienePassed": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "failuresRecorded": 2,
+  "lossesRecorded": 2,
+  "winsRecorded": 1,
+  "tiesRecorded": 0,
+  "rejectedCandidates": 2,
+  "concreteMetricsPresent": true,
+  "deeperReportFile": "METRIC_BREAKDOWN.md",
+  "qualityLabel": "reviewable",
+  "releaseReadinessScore": 80,
+  "evidenceStrengthScore": 84,
+  "reproducibilityScore": 78,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 78,
+  "falsificationStatus": "evaluated_with_limitations",
+  "metrics": {
+    "repoUrl": "https://github.com/yzhao062/pyod",
+    "apiUrl": "https://api.github.com/repos/yzhao062/pyod/contents",
+    "readmeUrl": "https://raw.githubusercontent.com/yzhao062/pyod/master/README.rst",
+    "readmeChars": 53524,
+    "topLevelEntries": 19,
+    "checklistItems": [
+      {
+        "name": "README",
+        "present": true
+      },
+      {
+        "name": "LICENSE",
+        "present": true
+      },
+      {
+        "name": "setup.py",
+        "present": true
+      },
+      {
+        "name": "pyproject.toml",
+        "present": true
+      },
+      {
+        "name": "requirements.txt",
+        "present": true
+      },
+      {
+        "name": "examples directory",
+        "present": true
+      },
+      {
+        "name": "notebooks directory",
+        "present": true
+      },
+      {
+        "name": "docs directory",
+        "present": true
+      },
+      {
+        "name": "tests directory",
+        "present": false
+      },
+      {
+        "name": "lock file",
+        "present": false
+      }
+    ],
+    "checklistPresent": 8,
+    "checklistTotal": 10,
+    "reproducibilityScore": 80,
+    "baselineCount": 2,
+    "wins": 1,
+    "losses": 2,
+    "ties": 0,
+    "notes": [
+      "Audit is structure-level and does not claim package installation or test-suite execution."
+    ]
+  },
+  "evidenceHash": "92af8ee818fea2d2d2e960b8ecbbd04e4e5ae8f9410fc5880dc1639b48dee1a9"
+}

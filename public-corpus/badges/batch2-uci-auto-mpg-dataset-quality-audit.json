@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "batch2-uci-auto-mpg-dataset-quality-audit",
+  "badges": {
+    "quality": "good",
+    "status": "unknown",
+    "antiTemplate": "unknown",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "audited_with_limitations",
+    "lifecycle": "autopublished",
+    "version": "batch2-uci-auto-mpg-dataset-quality-audit",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "07ec8bcc2ae020a216542d871b6ff27fa19c64374de0013587eeda9788418214"
+}

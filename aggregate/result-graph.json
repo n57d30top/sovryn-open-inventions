@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T06:18:32.363Z",
+  "generatedAt": "2026-05-06T06:46:11.283Z",
   "nodes": [
     {
       "id": "result:autonomous-research-strategy-trial",
@@ -37,6 +37,36 @@
       "kind": "result",
       "label": "UCI Wine Quality Public Dataset-Quality Audit",
       "domain": "public-dataset-quality-audit"
+    },
+    {
+      "id": "result:batch2-climate-fever-claim-verification-followup",
+      "kind": "result",
+      "label": "Climate-FEVER Claim Verification Source-Card Reproduction Follow-Up",
+      "domain": "claim-verification-benchmark-quality"
+    },
+    {
+      "id": "result:batch2-hotpotqa-source-evidence-extraction-challenge",
+      "kind": "result",
+      "label": "HotpotQA Source/Evidence Extraction Challenge",
+      "domain": "source-evidence-extraction-quality"
+    },
+    {
+      "id": "result:batch2-pyod-reproducibility-audit",
+      "kind": "result",
+      "label": "PyOD Repository Reproducibility Audit",
+      "domain": "public-repo-reproducibility-audit"
+    },
+    {
+      "id": "result:batch2-uci-auto-mpg-dataset-quality-audit",
+      "kind": "result",
+      "label": "UCI Auto MPG Public Dataset Quality Audit",
+      "domain": "public-dataset-quality-audit"
+    },
+    {
+      "id": "result:batch2-uci-occupancy-benchmark-challenge",
+      "kind": "result",
+      "label": "UCI Occupancy Detection Benchmark Challenge",
+      "domain": "time-series-benchmark-challenge"
     },
     {
       "id": "result:chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -297,6 +327,26 @@
       "label": "public-dataset-quality-audit"
     },
     {
+      "id": "domain:claim-verification-benchmark-quality",
+      "kind": "domain",
+      "label": "claim-verification-benchmark-quality"
+    },
+    {
+      "id": "domain:source-evidence-extraction-quality",
+      "kind": "domain",
+      "label": "source-evidence-extraction-quality"
+    },
+    {
+      "id": "domain:public-repo-reproducibility-audit",
+      "kind": "domain",
+      "label": "public-repo-reproducibility-audit"
+    },
+    {
+      "id": "domain:time-series-benchmark-challenge",
+      "kind": "domain",
+      "label": "time-series-benchmark-challenge"
+    },
+    {
       "id": "domain:chemistry-data-quality",
       "kind": "domain",
       "label": "chemistry-data-quality"
@@ -315,11 +365,6 @@
       "id": "domain:scientific-claim-evidence-extraction",
       "kind": "domain",
       "label": "scientific-claim-evidence-extraction"
-    },
-    {
-      "id": "domain:source-evidence-extraction-quality",
-      "kind": "domain",
-      "label": "source-evidence-extraction-quality"
     },
     {
       "id": "domain:field-grade-scientific-autonomy",
@@ -431,6 +476,31 @@
     {
       "source": "result:batch1-uci-wine-quality-dataset-audit",
       "target": "domain:public-dataset-quality-audit",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch2-climate-fever-claim-verification-followup",
+      "target": "domain:claim-verification-benchmark-quality",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch2-hotpotqa-source-evidence-extraction-challenge",
+      "target": "domain:source-evidence-extraction-quality",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch2-pyod-reproducibility-audit",
+      "target": "domain:public-repo-reproducibility-audit",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch2-uci-auto-mpg-dataset-quality-audit",
+      "target": "domain:public-dataset-quality-audit",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch2-uci-occupancy-benchmark-challenge",
+      "target": "domain:time-series-benchmark-challenge",
       "relation": "belongs_to_domain"
     },
     {
@@ -764,5 +834,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "28e6261e770666a3ece06eb28983c7f6a8bff627a02eca0935f2ca538d06164c"
+  "evidenceHash": "b2660b3f8f93a0cba1c28df65dc1aa18990fa25cadf2104f4c000f877aa0f92f"
 }

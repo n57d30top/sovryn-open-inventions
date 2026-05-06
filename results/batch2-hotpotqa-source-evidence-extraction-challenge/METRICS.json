@@ -1,0 +1,15 @@
+{
+  "sourceUrl": "https://huggingface.co/datasets/hotpotqa/hotpot_qa/raw/main/README.md",
+  "readmeChars": 9520,
+  "expectedFields": 7,
+  "fieldsPresent": 7,
+  "keywordBaselineFieldRecall": 0.571,
+  "sourceCardParserFieldRecall": 1,
+  "baselineCount": 2,
+  "wins": 1,
+  "losses": 1,
+  "ties": 0,
+  "notes": [
+    "The parser audit is source-card scoped and does not claim model-level QA performance."
+  ]
+}

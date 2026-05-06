@@ -1,0 +1,9 @@
+[
+  {
+    "claim": "UCI Auto MPG contains missing horsepower tokens that schema-only checks can miss.",
+    "evidence": "https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data",
+    "metric": "missingHorsepower",
+    "value": 6,
+    "limitation": "No semantic correctness claim."
+  }
+]

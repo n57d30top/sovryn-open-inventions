@@ -56,6 +56,51 @@
       "pushed": true
     },
     {
+      "slug": "batch2-climate-fever-claim-verification-followup",
+      "path": "results/batch2-climate-fever-claim-verification-followup",
+      "status": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch2-climate-fever-claim-verification-followup",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch2-hotpotqa-source-evidence-extraction-challenge",
+      "path": "results/batch2-hotpotqa-source-evidence-extraction-challenge",
+      "status": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch2-hotpotqa-source-evidence-extraction-challenge",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch2-pyod-reproducibility-audit",
+      "path": "results/batch2-pyod-reproducibility-audit",
+      "status": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch2-pyod-reproducibility-audit",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch2-uci-auto-mpg-dataset-quality-audit",
+      "path": "results/batch2-uci-auto-mpg-dataset-quality-audit",
+      "status": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch2-uci-auto-mpg-dataset-quality-audit",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch2-uci-occupancy-benchmark-challenge",
+      "path": "results/batch2-uci-occupancy-benchmark-challenge",
+      "status": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch2-uci-occupancy-benchmark-challenge",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "path": "results/chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "status": "autopublished",
@@ -398,5 +443,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "a5fcc3a8ee070441a838182762daec89df458321d529abad19501e59d985e5ed"
+  "evidenceHash": "0cd089be60b284c982ba95f10f9d8cf277ac639ed2891c27ddd28a572907cc80"
 }

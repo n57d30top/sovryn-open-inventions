@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T06:18:32.363Z",
+  "updatedAt": "2026-05-06T06:46:11.283Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-strategy-trial",
@@ -42,6 +42,41 @@
       "latestSlug": "batch1-uci-wine-quality-dataset-audit",
       "resultSlugs": [
         "batch1-uci-wine-quality-dataset-audit"
+      ]
+    },
+    {
+      "versionGroup": "batch2-climate-fever-claim-verification-followup",
+      "latestSlug": "batch2-climate-fever-claim-verification-followup",
+      "resultSlugs": [
+        "batch2-climate-fever-claim-verification-followup"
+      ]
+    },
+    {
+      "versionGroup": "batch2-hotpotqa-source-evidence-extraction-challenge",
+      "latestSlug": "batch2-hotpotqa-source-evidence-extraction-challenge",
+      "resultSlugs": [
+        "batch2-hotpotqa-source-evidence-extraction-challenge"
+      ]
+    },
+    {
+      "versionGroup": "batch2-pyod-reproducibility-audit",
+      "latestSlug": "batch2-pyod-reproducibility-audit",
+      "resultSlugs": [
+        "batch2-pyod-reproducibility-audit"
+      ]
+    },
+    {
+      "versionGroup": "batch2-uci-auto-mpg-dataset-quality-audit",
+      "latestSlug": "batch2-uci-auto-mpg-dataset-quality-audit",
+      "resultSlugs": [
+        "batch2-uci-auto-mpg-dataset-quality-audit"
+      ]
+    },
+    {
+      "versionGroup": "batch2-uci-occupancy-benchmark-challenge",
+      "latestSlug": "batch2-uci-occupancy-benchmark-challenge",
+      "resultSlugs": [
+        "batch2-uci-occupancy-benchmark-challenge"
       ]
     },
     {
@@ -227,5 +262,5 @@
       ]
     }
   ],
-  "evidenceHash": "a2c8bfbe2156f2de765295654aef352466d10e4f81be15e4d6238a7a500cb0c3"
+  "evidenceHash": "fd3aaae3cd27c1669951a13ed3cffb73f3a81aace4805d7d9a4946ebea77e342"
 }

@@ -1,0 +1,9 @@
+[
+  {
+    "claim": "HotpotQA source-card parsing improved expected-field coverage over a keyword baseline.",
+    "evidence": "https://huggingface.co/datasets/hotpotqa/hotpot_qa/raw/main/README.md",
+    "metric": "sourceCardParserFieldRecall",
+    "value": 1,
+    "limitation": "No model-level QA claim."
+  }
+]

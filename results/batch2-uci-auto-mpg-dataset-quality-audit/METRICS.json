@@ -1,0 +1,28 @@
+{
+  "sourceUrl": "https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data",
+  "metadataUrl": "https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.names",
+  "metadataChars": 1660,
+  "rowCount": 398,
+  "columnCount": 9,
+  "missingHorsepower": 6,
+  "duplicateFullRows": 0,
+  "duplicateCarNames": 93,
+  "missingHorsepowerRate": 0.015,
+  "originCounts": {
+    "1": 249,
+    "2": 70,
+    "3": 79
+  },
+  "mpgMin": 9,
+  "mpgMax": 46.6,
+  "horsepowerMin": 46,
+  "horsepowerMax": 230,
+  "schemaOnlyIssueRecall": 0.5,
+  "typeAwareIssueRecall": 1,
+  "losses": 1,
+  "wins": 1,
+  "ties": 0,
+  "notes": [
+    "The audit treats the question mark horsepower token as missing data, not as a string category."
+  ]
+}

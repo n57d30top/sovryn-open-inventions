@@ -1,0 +1,15 @@
+{
+  "slug": "batch2-hotpotqa-source-evidence-extraction-challenge",
+  "publishedBy": "sovryn-external-research-production-batch-2",
+  "automatedPolicyVersion": "4.2.0-rc.1-external-research-production-batch-policy",
+  "targetRepo": "https://github.com/n57d30top/sovryn-open-inventions",
+  "targetPath": "results/batch2-hotpotqa-source-evidence-extraction-challenge",
+  "pushed": true,
+  "dryRun": false,
+  "publicHygienePassed": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "createdAt": "2026-05-06T06:45:52.229Z",
+  "evidenceHash": "b5fdff740f1d5993e9d675ad6b972ff30e03529f77b141a67b4d94d76926eb3e"
+}

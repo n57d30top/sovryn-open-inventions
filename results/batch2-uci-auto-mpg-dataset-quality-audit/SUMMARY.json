@@ -1,0 +1,62 @@
+{
+  "resultType": "external_research_production_result",
+  "resultKind": "external_research_production_result",
+  "slug": "batch2-uci-auto-mpg-dataset-quality-audit",
+  "title": "UCI Auto MPG Public Dataset Quality Audit",
+  "targetVersion": "4.2.0-rc.1",
+  "domain": "public-dataset-quality-audit",
+  "selectedExternalTarget": "UCI Auto MPG",
+  "sourceUrls": [
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data",
+    "https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.names"
+  ],
+  "finalResult": "dataset_quality_audit_supported",
+  "publicHygienePassed": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "failuresRecorded": 1,
+  "lossesRecorded": 1,
+  "winsRecorded": 1,
+  "tiesRecorded": 0,
+  "rejectedCandidates": 1,
+  "concreteMetricsPresent": true,
+  "deeperReportFile": "METRIC_BREAKDOWN.md",
+  "qualityLabel": "good",
+  "releaseReadinessScore": 86,
+  "evidenceStrengthScore": 88,
+  "reproducibilityScore": 84,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 86,
+  "falsificationStatus": "audited_with_limitations",
+  "metrics": {
+    "sourceUrl": "https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data",
+    "metadataUrl": "https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.names",
+    "metadataChars": 1660,
+    "rowCount": 398,
+    "columnCount": 9,
+    "missingHorsepower": 6,
+    "duplicateFullRows": 0,
+    "duplicateCarNames": 93,
+    "missingHorsepowerRate": 0.015,
+    "originCounts": {
+      "1": 249,
+      "2": 70,
+      "3": 79
+    },
+    "mpgMin": 9,
+    "mpgMax": 46.6,
+    "horsepowerMin": 46,
+    "horsepowerMax": 230,
+    "schemaOnlyIssueRecall": 0.5,
+    "typeAwareIssueRecall": 1,
+    "losses": 1,
+    "wins": 1,
+    "ties": 0,
+    "notes": [
+      "The audit treats the question mark horsepower token as missing data, not as a string category."
+    ]
+  },
+  "evidenceHash": "4f90096e31460eaf01e8c5e07fe394efcb98e3002d7ee75f50f61ad82ae5b0f1"
+}

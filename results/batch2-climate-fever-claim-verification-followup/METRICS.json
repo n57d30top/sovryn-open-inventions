@@ -1,0 +1,17 @@
+{
+  "sourceUrl": "https://huggingface.co/datasets/tdiggelm/climate_fever/raw/main/README.md",
+  "readmeChars": 8088,
+  "expectedFields": 10,
+  "fieldsPresent": 10,
+  "keywordBaselineFieldRecall": 0.6,
+  "schemaAwareFieldRecall": 1,
+  "reproductionScore": 76,
+  "baselineCount": 2,
+  "wins": 1,
+  "losses": 2,
+  "ties": 0,
+  "notes": [
+    "Dataset card schema can be reconstructed from public metadata.",
+    "Full-scale benchmark metric reproduction was not attempted in this public-safe batch run."
+  ]
+}

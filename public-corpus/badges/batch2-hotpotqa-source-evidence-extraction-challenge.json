@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "batch2-hotpotqa-source-evidence-extraction-challenge",
+  "badges": {
+    "quality": "good",
+    "status": "unknown",
+    "antiTemplate": "unknown",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "audited_with_limitations",
+    "lifecycle": "autopublished",
+    "version": "batch2-hotpotqa-source-evidence-extraction-challenge",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "d2f17623b8793ff79f2e0815926aafc5f5a54fc9acc2b156e59b0a9e7cbf51e1"
+}

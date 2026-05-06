@@ -1,0 +1,9 @@
+[
+  {
+    "claim": "PyOD has public reproducibility artifacts but was not fully executed in Batch 2.",
+    "evidence": "https://github.com/yzhao062/pyod",
+    "metric": "reproducibilityScore",
+    "value": 80,
+    "limitation": "No install/test execution."
+  }
+]

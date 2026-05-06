@@ -1,0 +1,15 @@
+{
+  "slug": "batch2-pyod-reproducibility-audit",
+  "publishedBy": "sovryn-external-research-production-batch-2",
+  "automatedPolicyVersion": "4.2.0-rc.1-external-research-production-batch-policy",
+  "targetRepo": "https://github.com/n57d30top/sovryn-open-inventions",
+  "targetPath": "results/batch2-pyod-reproducibility-audit",
+  "pushed": true,
+  "dryRun": false,
+  "publicHygienePassed": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "createdAt": "2026-05-06T06:45:52.229Z",
+  "evidenceHash": "ea7ae29140023cf61c005936ab611916114324d455a3254a99973b9e19a03e40"
+}

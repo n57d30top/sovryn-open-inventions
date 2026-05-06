@@ -1,0 +1,15 @@
+{
+  "slug": "batch2-uci-auto-mpg-dataset-quality-audit",
+  "publishedBy": "sovryn-external-research-production-batch-2",
+  "automatedPolicyVersion": "4.2.0-rc.1-external-research-production-batch-policy",
+  "targetRepo": "https://github.com/n57d30top/sovryn-open-inventions",
+  "targetPath": "results/batch2-uci-auto-mpg-dataset-quality-audit",
+  "pushed": true,
+  "dryRun": false,
+  "publicHygienePassed": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "createdAt": "2026-05-06T06:45:52.229Z",
+  "evidenceHash": "c4ee35aa7c4391708ae8eaa819218bce2cd4da2d91e6bd45dc54afe0e952e270"
+}

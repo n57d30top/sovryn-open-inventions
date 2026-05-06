@@ -1,0 +1,122 @@
+{
+  "sourceUrl": "https://archive.ics.uci.edu/ml/machine-learning-databases/00357/occupancy_data.zip",
+  "trainRows": 8143,
+  "holdoutRows": 9752,
+  "trainOccupancyRate": 0.212,
+  "holdoutOccupancyRate": 0.21,
+  "thresholds": {
+    "light": 364.5,
+    "co2": 614,
+    "temperature": 21.26,
+    "humidity": 19.525
+  },
+  "baselines": [
+    {
+      "name": "light_threshold_train_selected",
+      "threshold": 364.5,
+      "metric": {
+        "tp": 2037,
+        "fp": 55,
+        "tn": 7648,
+        "fn": 12,
+        "precision": 0.974,
+        "recall": 0.994,
+        "specificity": 0.993,
+        "f1": 0.984,
+        "accuracy": 0.993,
+        "balancedAccuracy": 0.994
+      }
+    },
+    {
+      "name": "co2_threshold_train_selected",
+      "threshold": 614,
+      "metric": {
+        "tp": 1636,
+        "fp": 3612,
+        "tn": 4091,
+        "fn": 413,
+        "precision": 0.312,
+        "recall": 0.798,
+        "specificity": 0.531,
+        "f1": 0.448,
+        "accuracy": 0.587,
+        "balancedAccuracy": 0.665
+      }
+    },
+    {
+      "name": "temperature_threshold_train_selected",
+      "threshold": 21.26,
+      "metric": {
+        "tp": 1866,
+        "fp": 1153,
+        "tn": 6550,
+        "fn": 183,
+        "precision": 0.618,
+        "recall": 0.911,
+        "specificity": 0.85,
+        "f1": 0.736,
+        "accuracy": 0.863,
+        "balancedAccuracy": 0.881
+      }
+    },
+    {
+      "name": "humidity_threshold_train_selected",
+      "threshold": 19.525,
+      "metric": {
+        "tp": 2049,
+        "fp": 7703,
+        "tn": 0,
+        "fn": 0,
+        "precision": 0.21,
+        "recall": 1,
+        "specificity": 0,
+        "f1": 0.347,
+        "accuracy": 0.21,
+        "balancedAccuracy": 0.5
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "name": "two_of_four_sensor_vote_candidate",
+      "metric": {
+        "tp": 2049,
+        "fp": 3967,
+        "tn": 3736,
+        "fn": 0,
+        "precision": 0.341,
+        "recall": 1,
+        "specificity": 0.485,
+        "f1": 0.508,
+        "accuracy": 0.593,
+        "balancedAccuracy": 0.743
+      },
+      "rejected": true
+    },
+    {
+      "name": "three_of_four_sensor_vote_candidate",
+      "metric": {
+        "tp": 2033,
+        "fp": 828,
+        "tn": 6875,
+        "fn": 16,
+        "precision": 0.711,
+        "recall": 0.992,
+        "specificity": 0.893,
+        "f1": 0.828,
+        "accuracy": 0.913,
+        "balancedAccuracy": 0.942
+      },
+      "rejected": true
+    }
+  ],
+  "bestBaseline": "light_threshold_train_selected",
+  "bestBaselineF1": 0.984,
+  "candidateRejected": 2,
+  "wins": 0,
+  "losses": 2,
+  "ties": 0,
+  "notes": [
+    "The attempted sensor-vote challengers were dominated by the light-threshold baseline on the held-out public test split."
+  ]
+}

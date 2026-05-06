@@ -1,12 +1,13 @@
 {
   "kind": "public_corpus_quality_summary",
-  "updatedAt": "2026-05-06T06:18:32.363Z",
-  "resultCount": 44,
+  "updatedAt": "2026-05-06T06:46:11.283Z",
+  "resultCount": 49,
   "qualityCounts": {
     "excellent": 5,
-    "good": 32,
+    "good": 35,
+    "reviewable": 2,
     "unknown": 7
   },
-  "averageReleaseReadinessScore": 74,
-  "evidenceHash": "01325ffe190ea0704767ee11b56379e94e6e04372cb98d44442f88457c7e6caa"
+  "averageReleaseReadinessScore": 75,
+  "evidenceHash": "9250207192723150d51ba65f1a843d1dce3bc34ffcdcc40946e043589b1d1ba3"
 }

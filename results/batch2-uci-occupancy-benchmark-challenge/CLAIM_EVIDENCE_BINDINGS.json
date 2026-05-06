@@ -1,0 +1,9 @@
+[
+  {
+    "claim": "The attempted sensor-vote challengers were baseline-dominated on UCI Occupancy Detection holdout data.",
+    "evidence": "https://archive.ics.uci.edu/ml/machine-learning-databases/00357/occupancy_data.zip",
+    "metric": "candidateRejected",
+    "value": 2,
+    "limitation": "Only simple vote challengers tested."
+  }
+]
