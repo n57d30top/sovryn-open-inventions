@@ -1,0 +1,16 @@
+{
+  "experimentId": "DEXP2-04",
+  "domain": "tool_usefulness",
+  "target": "external_target_04",
+  "principles": [
+    "RP2-01",
+    "RP2-02",
+    "RP2-03",
+    "RP2-04"
+  ],
+  "expectedWeakenFavored": false,
+  "lowRiskControl": false,
+  "crossDomain": true,
+  "frozen": true,
+  "preregistrationHash": "db630d3cc36d342d81546cf305888ca340c7af43b3de3b317a9e78e1d2a66444"
+}

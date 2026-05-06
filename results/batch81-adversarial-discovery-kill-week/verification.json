@@ -1,0 +1,15 @@
+{
+  "slug": "batch81-adversarial-discovery-kill-week",
+  "resultKind": "adversarial_discovery_kill_week",
+  "checkedAt": "2026-05-06T18:13:32Z",
+  "externalClaimDecisionAttacks": 10,
+  "hardArtifactDecisionAttacks": 5,
+  "rivalPrincipleClaimAttacks": 3,
+  "transferClaimAttacks": 3,
+  "interventionClaimAttacks": 3,
+  "candidateAttacked": true,
+  "claimsDowngradedOrNarrowed": 6,
+  "claimsPreserved": 7,
+  "majorLimitationCount": 4,
+  "survivingPrincipleStatus": "promising_but_narrowed"
+}

@@ -1,0 +1,16 @@
+{
+  "experimentId": "DEXP2-10",
+  "domain": "repo_test_reproduction",
+  "target": "external_target_10",
+  "principles": [
+    "RP2-01",
+    "RP2-02",
+    "RP2-03",
+    "RP2-04"
+  ],
+  "expectedWeakenFavored": false,
+  "lowRiskControl": false,
+  "crossDomain": false,
+  "frozen": true,
+  "preregistrationHash": "18d853a269408e14387b27ac65c873e06447a5fd06ce88f83d1ab0f1856caa14"
+}

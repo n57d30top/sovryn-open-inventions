@@ -1,0 +1,13 @@
+{
+  "slug": "batch60-field-bound-prediction-freeze-large",
+  "resultKind": "field_bound_prediction_freeze_large",
+  "checkedAt": "2026-05-06T18:13:32Z",
+  "selectedClaimCount": 30,
+  "frozenPredictionCount": 30,
+  "claimFamilyCount": 8,
+  "expectedBlockDowngradeNotTestableCount": 12,
+  "expectedCaveatCount": 8,
+  "expectedAllowedPreservedCount": 10,
+  "lowRiskControlCount": 7,
+  "highRiskClaimCount": 8
+}

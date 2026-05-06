@@ -1,0 +1,16 @@
+{
+  "experimentId": "DEXP2-09",
+  "domain": "benchmark_performance",
+  "target": "external_target_09",
+  "principles": [
+    "RP2-01",
+    "RP2-02",
+    "RP2-03",
+    "RP2-04"
+  ],
+  "expectedWeakenFavored": false,
+  "lowRiskControl": false,
+  "crossDomain": true,
+  "frozen": true,
+  "preregistrationHash": "8581614ea7edf23359d28a31815a3a8065b6476e90506c484490515143b46e04"
+}

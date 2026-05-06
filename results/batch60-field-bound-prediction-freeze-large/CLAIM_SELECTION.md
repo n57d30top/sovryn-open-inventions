@@ -1,0 +1,34 @@
+# Claim Selection
+
+| Prediction | Claim | Family | Risk |
+| --- | --- | --- | --- |
+| EXT-FB-01 | EC-001 | benchmark_performance | moderate |
+| EXT-FB-02 | EC-002 | repo_test_reproduction | high |
+| EXT-FB-03 | EC-003 | dataset_quality | ambiguous |
+| EXT-FB-04 | EC-004 | tool_usefulness | low |
+| EXT-FB-05 | EC-005 | time_series_temporal | moderate |
+| EXT-FB-06 | EC-006 | conceptual_principle | high |
+| EXT-FB-07 | EC-007 | package_install_test | ambiguous |
+| EXT-FB-08 | EC-008 | protocol_evaluation | low |
+| EXT-FB-09 | EC-009 | benchmark_performance | moderate |
+| EXT-FB-10 | EC-010 | repo_test_reproduction | high |
+| EXT-FB-11 | EC-011 | dataset_quality | ambiguous |
+| EXT-FB-12 | EC-012 | tool_usefulness | low |
+| EXT-FB-13 | EC-013 | time_series_temporal | moderate |
+| EXT-FB-14 | EC-014 | conceptual_principle | high |
+| EXT-FB-15 | EC-015 | package_install_test | ambiguous |
+| EXT-FB-16 | EC-016 | protocol_evaluation | low |
+| EXT-FB-17 | EC-017 | benchmark_performance | moderate |
+| EXT-FB-18 | EC-018 | repo_test_reproduction | high |
+| EXT-FB-19 | EC-019 | dataset_quality | ambiguous |
+| EXT-FB-20 | EC-020 | tool_usefulness | low |
+| EXT-FB-21 | EC-021 | time_series_temporal | moderate |
+| EXT-FB-22 | EC-022 | conceptual_principle | high |
+| EXT-FB-23 | EC-023 | package_install_test | ambiguous |
+| EXT-FB-24 | EC-024 | protocol_evaluation | low |
+| EXT-FB-25 | EC-025 | benchmark_performance | moderate |
+| EXT-FB-26 | EC-026 | repo_test_reproduction | high |
+| EXT-FB-27 | EC-027 | dataset_quality | ambiguous |
+| EXT-FB-28 | EC-028 | tool_usefulness | low |
+| EXT-FB-29 | EC-029 | time_series_temporal | moderate |
+| EXT-FB-30 | EC-030 | conceptual_principle | high |

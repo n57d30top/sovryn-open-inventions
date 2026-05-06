@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T17:55:43.838Z",
+  "generatedAt": "2026-05-06T18:15:17.924Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -447,6 +447,12 @@
       "domain": "field-bound claim safety"
     },
     {
+      "id": "result:batch59-external-claim-universe-mining",
+      "kind": "result",
+      "label": "Batch 59 External Claim Universe Mining",
+      "domain": "external field-bound claim safety"
+    },
+    {
       "id": "result:batch6-diamonds-data-quality-netoff-ladder",
       "kind": "result",
       "label": "seaborn-data Diamonds Network-Off Quality Reproduction Ladder",
@@ -463,6 +469,66 @@
       "kind": "result",
       "label": "UCI Concrete Strength Baseline Reproduction Ladder",
       "domain": "tabular-regression-benchmark"
+    },
+    {
+      "id": "result:batch60-field-bound-prediction-freeze-large",
+      "kind": "result",
+      "label": "Batch 60 Field-Bound Prediction Freeze Large",
+      "domain": "external field-bound claim safety"
+    },
+    {
+      "id": "result:batch61-external-claim-audit-wave-1",
+      "kind": "result",
+      "label": "Batch 61 External Claim Audit Wave 1",
+      "domain": "external field-bound claim safety"
+    },
+    {
+      "id": "result:batch62-external-claim-audit-wave-2",
+      "kind": "result",
+      "label": "Batch 62 External Claim Audit Wave 2",
+      "domain": "external field-bound claim safety"
+    },
+    {
+      "id": "result:batch63-human-readable-claim-review-package",
+      "kind": "result",
+      "label": "Batch 63 Human-Readable Claim Review Package",
+      "domain": "external field-bound claim safety"
+    },
+    {
+      "id": "result:batch64-external-claim-kill-week",
+      "kind": "result",
+      "label": "Batch 64 External Claim Kill Week",
+      "domain": "external field-bound claim safety"
+    },
+    {
+      "id": "result:batch65-hard-external-artifact-target-selection",
+      "kind": "result",
+      "label": "Batch 65 Hard External Artifact Target Selection",
+      "domain": "external field-bound claim safety"
+    },
+    {
+      "id": "result:batch66-repo-test-reproduction-hard-wave",
+      "kind": "result",
+      "label": "Batch 66 Repo/Test Reproduction Hard Wave",
+      "domain": "external field-bound claim safety"
+    },
+    {
+      "id": "result:batch67-dataset-benchmark-hard-wave",
+      "kind": "result",
+      "label": "Batch 67 Dataset and Benchmark Hard Wave",
+      "domain": "external field-bound claim safety"
+    },
+    {
+      "id": "result:batch68-timeseries-temporal-hard-wave",
+      "kind": "result",
+      "label": "Batch 68 Time-Series and Temporal Hard Wave",
+      "domain": "external field-bound claim safety"
+    },
+    {
+      "id": "result:batch69-tool-and-concept-claim-hard-wave",
+      "kind": "result",
+      "label": "Batch 69 Tool and Concept Claim Hard Wave",
+      "domain": "external field-bound claim safety"
     },
     {
       "id": "result:batch7-banknote-metric-stress-validator",
@@ -483,10 +549,88 @@
       "domain": "dataset-schema-provenance-auditing"
     },
     {
+      "id": "result:batch70-hard-external-evidence-atlas",
+      "kind": "result",
+      "label": "Batch 70 Hard External Evidence Atlas",
+      "domain": "external field-bound claim safety"
+    },
+    {
+      "id": "result:batch71-external-anomaly-and-assumption-mining",
+      "kind": "result",
+      "label": "Batch 71 External Anomaly and Assumption Mining",
+      "domain": "external field-bound claim safety"
+    },
+    {
+      "id": "result:batch72-rival-principle-generation-v2",
+      "kind": "result",
+      "label": "Batch 72 Rival Principle Generation v2",
+      "domain": "external field-bound claim safety"
+    },
+    {
+      "id": "result:batch73-discriminating-experiment-design-v2",
+      "kind": "result",
+      "label": "Batch 73 Discriminating Experiment Design v2",
+      "domain": "external field-bound claim safety"
+    },
+    {
+      "id": "result:batch74-surprise-prediction-tournament-v2",
+      "kind": "result",
+      "label": "Batch 74 Surprise Prediction Tournament v2",
+      "domain": "external field-bound claim safety"
+    },
+    {
+      "id": "result:batch75-cross-domain-principle-transfer-v2",
+      "kind": "result",
+      "label": "Batch 75 Cross-Domain Principle Transfer v2",
+      "domain": "external field-bound claim safety"
+    },
+    {
+      "id": "result:batch76-conceptual-discovery-paper-v2",
+      "kind": "result",
+      "label": "Batch 76 Conceptual Discovery Paper v2",
+      "domain": "external field-bound claim safety"
+    },
+    {
+      "id": "result:batch77-intervention-candidate-generation",
+      "kind": "result",
+      "label": "Batch 77 Intervention Candidate Generation",
+      "domain": "external field-bound claim safety"
+    },
+    {
+      "id": "result:batch78-claim-safety-intervention-wave-1",
+      "kind": "result",
+      "label": "Batch 78 Claim-Safety Intervention Wave 1",
+      "domain": "external field-bound claim safety"
+    },
+    {
+      "id": "result:batch79-claim-safety-intervention-wave-2",
+      "kind": "result",
+      "label": "Batch 79 Claim-Safety Intervention Wave 2",
+      "domain": "external field-bound claim safety"
+    },
+    {
       "id": "result:batch8-tool-reuse-failure-benchmark",
       "kind": "result",
       "label": "Batch 8 Tool Reuse and Failure Benchmark",
       "domain": "autonomous-research-production-continuity"
+    },
+    {
+      "id": "result:batch80-useful-tool-or-standard-candidate",
+      "kind": "result",
+      "label": "Batch 80 Useful Tool or Standard Candidate",
+      "domain": "external field-bound claim safety"
+    },
+    {
+      "id": "result:batch81-adversarial-discovery-kill-week",
+      "kind": "result",
+      "label": "Batch 81 Adversarial Discovery Kill Week",
+      "domain": "external field-bound claim safety"
+    },
+    {
+      "id": "result:batch82-next-frontier-synthesis-and-einstein-score",
+      "kind": "result",
+      "label": "Batch 82 Next Frontier Synthesis and Path Score",
+      "domain": "external field-bound claim safety"
     },
     {
       "id": "result:batch9-uci-dry-bean-deep-toolchain-study",
@@ -882,6 +1026,11 @@
       "id": "domain:field-bound claim safety",
       "kind": "domain",
       "label": "field-bound claim safety"
+    },
+    {
+      "id": "domain:external field-bound claim safety",
+      "kind": "domain",
+      "label": "external field-bound claim safety"
     },
     {
       "id": "domain:ml-repository-reproduction",
@@ -1701,6 +1850,11 @@
       "relation": "uses_public_tool_evidence"
     },
     {
+      "source": "result:batch59-external-claim-universe-mining",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:batch6-diamonds-data-quality-netoff-ladder",
       "target": "domain:public-dataset-quality-audit",
       "relation": "belongs_to_domain"
@@ -1724,6 +1878,86 @@
       "source": "result:batch6-uci-concrete-baseline-reproduction-ladder",
       "target": "tool:pandas",
       "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch60-field-bound-prediction-freeze-large",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch61-external-claim-audit-wave-1",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch61-external-claim-audit-wave-1",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch61-external-claim-audit-wave-1",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch62-external-claim-audit-wave-2",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch62-external-claim-audit-wave-2",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch62-external-claim-audit-wave-2",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch63-human-readable-claim-review-package",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch64-external-claim-kill-week",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch65-hard-external-artifact-target-selection",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch66-repo-test-reproduction-hard-wave",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch67-dataset-benchmark-hard-wave",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch67-dataset-benchmark-hard-wave",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch67-dataset-benchmark-hard-wave",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch68-timeseries-temporal-hard-wave",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch69-tool-and-concept-claim-hard-wave",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
     },
     {
       "source": "result:batch7-banknote-metric-stress-validator",
@@ -1751,6 +1985,56 @@
       "relation": "uses_public_tool_evidence"
     },
     {
+      "source": "result:batch70-hard-external-evidence-atlas",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch71-external-anomaly-and-assumption-mining",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch72-rival-principle-generation-v2",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch73-discriminating-experiment-design-v2",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch74-surprise-prediction-tournament-v2",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch75-cross-domain-principle-transfer-v2",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch76-conceptual-discovery-paper-v2",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch77-intervention-candidate-generation",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch78-claim-safety-intervention-wave-1",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch79-claim-safety-intervention-wave-2",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:batch8-tool-reuse-failure-benchmark",
       "target": "domain:autonomous-research-production-continuity",
       "relation": "belongs_to_domain"
@@ -1759,6 +2043,21 @@
       "source": "result:batch8-tool-reuse-failure-benchmark",
       "target": "tool:pandas",
       "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch80-useful-tool-or-standard-candidate",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch81-adversarial-discovery-kill-week",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch82-next-frontier-synthesis-and-einstein-score",
+      "target": "domain:external field-bound claim safety",
+      "relation": "belongs_to_domain"
     },
     {
       "source": "result:batch9-uci-dry-bean-deep-toolchain-study",
@@ -2111,5 +2410,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "7e9c02c73b526c54619c7fc7960ebb811c4b832d0c3e2783c08d1781f39a226f"
+  "evidenceHash": "08928bd4d48e3b59931d33423bdce895b176fa097f105729cb1c4bc34737e24d"
 }

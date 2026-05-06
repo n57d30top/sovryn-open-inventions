@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-06T17:55:43.838Z",
+  "generatedAt": "2026-05-06T18:15:17.924Z",
   "sources": [
     {
       "resultSlug": "batch10-toolchain-kill-week",
@@ -387,6 +387,42 @@
       "publicOnly": true
     },
     {
+      "resultSlug": "batch61-external-claim-audit-wave-1",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch61-external-claim-audit-wave-1",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch62-external-claim-audit-wave-2",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch62-external-claim-audit-wave-2",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch67-dataset-benchmark-hard-wave",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch67-dataset-benchmark-hard-wave",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
       "resultSlug": "batch7-banknote-metric-stress-validator",
       "sourceKind": "external_package_or_tool",
       "name": "pandas",
@@ -585,5 +621,5 @@
       "publicOnly": true
     }
   ],
-  "evidenceHash": "7058b4c16a005a98ad0eafd9079f3bc4c59ce16499914a368ad4f43548b2f4d5"
+  "evidenceHash": "0acc2e849b0fe41c2c213d04e6f8fddab626d191cbdd73d6587be3a5328d7a1f"
 }

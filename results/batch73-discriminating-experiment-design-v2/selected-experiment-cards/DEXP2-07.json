@@ -1,0 +1,16 @@
+{
+  "experimentId": "DEXP2-07",
+  "domain": "package_install_test",
+  "target": "external_target_07",
+  "principles": [
+    "RP2-01",
+    "RP2-02",
+    "RP2-03",
+    "RP2-04"
+  ],
+  "expectedWeakenFavored": true,
+  "lowRiskControl": false,
+  "crossDomain": false,
+  "frozen": true,
+  "preregistrationHash": "4e6f3716f8c0c47712fbb0f9ffc5af226a8fb8587e4ef145196437ca0019d384"
+}

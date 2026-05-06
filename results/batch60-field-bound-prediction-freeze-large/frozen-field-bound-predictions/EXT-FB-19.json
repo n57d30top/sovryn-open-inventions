@@ -1,0 +1,32 @@
+{
+  "claimId": "EC-019",
+  "claimFamily": "dataset_quality",
+  "sourceUrl": "https://scikit-learn.org/stable/datasets/toy_dataset.html",
+  "claim": "External safe computational claim 019 in family dataset_quality has enough evidence fields for a bounded claim-safety decision.",
+  "riskLabel": "ambiguous",
+  "selectedForScreening": true,
+  "safetyScope": "public safe computational artifact",
+  "predictionId": "EXT-FB-19",
+  "requiredEvidenceFields": [
+    "source_url",
+    "claim_family",
+    "claim_text",
+    "baseline_or_control",
+    "replay_plan",
+    "limitations"
+  ],
+  "expectedPresentFields": [
+    "source_url",
+    "claim_family",
+    "claim_text",
+    "baseline_or_control"
+  ],
+  "expectedMissingFields": [],
+  "predictedLabel": "allowed_with_caveats",
+  "expectedFalsifier": "Observed fields support a materially different claim-safety label.",
+  "negativeControl": "Remove a required field or use a shuffled/control case.",
+  "replayPlan": "Repeat evidence collection or rerun package/dataset check.",
+  "frozenTimestamp": "2026-05-06T18:13:32Z",
+  "noEditRule": "Frozen before audit execution.",
+  "preregistrationHash": "0044495f676d92a5d0ac76a579d17adfd6f89ef83c08a2180a4084dbb8f05bd4"
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "conceptual_discovery_paper_v2_summary",
+  "slug": "batch76-conceptual-discovery-paper-v2",
+  "title": "Batch 76 Conceptual Discovery Paper v2",
+  "resultKind": "conceptual_discovery_paper_v2",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 90,
+  "reproducibilityScore": 88,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 94,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "passes_falsification",
+  "baselineComparisonPresent": true,
+  "scientificMemoryUpdated": true,
+  "scientificQuestion": "Can Required Evidence Field Boundary remain predictive and useful on fresh external safe computational claims?",
+  "domain": "external field-bound claim safety",
+  "limitations": [
+    "Bounded safe computational evidence only.",
+    "Claim-safety labels are decision aids, not proof.",
+    "Weak, partial, failed, and not-testable cases are preserved."
+  ],
+  "synthesizedBatches": [
+    "batch71",
+    "batch72",
+    "batch73",
+    "batch74",
+    "batch75"
+  ],
+  "survivingPrinciple": "Field Specificity Over Field Count",
+  "rejectedPrincipleCount": 2,
+  "executedExperimentCount": 8,
+  "failedPartialFindingCount": 5,
+  "classification": "promising_principle_candidate",
+  "evidenceHash": "c7eacaf892a29e547bcaac29c27157d28599cf4e51ad3f727956260ec4cc74f7"
+}

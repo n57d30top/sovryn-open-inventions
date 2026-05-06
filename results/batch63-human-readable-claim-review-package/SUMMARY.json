@@ -1,0 +1,33 @@
+{
+  "kind": "human_readable_claim_review_package_summary",
+  "slug": "batch63-human-readable-claim-review-package",
+  "title": "Batch 63 Human-Readable Claim Review Package",
+  "resultKind": "human_readable_claim_review_package",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 90,
+  "reproducibilityScore": 88,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 94,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "passes_falsification",
+  "baselineComparisonPresent": true,
+  "scientificMemoryUpdated": true,
+  "scientificQuestion": "Can Required Evidence Field Boundary remain predictive and useful on fresh external safe computational claims?",
+  "domain": "external field-bound claim safety",
+  "limitations": [
+    "Bounded safe computational evidence only.",
+    "Claim-safety labels are decision aids, not proof.",
+    "Weak, partial, failed, and not-testable cases are preserved."
+  ],
+  "reviewBriefCount": 30,
+  "downgradeBlockNotTestableExampleCount": 14,
+  "allowedCaveatedPreservedExampleCount": 16,
+  "evidenceHash": "086e0f0bf442848da75b9f0518b49a84663be6dc97c78c6f12d76aa3eb360d73"
+}

@@ -1,0 +1,34 @@
+# Frozen Field-Bound Predictions
+
+| Id | Claim | Family | Predicted | Hash |
+| --- | --- | --- | --- | --- |
+| EXT-FB-01 | EC-001 | benchmark_performance | blocked | d02fee029713 |
+| EXT-FB-02 | EC-002 | repo_test_reproduction | downgraded | 54385424fbf9 |
+| EXT-FB-03 | EC-003 | dataset_quality | not_testable | b1e45dcb0cf7 |
+| EXT-FB-04 | EC-004 | tool_usefulness | blocked | aac72d5f5e87 |
+| EXT-FB-05 | EC-005 | time_series_temporal | downgraded | 0cb282716759 |
+| EXT-FB-06 | EC-006 | conceptual_principle | not_testable | 0a163582ae39 |
+| EXT-FB-07 | EC-007 | package_install_test | blocked | 442750d4d274 |
+| EXT-FB-08 | EC-008 | protocol_evaluation | downgraded | 25cd52863f7c |
+| EXT-FB-09 | EC-009 | benchmark_performance | not_testable | 006562e51347 |
+| EXT-FB-10 | EC-010 | repo_test_reproduction | blocked | b1878274558c |
+| EXT-FB-11 | EC-011 | dataset_quality | downgraded | 4d80f91a310a |
+| EXT-FB-12 | EC-012 | tool_usefulness | not_testable | 20868c9e0a35 |
+| EXT-FB-13 | EC-013 | time_series_temporal | allowed_with_caveats | 253e1426d05c |
+| EXT-FB-14 | EC-014 | conceptual_principle | allowed_with_caveats | 6f99e9abef07 |
+| EXT-FB-15 | EC-015 | package_install_test | allowed_with_caveats | cb24fee5b249 |
+| EXT-FB-16 | EC-016 | protocol_evaluation | allowed_with_caveats | 9fe3d31b491e |
+| EXT-FB-17 | EC-017 | benchmark_performance | allowed_with_caveats | 9a3ffb903148 |
+| EXT-FB-18 | EC-018 | repo_test_reproduction | allowed_with_caveats | b8c37a2e18a7 |
+| EXT-FB-19 | EC-019 | dataset_quality | allowed_with_caveats | 0044495f676d |
+| EXT-FB-20 | EC-020 | tool_usefulness | allowed_with_caveats | 1d3e1d11432a |
+| EXT-FB-21 | EC-021 | time_series_temporal | allowed | d962c36cb689 |
+| EXT-FB-22 | EC-022 | conceptual_principle | allowed | d5c7965064e9 |
+| EXT-FB-23 | EC-023 | package_install_test | allowed | 16791c72eead |
+| EXT-FB-24 | EC-024 | protocol_evaluation | allowed | 0ffa8d406b64 |
+| EXT-FB-25 | EC-025 | benchmark_performance | allowed | 7115dfb10f06 |
+| EXT-FB-26 | EC-026 | repo_test_reproduction | allowed | d5c9e5ba1b0c |
+| EXT-FB-27 | EC-027 | dataset_quality | allowed | 358a25017783 |
+| EXT-FB-28 | EC-028 | tool_usefulness | allowed | f2f65ea9b079 |
+| EXT-FB-29 | EC-029 | time_series_temporal | allowed | 428962b9efdf |
+| EXT-FB-30 | EC-030 | conceptual_principle | allowed | bbd481ee0529 |

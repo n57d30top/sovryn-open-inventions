@@ -1,0 +1,32 @@
+{
+  "claimId": "EC-014",
+  "claimFamily": "conceptual_principle",
+  "sourceUrl": "https://github.com/n57d30top/sovryn-open-inventions",
+  "claim": "External safe computational claim 014 in family conceptual_principle has enough evidence fields for a bounded claim-safety decision.",
+  "riskLabel": "high",
+  "selectedForScreening": true,
+  "safetyScope": "public safe computational artifact",
+  "predictionId": "EXT-FB-14",
+  "requiredEvidenceFields": [
+    "source_url",
+    "claim_family",
+    "claim_text",
+    "baseline_or_control",
+    "replay_plan",
+    "limitations"
+  ],
+  "expectedPresentFields": [
+    "source_url",
+    "claim_family",
+    "claim_text",
+    "baseline_or_control"
+  ],
+  "expectedMissingFields": [],
+  "predictedLabel": "allowed_with_caveats",
+  "expectedFalsifier": "Observed fields support a materially different claim-safety label.",
+  "negativeControl": "Remove a required field or use a shuffled/control case.",
+  "replayPlan": "Repeat evidence collection or rerun package/dataset check.",
+  "frozenTimestamp": "2026-05-06T18:13:32Z",
+  "noEditRule": "Frozen before audit execution.",
+  "preregistrationHash": "6f99e9abef07f8daa1aeb5cc40a12603cbe3346c34fe3c3b8526d0ae7436bff0"
+}

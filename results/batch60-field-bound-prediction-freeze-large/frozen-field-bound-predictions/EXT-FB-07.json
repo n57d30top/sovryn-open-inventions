@@ -1,0 +1,35 @@
+{
+  "claimId": "EC-007",
+  "claimFamily": "package_install_test",
+  "sourceUrl": "https://github.com/pallets/itsdangerous",
+  "claim": "External safe computational claim 007 in family package_install_test has enough evidence fields for a bounded claim-safety decision.",
+  "riskLabel": "ambiguous",
+  "selectedForScreening": true,
+  "safetyScope": "public safe computational artifact",
+  "predictionId": "EXT-FB-07",
+  "requiredEvidenceFields": [
+    "source_url",
+    "claim_family",
+    "claim_text",
+    "baseline_or_control",
+    "replay_plan",
+    "limitations"
+  ],
+  "expectedPresentFields": [
+    "source_url",
+    "claim_family",
+    "claim_text",
+    "baseline_or_control"
+  ],
+  "expectedMissingFields": [
+    "replay_plan",
+    "limitations"
+  ],
+  "predictedLabel": "blocked",
+  "expectedFalsifier": "Observed fields support a materially different claim-safety label.",
+  "negativeControl": "Remove a required field or use a shuffled/control case.",
+  "replayPlan": "Repeat evidence collection or rerun package/dataset check.",
+  "frozenTimestamp": "2026-05-06T18:13:32Z",
+  "noEditRule": "Frozen before audit execution.",
+  "preregistrationHash": "442750d4d27424d7682f303c45523ecbd3ae99d05f6d23b5f10ca7bca4c8ed32"
+}

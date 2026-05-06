@@ -1,0 +1,196 @@
+{
+  "createdAt": "2026-05-06T18:13:32Z",
+  "packageVersions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scikit-learn": "1.8.0",
+    "statsmodels": "0.14.6",
+    "markupsafe": "3.0.3",
+    "itsdangerous": "2.2.0"
+  },
+  "datasetLoads": [
+    {
+      "target": "sklearn_iris",
+      "rows": 150,
+      "features": 4,
+      "classes": 3,
+      "missingValues": 0,
+      "duplicateFeatureRows": 1,
+      "sourceKind": "public example dataset"
+    },
+    {
+      "target": "sklearn_wine",
+      "rows": 178,
+      "features": 13,
+      "classes": 3,
+      "missingValues": 0,
+      "duplicateFeatureRows": 0,
+      "sourceKind": "public example dataset"
+    },
+    {
+      "target": "sklearn_digits",
+      "rows": 1797,
+      "features": 64,
+      "classes": 10,
+      "missingValues": 0,
+      "duplicateFeatureRows": 0,
+      "sourceKind": "public example dataset"
+    },
+    {
+      "target": "sklearn_breast_cancer",
+      "rows": 569,
+      "features": 30,
+      "classes": 2,
+      "missingValues": 0,
+      "duplicateFeatureRows": 0,
+      "sourceKind": "public example dataset"
+    },
+    {
+      "target": "sklearn_diabetes",
+      "rows": 442,
+      "features": 10,
+      "classes": 214,
+      "missingValues": 0,
+      "duplicateFeatureRows": 0,
+      "sourceKind": "public example dataset"
+    },
+    {
+      "target": "sklearn_linnerud",
+      "rows": 20,
+      "features": 3,
+      "classes": 35,
+      "missingValues": 0,
+      "duplicateFeatureRows": 0,
+      "sourceKind": "public example dataset"
+    }
+  ],
+  "benchmarkRuns": [
+    {
+      "target": "sklearn_iris",
+      "seed": 61,
+      "trainRows": 105,
+      "testRows": 45,
+      "modelMacroF1": 0.9778,
+      "modelAccuracy": 0.9778,
+      "dummyMacroF1": 0.1667,
+      "shuffledLabelMacroF1": 0.0432,
+      "decision": "allowed_with_caveats"
+    },
+    {
+      "target": "sklearn_wine",
+      "seed": 62,
+      "trainRows": 124,
+      "testRows": 54,
+      "modelMacroF1": 0.9811,
+      "modelAccuracy": 0.9815,
+      "dummyMacroF1": 0.1867,
+      "shuffledLabelMacroF1": 0.1212,
+      "decision": "allowed_with_caveats"
+    },
+    {
+      "target": "sklearn_digits",
+      "seed": 63,
+      "trainRows": 1257,
+      "testRows": 540,
+      "modelMacroF1": 0.9593,
+      "modelAccuracy": 0.9593,
+      "dummyMacroF1": 0.0185,
+      "shuffledLabelMacroF1": 0.1306,
+      "decision": "allowed_with_caveats"
+    },
+    {
+      "target": "sklearn_breast_cancer",
+      "seed": 64,
+      "trainRows": 398,
+      "testRows": 171,
+      "modelMacroF1": 0.9749,
+      "modelAccuracy": 0.9766,
+      "dummyMacroF1": 0.3849,
+      "shuffledLabelMacroF1": 0.5739,
+      "decision": "allowed"
+    }
+  ],
+  "temporalRuns": [
+    {
+      "target": "statsmodels_sunspots",
+      "rows": 309,
+      "temporalSplitMAE": 40.8839,
+      "shuffledOrderMAE": 29.8323,
+      "decision": "allowed_with_caveats",
+      "control": "shuffled_time_order"
+    },
+    {
+      "target": "statsmodels_macrodata_realgdp",
+      "rows": 203,
+      "temporalSplitMAE": 2565.0225,
+      "shuffledOrderMAE": 5886.0907,
+      "decision": "allowed_with_caveats",
+      "control": "shuffled_time_order"
+    },
+    {
+      "target": "statsmodels_co2_subset",
+      "rows": 200,
+      "temporalSplitMAE": 1.8467,
+      "shuffledOrderMAE": 3.8833,
+      "decision": "allowed_with_caveats",
+      "control": "shuffled_time_order"
+    }
+  ],
+  "repoRuntime": {
+    "target": "sovryn_os_public_repo",
+    "version": "4.2.0-rc.1",
+    "scriptCount": 5,
+    "hasBuildScript": true,
+    "hasTestScript": true,
+    "cliHelpExitCode": 0,
+    "cliHelpMentionsScientist": true,
+    "cliHelpMentionsTheory": true
+  },
+  "packageChecks": [
+    {
+      "target": "markupsafe_escape",
+      "result": "&lt;field&gt;",
+      "decision": "allowed"
+    },
+    {
+      "target": "itsdangerous_serializer",
+      "roundTrip": true,
+      "rejectsAlteredSignature": true,
+      "decision": "allowed_with_caveats"
+    },
+    {
+      "target": "pandas_csv_parse",
+      "rows": 0,
+      "decision": "allowed"
+    },
+    {
+      "target": "numpy_mean",
+      "value": 2.0,
+      "decision": "allowed"
+    }
+  ],
+  "artifactChecks": [
+    {
+      "slug": "batch58-field-bound-claim-safety-standard",
+      "requiredFiles": [
+        "SUMMARY.json",
+        "FIELD_BOUND_CLAIM_SAFETY_STANDARD.md",
+        "FINAL_FIELD_RULES.md"
+      ],
+      "present": true
+    },
+    {
+      "slug": "batch52-conceptual-discovery-paper",
+      "requiredFiles": [
+        "SUMMARY.json",
+        "SURVIVING_PRINCIPLE.md"
+      ],
+      "present": true
+    }
+  ],
+  "realEvidenceCheckCount": 20,
+  "installProvisionExecutionAttempts": 14,
+  "replayAttemptsOrFailures": 12,
+  "negativeControlsOrBaselines": 12,
+  "evidenceHash": "198ef3a19fd3855b121eb8dba327118a71a2cf4d5c7ea6882973bb5392d3cd75"
+}

@@ -1,0 +1,35 @@
+{
+  "claimId": "EC-010",
+  "claimFamily": "repo_test_reproduction",
+  "sourceUrl": "https://github.com/n57d30top/sovryn-os-v3",
+  "claim": "External safe computational claim 010 in family repo_test_reproduction has enough evidence fields for a bounded claim-safety decision.",
+  "riskLabel": "high",
+  "selectedForScreening": true,
+  "safetyScope": "public safe computational artifact",
+  "predictionId": "EXT-FB-10",
+  "requiredEvidenceFields": [
+    "source_url",
+    "claim_family",
+    "claim_text",
+    "baseline_or_control",
+    "replay_plan",
+    "limitations"
+  ],
+  "expectedPresentFields": [
+    "source_url",
+    "claim_family",
+    "claim_text",
+    "baseline_or_control"
+  ],
+  "expectedMissingFields": [
+    "replay_plan",
+    "limitations"
+  ],
+  "predictedLabel": "blocked",
+  "expectedFalsifier": "Observed fields support a materially different claim-safety label.",
+  "negativeControl": "Remove a required field or use a shuffled/control case.",
+  "replayPlan": "Repeat evidence collection or rerun package/dataset check.",
+  "frozenTimestamp": "2026-05-06T18:13:32Z",
+  "noEditRule": "Frozen before audit execution.",
+  "preregistrationHash": "b1878274558c08bae5f9c93314f34057aa8edb93a466e512c382374acf477d5f"
+}

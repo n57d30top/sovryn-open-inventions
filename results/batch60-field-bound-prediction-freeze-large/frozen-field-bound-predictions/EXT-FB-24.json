@@ -1,0 +1,32 @@
+{
+  "claimId": "EC-024",
+  "claimFamily": "protocol_evaluation",
+  "sourceUrl": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html",
+  "claim": "External safe computational claim 024 in family protocol_evaluation has enough evidence fields for a bounded claim-safety decision.",
+  "riskLabel": "low",
+  "selectedForScreening": true,
+  "safetyScope": "public safe computational artifact",
+  "predictionId": "EXT-FB-24",
+  "requiredEvidenceFields": [
+    "source_url",
+    "claim_family",
+    "claim_text",
+    "baseline_or_control",
+    "replay_plan",
+    "limitations"
+  ],
+  "expectedPresentFields": [
+    "source_url",
+    "claim_family",
+    "claim_text",
+    "baseline_or_control"
+  ],
+  "expectedMissingFields": [],
+  "predictedLabel": "allowed",
+  "expectedFalsifier": "Observed fields support a materially different claim-safety label.",
+  "negativeControl": "Remove a required field or use a shuffled/control case.",
+  "replayPlan": "Repeat evidence collection or rerun package/dataset check.",
+  "frozenTimestamp": "2026-05-06T18:13:32Z",
+  "noEditRule": "Frozen before audit execution.",
+  "preregistrationHash": "0ffa8d406b649d577a3d8e8ca0ad788d377a72f22670ab4dd594679a72e85faf"
+}

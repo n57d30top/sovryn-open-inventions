@@ -1,0 +1,33 @@
+{
+  "kind": "intervention_candidate_generation_summary",
+  "slug": "batch77-intervention-candidate-generation",
+  "title": "Batch 77 Intervention Candidate Generation",
+  "resultKind": "intervention_candidate_generation",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 90,
+  "reproducibilityScore": 88,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 94,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "passes_falsification",
+  "baselineComparisonPresent": true,
+  "scientificMemoryUpdated": true,
+  "scientificQuestion": "Can Required Evidence Field Boundary remain predictive and useful on fresh external safe computational claims?",
+  "domain": "external field-bound claim safety",
+  "limitations": [
+    "Bounded safe computational evidence only.",
+    "Claim-safety labels are decision aids, not proof.",
+    "Weak, partial, failed, and not-testable cases are preserved."
+  ],
+  "interventionCandidateCount": 15,
+  "selectedInterventionCount": 8,
+  "frozenInterventionPredictionCount": 8,
+  "evidenceHash": "40c6eda35bf5ff75a53aae23a05eb9f7b16944adccb4faa43a8c68f6be3a1dc8"
+}

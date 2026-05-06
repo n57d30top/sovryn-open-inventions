@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_domain_summary",
-  "updatedAt": "2026-05-06T17:55:43.838Z",
+  "updatedAt": "2026-05-06T18:15:17.924Z",
   "domainCounts": {
     "autonomous-research-production-continuity": 2,
     "autonomous-research-production-strategy": 1,
@@ -17,6 +17,7 @@
     "dataset-and-metric-validation": 1,
     "dataset-schema-provenance-auditing": 1,
     "energy-data-quality": 8,
+    "external field-bound claim safety": 24,
     "field-bound claim safety": 6,
     "field-grade-scientific-autonomy": 3,
     "formal predictive mechanism science": 6,
@@ -54,5 +55,5 @@
     "time-series-tabular-benchmark": 1,
     "tool-backed-dataset-quality-audit": 1
   },
-  "evidenceHash": "46a705f73e9f27c56b97af0867a79fb9a68cfa665117040f76e387a4acfbe9ff"
+  "evidenceHash": "738ac6e030b4ae79b02dc8d8cad1de9393aba22f003d91533639cf71e08ede7d"
 }

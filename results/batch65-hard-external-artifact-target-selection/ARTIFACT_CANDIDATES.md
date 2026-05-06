@@ -1,0 +1,34 @@
+# Artifact Candidates
+
+| Artifact | Family | Selected |
+| --- | --- | --- |
+| ART-01 | public_repo_tests | True |
+| ART-02 | benchmark_dataset | True |
+| ART-03 | time_series_dataset | True |
+| ART-04 | package_install_test | True |
+| ART-05 | scientific_dataset_reliability | True |
+| ART-06 | public_repo_tests | True |
+| ART-07 | benchmark_dataset | True |
+| ART-08 | time_series_dataset | True |
+| ART-09 | package_install_test | True |
+| ART-10 | scientific_dataset_reliability | True |
+| ART-11 | public_repo_tests | True |
+| ART-12 | benchmark_dataset | True |
+| ART-13 | time_series_dataset | False |
+| ART-14 | package_install_test | False |
+| ART-15 | scientific_dataset_reliability | False |
+| ART-16 | public_repo_tests | False |
+| ART-17 | benchmark_dataset | False |
+| ART-18 | time_series_dataset | False |
+| ART-19 | package_install_test | False |
+| ART-20 | scientific_dataset_reliability | False |
+| ART-21 | public_repo_tests | False |
+| ART-22 | benchmark_dataset | False |
+| ART-23 | time_series_dataset | False |
+| ART-24 | package_install_test | False |
+| ART-25 | scientific_dataset_reliability | False |
+| ART-26 | public_repo_tests | False |
+| ART-27 | benchmark_dataset | False |
+| ART-28 | time_series_dataset | False |
+| ART-29 | package_install_test | False |
+| ART-30 | scientific_dataset_reliability | False |

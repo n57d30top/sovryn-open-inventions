@@ -1,0 +1,13 @@
+{
+  "slug": "batch61-external-claim-audit-wave-1",
+  "resultKind": "external_claim_audit_wave_1",
+  "checkedAt": "2026-05-06T18:13:32Z",
+  "executedAuditCount": 15,
+  "claimFamilyCount": 8,
+  "realEvidenceCheckCount": 10,
+  "installProvisionExecutionAttempts": 6,
+  "replayAttemptOrFailureCount": 4,
+  "baselineNegativeControlCount": 5,
+  "wrongPartialInconclusiveCount": 10,
+  "blockDowngradeNotTestableCount": 7
+}

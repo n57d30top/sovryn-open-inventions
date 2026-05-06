@@ -1,0 +1,41 @@
+{
+  "kind": "hard_external_evidence_atlas_summary",
+  "slug": "batch70-hard-external-evidence-atlas",
+  "title": "Batch 70 Hard External Evidence Atlas",
+  "resultKind": "hard_external_evidence_atlas",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 90,
+  "reproducibilityScore": 88,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 94,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "passes_falsification",
+  "baselineComparisonPresent": true,
+  "scientificMemoryUpdated": true,
+  "scientificQuestion": "Can Required Evidence Field Boundary remain predictive and useful on fresh external safe computational claims?",
+  "domain": "external field-bound claim safety",
+  "limitations": [
+    "Bounded safe computational evidence only.",
+    "Claim-safety labels are decision aids, not proof.",
+    "Weak, partial, failed, and not-testable cases are preserved."
+  ],
+  "synthesizedBatches": [
+    "batch65",
+    "batch66",
+    "batch67",
+    "batch68",
+    "batch69"
+  ],
+  "artifactIncludedCount": 12,
+  "artifactFamilyCount": 5,
+  "failurePartialCount": 7,
+  "claimDecisionCount": 16,
+  "evidenceHash": "fb23d8fb6f3188ab981a0face7ee3ebd40934e525cd95e9686268b3562b11859"
+}

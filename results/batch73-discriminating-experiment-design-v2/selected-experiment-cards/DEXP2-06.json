@@ -1,0 +1,16 @@
+{
+  "experimentId": "DEXP2-06",
+  "domain": "conceptual_principle",
+  "target": "external_target_06",
+  "principles": [
+    "RP2-01",
+    "RP2-02",
+    "RP2-03",
+    "RP2-04"
+  ],
+  "expectedWeakenFavored": false,
+  "lowRiskControl": false,
+  "crossDomain": false,
+  "frozen": true,
+  "preregistrationHash": "d38093820a9169e41f8e0aee46d1d38459d2dbff6480546546d03b2be22bde0d"
+}

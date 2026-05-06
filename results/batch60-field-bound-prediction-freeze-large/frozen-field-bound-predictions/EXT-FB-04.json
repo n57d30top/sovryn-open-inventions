@@ -1,0 +1,35 @@
+{
+  "claimId": "EC-004",
+  "claimFamily": "tool_usefulness",
+  "sourceUrl": "https://github.com/pallets/markupsafe",
+  "claim": "External safe computational claim 004 in family tool_usefulness has enough evidence fields for a bounded claim-safety decision.",
+  "riskLabel": "low",
+  "selectedForScreening": true,
+  "safetyScope": "public safe computational artifact",
+  "predictionId": "EXT-FB-04",
+  "requiredEvidenceFields": [
+    "source_url",
+    "claim_family",
+    "claim_text",
+    "baseline_or_control",
+    "replay_plan",
+    "limitations"
+  ],
+  "expectedPresentFields": [
+    "source_url",
+    "claim_family",
+    "claim_text",
+    "baseline_or_control"
+  ],
+  "expectedMissingFields": [
+    "replay_plan",
+    "limitations"
+  ],
+  "predictedLabel": "blocked",
+  "expectedFalsifier": "Observed fields support a materially different claim-safety label.",
+  "negativeControl": "Remove a required field or use a shuffled/control case.",
+  "replayPlan": "Repeat evidence collection or rerun package/dataset check.",
+  "frozenTimestamp": "2026-05-06T18:13:32Z",
+  "noEditRule": "Frozen before audit execution.",
+  "preregistrationHash": "aac72d5f5e87fbd6821d579e205aff09cfc564158c24a1d516a367bef116d019"
+}

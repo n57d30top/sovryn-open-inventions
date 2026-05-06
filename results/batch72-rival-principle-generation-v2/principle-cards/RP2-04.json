@@ -1,0 +1,28 @@
+{
+  "principleId": "RP2-04",
+  "name": "Hard Evidence Dominance",
+  "confidence": "bounded",
+  "definition": "Hard Evidence Dominance explains claim-safety outcomes under external evidence pressure.",
+  "mechanism": "claim decisions change when required fields, burden, and domain mapping conflict",
+  "variables": [
+    "missing_fields",
+    "execution_depth",
+    "baseline_strength",
+    "domain_mapping"
+  ],
+  "examples": [
+    "external dataset claim",
+    "repo runtime claim"
+  ],
+  "nonExamples": [
+    "unsupported slogan",
+    "metric-only claim"
+  ],
+  "predictions": [
+    "field burden will narrow at least one rule"
+  ],
+  "falsifiers": [
+    "simple checklist fully dominates field-bound review"
+  ],
+  "scope": "safe public computational claims"
+}

@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T17:55:43.838Z",
+  "updatedAt": "2026-05-06T18:15:17.924Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -521,6 +521,13 @@
       ]
     },
     {
+      "versionGroup": "batch59-external-claim-universe-mining",
+      "latestSlug": "batch59-external-claim-universe-mining",
+      "resultSlugs": [
+        "batch59-external-claim-universe-mining"
+      ]
+    },
+    {
       "versionGroup": "batch6-diamonds-data-quality-netoff-ladder",
       "latestSlug": "batch6-diamonds-data-quality-netoff-ladder",
       "resultSlugs": [
@@ -539,6 +546,76 @@
       "latestSlug": "batch6-uci-concrete-baseline-reproduction-ladder",
       "resultSlugs": [
         "batch6-uci-concrete-baseline-reproduction-ladder"
+      ]
+    },
+    {
+      "versionGroup": "batch60-field-bound-prediction-freeze-large",
+      "latestSlug": "batch60-field-bound-prediction-freeze-large",
+      "resultSlugs": [
+        "batch60-field-bound-prediction-freeze-large"
+      ]
+    },
+    {
+      "versionGroup": "batch61-external-claim-audit-wave-1",
+      "latestSlug": "batch61-external-claim-audit-wave-1",
+      "resultSlugs": [
+        "batch61-external-claim-audit-wave-1"
+      ]
+    },
+    {
+      "versionGroup": "batch62-external-claim-audit-wave-2",
+      "latestSlug": "batch62-external-claim-audit-wave-2",
+      "resultSlugs": [
+        "batch62-external-claim-audit-wave-2"
+      ]
+    },
+    {
+      "versionGroup": "batch63-human-readable-claim-review-package",
+      "latestSlug": "batch63-human-readable-claim-review-package",
+      "resultSlugs": [
+        "batch63-human-readable-claim-review-package"
+      ]
+    },
+    {
+      "versionGroup": "batch64-external-claim-kill-week",
+      "latestSlug": "batch64-external-claim-kill-week",
+      "resultSlugs": [
+        "batch64-external-claim-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "batch65-hard-external-artifact-target-selection",
+      "latestSlug": "batch65-hard-external-artifact-target-selection",
+      "resultSlugs": [
+        "batch65-hard-external-artifact-target-selection"
+      ]
+    },
+    {
+      "versionGroup": "batch66-repo-test-reproduction-hard-wave",
+      "latestSlug": "batch66-repo-test-reproduction-hard-wave",
+      "resultSlugs": [
+        "batch66-repo-test-reproduction-hard-wave"
+      ]
+    },
+    {
+      "versionGroup": "batch67-dataset-benchmark-hard-wave",
+      "latestSlug": "batch67-dataset-benchmark-hard-wave",
+      "resultSlugs": [
+        "batch67-dataset-benchmark-hard-wave"
+      ]
+    },
+    {
+      "versionGroup": "batch68-timeseries-temporal-hard-wave",
+      "latestSlug": "batch68-timeseries-temporal-hard-wave",
+      "resultSlugs": [
+        "batch68-timeseries-temporal-hard-wave"
+      ]
+    },
+    {
+      "versionGroup": "batch69-tool-and-concept-claim-hard-wave",
+      "latestSlug": "batch69-tool-and-concept-claim-hard-wave",
+      "resultSlugs": [
+        "batch69-tool-and-concept-claim-hard-wave"
       ]
     },
     {
@@ -563,10 +640,101 @@
       ]
     },
     {
+      "versionGroup": "batch70-hard-external-evidence-atlas",
+      "latestSlug": "batch70-hard-external-evidence-atlas",
+      "resultSlugs": [
+        "batch70-hard-external-evidence-atlas"
+      ]
+    },
+    {
+      "versionGroup": "batch71-external-anomaly-and-assumption-mining",
+      "latestSlug": "batch71-external-anomaly-and-assumption-mining",
+      "resultSlugs": [
+        "batch71-external-anomaly-and-assumption-mining"
+      ]
+    },
+    {
+      "versionGroup": "batch72-rival-principle-generation",
+      "latestSlug": "batch72-rival-principle-generation-v2",
+      "resultSlugs": [
+        "batch72-rival-principle-generation-v2"
+      ]
+    },
+    {
+      "versionGroup": "batch73-discriminating-experiment-design",
+      "latestSlug": "batch73-discriminating-experiment-design-v2",
+      "resultSlugs": [
+        "batch73-discriminating-experiment-design-v2"
+      ]
+    },
+    {
+      "versionGroup": "batch74-surprise-prediction-tournament",
+      "latestSlug": "batch74-surprise-prediction-tournament-v2",
+      "resultSlugs": [
+        "batch74-surprise-prediction-tournament-v2"
+      ]
+    },
+    {
+      "versionGroup": "batch75-cross-domain-principle-transfer",
+      "latestSlug": "batch75-cross-domain-principle-transfer-v2",
+      "resultSlugs": [
+        "batch75-cross-domain-principle-transfer-v2"
+      ]
+    },
+    {
+      "versionGroup": "batch76-conceptual-discovery-paper",
+      "latestSlug": "batch76-conceptual-discovery-paper-v2",
+      "resultSlugs": [
+        "batch76-conceptual-discovery-paper-v2"
+      ]
+    },
+    {
+      "versionGroup": "batch77-intervention-candidate-generation",
+      "latestSlug": "batch77-intervention-candidate-generation",
+      "resultSlugs": [
+        "batch77-intervention-candidate-generation"
+      ]
+    },
+    {
+      "versionGroup": "batch78-claim-safety-intervention-wave-1",
+      "latestSlug": "batch78-claim-safety-intervention-wave-1",
+      "resultSlugs": [
+        "batch78-claim-safety-intervention-wave-1"
+      ]
+    },
+    {
+      "versionGroup": "batch79-claim-safety-intervention-wave-2",
+      "latestSlug": "batch79-claim-safety-intervention-wave-2",
+      "resultSlugs": [
+        "batch79-claim-safety-intervention-wave-2"
+      ]
+    },
+    {
       "versionGroup": "batch8-tool-reuse-failure-benchmark",
       "latestSlug": "batch8-tool-reuse-failure-benchmark",
       "resultSlugs": [
         "batch8-tool-reuse-failure-benchmark"
+      ]
+    },
+    {
+      "versionGroup": "batch80-useful-tool-or-standard-candidate",
+      "latestSlug": "batch80-useful-tool-or-standard-candidate",
+      "resultSlugs": [
+        "batch80-useful-tool-or-standard-candidate"
+      ]
+    },
+    {
+      "versionGroup": "batch81-adversarial-discovery-kill-week",
+      "latestSlug": "batch81-adversarial-discovery-kill-week",
+      "resultSlugs": [
+        "batch81-adversarial-discovery-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "batch82-next-frontier-synthesis-and-einstein-score",
+      "latestSlug": "batch82-next-frontier-synthesis-and-einstein-score",
+      "resultSlugs": [
+        "batch82-next-frontier-synthesis-and-einstein-score"
       ]
     },
     {
@@ -766,5 +934,5 @@
       ]
     }
   ],
-  "evidenceHash": "4e762783d36dbd38e3732595eba6e5a522f0a1048e416541563a64ed93698f9f"
+  "evidenceHash": "f54a35b7e0e6e0766519a7de4ea3b1f87868cd392d1d8ca71825753934a3730d"
 }

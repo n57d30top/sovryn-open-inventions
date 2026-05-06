@@ -1,0 +1,32 @@
+{
+  "claimId": "EC-021",
+  "claimFamily": "time_series_temporal",
+  "sourceUrl": "https://www.statsmodels.org/dev/datasets/generated/sunspots.html",
+  "claim": "External safe computational claim 021 in family time_series_temporal has enough evidence fields for a bounded claim-safety decision.",
+  "riskLabel": "moderate",
+  "selectedForScreening": true,
+  "safetyScope": "public safe computational artifact",
+  "predictionId": "EXT-FB-21",
+  "requiredEvidenceFields": [
+    "source_url",
+    "claim_family",
+    "claim_text",
+    "baseline_or_control",
+    "replay_plan",
+    "limitations"
+  ],
+  "expectedPresentFields": [
+    "source_url",
+    "claim_family",
+    "claim_text",
+    "baseline_or_control"
+  ],
+  "expectedMissingFields": [],
+  "predictedLabel": "allowed",
+  "expectedFalsifier": "Observed fields support a materially different claim-safety label.",
+  "negativeControl": "Remove a required field or use a shuffled/control case.",
+  "replayPlan": "Repeat evidence collection or rerun package/dataset check.",
+  "frozenTimestamp": "2026-05-06T18:13:32Z",
+  "noEditRule": "Frozen before audit execution.",
+  "preregistrationHash": "d962c36cb68971276d865a492985ff80fdee00d50ab17327778ac968155f5b58"
+}

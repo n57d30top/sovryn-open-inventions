@@ -1,0 +1,16 @@
+{
+  "experimentId": "DEXP2-05",
+  "domain": "time_series_temporal",
+  "target": "external_target_05",
+  "principles": [
+    "RP2-01",
+    "RP2-02",
+    "RP2-03",
+    "RP2-04"
+  ],
+  "expectedWeakenFavored": false,
+  "lowRiskControl": false,
+  "crossDomain": false,
+  "frozen": true,
+  "preregistrationHash": "73c5e9023cae1604819646cfeb9181c4bbb2463a77e435912a9f8388d136ce22"
+}

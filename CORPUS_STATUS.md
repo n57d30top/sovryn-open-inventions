@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 121
+Results: 145
 
 ## Lifecycle Counts
 
-- autopublished: 90
+- autopublished: 114
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -86,13 +86,37 @@ Results: 121
 - batch56-cross-domain-field-bound-transfer: latest batch56-cross-domain-field-bound-transfer; batch56-cross-domain-field-bound-transfer
 - batch57-field-bound-kill-week: latest batch57-field-bound-kill-week; batch57-field-bound-kill-week
 - batch58-field-bound-claim-safety-standard: latest batch58-field-bound-claim-safety-standard; batch58-field-bound-claim-safety-standard
+- batch59-external-claim-universe-mining: latest batch59-external-claim-universe-mining; batch59-external-claim-universe-mining
 - batch6-diamonds-data-quality-netoff-ladder: latest batch6-diamonds-data-quality-netoff-ladder; batch6-diamonds-data-quality-netoff-ladder
 - batch6-scikit-learn-iris-reproduction-ladder: latest batch6-scikit-learn-iris-reproduction-ladder; batch6-scikit-learn-iris-reproduction-ladder
 - batch6-uci-concrete-baseline-reproduction-ladder: latest batch6-uci-concrete-baseline-reproduction-ladder; batch6-uci-concrete-baseline-reproduction-ladder
+- batch60-field-bound-prediction-freeze-large: latest batch60-field-bound-prediction-freeze-large; batch60-field-bound-prediction-freeze-large
+- batch61-external-claim-audit-wave-1: latest batch61-external-claim-audit-wave-1; batch61-external-claim-audit-wave-1
+- batch62-external-claim-audit-wave-2: latest batch62-external-claim-audit-wave-2; batch62-external-claim-audit-wave-2
+- batch63-human-readable-claim-review-package: latest batch63-human-readable-claim-review-package; batch63-human-readable-claim-review-package
+- batch64-external-claim-kill-week: latest batch64-external-claim-kill-week; batch64-external-claim-kill-week
+- batch65-hard-external-artifact-target-selection: latest batch65-hard-external-artifact-target-selection; batch65-hard-external-artifact-target-selection
+- batch66-repo-test-reproduction-hard-wave: latest batch66-repo-test-reproduction-hard-wave; batch66-repo-test-reproduction-hard-wave
+- batch67-dataset-benchmark-hard-wave: latest batch67-dataset-benchmark-hard-wave; batch67-dataset-benchmark-hard-wave
+- batch68-timeseries-temporal-hard-wave: latest batch68-timeseries-temporal-hard-wave; batch68-timeseries-temporal-hard-wave
+- batch69-tool-and-concept-claim-hard-wave: latest batch69-tool-and-concept-claim-hard-wave; batch69-tool-and-concept-claim-hard-wave
 - batch7-banknote-metric-stress-validator: latest batch7-banknote-metric-stress-validator; batch7-banknote-metric-stress-validator
 - batch7-pluggy-pytest-repro-summary-tool: latest batch7-pluggy-pytest-repro-summary-tool; batch7-pluggy-pytest-repro-summary-tool
 - batch7-wine-quality-schema-provenance-tool: latest batch7-wine-quality-schema-provenance-tool; batch7-wine-quality-schema-provenance-tool
+- batch70-hard-external-evidence-atlas: latest batch70-hard-external-evidence-atlas; batch70-hard-external-evidence-atlas
+- batch71-external-anomaly-and-assumption-mining: latest batch71-external-anomaly-and-assumption-mining; batch71-external-anomaly-and-assumption-mining
+- batch72-rival-principle-generation: latest batch72-rival-principle-generation-v2; batch72-rival-principle-generation-v2
+- batch73-discriminating-experiment-design: latest batch73-discriminating-experiment-design-v2; batch73-discriminating-experiment-design-v2
+- batch74-surprise-prediction-tournament: latest batch74-surprise-prediction-tournament-v2; batch74-surprise-prediction-tournament-v2
+- batch75-cross-domain-principle-transfer: latest batch75-cross-domain-principle-transfer-v2; batch75-cross-domain-principle-transfer-v2
+- batch76-conceptual-discovery-paper: latest batch76-conceptual-discovery-paper-v2; batch76-conceptual-discovery-paper-v2
+- batch77-intervention-candidate-generation: latest batch77-intervention-candidate-generation; batch77-intervention-candidate-generation
+- batch78-claim-safety-intervention-wave-1: latest batch78-claim-safety-intervention-wave-1; batch78-claim-safety-intervention-wave-1
+- batch79-claim-safety-intervention-wave-2: latest batch79-claim-safety-intervention-wave-2; batch79-claim-safety-intervention-wave-2
 - batch8-tool-reuse-failure-benchmark: latest batch8-tool-reuse-failure-benchmark; batch8-tool-reuse-failure-benchmark
+- batch80-useful-tool-or-standard-candidate: latest batch80-useful-tool-or-standard-candidate; batch80-useful-tool-or-standard-candidate
+- batch81-adversarial-discovery-kill-week: latest batch81-adversarial-discovery-kill-week; batch81-adversarial-discovery-kill-week
+- batch82-next-frontier-synthesis-and-einstein-score: latest batch82-next-frontier-synthesis-and-einstein-score; batch82-next-frontier-synthesis-and-einstein-score
 - batch9-uci-dry-bean-deep-toolchain-study: latest batch9-uci-dry-bean-deep-toolchain-study; batch9-uci-dry-bean-deep-toolchain-study
 - chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an: latest chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl; chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl
 - chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconf: latest chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-; chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-

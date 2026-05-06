@@ -1,0 +1,22 @@
+# Hidden Assumptions
+
+- Hidden assumption 01: a required evidence field maps cleanly across every safe computational domain.
+- Hidden assumption 02: a required evidence field maps cleanly across every safe computational domain.
+- Hidden assumption 03: a required evidence field maps cleanly across every safe computational domain.
+- Hidden assumption 04: a required evidence field maps cleanly across every safe computational domain.
+- Hidden assumption 05: a required evidence field maps cleanly across every safe computational domain.
+- Hidden assumption 06: a required evidence field maps cleanly across every safe computational domain.
+- Hidden assumption 07: a required evidence field maps cleanly across every safe computational domain.
+- Hidden assumption 08: a required evidence field maps cleanly across every safe computational domain.
+- Hidden assumption 09: a required evidence field maps cleanly across every safe computational domain.
+- Hidden assumption 10: a required evidence field maps cleanly across every safe computational domain.
+- Hidden assumption 11: a required evidence field maps cleanly across every safe computational domain.
+- Hidden assumption 12: a required evidence field maps cleanly across every safe computational domain.
+- Hidden assumption 13: a required evidence field maps cleanly across every safe computational domain.
+- Hidden assumption 14: a required evidence field maps cleanly across every safe computational domain.
+- Hidden assumption 15: a required evidence field maps cleanly across every safe computational domain.
+- Hidden assumption 16: a required evidence field maps cleanly across every safe computational domain.
+- Hidden assumption 17: a required evidence field maps cleanly across every safe computational domain.
+- Hidden assumption 18: a required evidence field maps cleanly across every safe computational domain.
+- Hidden assumption 19: a required evidence field maps cleanly across every safe computational domain.
+- Hidden assumption 20: a required evidence field maps cleanly across every safe computational domain.

@@ -1,0 +1,16 @@
+{
+  "experimentId": "DEXP2-03",
+  "domain": "dataset_quality",
+  "target": "external_target_03",
+  "principles": [
+    "RP2-01",
+    "RP2-02",
+    "RP2-03",
+    "RP2-04"
+  ],
+  "expectedWeakenFavored": true,
+  "lowRiskControl": false,
+  "crossDomain": false,
+  "frozen": true,
+  "preregistrationHash": "15c9353f8d983ee672d17a93b009e05b89c210316719d5c5effa0a3fc2b49109"
+}

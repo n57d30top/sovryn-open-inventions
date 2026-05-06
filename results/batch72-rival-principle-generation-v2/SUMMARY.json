@@ -1,0 +1,33 @@
+{
+  "kind": "rival_principle_generation_v2_summary",
+  "slug": "batch72-rival-principle-generation-v2",
+  "title": "Batch 72 Rival Principle Generation v2",
+  "resultKind": "rival_principle_generation_v2",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 90,
+  "reproducibilityScore": 88,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 94,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "passes_falsification",
+  "baselineComparisonPresent": true,
+  "scientificMemoryUpdated": true,
+  "scientificQuestion": "Can Required Evidence Field Boundary remain predictive and useful on fresh external safe computational claims?",
+  "domain": "external field-bound claim safety",
+  "limitations": [
+    "Bounded safe computational evidence only.",
+    "Claim-safety labels are decision aids, not proof.",
+    "Weak, partial, failed, and not-testable cases are preserved."
+  ],
+  "principleCandidateCount": 20,
+  "principleCardCount": 8,
+  "selectedRivalPrincipleCount": 4,
+  "evidenceHash": "ee8afd45ca4745a0f0efb6393d24d18bb1a0eb9a10480f0f91fc8e716deea390"
+}

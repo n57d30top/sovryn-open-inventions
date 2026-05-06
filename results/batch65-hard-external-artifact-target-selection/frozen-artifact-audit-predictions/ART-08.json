@@ -1,0 +1,10 @@
+{
+  "artifactId": "ART-08",
+  "family": "time_series_dataset",
+  "sourceUrl": "https://scikit-learn.org/stable/datasets/toy_dataset.html",
+  "selected": true,
+  "prediction": "allowed_with_caveats",
+  "frozenTimestamp": "2026-05-06T18:13:32Z",
+  "noEditRule": "frozen before hard wave execution",
+  "preregistrationHash": "e8ee56a4dbc60e2d0f8f96779d1d246be42d18788d9fc35ca003ed63b0c71c58"
+}

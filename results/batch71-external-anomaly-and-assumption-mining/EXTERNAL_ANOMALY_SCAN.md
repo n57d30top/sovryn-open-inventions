@@ -1,0 +1,32 @@
+# External Anomaly Scan
+
+- External anomaly 01: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 02: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 03: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 04: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 05: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 06: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 07: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 08: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 09: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 10: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 11: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 12: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 13: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 14: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 15: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 16: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 17: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 18: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 19: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 20: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 21: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 22: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 23: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 24: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 25: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 26: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 27: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 28: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 29: field-bound decision was useful but required domain-specific burden calibration.
+- External anomaly 30: field-bound decision was useful but required domain-specific burden calibration.
