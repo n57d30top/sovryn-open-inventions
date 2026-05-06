@@ -21,7 +21,7 @@
   <header>
     <h1>Sovryn Open Inventions Corpus</h1>
     <p class="notice">Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.</p>
-    <p class="meta">Results: 62. Showcase: <a href="showcase.html">showcase.html</a>. Science studies: <a href="science.html">science.html</a>. Public API: <a href="corpus.json">corpus.json</a>, <a href="search-index.json">search-index.json</a>.</p>
+    <p class="meta">Results: 65. Showcase: <a href="showcase.html">showcase.html</a>. Science studies: <a href="science.html">science.html</a>. Public API: <a href="corpus.json">corpus.json</a>, <a href="search-index.json">search-index.json</a>.</p>
     <p class="meta">Public beta readers should start with showcase results, verification notes, limitations, and reproducibility artifacts before interpreting any result.</p>
   </header>
   <main>
@@ -193,6 +193,24 @@
   <p class="meta">tabular-benchmark-baseline-dominance · good · autopublished · batch5-uci-letter-recognition-baseline-challenge</p>
   <p>UCI Letter Recognition Vowel Benchmark Negative Challenge is an executed Batch 5 external research production result. It prioritizes depth over result count and uses existing Sovryn publication capabilities rather than a new framework layer.</p>
   <p><span class="badge">good</span><span class="badge">benchmark_challenge_negative_result</span><span class="badge">review_ready</span><span class="badge">replay-100</span><span class="badge">safety-passed</span><span class="badge">hygiene-passed</span><span class="badge">container-netoff</span><span class="badge">candidate_rejected_by_falsification</span><span class="badge">autopublished</span><span class="badge">batch5-uci-letter-recognition-baseline-challenge</span><span class="badge">not-showcase</span></p>
+</article>
+<article class="card">
+  <h2><a href="results/batch6-diamonds-data-quality-netoff-ladder.html">seaborn-data Diamonds Network-Off Quality Reproduction Ladder</a></h2>
+  <p class="meta">public-dataset-quality-audit · good · autopublished · batch6-diamonds-data-quality-netoff-ladder</p>
+  <p>Sovryn downloaded the public seaborn-data diamonds CSV, then replayed the audit under a container-netoff-equivalent sandbox-exec profile with network access denied. The audit confirmed duplicate rows and nonpositive dimension values, so the result is a useful negative data-quality finding rather than a clean-data claim.</p>
+  <p><span class="badge">good</span><span class="badge">autopublished</span><span class="badge">review_ready</span><span class="badge">replay-100</span><span class="badge">safety-passed</span><span class="badge">hygiene-passed</span><span class="badge">container-netoff</span><span class="badge">passes_falsification</span><span class="badge">autopublished</span><span class="badge">batch6-diamonds-data-quality-netoff-ladder</span><span class="badge">not-showcase</span></p>
+</article>
+<article class="card">
+  <h2><a href="results/batch6-scikit-learn-iris-reproduction-ladder.html">scikit-learn Iris Example Reproduction Ladder</a></h2>
+  <p class="meta">ml-repository-reproduction · good · autopublished · batch6-scikit-learn-iris-reproduction-ladder</p>
+  <p>Sovryn provisioned scikit-learn 1.8.0, executed a bounded Iris classification smoke reproduction, compared a most-frequent dummy baseline with LogisticRegression and a shallow decision tree, and marked the result partial because the full upstream repository test suite was not run.</p>
+  <p><span class="badge">good</span><span class="badge">autopublished</span><span class="badge">review_ready</span><span class="badge">replay-100</span><span class="badge">safety-passed</span><span class="badge">hygiene-passed</span><span class="badge">sandbox-local</span><span class="badge">passes_falsification</span><span class="badge">autopublished</span><span class="badge">batch6-scikit-learn-iris-reproduction-ladder</span><span class="badge">not-showcase</span></p>
+</article>
+<article class="card">
+  <h2><a href="results/batch6-uci-concrete-baseline-reproduction-ladder.html">UCI Concrete Strength Baseline Reproduction Ladder</a></h2>
+  <p class="meta">tabular-regression-benchmark · good · autopublished · batch6-uci-concrete-baseline-reproduction-ladder</p>
+  <p>Sovryn provisioned ucimlrepo, pandas and scikit-learn, loaded the UCI Concrete Compressive Strength dataset, executed an 80/20 regression baseline comparison, and found that RandomForestRegressor beat mean and median dummy baselines on the selected split.</p>
+  <p><span class="badge">good</span><span class="badge">autopublished</span><span class="badge">review_ready</span><span class="badge">replay-100</span><span class="badge">safety-passed</span><span class="badge">hygiene-passed</span><span class="badge">sandbox-local</span><span class="badge">passes_falsification</span><span class="badge">autopublished</span><span class="badge">batch6-uci-concrete-baseline-reproduction-ladder</span><span class="badge">not-showcase</span></p>
 </article>
 <article class="card">
   <h2><a href="results/chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl.html">Can safe public dataset reliability checks identify schema drift and duplicate scientific records without using private data?</a></h2>

@@ -1,11 +1,23 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-06T07:54:21.351Z",
+  "generatedAt": "2026-05-06T08:34:57.494Z",
   "sources": [
     {
       "resultSlug": "batch3-rapidfuzz-repo-install-example-reproduction",
       "sourceKind": "external_package_or_tool",
       "name": "rapidfuzz",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch6-diamonds-data-quality-netoff-ladder",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch6-uci-concrete-baseline-reproduction-ladder",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
       "publicOnly": true
     },
     {
@@ -177,5 +189,5 @@
       "publicOnly": true
     }
   ],
-  "evidenceHash": "078fdcc0dd1c2afebd168595e5f7ae57c6b48dca3e8fbe2e753e172a16dbba80"
+  "evidenceHash": "8a6ef24ea462f22fa4ad2fa715e2c977bd9cae5ff613506dcbccac5ef62fde82"
 }

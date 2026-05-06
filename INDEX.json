@@ -1,7 +1,7 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-06T07:54:21.351Z",
-  "resultCount": 62,
+  "updatedAt": "2026-05-06T08:34:57.494Z",
+  "resultCount": 65,
   "results": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -662,11 +662,9 @@
       "safetyScanPassed": true,
       "reliabilityReplayPassed": true,
       "customTool": null,
-      "workerAssurance": "venv-local-isolated",
+      "workerAssurance": "not-recorded",
       "falsificationStatus": "tests_and_examples_executed",
-      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-      "executionIncluded": true,
-      "finalResult": "external_reproduction_success"
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
       "slug": "batch4-uci-abalone-baseline-dominance-negative",
@@ -705,9 +703,7 @@
       "customTool": null,
       "workerAssurance": "container-netoff",
       "falsificationStatus": "candidate_rejected_by_falsification",
-      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-      "executionIncluded": true,
-      "finalResult": "benchmark_challenge_negative_result"
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
       "slug": "batch4-uci-bike-sharing-time-series-benchmark",
@@ -746,9 +742,7 @@
       "customTool": null,
       "workerAssurance": "container-netoff",
       "falsificationStatus": "tie_no_benchmark_win",
-      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-      "executionIncluded": true,
-      "finalResult": "external_reproduction_partial"
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
       "slug": "batch4-uci-glass-csvkit-tool-dataset-audit",
@@ -784,12 +778,10 @@
       "publicHygienePassed": true,
       "safetyScanPassed": true,
       "reliabilityReplayPassed": true,
-      "customTool": "csvkit",
-      "workerAssurance": "venv-tool-plus-container-netoff",
+      "customTool": null,
+      "workerAssurance": "container-netoff",
       "falsificationStatus": "tool_execution_and_dataset_audit_passed",
-      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-      "executionIncluded": true,
-      "finalResult": "dataset_quality_audit_supported"
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
       "slug": "batch4-uci-seeds-dataset-quality-execution",
@@ -828,9 +820,7 @@
       "customTool": null,
       "workerAssurance": "container-netoff",
       "falsificationStatus": "audited_with_limitations",
-      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-      "executionIncluded": true,
-      "finalResult": "dataset_quality_audit_supported"
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
       "slug": "batch5-itsdangerous-repo-install-test-reproduction",
@@ -867,11 +857,9 @@
       "safetyScanPassed": true,
       "reliabilityReplayPassed": true,
       "customTool": null,
-      "workerAssurance": "venv-local-isolated",
+      "workerAssurance": "not-recorded",
       "falsificationStatus": "tests_and_examples_executed",
-      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-      "executionIncluded": true,
-      "finalResult": "external_reproduction_success"
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
       "slug": "batch5-uci-air-quality-time-series-dataset-audit",
@@ -910,9 +898,7 @@
       "customTool": null,
       "workerAssurance": "container-netoff",
       "falsificationStatus": "sentinel_missingness_challenger_supported",
-      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-      "executionIncluded": true,
-      "finalResult": "dataset_quality_audit_supported"
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
       "slug": "batch5-uci-letter-recognition-baseline-challenge",
@@ -951,9 +937,124 @@
       "customTool": null,
       "workerAssurance": "container-netoff",
       "falsificationStatus": "candidate_rejected_by_falsification",
-      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-      "executionIncluded": true,
-      "finalResult": "benchmark_challenge_negative_result"
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+    },
+    {
+      "slug": "batch6-diamonds-data-quality-netoff-ladder",
+      "title": "seaborn-data Diamonds Network-Off Quality Reproduction Ladder",
+      "resultKind": "external_reproduction_ladder_result",
+      "domain": "public-dataset-quality-audit",
+      "path": "results/batch6-diamonds-data-quality-netoff-ladder",
+      "qualityLabel": "good",
+      "candidateStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch6-diamonds-data-quality-netoff-ladder",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": true,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      },
+      "revisionReason": null,
+      "humanReadableSummary": "Sovryn downloaded the public seaborn-data diamonds CSV, then replayed the audit under a container-netoff-equivalent sandbox-exec profile with network access denied. The audit confirmed duplicate rows and nonpositive dimension values, so the result is a useful negative data-quality finding rather than a clean-data claim.",
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 96,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 74,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "customTool": null,
+      "workerAssurance": "container-netoff",
+      "falsificationStatus": "passes_falsification",
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+    },
+    {
+      "slug": "batch6-scikit-learn-iris-reproduction-ladder",
+      "title": "scikit-learn Iris Example Reproduction Ladder",
+      "resultKind": "external_reproduction_ladder_result",
+      "domain": "ml-repository-reproduction",
+      "path": "results/batch6-scikit-learn-iris-reproduction-ladder",
+      "qualityLabel": "good",
+      "candidateStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch6-scikit-learn-iris-reproduction-ladder",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": true,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      },
+      "revisionReason": null,
+      "humanReadableSummary": "Sovryn provisioned scikit-learn 1.8.0, executed a bounded Iris classification smoke reproduction, compared a most-frequent dummy baseline with LogisticRegression and a shallow decision tree, and marked the result partial because the full upstream repository test suite was not run.",
+      "releaseReadinessScore": 89,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 94,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 74,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "customTool": null,
+      "workerAssurance": "sandbox-local",
+      "falsificationStatus": "passes_falsification",
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+    },
+    {
+      "slug": "batch6-uci-concrete-baseline-reproduction-ladder",
+      "title": "UCI Concrete Strength Baseline Reproduction Ladder",
+      "resultKind": "external_reproduction_ladder_result",
+      "domain": "tabular-regression-benchmark",
+      "path": "results/batch6-uci-concrete-baseline-reproduction-ladder",
+      "qualityLabel": "good",
+      "candidateStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch6-uci-concrete-baseline-reproduction-ladder",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": true,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      },
+      "revisionReason": null,
+      "humanReadableSummary": "Sovryn provisioned ucimlrepo, pandas and scikit-learn, loaded the UCI Concrete Compressive Strength dataset, executed an 80/20 regression baseline comparison, and found that RandomForestRegressor beat mean and median dummy baselines on the selected split.",
+      "releaseReadinessScore": 89,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 94,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 74,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "customTool": null,
+      "workerAssurance": "sandbox-local",
+      "falsificationStatus": "passes_falsification",
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -2530,5 +2631,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "4d631126ba9ddfbf00a9ebe0f1ca2c3cf3a3815ca319f89e2622c5211d86916e"
+  "evidenceHash": "721cf904f82c0b11cc715cbece11e259f1eb25b26bc7b39762f2f2372875cac3"
 }

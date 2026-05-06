@@ -1,0 +1,39 @@
+{
+  "slug": "batch6-scikit-learn-iris-reproduction-ladder",
+  "title": "scikit-learn Iris Example Reproduction Ladder",
+  "resultKind": "external_reproduction_ladder_result",
+  "domain": "ml-repository-reproduction",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "antiTemplateStatus": "review_ready",
+  "lifecycleStatus": "autopublished",
+  "versionGroup": "batch6-scikit-learn-iris-reproduction-ladder",
+  "releaseReadinessScore": 89,
+  "evidenceStrengthScore": 88,
+  "reproducibilityScore": 94,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 74,
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "passes_falsification",
+  "workerAssurance": "sandbox-local",
+  "targetType": "public scientific or ML repository with tests/examples",
+  "highestReproductionLadderLevel": 8,
+  "actualExecutionPerformed": "Loaded the Iris dataset through scikit-learn, ran five-fold stratified cross-validation, trained a heldout LogisticRegression pipeline, and compared against DummyClassifier and DecisionTreeClassifier.",
+  "installOrProvisioningPerformed": [
+    "scikit-learn 1.8.0"
+  ],
+  "baselineOrSmokeResult": "DummyClassifier mean accuracy 0.333; LogisticRegression mean accuracy 0.967; heldout LogisticRegression accuracy 0.967.",
+  "negativeOrPartial": true,
+  "resultLabel": "partial_reproduction_smoke_only",
+  "whatSovrynLearned": "The package install and example-scale classifier path are reproducible in this environment, but this is not a full repository reproduction because upstream tests were not run.",
+  "sourceUrls": [
+    "https://github.com/scikit-learn/scikit-learn",
+    "https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html"
+  ],
+  "humanReadableSummary": "Sovryn provisioned scikit-learn 1.8.0, executed a bounded Iris classification smoke reproduction, compared a most-frequent dummy baseline with LogisticRegression and a shallow decision tree, and marked the result partial because the full upstream repository test suite was not run.",
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+  "evidenceHash": "120b053ad37d238ce8e0cc6910cf98c1afb7adc4fd376179b5bef13f34025445"
+}

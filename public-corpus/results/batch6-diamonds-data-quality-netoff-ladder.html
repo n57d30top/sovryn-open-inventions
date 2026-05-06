@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>seaborn-data Diamonds Network-Off Quality Reproduction Ladder</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; color: #20242a; background: #ffffff; }
+    main { max-width: 900px; margin: 0 auto; padding: 28px; }
+    .score { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; }
+    .box { border: 1px solid #d8dde5; border-radius: 8px; padding: 12px; background: #f7f8fa; }
+    .notice { color: #56616f; }
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="../index.html">Back to corpus</a></p>
+    <h1>seaborn-data Diamonds Network-Off Quality Reproduction Ladder</h1>
+    <p class="notice">Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.</p>
+    <h2>Problem And Method</h2>
+    <p>Sovryn downloaded the public seaborn-data diamonds CSV, then replayed the audit under a container-netoff-equivalent sandbox-exec profile with network access denied. The audit confirmed duplicate rows and nonpositive dimension values, so the result is a useful negative data-quality finding rather than a clean-data claim.</p>
+    <h2>Evidence Profile</h2>
+    <div class="score">
+      <div class="box">Quality: good</div>
+      <div class="box">Lifecycle: autopublished</div>
+      <div class="box">Version group: batch6-diamonds-data-quality-netoff-ladder</div>
+      <div class="box">Showcase rank: not showcase</div>
+      <div class="box">Readiness: 90</div>
+      <div class="box">Evidence: 88</div>
+      <div class="box">Reproducibility: 96</div>
+      <div class="box">Safety: 98</div>
+    </div>
+    <h2>Tooling</h2>
+    <p>Custom tool: not recorded</p>
+    <p>External package/tool evidence: pandas</p>
+    <p>Worker assurance: container-netoff</p>
+    <h2>Lifecycle Notes</h2>
+    <p>Supersedes: none</p>
+    <p>Superseded by: none</p>
+    <p>Revision reason: none</p>
+    <h2>Limitations</h2>
+    <ul><li>&quot;disclaimer&quot;: &quot;Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.&quot;,</li><li>This is the bounded execution result. It is not reported as a benchmark win, full upstream reproduction, or scientific breakthrough.</li><li>The public CSV loads cleanly with no missing cells, but the audit found duplicate rows and physically suspicious zero-dimension records, making this a negative data-quality result that future examples should filter or document.</li><li>The negative outcome is that the public CSV contains duplicate rows and nonpositive dimension values. This is useful data-quality evidence, not a claim that the dataset is unusable.</li><li>Environment creation succeeded for the bounded execution path. Docker container-netoff provisioning was attempted but unavailable, so the replay used a container-netoff-equivalent sandbox-exec profile with network access denied.</li><li>Limitations</li></ul>
+    <h2>Public Artifacts</h2>
+    <ul>
+      <li><a href="../../results/batch6-diamonds-data-quality-netoff-ladder/SUMMARY.json">SUMMARY.json</a></li>
+      <li><a href="../../results/batch6-diamonds-data-quality-netoff-ladder/verification.json">verification.json</a></li>
+      <li><a href="../../results/batch6-diamonds-data-quality-netoff-ladder/AUTOPUBLISH_RECORD.json">AUTOPUBLISH_RECORD.json</a></li>
+      <li><a href="../../results/batch6-diamonds-data-quality-netoff-ladder/SHOWCASE.md">SHOWCASE.md</a></li>
+      <li><a href="../../results/batch6-diamonds-data-quality-netoff-ladder/METHOD.md">METHOD.md</a></li>
+      <li><a href="../../results/batch6-diamonds-data-quality-netoff-ladder/REPRODUCE.md">REPRODUCE.md</a></li>
+      <li><a href="../../results/batch6-diamonds-data-quality-netoff-ladder/LIMITATIONS.md">LIMITATIONS.md</a></li>
+      <li><a href="../../results/batch6-diamonds-data-quality-netoff-ladder/EXAMPLES.md">EXAMPLES.md</a></li>
+      <li><a href="../../results/batch6-diamonds-data-quality-netoff-ladder/FALSIFICATION.md">FALSIFICATION.md</a></li>
+      <li><a href="../../results/batch6-diamonds-data-quality-netoff-ladder/negative-tests/negative-tests.json">negative-tests.json</a></li>
+      <li><a href="../../results/batch6-diamonds-data-quality-netoff-ladder/release/">Curated release folder</a></li>
+    </ul>
+  </main>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "slug": "batch6-diamonds-data-quality-netoff-ladder",
+  "title": "seaborn-data Diamonds Network-Off Quality Reproduction Ladder",
+  "resultKind": "external_reproduction_ladder_result",
+  "domain": "public-dataset-quality-audit",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "antiTemplateStatus": "review_ready",
+  "lifecycleStatus": "autopublished",
+  "versionGroup": "batch6-diamonds-data-quality-netoff-ladder",
+  "releaseReadinessScore": 90,
+  "evidenceStrengthScore": 88,
+  "reproducibilityScore": 96,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 74,
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "passes_falsification",
+  "workerAssurance": "container-netoff-equivalent",
+  "targetType": "public data-quality target",
+  "highestReproductionLadderLevel": 9,
+  "actualExecutionPerformed": "Loaded 53940 CSV rows with pandas in a network-off sandbox and checked missing cells, duplicate rows, nonpositive numeric values, empty categorical values, positive carat with nonpositive dimensions, and upper-tail price count.",
+  "installOrProvisioningPerformed": [
+    "pandas 3.0.2"
+  ],
+  "baselineOrSmokeResult": "Data-quality smoke result: 146 duplicate rows, 8 rows with nonpositive x, 7 rows with nonpositive y, and 20 rows with nonpositive z.",
+  "negativeOrPartial": true,
+  "resultLabel": "data_quality_issues_confirmed_under_network_off_replay",
+  "whatSovrynLearned": "The public CSV loads cleanly with no missing cells, but the audit found duplicate rows and physically suspicious zero-dimension records, making this a negative data-quality result that future examples should filter or document.",
+  "sourceUrls": [
+    "https://github.com/mwaskom/seaborn-data",
+    "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/diamonds.csv"
+  ],
+  "humanReadableSummary": "Sovryn downloaded the public seaborn-data diamonds CSV, then replayed the audit under a container-netoff-equivalent sandbox-exec profile with network access denied. The audit confirmed duplicate rows and nonpositive dimension values, so the result is a useful negative data-quality finding rather than a clean-data claim.",
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+  "evidenceHash": "2e4ff714e2d02809c4bebe7393669e8cf17101d42e119497d11bc3976b1c0357"
+}

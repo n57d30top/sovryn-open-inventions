@@ -218,6 +218,33 @@
       "pushed": true
     },
     {
+      "slug": "batch6-diamonds-data-quality-netoff-ladder",
+      "path": "results/batch6-diamonds-data-quality-netoff-ladder",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch6-diamonds-data-quality-netoff-ladder",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch6-scikit-learn-iris-reproduction-ladder",
+      "path": "results/batch6-scikit-learn-iris-reproduction-ladder",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch6-scikit-learn-iris-reproduction-ladder",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch6-uci-concrete-baseline-reproduction-ladder",
+      "path": "results/batch6-uci-concrete-baseline-reproduction-ladder",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch6-uci-concrete-baseline-reproduction-ladder",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "path": "results/chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "status": "autopublished",
@@ -560,5 +587,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "36c447a973059fada5f0e026bd94664917894a6e6ec5f7b241176bf5ce23cff4"
+  "evidenceHash": "25f0934eed19d400ce215139aaca4eede46b59a469c0b89d51b365f7e49114fd"
 }

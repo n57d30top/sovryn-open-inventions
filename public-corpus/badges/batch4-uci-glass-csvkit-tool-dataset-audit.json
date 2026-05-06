@@ -8,7 +8,7 @@
     "replay": "replay-100",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
-    "worker": "venv-tool-plus-container-netoff",
+    "worker": "container-netoff",
     "falsification": "tool_execution_and_dataset_audit_passed",
     "lifecycle": "autopublished",
     "version": "batch4-uci-glass-csvkit-tool-dataset-audit",
@@ -16,6 +16,5 @@
   },
   "lifecycleStatus": "autopublished",
   "showcaseRank": null,
-  "evidenceHash": "0f63eb1b34f09ca50ffa3ee0ffb3026d4801c65b312ad8ff54cfc73d39e59a3e",
-  "executionIncluded": true
+  "evidenceHash": "0f63eb1b34f09ca50ffa3ee0ffb3026d4801c65b312ad8ff54cfc73d39e59a3e"
 }

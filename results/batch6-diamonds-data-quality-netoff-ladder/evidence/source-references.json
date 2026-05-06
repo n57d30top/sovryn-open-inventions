@@ -1,0 +1,17 @@
+{
+  "kind": "batch6_source_references",
+  "slug": "batch6-diamonds-data-quality-netoff-ladder",
+  "sources": [
+    {
+      "name": "seaborn-data repository",
+      "url": "https://github.com/mwaskom/seaborn-data",
+      "note": "Public repository containing example datasets used by the seaborn ecosystem."
+    },
+    {
+      "name": "diamonds.csv",
+      "url": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/diamonds.csv",
+      "note": "Public CSV audited for schema and value quality."
+    }
+  ],
+  "evidenceHash": "d184c33b7b40d7922222167ad4ae2a484f80ab16c302289d3b71f33ba494ee9d"
+}

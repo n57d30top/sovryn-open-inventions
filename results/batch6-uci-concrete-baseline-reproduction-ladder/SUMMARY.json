@@ -1,0 +1,40 @@
+{
+  "slug": "batch6-uci-concrete-baseline-reproduction-ladder",
+  "title": "UCI Concrete Strength Baseline Reproduction Ladder",
+  "resultKind": "external_reproduction_ladder_result",
+  "domain": "tabular-regression-benchmark",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "antiTemplateStatus": "review_ready",
+  "lifecycleStatus": "autopublished",
+  "versionGroup": "batch6-uci-concrete-baseline-reproduction-ladder",
+  "releaseReadinessScore": 89,
+  "evidenceStrengthScore": 88,
+  "reproducibilityScore": 94,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 74,
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "passes_falsification",
+  "workerAssurance": "sandbox-local",
+  "targetType": "public benchmark dataset with measurable baseline",
+  "highestReproductionLadderLevel": 8,
+  "actualExecutionPerformed": "Fetched UCI dataset id 165 through ucimlrepo, checked basic schema quality, split 1030 rows into train and test partitions, and ran mean, median, and RandomForestRegressor models.",
+  "installOrProvisioningPerformed": [
+    "ucimlrepo 0.0.7",
+    "pandas 3.0.2",
+    "scikit-learn 1.8.0"
+  ],
+  "baselineOrSmokeResult": "Mean baseline RMSE 15.903 and MAE 12.440; RandomForestRegressor RMSE 5.489 and MAE 3.802; RMSE delta -10.414.",
+  "negativeOrPartial": false,
+  "resultLabel": "baseline_comparison_executed",
+  "whatSovrynLearned": "On this exact split, a simple random forest substantially outperformed dummy baselines, while the data-quality pass found 25 duplicate full rows and no missing cells.",
+  "sourceUrls": [
+    "https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength"
+  ],
+  "humanReadableSummary": "Sovryn provisioned ucimlrepo, pandas and scikit-learn, loaded the UCI Concrete Compressive Strength dataset, executed an 80/20 regression baseline comparison, and found that RandomForestRegressor beat mean and median dummy baselines on the selected split.",
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+  "evidenceHash": "891f2b7a4a0d63436dff98d63cfd2b1c0a5a2257d433a3b79476287d8b839973"
+}

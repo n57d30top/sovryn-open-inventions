@@ -8,7 +8,7 @@
     "replay": "replay-100",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
-    "worker": "venv-local-isolated",
+    "worker": "not-recorded",
     "falsification": "tests_and_examples_executed",
     "lifecycle": "autopublished",
     "version": "batch4-markupsafe-repo-install-test-reproduction",
@@ -16,6 +16,5 @@
   },
   "lifecycleStatus": "autopublished",
   "showcaseRank": null,
-  "evidenceHash": "f967a10cd15eab3f7b60edae29c18b6d045aa8c6ba3be350ca3c4f30d2f828aa",
-  "executionIncluded": true
+  "evidenceHash": "f967a10cd15eab3f7b60edae29c18b6d045aa8c6ba3be350ca3c4f30d2f828aa"
 }

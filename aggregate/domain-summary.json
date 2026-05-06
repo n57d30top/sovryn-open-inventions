@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_domain_summary",
-  "updatedAt": "2026-05-06T07:54:21.351Z",
+  "updatedAt": "2026-05-06T08:34:57.494Z",
   "domainCounts": {
     "benchmark-challenge-baseline-dominance": 1,
     "chemistry-data-quality": 10,
@@ -9,10 +9,11 @@
     "computational-reproducibility-audit": 1,
     "energy-data-quality": 8,
     "field-grade-scientific-autonomy": 3,
+    "ml-repository-reproduction": 1,
     "node-toolchain-policy": 1,
     "open-invention-corpus": 3,
     "provenance-aware-data-quality-methods": 1,
-    "public-dataset-quality-audit": 4,
+    "public-dataset-quality-audit": 5,
     "public-repo-reproducibility": 2,
     "public-repo-reproducibility-audit": 2,
     "reality-grade-scientific-autonomy": 1,
@@ -27,11 +28,12 @@
     "source-evidence-extraction-benchmark": 1,
     "source-evidence-extraction-quality": 3,
     "tabular-benchmark-baseline-dominance": 2,
+    "tabular-regression-benchmark": 1,
     "time-series-anomaly-benchmark": 1,
     "time-series-benchmark-challenge": 1,
     "time-series-dataset-quality-audit": 1,
     "time-series-tabular-benchmark": 1,
     "tool-backed-dataset-quality-audit": 1
   },
-  "evidenceHash": "47f6905262ae0fcf628d1df818f171e770275183887ded87418573d030951983"
+  "evidenceHash": "85e70e1b8371378c4309fb14f259f67e339df75897cb592fa7a4114390e2b339"
 }

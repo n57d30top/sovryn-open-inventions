@@ -1,0 +1,12 @@
+{
+  "kind": "batch6_source_references",
+  "slug": "batch6-uci-concrete-baseline-reproduction-ladder",
+  "sources": [
+    {
+      "name": "UCI Concrete Compressive Strength dataset",
+      "url": "https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength",
+      "note": "Public UCI dataset with 1030 rows, eight features and concrete compressive strength target."
+    }
+  ],
+  "evidenceHash": "2e5e83ffa99d94a0771e01d65d42cb99e4c0ab52d82bd5b0c414a554d56113fb"
+}

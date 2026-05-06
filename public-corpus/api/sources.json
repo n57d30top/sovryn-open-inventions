@@ -124,6 +124,25 @@
       "customTool": null
     },
     {
+      "slug": "batch6-diamonds-data-quality-netoff-ladder",
+      "externalPackages": [
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch6-scikit-learn-iris-reproduction-ladder",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch6-uci-concrete-baseline-reproduction-ladder",
+      "externalPackages": [
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "externalPackages": [],
       "customTool": "mol-record-auditor"
@@ -360,5 +379,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "078fdcc0dd1c2afebd168595e5f7ae57c6b48dca3e8fbe2e753e172a16dbba80"
+  "evidenceHash": "8a6ef24ea462f22fa4ad2fa715e2c977bd9cae5ff613506dcbccac5ef62fde82"
 }

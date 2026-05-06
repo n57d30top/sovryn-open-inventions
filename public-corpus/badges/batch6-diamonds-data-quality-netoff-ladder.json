@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "batch6-diamonds-data-quality-netoff-ladder",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "review_ready",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "container-netoff",
+    "falsification": "passes_falsification",
+    "lifecycle": "autopublished",
+    "version": "batch6-diamonds-data-quality-netoff-ladder",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "eabc4a093ecd399224899dc61a59e5e2f6b72ff4bd0dc2c08f9482cf894045a5"
+}

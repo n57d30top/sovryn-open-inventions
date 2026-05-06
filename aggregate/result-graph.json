@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T07:54:21.351Z",
+  "generatedAt": "2026-05-06T08:34:57.494Z",
   "nodes": [
     {
       "id": "result:autonomous-research-strategy-trial",
@@ -145,6 +145,24 @@
       "kind": "result",
       "label": "UCI Letter Recognition Vowel Benchmark Negative Challenge",
       "domain": "tabular-benchmark-baseline-dominance"
+    },
+    {
+      "id": "result:batch6-diamonds-data-quality-netoff-ladder",
+      "kind": "result",
+      "label": "seaborn-data Diamonds Network-Off Quality Reproduction Ladder",
+      "domain": "public-dataset-quality-audit"
+    },
+    {
+      "id": "result:batch6-scikit-learn-iris-reproduction-ladder",
+      "kind": "result",
+      "label": "scikit-learn Iris Example Reproduction Ladder",
+      "domain": "ml-repository-reproduction"
+    },
+    {
+      "id": "result:batch6-uci-concrete-baseline-reproduction-ladder",
+      "kind": "result",
+      "label": "UCI Concrete Strength Baseline Reproduction Ladder",
+      "domain": "tabular-regression-benchmark"
     },
     {
       "id": "result:chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -460,6 +478,16 @@
       "label": "time-series-dataset-quality-audit"
     },
     {
+      "id": "domain:ml-repository-reproduction",
+      "kind": "domain",
+      "label": "ml-repository-reproduction"
+    },
+    {
+      "id": "domain:tabular-regression-benchmark",
+      "kind": "domain",
+      "label": "tabular-regression-benchmark"
+    },
+    {
       "id": "domain:chemistry-data-quality",
       "kind": "domain",
       "label": "chemistry-data-quality"
@@ -530,6 +558,11 @@
       "label": "rapidfuzz"
     },
     {
+      "id": "tool:pandas",
+      "kind": "tool",
+      "label": "pandas"
+    },
+    {
       "id": "tool:pint",
       "kind": "tool",
       "label": "pint"
@@ -538,11 +571,6 @@
       "id": "tool:numpy",
       "kind": "tool",
       "label": "numpy"
-    },
-    {
-      "id": "tool:pandas",
-      "kind": "tool",
-      "label": "pandas"
     },
     {
       "id": "tool:python-dateutil",
@@ -685,6 +713,31 @@
       "source": "result:batch5-uci-letter-recognition-baseline-challenge",
       "target": "domain:tabular-benchmark-baseline-dominance",
       "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch6-diamonds-data-quality-netoff-ladder",
+      "target": "domain:public-dataset-quality-audit",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch6-diamonds-data-quality-netoff-ladder",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch6-scikit-learn-iris-reproduction-ladder",
+      "target": "domain:ml-repository-reproduction",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch6-uci-concrete-baseline-reproduction-ladder",
+      "target": "domain:tabular-regression-benchmark",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch6-uci-concrete-baseline-reproduction-ladder",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
     },
     {
       "source": "result:chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -1017,5 +1070,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "a59a08673b5ff681e4c6a368066f63aa7fd54657b0b3f92570f2e65832be7956"
+  "evidenceHash": "7504705461aacf0280777cf1d15121dec4de7ad8e84969aa58c05c5db51304d7"
 }

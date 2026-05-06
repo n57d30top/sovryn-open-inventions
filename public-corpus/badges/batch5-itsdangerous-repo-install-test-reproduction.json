@@ -8,7 +8,7 @@
     "replay": "replay-100",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
-    "worker": "venv-local-isolated",
+    "worker": "not-recorded",
     "falsification": "tests_and_examples_executed",
     "lifecycle": "autopublished",
     "version": "batch5-itsdangerous-repo-install-test-reproduction",
@@ -16,6 +16,5 @@
   },
   "lifecycleStatus": "autopublished",
   "showcaseRank": null,
-  "evidenceHash": "924a928ed32bc8a79ed8596a4e51ab42e3610f2ba20b027a2b9583ae34ae4b7e",
-  "executionIncluded": true
+  "evidenceHash": "924a928ed32bc8a79ed8596a4e51ab42e3610f2ba20b027a2b9583ae34ae4b7e"
 }

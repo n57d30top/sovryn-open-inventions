@@ -1,8 +1,8 @@
 {
   "kind": "public_corpus_status",
-  "generatedAt": "2026-05-06T07:54:21.351Z",
+  "generatedAt": "2026-05-06T08:34:57.494Z",
   "statusCounts": {
-    "autopublished": 28,
+    "autopublished": 31,
     "benchmark_challenge_negative_result": 4,
     "dataset_quality_audit_supported": 7,
     "external_extension_supported": 1,
@@ -20,7 +20,7 @@
     "strong_external_negative_result": 1
   },
   "lifecycleCounts": {
-    "autopublished": 31,
+    "autopublished": 34,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -34,10 +34,11 @@
     "computational-reproducibility-audit": 1,
     "energy-data-quality": 8,
     "field-grade-scientific-autonomy": 3,
+    "ml-repository-reproduction": 1,
     "node-toolchain-policy": 1,
     "open-invention-corpus": 3,
     "provenance-aware-data-quality-methods": 1,
-    "public-dataset-quality-audit": 4,
+    "public-dataset-quality-audit": 5,
     "public-repo-reproducibility": 2,
     "public-repo-reproducibility-audit": 2,
     "reality-grade-scientific-autonomy": 1,
@@ -52,11 +53,12 @@
     "source-evidence-extraction-benchmark": 1,
     "source-evidence-extraction-quality": 3,
     "tabular-benchmark-baseline-dominance": 2,
+    "tabular-regression-benchmark": 1,
     "time-series-anomaly-benchmark": 1,
     "time-series-benchmark-challenge": 1,
     "time-series-dataset-quality-audit": 1,
     "time-series-tabular-benchmark": 1,
     "tool-backed-dataset-quality-audit": 1
   },
-  "evidenceHash": "79985d7102da6213ced7bfe41cc28e4080fa09d6cafc82df6c4de244774994df"
+  "evidenceHash": "1b62a7f25f0d4c4f9338b0491fcf5d45b9ce0118fe4dfa8f708021ae89c255b1"
 }

@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T07:54:21.351Z",
+  "updatedAt": "2026-05-06T08:34:57.494Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-strategy-trial",
@@ -168,6 +168,27 @@
       "latestSlug": "batch5-uci-letter-recognition-baseline-challenge",
       "resultSlugs": [
         "batch5-uci-letter-recognition-baseline-challenge"
+      ]
+    },
+    {
+      "versionGroup": "batch6-diamonds-data-quality-netoff-ladder",
+      "latestSlug": "batch6-diamonds-data-quality-netoff-ladder",
+      "resultSlugs": [
+        "batch6-diamonds-data-quality-netoff-ladder"
+      ]
+    },
+    {
+      "versionGroup": "batch6-scikit-learn-iris-reproduction-ladder",
+      "latestSlug": "batch6-scikit-learn-iris-reproduction-ladder",
+      "resultSlugs": [
+        "batch6-scikit-learn-iris-reproduction-ladder"
+      ]
+    },
+    {
+      "versionGroup": "batch6-uci-concrete-baseline-reproduction-ladder",
+      "latestSlug": "batch6-uci-concrete-baseline-reproduction-ladder",
+      "resultSlugs": [
+        "batch6-uci-concrete-baseline-reproduction-ladder"
       ]
     },
     {
@@ -353,5 +374,5 @@
       ]
     }
   ],
-  "evidenceHash": "81227b783461dbcd5af69126a411450913af21aaf06feb157a48a2eacf4b1d59"
+  "evidenceHash": "0f4b98511e3c2ac8852a3b04c33f0764e0e4d65f54612574c736f957caddf3a0"
 }

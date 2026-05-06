@@ -1,0 +1,17 @@
+{
+  "kind": "batch6_source_references",
+  "slug": "batch6-scikit-learn-iris-reproduction-ladder",
+  "sources": [
+    {
+      "name": "scikit-learn GitHub repository",
+      "url": "https://github.com/scikit-learn/scikit-learn",
+      "note": "BSD-3-Clause project repository with examples and tests."
+    },
+    {
+      "name": "Iris example documentation",
+      "url": "https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html",
+      "note": "Public example documentation for loading and inspecting the Iris dataset."
+    }
+  ],
+  "evidenceHash": "1be4af295d4810716e02ab838405a48fb4fa5781511a3158a285ee484438fbb4"
+}

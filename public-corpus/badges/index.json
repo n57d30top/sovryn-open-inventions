@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T07:54:21.351Z",
+  "generatedAt": "2026-05-06T08:34:57.494Z",
   "badges": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -429,6 +429,60 @@
         "falsification": "candidate_rejected_by_falsification",
         "lifecycle": "autopublished",
         "version": "batch5-uci-letter-recognition-baseline-challenge",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch6-diamonds-data-quality-netoff-ladder",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch6-diamonds-data-quality-netoff-ladder",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch6-scikit-learn-iris-reproduction-ladder",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "sandbox-local",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch6-scikit-learn-iris-reproduction-ladder",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch6-uci-concrete-baseline-reproduction-ladder",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "sandbox-local",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch6-uci-concrete-baseline-reproduction-ladder",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -1119,5 +1173,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "93333a43d58811c631f31b641f6c840997de41e20056ede6a199b92c77907406"
+  "evidenceHash": "20626efb309b6f6fb26bfc189f37c3c193fc4a600c3f65a42d9be4dca73cd080"
 }

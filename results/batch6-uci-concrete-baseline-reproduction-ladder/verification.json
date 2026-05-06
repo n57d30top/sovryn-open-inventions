@@ -1,0 +1,97 @@
+{
+  "kind": "batch6_reproduction_ladder_verification",
+  "slug": "batch6-uci-concrete-baseline-reproduction-ladder",
+  "verifiedAt": "2026-05-06T08:34:36.332Z",
+  "highestReproductionLadderLevel": 8,
+  "gates": [
+    {
+      "code": "SOURCE_CARD_PRESENT",
+      "passed": true,
+      "message": "SOURCE_CARD_PRESENT gate",
+      "details": {
+        "slug": "batch6-uci-concrete-baseline-reproduction-ladder"
+      }
+    },
+    {
+      "code": "LICENSE_ACCESS_SAFETY_CHECKED",
+      "passed": true,
+      "message": "LICENSE_ACCESS_SAFETY_CHECKED gate",
+      "details": {
+        "slug": "batch6-uci-concrete-baseline-reproduction-ladder"
+      }
+    },
+    {
+      "code": "ENVIRONMENT_CREATED",
+      "passed": true,
+      "message": "ENVIRONMENT_CREATED gate",
+      "details": {
+        "slug": "batch6-uci-concrete-baseline-reproduction-ladder"
+      }
+    },
+    {
+      "code": "DEPENDENCY_INSTALL_ATTEMPTED",
+      "passed": true,
+      "message": "DEPENDENCY_INSTALL_ATTEMPTED gate",
+      "details": {
+        "slug": "batch6-uci-concrete-baseline-reproduction-ladder"
+      }
+    },
+    {
+      "code": "EXECUTION_ATTEMPTED",
+      "passed": true,
+      "message": "EXECUTION_ATTEMPTED gate",
+      "details": {
+        "slug": "batch6-uci-concrete-baseline-reproduction-ladder"
+      }
+    },
+    {
+      "code": "BASELINE_OR_SMOKE_ATTEMPTED",
+      "passed": true,
+      "message": "BASELINE_OR_SMOKE_ATTEMPTED gate",
+      "details": {
+        "slug": "batch6-uci-concrete-baseline-reproduction-ladder"
+      }
+    },
+    {
+      "code": "DEVIATION_ANALYZED",
+      "passed": true,
+      "message": "DEVIATION_ANALYZED gate",
+      "details": {
+        "slug": "batch6-uci-concrete-baseline-reproduction-ladder"
+      }
+    },
+    {
+      "code": "BASELINE_OR_CHALLENGER_COMPARISON_EXECUTED",
+      "passed": true,
+      "message": "BASELINE_OR_CHALLENGER_COMPARISON_EXECUTED gate",
+      "details": {
+        "slug": "batch6-uci-concrete-baseline-reproduction-ladder"
+      }
+    },
+    {
+      "code": "PUBLIC_HYGIENE_SUMMARY_ONLY",
+      "passed": true,
+      "message": "PUBLIC_HYGIENE_SUMMARY_ONLY gate",
+      "details": {
+        "slug": "batch6-uci-concrete-baseline-reproduction-ladder"
+      }
+    },
+    {
+      "code": "NO_UNSUPPORTED_CLAIMS",
+      "passed": true,
+      "message": "NO_UNSUPPORTED_CLAIMS gate",
+      "details": {
+        "slug": "batch6-uci-concrete-baseline-reproduction-ladder"
+      }
+    },
+    {
+      "code": "NO_PRIVATE_DATA",
+      "passed": true,
+      "message": "NO_PRIVATE_DATA gate",
+      "details": {
+        "slug": "batch6-uci-concrete-baseline-reproduction-ladder"
+      }
+    }
+  ],
+  "evidenceHash": "90f9e1e43ab966866821c5eda782546bae6d8504db66d66f2030c87037eceaca"
+}

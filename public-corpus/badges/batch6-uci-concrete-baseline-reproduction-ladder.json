@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "batch6-uci-concrete-baseline-reproduction-ladder",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "review_ready",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "sandbox-local",
+    "falsification": "passes_falsification",
+    "lifecycle": "autopublished",
+    "version": "batch6-uci-concrete-baseline-reproduction-ladder",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "2454dab629f8c536609ea2ef7cdc5ba39220f5372c77b2bcaff2dff58997f7fc"
+}

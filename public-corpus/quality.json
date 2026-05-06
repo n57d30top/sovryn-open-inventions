@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T07:54:21.351Z",
+  "generatedAt": "2026-05-06T08:34:57.494Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 51,
+    "good": 54,
     "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 31,
+    "autopublished": 34,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -250,14 +250,7 @@
       "evidenceStrengthScore": 91,
       "reproducibilityScore": 88,
       "publicationSafetyScore": 98,
-      "specificityScore": 90,
-      "executionIncluded": true,
-      "workerAssurance": "venv-local-isolated",
-      "candidateStatus": "external_reproduction_success",
-      "finalResult": "external_reproduction_success",
-      "replayCriticalPassRate": 100,
-      "falsificationStatus": "tests_and_examples_executed",
-      "customTool": null
+      "specificityScore": 90
     },
     {
       "slug": "batch4-uci-abalone-baseline-dominance-negative",
@@ -271,14 +264,7 @@
       "evidenceStrengthScore": 93,
       "reproducibilityScore": 90,
       "publicationSafetyScore": 98,
-      "specificityScore": 90,
-      "executionIncluded": true,
-      "workerAssurance": "container-netoff",
-      "candidateStatus": "benchmark_challenge_negative_result",
-      "finalResult": "benchmark_challenge_negative_result",
-      "replayCriticalPassRate": 100,
-      "falsificationStatus": "candidate_rejected_by_falsification",
-      "customTool": null
+      "specificityScore": 90
     },
     {
       "slug": "batch4-uci-bike-sharing-time-series-benchmark",
@@ -292,14 +278,7 @@
       "evidenceStrengthScore": 89,
       "reproducibilityScore": 87,
       "publicationSafetyScore": 98,
-      "specificityScore": 88,
-      "executionIncluded": true,
-      "workerAssurance": "container-netoff",
-      "candidateStatus": "external_reproduction_partial",
-      "finalResult": "external_reproduction_partial",
-      "replayCriticalPassRate": 100,
-      "falsificationStatus": "tie_no_benchmark_win",
-      "customTool": null
+      "specificityScore": 88
     },
     {
       "slug": "batch4-uci-glass-csvkit-tool-dataset-audit",
@@ -313,14 +292,7 @@
       "evidenceStrengthScore": 91,
       "reproducibilityScore": 88,
       "publicationSafetyScore": 98,
-      "specificityScore": 90,
-      "executionIncluded": true,
-      "workerAssurance": "venv-tool-plus-container-netoff",
-      "candidateStatus": "dataset_quality_audit_supported",
-      "finalResult": "dataset_quality_audit_supported",
-      "replayCriticalPassRate": 100,
-      "falsificationStatus": "tool_execution_and_dataset_audit_passed",
-      "customTool": "csvkit"
+      "specificityScore": 90
     },
     {
       "slug": "batch4-uci-seeds-dataset-quality-execution",
@@ -334,14 +306,7 @@
       "evidenceStrengthScore": 90,
       "reproducibilityScore": 89,
       "publicationSafetyScore": 98,
-      "specificityScore": 88,
-      "executionIncluded": true,
-      "workerAssurance": "container-netoff",
-      "candidateStatus": "dataset_quality_audit_supported",
-      "finalResult": "dataset_quality_audit_supported",
-      "replayCriticalPassRate": 100,
-      "falsificationStatus": "audited_with_limitations",
-      "customTool": null
+      "specificityScore": 88
     },
     {
       "slug": "batch5-itsdangerous-repo-install-test-reproduction",
@@ -355,14 +320,7 @@
       "evidenceStrengthScore": 92,
       "reproducibilityScore": 90,
       "publicationSafetyScore": 98,
-      "specificityScore": 89,
-      "executionIncluded": true,
-      "workerAssurance": "venv-local-isolated",
-      "candidateStatus": "external_reproduction_success",
-      "finalResult": "external_reproduction_success",
-      "replayCriticalPassRate": 100,
-      "falsificationStatus": "tests_and_examples_executed",
-      "customTool": null
+      "specificityScore": 89
     },
     {
       "slug": "batch5-uci-air-quality-time-series-dataset-audit",
@@ -376,14 +334,7 @@
       "evidenceStrengthScore": 94,
       "reproducibilityScore": 91,
       "publicationSafetyScore": 98,
-      "specificityScore": 91,
-      "executionIncluded": true,
-      "workerAssurance": "container-netoff",
-      "candidateStatus": "dataset_quality_audit_supported",
-      "finalResult": "dataset_quality_audit_supported",
-      "replayCriticalPassRate": 100,
-      "falsificationStatus": "sentinel_missingness_challenger_supported",
-      "customTool": null
+      "specificityScore": 91
     },
     {
       "slug": "batch5-uci-letter-recognition-baseline-challenge",
@@ -397,14 +348,49 @@
       "evidenceStrengthScore": 94,
       "reproducibilityScore": 91,
       "publicationSafetyScore": 98,
-      "specificityScore": 90,
-      "executionIncluded": true,
-      "workerAssurance": "container-netoff",
-      "candidateStatus": "benchmark_challenge_negative_result",
-      "finalResult": "benchmark_challenge_negative_result",
-      "replayCriticalPassRate": 100,
-      "falsificationStatus": "candidate_rejected_by_falsification",
-      "customTool": null
+      "specificityScore": 90
+    },
+    {
+      "slug": "batch6-diamonds-data-quality-netoff-ladder",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch6-diamonds-data-quality-netoff-ladder",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 96,
+      "publicationSafetyScore": 98,
+      "specificityScore": 74
+    },
+    {
+      "slug": "batch6-scikit-learn-iris-reproduction-ladder",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch6-scikit-learn-iris-reproduction-ladder",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 89,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 94,
+      "publicationSafetyScore": 98,
+      "specificityScore": 74
+    },
+    {
+      "slug": "batch6-uci-concrete-baseline-reproduction-ladder",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch6-uci-concrete-baseline-reproduction-ladder",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 89,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 94,
+      "publicationSafetyScore": 98,
+      "specificityScore": 74
     },
     {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -939,5 +925,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "0d49af2550d96df935dc5380f79baecf3b1d25812003058c4ae5130c68d29457"
+  "evidenceHash": "508a1312a953c45416b8c6196dd84f3a11e128a78b04d32ad8fc40069dbf9362"
 }
