@@ -1,29 +1,30 @@
 {
   "kind": "public_corpus_status",
-  "generatedAt": "2026-05-06T06:50:00.296Z",
+  "generatedAt": "2026-05-06T07:04:58.568Z",
   "statusCounts": {
     "autopublished": 28,
-    "benchmark_challenge_negative_result": 1,
-    "dataset_quality_audit_supported": 2,
-    "external_reproduction_partial": 4,
+    "benchmark_challenge_negative_result": 2,
+    "dataset_quality_audit_supported": 4,
+    "external_reproduction_partial": 5,
     "field_grade_trial_ready": 3,
     "knowledge_trial_ready": 1,
     "promising_but_unproven": 1,
     "reality_grade_trial_ready": 1,
     "replication_supported_candidate": 1,
-    "source_evidence_extraction_audit_supported": 2,
+    "source_evidence_extraction_audit_supported": 3,
     "strategy_trial_ready": 1,
     "strong_external_negative_result": 1,
     "unknown": 3
   },
   "lifecycleCounts": {
-    "autopublished": 18,
+    "autopublished": 23,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
     "superseded": 14
   },
   "domainCounts": {
+    "benchmark-challenge-baseline-dominance": 1,
     "chemistry-data-quality": 10,
     "claim-verification-benchmark": 1,
     "claim-verification-benchmark-quality": 1,
@@ -33,8 +34,8 @@
     "node-toolchain-policy": 1,
     "open-invention-corpus": 3,
     "provenance-aware-data-quality-methods": 1,
-    "public-dataset-quality-audit": 2,
-    "public-repo-reproducibility-audit": 1,
+    "public-dataset-quality-audit": 4,
+    "public-repo-reproducibility-audit": 2,
     "reality-grade-scientific-autonomy": 1,
     "research-strategy": 1,
     "safe-computational-reproduction": 1,
@@ -44,9 +45,9 @@
     "software-supply-chain": 3,
     "software-supply-chain-assurance": 3,
     "source-evidence-extraction-benchmark": 1,
-    "source-evidence-extraction-quality": 2,
+    "source-evidence-extraction-quality": 3,
     "time-series-anomaly-benchmark": 1,
     "time-series-benchmark-challenge": 1
   },
-  "evidenceHash": "55a221973a167ebda1da64a2aa706d56038b37474b382f22bbcb1d79e0a914fd"
+  "evidenceHash": "c0111b3b325206ac9302dd6d2f6993c92353cc6a104563898354c8bddcfa0d16"
 }

@@ -1,0 +1,49 @@
+[
+  {
+    "claim": "A container-local audit processed the UCI Forest Fires dataset and found 517 rows, 13 columns, 4 duplicate full rows, 247 zero-area rows, and highly skewed positive burn-area values.",
+    "evidence": "https://archive.ics.uci.edu/ml/machine-learning-databases/forest-fires/forestfires.csv",
+    "metrics": {
+      "executionProfile": "container-local-network-none",
+      "rowCount": 517,
+      "columnCount": 13,
+      "missing": {
+        "X": 0,
+        "Y": 0,
+        "month": 0,
+        "day": 0,
+        "FFMC": 0,
+        "DMC": 0,
+        "DC": 0,
+        "ISI": 0,
+        "temp": 0,
+        "RH": 0,
+        "wind": 0,
+        "rain": 0,
+        "area": 0
+      },
+      "duplicateRows": 4,
+      "zeroAreaRows": 247,
+      "zeroAreaRate": 0.478,
+      "positiveAreaRows": 270,
+      "maxArea": 1090.84,
+      "avgPositiveArea": 24.6,
+      "monthCounts": {
+        "apr": 9,
+        "aug": 184,
+        "dec": 9,
+        "feb": 20,
+        "jan": 2,
+        "jul": 32,
+        "jun": 17,
+        "mar": 54,
+        "may": 2,
+        "nov": 1,
+        "oct": 15,
+        "sep": 172
+      },
+      "schemaOnlyIssueRecall": 0.25,
+      "distributionAwareIssueRecall": 0.75
+    },
+    "limitation": "No model trained."
+  }
+]

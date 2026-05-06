@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T06:50:00.296Z",
+  "generatedAt": "2026-05-06T07:04:58.568Z",
   "badges": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -195,6 +195,96 @@
         "falsification": "candidate_rejected_by_falsification",
         "lifecycle": "autopublished",
         "version": "batch2-uci-occupancy-benchmark-challenge",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch3-palmer-penguins-dataset-quality-execution",
+      "badges": {
+        "quality": "good",
+        "status": "dataset_quality_audit_supported",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-local",
+        "falsification": "audited_with_limitations",
+        "lifecycle": "autopublished",
+        "version": "batch3-palmer-penguins-dataset-quality-execution",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch3-rapidfuzz-repo-install-example-reproduction",
+      "badges": {
+        "quality": "reviewable",
+        "status": "external_reproduction_partial",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "evaluated_with_limitations",
+        "lifecycle": "autopublished",
+        "version": "batch3-rapidfuzz-repo-install-example-reproduction",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch3-squad-v2-source-evidence-extraction-audit",
+      "badges": {
+        "quality": "good",
+        "status": "source_evidence_extraction_audit_supported",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "audited_with_limitations",
+        "lifecycle": "autopublished",
+        "version": "batch3-squad-v2-source-evidence-extraction-audit",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch3-uci-banknote-benchmark-negative-challenge",
+      "badges": {
+        "quality": "good",
+        "status": "benchmark_challenge_negative_result",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-local",
+        "falsification": "candidate_rejected_by_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch3-uci-banknote-benchmark-negative-challenge",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch3-uci-forest-fires-dataset-quality-execution",
+      "badges": {
+        "quality": "good",
+        "status": "dataset_quality_audit_supported",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-local",
+        "falsification": "audited_with_limitations",
+        "lifecycle": "autopublished",
+        "version": "batch3-uci-forest-fires-dataset-quality-execution",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -885,5 +975,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "6681591fd8631d8cc21462d78dabf6ca03863f17fbea5d859d9b3580ad1deb0b"
+  "evidenceHash": "1110e757972a90510a0170f85344d15b94f8e85b60f8d400ea46b0096a3c58aa"
 }

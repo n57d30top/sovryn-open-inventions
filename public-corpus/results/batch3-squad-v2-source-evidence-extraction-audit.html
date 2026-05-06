@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SQuAD v2 Source/Evidence Extraction Audit</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; color: #20242a; background: #ffffff; }
+    main { max-width: 900px; margin: 0 auto; padding: 28px; }
+    .score { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; }
+    .box { border: 1px solid #d8dde5; border-radius: 8px; padding: 12px; background: #f7f8fa; }
+    .notice { color: #56616f; }
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="../index.html">Back to corpus</a></p>
+    <h1>SQuAD v2 Source/Evidence Extraction Audit</h1>
+    <p class="notice">Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.</p>
+    <h2>Problem And Method</h2>
+    <p>A public source-card parser audit over the SQuAD v2 dataset card recovered 5 of 6 expected evidence fields and improved over a keyword-only baseline, while explicitly avoiding model-level QA claims.</p>
+    <h2>Evidence Profile</h2>
+    <div class="score">
+      <div class="box">Quality: good</div>
+      <div class="box">Lifecycle: autopublished</div>
+      <div class="box">Version group: batch3-squad-v2-source-evidence-extraction-audit</div>
+      <div class="box">Showcase rank: not showcase</div>
+      <div class="box">Readiness: 82</div>
+      <div class="box">Evidence: 84</div>
+      <div class="box">Reproducibility: 78</div>
+      <div class="box">Safety: 98</div>
+    </div>
+    <h2>Tooling</h2>
+    <p>Custom tool: not recorded</p>
+    <p>External package/tool evidence: not recorded</p>
+    <p>Worker assurance: not-recorded</p>
+    <h2>Lifecycle Notes</h2>
+    <p>Supersedes: none</p>
+    <p>Superseded by: none</p>
+    <p>Revision reason: none</p>
+    <h2>Limitations</h2>
+    <ul><li>| Baseline / Challenger | Evidence | Metric | Failure / limitation |</li><li>&quot;limitation&quot;: &quot;Smaller audit, not a full run.&quot;</li><li>Failures And Limitations</li><li>Limitations</li><li>Smaller audit, not a full run.</li><li>| Extractor | Recall | Limitation |</li></ul>
+    <h2>Public Artifacts</h2>
+    <ul>
+      <li><a href="../../results/batch3-squad-v2-source-evidence-extraction-audit/SUMMARY.json">SUMMARY.json</a></li>
+      <li><a href="../../results/batch3-squad-v2-source-evidence-extraction-audit/verification.json">verification.json</a></li>
+      <li><a href="../../results/batch3-squad-v2-source-evidence-extraction-audit/AUTOPUBLISH_RECORD.json">AUTOPUBLISH_RECORD.json</a></li>
+      <li><a href="../../results/batch3-squad-v2-source-evidence-extraction-audit/SHOWCASE.md">SHOWCASE.md</a></li>
+      <li><a href="../../results/batch3-squad-v2-source-evidence-extraction-audit/METHOD.md">METHOD.md</a></li>
+      <li><a href="../../results/batch3-squad-v2-source-evidence-extraction-audit/REPRODUCE.md">REPRODUCE.md</a></li>
+      <li><a href="../../results/batch3-squad-v2-source-evidence-extraction-audit/LIMITATIONS.md">LIMITATIONS.md</a></li>
+      <li><a href="../../results/batch3-squad-v2-source-evidence-extraction-audit/EXAMPLES.md">EXAMPLES.md</a></li>
+      <li><a href="../../results/batch3-squad-v2-source-evidence-extraction-audit/FALSIFICATION.md">FALSIFICATION.md</a></li>
+      <li><a href="../../results/batch3-squad-v2-source-evidence-extraction-audit/negative-tests/negative-tests.json">negative-tests.json</a></li>
+      <li><a href="../../results/batch3-squad-v2-source-evidence-extraction-audit/release/">Curated release folder</a></li>
+    </ul>
+  </main>
+</body>
+</html>

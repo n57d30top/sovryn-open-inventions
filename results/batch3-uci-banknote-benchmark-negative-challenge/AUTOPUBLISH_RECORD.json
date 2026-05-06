@@ -1,0 +1,15 @@
+{
+  "slug": "batch3-uci-banknote-benchmark-negative-challenge",
+  "publishedBy": "sovryn-external-research-production-batch-3",
+  "automatedPolicyVersion": "4.2.0-rc.1-external-research-production-batch-policy",
+  "targetRepo": "https://github.com/n57d30top/sovryn-open-inventions",
+  "targetPath": "results/batch3-uci-banknote-benchmark-negative-challenge",
+  "pushed": true,
+  "dryRun": false,
+  "publicHygienePassed": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "createdAt": "2026-05-06T07:03:35.642Z",
+  "evidenceHash": "08c2a6b0709d81ceaae0864cda6064e8ba525a02ef381bae220a18fd23065938"
+}

@@ -1,14 +1,14 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T06:50:00.296Z",
+  "generatedAt": "2026-05-06T07:04:58.568Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 38,
-    "reviewable": 4,
+    "good": 42,
+    "reviewable": 5,
     "unknown": 2
   },
   "lifecycleCounts": {
-    "autopublished": 18,
+    "autopublished": 23,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -165,6 +165,76 @@
       "showcaseRank": null,
       "releaseReadinessScore": 92,
       "evidenceStrengthScore": 91,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 98,
+      "specificityScore": 86
+    },
+    {
+      "slug": "batch3-palmer-penguins-dataset-quality-execution",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch3-palmer-penguins-dataset-quality-execution",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 98,
+      "specificityScore": 86
+    },
+    {
+      "slug": "batch3-rapidfuzz-repo-install-example-reproduction",
+      "qualityLabel": "reviewable",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch3-rapidfuzz-repo-install-example-reproduction",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 82,
+      "evidenceStrengthScore": 86,
+      "reproducibilityScore": 80,
+      "publicationSafetyScore": 98,
+      "specificityScore": 82
+    },
+    {
+      "slug": "batch3-squad-v2-source-evidence-extraction-audit",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch3-squad-v2-source-evidence-extraction-audit",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 82,
+      "evidenceStrengthScore": 84,
+      "reproducibilityScore": 78,
+      "publicationSafetyScore": 98,
+      "specificityScore": 82
+    },
+    {
+      "slug": "batch3-uci-banknote-benchmark-negative-challenge",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch3-uci-banknote-benchmark-negative-challenge",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 92,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 98,
+      "specificityScore": 90
+    },
+    {
+      "slug": "batch3-uci-forest-fires-dataset-quality-execution",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch3-uci-forest-fires-dataset-quality-execution",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 89,
       "reproducibilityScore": 88,
       "publicationSafetyScore": 98,
       "specificityScore": 86
@@ -702,5 +772,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "3570f4f1ef12f98eef16cf291a3a9efb192d92b1fe41aaf509e376de6194e431"
+  "evidenceHash": "b0e99ffaf5ac56a7608493699550b42ffd6ff5850b513e9fdfdfa88da1512570"
 }

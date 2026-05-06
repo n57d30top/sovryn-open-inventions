@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "batch3-uci-banknote-benchmark-negative-challenge",
+  "badges": {
+    "quality": "good",
+    "status": "benchmark_challenge_negative_result",
+    "antiTemplate": "unknown",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "container-local",
+    "falsification": "candidate_rejected_by_falsification",
+    "lifecycle": "autopublished",
+    "version": "batch3-uci-banknote-benchmark-negative-challenge",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "539a23f41e76e5dd4beb417a8ed25b8f9434d86d2b412b79d6f8dfaa0d173e05"
+}

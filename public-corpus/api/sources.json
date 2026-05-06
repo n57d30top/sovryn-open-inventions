@@ -57,6 +57,33 @@
       "customTool": null
     },
     {
+      "slug": "batch3-palmer-penguins-dataset-quality-execution",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch3-rapidfuzz-repo-install-example-reproduction",
+      "externalPackages": [
+        "rapidfuzz"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch3-squad-v2-source-evidence-extraction-audit",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch3-uci-banknote-benchmark-negative-challenge",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch3-uci-forest-fires-dataset-quality-execution",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "externalPackages": [],
       "customTool": "mol-record-auditor"
@@ -293,5 +320,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "9af874a4cafb49f387bfbca7bd016ea5097c84a1b76e6781b6e529f33ca62045"
+  "evidenceHash": "5d6f29d7d846839499571a4ead352b59e280af3776f45402091b7fb3fee4b927"
 }

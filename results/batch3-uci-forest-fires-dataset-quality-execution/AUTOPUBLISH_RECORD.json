@@ -1,0 +1,15 @@
+{
+  "slug": "batch3-uci-forest-fires-dataset-quality-execution",
+  "publishedBy": "sovryn-external-research-production-batch-3",
+  "automatedPolicyVersion": "4.2.0-rc.1-external-research-production-batch-policy",
+  "targetRepo": "https://github.com/n57d30top/sovryn-open-inventions",
+  "targetPath": "results/batch3-uci-forest-fires-dataset-quality-execution",
+  "pushed": true,
+  "dryRun": false,
+  "publicHygienePassed": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "createdAt": "2026-05-06T07:03:35.642Z",
+  "evidenceHash": "f6f97b477a5521de43e2e0c065667042cac49378fbe79acb9fb1c55039d3979d"
+}

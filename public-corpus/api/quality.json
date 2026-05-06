@@ -2,8 +2,8 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 38,
-    "reviewable": 4,
+    "good": 42,
+    "reviewable": 5,
     "unknown": 2
   },
   "results": [
@@ -61,6 +61,31 @@
       "slug": "batch2-uci-occupancy-benchmark-challenge",
       "qualityLabel": "good",
       "releaseReadinessScore": 92
+    },
+    {
+      "slug": "batch3-palmer-penguins-dataset-quality-execution",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch3-rapidfuzz-repo-install-example-reproduction",
+      "qualityLabel": "reviewable",
+      "releaseReadinessScore": 82
+    },
+    {
+      "slug": "batch3-squad-v2-source-evidence-extraction-audit",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 82
+    },
+    {
+      "slug": "batch3-uci-banknote-benchmark-negative-challenge",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 92
+    },
+    {
+      "slug": "batch3-uci-forest-fires-dataset-quality-execution",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
     },
     {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -253,5 +278,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "3570f4f1ef12f98eef16cf291a3a9efb192d92b1fe41aaf509e376de6194e431"
+  "evidenceHash": "b0e99ffaf5ac56a7608493699550b42ffd6ff5850b513e9fdfdfa88da1512570"
 }

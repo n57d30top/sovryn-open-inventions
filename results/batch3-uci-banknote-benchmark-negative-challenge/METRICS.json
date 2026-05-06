@@ -1,0 +1,46 @@
+{
+  "executionProfile": "container-local-network-none",
+  "rowCount": 1372,
+  "trainRows": 960,
+  "testRows": 412,
+  "classCounts": {
+    "0": 762,
+    "1": 610
+  },
+  "bestBaseline": {
+    "feature": 0,
+    "threshold": 0.322,
+    "direction": "lt",
+    "testMetric": {
+      "tp": 156,
+      "fp": 34,
+      "tn": 203,
+      "fn": 19,
+      "precision": 0.821,
+      "recall": 0.891,
+      "specificity": 0.857,
+      "f1": 0.855,
+      "accuracy": 0.871,
+      "balancedAccuracy": 0.874
+    }
+  },
+  "challenger": {
+    "name": "skewness_entropy_and_rule",
+    "metric": {
+      "tp": 156,
+      "fp": 105,
+      "tn": 132,
+      "fn": 19,
+      "precision": 0.598,
+      "recall": 0.891,
+      "specificity": 0.557,
+      "f1": 0.716,
+      "accuracy": 0.699,
+      "balancedAccuracy": 0.724
+    },
+    "rejected": true
+  },
+  "wins": 0,
+  "losses": 1,
+  "ties": 0
+}

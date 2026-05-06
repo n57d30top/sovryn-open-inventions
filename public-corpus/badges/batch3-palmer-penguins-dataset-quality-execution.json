@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "batch3-palmer-penguins-dataset-quality-execution",
+  "badges": {
+    "quality": "good",
+    "status": "dataset_quality_audit_supported",
+    "antiTemplate": "unknown",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "container-local",
+    "falsification": "audited_with_limitations",
+    "lifecycle": "autopublished",
+    "version": "batch3-palmer-penguins-dataset-quality-execution",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "0e6de052a9dd562d0f6957ccba49df58fe921ca343d80c3451ba83f1b6503c05"
+}

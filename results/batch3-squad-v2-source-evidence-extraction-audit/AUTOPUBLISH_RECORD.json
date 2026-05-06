@@ -1,0 +1,15 @@
+{
+  "slug": "batch3-squad-v2-source-evidence-extraction-audit",
+  "publishedBy": "sovryn-external-research-production-batch-3",
+  "automatedPolicyVersion": "4.2.0-rc.1-external-research-production-batch-policy",
+  "targetRepo": "https://github.com/n57d30top/sovryn-open-inventions",
+  "targetPath": "results/batch3-squad-v2-source-evidence-extraction-audit",
+  "pushed": true,
+  "dryRun": false,
+  "publicHygienePassed": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "createdAt": "2026-05-06T07:03:35.642Z",
+  "evidenceHash": "4d9733c3a77be309cbaaebcc33de7dc9bdaf1412031d496537433d89120260dc"
+}

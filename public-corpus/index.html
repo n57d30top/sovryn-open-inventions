@@ -21,7 +21,7 @@
   <header>
     <h1>Sovryn Open Inventions Corpus</h1>
     <p class="notice">Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.</p>
-    <p class="meta">Results: 49. Showcase: <a href="showcase.html">showcase.html</a>. Science studies: <a href="science.html">science.html</a>. Public API: <a href="corpus.json">corpus.json</a>, <a href="search-index.json">search-index.json</a>.</p>
+    <p class="meta">Results: 54. Showcase: <a href="showcase.html">showcase.html</a>. Science studies: <a href="science.html">science.html</a>. Public API: <a href="corpus.json">corpus.json</a>, <a href="search-index.json">search-index.json</a>.</p>
     <p class="meta">Public beta readers should start with showcase results, verification notes, limitations, and reproducibility artifacts before interpreting any result.</p>
   </header>
   <main>
@@ -115,6 +115,36 @@
   <p class="meta">time-series-benchmark-challenge · good · autopublished · batch2-uci-occupancy-benchmark-challenge</p>
   <p>A held-out UCI Occupancy Detection benchmark challenge rejected two simple sensor-vote challengers because a light-threshold baseline dominated them on F1 and balanced accuracy.</p>
   <p><span class="badge">good</span><span class="badge">benchmark_challenge_negative_result</span><span class="badge">unknown</span><span class="badge">replay-100</span><span class="badge">safety-passed</span><span class="badge">hygiene-passed</span><span class="badge">not-recorded</span><span class="badge">candidate_rejected_by_falsification</span><span class="badge">autopublished</span><span class="badge">batch2-uci-occupancy-benchmark-challenge</span><span class="badge">not-showcase</span></p>
+</article>
+<article class="card">
+  <h2><a href="results/batch3-palmer-penguins-dataset-quality-execution.html">Palmer Penguins Dataset Quality Execution Audit</a></h2>
+  <p class="meta">public-dataset-quality-audit · good · autopublished · batch3-palmer-penguins-dataset-quality-execution</p>
+  <p>A container-local execution audit processed the Palmer Penguins public CSV and found 344 rows, 7 columns, missing biometric fields, 11 missing sex entries, and no duplicate full rows.</p>
+  <p><span class="badge">good</span><span class="badge">dataset_quality_audit_supported</span><span class="badge">unknown</span><span class="badge">replay-100</span><span class="badge">safety-passed</span><span class="badge">hygiene-passed</span><span class="badge">container-local</span><span class="badge">audited_with_limitations</span><span class="badge">autopublished</span><span class="badge">batch3-palmer-penguins-dataset-quality-execution</span><span class="badge">not-showcase</span></p>
+</article>
+<article class="card">
+  <h2><a href="results/batch3-rapidfuzz-repo-install-example-reproduction.html">RapidFuzz Repository Install and Example Reproduction Audit</a></h2>
+  <p class="meta">public-repo-reproducibility-audit · reviewable · autopublished · batch3-rapidfuzz-repo-install-example-reproduction</p>
+  <p>A problem-specific RapidFuzz tool install succeeded in an isolated venv, and three fuzzy-matching example checks passed, but the result remains partial because the upstream test suite was not cloned or executed.</p>
+  <p><span class="badge">reviewable</span><span class="badge">external_reproduction_partial</span><span class="badge">unknown</span><span class="badge">replay-100</span><span class="badge">safety-passed</span><span class="badge">hygiene-passed</span><span class="badge">not-recorded</span><span class="badge">evaluated_with_limitations</span><span class="badge">autopublished</span><span class="badge">batch3-rapidfuzz-repo-install-example-reproduction</span><span class="badge">not-showcase</span></p>
+</article>
+<article class="card">
+  <h2><a href="results/batch3-squad-v2-source-evidence-extraction-audit.html">SQuAD v2 Source/Evidence Extraction Audit</a></h2>
+  <p class="meta">source-evidence-extraction-quality · good · autopublished · batch3-squad-v2-source-evidence-extraction-audit</p>
+  <p>A public source-card parser audit over the SQuAD v2 dataset card recovered 5 of 6 expected evidence fields and improved over a keyword-only baseline, while explicitly avoiding model-level QA claims.</p>
+  <p><span class="badge">good</span><span class="badge">source_evidence_extraction_audit_supported</span><span class="badge">unknown</span><span class="badge">replay-100</span><span class="badge">safety-passed</span><span class="badge">hygiene-passed</span><span class="badge">not-recorded</span><span class="badge">audited_with_limitations</span><span class="badge">autopublished</span><span class="badge">batch3-squad-v2-source-evidence-extraction-audit</span><span class="badge">not-showcase</span></p>
+</article>
+<article class="card">
+  <h2><a href="results/batch3-uci-banknote-benchmark-negative-challenge.html">UCI Banknote Authentication Baseline-Dominance Challenge</a></h2>
+  <p class="meta">benchmark-challenge-baseline-dominance · good · autopublished · batch3-uci-banknote-benchmark-negative-challenge</p>
+  <p>A container-local benchmark run evaluated simple threshold baselines and a two-feature challenger on UCI Banknote Authentication; the challenger was rejected because the best variance threshold baseline achieved F1 0.855 versus challenger F1 0.716.</p>
+  <p><span class="badge">good</span><span class="badge">benchmark_challenge_negative_result</span><span class="badge">unknown</span><span class="badge">replay-100</span><span class="badge">safety-passed</span><span class="badge">hygiene-passed</span><span class="badge">container-local</span><span class="badge">candidate_rejected_by_falsification</span><span class="badge">autopublished</span><span class="badge">batch3-uci-banknote-benchmark-negative-challenge</span><span class="badge">not-showcase</span></p>
+</article>
+<article class="card">
+  <h2><a href="results/batch3-uci-forest-fires-dataset-quality-execution.html">UCI Forest Fires Dataset Quality Execution Audit</a></h2>
+  <p class="meta">public-dataset-quality-audit · good · autopublished · batch3-uci-forest-fires-dataset-quality-execution</p>
+  <p>A container-local audit processed the UCI Forest Fires dataset and found 517 rows, 13 columns, 4 duplicate full rows, 247 zero-area rows, and highly skewed positive burn-area values.</p>
+  <p><span class="badge">good</span><span class="badge">dataset_quality_audit_supported</span><span class="badge">unknown</span><span class="badge">replay-100</span><span class="badge">safety-passed</span><span class="badge">hygiene-passed</span><span class="badge">container-local</span><span class="badge">audited_with_limitations</span><span class="badge">autopublished</span><span class="badge">batch3-uci-forest-fires-dataset-quality-execution</span><span class="badge">not-showcase</span></p>
 </article>
 <article class="card">
   <h2><a href="results/chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl.html">Can safe public dataset reliability checks identify schema drift and duplicate scientific records without using private data?</a></h2>

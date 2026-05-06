@@ -1,0 +1,71 @@
+{
+  "resultType": "external_research_production_result",
+  "resultKind": "external_research_production_result",
+  "slug": "batch3-palmer-penguins-dataset-quality-execution",
+  "title": "Palmer Penguins Dataset Quality Execution Audit",
+  "targetVersion": "4.2.0-rc.1",
+  "domain": "public-dataset-quality-audit",
+  "selectedExternalTarget": "Palmer Penguins public CSV from seaborn-data",
+  "sourceUrls": [
+    "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/penguins.csv",
+    "https://github.com/mwaskom/seaborn-data"
+  ],
+  "candidateStatus": "dataset_quality_audit_supported",
+  "finalResult": "dataset_quality_audit_supported",
+  "publicHygienePassed": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "hiddenFailures": false,
+  "hiddenLosses": false,
+  "hiddenDegradedFallback": false,
+  "executionIncluded": true,
+  "executionProfile": "container-local-network-none",
+  "sourceAccessLicenseNoted": true,
+  "baselineReproductionPresent": true,
+  "concreteMetricsPresent": true,
+  "deeperReportFile": "METRIC_BREAKDOWN.md",
+  "winsRecorded": 1,
+  "lossesRecorded": 1,
+  "tiesRecorded": 0,
+  "failuresRecorded": 1,
+  "rejectedCandidates": 1,
+  "qualityLabel": "good",
+  "releaseReadinessScore": 88,
+  "evidenceStrengthScore": 90,
+  "reproducibilityScore": 88,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 86,
+  "falsificationStatus": "audited_with_limitations",
+  "metrics": {
+    "executionProfile": "container-local-network-none",
+    "rowCount": 344,
+    "columnCount": 7,
+    "missing": {
+      "species": 0,
+      "island": 0,
+      "bill_length_mm": 2,
+      "bill_depth_mm": 2,
+      "flipper_length_mm": 2,
+      "body_mass_g": 2,
+      "sex": 11
+    },
+    "duplicateRows": 0,
+    "speciesDistribution": {
+      "Adelie": 152,
+      "Chinstrap": 68,
+      "Gentoo": 124
+    },
+    "islandDistribution": {
+      "Biscoe": 168,
+      "Dream": 124,
+      "Torgersen": 52
+    },
+    "sexMissing": 11,
+    "issueCategories": 5,
+    "schemaOnlyIssueRecall": 0.167,
+    "typeAwareIssueRecall": 0.833
+  },
+  "evidenceHash": "13eb161325fcda5e7784502aa17e023fe911572176023baf42bdad86da675478"
+}

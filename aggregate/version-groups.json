@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T06:50:00.296Z",
+  "updatedAt": "2026-05-06T07:04:58.568Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-strategy-trial",
@@ -77,6 +77,41 @@
       "latestSlug": "batch2-uci-occupancy-benchmark-challenge",
       "resultSlugs": [
         "batch2-uci-occupancy-benchmark-challenge"
+      ]
+    },
+    {
+      "versionGroup": "batch3-palmer-penguins-dataset-quality-execution",
+      "latestSlug": "batch3-palmer-penguins-dataset-quality-execution",
+      "resultSlugs": [
+        "batch3-palmer-penguins-dataset-quality-execution"
+      ]
+    },
+    {
+      "versionGroup": "batch3-rapidfuzz-repo-install-example-reproduction",
+      "latestSlug": "batch3-rapidfuzz-repo-install-example-reproduction",
+      "resultSlugs": [
+        "batch3-rapidfuzz-repo-install-example-reproduction"
+      ]
+    },
+    {
+      "versionGroup": "batch3-squad-v2-source-evidence-extraction-audit",
+      "latestSlug": "batch3-squad-v2-source-evidence-extraction-audit",
+      "resultSlugs": [
+        "batch3-squad-v2-source-evidence-extraction-audit"
+      ]
+    },
+    {
+      "versionGroup": "batch3-uci-banknote-benchmark-negative-challenge",
+      "latestSlug": "batch3-uci-banknote-benchmark-negative-challenge",
+      "resultSlugs": [
+        "batch3-uci-banknote-benchmark-negative-challenge"
+      ]
+    },
+    {
+      "versionGroup": "batch3-uci-forest-fires-dataset-quality-execution",
+      "latestSlug": "batch3-uci-forest-fires-dataset-quality-execution",
+      "resultSlugs": [
+        "batch3-uci-forest-fires-dataset-quality-execution"
       ]
     },
     {
@@ -262,5 +297,5 @@
       ]
     }
   ],
-  "evidenceHash": "fd3aaae3cd27c1669951a13ed3cffb73f3a81aace4805d7d9a4946ebea77e342"
+  "evidenceHash": "d507913b75836e03739b7936e96dcdbe28479ee3fe0aa103563b121e1b286e7b"
 }

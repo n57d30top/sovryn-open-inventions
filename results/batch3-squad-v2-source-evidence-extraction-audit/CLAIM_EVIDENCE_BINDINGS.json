@@ -1,0 +1,16 @@
+[
+  {
+    "claim": "A public source-card parser audit over the SQuAD v2 dataset card recovered 5 of 6 expected evidence fields and improved over a keyword-only baseline, while explicitly avoiding model-level QA claims.",
+    "evidence": "https://huggingface.co/datasets/rajpurkar/squad_v2",
+    "metrics": {
+      "sourceUrl": "https://huggingface.co/datasets/rajpurkar/squad_v2/raw/main/README.md",
+      "readmeChars": 8916,
+      "expectedFields": 6,
+      "fieldsPresent": 5,
+      "keywordBaselineFieldRecall": 0.5,
+      "sourceCardParserFieldRecall": 0.833,
+      "executionProfile": "source-card-fetch-and-parser-script"
+    },
+    "limitation": "Smaller audit, not a full run."
+  }
+]

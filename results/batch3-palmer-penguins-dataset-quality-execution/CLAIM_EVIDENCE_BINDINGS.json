@@ -1,0 +1,36 @@
+[
+  {
+    "claim": "A container-local execution audit processed the Palmer Penguins public CSV and found 344 rows, 7 columns, missing biometric fields, 11 missing sex entries, and no duplicate full rows.",
+    "evidence": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/penguins.csv",
+    "metrics": {
+      "executionProfile": "container-local-network-none",
+      "rowCount": 344,
+      "columnCount": 7,
+      "missing": {
+        "species": 0,
+        "island": 0,
+        "bill_length_mm": 2,
+        "bill_depth_mm": 2,
+        "flipper_length_mm": 2,
+        "body_mass_g": 2,
+        "sex": 11
+      },
+      "duplicateRows": 0,
+      "speciesDistribution": {
+        "Adelie": 152,
+        "Chinstrap": 68,
+        "Gentoo": 124
+      },
+      "islandDistribution": {
+        "Biscoe": 168,
+        "Dream": 124,
+        "Torgersen": 52
+      },
+      "sexMissing": 11,
+      "issueCategories": 5,
+      "schemaOnlyIssueRecall": 0.167,
+      "typeAwareIssueRecall": 0.833
+    },
+    "limitation": "No raw data redistributed."
+  }
+]

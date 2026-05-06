@@ -1,0 +1,9 @@
+{
+  "sourceUrl": "https://huggingface.co/datasets/rajpurkar/squad_v2/raw/main/README.md",
+  "readmeChars": 8916,
+  "expectedFields": 6,
+  "fieldsPresent": 5,
+  "keywordBaselineFieldRecall": 0.5,
+  "sourceCardParserFieldRecall": 0.833,
+  "executionProfile": "source-card-fetch-and-parser-script"
+}

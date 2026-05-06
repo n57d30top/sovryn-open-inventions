@@ -1,7 +1,13 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-06T06:50:00.296Z",
+  "generatedAt": "2026-05-06T07:04:58.568Z",
   "sources": [
+    {
+      "resultSlug": "batch3-rapidfuzz-repo-install-example-reproduction",
+      "sourceKind": "external_package_or_tool",
+      "name": "rapidfuzz",
+      "publicOnly": true
+    },
     {
       "resultSlug": "chemistry-data-quality-self-built-lab-study",
       "sourceKind": "external_package_or_tool",
@@ -171,5 +177,5 @@
       "publicOnly": true
     }
   ],
-  "evidenceHash": "9af874a4cafb49f387bfbca7bd016ea5097c84a1b76e6781b6e529f33ca62045"
+  "evidenceHash": "5d6f29d7d846839499571a4ead352b59e280af3776f45402091b7fb3fee4b927"
 }

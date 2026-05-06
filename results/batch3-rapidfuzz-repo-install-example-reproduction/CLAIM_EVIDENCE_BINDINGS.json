@@ -1,0 +1,16 @@
+[
+  {
+    "claim": "A problem-specific RapidFuzz tool install succeeded in an isolated venv, and three fuzzy-matching example checks passed, but the result remains partial because the upstream test suite was not cloned or executed.",
+    "evidence": "https://github.com/rapidfuzz/RapidFuzz",
+    "metrics": {
+      "executionProfile": "venv-local-isolated",
+      "installSucceeded": true,
+      "examplesPassed": 3,
+      "examplesFailed": 0,
+      "packageVersion": "3.14.5",
+      "bestMatch": "sovryn evidence",
+      "bestScore": 100
+    },
+    "limitation": "No upstream test suite."
+  }
+]
