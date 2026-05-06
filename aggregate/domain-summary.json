@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_domain_summary",
-  "updatedAt": "2026-05-06T15:57:30.581Z",
+  "updatedAt": "2026-05-06T16:22:19.476Z",
   "domainCounts": {
     "autonomous-research-production-continuity": 2,
     "autonomous-research-production-strategy": 1,
@@ -43,11 +43,12 @@
     "tabular-and-image-derived-classification-benchmark-validation": 1,
     "tabular-benchmark-baseline-dominance": 2,
     "tabular-regression-benchmark": 1,
+    "theory-guided protocol and leakage mechanism trials": 4,
     "time-series-anomaly-benchmark": 1,
     "time-series-benchmark-challenge": 1,
     "time-series-dataset-quality-audit": 1,
     "time-series-tabular-benchmark": 1,
     "tool-backed-dataset-quality-audit": 1
   },
-  "evidenceHash": "e6e26ec67a6597bc8444c4e1c227373bde9e3419bdacd671e9d58fbfbed43e3c"
+  "evidenceHash": "6b3fcc94183a14def051b97e6c1540d35d2dbbfdaea23508a5729b786374b317"
 }

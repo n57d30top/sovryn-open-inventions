@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T15:57:30.581Z",
+  "generatedAt": "2026-05-06T16:22:19.476Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -235,6 +235,30 @@
       "kind": "result",
       "label": "Batch 31 Theory Engine Paper-Grade Result",
       "domain": "protocol-risk theory-building"
+    },
+    {
+      "id": "result:batch32-mechanism-specific-prediction-freeze",
+      "kind": "result",
+      "label": "Batch 32 Mechanism-Specific Prediction Freeze",
+      "domain": "theory-guided protocol and leakage mechanism trials"
+    },
+    {
+      "id": "result:batch33-group-file-duplicate-control-execution",
+      "kind": "result",
+      "label": "Batch 33 Group/File/Duplicate Control Execution",
+      "domain": "theory-guided protocol and leakage mechanism trials"
+    },
+    {
+      "id": "result:batch34-ambiguous-target-mechanism-deep-study",
+      "kind": "result",
+      "label": "Batch 34 Ambiguous Target Mechanism Deep Study",
+      "domain": "theory-guided protocol and leakage mechanism trials"
+    },
+    {
+      "id": "result:batch35-narrowed-theory-update-and-next-frontier",
+      "kind": "result",
+      "label": "Batch 35 Narrowed Theory Update and Next Frontier",
+      "domain": "theory-guided protocol and leakage mechanism trials"
     },
     {
       "id": "result:batch4-markupsafe-repo-install-test-reproduction",
@@ -665,6 +689,11 @@
       "id": "domain:benchmark-challenge-baseline-dominance",
       "kind": "domain",
       "label": "benchmark-challenge-baseline-dominance"
+    },
+    {
+      "id": "domain:theory-guided protocol and leakage mechanism trials",
+      "kind": "domain",
+      "label": "theory-guided protocol and leakage mechanism trials"
     },
     {
       "id": "domain:public-repo-reproducibility",
@@ -1159,6 +1188,36 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:batch32-mechanism-specific-prediction-freeze",
+      "target": "domain:theory-guided protocol and leakage mechanism trials",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch33-group-file-duplicate-control-execution",
+      "target": "domain:theory-guided protocol and leakage mechanism trials",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch33-group-file-duplicate-control-execution",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch33-group-file-duplicate-control-execution",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch34-ambiguous-target-mechanism-deep-study",
+      "target": "domain:theory-guided protocol and leakage mechanism trials",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch35-narrowed-theory-update-and-next-frontier",
+      "target": "domain:theory-guided protocol and leakage mechanism trials",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:batch4-markupsafe-repo-install-test-reproduction",
       "target": "domain:public-repo-reproducibility",
       "relation": "belongs_to_domain"
@@ -1609,5 +1668,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "acc09ab7cfd0de7f2dda0d1830a5a132dae19b30b681237520afae79c39acce8"
+  "evidenceHash": "ceaee42100c2845f1cd10d5aac80aac7941ed60fe2ded0827f0c1ce75d4c8eb7"
 }

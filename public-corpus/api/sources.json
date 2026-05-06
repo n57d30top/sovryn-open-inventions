@@ -238,6 +238,29 @@
       "customTool": null
     },
     {
+      "slug": "batch32-mechanism-specific-prediction-freeze",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch33-group-file-duplicate-control-execution",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch34-ambiguous-target-mechanism-deep-study",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch35-narrowed-theory-update-and-next-frontier",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "batch4-markupsafe-repo-install-test-reproduction",
       "externalPackages": [],
       "customTool": null
@@ -572,5 +595,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "44ccbfd7062e357bfa97131d17296229dac7721ec6d074148b4d6a54d52a6294"
+  "evidenceHash": "0605bec7d222c8e5481327f6e209db261a4f753f789782dcf1e5db9b577fb441"
 }

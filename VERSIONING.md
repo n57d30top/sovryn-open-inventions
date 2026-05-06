@@ -44,6 +44,10 @@ can supersede earlier entries while preserving audit history.
 - batch3-uci-forest-fires-dataset-quality-execution: latest batch3-uci-forest-fires-dataset-quality-execution; versions batch3-uci-forest-fires-dataset-quality-execution
 - batch30-cross-domain-theory-transfer: latest batch30-cross-domain-theory-transfer; versions batch30-cross-domain-theory-transfer
 - batch31-theory-engine-paper-grade-result: latest batch31-theory-engine-paper-grade-result; versions batch31-theory-engine-paper-grade-result
+- batch32-mechanism-specific-prediction-freeze: latest batch32-mechanism-specific-prediction-freeze; versions batch32-mechanism-specific-prediction-freeze
+- batch33-group-file-duplicate-control-execution: latest batch33-group-file-duplicate-control-execution; versions batch33-group-file-duplicate-control-execution
+- batch34-ambiguous-target-mechanism-deep-study: latest batch34-ambiguous-target-mechanism-deep-study; versions batch34-ambiguous-target-mechanism-deep-study
+- batch35-narrowed-theory-update-and-next-frontier: latest batch35-narrowed-theory-update-and-next-frontier; versions batch35-narrowed-theory-update-and-next-frontier
 - batch4-markupsafe-repo-install-test-reproduction: latest batch4-markupsafe-repo-install-test-reproduction; versions batch4-markupsafe-repo-install-test-reproduction
 - batch4-uci-abalone-baseline-dominance-negative: latest batch4-uci-abalone-baseline-dominance-negative; versions batch4-uci-abalone-baseline-dominance-negative
 - batch4-uci-bike-sharing-time-series-benchmark: latest batch4-uci-bike-sharing-time-series-benchmark; versions batch4-uci-bike-sharing-time-series-benchmark

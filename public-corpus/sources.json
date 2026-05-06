@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-06T15:57:30.581Z",
+  "generatedAt": "2026-05-06T16:22:19.476Z",
   "sources": [
     {
       "resultSlug": "batch10-toolchain-kill-week",
@@ -156,6 +156,18 @@
       "resultSlug": "batch3-rapidfuzz-repo-install-example-reproduction",
       "sourceKind": "external_package_or_tool",
       "name": "rapidfuzz",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch33-group-file-duplicate-control-execution",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch33-group-file-duplicate-control-execution",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
       "publicOnly": true
     },
     {
@@ -369,5 +381,5 @@
       "publicOnly": true
     }
   ],
-  "evidenceHash": "44ccbfd7062e357bfa97131d17296229dac7721ec6d074148b4d6a54d52a6294"
+  "evidenceHash": "0605bec7d222c8e5481327f6e209db261a4f753f789782dcf1e5db9b577fb441"
 }

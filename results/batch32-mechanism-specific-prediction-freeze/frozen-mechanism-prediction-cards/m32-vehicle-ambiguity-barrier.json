@@ -1,0 +1,16 @@
+{
+  "predictionId": "m32-vehicle-ambiguity-barrier",
+  "target": "UCI Vehicle Silhouettes",
+  "linkedTheoryOrConcept": "Protocol Ambiguity Barrier",
+  "predictedMechanism": "protocol_ambiguity_barrier",
+  "predictedObservableEvidence": "Multiple plausible file/fold interpretations produce different metrics or block a strong protocol-first claim.",
+  "predictedFalsifier": "Source documentation defines one clear replayable protocol and variants converge.",
+  "expectedMetricDeltaRange": "variant-dependent; ambiguity more important than point estimate",
+  "expectedAffectedMetric": "macro-F1",
+  "expectedControlOutcome": "decision should be caveated or rejected if ambiguity remains",
+  "plannedExecutionTest": "load xaa-xai partitions, compare file-holdout, random, and fold-based interpretations",
+  "sourceUrl": "https://archive.ics.uci.edu/dataset/149/statlog+vehicle+silhouettes",
+  "frozenTimestamp": "2026-05-06T16:14:04Z",
+  "noEditRule": "Frozen before Batch 33 execution; later batches may compare observations but must not rewrite this card.",
+  "preregistrationHash": "655e923a271aa8b150d787539463dacdda9034cc3aacc5c5665dde47f395f071"
+}

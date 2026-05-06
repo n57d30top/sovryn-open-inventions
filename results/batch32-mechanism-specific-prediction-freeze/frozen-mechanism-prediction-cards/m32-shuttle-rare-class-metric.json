@@ -1,0 +1,16 @@
+{
+  "predictionId": "m32-shuttle-rare-class-metric",
+  "target": "UCI Statlog Shuttle",
+  "linkedTheoryOrConcept": "Rare-Class Metric Illusion",
+  "predictedMechanism": "class_imbalance_metric_illusion",
+  "predictedObservableEvidence": "Accuracy and weighted-F1 look stronger than macro-F1; rare classes drive the source-vs-random difference.",
+  "predictedFalsifier": "Macro-F1, weighted-F1, and per-class F1 move together with no rare-class degradation.",
+  "expectedMetricDeltaRange": "0.04 to 0.08 macro-F1 random-minus-source",
+  "expectedAffectedMetric": "macro-F1 and rare-class F1",
+  "expectedControlOutcome": "shuffled-label control remains low",
+  "plannedExecutionTest": "load Shuttle source train/test files, run class support and per-class F1 checks",
+  "sourceUrl": "https://archive.ics.uci.edu/dataset/148/statlog+shuttle",
+  "frozenTimestamp": "2026-05-06T16:14:04Z",
+  "noEditRule": "Frozen before Batch 33 execution; later batches may compare observations but must not rewrite this card.",
+  "preregistrationHash": "f1337b2b991e83db815f33995550fd9c59bf02b46e558109a633ff818c90b9e8"
+}

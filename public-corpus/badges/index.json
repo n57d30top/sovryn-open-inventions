@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T15:57:30.581Z",
+  "generatedAt": "2026-05-06T16:22:19.476Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -699,6 +699,78 @@
         "falsification": "passes_falsification",
         "lifecycle": "autopublished",
         "version": "batch31-theory-engine-paper-grade-result",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch32-mechanism-specific-prediction-freeze",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "preregistered_not_yet_evaluated",
+        "lifecycle": "autopublished",
+        "version": "batch32-mechanism-specific-prediction-freeze",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch33-group-file-duplicate-control-execution",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch33-group-file-duplicate-control-execution",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch34-ambiguous-target-mechanism-deep-study",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch34-ambiguous-target-mechanism-deep-study",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch35-narrowed-theory-update-and-next-frontier",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch35-narrowed-theory-update-and-next-frontier",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -1695,5 +1767,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "cf42f5c35302e6699bf9a48d0724d05835866f05cced8e788d82c8d6ed5cbc41"
+  "evidenceHash": "6bd56c154aa2fec752e77ec2075609404539455ed37205279c1604239672e910"
 }

@@ -353,6 +353,42 @@
       "pushed": false
     },
     {
+      "slug": "batch32-mechanism-specific-prediction-freeze",
+      "path": "results/batch32-mechanism-specific-prediction-freeze",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch32-mechanism-specific-prediction-freeze",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch33-group-file-duplicate-control-execution",
+      "path": "results/batch33-group-file-duplicate-control-execution",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch33-group-file-duplicate-control-execution",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch34-ambiguous-target-mechanism-deep-study",
+      "path": "results/batch34-ambiguous-target-mechanism-deep-study",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch34-ambiguous-target-mechanism-deep-study",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch35-narrowed-theory-update-and-next-frontier",
+      "path": "results/batch35-narrowed-theory-update-and-next-frontier",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch35-narrowed-theory-update-and-next-frontier",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
       "slug": "batch4-markupsafe-repo-install-test-reproduction",
       "path": "results/batch4-markupsafe-repo-install-test-reproduction",
       "status": "external_reproduction_success",
@@ -848,5 +884,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "4a924b8a79efc8a17bb24f6a343cb9824d130a0d026d6b3c27920ef823089cd3"
+  "evidenceHash": "6135ec70e74845d99a1d914958547b91047919552e7bf9e8c44f0457499d2783"
 }

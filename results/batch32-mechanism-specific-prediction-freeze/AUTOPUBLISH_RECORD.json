@@ -1,0 +1,18 @@
+{
+  "kind": "autopublish_record",
+  "slug": "batch32-mechanism-specific-prediction-freeze",
+  "resultKind": "mechanism_specific_prediction_freeze",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "releaseReadinessScore": 90,
+  "evidenceStrengthScore": 88,
+  "reproducibilityScore": 88,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 92,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "pushed": true
+}

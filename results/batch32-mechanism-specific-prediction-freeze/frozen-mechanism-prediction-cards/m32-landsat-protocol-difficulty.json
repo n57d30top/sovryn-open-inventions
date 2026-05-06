@@ -1,0 +1,16 @@
+{
+  "predictionId": "m32-landsat-protocol-difficulty",
+  "target": "UCI Statlog Landsat Satellite",
+  "linkedTheoryOrConcept": "Protocol Sensitivity",
+  "predictedMechanism": "ordinary_protocol_difficulty",
+  "predictedObservableEvidence": "Source split remains modestly harder than random without direct group/duplicate evidence.",
+  "predictedFalsifier": "A concrete overlap or duplicate mechanism fully explains the delta.",
+  "expectedMetricDeltaRange": "0.015 to 0.035 macro-F1 random-minus-source",
+  "expectedAffectedMetric": "macro-F1",
+  "expectedControlOutcome": "mechanism remains difficulty/protocol sensitivity rather than leakage",
+  "plannedExecutionTest": "load source train/test files, compare duplicates, class supports, and source-vs-random baselines",
+  "sourceUrl": "https://archive.ics.uci.edu/dataset/146/statlog+landsat+satellite",
+  "frozenTimestamp": "2026-05-06T16:14:04Z",
+  "noEditRule": "Frozen before Batch 33 execution; later batches may compare observations but must not rewrite this card.",
+  "preregistrationHash": "70e1d919a9db981400ad92a05174c2aa06d6a7a9c6a862d7b50a9f3298d49621"
+}

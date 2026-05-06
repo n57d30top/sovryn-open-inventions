@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 94
+Results: 98
 
 ## Lifecycle Counts
 
-- autopublished: 63
+- autopublished: 67
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -51,6 +51,10 @@ Results: 94
 - batch3-uci-forest-fires-dataset-quality-execution: latest batch3-uci-forest-fires-dataset-quality-execution; batch3-uci-forest-fires-dataset-quality-execution
 - batch30-cross-domain-theory-transfer: latest batch30-cross-domain-theory-transfer; batch30-cross-domain-theory-transfer
 - batch31-theory-engine-paper-grade-result: latest batch31-theory-engine-paper-grade-result; batch31-theory-engine-paper-grade-result
+- batch32-mechanism-specific-prediction-freeze: latest batch32-mechanism-specific-prediction-freeze; batch32-mechanism-specific-prediction-freeze
+- batch33-group-file-duplicate-control-execution: latest batch33-group-file-duplicate-control-execution; batch33-group-file-duplicate-control-execution
+- batch34-ambiguous-target-mechanism-deep-study: latest batch34-ambiguous-target-mechanism-deep-study; batch34-ambiguous-target-mechanism-deep-study
+- batch35-narrowed-theory-update-and-next-frontier: latest batch35-narrowed-theory-update-and-next-frontier; batch35-narrowed-theory-update-and-next-frontier
 - batch4-markupsafe-repo-install-test-reproduction: latest batch4-markupsafe-repo-install-test-reproduction; batch4-markupsafe-repo-install-test-reproduction
 - batch4-uci-abalone-baseline-dominance-negative: latest batch4-uci-abalone-baseline-dominance-negative; batch4-uci-abalone-baseline-dominance-negative
 - batch4-uci-bike-sharing-time-series-benchmark: latest batch4-uci-bike-sharing-time-series-benchmark; batch4-uci-bike-sharing-time-series-benchmark

@@ -1,0 +1,36 @@
+{
+  "kind": "theory_confidence_update",
+  "updatedAt": "2026-05-06T16:21:50Z",
+  "updates": {
+    "Evaluation Fragility": {
+      "before": 0.74,
+      "after": 0.77,
+      "reason": "HAR and Optical supported protocol-sensitive effects, but controls keep scope bounded."
+    },
+    "Protocol Sensitivity": {
+      "before": 0.72,
+      "after": 0.73,
+      "reason": "Supported by HAR and Optical; Landsat effect was weaker in this run."
+    },
+    "Random-Split Inflation": {
+      "before": 0.58,
+      "after": 0.48,
+      "reason": "Not universal: Letter, digits, Vehicle linear, and Shuttle forest weakened broad inflation language."
+    },
+    "Rare-Class Metric Illusion": {
+      "before": 0.66,
+      "after": 0.72,
+      "reason": "Shuttle supported class/metric explanation more strongly than duplicate transfer."
+    },
+    "Protocol Ambiguity Barrier": {
+      "before": 0.64,
+      "after": 0.71,
+      "reason": "Vehicle deep study preserved ambiguity as a real blocker."
+    },
+    "Leakage-vs-Difficulty Differentiation": {
+      "before": 0.62,
+      "after": 0.68,
+      "reason": "Duplicate mechanisms were downgraded when direct evidence was absent, separating leakage-like claims from ordinary difficulty."
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T15:57:30.581Z",
+  "updatedAt": "2026-05-06T16:22:19.476Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -273,6 +273,34 @@
       "latestSlug": "batch31-theory-engine-paper-grade-result",
       "resultSlugs": [
         "batch31-theory-engine-paper-grade-result"
+      ]
+    },
+    {
+      "versionGroup": "batch32-mechanism-specific-prediction-freeze",
+      "latestSlug": "batch32-mechanism-specific-prediction-freeze",
+      "resultSlugs": [
+        "batch32-mechanism-specific-prediction-freeze"
+      ]
+    },
+    {
+      "versionGroup": "batch33-group-file-duplicate-control-execution",
+      "latestSlug": "batch33-group-file-duplicate-control-execution",
+      "resultSlugs": [
+        "batch33-group-file-duplicate-control-execution"
+      ]
+    },
+    {
+      "versionGroup": "batch34-ambiguous-target-mechanism-deep-study",
+      "latestSlug": "batch34-ambiguous-target-mechanism-deep-study",
+      "resultSlugs": [
+        "batch34-ambiguous-target-mechanism-deep-study"
+      ]
+    },
+    {
+      "versionGroup": "batch35-narrowed-theory-update-and-next-frontier",
+      "latestSlug": "batch35-narrowed-theory-update-and-next-frontier",
+      "resultSlugs": [
+        "batch35-narrowed-theory-update-and-next-frontier"
       ]
     },
     {
@@ -577,5 +605,5 @@
       ]
     }
   ],
-  "evidenceHash": "3f7f74cf7f13f8858b3a243fd153cfcaefbd562cfd8c921e2031c03c6823bdec"
+  "evidenceHash": "c3f538abb655896173527c5fe11950092d290aea45e1c389c3a356e93e88a82e"
 }

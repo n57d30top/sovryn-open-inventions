@@ -1,0 +1,16 @@
+{
+  "predictionId": "m32-digits-control",
+  "target": "scikit-learn digits control",
+  "linkedTheoryOrConcept": "Protocol Sensitivity",
+  "predictedMechanism": "no_material_mechanism",
+  "predictedObservableEvidence": "Bundled low-risk control does not show a protocol-specific mechanism because no source protocol is asserted.",
+  "predictedFalsifier": "Large repeated random split instability appears.",
+  "expectedMetricDeltaRange": "0.00 to 0.015 macro-F1 across random replays",
+  "expectedAffectedMetric": "macro-F1",
+  "expectedControlOutcome": "negative control for overgeneralized mechanism claims",
+  "plannedExecutionTest": "load sklearn digits and run repeated stratified random splits",
+  "sourceUrl": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html",
+  "frozenTimestamp": "2026-05-06T16:14:04Z",
+  "noEditRule": "Frozen before Batch 33 execution; later batches may compare observations but must not rewrite this card.",
+  "preregistrationHash": "d8213a819491b825b80e567b9c8a1f4f88ddcb93954f8f8e2b9f7e7f93c4b1d5"
+}

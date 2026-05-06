@@ -1,0 +1,16 @@
+{
+  "predictionId": "m32-image-ambiguous-protocol",
+  "target": "UCI Image Segmentation",
+  "linkedTheoryOrConcept": "Protocol Ambiguity Barrier",
+  "predictedMechanism": "protocol_ambiguity_barrier",
+  "predictedObservableEvidence": "Source train/test files exist but documentation and file layout may leave protocol interpretation caveats.",
+  "predictedFalsifier": "One clear source protocol is replayed and controls converge.",
+  "expectedMetricDeltaRange": "0.00 to 0.03 macro-F1 depending on interpretation",
+  "expectedAffectedMetric": "macro-F1",
+  "expectedControlOutcome": "ambiguous if source interpretation cannot be defended",
+  "plannedExecutionTest": "load segmentation train/test files and compare against random challenger if needed",
+  "sourceUrl": "https://archive.ics.uci.edu/dataset/50/image+segmentation",
+  "frozenTimestamp": "2026-05-06T16:14:04Z",
+  "noEditRule": "Frozen before Batch 33 execution; later batches may compare observations but must not rewrite this card.",
+  "preregistrationHash": "49dfb163bb5d5af09ee198f8f875b950afd6f623c9a4a5f8ee53a26076a8fa20"
+}

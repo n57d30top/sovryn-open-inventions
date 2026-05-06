@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 83,
+    "good": 87,
     "reviewable": 6
   },
   "results": [
@@ -198,6 +198,26 @@
     },
     {
       "slug": "batch31-theory-engine-paper-grade-result",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch32-mechanism-specific-prediction-freeze",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "batch33-group-file-duplicate-control-execution",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch34-ambiguous-target-mechanism-deep-study",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch35-narrowed-theory-update-and-next-frontier",
       "qualityLabel": "good",
       "releaseReadinessScore": 91
     },
@@ -477,5 +497,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "ba5de5f00c4c600b933d64619389f4a7a4689e6bc6b327c24ba0d67e7e5259d0"
+  "evidenceHash": "574018f7834e10b3dec0ad638ea8e003d568a4b48ec4c8e7b247a0b5c4dc2c18"
 }

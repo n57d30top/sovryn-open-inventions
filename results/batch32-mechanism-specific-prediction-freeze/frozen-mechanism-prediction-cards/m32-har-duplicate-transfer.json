@@ -1,0 +1,16 @@
+{
+  "predictionId": "m32-har-duplicate-transfer",
+  "target": "UCI HAR Smartphones",
+  "linkedTheoryOrConcept": "Leakage-vs-Difficulty Differentiation",
+  "predictedMechanism": "duplicate_transfer",
+  "predictedObservableEvidence": "Exact duplicate feature-vector transfer is expected to be low or absent; group overlap should explain more than duplicate transfer.",
+  "predictedFalsifier": "Large exact feature duplicate overlap appears across source train/test and disappears under duplicate-aware control.",
+  "expectedMetricDeltaRange": "near 0 duplicate-attributable macro-F1 change",
+  "expectedAffectedMetric": "duplicate-aware macro-F1 delta",
+  "expectedControlOutcome": "negative duplicate mechanism control",
+  "plannedExecutionTest": "hash train/test feature vectors and compare exact overlaps",
+  "sourceUrl": "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones",
+  "frozenTimestamp": "2026-05-06T16:14:04Z",
+  "noEditRule": "Frozen before Batch 33 execution; later batches may compare observations but must not rewrite this card.",
+  "preregistrationHash": "c0af86a064e13e2967676e6474c02bd9df584fd7c3d6cf9e4aab7c14ce68f4e8"
+}
