@@ -63,11 +63,17 @@ and safety scope in human-readable language.
 - [Batch 23 Ambiguous Protocol Deep Replay Study](results/batch23-ambiguous-protocol-deep-replay-study/) — good, autopublished, batch23-ambiguous-protocol-deep-replay-study, protocol-card-replay-at-scale
 - [Batch 24 Protocol-Card Kill Week and Next Frontier](results/batch24-protocol-card-kill-week-next-frontier/) — good, autopublished, batch24-protocol-card-kill-week-next-frontier, protocol-card-replay-at-scale
 - [Batch 25 Leakage-Risk Cards Week 1](results/batch25-leakage-risk-cards-week1/) — good, autopublished, batch25-leakage-risk-cards-week1, benchmark-leakage-risk-detection-under-protocol-cards
+- [Batch 26 Theory Engine v0 Candidate Theories](results/batch26-theory-engine-v0-candidate-theories/) — good, autopublished, batch26-theory-engine-v0-candidate-theories, protocol-risk theory-building
+- [Batch 27 Frozen Prediction Tournament](results/batch27-frozen-prediction-tournament/) — good, autopublished, batch27-frozen-prediction-tournament, protocol-risk theory-building
+- [Batch 28 Theory Falsification Week](results/batch28-theory-falsification-week/) — good, autopublished, batch28-theory-falsification-week, protocol-risk theory-building
+- [Batch 29 Concept Invention and Abstraction Search](results/batch29-concept-invention-abstraction-search/) — good, autopublished, batch29-concept-invention-abstraction-search, protocol-risk theory-building
 - [Palmer Penguins Dataset Quality Execution Audit](results/batch3-palmer-penguins-dataset-quality-execution/) — good, autopublished, batch3-palmer-penguins-dataset-quality-execution, public-dataset-quality-audit
 - [RapidFuzz Repository Install and Example Reproduction Audit](results/batch3-rapidfuzz-repo-install-example-reproduction/) — reviewable, autopublished, batch3-rapidfuzz-repo-install-example-reproduction, public-repo-reproducibility-audit
 - [SQuAD v2 Source/Evidence Extraction Audit](results/batch3-squad-v2-source-evidence-extraction-audit/) — good, autopublished, batch3-squad-v2-source-evidence-extraction-audit, source-evidence-extraction-quality
 - [UCI Banknote Authentication Baseline-Dominance Challenge](results/batch3-uci-banknote-benchmark-negative-challenge/) — good, autopublished, batch3-uci-banknote-benchmark-negative-challenge, benchmark-challenge-baseline-dominance
 - [UCI Forest Fires Dataset Quality Execution Audit](results/batch3-uci-forest-fires-dataset-quality-execution/) — good, autopublished, batch3-uci-forest-fires-dataset-quality-execution, public-dataset-quality-audit
+- [Batch 30 Cross-Domain Theory Transfer](results/batch30-cross-domain-theory-transfer/) — good, autopublished, batch30-cross-domain-theory-transfer, protocol-risk theory-building
+- [Batch 31 Theory Engine Paper-Grade Result](results/batch31-theory-engine-paper-grade-result/) — good, autopublished, batch31-theory-engine-paper-grade-result, protocol-risk theory-building
 - [MarkupSafe Repository Install and Test Reproduction](results/batch4-markupsafe-repo-install-test-reproduction/) — good, autopublished, batch4-markupsafe-repo-install-test-reproduction, public-repo-reproducibility
 - [UCI Abalone Baseline-Dominance Negative Challenge](results/batch4-uci-abalone-baseline-dominance-negative/) — good, autopublished, batch4-uci-abalone-baseline-dominance-negative, tabular-benchmark-baseline-dominance
 - [UCI Bike Sharing Time-Series Holdout Benchmark](results/batch4-uci-bike-sharing-time-series-benchmark/) — reviewable, autopublished, batch4-uci-bike-sharing-time-series-benchmark, time-series-tabular-benchmark

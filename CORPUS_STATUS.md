@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 88
+Results: 94
 
 ## Lifecycle Counts
 
-- autopublished: 57
+- autopublished: 63
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -40,11 +40,17 @@ Results: 88
 - batch23-ambiguous-protocol-deep-replay-study: latest batch23-ambiguous-protocol-deep-replay-study; batch23-ambiguous-protocol-deep-replay-study
 - batch24-protocol-card-kill-week-next-frontier: latest batch24-protocol-card-kill-week-next-frontier; batch24-protocol-card-kill-week-next-frontier
 - batch25-leakage-risk-cards-week1: latest batch25-leakage-risk-cards-week1; batch25-leakage-risk-cards-week1
+- batch26-theory-engine-v0-candidate-theories: latest batch26-theory-engine-v0-candidate-theories; batch26-theory-engine-v0-candidate-theories
+- batch27-frozen-prediction-tournament: latest batch27-frozen-prediction-tournament; batch27-frozen-prediction-tournament
+- batch28-theory-falsification-week: latest batch28-theory-falsification-week; batch28-theory-falsification-week
+- batch29-concept-invention-abstraction-search: latest batch29-concept-invention-abstraction-search; batch29-concept-invention-abstraction-search
 - batch3-palmer-penguins-dataset-quality-execution: latest batch3-palmer-penguins-dataset-quality-execution; batch3-palmer-penguins-dataset-quality-execution
 - batch3-rapidfuzz-repo-install-example-reproduction: latest batch3-rapidfuzz-repo-install-example-reproduction; batch3-rapidfuzz-repo-install-example-reproduction
 - batch3-squad-v2-source-evidence-extraction-audit: latest batch3-squad-v2-source-evidence-extraction-audit; batch3-squad-v2-source-evidence-extraction-audit
 - batch3-uci-banknote-benchmark-negative-challenge: latest batch3-uci-banknote-benchmark-negative-challenge; batch3-uci-banknote-benchmark-negative-challenge
 - batch3-uci-forest-fires-dataset-quality-execution: latest batch3-uci-forest-fires-dataset-quality-execution; batch3-uci-forest-fires-dataset-quality-execution
+- batch30-cross-domain-theory-transfer: latest batch30-cross-domain-theory-transfer; batch30-cross-domain-theory-transfer
+- batch31-theory-engine-paper-grade-result: latest batch31-theory-engine-paper-grade-result; batch31-theory-engine-paper-grade-result
 - batch4-markupsafe-repo-install-test-reproduction: latest batch4-markupsafe-repo-install-test-reproduction; batch4-markupsafe-repo-install-test-reproduction
 - batch4-uci-abalone-baseline-dominance-negative: latest batch4-uci-abalone-baseline-dominance-negative; batch4-uci-abalone-baseline-dominance-negative
 - batch4-uci-bike-sharing-time-series-benchmark: latest batch4-uci-bike-sharing-time-series-benchmark; batch4-uci-bike-sharing-time-series-benchmark

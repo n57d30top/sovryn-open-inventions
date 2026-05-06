@@ -1,0 +1,20 @@
+{
+  "kind": "theory_engine_stage_verification",
+  "slug": "batch30-cross-domain-theory-transfer",
+  "resultKind": "cross_domain_theory_transfer",
+  "requiredArtifacts": [
+    "README.md",
+    "SUMMARY.json",
+    "SELECTED_THEORY_OR_CONCEPT.md",
+    "TRANSFER_DOMAINS.md",
+    "TRANSFER_PREDICTIONS.md",
+    "EXECUTED_TRANSFER_TESTS.md",
+    "TRANSFER_RESULTS.md",
+    "FAILED_TRANSFER_CASES.md",
+    "THEORY_SCOPE_UPDATE.md",
+    "LIMITATIONS.md",
+    "REPRODUCE.md"
+  ],
+  "noFakeClaims": true,
+  "evidenceHash": "4f227c6829044429b95552f71d92b8823192cf4bd4fc04f0e059e633bb0ba93f"
+}

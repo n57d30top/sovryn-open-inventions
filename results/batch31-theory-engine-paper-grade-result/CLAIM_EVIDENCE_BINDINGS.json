@@ -1,0 +1,30 @@
+{
+  "kind": "claim_evidence_bindings",
+  "bindings": [
+    {
+      "claim": "Protocol-first evaluation can alter conclusions",
+      "evidence": "batch13, batch20, batch27",
+      "limitation": "not universal"
+    },
+    {
+      "claim": "Leakage is not confirmed by split delta alone",
+      "evidence": "batch25, batch28",
+      "limitation": "direct mechanisms required"
+    },
+    {
+      "claim": "Evaluation Fragility survived with scope limits",
+      "evidence": "batch27, batch28, batch30",
+      "limitation": "domain-specific"
+    },
+    {
+      "claim": "Concept invention rejected weak jargon",
+      "evidence": "batch29",
+      "limitation": "two concepts survived"
+    },
+    {
+      "claim": "Transfer is partial outside protocol-risk",
+      "evidence": "batch30",
+      "limitation": "time-series not testable in this trial"
+    }
+  ]
+}

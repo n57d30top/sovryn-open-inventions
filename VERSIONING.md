@@ -33,11 +33,17 @@ can supersede earlier entries while preserving audit history.
 - batch23-ambiguous-protocol-deep-replay-study: latest batch23-ambiguous-protocol-deep-replay-study; versions batch23-ambiguous-protocol-deep-replay-study
 - batch24-protocol-card-kill-week-next-frontier: latest batch24-protocol-card-kill-week-next-frontier; versions batch24-protocol-card-kill-week-next-frontier
 - batch25-leakage-risk-cards-week1: latest batch25-leakage-risk-cards-week1; versions batch25-leakage-risk-cards-week1
+- batch26-theory-engine-v0-candidate-theories: latest batch26-theory-engine-v0-candidate-theories; versions batch26-theory-engine-v0-candidate-theories
+- batch27-frozen-prediction-tournament: latest batch27-frozen-prediction-tournament; versions batch27-frozen-prediction-tournament
+- batch28-theory-falsification-week: latest batch28-theory-falsification-week; versions batch28-theory-falsification-week
+- batch29-concept-invention-abstraction-search: latest batch29-concept-invention-abstraction-search; versions batch29-concept-invention-abstraction-search
 - batch3-palmer-penguins-dataset-quality-execution: latest batch3-palmer-penguins-dataset-quality-execution; versions batch3-palmer-penguins-dataset-quality-execution
 - batch3-rapidfuzz-repo-install-example-reproduction: latest batch3-rapidfuzz-repo-install-example-reproduction; versions batch3-rapidfuzz-repo-install-example-reproduction
 - batch3-squad-v2-source-evidence-extraction-audit: latest batch3-squad-v2-source-evidence-extraction-audit; versions batch3-squad-v2-source-evidence-extraction-audit
 - batch3-uci-banknote-benchmark-negative-challenge: latest batch3-uci-banknote-benchmark-negative-challenge; versions batch3-uci-banknote-benchmark-negative-challenge
 - batch3-uci-forest-fires-dataset-quality-execution: latest batch3-uci-forest-fires-dataset-quality-execution; versions batch3-uci-forest-fires-dataset-quality-execution
+- batch30-cross-domain-theory-transfer: latest batch30-cross-domain-theory-transfer; versions batch30-cross-domain-theory-transfer
+- batch31-theory-engine-paper-grade-result: latest batch31-theory-engine-paper-grade-result; versions batch31-theory-engine-paper-grade-result
 - batch4-markupsafe-repo-install-test-reproduction: latest batch4-markupsafe-repo-install-test-reproduction; versions batch4-markupsafe-repo-install-test-reproduction
 - batch4-uci-abalone-baseline-dominance-negative: latest batch4-uci-abalone-baseline-dominance-negative; versions batch4-uci-abalone-baseline-dominance-negative
 - batch4-uci-bike-sharing-time-series-benchmark: latest batch4-uci-bike-sharing-time-series-benchmark; versions batch4-uci-bike-sharing-time-series-benchmark

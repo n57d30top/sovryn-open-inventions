@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T15:25:10.610Z",
+  "generatedAt": "2026-05-06T15:57:30.581Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -171,6 +171,30 @@
       "domain": "benchmark-leakage-risk-detection-under-protocol-cards"
     },
     {
+      "id": "result:batch26-theory-engine-v0-candidate-theories",
+      "kind": "result",
+      "label": "Batch 26 Theory Engine v0 Candidate Theories",
+      "domain": "protocol-risk theory-building"
+    },
+    {
+      "id": "result:batch27-frozen-prediction-tournament",
+      "kind": "result",
+      "label": "Batch 27 Frozen Prediction Tournament",
+      "domain": "protocol-risk theory-building"
+    },
+    {
+      "id": "result:batch28-theory-falsification-week",
+      "kind": "result",
+      "label": "Batch 28 Theory Falsification Week",
+      "domain": "protocol-risk theory-building"
+    },
+    {
+      "id": "result:batch29-concept-invention-abstraction-search",
+      "kind": "result",
+      "label": "Batch 29 Concept Invention and Abstraction Search",
+      "domain": "protocol-risk theory-building"
+    },
+    {
       "id": "result:batch3-palmer-penguins-dataset-quality-execution",
       "kind": "result",
       "label": "Palmer Penguins Dataset Quality Execution Audit",
@@ -199,6 +223,18 @@
       "kind": "result",
       "label": "UCI Forest Fires Dataset Quality Execution Audit",
       "domain": "public-dataset-quality-audit"
+    },
+    {
+      "id": "result:batch30-cross-domain-theory-transfer",
+      "kind": "result",
+      "label": "Batch 30 Cross-Domain Theory Transfer",
+      "domain": "protocol-risk theory-building"
+    },
+    {
+      "id": "result:batch31-theory-engine-paper-grade-result",
+      "kind": "result",
+      "label": "Batch 31 Theory Engine Paper-Grade Result",
+      "domain": "protocol-risk theory-building"
     },
     {
       "id": "result:batch4-markupsafe-repo-install-test-reproduction",
@@ -619,6 +655,11 @@
       "id": "domain:benchmark-leakage-risk-detection-under-protocol-cards",
       "kind": "domain",
       "label": "benchmark-leakage-risk-detection-under-protocol-cards"
+    },
+    {
+      "id": "domain:protocol-risk theory-building",
+      "kind": "domain",
+      "label": "protocol-risk theory-building"
     },
     {
       "id": "domain:benchmark-challenge-baseline-dominance",
@@ -1058,6 +1099,26 @@
       "relation": "uses_public_tool_evidence"
     },
     {
+      "source": "result:batch26-theory-engine-v0-candidate-theories",
+      "target": "domain:protocol-risk theory-building",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch27-frozen-prediction-tournament",
+      "target": "domain:protocol-risk theory-building",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch28-theory-falsification-week",
+      "target": "domain:protocol-risk theory-building",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch29-concept-invention-abstraction-search",
+      "target": "domain:protocol-risk theory-building",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:batch3-palmer-penguins-dataset-quality-execution",
       "target": "domain:public-dataset-quality-audit",
       "relation": "belongs_to_domain"
@@ -1085,6 +1146,16 @@
     {
       "source": "result:batch3-uci-forest-fires-dataset-quality-execution",
       "target": "domain:public-dataset-quality-audit",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch30-cross-domain-theory-transfer",
+      "target": "domain:protocol-risk theory-building",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch31-theory-engine-paper-grade-result",
+      "target": "domain:protocol-risk theory-building",
       "relation": "belongs_to_domain"
     },
     {
@@ -1538,5 +1609,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "a4139992038b2291609d5aaad08f1ca8b2db2fc8bc20fee1aedc6ef186ee2c08"
+  "evidenceHash": "acc09ab7cfd0de7f2dda0d1830a5a132dae19b30b681237520afae79c39acce8"
 }

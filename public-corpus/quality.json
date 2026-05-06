@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T15:25:10.610Z",
+  "generatedAt": "2026-05-06T15:57:30.581Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 77,
+    "good": 83,
     "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 57,
+    "autopublished": 63,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -407,6 +407,62 @@
       "specificityScore": 91
     },
     {
+      "slug": "batch26-theory-engine-v0-candidate-theories",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch26-theory-engine-v0-candidate-theories",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 93
+    },
+    {
+      "slug": "batch27-frozen-prediction-tournament",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch27-frozen-prediction-tournament",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 93
+    },
+    {
+      "slug": "batch28-theory-falsification-week",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch28-theory-falsification-week",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 93
+    },
+    {
+      "slug": "batch29-concept-invention-abstraction-search",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch29-concept-invention-abstraction-search",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 93
+    },
+    {
       "slug": "batch3-palmer-penguins-dataset-quality-execution",
       "qualityLabel": "good",
       "antiTemplateStatus": "unknown",
@@ -475,6 +531,34 @@
       "reproducibilityScore": 88,
       "publicationSafetyScore": 98,
       "specificityScore": 86
+    },
+    {
+      "slug": "batch30-cross-domain-theory-transfer",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch30-cross-domain-theory-transfer",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 93
+    },
+    {
+      "slug": "batch31-theory-engine-paper-grade-result",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch31-theory-engine-paper-grade-result",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 93
     },
     {
       "slug": "batch4-markupsafe-repo-install-test-reproduction",
@@ -1247,5 +1331,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "94cc8657fae3371ef736f03cfaaab572286b35862216c04491983f21aeb45730"
+  "evidenceHash": "ba5de5f00c4c600b933d64619389f4a7a4689e6bc6b327c24ba0d67e7e5259d0"
 }

@@ -1,0 +1,20 @@
+{
+  "kind": "theory_engine_stage_verification",
+  "slug": "batch27-frozen-prediction-tournament",
+  "resultKind": "frozen_prediction_tournament",
+  "requiredArtifacts": [
+    "README.md",
+    "SUMMARY.json",
+    "FROZEN_PREDICTION_CARDS.md",
+    "frozen-prediction-cards",
+    "PREREGISTRATION_HASHES.json",
+    "EXECUTED_PREDICTIONS.md",
+    "PREDICTION_VS_OBSERVATION.md",
+    "THEORY_CALIBRATION.md",
+    "FAILED_OR_WEAK_PREDICTIONS.md",
+    "LIMITATIONS.md",
+    "REPRODUCE.md"
+  ],
+  "noFakeClaims": true,
+  "evidenceHash": "2049b4f8c5375be1eaec19b928c081f5763c800b7b9888ff00734b54bf11e95c"
+}

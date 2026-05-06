@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T15:25:10.610Z",
+  "updatedAt": "2026-05-06T15:57:30.581Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -199,6 +199,34 @@
       ]
     },
     {
+      "versionGroup": "batch26-theory-engine-v0-candidate-theories",
+      "latestSlug": "batch26-theory-engine-v0-candidate-theories",
+      "resultSlugs": [
+        "batch26-theory-engine-v0-candidate-theories"
+      ]
+    },
+    {
+      "versionGroup": "batch27-frozen-prediction-tournament",
+      "latestSlug": "batch27-frozen-prediction-tournament",
+      "resultSlugs": [
+        "batch27-frozen-prediction-tournament"
+      ]
+    },
+    {
+      "versionGroup": "batch28-theory-falsification-week",
+      "latestSlug": "batch28-theory-falsification-week",
+      "resultSlugs": [
+        "batch28-theory-falsification-week"
+      ]
+    },
+    {
+      "versionGroup": "batch29-concept-invention-abstraction-search",
+      "latestSlug": "batch29-concept-invention-abstraction-search",
+      "resultSlugs": [
+        "batch29-concept-invention-abstraction-search"
+      ]
+    },
+    {
       "versionGroup": "batch3-palmer-penguins-dataset-quality-execution",
       "latestSlug": "batch3-palmer-penguins-dataset-quality-execution",
       "resultSlugs": [
@@ -231,6 +259,20 @@
       "latestSlug": "batch3-uci-forest-fires-dataset-quality-execution",
       "resultSlugs": [
         "batch3-uci-forest-fires-dataset-quality-execution"
+      ]
+    },
+    {
+      "versionGroup": "batch30-cross-domain-theory-transfer",
+      "latestSlug": "batch30-cross-domain-theory-transfer",
+      "resultSlugs": [
+        "batch30-cross-domain-theory-transfer"
+      ]
+    },
+    {
+      "versionGroup": "batch31-theory-engine-paper-grade-result",
+      "latestSlug": "batch31-theory-engine-paper-grade-result",
+      "resultSlugs": [
+        "batch31-theory-engine-paper-grade-result"
       ]
     },
     {
@@ -535,5 +577,5 @@
       ]
     }
   ],
-  "evidenceHash": "9032502bcdb32a9f5b0173fcfd91efff1199a6b6eead7fe080722b1a6d8534f1"
+  "evidenceHash": "3f7f74cf7f13f8858b3a243fd153cfcaefbd562cfd8c921e2031c03c6823bdec"
 }

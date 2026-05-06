@@ -1,0 +1,20 @@
+{
+  "kind": "theory_engine_stage_verification",
+  "slug": "batch26-theory-engine-v0-candidate-theories",
+  "resultKind": "theory_engine_candidate_theories",
+  "requiredArtifacts": [
+    "README.md",
+    "SUMMARY.json",
+    "CORPUS_PATTERN_SCAN.md",
+    "CANDIDATE_THEORIES.md",
+    "THEORY_CARDS.md",
+    "theory-cards",
+    "THEORY_RANKING.md",
+    "COMPETING_EXPLANATIONS.md",
+    "SELECTED_THEORIES.md",
+    "LIMITATIONS.md",
+    "REPRODUCE.md"
+  ],
+  "noFakeClaims": true,
+  "evidenceHash": "1dcd33f66edbe2d6c6ba0537a04d7e29bf1add26172886b08626217480ae7d1b"
+}

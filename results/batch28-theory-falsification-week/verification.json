@@ -1,0 +1,22 @@
+{
+  "kind": "theory_engine_stage_verification",
+  "slug": "batch28-theory-falsification-week",
+  "resultKind": "theory_falsification_week",
+  "requiredArtifacts": [
+    "README.md",
+    "SUMMARY.json",
+    "THEORY_UNDER_ATTACK.md",
+    "FALSIFICATION_TESTS.md",
+    "EXECUTED_FALSIFICATION_TESTS.md",
+    "ALTERNATIVE_THEORIES.md",
+    "CLAIM_DOWNGRADES.md",
+    "PRESERVED_CLAIMS.md",
+    "THEORY_CONFIDENCE_UPDATE.json",
+    "NEGATIVE_OR_PARTIAL_FINDINGS.md",
+    "LIMITATIONS.md",
+    "NEXT_RESEARCH_DIRECTION.md",
+    "REPRODUCE.md"
+  ],
+  "noFakeClaims": true,
+  "evidenceHash": "1003688c724a2188d3c5399cd838e5aeb45b4117bb73abfe4d25ab7dcb736433"
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "theory_engine_stage_verification",
+  "slug": "batch31-theory-engine-paper-grade-result",
+  "resultKind": "theory_engine_paper_grade_result",
+  "requiredArtifacts": [
+    "README.md",
+    "SUMMARY.json",
+    "PAPER.md",
+    "METHOD.md",
+    "THEORY_CARDS_SUMMARY.md",
+    "PREDICTION_TOURNAMENT_RESULTS.md",
+    "FALSIFICATION_RESULTS.md",
+    "CONCEPT_INVENTION_RESULTS.md",
+    "CROSS_DOMAIN_TRANSFER_RESULTS.md",
+    "CLAIM_EVIDENCE_BINDINGS.json",
+    "NEGATIVE_RESULTS.md",
+    "TOOL_AND_THEORY_DECISIONS.md",
+    "FRONTIER_CONCLUSIONS.md",
+    "NEXT_FRONTIER_PROGRAM.md",
+    "LIMITATIONS.md",
+    "REPRODUCE.md"
+  ],
+  "noFakeClaims": true,
+  "evidenceHash": "5cf0fabef519a3dbab6fb3a8743ec54db1c19753375ed38f6c0fd30f668977ea"
+}

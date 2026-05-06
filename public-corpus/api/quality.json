@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 77,
+    "good": 83,
     "reviewable": 6
   },
   "results": [
@@ -147,6 +147,26 @@
       "releaseReadinessScore": 90
     },
     {
+      "slug": "batch26-theory-engine-v0-candidate-theories",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch27-frozen-prediction-tournament",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch28-theory-falsification-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch29-concept-invention-abstraction-search",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
       "slug": "batch3-palmer-penguins-dataset-quality-execution",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
@@ -170,6 +190,16 @@
       "slug": "batch3-uci-forest-fires-dataset-quality-execution",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch30-cross-domain-theory-transfer",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch31-theory-engine-paper-grade-result",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
     },
     {
       "slug": "batch4-markupsafe-repo-install-test-reproduction",
@@ -447,5 +477,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "94cc8657fae3371ef736f03cfaaab572286b35862216c04491983f21aeb45730"
+  "evidenceHash": "ba5de5f00c4c600b933d64619389f4a7a4689e6bc6b327c24ba0d67e7e5259d0"
 }

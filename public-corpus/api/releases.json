@@ -254,6 +254,42 @@
       "pushed": true
     },
     {
+      "slug": "batch26-theory-engine-v0-candidate-theories",
+      "path": "results/batch26-theory-engine-v0-candidate-theories",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch26-theory-engine-v0-candidate-theories",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch27-frozen-prediction-tournament",
+      "path": "results/batch27-frozen-prediction-tournament",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch27-frozen-prediction-tournament",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch28-theory-falsification-week",
+      "path": "results/batch28-theory-falsification-week",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch28-theory-falsification-week",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch29-concept-invention-abstraction-search",
+      "path": "results/batch29-concept-invention-abstraction-search",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch29-concept-invention-abstraction-search",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "batch3-palmer-penguins-dataset-quality-execution",
       "path": "results/batch3-palmer-penguins-dataset-quality-execution",
       "status": "dataset_quality_audit_supported",
@@ -297,6 +333,24 @@
       "versionGroup": "batch3-uci-forest-fires-dataset-quality-execution",
       "supersededBy": null,
       "pushed": true
+    },
+    {
+      "slug": "batch30-cross-domain-theory-transfer",
+      "path": "results/batch30-cross-domain-theory-transfer",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch30-cross-domain-theory-transfer",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "batch31-theory-engine-paper-grade-result",
+      "path": "results/batch31-theory-engine-paper-grade-result",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch31-theory-engine-paper-grade-result",
+      "supersededBy": null,
+      "pushed": false
     },
     {
       "slug": "batch4-markupsafe-repo-install-test-reproduction",
@@ -794,5 +848,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "3593852eefc127150f77e3a2bf0409cadd3bed41ac2dbaf54ab7b5e4a6674c0d"
+  "evidenceHash": "4a924b8a79efc8a17bb24f6a343cb9824d130a0d026d6b3c27920ef823089cd3"
 }
