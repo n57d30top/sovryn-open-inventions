@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 75,
+    "good": 76,
     "reviewable": 6
   },
   "results": [
@@ -140,6 +140,11 @@
       "slug": "batch24-protocol-card-kill-week-next-frontier",
       "qualityLabel": "good",
       "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch25-leakage-risk-cards-week1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
     },
     {
       "slug": "batch3-palmer-penguins-dataset-quality-execution",
@@ -437,5 +442,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "76c816743a55dfe5223e4dd06fd4152cc795ce19ee9dc910ef301ae8c63dd663"
+  "evidenceHash": "3466d1d740b8a18e13fb5cffcf9894a2f8315ddb50d74a623dbc28bcf1602bdf"
 }

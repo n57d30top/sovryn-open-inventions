@@ -62,6 +62,7 @@ and safety scope in human-readable language.
 - [Batch 22 Protocol-Card Replay Model-Family Stress](results/batch22-protocol-card-replay-model-family-stress/) — good, autopublished, batch22-protocol-card-replay-model-family-stress, protocol-card-replay-at-scale
 - [Batch 23 Ambiguous Protocol Deep Replay Study](results/batch23-ambiguous-protocol-deep-replay-study/) — good, autopublished, batch23-ambiguous-protocol-deep-replay-study, protocol-card-replay-at-scale
 - [Batch 24 Protocol-Card Kill Week and Next Frontier](results/batch24-protocol-card-kill-week-next-frontier/) — good, autopublished, batch24-protocol-card-kill-week-next-frontier, protocol-card-replay-at-scale
+- [Batch 25 Leakage-Risk Cards Week 1](results/batch25-leakage-risk-cards-week1/) — good, autopublished, batch25-leakage-risk-cards-week1, benchmark-leakage-risk-detection-under-protocol-cards
 - [Palmer Penguins Dataset Quality Execution Audit](results/batch3-palmer-penguins-dataset-quality-execution/) — good, autopublished, batch3-palmer-penguins-dataset-quality-execution, public-dataset-quality-audit
 - [RapidFuzz Repository Install and Example Reproduction Audit](results/batch3-rapidfuzz-repo-install-example-reproduction/) — reviewable, autopublished, batch3-rapidfuzz-repo-install-example-reproduction, public-repo-reproducibility-audit
 - [SQuAD v2 Source/Evidence Extraction Audit](results/batch3-squad-v2-source-evidence-extraction-audit/) — good, autopublished, batch3-squad-v2-source-evidence-extraction-audit, source-evidence-extraction-quality

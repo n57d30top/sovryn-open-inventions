@@ -32,6 +32,7 @@ can supersede earlier entries while preserving audit history.
 - batch22-protocol-card-replay-model-family-stress: latest batch22-protocol-card-replay-model-family-stress; versions batch22-protocol-card-replay-model-family-stress
 - batch23-ambiguous-protocol-deep-replay-study: latest batch23-ambiguous-protocol-deep-replay-study; versions batch23-ambiguous-protocol-deep-replay-study
 - batch24-protocol-card-kill-week-next-frontier: latest batch24-protocol-card-kill-week-next-frontier; versions batch24-protocol-card-kill-week-next-frontier
+- batch25-leakage-risk-cards-week1: latest batch25-leakage-risk-cards-week1; versions batch25-leakage-risk-cards-week1
 - batch3-palmer-penguins-dataset-quality-execution: latest batch3-palmer-penguins-dataset-quality-execution; versions batch3-palmer-penguins-dataset-quality-execution
 - batch3-rapidfuzz-repo-install-example-reproduction: latest batch3-rapidfuzz-repo-install-example-reproduction; versions batch3-rapidfuzz-repo-install-example-reproduction
 - batch3-squad-v2-source-evidence-extraction-audit: latest batch3-squad-v2-source-evidence-extraction-audit; versions batch3-squad-v2-source-evidence-extraction-audit

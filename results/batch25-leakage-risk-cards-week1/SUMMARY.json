@@ -1,0 +1,44 @@
+{
+  "antiTemplateStatus": "review_ready",
+  "candidateStatus": "autopublished",
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+  "domain": "benchmark-leakage-risk-detection-under-protocol-cards",
+  "evidenceStrengthScore": 91,
+  "executedTargetCount": 3,
+  "executedTargets": [
+    "UCI HAR Smartphones",
+    "UCI Statlog Shuttle",
+    "UCI Letter Recognition"
+  ],
+  "falsificationStatus": "leakage_mechanisms_screened_with_no_fake_detection_claim",
+  "hardQuestionAnswer": "Batch 25 found that protocol-vs-random split deltas should not be treated as leakage by default. The executed targets did not produce direct duplicate, group, or target-leakage evidence sufficient to explain the deltas; class imbalance, ordinary protocol difficulty, and ambiguity remain stronger explanations.",
+  "leakageRiskCardCount": 5,
+  "lifecycleStatus": "autopublished",
+  "negativeOrPartial": true,
+  "nextBatch26Hypotheses": [
+    "group/file overlap causes random-split inflation",
+    "class imbalance plus metric choice mimics leakage",
+    "protocol ambiguity blocks leakage conclusion"
+  ],
+  "publicHygienePassed": true,
+  "publicationSafetyScore": 98,
+  "qualityLabel": "good",
+  "releaseReadinessScore": 90,
+  "reliabilityReplayPassed": true,
+  "replayCriticalPassRate": 100,
+  "reproducibilityScore": 90,
+  "resultKind": "leakage_risk_cards_week1",
+  "revisionReason": null,
+  "safetyScanPassed": true,
+  "selectedTargets": [
+    "UCI HAR Smartphones",
+    "UCI Statlog Shuttle",
+    "UCI Statlog Landsat Satellite",
+    "UCI Letter Recognition",
+    "UCI Vehicle Silhouettes"
+  ],
+  "slug": "batch25-leakage-risk-cards-week1",
+  "specificityScore": 91,
+  "title": "Batch 25 Leakage-Risk Cards Week 1",
+  "whatSovrynLearned": "Sovryn learned that Leakage-Risk Cards can separate testable leakage checks from not-testable group/file fields, preventing split-risk evidence from turning into fake leakage detection."
+}

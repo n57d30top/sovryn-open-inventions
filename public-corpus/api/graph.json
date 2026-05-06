@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T14:39:37.571Z",
+  "generatedAt": "2026-05-06T14:57:26.932Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -163,6 +163,12 @@
       "kind": "result",
       "label": "Batch 24 Protocol-Card Kill Week and Next Frontier",
       "domain": "protocol-card-replay-at-scale"
+    },
+    {
+      "id": "result:batch25-leakage-risk-cards-week1",
+      "kind": "result",
+      "label": "Batch 25 Leakage-Risk Cards Week 1",
+      "domain": "benchmark-leakage-risk-detection-under-protocol-cards"
     },
     {
       "id": "result:batch3-palmer-penguins-dataset-quality-execution",
@@ -604,6 +610,11 @@
       "label": "protocol-card-replay-at-scale"
     },
     {
+      "id": "domain:benchmark-leakage-risk-detection-under-protocol-cards",
+      "kind": "domain",
+      "label": "benchmark-leakage-risk-detection-under-protocol-cards"
+    },
+    {
       "id": "domain:benchmark-challenge-baseline-dominance",
       "kind": "domain",
       "label": "benchmark-challenge-baseline-dominance"
@@ -1017,6 +1028,21 @@
     },
     {
       "source": "result:batch24-protocol-card-kill-week-next-frontier",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch25-leakage-risk-cards-week1",
+      "target": "domain:benchmark-leakage-risk-detection-under-protocol-cards",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch25-leakage-risk-cards-week1",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch25-leakage-risk-cards-week1",
       "target": "tool:pandas",
       "relation": "uses_public_tool_evidence"
     },
@@ -1496,5 +1522,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "63befa60e733a7241764f2f090bac1066609f08385ebce3911b3ca1228417c8f"
+  "evidenceHash": "fe8184e8a87f23095ca54b7a748953fd3a9b72ba3a1ab656ccf8cc2d6875b950"
 }

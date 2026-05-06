@@ -1,11 +1,12 @@
 {
   "kind": "public_corpus_domain_summary",
-  "updatedAt": "2026-05-06T14:39:37.571Z",
+  "updatedAt": "2026-05-06T14:57:26.932Z",
   "domainCounts": {
     "autonomous-research-production-continuity": 2,
     "autonomous-research-production-strategy": 1,
     "autonomous-research-toolchain-falsification": 1,
     "benchmark-challenge-baseline-dominance": 1,
+    "benchmark-leakage-risk-detection-under-protocol-cards": 1,
     "benchmark-metric-validation": 1,
     "chemistry-data-quality": 10,
     "claim-verification-benchmark": 1,
@@ -46,5 +47,5 @@
     "time-series-tabular-benchmark": 1,
     "tool-backed-dataset-quality-audit": 1
   },
-  "evidenceHash": "24f99abe2459024206045a49680bcfe3d09e97a0a645c08feda4200a00214468"
+  "evidenceHash": "0ce6c1d76d611179c7711f4274e4a86dfbca9ab82aa6d224b82ffb436bb26be7"
 }

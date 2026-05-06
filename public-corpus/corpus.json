@@ -1,14 +1,14 @@
 {
   "kind": "sovryn_public_corpus_product",
-  "generatedAt": "2026-05-06T14:39:37.571Z",
-  "resultCount": 86,
+  "generatedAt": "2026-05-06T14:57:26.932Z",
+  "resultCount": 87,
   "qualityCounts": {
     "excellent": 5,
-    "good": 75,
+    "good": 76,
     "reviewable": 6
   },
   "statusCounts": {
-    "autopublished": 52,
+    "autopublished": 53,
     "benchmark_challenge_negative_result": 4,
     "dataset_quality_audit_supported": 7,
     "external_extension_supported": 1,
@@ -26,7 +26,7 @@
     "strong_external_negative_result": 1
   },
   "lifecycleCounts": {
-    "autopublished": 55,
+    "autopublished": 56,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -37,6 +37,7 @@
     "autonomous-research-production-strategy": 1,
     "autonomous-research-toolchain-falsification": 1,
     "benchmark-challenge-baseline-dominance": 1,
+    "benchmark-leakage-risk-detection-under-protocol-cards": 1,
     "benchmark-metric-validation": 1,
     "chemistry-data-quality": 10,
     "claim-verification-benchmark": 1,
@@ -2110,6 +2111,84 @@
         "falsification": "protocol_card_program_attacked_and_narrowed",
         "lifecycle": "autopublished",
         "version": "batch24-protocol-card-kill-week-next-frontier",
+        "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      }
+    },
+    {
+      "slug": "batch25-leakage-risk-cards-week1",
+      "title": "Batch 25 Leakage-Risk Cards Week 1",
+      "domain": "benchmark-leakage-risk-detection-under-protocol-cards",
+      "resultKind": "leakage_risk_cards_week1",
+      "path": "results/batch25-leakage-risk-cards-week1",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch25-leakage-risk-cards-week1",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": null,
+      "humanReadableSummary": "Batch 25 begins Benchmark Leakage-Risk Detection under Protocol Cards. It created five Leakage-Risk Cards and executed HAR, Shuttle, and Letter. The result is deliberately conservative: split-risk deltas were not automatically converted into leakage claims.",
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 91,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": true,
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null,
+      "workerAssurance": "container-netoff",
+      "falsificationStatus": "leakage_mechanisms_screened_with_no_fake_detection_claim",
+      "scientificQuestion": null,
+      "hypothesisCount": 0,
+      "nullHypothesisPresent": false,
+      "experimentCount": 0,
+      "replicationRunCount": 0,
+      "peerReviewPresent": false,
+      "statisticalAnalysisPresent": false,
+      "baselineComparisonPresent": false,
+      "ablationPresent": false,
+      "sensitivityPresent": false,
+      "studyResultLabel": null,
+      "scientificMemoryUpdated": false,
+      "safetyScope": null,
+      "summary": "Batch 25 begins Benchmark Leakage-Risk Detection under Protocol Cards. It created five Leakage-Risk Cards and executed HAR, Shuttle, and Letter. The result is deliberately conservative: split-risk deltas were not automatically converted into leakage claims.",
+      "limitations": [
+        "\"disclaimer\": \"Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.\",",
+        "| target | target-like fields | ID-like fields | obvious target leakage | finding | limitation |",
+        "Limitations",
+        "Letter served as the low-risk near-control target. Controls weakened broad leakage claims because split deltas did not automatically map to confirmed duplicate, group, or target leakage.",
+        "Batch 25 begins Benchmark Leakage-Risk Detection under Protocol Cards. It created five Leakage-Risk Cards and executed HAR, Shuttle, and Letter. The result is deliberately conservative: split-risk deltas were not automatically converted into leakage claims.",
+        "| UCI Statlog Landsat Satellite | https://archive.ics.uci.edu/static/public/146/statlog+landsat+satellite.zip | Batches 14, 16, and 20 preserved Landsat as spatial/file/protocol-risk evidence with missing spatial-coordinate limitations. | source_train_test_files | high_split_risk_with_spatial_file_caveat | spatial_file_overlap_not_directly_testable | It anchors source-protocol split evidence but is held for Batch 26 because spatial groups are absent from the public table. | Public safe remote-sensing classification. |"
+      ],
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "leakage_mechanisms_screened_with_no_fake_detection_claim",
+        "lifecycle": "autopublished",
+        "version": "batch25-leakage-risk-cards-week1",
         "showcase": "not-showcase"
       },
       "showcaseDocumentation": {
@@ -6782,6 +6861,13 @@
       ]
     },
     {
+      "versionGroup": "batch25-leakage-risk-cards-week1",
+      "latestSlug": "batch25-leakage-risk-cards-week1",
+      "resultSlugs": [
+        "batch25-leakage-risk-cards-week1"
+      ]
+    },
+    {
       "versionGroup": "batch3-palmer-penguins-dataset-quality-execution",
       "latestSlug": "batch3-palmer-penguins-dataset-quality-execution",
       "resultSlugs": [
@@ -8209,5 +8295,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "262d6e47ce7b5b3b485174b492981cd11c8cb9b519270321251c0b0f6c6ad09a"
+  "evidenceHash": "d399638303a49010e03ca5d6c60d95ae637c7fe87a03c04d84fac87e7c1a9490"
 }

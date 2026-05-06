@@ -1,7 +1,7 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-06T14:39:37.571Z",
-  "resultCount": 86,
+  "updatedAt": "2026-05-06T14:57:26.932Z",
+  "resultCount": 87,
   "results": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -1054,6 +1054,45 @@
       "customTool": null,
       "workerAssurance": "container-netoff",
       "falsificationStatus": "protocol_card_program_attacked_and_narrowed",
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+    },
+    {
+      "slug": "batch25-leakage-risk-cards-week1",
+      "title": "Batch 25 Leakage-Risk Cards Week 1",
+      "resultKind": "leakage_risk_cards_week1",
+      "domain": "benchmark-leakage-risk-detection-under-protocol-cards",
+      "path": "results/batch25-leakage-risk-cards-week1",
+      "qualityLabel": "good",
+      "candidateStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch25-leakage-risk-cards-week1",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      },
+      "revisionReason": null,
+      "humanReadableSummary": "Batch 25 begins Benchmark Leakage-Risk Detection under Protocol Cards. It created five Leakage-Risk Cards and executed HAR, Shuttle, and Letter. The result is deliberately conservative: split-risk deltas were not automatically converted into leakage claims.",
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 91,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "customTool": null,
+      "workerAssurance": "container-netoff",
+      "falsificationStatus": "leakage_mechanisms_screened_with_no_fake_detection_claim",
       "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
@@ -3450,5 +3489,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "7957f4ad9638594fa4e5fb6a2712409180c957596b2a194350b052f9d9802b2a"
+  "evidenceHash": "e55e50150a6fa5c700f2574883bd1764683cbb96e5f52259f6da76450252e595"
 }

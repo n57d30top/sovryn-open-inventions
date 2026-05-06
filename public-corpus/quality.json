@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T14:39:37.571Z",
+  "generatedAt": "2026-05-06T14:57:26.932Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 75,
+    "good": 76,
     "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 55,
+    "autopublished": 56,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -391,6 +391,20 @@
       "reproducibilityScore": 88,
       "publicationSafetyScore": 98,
       "specificityScore": 92
+    },
+    {
+      "slug": "batch25-leakage-risk-cards-week1",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch25-leakage-risk-cards-week1",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 98,
+      "specificityScore": 91
     },
     {
       "slug": "batch3-palmer-penguins-dataset-quality-execution",
@@ -1219,5 +1233,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "76c816743a55dfe5223e4dd06fd4152cc795ce19ee9dc910ef301ae8c63dd663"
+  "evidenceHash": "3466d1d740b8a18e13fb5cffcf9894a2f8315ddb50d74a623dbc28bcf1602bdf"
 }

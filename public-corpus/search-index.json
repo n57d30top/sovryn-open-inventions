@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-06T14:39:37.571Z",
-  "entryCount": 86,
+  "builtAt": "2026-05-06T14:57:26.932Z",
+  "entryCount": 87,
   "entries": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -1102,6 +1102,53 @@
         "useful",
         "week",
         "with"
+      ]
+    },
+    {
+      "slug": "batch25-leakage-risk-cards-week1",
+      "title": "Batch 25 Leakage-Risk Cards Week 1",
+      "domain": "benchmark-leakage-risk-detection-under-protocol-cards",
+      "href": "results/batch25-leakage-risk-cards-week1.html",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch25-leakage-risk-cards-week1",
+      "showcaseRank": null,
+      "terms": [
+        "and",
+        "automatically",
+        "autopublished",
+        "batch",
+        "batch25",
+        "begins",
+        "benchmark",
+        "cards",
+        "claims",
+        "conservative",
+        "converted",
+        "created",
+        "deliberately",
+        "deltas",
+        "detection",
+        "executed",
+        "five",
+        "har",
+        "into",
+        "leakage",
+        "letter",
+        "not",
+        "numpy",
+        "pandas",
+        "protocol",
+        "result",
+        "risk",
+        "shuttle",
+        "split",
+        "the",
+        "under",
+        "week",
+        "week1",
+        "were"
       ]
     },
     {
@@ -3505,5 +3552,5 @@
       ]
     }
   ],
-  "evidenceHash": "9c2d24c7c94c738378d369157fda983826e11230f536f6b262af0f83515b38fa"
+  "evidenceHash": "a6ed3dd2796628be8a70431364ef10cbad06bf7ddd0c9a5c1ed7321e6c30473a"
 }

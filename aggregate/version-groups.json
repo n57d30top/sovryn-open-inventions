@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T14:39:37.571Z",
+  "updatedAt": "2026-05-06T14:57:26.932Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -189,6 +189,13 @@
       "latestSlug": "batch24-protocol-card-kill-week-next-frontier",
       "resultSlugs": [
         "batch24-protocol-card-kill-week-next-frontier"
+      ]
+    },
+    {
+      "versionGroup": "batch25-leakage-risk-cards-week1",
+      "latestSlug": "batch25-leakage-risk-cards-week1",
+      "resultSlugs": [
+        "batch25-leakage-risk-cards-week1"
       ]
     },
     {
@@ -521,5 +528,5 @@
       ]
     }
   ],
-  "evidenceHash": "b20fe2d1bc144f171015d1bb8f0603b868d6c639918418c206a46afbe0482d5b"
+  "evidenceHash": "82b60fff06b72cff5be77acf30104c3b47e4791c80efbf112670e8a68ccc29a2"
 }

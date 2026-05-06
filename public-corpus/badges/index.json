@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T14:39:37.571Z",
+  "generatedAt": "2026-05-06T14:57:26.932Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -483,6 +483,24 @@
         "falsification": "protocol_card_program_attacked_and_narrowed",
         "lifecycle": "autopublished",
         "version": "batch24-protocol-card-kill-week-next-frontier",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch25-leakage-risk-cards-week1",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "leakage_mechanisms_screened_with_no_fake_detection_claim",
+        "lifecycle": "autopublished",
+        "version": "batch25-leakage-risk-cards-week1",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -1551,5 +1569,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "b00ec57afa2a7f303b490e84effad90492e6df43b029c15a6f7ee4913968a100"
+  "evidenceHash": "ab79ad381ac4f013ad2c5f973aa05fb7cc79de2abe456d35c006252d2c93a48f"
 }

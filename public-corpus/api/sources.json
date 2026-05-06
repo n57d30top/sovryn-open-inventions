@@ -173,6 +173,14 @@
       "customTool": null
     },
     {
+      "slug": "batch25-leakage-risk-cards-week1",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
       "slug": "batch3-palmer-penguins-dataset-quality-execution",
       "externalPackages": [],
       "customTool": null
@@ -529,5 +537,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "63d22714a21e95501424534cb277a31ddb1a10b6b7a4e9ad0a25ac73c258178f"
+  "evidenceHash": "fc3a9e6e2a1d1d5a95bd99fef42fbdce7a11d5488c33aa64a60efa2cd9aad005"
 }

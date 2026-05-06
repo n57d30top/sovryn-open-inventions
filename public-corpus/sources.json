@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-06T14:39:37.571Z",
+  "generatedAt": "2026-05-06T14:57:26.932Z",
   "sources": [
     {
       "resultSlug": "batch10-toolchain-kill-week",
@@ -136,6 +136,18 @@
     },
     {
       "resultSlug": "batch24-protocol-card-kill-week-next-frontier",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch25-leakage-risk-cards-week1",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch25-leakage-risk-cards-week1",
       "sourceKind": "external_package_or_tool",
       "name": "pandas",
       "publicOnly": true
@@ -357,5 +369,5 @@
       "publicOnly": true
     }
   ],
-  "evidenceHash": "63d22714a21e95501424534cb277a31ddb1a10b6b7a4e9ad0a25ac73c258178f"
+  "evidenceHash": "fc3a9e6e2a1d1d5a95bd99fef42fbdce7a11d5488c33aa64a60efa2cd9aad005"
 }

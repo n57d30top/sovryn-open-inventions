@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "batch25-leakage-risk-cards-week1",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "review_ready",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "container-netoff",
+    "falsification": "leakage_mechanisms_screened_with_no_fake_detection_claim",
+    "lifecycle": "autopublished",
+    "version": "batch25-leakage-risk-cards-week1",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "e79fdfc92ccdb1f594fec5225172962393d22d2885518e9676328a6cf6af32f1"
+}

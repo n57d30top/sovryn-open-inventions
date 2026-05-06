@@ -245,6 +245,15 @@
       "pushed": true
     },
     {
+      "slug": "batch25-leakage-risk-cards-week1",
+      "path": "results/batch25-leakage-risk-cards-week1",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch25-leakage-risk-cards-week1",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
       "slug": "batch3-palmer-penguins-dataset-quality-execution",
       "path": "results/batch3-palmer-penguins-dataset-quality-execution",
       "status": "dataset_quality_audit_supported",
@@ -776,5 +785,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "8940cb682fc11b987683e7c3dac390cd48e08db2c40fa18a09afcee59005f9f8"
+  "evidenceHash": "d3b83124f27b6cc68ea947e6c87e047f9d21cc51faff9dad2b16feac3fb329de"
 }

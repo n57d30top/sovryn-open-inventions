@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 86
+Results: 87
 
 ## Lifecycle Counts
 
-- autopublished: 55
+- autopublished: 56
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -39,6 +39,7 @@ Results: 86
 - batch22-protocol-card-replay-model-family-stress: latest batch22-protocol-card-replay-model-family-stress; batch22-protocol-card-replay-model-family-stress
 - batch23-ambiguous-protocol-deep-replay-study: latest batch23-ambiguous-protocol-deep-replay-study; batch23-ambiguous-protocol-deep-replay-study
 - batch24-protocol-card-kill-week-next-frontier: latest batch24-protocol-card-kill-week-next-frontier; batch24-protocol-card-kill-week-next-frontier
+- batch25-leakage-risk-cards-week1: latest batch25-leakage-risk-cards-week1; batch25-leakage-risk-cards-week1
 - batch3-palmer-penguins-dataset-quality-execution: latest batch3-palmer-penguins-dataset-quality-execution; batch3-palmer-penguins-dataset-quality-execution
 - batch3-rapidfuzz-repo-install-example-reproduction: latest batch3-rapidfuzz-repo-install-example-reproduction; batch3-rapidfuzz-repo-install-example-reproduction
 - batch3-squad-v2-source-evidence-extraction-audit: latest batch3-squad-v2-source-evidence-extraction-audit; batch3-squad-v2-source-evidence-extraction-audit

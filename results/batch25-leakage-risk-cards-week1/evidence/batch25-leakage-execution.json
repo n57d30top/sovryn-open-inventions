@@ -1,0 +1,2947 @@
+{
+  "cards": [
+    {
+      "leakageRiskCardId": "lrc25-01-uci-har-smartphones",
+      "linked Protocol Card": "pc21-01-uci-har-smartphones",
+      "preliminary label": "subject_file_overlap_risk",
+      "protocol status": "source_train_test_files_with_subject_ids",
+      "target": "UCI HAR Smartphones"
+    },
+    {
+      "leakageRiskCardId": "lrc25-02-uci-statlog-shuttle",
+      "linked Protocol Card": "pc21-02-uci-statlog-shuttle",
+      "preliminary label": "class_imbalance_risk",
+      "protocol status": "source_train_test_files",
+      "target": "UCI Statlog Shuttle"
+    },
+    {
+      "leakageRiskCardId": "lrc25-03-uci-statlog-landsat",
+      "linked Protocol Card": "pc21-03-uci-statlog-landsat",
+      "preliminary label": "group_overlap_risk",
+      "protocol status": "source_train_test_files",
+      "target": "UCI Statlog Landsat Satellite"
+    },
+    {
+      "leakageRiskCardId": "lrc25-04-uci-letter-recognition",
+      "linked Protocol Card": "pc21-06-uci-letter-recognition",
+      "preliminary label": "low_leakage_risk",
+      "protocol status": "approximated_row_order_protocol",
+      "target": "UCI Letter Recognition"
+    },
+    {
+      "leakageRiskCardId": "lrc25-05-uci-vehicle-silhouettes",
+      "linked Protocol Card": "pc21-08-uci-vehicle-silhouettes",
+      "preliminary label": "ambiguous_or_unresolved",
+      "protocol status": "protocol_ambiguous_source_shards",
+      "target": "UCI Vehicle Silhouettes"
+    }
+  ],
+  "executions": {
+    "uci-har-smartphones": {
+      "classCount": 6,
+      "classDistributionShiftRandom": 0.000463,
+      "classDistributionShiftSource": 0.023831,
+      "classDistributionSourceTest": {
+        "1": 496,
+        "2": 471,
+        "3": 420,
+        "4": 491,
+        "5": 532,
+        "6": 537
+      },
+      "classDistributionSourceTrain": {
+        "1": 1226,
+        "2": 1073,
+        "3": 986,
+        "4": 1286,
+        "5": 1374,
+        "6": 1407
+      },
+      "duplicateAwareCheck": {
+        "attempted": false,
+        "reason": "No cross-split feature hash overlap was found in the source split."
+      },
+      "featureCount": 561,
+      "featureTargetLeakage": {
+        "finding": "ambiguous",
+        "highCardinalityIdLikeColumns": [
+          "f0",
+          "f1",
+          "f2",
+          "f3",
+          "f4",
+          "f5",
+          "f6",
+          "f7",
+          "f8",
+          "f15"
+        ],
+        "limitations": "Univariate association and high-cardinality checks are screening checks, not proof of leakage absence.",
+        "obviousTargetLeakageFound": false,
+        "suspiciousIdLikeFeatureFound": true,
+        "targetLikeFeatureColumns": [],
+        "topUnivariateClassAssociatedFeatures": [
+          {
+            "fScore": 50776.151143,
+            "feature": "f366"
+          },
+          {
+            "fScore": 46277.280777,
+            "feature": "f40"
+          },
+          {
+            "fScore": 44357.62589,
+            "feature": "f52"
+          },
+          {
+            "fScore": 41202.840578,
+            "feature": "f49"
+          },
+          {
+            "fScore": 40415.979748,
+            "feature": "f56"
+          }
+        ]
+      },
+      "groupSubjectFileOverlap": {
+        "identifiersPresent": true,
+        "notes": "Source identifiers were used as provided.",
+        "overlapCount": 0,
+        "overlapRateTestGroups": 0.0,
+        "status": "checked",
+        "testGroupCount": 9,
+        "trainGroupCount": 21
+      },
+      "protocolStatus": "protocol_reproduced",
+      "randomBaselines": {
+        "dummy_most_frequent": {
+          "accuracy": 0.188666,
+          "fitNote": {
+            "rowsUsed": 7352,
+            "subsampled": false
+          },
+          "macroF1": 0.052907,
+          "perClassF1": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.317442
+          },
+          "perClassSummary": [
+            {
+              "class": "1",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 493,
+              "worstConfusedAs": "6",
+              "worstConfusionCount": 493
+            },
+            {
+              "class": "2",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 442,
+              "worstConfusedAs": "6",
+              "worstConfusionCount": 442
+            },
+            {
+              "class": "3",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 402,
+              "worstConfusedAs": "6",
+              "worstConfusionCount": 402
+            },
+            {
+              "class": "4",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 509,
+              "worstConfusedAs": "6",
+              "worstConfusionCount": 509
+            },
+            {
+              "class": "5",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 545,
+              "worstConfusedAs": "6",
+              "worstConfusionCount": 545
+            },
+            {
+              "class": "6",
+              "correct": 556,
+              "f1": 0.317442,
+              "support": 556,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 0
+            }
+          ],
+          "weightedF1": 0.059891
+        },
+        "linear_logistic_sgd": {
+          "accuracy": 0.97455,
+          "fitNote": {
+            "rowsUsed": 7352,
+            "subsampled": false
+          },
+          "macroF1": 0.975267,
+          "perClassF1": {
+            "1": 0.994924,
+            "2": 0.986456,
+            "3": 0.986301,
+            "4": 0.939303,
+            "5": 0.946412,
+            "6": 0.998205
+          },
+          "perClassSummary": [
+            {
+              "class": "1",
+              "correct": 490,
+              "f1": 0.994924,
+              "support": 493,
+              "worstConfusedAs": "3",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "2",
+              "correct": 437,
+              "f1": 0.986456,
+              "support": 442,
+              "worstConfusedAs": "3",
+              "worstConfusionCount": 3
+            },
+            {
+              "class": "3",
+              "correct": 396,
+              "f1": 0.986301,
+              "support": 402,
+              "worstConfusedAs": "2",
+              "worstConfusionCount": 6
+            },
+            {
+              "class": "4",
+              "correct": 472,
+              "f1": 0.939303,
+              "support": 509,
+              "worstConfusedAs": "5",
+              "worstConfusionCount": 35
+            },
+            {
+              "class": "5",
+              "correct": 521,
+              "f1": 0.946412,
+              "support": 545,
+              "worstConfusedAs": "4",
+              "worstConfusionCount": 24
+            },
+            {
+              "class": "6",
+              "correct": 556,
+              "f1": 0.998205,
+              "support": 556,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 0
+            }
+          ],
+          "weightedF1": 0.974519
+        },
+        "random_forest": {
+          "accuracy": 0.977604,
+          "fitNote": {
+            "rowsUsed": 7352,
+            "subsampled": false
+          },
+          "macroF1": 0.977832,
+          "perClassF1": {
+            "1": 0.990863,
+            "2": 0.985442,
+            "3": 0.979899,
+            "4": 0.953967,
+            "5": 0.957721,
+            "6": 0.9991
+          },
+          "perClassSummary": [
+            {
+              "class": "1",
+              "correct": 488,
+              "f1": 0.990863,
+              "support": 493,
+              "worstConfusedAs": "2",
+              "worstConfusionCount": 3
+            },
+            {
+              "class": "2",
+              "correct": 440,
+              "f1": 0.985442,
+              "support": 442,
+              "worstConfusedAs": "3",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "3",
+              "correct": 390,
+              "f1": 0.979899,
+              "support": 402,
+              "worstConfusedAs": "2",
+              "worstConfusionCount": 8
+            },
+            {
+              "class": "4",
+              "correct": 487,
+              "f1": 0.953967,
+              "support": 509,
+              "worstConfusedAs": "5",
+              "worstConfusionCount": 22
+            },
+            {
+              "class": "5",
+              "correct": 521,
+              "f1": 0.957721,
+              "support": 545,
+              "worstConfusedAs": "4",
+              "worstConfusionCount": 24
+            },
+            {
+              "class": "6",
+              "correct": 555,
+              "f1": 0.9991,
+              "support": 556,
+              "worstConfusedAs": "4",
+              "worstConfusionCount": 1
+            }
+          ],
+          "weightedF1": 0.977607
+        }
+      },
+      "randomDuplicateOverlap": {
+        "crossSplitFeatureHashOverlapCount": 0,
+        "crossSplitFeatureOverlapRateTest": 0.0,
+        "crossSplitFullOverlapRateTest": 0.0,
+        "crossSplitFullRowHashOverlapCount": 0,
+        "featureOverlapFound": false,
+        "fullRowOverlapFound": false,
+        "testDuplicateFeatureRows": 0,
+        "trainDuplicateFeatureRows": 0
+      },
+      "rows": 10299,
+      "shuffledLabelControl": {
+        "accuracy": 0.146929,
+        "macroF1": 0.131544
+      },
+      "slug": "uci-har-smartphones",
+      "sourceBaselines": {
+        "dummy_most_frequent": {
+          "accuracy": 0.182219,
+          "fitNote": {
+            "rowsUsed": 7352,
+            "subsampled": false
+          },
+          "macroF1": 0.051378,
+          "perClassF1": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.308266
+          },
+          "perClassSummary": [
+            {
+              "class": "1",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 496,
+              "worstConfusedAs": "6",
+              "worstConfusionCount": 496
+            },
+            {
+              "class": "2",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 471,
+              "worstConfusedAs": "6",
+              "worstConfusionCount": 471
+            },
+            {
+              "class": "3",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 420,
+              "worstConfusedAs": "6",
+              "worstConfusionCount": 420
+            },
+            {
+              "class": "4",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 491,
+              "worstConfusedAs": "6",
+              "worstConfusionCount": 491
+            },
+            {
+              "class": "5",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 532,
+              "worstConfusedAs": "6",
+              "worstConfusionCount": 532
+            },
+            {
+              "class": "6",
+              "correct": 537,
+              "f1": 0.308266,
+              "support": 537,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 0
+            }
+          ],
+          "weightedF1": 0.056172
+        },
+        "linear_logistic_sgd": {
+          "accuracy": 0.935188,
+          "fitNote": {
+            "rowsUsed": 7352,
+            "subsampled": false
+          },
+          "macroF1": 0.935249,
+          "perClassF1": {
+            "1": 0.936493,
+            "2": 0.916484,
+            "3": 0.948276,
+            "4": 0.919321,
+            "5": 0.913778,
+            "6": 0.977143
+          },
+          "perClassSummary": [
+            {
+              "class": "1",
+              "correct": 494,
+              "f1": 0.936493,
+              "support": 496,
+              "worstConfusedAs": "3",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "2",
+              "correct": 417,
+              "f1": 0.916484,
+              "support": 471,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 49
+            },
+            {
+              "class": "3",
+              "correct": 385,
+              "f1": 0.948276,
+              "support": 420,
+              "worstConfusedAs": "2",
+              "worstConfusionCount": 19
+            },
+            {
+              "class": "4",
+              "correct": 433,
+              "f1": 0.919321,
+              "support": 491,
+              "worstConfusedAs": "5",
+              "worstConfusionCount": 55
+            },
+            {
+              "class": "5",
+              "correct": 514,
+              "f1": 0.913778,
+              "support": 532,
+              "worstConfusedAs": "4",
+              "worstConfusionCount": 18
+            },
+            {
+              "class": "6",
+              "correct": 513,
+              "f1": 0.977143,
+              "support": 537,
+              "worstConfusedAs": "5",
+              "worstConfusionCount": 24
+            }
+          ],
+          "weightedF1": 0.93542
+        },
+        "random_forest": {
+          "accuracy": 0.922973,
+          "fitNote": {
+            "rowsUsed": 7352,
+            "subsampled": false
+          },
+          "macroF1": 0.921539,
+          "perClassF1": {
+            "1": 0.922339,
+            "2": 0.890792,
+            "3": 0.915935,
+            "4": 0.895492,
+            "5": 0.904673,
+            "6": 1.0
+          },
+          "perClassSummary": [
+            {
+              "class": "1",
+              "correct": 481,
+              "f1": 0.922339,
+              "support": 496,
+              "worstConfusedAs": "2",
+              "worstConfusionCount": 10
+            },
+            {
+              "class": "2",
+              "correct": 416,
+              "f1": 0.890792,
+              "support": 471,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 48
+            },
+            {
+              "class": "3",
+              "correct": 365,
+              "f1": 0.915935,
+              "support": 420,
+              "worstConfusedAs": "2",
+              "worstConfusionCount": 37
+            },
+            {
+              "class": "4",
+              "correct": 437,
+              "f1": 0.895492,
+              "support": 491,
+              "worstConfusedAs": "5",
+              "worstConfusionCount": 54
+            },
+            {
+              "class": "5",
+              "correct": 484,
+              "f1": 0.904673,
+              "support": 532,
+              "worstConfusedAs": "4",
+              "worstConfusionCount": 48
+            },
+            {
+              "class": "6",
+              "correct": 537,
+              "f1": 1.0,
+              "support": 537,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 0
+            }
+          ],
+          "weightedF1": 0.922874
+        }
+      },
+      "sourceDuplicateOverlap": {
+        "crossSplitFeatureHashOverlapCount": 0,
+        "crossSplitFeatureOverlapRateTest": 0.0,
+        "crossSplitFullOverlapRateTest": 0.0,
+        "crossSplitFullRowHashOverlapCount": 0,
+        "featureOverlapFound": false,
+        "fullRowOverlapFound": false,
+        "testDuplicateFeatureRows": 0,
+        "trainDuplicateFeatureRows": 0
+      },
+      "splitRiskVsLeakage": {
+        "deltaRandomMinusSourceMacroF1": 0.040018,
+        "interpretation": "Leakage was not automatically inferred from split delta; not-testable group fields and class/protocol difficulty remain visible.",
+        "leakageRiskFinding": "leakage_not_found",
+        "priorSplitRisk": "moderate_split_risk",
+        "randomMacroF1": 0.975267,
+        "relation": "leakage_not_found",
+        "sourceMacroF1": 0.935249
+      },
+      "target": "UCI HAR Smartphones",
+      "testRows": 2947,
+      "trainRows": 7352
+    },
+    "uci-letter-recognition": {
+      "classCount": 26,
+      "classDistributionShiftRandom": 0.001188,
+      "classDistributionShiftSource": 0.033,
+      "classDistributionSourceTest": {
+        "A": 156,
+        "B": 136,
+        "C": 142,
+        "D": 167,
+        "E": 152,
+        "F": 153,
+        "G": 164,
+        "H": 151,
+        "I": 165,
+        "J": 148,
+        "K": 146,
+        "L": 157,
+        "M": 144,
+        "N": 166,
+        "O": 139,
+        "P": 168,
+        "Q": 168,
+        "R": 161,
+        "S": 161,
+        "T": 151,
+        "U": 168,
+        "V": 136,
+        "W": 139,
+        "X": 159,
+        "Y": 145,
+        "Z": 158
+      },
+      "classDistributionSourceTrain": {
+        "A": 633,
+        "B": 630,
+        "C": 594,
+        "D": 638,
+        "E": 616,
+        "F": 622,
+        "G": 609,
+        "H": 583,
+        "I": 590,
+        "J": 599,
+        "K": 593,
+        "L": 604,
+        "M": 648,
+        "N": 617,
+        "O": 614,
+        "P": 635,
+        "Q": 615,
+        "R": 597,
+        "S": 587,
+        "T": 645,
+        "U": 645,
+        "V": 628,
+        "W": 613,
+        "X": 628,
+        "Y": 641,
+        "Z": 576
+      },
+      "duplicateAwareCheck": {
+        "afterMacroF1": 0.658783,
+        "attempted": true,
+        "beforeMacroF1": 0.692537,
+        "deltaAfterRemoval": -0.033754,
+        "removedTrainRows": 580
+      },
+      "featureCount": 16,
+      "featureTargetLeakage": {
+        "finding": "not_found",
+        "highCardinalityIdLikeColumns": [],
+        "limitations": "Univariate association and high-cardinality checks are screening checks, not proof of leakage absence.",
+        "obviousTargetLeakageFound": false,
+        "suspiciousIdLikeFeatureFound": false,
+        "targetLikeFeatureColumns": [],
+        "topUnivariateClassAssociatedFeatures": [
+          {
+            "fScore": 1241.352113,
+            "feature": "f10"
+          },
+          {
+            "fScore": 1172.183445,
+            "feature": "f6"
+          },
+          {
+            "fScore": 1080.239832,
+            "feature": "f12"
+          },
+          {
+            "fScore": 917.062759,
+            "feature": "f13"
+          },
+          {
+            "fScore": 915.646492,
+            "feature": "f11"
+          }
+        ]
+      },
+      "groupSubjectFileOverlap": {
+        "identifiersPresent": false,
+        "notes": "No source group/subject/file identifier is present in the public executed table; not invented.",
+        "overlapCount": null,
+        "overlapRateTestGroups": null,
+        "status": "not_testable"
+      },
+      "protocolStatus": "protocol_approximated",
+      "randomBaselines": {
+        "dummy_most_frequent": {
+          "accuracy": 0.04075,
+          "fitNote": {
+            "rowsUsed": 16000,
+            "subsampled": false
+          },
+          "macroF1": 0.003012,
+          "perClassF1": {
+            "A": 0.0,
+            "B": 0.0,
+            "C": 0.0,
+            "D": 0.0,
+            "E": 0.0,
+            "F": 0.0,
+            "G": 0.0,
+            "H": 0.0,
+            "I": 0.0,
+            "J": 0.0,
+            "K": 0.0,
+            "L": 0.0,
+            "M": 0.0,
+            "N": 0.0,
+            "O": 0.0,
+            "P": 0.0,
+            "Q": 0.0,
+            "R": 0.0,
+            "S": 0.0,
+            "T": 0.0,
+            "U": 0.078309,
+            "V": 0.0,
+            "W": 0.0,
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "perClassSummary": [
+            {
+              "class": "A",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 158,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 158
+            },
+            {
+              "class": "B",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 153,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 153
+            },
+            {
+              "class": "C",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 147,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 147
+            },
+            {
+              "class": "D",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 161,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 161
+            },
+            {
+              "class": "E",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 154,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 154
+            },
+            {
+              "class": "F",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 155,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 155
+            },
+            {
+              "class": "G",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 155,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 155
+            },
+            {
+              "class": "H",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 147,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 147
+            },
+            {
+              "class": "I",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 151,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 151
+            },
+            {
+              "class": "J",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 149,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 149
+            },
+            {
+              "class": "K",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 148,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 148
+            },
+            {
+              "class": "L",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 152,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 152
+            },
+            {
+              "class": "M",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 158,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 158
+            },
+            {
+              "class": "N",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 157,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 157
+            },
+            {
+              "class": "O",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 150,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 150
+            },
+            {
+              "class": "P",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 161,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 161
+            },
+            {
+              "class": "Q",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 157,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 157
+            },
+            {
+              "class": "R",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 151,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 151
+            },
+            {
+              "class": "S",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 150,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 150
+            },
+            {
+              "class": "T",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 159,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 159
+            },
+            {
+              "class": "U",
+              "correct": 163,
+              "f1": 0.078309,
+              "support": 163,
+              "worstConfusedAs": "A",
+              "worstConfusionCount": 0
+            },
+            {
+              "class": "V",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 153,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 153
+            },
+            {
+              "class": "W",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 150,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 150
+            },
+            {
+              "class": "X",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 157,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 157
+            },
+            {
+              "class": "Y",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 157,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 157
+            },
+            {
+              "class": "Z",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 147,
+              "worstConfusedAs": "U",
+              "worstConfusionCount": 147
+            }
+          ],
+          "weightedF1": 0.003191
+        },
+        "linear_logistic_sgd": {
+          "accuracy": 0.69525,
+          "fitNote": {
+            "rowsUsed": 16000,
+            "subsampled": false
+          },
+          "macroF1": 0.689473,
+          "perClassF1": {
+            "A": 0.869565,
+            "B": 0.666667,
+            "C": 0.72381,
+            "D": 0.743017,
+            "E": 0.595469,
+            "F": 0.693252,
+            "G": 0.348624,
+            "H": 0.441489,
+            "I": 0.795848,
+            "J": 0.797153,
+            "K": 0.550943,
+            "L": 0.706231,
+            "M": 0.907895,
+            "N": 0.72,
+            "O": 0.374429,
+            "P": 0.854545,
+            "Q": 0.617486,
+            "R": 0.676471,
+            "S": 0.489655,
+            "T": 0.796178,
+            "U": 0.809816,
+            "V": 0.792332,
+            "W": 0.90411,
+            "X": 0.634286,
+            "Y": 0.671378,
+            "Z": 0.745645
+          },
+          "perClassSummary": [
+            {
+              "class": "A",
+              "correct": 140,
+              "f1": 0.869565,
+              "support": 158,
+              "worstConfusedAs": "Y",
+              "worstConfusionCount": 5
+            },
+            {
+              "class": "B",
+              "correct": 105,
+              "f1": 0.666667,
+              "support": 153,
+              "worstConfusedAs": "R",
+              "worstConfusionCount": 9
+            },
+            {
+              "class": "C",
+              "correct": 114,
+              "f1": 0.72381,
+              "support": 147,
+              "worstConfusedAs": "L",
+              "worstConfusionCount": 8
+            },
+            {
+              "class": "D",
+              "correct": 133,
+              "f1": 0.743017,
+              "support": 161,
+              "worstConfusedAs": "B",
+              "worstConfusionCount": 11
+            },
+            {
+              "class": "E",
+              "correct": 92,
+              "f1": 0.595469,
+              "support": 154,
+              "worstConfusedAs": "C",
+              "worstConfusionCount": 10
+            },
+            {
+              "class": "F",
+              "correct": 113,
+              "f1": 0.693252,
+              "support": 155,
+              "worstConfusedAs": "P",
+              "worstConfusionCount": 14
+            },
+            {
+              "class": "G",
+              "correct": 38,
+              "f1": 0.348624,
+              "support": 155,
+              "worstConfusedAs": "Q",
+              "worstConfusionCount": 35
+            },
+            {
+              "class": "H",
+              "correct": 83,
+              "f1": 0.441489,
+              "support": 147,
+              "worstConfusedAs": "X",
+              "worstConfusionCount": 12
+            },
+            {
+              "class": "I",
+              "correct": 115,
+              "f1": 0.795848,
+              "support": 151,
+              "worstConfusedAs": "F",
+              "worstConfusionCount": 7
+            },
+            {
+              "class": "J",
+              "correct": 112,
+              "f1": 0.797153,
+              "support": 149,
+              "worstConfusedAs": "I",
+              "worstConfusionCount": 11
+            },
+            {
+              "class": "K",
+              "correct": 73,
+              "f1": 0.550943,
+              "support": 148,
+              "worstConfusedAs": "R",
+              "worstConfusionCount": 19
+            },
+            {
+              "class": "L",
+              "correct": 119,
+              "f1": 0.706231,
+              "support": 152,
+              "worstConfusedAs": "D",
+              "worstConfusionCount": 8
+            },
+            {
+              "class": "M",
+              "correct": 138,
+              "f1": 0.907895,
+              "support": 158,
+              "worstConfusedAs": "K",
+              "worstConfusionCount": 3
+            },
+            {
+              "class": "N",
+              "correct": 99,
+              "f1": 0.72,
+              "support": 157,
+              "worstConfusedAs": "K",
+              "worstConfusionCount": 17
+            },
+            {
+              "class": "O",
+              "correct": 41,
+              "f1": 0.374429,
+              "support": 150,
+              "worstConfusedAs": "H",
+              "worstConfusionCount": 77
+            },
+            {
+              "class": "P",
+              "correct": 141,
+              "f1": 0.854545,
+              "support": 161,
+              "worstConfusedAs": "F",
+              "worstConfusionCount": 8
+            },
+            {
+              "class": "Q",
+              "correct": 113,
+              "f1": 0.617486,
+              "support": 157,
+              "worstConfusedAs": "S",
+              "worstConfusionCount": 10
+            },
+            {
+              "class": "R",
+              "correct": 115,
+              "f1": 0.676471,
+              "support": 151,
+              "worstConfusedAs": "B",
+              "worstConfusionCount": 12
+            },
+            {
+              "class": "S",
+              "correct": 71,
+              "f1": 0.489655,
+              "support": 150,
+              "worstConfusedAs": "Z",
+              "worstConfusionCount": 16
+            },
+            {
+              "class": "T",
+              "correct": 125,
+              "f1": 0.796178,
+              "support": 159,
+              "worstConfusedAs": "E",
+              "worstConfusionCount": 5
+            },
+            {
+              "class": "U",
+              "correct": 132,
+              "f1": 0.809816,
+              "support": 163,
+              "worstConfusedAs": "H",
+              "worstConfusionCount": 14
+            },
+            {
+              "class": "V",
+              "correct": 124,
+              "f1": 0.792332,
+              "support": 153,
+              "worstConfusedAs": "Y",
+              "worstConfusionCount": 13
+            },
+            {
+              "class": "W",
+              "correct": 132,
+              "f1": 0.90411,
+              "support": 150,
+              "worstConfusedAs": "H",
+              "worstConfusionCount": 7
+            },
+            {
+              "class": "X",
+              "correct": 111,
+              "f1": 0.634286,
+              "support": 157,
+              "worstConfusedAs": "E",
+              "worstConfusionCount": 9
+            },
+            {
+              "class": "Y",
+              "correct": 95,
+              "f1": 0.671378,
+              "support": 157,
+              "worstConfusedAs": "V",
+              "worstConfusionCount": 20
+            },
+            {
+              "class": "Z",
+              "correct": 107,
+              "f1": 0.745645,
+              "support": 147,
+              "worstConfusedAs": "S",
+              "worstConfusionCount": 9
+            }
+          ],
+          "weightedF1": 0.691038
+        },
+        "random_forest": {
+          "accuracy": 0.95725,
+          "fitNote": {
+            "originalRows": 16000,
+            "rowsUsed": 12000,
+            "subsampled": true
+          },
+          "macroF1": 0.957113,
+          "perClassF1": {
+            "A": 0.993711,
+            "B": 0.9279,
+            "C": 0.965986,
+            "D": 0.933735,
+            "E": 0.948718,
+            "F": 0.939297,
+            "G": 0.951456,
+            "H": 0.895833,
+            "I": 0.941176,
+            "J": 0.957377,
+            "K": 0.945578,
+            "L": 0.966443,
+            "M": 0.977778,
+            "N": 0.950495,
+            "O": 0.95114,
+            "P": 0.95625,
+            "Q": 0.9653,
+            "R": 0.944262,
+            "S": 0.966216,
+            "T": 0.977778,
+            "U": 0.978328,
+            "V": 0.960265,
+            "W": 0.986755,
+            "X": 0.959502,
+            "Y": 0.971429,
+            "Z": 0.972222
+          },
+          "perClassSummary": [
+            {
+              "class": "A",
+              "correct": 158,
+              "f1": 0.993711,
+              "support": 158,
+              "worstConfusedAs": "A",
+              "worstConfusionCount": 0
+            },
+            {
+              "class": "B",
+              "correct": 148,
+              "f1": 0.9279,
+              "support": 153,
+              "worstConfusedAs": "H",
+              "worstConfusionCount": 3
+            },
+            {
+              "class": "C",
+              "correct": 142,
+              "f1": 0.965986,
+              "support": 147,
+              "worstConfusedAs": "E",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "D",
+              "correct": 155,
+              "f1": 0.933735,
+              "support": 161,
+              "worstConfusedAs": "B",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "E",
+              "correct": 148,
+              "f1": 0.948718,
+              "support": 154,
+              "worstConfusedAs": "C",
+              "worstConfusionCount": 3
+            },
+            {
+              "class": "F",
+              "correct": 147,
+              "f1": 0.939297,
+              "support": 155,
+              "worstConfusedAs": "P",
+              "worstConfusionCount": 3
+            },
+            {
+              "class": "G",
+              "correct": 147,
+              "f1": 0.951456,
+              "support": 155,
+              "worstConfusedAs": "Q",
+              "worstConfusionCount": 4
+            },
+            {
+              "class": "H",
+              "correct": 129,
+              "f1": 0.895833,
+              "support": 147,
+              "worstConfusedAs": "D",
+              "worstConfusionCount": 5
+            },
+            {
+              "class": "I",
+              "correct": 136,
+              "f1": 0.941176,
+              "support": 151,
+              "worstConfusedAs": "J",
+              "worstConfusionCount": 8
+            },
+            {
+              "class": "J",
+              "correct": 146,
+              "f1": 0.957377,
+              "support": 149,
+              "worstConfusedAs": "I",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "K",
+              "correct": 139,
+              "f1": 0.945578,
+              "support": 148,
+              "worstConfusedAs": "R",
+              "worstConfusionCount": 4
+            },
+            {
+              "class": "L",
+              "correct": 144,
+              "f1": 0.966443,
+              "support": 152,
+              "worstConfusedAs": "E",
+              "worstConfusionCount": 4
+            },
+            {
+              "class": "M",
+              "correct": 154,
+              "f1": 0.977778,
+              "support": 158,
+              "worstConfusedAs": "B",
+              "worstConfusionCount": 1
+            },
+            {
+              "class": "N",
+              "correct": 144,
+              "f1": 0.950495,
+              "support": 157,
+              "worstConfusedAs": "D",
+              "worstConfusionCount": 4
+            },
+            {
+              "class": "O",
+              "correct": 146,
+              "f1": 0.95114,
+              "support": 150,
+              "worstConfusedAs": "D",
+              "worstConfusionCount": 3
+            },
+            {
+              "class": "P",
+              "correct": 153,
+              "f1": 0.95625,
+              "support": 161,
+              "worstConfusedAs": "F",
+              "worstConfusionCount": 4
+            },
+            {
+              "class": "Q",
+              "correct": 153,
+              "f1": 0.9653,
+              "support": 157,
+              "worstConfusedAs": "O",
+              "worstConfusionCount": 4
+            },
+            {
+              "class": "R",
+              "correct": 144,
+              "f1": 0.944262,
+              "support": 151,
+              "worstConfusedAs": "B",
+              "worstConfusionCount": 3
+            },
+            {
+              "class": "S",
+              "correct": 143,
+              "f1": 0.966216,
+              "support": 150,
+              "worstConfusedAs": "H",
+              "worstConfusionCount": 3
+            },
+            {
+              "class": "T",
+              "correct": 154,
+              "f1": 0.977778,
+              "support": 159,
+              "worstConfusedAs": "Y",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "U",
+              "correct": 158,
+              "f1": 0.978328,
+              "support": 163,
+              "worstConfusedAs": "O",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "V",
+              "correct": 145,
+              "f1": 0.960265,
+              "support": 153,
+              "worstConfusedAs": "B",
+              "worstConfusionCount": 3
+            },
+            {
+              "class": "W",
+              "correct": 149,
+              "f1": 0.986755,
+              "support": 150,
+              "worstConfusedAs": "V",
+              "worstConfusionCount": 1
+            },
+            {
+              "class": "X",
+              "correct": 154,
+              "f1": 0.959502,
+              "support": 157,
+              "worstConfusedAs": "D",
+              "worstConfusionCount": 1
+            },
+            {
+              "class": "Y",
+              "correct": 153,
+              "f1": 0.971429,
+              "support": 157,
+              "worstConfusedAs": "T",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "Z",
+              "correct": 140,
+              "f1": 0.972222,
+              "support": 147,
+              "worstConfusedAs": "F",
+              "worstConfusionCount": 2
+            }
+          ],
+          "weightedF1": 0.957282
+        }
+      },
+      "randomDuplicateOverlap": {
+        "crossSplitFeatureHashOverlapCount": 344,
+        "crossSplitFeatureOverlapRateTest": 0.08807,
+        "crossSplitFullOverlapRateTest": 0.08807,
+        "crossSplitFullRowHashOverlapCount": 344,
+        "featureOverlapFound": true,
+        "fullRowOverlapFound": true,
+        "testDuplicateFeatureRows": 94,
+        "trainDuplicateFeatureRows": 894
+      },
+      "rows": 20000,
+      "shuffledLabelControl": {
+        "accuracy": 0.0205,
+        "macroF1": 0.016277
+      },
+      "slug": "uci-letter-recognition",
+      "sourceBaselines": {
+        "dummy_most_frequent": {
+          "accuracy": 0.036,
+          "fitNote": {
+            "rowsUsed": 16000,
+            "subsampled": false
+          },
+          "macroF1": 0.002673,
+          "perClassF1": {
+            "A": 0.0,
+            "B": 0.0,
+            "C": 0.0,
+            "D": 0.0,
+            "E": 0.0,
+            "F": 0.0,
+            "G": 0.0,
+            "H": 0.0,
+            "I": 0.0,
+            "J": 0.0,
+            "K": 0.0,
+            "L": 0.0,
+            "M": 0.069498,
+            "N": 0.0,
+            "O": 0.0,
+            "P": 0.0,
+            "Q": 0.0,
+            "R": 0.0,
+            "S": 0.0,
+            "T": 0.0,
+            "U": 0.0,
+            "V": 0.0,
+            "W": 0.0,
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "perClassSummary": [
+            {
+              "class": "A",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 156,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 156
+            },
+            {
+              "class": "B",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 136,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 136
+            },
+            {
+              "class": "C",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 142,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 142
+            },
+            {
+              "class": "D",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 167,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 167
+            },
+            {
+              "class": "E",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 152,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 152
+            },
+            {
+              "class": "F",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 153,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 153
+            },
+            {
+              "class": "G",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 164,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 164
+            },
+            {
+              "class": "H",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 151,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 151
+            },
+            {
+              "class": "I",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 165,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 165
+            },
+            {
+              "class": "J",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 148,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 148
+            },
+            {
+              "class": "K",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 146,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 146
+            },
+            {
+              "class": "L",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 157,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 157
+            },
+            {
+              "class": "M",
+              "correct": 144,
+              "f1": 0.069498,
+              "support": 144,
+              "worstConfusedAs": "A",
+              "worstConfusionCount": 0
+            },
+            {
+              "class": "N",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 166,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 166
+            },
+            {
+              "class": "O",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 139,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 139
+            },
+            {
+              "class": "P",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 168,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 168
+            },
+            {
+              "class": "Q",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 168,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 168
+            },
+            {
+              "class": "R",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 161,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 161
+            },
+            {
+              "class": "S",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 161,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 161
+            },
+            {
+              "class": "T",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 151,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 151
+            },
+            {
+              "class": "U",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 168,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 168
+            },
+            {
+              "class": "V",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 136,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 136
+            },
+            {
+              "class": "W",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 139,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 139
+            },
+            {
+              "class": "X",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 159,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 159
+            },
+            {
+              "class": "Y",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 145,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 145
+            },
+            {
+              "class": "Z",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 158,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 158
+            }
+          ],
+          "weightedF1": 0.002502
+        },
+        "linear_logistic_sgd": {
+          "accuracy": 0.69375,
+          "fitNote": {
+            "rowsUsed": 16000,
+            "subsampled": false
+          },
+          "macroF1": 0.692537,
+          "perClassF1": {
+            "A": 0.861953,
+            "B": 0.611296,
+            "C": 0.6875,
+            "D": 0.762763,
+            "E": 0.669065,
+            "F": 0.708333,
+            "G": 0.309013,
+            "H": 0.365782,
+            "I": 0.80826,
+            "J": 0.814286,
+            "K": 0.558824,
+            "L": 0.750789,
+            "M": 0.892734,
+            "N": 0.712871,
+            "O": 0.496,
+            "P": 0.809061,
+            "Q": 0.601432,
+            "R": 0.70137,
+            "S": 0.5,
+            "T": 0.818182,
+            "U": 0.810811,
+            "V": 0.772563,
+            "W": 0.893773,
+            "X": 0.651163,
+            "Y": 0.67148,
+            "Z": 0.766667
+          },
+          "perClassSummary": [
+            {
+              "class": "A",
+              "correct": 128,
+              "f1": 0.861953,
+              "support": 156,
+              "worstConfusedAs": "S",
+              "worstConfusionCount": 6
+            },
+            {
+              "class": "B",
+              "correct": 92,
+              "f1": 0.611296,
+              "support": 136,
+              "worstConfusedAs": "R",
+              "worstConfusionCount": 11
+            },
+            {
+              "class": "C",
+              "correct": 99,
+              "f1": 0.6875,
+              "support": 142,
+              "worstConfusedAs": "K",
+              "worstConfusionCount": 13
+            },
+            {
+              "class": "D",
+              "correct": 127,
+              "f1": 0.762763,
+              "support": 167,
+              "worstConfusedAs": "B",
+              "worstConfusionCount": 10
+            },
+            {
+              "class": "E",
+              "correct": 93,
+              "f1": 0.669065,
+              "support": 152,
+              "worstConfusedAs": "K",
+              "worstConfusionCount": 11
+            },
+            {
+              "class": "F",
+              "correct": 119,
+              "f1": 0.708333,
+              "support": 153,
+              "worstConfusedAs": "P",
+              "worstConfusionCount": 6
+            },
+            {
+              "class": "G",
+              "correct": 36,
+              "f1": 0.309013,
+              "support": 164,
+              "worstConfusedAs": "Q",
+              "worstConfusionCount": 50
+            },
+            {
+              "class": "H",
+              "correct": 62,
+              "f1": 0.365782,
+              "support": 151,
+              "worstConfusedAs": "N",
+              "worstConfusionCount": 14
+            },
+            {
+              "class": "I",
+              "correct": 137,
+              "f1": 0.80826,
+              "support": 165,
+              "worstConfusedAs": "F",
+              "worstConfusionCount": 5
+            },
+            {
+              "class": "J",
+              "correct": 114,
+              "f1": 0.814286,
+              "support": 148,
+              "worstConfusedAs": "I",
+              "worstConfusionCount": 12
+            },
+            {
+              "class": "K",
+              "correct": 76,
+              "f1": 0.558824,
+              "support": 146,
+              "worstConfusedAs": "R",
+              "worstConfusionCount": 24
+            },
+            {
+              "class": "L",
+              "correct": 119,
+              "f1": 0.750789,
+              "support": 157,
+              "worstConfusedAs": "Q",
+              "worstConfusionCount": 10
+            },
+            {
+              "class": "M",
+              "correct": 129,
+              "f1": 0.892734,
+              "support": 144,
+              "worstConfusedAs": "N",
+              "worstConfusionCount": 5
+            },
+            {
+              "class": "N",
+              "correct": 108,
+              "f1": 0.712871,
+              "support": 166,
+              "worstConfusedAs": "H",
+              "worstConfusionCount": 23
+            },
+            {
+              "class": "O",
+              "correct": 62,
+              "f1": 0.496,
+              "support": 139,
+              "worstConfusedAs": "H",
+              "worstConfusionCount": 42
+            },
+            {
+              "class": "P",
+              "correct": 125,
+              "f1": 0.809061,
+              "support": 168,
+              "worstConfusedAs": "Y",
+              "worstConfusionCount": 10
+            },
+            {
+              "class": "Q",
+              "correct": 126,
+              "f1": 0.601432,
+              "support": 168,
+              "worstConfusedAs": "S",
+              "worstConfusionCount": 14
+            },
+            {
+              "class": "R",
+              "correct": 128,
+              "f1": 0.70137,
+              "support": 161,
+              "worstConfusedAs": "B",
+              "worstConfusionCount": 10
+            },
+            {
+              "class": "S",
+              "correct": 85,
+              "f1": 0.5,
+              "support": 161,
+              "worstConfusedAs": "B",
+              "worstConfusionCount": 12
+            },
+            {
+              "class": "T",
+              "correct": 126,
+              "f1": 0.818182,
+              "support": 151,
+              "worstConfusedAs": "G",
+              "worstConfusionCount": 6
+            },
+            {
+              "class": "U",
+              "correct": 135,
+              "f1": 0.810811,
+              "support": 168,
+              "worstConfusedAs": "H",
+              "worstConfusionCount": 9
+            },
+            {
+              "class": "V",
+              "correct": 107,
+              "f1": 0.772563,
+              "support": 136,
+              "worstConfusedAs": "Y",
+              "worstConfusionCount": 8
+            },
+            {
+              "class": "W",
+              "correct": 122,
+              "f1": 0.893773,
+              "support": 139,
+              "worstConfusedAs": "H",
+              "worstConfusionCount": 8
+            },
+            {
+              "class": "X",
+              "correct": 112,
+              "f1": 0.651163,
+              "support": 159,
+              "worstConfusedAs": "Q",
+              "worstConfusionCount": 10
+            },
+            {
+              "class": "Y",
+              "correct": 93,
+              "f1": 0.67148,
+              "support": 145,
+              "worstConfusedAs": "V",
+              "worstConfusionCount": 15
+            },
+            {
+              "class": "Z",
+              "correct": 115,
+              "f1": 0.766667,
+              "support": 158,
+              "worstConfusedAs": "S",
+              "worstConfusionCount": 14
+            }
+          ],
+          "weightedF1": 0.692311
+        },
+        "random_forest": {
+          "accuracy": 0.95175,
+          "fitNote": {
+            "originalRows": 16000,
+            "rowsUsed": 12000,
+            "subsampled": true
+          },
+          "macroF1": 0.951615,
+          "perClassF1": {
+            "A": 0.990291,
+            "B": 0.919861,
+            "C": 0.960289,
+            "D": 0.950725,
+            "E": 0.935897,
+            "F": 0.941176,
+            "G": 0.966154,
+            "H": 0.890411,
+            "I": 0.94081,
+            "J": 0.942761,
+            "K": 0.907285,
+            "L": 0.970874,
+            "M": 0.975945,
+            "N": 0.94375,
+            "O": 0.93007,
+            "P": 0.951515,
+            "Q": 0.948949,
+            "R": 0.927273,
+            "S": 0.971787,
+            "T": 0.976744,
+            "U": 0.982143,
+            "V": 0.963235,
+            "W": 0.975089,
+            "X": 0.958991,
+            "Y": 0.955326,
+            "Z": 0.96463
+          },
+          "perClassSummary": [
+            {
+              "class": "A",
+              "correct": 153,
+              "f1": 0.990291,
+              "support": 156,
+              "worstConfusedAs": "Y",
+              "worstConfusionCount": 3
+            },
+            {
+              "class": "B",
+              "correct": 132,
+              "f1": 0.919861,
+              "support": 136,
+              "worstConfusedAs": "H",
+              "worstConfusionCount": 1
+            },
+            {
+              "class": "C",
+              "correct": 133,
+              "f1": 0.960289,
+              "support": 142,
+              "worstConfusedAs": "E",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "D",
+              "correct": 164,
+              "f1": 0.950725,
+              "support": 167,
+              "worstConfusedAs": "H",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "E",
+              "correct": 146,
+              "f1": 0.935897,
+              "support": 152,
+              "worstConfusedAs": "X",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "F",
+              "correct": 144,
+              "f1": 0.941176,
+              "support": 153,
+              "worstConfusedAs": "B",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "G",
+              "correct": 157,
+              "f1": 0.966154,
+              "support": 164,
+              "worstConfusedAs": "B",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "H",
+              "correct": 130,
+              "f1": 0.890411,
+              "support": 151,
+              "worstConfusedAs": "K",
+              "worstConfusionCount": 5
+            },
+            {
+              "class": "I",
+              "correct": 151,
+              "f1": 0.94081,
+              "support": 165,
+              "worstConfusedAs": "J",
+              "worstConfusionCount": 7
+            },
+            {
+              "class": "J",
+              "correct": 140,
+              "f1": 0.942761,
+              "support": 148,
+              "worstConfusedAs": "I",
+              "worstConfusionCount": 4
+            },
+            {
+              "class": "K",
+              "correct": 137,
+              "f1": 0.907285,
+              "support": 146,
+              "worstConfusedAs": "B",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "L",
+              "correct": 150,
+              "f1": 0.970874,
+              "support": 157,
+              "worstConfusedAs": "Q",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "M",
+              "correct": 142,
+              "f1": 0.975945,
+              "support": 144,
+              "worstConfusedAs": "B",
+              "worstConfusionCount": 1
+            },
+            {
+              "class": "N",
+              "correct": 151,
+              "f1": 0.94375,
+              "support": 166,
+              "worstConfusedAs": "H",
+              "worstConfusionCount": 3
+            },
+            {
+              "class": "O",
+              "correct": 133,
+              "f1": 0.93007,
+              "support": 139,
+              "worstConfusedAs": "Q",
+              "worstConfusionCount": 3
+            },
+            {
+              "class": "P",
+              "correct": 157,
+              "f1": 0.951515,
+              "support": 168,
+              "worstConfusedAs": "F",
+              "worstConfusionCount": 4
+            },
+            {
+              "class": "Q",
+              "correct": 158,
+              "f1": 0.948949,
+              "support": 168,
+              "worstConfusedAs": "O",
+              "worstConfusionCount": 6
+            },
+            {
+              "class": "R",
+              "correct": 153,
+              "f1": 0.927273,
+              "support": 161,
+              "worstConfusedAs": "K",
+              "worstConfusionCount": 5
+            },
+            {
+              "class": "S",
+              "correct": 155,
+              "f1": 0.971787,
+              "support": 161,
+              "worstConfusedAs": "E",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "T",
+              "correct": 147,
+              "f1": 0.976744,
+              "support": 151,
+              "worstConfusedAs": "S",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "U",
+              "correct": 165,
+              "f1": 0.982143,
+              "support": 168,
+              "worstConfusedAs": "D",
+              "worstConfusionCount": 1
+            },
+            {
+              "class": "V",
+              "correct": 131,
+              "f1": 0.963235,
+              "support": 136,
+              "worstConfusedAs": "B",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "W",
+              "correct": 137,
+              "f1": 0.975089,
+              "support": 139,
+              "worstConfusedAs": "M",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "X",
+              "correct": 152,
+              "f1": 0.958991,
+              "support": 159,
+              "worstConfusedAs": "K",
+              "worstConfusionCount": 5
+            },
+            {
+              "class": "Y",
+              "correct": 139,
+              "f1": 0.955326,
+              "support": 145,
+              "worstConfusedAs": "D",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "Z",
+              "correct": 150,
+              "f1": 0.96463,
+              "support": 158,
+              "worstConfusedAs": "E",
+              "worstConfusionCount": 3
+            }
+          ],
+          "weightedF1": 0.951868
+        }
+      },
+      "sourceDuplicateOverlap": {
+        "crossSplitFeatureHashOverlapCount": 320,
+        "crossSplitFeatureOverlapRateTest": 0.081695,
+        "crossSplitFullOverlapRateTest": 0.081695,
+        "crossSplitFullRowHashOverlapCount": 320,
+        "featureOverlapFound": true,
+        "fullRowOverlapFound": true,
+        "testDuplicateFeatureRows": 83,
+        "trainDuplicateFeatureRows": 929
+      },
+      "splitRiskVsLeakage": {
+        "deltaRandomMinusSourceMacroF1": -0.003064,
+        "interpretation": "Leakage was not automatically inferred from split delta; not-testable group fields and class/protocol difficulty remain visible.",
+        "leakageRiskFinding": "confirmed_duplicate_overlap",
+        "priorSplitRisk": "low_or_near_control_split_risk",
+        "randomMacroF1": 0.689473,
+        "relation": "leakage_partially_explains_delta",
+        "sourceMacroF1": 0.692537
+      },
+      "target": "UCI Letter Recognition",
+      "testRows": 4000,
+      "trainRows": 16000
+    },
+    "uci-statlog-shuttle": {
+      "classCount": 7,
+      "classDistributionShiftRandom": 0.000115,
+      "classDistributionShiftSource": 0.007678,
+      "classDistributionSourceTest": {
+        "1": 11478,
+        "2": 13,
+        "3": 39,
+        "4": 2155,
+        "5": 809,
+        "6": 4,
+        "7": 2
+      },
+      "classDistributionSourceTrain": {
+        "1": 34108,
+        "2": 37,
+        "3": 132,
+        "4": 6748,
+        "5": 2458,
+        "6": 6,
+        "7": 11
+      },
+      "duplicateAwareCheck": {
+        "attempted": false,
+        "reason": "No cross-split feature hash overlap was found in the source split."
+      },
+      "featureCount": 9,
+      "featureTargetLeakage": {
+        "finding": "not_found",
+        "highCardinalityIdLikeColumns": [],
+        "limitations": "Univariate association and high-cardinality checks are screening checks, not proof of leakage absence.",
+        "obviousTargetLeakageFound": false,
+        "suspiciousIdLikeFeatureFound": false,
+        "targetLikeFeatureColumns": [],
+        "topUnivariateClassAssociatedFeatures": [
+          {
+            "fScore": 25770.833341,
+            "feature": "f0"
+          },
+          {
+            "fScore": 15259.833931,
+            "feature": "f8"
+          },
+          {
+            "fScore": 8907.298229,
+            "feature": "f6"
+          },
+          {
+            "fScore": 4447.723206,
+            "feature": "f1"
+          },
+          {
+            "fScore": 3719.131133,
+            "feature": "f7"
+          }
+        ]
+      },
+      "groupSubjectFileOverlap": {
+        "identifiersPresent": false,
+        "notes": "No source group/subject/file identifier is present in the public executed table; not invented.",
+        "overlapCount": null,
+        "overlapRateTestGroups": null,
+        "status": "not_testable"
+      },
+      "protocolStatus": "protocol_reproduced",
+      "randomBaselines": {
+        "dummy_most_frequent": {
+          "accuracy": 0.785931,
+          "fitNote": {
+            "rowsUsed": 43500,
+            "subsampled": false
+          },
+          "macroF1": 0.125734,
+          "perClassF1": {
+            "1": 0.880136,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0
+          },
+          "perClassSummary": [
+            {
+              "class": "1",
+              "correct": 11396,
+              "f1": 0.880136,
+              "support": 11396,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 0
+            },
+            {
+              "class": "2",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 12,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 12
+            },
+            {
+              "class": "3",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 43,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 43
+            },
+            {
+              "class": "4",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 2226,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 2226
+            },
+            {
+              "class": "5",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 817,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 817
+            },
+            {
+              "class": "6",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 3,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 3
+            },
+            {
+              "class": "7",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 3,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 3
+            }
+          ],
+          "weightedF1": 0.691726
+        },
+        "linear_logistic_sgd": {
+          "accuracy": 0.925517,
+          "fitNote": {
+            "rowsUsed": 43500,
+            "subsampled": false
+          },
+          "macroF1": 0.453021,
+          "perClassF1": {
+            "1": 0.955913,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.717688,
+            "5": 0.997549,
+            "6": 0.0,
+            "7": 0.5
+          },
+          "perClassSummary": [
+            {
+              "class": "1",
+              "correct": 11264,
+              "f1": 0.955913,
+              "support": 11396,
+              "worstConfusedAs": "4",
+              "worstConfusionCount": 131
+            },
+            {
+              "class": "2",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 12,
+              "worstConfusedAs": "4",
+              "worstConfusionCount": 8
+            },
+            {
+              "class": "3",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 43,
+              "worstConfusedAs": "4",
+              "worstConfusionCount": 28
+            },
+            {
+              "class": "4",
+              "correct": 1341,
+              "f1": 0.717688,
+              "support": 2226,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 883
+            },
+            {
+              "class": "5",
+              "correct": 814,
+              "f1": 0.997549,
+              "support": 817,
+              "worstConfusedAs": "4",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "6",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 3,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 3
+            },
+            {
+              "class": "7",
+              "correct": 1,
+              "f1": 0.5,
+              "support": 3,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 1
+            }
+          ],
+          "weightedF1": 0.917769
+        },
+        "random_forest": {
+          "accuracy": 0.99931,
+          "fitNote": {
+            "originalRows": 43500,
+            "rowsUsed": 14000,
+            "subsampled": true
+          },
+          "macroF1": 0.796026,
+          "perClassF1": {
+            "1": 1.0,
+            "2": 0.8,
+            "3": 0.976744,
+            "4": 0.999102,
+            "5": 0.996337,
+            "6": 0.0,
+            "7": 0.8
+          },
+          "perClassSummary": [
+            {
+              "class": "1",
+              "correct": 11396,
+              "f1": 1.0,
+              "support": 11396,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 0
+            },
+            {
+              "class": "2",
+              "correct": 8,
+              "f1": 0.8,
+              "support": 12,
+              "worstConfusedAs": "5",
+              "worstConfusionCount": 4
+            },
+            {
+              "class": "3",
+              "correct": 42,
+              "f1": 0.976744,
+              "support": 43,
+              "worstConfusedAs": "4",
+              "worstConfusionCount": 1
+            },
+            {
+              "class": "4",
+              "correct": 2226,
+              "f1": 0.999102,
+              "support": 2226,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 0
+            },
+            {
+              "class": "5",
+              "correct": 816,
+              "f1": 0.996337,
+              "support": 817,
+              "worstConfusedAs": "4",
+              "worstConfusionCount": 1
+            },
+            {
+              "class": "6",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 3,
+              "worstConfusedAs": "4",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "7",
+              "correct": 2,
+              "f1": 0.8,
+              "support": 3,
+              "worstConfusedAs": "3",
+              "worstConfusionCount": 1
+            }
+          ],
+          "weightedF1": 0.999173
+        }
+      },
+      "randomDuplicateOverlap": {
+        "crossSplitFeatureHashOverlapCount": 0,
+        "crossSplitFeatureOverlapRateTest": 0.0,
+        "crossSplitFullOverlapRateTest": 0.0,
+        "crossSplitFullRowHashOverlapCount": 0,
+        "featureOverlapFound": false,
+        "fullRowOverlapFound": false,
+        "testDuplicateFeatureRows": 0,
+        "trainDuplicateFeatureRows": 0
+      },
+      "rows": 58000,
+      "shuffledLabelControl": {
+        "accuracy": 0.791241,
+        "macroF1": 0.127626
+      },
+      "slug": "uci-statlog-shuttle",
+      "sourceBaselines": {
+        "dummy_most_frequent": {
+          "accuracy": 0.791586,
+          "fitNote": {
+            "rowsUsed": 43500,
+            "subsampled": false
+          },
+          "macroF1": 0.126239,
+          "perClassF1": {
+            "1": 0.883671,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0
+          },
+          "perClassSummary": [
+            {
+              "class": "1",
+              "correct": 11478,
+              "f1": 0.883671,
+              "support": 11478,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 0
+            },
+            {
+              "class": "2",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 13,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 13
+            },
+            {
+              "class": "3",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 39,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 39
+            },
+            {
+              "class": "4",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 2155,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 2155
+            },
+            {
+              "class": "5",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 809,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 809
+            },
+            {
+              "class": "6",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 4,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 4
+            },
+            {
+              "class": "7",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 2,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 2
+            }
+          ],
+          "weightedF1": 0.699502
+        },
+        "linear_logistic_sgd": {
+          "accuracy": 0.92869,
+          "fitNote": {
+            "rowsUsed": 43500,
+            "subsampled": false
+          },
+          "macroF1": 0.382773,
+          "perClassF1": {
+            "1": 0.957729,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.722299,
+            "5": 0.999382,
+            "6": 0.0,
+            "7": 0.0
+          },
+          "perClassSummary": [
+            {
+              "class": "1",
+              "correct": 11351,
+              "f1": 0.957729,
+              "support": 11478,
+              "worstConfusedAs": "4",
+              "worstConfusionCount": 125
+            },
+            {
+              "class": "2",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 13,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 8
+            },
+            {
+              "class": "3",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 39,
+              "worstConfusedAs": "4",
+              "worstConfusionCount": 23
+            },
+            {
+              "class": "4",
+              "correct": 1307,
+              "f1": 0.722299,
+              "support": 2155,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 848
+            },
+            {
+              "class": "5",
+              "correct": 808,
+              "f1": 0.999382,
+              "support": 809,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 1
+            },
+            {
+              "class": "6",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 4,
+              "worstConfusedAs": "4",
+              "worstConfusionCount": 4
+            },
+            {
+              "class": "7",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 2,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 2
+            }
+          ],
+          "weightedF1": 0.921232
+        },
+        "random_forest": {
+          "accuracy": 0.999379,
+          "fitNote": {
+            "originalRows": 43500,
+            "rowsUsed": 14000,
+            "subsampled": true
+          },
+          "macroF1": 0.6982,
+          "perClassF1": {
+            "1": 0.999913,
+            "2": 0.96,
+            "3": 0.928571,
+            "4": 0.999536,
+            "5": 0.999382,
+            "6": 0.0,
+            "7": 0.0
+          },
+          "perClassSummary": [
+            {
+              "class": "1",
+              "correct": 11476,
+              "f1": 0.999913,
+              "support": 11478,
+              "worstConfusedAs": "3",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "2",
+              "correct": 12,
+              "f1": 0.96,
+              "support": 13,
+              "worstConfusedAs": "4",
+              "worstConfusionCount": 1
+            },
+            {
+              "class": "3",
+              "correct": 39,
+              "f1": 0.928571,
+              "support": 39,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 0
+            },
+            {
+              "class": "4",
+              "correct": 2155,
+              "f1": 0.999536,
+              "support": 2155,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 0
+            },
+            {
+              "class": "5",
+              "correct": 809,
+              "f1": 0.999382,
+              "support": 809,
+              "worstConfusedAs": "1",
+              "worstConfusionCount": 0
+            },
+            {
+              "class": "6",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 4,
+              "worstConfusedAs": "3",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "7",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 2,
+              "worstConfusedAs": "3",
+              "worstConfusionCount": 2
+            }
+          ],
+          "weightedF1": 0.999186
+        }
+      },
+      "sourceDuplicateOverlap": {
+        "crossSplitFeatureHashOverlapCount": 0,
+        "crossSplitFeatureOverlapRateTest": 0.0,
+        "crossSplitFullOverlapRateTest": 0.0,
+        "crossSplitFullRowHashOverlapCount": 0,
+        "featureOverlapFound": false,
+        "fullRowOverlapFound": false,
+        "testDuplicateFeatureRows": 0,
+        "trainDuplicateFeatureRows": 0
+      },
+      "splitRiskVsLeakage": {
+        "deltaRandomMinusSourceMacroF1": 0.070248,
+        "interpretation": "Leakage was not automatically inferred from split delta; not-testable group fields and class/protocol difficulty remain visible.",
+        "leakageRiskFinding": "leakage_not_testable",
+        "priorSplitRisk": "high_split_risk",
+        "randomMacroF1": 0.453021,
+        "relation": "leakage_not_testable",
+        "sourceMacroF1": 0.382773
+      },
+      "target": "UCI Statlog Shuttle",
+      "testRows": 14500,
+      "trainRows": 43500
+    }
+  },
+  "packageVersions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "python": "3.14.4",
+    "scikit_learn": "1.8.0"
+  },
+  "replay": {
+    "containerNetoffEquivalent": {
+      "attempted": true,
+      "networkUseDisabledByReplayDesign": true,
+      "notes": "Replay reused already provisioned public source files and reran deterministic source split leakage checks without download calls.",
+      "passed": true,
+      "target": "UCI Statlog Shuttle"
+    },
+    "divergence": "Replay preserved the Batch 25 leakage interpretation: no confirmed duplicate/group leakage mechanism was found for the executed deltas.",
+    "freshSeedOrFreshSplit": {
+      "attempted": true,
+      "passed": true,
+      "result": {
+        "deltaRandomMinusSourceMacroF1": 0.040018,
+        "interpretation": "Leakage was not automatically inferred from split delta; not-testable group fields and class/protocol difficulty remain visible.",
+        "leakageRiskFinding": "leakage_not_found",
+        "priorSplitRisk": "moderate_split_risk",
+        "randomMacroF1": 0.975267,
+        "relation": "leakage_not_found",
+        "sourceMacroF1": 0.935249
+      },
+      "seed": 42,
+      "target": "UCI HAR Smartphones"
+    }
+  },
+  "scorecard": [
+    {
+      "class imbalance risk": 1,
+      "duplicate overlap risk": 1,
+      "feature duplicate risk": 1,
+      "group/subject/file overlap risk": 3,
+      "preliminary label": "subject_file_overlap_risk",
+      "protocol ambiguity risk": 1,
+      "random-split inflation risk": 2,
+      "replay feasibility": 3,
+      "target": "UCI HAR Smartphones",
+      "target leakage risk": 1
+    },
+    {
+      "class imbalance risk": 3,
+      "duplicate overlap risk": 1,
+      "feature duplicate risk": 1,
+      "group/subject/file overlap risk": 1,
+      "preliminary label": "class_imbalance_risk",
+      "protocol ambiguity risk": 1,
+      "random-split inflation risk": 3,
+      "replay feasibility": 3,
+      "target": "UCI Statlog Shuttle",
+      "target leakage risk": 1
+    },
+    {
+      "class imbalance risk": 1,
+      "duplicate overlap risk": 1,
+      "feature duplicate risk": 1,
+      "group/subject/file overlap risk": 2,
+      "preliminary label": "group_overlap_risk",
+      "protocol ambiguity risk": 1,
+      "random-split inflation risk": 3,
+      "replay feasibility": 3,
+      "target": "UCI Statlog Landsat Satellite",
+      "target leakage risk": 1
+    },
+    {
+      "class imbalance risk": 1,
+      "duplicate overlap risk": 2,
+      "feature duplicate risk": 2,
+      "group/subject/file overlap risk": 1,
+      "preliminary label": "low_leakage_risk",
+      "protocol ambiguity risk": 2,
+      "random-split inflation risk": 1,
+      "replay feasibility": 3,
+      "target": "UCI Letter Recognition",
+      "target leakage risk": 1
+    },
+    {
+      "class imbalance risk": 1,
+      "duplicate overlap risk": 1,
+      "feature duplicate risk": 1,
+      "group/subject/file overlap risk": 2,
+      "preliminary label": "ambiguous_or_unresolved",
+      "protocol ambiguity risk": 3,
+      "random-split inflation risk": 1,
+      "replay feasibility": 2,
+      "target": "UCI Vehicle Silhouettes",
+      "target leakage risk": 1
+    }
+  ],
+  "sourceCount": 5,
+  "targets": [
+    {
+      "doc_url": "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones",
+      "executed": true,
+      "expected_leakage_risk_type": "subject_overlap_or_subject_mixing_risk",
+      "forest_limit": 14000,
+      "loader": "har",
+      "name": "UCI HAR Smartphones",
+      "preliminary_label": "subject_file_overlap_risk",
+      "prior_evidence": "Batches 13, 14, 21, and 22 showed a source-vs-random macro-F1 delta around the moderate split-risk range; subject_train and subject_test are available.",
+      "protocol_card": "pc21-01-uci-har-smartphones",
+      "protocol_status": "source_train_test_files_with_subject_ids",
+      "safety_note": "Public safe wearable-sensor classification; no medical advice claim.",
+      "slug": "uci-har-smartphones",
+      "source_url": "https://archive.ics.uci.edu/static/public/240/human+activity+recognition+using+smartphones.zip",
+      "split_risk_status": "moderate_split_risk",
+      "why_selected": "It has explicit subject IDs, so group/subject leakage can be tested rather than guessed.",
+      "zip_name": "har.zip"
+    },
+    {
+      "doc_url": "https://archive.ics.uci.edu/dataset/148/statlog+shuttle",
+      "executed": true,
+      "expected_leakage_risk_type": "class_imbalance_mimics_leakage_risk",
+      "forest_limit": 14000,
+      "loader": "shuttle",
+      "name": "UCI Statlog Shuttle",
+      "preliminary_label": "class_imbalance_risk",
+      "prior_evidence": "Batches 14 and 15 found high split-risk symptoms and rare-class / metric-risk limits on the source split.",
+      "protocol_card": "pc21-02-uci-statlog-shuttle",
+      "protocol_status": "source_train_test_files",
+      "safety_note": "Public safe tabular classification.",
+      "slug": "uci-statlog-shuttle",
+      "source_url": "https://archive.ics.uci.edu/static/public/148/statlog+shuttle.zip",
+      "split_risk_status": "high_split_risk",
+      "why_selected": "It is the strongest prior split-risk target and tests whether leakage is actually found or class imbalance better explains the delta.",
+      "zip_name": "shuttle.zip"
+    },
+    {
+      "doc_url": "https://archive.ics.uci.edu/dataset/146/statlog+landsat+satellite",
+      "executed": false,
+      "expected_leakage_risk_type": "spatial_file_overlap_not_directly_testable",
+      "forest_limit": null,
+      "loader": "landsat",
+      "name": "UCI Statlog Landsat Satellite",
+      "preliminary_label": "group_overlap_risk",
+      "prior_evidence": "Batches 14, 16, and 20 preserved Landsat as spatial/file/protocol-risk evidence with missing spatial-coordinate limitations.",
+      "protocol_card": "pc21-03-uci-statlog-landsat",
+      "protocol_status": "source_train_test_files",
+      "safety_note": "Public safe remote-sensing classification.",
+      "slug": "uci-statlog-landsat",
+      "source_url": "https://archive.ics.uci.edu/static/public/146/statlog+landsat+satellite.zip",
+      "split_risk_status": "high_split_risk_with_spatial_file_caveat",
+      "why_selected": "It anchors source-protocol split evidence but is held for Batch 26 because spatial groups are absent from the public table.",
+      "zip_name": "landsat.zip"
+    },
+    {
+      "doc_url": "https://archive.ics.uci.edu/dataset/59/letter+recognition",
+      "executed": true,
+      "expected_leakage_risk_type": "low_leakage_control_and_protocol_ambiguity_check",
+      "forest_limit": 12000,
+      "loader": "letter",
+      "name": "UCI Letter Recognition",
+      "preliminary_label": "low_leakage_risk",
+      "prior_evidence": "Batches 14, 21, and 22 treated Letter as an approximated row-order protocol and a near-control with low source-vs-random delta.",
+      "protocol_card": "pc21-06-uci-letter-recognition",
+      "protocol_status": "approximated_row_order_protocol",
+      "safety_note": "Public safe letter classification.",
+      "slug": "uci-letter-recognition",
+      "source_url": "https://archive.ics.uci.edu/static/public/59/letter+recognition.zip",
+      "split_risk_status": "low_or_near_control_split_risk",
+      "why_selected": "It gives Batch 25 a low-risk/near-control target and tests whether leakage tools overclaim on an easy benchmark.",
+      "zip_name": "letter.zip"
+    },
+    {
+      "doc_url": "https://archive.ics.uci.edu/dataset/149/statlog+vehicle+silhouettes",
+      "executed": false,
+      "expected_leakage_risk_type": "file_shard_protocol_ambiguity_blocks_leakage_conclusion",
+      "forest_limit": null,
+      "loader": "vehicle",
+      "name": "UCI Vehicle Silhouettes",
+      "preliminary_label": "ambiguous_or_unresolved",
+      "prior_evidence": "Batches 22 and 23 selected and downgraded Vehicle as an ambiguous shard-layout target with no source-declared canonical split.",
+      "protocol_card": "pc21-08-uci-vehicle-silhouettes",
+      "protocol_status": "protocol_ambiguous_source_shards",
+      "safety_note": "Public safe silhouette classification.",
+      "slug": "uci-vehicle-silhouettes",
+      "source_url": "https://archive.ics.uci.edu/static/public/149/statlog+vehicle+silhouettes.zip",
+      "split_risk_status": "ambiguous_or_protocol_weak",
+      "why_selected": "It keeps the required ambiguous/protocol-weak case visible without forcing a false leakage conclusion.",
+      "zip_name": "vehicle.zip"
+    }
+  ]
+}
