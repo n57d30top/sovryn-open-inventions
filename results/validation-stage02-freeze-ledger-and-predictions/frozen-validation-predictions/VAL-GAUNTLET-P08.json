@@ -1,0 +1,16 @@
+{
+  "predictionId": "VAL-GAUNTLET-P08",
+  "category": "replay_should_diverge",
+  "candidateClaimComponent": "descriptor residual persistence",
+  "expectedObservation": "descriptor residual persistence will remain interpretable on receipt-backed public targets.",
+  "expectedFailureMode": "simple baseline explains the residual",
+  "rivalTheoryPrediction": "candidate remains more specific than rival explanation on this check",
+  "expectedBaselineResult": "baseline partially explains the effect",
+  "expectedMutationTestResult": "mutation should break the residual or decision boundary",
+  "expectedCounterexamplePattern": "receipt-stable but trivial-baseline case",
+  "expectedReplayResult": "replay should match source receipt and coarse descriptor",
+  "falsifier": "Candidate is weakened if a fresh target has stable receipt and descriptor residual language but the simple baseline or rival explanation fully explains the observation.",
+  "noEditRule": "This card is frozen before holdout selection and must not be edited after the freeze commit.",
+  "preregistrationHash": "a75a4b7c4aecad606ca0a503ab887d0dd056f3a5484dc1af210e032507a4e3f9",
+  "frozenTimestamp": "2026-05-06T00:00:00Z"
+}

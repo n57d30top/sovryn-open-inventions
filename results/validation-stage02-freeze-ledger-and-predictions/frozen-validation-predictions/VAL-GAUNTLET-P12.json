@@ -1,0 +1,16 @@
+{
+  "predictionId": "VAL-GAUNTLET-P12",
+  "category": "candidate_failure",
+  "candidateClaimComponent": "fresh replay stability",
+  "expectedObservation": "fresh replay stability will fail or require caveats on at least one fresh holdout.",
+  "expectedFailureMode": "simple baseline explains the residual",
+  "rivalTheoryPrediction": "baseline insufficiency explains the observation better than the candidate",
+  "expectedBaselineResult": "baseline partially explains the effect",
+  "expectedMutationTestResult": "mutation should break the residual or decision boundary",
+  "expectedCounterexamplePattern": "receipt-stable but trivial-baseline case",
+  "expectedReplayResult": "replay may diverge or remain caveated",
+  "falsifier": "Candidate is weakened if a fresh target has stable receipt and descriptor residual language but the simple baseline or rival explanation fully explains the observation.",
+  "noEditRule": "This card is frozen before holdout selection and must not be edited after the freeze commit.",
+  "preregistrationHash": "f663363d1874ea32e64b9363281b71fe947879cb4ec737fa11b93986abbd1c49",
+  "frozenTimestamp": "2026-05-06T00:00:00Z"
+}

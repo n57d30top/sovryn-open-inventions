@@ -1,0 +1,16 @@
+{
+  "predictionId": "VAL-GAUNTLET-P18",
+  "category": "replay_should_diverge",
+  "candidateClaimComponent": "fresh replay stability",
+  "expectedObservation": "fresh replay stability will remain interpretable on receipt-backed public targets.",
+  "expectedFailureMode": "field evidence remains incomplete",
+  "rivalTheoryPrediction": "baseline insufficiency explains the observation better than the candidate",
+  "expectedBaselineResult": "baseline partially explains the effect",
+  "expectedMutationTestResult": "mutation should break the residual or decision boundary",
+  "expectedCounterexamplePattern": "residual-like but receipt-unstable case",
+  "expectedReplayResult": "replay may diverge or remain caveated",
+  "falsifier": "Candidate is weakened if a fresh target has stable receipt and descriptor residual language but the simple baseline or rival explanation fully explains the observation.",
+  "noEditRule": "This card is frozen before holdout selection and must not be edited after the freeze commit.",
+  "preregistrationHash": "6bc05c19bd590542975b563c8ee43a779022732203487479ba74abe1fec21627",
+  "frozenTimestamp": "2026-05-06T00:00:00Z"
+}

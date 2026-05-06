@@ -1,0 +1,16 @@
+{
+  "predictionId": "VAL-GAUNTLET-P05",
+  "category": "mutation_should_break",
+  "candidateClaimComponent": "rival-theory pressure",
+  "expectedObservation": "rival-theory pressure will remain interpretable on receipt-backed public targets.",
+  "expectedFailureMode": "fresh replay changes the derived descriptor",
+  "rivalTheoryPrediction": "candidate remains more specific than rival explanation on this check",
+  "expectedBaselineResult": "baseline is weaker but still informative",
+  "expectedMutationTestResult": "mutation should not fully break the decision",
+  "expectedCounterexamplePattern": "residual-like but receipt-unstable case",
+  "expectedReplayResult": "replay should match source receipt and coarse descriptor",
+  "falsifier": "Candidate is weakened if a fresh target has stable receipt and descriptor residual language but the simple baseline or rival explanation fully explains the observation.",
+  "noEditRule": "This card is frozen before holdout selection and must not be edited after the freeze commit.",
+  "preregistrationHash": "75b858aa1f81f7e6280d58613fb307cb1493b057c5bd2d69a2acdf417dc2624d",
+  "frozenTimestamp": "2026-05-06T00:00:00Z"
+}

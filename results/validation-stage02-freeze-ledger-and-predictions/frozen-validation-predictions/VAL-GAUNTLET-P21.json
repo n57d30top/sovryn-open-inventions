@@ -1,0 +1,16 @@
+{
+  "predictionId": "VAL-GAUNTLET-P21",
+  "category": "candidate_support",
+  "candidateClaimComponent": "baseline comparison",
+  "expectedObservation": "baseline comparison will remain interpretable on receipt-backed public targets.",
+  "expectedFailureMode": "field evidence remains incomplete",
+  "rivalTheoryPrediction": "baseline insufficiency explains the observation better than the candidate",
+  "expectedBaselineResult": "baseline is weaker but still informative",
+  "expectedMutationTestResult": "mutation should break the residual or decision boundary",
+  "expectedCounterexamplePattern": "residual-like but receipt-unstable case",
+  "expectedReplayResult": "replay should match source receipt and coarse descriptor",
+  "falsifier": "Candidate is weakened if a fresh target has stable receipt and descriptor residual language but the simple baseline or rival explanation fully explains the observation.",
+  "noEditRule": "This card is frozen before holdout selection and must not be edited after the freeze commit.",
+  "preregistrationHash": "985e6445817e5930f105aebe474014c73bf7666ba9a37efb7deff9e221969bac",
+  "frozenTimestamp": "2026-05-06T00:00:00Z"
+}

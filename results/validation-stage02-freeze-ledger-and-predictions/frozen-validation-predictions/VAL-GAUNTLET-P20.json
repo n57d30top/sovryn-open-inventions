@@ -1,0 +1,16 @@
+{
+  "predictionId": "VAL-GAUNTLET-P20",
+  "category": "holdout_should_weaken",
+  "candidateClaimComponent": "descriptor residual persistence",
+  "expectedObservation": "descriptor residual persistence will fail or require caveats on at least one fresh holdout.",
+  "expectedFailureMode": "simple baseline explains the residual",
+  "rivalTheoryPrediction": "candidate remains more specific than rival explanation on this check",
+  "expectedBaselineResult": "baseline partially explains the effect",
+  "expectedMutationTestResult": "mutation should not fully break the decision",
+  "expectedCounterexamplePattern": "receipt-stable but trivial-baseline case",
+  "expectedReplayResult": "replay should match source receipt and coarse descriptor",
+  "falsifier": "Candidate is weakened if a fresh target has stable receipt and descriptor residual language but the simple baseline or rival explanation fully explains the observation.",
+  "noEditRule": "This card is frozen before holdout selection and must not be edited after the freeze commit.",
+  "preregistrationHash": "8f47c866ed01eb26c984f18cd45e76aa9f7b34310dce4812d9aebc486c15df23",
+  "frozenTimestamp": "2026-05-06T00:00:00Z"
+}
