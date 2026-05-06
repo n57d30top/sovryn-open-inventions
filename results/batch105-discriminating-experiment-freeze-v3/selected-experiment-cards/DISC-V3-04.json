@@ -1,0 +1,19 @@
+{
+  "experimentId": "DISC-V3-04",
+  "domain": "timeseries",
+  "target": "digits",
+  "principlesCompared": [
+    "Field Specificity Over Field Count",
+    "Evidence Actionability Boundary",
+    "Burden-Adjusted Claim Safety",
+    "Execution Depth Dominance"
+  ],
+  "predictionA": "field specificity wins if one missing actionable field downgrades claim",
+  "predictionB": "burden-adjusted review wins if full standard overblocks practical claim",
+  "predictionC": "execution-depth wins if runtime evidence dominates field count",
+  "predictionD": "baseline sufficiency wins if simple checklist matches decision",
+  "expectedToWeakenFavored": false,
+  "negativeControl": "simple checklist or shuffled-label/time where applicable",
+  "replayPlan": "fresh rerun or documented replay failure",
+  "preregistrationHash": "dea849b292ea5e429e3b6b8c0dba9b7ba2171f62e0a0c56053eefe762c3cdf19"
+}

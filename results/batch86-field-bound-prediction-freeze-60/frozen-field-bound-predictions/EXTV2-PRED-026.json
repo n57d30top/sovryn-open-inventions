@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-026",
+  "claimId": "EXTV2-C026",
+  "claimSource": "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/batch58-field-bound-claim-safety-standard",
+  "claimTextParaphrase": "field-bound standard v0.5 candidate: principle claim needs examples non-examples and failed cases.",
+  "claimType": "conceptual_principle",
+  "requiredFields": [
+    "protocol_first_evaluation.source_url",
+    "protocol_first_evaluation.artifact_version",
+    "protocol_first_evaluation.access_method",
+    "protocol_first_evaluation.claim_text",
+    "protocol_first_evaluation.required_baseline",
+    "protocol_first_evaluation.negative_control",
+    "protocol_first_evaluation.replay_plan",
+    "protocol_first_evaluation.protocol_first_evaluation_field_1"
+  ],
+  "expectedPresentFields": [
+    "protocol_first_evaluation.source_url",
+    "protocol_first_evaluation.artifact_version",
+    "protocol_first_evaluation.access_method",
+    "protocol_first_evaluation.claim_text"
+  ],
+  "expectedMissingFields": [
+    "protocol_first_evaluation.required_baseline",
+    "protocol_first_evaluation.negative_control"
+  ],
+  "predictedDecision": "allowed_with_caveats",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "2138175ccef2b8dcaad1633a08bea5ed1f1653f2024cfe01e340329404a3424c"
+}

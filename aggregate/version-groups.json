@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T18:15:17.924Z",
+  "updatedAt": "2026-05-06T18:43:33.698Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -59,6 +59,76 @@
       ]
     },
     {
+      "versionGroup": "batch100-deep-timeseries-temporal-study",
+      "latestSlug": "batch100-deep-timeseries-temporal-study",
+      "resultSlugs": [
+        "batch100-deep-timeseries-temporal-study"
+      ]
+    },
+    {
+      "versionGroup": "batch101-independent-replay-and-fresh-workspace-study",
+      "latestSlug": "batch101-independent-replay-and-fresh-workspace-study",
+      "resultSlugs": [
+        "batch101-independent-replay-and-fresh-workspace-study"
+      ]
+    },
+    {
+      "versionGroup": "batch102-hard-external-evidence-atlas",
+      "latestSlug": "batch102-hard-external-evidence-atlas",
+      "resultSlugs": [
+        "batch102-hard-external-evidence-atlas"
+      ]
+    },
+    {
+      "versionGroup": "batch103-external-anomaly-mining",
+      "latestSlug": "batch103-external-anomaly-mining-v3",
+      "resultSlugs": [
+        "batch103-external-anomaly-mining-v3"
+      ]
+    },
+    {
+      "versionGroup": "batch104-rival-principle-generation",
+      "latestSlug": "batch104-rival-principle-generation-v3",
+      "resultSlugs": [
+        "batch104-rival-principle-generation-v3"
+      ]
+    },
+    {
+      "versionGroup": "batch105-discriminating-experiment-freeze",
+      "latestSlug": "batch105-discriminating-experiment-freeze-v3",
+      "resultSlugs": [
+        "batch105-discriminating-experiment-freeze-v3"
+      ]
+    },
+    {
+      "versionGroup": "batch106-surprise-prediction-execution",
+      "latestSlug": "batch106-surprise-prediction-execution-v3",
+      "resultSlugs": [
+        "batch106-surprise-prediction-execution-v3"
+      ]
+    },
+    {
+      "versionGroup": "batch107-cross-domain-principle-transfer",
+      "latestSlug": "batch107-cross-domain-principle-transfer-v3",
+      "resultSlugs": [
+        "batch107-cross-domain-principle-transfer-v3"
+      ]
+    },
+    {
+      "versionGroup": "batch108-principle-confidence-update",
+      "latestSlug": "batch108-principle-confidence-update-v3",
+      "resultSlugs": [
+        "batch108-principle-confidence-update-v3"
+      ]
+    },
+    {
+      "versionGroup": "batch109-human-readable-review-package-large",
+      "latestSlug": "batch109-human-readable-review-package-large",
+      "resultSlugs": [
+        "batch109-human-readable-review-package-large"
+      ]
+    },
+    {
       "versionGroup": "batch11-multi-target-dataset-metric-validation-program",
       "latestSlug": "batch11-multi-target-dataset-metric-validation-program",
       "resultSlugs": [
@@ -66,10 +136,87 @@
       ]
     },
     {
+      "versionGroup": "batch110-adversarial-reviewer-attack",
+      "latestSlug": "batch110-adversarial-reviewer-attack",
+      "resultSlugs": [
+        "batch110-adversarial-reviewer-attack"
+      ]
+    },
+    {
+      "versionGroup": "batch111-overblocking-underblocking-calibration",
+      "latestSlug": "batch111-overblocking-underblocking-calibration",
+      "resultSlugs": [
+        "batch111-overblocking-underblocking-calibration"
+      ]
+    },
+    {
+      "versionGroup": "batch112-reviewer-burden-practicality-study",
+      "latestSlug": "batch112-reviewer-burden-practicality-study",
+      "resultSlugs": [
+        "batch112-reviewer-burden-practicality-study"
+      ]
+    },
+    {
+      "versionGroup": "batch113-field-bound-standard-v1-or-v0-7-candidate",
+      "latestSlug": "batch113-field-bound-standard-v1-or-v0-7-candidate",
+      "resultSlugs": [
+        "batch113-field-bound-standard-v1-or-v0-7-candidate"
+      ]
+    },
+    {
+      "versionGroup": "batch114-standard-kill-week-rule-revision",
+      "latestSlug": "batch114-standard-kill-week-rule-revision",
+      "resultSlugs": [
+        "batch114-standard-kill-week-rule-revision"
+      ]
+    },
+    {
+      "versionGroup": "batch115-intervention-candidate-generation",
+      "latestSlug": "batch115-intervention-candidate-generation-v2",
+      "resultSlugs": [
+        "batch115-intervention-candidate-generation-v2"
+      ]
+    },
+    {
+      "versionGroup": "batch116-intervention-execution-wave-1",
+      "latestSlug": "batch116-intervention-execution-wave-1",
+      "resultSlugs": [
+        "batch116-intervention-execution-wave-1"
+      ]
+    },
+    {
+      "versionGroup": "batch117-intervention-execution-wave-2",
+      "latestSlug": "batch117-intervention-execution-wave-2",
+      "resultSlugs": [
+        "batch117-intervention-execution-wave-2"
+      ]
+    },
+    {
+      "versionGroup": "batch118-useful-tool-or-standard-candidate",
+      "latestSlug": "batch118-useful-tool-or-standard-candidate-v2",
+      "resultSlugs": [
+        "batch118-useful-tool-or-standard-candidate-v2"
+      ]
+    },
+    {
+      "versionGroup": "batch119-adversarial-discovery-kill-week",
+      "latestSlug": "batch119-adversarial-discovery-kill-week-v2",
+      "resultSlugs": [
+        "batch119-adversarial-discovery-kill-week-v2"
+      ]
+    },
+    {
       "versionGroup": "batch12-research-production-review-next-frontier-program",
       "latestSlug": "batch12-research-production-review-next-frontier-program",
       "resultSlugs": [
         "batch12-research-production-review-next-frontier-program"
+      ]
+    },
+    {
+      "versionGroup": "batch120-final-external-einstein-track-synthesis",
+      "latestSlug": "batch120-final-external-einstein-track-synthesis",
+      "resultSlugs": [
+        "batch120-final-external-einstein-track-synthesis"
       ]
     },
     {
@@ -738,10 +885,129 @@
       ]
     },
     {
+      "versionGroup": "batch83-external-claim-universe-300",
+      "latestSlug": "batch83-external-claim-universe-300",
+      "resultSlugs": [
+        "batch83-external-claim-universe-300"
+      ]
+    },
+    {
+      "versionGroup": "batch84-claim-family-stratification-and-safety-screen",
+      "latestSlug": "batch84-claim-family-stratification-and-safety-screen",
+      "resultSlugs": [
+        "batch84-claim-family-stratification-and-safety-screen"
+      ]
+    },
+    {
+      "versionGroup": "batch85-evidence-field-standard-v1-candidate",
+      "latestSlug": "batch85-evidence-field-standard-v1-candidate",
+      "resultSlugs": [
+        "batch85-evidence-field-standard-v1-candidate"
+      ]
+    },
+    {
+      "versionGroup": "batch86-field-bound-prediction-freeze-60",
+      "latestSlug": "batch86-field-bound-prediction-freeze-60",
+      "resultSlugs": [
+        "batch86-field-bound-prediction-freeze-60"
+      ]
+    },
+    {
+      "versionGroup": "batch87-execution-and-tooling-plan",
+      "latestSlug": "batch87-execution-and-tooling-plan",
+      "resultSlugs": [
+        "batch87-execution-and-tooling-plan"
+      ]
+    },
+    {
+      "versionGroup": "batch88-small-execution-calibration-run",
+      "latestSlug": "batch88-small-execution-calibration-run",
+      "resultSlugs": [
+        "batch88-small-execution-calibration-run"
+      ]
+    },
+    {
+      "versionGroup": "batch89-benchmark-protocol-claim-audit-wave",
+      "latestSlug": "batch89-benchmark-protocol-claim-audit-wave",
+      "resultSlugs": [
+        "batch89-benchmark-protocol-claim-audit-wave"
+      ]
+    },
+    {
       "versionGroup": "batch9-uci-dry-bean-deep-toolchain-study",
       "latestSlug": "batch9-uci-dry-bean-deep-toolchain-study",
       "resultSlugs": [
         "batch9-uci-dry-bean-deep-toolchain-study"
+      ]
+    },
+    {
+      "versionGroup": "batch90-repo-test-reproduction-claim-audit-wave",
+      "latestSlug": "batch90-repo-test-reproduction-claim-audit-wave",
+      "resultSlugs": [
+        "batch90-repo-test-reproduction-claim-audit-wave"
+      ]
+    },
+    {
+      "versionGroup": "batch91-dataset-quality-claim-audit-wave",
+      "latestSlug": "batch91-dataset-quality-claim-audit-wave",
+      "resultSlugs": [
+        "batch91-dataset-quality-claim-audit-wave"
+      ]
+    },
+    {
+      "versionGroup": "batch92-timeseries-temporal-claim-audit-wave",
+      "latestSlug": "batch92-timeseries-temporal-claim-audit-wave",
+      "resultSlugs": [
+        "batch92-timeseries-temporal-claim-audit-wave"
+      ]
+    },
+    {
+      "versionGroup": "batch93-tool-usefulness-claim-audit-wave",
+      "latestSlug": "batch93-tool-usefulness-claim-audit-wave",
+      "resultSlugs": [
+        "batch93-tool-usefulness-claim-audit-wave"
+      ]
+    },
+    {
+      "versionGroup": "batch94-conceptual-principle-claim-audit-wave",
+      "latestSlug": "batch94-conceptual-principle-claim-audit-wave",
+      "resultSlugs": [
+        "batch94-conceptual-principle-claim-audit-wave"
+      ]
+    },
+    {
+      "versionGroup": "batch95-cross-family-replay-and-negative-control-wave",
+      "latestSlug": "batch95-cross-family-replay-and-negative-control-wave",
+      "resultSlugs": [
+        "batch95-cross-family-replay-and-negative-control-wave"
+      ]
+    },
+    {
+      "versionGroup": "batch96-external-claim-audit-wave-synthesis",
+      "latestSlug": "batch96-external-claim-audit-wave-synthesis",
+      "resultSlugs": [
+        "batch96-external-claim-audit-wave-synthesis"
+      ]
+    },
+    {
+      "versionGroup": "batch97-hard-artifact-selection-for-deep-audit",
+      "latestSlug": "batch97-hard-artifact-selection-for-deep-audit",
+      "resultSlugs": [
+        "batch97-hard-artifact-selection-for-deep-audit"
+      ]
+    },
+    {
+      "versionGroup": "batch98-deep-repo-test-reproduction-study",
+      "latestSlug": "batch98-deep-repo-test-reproduction-study",
+      "resultSlugs": [
+        "batch98-deep-repo-test-reproduction-study"
+      ]
+    },
+    {
+      "versionGroup": "batch99-deep-benchmark-protocol-study",
+      "latestSlug": "batch99-deep-benchmark-protocol-study",
+      "resultSlugs": [
+        "batch99-deep-benchmark-protocol-study"
       ]
     },
     {
@@ -934,5 +1200,5 @@
       ]
     }
   ],
-  "evidenceHash": "f54a35b7e0e6e0766519a7de4ea3b1f87868cd392d1d8ca71825753934a3730d"
+  "evidenceHash": "8aeb795d77a83ddb4d95a04ee572216df3a137a965044fc32e692c653a5857f9"
 }

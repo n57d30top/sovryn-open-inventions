@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-023",
+  "claimId": "EXTV2-C023",
+  "claimSource": "https://github.com/pallets/click",
+  "claimTextParaphrase": "click repo candidate: reproduction claim needs runtime test evidence.",
+  "claimType": "repo_test_reproduction",
+  "requiredFields": [
+    "repo_test_reproduction.source_url",
+    "repo_test_reproduction.artifact_version",
+    "repo_test_reproduction.access_method",
+    "repo_test_reproduction.claim_text",
+    "repo_test_reproduction.required_baseline",
+    "repo_test_reproduction.negative_control",
+    "repo_test_reproduction.replay_plan",
+    "repo_test_reproduction.repo_test_reproduction_field_1"
+  ],
+  "expectedPresentFields": [
+    "repo_test_reproduction.source_url",
+    "repo_test_reproduction.artifact_version",
+    "repo_test_reproduction.access_method",
+    "repo_test_reproduction.claim_text"
+  ],
+  "expectedMissingFields": [
+    "repo_test_reproduction.required_baseline",
+    "repo_test_reproduction.negative_control"
+  ],
+  "predictedDecision": "allowed_with_caveats",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "edd5091c6d74361ab0c440b5fc903bb03f22118681ecbbefc5c558ec73657fe3"
+}

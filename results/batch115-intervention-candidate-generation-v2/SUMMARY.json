@@ -1,0 +1,33 @@
+{
+  "kind": "intervention_candidate_generation_v2_summary",
+  "slug": "batch115-intervention-candidate-generation-v2",
+  "title": "Batch 115 Intervention Candidate Generation v2",
+  "resultKind": "intervention_candidate_generation_v2",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 89,
+  "reproducibilityScore": 88,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 94,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "passes_falsification",
+  "baselineComparisonPresent": true,
+  "scientificMemoryUpdated": true,
+  "scientificQuestion": "Can Required Evidence Field Boundary become a robust external claim-review standard through real external evidence checks?",
+  "domain": "extended external field evidence and claim safety v2",
+  "limitations": [
+    "Bounded safe computational evidence only.",
+    "Claim-safety labels are review decisions, not proof.",
+    "No external adoption, universal validity, or breakthrough claim is made."
+  ],
+  "interventionCandidateCount": 20,
+  "selectedInterventionCount": 10,
+  "frozenInterventionPredictionCount": 10,
+  "evidenceHash": "63844700923dd181cd11b29eaa5db88dae9f1b43505f95d50c742707815fee20"
+}

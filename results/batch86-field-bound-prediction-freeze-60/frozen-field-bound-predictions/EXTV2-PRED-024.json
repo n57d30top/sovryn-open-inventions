@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-024",
+  "claimId": "EXTV2-C024",
+  "claimSource": "https://github.com/pallets/jinja",
+  "claimTextParaphrase": "jinja repo candidate: reproduction claim needs runtime test evidence.",
+  "claimType": "repo_test_reproduction",
+  "requiredFields": [
+    "repo_test_reproduction.source_url",
+    "repo_test_reproduction.artifact_version",
+    "repo_test_reproduction.access_method",
+    "repo_test_reproduction.claim_text",
+    "repo_test_reproduction.required_baseline",
+    "repo_test_reproduction.negative_control",
+    "repo_test_reproduction.replay_plan",
+    "repo_test_reproduction.repo_test_reproduction_field_1"
+  ],
+  "expectedPresentFields": [
+    "repo_test_reproduction.source_url",
+    "repo_test_reproduction.artifact_version",
+    "repo_test_reproduction.access_method",
+    "repo_test_reproduction.claim_text"
+  ],
+  "expectedMissingFields": [
+    "repo_test_reproduction.required_baseline",
+    "repo_test_reproduction.negative_control"
+  ],
+  "predictedDecision": "allowed_with_caveats",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "3e0a36745f13cf8fd46108dd77a03348c2019520889c9b9d5c220d776915f259"
+}

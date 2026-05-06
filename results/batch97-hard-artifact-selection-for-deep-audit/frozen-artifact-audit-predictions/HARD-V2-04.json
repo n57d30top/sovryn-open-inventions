@@ -1,0 +1,10 @@
+{
+  "artifactId": "HARD-V2-04",
+  "artifactFamily": "package_install_test",
+  "target": "scipy",
+  "sourceUrl": "https://pypi.org/project/scipy/",
+  "whyHard": "requires execution, replay, negative control, or field-bound caveat",
+  "prediction": "allowed_with_caveats",
+  "preregistrationHash": "fd166283d7ec4dac915ad6099d6f3e4322314c86bc4dd064c61b25c523340937",
+  "noEditRule": "Frozen before deep audit execution."
+}

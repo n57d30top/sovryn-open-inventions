@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-030",
+  "claimId": "EXTV2-C030",
+  "claimSource": "https://scikit-learn.org/stable/modules/cross_validation.html",
+  "claimTextParaphrase": "scikit-learn cross validation candidate: protocol claim needs source split fields.",
+  "claimType": "protocol_evaluation",
+  "requiredFields": [
+    "timeseries_temporal.source_url",
+    "timeseries_temporal.artifact_version",
+    "timeseries_temporal.access_method",
+    "timeseries_temporal.claim_text",
+    "timeseries_temporal.required_baseline",
+    "timeseries_temporal.negative_control",
+    "timeseries_temporal.replay_plan",
+    "timeseries_temporal.timeseries_temporal_field_1"
+  ],
+  "expectedPresentFields": [
+    "timeseries_temporal.source_url",
+    "timeseries_temporal.artifact_version",
+    "timeseries_temporal.access_method",
+    "timeseries_temporal.claim_text"
+  ],
+  "expectedMissingFields": [
+    "timeseries_temporal.required_baseline",
+    "timeseries_temporal.negative_control"
+  ],
+  "predictedDecision": "allowed_with_caveats",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "38156cd90c35cf62210ceb667ab85d7e14dd8b8a08082ba2047a75f529ee149d"
+}

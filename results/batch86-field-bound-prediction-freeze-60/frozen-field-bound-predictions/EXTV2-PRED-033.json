@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-033",
+  "claimId": "EXTV2-C033",
+  "claimSource": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html",
+  "claimTextParaphrase": "sklearn iris candidate: accuracy claim needs macro metric evidence.",
+  "claimType": "benchmark_performance",
+  "requiredFields": [
+    "benchmark_performance.source_url",
+    "benchmark_performance.artifact_version",
+    "benchmark_performance.access_method",
+    "benchmark_performance.claim_text",
+    "benchmark_performance.required_baseline",
+    "benchmark_performance.negative_control",
+    "benchmark_performance.replay_plan",
+    "benchmark_performance.benchmark_performance_field_1"
+  ],
+  "expectedPresentFields": [
+    "benchmark_performance.source_url",
+    "benchmark_performance.artifact_version",
+    "benchmark_performance.access_method",
+    "benchmark_performance.claim_text"
+  ],
+  "expectedMissingFields": [
+    "benchmark_performance.required_baseline",
+    "benchmark_performance.negative_control"
+  ],
+  "predictedDecision": "allowed",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "90cf78693a7e09aa33687b3c61c25a30848a7636641d110811e980d37688dc26"
+}

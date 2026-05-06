@@ -1,0 +1,19 @@
+{
+  "experimentId": "DISC-V3-09",
+  "domain": "dataset_quality",
+  "target": "diabetes",
+  "principlesCompared": [
+    "Field Specificity Over Field Count",
+    "Evidence Actionability Boundary",
+    "Burden-Adjusted Claim Safety",
+    "Execution Depth Dominance"
+  ],
+  "predictionA": "field specificity wins if one missing actionable field downgrades claim",
+  "predictionB": "burden-adjusted review wins if full standard overblocks practical claim",
+  "predictionC": "execution-depth wins if runtime evidence dominates field count",
+  "predictionD": "baseline sufficiency wins if simple checklist matches decision",
+  "expectedToWeakenFavored": false,
+  "negativeControl": "simple checklist or shuffled-label/time where applicable",
+  "replayPlan": "fresh rerun or documented replay failure",
+  "preregistrationHash": "cb378b6b33c7f4f6721abaf837ff903e9ff2aeb09234506cc8615105983acaa4"
+}

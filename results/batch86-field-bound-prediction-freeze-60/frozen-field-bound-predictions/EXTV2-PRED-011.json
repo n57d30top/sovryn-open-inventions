@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-011",
+  "claimId": "EXTV2-C011",
+  "claimSource": "https://pypi.org/project/numpy/",
+  "claimTextParaphrase": "numpy package candidate: package usefulness claim needs install and example execution.",
+  "claimType": "package_install_test",
+  "requiredFields": [
+    "package_install_test.source_url",
+    "package_install_test.artifact_version",
+    "package_install_test.access_method",
+    "package_install_test.claim_text",
+    "package_install_test.required_baseline",
+    "package_install_test.negative_control",
+    "package_install_test.replay_plan",
+    "package_install_test.package_install_test_field_1"
+  ],
+  "expectedPresentFields": [
+    "package_install_test.source_url",
+    "package_install_test.artifact_version",
+    "package_install_test.access_method",
+    "package_install_test.claim_text"
+  ],
+  "expectedMissingFields": [
+    "package_install_test.required_baseline",
+    "package_install_test.negative_control"
+  ],
+  "predictedDecision": "downgraded",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "ad1f8b3f89e6821fce90e0decb4125fe23fa5085d9668cf97f72922c7daadbbb"
+}

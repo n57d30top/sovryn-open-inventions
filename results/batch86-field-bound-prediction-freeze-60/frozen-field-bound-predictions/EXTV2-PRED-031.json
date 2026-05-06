@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-031",
+  "claimId": "EXTV2-C031",
+  "claimSource": "https://docs.pytest.org/en/stable/explanation/goodpractices.html",
+  "claimTextParaphrase": "pytest good practices candidate: documentation claim needs concrete artifact fields.",
+  "claimType": "documentation_protocol",
+  "requiredFields": [
+    "tool_usefulness.source_url",
+    "tool_usefulness.artifact_version",
+    "tool_usefulness.access_method",
+    "tool_usefulness.claim_text",
+    "tool_usefulness.required_baseline",
+    "tool_usefulness.negative_control",
+    "tool_usefulness.replay_plan",
+    "tool_usefulness.tool_usefulness_field_1"
+  ],
+  "expectedPresentFields": [
+    "tool_usefulness.source_url",
+    "tool_usefulness.artifact_version",
+    "tool_usefulness.access_method",
+    "tool_usefulness.claim_text"
+  ],
+  "expectedMissingFields": [
+    "tool_usefulness.required_baseline",
+    "tool_usefulness.negative_control"
+  ],
+  "predictedDecision": "allowed_with_caveats",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "75e7485a3078d22a45abbb14639671c998bfcffcbe2a9e4cef5d18780bcd0e2a"
+}

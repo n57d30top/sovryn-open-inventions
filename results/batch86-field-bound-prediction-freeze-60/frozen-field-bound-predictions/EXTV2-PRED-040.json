@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-040",
+  "claimId": "EXTV2-C040",
+  "claimSource": "https://www.statsmodels.org/stable/datasets/generated/macrodata.html",
+  "claimTextParaphrase": "statsmodels macrodata candidate: shuffled-time control can weaken temporal claim.",
+  "claimType": "timeseries_temporal",
+  "requiredFields": [
+    "package_install_test.source_url",
+    "package_install_test.artifact_version",
+    "package_install_test.access_method",
+    "package_install_test.claim_text",
+    "package_install_test.required_baseline",
+    "package_install_test.negative_control",
+    "package_install_test.replay_plan",
+    "package_install_test.package_install_test_field_1"
+  ],
+  "expectedPresentFields": [
+    "package_install_test.source_url",
+    "package_install_test.artifact_version",
+    "package_install_test.access_method",
+    "package_install_test.claim_text"
+  ],
+  "expectedMissingFields": [
+    "package_install_test.required_baseline",
+    "package_install_test.negative_control"
+  ],
+  "predictedDecision": "allowed",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "64a40b9045c4a79674c7f405179336e8b617251a021ed97ccdedcd7d80885492"
+}

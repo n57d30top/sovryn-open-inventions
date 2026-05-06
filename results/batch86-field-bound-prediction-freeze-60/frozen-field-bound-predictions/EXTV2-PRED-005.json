@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-005",
+  "claimId": "EXTV2-C005",
+  "claimSource": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html",
+  "claimTextParaphrase": "sklearn diabetes candidate: dataset reliability claim needs shape schema missingness and provenance.",
+  "claimType": "dataset_quality",
+  "requiredFields": [
+    "dataset_quality.source_url",
+    "dataset_quality.artifact_version",
+    "dataset_quality.access_method",
+    "dataset_quality.claim_text",
+    "dataset_quality.required_baseline",
+    "dataset_quality.negative_control",
+    "dataset_quality.replay_plan",
+    "dataset_quality.dataset_quality_field_1"
+  ],
+  "expectedPresentFields": [
+    "dataset_quality.source_url",
+    "dataset_quality.artifact_version",
+    "dataset_quality.access_method",
+    "dataset_quality.claim_text"
+  ],
+  "expectedMissingFields": [
+    "dataset_quality.required_baseline",
+    "dataset_quality.negative_control"
+  ],
+  "predictedDecision": "blocked",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "e709408f76be3fe521764a254bd6c7f4a653618a627741ae9cf717ecbfc7299e"
+}

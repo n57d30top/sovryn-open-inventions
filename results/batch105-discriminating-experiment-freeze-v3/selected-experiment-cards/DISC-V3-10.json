@@ -1,0 +1,19 @@
+{
+  "experimentId": "DISC-V3-10",
+  "domain": "timeseries",
+  "target": "linnerud",
+  "principlesCompared": [
+    "Field Specificity Over Field Count",
+    "Evidence Actionability Boundary",
+    "Burden-Adjusted Claim Safety",
+    "Execution Depth Dominance"
+  ],
+  "predictionA": "field specificity wins if one missing actionable field downgrades claim",
+  "predictionB": "burden-adjusted review wins if full standard overblocks practical claim",
+  "predictionC": "execution-depth wins if runtime evidence dominates field count",
+  "predictionD": "baseline sufficiency wins if simple checklist matches decision",
+  "expectedToWeakenFavored": true,
+  "negativeControl": "simple checklist or shuffled-label/time where applicable",
+  "replayPlan": "fresh rerun or documented replay failure",
+  "preregistrationHash": "757dee15f783ee52690862491660ac6da081b0385ddc172134a6ea5b39ca1e59"
+}

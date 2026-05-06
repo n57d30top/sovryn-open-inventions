@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-041",
+  "claimId": "EXTV2-C041",
+  "claimSource": "https://www.statsmodels.org/stable/datasets/generated/nile.html",
+  "claimTextParaphrase": "statsmodels nile candidate: shuffled-time control can weaken temporal claim.",
+  "claimType": "timeseries_temporal",
+  "requiredFields": [
+    "dataset_quality.source_url",
+    "dataset_quality.artifact_version",
+    "dataset_quality.access_method",
+    "dataset_quality.claim_text",
+    "dataset_quality.required_baseline",
+    "dataset_quality.negative_control",
+    "dataset_quality.replay_plan",
+    "dataset_quality.dataset_quality_field_1"
+  ],
+  "expectedPresentFields": [
+    "dataset_quality.source_url",
+    "dataset_quality.artifact_version",
+    "dataset_quality.access_method",
+    "dataset_quality.claim_text"
+  ],
+  "expectedMissingFields": [
+    "dataset_quality.required_baseline",
+    "dataset_quality.negative_control"
+  ],
+  "predictedDecision": "allowed",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "38302254460b045d8e492308bac63d9f5d771a7798ed1df8318d16dc07bbd410"
+}

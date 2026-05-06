@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-048",
+  "claimId": "EXTV2-C048",
+  "claimSource": "https://pypi.org/project/networkx/",
+  "claimTextParaphrase": "networkx package candidate: tool packaging value is weaker than discovery value.",
+  "claimType": "tool_usefulness",
+  "requiredFields": [
+    "tool_usefulness.source_url",
+    "tool_usefulness.artifact_version",
+    "tool_usefulness.access_method",
+    "tool_usefulness.claim_text",
+    "tool_usefulness.required_baseline",
+    "tool_usefulness.negative_control",
+    "tool_usefulness.replay_plan",
+    "tool_usefulness.tool_usefulness_field_1"
+  ],
+  "expectedPresentFields": [
+    "tool_usefulness.source_url",
+    "tool_usefulness.artifact_version",
+    "tool_usefulness.access_method",
+    "tool_usefulness.claim_text"
+  ],
+  "expectedMissingFields": [
+    "tool_usefulness.required_baseline",
+    "tool_usefulness.negative_control"
+  ],
+  "predictedDecision": "partial_risk_expected",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "1b6b64e83a023586256aaa063c76ae32e5b4adb4d4ed649ece3a65ebf246bf43"
+}

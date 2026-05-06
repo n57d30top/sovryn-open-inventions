@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-036",
+  "claimId": "EXTV2-C036",
+  "claimSource": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html",
+  "claimTextParaphrase": "sklearn breast cancer candidate: quality claim needs duplicate or missingness check.",
+  "claimType": "dataset_quality",
+  "requiredFields": [
+    "dataset_quality.source_url",
+    "dataset_quality.artifact_version",
+    "dataset_quality.access_method",
+    "dataset_quality.claim_text",
+    "dataset_quality.required_baseline",
+    "dataset_quality.negative_control",
+    "dataset_quality.replay_plan",
+    "dataset_quality.dataset_quality_field_1"
+  ],
+  "expectedPresentFields": [
+    "dataset_quality.source_url",
+    "dataset_quality.artifact_version",
+    "dataset_quality.access_method",
+    "dataset_quality.claim_text"
+  ],
+  "expectedMissingFields": [
+    "dataset_quality.required_baseline",
+    "dataset_quality.negative_control"
+  ],
+  "predictedDecision": "allowed",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "d990da7f428b62e5a4f6c098f4f4ed3215496cdcad1d7f29f559159bbcafb6fe"
+}

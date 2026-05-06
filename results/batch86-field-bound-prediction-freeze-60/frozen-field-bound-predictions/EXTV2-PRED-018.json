@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-018",
+  "claimId": "EXTV2-C018",
+  "claimSource": "https://pypi.org/project/Jinja2/",
+  "claimTextParaphrase": "jinja2 package candidate: tool usefulness needs baseline comparison.",
+  "claimType": "tool_usefulness",
+  "requiredFields": [
+    "timeseries_temporal.source_url",
+    "timeseries_temporal.artifact_version",
+    "timeseries_temporal.access_method",
+    "timeseries_temporal.claim_text",
+    "timeseries_temporal.required_baseline",
+    "timeseries_temporal.negative_control",
+    "timeseries_temporal.replay_plan",
+    "timeseries_temporal.timeseries_temporal_field_1"
+  ],
+  "expectedPresentFields": [
+    "timeseries_temporal.source_url",
+    "timeseries_temporal.artifact_version",
+    "timeseries_temporal.access_method",
+    "timeseries_temporal.claim_text"
+  ],
+  "expectedMissingFields": [
+    "timeseries_temporal.required_baseline",
+    "timeseries_temporal.negative_control"
+  ],
+  "predictedDecision": "not_testable",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "e89932be502f57906e287ce7fb67dbad14228fb8ba46f7ad001561b8470102c7"
+}

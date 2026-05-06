@@ -1,0 +1,19 @@
+{
+  "experimentId": "DISC-V3-03",
+  "domain": "dataset_quality",
+  "target": "breast_cancer",
+  "principlesCompared": [
+    "Field Specificity Over Field Count",
+    "Evidence Actionability Boundary",
+    "Burden-Adjusted Claim Safety",
+    "Execution Depth Dominance"
+  ],
+  "predictionA": "field specificity wins if one missing actionable field downgrades claim",
+  "predictionB": "burden-adjusted review wins if full standard overblocks practical claim",
+  "predictionC": "execution-depth wins if runtime evidence dominates field count",
+  "predictionD": "baseline sufficiency wins if simple checklist matches decision",
+  "expectedToWeakenFavored": true,
+  "negativeControl": "simple checklist or shuffled-label/time where applicable",
+  "replayPlan": "fresh rerun or documented replay failure",
+  "preregistrationHash": "efb43179663aa5db19a8f3c13bcfe985565153182af1aab942452d4498878d27"
+}

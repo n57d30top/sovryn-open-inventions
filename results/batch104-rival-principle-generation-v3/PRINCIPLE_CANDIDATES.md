@@ -1,0 +1,27 @@
+# Principle Candidates
+
+- Field Specificity Over Field Count
+- Evidence Actionability Boundary
+- Burden-Adjusted Claim Safety
+- Execution Depth Dominance
+- Replay-Limited Confidence
+- Baseline Sufficiency Rival
+- Ambiguity Dominance Principle
+- Domain Adapted Evidence Boundary
+- Negative Control as Claim Field
+- Protocol-Claim Fit Principle
+- Human-Readable Evidence Compression
+- External Usefulness Gap
+- Overblocking Risk Boundary
+- Underblocking Risk Boundary
+- Fresh Artifact Friction Principle
+- Temporal Protocol Specificity
+- Repo Runtime Evidence Boundary
+- Dataset Schema Sufficiency
+- Tool Value Baseline Compression
+- Concept Transfer Narrowing
+- Claim Review Burden Curve
+- Field Conflict Boundary
+- Evidence Missingness Gradient
+- Partial Evidence Preservation
+- Caveat Strength Calibration

@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 134,
+    "good": 172,
     "reviewable": 6
   },
   "results": [
@@ -47,7 +47,107 @@
       "releaseReadinessScore": 90
     },
     {
+      "slug": "batch100-deep-timeseries-temporal-study",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch101-independent-replay-and-fresh-workspace-study",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch102-hard-external-evidence-atlas",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch103-external-anomaly-mining-v3",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch104-rival-principle-generation-v3",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch105-discriminating-experiment-freeze-v3",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch106-surprise-prediction-execution-v3",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch107-cross-domain-principle-transfer-v3",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch108-principle-confidence-update-v3",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch109-human-readable-review-package-large",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
       "slug": "batch11-multi-target-dataset-metric-validation-program",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch110-adversarial-reviewer-attack",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch111-overblocking-underblocking-calibration",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch112-reviewer-burden-practicality-study",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch113-field-bound-standard-v1-or-v0-7-candidate",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch114-standard-kill-week-rule-revision",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch115-intervention-candidate-generation-v2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch116-intervention-execution-wave-1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch117-intervention-execution-wave-2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch118-useful-tool-or-standard-candidate-v2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch119-adversarial-discovery-kill-week-v2",
       "qualityLabel": "good",
       "releaseReadinessScore": 91
     },
@@ -55,6 +155,11 @@
       "slug": "batch12-research-production-review-next-frontier-program",
       "qualityLabel": "good",
       "releaseReadinessScore": 90
+    },
+    {
+      "slug": "batch120-final-external-einstein-track-synthesis",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
     },
     {
       "slug": "batch13-protocol-first-benchmark-validation-week1",
@@ -532,9 +637,94 @@
       "releaseReadinessScore": 91
     },
     {
+      "slug": "batch83-external-claim-universe-300",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch84-claim-family-stratification-and-safety-screen",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch85-evidence-field-standard-v1-candidate",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch86-field-bound-prediction-freeze-60",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch87-execution-and-tooling-plan",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch88-small-execution-calibration-run",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch89-benchmark-protocol-claim-audit-wave",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
       "slug": "batch9-uci-dry-bean-deep-toolchain-study",
       "qualityLabel": "good",
       "releaseReadinessScore": 92
+    },
+    {
+      "slug": "batch90-repo-test-reproduction-claim-audit-wave",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch91-dataset-quality-claim-audit-wave",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch92-timeseries-temporal-claim-audit-wave",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch93-tool-usefulness-claim-audit-wave",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch94-conceptual-principle-claim-audit-wave",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch95-cross-family-replay-and-negative-control-wave",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch96-external-claim-audit-wave-synthesis",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch97-hard-artifact-selection-for-deep-audit",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch98-deep-repo-test-reproduction-study",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch99-deep-benchmark-protocol-study",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
     },
     {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -732,5 +922,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "a0f8fc6154d2c97d3baa2d07883ef9d5e52da6f1d4c66e9eec34f5ee1ed7e0b8"
+  "evidenceHash": "3055be20efa4927652a1d6b11039b1fd8f4d1295302fd6a38106f2574778ae16"
 }

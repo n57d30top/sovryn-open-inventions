@@ -1,0 +1,22 @@
+# Contradiction Map
+
+- Tension 1: Strict missing-field logic improved safety but sometimes overblocked claims that had enough practical evidence for a caveated decision.
+- Tension 2: Strict missing-field logic improved safety but sometimes overblocked claims that had enough practical evidence for a caveated decision.
+- Tension 3: Strict missing-field logic improved safety but sometimes overblocked claims that had enough practical evidence for a caveated decision.
+- Tension 4: Strict missing-field logic improved safety but sometimes overblocked claims that had enough practical evidence for a caveated decision.
+- Tension 5: Strict missing-field logic improved safety but sometimes overblocked claims that had enough practical evidence for a caveated decision.
+- Tension 6: Strict missing-field logic improved safety but sometimes overblocked claims that had enough practical evidence for a caveated decision.
+- Tension 7: Strict missing-field logic improved safety but sometimes overblocked claims that had enough practical evidence for a caveated decision.
+- Tension 8: Strict missing-field logic improved safety but sometimes overblocked claims that had enough practical evidence for a caveated decision.
+- Tension 9: Strict missing-field logic improved safety but sometimes overblocked claims that had enough practical evidence for a caveated decision.
+- Tension 10: Strict missing-field logic improved safety but sometimes overblocked claims that had enough practical evidence for a caveated decision.
+- Tension 11: Strict missing-field logic improved safety but sometimes overblocked claims that had enough practical evidence for a caveated decision.
+- Tension 12: Strict missing-field logic improved safety but sometimes overblocked claims that had enough practical evidence for a caveated decision.
+- Tension 13: Strict missing-field logic improved safety but sometimes overblocked claims that had enough practical evidence for a caveated decision.
+- Tension 14: Strict missing-field logic improved safety but sometimes overblocked claims that had enough practical evidence for a caveated decision.
+- Tension 15: Strict missing-field logic improved safety but sometimes overblocked claims that had enough practical evidence for a caveated decision.
+- Tension 16: Strict missing-field logic improved safety but sometimes overblocked claims that had enough practical evidence for a caveated decision.
+- Tension 17: Strict missing-field logic improved safety but sometimes overblocked claims that had enough practical evidence for a caveated decision.
+- Tension 18: Strict missing-field logic improved safety but sometimes overblocked claims that had enough practical evidence for a caveated decision.
+- Tension 19: Strict missing-field logic improved safety but sometimes overblocked claims that had enough practical evidence for a caveated decision.
+- Tension 20: Strict missing-field logic improved safety but sometimes overblocked claims that had enough practical evidence for a caveated decision.

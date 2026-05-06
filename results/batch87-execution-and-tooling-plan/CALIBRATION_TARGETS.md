@@ -1,0 +1,12 @@
+| Prediction | Family | Route |
+| --- | --- | --- |
+| EXTV2-PRED-001 | benchmark_performance | dataset_benchmark_execution |
+| EXTV2-PRED-002 | benchmark_performance | dataset_benchmark_execution |
+| EXTV2-PRED-003 | benchmark_performance | dataset_benchmark_execution |
+| EXTV2-PRED-004 | dataset_quality | dataset_quality_execution |
+| EXTV2-PRED-005 | dataset_quality | dataset_quality_execution |
+| EXTV2-PRED-006 | timeseries_temporal | timeseries_temporal_execution |
+| EXTV2-PRED-007 | timeseries_temporal | timeseries_temporal_execution |
+| EXTV2-PRED-008 | timeseries_temporal | timeseries_temporal_execution |
+| EXTV2-PRED-009 | timeseries_temporal | timeseries_temporal_execution |
+| EXTV2-PRED-010 | timeseries_temporal | timeseries_temporal_execution |

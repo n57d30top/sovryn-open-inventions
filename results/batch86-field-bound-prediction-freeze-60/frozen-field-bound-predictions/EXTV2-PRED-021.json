@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-021",
+  "claimId": "EXTV2-C021",
+  "claimSource": "https://github.com/pypa/sampleproject",
+  "claimTextParaphrase": "pypa sampleproject candidate: reproduction claim needs runtime test evidence.",
+  "claimType": "repo_test_reproduction",
+  "requiredFields": [
+    "repo_test_reproduction.source_url",
+    "repo_test_reproduction.artifact_version",
+    "repo_test_reproduction.access_method",
+    "repo_test_reproduction.claim_text",
+    "repo_test_reproduction.required_baseline",
+    "repo_test_reproduction.negative_control",
+    "repo_test_reproduction.replay_plan",
+    "repo_test_reproduction.repo_test_reproduction_field_1"
+  ],
+  "expectedPresentFields": [
+    "repo_test_reproduction.source_url",
+    "repo_test_reproduction.artifact_version",
+    "repo_test_reproduction.access_method",
+    "repo_test_reproduction.claim_text"
+  ],
+  "expectedMissingFields": [
+    "repo_test_reproduction.required_baseline",
+    "repo_test_reproduction.negative_control"
+  ],
+  "predictedDecision": "not_testable",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "50b0848538c2cb8332ca30434a57fb3380404cb3ad1f9416625a3d42475ac812"
+}

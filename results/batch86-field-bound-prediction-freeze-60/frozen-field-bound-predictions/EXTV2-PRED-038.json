@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-038",
+  "claimId": "EXTV2-C038",
+  "claimSource": "https://www.statsmodels.org/stable/datasets/generated/sunspots.html",
+  "claimTextParaphrase": "statsmodels sunspots candidate: shuffled-time control can weaken temporal claim.",
+  "claimType": "timeseries_temporal",
+  "requiredFields": [
+    "protocol_first_evaluation.source_url",
+    "protocol_first_evaluation.artifact_version",
+    "protocol_first_evaluation.access_method",
+    "protocol_first_evaluation.claim_text",
+    "protocol_first_evaluation.required_baseline",
+    "protocol_first_evaluation.negative_control",
+    "protocol_first_evaluation.replay_plan",
+    "protocol_first_evaluation.protocol_first_evaluation_field_1"
+  ],
+  "expectedPresentFields": [
+    "protocol_first_evaluation.source_url",
+    "protocol_first_evaluation.artifact_version",
+    "protocol_first_evaluation.access_method",
+    "protocol_first_evaluation.claim_text"
+  ],
+  "expectedMissingFields": [
+    "protocol_first_evaluation.required_baseline",
+    "protocol_first_evaluation.negative_control"
+  ],
+  "predictedDecision": "allowed",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "4f86d62ccfa166d4c7d0e8e29b7049f760d8c746785431d7aba7e310fda4e0fc"
+}

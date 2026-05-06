@@ -1,0 +1,10 @@
+{
+  "artifactId": "HARD-V2-08",
+  "artifactFamily": "timeseries_temporal_target",
+  "target": "elnino.JAN",
+  "sourceUrl": "https://www.statsmodels.org/stable/datasets/generated/elnino.html",
+  "whyHard": "requires execution, replay, negative control, or field-bound caveat",
+  "prediction": "allowed_with_caveats",
+  "preregistrationHash": "727298354e53ad5acd9090ef2db5c102b981b35fb9ac552917e4d9dae71a60e7",
+  "noEditRule": "Frozen before deep audit execution."
+}

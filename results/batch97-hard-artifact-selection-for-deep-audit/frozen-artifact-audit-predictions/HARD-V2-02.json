@@ -1,0 +1,10 @@
+{
+  "artifactId": "HARD-V2-02",
+  "artifactFamily": "benchmark_dataset",
+  "target": "wine",
+  "sourceUrl": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_wine.html",
+  "whyHard": "requires execution, replay, negative control, or field-bound caveat",
+  "prediction": "allowed_with_caveats",
+  "preregistrationHash": "41bd406dfce4a0c5d121ec80ea9a1c3c9e8bd9e41dbe6a026d4983d718cd2b6a",
+  "noEditRule": "Frozen before deep audit execution."
+}

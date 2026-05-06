@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-037",
+  "claimId": "EXTV2-C037",
+  "claimSource": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html",
+  "claimTextParaphrase": "sklearn diabetes candidate: quality claim needs duplicate or missingness check.",
+  "claimType": "dataset_quality",
+  "requiredFields": [
+    "benchmark_performance.source_url",
+    "benchmark_performance.artifact_version",
+    "benchmark_performance.access_method",
+    "benchmark_performance.claim_text",
+    "benchmark_performance.required_baseline",
+    "benchmark_performance.negative_control",
+    "benchmark_performance.replay_plan",
+    "benchmark_performance.benchmark_performance_field_1"
+  ],
+  "expectedPresentFields": [
+    "benchmark_performance.source_url",
+    "benchmark_performance.artifact_version",
+    "benchmark_performance.access_method",
+    "benchmark_performance.claim_text"
+  ],
+  "expectedMissingFields": [
+    "benchmark_performance.required_baseline",
+    "benchmark_performance.negative_control"
+  ],
+  "predictedDecision": "allowed",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "52ecca8ffce4567dfc6fcbac2c39c3ae702b5fbe667576fffc9f83200fb5485d"
+}

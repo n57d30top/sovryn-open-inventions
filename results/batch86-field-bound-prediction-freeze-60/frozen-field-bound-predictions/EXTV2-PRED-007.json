@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-007",
+  "claimId": "EXTV2-C007",
+  "claimSource": "https://www.statsmodels.org/stable/datasets/generated/co2.html",
+  "claimTextParaphrase": "statsmodels co2 candidate: temporal claim needs temporal split not random only.",
+  "claimType": "timeseries_temporal",
+  "requiredFields": [
+    "timeseries_temporal.source_url",
+    "timeseries_temporal.artifact_version",
+    "timeseries_temporal.access_method",
+    "timeseries_temporal.claim_text",
+    "timeseries_temporal.required_baseline",
+    "timeseries_temporal.negative_control",
+    "timeseries_temporal.replay_plan",
+    "timeseries_temporal.timeseries_temporal_field_1"
+  ],
+  "expectedPresentFields": [
+    "timeseries_temporal.source_url",
+    "timeseries_temporal.artifact_version",
+    "timeseries_temporal.access_method",
+    "timeseries_temporal.claim_text"
+  ],
+  "expectedMissingFields": [
+    "timeseries_temporal.required_baseline",
+    "timeseries_temporal.negative_control"
+  ],
+  "predictedDecision": "blocked",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "af8202a988d4a814ef8a569557422b4136bd2667299481f273e8d10e2c25bb21"
+}

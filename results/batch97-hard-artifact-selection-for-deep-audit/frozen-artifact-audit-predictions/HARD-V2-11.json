@@ -1,0 +1,10 @@
+{
+  "artifactId": "HARD-V2-11",
+  "artifactFamily": "public_repo_with_tests",
+  "target": "pyparsing",
+  "sourceUrl": "https://pypi.org/project/pyparsing/",
+  "whyHard": "requires execution, replay, negative control, or field-bound caveat",
+  "prediction": "allowed_with_caveats",
+  "preregistrationHash": "b78b91df42c2f01218ff12e7f46aee6b6608c1b7e5be112071d8798e92c51d0e",
+  "noEditRule": "Frozen before deep audit execution."
+}

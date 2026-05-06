@@ -1,0 +1,10 @@
+{
+  "artifactId": "HARD-V2-09",
+  "artifactFamily": "package_install_test",
+  "target": "networkx",
+  "sourceUrl": "https://pypi.org/project/networkx/",
+  "whyHard": "requires execution, replay, negative control, or field-bound caveat",
+  "prediction": "downgraded_or_partial",
+  "preregistrationHash": "8e32aff0ab5c8b0f3383990e8129a81af934a5f6c2c167514e11b064400a6ccd",
+  "noEditRule": "Frozen before deep audit execution."
+}

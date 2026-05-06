@@ -1,0 +1,10 @@
+{
+  "artifactId": "HARD-V2-10",
+  "artifactFamily": "scientific_dataset_reliability",
+  "target": "grunfeld",
+  "sourceUrl": "https://www.statsmodels.org/stable/datasets/generated/grunfeld.html",
+  "whyHard": "requires execution, replay, negative control, or field-bound caveat",
+  "prediction": "allowed_with_caveats",
+  "preregistrationHash": "94b65f4bb50fd49fe00e4b8e654c780c64da638b75ef1aec09420f859df6b6d3",
+  "noEditRule": "Frozen before deep audit execution."
+}

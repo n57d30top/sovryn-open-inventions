@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-020",
+  "claimId": "EXTV2-C020",
+  "claimSource": "https://pypi.org/project/packaging/",
+  "claimTextParaphrase": "packaging package candidate: tool usefulness needs baseline comparison.",
+  "claimType": "tool_usefulness",
+  "requiredFields": [
+    "tool_usefulness.source_url",
+    "tool_usefulness.artifact_version",
+    "tool_usefulness.access_method",
+    "tool_usefulness.claim_text",
+    "tool_usefulness.required_baseline",
+    "tool_usefulness.negative_control",
+    "tool_usefulness.replay_plan",
+    "tool_usefulness.tool_usefulness_field_1"
+  ],
+  "expectedPresentFields": [
+    "tool_usefulness.source_url",
+    "tool_usefulness.artifact_version",
+    "tool_usefulness.access_method",
+    "tool_usefulness.claim_text"
+  ],
+  "expectedMissingFields": [
+    "tool_usefulness.required_baseline",
+    "tool_usefulness.negative_control"
+  ],
+  "predictedDecision": "not_testable",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "7808bf9e889fe8734f4c94f4833221d00026117537b50f8cf53141a9522edc35"
+}

@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-034",
+  "claimId": "EXTV2-C034",
+  "claimSource": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_wine.html",
+  "claimTextParaphrase": "sklearn wine candidate: accuracy claim needs macro metric evidence.",
+  "claimType": "benchmark_performance",
+  "requiredFields": [
+    "benchmark_performance.source_url",
+    "benchmark_performance.artifact_version",
+    "benchmark_performance.access_method",
+    "benchmark_performance.claim_text",
+    "benchmark_performance.required_baseline",
+    "benchmark_performance.negative_control",
+    "benchmark_performance.replay_plan",
+    "benchmark_performance.benchmark_performance_field_1"
+  ],
+  "expectedPresentFields": [
+    "benchmark_performance.source_url",
+    "benchmark_performance.artifact_version",
+    "benchmark_performance.access_method",
+    "benchmark_performance.claim_text"
+  ],
+  "expectedMissingFields": [
+    "benchmark_performance.required_baseline",
+    "benchmark_performance.negative_control"
+  ],
+  "predictedDecision": "allowed",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "8357ff41512be8b734080f1e06ce59a317de68c0d96221181a871016c434f5c2"
+}

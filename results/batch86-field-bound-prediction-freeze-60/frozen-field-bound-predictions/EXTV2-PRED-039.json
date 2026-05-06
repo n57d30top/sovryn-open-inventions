@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-039",
+  "claimId": "EXTV2-C039",
+  "claimSource": "https://www.statsmodels.org/stable/datasets/generated/co2.html",
+  "claimTextParaphrase": "statsmodels co2 candidate: shuffled-time control can weaken temporal claim.",
+  "claimType": "timeseries_temporal",
+  "requiredFields": [
+    "repo_test_reproduction.source_url",
+    "repo_test_reproduction.artifact_version",
+    "repo_test_reproduction.access_method",
+    "repo_test_reproduction.claim_text",
+    "repo_test_reproduction.required_baseline",
+    "repo_test_reproduction.negative_control",
+    "repo_test_reproduction.replay_plan",
+    "repo_test_reproduction.repo_test_reproduction_field_1"
+  ],
+  "expectedPresentFields": [
+    "repo_test_reproduction.source_url",
+    "repo_test_reproduction.artifact_version",
+    "repo_test_reproduction.access_method",
+    "repo_test_reproduction.claim_text"
+  ],
+  "expectedMissingFields": [
+    "repo_test_reproduction.required_baseline",
+    "repo_test_reproduction.negative_control"
+  ],
+  "predictedDecision": "allowed",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "b1058531673abfff5696bf37ee9e28407e27f6dbf15b3889aa2bc4db969377ed"
+}

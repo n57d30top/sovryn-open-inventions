@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 145
+Results: 183
 
 ## Lifecycle Counts
 
-- autopublished: 114
+- autopublished: 152
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -20,8 +20,29 @@ Results: 145
 - batch1-qasper-source-evidence-extraction-challenge: latest batch1-qasper-source-evidence-extraction-challenge; batch1-qasper-source-evidence-extraction-challenge
 - batch1-uci-wine-quality-dataset-audit: latest batch1-uci-wine-quality-dataset-audit; batch1-uci-wine-quality-dataset-audit
 - batch10-toolchain-kill-week: latest batch10-toolchain-kill-week; batch10-toolchain-kill-week
+- batch100-deep-timeseries-temporal-study: latest batch100-deep-timeseries-temporal-study; batch100-deep-timeseries-temporal-study
+- batch101-independent-replay-and-fresh-workspace-study: latest batch101-independent-replay-and-fresh-workspace-study; batch101-independent-replay-and-fresh-workspace-study
+- batch102-hard-external-evidence-atlas: latest batch102-hard-external-evidence-atlas; batch102-hard-external-evidence-atlas
+- batch103-external-anomaly-mining: latest batch103-external-anomaly-mining-v3; batch103-external-anomaly-mining-v3
+- batch104-rival-principle-generation: latest batch104-rival-principle-generation-v3; batch104-rival-principle-generation-v3
+- batch105-discriminating-experiment-freeze: latest batch105-discriminating-experiment-freeze-v3; batch105-discriminating-experiment-freeze-v3
+- batch106-surprise-prediction-execution: latest batch106-surprise-prediction-execution-v3; batch106-surprise-prediction-execution-v3
+- batch107-cross-domain-principle-transfer: latest batch107-cross-domain-principle-transfer-v3; batch107-cross-domain-principle-transfer-v3
+- batch108-principle-confidence-update: latest batch108-principle-confidence-update-v3; batch108-principle-confidence-update-v3
+- batch109-human-readable-review-package-large: latest batch109-human-readable-review-package-large; batch109-human-readable-review-package-large
 - batch11-multi-target-dataset-metric-validation-program: latest batch11-multi-target-dataset-metric-validation-program; batch11-multi-target-dataset-metric-validation-program
+- batch110-adversarial-reviewer-attack: latest batch110-adversarial-reviewer-attack; batch110-adversarial-reviewer-attack
+- batch111-overblocking-underblocking-calibration: latest batch111-overblocking-underblocking-calibration; batch111-overblocking-underblocking-calibration
+- batch112-reviewer-burden-practicality-study: latest batch112-reviewer-burden-practicality-study; batch112-reviewer-burden-practicality-study
+- batch113-field-bound-standard-v1-or-v0-7-candidate: latest batch113-field-bound-standard-v1-or-v0-7-candidate; batch113-field-bound-standard-v1-or-v0-7-candidate
+- batch114-standard-kill-week-rule-revision: latest batch114-standard-kill-week-rule-revision; batch114-standard-kill-week-rule-revision
+- batch115-intervention-candidate-generation: latest batch115-intervention-candidate-generation-v2; batch115-intervention-candidate-generation-v2
+- batch116-intervention-execution-wave-1: latest batch116-intervention-execution-wave-1; batch116-intervention-execution-wave-1
+- batch117-intervention-execution-wave-2: latest batch117-intervention-execution-wave-2; batch117-intervention-execution-wave-2
+- batch118-useful-tool-or-standard-candidate: latest batch118-useful-tool-or-standard-candidate-v2; batch118-useful-tool-or-standard-candidate-v2
+- batch119-adversarial-discovery-kill-week: latest batch119-adversarial-discovery-kill-week-v2; batch119-adversarial-discovery-kill-week-v2
 - batch12-research-production-review-next-frontier-program: latest batch12-research-production-review-next-frontier-program; batch12-research-production-review-next-frontier-program
+- batch120-final-external-einstein-track-synthesis: latest batch120-final-external-einstein-track-synthesis; batch120-final-external-einstein-track-synthesis
 - batch13-protocol-first-benchmark-validation-week1: latest batch13-protocol-first-benchmark-validation-week1; batch13-protocol-first-benchmark-validation-week1
 - batch14-protocol-risk-expansion-week2: latest batch14-protocol-risk-expansion-week2; batch14-protocol-risk-expansion-week2
 - batch15-shuttle-deep-protocol-risk-study: latest batch15-shuttle-deep-protocol-risk-study; batch15-shuttle-deep-protocol-risk-study
@@ -117,7 +138,24 @@ Results: 145
 - batch80-useful-tool-or-standard-candidate: latest batch80-useful-tool-or-standard-candidate; batch80-useful-tool-or-standard-candidate
 - batch81-adversarial-discovery-kill-week: latest batch81-adversarial-discovery-kill-week; batch81-adversarial-discovery-kill-week
 - batch82-next-frontier-synthesis-and-einstein-score: latest batch82-next-frontier-synthesis-and-einstein-score; batch82-next-frontier-synthesis-and-einstein-score
+- batch83-external-claim-universe-300: latest batch83-external-claim-universe-300; batch83-external-claim-universe-300
+- batch84-claim-family-stratification-and-safety-screen: latest batch84-claim-family-stratification-and-safety-screen; batch84-claim-family-stratification-and-safety-screen
+- batch85-evidence-field-standard-v1-candidate: latest batch85-evidence-field-standard-v1-candidate; batch85-evidence-field-standard-v1-candidate
+- batch86-field-bound-prediction-freeze-60: latest batch86-field-bound-prediction-freeze-60; batch86-field-bound-prediction-freeze-60
+- batch87-execution-and-tooling-plan: latest batch87-execution-and-tooling-plan; batch87-execution-and-tooling-plan
+- batch88-small-execution-calibration-run: latest batch88-small-execution-calibration-run; batch88-small-execution-calibration-run
+- batch89-benchmark-protocol-claim-audit-wave: latest batch89-benchmark-protocol-claim-audit-wave; batch89-benchmark-protocol-claim-audit-wave
 - batch9-uci-dry-bean-deep-toolchain-study: latest batch9-uci-dry-bean-deep-toolchain-study; batch9-uci-dry-bean-deep-toolchain-study
+- batch90-repo-test-reproduction-claim-audit-wave: latest batch90-repo-test-reproduction-claim-audit-wave; batch90-repo-test-reproduction-claim-audit-wave
+- batch91-dataset-quality-claim-audit-wave: latest batch91-dataset-quality-claim-audit-wave; batch91-dataset-quality-claim-audit-wave
+- batch92-timeseries-temporal-claim-audit-wave: latest batch92-timeseries-temporal-claim-audit-wave; batch92-timeseries-temporal-claim-audit-wave
+- batch93-tool-usefulness-claim-audit-wave: latest batch93-tool-usefulness-claim-audit-wave; batch93-tool-usefulness-claim-audit-wave
+- batch94-conceptual-principle-claim-audit-wave: latest batch94-conceptual-principle-claim-audit-wave; batch94-conceptual-principle-claim-audit-wave
+- batch95-cross-family-replay-and-negative-control-wave: latest batch95-cross-family-replay-and-negative-control-wave; batch95-cross-family-replay-and-negative-control-wave
+- batch96-external-claim-audit-wave-synthesis: latest batch96-external-claim-audit-wave-synthesis; batch96-external-claim-audit-wave-synthesis
+- batch97-hard-artifact-selection-for-deep-audit: latest batch97-hard-artifact-selection-for-deep-audit; batch97-hard-artifact-selection-for-deep-audit
+- batch98-deep-repo-test-reproduction-study: latest batch98-deep-repo-test-reproduction-study; batch98-deep-repo-test-reproduction-study
+- batch99-deep-benchmark-protocol-study: latest batch99-deep-benchmark-protocol-study; batch99-deep-benchmark-protocol-study
 - chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an: latest chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl; chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl
 - chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconf: latest chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-; chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-
 - chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-o: latest chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco; chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco

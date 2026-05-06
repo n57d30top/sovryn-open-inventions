@@ -1,9 +1,39 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-06T18:15:17.924Z",
+  "generatedAt": "2026-05-06T18:43:33.698Z",
   "sources": [
     {
       "resultSlug": "batch10-toolchain-kill-week",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch102-hard-external-evidence-atlas",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch103-external-anomaly-mining-v3",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch103-external-anomaly-mining-v3",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch109-human-readable-review-package-large",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch109-human-readable-review-package-large",
       "sourceKind": "external_package_or_tool",
       "name": "pandas",
       "publicOnly": true
@@ -21,7 +51,37 @@
       "publicOnly": true
     },
     {
+      "resultSlug": "batch110-adversarial-reviewer-attack",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch110-adversarial-reviewer-attack",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch119-adversarial-discovery-kill-week-v2",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
       "resultSlug": "batch12-research-production-review-next-frontier-program",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch120-final-external-einstein-track-synthesis",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch120-final-external-einstein-track-synthesis",
       "sourceKind": "external_package_or_tool",
       "name": "pandas",
       "publicOnly": true
@@ -441,6 +501,42 @@
       "publicOnly": true
     },
     {
+      "resultSlug": "batch83-external-claim-universe-300",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch83-external-claim-universe-300",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch84-claim-family-stratification-and-safety-screen",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch84-claim-family-stratification-and-safety-screen",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch86-field-bound-prediction-freeze-60",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch86-field-bound-prediction-freeze-60",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
       "resultSlug": "batch9-uci-dry-bean-deep-toolchain-study",
       "sourceKind": "external_package_or_tool",
       "name": "numpy",
@@ -448,6 +544,48 @@
     },
     {
       "resultSlug": "batch9-uci-dry-bean-deep-toolchain-study",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch90-repo-test-reproduction-claim-audit-wave",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch90-repo-test-reproduction-claim-audit-wave",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch96-external-claim-audit-wave-synthesis",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch96-external-claim-audit-wave-synthesis",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch97-hard-artifact-selection-for-deep-audit",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch98-deep-repo-test-reproduction-study",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch98-deep-repo-test-reproduction-study",
       "sourceKind": "external_package_or_tool",
       "name": "pandas",
       "publicOnly": true
@@ -621,5 +759,5 @@
       "publicOnly": true
     }
   ],
-  "evidenceHash": "0acc2e849b0fe41c2c213d04e6f8fddab626d191cbdd73d6587be3a5328d7a1f"
+  "evidenceHash": "0dbf662db8476121077d0b7b11509f073f0fc7b3c6045d90bad05037edcf5b9d"
 }

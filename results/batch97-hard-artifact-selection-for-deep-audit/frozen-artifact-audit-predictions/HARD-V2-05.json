@@ -1,0 +1,10 @@
+{
+  "artifactId": "HARD-V2-05",
+  "artifactFamily": "scientific_dataset_reliability",
+  "target": "copper",
+  "sourceUrl": "https://www.statsmodels.org/stable/datasets/generated/copper.html",
+  "whyHard": "requires execution, replay, negative control, or field-bound caveat",
+  "prediction": "downgraded_or_partial",
+  "preregistrationHash": "83dbdbfec3e8f8291aec4476d8411d7b733de88debb050894d600cb500727a47",
+  "noEditRule": "Frozen before deep audit execution."
+}

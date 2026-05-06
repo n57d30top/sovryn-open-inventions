@@ -1,0 +1,10 @@
+{
+  "artifactId": "HARD-V2-03",
+  "artifactFamily": "timeseries_temporal_target",
+  "target": "macrodata.realgdp",
+  "sourceUrl": "https://www.statsmodels.org/stable/datasets/generated/macrodata.html",
+  "whyHard": "requires execution, replay, negative control, or field-bound caveat",
+  "prediction": "allowed_with_caveats",
+  "preregistrationHash": "b7b33fd9f6ca289429db7686d830c770466902ea35dc3569d572173d2879c716",
+  "noEditRule": "Frozen before deep audit execution."
+}

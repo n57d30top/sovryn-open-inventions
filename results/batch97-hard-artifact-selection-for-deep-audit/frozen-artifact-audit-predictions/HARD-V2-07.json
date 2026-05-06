@@ -1,0 +1,10 @@
+{
+  "artifactId": "HARD-V2-07",
+  "artifactFamily": "benchmark_dataset",
+  "target": "sunspots",
+  "sourceUrl": "https://www.statsmodels.org/stable/datasets/generated/sunspots.html",
+  "whyHard": "requires execution, replay, negative control, or field-bound caveat",
+  "prediction": "allowed_with_caveats",
+  "preregistrationHash": "ffd529842d34eab500a0354de8902f291334f0e231fb19e0b66a5d609b6ec03b",
+  "noEditRule": "Frozen before deep audit execution."
+}

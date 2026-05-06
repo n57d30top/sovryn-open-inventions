@@ -1,0 +1,10 @@
+{
+  "artifactId": "HARD-V2-01",
+  "artifactFamily": "public_repo_with_tests",
+  "target": "numpy",
+  "sourceUrl": "https://pypi.org/project/numpy/",
+  "whyHard": "requires execution, replay, negative control, or field-bound caveat",
+  "prediction": "downgraded_or_partial",
+  "preregistrationHash": "d366f75acdacec3f48ce7ea46a169e14e88bde8aaedd9b7512bc7442da6a904b",
+  "noEditRule": "Frozen before deep audit execution."
+}

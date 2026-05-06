@@ -1,0 +1,10 @@
+{
+  "artifactId": "HARD-V2-12",
+  "artifactFamily": "benchmark_dataset",
+  "target": "copper",
+  "sourceUrl": "https://www.statsmodels.org/stable/datasets/generated/copper.html",
+  "whyHard": "requires execution, replay, negative control, or field-bound caveat",
+  "prediction": "allowed_with_caveats",
+  "preregistrationHash": "a84ab4fea915fbd1fc7d23c462604367aa8c421af711494f2abc81e3fbadcb6b",
+  "noEditRule": "Frozen before deep audit execution."
+}

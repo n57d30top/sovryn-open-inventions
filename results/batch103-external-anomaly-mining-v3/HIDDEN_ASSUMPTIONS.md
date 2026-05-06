@@ -1,0 +1,27 @@
+# Hidden Assumptions
+
+- Hidden assumption 1: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 2: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 3: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 4: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 5: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 6: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 7: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 8: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 9: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 10: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 11: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 12: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 13: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 14: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 15: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 16: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 17: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 18: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 19: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 20: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 21: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 22: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 23: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 24: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.
+- Hidden assumption 25: Review strength can be inferred from available fields without considering burden, domain specificity, or baseline sufficiency.

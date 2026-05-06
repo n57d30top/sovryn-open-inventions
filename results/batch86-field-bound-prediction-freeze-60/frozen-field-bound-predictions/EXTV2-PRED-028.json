@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-028",
+  "claimId": "EXTV2-C028",
+  "claimSource": "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/batch82-next-frontier-synthesis-and-einstein-score",
+  "claimTextParaphrase": "extended track synthesis candidate: principle claim needs examples non-examples and failed cases.",
+  "claimType": "conceptual_principle",
+  "requiredFields": [
+    "package_install_test.source_url",
+    "package_install_test.artifact_version",
+    "package_install_test.access_method",
+    "package_install_test.claim_text",
+    "package_install_test.required_baseline",
+    "package_install_test.negative_control",
+    "package_install_test.replay_plan",
+    "package_install_test.package_install_test_field_1"
+  ],
+  "expectedPresentFields": [
+    "package_install_test.source_url",
+    "package_install_test.artifact_version",
+    "package_install_test.access_method",
+    "package_install_test.claim_text"
+  ],
+  "expectedMissingFields": [
+    "package_install_test.required_baseline",
+    "package_install_test.negative_control"
+  ],
+  "predictedDecision": "allowed_with_caveats",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "c3f0c52712b817bf6a991819b7888c511e6d91313a723038e15df2275cb0aabb"
+}

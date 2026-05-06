@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-060",
+  "claimId": "EXTV2-C060",
+  "claimSource": "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/batch82-next-frontier-synthesis-and-einstein-score",
+  "claimTextParaphrase": "extended track synthesis candidate: concept transfer claim needs domain mapping.",
+  "claimType": "conceptual_principle",
+  "requiredFields": [
+    "conceptual_principle.source_url",
+    "conceptual_principle.artifact_version",
+    "conceptual_principle.access_method",
+    "conceptual_principle.claim_text",
+    "conceptual_principle.required_baseline",
+    "conceptual_principle.negative_control",
+    "conceptual_principle.replay_plan",
+    "conceptual_principle.conceptual_principle_field_1"
+  ],
+  "expectedPresentFields": [
+    "conceptual_principle.source_url",
+    "conceptual_principle.artifact_version",
+    "conceptual_principle.access_method",
+    "conceptual_principle.claim_text"
+  ],
+  "expectedMissingFields": [
+    "conceptual_principle.required_baseline",
+    "conceptual_principle.negative_control"
+  ],
+  "predictedDecision": "preserved",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "796d72664cbb23fd5ec482765e27d1735eba3b1cacb3beb5dd68a85f98be10ae"
+}

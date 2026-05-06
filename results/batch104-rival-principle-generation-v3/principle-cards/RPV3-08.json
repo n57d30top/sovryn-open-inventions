@@ -1,0 +1,31 @@
+{
+  "principleId": "RPV3-08",
+  "name": "Domain Adapted Evidence Boundary",
+  "definition": "Domain Adapted Evidence Boundary explains when field-bound review succeeds or fails under external evidence.",
+  "mechanism": "Claim decisions depend on which evidence fields are specific, actionable, replayed, and practical, not only on field count.",
+  "variables": [
+    "field_specificity",
+    "execution_depth",
+    "baseline_sufficiency",
+    "replay_status",
+    "review_burden"
+  ],
+  "examples": [
+    "package behavior check with replay",
+    "temporal claim with shuffled-time control"
+  ],
+  "nonExamples": [
+    "metric-only claim with no baseline",
+    "source URL with no execution evidence"
+  ],
+  "predictions": [
+    "specific missing execution fields will downgrade claims",
+    "burdensome rules will overblock some practical claims"
+  ],
+  "falsifiers": [
+    "simple checklist matches all decisions",
+    "missing fields do not change claim safety"
+  ],
+  "scope": "safe computational claims only",
+  "confidence": 0.42
+}

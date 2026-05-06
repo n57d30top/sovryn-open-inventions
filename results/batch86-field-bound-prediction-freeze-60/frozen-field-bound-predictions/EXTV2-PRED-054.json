@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-054",
+  "claimId": "EXTV2-C054",
+  "claimSource": "https://github.com/psf/requests",
+  "claimTextParaphrase": "requests repo candidate: static test inventory alone is insufficient.",
+  "claimType": "repo_test_reproduction",
+  "requiredFields": [
+    "repo_test_reproduction.source_url",
+    "repo_test_reproduction.artifact_version",
+    "repo_test_reproduction.access_method",
+    "repo_test_reproduction.claim_text",
+    "repo_test_reproduction.required_baseline",
+    "repo_test_reproduction.negative_control",
+    "repo_test_reproduction.replay_plan",
+    "repo_test_reproduction.repo_test_reproduction_field_1"
+  ],
+  "expectedPresentFields": [
+    "repo_test_reproduction.source_url",
+    "repo_test_reproduction.artifact_version",
+    "repo_test_reproduction.access_method",
+    "repo_test_reproduction.claim_text"
+  ],
+  "expectedMissingFields": [
+    "repo_test_reproduction.required_baseline",
+    "repo_test_reproduction.negative_control"
+  ],
+  "predictedDecision": "preserved",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "dc1ed8c89ad5d281aa3e69dcab1955e13b3c648edab5b046c87f1b06d20e9986"
+}

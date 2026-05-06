@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-059",
+  "claimId": "EXTV2-C059",
+  "claimSource": "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/batch52-conceptual-discovery-paper",
+  "claimTextParaphrase": "conceptual discovery paper candidate: concept transfer claim needs domain mapping.",
+  "claimType": "conceptual_principle",
+  "requiredFields": [
+    "conceptual_principle.source_url",
+    "conceptual_principle.artifact_version",
+    "conceptual_principle.access_method",
+    "conceptual_principle.claim_text",
+    "conceptual_principle.required_baseline",
+    "conceptual_principle.negative_control",
+    "conceptual_principle.replay_plan",
+    "conceptual_principle.conceptual_principle_field_1"
+  ],
+  "expectedPresentFields": [
+    "conceptual_principle.source_url",
+    "conceptual_principle.artifact_version",
+    "conceptual_principle.access_method",
+    "conceptual_principle.claim_text"
+  ],
+  "expectedMissingFields": [
+    "conceptual_principle.required_baseline",
+    "conceptual_principle.negative_control"
+  ],
+  "predictedDecision": "preserved",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "1436100457e46287fa67d70c15d52944c08668124de313b97d05410ca35cf35e"
+}

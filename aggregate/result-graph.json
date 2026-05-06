@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T18:15:17.924Z",
+  "generatedAt": "2026-05-06T18:43:33.698Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -51,16 +51,142 @@
       "domain": "autonomous-research-toolchain-falsification"
     },
     {
+      "id": "result:batch100-deep-timeseries-temporal-study",
+      "kind": "result",
+      "label": "Batch 100 Deep Time-Series Temporal Study",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch101-independent-replay-and-fresh-workspace-study",
+      "kind": "result",
+      "label": "Batch 101 Independent Replay and Fresh Workspace Study",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch102-hard-external-evidence-atlas",
+      "kind": "result",
+      "label": "Batch 102 Hard External Evidence Atlas",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch103-external-anomaly-mining-v3",
+      "kind": "result",
+      "label": "Batch 103 External Anomaly Mining v3",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch104-rival-principle-generation-v3",
+      "kind": "result",
+      "label": "Batch 104 Rival Principle Generation v3",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch105-discriminating-experiment-freeze-v3",
+      "kind": "result",
+      "label": "Batch 105 Discriminating Experiment Freeze v3",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch106-surprise-prediction-execution-v3",
+      "kind": "result",
+      "label": "Batch 106 Surprise Prediction Execution v3",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch107-cross-domain-principle-transfer-v3",
+      "kind": "result",
+      "label": "Batch 107 Cross-Domain Principle Transfer v3",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch108-principle-confidence-update-v3",
+      "kind": "result",
+      "label": "Batch 108 Principle Confidence Update v3",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch109-human-readable-review-package-large",
+      "kind": "result",
+      "label": "Batch 109 Human-Readable Review Package Large",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
       "id": "result:batch11-multi-target-dataset-metric-validation-program",
       "kind": "result",
       "label": "Batch 11 Multi-Target Dataset and Metric Validation Program",
       "domain": "tabular-and-image-derived-classification-benchmark-validation"
     },
     {
+      "id": "result:batch110-adversarial-reviewer-attack",
+      "kind": "result",
+      "label": "Batch 110 Adversarial Reviewer Attack",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch111-overblocking-underblocking-calibration",
+      "kind": "result",
+      "label": "Batch 111 Overblocking Underblocking Calibration",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch112-reviewer-burden-practicality-study",
+      "kind": "result",
+      "label": "Batch 112 Reviewer Burden and Practicality Study",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch113-field-bound-standard-v1-or-v0-7-candidate",
+      "kind": "result",
+      "label": "Batch 113 Field-Bound Standard v1 or v0.7 Candidate",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch114-standard-kill-week-rule-revision",
+      "kind": "result",
+      "label": "Batch 114 Standard Kill Week and Rule Revision",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch115-intervention-candidate-generation-v2",
+      "kind": "result",
+      "label": "Batch 115 Intervention Candidate Generation v2",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch116-intervention-execution-wave-1",
+      "kind": "result",
+      "label": "Batch 116 Intervention Execution Wave 1",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch117-intervention-execution-wave-2",
+      "kind": "result",
+      "label": "Batch 117 Intervention Execution Wave 2",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch118-useful-tool-or-standard-candidate-v2",
+      "kind": "result",
+      "label": "Batch 118 Useful Tool or Standard Candidate v2",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch119-adversarial-discovery-kill-week-v2",
+      "kind": "result",
+      "label": "Batch 119 Adversarial Discovery Kill Week v2",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
       "id": "result:batch12-research-production-review-next-frontier-program",
       "kind": "result",
       "label": "Batch 12 Research Production Review and Next Frontier Program Selection",
       "domain": "autonomous-research-production-strategy"
+    },
+    {
+      "id": "result:batch120-final-external-einstein-track-synthesis",
+      "kind": "result",
+      "label": "Batch 120 Final External Einstein Track Synthesis",
+      "domain": "extended external field evidence and claim safety v2"
     },
     {
       "id": "result:batch13-protocol-first-benchmark-validation-week1",
@@ -633,10 +759,112 @@
       "domain": "external field-bound claim safety"
     },
     {
+      "id": "result:batch83-external-claim-universe-300",
+      "kind": "result",
+      "label": "Batch 83 External Claim Universe 300",
+      "domain": "external field-bound claim safety v2"
+    },
+    {
+      "id": "result:batch84-claim-family-stratification-and-safety-screen",
+      "kind": "result",
+      "label": "Batch 84 Claim Family Stratification and Safety Screen",
+      "domain": "external field-bound claim safety v2"
+    },
+    {
+      "id": "result:batch85-evidence-field-standard-v1-candidate",
+      "kind": "result",
+      "label": "Batch 85 Evidence Field Standard v1 Candidate",
+      "domain": "external field-bound claim safety v2"
+    },
+    {
+      "id": "result:batch86-field-bound-prediction-freeze-60",
+      "kind": "result",
+      "label": "Batch 86 Field-Bound Prediction Freeze 60",
+      "domain": "external field-bound claim safety v2"
+    },
+    {
+      "id": "result:batch87-execution-and-tooling-plan",
+      "kind": "result",
+      "label": "Batch 87 Execution and Tooling Plan",
+      "domain": "external field-bound claim safety v2"
+    },
+    {
+      "id": "result:batch88-small-execution-calibration-run",
+      "kind": "result",
+      "label": "Batch 88 Small Execution Calibration Run",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch89-benchmark-protocol-claim-audit-wave",
+      "kind": "result",
+      "label": "Batch 89 Benchmark Protocol Claim Audit Wave",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
       "id": "result:batch9-uci-dry-bean-deep-toolchain-study",
       "kind": "result",
       "label": "Batch 9 UCI Dry Bean Deep Toolchain Study",
       "domain": "dataset-and-metric-validation"
+    },
+    {
+      "id": "result:batch90-repo-test-reproduction-claim-audit-wave",
+      "kind": "result",
+      "label": "Batch 90 Repo/Test Reproduction Claim Audit Wave",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch91-dataset-quality-claim-audit-wave",
+      "kind": "result",
+      "label": "Batch 91 Dataset Quality Claim Audit Wave",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch92-timeseries-temporal-claim-audit-wave",
+      "kind": "result",
+      "label": "Batch 92 Time-Series Temporal Claim Audit Wave",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch93-tool-usefulness-claim-audit-wave",
+      "kind": "result",
+      "label": "Batch 93 Tool Usefulness Claim Audit Wave",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch94-conceptual-principle-claim-audit-wave",
+      "kind": "result",
+      "label": "Batch 94 Conceptual Principle Claim Audit Wave",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch95-cross-family-replay-and-negative-control-wave",
+      "kind": "result",
+      "label": "Batch 95 Cross-Family Replay and Negative Control Wave",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch96-external-claim-audit-wave-synthesis",
+      "kind": "result",
+      "label": "Batch 96 External Claim Audit Wave Synthesis",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch97-hard-artifact-selection-for-deep-audit",
+      "kind": "result",
+      "label": "Batch 97 Hard Artifact Selection for Deep Audit",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch98-deep-repo-test-reproduction-study",
+      "kind": "result",
+      "label": "Batch 98 Deep Repo/Test Reproduction Study",
+      "domain": "extended external field evidence and claim safety v2"
+    },
+    {
+      "id": "result:batch99-deep-benchmark-protocol-study",
+      "kind": "result",
+      "label": "Batch 99 Deep Benchmark Protocol Study",
+      "domain": "extended external field evidence and claim safety v2"
     },
     {
       "id": "result:chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -913,6 +1141,11 @@
       "label": "autonomous-research-toolchain-falsification"
     },
     {
+      "id": "domain:extended external field evidence and claim safety v2",
+      "kind": "domain",
+      "label": "extended external field evidence and claim safety v2"
+    },
+    {
       "id": "domain:tabular-and-image-derived-classification-benchmark-validation",
       "kind": "domain",
       "label": "tabular-and-image-derived-classification-benchmark-validation"
@@ -1056,6 +1289,11 @@
       "id": "domain:dataset-schema-provenance-auditing",
       "kind": "domain",
       "label": "dataset-schema-provenance-auditing"
+    },
+    {
+      "id": "domain:external field-bound claim safety v2",
+      "kind": "domain",
+      "label": "external field-bound claim safety v2"
     },
     {
       "id": "domain:dataset-and-metric-validation",
@@ -1215,6 +1453,81 @@
       "relation": "uses_public_tool_evidence"
     },
     {
+      "source": "result:batch100-deep-timeseries-temporal-study",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch101-independent-replay-and-fresh-workspace-study",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch102-hard-external-evidence-atlas",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch102-hard-external-evidence-atlas",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch103-external-anomaly-mining-v3",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch103-external-anomaly-mining-v3",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch103-external-anomaly-mining-v3",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch104-rival-principle-generation-v3",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch105-discriminating-experiment-freeze-v3",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch106-surprise-prediction-execution-v3",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch107-cross-domain-principle-transfer-v3",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch108-principle-confidence-update-v3",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch109-human-readable-review-package-large",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch109-human-readable-review-package-large",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch109-human-readable-review-package-large",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
       "source": "result:batch11-multi-target-dataset-metric-validation-program",
       "target": "domain:tabular-and-image-derived-classification-benchmark-validation",
       "relation": "belongs_to_domain"
@@ -1230,12 +1543,92 @@
       "relation": "uses_public_tool_evidence"
     },
     {
+      "source": "result:batch110-adversarial-reviewer-attack",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch110-adversarial-reviewer-attack",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch110-adversarial-reviewer-attack",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch111-overblocking-underblocking-calibration",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch112-reviewer-burden-practicality-study",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch113-field-bound-standard-v1-or-v0-7-candidate",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch114-standard-kill-week-rule-revision",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch115-intervention-candidate-generation-v2",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch116-intervention-execution-wave-1",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch117-intervention-execution-wave-2",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch118-useful-tool-or-standard-candidate-v2",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch119-adversarial-discovery-kill-week-v2",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch119-adversarial-discovery-kill-week-v2",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
       "source": "result:batch12-research-production-review-next-frontier-program",
       "target": "domain:autonomous-research-production-strategy",
       "relation": "belongs_to_domain"
     },
     {
       "source": "result:batch12-research-production-review-next-frontier-program",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch120-final-external-einstein-track-synthesis",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch120-final-external-einstein-track-synthesis",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch120-final-external-einstein-track-synthesis",
       "target": "tool:pandas",
       "relation": "uses_public_tool_evidence"
     },
@@ -2060,6 +2453,71 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:batch83-external-claim-universe-300",
+      "target": "domain:external field-bound claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch83-external-claim-universe-300",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch83-external-claim-universe-300",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch84-claim-family-stratification-and-safety-screen",
+      "target": "domain:external field-bound claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch84-claim-family-stratification-and-safety-screen",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch84-claim-family-stratification-and-safety-screen",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch85-evidence-field-standard-v1-candidate",
+      "target": "domain:external field-bound claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch86-field-bound-prediction-freeze-60",
+      "target": "domain:external field-bound claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch86-field-bound-prediction-freeze-60",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch86-field-bound-prediction-freeze-60",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch87-execution-and-tooling-plan",
+      "target": "domain:external field-bound claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch88-small-execution-calibration-run",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch89-benchmark-protocol-claim-audit-wave",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:batch9-uci-dry-bean-deep-toolchain-study",
       "target": "domain:dataset-and-metric-validation",
       "relation": "belongs_to_domain"
@@ -2073,6 +2531,91 @@
       "source": "result:batch9-uci-dry-bean-deep-toolchain-study",
       "target": "tool:pandas",
       "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch90-repo-test-reproduction-claim-audit-wave",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch90-repo-test-reproduction-claim-audit-wave",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch90-repo-test-reproduction-claim-audit-wave",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch91-dataset-quality-claim-audit-wave",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch92-timeseries-temporal-claim-audit-wave",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch93-tool-usefulness-claim-audit-wave",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch94-conceptual-principle-claim-audit-wave",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch95-cross-family-replay-and-negative-control-wave",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch96-external-claim-audit-wave-synthesis",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch96-external-claim-audit-wave-synthesis",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch96-external-claim-audit-wave-synthesis",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch97-hard-artifact-selection-for-deep-audit",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch97-hard-artifact-selection-for-deep-audit",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch98-deep-repo-test-reproduction-study",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch98-deep-repo-test-reproduction-study",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch98-deep-repo-test-reproduction-study",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch99-deep-benchmark-protocol-study",
+      "target": "domain:extended external field evidence and claim safety v2",
+      "relation": "belongs_to_domain"
     },
     {
       "source": "result:chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -2410,5 +2953,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "08928bd4d48e3b59931d33423bdce895b176fa097f105729cb1c4bc34737e24d"
+  "evidenceHash": "b24376ca1f83d3d0b4b74fa19aa80489628d0c702d9733ccb59bd7e41bbd6ec8"
 }

@@ -1,0 +1,33 @@
+{
+  "predictionId": "EXTV2-PRED-009",
+  "claimId": "EXTV2-C009",
+  "claimSource": "https://www.statsmodels.org/stable/datasets/generated/nile.html",
+  "claimTextParaphrase": "statsmodels nile candidate: temporal claim needs temporal split not random only.",
+  "claimType": "timeseries_temporal",
+  "requiredFields": [
+    "timeseries_temporal.source_url",
+    "timeseries_temporal.artifact_version",
+    "timeseries_temporal.access_method",
+    "timeseries_temporal.claim_text",
+    "timeseries_temporal.required_baseline",
+    "timeseries_temporal.negative_control",
+    "timeseries_temporal.replay_plan",
+    "timeseries_temporal.timeseries_temporal_field_1"
+  ],
+  "expectedPresentFields": [
+    "timeseries_temporal.source_url",
+    "timeseries_temporal.artifact_version",
+    "timeseries_temporal.access_method",
+    "timeseries_temporal.claim_text"
+  ],
+  "expectedMissingFields": [
+    "timeseries_temporal.required_baseline",
+    "timeseries_temporal.negative_control"
+  ],
+  "predictedDecision": "downgraded",
+  "falsifier": "Observed required fields, baseline, negative control, and replay evidence support stronger or weaker decision than predicted.",
+  "baselineOrNegativeControl": "Simple baseline, manual checklist, shuffled labels/time, or package behavior check as applicable.",
+  "replayPlan": "Fresh-seed, fresh-split, fresh-workspace, package re-run, or documented replay failure.",
+  "noEditRule": "Frozen before execution; no post-hoc edits allowed.",
+  "preregistrationHash": "d9216a333a8bb38b131855ca46eb662d989e01d324bad43e6db0d0057d2fa6e4"
+}
