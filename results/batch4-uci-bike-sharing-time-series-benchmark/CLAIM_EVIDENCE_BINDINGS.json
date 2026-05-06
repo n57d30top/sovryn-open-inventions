@@ -1,0 +1,35 @@
+{
+  "resultSlug": "batch4-uci-bike-sharing-time-series-benchmark",
+  "target": "UCI Bike Sharing day.csv",
+  "claims": [
+    {
+      "claimId": "batch4-uci-bike-sharing-time-series-benchmark-execution",
+      "claim": "The result includes actual execution evidence.",
+      "evidence": [
+        "SUMMARY.json",
+        "EXECUTION_DETAILS.md",
+        "METRICS.json"
+      ],
+      "status": "supported"
+    },
+    {
+      "claimId": "batch4-uci-bike-sharing-time-series-benchmark-metrics",
+      "claim": "Concrete metrics were computed for the external target.",
+      "evidence": [
+        "METRIC_BREAKDOWN.md",
+        "RESULTS.md"
+      ],
+      "status": "supported"
+    },
+    {
+      "claimId": "batch4-uci-bike-sharing-time-series-benchmark-bounded",
+      "claim": "The result is evidence-bound and limitation-bound.",
+      "evidence": [
+        "LIMITATIONS.md",
+        "FAILURES_AND_LIMITATIONS.md"
+      ],
+      "status": "supported"
+    }
+  ],
+  "evidenceHash": "03d1fa94895a87ebb5fa394e24ed935c6f606151bd2f6535a84d52b01a33f088"
+}

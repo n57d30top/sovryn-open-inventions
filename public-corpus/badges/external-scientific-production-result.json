@@ -2,19 +2,28 @@
   "kind": "public_corpus_result_badges",
   "slug": "external-scientific-production-result",
   "badges": {
-    "quality": "unknown",
-    "status": "unknown",
+    "quality": "good",
+    "status": "replication_supported_external_candidate",
     "antiTemplate": "unknown",
-    "replay": "replay-partial",
+    "replay": "replay-100",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
     "worker": "container-netoff",
-    "falsification": "not_evaluated",
+    "falsification": "baseline_dominance_and_replication_supported",
     "lifecycle": "autopublished",
     "version": "external-scientific-production-result",
     "showcase": "not-showcase"
   },
   "lifecycleStatus": "autopublished",
   "showcaseRank": null,
-  "evidenceHash": "092cbf25abcd86a4955ed0f3424be89bf7f2420cec39e630afafce3d8f5fd0f6"
+  "evidenceHash": "f0db61e0f67a7644ae1c41ea9d67d850dead2544f091d4f6857a4518d4771e4f",
+  "qualityLabel": "good",
+  "candidateStatus": "replication_supported_external_candidate",
+  "finalResult": "replication_supported_external_candidate",
+  "releaseReadinessScore": 93,
+  "evidenceStrengthScore": 94,
+  "reproducibilityScore": 91,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "falsificationStatus": "baseline_dominance_and_replication_supported"
 }

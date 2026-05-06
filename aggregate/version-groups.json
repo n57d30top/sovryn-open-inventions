@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T07:04:58.568Z",
+  "updatedAt": "2026-05-06T07:30:46.465Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-strategy-trial",
@@ -112,6 +112,41 @@
       "latestSlug": "batch3-uci-forest-fires-dataset-quality-execution",
       "resultSlugs": [
         "batch3-uci-forest-fires-dataset-quality-execution"
+      ]
+    },
+    {
+      "versionGroup": "batch4-markupsafe-repo-install-test-reproduction",
+      "latestSlug": "batch4-markupsafe-repo-install-test-reproduction",
+      "resultSlugs": [
+        "batch4-markupsafe-repo-install-test-reproduction"
+      ]
+    },
+    {
+      "versionGroup": "batch4-uci-abalone-baseline-dominance-negative",
+      "latestSlug": "batch4-uci-abalone-baseline-dominance-negative",
+      "resultSlugs": [
+        "batch4-uci-abalone-baseline-dominance-negative"
+      ]
+    },
+    {
+      "versionGroup": "batch4-uci-bike-sharing-time-series-benchmark",
+      "latestSlug": "batch4-uci-bike-sharing-time-series-benchmark",
+      "resultSlugs": [
+        "batch4-uci-bike-sharing-time-series-benchmark"
+      ]
+    },
+    {
+      "versionGroup": "batch4-uci-glass-csvkit-tool-dataset-audit",
+      "latestSlug": "batch4-uci-glass-csvkit-tool-dataset-audit",
+      "resultSlugs": [
+        "batch4-uci-glass-csvkit-tool-dataset-audit"
+      ]
+    },
+    {
+      "versionGroup": "batch4-uci-seeds-dataset-quality-execution",
+      "latestSlug": "batch4-uci-seeds-dataset-quality-execution",
+      "resultSlugs": [
+        "batch4-uci-seeds-dataset-quality-execution"
       ]
     },
     {
@@ -297,5 +332,5 @@
       ]
     }
   ],
-  "evidenceHash": "d507913b75836e03739b7936e96dcdbe28479ee3fe0aa103563b121e1b286e7b"
+  "evidenceHash": "8ef1151af695086c650e8ffef8bea1daeae6eb137a0702e2b6b0ecb82b2575e6"
 }

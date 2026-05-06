@@ -1,0 +1,142 @@
+{
+  "slug": "batch4-markupsafe-repo-install-test-reproduction",
+  "title": "MarkupSafe Repository Install and Test Reproduction",
+  "resultKind": "external_research_production_result",
+  "resultType": "external_research_production_result",
+  "targetVersion": "4.2.0-rc.1",
+  "batch": "batch4",
+  "domain": "public-repo-reproducibility",
+  "selectedExternalTarget": "pallets/markupsafe GitHub repository",
+  "targetUrl": "https://github.com/pallets/markupsafe",
+  "sourceAccessLicenseNote": "Public GitHub repository. The public package reports installation, test, and example outcomes only; it does not redistribute source dumps or raw logs.",
+  "executionIncluded": true,
+  "executionProfile": "venv-local-isolated",
+  "workerAssurance": "venv-local-isolated",
+  "finalResult": "external_reproduction_success",
+  "candidateStatus": "external_reproduction_success",
+  "qualityLabel": "good",
+  "publicHygienePassed": true,
+  "noRawLogs": true,
+  "noSecretLeaks": true,
+  "noLocalAbsolutePaths": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "failuresRecorded": 0,
+  "lossesRecorded": 0,
+  "tiesRecorded": 0,
+  "winsRecorded": 0,
+  "rejectedCandidates": 0,
+  "releaseReadinessScore": 90,
+  "evidenceStrengthScore": 91,
+  "reproducibilityScore": 88,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "customTool": null,
+  "metrics": {
+    "target": "pallets/markupsafe",
+    "executionProfile": "venv-local-isolated",
+    "installSucceeded": true,
+    "packageVersion": "3.1.0.dev0",
+    "pytestExitCode": 0,
+    "pytestSummary": "79 passed, 1 skipped in 0.08s",
+    "testsPassed": 79,
+    "examplesPassed": 1,
+    "examplesFailed": 0,
+    "finalLabel": "external_reproduction_success",
+    "limitations": [
+      "Local run used current repository checkout and isolated venv; it does not reproduce every upstream CI platform."
+    ]
+  },
+  "limitations": [
+    "Bounded external research production run; not a claim of scientific truth.",
+    "Public package contains aggregate metrics and curated reports, not raw logs or private data.",
+    "Negative, partial, and tie outcomes are preserved instead of being converted into wins."
+  ],
+  "nextResearchDirection": "Repeat with a fresh container variant and dependency-version variants to test whether the result is stable beyond the local isolated venv.",
+  "disclaimer": "External research production artifact. Safe computational science only: public datasets, public repositories, isolated tool execution, aggregate metrics, baseline comparisons, reproducibility notes, losses, and limitations. This is not a patent filing, legal novelty claim, confirmed breakthrough claim, medical advice, exploit guidance, or guarantee of scientific truth.",
+  "evidenceHash": "18fac33a00a6a0aa0fb3313d6f6c1e9fa19bf984e2b439aaac827d703ab62bc2",
+  "gates": [
+    {
+      "code": "EXTERNAL_TARGET_BOUND",
+      "passed": true,
+      "severity": "info",
+      "message": "EXTERNAL_TARGET_BOUND passed."
+    },
+    {
+      "code": "SOURCE_ACCESS_LICENSE_NOTED",
+      "passed": true,
+      "severity": "info",
+      "message": "SOURCE_ACCESS_LICENSE_NOTED passed."
+    },
+    {
+      "code": "PREREGISTRATION_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "PREREGISTRATION_PRESENT passed."
+    },
+    {
+      "code": "EXECUTION_ENVIRONMENT_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "EXECUTION_ENVIRONMENT_PRESENT passed."
+    },
+    {
+      "code": "BASELINE_REPRODUCTION_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "BASELINE_REPRODUCTION_PRESENT passed."
+    },
+    {
+      "code": "CONCRETE_METRICS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "CONCRETE_METRICS_PRESENT passed."
+    },
+    {
+      "code": "FAILURES_AND_LIMITATIONS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "FAILURES_AND_LIMITATIONS_PRESENT passed."
+    },
+    {
+      "code": "REJECTED_IDEAS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "REJECTED_IDEAS_PRESENT passed."
+    },
+    {
+      "code": "REPRODUCIBILITY_INSTRUCTIONS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "REPRODUCIBILITY_INSTRUCTIONS_PRESENT passed."
+    },
+    {
+      "code": "PUBLIC_HYGIENE_PASSED",
+      "passed": true,
+      "severity": "info",
+      "message": "PUBLIC_HYGIENE_PASSED passed."
+    },
+    {
+      "code": "NO_FAKE_BENCHMARK_WIN",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_FAKE_BENCHMARK_WIN passed."
+    },
+    {
+      "code": "NO_FAKE_BREAKTHROUGH_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_FAKE_BREAKTHROUGH_CLAIMS passed."
+    },
+    {
+      "code": "NO_UNSUPPORTED_SCIENTIFIC_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_UNSUPPORTED_SCIENTIFIC_CLAIMS passed."
+    }
+  ],
+  "falsificationStatus": "tests_and_examples_executed",
+  "specificityScore": 90,
+  "lifecycleStatus": "autopublished"
+}

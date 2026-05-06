@@ -1,0 +1,101 @@
+{
+  "target": "UCI Glass Identification",
+  "executionProfile": "venv-tool-and-container-netoff-audit",
+  "rowCount": 214,
+  "columnCount": 11,
+  "missing": {
+    "id": 0,
+    "refractive_index": 0,
+    "sodium": 0,
+    "magnesium": 0,
+    "aluminum": 0,
+    "silicon": 0,
+    "potassium": 0,
+    "calcium": 0,
+    "barium": 0,
+    "iron": 0,
+    "class": 0
+  },
+  "duplicateRows": 1,
+  "classCounts": {
+    "1": 70,
+    "2": 76,
+    "3": 17,
+    "5": 13,
+    "6": 9,
+    "7": 29
+  },
+  "numericSummaries": {
+    "refractive_index": {
+      "min": 1.5111,
+      "max": 1.5339,
+      "mean": 1.5184,
+      "iqr": 0.0026,
+      "iqrOutliers": 17
+    },
+    "sodium": {
+      "min": 10.73,
+      "max": 17.38,
+      "mean": 13.4079,
+      "iqr": 0.93,
+      "iqrOutliers": 7
+    },
+    "magnesium": {
+      "min": 0,
+      "max": 4.49,
+      "mean": 2.6845,
+      "iqr": 1.51,
+      "iqrOutliers": 0
+    },
+    "aluminum": {
+      "min": 0.29,
+      "max": 3.5,
+      "mean": 1.4449,
+      "iqr": 0.44,
+      "iqrOutliers": 18
+    },
+    "silicon": {
+      "min": 69.81,
+      "max": 75.41,
+      "mean": 72.6509,
+      "iqr": 0.81,
+      "iqrOutliers": 12
+    },
+    "potassium": {
+      "min": 0,
+      "max": 6.21,
+      "mean": 0.4971,
+      "iqr": 0.49,
+      "iqrOutliers": 7
+    },
+    "calcium": {
+      "min": 5.43,
+      "max": 16.19,
+      "mean": 8.957,
+      "iqr": 0.94,
+      "iqrOutliers": 26
+    },
+    "barium": {
+      "min": 0,
+      "max": 3.15,
+      "mean": 0.175,
+      "iqr": 0,
+      "iqrOutliers": 38
+    },
+    "iron": {
+      "min": 0,
+      "max": 0.51,
+      "mean": 0.057,
+      "iqr": 0.1,
+      "iqrOutliers": 12
+    }
+  },
+  "toolName": "csvkit",
+  "toolVersion": "2.2.0",
+  "toolInstallSucceeded": true,
+  "toolCountOutput": "214",
+  "toolColumnNameCount": 11,
+  "toolExamplesPassed": 2,
+  "toolExamplesFailed": 0,
+  "resultLabel": "dataset_quality_audit_supported"
+}

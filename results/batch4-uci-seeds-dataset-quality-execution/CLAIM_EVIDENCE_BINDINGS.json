@@ -1,0 +1,35 @@
+{
+  "resultSlug": "batch4-uci-seeds-dataset-quality-execution",
+  "target": "UCI Seeds dataset",
+  "claims": [
+    {
+      "claimId": "batch4-uci-seeds-dataset-quality-execution-execution",
+      "claim": "The result includes actual execution evidence.",
+      "evidence": [
+        "SUMMARY.json",
+        "EXECUTION_DETAILS.md",
+        "METRICS.json"
+      ],
+      "status": "supported"
+    },
+    {
+      "claimId": "batch4-uci-seeds-dataset-quality-execution-metrics",
+      "claim": "Concrete metrics were computed for the external target.",
+      "evidence": [
+        "METRIC_BREAKDOWN.md",
+        "RESULTS.md"
+      ],
+      "status": "supported"
+    },
+    {
+      "claimId": "batch4-uci-seeds-dataset-quality-execution-bounded",
+      "claim": "The result is evidence-bound and limitation-bound.",
+      "evidence": [
+        "LIMITATIONS.md",
+        "FAILURES_AND_LIMITATIONS.md"
+      ],
+      "status": "supported"
+    }
+  ],
+  "evidenceHash": "3c70ab1acf19869a05f4a164e4c8de03bf148bba1a6d6a1cb0880e017b1fbd78"
+}

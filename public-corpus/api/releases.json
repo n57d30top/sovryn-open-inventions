@@ -146,6 +146,51 @@
       "pushed": true
     },
     {
+      "slug": "batch4-markupsafe-repo-install-test-reproduction",
+      "path": "results/batch4-markupsafe-repo-install-test-reproduction",
+      "status": "external_reproduction_success",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch4-markupsafe-repo-install-test-reproduction",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch4-uci-abalone-baseline-dominance-negative",
+      "path": "results/batch4-uci-abalone-baseline-dominance-negative",
+      "status": "benchmark_challenge_negative_result",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch4-uci-abalone-baseline-dominance-negative",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch4-uci-bike-sharing-time-series-benchmark",
+      "path": "results/batch4-uci-bike-sharing-time-series-benchmark",
+      "status": "external_reproduction_partial",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch4-uci-bike-sharing-time-series-benchmark",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch4-uci-glass-csvkit-tool-dataset-audit",
+      "path": "results/batch4-uci-glass-csvkit-tool-dataset-audit",
+      "status": "dataset_quality_audit_supported",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch4-uci-glass-csvkit-tool-dataset-audit",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
+      "slug": "batch4-uci-seeds-dataset-quality-execution",
+      "path": "results/batch4-uci-seeds-dataset-quality-execution",
+      "status": "dataset_quality_audit_supported",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch4-uci-seeds-dataset-quality-execution",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "path": "results/chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "status": "autopublished",
@@ -346,7 +391,7 @@
     {
       "slug": "external-scientific-production-result",
       "path": "results/external-scientific-production-result",
-      "status": "unknown",
+      "status": "replication_supported_external_candidate",
       "lifecycleStatus": "autopublished",
       "versionGroup": "external-scientific-production-result",
       "supersededBy": null,
@@ -488,5 +533,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "c7135e2f3aea9810a5f05dae4efe1e35534997401a31946e6eac9de5b8029da4"
+  "evidenceHash": "0f9c5e97fa7b69c3b55452c122a559d34052e5e6b3bb48797a6020d8b366acd8"
 }

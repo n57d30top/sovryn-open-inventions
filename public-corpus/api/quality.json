@@ -2,9 +2,9 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 42,
-    "reviewable": 5,
-    "unknown": 2
+    "good": 47,
+    "reviewable": 6,
+    "unknown": 1
   },
   "results": [
     {
@@ -86,6 +86,53 @@
       "slug": "batch3-uci-forest-fires-dataset-quality-execution",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
+    },
+    {
+      "slug": "batch4-markupsafe-repo-install-test-reproduction",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90,
+      "workerAssurance": "venv-local-isolated",
+      "executionIncluded": true,
+      "lifecycleStatus": "autopublished",
+      "revisionReason": null,
+      "falsificationStatus": "tests_and_examples_executed"
+    },
+    {
+      "slug": "batch4-uci-abalone-baseline-dominance-negative",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 92,
+      "executionIncluded": true,
+      "lifecycleStatus": "autopublished",
+      "revisionReason": null,
+      "falsificationStatus": "candidate_rejected_by_falsification"
+    },
+    {
+      "slug": "batch4-uci-bike-sharing-time-series-benchmark",
+      "qualityLabel": "reviewable",
+      "releaseReadinessScore": 86,
+      "executionIncluded": true,
+      "lifecycleStatus": "autopublished",
+      "revisionReason": null,
+      "falsificationStatus": "tie_no_benchmark_win"
+    },
+    {
+      "slug": "batch4-uci-glass-csvkit-tool-dataset-audit",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 89,
+      "workerAssurance": "venv-tool-plus-container-netoff",
+      "executionIncluded": true,
+      "lifecycleStatus": "autopublished",
+      "revisionReason": null,
+      "falsificationStatus": "tool_execution_and_dataset_audit_passed"
+    },
+    {
+      "slug": "batch4-uci-seeds-dataset-quality-execution",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88,
+      "executionIncluded": true,
+      "lifecycleStatus": "autopublished",
+      "revisionReason": null,
+      "falsificationStatus": "audited_with_limitations"
     },
     {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -199,8 +246,15 @@
     },
     {
       "slug": "external-scientific-production-result",
-      "qualityLabel": "unknown",
-      "releaseReadinessScore": 0
+      "qualityLabel": "good",
+      "releaseReadinessScore": 93,
+      "candidateStatus": "replication_supported_external_candidate",
+      "finalResult": "replication_supported_external_candidate",
+      "evidenceStrengthScore": 94,
+      "reproducibilityScore": 91,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "falsificationStatus": "baseline_dominance_and_replication_supported"
     },
     {
       "slug": "field-grade-autonomous-science-trial",
@@ -278,5 +332,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "b0e99ffaf5ac56a7608493699550b42ffd6ff5850b513e9fdfdfa88da1512570"
+  "evidenceHash": "7438dbc96e0805d10fb9e60a12669885da412c4a6a03257edf423e2f43f5f27c"
 }

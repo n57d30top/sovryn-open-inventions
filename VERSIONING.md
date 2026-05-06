@@ -21,6 +21,11 @@ can supersede earlier entries while preserving audit history.
 - batch3-squad-v2-source-evidence-extraction-audit: latest batch3-squad-v2-source-evidence-extraction-audit; versions batch3-squad-v2-source-evidence-extraction-audit
 - batch3-uci-banknote-benchmark-negative-challenge: latest batch3-uci-banknote-benchmark-negative-challenge; versions batch3-uci-banknote-benchmark-negative-challenge
 - batch3-uci-forest-fires-dataset-quality-execution: latest batch3-uci-forest-fires-dataset-quality-execution; versions batch3-uci-forest-fires-dataset-quality-execution
+- batch4-markupsafe-repo-install-test-reproduction: latest batch4-markupsafe-repo-install-test-reproduction; versions batch4-markupsafe-repo-install-test-reproduction
+- batch4-uci-abalone-baseline-dominance-negative: latest batch4-uci-abalone-baseline-dominance-negative; versions batch4-uci-abalone-baseline-dominance-negative
+- batch4-uci-bike-sharing-time-series-benchmark: latest batch4-uci-bike-sharing-time-series-benchmark; versions batch4-uci-bike-sharing-time-series-benchmark
+- batch4-uci-glass-csvkit-tool-dataset-audit: latest batch4-uci-glass-csvkit-tool-dataset-audit; versions batch4-uci-glass-csvkit-tool-dataset-audit
+- batch4-uci-seeds-dataset-quality-execution: latest batch4-uci-seeds-dataset-quality-execution; versions batch4-uci-seeds-dataset-quality-execution
 - chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-an: latest chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl; versions chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl
 - chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconf: latest chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-; versions chemistry-data-quality-does-explicit-low-confidence-identifier-equivalence-reduce-overconfident-
 - chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-o: latest chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco; versions chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco

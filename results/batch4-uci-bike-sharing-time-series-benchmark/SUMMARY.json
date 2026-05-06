@@ -1,0 +1,192 @@
+{
+  "slug": "batch4-uci-bike-sharing-time-series-benchmark",
+  "title": "UCI Bike Sharing Time-Series Holdout Benchmark",
+  "resultKind": "external_research_production_result",
+  "resultType": "external_research_production_result",
+  "targetVersion": "4.2.0-rc.1",
+  "batch": "batch4",
+  "domain": "time-series-tabular-benchmark",
+  "selectedExternalTarget": "UCI Bike Sharing day.csv",
+  "targetUrl": "https://archive.ics.uci.edu/ml/machine-learning-databases/00275/Bike-Sharing-Dataset.zip",
+  "sourceAccessLicenseNote": "Public UCI Machine Learning Repository dataset package. The public package includes aggregate metrics and instructions, not redistributed raw rows.",
+  "executionIncluded": true,
+  "executionProfile": "container-netoff",
+  "workerAssurance": "container-netoff",
+  "finalResult": "external_reproduction_partial",
+  "candidateStatus": "external_reproduction_partial",
+  "qualityLabel": "reviewable",
+  "publicHygienePassed": true,
+  "noRawLogs": true,
+  "noSecretLeaks": true,
+  "noLocalAbsolutePaths": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "failuresRecorded": 1,
+  "lossesRecorded": 0,
+  "tiesRecorded": 1,
+  "winsRecorded": 0,
+  "rejectedCandidates": 0,
+  "releaseReadinessScore": 86,
+  "evidenceStrengthScore": 89,
+  "reproducibilityScore": 87,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "customTool": null,
+  "metrics": {
+    "target": "UCI Bike Sharing day.csv",
+    "executionProfile": "container-netoff",
+    "rowCount": 731,
+    "columnCount": 16,
+    "trainRows": 511,
+    "testRows": 220,
+    "medianTrainDemand": 3974,
+    "missing": {
+      "instant": 0,
+      "dteday": 0,
+      "season": 0,
+      "yr": 0,
+      "mnth": 0,
+      "holiday": 0,
+      "weekday": 0,
+      "workingday": 0,
+      "weathersit": 0,
+      "temp": 0,
+      "atemp": 0,
+      "hum": 0,
+      "windspeed": 0,
+      "casual": 0,
+      "registered": 0,
+      "cnt": 0
+    },
+    "duplicateRows": 0,
+    "bestBaseline": {
+      "feature": "temp",
+      "threshold": 0.44083,
+      "direction": "gte",
+      "metric": {
+        "tp": 154,
+        "fp": 0,
+        "tn": 21,
+        "fn": 45,
+        "precision": 1,
+        "recall": 0.774,
+        "specificity": 1,
+        "accuracy": 0.795,
+        "f1": 0.873,
+        "balancedAccuracy": 0.887
+      }
+    },
+    "challenger": {
+      "name": "weather_comfort_score",
+      "threshold": 0.26339,
+      "metric": {
+        "tp": 151,
+        "fp": 0,
+        "tn": 21,
+        "fn": 48,
+        "precision": 1,
+        "recall": 0.759,
+        "specificity": 1,
+        "accuracy": 0.782,
+        "f1": 0.863,
+        "balancedAccuracy": 0.879
+      },
+      "rejected": false
+    },
+    "wins": 0,
+    "losses": 0,
+    "ties": 1
+  },
+  "limitations": [
+    "Bounded external research production run; not a claim of scientific truth.",
+    "Public package contains aggregate metrics and curated reports, not raw logs or private data.",
+    "Negative, partial, and tie outcomes are preserved instead of being converted into wins."
+  ],
+  "nextResearchDirection": "Use a stricter rolling-origin evaluation and add seasonal naive baselines before attempting richer weather features.",
+  "disclaimer": "External research production artifact. Safe computational science only: public datasets, public repositories, isolated tool execution, aggregate metrics, baseline comparisons, reproducibility notes, losses, and limitations. This is not a patent filing, legal novelty claim, confirmed breakthrough claim, medical advice, exploit guidance, or guarantee of scientific truth.",
+  "evidenceHash": "d5ab01feb1f230d6f057e6a3e95497244c4a85076347ea70f429bacd4d5934a8",
+  "gates": [
+    {
+      "code": "EXTERNAL_TARGET_BOUND",
+      "passed": true,
+      "severity": "info",
+      "message": "EXTERNAL_TARGET_BOUND passed."
+    },
+    {
+      "code": "SOURCE_ACCESS_LICENSE_NOTED",
+      "passed": true,
+      "severity": "info",
+      "message": "SOURCE_ACCESS_LICENSE_NOTED passed."
+    },
+    {
+      "code": "PREREGISTRATION_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "PREREGISTRATION_PRESENT passed."
+    },
+    {
+      "code": "EXECUTION_ENVIRONMENT_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "EXECUTION_ENVIRONMENT_PRESENT passed."
+    },
+    {
+      "code": "BASELINE_REPRODUCTION_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "BASELINE_REPRODUCTION_PRESENT passed."
+    },
+    {
+      "code": "CONCRETE_METRICS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "CONCRETE_METRICS_PRESENT passed."
+    },
+    {
+      "code": "FAILURES_AND_LIMITATIONS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "FAILURES_AND_LIMITATIONS_PRESENT passed."
+    },
+    {
+      "code": "REJECTED_IDEAS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "REJECTED_IDEAS_PRESENT passed."
+    },
+    {
+      "code": "REPRODUCIBILITY_INSTRUCTIONS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "REPRODUCIBILITY_INSTRUCTIONS_PRESENT passed."
+    },
+    {
+      "code": "PUBLIC_HYGIENE_PASSED",
+      "passed": true,
+      "severity": "info",
+      "message": "PUBLIC_HYGIENE_PASSED passed."
+    },
+    {
+      "code": "NO_FAKE_BENCHMARK_WIN",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_FAKE_BENCHMARK_WIN passed."
+    },
+    {
+      "code": "NO_FAKE_BREAKTHROUGH_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_FAKE_BREAKTHROUGH_CLAIMS passed."
+    },
+    {
+      "code": "NO_UNSUPPORTED_SCIENTIFIC_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_UNSUPPORTED_SCIENTIFIC_CLAIMS passed."
+    }
+  ],
+  "falsificationStatus": "tie_no_benchmark_win",
+  "specificityScore": 88,
+  "lifecycleStatus": "autopublished"
+}

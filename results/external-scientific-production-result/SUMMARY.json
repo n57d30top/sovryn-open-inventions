@@ -165,5 +165,14 @@
       "message": "LIMITATIONS_PRESENT passed.",
       "evidencePath": null
     }
-  ]
+  ],
+  "qualityLabel": "good",
+  "candidateStatus": "replication_supported_external_candidate",
+  "releaseReadinessScore": 93,
+  "evidenceStrengthScore": 94,
+  "reproducibilityScore": 91,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "falsificationStatus": "baseline_dominance_and_replication_supported",
+  "specificityScore": 90
 }

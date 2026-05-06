@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T07:04:58.568Z",
+  "generatedAt": "2026-05-06T07:30:46.465Z",
   "badges": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -285,6 +285,96 @@
         "falsification": "audited_with_limitations",
         "lifecycle": "autopublished",
         "version": "batch3-uci-forest-fires-dataset-quality-execution",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch4-markupsafe-repo-install-test-reproduction",
+      "badges": {
+        "quality": "good",
+        "status": "external_reproduction_success",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "tests_and_examples_executed",
+        "lifecycle": "autopublished",
+        "version": "batch4-markupsafe-repo-install-test-reproduction",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch4-uci-abalone-baseline-dominance-negative",
+      "badges": {
+        "quality": "good",
+        "status": "benchmark_challenge_negative_result",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "candidate_rejected_by_falsification",
+        "lifecycle": "autopublished",
+        "version": "batch4-uci-abalone-baseline-dominance-negative",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch4-uci-bike-sharing-time-series-benchmark",
+      "badges": {
+        "quality": "reviewable",
+        "status": "external_reproduction_partial",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "tie_no_benchmark_win",
+        "lifecycle": "autopublished",
+        "version": "batch4-uci-bike-sharing-time-series-benchmark",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch4-uci-glass-csvkit-tool-dataset-audit",
+      "badges": {
+        "quality": "good",
+        "status": "dataset_quality_audit_supported",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "tool_execution_and_dataset_audit_passed",
+        "lifecycle": "autopublished",
+        "version": "batch4-uci-glass-csvkit-tool-dataset-audit",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch4-uci-seeds-dataset-quality-execution",
+      "badges": {
+        "quality": "good",
+        "status": "dataset_quality_audit_supported",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "audited_with_limitations",
+        "lifecycle": "autopublished",
+        "version": "batch4-uci-seeds-dataset-quality-execution",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -689,14 +779,14 @@
     {
       "slug": "external-scientific-production-result",
       "badges": {
-        "quality": "unknown",
-        "status": "unknown",
+        "quality": "good",
+        "status": "replication_supported_external_candidate",
         "antiTemplate": "unknown",
-        "replay": "replay-partial",
+        "replay": "replay-100",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "container-netoff",
-        "falsification": "not_evaluated",
+        "falsification": "baseline_dominance_and_replication_supported",
         "lifecycle": "autopublished",
         "version": "external-scientific-production-result",
         "showcase": "not-showcase"
@@ -975,5 +1065,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "1110e757972a90510a0170f85344d15b94f8e85b60f8d400ea46b0096a3c58aa"
+  "evidenceHash": "209d131ccb6ecfb81a1cbe879ae78d5242a466a550e0375a679c39535b5a04b4"
 }

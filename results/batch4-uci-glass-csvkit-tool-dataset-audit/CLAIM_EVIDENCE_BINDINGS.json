@@ -1,0 +1,35 @@
+{
+  "resultSlug": "batch4-uci-glass-csvkit-tool-dataset-audit",
+  "target": "UCI Glass Identification dataset with csvkit profiling",
+  "claims": [
+    {
+      "claimId": "batch4-uci-glass-csvkit-tool-dataset-audit-execution",
+      "claim": "The result includes actual execution evidence.",
+      "evidence": [
+        "SUMMARY.json",
+        "EXECUTION_DETAILS.md",
+        "METRICS.json"
+      ],
+      "status": "supported"
+    },
+    {
+      "claimId": "batch4-uci-glass-csvkit-tool-dataset-audit-metrics",
+      "claim": "Concrete metrics were computed for the external target.",
+      "evidence": [
+        "METRIC_BREAKDOWN.md",
+        "RESULTS.md"
+      ],
+      "status": "supported"
+    },
+    {
+      "claimId": "batch4-uci-glass-csvkit-tool-dataset-audit-bounded",
+      "claim": "The result is evidence-bound and limitation-bound.",
+      "evidence": [
+        "LIMITATIONS.md",
+        "FAILURES_AND_LIMITATIONS.md"
+      ],
+      "status": "supported"
+    }
+  ],
+  "evidenceHash": "0f85e995ddc42b3b58d77c63e5b7231d01bf0a04597ce8ee446feadeaf59b59d"
+}

@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T07:04:58.568Z",
+  "generatedAt": "2026-05-06T07:30:46.465Z",
   "nodes": [
     {
       "id": "result:autonomous-research-strategy-trial",
@@ -97,6 +97,36 @@
       "kind": "result",
       "label": "UCI Forest Fires Dataset Quality Execution Audit",
       "domain": "public-dataset-quality-audit"
+    },
+    {
+      "id": "result:batch4-markupsafe-repo-install-test-reproduction",
+      "kind": "result",
+      "label": "MarkupSafe Repository Install and Test Reproduction",
+      "domain": "public-repo-reproducibility"
+    },
+    {
+      "id": "result:batch4-uci-abalone-baseline-dominance-negative",
+      "kind": "result",
+      "label": "UCI Abalone Baseline-Dominance Negative Challenge",
+      "domain": "tabular-benchmark-baseline-dominance"
+    },
+    {
+      "id": "result:batch4-uci-bike-sharing-time-series-benchmark",
+      "kind": "result",
+      "label": "UCI Bike Sharing Time-Series Holdout Benchmark",
+      "domain": "time-series-tabular-benchmark"
+    },
+    {
+      "id": "result:batch4-uci-glass-csvkit-tool-dataset-audit",
+      "kind": "result",
+      "label": "UCI Glass Dataset Audit with csvkit Tool Execution",
+      "domain": "tool-backed-dataset-quality-audit"
+    },
+    {
+      "id": "result:batch4-uci-seeds-dataset-quality-execution",
+      "kind": "result",
+      "label": "UCI Seeds Dataset Quality Execution Audit",
+      "domain": "scientific-tabular-dataset-quality"
     },
     {
       "id": "result:chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -382,6 +412,31 @@
       "label": "benchmark-challenge-baseline-dominance"
     },
     {
+      "id": "domain:public-repo-reproducibility",
+      "kind": "domain",
+      "label": "public-repo-reproducibility"
+    },
+    {
+      "id": "domain:tabular-benchmark-baseline-dominance",
+      "kind": "domain",
+      "label": "tabular-benchmark-baseline-dominance"
+    },
+    {
+      "id": "domain:time-series-tabular-benchmark",
+      "kind": "domain",
+      "label": "time-series-tabular-benchmark"
+    },
+    {
+      "id": "domain:tool-backed-dataset-quality-audit",
+      "kind": "domain",
+      "label": "tool-backed-dataset-quality-audit"
+    },
+    {
+      "id": "domain:scientific-tabular-dataset-quality",
+      "kind": "domain",
+      "label": "scientific-tabular-dataset-quality"
+    },
+    {
       "id": "domain:chemistry-data-quality",
       "kind": "domain",
       "label": "chemistry-data-quality"
@@ -566,6 +621,31 @@
     {
       "source": "result:batch3-uci-forest-fires-dataset-quality-execution",
       "target": "domain:public-dataset-quality-audit",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch4-markupsafe-repo-install-test-reproduction",
+      "target": "domain:public-repo-reproducibility",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch4-uci-abalone-baseline-dominance-negative",
+      "target": "domain:tabular-benchmark-baseline-dominance",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch4-uci-bike-sharing-time-series-benchmark",
+      "target": "domain:time-series-tabular-benchmark",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch4-uci-glass-csvkit-tool-dataset-audit",
+      "target": "domain:tool-backed-dataset-quality-audit",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch4-uci-seeds-dataset-quality-execution",
+      "target": "domain:scientific-tabular-dataset-quality",
       "relation": "belongs_to_domain"
     },
     {
@@ -899,5 +979,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "3cc95fe6f0537769c7ae8093f956073e44b3e9bf1a20b7f2627e1ea13d4f5e49"
+  "evidenceHash": "3f5da9c76b3f505a99d2ffbebda20a272128f29bdb402cd71f2076d89721c127"
 }

@@ -1,0 +1,203 @@
+{
+  "slug": "batch4-uci-seeds-dataset-quality-execution",
+  "title": "UCI Seeds Dataset Quality Execution Audit",
+  "resultKind": "external_research_production_result",
+  "resultType": "external_research_production_result",
+  "targetVersion": "4.2.0-rc.1",
+  "batch": "batch4",
+  "domain": "scientific-tabular-dataset-quality",
+  "selectedExternalTarget": "UCI Seeds dataset",
+  "targetUrl": "https://archive.ics.uci.edu/ml/machine-learning-databases/00236/seeds_dataset.txt",
+  "sourceAccessLicenseNote": "Public UCI Machine Learning Repository dataset. Public artifacts report schema, missingness, duplicate, class-balance, and outlier summaries only.",
+  "executionIncluded": true,
+  "executionProfile": "container-netoff",
+  "workerAssurance": "container-netoff",
+  "finalResult": "dataset_quality_audit_supported",
+  "candidateStatus": "dataset_quality_audit_supported",
+  "qualityLabel": "good",
+  "publicHygienePassed": true,
+  "noRawLogs": true,
+  "noSecretLeaks": true,
+  "noLocalAbsolutePaths": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "failuresRecorded": 0,
+  "lossesRecorded": 0,
+  "tiesRecorded": 0,
+  "winsRecorded": 0,
+  "rejectedCandidates": 0,
+  "releaseReadinessScore": 88,
+  "evidenceStrengthScore": 90,
+  "reproducibilityScore": 89,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "customTool": null,
+  "metrics": {
+    "target": "UCI Seeds",
+    "executionProfile": "container-netoff",
+    "rowCount": 210,
+    "columnCount": 8,
+    "missing": {
+      "area": 0,
+      "perimeter": 0,
+      "compactness": 0,
+      "kernel_length": 0,
+      "kernel_width": 0,
+      "asymmetry": 0,
+      "groove_length": 0,
+      "class": 0
+    },
+    "duplicateRows": 0,
+    "classCounts": {
+      "1": 70,
+      "2": 70,
+      "3": 70
+    },
+    "numericSummaries": {
+      "area": {
+        "min": 10.59,
+        "max": 21.18,
+        "mean": 14.848,
+        "iqr": 5.06,
+        "iqrOutliers": 0
+      },
+      "perimeter": {
+        "min": 12.41,
+        "max": 17.25,
+        "mean": 14.559,
+        "iqr": 2.28,
+        "iqrOutliers": 0
+      },
+      "compactness": {
+        "min": 0.808,
+        "max": 0.918,
+        "mean": 0.871,
+        "iqr": 0.031,
+        "iqrOutliers": 3
+      },
+      "kernel_length": {
+        "min": 4.899,
+        "max": 6.675,
+        "mean": 5.629,
+        "iqr": 0.718,
+        "iqrOutliers": 0
+      },
+      "kernel_width": {
+        "min": 2.63,
+        "max": 4.033,
+        "mean": 3.259,
+        "iqr": 0.621,
+        "iqrOutliers": 0
+      },
+      "asymmetry": {
+        "min": 0.765,
+        "max": 8.456,
+        "mean": 3.7,
+        "iqr": 2.22,
+        "iqrOutliers": 2
+      },
+      "groove_length": {
+        "min": 4.519,
+        "max": 6.55,
+        "mean": 5.408,
+        "iqr": 0.832,
+        "iqrOutliers": 0
+      }
+    },
+    "issueCategories": 5,
+    "schemaOnlyIssueRecall": 0.2,
+    "distributionAwareIssueRecall": 0.8
+  },
+  "limitations": [
+    "Bounded external research production run; not a claim of scientific truth.",
+    "Public package contains aggregate metrics and curated reports, not raw logs or private data.",
+    "Negative, partial, and tie outcomes are preserved instead of being converted into wins."
+  ],
+  "nextResearchDirection": "Compare this clean tabular profile with harder public scientific datasets containing known missingness or label-quality issues.",
+  "disclaimer": "External research production artifact. Safe computational science only: public datasets, public repositories, isolated tool execution, aggregate metrics, baseline comparisons, reproducibility notes, losses, and limitations. This is not a patent filing, legal novelty claim, confirmed breakthrough claim, medical advice, exploit guidance, or guarantee of scientific truth.",
+  "evidenceHash": "f31d4970ae354712bb1a52a670d92e6588edd60b8d14f069e528384f00a826f8",
+  "gates": [
+    {
+      "code": "EXTERNAL_TARGET_BOUND",
+      "passed": true,
+      "severity": "info",
+      "message": "EXTERNAL_TARGET_BOUND passed."
+    },
+    {
+      "code": "SOURCE_ACCESS_LICENSE_NOTED",
+      "passed": true,
+      "severity": "info",
+      "message": "SOURCE_ACCESS_LICENSE_NOTED passed."
+    },
+    {
+      "code": "PREREGISTRATION_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "PREREGISTRATION_PRESENT passed."
+    },
+    {
+      "code": "EXECUTION_ENVIRONMENT_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "EXECUTION_ENVIRONMENT_PRESENT passed."
+    },
+    {
+      "code": "BASELINE_REPRODUCTION_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "BASELINE_REPRODUCTION_PRESENT passed."
+    },
+    {
+      "code": "CONCRETE_METRICS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "CONCRETE_METRICS_PRESENT passed."
+    },
+    {
+      "code": "FAILURES_AND_LIMITATIONS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "FAILURES_AND_LIMITATIONS_PRESENT passed."
+    },
+    {
+      "code": "REJECTED_IDEAS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "REJECTED_IDEAS_PRESENT passed."
+    },
+    {
+      "code": "REPRODUCIBILITY_INSTRUCTIONS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "REPRODUCIBILITY_INSTRUCTIONS_PRESENT passed."
+    },
+    {
+      "code": "PUBLIC_HYGIENE_PASSED",
+      "passed": true,
+      "severity": "info",
+      "message": "PUBLIC_HYGIENE_PASSED passed."
+    },
+    {
+      "code": "NO_FAKE_BENCHMARK_WIN",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_FAKE_BENCHMARK_WIN passed."
+    },
+    {
+      "code": "NO_FAKE_BREAKTHROUGH_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_FAKE_BREAKTHROUGH_CLAIMS passed."
+    },
+    {
+      "code": "NO_UNSUPPORTED_SCIENTIFIC_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_UNSUPPORTED_SCIENTIFIC_CLAIMS passed."
+    }
+  ],
+  "falsificationStatus": "audited_with_limitations",
+  "specificityScore": 88,
+  "lifecycleStatus": "autopublished"
+}

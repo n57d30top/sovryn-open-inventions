@@ -1,28 +1,30 @@
 {
   "kind": "public_corpus_status_summary",
-  "updatedAt": "2026-05-06T07:04:58.568Z",
-  "resultCount": 54,
+  "updatedAt": "2026-05-06T07:30:46.465Z",
+  "resultCount": 59,
   "statusCounts": {
     "autopublished": 28,
-    "benchmark_challenge_negative_result": 2,
-    "dataset_quality_audit_supported": 4,
-    "external_reproduction_partial": 5,
+    "benchmark_challenge_negative_result": 3,
+    "dataset_quality_audit_supported": 6,
+    "external_reproduction_partial": 6,
+    "external_reproduction_success": 1,
     "field_grade_trial_ready": 3,
     "knowledge_trial_ready": 1,
     "promising_but_unproven": 1,
     "reality_grade_trial_ready": 1,
     "replication_supported_candidate": 1,
+    "replication_supported_external_candidate": 1,
     "source_evidence_extraction_audit_supported": 3,
     "strategy_trial_ready": 1,
     "strong_external_negative_result": 1,
-    "unknown": 3
+    "unknown": 2
   },
   "lifecycleCounts": {
-    "autopublished": 23,
+    "autopublished": 28,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
     "superseded": 14
   },
-  "evidenceHash": "ba0c73b4dca95436f4eaec30614dd21929a9bc3d0432b6fee0cf11eb0851c27f"
+  "evidenceHash": "da25dc8c7dcf00493f2efef208789756edbe2084fd890dae385c89a6395f9295"
 }

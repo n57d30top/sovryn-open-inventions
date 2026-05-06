@@ -1,0 +1,35 @@
+{
+  "resultSlug": "batch4-markupsafe-repo-install-test-reproduction",
+  "target": "pallets/markupsafe GitHub repository",
+  "claims": [
+    {
+      "claimId": "batch4-markupsafe-repo-install-test-reproduction-execution",
+      "claim": "The result includes actual execution evidence.",
+      "evidence": [
+        "SUMMARY.json",
+        "EXECUTION_DETAILS.md",
+        "METRICS.json"
+      ],
+      "status": "supported"
+    },
+    {
+      "claimId": "batch4-markupsafe-repo-install-test-reproduction-metrics",
+      "claim": "Concrete metrics were computed for the external target.",
+      "evidence": [
+        "METRIC_BREAKDOWN.md",
+        "RESULTS.md"
+      ],
+      "status": "supported"
+    },
+    {
+      "claimId": "batch4-markupsafe-repo-install-test-reproduction-bounded",
+      "claim": "The result is evidence-bound and limitation-bound.",
+      "evidence": [
+        "LIMITATIONS.md",
+        "FAILURES_AND_LIMITATIONS.md"
+      ],
+      "status": "supported"
+    }
+  ],
+  "evidenceHash": "4e55262c14bb8fb42bff691e34a6e0c9331ee024a71a3874e4ebdfd1cc5c3ba0"
+}

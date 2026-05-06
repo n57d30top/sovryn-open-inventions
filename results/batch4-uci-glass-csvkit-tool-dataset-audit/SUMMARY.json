@@ -1,0 +1,228 @@
+{
+  "slug": "batch4-uci-glass-csvkit-tool-dataset-audit",
+  "title": "UCI Glass Dataset Audit with csvkit Tool Execution",
+  "resultKind": "external_research_production_result",
+  "resultType": "external_research_production_result",
+  "targetVersion": "4.2.0-rc.1",
+  "batch": "batch4",
+  "domain": "tool-backed-dataset-quality-audit",
+  "selectedExternalTarget": "UCI Glass Identification dataset with csvkit profiling",
+  "targetUrl": "https://archive.ics.uci.edu/ml/machine-learning-databases/glass/glass.data",
+  "sourceAccessLicenseNote": "Public UCI Machine Learning Repository dataset plus isolated csvkit package execution. Public artifacts include aggregate profiling metrics only.",
+  "executionIncluded": true,
+  "executionProfile": "venv-tool-and-container-netoff-audit",
+  "workerAssurance": "venv-tool-plus-container-netoff",
+  "finalResult": "dataset_quality_audit_supported",
+  "candidateStatus": "dataset_quality_audit_supported",
+  "qualityLabel": "good",
+  "publicHygienePassed": true,
+  "noRawLogs": true,
+  "noSecretLeaks": true,
+  "noLocalAbsolutePaths": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "failuresRecorded": 0,
+  "lossesRecorded": 0,
+  "tiesRecorded": 0,
+  "winsRecorded": 0,
+  "rejectedCandidates": 0,
+  "releaseReadinessScore": 89,
+  "evidenceStrengthScore": 91,
+  "reproducibilityScore": 88,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "customTool": "csvkit",
+  "metrics": {
+    "target": "UCI Glass Identification",
+    "executionProfile": "venv-tool-and-container-netoff-audit",
+    "rowCount": 214,
+    "columnCount": 11,
+    "missing": {
+      "id": 0,
+      "refractive_index": 0,
+      "sodium": 0,
+      "magnesium": 0,
+      "aluminum": 0,
+      "silicon": 0,
+      "potassium": 0,
+      "calcium": 0,
+      "barium": 0,
+      "iron": 0,
+      "class": 0
+    },
+    "duplicateRows": 1,
+    "classCounts": {
+      "1": 70,
+      "2": 76,
+      "3": 17,
+      "5": 13,
+      "6": 9,
+      "7": 29
+    },
+    "numericSummaries": {
+      "refractive_index": {
+        "min": 1.5111,
+        "max": 1.5339,
+        "mean": 1.5184,
+        "iqr": 0.0026,
+        "iqrOutliers": 17
+      },
+      "sodium": {
+        "min": 10.73,
+        "max": 17.38,
+        "mean": 13.4079,
+        "iqr": 0.93,
+        "iqrOutliers": 7
+      },
+      "magnesium": {
+        "min": 0,
+        "max": 4.49,
+        "mean": 2.6845,
+        "iqr": 1.51,
+        "iqrOutliers": 0
+      },
+      "aluminum": {
+        "min": 0.29,
+        "max": 3.5,
+        "mean": 1.4449,
+        "iqr": 0.44,
+        "iqrOutliers": 18
+      },
+      "silicon": {
+        "min": 69.81,
+        "max": 75.41,
+        "mean": 72.6509,
+        "iqr": 0.81,
+        "iqrOutliers": 12
+      },
+      "potassium": {
+        "min": 0,
+        "max": 6.21,
+        "mean": 0.4971,
+        "iqr": 0.49,
+        "iqrOutliers": 7
+      },
+      "calcium": {
+        "min": 5.43,
+        "max": 16.19,
+        "mean": 8.957,
+        "iqr": 0.94,
+        "iqrOutliers": 26
+      },
+      "barium": {
+        "min": 0,
+        "max": 3.15,
+        "mean": 0.175,
+        "iqr": 0,
+        "iqrOutliers": 38
+      },
+      "iron": {
+        "min": 0,
+        "max": 0.51,
+        "mean": 0.057,
+        "iqr": 0.1,
+        "iqrOutliers": 12
+      }
+    },
+    "toolName": "csvkit",
+    "toolVersion": "2.2.0",
+    "toolInstallSucceeded": true,
+    "toolCountOutput": "214",
+    "toolColumnNameCount": 11,
+    "toolExamplesPassed": 2,
+    "toolExamplesFailed": 0,
+    "resultLabel": "dataset_quality_audit_supported"
+  },
+  "limitations": [
+    "Bounded external research production run; not a claim of scientific truth.",
+    "Public package contains aggregate metrics and curated reports, not raw logs or private data.",
+    "Negative, partial, and tie outcomes are preserved instead of being converted into wins."
+  ],
+  "nextResearchDirection": "Use the tool-backed profiling path on additional public scientific tabular datasets and compare against schema-only validators.",
+  "disclaimer": "External research production artifact. Safe computational science only: public datasets, public repositories, isolated tool execution, aggregate metrics, baseline comparisons, reproducibility notes, losses, and limitations. This is not a patent filing, legal novelty claim, confirmed breakthrough claim, medical advice, exploit guidance, or guarantee of scientific truth.",
+  "evidenceHash": "8a51bdd7a8e41ccedd1624a65cd888a6c6ff1cce30f8bad6c8c8373bdf054894",
+  "gates": [
+    {
+      "code": "EXTERNAL_TARGET_BOUND",
+      "passed": true,
+      "severity": "info",
+      "message": "EXTERNAL_TARGET_BOUND passed."
+    },
+    {
+      "code": "SOURCE_ACCESS_LICENSE_NOTED",
+      "passed": true,
+      "severity": "info",
+      "message": "SOURCE_ACCESS_LICENSE_NOTED passed."
+    },
+    {
+      "code": "PREREGISTRATION_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "PREREGISTRATION_PRESENT passed."
+    },
+    {
+      "code": "EXECUTION_ENVIRONMENT_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "EXECUTION_ENVIRONMENT_PRESENT passed."
+    },
+    {
+      "code": "BASELINE_REPRODUCTION_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "BASELINE_REPRODUCTION_PRESENT passed."
+    },
+    {
+      "code": "CONCRETE_METRICS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "CONCRETE_METRICS_PRESENT passed."
+    },
+    {
+      "code": "FAILURES_AND_LIMITATIONS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "FAILURES_AND_LIMITATIONS_PRESENT passed."
+    },
+    {
+      "code": "REJECTED_IDEAS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "REJECTED_IDEAS_PRESENT passed."
+    },
+    {
+      "code": "REPRODUCIBILITY_INSTRUCTIONS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "REPRODUCIBILITY_INSTRUCTIONS_PRESENT passed."
+    },
+    {
+      "code": "PUBLIC_HYGIENE_PASSED",
+      "passed": true,
+      "severity": "info",
+      "message": "PUBLIC_HYGIENE_PASSED passed."
+    },
+    {
+      "code": "NO_FAKE_BENCHMARK_WIN",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_FAKE_BENCHMARK_WIN passed."
+    },
+    {
+      "code": "NO_FAKE_BREAKTHROUGH_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_FAKE_BREAKTHROUGH_CLAIMS passed."
+    },
+    {
+      "code": "NO_UNSUPPORTED_SCIENTIFIC_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_UNSUPPORTED_SCIENTIFIC_CLAIMS passed."
+    }
+  ],
+  "falsificationStatus": "tool_execution_and_dataset_audit_passed",
+  "specificityScore": 90,
+  "lifecycleStatus": "autopublished"
+}

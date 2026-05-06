@@ -1,0 +1,23 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "batch4-uci-bike-sharing-time-series-benchmark",
+  "badges": {
+    "quality": "reviewable",
+    "status": "external_reproduction_partial",
+    "antiTemplate": "unknown",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "container-netoff",
+    "falsification": "tie_no_benchmark_win",
+    "lifecycle": "autopublished",
+    "version": "batch4-uci-bike-sharing-time-series-benchmark",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "717195f18c566584e3116fc2d36c0f98cc2e238a828d2dbc970416ef5bed47c4",
+  "executionIncluded": true,
+  "revisionReason": null,
+  "falsificationStatus": "tie_no_benchmark_win"
+}

@@ -1,14 +1,14 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T07:04:58.568Z",
+  "generatedAt": "2026-05-06T07:30:46.465Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 42,
-    "reviewable": 5,
-    "unknown": 2
+    "good": 47,
+    "reviewable": 6,
+    "unknown": 1
   },
   "lifecycleCounts": {
-    "autopublished": 23,
+    "autopublished": 28,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -238,6 +238,93 @@
       "reproducibilityScore": 88,
       "publicationSafetyScore": 98,
       "specificityScore": 86
+    },
+    {
+      "slug": "batch4-markupsafe-repo-install-test-reproduction",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch4-markupsafe-repo-install-test-reproduction",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 98,
+      "specificityScore": 90,
+      "workerAssurance": "venv-local-isolated",
+      "executionIncluded": true,
+      "revisionReason": null,
+      "falsificationStatus": "tests_and_examples_executed"
+    },
+    {
+      "slug": "batch4-uci-abalone-baseline-dominance-negative",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch4-uci-abalone-baseline-dominance-negative",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 92,
+      "evidenceStrengthScore": 93,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 98,
+      "specificityScore": 90,
+      "executionIncluded": true,
+      "revisionReason": null,
+      "falsificationStatus": "candidate_rejected_by_falsification"
+    },
+    {
+      "slug": "batch4-uci-bike-sharing-time-series-benchmark",
+      "qualityLabel": "reviewable",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch4-uci-bike-sharing-time-series-benchmark",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 86,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 87,
+      "publicationSafetyScore": 98,
+      "specificityScore": 88,
+      "executionIncluded": true,
+      "revisionReason": null,
+      "falsificationStatus": "tie_no_benchmark_win"
+    },
+    {
+      "slug": "batch4-uci-glass-csvkit-tool-dataset-audit",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch4-uci-glass-csvkit-tool-dataset-audit",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 89,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 98,
+      "specificityScore": 90,
+      "workerAssurance": "venv-tool-plus-container-netoff",
+      "executionIncluded": true,
+      "revisionReason": null,
+      "falsificationStatus": "tool_execution_and_dataset_audit_passed"
+    },
+    {
+      "slug": "batch4-uci-seeds-dataset-quality-execution",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch4-uci-seeds-dataset-quality-execution",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 89,
+      "publicationSafetyScore": 98,
+      "specificityScore": 88,
+      "executionIncluded": true,
+      "revisionReason": null,
+      "falsificationStatus": "audited_with_limitations"
     },
     {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -549,17 +636,21 @@
     },
     {
       "slug": "external-scientific-production-result",
-      "qualityLabel": "unknown",
+      "qualityLabel": "good",
       "antiTemplateStatus": "unknown",
       "lifecycleStatus": "autopublished",
       "versionGroup": "external-scientific-production-result",
       "showcaseEligible": false,
       "showcaseRank": null,
-      "releaseReadinessScore": 0,
-      "evidenceStrengthScore": 0,
-      "reproducibilityScore": 0,
-      "publicationSafetyScore": 0,
-      "specificityScore": 75
+      "releaseReadinessScore": 93,
+      "evidenceStrengthScore": 94,
+      "reproducibilityScore": 91,
+      "publicationSafetyScore": 98,
+      "specificityScore": 90,
+      "candidateStatus": "replication_supported_external_candidate",
+      "finalResult": "replication_supported_external_candidate",
+      "replayCriticalPassRate": 100,
+      "falsificationStatus": "baseline_dominance_and_replication_supported"
     },
     {
       "slug": "field-grade-autonomous-science-trial",
@@ -772,5 +863,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "b0e99ffaf5ac56a7608493699550b42ffd6ff5850b513e9fdfdfa88da1512570"
+  "evidenceHash": "7438dbc96e0805d10fb9e60a12669885da412c4a6a03257edf423e2f43f5f27c"
 }

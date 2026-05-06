@@ -1,0 +1,23 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "batch4-uci-abalone-baseline-dominance-negative",
+  "badges": {
+    "quality": "good",
+    "status": "benchmark_challenge_negative_result",
+    "antiTemplate": "unknown",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "container-netoff",
+    "falsification": "candidate_rejected_by_falsification",
+    "lifecycle": "autopublished",
+    "version": "batch4-uci-abalone-baseline-dominance-negative",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "bcfe23fc0ac33db06392fa30447c29e42be36756daebbb059a1c3bb08094859a",
+  "executionIncluded": true,
+  "revisionReason": null,
+  "falsificationStatus": "candidate_rejected_by_falsification"
+}

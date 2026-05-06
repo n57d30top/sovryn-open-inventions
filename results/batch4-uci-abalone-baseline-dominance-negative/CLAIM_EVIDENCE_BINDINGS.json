@@ -1,0 +1,35 @@
+{
+  "resultSlug": "batch4-uci-abalone-baseline-dominance-negative",
+  "target": "UCI Abalone dataset",
+  "claims": [
+    {
+      "claimId": "batch4-uci-abalone-baseline-dominance-negative-execution",
+      "claim": "The result includes actual execution evidence.",
+      "evidence": [
+        "SUMMARY.json",
+        "EXECUTION_DETAILS.md",
+        "METRICS.json"
+      ],
+      "status": "supported"
+    },
+    {
+      "claimId": "batch4-uci-abalone-baseline-dominance-negative-metrics",
+      "claim": "Concrete metrics were computed for the external target.",
+      "evidence": [
+        "METRIC_BREAKDOWN.md",
+        "RESULTS.md"
+      ],
+      "status": "supported"
+    },
+    {
+      "claimId": "batch4-uci-abalone-baseline-dominance-negative-bounded",
+      "claim": "The result is evidence-bound and limitation-bound.",
+      "evidence": [
+        "LIMITATIONS.md",
+        "FAILURES_AND_LIMITATIONS.md"
+      ],
+      "status": "supported"
+    }
+  ],
+  "evidenceHash": "a0743fb725d38305c5819645687f5842708f6458510c95cb17c7cc840858b24e"
+}

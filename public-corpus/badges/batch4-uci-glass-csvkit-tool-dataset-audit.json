@@ -1,0 +1,24 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "batch4-uci-glass-csvkit-tool-dataset-audit",
+  "badges": {
+    "quality": "good",
+    "status": "dataset_quality_audit_supported",
+    "antiTemplate": "unknown",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "venv-tool-plus-container-netoff",
+    "falsification": "tool_execution_and_dataset_audit_passed",
+    "lifecycle": "autopublished",
+    "version": "batch4-uci-glass-csvkit-tool-dataset-audit",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "0f63eb1b34f09ca50ffa3ee0ffb3026d4801c65b312ad8ff54cfc73d39e59a3e",
+  "workerAssurance": "venv-tool-plus-container-netoff",
+  "executionIncluded": true,
+  "revisionReason": null,
+  "falsificationStatus": "tool_execution_and_dataset_audit_passed"
+}

@@ -1,0 +1,182 @@
+{
+  "slug": "batch4-uci-abalone-baseline-dominance-negative",
+  "title": "UCI Abalone Baseline-Dominance Negative Challenge",
+  "resultKind": "external_research_production_result",
+  "resultType": "external_research_production_result",
+  "targetVersion": "4.2.0-rc.1",
+  "batch": "batch4",
+  "domain": "tabular-benchmark-baseline-dominance",
+  "selectedExternalTarget": "UCI Abalone dataset",
+  "targetUrl": "https://archive.ics.uci.edu/ml/machine-learning-databases/abalone/abalone.data",
+  "sourceAccessLicenseNote": "Public UCI Machine Learning Repository dataset. The public package publishes aggregate metrics and task descriptions only, not a raw dataset copy.",
+  "executionIncluded": true,
+  "executionProfile": "container-netoff",
+  "workerAssurance": "container-netoff",
+  "finalResult": "benchmark_challenge_negative_result",
+  "candidateStatus": "benchmark_challenge_negative_result",
+  "qualityLabel": "good",
+  "publicHygienePassed": true,
+  "noRawLogs": true,
+  "noSecretLeaks": true,
+  "noLocalAbsolutePaths": true,
+  "noFakeBenchmarkWin": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "failuresRecorded": 1,
+  "lossesRecorded": 1,
+  "tiesRecorded": 0,
+  "winsRecorded": 0,
+  "rejectedCandidates": 1,
+  "releaseReadinessScore": 92,
+  "evidenceStrengthScore": 93,
+  "reproducibilityScore": 90,
+  "publicationSafetyScore": 98,
+  "replayCriticalPassRate": 100,
+  "customTool": null,
+  "metrics": {
+    "target": "UCI Abalone",
+    "executionProfile": "container-netoff",
+    "rowCount": 4177,
+    "columnCount": 9,
+    "trainRows": 3341,
+    "testRows": 836,
+    "duplicateRows": 0,
+    "sexCounts": {
+      "M": 1528,
+      "F": 1307,
+      "I": 1342
+    },
+    "ringSummary": {
+      "min": 1,
+      "max": 29,
+      "mean": 9.934
+    },
+    "bestBaseline": {
+      "feature": "shell_weight",
+      "threshold": 0.172,
+      "direction": "gte",
+      "metric": {
+        "tp": 368,
+        "fp": 169,
+        "tn": 248,
+        "fn": 51,
+        "precision": 0.685,
+        "recall": 0.878,
+        "specificity": 0.595,
+        "accuracy": 0.737,
+        "f1": 0.77,
+        "balancedAccuracy": 0.737
+      }
+    },
+    "challenger": {
+      "name": "provenance_weighted_shell_size_score",
+      "metric": {
+        "tp": 320,
+        "fp": 145,
+        "tn": 272,
+        "fn": 99,
+        "precision": 0.688,
+        "recall": 0.764,
+        "specificity": 0.652,
+        "accuracy": 0.708,
+        "f1": 0.724,
+        "balancedAccuracy": 0.708
+      },
+      "rejected": true
+    },
+    "wins": 0,
+    "losses": 1,
+    "ties": 0
+  },
+  "limitations": [
+    "Bounded external research production run; not a claim of scientific truth.",
+    "Public package contains aggregate metrics and curated reports, not raw logs or private data.",
+    "Negative, partial, and tie outcomes are preserved instead of being converted into wins."
+  ],
+  "nextResearchDirection": "Try calibration methods that improve recall without losing the simple shell-weight baseline precision advantage.",
+  "disclaimer": "External research production artifact. Safe computational science only: public datasets, public repositories, isolated tool execution, aggregate metrics, baseline comparisons, reproducibility notes, losses, and limitations. This is not a patent filing, legal novelty claim, confirmed breakthrough claim, medical advice, exploit guidance, or guarantee of scientific truth.",
+  "evidenceHash": "d81a2bd40431694873b6e479a31245a9e652819e5c7d818c5ba7bdf1999d9a31",
+  "gates": [
+    {
+      "code": "EXTERNAL_TARGET_BOUND",
+      "passed": true,
+      "severity": "info",
+      "message": "EXTERNAL_TARGET_BOUND passed."
+    },
+    {
+      "code": "SOURCE_ACCESS_LICENSE_NOTED",
+      "passed": true,
+      "severity": "info",
+      "message": "SOURCE_ACCESS_LICENSE_NOTED passed."
+    },
+    {
+      "code": "PREREGISTRATION_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "PREREGISTRATION_PRESENT passed."
+    },
+    {
+      "code": "EXECUTION_ENVIRONMENT_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "EXECUTION_ENVIRONMENT_PRESENT passed."
+    },
+    {
+      "code": "BASELINE_REPRODUCTION_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "BASELINE_REPRODUCTION_PRESENT passed."
+    },
+    {
+      "code": "CONCRETE_METRICS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "CONCRETE_METRICS_PRESENT passed."
+    },
+    {
+      "code": "FAILURES_AND_LIMITATIONS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "FAILURES_AND_LIMITATIONS_PRESENT passed."
+    },
+    {
+      "code": "REJECTED_IDEAS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "REJECTED_IDEAS_PRESENT passed."
+    },
+    {
+      "code": "REPRODUCIBILITY_INSTRUCTIONS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "REPRODUCIBILITY_INSTRUCTIONS_PRESENT passed."
+    },
+    {
+      "code": "PUBLIC_HYGIENE_PASSED",
+      "passed": true,
+      "severity": "info",
+      "message": "PUBLIC_HYGIENE_PASSED passed."
+    },
+    {
+      "code": "NO_FAKE_BENCHMARK_WIN",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_FAKE_BENCHMARK_WIN passed."
+    },
+    {
+      "code": "NO_FAKE_BREAKTHROUGH_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_FAKE_BREAKTHROUGH_CLAIMS passed."
+    },
+    {
+      "code": "NO_UNSUPPORTED_SCIENTIFIC_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_UNSUPPORTED_SCIENTIFIC_CLAIMS passed."
+    }
+  ],
+  "falsificationStatus": "candidate_rejected_by_falsification",
+  "specificityScore": 90,
+  "lifecycleStatus": "autopublished"
+}

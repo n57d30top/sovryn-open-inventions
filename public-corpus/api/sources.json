@@ -84,6 +84,31 @@
       "customTool": null
     },
     {
+      "slug": "batch4-markupsafe-repo-install-test-reproduction",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch4-uci-abalone-baseline-dominance-negative",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch4-uci-bike-sharing-time-series-benchmark",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch4-uci-glass-csvkit-tool-dataset-audit",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "batch4-uci-seeds-dataset-quality-execution",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
       "externalPackages": [],
       "customTool": "mol-record-auditor"
@@ -320,5 +345,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "5d6f29d7d846839499571a4ead352b59e280af3776f45402091b7fb3fee4b927"
+  "evidenceHash": "ade19826a1af2f3a7a787e659f5a7e478ffe5d04955b59f0415c95823fa6ffa2"
 }
