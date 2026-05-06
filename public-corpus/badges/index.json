@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T14:11:54.242Z",
+  "generatedAt": "2026-05-06T14:39:37.571Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -411,6 +411,78 @@
         "falsification": "paper_grade_synthesis_completed_with_limitations",
         "lifecycle": "autopublished",
         "version": "batch20-protocol-risk-paper-grade-frontier-result",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch21-protocol-card-replay-week1",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "protocol_cards_created_with_ambiguous_cards_downgraded",
+        "lifecycle": "autopublished",
+        "version": "batch21-protocol-card-replay-week1",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch22-protocol-card-replay-model-family-stress",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "protocol_cards_stressed_with_ambiguous_vehicle_selected",
+        "lifecycle": "autopublished",
+        "version": "batch22-protocol-card-replay-model-family-stress",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch23-ambiguous-protocol-deep-replay-study",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "ambiguous_protocol_downgraded_after_variant_execution",
+        "lifecycle": "autopublished",
+        "version": "batch23-ambiguous-protocol-deep-replay-study",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch24-protocol-card-kill-week-next-frontier",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "protocol_card_program_attacked_and_narrowed",
+        "lifecycle": "autopublished",
+        "version": "batch24-protocol-card-kill-week-next-frontier",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -1479,5 +1551,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "e497cab0bea3c28c59dc82785581d25cff348f0c973ed756dec01b2bb6ad0e4e"
+  "evidenceHash": "b00ec57afa2a7f303b490e84effad90492e6df43b029c15a6f7ee4913968a100"
 }

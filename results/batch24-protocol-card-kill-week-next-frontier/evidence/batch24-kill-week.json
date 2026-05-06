@@ -1,0 +1,152 @@
+{
+  "auditedCards": [
+    {
+      "card": "pc21-01-uci-har-smartphones",
+      "clarity": "clear",
+      "decision": "reusable",
+      "execution status": "executed",
+      "target": "UCI HAR Smartphones"
+    },
+    {
+      "card": "pc21-02-uci-statlog-shuttle",
+      "clarity": "clear",
+      "decision": "reusable",
+      "execution status": "executed",
+      "target": "UCI Statlog Shuttle"
+    },
+    {
+      "card": "pc21-03-uci-statlog-landsat",
+      "clarity": "clear",
+      "decision": "reusable",
+      "execution status": "executed",
+      "target": "UCI Statlog Landsat Satellite"
+    },
+    {
+      "card": "pc21-04-uci-optical-digits",
+      "clarity": "clear",
+      "decision": "reusable",
+      "execution status": "card_only",
+      "target": "UCI Optical Digits"
+    },
+    {
+      "card": "pc21-05-uci-pen-digits",
+      "clarity": "clear",
+      "decision": "reusable",
+      "execution status": "card_only",
+      "target": "UCI Pen-Based Digits"
+    },
+    {
+      "card": "pc21-06-uci-letter-recognition",
+      "clarity": "approximated",
+      "decision": "reusable_with_caveats",
+      "execution status": "executed",
+      "target": "UCI Letter Recognition"
+    },
+    {
+      "card": "pc21-07-uci-image-segmentation",
+      "clarity": "clear",
+      "decision": "reusable",
+      "execution status": "card_only",
+      "target": "UCI Image Segmentation"
+    },
+    {
+      "card": "pc21-08-uci-vehicle-silhouettes",
+      "clarity": "ambiguous",
+      "decision": "defer_until_protocol_clarified",
+      "execution status": "executed",
+      "target": "UCI Vehicle Silhouettes"
+    },
+    {
+      "card": "pc21-09-uci-waveform-generator",
+      "clarity": "ambiguous",
+      "decision": "ambiguous",
+      "execution status": "card_only",
+      "target": "UCI Waveform Database Generator"
+    },
+    {
+      "card": "pc21-10-sklearn-digits-control",
+      "clarity": "absent",
+      "decision": "low_risk_control",
+      "execution status": "card_only",
+      "target": "scikit-learn bundled digits control"
+    }
+  ],
+  "claimUpdates": [
+    {
+      "claim": "Protocol Cards are replayable at scale",
+      "decision": "narrowed",
+      "evidence": "clear/approximated cards replayed, Vehicle did not become clear"
+    },
+    {
+      "claim": "Protocol-first evaluation matters",
+      "decision": "preserved with scope",
+      "evidence": "Batch 13-20 plus Batch 21-22 source-vs-random deltas"
+    },
+    {
+      "claim": "Vehicle can be used as clear protocol target",
+      "decision": "downgraded",
+      "evidence": "Batch 23 competing interpretations"
+    },
+    {
+      "claim": "metric_stress_validator detects benchmark validity",
+      "decision": "narrowed",
+      "evidence": "supports metric stress only, not full validity"
+    }
+  ],
+  "confidence": {
+    "nextProgramConfidence": "medium_high",
+    "protocolCardConfidence": {
+      "ambiguous_shard_cards": "low_until_clarified",
+      "approximated_row_order_cards": "medium",
+      "clear_file_split_cards": "medium_high"
+    },
+    "targetConfidence": {
+      "HAR": "high",
+      "Landsat": "high_with_spatial_caveat",
+      "Letter": "medium_low_risk",
+      "Shuttle": "high_with_rare_class_caveat",
+      "Vehicle": "low_clear_protocol_confidence"
+    },
+    "toolConfidence": {
+      "container_netoff_replay_recipe": "reusable",
+      "metric_stress_validator": "reusable_support_tool",
+      "protocol-card replay format": "reusable_with_caveats",
+      "reproduction_ladder_artifact_pack": "reusable_support_tool",
+      "schema_provenance_auditor": "packaging_only",
+      "split-risk helper": "narrow_but_useful"
+    }
+  },
+  "selectedNextProgram": "Benchmark Leakage-Risk Detection under Protocol Cards",
+  "toolDecisions": [
+    {
+      "decision": "reusable_support_tool",
+      "reason": "useful for anti-hype metric controls, not leakage proof",
+      "tool": "metric_stress_validator"
+    },
+    {
+      "decision": "packaging_only",
+      "reason": "binds source/schema evidence but pandas explains raw discovery facts",
+      "tool": "schema_provenance_auditor"
+    },
+    {
+      "decision": "reusable_with_caveats",
+      "reason": "useful when protocol source is clear; weak when protocol absent",
+      "tool": "protocol-card replay format"
+    },
+    {
+      "decision": "narrow_but_useful",
+      "reason": "helps severity packaging but must not become product framework",
+      "tool": "split-risk helper"
+    },
+    {
+      "decision": "reusable_support_tool",
+      "reason": "keeps evidence structure consistent",
+      "tool": "reproduction_ladder_artifact_pack"
+    },
+    {
+      "decision": "reusable",
+      "reason": "valuable after data provisioning for deterministic replay",
+      "tool": "container_netoff_replay_recipe"
+    }
+  ]
+}

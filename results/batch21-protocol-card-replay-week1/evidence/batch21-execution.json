@@ -1,0 +1,237 @@
+{
+  "containerReplay": {
+    "attempted": true,
+    "mode": "container-netoff-equivalent after data provisioning",
+    "network": "none during replay phase",
+    "notes": "Replay reused already provisioned public dataset files and reran deterministic split/model code without network access.",
+    "passed": true
+  },
+  "executions": {
+    "uci-har-smartphones": {
+      "comparison": {
+        "conclusionChanged": true,
+        "deltaAccuracyRandomMinusSource": 0.039362,
+        "deltaMacroF1RandomMinusSource": 0.040018,
+        "protocolDescription": "Used source train/test files plus subject files.",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.97455,
+        "randomMacroF1": 0.975267,
+        "randomMayInflateOrDeflate": "inflate",
+        "severity": "moderate",
+        "sourceAccuracy": 0.935188,
+        "sourceMacroF1": 0.935249
+      },
+      "schema": {
+        "classCount": 6,
+        "classDistribution": {
+          "1": 1722,
+          "2": 1544,
+          "3": 1406,
+          "4": 1777,
+          "5": 1906,
+          "6": 1944
+        },
+        "duplicateFeatureRows": 0,
+        "featureCount": 561,
+        "missingCells": 0,
+        "pandasBaselineAgreement": "ordinary pandas checks expose the same missingness, duplicate, and class-count facts; the tool adds packaging and source binding.",
+        "protocolMetadata": {
+          "subjectOverlap": 0,
+          "testFile": "test/X_test.txt",
+          "trainFile": "train/X_train.txt"
+        },
+        "protocolStatus": "protocol_reproduced",
+        "rows": 10299,
+        "sourceHash": "c00b803081a5c797cd5e4b83700a9810b38d53d9d84e01917e090e1fdbc81031",
+        "testRows": 2947,
+        "tool": "schema_provenance_auditor",
+        "toolRole": "packaging_only",
+        "trainRows": 7352
+      }
+    },
+    "uci-letter-recognition": {
+      "comparison": {
+        "conclusionChanged": false,
+        "deltaAccuracyRandomMinusSource": 0.0015,
+        "deltaMacroF1RandomMinusSource": -0.003064,
+        "protocolDescription": "Used source-described row-order split: first 16000 train, remaining 4000 test.",
+        "protocolStatus": "protocol_approximated",
+        "randomAccuracy": 0.69525,
+        "randomMacroF1": 0.689473,
+        "randomMayInflateOrDeflate": "deflate",
+        "severity": "none",
+        "sourceAccuracy": 0.69375,
+        "sourceMacroF1": 0.692537
+      },
+      "schema": {
+        "classCount": 26,
+        "classDistribution": {
+          "A": 789,
+          "B": 766,
+          "C": 736,
+          "D": 805,
+          "E": 768,
+          "F": 775,
+          "G": 773,
+          "H": 734,
+          "I": 755,
+          "J": 747,
+          "K": 739,
+          "L": 761,
+          "M": 792,
+          "N": 783,
+          "O": 753,
+          "P": 803,
+          "Q": 783,
+          "R": 758,
+          "S": 748,
+          "T": 796,
+          "U": 813,
+          "V": 764,
+          "W": 752,
+          "X": 787,
+          "Y": 786,
+          "Z": 734
+        },
+        "duplicateFeatureRows": 1332,
+        "featureCount": 16,
+        "missingCells": 0,
+        "pandasBaselineAgreement": "ordinary pandas checks expose the same missingness, duplicate, and class-count facts; the tool adds packaging and source binding.",
+        "protocolMetadata": {
+          "rowOrderSplit": "16000/4000",
+          "separateSplitFiles": false,
+          "singleFile": "letter-recognition.data"
+        },
+        "protocolStatus": "protocol_approximated",
+        "rows": 20000,
+        "sourceHash": "3b5f07a334697b6cace4fbae22940393a18fee596e73f68d97ce5973d52dc60f",
+        "testRows": 4000,
+        "tool": "schema_provenance_auditor",
+        "toolRole": "packaging_only",
+        "trainRows": 16000
+      }
+    },
+    "uci-statlog-shuttle": {
+      "comparison": {
+        "conclusionChanged": true,
+        "deltaAccuracyRandomMinusSource": -0.003173,
+        "deltaMacroF1RandomMinusSource": 0.070248,
+        "protocolDescription": "Used shuttle.trn and shuttle.tst source split files.",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.925517,
+        "randomMacroF1": 0.453021,
+        "randomMayInflateOrDeflate": "inflate",
+        "severity": "high",
+        "sourceAccuracy": 0.92869,
+        "sourceMacroF1": 0.382773
+      },
+      "schema": {
+        "classCount": 7,
+        "classDistribution": {
+          "1": 45586,
+          "2": 50,
+          "3": 171,
+          "4": 8903,
+          "5": 3267,
+          "6": 10,
+          "7": 13
+        },
+        "duplicateFeatureRows": 0,
+        "featureCount": 9,
+        "missingCells": 0,
+        "pandasBaselineAgreement": "ordinary pandas checks expose the same missingness, duplicate, and class-count facts; the tool adds packaging and source binding.",
+        "protocolMetadata": {
+          "decompressedTrain": true,
+          "testFile": "shuttle.tst",
+          "trainFile": "shuttle.trn.Z"
+        },
+        "protocolStatus": "protocol_reproduced",
+        "rows": 58000,
+        "sourceHash": "a03e1f23755093eff5b8d9656f944ae3240a376065cf4360d090f5fe0aff9bef",
+        "testRows": 14500,
+        "tool": "schema_provenance_auditor",
+        "toolRole": "packaging_only",
+        "trainRows": 43500
+      }
+    }
+  },
+  "packageVersions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "platform": "Darwin-arm64",
+    "python": "3.14.4",
+    "scikit_learn": "1.8.0"
+  },
+  "protocolCards": [
+    {
+      "decision": "execute_now",
+      "protocolCardId": "pc21-01-uci-har-smartphones",
+      "signal": "Archive provides train/test files and subject identifiers.",
+      "status": "clear",
+      "target": "UCI HAR Smartphones"
+    },
+    {
+      "decision": "execute_now",
+      "protocolCardId": "pc21-02-uci-statlog-shuttle",
+      "signal": "Archive provides shuttle.trn and shuttle.tst; documentation notes time-order and majority-class context.",
+      "status": "clear",
+      "target": "UCI Statlog Shuttle"
+    },
+    {
+      "decision": "hold_for_deep_study",
+      "protocolCardId": "pc21-03-uci-statlog-landsat",
+      "signal": "Archive provides sat.trn and sat.tst and documentation warns against cross-validation.",
+      "status": "clear",
+      "target": "UCI Statlog Landsat Satellite"
+    },
+    {
+      "decision": "hold_for_deep_study",
+      "protocolCardId": "pc21-04-uci-optical-digits",
+      "signal": "Archive provides optdigits.tra and optdigits.tes train/test files.",
+      "status": "clear",
+      "target": "UCI Optical Digits"
+    },
+    {
+      "decision": "hold_for_deep_study",
+      "protocolCardId": "pc21-05-uci-pen-digits",
+      "signal": "Archive provides pendigits.tra and pendigits.tes train/test files.",
+      "status": "clear",
+      "target": "UCI Pen-Based Digits"
+    },
+    {
+      "decision": "low_risk_control",
+      "protocolCardId": "pc21-06-uci-letter-recognition",
+      "signal": "Documentation describes first 16000 rows for training and remaining 4000 for testing, but no separate split files.",
+      "status": "approximated",
+      "target": "UCI Letter Recognition"
+    },
+    {
+      "decision": "hold_for_deep_study",
+      "protocolCardId": "pc21-07-uci-image-segmentation",
+      "signal": "Archive provides segmentation.data and segmentation.test files with class label first.",
+      "status": "clear",
+      "target": "UCI Image Segmentation"
+    },
+    {
+      "decision": "ambiguous_needs_deep_study",
+      "protocolCardId": "pc21-08-uci-vehicle-silhouettes",
+      "signal": "Archive provides multiple xaa-xai data shards, but no single canonical train/test split is provided.",
+      "status": "ambiguous",
+      "target": "UCI Vehicle Silhouettes"
+    },
+    {
+      "decision": "defer",
+      "protocolCardId": "pc21-09-uci-waveform-generator",
+      "signal": "Archive provides generator code and compressed generated data; fixed benchmark split is weakly specified.",
+      "status": "ambiguous",
+      "target": "UCI Waveform Database Generator"
+    },
+    {
+      "decision": "low_risk_control",
+      "protocolCardId": "pc21-10-sklearn-digits-control",
+      "signal": "Bundled low-risk toy dataset with no source-described benchmark split.",
+      "status": "absent",
+      "target": "scikit-learn bundled digits control"
+    }
+  ]
+}

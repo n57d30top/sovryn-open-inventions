@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T14:11:54.242Z",
+  "generatedAt": "2026-05-06T14:39:37.571Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -139,6 +139,30 @@
       "kind": "result",
       "label": "Batch 20 Protocol-Risk Paper-Grade Frontier Result",
       "domain": "open-research"
+    },
+    {
+      "id": "result:batch21-protocol-card-replay-week1",
+      "kind": "result",
+      "label": "Batch 21 Protocol-Card Replay Week 1",
+      "domain": "protocol-card-replay-at-scale"
+    },
+    {
+      "id": "result:batch22-protocol-card-replay-model-family-stress",
+      "kind": "result",
+      "label": "Batch 22 Protocol-Card Replay Model-Family Stress",
+      "domain": "protocol-card-replay-at-scale"
+    },
+    {
+      "id": "result:batch23-ambiguous-protocol-deep-replay-study",
+      "kind": "result",
+      "label": "Batch 23 Ambiguous Protocol Deep Replay Study",
+      "domain": "protocol-card-replay-at-scale"
+    },
+    {
+      "id": "result:batch24-protocol-card-kill-week-next-frontier",
+      "kind": "result",
+      "label": "Batch 24 Protocol-Card Kill Week and Next Frontier",
+      "domain": "protocol-card-replay-at-scale"
     },
     {
       "id": "result:batch3-palmer-penguins-dataset-quality-execution",
@@ -575,6 +599,11 @@
       "label": "time-series-benchmark-challenge"
     },
     {
+      "id": "domain:protocol-card-replay-at-scale",
+      "kind": "domain",
+      "label": "protocol-card-replay-at-scale"
+    },
+    {
       "id": "domain:benchmark-challenge-baseline-dominance",
       "kind": "domain",
       "label": "benchmark-challenge-baseline-dominance"
@@ -933,6 +962,61 @@
     },
     {
       "source": "result:batch20-protocol-risk-paper-grade-frontier-result",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch21-protocol-card-replay-week1",
+      "target": "domain:protocol-card-replay-at-scale",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch21-protocol-card-replay-week1",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch21-protocol-card-replay-week1",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch22-protocol-card-replay-model-family-stress",
+      "target": "domain:protocol-card-replay-at-scale",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch22-protocol-card-replay-model-family-stress",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch22-protocol-card-replay-model-family-stress",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch23-ambiguous-protocol-deep-replay-study",
+      "target": "domain:protocol-card-replay-at-scale",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch23-ambiguous-protocol-deep-replay-study",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch23-ambiguous-protocol-deep-replay-study",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch24-protocol-card-kill-week-next-frontier",
+      "target": "domain:protocol-card-replay-at-scale",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch24-protocol-card-kill-week-next-frontier",
       "target": "tool:pandas",
       "relation": "uses_public_tool_evidence"
     },
@@ -1412,5 +1496,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "035f31836b1206c061d991ae1696b94eca210d7dabbd19c5f6a5779c31010780"
+  "evidenceHash": "63befa60e733a7241764f2f090bac1066609f08385ebce3911b3ca1228417c8f"
 }

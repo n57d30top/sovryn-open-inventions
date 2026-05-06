@@ -1,0 +1,32 @@
+{
+  "ambiguityType": [
+    "file_layout_ambiguous",
+    "protocol_absent"
+  ],
+  "antiTemplateStatus": "review_ready",
+  "candidateStatus": "autopublished",
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+  "domain": "protocol-card-replay-at-scale",
+  "evidenceStrengthScore": 92,
+  "fallbackUsed": false,
+  "falsificationStatus": "ambiguous_protocol_downgraded_after_variant_execution",
+  "lifecycleStatus": "autopublished",
+  "negativeOrPartial": true,
+  "protocolCardDecision": "ambiguous_needs_human_protocol_clarification",
+  "protocolInterpretationCount": 4,
+  "publicHygienePassed": true,
+  "publicationSafetyScore": 98,
+  "qualityLabel": "good",
+  "releaseReadinessScore": 90,
+  "reliabilityReplayPassed": true,
+  "replayCriticalPassRate": 100,
+  "reproducibilityScore": 90,
+  "resultKind": "ambiguous_protocol_deep_replay_study",
+  "revisionReason": null,
+  "safetyScanPassed": true,
+  "slug": "batch23-ambiguous-protocol-deep-replay-study",
+  "specificityScore": 91,
+  "target": "UCI Vehicle Silhouettes",
+  "title": "Batch 23 Ambiguous Protocol Deep Replay Study",
+  "whatSovrynLearned": "Executable data is not enough; without source protocol clarity, multiple plausible split interpretations can materially alter the evidence boundary."
+}

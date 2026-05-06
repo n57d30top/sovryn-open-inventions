@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 82
+Results: 86
 
 ## Lifecycle Counts
 
-- autopublished: 51
+- autopublished: 55
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -35,6 +35,10 @@ Results: 82
 - batch2-uci-auto-mpg-dataset-quality-audit: latest batch2-uci-auto-mpg-dataset-quality-audit; batch2-uci-auto-mpg-dataset-quality-audit
 - batch2-uci-occupancy-benchmark-challenge: latest batch2-uci-occupancy-benchmark-challenge; batch2-uci-occupancy-benchmark-challenge
 - batch20-protocol-risk-paper-grade-frontier-result: latest batch20-protocol-risk-paper-grade-frontier-result; batch20-protocol-risk-paper-grade-frontier-result
+- batch21-protocol-card-replay-week1: latest batch21-protocol-card-replay-week1; batch21-protocol-card-replay-week1
+- batch22-protocol-card-replay-model-family-stress: latest batch22-protocol-card-replay-model-family-stress; batch22-protocol-card-replay-model-family-stress
+- batch23-ambiguous-protocol-deep-replay-study: latest batch23-ambiguous-protocol-deep-replay-study; batch23-ambiguous-protocol-deep-replay-study
+- batch24-protocol-card-kill-week-next-frontier: latest batch24-protocol-card-kill-week-next-frontier; batch24-protocol-card-kill-week-next-frontier
 - batch3-palmer-penguins-dataset-quality-execution: latest batch3-palmer-penguins-dataset-quality-execution; batch3-palmer-penguins-dataset-quality-execution
 - batch3-rapidfuzz-repo-install-example-reproduction: latest batch3-rapidfuzz-repo-install-example-reproduction; batch3-rapidfuzz-repo-install-example-reproduction
 - batch3-squad-v2-source-evidence-extraction-audit: latest batch3-squad-v2-source-evidence-extraction-audit; batch3-squad-v2-source-evidence-extraction-audit

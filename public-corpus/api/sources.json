@@ -142,6 +142,37 @@
       "customTool": null
     },
     {
+      "slug": "batch21-protocol-card-replay-week1",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch22-protocol-card-replay-model-family-stress",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch23-ambiguous-protocol-deep-replay-study",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "batch24-protocol-card-kill-week-next-frontier",
+      "externalPackages": [
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
       "slug": "batch3-palmer-penguins-dataset-quality-execution",
       "externalPackages": [],
       "customTool": null
@@ -498,5 +529,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "e96574952308103985acb07b1d17e3b4eb56d49d4c4c1795b5b7650842cd6a9a"
+  "evidenceHash": "63d22714a21e95501424534cb277a31ddb1a10b6b7a4e9ad0a25ac73c258178f"
 }

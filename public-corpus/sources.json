@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-06T14:11:54.242Z",
+  "generatedAt": "2026-05-06T14:39:37.571Z",
   "sources": [
     {
       "resultSlug": "batch10-toolchain-kill-week",
@@ -94,6 +94,48 @@
     },
     {
       "resultSlug": "batch20-protocol-risk-paper-grade-frontier-result",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch21-protocol-card-replay-week1",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch21-protocol-card-replay-week1",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch22-protocol-card-replay-model-family-stress",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch22-protocol-card-replay-model-family-stress",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch23-ambiguous-protocol-deep-replay-study",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch23-ambiguous-protocol-deep-replay-study",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "batch24-protocol-card-kill-week-next-frontier",
       "sourceKind": "external_package_or_tool",
       "name": "pandas",
       "publicOnly": true
@@ -315,5 +357,5 @@
       "publicOnly": true
     }
   ],
-  "evidenceHash": "e96574952308103985acb07b1d17e3b4eb56d49d4c4c1795b5b7650842cd6a9a"
+  "evidenceHash": "63d22714a21e95501424534cb277a31ddb1a10b6b7a4e9ad0a25ac73c258178f"
 }

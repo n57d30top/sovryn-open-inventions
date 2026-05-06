@@ -1,0 +1,669 @@
+{
+  "containerReplay": {
+    "attempted": true,
+    "mode": "container-netoff-equivalent after data provisioning",
+    "network": "none during replay phase",
+    "notes": "Replay reused already provisioned public dataset files and reran deterministic split/model code without network access.",
+    "passed": true
+  },
+  "executions": {
+    "uci-har-smartphones": {
+      "comparison": {
+        "conclusionChanged": true,
+        "deltaAccuracyRandomMinusSource": 0.039362,
+        "deltaMacroF1RandomMinusSource": 0.040018,
+        "protocolDescription": "Used source train/test files plus subject files.",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.97455,
+        "randomMacroF1": 0.975267,
+        "randomMayInflateOrDeflate": "inflate",
+        "severity": "moderate",
+        "sourceAccuracy": 0.935188,
+        "sourceMacroF1": 0.935249
+      },
+      "schema": {
+        "classCount": 6,
+        "classDistribution": {
+          "1": 1722,
+          "2": 1544,
+          "3": 1406,
+          "4": 1777,
+          "5": 1906,
+          "6": 1944
+        },
+        "duplicateFeatureRows": 0,
+        "featureCount": 561,
+        "missingCells": 0,
+        "pandasBaselineAgreement": "ordinary pandas checks expose the same missingness, duplicate, and class-count facts; the tool adds packaging and source binding.",
+        "protocolMetadata": {
+          "subjectOverlap": 0,
+          "testFile": "test/X_test.txt",
+          "trainFile": "train/X_train.txt"
+        },
+        "protocolStatus": "protocol_reproduced",
+        "rows": 10299,
+        "sourceHash": "c00b803081a5c797cd5e4b83700a9810b38d53d9d84e01917e090e1fdbc81031",
+        "testRows": 2947,
+        "tool": "schema_provenance_auditor",
+        "toolRole": "packaging_only",
+        "trainRows": 7352
+      }
+    },
+    "uci-letter-recognition": {
+      "comparison": {
+        "conclusionChanged": false,
+        "deltaAccuracyRandomMinusSource": 0.0015,
+        "deltaMacroF1RandomMinusSource": -0.003064,
+        "protocolDescription": "Used source-described row-order split: first 16000 train, remaining 4000 test.",
+        "protocolStatus": "protocol_approximated",
+        "randomAccuracy": 0.69525,
+        "randomMacroF1": 0.689473,
+        "randomMayInflateOrDeflate": "deflate",
+        "severity": "none",
+        "sourceAccuracy": 0.69375,
+        "sourceMacroF1": 0.692537
+      },
+      "schema": {
+        "classCount": 26,
+        "classDistribution": {
+          "A": 789,
+          "B": 766,
+          "C": 736,
+          "D": 805,
+          "E": 768,
+          "F": 775,
+          "G": 773,
+          "H": 734,
+          "I": 755,
+          "J": 747,
+          "K": 739,
+          "L": 761,
+          "M": 792,
+          "N": 783,
+          "O": 753,
+          "P": 803,
+          "Q": 783,
+          "R": 758,
+          "S": 748,
+          "T": 796,
+          "U": 813,
+          "V": 764,
+          "W": 752,
+          "X": 787,
+          "Y": 786,
+          "Z": 734
+        },
+        "duplicateFeatureRows": 1332,
+        "featureCount": 16,
+        "missingCells": 0,
+        "pandasBaselineAgreement": "ordinary pandas checks expose the same missingness, duplicate, and class-count facts; the tool adds packaging and source binding.",
+        "protocolMetadata": {
+          "rowOrderSplit": "16000/4000",
+          "separateSplitFiles": false,
+          "singleFile": "letter-recognition.data"
+        },
+        "protocolStatus": "protocol_approximated",
+        "rows": 20000,
+        "sourceHash": "3b5f07a334697b6cace4fbae22940393a18fee596e73f68d97ce5973d52dc60f",
+        "testRows": 4000,
+        "tool": "schema_provenance_auditor",
+        "toolRole": "packaging_only",
+        "trainRows": 16000
+      }
+    },
+    "uci-statlog-landsat": {
+      "comparison": {
+        "conclusionChanged": true,
+        "deltaAccuracyRandomMinusSource": -0.0105,
+        "deltaMacroF1RandomMinusSource": -0.035353,
+        "protocolDescription": "Used sat.trn and sat.tst source split files.",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.812,
+        "randomMacroF1": 0.707262,
+        "randomMayInflateOrDeflate": "deflate",
+        "severity": "moderate",
+        "sourceAccuracy": 0.8225,
+        "sourceMacroF1": 0.742615
+      },
+      "schema": {
+        "classCount": 6,
+        "classDistribution": {
+          "1": 1533,
+          "2": 703,
+          "3": 1358,
+          "4": 626,
+          "5": 707,
+          "7": 1508
+        },
+        "duplicateFeatureRows": 0,
+        "featureCount": 36,
+        "missingCells": 0,
+        "pandasBaselineAgreement": "ordinary pandas checks expose the same missingness, duplicate, and class-count facts; the tool adds packaging and source binding.",
+        "protocolMetadata": {
+          "crossValidationWarningPresent": true,
+          "testFile": "sat.tst",
+          "trainFile": "sat.trn"
+        },
+        "protocolStatus": "protocol_reproduced",
+        "rows": 6435,
+        "sourceHash": "7c54e0e11c872a1b0b647da370d596dcb06746159cce4121d92ccd70b7d7ce3c",
+        "testRows": 2000,
+        "tool": "schema_provenance_auditor",
+        "toolRole": "packaging_only",
+        "trainRows": 4435
+      }
+    },
+    "uci-statlog-shuttle": {
+      "comparison": {
+        "conclusionChanged": true,
+        "deltaAccuracyRandomMinusSource": -0.003173,
+        "deltaMacroF1RandomMinusSource": 0.070248,
+        "protocolDescription": "Used shuttle.trn and shuttle.tst source split files.",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.925517,
+        "randomMacroF1": 0.453021,
+        "randomMayInflateOrDeflate": "inflate",
+        "severity": "high",
+        "sourceAccuracy": 0.92869,
+        "sourceMacroF1": 0.382773
+      },
+      "schema": {
+        "classCount": 7,
+        "classDistribution": {
+          "1": 45586,
+          "2": 50,
+          "3": 171,
+          "4": 8903,
+          "5": 3267,
+          "6": 10,
+          "7": 13
+        },
+        "duplicateFeatureRows": 0,
+        "featureCount": 9,
+        "missingCells": 0,
+        "pandasBaselineAgreement": "ordinary pandas checks expose the same missingness, duplicate, and class-count facts; the tool adds packaging and source binding.",
+        "protocolMetadata": {
+          "decompressedTrain": true,
+          "testFile": "shuttle.tst",
+          "trainFile": "shuttle.trn.Z"
+        },
+        "protocolStatus": "protocol_reproduced",
+        "rows": 58000,
+        "sourceHash": "a03e1f23755093eff5b8d9656f944ae3240a376065cf4360d090f5fe0aff9bef",
+        "testRows": 14500,
+        "tool": "schema_provenance_auditor",
+        "toolRole": "packaging_only",
+        "trainRows": 43500
+      }
+    },
+    "uci-vehicle-silhouettes": {
+      "comparison": {
+        "conclusionChanged": true,
+        "deltaAccuracyRandomMinusSource": 0.042553,
+        "deltaMacroF1RandomMinusSource": 0.037631,
+        "protocolDescription": "Used one plausible source-shard holdout: train on xaa-xah and test on xai. This is an interpretation, not a source-declared benchmark split.",
+        "protocolStatus": "protocol_ambiguous",
+        "randomAccuracy": 0.851064,
+        "randomMacroF1": 0.848314,
+        "randomMayInflateOrDeflate": "inflate",
+        "severity": "moderate",
+        "sourceAccuracy": 0.808511,
+        "sourceMacroF1": 0.810683
+      },
+      "schema": {
+        "classCount": 4,
+        "classDistribution": {
+          "bus": 218,
+          "opel": 212,
+          "saab": 217,
+          "van": 199
+        },
+        "duplicateFeatureRows": 0,
+        "featureCount": 18,
+        "missingCells": 0,
+        "pandasBaselineAgreement": "ordinary pandas checks expose the same missingness, duplicate, and class-count facts; the tool adds packaging and source binding.",
+        "protocolMetadata": {
+          "canonicalSplitAbsent": true,
+          "heldOutShard": "xai.dat",
+          "shardFiles": [
+            "xaa.dat",
+            "xab.dat",
+            "xac.dat",
+            "xad.dat",
+            "xae.dat",
+            "xaf.dat",
+            "xag.dat",
+            "xah.dat",
+            "xai.dat"
+          ]
+        },
+        "protocolStatus": "protocol_ambiguous",
+        "rows": 846,
+        "sourceHash": "66ca807d5be5e3403cf035a579e85113880c3019d6cde825670deff05a4a71e0",
+        "testRows": 94,
+        "tool": "schema_provenance_auditor",
+        "toolRole": "packaging_only",
+        "trainRows": 752
+      }
+    }
+  },
+  "metricControls": {
+    "uci-har-smartphones": {
+      "accuracyVsMacroF1": {
+        "protocolAccuracy": 0.935188,
+        "protocolMacroF1": 0.935249,
+        "randomAccuracy": 0.97455,
+        "randomMacroF1": 0.975267
+      },
+      "addsValueBeyondSklearn": "anti-hype packaging around normal sklearn metrics, shuffled-label control, class-risk and seed/split checks",
+      "classRisk": {
+        "weakestProtocolClass": "5",
+        "weakestProtocolClassF1": 0.913778
+      },
+      "limitations": [
+        "does not prove leakage absence",
+        "does not certify a full benchmark protocol"
+      ],
+      "seedSplitSensitivity": [
+        {
+          "randomAccuracy": 0.968782,
+          "randomMacroF1": 0.969612,
+          "seed": 7
+        },
+        {
+          "randomAccuracy": 0.97455,
+          "randomMacroF1": 0.975267,
+          "seed": 42
+        },
+        {
+          "randomAccuracy": 0.972175,
+          "randomMacroF1": 0.973079,
+          "seed": 99
+        }
+      ],
+      "shuffledLabelControl": {
+        "accuracy": 0.146929,
+        "macroF1": 0.131544
+      },
+      "tool": "metric_stress_validator",
+      "toolRole": "reusable_support_tool"
+    },
+    "uci-letter-recognition": {
+      "accuracyVsMacroF1": {
+        "protocolAccuracy": 0.69375,
+        "protocolMacroF1": 0.692537,
+        "randomAccuracy": 0.69525,
+        "randomMacroF1": 0.689473
+      },
+      "addsValueBeyondSklearn": "anti-hype packaging around normal sklearn metrics, shuffled-label control, class-risk and seed/split checks",
+      "classRisk": {
+        "weakestProtocolClass": "G",
+        "weakestProtocolClassF1": 0.309013
+      },
+      "limitations": [
+        "does not prove leakage absence",
+        "does not certify a full benchmark protocol"
+      ],
+      "seedSplitSensitivity": [
+        {
+          "randomAccuracy": 0.68325,
+          "randomMacroF1": 0.681691,
+          "seed": 7
+        },
+        {
+          "randomAccuracy": 0.69525,
+          "randomMacroF1": 0.689473,
+          "seed": 42
+        },
+        {
+          "randomAccuracy": 0.7035,
+          "randomMacroF1": 0.702946,
+          "seed": 99
+        }
+      ],
+      "shuffledLabelControl": {
+        "accuracy": 0.0205,
+        "macroF1": 0.016277
+      },
+      "tool": "metric_stress_validator",
+      "toolRole": "reusable_support_tool"
+    },
+    "uci-statlog-landsat": {
+      "accuracyVsMacroF1": {
+        "protocolAccuracy": 0.8225,
+        "protocolMacroF1": 0.742615,
+        "randomAccuracy": 0.812,
+        "randomMacroF1": 0.707262
+      },
+      "addsValueBeyondSklearn": "anti-hype packaging around normal sklearn metrics, shuffled-label control, class-risk and seed/split checks",
+      "classRisk": {
+        "weakestProtocolClass": "4",
+        "weakestProtocolClassF1": 0.145749
+      },
+      "limitations": [
+        "does not prove leakage absence",
+        "does not certify a full benchmark protocol"
+      ],
+      "seedSplitSensitivity": [
+        {
+          "randomAccuracy": 0.8265,
+          "randomMacroF1": 0.738823,
+          "seed": 7
+        },
+        {
+          "randomAccuracy": 0.812,
+          "randomMacroF1": 0.707262,
+          "seed": 42
+        },
+        {
+          "randomAccuracy": 0.829,
+          "randomMacroF1": 0.793018,
+          "seed": 99
+        }
+      ],
+      "shuffledLabelControl": {
+        "accuracy": 0.159,
+        "macroF1": 0.091856
+      },
+      "tool": "metric_stress_validator",
+      "toolRole": "reusable_support_tool"
+    },
+    "uci-statlog-shuttle": {
+      "accuracyVsMacroF1": {
+        "protocolAccuracy": 0.92869,
+        "protocolMacroF1": 0.382773,
+        "randomAccuracy": 0.925517,
+        "randomMacroF1": 0.453021
+      },
+      "addsValueBeyondSklearn": "anti-hype packaging around normal sklearn metrics, shuffled-label control, class-risk and seed/split checks",
+      "classRisk": {
+        "weakestProtocolClass": "2",
+        "weakestProtocolClassF1": 0.0
+      },
+      "limitations": [
+        "does not prove leakage absence",
+        "does not certify a full benchmark protocol"
+      ],
+      "seedSplitSensitivity": [
+        {
+          "randomAccuracy": 0.927379,
+          "randomMacroF1": 0.497475,
+          "seed": 7
+        },
+        {
+          "randomAccuracy": 0.925517,
+          "randomMacroF1": 0.453021,
+          "seed": 42
+        },
+        {
+          "randomAccuracy": 0.927655,
+          "randomMacroF1": 0.383599,
+          "seed": 99
+        }
+      ],
+      "shuffledLabelControl": {
+        "accuracy": 0.791241,
+        "macroF1": 0.127626
+      },
+      "tool": "metric_stress_validator",
+      "toolRole": "reusable_support_tool"
+    },
+    "uci-vehicle-silhouettes": {
+      "accuracyVsMacroF1": {
+        "protocolAccuracy": 0.808511,
+        "protocolMacroF1": 0.810683,
+        "randomAccuracy": 0.851064,
+        "randomMacroF1": 0.848314
+      },
+      "addsValueBeyondSklearn": "anti-hype packaging around normal sklearn metrics, shuffled-label control, class-risk and seed/split checks",
+      "classRisk": {
+        "weakestProtocolClass": "opel",
+        "weakestProtocolClassF1": 0.7
+      },
+      "limitations": [
+        "does not prove leakage absence",
+        "does not certify a full benchmark protocol"
+      ],
+      "seedSplitSensitivity": [
+        {
+          "randomAccuracy": 0.797872,
+          "randomMacroF1": 0.794072,
+          "seed": 7
+        },
+        {
+          "randomAccuracy": 0.851064,
+          "randomMacroF1": 0.848314,
+          "seed": 42
+        },
+        {
+          "randomAccuracy": 0.744681,
+          "randomMacroF1": 0.750416,
+          "seed": 99
+        }
+      ],
+      "shuffledLabelControl": {
+        "accuracy": 0.202128,
+        "macroF1": 0.186407
+      },
+      "tool": "metric_stress_validator",
+      "toolRole": "reusable_support_tool"
+    }
+  },
+  "packageVersions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "platform": "Darwin-arm64",
+    "python": "3.14.4",
+    "scikit_learn": "1.8.0"
+  },
+  "seedStress": {
+    "uci-har-smartphones": [
+      {
+        "conclusionChanged": true,
+        "deltaAccuracyRandomMinusSource": 0.039362,
+        "deltaMacroF1RandomMinusSource": 0.040594,
+        "protocolDescription": "Used source train/test files plus subject files.",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.977265,
+        "randomMacroF1": 0.97808,
+        "randomMayInflateOrDeflate": "inflate",
+        "severity": "moderate",
+        "sourceAccuracy": 0.937903,
+        "sourceMacroF1": 0.937486
+      },
+      {
+        "conclusionChanged": true,
+        "deltaAccuracyRandomMinusSource": 0.032236,
+        "deltaMacroF1RandomMinusSource": 0.033196,
+        "protocolDescription": "Used source train/test files plus subject files.",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.968782,
+        "randomMacroF1": 0.969612,
+        "randomMayInflateOrDeflate": "inflate",
+        "severity": "moderate",
+        "sourceAccuracy": 0.936546,
+        "sourceMacroF1": 0.936416
+      },
+      {
+        "conclusionChanged": true,
+        "deltaAccuracyRandomMinusSource": 0.039362,
+        "deltaMacroF1RandomMinusSource": 0.040018,
+        "protocolDescription": "Used source train/test files plus subject files.",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.97455,
+        "randomMacroF1": 0.975267,
+        "randomMayInflateOrDeflate": "inflate",
+        "severity": "moderate",
+        "sourceAccuracy": 0.935188,
+        "sourceMacroF1": 0.935249
+      },
+      {
+        "conclusionChanged": true,
+        "deltaAccuracyRandomMinusSource": 0.042416,
+        "deltaMacroF1RandomMinusSource": 0.043475,
+        "protocolDescription": "Used source train/test files plus subject files.",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.972175,
+        "randomMacroF1": 0.973079,
+        "randomMayInflateOrDeflate": "inflate",
+        "severity": "moderate",
+        "sourceAccuracy": 0.929759,
+        "sourceMacroF1": 0.929604
+      },
+      {
+        "conclusionChanged": true,
+        "deltaAccuracyRandomMinusSource": 0.037665,
+        "deltaMacroF1RandomMinusSource": 0.038652,
+        "protocolDescription": "Used source train/test files plus subject files.",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.971496,
+        "randomMacroF1": 0.972451,
+        "randomMayInflateOrDeflate": "inflate",
+        "severity": "moderate",
+        "sourceAccuracy": 0.933831,
+        "sourceMacroF1": 0.933799
+      }
+    ],
+    "uci-statlog-landsat": [
+      {
+        "conclusionChanged": false,
+        "deltaAccuracyRandomMinusSource": 0.0165,
+        "deltaMacroF1RandomMinusSource": 0.011688,
+        "protocolDescription": "Used sat.trn and sat.tst source split files.",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.828,
+        "randomMacroF1": 0.744696,
+        "randomMayInflateOrDeflate": "inflate",
+        "severity": "low",
+        "sourceAccuracy": 0.8115,
+        "sourceMacroF1": 0.733008
+      },
+      {
+        "conclusionChanged": true,
+        "deltaAccuracyRandomMinusSource": 0.0005,
+        "deltaMacroF1RandomMinusSource": -0.029456,
+        "protocolDescription": "Used sat.trn and sat.tst source split files.",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.8265,
+        "randomMacroF1": 0.738823,
+        "randomMayInflateOrDeflate": "deflate",
+        "severity": "moderate",
+        "sourceAccuracy": 0.826,
+        "sourceMacroF1": 0.768279
+      },
+      {
+        "conclusionChanged": true,
+        "deltaAccuracyRandomMinusSource": -0.0105,
+        "deltaMacroF1RandomMinusSource": -0.035353,
+        "protocolDescription": "Used sat.trn and sat.tst source split files.",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.812,
+        "randomMacroF1": 0.707262,
+        "randomMayInflateOrDeflate": "deflate",
+        "severity": "moderate",
+        "sourceAccuracy": 0.8225,
+        "sourceMacroF1": 0.742615
+      },
+      {
+        "conclusionChanged": true,
+        "deltaAccuracyRandomMinusSource": 0.0195,
+        "deltaMacroF1RandomMinusSource": 0.060981,
+        "protocolDescription": "Used sat.trn and sat.tst source split files.",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.829,
+        "randomMacroF1": 0.793018,
+        "randomMayInflateOrDeflate": "inflate",
+        "severity": "high",
+        "sourceAccuracy": 0.8095,
+        "sourceMacroF1": 0.732037
+      },
+      {
+        "conclusionChanged": true,
+        "deltaAccuracyRandomMinusSource": -0.0005,
+        "deltaMacroF1RandomMinusSource": -0.028738,
+        "protocolDescription": "Used sat.trn and sat.tst source split files.",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.8245,
+        "randomMacroF1": 0.726277,
+        "randomMayInflateOrDeflate": "deflate",
+        "severity": "moderate",
+        "sourceAccuracy": 0.825,
+        "sourceMacroF1": 0.755015
+      }
+    ],
+    "uci-statlog-shuttle": [
+      {
+        "conclusionChanged": true,
+        "deltaAccuracyRandomMinusSource": -0.000689,
+        "deltaMacroF1RandomMinusSource": 0.072275,
+        "protocolDescription": "Used shuttle.trn and shuttle.tst source split files.",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.928897,
+        "randomMacroF1": 0.455572,
+        "randomMayInflateOrDeflate": "inflate",
+        "severity": "high",
+        "sourceAccuracy": 0.929586,
+        "sourceMacroF1": 0.383297
+      },
+      {
+        "conclusionChanged": true,
+        "deltaAccuracyRandomMinusSource": -0.002138,
+        "deltaMacroF1RandomMinusSource": 0.114009,
+        "protocolDescription": "Used shuttle.trn and shuttle.tst source split files.",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.927379,
+        "randomMacroF1": 0.497475,
+        "randomMayInflateOrDeflate": "inflate",
+        "severity": "high",
+        "sourceAccuracy": 0.929517,
+        "sourceMacroF1": 0.383466
+      },
+      {
+        "conclusionChanged": true,
+        "deltaAccuracyRandomMinusSource": -0.003173,
+        "deltaMacroF1RandomMinusSource": 0.070248,
+        "protocolDescription": "Used shuttle.trn and shuttle.tst source split files.",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.925517,
+        "randomMacroF1": 0.453021,
+        "randomMayInflateOrDeflate": "inflate",
+        "severity": "high",
+        "sourceAccuracy": 0.92869,
+        "sourceMacroF1": 0.382773
+      },
+      {
+        "conclusionChanged": false,
+        "deltaAccuracyRandomMinusSource": -0.007173,
+        "deltaMacroF1RandomMinusSource": -0.004376,
+        "protocolDescription": "Used shuttle.trn and shuttle.tst source split files.",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.927655,
+        "randomMacroF1": 0.383599,
+        "randomMayInflateOrDeflate": "deflate",
+        "severity": "none",
+        "sourceAccuracy": 0.934828,
+        "sourceMacroF1": 0.387975
+      },
+      {
+        "conclusionChanged": true,
+        "deltaAccuracyRandomMinusSource": 0.004345,
+        "deltaMacroF1RandomMinusSource": 0.086328,
+        "protocolDescription": "Used shuttle.trn and shuttle.tst source split files.",
+        "protocolStatus": "protocol_reproduced",
+        "randomAccuracy": 0.934138,
+        "randomMacroF1": 0.469947,
+        "randomMayInflateOrDeflate": "inflate",
+        "severity": "high",
+        "sourceAccuracy": 0.929793,
+        "sourceMacroF1": 0.383619
+      }
+    ]
+  },
+  "selectedTargets": [
+    "uci-har-smartphones",
+    "uci-statlog-shuttle",
+    "uci-statlog-landsat",
+    "uci-letter-recognition",
+    "uci-vehicle-silhouettes"
+  ]
+}

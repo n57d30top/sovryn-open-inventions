@@ -1,0 +1,51 @@
+{
+  "antiTemplateStatus": "review_ready",
+  "candidateStatus": "autopublished",
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+  "domain": "protocol-card-replay-at-scale",
+  "evidenceStrengthScore": 91,
+  "executedProtocolCardCount": 3,
+  "executedTargets": [
+    "UCI HAR Smartphones",
+    "UCI Statlog Shuttle",
+    "UCI Letter Recognition"
+  ],
+  "falsificationStatus": "protocol_cards_created_with_ambiguous_cards_downgraded",
+  "lifecycleStatus": "autopublished",
+  "negativeOrPartial": true,
+  "nextBatch22Targets": [
+    "UCI HAR Smartphones",
+    "UCI Statlog Shuttle",
+    "UCI Statlog Landsat Satellite",
+    "UCI Letter Recognition",
+    "UCI Vehicle Silhouettes"
+  ],
+  "protocolCardCount": 10,
+  "publicHygienePassed": true,
+  "publicationSafetyScore": 98,
+  "qualityLabel": "good",
+  "releaseReadinessScore": 90,
+  "reliabilityReplayPassed": true,
+  "replayCriticalPassRate": 100,
+  "reproducibilityScore": 90,
+  "resultKind": "protocol_card_replay_week1",
+  "revisionReason": null,
+  "safetyScanPassed": true,
+  "selectedTargets": [
+    "UCI HAR Smartphones",
+    "UCI Statlog Shuttle",
+    "UCI Statlog Landsat Satellite",
+    "UCI Optical Digits",
+    "UCI Pen-Based Digits",
+    "UCI Letter Recognition",
+    "UCI Image Segmentation",
+    "UCI Vehicle Silhouettes",
+    "UCI Waveform Database Generator",
+    "scikit-learn bundled digits control"
+  ],
+  "slug": "batch21-protocol-card-replay-week1",
+  "sourceVsRandomComparisonCount": 3,
+  "specificityScore": 90,
+  "title": "Batch 21 Protocol-Card Replay Week 1",
+  "whatSovrynLearned": "Protocol Cards can bind source, split, baseline, metric, replay, and limitation fields, but ambiguous targets require downgrade rather than invented clarity."
+}

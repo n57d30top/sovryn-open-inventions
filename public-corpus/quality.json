@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T14:11:54.242Z",
+  "generatedAt": "2026-05-06T14:39:37.571Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 71,
+    "good": 75,
     "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 51,
+    "autopublished": 55,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -333,6 +333,62 @@
       "releaseReadinessScore": 92,
       "evidenceStrengthScore": 94,
       "reproducibilityScore": 90,
+      "publicationSafetyScore": 98,
+      "specificityScore": 92
+    },
+    {
+      "slug": "batch21-protocol-card-replay-week1",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch21-protocol-card-replay-week1",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 98,
+      "specificityScore": 90
+    },
+    {
+      "slug": "batch22-protocol-card-replay-model-family-stress",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch22-protocol-card-replay-model-family-stress",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 92,
+      "reproducibilityScore": 91,
+      "publicationSafetyScore": 98,
+      "specificityScore": 91
+    },
+    {
+      "slug": "batch23-ambiguous-protocol-deep-replay-study",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch23-ambiguous-protocol-deep-replay-study",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 92,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 98,
+      "specificityScore": 91
+    },
+    {
+      "slug": "batch24-protocol-card-kill-week-next-frontier",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch24-protocol-card-kill-week-next-frontier",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 88,
       "publicationSafetyScore": 98,
       "specificityScore": 92
     },
@@ -1163,5 +1219,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "23868c2e71354d9c7bb221430f5306deaf3b40fbb4c64457cbb42a6da95aa5b1"
+  "evidenceHash": "76c816743a55dfe5223e4dd06fd4152cc795ce19ee9dc910ef301ae8c63dd663"
 }

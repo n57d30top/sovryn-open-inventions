@@ -1,0 +1,935 @@
+{
+  "containerReplay": {
+    "attempted": true,
+    "mode": "container-netoff-equivalent after data provisioning",
+    "network": "none during replay phase",
+    "notes": "Replay reused already provisioned public dataset files and reran deterministic split/model code without network access.",
+    "passed": true
+  },
+  "impact": [
+    {
+      "delta vs shard holdout": 0.0,
+      "linear macro-F1": 0.810683,
+      "scientifically defensible": "partial",
+      "variant": "source_shard_holdout_last_file"
+    },
+    {
+      "delta vs shard holdout": -0.069436,
+      "linear macro-F1": 0.741247,
+      "scientifically defensible": "partial",
+      "variant": "two_shard_file_holdout"
+    },
+    {
+      "delta vs shard holdout": 0.037631,
+      "linear macro-F1": 0.848314,
+      "scientifically defensible": "challenger_only",
+      "variant": "stratified_random_same_size"
+    },
+    {
+      "delta vs shard holdout": -0.07124,
+      "linear macro-F1": 0.739443,
+      "scientifically defensible": "challenger_only",
+      "variant": "non_stratified_random_same_size"
+    }
+  ],
+  "metricStress": {
+    "accuracyVsMacroF1": {
+      "protocolAccuracy": 0.808511,
+      "protocolMacroF1": 0.810683,
+      "randomAccuracy": 0.851064,
+      "randomMacroF1": 0.848314
+    },
+    "addsValueBeyondSklearn": "anti-hype packaging around normal sklearn metrics, shuffled-label control, class-risk and seed/split checks",
+    "classRisk": {
+      "weakestProtocolClass": "opel",
+      "weakestProtocolClassF1": 0.7
+    },
+    "limitations": [
+      "does not prove leakage absence",
+      "does not certify a full benchmark protocol"
+    ],
+    "seedSplitSensitivity": [
+      {
+        "randomAccuracy": 0.797872,
+        "randomMacroF1": 0.794072,
+        "seed": 7
+      },
+      {
+        "randomAccuracy": 0.851064,
+        "randomMacroF1": 0.848314,
+        "seed": 42
+      },
+      {
+        "randomAccuracy": 0.744681,
+        "randomMacroF1": 0.750416,
+        "seed": 99
+      }
+    ],
+    "shuffledLabelControl": {
+      "accuracy": 0.202128,
+      "macroF1": 0.186407
+    },
+    "tool": "metric_stress_validator",
+    "toolRole": "reusable_support_tool"
+  },
+  "packageVersions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "platform": "Darwin-arm64",
+    "python": "3.14.4",
+    "scikit_learn": "1.8.0"
+  },
+  "schema": {
+    "classCount": 4,
+    "classDistribution": {
+      "bus": 218,
+      "opel": 212,
+      "saab": 217,
+      "van": 199
+    },
+    "duplicateFeatureRows": 0,
+    "featureCount": 18,
+    "missingCells": 0,
+    "pandasBaselineAgreement": "ordinary pandas checks expose the same missingness, duplicate, and class-count facts; the tool adds packaging and source binding.",
+    "protocolMetadata": {
+      "canonicalSplitAbsent": true,
+      "heldOutShard": "xai.dat",
+      "shardFiles": [
+        "xaa.dat",
+        "xab.dat",
+        "xac.dat",
+        "xad.dat",
+        "xae.dat",
+        "xaf.dat",
+        "xag.dat",
+        "xah.dat",
+        "xai.dat"
+      ]
+    },
+    "protocolStatus": "protocol_ambiguous",
+    "rows": 846,
+    "sourceHash": "66ca807d5be5e3403cf035a579e85113880c3019d6cde825670deff05a4a71e0",
+    "testRows": 94,
+    "tool": "schema_provenance_auditor",
+    "toolRole": "packaging_only",
+    "trainRows": 752
+  },
+  "variants": {
+    "non_stratified_random_same_size": {
+      "models": {
+        "dummy_most_frequent": {
+          "accuracy": 0.180851,
+          "fitNote": {
+            "rowsUsed": 752,
+            "subsampled": false
+          },
+          "macroF1": 0.076577,
+          "perClassF1": {
+            "bus": 0.0,
+            "opel": 0.0,
+            "saab": 0.306306,
+            "van": 0.0
+          },
+          "perClassSummary": [
+            {
+              "class": "bus",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 28,
+              "worstConfusedAs": "saab",
+              "worstConfusionCount": 28
+            },
+            {
+              "class": "opel",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 28,
+              "worstConfusedAs": "saab",
+              "worstConfusionCount": 28
+            },
+            {
+              "class": "saab",
+              "correct": 17,
+              "f1": 0.306306,
+              "support": 17,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 0
+            },
+            {
+              "class": "van",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 21,
+              "worstConfusedAs": "saab",
+              "worstConfusionCount": 21
+            }
+          ],
+          "weightedF1": 0.055396
+        },
+        "dummy_stratified": {
+          "accuracy": 0.170213,
+          "fitNote": {
+            "rowsUsed": 752,
+            "subsampled": false
+          },
+          "macroF1": 0.16754,
+          "perClassF1": {
+            "bus": 0.148148,
+            "opel": 0.188679,
+            "saab": 0.111111,
+            "van": 0.222222
+          },
+          "perClassSummary": [
+            {
+              "class": "bus",
+              "correct": 4,
+              "f1": 0.148148,
+              "support": 28,
+              "worstConfusedAs": "saab",
+              "worstConfusionCount": 9
+            },
+            {
+              "class": "opel",
+              "correct": 5,
+              "f1": 0.188679,
+              "support": 28,
+              "worstConfusedAs": "van",
+              "worstConfusionCount": 10
+            },
+            {
+              "class": "saab",
+              "correct": 2,
+              "f1": 0.111111,
+              "support": 17,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 7
+            },
+            {
+              "class": "van",
+              "correct": 5,
+              "f1": 0.222222,
+              "support": 21,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 8
+            }
+          ],
+          "weightedF1": 0.170072
+        },
+        "linear_logistic_sgd": {
+          "accuracy": 0.744681,
+          "fitNote": {
+            "rowsUsed": 752,
+            "subsampled": false
+          },
+          "macroF1": 0.739443,
+          "perClassF1": {
+            "bus": 0.847458,
+            "opel": 0.652174,
+            "saab": 0.55814,
+            "van": 0.9
+          },
+          "perClassSummary": [
+            {
+              "class": "bus",
+              "correct": 25,
+              "f1": 0.847458,
+              "support": 28,
+              "worstConfusedAs": "opel",
+              "worstConfusionCount": 1
+            },
+            {
+              "class": "opel",
+              "correct": 15,
+              "f1": 0.652174,
+              "support": 28,
+              "worstConfusedAs": "saab",
+              "worstConfusionCount": 12
+            },
+            {
+              "class": "saab",
+              "correct": 12,
+              "f1": 0.55814,
+              "support": 17,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 3
+            },
+            {
+              "class": "van",
+              "correct": 18,
+              "f1": 0.9,
+              "support": 21,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 2
+            }
+          ],
+          "weightedF1": 0.748703
+        },
+        "random_forest": {
+          "accuracy": 0.776596,
+          "fitNote": {
+            "rowsUsed": 752,
+            "subsampled": false
+          },
+          "macroF1": 0.764491,
+          "perClassF1": {
+            "bus": 0.947368,
+            "opel": 0.55814,
+            "saab": 0.622222,
+            "van": 0.930233
+          },
+          "perClassSummary": [
+            {
+              "class": "bus",
+              "correct": 27,
+              "f1": 0.947368,
+              "support": 28,
+              "worstConfusedAs": "saab",
+              "worstConfusionCount": 1
+            },
+            {
+              "class": "opel",
+              "correct": 12,
+              "f1": 0.55814,
+              "support": 28,
+              "worstConfusedAs": "saab",
+              "worstConfusionCount": 13
+            },
+            {
+              "class": "saab",
+              "correct": 14,
+              "f1": 0.622222,
+              "support": 17,
+              "worstConfusedAs": "opel",
+              "worstConfusionCount": 3
+            },
+            {
+              "class": "van",
+              "correct": 20,
+              "f1": 0.930233,
+              "support": 21,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 1
+            }
+          ],
+          "weightedF1": 0.768797
+        }
+      },
+      "seed": 99,
+      "split": "non_stratified_random_same_size",
+      "testRows": 94,
+      "trainRows": 752
+    },
+    "source_shard_holdout_last_file": {
+      "models": {
+        "dummy_most_frequent": {
+          "accuracy": 0.234043,
+          "fitNote": {
+            "rowsUsed": 752,
+            "subsampled": false
+          },
+          "macroF1": 0.094828,
+          "perClassF1": {
+            "bus": 0.37931,
+            "opel": 0.0,
+            "saab": 0.0,
+            "van": 0.0
+          },
+          "perClassSummary": [
+            {
+              "class": "bus",
+              "correct": 22,
+              "f1": 0.37931,
+              "support": 22,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 0
+            },
+            {
+              "class": "opel",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 22,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 22
+            },
+            {
+              "class": "saab",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 28,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 28
+            },
+            {
+              "class": "van",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 22,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 22
+            }
+          ],
+          "weightedF1": 0.088775
+        },
+        "dummy_stratified": {
+          "accuracy": 0.351064,
+          "fitNote": {
+            "rowsUsed": 752,
+            "subsampled": false
+          },
+          "macroF1": 0.345787,
+          "perClassF1": {
+            "bus": 0.36,
+            "opel": 0.375,
+            "saab": 0.37037,
+            "van": 0.277778
+          },
+          "perClassSummary": [
+            {
+              "class": "bus",
+              "correct": 9,
+              "f1": 0.36,
+              "support": 22,
+              "worstConfusedAs": "opel",
+              "worstConfusionCount": 6
+            },
+            {
+              "class": "opel",
+              "correct": 9,
+              "f1": 0.375,
+              "support": 22,
+              "worstConfusedAs": "saab",
+              "worstConfusionCount": 5
+            },
+            {
+              "class": "saab",
+              "correct": 10,
+              "f1": 0.37037,
+              "support": 28,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 8
+            },
+            {
+              "class": "van",
+              "correct": 5,
+              "f1": 0.277778,
+              "support": 22,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 7
+            }
+          ],
+          "weightedF1": 0.347356
+        },
+        "linear_logistic_sgd": {
+          "accuracy": 0.808511,
+          "fitNote": {
+            "rowsUsed": 752,
+            "subsampled": false
+          },
+          "macroF1": 0.810683,
+          "perClassF1": {
+            "bus": 0.863636,
+            "opel": 0.7,
+            "saab": 0.745763,
+            "van": 0.933333
+          },
+          "perClassSummary": [
+            {
+              "class": "bus",
+              "correct": 19,
+              "f1": 0.863636,
+              "support": 22,
+              "worstConfusedAs": "saab",
+              "worstConfusionCount": 2
+            },
+            {
+              "class": "opel",
+              "correct": 14,
+              "f1": 0.7,
+              "support": 22,
+              "worstConfusedAs": "saab",
+              "worstConfusionCount": 6
+            },
+            {
+              "class": "saab",
+              "correct": 22,
+              "f1": 0.745763,
+              "support": 28,
+              "worstConfusedAs": "opel",
+              "worstConfusionCount": 4
+            },
+            {
+              "class": "van",
+              "correct": 21,
+              "f1": 0.933333,
+              "support": 22,
+              "worstConfusedAs": "saab",
+              "worstConfusionCount": 1
+            }
+          ],
+          "weightedF1": 0.806539
+        },
+        "random_forest": {
+          "accuracy": 0.712766,
+          "fitNote": {
+            "rowsUsed": 752,
+            "subsampled": false
+          },
+          "macroF1": 0.719722,
+          "perClassF1": {
+            "bus": 0.977778,
+            "opel": 0.478261,
+            "saab": 0.509804,
+            "van": 0.913043
+          },
+          "perClassSummary": [
+            {
+              "class": "bus",
+              "correct": 22,
+              "f1": 0.977778,
+              "support": 22,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 0
+            },
+            {
+              "class": "opel",
+              "correct": 11,
+              "f1": 0.478261,
+              "support": 22,
+              "worstConfusedAs": "saab",
+              "worstConfusionCount": 9
+            },
+            {
+              "class": "saab",
+              "correct": 13,
+              "f1": 0.509804,
+              "support": 28,
+              "worstConfusedAs": "opel",
+              "worstConfusionCount": 13
+            },
+            {
+              "class": "van",
+              "correct": 21,
+              "f1": 0.913043,
+              "support": 22,
+              "worstConfusedAs": "saab",
+              "worstConfusionCount": 1
+            }
+          ],
+          "weightedF1": 0.706323
+        }
+      },
+      "seed": 42,
+      "split": "source_shard_holdout_last_file",
+      "testRows": 94,
+      "trainRows": 752
+    },
+    "stratified_random_same_size": {
+      "models": {
+        "dummy_most_frequent": {
+          "accuracy": 0.255319,
+          "fitNote": {
+            "rowsUsed": 752,
+            "subsampled": false
+          },
+          "macroF1": 0.101695,
+          "perClassF1": {
+            "bus": 0.40678,
+            "opel": 0.0,
+            "saab": 0.0,
+            "van": 0.0
+          },
+          "perClassSummary": [
+            {
+              "class": "bus",
+              "correct": 24,
+              "f1": 0.40678,
+              "support": 24,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 0
+            },
+            {
+              "class": "opel",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 24,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 24
+            },
+            {
+              "class": "saab",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 24,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 24
+            },
+            {
+              "class": "van",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 22,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 22
+            }
+          ],
+          "weightedF1": 0.103859
+        },
+        "dummy_stratified": {
+          "accuracy": 0.170213,
+          "fitNote": {
+            "rowsUsed": 752,
+            "subsampled": false
+          },
+          "macroF1": 0.170874,
+          "perClassF1": {
+            "bus": 0.115385,
+            "opel": 0.212766,
+            "saab": 0.188679,
+            "van": 0.166667
+          },
+          "perClassSummary": [
+            {
+              "class": "bus",
+              "correct": 3,
+              "f1": 0.115385,
+              "support": 24,
+              "worstConfusedAs": "saab",
+              "worstConfusionCount": 9
+            },
+            {
+              "class": "opel",
+              "correct": 5,
+              "f1": 0.212766,
+              "support": 24,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 9
+            },
+            {
+              "class": "saab",
+              "correct": 5,
+              "f1": 0.188679,
+              "support": 24,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 11
+            },
+            {
+              "class": "van",
+              "correct": 3,
+              "f1": 0.166667,
+              "support": 22,
+              "worstConfusedAs": "saab",
+              "worstConfusionCount": 8
+            }
+          ],
+          "weightedF1": 0.170964
+        },
+        "linear_logistic_sgd": {
+          "accuracy": 0.851064,
+          "fitNote": {
+            "rowsUsed": 752,
+            "subsampled": false
+          },
+          "macroF1": 0.848314,
+          "perClassF1": {
+            "bus": 0.979592,
+            "opel": 0.666667,
+            "saab": 0.792453,
+            "van": 0.954545
+          },
+          "perClassSummary": [
+            {
+              "class": "bus",
+              "correct": 24,
+              "f1": 0.979592,
+              "support": 24,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 0
+            },
+            {
+              "class": "opel",
+              "correct": 14,
+              "f1": 0.666667,
+              "support": 24,
+              "worstConfusedAs": "saab",
+              "worstConfusionCount": 8
+            },
+            {
+              "class": "saab",
+              "correct": 21,
+              "f1": 0.792453,
+              "support": 24,
+              "worstConfusedAs": "opel",
+              "worstConfusionCount": 3
+            },
+            {
+              "class": "van",
+              "correct": 21,
+              "f1": 0.954545,
+              "support": 22,
+              "worstConfusedAs": "opel",
+              "worstConfusionCount": 1
+            }
+          ],
+          "weightedF1": 0.846054
+        },
+        "random_forest": {
+          "accuracy": 0.691489,
+          "fitNote": {
+            "rowsUsed": 752,
+            "subsampled": false
+          },
+          "macroF1": 0.682274,
+          "perClassF1": {
+            "bus": 0.979592,
+            "opel": 0.333333,
+            "saab": 0.48,
+            "van": 0.93617
+          },
+          "perClassSummary": [
+            {
+              "class": "bus",
+              "correct": 24,
+              "f1": 0.979592,
+              "support": 24,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 0
+            },
+            {
+              "class": "opel",
+              "correct": 7,
+              "f1": 0.333333,
+              "support": 24,
+              "worstConfusedAs": "saab",
+              "worstConfusionCount": 14
+            },
+            {
+              "class": "saab",
+              "correct": 12,
+              "f1": 0.48,
+              "support": 24,
+              "worstConfusedAs": "opel",
+              "worstConfusionCount": 11
+            },
+            {
+              "class": "van",
+              "correct": 22,
+              "f1": 0.93617,
+              "support": 22,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 0
+            }
+          ],
+          "weightedF1": 0.676872
+        }
+      },
+      "seed": 42,
+      "split": "stratified_random_same_size",
+      "testRows": 94,
+      "trainRows": 752
+    },
+    "two_shard_file_holdout": {
+      "models": {
+        "dummy_most_frequent": {
+          "accuracy": 0.25,
+          "fitNote": {
+            "rowsUsed": 658,
+            "subsampled": false
+          },
+          "macroF1": 0.1,
+          "perClassF1": {
+            "bus": 0.4,
+            "opel": 0.0,
+            "saab": 0.0,
+            "van": 0.0
+          },
+          "perClassSummary": [
+            {
+              "class": "bus",
+              "correct": 47,
+              "f1": 0.4,
+              "support": 47,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 0
+            },
+            {
+              "class": "opel",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 42,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 42
+            },
+            {
+              "class": "saab",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 54,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 54
+            },
+            {
+              "class": "van",
+              "correct": 0,
+              "f1": 0.0,
+              "support": 45,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 45
+            }
+          ],
+          "weightedF1": 0.1
+        },
+        "dummy_stratified": {
+          "accuracy": 0.234043,
+          "fitNote": {
+            "rowsUsed": 658,
+            "subsampled": false
+          },
+          "macroF1": 0.233297,
+          "perClassF1": {
+            "bus": 0.285714,
+            "opel": 0.152174,
+            "saab": 0.242424,
+            "van": 0.252874
+          },
+          "perClassSummary": [
+            {
+              "class": "bus",
+              "correct": 14,
+              "f1": 0.285714,
+              "support": 47,
+              "worstConfusedAs": "van",
+              "worstConfusionCount": 13
+            },
+            {
+              "class": "opel",
+              "correct": 7,
+              "f1": 0.152174,
+              "support": 42,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 14
+            },
+            {
+              "class": "saab",
+              "correct": 12,
+              "f1": 0.242424,
+              "support": 54,
+              "worstConfusedAs": "opel",
+              "worstConfusionCount": 21
+            },
+            {
+              "class": "van",
+              "correct": 11,
+              "f1": 0.252874,
+              "support": 45,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 13
+            }
+          ],
+          "weightedF1": 0.235586
+        },
+        "linear_logistic_sgd": {
+          "accuracy": 0.739362,
+          "fitNote": {
+            "rowsUsed": 658,
+            "subsampled": false
+          },
+          "macroF1": 0.741247,
+          "perClassF1": {
+            "bus": 0.957447,
+            "opel": 0.55102,
+            "saab": 0.521739,
+            "van": 0.934783
+          },
+          "perClassSummary": [
+            {
+              "class": "bus",
+              "correct": 45,
+              "f1": 0.957447,
+              "support": 47,
+              "worstConfusedAs": "opel",
+              "worstConfusionCount": 1
+            },
+            {
+              "class": "opel",
+              "correct": 27,
+              "f1": 0.55102,
+              "support": 42,
+              "worstConfusedAs": "saab",
+              "worstConfusionCount": 12
+            },
+            {
+              "class": "saab",
+              "correct": 24,
+              "f1": 0.521739,
+              "support": 54,
+              "worstConfusedAs": "opel",
+              "worstConfusionCount": 27
+            },
+            {
+              "class": "van",
+              "correct": 43,
+              "f1": 0.934783,
+              "support": 45,
+              "worstConfusedAs": "opel",
+              "worstConfusionCount": 1
+            }
+          ],
+          "weightedF1": 0.736074
+        },
+        "random_forest": {
+          "accuracy": 0.755319,
+          "fitNote": {
+            "rowsUsed": 658,
+            "subsampled": false
+          },
+          "macroF1": 0.751749,
+          "perClassF1": {
+            "bus": 0.969072,
+            "opel": 0.568421,
+            "saab": 0.533333,
+            "van": 0.93617
+          },
+          "perClassSummary": [
+            {
+              "class": "bus",
+              "correct": 47,
+              "f1": 0.969072,
+              "support": 47,
+              "worstConfusedAs": "bus",
+              "worstConfusionCount": 0
+            },
+            {
+              "class": "opel",
+              "correct": 27,
+              "f1": 0.568421,
+              "support": 42,
+              "worstConfusedAs": "saab",
+              "worstConfusionCount": 11
+            },
+            {
+              "class": "saab",
+              "correct": 24,
+              "f1": 0.533333,
+              "support": 54,
+              "worstConfusedAs": "opel",
+              "worstConfusionCount": 26
+            },
+            {
+              "class": "van",
+              "correct": 44,
+              "f1": 0.93617,
+              "support": 45,
+              "worstConfusedAs": "saab",
+              "worstConfusionCount": 1
+            }
+          ],
+          "weightedF1": 0.746531
+        }
+      },
+      "seed": 42,
+      "split": "two_shard_file_holdout",
+      "testRows": 188,
+      "trainRows": 658
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T14:11:54.242Z",
+  "updatedAt": "2026-05-06T14:39:37.571Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -161,6 +161,34 @@
       "latestSlug": "batch20-protocol-risk-paper-grade-frontier-result",
       "resultSlugs": [
         "batch20-protocol-risk-paper-grade-frontier-result"
+      ]
+    },
+    {
+      "versionGroup": "batch21-protocol-card-replay-week1",
+      "latestSlug": "batch21-protocol-card-replay-week1",
+      "resultSlugs": [
+        "batch21-protocol-card-replay-week1"
+      ]
+    },
+    {
+      "versionGroup": "batch22-protocol-card-replay-model-family-stress",
+      "latestSlug": "batch22-protocol-card-replay-model-family-stress",
+      "resultSlugs": [
+        "batch22-protocol-card-replay-model-family-stress"
+      ]
+    },
+    {
+      "versionGroup": "batch23-ambiguous-protocol-deep-replay-study",
+      "latestSlug": "batch23-ambiguous-protocol-deep-replay-study",
+      "resultSlugs": [
+        "batch23-ambiguous-protocol-deep-replay-study"
+      ]
+    },
+    {
+      "versionGroup": "batch24-protocol-card-kill-week-next-frontier",
+      "latestSlug": "batch24-protocol-card-kill-week-next-frontier",
+      "resultSlugs": [
+        "batch24-protocol-card-kill-week-next-frontier"
       ]
     },
     {
@@ -493,5 +521,5 @@
       ]
     }
   ],
-  "evidenceHash": "29ed719b41476ba6d965de74f0e86c81a2fb4593bcc1ddbd9ac9f379660d1e6d"
+  "evidenceHash": "b20fe2d1bc144f171015d1bb8f0603b868d6c639918418c206a46afbe0482d5b"
 }

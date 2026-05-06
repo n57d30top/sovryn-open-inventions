@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 71,
+    "good": 75,
     "reviewable": 6
   },
   "results": [
@@ -120,6 +120,26 @@
       "slug": "batch20-protocol-risk-paper-grade-frontier-result",
       "qualityLabel": "good",
       "releaseReadinessScore": 92
+    },
+    {
+      "slug": "batch21-protocol-card-replay-week1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "batch22-protocol-card-replay-model-family-stress",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "batch23-ambiguous-protocol-deep-replay-study",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "batch24-protocol-card-kill-week-next-frontier",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
     },
     {
       "slug": "batch3-palmer-penguins-dataset-quality-execution",
@@ -417,5 +437,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "23868c2e71354d9c7bb221430f5306deaf3b40fbb4c64457cbb42a6da95aa5b1"
+  "evidenceHash": "76c816743a55dfe5223e4dd06fd4152cc795ce19ee9dc910ef301ae8c63dd663"
 }

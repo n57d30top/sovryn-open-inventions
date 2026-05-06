@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "batch23-ambiguous-protocol-deep-replay-study",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "review_ready",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "container-netoff",
+    "falsification": "ambiguous_protocol_downgraded_after_variant_execution",
+    "lifecycle": "autopublished",
+    "version": "batch23-ambiguous-protocol-deep-replay-study",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "011cc7ab3dc99f88ab4d359186f6cdac101324a3b44a4636338d9c3aceb16d21"
+}

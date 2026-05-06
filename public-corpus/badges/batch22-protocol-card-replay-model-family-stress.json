@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "batch22-protocol-card-replay-model-family-stress",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "review_ready",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "container-netoff",
+    "falsification": "protocol_cards_stressed_with_ambiguous_vehicle_selected",
+    "lifecycle": "autopublished",
+    "version": "batch22-protocol-card-replay-model-family-stress",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "736b665d3c84028d93d85a68cce5a691434d4784c0ec6d04cf9ce5e65efcc227"
+}

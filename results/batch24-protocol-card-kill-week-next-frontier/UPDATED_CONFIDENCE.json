@@ -1,0 +1,23 @@
+{
+  "nextProgramConfidence": "medium_high",
+  "protocolCardConfidence": {
+    "ambiguous_shard_cards": "low_until_clarified",
+    "approximated_row_order_cards": "medium",
+    "clear_file_split_cards": "medium_high"
+  },
+  "targetConfidence": {
+    "HAR": "high",
+    "Landsat": "high_with_spatial_caveat",
+    "Letter": "medium_low_risk",
+    "Shuttle": "high_with_rare_class_caveat",
+    "Vehicle": "low_clear_protocol_confidence"
+  },
+  "toolConfidence": {
+    "container_netoff_replay_recipe": "reusable",
+    "metric_stress_validator": "reusable_support_tool",
+    "protocol-card replay format": "reusable_with_caveats",
+    "reproduction_ladder_artifact_pack": "reusable_support_tool",
+    "schema_provenance_auditor": "packaging_only",
+    "split-risk helper": "narrow_but_useful"
+  }
+}
