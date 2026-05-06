@@ -277,6 +277,19 @@ and safety scope in human-readable language.
 - [Original Principle Discovery Grand Challenge Stage 7 Conceptual Compression](results/grandchallenge-stage7-conceptual-compression/) — good, autopublished, grandchallenge-stage7-conceptual-compression, original principle discovery grand challenge
 - [Original Principle Discovery Grand Challenge Stage 8 External Usefulness Challenge](results/grandchallenge-stage8-external-usefulness-challenge/) — good, autopublished, grandchallenge-stage8-external-usefulness-challenge, original principle discovery grand challenge
 - [Original Principle Discovery Grand Challenge Stage 9 Adversarial Final Kill Week](results/grandchallenge-stage9-adversarial-final-kill-week/) — good, autopublished, grandchallenge-stage9-adversarial-final-kill-week, original principle discovery grand challenge
+- [Build Nobel Discovery Product Kernel](results/nobel-stage0-product-kernel/) — good, autopublished, nobel-stage0-product-kernel, nobel discovery portfolio v0
+- [Select High-Impact Safe Computational Discovery Domains](results/nobel-stage1-domain-portfolio-selection/) — good, autopublished, nobel-stage1-domain-portfolio-selection, nobel discovery portfolio v0
+- [Adversarial Theory Kill Week](results/nobel-stage10-adversarial-theory-kill-week/) — good, autopublished, nobel-stage10-adversarial-theory-kill-week, nobel discovery portfolio v0
+- [Select Discovery Candidate or Honest Failure](results/nobel-stage11-discovery-candidate-selection/) — good, autopublished, nobel-stage11-discovery-candidate-selection, nobel discovery portfolio v0
+- [Publish Paper-Grade Discovery Package](results/nobel-stage12-paper-grade-discovery-package/) — good, autopublished, nobel-stage12-paper-grade-discovery-package, nobel discovery portfolio v0
+- [Acquire Real Public Data and Toolchains](results/nobel-stage2-data-toolchain-acquisition/) — good, autopublished, nobel-stage2-data-toolchain-acquisition, nobel discovery portfolio v0
+- [Mine Anomalies Across High-Impact Domains](results/nobel-stage3-cross-domain-anomaly-mining/) — good, autopublished, nobel-stage3-cross-domain-anomaly-mining, nobel discovery portfolio v0
+- [Generate Discovery Hypotheses and Rival Theories](results/nobel-stage4-hypothesis-rival-theory-generation/) — good, autopublished, nobel-stage4-hypothesis-rival-theory-generation, nobel discovery portfolio v0
+- [Freeze Preregistered Discovery Predictions](results/nobel-stage5-preregistered-prediction-freeze/) — good, autopublished, nobel-stage5-preregistered-prediction-freeze, nobel discovery portfolio v0
+- [Execute Discovery Predictions Wave 1](results/nobel-stage6-prediction-execution-wave-1/) — good, autopublished, nobel-stage6-prediction-execution-wave-1, nobel discovery portfolio v0
+- [Execute Discovery Predictions Wave 2 with Deep Targets](results/nobel-stage7-deep-prediction-execution-wave/) — good, autopublished, nobel-stage7-deep-prediction-execution-wave, nobel discovery portfolio v0
+- [Run Holdout Challenge](results/nobel-stage8-holdout-challenge/) — good, autopublished, nobel-stage8-holdout-challenge, nobel discovery portfolio v0
+- [Independent Reproduction Gauntlet](results/nobel-stage9-independent-reproduction-gauntlet/) — good, autopublished, nobel-stage9-independent-reproduction-gauntlet, nobel discovery portfolio v0
 - [Patch Risk Auditor](results/patch-risk-auditor/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v2/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v3/) — good, showcase, patch-risk-auditor, software-supply-chain

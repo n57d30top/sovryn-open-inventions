@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 253
+Results: 266
 
 ## Lifecycle Counts
 
-- autopublished: 222
+- autopublished: 235
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -243,6 +243,19 @@ Results: 253
 - grandchallenge-stage7-conceptual-compression: latest grandchallenge-stage7-conceptual-compression; grandchallenge-stage7-conceptual-compression
 - grandchallenge-stage8-external-usefulness-challenge: latest grandchallenge-stage8-external-usefulness-challenge; grandchallenge-stage8-external-usefulness-challenge
 - grandchallenge-stage9-adversarial-final-kill-week: latest grandchallenge-stage9-adversarial-final-kill-week; grandchallenge-stage9-adversarial-final-kill-week
+- nobel-stage0-product-kernel: latest nobel-stage0-product-kernel; nobel-stage0-product-kernel
+- nobel-stage1-domain-portfolio-selection: latest nobel-stage1-domain-portfolio-selection; nobel-stage1-domain-portfolio-selection
+- nobel-stage10-adversarial-theory-kill-week: latest nobel-stage10-adversarial-theory-kill-week; nobel-stage10-adversarial-theory-kill-week
+- nobel-stage11-discovery-candidate-selection: latest nobel-stage11-discovery-candidate-selection; nobel-stage11-discovery-candidate-selection
+- nobel-stage12-paper-grade-discovery-package: latest nobel-stage12-paper-grade-discovery-package; nobel-stage12-paper-grade-discovery-package
+- nobel-stage2-data-toolchain-acquisition: latest nobel-stage2-data-toolchain-acquisition; nobel-stage2-data-toolchain-acquisition
+- nobel-stage3-cross-domain-anomaly-mining: latest nobel-stage3-cross-domain-anomaly-mining; nobel-stage3-cross-domain-anomaly-mining
+- nobel-stage4-hypothesis-rival-theory-generation: latest nobel-stage4-hypothesis-rival-theory-generation; nobel-stage4-hypothesis-rival-theory-generation
+- nobel-stage5-preregistered-prediction-freeze: latest nobel-stage5-preregistered-prediction-freeze; nobel-stage5-preregistered-prediction-freeze
+- nobel-stage6-prediction-execution-wave-1: latest nobel-stage6-prediction-execution-wave-1; nobel-stage6-prediction-execution-wave-1
+- nobel-stage7-deep-prediction-execution-wave: latest nobel-stage7-deep-prediction-execution-wave; nobel-stage7-deep-prediction-execution-wave
+- nobel-stage8-holdout-challenge: latest nobel-stage8-holdout-challenge; nobel-stage8-holdout-challenge
+- nobel-stage9-independent-reproduction-gauntlet: latest nobel-stage9-independent-reproduction-gauntlet; nobel-stage9-independent-reproduction-gauntlet
 - patch-risk-auditor: latest patch-risk-auditor-v3; patch-risk-auditor, patch-risk-auditor-v2, patch-risk-auditor-v3
 - reality-grade-autonomous-science-trial: latest reality-grade-autonomous-science-trial; reality-grade-autonomous-science-trial
 - scientific-dataset-reliability-self-built-lab-study: latest scientific-dataset-reliability-self-built-lab-study; scientific-dataset-reliability-self-built-lab-study

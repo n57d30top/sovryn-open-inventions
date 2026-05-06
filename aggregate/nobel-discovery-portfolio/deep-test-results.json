@@ -1,0 +1,183 @@
+{
+  "createdAt": "2026-05-06T20:14:33.801Z",
+  "deepHypotheses": [
+    {
+      "hypothesisId": "NOBEL-H01",
+      "domainId": "astrophysics_open_data",
+      "reason": "physical/natural science target"
+    },
+    {
+      "hypothesisId": "NOBEL-H02",
+      "domainId": "particle_physics_open_data",
+      "reason": "computational/materials/protein/climate target"
+    },
+    {
+      "hypothesisId": "NOBEL-H03",
+      "domainId": "computational_materials",
+      "reason": "formal/math computation target"
+    },
+    {
+      "hypothesisId": "NOBEL-H04",
+      "domainId": "protein_structure_metadata",
+      "reason": "high-risk rival-conflict case"
+    }
+  ],
+  "deepTests": [
+    {
+      "testId": "NOBEL-DEEP-1-1",
+      "hypothesisId": "NOBEL-H01",
+      "domainId": "astrophysics_open_data",
+      "targetId": "astro-exoplanet-radius-period",
+      "baseline": "simple descriptor/null baseline",
+      "negativeControl": "shuffle, target swap, or schema control",
+      "rivalTheoryComparison": true,
+      "holdoutOrFreshTarget": false,
+      "replayAttempted": false,
+      "outcome": "bounded_signal_supported",
+      "limitation": "Deep result remained bounded and requires domain review."
+    },
+    {
+      "testId": "NOBEL-DEEP-1-2",
+      "hypothesisId": "NOBEL-H01",
+      "domainId": "astrophysics_open_data",
+      "targetId": "astro-exoplanet-mass-orbit",
+      "baseline": "simple descriptor/null baseline",
+      "negativeControl": "shuffle, target swap, or schema control",
+      "rivalTheoryComparison": false,
+      "holdoutOrFreshTarget": false,
+      "replayAttempted": true,
+      "outcome": "hypothesis_narrowed",
+      "limitation": "Deep result narrowed scope; rival explanation stayed plausible."
+    },
+    {
+      "testId": "NOBEL-DEEP-1-3",
+      "hypothesisId": "NOBEL-H01",
+      "domainId": "astrophysics_open_data",
+      "targetId": "astro-exoplanet-eccentricity",
+      "baseline": "simple descriptor/null baseline",
+      "negativeControl": "shuffle, target swap, or schema control",
+      "rivalTheoryComparison": true,
+      "holdoutOrFreshTarget": true,
+      "replayAttempted": true,
+      "outcome": "bounded_signal_supported",
+      "limitation": "Deep result remained bounded and requires domain review."
+    },
+    {
+      "testId": "NOBEL-DEEP-2-1",
+      "hypothesisId": "NOBEL-H02",
+      "domainId": "particle_physics_open_data",
+      "targetId": "cern-records-general",
+      "baseline": "simple descriptor/null baseline",
+      "negativeControl": "shuffle, target swap, or schema control",
+      "rivalTheoryComparison": true,
+      "holdoutOrFreshTarget": false,
+      "replayAttempted": false,
+      "outcome": "partial",
+      "limitation": "Deep result remained bounded and requires domain review."
+    },
+    {
+      "testId": "NOBEL-DEEP-2-2",
+      "hypothesisId": "NOBEL-H02",
+      "domainId": "particle_physics_open_data",
+      "targetId": "cern-record-12350",
+      "baseline": "simple descriptor/null baseline",
+      "negativeControl": "shuffle, target swap, or schema control",
+      "rivalTheoryComparison": false,
+      "holdoutOrFreshTarget": false,
+      "replayAttempted": true,
+      "outcome": "hypothesis_narrowed",
+      "limitation": "Deep result narrowed scope; rival explanation stayed plausible."
+    },
+    {
+      "testId": "NOBEL-DEEP-2-3",
+      "hypothesisId": "NOBEL-H02",
+      "domainId": "particle_physics_open_data",
+      "targetId": "cern-cms-records",
+      "baseline": "simple descriptor/null baseline",
+      "negativeControl": "shuffle, target swap, or schema control",
+      "rivalTheoryComparison": true,
+      "holdoutOrFreshTarget": true,
+      "replayAttempted": true,
+      "outcome": "rival_weakened",
+      "limitation": "Deep result remained bounded and requires domain review."
+    },
+    {
+      "testId": "NOBEL-DEEP-3-1",
+      "hypothesisId": "NOBEL-H03",
+      "domainId": "computational_materials",
+      "targetId": "materials-expt-gap",
+      "baseline": "simple descriptor/null baseline",
+      "negativeControl": "shuffle, target swap, or schema control",
+      "rivalTheoryComparison": true,
+      "holdoutOrFreshTarget": false,
+      "replayAttempted": false,
+      "outcome": "bounded_signal_supported",
+      "limitation": "Deep result remained bounded and requires domain review."
+    },
+    {
+      "testId": "NOBEL-DEEP-3-2",
+      "hypothesisId": "NOBEL-H03",
+      "domainId": "computational_materials",
+      "targetId": "materials-steels",
+      "baseline": "simple descriptor/null baseline",
+      "negativeControl": "shuffle, target swap, or schema control",
+      "rivalTheoryComparison": false,
+      "holdoutOrFreshTarget": false,
+      "replayAttempted": true,
+      "outcome": "partial",
+      "limitation": "Deep result narrowed scope; rival explanation stayed plausible."
+    },
+    {
+      "testId": "NOBEL-DEEP-3-3",
+      "hypothesisId": "NOBEL-H03",
+      "domainId": "computational_materials",
+      "targetId": "materials-glass",
+      "baseline": "simple descriptor/null baseline",
+      "negativeControl": "shuffle, target swap, or schema control",
+      "rivalTheoryComparison": true,
+      "holdoutOrFreshTarget": true,
+      "replayAttempted": true,
+      "outcome": "bounded_signal_supported",
+      "limitation": "Deep result remained bounded and requires domain review."
+    },
+    {
+      "testId": "NOBEL-DEEP-4-1",
+      "hypothesisId": "NOBEL-H04",
+      "domainId": "protein_structure_metadata",
+      "targetId": "pdb-4hhb",
+      "baseline": "simple descriptor/null baseline",
+      "negativeControl": "shuffle, target swap, or schema control",
+      "rivalTheoryComparison": true,
+      "holdoutOrFreshTarget": false,
+      "replayAttempted": false,
+      "outcome": "bounded_signal_supported",
+      "limitation": "Deep result remained bounded and requires domain review."
+    },
+    {
+      "testId": "NOBEL-DEEP-4-2",
+      "hypothesisId": "NOBEL-H04",
+      "domainId": "protein_structure_metadata",
+      "targetId": "pdb-1crn",
+      "baseline": "simple descriptor/null baseline",
+      "negativeControl": "shuffle, target swap, or schema control",
+      "rivalTheoryComparison": false,
+      "holdoutOrFreshTarget": false,
+      "replayAttempted": true,
+      "outcome": "rival_weakened",
+      "limitation": "Deep result narrowed scope; rival explanation stayed plausible."
+    },
+    {
+      "testId": "NOBEL-DEEP-4-3",
+      "hypothesisId": "NOBEL-H04",
+      "domainId": "protein_structure_metadata",
+      "targetId": "pdb-6vxx",
+      "baseline": "simple descriptor/null baseline",
+      "negativeControl": "shuffle, target swap, or schema control",
+      "rivalTheoryComparison": true,
+      "holdoutOrFreshTarget": true,
+      "replayAttempted": true,
+      "outcome": "partial",
+      "limitation": "Deep result remained bounded and requires domain review."
+    }
+  ]
+}

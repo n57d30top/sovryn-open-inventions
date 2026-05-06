@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 242,
+    "good": 255,
     "reviewable": 6
   },
   "results": [
@@ -1217,6 +1217,71 @@
       "releaseReadinessScore": 90
     },
     {
+      "slug": "nobel-stage0-product-kernel",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "nobel-stage1-domain-portfolio-selection",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "nobel-stage10-adversarial-theory-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "nobel-stage11-discovery-candidate-selection",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "nobel-stage12-paper-grade-discovery-package",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "nobel-stage2-data-toolchain-acquisition",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "nobel-stage3-cross-domain-anomaly-mining",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "nobel-stage4-hypothesis-rival-theory-generation",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "nobel-stage5-preregistered-prediction-freeze",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "nobel-stage6-prediction-execution-wave-1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "nobel-stage7-deep-prediction-execution-wave",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "nobel-stage8-holdout-challenge",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
+      "slug": "nobel-stage9-independent-reproduction-gauntlet",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
+    },
+    {
       "slug": "patch-risk-auditor",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
@@ -1272,5 +1337,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "f0c0e62a9dd6efb5271ac246b2670ea550045ab5c3718ccd3f0ebb281ddfa815"
+  "evidenceHash": "98cb20ae8ed6f2c8ec6d5eaa1d6abdc2545127648d486ad7141bd4d6a2c9166d"
 }

@@ -1,0 +1,17 @@
+{
+  "classification": "promising_discovery_candidate",
+  "einsteinPathScore": 64,
+  "productCommit": "7df209497f2486a4ec4e7b764a1ad5f53ad7402a",
+  "freezeCommit": "dd77454",
+  "corpusCountBefore": 253,
+  "corpusCountAfter": 266,
+  "predictionFrozen": 36,
+  "wave1Executed": 18,
+  "deepTests": 12,
+  "holdoutExecuted": 8,
+  "independentReplays": 6,
+  "rivalsWeakened": 3,
+  "wrongPartialInconclusive": 6,
+  "survivingCandidateCount": 2,
+  "nextFrontierProgram": "External Expert Review of Receipt-Stable Descriptor Residual Candidates"
+}

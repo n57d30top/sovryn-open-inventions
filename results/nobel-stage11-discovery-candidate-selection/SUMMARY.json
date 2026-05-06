@@ -1,0 +1,31 @@
+{
+  "kind": "nobel_discovery_candidate_selection_summary",
+  "slug": "nobel-stage11-discovery-candidate-selection",
+  "title": "Select Discovery Candidate or Honest Failure",
+  "resultKind": "nobel_discovery_candidate_selection",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 91,
+  "reproducibilityScore": 91,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 93,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "bounded_falsification_attempted",
+  "baselineComparisonPresent": true,
+  "scientificMemoryUpdated": true,
+  "scientificQuestion": "Can safe computational public evidence produce a bounded externally testable discovery candidate without overclaiming?",
+  "domain": "nobel discovery portfolio v0",
+  "objective": "Select Discovery Candidate or Honest Failure",
+  "limitations": [
+    "Safe computational public evidence only.",
+    "No prize, broad autonomy, or major-discovery claim.",
+    "No physical-lab, clinical, hazardous, legal, universal, or external-uptake claim."
+  ],
+  "evidenceHash": "32afcdaa7534fa7d8b240d75c6e8113e8716200057d15f5b9a6da7fd17b9038a"
+}

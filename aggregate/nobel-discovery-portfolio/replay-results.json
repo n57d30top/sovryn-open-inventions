@@ -1,0 +1,71 @@
+{
+  "createdAt": "2026-05-06T20:14:33.801Z",
+  "replays": [
+    {
+      "replayId": "NOBEL-RP-1",
+      "predictionId": "NOBEL-P01",
+      "targetId": "astro-exoplanet-radius-period",
+      "sourceReretrievalAttempted": true,
+      "freshWorkspaceReplay": true,
+      "approximateReproductionAttempted": true,
+      "replaySucceeded": true,
+      "divergence": "summary hash/metric direction reproduced",
+      "candidateDowngrade": false
+    },
+    {
+      "replayId": "NOBEL-RP-2",
+      "predictionId": "NOBEL-P02",
+      "targetId": "astro-exoplanet-mass-orbit",
+      "sourceReretrievalAttempted": true,
+      "freshWorkspaceReplay": true,
+      "approximateReproductionAttempted": true,
+      "replaySucceeded": true,
+      "divergence": "summary hash/metric direction reproduced",
+      "candidateDowngrade": false
+    },
+    {
+      "replayId": "NOBEL-RP-3",
+      "predictionId": "NOBEL-P03",
+      "targetId": "astro-exoplanet-eccentricity",
+      "sourceReretrievalAttempted": true,
+      "freshWorkspaceReplay": true,
+      "approximateReproductionAttempted": true,
+      "replaySucceeded": false,
+      "divergence": "metric direction or parsing changed enough to downgrade confidence",
+      "candidateDowngrade": true
+    },
+    {
+      "replayId": "NOBEL-RP-4",
+      "predictionId": "NOBEL-P04",
+      "targetId": "cern-records-general",
+      "sourceReretrievalAttempted": false,
+      "freshWorkspaceReplay": false,
+      "approximateReproductionAttempted": true,
+      "replaySucceeded": true,
+      "divergence": "summary hash/metric direction reproduced",
+      "candidateDowngrade": false
+    },
+    {
+      "replayId": "NOBEL-RP-5",
+      "predictionId": "NOBEL-P05",
+      "targetId": "cern-record-12350",
+      "sourceReretrievalAttempted": false,
+      "freshWorkspaceReplay": false,
+      "approximateReproductionAttempted": true,
+      "replaySucceeded": true,
+      "divergence": "summary hash/metric direction reproduced",
+      "candidateDowngrade": false
+    },
+    {
+      "replayId": "NOBEL-RP-6",
+      "predictionId": "NOBEL-P06",
+      "targetId": "cern-cms-records",
+      "sourceReretrievalAttempted": false,
+      "freshWorkspaceReplay": false,
+      "approximateReproductionAttempted": true,
+      "replaySucceeded": false,
+      "divergence": "metric direction or parsing changed enough to downgrade confidence",
+      "candidateDowngrade": true
+    }
+  ]
+}

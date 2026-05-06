@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T19:43:53.802Z",
+  "generatedAt": "2026-05-06T20:15:33.067Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1455,6 +1455,84 @@
       "domain": "original principle discovery grand challenge"
     },
     {
+      "id": "result:nobel-stage0-product-kernel",
+      "kind": "result",
+      "label": "Build Nobel Discovery Product Kernel",
+      "domain": "nobel discovery portfolio v0"
+    },
+    {
+      "id": "result:nobel-stage1-domain-portfolio-selection",
+      "kind": "result",
+      "label": "Select High-Impact Safe Computational Discovery Domains",
+      "domain": "nobel discovery portfolio v0"
+    },
+    {
+      "id": "result:nobel-stage10-adversarial-theory-kill-week",
+      "kind": "result",
+      "label": "Adversarial Theory Kill Week",
+      "domain": "nobel discovery portfolio v0"
+    },
+    {
+      "id": "result:nobel-stage11-discovery-candidate-selection",
+      "kind": "result",
+      "label": "Select Discovery Candidate or Honest Failure",
+      "domain": "nobel discovery portfolio v0"
+    },
+    {
+      "id": "result:nobel-stage12-paper-grade-discovery-package",
+      "kind": "result",
+      "label": "Publish Paper-Grade Discovery Package",
+      "domain": "nobel discovery portfolio v0"
+    },
+    {
+      "id": "result:nobel-stage2-data-toolchain-acquisition",
+      "kind": "result",
+      "label": "Acquire Real Public Data and Toolchains",
+      "domain": "nobel discovery portfolio v0"
+    },
+    {
+      "id": "result:nobel-stage3-cross-domain-anomaly-mining",
+      "kind": "result",
+      "label": "Mine Anomalies Across High-Impact Domains",
+      "domain": "nobel discovery portfolio v0"
+    },
+    {
+      "id": "result:nobel-stage4-hypothesis-rival-theory-generation",
+      "kind": "result",
+      "label": "Generate Discovery Hypotheses and Rival Theories",
+      "domain": "nobel discovery portfolio v0"
+    },
+    {
+      "id": "result:nobel-stage5-preregistered-prediction-freeze",
+      "kind": "result",
+      "label": "Freeze Preregistered Discovery Predictions",
+      "domain": "nobel discovery portfolio v0"
+    },
+    {
+      "id": "result:nobel-stage6-prediction-execution-wave-1",
+      "kind": "result",
+      "label": "Execute Discovery Predictions Wave 1",
+      "domain": "nobel discovery portfolio v0"
+    },
+    {
+      "id": "result:nobel-stage7-deep-prediction-execution-wave",
+      "kind": "result",
+      "label": "Execute Discovery Predictions Wave 2 with Deep Targets",
+      "domain": "nobel discovery portfolio v0"
+    },
+    {
+      "id": "result:nobel-stage8-holdout-challenge",
+      "kind": "result",
+      "label": "Run Holdout Challenge",
+      "domain": "nobel discovery portfolio v0"
+    },
+    {
+      "id": "result:nobel-stage9-independent-reproduction-gauntlet",
+      "kind": "result",
+      "label": "Independent Reproduction Gauntlet",
+      "domain": "nobel discovery portfolio v0"
+    },
+    {
       "id": "result:patch-risk-auditor",
       "kind": "result",
       "label": "Patch Risk Auditor",
@@ -1764,6 +1842,11 @@
       "id": "domain:original principle discovery grand challenge",
       "kind": "domain",
       "label": "original principle discovery grand challenge"
+    },
+    {
+      "id": "domain:nobel discovery portfolio v0",
+      "kind": "domain",
+      "label": "nobel discovery portfolio v0"
     },
     {
       "id": "domain:software-supply-chain",
@@ -3898,6 +3981,71 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:nobel-stage0-product-kernel",
+      "target": "domain:nobel discovery portfolio v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nobel-stage1-domain-portfolio-selection",
+      "target": "domain:nobel discovery portfolio v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nobel-stage10-adversarial-theory-kill-week",
+      "target": "domain:nobel discovery portfolio v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nobel-stage11-discovery-candidate-selection",
+      "target": "domain:nobel discovery portfolio v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nobel-stage12-paper-grade-discovery-package",
+      "target": "domain:nobel discovery portfolio v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nobel-stage2-data-toolchain-acquisition",
+      "target": "domain:nobel discovery portfolio v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nobel-stage3-cross-domain-anomaly-mining",
+      "target": "domain:nobel discovery portfolio v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nobel-stage4-hypothesis-rival-theory-generation",
+      "target": "domain:nobel discovery portfolio v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nobel-stage5-preregistered-prediction-freeze",
+      "target": "domain:nobel discovery portfolio v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nobel-stage6-prediction-execution-wave-1",
+      "target": "domain:nobel discovery portfolio v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nobel-stage7-deep-prediction-execution-wave",
+      "target": "domain:nobel discovery portfolio v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nobel-stage8-holdout-challenge",
+      "target": "domain:nobel discovery portfolio v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nobel-stage9-independent-reproduction-gauntlet",
+      "target": "domain:nobel discovery portfolio v0",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:patch-risk-auditor",
       "target": "domain:software-supply-chain",
       "relation": "belongs_to_domain"
@@ -4003,5 +4151,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "7f15a21e4292bb0d6466241724e34b5bbc47040c3914c87fb3e5b55ba7487f7c"
+  "evidenceHash": "281a5eab969814a1424a834f9d591a9ddc6c60cb5e6f0a289ad00883ea0f309b"
 }

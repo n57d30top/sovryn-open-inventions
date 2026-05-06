@@ -1,0 +1,31 @@
+{
+  "kind": "nobel_adversarial_theory_kill_week_summary",
+  "slug": "nobel-stage10-adversarial-theory-kill-week",
+  "title": "Adversarial Theory Kill Week",
+  "resultKind": "nobel_adversarial_theory_kill_week",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 91,
+  "reproducibilityScore": 91,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 93,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "bounded_falsification_attempted",
+  "baselineComparisonPresent": true,
+  "scientificMemoryUpdated": true,
+  "scientificQuestion": "Can safe computational public evidence produce a bounded externally testable discovery candidate without overclaiming?",
+  "domain": "nobel discovery portfolio v0",
+  "objective": "Adversarial Theory Kill Week",
+  "limitations": [
+    "Safe computational public evidence only.",
+    "No prize, broad autonomy, or major-discovery claim.",
+    "No physical-lab, clinical, hazardous, legal, universal, or external-uptake claim."
+  ],
+  "evidenceHash": "37aed353d9345de36babda90496dabcc49de8088cfde207a929715bfaebf629a"
+}

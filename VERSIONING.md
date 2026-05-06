@@ -236,6 +236,19 @@ can supersede earlier entries while preserving audit history.
 - grandchallenge-stage7-conceptual-compression: latest grandchallenge-stage7-conceptual-compression; versions grandchallenge-stage7-conceptual-compression
 - grandchallenge-stage8-external-usefulness-challenge: latest grandchallenge-stage8-external-usefulness-challenge; versions grandchallenge-stage8-external-usefulness-challenge
 - grandchallenge-stage9-adversarial-final-kill-week: latest grandchallenge-stage9-adversarial-final-kill-week; versions grandchallenge-stage9-adversarial-final-kill-week
+- nobel-stage0-product-kernel: latest nobel-stage0-product-kernel; versions nobel-stage0-product-kernel
+- nobel-stage1-domain-portfolio-selection: latest nobel-stage1-domain-portfolio-selection; versions nobel-stage1-domain-portfolio-selection
+- nobel-stage10-adversarial-theory-kill-week: latest nobel-stage10-adversarial-theory-kill-week; versions nobel-stage10-adversarial-theory-kill-week
+- nobel-stage11-discovery-candidate-selection: latest nobel-stage11-discovery-candidate-selection; versions nobel-stage11-discovery-candidate-selection
+- nobel-stage12-paper-grade-discovery-package: latest nobel-stage12-paper-grade-discovery-package; versions nobel-stage12-paper-grade-discovery-package
+- nobel-stage2-data-toolchain-acquisition: latest nobel-stage2-data-toolchain-acquisition; versions nobel-stage2-data-toolchain-acquisition
+- nobel-stage3-cross-domain-anomaly-mining: latest nobel-stage3-cross-domain-anomaly-mining; versions nobel-stage3-cross-domain-anomaly-mining
+- nobel-stage4-hypothesis-rival-theory-generation: latest nobel-stage4-hypothesis-rival-theory-generation; versions nobel-stage4-hypothesis-rival-theory-generation
+- nobel-stage5-preregistered-prediction-freeze: latest nobel-stage5-preregistered-prediction-freeze; versions nobel-stage5-preregistered-prediction-freeze
+- nobel-stage6-prediction-execution-wave-1: latest nobel-stage6-prediction-execution-wave-1; versions nobel-stage6-prediction-execution-wave-1
+- nobel-stage7-deep-prediction-execution-wave: latest nobel-stage7-deep-prediction-execution-wave; versions nobel-stage7-deep-prediction-execution-wave
+- nobel-stage8-holdout-challenge: latest nobel-stage8-holdout-challenge; versions nobel-stage8-holdout-challenge
+- nobel-stage9-independent-reproduction-gauntlet: latest nobel-stage9-independent-reproduction-gauntlet; versions nobel-stage9-independent-reproduction-gauntlet
 - patch-risk-auditor: latest patch-risk-auditor-v3; versions patch-risk-auditor, patch-risk-auditor-v2, patch-risk-auditor-v3
 - reality-grade-autonomous-science-trial: latest reality-grade-autonomous-science-trial; versions reality-grade-autonomous-science-trial
 - scientific-dataset-reliability-self-built-lab-study: latest scientific-dataset-reliability-self-built-lab-study; versions scientific-dataset-reliability-self-built-lab-study

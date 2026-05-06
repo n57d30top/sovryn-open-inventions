@@ -1,0 +1,31 @@
+{
+  "kind": "nobel_holdout_challenge_summary",
+  "slug": "nobel-stage8-holdout-challenge",
+  "title": "Run Holdout Challenge",
+  "resultKind": "nobel_holdout_challenge",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 91,
+  "reproducibilityScore": 91,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 93,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "bounded_falsification_attempted",
+  "baselineComparisonPresent": true,
+  "scientificMemoryUpdated": true,
+  "scientificQuestion": "Can safe computational public evidence produce a bounded externally testable discovery candidate without overclaiming?",
+  "domain": "nobel discovery portfolio v0",
+  "objective": "Run Holdout Challenge",
+  "limitations": [
+    "Safe computational public evidence only.",
+    "No prize, broad autonomy, or major-discovery claim.",
+    "No physical-lab, clinical, hazardous, legal, universal, or external-uptake claim."
+  ],
+  "evidenceHash": "e40802a13f43ff28b6c0620533e3418cd41dd81c6e9db78365bfa82f8402f046"
+}

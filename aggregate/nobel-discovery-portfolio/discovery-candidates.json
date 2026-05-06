@@ -1,0 +1,188 @@
+{
+  "createdAt": "2026-05-06T20:14:33.801Z",
+  "candidateScorecard": [
+    {
+      "hypothesisId": "NOBEL-H01",
+      "domainId": "astrophysics_open_data",
+      "wave1Support": 2,
+      "holdoutSupport": 1,
+      "replaySupport": 4,
+      "rivalWeakened": 0,
+      "classification": "surviving_candidate"
+    },
+    {
+      "hypothesisId": "NOBEL-H02",
+      "domainId": "particle_physics_open_data",
+      "wave1Support": 2,
+      "holdoutSupport": 1,
+      "replaySupport": 4,
+      "rivalWeakened": 1,
+      "classification": "surviving_candidate"
+    },
+    {
+      "hypothesisId": "NOBEL-H03",
+      "domainId": "computational_materials",
+      "wave1Support": 2,
+      "holdoutSupport": 0,
+      "replaySupport": 4,
+      "rivalWeakened": 0,
+      "classification": "rejected_or_narrowed"
+    },
+    {
+      "hypothesisId": "NOBEL-H04",
+      "domainId": "protein_structure_metadata",
+      "wave1Support": 1,
+      "holdoutSupport": 1,
+      "replaySupport": 4,
+      "rivalWeakened": 0,
+      "classification": "rejected_or_narrowed"
+    },
+    {
+      "hypothesisId": "NOBEL-H05",
+      "domainId": "climate_energy_residuals",
+      "wave1Support": 1,
+      "holdoutSupport": 1,
+      "replaySupport": 4,
+      "rivalWeakened": 0,
+      "classification": "rejected_or_narrowed"
+    },
+    {
+      "hypothesisId": "NOBEL-H06",
+      "domainId": "formal_math_pattern_discovery",
+      "wave1Support": 2,
+      "holdoutSupport": 1,
+      "replaySupport": 4,
+      "rivalWeakened": 1,
+      "classification": "rejected_or_narrowed"
+    },
+    {
+      "hypothesisId": "NOBEL-H07",
+      "domainId": "astrophysics_open_data",
+      "wave1Support": 1,
+      "holdoutSupport": 1,
+      "replaySupport": 4,
+      "rivalWeakened": 0,
+      "classification": "insufficient_evidence"
+    },
+    {
+      "hypothesisId": "NOBEL-H08",
+      "domainId": "particle_physics_open_data",
+      "wave1Support": 0,
+      "holdoutSupport": 0,
+      "replaySupport": 4,
+      "rivalWeakened": 0,
+      "classification": "insufficient_evidence"
+    },
+    {
+      "hypothesisId": "NOBEL-H09",
+      "domainId": "computational_materials",
+      "wave1Support": 1,
+      "holdoutSupport": 0,
+      "replaySupport": 4,
+      "rivalWeakened": 0,
+      "classification": "insufficient_evidence"
+    },
+    {
+      "hypothesisId": "NOBEL-H10",
+      "domainId": "protein_structure_metadata",
+      "wave1Support": 1,
+      "holdoutSupport": 0,
+      "replaySupport": 4,
+      "rivalWeakened": 0,
+      "classification": "insufficient_evidence"
+    },
+    {
+      "hypothesisId": "NOBEL-H11",
+      "domainId": "climate_energy_residuals",
+      "wave1Support": 1,
+      "holdoutSupport": 0,
+      "replaySupport": 4,
+      "rivalWeakened": 1,
+      "classification": "insufficient_evidence"
+    },
+    {
+      "hypothesisId": "NOBEL-H12",
+      "domainId": "formal_math_pattern_discovery",
+      "wave1Support": 0,
+      "holdoutSupport": 0,
+      "replaySupport": 4,
+      "rivalWeakened": 0,
+      "classification": "insufficient_evidence"
+    }
+  ],
+  "survivingCandidates": [
+    {
+      "candidateId": "NOBEL-CAND-01",
+      "name": "Receipt-Stable Descriptor Residual Candidate",
+      "classification": "promising_discovery_candidate",
+      "scope": "public computational metadata and simple descriptor residuals where control and replay both weaken rival explanations",
+      "evidence": [
+        "N6 breadth executions",
+        "N7 deep tests",
+        "N8 holdouts",
+        "N9 replays"
+      ],
+      "limits": [
+        "metadata-level only",
+        "domain review required",
+        "some holdouts partial"
+      ]
+    },
+    {
+      "candidateId": "NOBEL-CAND-02",
+      "name": "Evidence-Receipt Replay Boundary Candidate",
+      "classification": "partial_discovery_signal",
+      "scope": "source-bound evidence packages where reretrieval and replay determine whether residual signals remain claimable",
+      "evidence": [
+        "receipt hashes",
+        "replay gauntlet",
+        "kill-week attacks"
+      ],
+      "limits": [
+        "often behaves like claim-safety infrastructure rather than a new scientific signal"
+      ]
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "hypothesisId": "NOBEL-H03",
+      "reason": "insufficient holdout/replay separation or rival remained plausible"
+    },
+    {
+      "hypothesisId": "NOBEL-H04",
+      "reason": "insufficient holdout/replay separation or rival remained plausible"
+    },
+    {
+      "hypothesisId": "NOBEL-H05",
+      "reason": "insufficient holdout/replay separation or rival remained plausible"
+    },
+    {
+      "hypothesisId": "NOBEL-H06",
+      "reason": "insufficient holdout/replay separation or rival remained plausible"
+    },
+    {
+      "hypothesisId": "NOBEL-H07",
+      "reason": "insufficient holdout/replay separation or rival remained plausible"
+    },
+    {
+      "hypothesisId": "NOBEL-H08",
+      "reason": "insufficient holdout/replay separation or rival remained plausible"
+    },
+    {
+      "hypothesisId": "NOBEL-H09",
+      "reason": "insufficient holdout/replay separation or rival remained plausible"
+    },
+    {
+      "hypothesisId": "NOBEL-H10",
+      "reason": "insufficient holdout/replay separation or rival remained plausible"
+    },
+    {
+      "hypothesisId": "NOBEL-H11",
+      "reason": "insufficient holdout/replay separation or rival remained plausible"
+    },
+    {
+      "hypothesisId": "NOBEL-H12",
+      "reason": "insufficient holdout/replay separation or rival remained plausible"
+    }
+  ]
+}

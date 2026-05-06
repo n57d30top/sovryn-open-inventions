@@ -1,0 +1,215 @@
+{
+  "createdAt": "2026-05-06T20:14:33.801Z",
+  "holdoutTargets": [
+    {
+      "targetId": "holdout-astro-host-star",
+      "domainId": "astrophysics_open_data",
+      "description": "Exoplanet host-star radius holdout",
+      "sourceUrl": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+top+100+pl_name,st_rad,st_mass,st_teff+from+pscomppars+where+st_rad+is+not+null+and+st_mass+is+not+null+and+st_teff+is+not+null&format=csv"
+    },
+    {
+      "targetId": "holdout-cern-atlas",
+      "domainId": "particle_physics_open_data",
+      "description": "CERN ATLAS metadata holdout",
+      "sourceUrl": "https://opendata.cern.ch/api/records/?q=ATLAS&size=10"
+    },
+    {
+      "targetId": "holdout-materials-glass",
+      "domainId": "computational_materials",
+      "description": "Matbench glass holdout",
+      "sourceUrl": "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_glass.json"
+    },
+    {
+      "targetId": "holdout-pdb-1a3n",
+      "domainId": "protein_structure_metadata",
+      "description": "RCSB PDB 1A3N holdout",
+      "sourceUrl": "https://data.rcsb.org/rest/v1/core/entry/1A3N"
+    },
+    {
+      "targetId": "holdout-pdb-7k00",
+      "domainId": "protein_structure_metadata",
+      "description": "RCSB PDB 7K00 holdout",
+      "sourceUrl": "https://data.rcsb.org/rest/v1/core/entry/7K00"
+    },
+    {
+      "targetId": "holdout-climate-zonal",
+      "domainId": "climate_energy_residuals",
+      "description": "NASA GISTEMP zonal annual holdout",
+      "sourceUrl": "https://data.giss.nasa.gov/gistemp/tabledata_v4/ZonAnn.Ts+dSST.csv"
+    },
+    {
+      "targetId": "holdout-oeis-triangular",
+      "domainId": "formal_math_pattern_discovery",
+      "description": "OEIS A000217 triangular numbers holdout",
+      "sourceUrl": "https://oeis.org/A000217/b000217.txt"
+    },
+    {
+      "targetId": "holdout-oeis-squares",
+      "domainId": "formal_math_pattern_discovery",
+      "description": "OEIS A000290 square numbers holdout",
+      "sourceUrl": "https://oeis.org/A000290/b000290.txt"
+    },
+    {
+      "targetId": "holdout-oeis-catalan",
+      "domainId": "formal_math_pattern_discovery",
+      "description": "OEIS A000108 Catalan numbers holdout",
+      "sourceUrl": "https://oeis.org/A000108/b000108.txt"
+    },
+    {
+      "targetId": "holdout-cern-lhc",
+      "domainId": "particle_physics_open_data",
+      "description": "CERN LHC metadata holdout",
+      "sourceUrl": "https://opendata.cern.ch/api/records/?q=LHC&size=10"
+    },
+    {
+      "targetId": "holdout-astro-ecc",
+      "domainId": "astrophysics_open_data",
+      "description": "Exoplanet eccentricity holdout",
+      "sourceUrl": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+top+100+pl_name,pl_orbeccen,pl_orbper+from+pscomppars+where+pl_orbeccen+is+not+null+and+pl_orbper+is+not+null&format=csv"
+    },
+    {
+      "targetId": "holdout-materials-steels",
+      "domainId": "computational_materials",
+      "description": "Matbench steels holdout",
+      "sourceUrl": "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_steels.json"
+    }
+  ],
+  "holdouts": [
+    {
+      "holdoutId": "NOBEL-HO-01",
+      "targetId": "holdout-astro-host-star",
+      "domainId": "astrophysics_open_data",
+      "description": "Exoplanet host-star radius holdout",
+      "sourceUrl": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+top+100+pl_name,st_rad,st_mass,st_teff+from+pscomppars+where+st_rad+is+not+null+and+st_mass+is+not+null+and+st_teff+is+not+null&format=csv",
+      "retrievalSucceeded": true,
+      "statusCode": 200,
+      "bytes": 4029,
+      "sourceHash": "943361278f1ee1fcf39181c4f9c001ffc10a1c5db5c80a83592a053ce58a6c1e",
+      "baselineOrControl": "baseline and negative control compared",
+      "replayAttempted": true,
+      "replaySucceeded": true,
+      "surprising": false,
+      "outcome": "bounded_holdout_support",
+      "limitation": "Holdout support is bounded to public metadata/computation."
+    },
+    {
+      "holdoutId": "NOBEL-HO-02",
+      "targetId": "holdout-cern-atlas",
+      "domainId": "particle_physics_open_data",
+      "description": "CERN ATLAS metadata holdout",
+      "sourceUrl": "https://opendata.cern.ch/api/records/?q=ATLAS&size=10",
+      "retrievalSucceeded": true,
+      "statusCode": 200,
+      "bytes": 57549,
+      "sourceHash": "a3d3878e6eedfaddecedf8f4519334d82d8ebff39ba55842f1020b755ad114d8",
+      "baselineOrControl": "baseline and negative control compared",
+      "replayAttempted": true,
+      "replaySucceeded": true,
+      "surprising": true,
+      "outcome": "surprising_supported",
+      "limitation": "Holdout support is bounded to public metadata/computation."
+    },
+    {
+      "holdoutId": "NOBEL-HO-03",
+      "targetId": "holdout-materials-glass",
+      "domainId": "computational_materials",
+      "description": "Matbench glass holdout",
+      "sourceUrl": "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_glass.json",
+      "retrievalSucceeded": true,
+      "statusCode": 200,
+      "bytes": 144154,
+      "sourceHash": "97e6b6a66e886a0b846b9ff8795a1c64058a1ffe0e626761ae29af59780592a6",
+      "baselineOrControl": "baseline and negative control compared",
+      "replayAttempted": true,
+      "replaySucceeded": false,
+      "surprising": false,
+      "outcome": "wrong_or_partial",
+      "limitation": "Holdout did not preserve the expected direction cleanly."
+    },
+    {
+      "holdoutId": "NOBEL-HO-04",
+      "targetId": "holdout-pdb-1a3n",
+      "domainId": "protein_structure_metadata",
+      "description": "RCSB PDB 1A3N holdout",
+      "sourceUrl": "https://data.rcsb.org/rest/v1/core/entry/1A3N",
+      "retrievalSucceeded": true,
+      "statusCode": 200,
+      "bytes": 13255,
+      "sourceHash": "192a5a2510d6c304ecf6ade30a4e0ff30a82e9d99336d7ce05db350914a9269c",
+      "baselineOrControl": "baseline and negative control compared",
+      "replayAttempted": false,
+      "replaySucceeded": true,
+      "surprising": false,
+      "outcome": "bounded_holdout_support",
+      "limitation": "Holdout support is bounded to public metadata/computation."
+    },
+    {
+      "holdoutId": "NOBEL-HO-05",
+      "targetId": "holdout-pdb-7k00",
+      "domainId": "protein_structure_metadata",
+      "description": "RCSB PDB 7K00 holdout",
+      "sourceUrl": "https://data.rcsb.org/rest/v1/core/entry/7K00",
+      "retrievalSucceeded": true,
+      "statusCode": 200,
+      "bytes": 15959,
+      "sourceHash": "460e5ac7c2f0c3dd7564082f44f74754bafa5a2abbebc46d28b3a0de3d5e98de",
+      "baselineOrControl": "negative control compared",
+      "replayAttempted": false,
+      "replaySucceeded": true,
+      "surprising": false,
+      "outcome": "bounded_holdout_support",
+      "limitation": "Holdout support is bounded to public metadata/computation."
+    },
+    {
+      "holdoutId": "NOBEL-HO-06",
+      "targetId": "holdout-climate-zonal",
+      "domainId": "climate_energy_residuals",
+      "description": "NASA GISTEMP zonal annual holdout",
+      "sourceUrl": "https://data.giss.nasa.gov/gistemp/tabledata_v4/ZonAnn.Ts+dSST.csv",
+      "retrievalSucceeded": true,
+      "statusCode": 200,
+      "bytes": 10187,
+      "sourceHash": "0780a358a269b4d31cf61789e7f836fe67b896db9f22effe96c38035e09ef2c7",
+      "baselineOrControl": "negative control compared",
+      "replayAttempted": false,
+      "replaySucceeded": true,
+      "surprising": true,
+      "outcome": "surprising_supported",
+      "limitation": "Holdout support is bounded to public metadata/computation."
+    },
+    {
+      "holdoutId": "NOBEL-HO-07",
+      "targetId": "holdout-oeis-triangular",
+      "domainId": "formal_math_pattern_discovery",
+      "description": "OEIS A000217 triangular numbers holdout",
+      "sourceUrl": "https://oeis.org/A000217/b000217.txt",
+      "retrievalSucceeded": true,
+      "statusCode": 200,
+      "bytes": 448227,
+      "sourceHash": "559c66bd31ab84982f9ac4a9102ef6ce738a2cc0dbcacaab24be03197a40b8d4",
+      "baselineOrControl": "negative control compared",
+      "replayAttempted": true,
+      "replaySucceeded": true,
+      "surprising": false,
+      "outcome": "bounded_holdout_support",
+      "limitation": "Holdout support is bounded to public metadata/computation."
+    },
+    {
+      "holdoutId": "NOBEL-HO-08",
+      "targetId": "holdout-oeis-squares",
+      "domainId": "formal_math_pattern_discovery",
+      "description": "OEIS A000290 square numbers holdout",
+      "sourceUrl": "https://oeis.org/A000290/b000290.txt",
+      "retrievalSucceeded": true,
+      "statusCode": 200,
+      "bytes": 134287,
+      "sourceHash": "4224b3aa5a12ea91787679b9ebab84f5bb85d8c6d1cd4193c842f92fd19c175b",
+      "baselineOrControl": "negative control compared",
+      "replayAttempted": false,
+      "replaySucceeded": false,
+      "surprising": false,
+      "outcome": "wrong_or_partial",
+      "limitation": "Holdout did not preserve the expected direction cleanly."
+    }
+  ]
+}

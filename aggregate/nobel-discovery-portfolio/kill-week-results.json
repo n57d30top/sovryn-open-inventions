@@ -1,0 +1,145 @@
+{
+  "createdAt": "2026-05-06T20:14:33.801Z",
+  "killAttacks": [
+    {
+      "attackId": "NOBEL-KW-01",
+      "component": "artifact",
+      "target": "NOBEL-P01",
+      "decision": "downgraded_or_narrowed",
+      "rationale": "Attack showed rival, control, or replay remained plausible."
+    },
+    {
+      "attackId": "NOBEL-KW-02",
+      "component": "baseline",
+      "target": "NOBEL-P02",
+      "decision": "downgraded_or_narrowed",
+      "rationale": "Attack showed rival, control, or replay remained plausible."
+    },
+    {
+      "attackId": "NOBEL-KW-03",
+      "component": "rival theory",
+      "target": "NOBEL-P03",
+      "decision": "downgraded_or_narrowed",
+      "rationale": "Attack showed rival, control, or replay remained plausible."
+    },
+    {
+      "attackId": "NOBEL-KW-04",
+      "component": "metric",
+      "target": "NOBEL-P04",
+      "decision": "downgraded_or_narrowed",
+      "rationale": "Attack showed rival, control, or replay remained plausible."
+    },
+    {
+      "attackId": "NOBEL-KW-05",
+      "component": "holdout",
+      "target": "NOBEL-P05",
+      "decision": "downgraded_or_narrowed",
+      "rationale": "Attack showed rival, control, or replay remained plausible."
+    },
+    {
+      "attackId": "NOBEL-KW-06",
+      "component": "replay",
+      "target": "NOBEL-P06",
+      "decision": "downgraded_or_narrowed",
+      "rationale": "Attack showed rival, control, or replay remained plausible."
+    },
+    {
+      "attackId": "NOBEL-KW-07",
+      "component": "domain transfer",
+      "target": "NOBEL-P07",
+      "decision": "preserved_with_evidence",
+      "rationale": "Attack did not overturn bounded evidence."
+    },
+    {
+      "attackId": "NOBEL-KW-08",
+      "component": "hidden assumption",
+      "target": "NOBEL-P08",
+      "decision": "preserved_with_evidence",
+      "rationale": "Attack did not overturn bounded evidence."
+    },
+    {
+      "attackId": "NOBEL-KW-09",
+      "component": "selection",
+      "target": "NOBEL-P09",
+      "decision": "preserved_with_evidence",
+      "rationale": "Attack did not overturn bounded evidence."
+    },
+    {
+      "attackId": "NOBEL-KW-10",
+      "component": "overclaim",
+      "target": "NOBEL-P10",
+      "decision": "preserved_with_evidence",
+      "rationale": "Attack did not overturn bounded evidence."
+    },
+    {
+      "attackId": "NOBEL-KW-11",
+      "component": "artifact",
+      "target": "NOBEL-DEEP-4-2",
+      "decision": "preserved_with_evidence",
+      "rationale": "Attack did not overturn bounded evidence."
+    },
+    {
+      "attackId": "NOBEL-KW-12",
+      "component": "baseline",
+      "target": "NOBEL-DEEP-4-3",
+      "decision": "preserved_with_evidence",
+      "rationale": "Attack did not overturn bounded evidence."
+    },
+    {
+      "attackId": "NOBEL-KW-13",
+      "component": "rival theory",
+      "target": "NOBEL-DEEP-1-1",
+      "decision": "kept_as_limitation",
+      "rationale": "Evidence insufficient for a stronger claim."
+    },
+    {
+      "attackId": "NOBEL-KW-14",
+      "component": "metric",
+      "target": "NOBEL-DEEP-1-2",
+      "decision": "kept_as_limitation",
+      "rationale": "Evidence insufficient for a stronger claim."
+    },
+    {
+      "attackId": "NOBEL-KW-15",
+      "component": "holdout",
+      "target": "NOBEL-DEEP-1-3",
+      "decision": "kept_as_limitation",
+      "rationale": "Evidence insufficient for a stronger claim."
+    },
+    {
+      "attackId": "NOBEL-KW-16",
+      "component": "replay",
+      "target": "NOBEL-DEEP-2-1",
+      "decision": "kept_as_limitation",
+      "rationale": "Evidence insufficient for a stronger claim."
+    },
+    {
+      "attackId": "NOBEL-KW-17",
+      "component": "domain transfer",
+      "target": "NOBEL-DEEP-2-2",
+      "decision": "kept_as_limitation",
+      "rationale": "Evidence insufficient for a stronger claim."
+    },
+    {
+      "attackId": "NOBEL-KW-18",
+      "component": "hidden assumption",
+      "target": "NOBEL-DEEP-2-3",
+      "decision": "kept_as_limitation",
+      "rationale": "Evidence insufficient for a stronger claim."
+    },
+    {
+      "attackId": "NOBEL-KW-19",
+      "component": "selection",
+      "target": "NOBEL-DEEP-3-1",
+      "decision": "kept_as_limitation",
+      "rationale": "Evidence insufficient for a stronger claim."
+    },
+    {
+      "attackId": "NOBEL-KW-20",
+      "component": "overclaim",
+      "target": "NOBEL-DEEP-3-2",
+      "decision": "kept_as_limitation",
+      "rationale": "Evidence insufficient for a stronger claim."
+    }
+  ]
+}

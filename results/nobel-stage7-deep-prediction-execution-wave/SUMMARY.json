@@ -1,0 +1,31 @@
+{
+  "kind": "nobel_deep_prediction_execution_wave_summary",
+  "slug": "nobel-stage7-deep-prediction-execution-wave",
+  "title": "Execute Discovery Predictions Wave 2 with Deep Targets",
+  "resultKind": "nobel_deep_prediction_execution_wave",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 91,
+  "reproducibilityScore": 91,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 93,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "bounded_falsification_attempted",
+  "baselineComparisonPresent": true,
+  "scientificMemoryUpdated": true,
+  "scientificQuestion": "Can safe computational public evidence produce a bounded externally testable discovery candidate without overclaiming?",
+  "domain": "nobel discovery portfolio v0",
+  "objective": "Execute Discovery Predictions Wave 2 with Deep Targets",
+  "limitations": [
+    "Safe computational public evidence only.",
+    "No prize, broad autonomy, or major-discovery claim.",
+    "No physical-lab, clinical, hazardous, legal, universal, or external-uptake claim."
+  ],
+  "evidenceHash": "e46442f15f848094c86b680390d451e8e4c44c8c1737d7852e9ed5e06ea5e749"
+}

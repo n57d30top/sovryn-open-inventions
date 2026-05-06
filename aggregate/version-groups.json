@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T19:43:53.802Z",
+  "updatedAt": "2026-05-06T20:15:33.067Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -1631,6 +1631,97 @@
       ]
     },
     {
+      "versionGroup": "nobel-stage0-product-kernel",
+      "latestSlug": "nobel-stage0-product-kernel",
+      "resultSlugs": [
+        "nobel-stage0-product-kernel"
+      ]
+    },
+    {
+      "versionGroup": "nobel-stage1-domain-portfolio-selection",
+      "latestSlug": "nobel-stage1-domain-portfolio-selection",
+      "resultSlugs": [
+        "nobel-stage1-domain-portfolio-selection"
+      ]
+    },
+    {
+      "versionGroup": "nobel-stage10-adversarial-theory-kill-week",
+      "latestSlug": "nobel-stage10-adversarial-theory-kill-week",
+      "resultSlugs": [
+        "nobel-stage10-adversarial-theory-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "nobel-stage11-discovery-candidate-selection",
+      "latestSlug": "nobel-stage11-discovery-candidate-selection",
+      "resultSlugs": [
+        "nobel-stage11-discovery-candidate-selection"
+      ]
+    },
+    {
+      "versionGroup": "nobel-stage12-paper-grade-discovery-package",
+      "latestSlug": "nobel-stage12-paper-grade-discovery-package",
+      "resultSlugs": [
+        "nobel-stage12-paper-grade-discovery-package"
+      ]
+    },
+    {
+      "versionGroup": "nobel-stage2-data-toolchain-acquisition",
+      "latestSlug": "nobel-stage2-data-toolchain-acquisition",
+      "resultSlugs": [
+        "nobel-stage2-data-toolchain-acquisition"
+      ]
+    },
+    {
+      "versionGroup": "nobel-stage3-cross-domain-anomaly-mining",
+      "latestSlug": "nobel-stage3-cross-domain-anomaly-mining",
+      "resultSlugs": [
+        "nobel-stage3-cross-domain-anomaly-mining"
+      ]
+    },
+    {
+      "versionGroup": "nobel-stage4-hypothesis-rival-theory-generation",
+      "latestSlug": "nobel-stage4-hypothesis-rival-theory-generation",
+      "resultSlugs": [
+        "nobel-stage4-hypothesis-rival-theory-generation"
+      ]
+    },
+    {
+      "versionGroup": "nobel-stage5-preregistered-prediction-freeze",
+      "latestSlug": "nobel-stage5-preregistered-prediction-freeze",
+      "resultSlugs": [
+        "nobel-stage5-preregistered-prediction-freeze"
+      ]
+    },
+    {
+      "versionGroup": "nobel-stage6-prediction-execution-wave-1",
+      "latestSlug": "nobel-stage6-prediction-execution-wave-1",
+      "resultSlugs": [
+        "nobel-stage6-prediction-execution-wave-1"
+      ]
+    },
+    {
+      "versionGroup": "nobel-stage7-deep-prediction-execution-wave",
+      "latestSlug": "nobel-stage7-deep-prediction-execution-wave",
+      "resultSlugs": [
+        "nobel-stage7-deep-prediction-execution-wave"
+      ]
+    },
+    {
+      "versionGroup": "nobel-stage8-holdout-challenge",
+      "latestSlug": "nobel-stage8-holdout-challenge",
+      "resultSlugs": [
+        "nobel-stage8-holdout-challenge"
+      ]
+    },
+    {
+      "versionGroup": "nobel-stage9-independent-reproduction-gauntlet",
+      "latestSlug": "nobel-stage9-independent-reproduction-gauntlet",
+      "resultSlugs": [
+        "nobel-stage9-independent-reproduction-gauntlet"
+      ]
+    },
+    {
       "versionGroup": "patch-risk-auditor",
       "latestSlug": "patch-risk-auditor-v3",
       "resultSlugs": [
@@ -1690,5 +1781,5 @@
       ]
     }
   ],
-  "evidenceHash": "17363ded1f7c190c74cc66341c3557cdd0cfce7e6212264f926ac459625bb6cd"
+  "evidenceHash": "046be3d699a42667386434a2c38eea09c582941c419cf413c986fb56e5064e5b"
 }

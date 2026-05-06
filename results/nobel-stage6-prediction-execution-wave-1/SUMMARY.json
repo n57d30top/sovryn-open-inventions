@@ -1,0 +1,31 @@
+{
+  "kind": "nobel_prediction_execution_wave_1_summary",
+  "slug": "nobel-stage6-prediction-execution-wave-1",
+  "title": "Execute Discovery Predictions Wave 1",
+  "resultKind": "nobel_prediction_execution_wave_1",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 91,
+  "evidenceStrengthScore": 91,
+  "reproducibilityScore": 91,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 93,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "bounded_falsification_attempted",
+  "baselineComparisonPresent": true,
+  "scientificMemoryUpdated": true,
+  "scientificQuestion": "Can safe computational public evidence produce a bounded externally testable discovery candidate without overclaiming?",
+  "domain": "nobel discovery portfolio v0",
+  "objective": "Execute Discovery Predictions Wave 1",
+  "limitations": [
+    "Safe computational public evidence only.",
+    "No prize, broad autonomy, or major-discovery claim.",
+    "No physical-lab, clinical, hazardous, legal, universal, or external-uptake claim."
+  ],
+  "evidenceHash": "e12cb77a66556185fba91c825f7712a65e8334c47dd88c521909aca46934c896"
+}
