@@ -1,0 +1,137 @@
+{
+  "actualExecutionPerformed": "Loaded four public UCI classification datasets, ran schema_provenance_auditor and metric_stress_validator on each loaded target, trained dummy/linear/tree baselines, performed shuffled-label and seed/split stress checks, ran class-weight extension attempts, performed fresh-seed replays, and replayed two target runs in a network-off container.",
+  "antiTemplateStatus": "review_ready",
+  "baselinesTested": [
+    "DummyClassifier most_frequent",
+    "DummyClassifier stratified",
+    "LogisticRegression",
+    "RandomForest"
+  ],
+  "candidateStatus": "autopublished",
+  "containerNetoffReplay": {
+    "attempted": true,
+    "containerRunOk": true,
+    "imageBuildOk": true,
+    "network": "none",
+    "results": {
+      "network": "none",
+      "targets": [
+        {
+          "logisticAccuracy": 0.9282589676290464,
+          "logisticMacroF1": 0.9267696971591086,
+          "metricToolReplayed": true,
+          "schemaToolReplayed": true,
+          "slug": "rice-cammeo-osmancik"
+        },
+        {
+          "logisticAccuracy": 0.9744958481613286,
+          "logisticMacroF1": 0.9744686828418552,
+          "metricToolReplayed": true,
+          "schemaToolReplayed": true,
+          "slug": "optical-handwritten-digits"
+        }
+      ]
+    },
+    "stderrLines": 0,
+    "stdoutLines": 0,
+    "targetCount": 2
+  },
+  "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
+  "domain": "tabular-and-image-derived-classification-benchmark-validation",
+  "evidenceHash": "b11b32a20ec66bdbf38785df2f06ef30d26aac0ab0cf0342101af50235acf9af",
+  "evidenceStrengthScore": 93,
+  "extensionAttemptCount": 8,
+  "fallbacksUsed": [
+    {
+      "fallback": "iris-fallback",
+      "fallbackFor": "statlog-vehicle-silhouettes"
+    }
+  ],
+  "falsificationStatus": "passes_falsification_with_limitations",
+  "freshSeedReplays": [
+    {
+      "freshSeedAccuracy": 0.9238845144356955,
+      "freshSeedMacroF1": 0.9223241590214067,
+      "macroF1Delta": 0.004931625084755198,
+      "primaryAccuracy": 0.9195100612423447,
+      "primaryMacroF1": 0.9173925339366515,
+      "replayType": "fresh_seed_split",
+      "slug": "rice-cammeo-osmancik"
+    },
+    {
+      "freshSeedAccuracy": 0.9673784104389087,
+      "freshSeedMacroF1": 0.967525383808835,
+      "macroF1Delta": -0.0028501060751476848,
+      "primaryAccuracy": 0.970344009489917,
+      "primaryMacroF1": 0.9703754898839827,
+      "replayType": "fresh_seed_split",
+      "slug": "optical-handwritten-digits"
+    }
+  ],
+  "hardQuestionAnswer": "The toolchain was useful mostly as structured evidence packaging and anti-hype support. schema_provenance_auditor did not beat ordinary pandas checks for raw single-table discovery on these targets. metric_stress_validator added repeatable negative controls and inflation flags, but the core scores still came from normal sklearn baselines.",
+  "lifecycleStatus": "autopublished",
+  "loadedTargetCount": 4,
+  "negativeOrPartial": true,
+  "negativeOrPartialFindings": [
+    "No official benchmark protocol was reproduced; controlled splits were used for cross-target comparability.",
+    "schema_provenance_auditor was packaging_only or dominated_by_simple_baseline on these single-table targets.",
+    "metric_stress_validator was anti_hype_support_only rather than a unique discovery tool.",
+    "At least one class-weight extension was rejected or downgraded because macro-F1 did not materially improve."
+  ],
+  "nextResearchDirection": "Continue dataset and metric validation only on targets with stronger source protocols or known split risk, and require every custom tool to show value beyond a declared pandas/sklearn baseline.",
+  "optionalToolNotUsed": {
+    "pytest_repro_summary": "No repository/test artifact was part of Batch 11."
+  },
+  "publicHygienePassed": true,
+  "publicationSafetyScore": 98,
+  "qualityLabel": "good",
+  "rejectedOrDowngradedExtensionCount": 7,
+  "releaseReadinessScore": 91,
+  "reliabilityReplayPassed": true,
+  "replayCriticalPassRate": 100,
+  "reproducibilityScore": 92,
+  "resultKind": "multi_target_dataset_metric_validation_program",
+  "safetyScanPassed": true,
+  "slug": "batch11-multi-target-dataset-metric-validation-program",
+  "sourceUrls": [
+    "https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik",
+    "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits",
+    "https://archive.ics.uci.edu/dataset/53/iris",
+    "https://archive.ics.uci.edu/dataset/109/wine",
+    "https://github.com/uci-ml-repo/ucimlrepo",
+    "https://pandas.pydata.org/",
+    "https://scikit-learn.org/"
+  ],
+  "specificityScore": 90,
+  "targetCount": 4,
+  "targetFailures": [
+    {
+      "failure": "The least populated classes in y have only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2. Classes with too few members are: ['204']",
+      "failureType": "ValueError",
+      "fallbackUsed": "iris-fallback",
+      "label": "UCI Statlog Vehicle Silhouettes",
+      "loaded": false,
+      "slug": "statlog-vehicle-silhouettes",
+      "uciId": 149
+    }
+  ],
+  "targetsSelected": [
+    "UCI Rice Cammeo/Osmancik",
+    "UCI Optical Recognition of Handwritten Digits",
+    "UCI Iris",
+    "UCI Wine Recognition"
+  ],
+  "title": "Batch 11 Multi-Target Dataset and Metric Validation Program",
+  "toolDecisionsAfterBatch11": {
+    "metric_stress_validator": "reusable_support_tool_for_anti_hype_controls",
+    "pytest_repro_summary": "not_used_no_repo_test_target",
+    "schema_provenance_auditor": "narrow_but_useful_packaging_only_for_this_program"
+  },
+  "toolsUsed": [
+    "schema_provenance_auditor",
+    "metric_stress_validator"
+  ],
+  "versionGroup": "batch11-multi-target-dataset-metric-validation-program",
+  "whatSovrynLearned": "Across four public classification targets, Sovryn learned that the custom toolchain is useful mainly when it forces structured evidence, negative controls, replay notes, and explicit downgrade decisions. For these single-table targets, ordinary pandas and sklearn baselines explained most raw findings.",
+  "workerAssurance": "host_venv_plus_container_netoff_replay"
+}

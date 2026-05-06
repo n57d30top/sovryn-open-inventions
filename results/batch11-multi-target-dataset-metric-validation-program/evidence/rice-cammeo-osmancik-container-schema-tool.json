@@ -1,0 +1,90 @@
+{
+  "tool": "schema_provenance_auditor",
+  "toolStatus": "used_successfully",
+  "inputCount": 1,
+  "files": [
+    {
+      "label": "rice-cammeo-osmancik",
+      "fileName": "rice-cammeo-osmancik.csv",
+      "sha256": "4c8c6d315d071ca9d78ca32cde0b5072d37b2f9f06fa9acc1fd6540ab738f3c3",
+      "rows": 3810,
+      "columns": [
+        "Area",
+        "Perimeter",
+        "Major_Axis_Length",
+        "Minor_Axis_Length",
+        "Eccentricity",
+        "Convex_Area",
+        "Extent",
+        "Class"
+      ],
+      "columnCount": 8,
+      "dtypes": {
+        "Area": "int64",
+        "Perimeter": "float64",
+        "Major_Axis_Length": "float64",
+        "Minor_Axis_Length": "float64",
+        "Eccentricity": "float64",
+        "Convex_Area": "int64",
+        "Extent": "float64",
+        "Class": "object"
+      },
+      "missingCells": 0,
+      "duplicateFullRows": 0,
+      "numericRanges": {
+        "Area": {
+          "min": 7551.0,
+          "max": 18913.0,
+          "mean": 12667.727559055118
+        },
+        "Perimeter": {
+          "min": 359.1000061,
+          "max": 548.4459839,
+          "mean": 454.23918014839893
+        },
+        "Major_Axis_Length": {
+          "min": 145.2644653,
+          "max": 239.010498,
+          "mean": 188.7762219769291
+        },
+        "Minor_Axis_Length": {
+          "min": 59.53240585,
+          "max": 107.54245,
+          "mean": 86.3137503715958
+        },
+        "Eccentricity": {
+          "min": 0.777232587,
+          "max": 0.948006928,
+          "mean": 0.8868705067435696
+        },
+        "Convex_Area": {
+          "min": 7723.0,
+          "max": 19099.0,
+          "mean": 12952.496850393702
+        },
+        "Extent": {
+          "min": 0.49741286,
+          "max": 0.861049533,
+          "mean": 0.661934037912861
+        }
+      }
+    }
+  ],
+  "schemaComparison": {
+    "schemaMatch": true,
+    "referenceLabel": "rice-cammeo-osmancik",
+    "mismatches": []
+  },
+  "aggregateFindings": {
+    "totalRows": 3810,
+    "totalMissingCells": 0,
+    "totalDuplicateFullRows": 0,
+    "anyDuplicateRows": false,
+    "anyMissingCells": false
+  },
+  "toolGapAddressed": "pandas.describe exposes per-file summaries, but it does not produce a single provenance-hash-bound split-schema comparison with duplicate and missing-cell gates.",
+  "limitations": [
+    "It does not infer semantic column meaning beyond names and numeric ranges.",
+    "Duplicate full rows may be valid repeated observations without row identifiers."
+  ]
+}

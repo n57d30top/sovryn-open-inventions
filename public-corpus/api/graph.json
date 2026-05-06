@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T11:22:17.812Z",
+  "generatedAt": "2026-05-06T11:45:14.611Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -49,6 +49,12 @@
       "kind": "result",
       "label": "Batch 10 Toolchain Kill Week and Anti-Hype Review",
       "domain": "autonomous-research-toolchain-falsification"
+    },
+    {
+      "id": "result:batch11-multi-target-dataset-metric-validation-program",
+      "kind": "result",
+      "label": "Batch 11 Multi-Target Dataset and Metric Validation Program",
+      "domain": "tabular-and-image-derived-classification-benchmark-validation"
     },
     {
       "id": "result:batch2-climate-fever-claim-verification-followup",
@@ -475,6 +481,11 @@
       "label": "autonomous-research-toolchain-falsification"
     },
     {
+      "id": "domain:tabular-and-image-derived-classification-benchmark-validation",
+      "kind": "domain",
+      "label": "tabular-and-image-derived-classification-benchmark-validation"
+    },
+    {
       "id": "domain:claim-verification-benchmark-quality",
       "kind": "domain",
       "label": "claim-verification-benchmark-quality"
@@ -630,14 +641,14 @@
       "label": "pandas"
     },
     {
-      "id": "tool:rapidfuzz",
-      "kind": "tool",
-      "label": "rapidfuzz"
-    },
-    {
       "id": "tool:numpy",
       "kind": "tool",
       "label": "numpy"
+    },
+    {
+      "id": "tool:rapidfuzz",
+      "kind": "tool",
+      "label": "rapidfuzz"
     },
     {
       "id": "tool:pint",
@@ -703,6 +714,21 @@
     },
     {
       "source": "result:batch10-toolchain-kill-week",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch11-multi-target-dataset-metric-validation-program",
+      "target": "domain:tabular-and-image-derived-classification-benchmark-validation",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:batch11-multi-target-dataset-metric-validation-program",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:batch11-multi-target-dataset-metric-validation-program",
       "target": "tool:pandas",
       "relation": "uses_public_tool_evidence"
     },
@@ -1207,5 +1233,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "a5e2db86c4baabf73151eae5ee18b098519a55437081839e82dceb6046fadc5c"
+  "evidenceHash": "94e08cae7f7be53b07858352c01a8a15c4301f537ca1d8dbc7347313f836bcf3"
 }

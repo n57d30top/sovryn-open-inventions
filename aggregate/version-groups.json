@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T11:22:17.812Z",
+  "updatedAt": "2026-05-06T11:45:14.611Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -56,6 +56,13 @@
       "latestSlug": "batch10-toolchain-kill-week",
       "resultSlugs": [
         "batch10-toolchain-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "batch11-multi-target-dataset-metric-validation-program",
+      "latestSlug": "batch11-multi-target-dataset-metric-validation-program",
+      "resultSlugs": [
+        "batch11-multi-target-dataset-metric-validation-program"
       ]
     },
     {
@@ -423,5 +430,5 @@
       ]
     }
   ],
-  "evidenceHash": "dcc5d60878dbcca724b7edb9ad144f863d635d835a81d3318d5f59f62f71b9c8"
+  "evidenceHash": "bcfb5886df9e8b6b1d9b36ab44e5b222fcf2afd8d643688e40affb71199fe1b5"
 }

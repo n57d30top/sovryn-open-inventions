@@ -1,0 +1,19 @@
+{
+  "network": "none",
+  "targets": [
+    {
+      "slug": "rice-cammeo-osmancik",
+      "schemaToolReplayed": true,
+      "metricToolReplayed": true,
+      "logisticAccuracy": 0.9282589676290464,
+      "logisticMacroF1": 0.9267696971591086
+    },
+    {
+      "slug": "optical-handwritten-digits",
+      "schemaToolReplayed": true,
+      "metricToolReplayed": true,
+      "logisticAccuracy": 0.9744958481613286,
+      "logisticMacroF1": 0.9744686828418552
+    }
+  ]
+}

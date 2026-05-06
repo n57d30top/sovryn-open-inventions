@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_domain_summary",
-  "updatedAt": "2026-05-06T11:22:17.812Z",
+  "updatedAt": "2026-05-06T11:45:14.611Z",
   "domainCounts": {
     "autonomous-research-production-continuity": 2,
     "autonomous-research-toolchain-falsification": 1,
@@ -33,6 +33,7 @@
     "software-supply-chain-assurance": 3,
     "source-evidence-extraction-benchmark": 1,
     "source-evidence-extraction-quality": 3,
+    "tabular-and-image-derived-classification-benchmark-validation": 1,
     "tabular-benchmark-baseline-dominance": 2,
     "tabular-regression-benchmark": 1,
     "time-series-anomaly-benchmark": 1,
@@ -41,5 +42,5 @@
     "time-series-tabular-benchmark": 1,
     "tool-backed-dataset-quality-audit": 1
   },
-  "evidenceHash": "13c1bfcd519547b6ee537712d2b4fcb6bd8213e333914b46870a7789a0856e9c"
+  "evidenceHash": "9294032715e580d0e9ff5a0692b82a471d0d5ae22bfd58123620729b3046bbf9"
 }

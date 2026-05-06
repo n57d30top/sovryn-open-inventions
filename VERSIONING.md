@@ -13,6 +13,7 @@ can supersede earlier entries while preserving audit history.
 - batch1-qasper-source-evidence-extraction-challenge: latest batch1-qasper-source-evidence-extraction-challenge; versions batch1-qasper-source-evidence-extraction-challenge
 - batch1-uci-wine-quality-dataset-audit: latest batch1-uci-wine-quality-dataset-audit; versions batch1-uci-wine-quality-dataset-audit
 - batch10-toolchain-kill-week: latest batch10-toolchain-kill-week; versions batch10-toolchain-kill-week
+- batch11-multi-target-dataset-metric-validation-program: latest batch11-multi-target-dataset-metric-validation-program; versions batch11-multi-target-dataset-metric-validation-program
 - batch2-climate-fever-claim-verification-followup: latest batch2-climate-fever-claim-verification-followup; versions batch2-climate-fever-claim-verification-followup
 - batch2-hotpotqa-source-evidence-extraction-challenge: latest batch2-hotpotqa-source-evidence-extraction-challenge; versions batch2-hotpotqa-source-evidence-extraction-challenge
 - batch2-pyod-reproducibility-audit: latest batch2-pyod-reproducibility-audit; versions batch2-pyod-reproducibility-audit

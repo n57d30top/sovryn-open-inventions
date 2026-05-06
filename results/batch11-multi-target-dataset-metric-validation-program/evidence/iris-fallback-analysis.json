@@ -1,0 +1,532 @@
+{
+  "baselineModeling": {
+    "scores": {
+      "dummy_most_frequent": {
+        "accuracy": 0.3333333333333333,
+        "confusionMatrix": [
+          [
+            15,
+            0,
+            0
+          ],
+          [
+            15,
+            0,
+            0
+          ],
+          [
+            15,
+            0,
+            0
+          ]
+        ],
+        "macroF1": 0.16666666666666666,
+        "perClassF1": {
+          "Iris-setosa": 0.5,
+          "Iris-versicolor": 0.0,
+          "Iris-virginica": 0.0
+        },
+        "topConfusions": [
+          {
+            "count": 15,
+            "predicted": "Iris-setosa",
+            "true": "Iris-versicolor"
+          },
+          {
+            "count": 15,
+            "predicted": "Iris-setosa",
+            "true": "Iris-virginica"
+          }
+        ],
+        "weakestClass": "Iris-versicolor",
+        "weakestClassF1": 0.0
+      },
+      "dummy_stratified": {
+        "accuracy": 0.3333333333333333,
+        "confusionMatrix": [
+          [
+            4,
+            4,
+            7
+          ],
+          [
+            8,
+            3,
+            4
+          ],
+          [
+            4,
+            3,
+            8
+          ]
+        ],
+        "macroF1": 0.3228842504743833,
+        "perClassF1": {
+          "Iris-setosa": 0.25806451612903225,
+          "Iris-versicolor": 0.24,
+          "Iris-virginica": 0.47058823529411764
+        },
+        "topConfusions": [
+          {
+            "count": 8,
+            "predicted": "Iris-setosa",
+            "true": "Iris-versicolor"
+          },
+          {
+            "count": 7,
+            "predicted": "Iris-virginica",
+            "true": "Iris-setosa"
+          },
+          {
+            "count": 4,
+            "predicted": "Iris-versicolor",
+            "true": "Iris-setosa"
+          },
+          {
+            "count": 4,
+            "predicted": "Iris-virginica",
+            "true": "Iris-versicolor"
+          },
+          {
+            "count": 4,
+            "predicted": "Iris-setosa",
+            "true": "Iris-virginica"
+          }
+        ],
+        "weakestClass": "Iris-versicolor",
+        "weakestClassF1": 0.24
+      },
+      "logistic_regression": {
+        "accuracy": 0.9111111111111111,
+        "confusionMatrix": [
+          [
+            15,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            1
+          ],
+          [
+            0,
+            3,
+            12
+          ]
+        ],
+        "macroF1": 0.9107142857142857,
+        "perClassF1": {
+          "Iris-setosa": 1.0,
+          "Iris-versicolor": 0.875,
+          "Iris-virginica": 0.8571428571428571
+        },
+        "topConfusions": [
+          {
+            "count": 3,
+            "predicted": "Iris-versicolor",
+            "true": "Iris-virginica"
+          },
+          {
+            "count": 1,
+            "predicted": "Iris-virginica",
+            "true": "Iris-versicolor"
+          }
+        ],
+        "weakestClass": "Iris-virginica",
+        "weakestClassF1": 0.8571428571428571
+      },
+      "random_forest": {
+        "accuracy": 0.8888888888888888,
+        "confusionMatrix": [
+          [
+            15,
+            0,
+            0
+          ],
+          [
+            0,
+            14,
+            1
+          ],
+          [
+            0,
+            4,
+            11
+          ]
+        ],
+        "macroF1": 0.8877665544332212,
+        "perClassF1": {
+          "Iris-setosa": 1.0,
+          "Iris-versicolor": 0.8484848484848485,
+          "Iris-virginica": 0.8148148148148148
+        },
+        "topConfusions": [
+          {
+            "count": 4,
+            "predicted": "Iris-versicolor",
+            "true": "Iris-virginica"
+          },
+          {
+            "count": 1,
+            "predicted": "Iris-virginica",
+            "true": "Iris-versicolor"
+          }
+        ],
+        "weakestClass": "Iris-virginica",
+        "weakestClassF1": 0.8148148148148148
+      }
+    },
+    "split": {
+      "randomState": 42,
+      "stratified": true,
+      "testRows": 45,
+      "testSize": 0.3,
+      "trainRows": 105
+    }
+  },
+  "dataFile": {
+    "publicName": "iris-fallback.csv",
+    "sha256": "e1412f8c8c69c78fea91c42d8732f7edeb182234e9a67261b29617cc6097cc7b"
+  },
+  "doi": "https://doi.org/10.24432/C56C76",
+  "expectedMetric": "accuracy and macro-F1",
+  "expectedTask": "three-class plant species classification from tabular morphology features",
+  "extensionAttempts": [
+    {
+      "accuracy": 0.9111111111111111,
+      "baselineCompared": "logistic_regression",
+      "baselineMacroF1": 0.9107142857142857,
+      "decision": "downgraded_no_material_macro_f1_gain",
+      "description": "class-imbalance-aware linear model",
+      "extension": "class_weight_balanced_logistic_regression",
+      "extensionMacroF1": 0.9107142857142857,
+      "macroF1Delta": 0.0,
+      "weakestClass": "Iris-virginica",
+      "weakestClassF1": 0.8571428571428571
+    },
+    {
+      "accuracy": 0.8888888888888888,
+      "baselineCompared": "random_forest",
+      "baselineMacroF1": 0.8877665544332212,
+      "decision": "downgraded_no_material_macro_f1_gain",
+      "description": "class-imbalance-aware tree model",
+      "extension": "class_weight_balanced_random_forest",
+      "extensionMacroF1": 0.8877665544332212,
+      "macroF1Delta": 0.0,
+      "weakestClass": "Iris-virginica",
+      "weakestClassF1": 0.8148148148148148
+    }
+  ],
+  "hardQuestionAnswer": {
+    "metricToolBeyondSklearn": "The tool mainly added structured anti-hype controls; normal sklearn metrics still explain the base numbers.",
+    "schemaToolBeyondPandas": "The tool did not beat pandas for raw discovery, but it packaged hash-bound evidence and limitations."
+  },
+  "headerlessDataFile": {
+    "publicName": "iris-fallback-headerless.csv",
+    "sha256": "596ffd580471ca4d4880f8e439c7281f3b50d8249a5960353cb200b1490f63a0"
+  },
+  "knownLimitations": [
+    "Small and highly separable dataset; strong baseline scores are expected.",
+    "Selected only as a documented fallback after the Vehicle target exposed a one-row target-class issue."
+  ],
+  "label": "UCI Iris",
+  "loaded": true,
+  "metricStress": {
+    "accuracyMinusMacroF1": 0.0003968253968253954,
+    "logisticAccuracyBySeed": [
+      0.9777777777777777,
+      0.9111111111111111,
+      0.9777777777777777,
+      0.9333333333333333
+    ],
+    "logisticAccuracyRange": [
+      0.9111111111111111,
+      0.9777777777777777
+    ],
+    "logisticMacroF1BySeed": [
+      0.9777530589543938,
+      0.9107142857142857,
+      0.9777530589543938,
+      0.9326599326599326
+    ],
+    "logisticMacroF1Range": [
+      0.9107142857142857,
+      0.9777530589543938
+    ],
+    "seeds": [
+      7,
+      42,
+      99,
+      2026
+    ],
+    "simpleBaselineExplainsResult": false,
+    "stratifiedVsNonStratified": {
+      "deltaNonStratMinusStrat": 0.0892857142857143,
+      "nonStratifiedMacroF1": 1.0,
+      "stratifiedMacroF1": 0.9107142857142857
+    },
+    "weakestClass": "Iris-virginica",
+    "weakestClassF1": 0.8571428571428571
+  },
+  "metricToolReport": {
+    "classBalance": {
+      "Iris-setosa": 50,
+      "Iris-versicolor": 50,
+      "Iris-virginica": 50
+    },
+    "falsePositiveFalseNegativeAnalysis": {
+      "available": false,
+      "falseNegativeRate": null,
+      "falsePositiveRate": null
+    },
+    "features": 4,
+    "flags": {
+      "accuracyCouldHideClassFailure": false,
+      "challengerBeatsMajorityBalancedAccuracy": true,
+      "shuffledControlSuspicious": false
+    },
+    "limitations": [
+      "It validates one deterministic split, not every official benchmark protocol.",
+      "It cannot prove absence of leakage without source-specific split metadata."
+    ],
+    "logisticChallenger": {
+      "accuracy": 0.9111111111111111,
+      "balancedAccuracy": 0.9111111111111111,
+      "confusionMatrix": [
+        [
+          15,
+          0,
+          0
+        ],
+        [
+          0,
+          14,
+          1
+        ],
+        [
+          0,
+          3,
+          12
+        ]
+      ],
+      "f1Macro": 0.9107142857142857
+    },
+    "majorityBaseline": {
+      "accuracy": 0.3333333333333333,
+      "balancedAccuracy": 0.3333333333333333,
+      "confusionMatrix": [
+        [
+          15,
+          0,
+          0
+        ],
+        [
+          15,
+          0,
+          0
+        ],
+        [
+          15,
+          0,
+          0
+        ]
+      ],
+      "f1Macro": 0.16666666666666666
+    },
+    "rows": 150,
+    "shuffledLabelControl": {
+      "accuracy": 0.6444444444444445,
+      "balancedAccuracy": 0.6444444444444445,
+      "confusionMatrix": [
+        [
+          11,
+          4,
+          0
+        ],
+        [
+          5,
+          6,
+          4
+        ],
+        [
+          1,
+          2,
+          12
+        ]
+      ],
+      "f1Macro": 0.635379330943847
+    },
+    "split": {
+      "randomState": 42,
+      "stratified": true,
+      "testSize": 0.3
+    },
+    "tool": "metric_stress_validator",
+    "toolGapAddressed": "sklearn.metrics computes metrics, but this tool binds them to dummy and shuffled-label controls and emits explicit inflation and FP/FN checks.",
+    "toolStatus": "used_successfully_limited"
+  },
+  "metricToolStatus": {
+    "ok": true,
+    "returnCode": 0,
+    "stderrLines": 0,
+    "stdoutLines": 0
+  },
+  "packageVersions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "python": "3.14.4",
+    "scikitLearn": "1.8.0",
+    "ucimlrepo": "0.0.7"
+  },
+  "pandasBaseline": {
+    "classDistribution": {
+      "Iris-setosa": 50,
+      "Iris-versicolor": 50,
+      "Iris-virginica": 50
+    },
+    "classes": [
+      "Iris-setosa",
+      "Iris-versicolor",
+      "Iris-virginica"
+    ],
+    "columns": 5,
+    "duplicateFeatureRows": 3,
+    "duplicateFullRows": 3,
+    "featureCount": 4,
+    "leakageRisks": [
+      "No target-named feature column was retained.",
+      "No source-provided group or acquisition identifiers were available for group-aware leakage checks."
+    ],
+    "missingCells": 0,
+    "pandasChecksUsed": [
+      "shape",
+      "isna",
+      "duplicated",
+      "describe",
+      "value_counts"
+    ],
+    "provenanceLimitations": [
+      "The run depends on the ucimlrepo packaged view and UCI metadata available at execution time.",
+      "Hash evidence binds the local CSV export, not the upstream repository history."
+    ],
+    "rows": 150,
+    "splitConsistencyRisks": [
+      "Controlled stratified splits were used for comparability; source-specific split protocols were not fully reproduced.",
+      "Duplicate feature rows can create optimistic random-split estimates if duplicates cross train/test boundaries."
+    ],
+    "suspiciousSentinelValueCounts": {
+      "-1": 0,
+      "0": 0,
+      "999": 0,
+      "9999": 0
+    },
+    "targetColumn": "class"
+  },
+  "safetyNote": "safe classic tabular classification dataset",
+  "schemaToolReport": {
+    "aggregateFindings": {
+      "anyDuplicateRows": true,
+      "anyMissingCells": false,
+      "totalDuplicateFullRows": 3,
+      "totalMissingCells": 0,
+      "totalRows": 150
+    },
+    "files": [
+      {
+        "columnCount": 5,
+        "columns": [
+          "sepal_length",
+          "sepal_width",
+          "petal_length",
+          "petal_width",
+          "class"
+        ],
+        "dtypes": {
+          "class": "str",
+          "petal_length": "float64",
+          "petal_width": "float64",
+          "sepal_length": "float64",
+          "sepal_width": "float64"
+        },
+        "duplicateFullRows": 3,
+        "fileName": "iris-fallback.csv",
+        "label": "iris-fallback",
+        "missingCells": 0,
+        "numericRanges": {
+          "petal_length": {
+            "max": 6.9,
+            "mean": 3.758666666666666,
+            "min": 1.0
+          },
+          "petal_width": {
+            "max": 2.5,
+            "mean": 1.1986666666666668,
+            "min": 0.1
+          },
+          "sepal_length": {
+            "max": 7.9,
+            "mean": 5.843333333333334,
+            "min": 4.3
+          },
+          "sepal_width": {
+            "max": 4.4,
+            "mean": 3.0540000000000003,
+            "min": 2.0
+          }
+        },
+        "rows": 150,
+        "sha256": "e1412f8c8c69c78fea91c42d8732f7edeb182234e9a67261b29617cc6097cc7b"
+      }
+    ],
+    "inputCount": 1,
+    "limitations": [
+      "It does not infer semantic column meaning beyond names and numeric ranges.",
+      "Duplicate full rows may be valid repeated observations without row identifiers."
+    ],
+    "schemaComparison": {
+      "mismatches": [],
+      "referenceLabel": "iris-fallback",
+      "schemaMatch": true
+    },
+    "tool": "schema_provenance_auditor",
+    "toolGapAddressed": "pandas.describe exposes per-file summaries, but it does not produce a single provenance-hash-bound split-schema comparison with duplicate and missing-cell gates.",
+    "toolStatus": "used_successfully"
+  },
+  "schemaToolStatus": {
+    "ok": true,
+    "returnCode": 0,
+    "stderrLines": 0,
+    "stdoutLines": 0
+  },
+  "slug": "iris-fallback",
+  "sourceUrl": "https://archive.ics.uci.edu/dataset/53/iris",
+  "toolUsefulness": {
+    "metric_stress_validator": {
+      "addedBeyondSklearn": [
+        "dummy_and_shuffled_control_packaging",
+        "explicit_metric_inflation_flags"
+      ],
+      "antiHypeValue": "medium_to_high",
+      "baselineDominanceResistance": "medium",
+      "decision": "The tool mainly added structured anti-hype controls; normal sklearn metrics still explain the base numbers.",
+      "failureLimitationSeverity": "medium",
+      "label": "anti_hype_support_only",
+      "packagingReproducibilityValue": "medium",
+      "rawDiscoveryValue": "low_to_medium"
+    },
+    "schema_provenance_auditor": {
+      "addedBeyondPandas": [
+        "source_hash_bound_csv_evidence"
+      ],
+      "antiHypeValue": "low_to_medium",
+      "baselineDominanceResistance": "weak",
+      "decision": "The tool did not beat pandas for raw discovery, but it packaged hash-bound evidence and limitations.",
+      "failureLimitationSeverity": "medium",
+      "label": "packaging_only",
+      "packagingReproducibilityValue": "medium",
+      "rawDiscoveryValue": "low"
+    }
+  },
+  "uciId": 53
+}

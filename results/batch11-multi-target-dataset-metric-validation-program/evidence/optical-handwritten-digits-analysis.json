@@ -1,0 +1,1785 @@
+{
+  "baselineModeling": {
+    "scores": {
+      "dummy_most_frequent": {
+        "accuracy": 0.10142348754448399,
+        "confusionMatrix": [
+          [
+            0,
+            166,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            171,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            167,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            172,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            171,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            167,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            167,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            170,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            166,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            169,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "macroF1": 0.01841680129240711,
+        "perClassF1": {
+          "0": 0.0,
+          "1": 0.1841680129240711,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 0.0,
+          "5": 0.0,
+          "6": 0.0,
+          "7": 0.0,
+          "8": 0.0,
+          "9": 0.0
+        },
+        "topConfusions": [
+          {
+            "count": 172,
+            "predicted": "1",
+            "true": "3"
+          },
+          {
+            "count": 171,
+            "predicted": "1",
+            "true": "4"
+          },
+          {
+            "count": 170,
+            "predicted": "1",
+            "true": "7"
+          },
+          {
+            "count": 169,
+            "predicted": "1",
+            "true": "9"
+          },
+          {
+            "count": 167,
+            "predicted": "1",
+            "true": "2"
+          }
+        ],
+        "weakestClass": "0",
+        "weakestClassF1": 0.0
+      },
+      "dummy_stratified": {
+        "accuracy": 0.09905100830367734,
+        "confusionMatrix": [
+          [
+            14,
+            15,
+            16,
+            19,
+            15,
+            20,
+            18,
+            17,
+            13,
+            19
+          ],
+          [
+            22,
+            21,
+            16,
+            23,
+            12,
+            10,
+            17,
+            19,
+            13,
+            18
+          ],
+          [
+            18,
+            18,
+            16,
+            15,
+            21,
+            16,
+            20,
+            20,
+            14,
+            9
+          ],
+          [
+            20,
+            19,
+            21,
+            26,
+            13,
+            16,
+            16,
+            9,
+            15,
+            17
+          ],
+          [
+            16,
+            17,
+            12,
+            12,
+            13,
+            18,
+            17,
+            25,
+            18,
+            23
+          ],
+          [
+            15,
+            15,
+            11,
+            23,
+            20,
+            12,
+            16,
+            13,
+            19,
+            23
+          ],
+          [
+            14,
+            20,
+            11,
+            14,
+            15,
+            12,
+            22,
+            25,
+            17,
+            17
+          ],
+          [
+            16,
+            11,
+            18,
+            19,
+            17,
+            21,
+            17,
+            13,
+            18,
+            20
+          ],
+          [
+            14,
+            13,
+            18,
+            15,
+            25,
+            17,
+            20,
+            16,
+            12,
+            16
+          ],
+          [
+            15,
+            13,
+            21,
+            20,
+            20,
+            14,
+            16,
+            14,
+            18,
+            18
+          ]
+        ],
+        "macroF1": 0.09852813646309946,
+        "perClassF1": {
+          "0": 0.08484848484848485,
+          "1": 0.12612612612612611,
+          "2": 0.09785932721712538,
+          "3": 0.1452513966480447,
+          "4": 0.07602339181286549,
+          "5": 0.07430340557275542,
+          "6": 0.12716763005780346,
+          "7": 0.07624633431085044,
+          "8": 0.07430340557275542,
+          "9": 0.10315186246418338
+        },
+        "topConfusions": [
+          {
+            "count": 25,
+            "predicted": "7",
+            "true": "4"
+          },
+          {
+            "count": 25,
+            "predicted": "7",
+            "true": "6"
+          },
+          {
+            "count": 25,
+            "predicted": "4",
+            "true": "8"
+          },
+          {
+            "count": 23,
+            "predicted": "3",
+            "true": "1"
+          },
+          {
+            "count": 23,
+            "predicted": "9",
+            "true": "4"
+          }
+        ],
+        "weakestClass": "5",
+        "weakestClassF1": 0.07430340557275542
+      },
+      "logistic_regression": {
+        "accuracy": 0.970344009489917,
+        "confusionMatrix": [
+          [
+            161,
+            0,
+            1,
+            0,
+            2,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            167,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            163,
+            1,
+            0,
+            2,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            169,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            165,
+            0,
+            1,
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            1,
+            162,
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            1,
+            2,
+            0,
+            0,
+            1,
+            0,
+            162,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            168,
+            0,
+            2
+          ],
+          [
+            0,
+            6,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            157,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            1,
+            3,
+            162
+          ]
+        ],
+        "macroF1": 0.9703754898839827,
+        "perClassF1": {
+          "0": 0.9817073170731707,
+          "1": 0.962536023054755,
+          "2": 0.978978978978979,
+          "3": 0.9825581395348837,
+          "4": 0.967741935483871,
+          "5": 0.9642857142857143,
+          "6": 0.9818181818181818,
+          "7": 0.9882352941176471,
+          "8": 0.9373134328358209,
+          "9": 0.9585798816568047
+        },
+        "topConfusions": [
+          {
+            "count": 6,
+            "predicted": "1",
+            "true": "8"
+          },
+          {
+            "count": 3,
+            "predicted": "8",
+            "true": "1"
+          },
+          {
+            "count": 3,
+            "predicted": "8",
+            "true": "4"
+          },
+          {
+            "count": 3,
+            "predicted": "9",
+            "true": "5"
+          },
+          {
+            "count": 3,
+            "predicted": "8",
+            "true": "9"
+          }
+        ],
+        "weakestClass": "8",
+        "weakestClassF1": 0.9373134328358209
+      },
+      "random_forest": {
+        "accuracy": 0.9863582443653618,
+        "confusionMatrix": [
+          [
+            166,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            171,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            166,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            170,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            168,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            164,
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            165,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            168,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            164,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            1,
+            0,
+            4,
+            1,
+            161
+          ]
+        ],
+        "macroF1": 0.9863740784892663,
+        "perClassF1": {
+          "0": 1.0,
+          "1": 0.9970845481049563,
+          "2": 0.996996996996997,
+          "3": 0.9883720930232558,
+          "4": 0.9853372434017595,
+          "5": 0.9879518072289156,
+          "6": 0.9880239520958084,
+          "7": 0.9767441860465116,
+          "8": 0.9820359281437125,
+          "9": 0.9611940298507463
+        },
+        "topConfusions": [
+          {
+            "count": 4,
+            "predicted": "7",
+            "true": "9"
+          },
+          {
+            "count": 2,
+            "predicted": "9",
+            "true": "5"
+          },
+          {
+            "count": 2,
+            "predicted": "8",
+            "true": "6"
+          },
+          {
+            "count": 2,
+            "predicted": "3",
+            "true": "9"
+          },
+          {
+            "count": 1,
+            "predicted": "6",
+            "true": "2"
+          }
+        ],
+        "weakestClass": "9",
+        "weakestClassF1": 0.9611940298507463
+      }
+    },
+    "split": {
+      "randomState": 42,
+      "stratified": true,
+      "testRows": 1686,
+      "testSize": 0.3,
+      "trainRows": 3934
+    }
+  },
+  "dataFile": {
+    "publicName": "optical-handwritten-digits.csv",
+    "sha256": "1afed2c27eb80eb87992f5cb6bc1967f1ceca0a83b037fd3589a2eb7f962f059"
+  },
+  "doi": null,
+  "expectedMetric": "accuracy and macro-F1",
+  "expectedTask": "ten-class classification of 8x8 handwritten digit feature grids",
+  "extensionAttempts": [
+    {
+      "accuracy": 0.970344009489917,
+      "baselineCompared": "logistic_regression",
+      "baselineMacroF1": 0.9703754898839827,
+      "decision": "downgraded_no_material_macro_f1_gain",
+      "description": "class-imbalance-aware linear model",
+      "extension": "class_weight_balanced_logistic_regression",
+      "extensionMacroF1": 0.9703717515596173,
+      "macroF1Delta": -3.738324365398782e-06,
+      "weakestClass": "8",
+      "weakestClassF1": 0.9401197604790419
+    },
+    {
+      "accuracy": 0.9863582443653618,
+      "baselineCompared": "random_forest",
+      "baselineMacroF1": 0.9863740784892663,
+      "decision": "downgraded_no_material_macro_f1_gain",
+      "description": "class-imbalance-aware tree model",
+      "extension": "class_weight_balanced_random_forest",
+      "extensionMacroF1": 0.9863868904961915,
+      "macroF1Delta": 1.281200692526685e-05,
+      "weakestClass": "9",
+      "weakestClassF1": 0.9673590504451038
+    }
+  ],
+  "hardQuestionAnswer": {
+    "metricToolBeyondSklearn": "The tool mainly added structured anti-hype controls; normal sklearn metrics still explain the base numbers.",
+    "schemaToolBeyondPandas": "The tool did not beat pandas for raw discovery, but it packaged hash-bound evidence and limitations."
+  },
+  "headerlessDataFile": {
+    "publicName": "optical-handwritten-digits-headerless.csv",
+    "sha256": "ff5bdca1a597fde4361854eeec741dc671a97633a1de46f1ac23fc173f95306b"
+  },
+  "knownLimitations": [
+    "UCI describes train/test files, but this run used a controlled stratified split for cross-target comparability.",
+    "Zero values are valid pixel/block counts, not automatically suspicious sentinels."
+  ],
+  "label": "UCI Optical Recognition of Handwritten Digits",
+  "loaded": true,
+  "metricStress": {
+    "accuracyMinusMacroF1": -3.148039406575265e-05,
+    "logisticAccuracyBySeed": [
+      0.968564650059312,
+      0.970344009489917,
+      0.9697508896797153,
+      0.9673784104389087
+    ],
+    "logisticAccuracyRange": [
+      0.9673784104389087,
+      0.970344009489917
+    ],
+    "logisticMacroF1BySeed": [
+      0.968621574172041,
+      0.9703754898839827,
+      0.9698365345135853,
+      0.967525383808835
+    ],
+    "logisticMacroF1Range": [
+      0.967525383808835,
+      0.9703754898839827
+    ],
+    "seeds": [
+      7,
+      42,
+      99,
+      2026
+    ],
+    "simpleBaselineExplainsResult": false,
+    "stratifiedVsNonStratified": {
+      "deltaNonStratMinusStrat": -0.009377898070243251,
+      "nonStratifiedMacroF1": 0.9609975918137394,
+      "stratifiedMacroF1": 0.9703754898839827
+    },
+    "weakestClass": "8",
+    "weakestClassF1": 0.9373134328358209
+  },
+  "metricToolReport": {
+    "classBalance": {
+      "0": 554,
+      "1": 571,
+      "2": 557,
+      "3": 572,
+      "4": 568,
+      "5": 558,
+      "6": 558,
+      "7": 566,
+      "8": 554,
+      "9": 562
+    },
+    "falsePositiveFalseNegativeAnalysis": {
+      "available": false,
+      "falseNegativeRate": null,
+      "falsePositiveRate": null
+    },
+    "features": 64,
+    "flags": {
+      "accuracyCouldHideClassFailure": false,
+      "challengerBeatsMajorityBalancedAccuracy": true,
+      "shuffledControlSuspicious": false
+    },
+    "limitations": [
+      "It validates one deterministic split, not every official benchmark protocol.",
+      "It cannot prove absence of leakage without source-specific split metadata."
+    ],
+    "logisticChallenger": {
+      "accuracy": 0.970344009489917,
+      "balancedAccuracy": 0.970272409841866,
+      "confusionMatrix": [
+        [
+          161,
+          0,
+          1,
+          0,
+          2,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          167,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          163,
+          1,
+          0,
+          2,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          169,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          165,
+          0,
+          1,
+          1,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          162,
+          0,
+          0,
+          0,
+          3
+        ],
+        [
+          1,
+          2,
+          0,
+          0,
+          1,
+          0,
+          162,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          168,
+          0,
+          2
+        ],
+        [
+          0,
+          6,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          157,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          2,
+          0,
+          1,
+          3,
+          162
+        ]
+      ],
+      "f1Macro": 0.9703754898839827
+    },
+    "majorityBaseline": {
+      "accuracy": 0.10142348754448399,
+      "balancedAccuracy": 0.1,
+      "confusionMatrix": [
+        [
+          0,
+          166,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          171,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          167,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          172,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          171,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          167,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          167,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          170,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          166,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          169,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "f1Macro": 0.01841680129240711
+    },
+    "rows": 5620,
+    "shuffledLabelControl": {
+      "accuracy": 0.10854092526690391,
+      "balancedAccuracy": 0.10827120976700344,
+      "confusionMatrix": [
+        [
+          2,
+          1,
+          58,
+          29,
+          23,
+          16,
+          3,
+          8,
+          20,
+          6
+        ],
+        [
+          45,
+          28,
+          9,
+          31,
+          22,
+          3,
+          13,
+          2,
+          17,
+          1
+        ],
+        [
+          12,
+          12,
+          10,
+          49,
+          20,
+          22,
+          11,
+          15,
+          13,
+          3
+        ],
+        [
+          7,
+          16,
+          6,
+          15,
+          34,
+          17,
+          17,
+          20,
+          1,
+          39
+        ],
+        [
+          12,
+          28,
+          29,
+          23,
+          13,
+          8,
+          10,
+          16,
+          15,
+          17
+        ],
+        [
+          29,
+          14,
+          18,
+          17,
+          5,
+          17,
+          24,
+          21,
+          11,
+          11
+        ],
+        [
+          8,
+          52,
+          12,
+          5,
+          34,
+          3,
+          17,
+          12,
+          16,
+          8
+        ],
+        [
+          17,
+          13,
+          21,
+          12,
+          5,
+          19,
+          6,
+          41,
+          10,
+          26
+        ],
+        [
+          42,
+          4,
+          25,
+          24,
+          22,
+          4,
+          2,
+          7,
+          22,
+          14
+        ],
+        [
+          4,
+          20,
+          10,
+          42,
+          10,
+          4,
+          25,
+          16,
+          20,
+          18
+        ]
+      ],
+      "f1Macro": 0.11099802529179399
+    },
+    "split": {
+      "randomState": 42,
+      "stratified": true,
+      "testSize": 0.3
+    },
+    "tool": "metric_stress_validator",
+    "toolGapAddressed": "sklearn.metrics computes metrics, but this tool binds them to dummy and shuffled-label controls and emits explicit inflation and FP/FN checks.",
+    "toolStatus": "used_successfully_limited"
+  },
+  "metricToolStatus": {
+    "ok": true,
+    "returnCode": 0,
+    "stderrLines": 0,
+    "stdoutLines": 0
+  },
+  "packageVersions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "python": "3.14.4",
+    "scikitLearn": "1.8.0",
+    "ucimlrepo": "0.0.7"
+  },
+  "pandasBaseline": {
+    "classDistribution": {
+      "0": 554,
+      "1": 571,
+      "2": 557,
+      "3": 572,
+      "4": 568,
+      "5": 558,
+      "6": 558,
+      "7": 566,
+      "8": 554,
+      "9": 562
+    },
+    "classes": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "columns": 65,
+    "duplicateFeatureRows": 0,
+    "duplicateFullRows": 0,
+    "featureCount": 64,
+    "leakageRisks": [
+      "No target-named feature column was retained.",
+      "No source-provided group or acquisition identifiers were available for group-aware leakage checks."
+    ],
+    "missingCells": 0,
+    "pandasChecksUsed": [
+      "shape",
+      "isna",
+      "duplicated",
+      "describe",
+      "value_counts"
+    ],
+    "provenanceLimitations": [
+      "The run depends on the ucimlrepo packaged view and UCI metadata available at execution time.",
+      "Hash evidence binds the local CSV export, not the upstream repository history."
+    ],
+    "rows": 5620,
+    "splitConsistencyRisks": [
+      "Controlled stratified splits were used for comparability; source-specific split protocols were not fully reproduced."
+    ],
+    "suspiciousSentinelValueCounts": {
+      "-1": 0,
+      "0": 175663,
+      "999": 0,
+      "9999": 0
+    },
+    "targetColumn": "class"
+  },
+  "safetyNote": "safe image-derived digit classification dataset",
+  "schemaToolReport": {
+    "aggregateFindings": {
+      "anyDuplicateRows": false,
+      "anyMissingCells": false,
+      "totalDuplicateFullRows": 0,
+      "totalMissingCells": 0,
+      "totalRows": 5620
+    },
+    "files": [
+      {
+        "columnCount": 65,
+        "columns": [
+          "Attribute1",
+          "Attribute2",
+          "Attribute3",
+          "Attribute4",
+          "Attribute5",
+          "Attribute6",
+          "Attribute7",
+          "Attribute8",
+          "Attribute9",
+          "Attribute10",
+          "Attribute11",
+          "Attribute12",
+          "Attribute13",
+          "Attribute14",
+          "Attribute15",
+          "Attribute16",
+          "Attribute17",
+          "Attribute18",
+          "Attribute19",
+          "Attribute20",
+          "Attribute21",
+          "Attribute22",
+          "Attribute23",
+          "Attribute24",
+          "Attribute25",
+          "Attribute26",
+          "Attribute27",
+          "Attribute28",
+          "Attribute29",
+          "Attribute30",
+          "Attribute31",
+          "Attribute32",
+          "Attribute33",
+          "Attribute34",
+          "Attribute35",
+          "Attribute36",
+          "Attribute37",
+          "Attribute38",
+          "Attribute39",
+          "Attribute40",
+          "Attribute41",
+          "Attribute42",
+          "Attribute43",
+          "Attribute44",
+          "Attribute45",
+          "Attribute46",
+          "Attribute47",
+          "Attribute48",
+          "Attribute49",
+          "Attribute50",
+          "Attribute51",
+          "Attribute52",
+          "Attribute53",
+          "Attribute54",
+          "Attribute55",
+          "Attribute56",
+          "Attribute57",
+          "Attribute58",
+          "Attribute59",
+          "Attribute60",
+          "Attribute61",
+          "Attribute62",
+          "Attribute63",
+          "Attribute64",
+          "class"
+        ],
+        "dtypes": {
+          "Attribute1": "int64",
+          "Attribute10": "int64",
+          "Attribute11": "int64",
+          "Attribute12": "int64",
+          "Attribute13": "int64",
+          "Attribute14": "int64",
+          "Attribute15": "int64",
+          "Attribute16": "int64",
+          "Attribute17": "int64",
+          "Attribute18": "int64",
+          "Attribute19": "int64",
+          "Attribute2": "int64",
+          "Attribute20": "int64",
+          "Attribute21": "int64",
+          "Attribute22": "int64",
+          "Attribute23": "int64",
+          "Attribute24": "int64",
+          "Attribute25": "int64",
+          "Attribute26": "int64",
+          "Attribute27": "int64",
+          "Attribute28": "int64",
+          "Attribute29": "int64",
+          "Attribute3": "int64",
+          "Attribute30": "int64",
+          "Attribute31": "int64",
+          "Attribute32": "int64",
+          "Attribute33": "int64",
+          "Attribute34": "int64",
+          "Attribute35": "int64",
+          "Attribute36": "int64",
+          "Attribute37": "int64",
+          "Attribute38": "int64",
+          "Attribute39": "int64",
+          "Attribute4": "int64",
+          "Attribute40": "int64",
+          "Attribute41": "int64",
+          "Attribute42": "int64",
+          "Attribute43": "int64",
+          "Attribute44": "int64",
+          "Attribute45": "int64",
+          "Attribute46": "int64",
+          "Attribute47": "int64",
+          "Attribute48": "int64",
+          "Attribute49": "int64",
+          "Attribute5": "int64",
+          "Attribute50": "int64",
+          "Attribute51": "int64",
+          "Attribute52": "int64",
+          "Attribute53": "int64",
+          "Attribute54": "int64",
+          "Attribute55": "int64",
+          "Attribute56": "int64",
+          "Attribute57": "int64",
+          "Attribute58": "int64",
+          "Attribute59": "int64",
+          "Attribute6": "int64",
+          "Attribute60": "int64",
+          "Attribute61": "int64",
+          "Attribute62": "int64",
+          "Attribute63": "int64",
+          "Attribute64": "int64",
+          "Attribute7": "int64",
+          "Attribute8": "int64",
+          "Attribute9": "int64",
+          "class": "int64"
+        },
+        "duplicateFullRows": 0,
+        "fileName": "optical-handwritten-digits.csv",
+        "label": "optical-handwritten-digits",
+        "missingCells": 0,
+        "numericRanges": {
+          "Attribute1": {
+            "max": 0.0,
+            "mean": 0.0,
+            "min": 0.0
+          },
+          "Attribute10": {
+            "max": 16.0,
+            "mean": 1.9711743772241992,
+            "min": 0.0
+          },
+          "Attribute11": {
+            "max": 16.0,
+            "mean": 10.514946619217081,
+            "min": 0.0
+          },
+          "Attribute12": {
+            "max": 16.0,
+            "mean": 11.79982206405694,
+            "min": 0.0
+          },
+          "Attribute13": {
+            "max": 16.0,
+            "mean": 10.514412811387901,
+            "min": 0.0
+          },
+          "Attribute14": {
+            "max": 16.0,
+            "mean": 8.25729537366548,
+            "min": 0.0
+          },
+          "Attribute15": {
+            "max": 16.0,
+            "mean": 2.0870106761565834,
+            "min": 0.0
+          },
+          "Attribute16": {
+            "max": 15.0,
+            "mean": 0.13790035587188612,
+            "min": 0.0
+          },
+          "Attribute17": {
+            "max": 5.0,
+            "mean": 0.004270462633451958,
+            "min": 0.0
+          },
+          "Attribute18": {
+            "max": 16.0,
+            "mean": 2.5976868327402136,
+            "min": 0.0
+          },
+          "Attribute19": {
+            "max": 16.0,
+            "mean": 9.683807829181495,
+            "min": 0.0
+          },
+          "Attribute2": {
+            "max": 8.0,
+            "mean": 0.302135231316726,
+            "min": 0.0
+          },
+          "Attribute20": {
+            "max": 16.0,
+            "mean": 6.817437722419929,
+            "min": 0.0
+          },
+          "Attribute21": {
+            "max": 16.0,
+            "mean": 7.158185053380783,
+            "min": 0.0
+          },
+          "Attribute22": {
+            "max": 16.0,
+            "mean": 7.970996441281139,
+            "min": 0.0
+          },
+          "Attribute23": {
+            "max": 16.0,
+            "mean": 1.9637010676156583,
+            "min": 0.0
+          },
+          "Attribute24": {
+            "max": 8.0,
+            "mean": 0.049466192170818504,
+            "min": 0.0
+          },
+          "Attribute25": {
+            "max": 1.0,
+            "mean": 0.0010676156583629894,
+            "min": 0.0
+          },
+          "Attribute26": {
+            "max": 16.0,
+            "mean": 2.3784697508896797,
+            "min": 0.0
+          },
+          "Attribute27": {
+            "max": 16.0,
+            "mean": 9.191814946619218,
+            "min": 0.0
+          },
+          "Attribute28": {
+            "max": 16.0,
+            "mean": 9.033807829181494,
+            "min": 0.0
+          },
+          "Attribute29": {
+            "max": 16.0,
+            "mean": 9.754448398576512,
+            "min": 0.0
+          },
+          "Attribute3": {
+            "max": 16.0,
+            "mean": 5.393238434163701,
+            "min": 0.0
+          },
+          "Attribute30": {
+            "max": 16.0,
+            "mean": 7.766548042704627,
+            "min": 0.0
+          },
+          "Attribute31": {
+            "max": 16.0,
+            "mean": 2.333096085409253,
+            "min": 0.0
+          },
+          "Attribute32": {
+            "max": 2.0,
+            "mean": 0.0028469750889679717,
+            "min": 0.0
+          },
+          "Attribute33": {
+            "max": 1.0,
+            "mean": 0.0008896797153024911,
+            "min": 0.0
+          },
+          "Attribute34": {
+            "max": 15.0,
+            "mean": 2.1377224199288256,
+            "min": 0.0
+          },
+          "Attribute35": {
+            "max": 16.0,
+            "mean": 7.661921708185053,
+            "min": 0.0
+          },
+          "Attribute36": {
+            "max": 16.0,
+            "mean": 9.184875444839857,
+            "min": 0.0
+          },
+          "Attribute37": {
+            "max": 16.0,
+            "mean": 10.332918149466192,
+            "min": 0.0
+          },
+          "Attribute38": {
+            "max": 16.0,
+            "mean": 9.054270462633452,
+            "min": 0.0
+          },
+          "Attribute39": {
+            "max": 14.0,
+            "mean": 2.9115658362989323,
+            "min": 0.0
+          },
+          "Attribute4": {
+            "max": 16.0,
+            "mean": 11.815480427046264,
+            "min": 0.0
+          },
+          "Attribute40": {
+            "max": 0.0,
+            "mean": 0.0,
+            "min": 0.0
+          },
+          "Attribute41": {
+            "max": 7.0,
+            "mean": 0.021530249110320285,
+            "min": 0.0
+          },
+          "Attribute42": {
+            "max": 16.0,
+            "mean": 1.4626334519572954,
+            "min": 0.0
+          },
+          "Attribute43": {
+            "max": 16.0,
+            "mean": 6.592526690391459,
+            "min": 0.0
+          },
+          "Attribute44": {
+            "max": 16.0,
+            "mean": 7.200355871886121,
+            "min": 0.0
+          },
+          "Attribute45": {
+            "max": 16.0,
+            "mean": 7.841814946619217,
+            "min": 0.0
+          },
+          "Attribute46": {
+            "max": 16.0,
+            "mean": 8.534697508896798,
+            "min": 0.0
+          },
+          "Attribute47": {
+            "max": 16.0,
+            "mean": 3.4930604982206406,
+            "min": 0.0
+          },
+          "Attribute48": {
+            "max": 6.0,
+            "mean": 0.02224199288256228,
+            "min": 0.0
+          },
+          "Attribute49": {
+            "max": 10.0,
+            "mean": 0.014412811387900355,
+            "min": 0.0
+          },
+          "Attribute5": {
+            "max": 16.0,
+            "mean": 11.578291814946619,
+            "min": 0.0
+          },
+          "Attribute50": {
+            "max": 16.0,
+            "mean": 0.7830960854092527,
+            "min": 0.0
+          },
+          "Attribute51": {
+            "max": 16.0,
+            "mean": 7.753202846975089,
+            "min": 0.0
+          },
+          "Attribute52": {
+            "max": 16.0,
+            "mean": 9.77491103202847,
+            "min": 0.0
+          },
+          "Attribute53": {
+            "max": 16.0,
+            "mean": 9.65338078291815,
+            "min": 0.0
+          },
+          "Attribute54": {
+            "max": 16.0,
+            "mean": 9.115480427046263,
+            "min": 0.0
+          },
+          "Attribute55": {
+            "max": 16.0,
+            "mean": 3.737900355871886,
+            "min": 0.0
+          },
+          "Attribute56": {
+            "max": 13.0,
+            "mean": 0.16690391459074733,
+            "min": 0.0
+          },
+          "Attribute57": {
+            "max": 1.0,
+            "mean": 0.00035587188612099647,
+            "min": 0.0
+          },
+          "Attribute58": {
+            "max": 10.0,
+            "mean": 0.2818505338078292,
+            "min": 0.0
+          },
+          "Attribute59": {
+            "max": 16.0,
+            "mean": 5.760498220640569,
+            "min": 0.0
+          },
+          "Attribute6": {
+            "max": 16.0,
+            "mean": 5.593772241992882,
+            "min": 0.0
+          },
+          "Attribute60": {
+            "max": 16.0,
+            "mean": 11.989679715302492,
+            "min": 0.0
+          },
+          "Attribute61": {
+            "max": 16.0,
+            "mean": 11.572419928825623,
+            "min": 0.0
+          },
+          "Attribute62": {
+            "max": 16.0,
+            "mean": 6.7208185053380785,
+            "min": 0.0
+          },
+          "Attribute63": {
+            "max": 16.0,
+            "mean": 2.093594306049822,
+            "min": 0.0
+          },
+          "Attribute64": {
+            "max": 16.0,
+            "mean": 0.25409252669039145,
+            "min": 0.0
+          },
+          "Attribute7": {
+            "max": 16.0,
+            "mean": 1.3793594306049821,
+            "min": 0.0
+          },
+          "Attribute8": {
+            "max": 16.0,
+            "mean": 0.1382562277580071,
+            "min": 0.0
+          },
+          "Attribute9": {
+            "max": 5.0,
+            "mean": 0.003202846975088968,
+            "min": 0.0
+          },
+          "class": {
+            "max": 9.0,
+            "mean": 4.495195729537366,
+            "min": 0.0
+          }
+        },
+        "rows": 5620,
+        "sha256": "1afed2c27eb80eb87992f5cb6bc1967f1ceca0a83b037fd3589a2eb7f962f059"
+      }
+    ],
+    "inputCount": 1,
+    "limitations": [
+      "It does not infer semantic column meaning beyond names and numeric ranges.",
+      "Duplicate full rows may be valid repeated observations without row identifiers."
+    ],
+    "schemaComparison": {
+      "mismatches": [],
+      "referenceLabel": "optical-handwritten-digits",
+      "schemaMatch": true
+    },
+    "tool": "schema_provenance_auditor",
+    "toolGapAddressed": "pandas.describe exposes per-file summaries, but it does not produce a single provenance-hash-bound split-schema comparison with duplicate and missing-cell gates.",
+    "toolStatus": "used_successfully"
+  },
+  "schemaToolStatus": {
+    "ok": true,
+    "returnCode": 0,
+    "stderrLines": 0,
+    "stdoutLines": 0
+  },
+  "slug": "optical-handwritten-digits",
+  "sourceUrl": "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits",
+  "toolUsefulness": {
+    "metric_stress_validator": {
+      "addedBeyondSklearn": [
+        "dummy_and_shuffled_control_packaging",
+        "explicit_metric_inflation_flags"
+      ],
+      "antiHypeValue": "medium_to_high",
+      "baselineDominanceResistance": "medium",
+      "decision": "The tool mainly added structured anti-hype controls; normal sklearn metrics still explain the base numbers.",
+      "failureLimitationSeverity": "medium",
+      "label": "anti_hype_support_only",
+      "packagingReproducibilityValue": "medium",
+      "rawDiscoveryValue": "low_to_medium"
+    },
+    "schema_provenance_auditor": {
+      "addedBeyondPandas": [
+        "source_hash_bound_csv_evidence"
+      ],
+      "antiHypeValue": "low_to_medium",
+      "baselineDominanceResistance": "weak",
+      "decision": "The tool did not beat pandas for raw discovery, but it packaged hash-bound evidence and limitations.",
+      "failureLimitationSeverity": "medium",
+      "label": "dominated_by_simple_baseline",
+      "packagingReproducibilityValue": "medium",
+      "rawDiscoveryValue": "low"
+    }
+  },
+  "uciId": 80
+}

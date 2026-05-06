@@ -1,0 +1,42 @@
+{
+  "targets": [
+    {
+      "doi": null,
+      "label": "UCI Rice Cammeo/Osmancik",
+      "sourceUrl": "https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik",
+      "uciId": 545
+    },
+    {
+      "doi": null,
+      "label": "UCI Optical Recognition of Handwritten Digits",
+      "sourceUrl": "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits",
+      "uciId": 80
+    },
+    {
+      "doi": "https://doi.org/10.24432/C5HG6N",
+      "label": "UCI Statlog Vehicle Silhouettes",
+      "sourceUrl": "https://archive.ics.uci.edu/dataset/149/statlog+vehicle+silhouettes",
+      "uciId": 149
+    },
+    {
+      "doi": "https://doi.org/10.24432/C5PC7J",
+      "label": "UCI Wine Recognition",
+      "sourceUrl": "https://archive.ics.uci.edu/dataset/109/wine",
+      "uciId": 109
+    },
+    {
+      "doi": "https://doi.org/10.24432/C56C76",
+      "fallback": true,
+      "label": "UCI Iris",
+      "sourceUrl": "https://archive.ics.uci.edu/dataset/53/iris",
+      "uciId": 53
+    }
+  ],
+  "toolSources": [
+    "schema_provenance_auditor from Batch 7 public toolchain",
+    "metric_stress_validator from Batch 7 public toolchain",
+    "pandas",
+    "scikit-learn",
+    "ucimlrepo"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "tool": "metric_stress_validator",
+  "toolStatus": "used_successfully_limited",
+  "rows": 3810,
+  "features": 7,
+  "classBalance": {
+    "Cammeo": 1630,
+    "Osmancik": 2180
+  },
+  "split": {
+    "testSize": 0.3,
+    "randomState": 909,
+    "stratified": true
+  },
+  "majorityBaseline": {
+    "accuracy": 0.5721784776902887,
+    "balancedAccuracy": 0.5,
+    "f1Macro": 0.3639398998330551,
+    "confusionMatrix": [
+      [
+        0,
+        489
+      ],
+      [
+        0,
+        654
+      ]
+    ],
+    "falsePositiveRate": 1.0,
+    "falseNegativeRate": 0.0
+  },
+  "logisticChallenger": {
+    "accuracy": 0.9282589676290464,
+    "balancedAccuracy": 0.9269901127558582,
+    "f1Macro": 0.9267696971591086,
+    "confusionMatrix": [
+      [
+        449,
+        40
+      ],
+      [
+        42,
+        612
+      ]
+    ],
+    "falsePositiveRate": 0.081799591002045,
+    "falseNegativeRate": 0.06422018348623854
+  },
+  "shuffledLabelControl": {
+    "accuracy": 0.5730533683289589,
+    "balancedAccuracy": 0.5010224948875256,
+    "f1Macro": 0.3661833553020318,
+    "confusionMatrix": [
+      [
+        1,
+        488
+      ],
+      [
+        0,
+        654
+      ]
+    ],
+    "falsePositiveRate": 0.9979550102249489,
+    "falseNegativeRate": 0.0
+  },
+  "flags": {
+    "challengerBeatsMajorityBalancedAccuracy": true,
+    "shuffledControlSuspicious": false,
+    "accuracyCouldHideClassFailure": false
+  },
+  "falsePositiveFalseNegativeAnalysis": {
+    "available": true,
+    "falsePositiveRate": 0.081799591002045,
+    "falseNegativeRate": 0.06422018348623854
+  },
+  "toolGapAddressed": "sklearn.metrics computes metrics, but this tool binds them to dummy and shuffled-label controls and emits explicit inflation and FP/FN checks.",
+  "limitations": [
+    "It validates one deterministic split, not every official benchmark protocol.",
+    "It cannot prove absence of leakage without source-specific split metadata."
+  ]
+}

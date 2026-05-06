@@ -1,0 +1,494 @@
+{
+  "tool": "schema_provenance_auditor",
+  "toolStatus": "used_successfully",
+  "inputCount": 1,
+  "files": [
+    {
+      "label": "optical-handwritten-digits",
+      "fileName": "optical-handwritten-digits.csv",
+      "sha256": "1afed2c27eb80eb87992f5cb6bc1967f1ceca0a83b037fd3589a2eb7f962f059",
+      "rows": 5620,
+      "columns": [
+        "Attribute1",
+        "Attribute2",
+        "Attribute3",
+        "Attribute4",
+        "Attribute5",
+        "Attribute6",
+        "Attribute7",
+        "Attribute8",
+        "Attribute9",
+        "Attribute10",
+        "Attribute11",
+        "Attribute12",
+        "Attribute13",
+        "Attribute14",
+        "Attribute15",
+        "Attribute16",
+        "Attribute17",
+        "Attribute18",
+        "Attribute19",
+        "Attribute20",
+        "Attribute21",
+        "Attribute22",
+        "Attribute23",
+        "Attribute24",
+        "Attribute25",
+        "Attribute26",
+        "Attribute27",
+        "Attribute28",
+        "Attribute29",
+        "Attribute30",
+        "Attribute31",
+        "Attribute32",
+        "Attribute33",
+        "Attribute34",
+        "Attribute35",
+        "Attribute36",
+        "Attribute37",
+        "Attribute38",
+        "Attribute39",
+        "Attribute40",
+        "Attribute41",
+        "Attribute42",
+        "Attribute43",
+        "Attribute44",
+        "Attribute45",
+        "Attribute46",
+        "Attribute47",
+        "Attribute48",
+        "Attribute49",
+        "Attribute50",
+        "Attribute51",
+        "Attribute52",
+        "Attribute53",
+        "Attribute54",
+        "Attribute55",
+        "Attribute56",
+        "Attribute57",
+        "Attribute58",
+        "Attribute59",
+        "Attribute60",
+        "Attribute61",
+        "Attribute62",
+        "Attribute63",
+        "Attribute64",
+        "class"
+      ],
+      "columnCount": 65,
+      "dtypes": {
+        "Attribute1": "int64",
+        "Attribute2": "int64",
+        "Attribute3": "int64",
+        "Attribute4": "int64",
+        "Attribute5": "int64",
+        "Attribute6": "int64",
+        "Attribute7": "int64",
+        "Attribute8": "int64",
+        "Attribute9": "int64",
+        "Attribute10": "int64",
+        "Attribute11": "int64",
+        "Attribute12": "int64",
+        "Attribute13": "int64",
+        "Attribute14": "int64",
+        "Attribute15": "int64",
+        "Attribute16": "int64",
+        "Attribute17": "int64",
+        "Attribute18": "int64",
+        "Attribute19": "int64",
+        "Attribute20": "int64",
+        "Attribute21": "int64",
+        "Attribute22": "int64",
+        "Attribute23": "int64",
+        "Attribute24": "int64",
+        "Attribute25": "int64",
+        "Attribute26": "int64",
+        "Attribute27": "int64",
+        "Attribute28": "int64",
+        "Attribute29": "int64",
+        "Attribute30": "int64",
+        "Attribute31": "int64",
+        "Attribute32": "int64",
+        "Attribute33": "int64",
+        "Attribute34": "int64",
+        "Attribute35": "int64",
+        "Attribute36": "int64",
+        "Attribute37": "int64",
+        "Attribute38": "int64",
+        "Attribute39": "int64",
+        "Attribute40": "int64",
+        "Attribute41": "int64",
+        "Attribute42": "int64",
+        "Attribute43": "int64",
+        "Attribute44": "int64",
+        "Attribute45": "int64",
+        "Attribute46": "int64",
+        "Attribute47": "int64",
+        "Attribute48": "int64",
+        "Attribute49": "int64",
+        "Attribute50": "int64",
+        "Attribute51": "int64",
+        "Attribute52": "int64",
+        "Attribute53": "int64",
+        "Attribute54": "int64",
+        "Attribute55": "int64",
+        "Attribute56": "int64",
+        "Attribute57": "int64",
+        "Attribute58": "int64",
+        "Attribute59": "int64",
+        "Attribute60": "int64",
+        "Attribute61": "int64",
+        "Attribute62": "int64",
+        "Attribute63": "int64",
+        "Attribute64": "int64",
+        "class": "int64"
+      },
+      "missingCells": 0,
+      "duplicateFullRows": 0,
+      "numericRanges": {
+        "Attribute1": {
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0
+        },
+        "Attribute2": {
+          "min": 0.0,
+          "max": 8.0,
+          "mean": 0.302135231316726
+        },
+        "Attribute3": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 5.393238434163701
+        },
+        "Attribute4": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 11.815480427046264
+        },
+        "Attribute5": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 11.578291814946619
+        },
+        "Attribute6": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 5.593772241992882
+        },
+        "Attribute7": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 1.3793594306049821
+        },
+        "Attribute8": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 0.1382562277580071
+        },
+        "Attribute9": {
+          "min": 0.0,
+          "max": 5.0,
+          "mean": 0.003202846975088968
+        },
+        "Attribute10": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 1.9711743772241992
+        },
+        "Attribute11": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 10.514946619217081
+        },
+        "Attribute12": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 11.79982206405694
+        },
+        "Attribute13": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 10.514412811387901
+        },
+        "Attribute14": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 8.25729537366548
+        },
+        "Attribute15": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 2.0870106761565834
+        },
+        "Attribute16": {
+          "min": 0.0,
+          "max": 15.0,
+          "mean": 0.13790035587188612
+        },
+        "Attribute17": {
+          "min": 0.0,
+          "max": 5.0,
+          "mean": 0.004270462633451958
+        },
+        "Attribute18": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 2.5976868327402136
+        },
+        "Attribute19": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 9.683807829181495
+        },
+        "Attribute20": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 6.817437722419929
+        },
+        "Attribute21": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 7.158185053380783
+        },
+        "Attribute22": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 7.970996441281139
+        },
+        "Attribute23": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 1.9637010676156583
+        },
+        "Attribute24": {
+          "min": 0.0,
+          "max": 8.0,
+          "mean": 0.049466192170818504
+        },
+        "Attribute25": {
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.0010676156583629894
+        },
+        "Attribute26": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 2.3784697508896797
+        },
+        "Attribute27": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 9.191814946619218
+        },
+        "Attribute28": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 9.033807829181494
+        },
+        "Attribute29": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 9.754448398576512
+        },
+        "Attribute30": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 7.766548042704627
+        },
+        "Attribute31": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 2.333096085409253
+        },
+        "Attribute32": {
+          "min": 0.0,
+          "max": 2.0,
+          "mean": 0.0028469750889679717
+        },
+        "Attribute33": {
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.0008896797153024911
+        },
+        "Attribute34": {
+          "min": 0.0,
+          "max": 15.0,
+          "mean": 2.1377224199288256
+        },
+        "Attribute35": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 7.661921708185053
+        },
+        "Attribute36": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 9.184875444839857
+        },
+        "Attribute37": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 10.332918149466192
+        },
+        "Attribute38": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 9.054270462633452
+        },
+        "Attribute39": {
+          "min": 0.0,
+          "max": 14.0,
+          "mean": 2.9115658362989323
+        },
+        "Attribute40": {
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0
+        },
+        "Attribute41": {
+          "min": 0.0,
+          "max": 7.0,
+          "mean": 0.021530249110320285
+        },
+        "Attribute42": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 1.4626334519572954
+        },
+        "Attribute43": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 6.592526690391459
+        },
+        "Attribute44": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 7.200355871886121
+        },
+        "Attribute45": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 7.841814946619217
+        },
+        "Attribute46": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 8.534697508896798
+        },
+        "Attribute47": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 3.4930604982206406
+        },
+        "Attribute48": {
+          "min": 0.0,
+          "max": 6.0,
+          "mean": 0.02224199288256228
+        },
+        "Attribute49": {
+          "min": 0.0,
+          "max": 10.0,
+          "mean": 0.014412811387900355
+        },
+        "Attribute50": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 0.7830960854092527
+        },
+        "Attribute51": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 7.753202846975089
+        },
+        "Attribute52": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 9.77491103202847
+        },
+        "Attribute53": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 9.65338078291815
+        },
+        "Attribute54": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 9.115480427046263
+        },
+        "Attribute55": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 3.737900355871886
+        },
+        "Attribute56": {
+          "min": 0.0,
+          "max": 13.0,
+          "mean": 0.16690391459074733
+        },
+        "Attribute57": {
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.00035587188612099647
+        },
+        "Attribute58": {
+          "min": 0.0,
+          "max": 10.0,
+          "mean": 0.2818505338078292
+        },
+        "Attribute59": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 5.760498220640569
+        },
+        "Attribute60": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 11.989679715302492
+        },
+        "Attribute61": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 11.572419928825623
+        },
+        "Attribute62": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 6.7208185053380785
+        },
+        "Attribute63": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 2.093594306049822
+        },
+        "Attribute64": {
+          "min": 0.0,
+          "max": 16.0,
+          "mean": 0.25409252669039145
+        },
+        "class": {
+          "min": 0.0,
+          "max": 9.0,
+          "mean": 4.495195729537366
+        }
+      }
+    }
+  ],
+  "schemaComparison": {
+    "schemaMatch": true,
+    "referenceLabel": "optical-handwritten-digits",
+    "mismatches": []
+  },
+  "aggregateFindings": {
+    "totalRows": 5620,
+    "totalMissingCells": 0,
+    "totalDuplicateFullRows": 0,
+    "anyDuplicateRows": false,
+    "anyMissingCells": false
+  },
+  "toolGapAddressed": "pandas.describe exposes per-file summaries, but it does not produce a single provenance-hash-bound split-schema comparison with duplicate and missing-cell gates.",
+  "limitations": [
+    "It does not infer semantic column meaning beyond names and numeric ranges.",
+    "Duplicate full rows may be valid repeated observations without row identifiers."
+  ]
+}

@@ -1,14 +1,14 @@
 {
   "kind": "sovryn_public_corpus_product",
-  "generatedAt": "2026-05-06T11:22:17.812Z",
-  "resultCount": 72,
+  "generatedAt": "2026-05-06T11:45:14.611Z",
+  "resultCount": 73,
   "qualityCounts": {
     "excellent": 5,
-    "good": 61,
+    "good": 62,
     "reviewable": 6
   },
   "statusCounts": {
-    "autopublished": 38,
+    "autopublished": 39,
     "benchmark_challenge_negative_result": 4,
     "dataset_quality_audit_supported": 7,
     "external_extension_supported": 1,
@@ -26,7 +26,7 @@
     "strong_external_negative_result": 1
   },
   "lifecycleCounts": {
-    "autopublished": 41,
+    "autopublished": 42,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -64,6 +64,7 @@
     "software-supply-chain-assurance": 3,
     "source-evidence-extraction-benchmark": 1,
     "source-evidence-extraction-quality": 3,
+    "tabular-and-image-derived-classification-benchmark-validation": 1,
     "tabular-benchmark-baseline-dominance": 2,
     "tabular-regression-benchmark": 1,
     "time-series-anomaly-benchmark": 1,
@@ -664,6 +665,84 @@
         "falsification": "anti_hype_review_completed_with_downgrades",
         "lifecycle": "autopublished",
         "version": "batch10-toolchain-kill-week",
+        "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      }
+    },
+    {
+      "slug": "batch11-multi-target-dataset-metric-validation-program",
+      "title": "Batch 11 Multi-Target Dataset and Metric Validation Program",
+      "domain": "tabular-and-image-derived-classification-benchmark-validation",
+      "resultKind": "multi_target_dataset_metric_validation_program",
+      "path": "results/batch11-multi-target-dataset-metric-validation-program",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch11-multi-target-dataset-metric-validation-program",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": null,
+      "humanReadableSummary": "Batch 11 runs a focused dataset-and-metric validation program across four public classification targets in one domain: tabular and image-derived benchmark validation.",
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 93,
+      "reproducibilityScore": 92,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 90,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": false,
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "passes_falsification_with_limitations",
+      "scientificQuestion": null,
+      "hypothesisCount": 0,
+      "nullHypothesisPresent": false,
+      "experimentCount": 0,
+      "replicationRunCount": 0,
+      "peerReviewPresent": false,
+      "statisticalAnalysisPresent": false,
+      "baselineComparisonPresent": false,
+      "ablationPresent": false,
+      "sensitivityPresent": false,
+      "studyResultLabel": null,
+      "scientificMemoryUpdated": false,
+      "safetyScope": null,
+      "summary": "Batch 11 runs a focused dataset-and-metric validation program across four public classification targets in one domain: tabular and image-derived benchmark validation.",
+      "limitations": [
+        "Limitations",
+        "The schema tool is not a semantic leakage detector.",
+        "The metric tool is not a proof of absence of leakage.",
+        "The toolchain is useful, but mostly as evidence packaging and anti-hype support. On these single-table targets, pandas and sklearn explained most raw findings. The custom tools added source-hash-bound evidence cards, explicit dummy and shuffled-label controls, seed/split stress, replay notes, and public limitation discipline.",
+        "The schema tool did not beat pandas for raw discovery. Its value was hash-bound packaging, repeatable comparison, and public limitation discipline.",
+        "\"disclaimer\": \"Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.\","
+      ],
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification_with_limitations",
+        "lifecycle": "autopublished",
+        "version": "batch11-multi-target-dataset-metric-validation-program",
         "showcase": "not-showcase"
       },
       "showcaseDocumentation": {
@@ -5578,6 +5657,13 @@
       ]
     },
     {
+      "versionGroup": "batch11-multi-target-dataset-metric-validation-program",
+      "latestSlug": "batch11-multi-target-dataset-metric-validation-program",
+      "resultSlugs": [
+        "batch11-multi-target-dataset-metric-validation-program"
+      ]
+    },
+    {
       "versionGroup": "batch2-climate-fever-claim-verification-followup",
       "latestSlug": "batch2-climate-fever-claim-verification-followup",
       "resultSlugs": [
@@ -7040,5 +7126,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "56d342e2cf1e8aa2c6d26b32988233699bc281a23a81c8345d0c992da43fffbe"
+  "evidenceHash": "407c9237a385796f366a3a7e6513db29d934d2d38a3ba12fc5d75b6a74cf1206"
 }

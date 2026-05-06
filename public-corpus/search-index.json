@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-06T11:22:17.812Z",
-  "entryCount": 72,
+  "builtAt": "2026-05-06T11:45:14.611Z",
+  "entryCount": 73,
   "entries": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -326,6 +326,44 @@
         "sovryn",
         "toolchain",
         "week"
+      ]
+    },
+    {
+      "slug": "batch11-multi-target-dataset-metric-validation-program",
+      "title": "Batch 11 Multi-Target Dataset and Metric Validation Program",
+      "domain": "tabular-and-image-derived-classification-benchmark-validation",
+      "href": "results/batch11-multi-target-dataset-metric-validation-program.html",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch11-multi-target-dataset-metric-validation-program",
+      "showcaseRank": null,
+      "terms": [
+        "across",
+        "and",
+        "autopublished",
+        "batch",
+        "batch11",
+        "benchmark",
+        "classification",
+        "dataset",
+        "derived",
+        "domain",
+        "focused",
+        "four",
+        "image",
+        "metric",
+        "multi",
+        "numpy",
+        "one",
+        "pandas",
+        "program",
+        "public",
+        "runs",
+        "tabular",
+        "target",
+        "targets",
+        "validation"
       ]
     },
     {
@@ -2940,5 +2978,5 @@
       ]
     }
   ],
-  "evidenceHash": "696809aef0f351b44529fceaa49dd8ea0c9b83a31377e5e765fe4f8c7bcc96c3"
+  "evidenceHash": "fd3d846bf2c419bfaf66bb35f4f5aa45b4cef7d5d17b0b80a50d3df4f4051634"
 }

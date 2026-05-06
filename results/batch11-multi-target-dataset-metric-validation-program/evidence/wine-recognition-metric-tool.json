@@ -1,0 +1,97 @@
+{
+  "tool": "metric_stress_validator",
+  "toolStatus": "used_successfully_limited",
+  "rows": 178,
+  "features": 13,
+  "classBalance": {
+    "1": 59,
+    "2": 71,
+    "3": 48
+  },
+  "split": {
+    "testSize": 0.3,
+    "randomState": 42,
+    "stratified": true
+  },
+  "majorityBaseline": {
+    "accuracy": 0.3888888888888889,
+    "balancedAccuracy": 0.3333333333333333,
+    "f1Macro": 0.18666666666666668,
+    "confusionMatrix": [
+      [
+        0,
+        18,
+        0
+      ],
+      [
+        0,
+        21,
+        0
+      ],
+      [
+        0,
+        15,
+        0
+      ]
+    ]
+  },
+  "logisticChallenger": {
+    "accuracy": 0.9814814814814815,
+    "balancedAccuracy": 0.9841269841269842,
+    "f1Macro": 0.9828609096901779,
+    "confusionMatrix": [
+      [
+        18,
+        0,
+        0
+      ],
+      [
+        1,
+        20,
+        0
+      ],
+      [
+        0,
+        0,
+        15
+      ]
+    ]
+  },
+  "shuffledLabelControl": {
+    "accuracy": 0.3888888888888889,
+    "balancedAccuracy": 0.3645502645502645,
+    "f1Macro": 0.35353535353535354,
+    "confusionMatrix": [
+      [
+        7,
+        9,
+        2
+      ],
+      [
+        6,
+        12,
+        3
+      ],
+      [
+        11,
+        2,
+        2
+      ]
+    ]
+  },
+  "flags": {
+    "challengerBeatsMajorityBalancedAccuracy": true,
+    "shuffledControlSuspicious": false,
+    "accuracyCouldHideClassFailure": false
+  },
+  "falsePositiveFalseNegativeAnalysis": {
+    "available": false,
+    "falsePositiveRate": null,
+    "falseNegativeRate": null
+  },
+  "toolGapAddressed": "sklearn.metrics computes metrics, but this tool binds them to dummy and shuffled-label controls and emits explicit inflation and FP/FN checks.",
+  "limitations": [
+    "It validates one deterministic split, not every official benchmark protocol.",
+    "It cannot prove absence of leakage without source-specific split metadata."
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-06T11:22:17.812Z",
+  "generatedAt": "2026-05-06T11:45:14.611Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -141,6 +141,24 @@
         "falsification": "anti_hype_review_completed_with_downgrades",
         "lifecycle": "autopublished",
         "version": "batch10-toolchain-kill-week",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "batch11-multi-target-dataset-metric-validation-program",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "review_ready",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification_with_limitations",
+        "lifecycle": "autopublished",
+        "version": "batch11-multi-target-dataset-metric-validation-program",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -1299,5 +1317,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "1eb62ae19ebf70b1449e918cd718582a28ccf58516c66ae868708bb6299da840"
+  "evidenceHash": "75699b51504d524dca0f7bf73a1eca6d3b02202be2c8a3507199975d08b28224"
 }

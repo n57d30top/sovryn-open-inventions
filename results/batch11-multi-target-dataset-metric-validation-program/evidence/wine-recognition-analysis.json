@@ -1,0 +1,583 @@
+{
+  "baselineModeling": {
+    "scores": {
+      "dummy_most_frequent": {
+        "accuracy": 0.3888888888888889,
+        "confusionMatrix": [
+          [
+            0,
+            18,
+            0
+          ],
+          [
+            0,
+            21,
+            0
+          ],
+          [
+            0,
+            15,
+            0
+          ]
+        ],
+        "macroF1": 0.18666666666666668,
+        "perClassF1": {
+          "1": 0.0,
+          "2": 0.56,
+          "3": 0.0
+        },
+        "topConfusions": [
+          {
+            "count": 18,
+            "predicted": "2",
+            "true": "1"
+          },
+          {
+            "count": 15,
+            "predicted": "2",
+            "true": "3"
+          }
+        ],
+        "weakestClass": "1",
+        "weakestClassF1": 0.0
+      },
+      "dummy_stratified": {
+        "accuracy": 0.37037037037037035,
+        "confusionMatrix": [
+          [
+            6,
+            6,
+            6
+          ],
+          [
+            8,
+            11,
+            2
+          ],
+          [
+            5,
+            7,
+            3
+          ]
+        ],
+        "macroF1": 0.347994147994148,
+        "perClassF1": {
+          "1": 0.32432432432432434,
+          "2": 0.4888888888888889,
+          "3": 0.23076923076923078
+        },
+        "topConfusions": [
+          {
+            "count": 8,
+            "predicted": "1",
+            "true": "2"
+          },
+          {
+            "count": 7,
+            "predicted": "2",
+            "true": "3"
+          },
+          {
+            "count": 6,
+            "predicted": "2",
+            "true": "1"
+          },
+          {
+            "count": 6,
+            "predicted": "3",
+            "true": "1"
+          },
+          {
+            "count": 5,
+            "predicted": "1",
+            "true": "3"
+          }
+        ],
+        "weakestClass": "3",
+        "weakestClassF1": 0.23076923076923078
+      },
+      "logistic_regression": {
+        "accuracy": 0.9814814814814815,
+        "confusionMatrix": [
+          [
+            18,
+            0,
+            0
+          ],
+          [
+            1,
+            20,
+            0
+          ],
+          [
+            0,
+            0,
+            15
+          ]
+        ],
+        "macroF1": 0.9828609096901779,
+        "perClassF1": {
+          "1": 0.972972972972973,
+          "2": 0.975609756097561,
+          "3": 1.0
+        },
+        "topConfusions": [
+          {
+            "count": 1,
+            "predicted": "1",
+            "true": "2"
+          }
+        ],
+        "weakestClass": "1",
+        "weakestClassF1": 0.972972972972973
+      },
+      "random_forest": {
+        "accuracy": 1.0,
+        "confusionMatrix": [
+          [
+            18,
+            0,
+            0
+          ],
+          [
+            0,
+            21,
+            0
+          ],
+          [
+            0,
+            0,
+            15
+          ]
+        ],
+        "macroF1": 1.0,
+        "perClassF1": {
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0
+        },
+        "topConfusions": [],
+        "weakestClass": "1",
+        "weakestClassF1": 1.0
+      }
+    },
+    "split": {
+      "randomState": 42,
+      "stratified": true,
+      "testRows": 54,
+      "testSize": 0.3,
+      "trainRows": 124
+    }
+  },
+  "dataFile": {
+    "publicName": "wine-recognition.csv",
+    "sha256": "a2f01d0393fade05bdbc65751f64132a8a0a7e2dcfeb7394196e32b253b08e1e"
+  },
+  "doi": "https://doi.org/10.24432/C5PC7J",
+  "expectedMetric": "accuracy and macro-F1",
+  "expectedTask": "three-class cultivar classification from physicochemical measurements",
+  "extensionAttempts": [
+    {
+      "accuracy": 0.9814814814814815,
+      "baselineCompared": "logistic_regression",
+      "baselineMacroF1": 0.9828609096901779,
+      "decision": "downgraded_no_material_macro_f1_gain",
+      "description": "class-imbalance-aware linear model",
+      "extension": "class_weight_balanced_logistic_regression",
+      "extensionMacroF1": 0.9828609096901779,
+      "macroF1Delta": 0.0,
+      "weakestClass": "1",
+      "weakestClassF1": 0.972972972972973
+    },
+    {
+      "accuracy": 1.0,
+      "baselineCompared": "random_forest",
+      "baselineMacroF1": 1.0,
+      "decision": "downgraded_no_material_macro_f1_gain",
+      "description": "class-imbalance-aware tree model",
+      "extension": "class_weight_balanced_random_forest",
+      "extensionMacroF1": 1.0,
+      "macroF1Delta": 0.0,
+      "weakestClass": "1",
+      "weakestClassF1": 1.0
+    }
+  ],
+  "hardQuestionAnswer": {
+    "metricToolBeyondSklearn": "The tool mainly added structured anti-hype controls; normal sklearn metrics still explain the base numbers.",
+    "schemaToolBeyondPandas": "The tool did not beat pandas for raw discovery, but it packaged hash-bound evidence and limitations."
+  },
+  "headerlessDataFile": {
+    "publicName": "wine-recognition-headerless.csv",
+    "sha256": "fc4faacbbaf03cc6b2a75e6d0748fcb8c50dfe2c0c5e65726e48575a0debda54"
+  },
+  "knownLimitations": [
+    "Small sample size makes split-level variance important.",
+    "High linear-model scores are expected and should not be treated as a benchmark win."
+  ],
+  "label": "UCI Wine Recognition",
+  "loaded": true,
+  "metricStress": {
+    "accuracyMinusMacroF1": -0.0013794282086964094,
+    "logisticAccuracyBySeed": [
+      0.9629629629629629,
+      0.9814814814814815,
+      1.0,
+      0.9814814814814815
+    ],
+    "logisticAccuracyRange": [
+      0.9629629629629629,
+      1.0
+    ],
+    "logisticMacroF1BySeed": [
+      0.9619047619047619,
+      0.9828609096901779,
+      1.0,
+      0.9828609096901779
+    ],
+    "logisticMacroF1Range": [
+      0.9619047619047619,
+      1.0
+    ],
+    "seeds": [
+      7,
+      42,
+      99,
+      2026
+    ],
+    "simpleBaselineExplainsResult": false,
+    "stratifiedVsNonStratified": {
+      "deltaNonStratMinusStrat": -0.0024852438645540653,
+      "nonStratifiedMacroF1": 0.9803756658256239,
+      "stratifiedMacroF1": 0.9828609096901779
+    },
+    "weakestClass": "1",
+    "weakestClassF1": 0.972972972972973
+  },
+  "metricToolReport": {
+    "classBalance": {
+      "1": 59,
+      "2": 71,
+      "3": 48
+    },
+    "falsePositiveFalseNegativeAnalysis": {
+      "available": false,
+      "falseNegativeRate": null,
+      "falsePositiveRate": null
+    },
+    "features": 13,
+    "flags": {
+      "accuracyCouldHideClassFailure": false,
+      "challengerBeatsMajorityBalancedAccuracy": true,
+      "shuffledControlSuspicious": false
+    },
+    "limitations": [
+      "It validates one deterministic split, not every official benchmark protocol.",
+      "It cannot prove absence of leakage without source-specific split metadata."
+    ],
+    "logisticChallenger": {
+      "accuracy": 0.9814814814814815,
+      "balancedAccuracy": 0.9841269841269842,
+      "confusionMatrix": [
+        [
+          18,
+          0,
+          0
+        ],
+        [
+          1,
+          20,
+          0
+        ],
+        [
+          0,
+          0,
+          15
+        ]
+      ],
+      "f1Macro": 0.9828609096901779
+    },
+    "majorityBaseline": {
+      "accuracy": 0.3888888888888889,
+      "balancedAccuracy": 0.3333333333333333,
+      "confusionMatrix": [
+        [
+          0,
+          18,
+          0
+        ],
+        [
+          0,
+          21,
+          0
+        ],
+        [
+          0,
+          15,
+          0
+        ]
+      ],
+      "f1Macro": 0.18666666666666668
+    },
+    "rows": 178,
+    "shuffledLabelControl": {
+      "accuracy": 0.3888888888888889,
+      "balancedAccuracy": 0.3645502645502645,
+      "confusionMatrix": [
+        [
+          7,
+          9,
+          2
+        ],
+        [
+          6,
+          12,
+          3
+        ],
+        [
+          11,
+          2,
+          2
+        ]
+      ],
+      "f1Macro": 0.35353535353535354
+    },
+    "split": {
+      "randomState": 42,
+      "stratified": true,
+      "testSize": 0.3
+    },
+    "tool": "metric_stress_validator",
+    "toolGapAddressed": "sklearn.metrics computes metrics, but this tool binds them to dummy and shuffled-label controls and emits explicit inflation and FP/FN checks.",
+    "toolStatus": "used_successfully_limited"
+  },
+  "metricToolStatus": {
+    "ok": true,
+    "returnCode": 0,
+    "stderrLines": 0,
+    "stdoutLines": 0
+  },
+  "packageVersions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "python": "3.14.4",
+    "scikitLearn": "1.8.0",
+    "ucimlrepo": "0.0.7"
+  },
+  "pandasBaseline": {
+    "classDistribution": {
+      "1": 59,
+      "2": 71,
+      "3": 48
+    },
+    "classes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "columns": 14,
+    "duplicateFeatureRows": 0,
+    "duplicateFullRows": 0,
+    "featureCount": 13,
+    "leakageRisks": [
+      "No target-named feature column was retained.",
+      "No source-provided group or acquisition identifiers were available for group-aware leakage checks."
+    ],
+    "missingCells": 0,
+    "pandasChecksUsed": [
+      "shape",
+      "isna",
+      "duplicated",
+      "describe",
+      "value_counts"
+    ],
+    "provenanceLimitations": [
+      "The run depends on the ucimlrepo packaged view and UCI metadata available at execution time.",
+      "Hash evidence binds the local CSV export, not the upstream repository history."
+    ],
+    "rows": 178,
+    "splitConsistencyRisks": [
+      "Controlled stratified splits were used for comparability; source-specific split protocols were not fully reproduced."
+    ],
+    "suspiciousSentinelValueCounts": {
+      "-1": 0,
+      "0": 0,
+      "999": 0,
+      "9999": 0
+    },
+    "targetColumn": "class"
+  },
+  "safetyNote": "safe small tabular classification dataset",
+  "schemaToolReport": {
+    "aggregateFindings": {
+      "anyDuplicateRows": false,
+      "anyMissingCells": false,
+      "totalDuplicateFullRows": 0,
+      "totalMissingCells": 0,
+      "totalRows": 178
+    },
+    "files": [
+      {
+        "columnCount": 14,
+        "columns": [
+          "Alcohol",
+          "Malicacid",
+          "Ash",
+          "Alcalinity_of_ash",
+          "Magnesium",
+          "Total_phenols",
+          "Flavanoids",
+          "Nonflavanoid_phenols",
+          "Proanthocyanins",
+          "Color_intensity",
+          "Hue",
+          "0D280_0D315_of_diluted_wines",
+          "Proline",
+          "class"
+        ],
+        "dtypes": {
+          "0D280_0D315_of_diluted_wines": "float64",
+          "Alcalinity_of_ash": "float64",
+          "Alcohol": "float64",
+          "Ash": "float64",
+          "Color_intensity": "float64",
+          "Flavanoids": "float64",
+          "Hue": "float64",
+          "Magnesium": "int64",
+          "Malicacid": "float64",
+          "Nonflavanoid_phenols": "float64",
+          "Proanthocyanins": "float64",
+          "Proline": "int64",
+          "Total_phenols": "float64",
+          "class": "int64"
+        },
+        "duplicateFullRows": 0,
+        "fileName": "wine-recognition.csv",
+        "label": "wine-recognition",
+        "missingCells": 0,
+        "numericRanges": {
+          "0D280_0D315_of_diluted_wines": {
+            "max": 4.0,
+            "mean": 2.6116853932584267,
+            "min": 1.27
+          },
+          "Alcalinity_of_ash": {
+            "max": 30.0,
+            "mean": 19.49494382022472,
+            "min": 10.6
+          },
+          "Alcohol": {
+            "max": 14.83,
+            "mean": 13.00061797752809,
+            "min": 11.03
+          },
+          "Ash": {
+            "max": 3.23,
+            "mean": 2.3665168539325845,
+            "min": 1.36
+          },
+          "Color_intensity": {
+            "max": 13.0,
+            "mean": 5.058089882022472,
+            "min": 1.28
+          },
+          "Flavanoids": {
+            "max": 5.08,
+            "mean": 2.0292696629213487,
+            "min": 0.34
+          },
+          "Hue": {
+            "max": 1.71,
+            "mean": 0.9574494382022471,
+            "min": 0.48
+          },
+          "Magnesium": {
+            "max": 162.0,
+            "mean": 99.74157303370787,
+            "min": 70.0
+          },
+          "Malicacid": {
+            "max": 5.8,
+            "mean": 2.3363483146067416,
+            "min": 0.74
+          },
+          "Nonflavanoid_phenols": {
+            "max": 0.66,
+            "mean": 0.3618539325842696,
+            "min": 0.13
+          },
+          "Proanthocyanins": {
+            "max": 3.58,
+            "mean": 1.5908988764044945,
+            "min": 0.41
+          },
+          "Proline": {
+            "max": 1680.0,
+            "mean": 746.8932584269663,
+            "min": 278.0
+          },
+          "Total_phenols": {
+            "max": 3.88,
+            "mean": 2.295112359550562,
+            "min": 0.98
+          },
+          "class": {
+            "max": 3.0,
+            "mean": 1.9382022471910112,
+            "min": 1.0
+          }
+        },
+        "rows": 178,
+        "sha256": "a2f01d0393fade05bdbc65751f64132a8a0a7e2dcfeb7394196e32b253b08e1e"
+      }
+    ],
+    "inputCount": 1,
+    "limitations": [
+      "It does not infer semantic column meaning beyond names and numeric ranges.",
+      "Duplicate full rows may be valid repeated observations without row identifiers."
+    ],
+    "schemaComparison": {
+      "mismatches": [],
+      "referenceLabel": "wine-recognition",
+      "schemaMatch": true
+    },
+    "tool": "schema_provenance_auditor",
+    "toolGapAddressed": "pandas.describe exposes per-file summaries, but it does not produce a single provenance-hash-bound split-schema comparison with duplicate and missing-cell gates.",
+    "toolStatus": "used_successfully"
+  },
+  "schemaToolStatus": {
+    "ok": true,
+    "returnCode": 0,
+    "stderrLines": 0,
+    "stdoutLines": 0
+  },
+  "slug": "wine-recognition",
+  "sourceUrl": "https://archive.ics.uci.edu/dataset/109/wine",
+  "toolUsefulness": {
+    "metric_stress_validator": {
+      "addedBeyondSklearn": [
+        "dummy_and_shuffled_control_packaging",
+        "explicit_metric_inflation_flags"
+      ],
+      "antiHypeValue": "medium_to_high",
+      "baselineDominanceResistance": "medium",
+      "decision": "The tool mainly added structured anti-hype controls; normal sklearn metrics still explain the base numbers.",
+      "failureLimitationSeverity": "medium",
+      "label": "anti_hype_support_only",
+      "packagingReproducibilityValue": "medium",
+      "rawDiscoveryValue": "low_to_medium"
+    },
+    "schema_provenance_auditor": {
+      "addedBeyondPandas": [
+        "source_hash_bound_csv_evidence"
+      ],
+      "antiHypeValue": "low_to_medium",
+      "baselineDominanceResistance": "weak",
+      "decision": "The tool did not beat pandas for raw discovery, but it packaged hash-bound evidence and limitations.",
+      "failureLimitationSeverity": "medium",
+      "label": "dominated_by_simple_baseline",
+      "packagingReproducibilityValue": "medium",
+      "rawDiscoveryValue": "low"
+    }
+  },
+  "uciId": 109
+}

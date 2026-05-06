@@ -1,0 +1,482 @@
+{
+  "baselineModeling": {
+    "scores": {
+      "dummy_most_frequent": {
+        "accuracy": 0.5721784776902887,
+        "confusionMatrix": [
+          [
+            0,
+            489
+          ],
+          [
+            0,
+            654
+          ]
+        ],
+        "macroF1": 0.3639398998330551,
+        "perClassF1": {
+          "Cammeo": 0.0,
+          "Osmancik": 0.7278797996661102
+        },
+        "topConfusions": [
+          {
+            "count": 489,
+            "predicted": "Osmancik",
+            "true": "Cammeo"
+          }
+        ],
+        "weakestClass": "Cammeo",
+        "weakestClassF1": 0.0
+      },
+      "dummy_stratified": {
+        "accuracy": 0.49081364829396323,
+        "confusionMatrix": [
+          [
+            198,
+            291
+          ],
+          [
+            291,
+            363
+          ]
+        ],
+        "macroF1": 0.47997692350987786,
+        "perClassF1": {
+          "Cammeo": 0.4049079754601227,
+          "Osmancik": 0.555045871559633
+        },
+        "topConfusions": [
+          {
+            "count": 291,
+            "predicted": "Osmancik",
+            "true": "Cammeo"
+          },
+          {
+            "count": 291,
+            "predicted": "Cammeo",
+            "true": "Osmancik"
+          }
+        ],
+        "weakestClass": "Cammeo",
+        "weakestClassF1": 0.4049079754601227
+      },
+      "logistic_regression": {
+        "accuracy": 0.9195100612423447,
+        "confusionMatrix": [
+          [
+            434,
+            55
+          ],
+          [
+            37,
+            617
+          ]
+        ],
+        "macroF1": 0.9173925339366515,
+        "perClassF1": {
+          "Cammeo": 0.9041666666666667,
+          "Osmancik": 0.9306184012066365
+        },
+        "topConfusions": [
+          {
+            "count": 55,
+            "predicted": "Osmancik",
+            "true": "Cammeo"
+          },
+          {
+            "count": 37,
+            "predicted": "Cammeo",
+            "true": "Osmancik"
+          }
+        ],
+        "weakestClass": "Cammeo",
+        "weakestClassF1": 0.9041666666666667
+      },
+      "random_forest": {
+        "accuracy": 0.926509186351706,
+        "confusionMatrix": [
+          [
+            436,
+            53
+          ],
+          [
+            31,
+            623
+          ]
+        ],
+        "macroF1": 0.9244879982382735,
+        "perClassF1": {
+          "Cammeo": 0.9121338912133892,
+          "Osmancik": 0.9368421052631579
+        },
+        "topConfusions": [
+          {
+            "count": 53,
+            "predicted": "Osmancik",
+            "true": "Cammeo"
+          },
+          {
+            "count": 31,
+            "predicted": "Cammeo",
+            "true": "Osmancik"
+          }
+        ],
+        "weakestClass": "Cammeo",
+        "weakestClassF1": 0.9121338912133892
+      }
+    },
+    "split": {
+      "randomState": 42,
+      "stratified": true,
+      "testRows": 1143,
+      "testSize": 0.3,
+      "trainRows": 2667
+    }
+  },
+  "dataFile": {
+    "publicName": "rice-cammeo-osmancik.csv",
+    "sha256": "4c8c6d315d071ca9d78ca32cde0b5072d37b2f9f06fa9acc1fd6540ab738f3c3"
+  },
+  "doi": null,
+  "expectedMetric": "accuracy and macro-F1",
+  "expectedTask": "binary classification of rice grain varieties from image-derived morphology features",
+  "extensionAttempts": [
+    {
+      "accuracy": 0.9238845144356955,
+      "baselineCompared": "logistic_regression",
+      "baselineMacroF1": 0.9173925339366515,
+      "decision": "accepted_measured_macro_f1_gain",
+      "description": "class-imbalance-aware linear model",
+      "extension": "class_weight_balanced_logistic_regression",
+      "extensionMacroF1": 0.9222845790678464,
+      "macroF1Delta": 0.0048920451311949,
+      "weakestClass": "Cammeo",
+      "weakestClassF1": 0.9111338100102145
+    },
+    {
+      "accuracy": 0.9212598425196851,
+      "baselineCompared": "random_forest",
+      "baselineMacroF1": 0.9244879982382735,
+      "decision": "rejected_macro_f1_decrease",
+      "description": "class-imbalance-aware tree model",
+      "extension": "class_weight_balanced_random_forest",
+      "extensionMacroF1": 0.9190464048954615,
+      "macroF1Delta": -0.005441593342812023,
+      "weakestClass": "Cammeo",
+      "weakestClassF1": 0.9056603773584906
+    }
+  ],
+  "hardQuestionAnswer": {
+    "metricToolBeyondSklearn": "The tool mainly added structured anti-hype controls; normal sklearn metrics still explain the base numbers.",
+    "schemaToolBeyondPandas": "The tool did not beat pandas for raw discovery, but it packaged hash-bound evidence and limitations."
+  },
+  "headerlessDataFile": {
+    "publicName": "rice-cammeo-osmancik-headerless.csv",
+    "sha256": "39c707a0e31dfb5203e120159558372aaef8894bfe4951d92bd8be16e409f30f"
+  },
+  "knownLimitations": [
+    "No official train/test split was followed in this run.",
+    "Image-derived morphology features may be highly separable, so high scores can be ordinary baseline behavior."
+  ],
+  "label": "UCI Rice Cammeo/Osmancik",
+  "loaded": true,
+  "metricStress": {
+    "accuracyMinusMacroF1": 0.0021175273056931454,
+    "logisticAccuracyBySeed": [
+      0.9195100612423447,
+      0.9195100612423447,
+      0.9378827646544182,
+      0.9238845144356955
+    ],
+    "logisticAccuracyRange": [
+      0.9195100612423447,
+      0.9378827646544182
+    ],
+    "logisticMacroF1BySeed": [
+      0.9179622405991574,
+      0.9173925339366515,
+      0.9364435551135006,
+      0.9223241590214067
+    ],
+    "logisticMacroF1Range": [
+      0.9173925339366515,
+      0.9364435551135006
+    ],
+    "seeds": [
+      7,
+      42,
+      99,
+      2026
+    ],
+    "simpleBaselineExplainsResult": false,
+    "stratifiedVsNonStratified": {
+      "deltaNonStratMinusStrat": 0.011768993893633617,
+      "nonStratifiedMacroF1": 0.9291615278302852,
+      "stratifiedMacroF1": 0.9173925339366515
+    },
+    "weakestClass": "Cammeo",
+    "weakestClassF1": 0.9041666666666667
+  },
+  "metricToolReport": {
+    "classBalance": {
+      "Cammeo": 1630,
+      "Osmancik": 2180
+    },
+    "falsePositiveFalseNegativeAnalysis": {
+      "available": true,
+      "falseNegativeRate": 0.05657492354740061,
+      "falsePositiveRate": 0.11247443762781185
+    },
+    "features": 7,
+    "flags": {
+      "accuracyCouldHideClassFailure": false,
+      "challengerBeatsMajorityBalancedAccuracy": true,
+      "shuffledControlSuspicious": false
+    },
+    "limitations": [
+      "It validates one deterministic split, not every official benchmark protocol.",
+      "It cannot prove absence of leakage without source-specific split metadata."
+    ],
+    "logisticChallenger": {
+      "accuracy": 0.9195100612423447,
+      "balancedAccuracy": 0.9154753194123938,
+      "confusionMatrix": [
+        [
+          434,
+          55
+        ],
+        [
+          37,
+          617
+        ]
+      ],
+      "f1Macro": 0.9173925339366515,
+      "falseNegativeRate": 0.05657492354740061,
+      "falsePositiveRate": 0.11247443762781185
+    },
+    "majorityBaseline": {
+      "accuracy": 0.5721784776902887,
+      "balancedAccuracy": 0.5,
+      "confusionMatrix": [
+        [
+          0,
+          489
+        ],
+        [
+          0,
+          654
+        ]
+      ],
+      "f1Macro": 0.3639398998330551,
+      "falseNegativeRate": 0.0,
+      "falsePositiveRate": 1.0
+    },
+    "rows": 3810,
+    "shuffledLabelControl": {
+      "accuracy": 0.5721784776902887,
+      "balancedAccuracy": 0.5005159377872835,
+      "confusionMatrix": [
+        [
+          2,
+          487
+        ],
+        [
+          2,
+          652
+        ]
+      ],
+      "f1Macro": 0.3676931587682095,
+      "falseNegativeRate": 0.0030581039755351682,
+      "falsePositiveRate": 0.9959100204498977
+    },
+    "split": {
+      "randomState": 42,
+      "stratified": true,
+      "testSize": 0.3
+    },
+    "tool": "metric_stress_validator",
+    "toolGapAddressed": "sklearn.metrics computes metrics, but this tool binds them to dummy and shuffled-label controls and emits explicit inflation and FP/FN checks.",
+    "toolStatus": "used_successfully_limited"
+  },
+  "metricToolStatus": {
+    "ok": true,
+    "returnCode": 0,
+    "stderrLines": 0,
+    "stdoutLines": 0
+  },
+  "packageVersions": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "python": "3.14.4",
+    "scikitLearn": "1.8.0",
+    "ucimlrepo": "0.0.7"
+  },
+  "pandasBaseline": {
+    "classDistribution": {
+      "Cammeo": 1630,
+      "Osmancik": 2180
+    },
+    "classes": [
+      "Cammeo",
+      "Osmancik"
+    ],
+    "columns": 8,
+    "duplicateFeatureRows": 0,
+    "duplicateFullRows": 0,
+    "featureCount": 7,
+    "leakageRisks": [
+      "No target-named feature column was retained.",
+      "No source-provided group or acquisition identifiers were available for group-aware leakage checks."
+    ],
+    "missingCells": 0,
+    "pandasChecksUsed": [
+      "shape",
+      "isna",
+      "duplicated",
+      "describe",
+      "value_counts"
+    ],
+    "provenanceLimitations": [
+      "The run depends on the ucimlrepo packaged view and UCI metadata available at execution time.",
+      "Hash evidence binds the local CSV export, not the upstream repository history."
+    ],
+    "rows": 3810,
+    "splitConsistencyRisks": [
+      "Controlled stratified splits were used for comparability; source-specific split protocols were not fully reproduced."
+    ],
+    "suspiciousSentinelValueCounts": {
+      "-1": 0,
+      "0": 0,
+      "999": 0,
+      "9999": 2
+    },
+    "targetColumn": "Class"
+  },
+  "safetyNote": "safe agricultural image-derived classification dataset",
+  "schemaToolReport": {
+    "aggregateFindings": {
+      "anyDuplicateRows": false,
+      "anyMissingCells": false,
+      "totalDuplicateFullRows": 0,
+      "totalMissingCells": 0,
+      "totalRows": 3810
+    },
+    "files": [
+      {
+        "columnCount": 8,
+        "columns": [
+          "Area",
+          "Perimeter",
+          "Major_Axis_Length",
+          "Minor_Axis_Length",
+          "Eccentricity",
+          "Convex_Area",
+          "Extent",
+          "Class"
+        ],
+        "dtypes": {
+          "Area": "int64",
+          "Class": "str",
+          "Convex_Area": "int64",
+          "Eccentricity": "float64",
+          "Extent": "float64",
+          "Major_Axis_Length": "float64",
+          "Minor_Axis_Length": "float64",
+          "Perimeter": "float64"
+        },
+        "duplicateFullRows": 0,
+        "fileName": "rice-cammeo-osmancik.csv",
+        "label": "rice-cammeo-osmancik",
+        "missingCells": 0,
+        "numericRanges": {
+          "Area": {
+            "max": 18913.0,
+            "mean": 12667.727559055118,
+            "min": 7551.0
+          },
+          "Convex_Area": {
+            "max": 19099.0,
+            "mean": 12952.496850393702,
+            "min": 7723.0
+          },
+          "Eccentricity": {
+            "max": 0.948006928,
+            "mean": 0.8868705067435696,
+            "min": 0.777232587
+          },
+          "Extent": {
+            "max": 0.861049533,
+            "mean": 0.661934037912861,
+            "min": 0.49741286
+          },
+          "Major_Axis_Length": {
+            "max": 239.010498,
+            "mean": 188.7762219769291,
+            "min": 145.2644653
+          },
+          "Minor_Axis_Length": {
+            "max": 107.54245,
+            "mean": 86.3137503715958,
+            "min": 59.53240585
+          },
+          "Perimeter": {
+            "max": 548.4459839,
+            "mean": 454.23918014839893,
+            "min": 359.1000061
+          }
+        },
+        "rows": 3810,
+        "sha256": "4c8c6d315d071ca9d78ca32cde0b5072d37b2f9f06fa9acc1fd6540ab738f3c3"
+      }
+    ],
+    "inputCount": 1,
+    "limitations": [
+      "It does not infer semantic column meaning beyond names and numeric ranges.",
+      "Duplicate full rows may be valid repeated observations without row identifiers."
+    ],
+    "schemaComparison": {
+      "mismatches": [],
+      "referenceLabel": "rice-cammeo-osmancik",
+      "schemaMatch": true
+    },
+    "tool": "schema_provenance_auditor",
+    "toolGapAddressed": "pandas.describe exposes per-file summaries, but it does not produce a single provenance-hash-bound split-schema comparison with duplicate and missing-cell gates.",
+    "toolStatus": "used_successfully"
+  },
+  "schemaToolStatus": {
+    "ok": true,
+    "returnCode": 0,
+    "stderrLines": 0,
+    "stdoutLines": 0
+  },
+  "slug": "rice-cammeo-osmancik",
+  "sourceUrl": "https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik",
+  "toolUsefulness": {
+    "metric_stress_validator": {
+      "addedBeyondSklearn": [
+        "dummy_and_shuffled_control_packaging",
+        "explicit_metric_inflation_flags"
+      ],
+      "antiHypeValue": "medium_to_high",
+      "baselineDominanceResistance": "medium",
+      "decision": "The tool mainly added structured anti-hype controls; normal sklearn metrics still explain the base numbers.",
+      "failureLimitationSeverity": "medium",
+      "label": "anti_hype_support_only",
+      "packagingReproducibilityValue": "medium",
+      "rawDiscoveryValue": "low_to_medium"
+    },
+    "schema_provenance_auditor": {
+      "addedBeyondPandas": [
+        "source_hash_bound_csv_evidence"
+      ],
+      "antiHypeValue": "low_to_medium",
+      "baselineDominanceResistance": "weak",
+      "decision": "The tool did not beat pandas for raw discovery, but it packaged hash-bound evidence and limitations.",
+      "failureLimitationSeverity": "medium",
+      "label": "dominated_by_simple_baseline",
+      "packagingReproducibilityValue": "medium",
+      "rawDiscoveryValue": "low"
+    }
+  },
+  "uciId": 545
+}

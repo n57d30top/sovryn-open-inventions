@@ -1,0 +1,419 @@
+{
+  "tool": "metric_stress_validator",
+  "toolStatus": "used_successfully_limited",
+  "rows": 5620,
+  "features": 64,
+  "classBalance": {
+    "0": 554,
+    "1": 571,
+    "2": 557,
+    "3": 572,
+    "4": 568,
+    "5": 558,
+    "6": 558,
+    "7": 566,
+    "8": 554,
+    "9": 562
+  },
+  "split": {
+    "testSize": 0.3,
+    "randomState": 42,
+    "stratified": true
+  },
+  "majorityBaseline": {
+    "accuracy": 0.10142348754448399,
+    "balancedAccuracy": 0.1,
+    "f1Macro": 0.01841680129240711,
+    "confusionMatrix": [
+      [
+        0,
+        166,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        171,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        167,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        172,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        171,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        167,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        167,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        170,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        166,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        169,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "logisticChallenger": {
+    "accuracy": 0.970344009489917,
+    "balancedAccuracy": 0.970272409841866,
+    "f1Macro": 0.9703754898839827,
+    "confusionMatrix": [
+      [
+        161,
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        167,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        163,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        169,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        165,
+        0,
+        1,
+        1,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        1,
+        162,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        162,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        168,
+        0,
+        2
+      ],
+      [
+        0,
+        6,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        157,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        1,
+        3,
+        162
+      ]
+    ]
+  },
+  "shuffledLabelControl": {
+    "accuracy": 0.10854092526690391,
+    "balancedAccuracy": 0.10827120976700344,
+    "f1Macro": 0.11099802529179399,
+    "confusionMatrix": [
+      [
+        2,
+        1,
+        58,
+        29,
+        23,
+        16,
+        3,
+        8,
+        20,
+        6
+      ],
+      [
+        45,
+        28,
+        9,
+        31,
+        22,
+        3,
+        13,
+        2,
+        17,
+        1
+      ],
+      [
+        12,
+        12,
+        10,
+        49,
+        20,
+        22,
+        11,
+        15,
+        13,
+        3
+      ],
+      [
+        7,
+        16,
+        6,
+        15,
+        34,
+        17,
+        17,
+        20,
+        1,
+        39
+      ],
+      [
+        12,
+        28,
+        29,
+        23,
+        13,
+        8,
+        10,
+        16,
+        15,
+        17
+      ],
+      [
+        29,
+        14,
+        18,
+        17,
+        5,
+        17,
+        24,
+        21,
+        11,
+        11
+      ],
+      [
+        8,
+        52,
+        12,
+        5,
+        34,
+        3,
+        17,
+        12,
+        16,
+        8
+      ],
+      [
+        17,
+        13,
+        21,
+        12,
+        5,
+        19,
+        6,
+        41,
+        10,
+        26
+      ],
+      [
+        42,
+        4,
+        25,
+        24,
+        22,
+        4,
+        2,
+        7,
+        22,
+        14
+      ],
+      [
+        4,
+        20,
+        10,
+        42,
+        10,
+        4,
+        25,
+        16,
+        20,
+        18
+      ]
+    ]
+  },
+  "flags": {
+    "challengerBeatsMajorityBalancedAccuracy": true,
+    "shuffledControlSuspicious": false,
+    "accuracyCouldHideClassFailure": false
+  },
+  "falsePositiveFalseNegativeAnalysis": {
+    "available": false,
+    "falsePositiveRate": null,
+    "falseNegativeRate": null
+  },
+  "toolGapAddressed": "sklearn.metrics computes metrics, but this tool binds them to dummy and shuffled-label controls and emits explicit inflation and FP/FN checks.",
+  "limitations": [
+    "It validates one deterministic split, not every official benchmark protocol.",
+    "It cannot prove absence of leakage without source-specific split metadata."
+  ]
+}

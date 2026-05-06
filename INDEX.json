@@ -1,7 +1,7 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-06T11:22:17.812Z",
-  "resultCount": 72,
+  "updatedAt": "2026-05-06T11:45:14.611Z",
+  "resultCount": 73,
   "results": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -313,6 +313,45 @@
       "customTool": null,
       "workerAssurance": "not-recorded",
       "falsificationStatus": "anti_hype_review_completed_with_downgrades",
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+    },
+    {
+      "slug": "batch11-multi-target-dataset-metric-validation-program",
+      "title": "Batch 11 Multi-Target Dataset and Metric Validation Program",
+      "resultKind": "multi_target_dataset_metric_validation_program",
+      "domain": "tabular-and-image-derived-classification-benchmark-validation",
+      "path": "results/batch11-multi-target-dataset-metric-validation-program",
+      "qualityLabel": "good",
+      "candidateStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch11-multi-target-dataset-metric-validation-program",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      },
+      "revisionReason": null,
+      "humanReadableSummary": "Batch 11 runs a focused dataset-and-metric validation program across four public classification targets in one domain: tabular and image-derived benchmark validation.",
+      "releaseReadinessScore": 91,
+      "evidenceStrengthScore": 93,
+      "reproducibilityScore": 92,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 90,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "passes_falsification_with_limitations",
       "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
@@ -2904,5 +2943,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "44bac4b364a6c43757a2ed9e43c5229c2445eaf3218e3dcbe59c28a518e9cb06"
+  "evidenceHash": "2d71cb70ee22dc74291ee97319f4d44c63b7b13b3d7440c11e70a87b428939ab"
 }

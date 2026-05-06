@@ -1,0 +1,167 @@
+{
+  "tool": "schema_provenance_auditor",
+  "toolStatus": "used_successfully",
+  "inputCount": 1,
+  "files": [
+    {
+      "label": "statlog-vehicle-silhouettes",
+      "fileName": "statlog-vehicle-silhouettes.csv",
+      "sha256": "62e9e107a6d5e9853c6811971f1c0cff0bdad6a0e4602ee8d1821dd35b0cd488",
+      "rows": 846,
+      "columns": [
+        "COMPACTNESS",
+        "CIRCULARITY",
+        "DISTANCE_CIRCULARITY",
+        "RADIUS_RATIO",
+        "PR.AXIS_ASPECT_RATIO",
+        "MAX.LENGTH_ASPECT_RATIO",
+        "SCATTER_RATIO",
+        "ELONGATEDNESS",
+        "PR.AXIS_RECTANGULARITY",
+        "MAX.LENGTH_RECTANGULARITY",
+        "SCALED_VARIANCE_ALONG_MAJOR_AXIS",
+        "SCALED_VARIANCE_ALONG_MINOR_AXIS",
+        "SCALED_RADIUS_OF_GYRATION",
+        "SKEWNESS_ABOUT_MAJOR_AXIS",
+        "SKEWNESS_ABOUT_MINOR_AXIS",
+        "KURTOSIS_ABOUT_MINOR_AXIS",
+        "KURTOSIS_ABOUT_MAJOR_AXIS",
+        "HOLLOWS_RATIO",
+        "class"
+      ],
+      "columnCount": 19,
+      "dtypes": {
+        "COMPACTNESS": "float64",
+        "CIRCULARITY": "int64",
+        "DISTANCE_CIRCULARITY": "int64",
+        "RADIUS_RATIO": "int64",
+        "PR.AXIS_ASPECT_RATIO": "int64",
+        "MAX.LENGTH_ASPECT_RATIO": "int64",
+        "SCATTER_RATIO": "int64",
+        "ELONGATEDNESS": "int64",
+        "PR.AXIS_RECTANGULARITY": "int64",
+        "MAX.LENGTH_RECTANGULARITY": "int64",
+        "SCALED_VARIANCE_ALONG_MAJOR_AXIS": "int64",
+        "SCALED_VARIANCE_ALONG_MINOR_AXIS": "int64",
+        "SCALED_RADIUS_OF_GYRATION": "int64",
+        "SKEWNESS_ABOUT_MAJOR_AXIS": "int64",
+        "SKEWNESS_ABOUT_MINOR_AXIS": "int64",
+        "KURTOSIS_ABOUT_MINOR_AXIS": "int64",
+        "KURTOSIS_ABOUT_MAJOR_AXIS": "int64",
+        "HOLLOWS_RATIO": "int64",
+        "class": "str"
+      },
+      "missingCells": 1,
+      "duplicateFullRows": 0,
+      "numericRanges": {
+        "COMPACTNESS": {
+          "min": 73.0,
+          "max": 119.0,
+          "mean": 93.67100591715976
+        },
+        "CIRCULARITY": {
+          "min": 33.0,
+          "max": 100.0,
+          "mean": 44.93735224586288
+        },
+        "DISTANCE_CIRCULARITY": {
+          "min": 36.0,
+          "max": 112.0,
+          "mean": 82.04491725768321
+        },
+        "RADIUS_RATIO": {
+          "min": 73.0,
+          "max": 333.0,
+          "mean": 168.7919621749409
+        },
+        "PR.AXIS_ASPECT_RATIO": {
+          "min": 47.0,
+          "max": 199.0,
+          "mean": 61.842789598108745
+        },
+        "MAX.LENGTH_ASPECT_RATIO": {
+          "min": 2.0,
+          "max": 73.0,
+          "mean": 8.646572104018913
+        },
+        "SCATTER_RATIO": {
+          "min": 6.0,
+          "max": 265.0,
+          "mean": 168.65484633569739
+        },
+        "ELONGATEDNESS": {
+          "min": 26.0,
+          "max": 162.0,
+          "mean": 41.07801418439716
+        },
+        "PR.AXIS_RECTANGULARITY": {
+          "min": 17.0,
+          "max": 40.0,
+          "mean": 20.606382978723403
+        },
+        "MAX.LENGTH_RECTANGULARITY": {
+          "min": 20.0,
+          "max": 188.0,
+          "mean": 147.87234042553192
+        },
+        "SCALED_VARIANCE_ALONG_MAJOR_AXIS": {
+          "min": 127.0,
+          "max": 320.0,
+          "mean": 188.55200945626478
+        },
+        "SCALED_VARIANCE_ALONG_MINOR_AXIS": {
+          "min": 184.0,
+          "max": 1018.0,
+          "mean": 439.66075650118205
+        },
+        "SCALED_RADIUS_OF_GYRATION": {
+          "min": 109.0,
+          "max": 401.0,
+          "mean": 175.02955082742318
+        },
+        "SKEWNESS_ABOUT_MAJOR_AXIS": {
+          "min": 59.0,
+          "max": 135.0,
+          "mean": 72.52482269503547
+        },
+        "SKEWNESS_ABOUT_MINOR_AXIS": {
+          "min": 0.0,
+          "max": 72.0,
+          "mean": 6.455082742316785
+        },
+        "KURTOSIS_ABOUT_MINOR_AXIS": {
+          "min": 0.0,
+          "max": 41.0,
+          "mean": 12.583924349881796
+        },
+        "KURTOSIS_ABOUT_MAJOR_AXIS": {
+          "min": 19.0,
+          "max": 206.0,
+          "mean": 188.71867612293144
+        },
+        "HOLLOWS_RATIO": {
+          "min": 181.0,
+          "max": 211.0,
+          "mean": 195.62765957446808
+        }
+      }
+    }
+  ],
+  "schemaComparison": {
+    "schemaMatch": true,
+    "referenceLabel": "statlog-vehicle-silhouettes",
+    "mismatches": []
+  },
+  "aggregateFindings": {
+    "totalRows": 846,
+    "totalMissingCells": 1,
+    "totalDuplicateFullRows": 0,
+    "anyDuplicateRows": false,
+    "anyMissingCells": true
+  },
+  "toolGapAddressed": "pandas.describe exposes per-file summaries, but it does not produce a single provenance-hash-bound split-schema comparison with duplicate and missing-cell gates.",
+  "limitations": [
+    "It does not infer semantic column meaning beyond names and numeric ranges.",
+    "Duplicate full rows may be valid repeated observations without row identifiers."
+  ]
+}

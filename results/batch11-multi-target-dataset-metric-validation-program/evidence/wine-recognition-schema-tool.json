@@ -1,0 +1,137 @@
+{
+  "tool": "schema_provenance_auditor",
+  "toolStatus": "used_successfully",
+  "inputCount": 1,
+  "files": [
+    {
+      "label": "wine-recognition",
+      "fileName": "wine-recognition.csv",
+      "sha256": "a2f01d0393fade05bdbc65751f64132a8a0a7e2dcfeb7394196e32b253b08e1e",
+      "rows": 178,
+      "columns": [
+        "Alcohol",
+        "Malicacid",
+        "Ash",
+        "Alcalinity_of_ash",
+        "Magnesium",
+        "Total_phenols",
+        "Flavanoids",
+        "Nonflavanoid_phenols",
+        "Proanthocyanins",
+        "Color_intensity",
+        "Hue",
+        "0D280_0D315_of_diluted_wines",
+        "Proline",
+        "class"
+      ],
+      "columnCount": 14,
+      "dtypes": {
+        "Alcohol": "float64",
+        "Malicacid": "float64",
+        "Ash": "float64",
+        "Alcalinity_of_ash": "float64",
+        "Magnesium": "int64",
+        "Total_phenols": "float64",
+        "Flavanoids": "float64",
+        "Nonflavanoid_phenols": "float64",
+        "Proanthocyanins": "float64",
+        "Color_intensity": "float64",
+        "Hue": "float64",
+        "0D280_0D315_of_diluted_wines": "float64",
+        "Proline": "int64",
+        "class": "int64"
+      },
+      "missingCells": 0,
+      "duplicateFullRows": 0,
+      "numericRanges": {
+        "Alcohol": {
+          "min": 11.03,
+          "max": 14.83,
+          "mean": 13.00061797752809
+        },
+        "Malicacid": {
+          "min": 0.74,
+          "max": 5.8,
+          "mean": 2.3363483146067416
+        },
+        "Ash": {
+          "min": 1.36,
+          "max": 3.23,
+          "mean": 2.3665168539325845
+        },
+        "Alcalinity_of_ash": {
+          "min": 10.6,
+          "max": 30.0,
+          "mean": 19.49494382022472
+        },
+        "Magnesium": {
+          "min": 70.0,
+          "max": 162.0,
+          "mean": 99.74157303370787
+        },
+        "Total_phenols": {
+          "min": 0.98,
+          "max": 3.88,
+          "mean": 2.295112359550562
+        },
+        "Flavanoids": {
+          "min": 0.34,
+          "max": 5.08,
+          "mean": 2.0292696629213487
+        },
+        "Nonflavanoid_phenols": {
+          "min": 0.13,
+          "max": 0.66,
+          "mean": 0.3618539325842696
+        },
+        "Proanthocyanins": {
+          "min": 0.41,
+          "max": 3.58,
+          "mean": 1.5908988764044945
+        },
+        "Color_intensity": {
+          "min": 1.28,
+          "max": 13.0,
+          "mean": 5.058089882022472
+        },
+        "Hue": {
+          "min": 0.48,
+          "max": 1.71,
+          "mean": 0.9574494382022471
+        },
+        "0D280_0D315_of_diluted_wines": {
+          "min": 1.27,
+          "max": 4.0,
+          "mean": 2.6116853932584267
+        },
+        "Proline": {
+          "min": 278.0,
+          "max": 1680.0,
+          "mean": 746.8932584269663
+        },
+        "class": {
+          "min": 1.0,
+          "max": 3.0,
+          "mean": 1.9382022471910112
+        }
+      }
+    }
+  ],
+  "schemaComparison": {
+    "schemaMatch": true,
+    "referenceLabel": "wine-recognition",
+    "mismatches": []
+  },
+  "aggregateFindings": {
+    "totalRows": 178,
+    "totalMissingCells": 0,
+    "totalDuplicateFullRows": 0,
+    "anyDuplicateRows": false,
+    "anyMissingCells": false
+  },
+  "toolGapAddressed": "pandas.describe exposes per-file summaries, but it does not produce a single provenance-hash-bound split-schema comparison with duplicate and missing-cell gates.",
+  "limitations": [
+    "It does not infer semantic column meaning beyond names and numeric ranges.",
+    "Duplicate full rows may be valid repeated observations without row identifiers."
+  ]
+}

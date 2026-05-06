@@ -74,6 +74,15 @@
       "pushed": false
     },
     {
+      "slug": "batch11-multi-target-dataset-metric-validation-program",
+      "path": "results/batch11-multi-target-dataset-metric-validation-program",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "batch11-multi-target-dataset-metric-validation-program",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "batch2-climate-fever-claim-verification-followup",
       "path": "results/batch2-climate-fever-claim-verification-followup",
       "status": "external_reproduction_partial",
@@ -650,5 +659,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "30321123871cd75f544c9629edd22e0163959a2df9a0618b54dd6bbf47370b97"
+  "evidenceHash": "5ed4c6c546b62830dd332d4f32885d34498adcb287c752e29ffcbfdb42c6e775"
 }

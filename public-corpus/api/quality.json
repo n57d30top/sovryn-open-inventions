@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 61,
+    "good": 62,
     "reviewable": 6
   },
   "results": [
@@ -45,6 +45,11 @@
       "slug": "batch10-toolchain-kill-week",
       "qualityLabel": "good",
       "releaseReadinessScore": 90
+    },
+    {
+      "slug": "batch11-multi-target-dataset-metric-validation-program",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 91
     },
     {
       "slug": "batch2-climate-fever-claim-verification-followup",
@@ -367,5 +372,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "424d116aa95e5e4a1427088486242deb12edf141e5d89e1b8e61b337232e1686"
+  "evidenceHash": "290f8e62b748906922c07d387ec6f3241dde49f52664c051c5b7ecf83813f080"
 }
