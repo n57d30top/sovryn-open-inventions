@@ -1,0 +1,33 @@
+{
+  "kind": "decisive_experiment_design_summary",
+  "slug": "grandchallenge-stage5-decisive-experiment-design",
+  "title": "Original Principle Discovery Grand Challenge Stage 5 Decisive Experiment Design",
+  "resultKind": "decisive_experiment_design",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 90,
+  "evidenceStrengthScore": 89,
+  "reproducibilityScore": 91,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 93,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "bounded_falsification_attempted",
+  "baselineComparisonPresent": true,
+  "scientificMemoryUpdated": true,
+  "scientificQuestion": "Can Sovryn discover a new bounded scientific principle that predicts claim validity and evidence sufficiency better than prior internal principles?",
+  "domain": "original principle discovery grand challenge",
+  "objective": "Original Principle Discovery Grand Challenge Stage 5 Decisive Experiment Design",
+  "limitations": [
+    "Bounded safe computational evidence only.",
+    "No universal principle or breakthrough claim.",
+    "No external adoption claim."
+  ],
+  "evidenceHash": "e38ca29f25fe1951673ae8d71ff91bd85e9b4f65eff9950f1f2ee3092853f953",
+  "designedDecisiveExperimentCount": 12,
+  "frozenDecisiveExperimentCount": 6
+}

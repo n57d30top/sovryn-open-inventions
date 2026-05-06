@@ -1,0 +1,50 @@
+{
+  "principleId": "RGC-01",
+  "name": "Accessible Falsifier Boundary",
+  "oneSentenceClaim": "A claim can be stronger when a decisive public falsifier is directly executable, even if some descriptive fields are thin; complete fields without falsifier access remain weak.",
+  "hiddenAssumption": "field count is enough",
+  "whyExistingPrinciplesInsufficient": "Existing concepts identify risk sources but do not predict dominance among falsifier access, resolution cost, executable specificity, and controls.",
+  "mechanism": "claim strength is capped by the accessibility of a decisive falsifier and only then adjusted by evidence-field completeness",
+  "measurableVariables": [
+    "falsifier_accessibility",
+    "execution_resolution_cost",
+    "negative_control_decisiveness",
+    "field_completeness",
+    "replay_status"
+  ],
+  "examples": [
+    "Ionosphere label-shuffle control",
+    "nanoid smoke behavior",
+    "slash positive and negative smoke"
+  ],
+  "nonExamples": [
+    "broad benchmark superiority without runnable falsifier",
+    "ambiguous protocol claim with no decisive check"
+  ],
+  "predictedWins": [
+    "fresh package smoke",
+    "label-shuffle controlled dataset",
+    "temporal negative control"
+  ],
+  "predictedFailures": [
+    "private artifact",
+    "unavailable protocol",
+    "overbroad usefulness claim"
+  ],
+  "falsificationTests": [
+    "rival predicts observation with fewer caveats",
+    "negative control reverses result",
+    "replay failure blocks claim"
+  ],
+  "rivalPrinciples": [
+    "Resolution-Cost Gradient",
+    "Executable Specificity Dominance",
+    "Negative-Control Asymmetry"
+  ],
+  "scope": "safe public computational claims with retrievable artifacts",
+  "expectedCrossDomainTransfer": "dataset, temporal, repo/package, tool claims",
+  "simplicityScore": 70,
+  "explanatoryCompressionScore": 72,
+  "predictionRiskScore": 55,
+  "noveltyVsPriorScore": 82
+}

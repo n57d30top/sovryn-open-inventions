@@ -1,0 +1,16 @@
+{
+  "experimentId": "DEXP-03",
+  "target": "Monthly Car Sales time series",
+  "sourceUrl": "https://raw.githubusercontent.com/jbrownlee/Datasets/master/monthly-car-sales.csv",
+  "domain": "time_series_temporal",
+  "principle1": "Accessible falsifier predicts temporal-vs-random evidence can preserve a narrow temporal claim.",
+  "principle2": "Negative-control asymmetry predicts downgrade if shuffled-time control is as good or better.",
+  "existing": "Field-bound principle predicts caveat because source protocol is thin.",
+  "decidesIf": "If shuffled-time beats temporal naive, Principle 2 weakens Principle 1.",
+  "baseline": "temporal mean and random mean",
+  "negativeControl": "shuffled-time naive",
+  "replay": "repeat fetch and metric run",
+  "frozenAt": "2026-05-06T19:35:14.509Z",
+  "noEditRule": "Frozen before decisive execution.",
+  "preregistrationHash": "4ee25f8af740347a1e64dcf4f9113059e5c9683bf258f9d36822ec2951048920"
+}

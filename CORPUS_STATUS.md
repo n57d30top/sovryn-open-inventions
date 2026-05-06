@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 243
+Results: 253
 
 ## Lifecycle Counts
 
-- autopublished: 212
+- autopublished: 222
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -233,6 +233,16 @@ Results: 243
 - field-grade-autonomous-science-trial: latest field-grade-autonomous-science-trial-v3; field-grade-autonomous-science-trial, field-grade-autonomous-science-trial-v2, field-grade-autonomous-science-trial-v3
 - frontier-scientific-production-trial: latest frontier-scientific-production-trial; frontier-scientific-production-trial
 - general-ai-scientist-v0-trial: latest general-ai-scientist-v0-trial; general-ai-scientist-v0-trial
+- grandchallenge-stage1-anomaly-wall: latest grandchallenge-stage1-anomaly-wall; grandchallenge-stage1-anomaly-wall
+- grandchallenge-stage10-original-principle-discovery-paper: latest grandchallenge-stage10-original-principle-discovery-paper; grandchallenge-stage10-original-principle-discovery-paper
+- grandchallenge-stage2-radical-rival-principles: latest grandchallenge-stage2-radical-rival-principles; grandchallenge-stage2-radical-rival-principles
+- grandchallenge-stage3-non-obvious-prediction-freeze: latest grandchallenge-stage3-non-obvious-prediction-freeze; grandchallenge-stage3-non-obvious-prediction-freeze
+- grandchallenge-stage4-fresh-external-tests: latest grandchallenge-stage4-fresh-external-tests; grandchallenge-stage4-fresh-external-tests
+- grandchallenge-stage5-decisive-experiment-design: latest grandchallenge-stage5-decisive-experiment-design; grandchallenge-stage5-decisive-experiment-design
+- grandchallenge-stage6-decisive-experiment-execution: latest grandchallenge-stage6-decisive-experiment-execution; grandchallenge-stage6-decisive-experiment-execution
+- grandchallenge-stage7-conceptual-compression: latest grandchallenge-stage7-conceptual-compression; grandchallenge-stage7-conceptual-compression
+- grandchallenge-stage8-external-usefulness-challenge: latest grandchallenge-stage8-external-usefulness-challenge; grandchallenge-stage8-external-usefulness-challenge
+- grandchallenge-stage9-adversarial-final-kill-week: latest grandchallenge-stage9-adversarial-final-kill-week; grandchallenge-stage9-adversarial-final-kill-week
 - patch-risk-auditor: latest patch-risk-auditor-v3; patch-risk-auditor, patch-risk-auditor-v2, patch-risk-auditor-v3
 - reality-grade-autonomous-science-trial: latest reality-grade-autonomous-science-trial; reality-grade-autonomous-science-trial
 - scientific-dataset-reliability-self-built-lab-study: latest scientific-dataset-reliability-self-built-lab-study; scientific-dataset-reliability-self-built-lab-study

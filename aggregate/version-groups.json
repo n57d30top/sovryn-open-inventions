@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T19:17:34.940Z",
+  "updatedAt": "2026-05-06T19:43:53.802Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -1561,6 +1561,76 @@
       ]
     },
     {
+      "versionGroup": "grandchallenge-stage1-anomaly-wall",
+      "latestSlug": "grandchallenge-stage1-anomaly-wall",
+      "resultSlugs": [
+        "grandchallenge-stage1-anomaly-wall"
+      ]
+    },
+    {
+      "versionGroup": "grandchallenge-stage10-original-principle-discovery-paper",
+      "latestSlug": "grandchallenge-stage10-original-principle-discovery-paper",
+      "resultSlugs": [
+        "grandchallenge-stage10-original-principle-discovery-paper"
+      ]
+    },
+    {
+      "versionGroup": "grandchallenge-stage2-radical-rival-principles",
+      "latestSlug": "grandchallenge-stage2-radical-rival-principles",
+      "resultSlugs": [
+        "grandchallenge-stage2-radical-rival-principles"
+      ]
+    },
+    {
+      "versionGroup": "grandchallenge-stage3-non-obvious-prediction-freeze",
+      "latestSlug": "grandchallenge-stage3-non-obvious-prediction-freeze",
+      "resultSlugs": [
+        "grandchallenge-stage3-non-obvious-prediction-freeze"
+      ]
+    },
+    {
+      "versionGroup": "grandchallenge-stage4-fresh-external-tests",
+      "latestSlug": "grandchallenge-stage4-fresh-external-tests",
+      "resultSlugs": [
+        "grandchallenge-stage4-fresh-external-tests"
+      ]
+    },
+    {
+      "versionGroup": "grandchallenge-stage5-decisive-experiment-design",
+      "latestSlug": "grandchallenge-stage5-decisive-experiment-design",
+      "resultSlugs": [
+        "grandchallenge-stage5-decisive-experiment-design"
+      ]
+    },
+    {
+      "versionGroup": "grandchallenge-stage6-decisive-experiment-execution",
+      "latestSlug": "grandchallenge-stage6-decisive-experiment-execution",
+      "resultSlugs": [
+        "grandchallenge-stage6-decisive-experiment-execution"
+      ]
+    },
+    {
+      "versionGroup": "grandchallenge-stage7-conceptual-compression",
+      "latestSlug": "grandchallenge-stage7-conceptual-compression",
+      "resultSlugs": [
+        "grandchallenge-stage7-conceptual-compression"
+      ]
+    },
+    {
+      "versionGroup": "grandchallenge-stage8-external-usefulness-challenge",
+      "latestSlug": "grandchallenge-stage8-external-usefulness-challenge",
+      "resultSlugs": [
+        "grandchallenge-stage8-external-usefulness-challenge"
+      ]
+    },
+    {
+      "versionGroup": "grandchallenge-stage9-adversarial-final-kill-week",
+      "latestSlug": "grandchallenge-stage9-adversarial-final-kill-week",
+      "resultSlugs": [
+        "grandchallenge-stage9-adversarial-final-kill-week"
+      ]
+    },
+    {
       "versionGroup": "patch-risk-auditor",
       "latestSlug": "patch-risk-auditor-v3",
       "resultSlugs": [
@@ -1620,5 +1690,5 @@
       ]
     }
   ],
-  "evidenceHash": "9646ed959862f5f5386f6fe4fa1610a630469b4890fd920f899ca3252a84bda3"
+  "evidenceHash": "17363ded1f7c190c74cc66341c3557cdd0cfce7e6212264f926ac459625bb6cd"
 }

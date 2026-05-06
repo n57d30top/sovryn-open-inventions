@@ -1,0 +1,16 @@
+{
+  "experimentId": "DEXP-06",
+  "target": "escape-string-regexp npm package",
+  "sourceUrl": "https://www.npmjs.com/package/escape-string-regexp",
+  "domain": "tool_usefulness",
+  "principle1": "Accessible falsifier predicts regex escaping is directly testable.",
+  "principle2": "Negative-control asymmetry predicts decision depends on false-positive cases.",
+  "existing": "Field-bound principle predicts caveat for sparse evidence fields.",
+  "decidesIf": "If both positive and negative smoke pass, both survive but neither becomes general.",
+  "baseline": "manual escape baseline",
+  "negativeControl": "plain alphabetic string unchanged",
+  "replay": "repeat smoke run",
+  "frozenAt": "2026-05-06T19:35:14.509Z",
+  "noEditRule": "Frozen before decisive execution.",
+  "preregistrationHash": "2ccee898a21d45dfb468420b306756159313b3db8e433a3c2e2e485f02c4542f"
+}

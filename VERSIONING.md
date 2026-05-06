@@ -226,6 +226,16 @@ can supersede earlier entries while preserving audit history.
 - field-grade-autonomous-science-trial: latest field-grade-autonomous-science-trial-v3; versions field-grade-autonomous-science-trial, field-grade-autonomous-science-trial-v2, field-grade-autonomous-science-trial-v3
 - frontier-scientific-production-trial: latest frontier-scientific-production-trial; versions frontier-scientific-production-trial
 - general-ai-scientist-v0-trial: latest general-ai-scientist-v0-trial; versions general-ai-scientist-v0-trial
+- grandchallenge-stage1-anomaly-wall: latest grandchallenge-stage1-anomaly-wall; versions grandchallenge-stage1-anomaly-wall
+- grandchallenge-stage10-original-principle-discovery-paper: latest grandchallenge-stage10-original-principle-discovery-paper; versions grandchallenge-stage10-original-principle-discovery-paper
+- grandchallenge-stage2-radical-rival-principles: latest grandchallenge-stage2-radical-rival-principles; versions grandchallenge-stage2-radical-rival-principles
+- grandchallenge-stage3-non-obvious-prediction-freeze: latest grandchallenge-stage3-non-obvious-prediction-freeze; versions grandchallenge-stage3-non-obvious-prediction-freeze
+- grandchallenge-stage4-fresh-external-tests: latest grandchallenge-stage4-fresh-external-tests; versions grandchallenge-stage4-fresh-external-tests
+- grandchallenge-stage5-decisive-experiment-design: latest grandchallenge-stage5-decisive-experiment-design; versions grandchallenge-stage5-decisive-experiment-design
+- grandchallenge-stage6-decisive-experiment-execution: latest grandchallenge-stage6-decisive-experiment-execution; versions grandchallenge-stage6-decisive-experiment-execution
+- grandchallenge-stage7-conceptual-compression: latest grandchallenge-stage7-conceptual-compression; versions grandchallenge-stage7-conceptual-compression
+- grandchallenge-stage8-external-usefulness-challenge: latest grandchallenge-stage8-external-usefulness-challenge; versions grandchallenge-stage8-external-usefulness-challenge
+- grandchallenge-stage9-adversarial-final-kill-week: latest grandchallenge-stage9-adversarial-final-kill-week; versions grandchallenge-stage9-adversarial-final-kill-week
 - patch-risk-auditor: latest patch-risk-auditor-v3; versions patch-risk-auditor, patch-risk-auditor-v2, patch-risk-auditor-v3
 - reality-grade-autonomous-science-trial: latest reality-grade-autonomous-science-trial; versions reality-grade-autonomous-science-trial
 - scientific-dataset-reliability-self-built-lab-study: latest scientific-dataset-reliability-self-built-lab-study; versions scientific-dataset-reliability-self-built-lab-study

@@ -1,0 +1,16 @@
+{
+  "experimentId": "DEXP-04",
+  "target": "slash npm package",
+  "sourceUrl": "https://www.npmjs.com/package/slash",
+  "domain": "tool_usefulness",
+  "principle1": "Accessible falsifier predicts direct input/output smoke can preserve a narrow usefulness claim.",
+  "principle2": "Negative-control asymmetry predicts the claim survives only if invalid input/control cases fail as expected.",
+  "existing": "Field-bound principle predicts caveat for sparse evidence fields.",
+  "decidesIf": "Passing positive and negative smoke supports both; missing control weakens Principle 2.",
+  "baseline": "manual replace baseline",
+  "negativeControl": "input without backslash should remain unchanged",
+  "replay": "repeat smoke run",
+  "frozenAt": "2026-05-06T19:35:14.509Z",
+  "noEditRule": "Frozen before decisive execution.",
+  "preregistrationHash": "bae0c998b6a114ef41f111afb67cfcc7e3b592d07a2c88a1e5b75e45617d4284"
+}

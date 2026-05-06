@@ -1,0 +1,16 @@
+{
+  "experimentId": "DEXP-05",
+  "target": "camelcase npm package",
+  "sourceUrl": "https://www.npmjs.com/package/camelcase",
+  "domain": "tool_usefulness",
+  "principle1": "Accessible falsifier predicts executable behavior can be directly audited.",
+  "principle2": "Negative-control asymmetry predicts controls decide whether utility is overbroad.",
+  "existing": "Field-bound principle predicts caveat for sparse evidence fields.",
+  "decidesIf": "If smoke succeeds but controls are trivial, Principle 1 beats Principle 2 on review burden.",
+  "baseline": "manual string transform",
+  "negativeControl": "already camelCase input",
+  "replay": "repeat smoke run",
+  "frozenAt": "2026-05-06T19:35:14.509Z",
+  "noEditRule": "Frozen before decisive execution.",
+  "preregistrationHash": "11286de9692c5c5a01d48ec6db14671b66a753210accf93b69c59f0bad72e334"
+}

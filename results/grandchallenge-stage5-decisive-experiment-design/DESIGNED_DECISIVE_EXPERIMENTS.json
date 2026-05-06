@@ -1,0 +1,127 @@
+{
+  "kind": "designed_decisive_experiments",
+  "designedCount": 12,
+  "frozenCount": 6,
+  "designed": [
+    {
+      "id": "DEXP-01",
+      "target": "UCI MAGIC Gamma Telescope",
+      "domain": "dataset_benchmark",
+      "principle1": "Accessible Falsifier Boundary predicts caveated allowance because the label-shuffle falsifier is directly executable.",
+      "principle2": "Negative-Control Asymmetry predicts downgrade if the negative-control/baseline contrast is weak.",
+      "existing": "Required Evidence Field Boundary predicts downgrade for missing official protocol fields.",
+      "decidesIf": "If centroid accuracy barely beats majority while controls remain informative, Principle 2 beats Principle 1.",
+      "frozen": "yes"
+    },
+    {
+      "id": "DEXP-02",
+      "target": "UCI Ionosphere",
+      "domain": "dataset_benchmark",
+      "principle1": "Accessible falsifier predicts a narrow allowed-with-caveats claim.",
+      "principle2": "Negative-control asymmetry predicts downgrade only if shuffled-label control is too close.",
+      "existing": "Field-bound principle predicts caveat due absent official protocol.",
+      "decidesIf": "A wide control gap preserves Principle 1; a close control gap preserves Principle 2.",
+      "frozen": "yes"
+    },
+    {
+      "id": "DEXP-03",
+      "target": "Monthly Car Sales time series",
+      "domain": "time_series_temporal",
+      "principle1": "Accessible falsifier predicts temporal-vs-random evidence can preserve a narrow temporal claim.",
+      "principle2": "Negative-control asymmetry predicts downgrade if shuffled-time control is as good or better.",
+      "existing": "Field-bound principle predicts caveat because source protocol is thin.",
+      "decidesIf": "If shuffled-time beats temporal naive, Principle 2 weakens Principle 1.",
+      "frozen": "yes"
+    },
+    {
+      "id": "DEXP-04",
+      "target": "slash npm package",
+      "domain": "tool_usefulness",
+      "principle1": "Accessible falsifier predicts direct input/output smoke can preserve a narrow usefulness claim.",
+      "principle2": "Negative-control asymmetry predicts the claim survives only if invalid input/control cases fail as expected.",
+      "existing": "Field-bound principle predicts caveat for sparse evidence fields.",
+      "decidesIf": "Passing positive and negative smoke supports both; missing control weakens Principle 2.",
+      "frozen": "yes"
+    },
+    {
+      "id": "DEXP-05",
+      "target": "camelcase npm package",
+      "domain": "tool_usefulness",
+      "principle1": "Accessible falsifier predicts executable behavior can be directly audited.",
+      "principle2": "Negative-control asymmetry predicts controls decide whether utility is overbroad.",
+      "existing": "Field-bound principle predicts caveat for sparse evidence fields.",
+      "decidesIf": "If smoke succeeds but controls are trivial, Principle 1 beats Principle 2 on review burden.",
+      "frozen": "yes"
+    },
+    {
+      "id": "DEXP-06",
+      "target": "escape-string-regexp npm package",
+      "domain": "tool_usefulness",
+      "principle1": "Accessible falsifier predicts regex escaping is directly testable.",
+      "principle2": "Negative-control asymmetry predicts decision depends on false-positive cases.",
+      "existing": "Field-bound principle predicts caveat for sparse evidence fields.",
+      "decidesIf": "If both positive and negative smoke pass, both survive but neither becomes general.",
+      "frozen": "yes"
+    },
+    {
+      "id": "DEXP-DESIGN-07",
+      "target": "UCI Yacht Hydrodynamics",
+      "domain": "dataset_benchmark",
+      "principle1": "Accessible Falsifier Boundary predicts a narrow claim can survive when a decisive falsifier is directly executable.",
+      "principle2": "Negative-Control Asymmetry predicts downgrade when controls or baseline gaps are weak.",
+      "existing": "Required Evidence Field Boundary predicts caveat or downgrade when required fields are thin.",
+      "decidesIf": "A weak control gap makes Principle 1 lose.",
+      "frozen": "deferred"
+    },
+    {
+      "id": "DEXP-DESIGN-08",
+      "target": "UCI Forest Fires",
+      "domain": "dataset_benchmark",
+      "principle1": "Accessible Falsifier Boundary predicts a narrow claim can survive when a decisive falsifier is directly executable.",
+      "principle2": "Negative-Control Asymmetry predicts downgrade when controls or baseline gaps are weak.",
+      "existing": "Required Evidence Field Boundary predicts caveat or downgrade when required fields are thin.",
+      "decidesIf": "A strong direct falsifier with passing controls makes Principle 2 lose as the primary explanation.",
+      "frozen": "deferred"
+    },
+    {
+      "id": "DEXP-DESIGN-09",
+      "target": "Daily Total Female Births time series",
+      "domain": "time_series_temporal",
+      "principle1": "Accessible Falsifier Boundary predicts a narrow claim can survive when a decisive falsifier is directly executable.",
+      "principle2": "Negative-Control Asymmetry predicts downgrade when controls or baseline gaps are weak.",
+      "existing": "Required Evidence Field Boundary predicts caveat or downgrade when required fields are thin.",
+      "decidesIf": "A weak control gap makes Principle 1 lose.",
+      "frozen": "deferred"
+    },
+    {
+      "id": "DEXP-DESIGN-10",
+      "target": "Shampoo Sales time series",
+      "domain": "time_series_temporal",
+      "principle1": "Accessible Falsifier Boundary predicts a narrow claim can survive when a decisive falsifier is directly executable.",
+      "principle2": "Negative-Control Asymmetry predicts downgrade when controls or baseline gaps are weak.",
+      "existing": "Required Evidence Field Boundary predicts caveat or downgrade when required fields are thin.",
+      "decidesIf": "A strong direct falsifier with passing controls makes Principle 2 lose as the primary explanation.",
+      "frozen": "deferred"
+    },
+    {
+      "id": "DEXP-DESIGN-11",
+      "target": "nanoid npm package",
+      "domain": "tool_usefulness",
+      "principle1": "Accessible Falsifier Boundary predicts a narrow claim can survive when a decisive falsifier is directly executable.",
+      "principle2": "Negative-Control Asymmetry predicts downgrade when controls or baseline gaps are weak.",
+      "existing": "Required Evidence Field Boundary predicts caveat or downgrade when required fields are thin.",
+      "decidesIf": "A weak control gap makes Principle 1 lose.",
+      "frozen": "deferred"
+    },
+    {
+      "id": "DEXP-DESIGN-12",
+      "target": "fast-deep-equal npm package",
+      "domain": "tool_usefulness",
+      "principle1": "Accessible Falsifier Boundary predicts a narrow claim can survive when a decisive falsifier is directly executable.",
+      "principle2": "Negative-Control Asymmetry predicts downgrade when controls or baseline gaps are weak.",
+      "existing": "Required Evidence Field Boundary predicts caveat or downgrade when required fields are thin.",
+      "decidesIf": "A strong direct falsifier with passing controls makes Principle 2 lose as the primary explanation.",
+      "frozen": "deferred"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "experimentId": "DEXP-02",
+  "target": "UCI Ionosphere",
+  "sourceUrl": "https://archive.ics.uci.edu/ml/machine-learning-databases/ionosphere/ionosphere.data",
+  "domain": "dataset_benchmark",
+  "principle1": "Accessible falsifier predicts a narrow allowed-with-caveats claim.",
+  "principle2": "Negative-control asymmetry predicts downgrade only if shuffled-label control is too close.",
+  "existing": "Field-bound principle predicts caveat due absent official protocol.",
+  "decidesIf": "A wide control gap preserves Principle 1; a close control gap preserves Principle 2.",
+  "baseline": "majority class",
+  "negativeControl": "shuffled labels",
+  "replay": "repeat fetch and metric run",
+  "frozenAt": "2026-05-06T19:35:14.509Z",
+  "noEditRule": "Frozen before decisive execution.",
+  "preregistrationHash": "f5aa7fca3a5117dc8f0f9de5d73d1561a0448a458e153a2d51e29d71313ed2fe"
+}

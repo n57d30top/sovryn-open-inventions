@@ -1,0 +1,47 @@
+{
+  "principleId": "RGC-04",
+  "name": "Negative-Control Asymmetry",
+  "oneSentenceClaim": "A failed or decisive negative control should outweigh otherwise favorable fields, replay, or baseline results.",
+  "hiddenAssumption": "all missingness has equal cost",
+  "whyExistingPrinciplesInsufficient": "Existing concepts identify risk sources but do not predict dominance among falsifier access, resolution cost, executable specificity, and controls.",
+  "mechanism": "controls expose whether the proposed evidence is discriminating or merely plausible",
+  "measurableVariables": [
+    "control_gap",
+    "control_failure",
+    "baseline_gap",
+    "metric_sensitivity"
+  ],
+  "examples": [
+    "MAGIC weak majority gap",
+    "Forest Fires weak univariate model"
+  ],
+  "nonExamples": [
+    "claims where no meaningful negative control exists"
+  ],
+  "predictedWins": [
+    "fresh package smoke",
+    "label-shuffle controlled dataset",
+    "temporal negative control"
+  ],
+  "predictedFailures": [
+    "private artifact",
+    "unavailable protocol",
+    "overbroad usefulness claim"
+  ],
+  "falsificationTests": [
+    "rival predicts observation with fewer caveats",
+    "negative control reverses result",
+    "replay failure blocks claim"
+  ],
+  "rivalPrinciples": [
+    "Accessible Falsifier Boundary",
+    "Resolution-Cost Gradient",
+    "Executable Specificity Dominance"
+  ],
+  "scope": "claims with feasible controls",
+  "expectedCrossDomainTransfer": "dataset, temporal, repo/package, tool claims",
+  "simplicityScore": 67,
+  "explanatoryCompressionScore": 69,
+  "predictionRiskScore": 58,
+  "noveltyVsPriorScore": 79
+}

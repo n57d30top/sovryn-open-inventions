@@ -1,0 +1,42 @@
+{
+  "kind": "claim_evidence_bindings",
+  "classification": "promising_original_principle_candidate",
+  "sourceArtifacts": [
+    "grandchallenge-stage1-anomaly-wall",
+    "grandchallenge-stage2-radical-rival-principles",
+    "grandchallenge-stage3-non-obvious-prediction-freeze",
+    "grandchallenge-stage4-fresh-external-tests",
+    "grandchallenge-stage5-decisive-experiment-design",
+    "grandchallenge-stage6-decisive-experiment-execution",
+    "grandchallenge-stage7-conceptual-compression",
+    "grandchallenge-stage8-external-usefulness-challenge",
+    "grandchallenge-stage9-adversarial-final-kill-week"
+  ],
+  "counts": {
+    "anomalies": 100,
+    "principleCandidates": 50,
+    "principleCards": 10,
+    "radicalRivals": 4,
+    "frozenPredictions": 24,
+    "executedPredictions": 18,
+    "freshExternalTargets": 15,
+    "realEvidenceChecks": 15,
+    "installProvisionExecutionAttempts": 15,
+    "repoPackageExecutions": 8,
+    "datasetBenchmarkLoads": 4,
+    "timeSeriesChecks": 3,
+    "baselineNegativeControls": 15,
+    "replays": 15,
+    "wrongPartialInconclusive": 8,
+    "decisiveDesigned": 12,
+    "decisiveFrozen": 6,
+    "decisiveExecuted": 6,
+    "topPrincipleWeakened": true
+  },
+  "evidenceHashes": {
+    "freeze": "45235f45964c1f488e9fe4472c6655252311fe650d1600649f354845dd8f015f",
+    "stage4": "b3fb534ffbe3b42d8e783ee3c5c436fbee486593aaf69def401baf0f9209dd15",
+    "decisiveFreeze": "93c6e7ce691c9dac2f651e67c2e0376524ec304664a3803a17834acc31ba1bef",
+    "decisiveLedger": "525e5d0704559b3efdf8530b2ebfddfe046412b680d927865d0ad4acdcc42957"
+  }
+}

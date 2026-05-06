@@ -1,0 +1,16 @@
+{
+  "experimentId": "DEXP-01",
+  "target": "UCI MAGIC Gamma Telescope",
+  "sourceUrl": "https://archive.ics.uci.edu/ml/machine-learning-databases/magic/magic04.data",
+  "domain": "dataset_benchmark",
+  "principle1": "Accessible Falsifier Boundary predicts caveated allowance because the label-shuffle falsifier is directly executable.",
+  "principle2": "Negative-Control Asymmetry predicts downgrade if the negative-control/baseline contrast is weak.",
+  "existing": "Required Evidence Field Boundary predicts downgrade for missing official protocol fields.",
+  "decidesIf": "If centroid accuracy barely beats majority while controls remain informative, Principle 2 beats Principle 1.",
+  "baseline": "majority class",
+  "negativeControl": "shuffled labels",
+  "replay": "repeat public fetch and metric run",
+  "frozenAt": "2026-05-06T19:35:14.509Z",
+  "noEditRule": "Frozen before decisive execution.",
+  "preregistrationHash": "c9e58e7e21f39499b384c328c6b401ca1830002436e9200d29006eab1c5f09a4"
+}

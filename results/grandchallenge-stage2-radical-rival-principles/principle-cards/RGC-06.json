@@ -1,0 +1,47 @@
+{
+  "principleId": "RGC-06",
+  "name": "Reviewer Burden Inversion",
+  "oneSentenceClaim": "Reviewer Burden Inversion proposes a narrower measurable boundary, but was not selected for execution.",
+  "hiddenAssumption": "documentation beats execution",
+  "whyExistingPrinciplesInsufficient": "Existing concepts identify risk sources but do not predict dominance among falsifier access, resolution cost, executable specificity, and controls.",
+  "mechanism": "candidate mechanism was weaker than selected rivals",
+  "measurableVariables": [
+    "claim_width",
+    "field_gap",
+    "execution_depth"
+  ],
+  "examples": [
+    "public package smoke",
+    "simple dataset check"
+  ],
+  "nonExamples": [
+    "broad unexecuted claim"
+  ],
+  "predictedWins": [
+    "fresh package smoke",
+    "label-shuffle controlled dataset",
+    "temporal negative control"
+  ],
+  "predictedFailures": [
+    "private artifact",
+    "unavailable protocol",
+    "overbroad usefulness claim"
+  ],
+  "falsificationTests": [
+    "rival predicts observation with fewer caveats",
+    "negative control reverses result",
+    "replay failure blocks claim"
+  ],
+  "rivalPrinciples": [
+    "Accessible Falsifier Boundary",
+    "Resolution-Cost Gradient",
+    "Executable Specificity Dominance",
+    "Negative-Control Asymmetry"
+  ],
+  "scope": "narrow candidate scope",
+  "expectedCrossDomainTransfer": "uncertain",
+  "simplicityScore": 65,
+  "explanatoryCompressionScore": 67,
+  "predictionRiskScore": 60,
+  "noveltyVsPriorScore": 50
+}

@@ -1,0 +1,48 @@
+{
+  "principleId": "RGC-02",
+  "name": "Resolution-Cost Gradient",
+  "oneSentenceClaim": "Missing evidence should cause harsher downgrades when resolving it requires high-cost, unavailable, or unstable execution.",
+  "hiddenAssumption": "documentation beats execution",
+  "whyExistingPrinciplesInsufficient": "Existing concepts identify risk sources but do not predict dominance among falsifier access, resolution cost, executable specificity, and controls.",
+  "mechanism": "decision severity scales with public resolution cost and expected replay burden",
+  "measurableVariables": [
+    "resolution_cost",
+    "download_success",
+    "install_success",
+    "runtime_success",
+    "replay_cost"
+  ],
+  "examples": [
+    "short package smoke tests",
+    "low-cost public CSV fetches"
+  ],
+  "nonExamples": [
+    "private data or unavailable protocol clarification"
+  ],
+  "predictedWins": [
+    "fresh package smoke",
+    "label-shuffle controlled dataset",
+    "temporal negative control"
+  ],
+  "predictedFailures": [
+    "private artifact",
+    "unavailable protocol",
+    "overbroad usefulness claim"
+  ],
+  "falsificationTests": [
+    "rival predicts observation with fewer caveats",
+    "negative control reverses result",
+    "replay failure blocks claim"
+  ],
+  "rivalPrinciples": [
+    "Accessible Falsifier Boundary",
+    "Executable Specificity Dominance",
+    "Negative-Control Asymmetry"
+  ],
+  "scope": "auditable public artifacts",
+  "expectedCrossDomainTransfer": "dataset, temporal, repo/package, tool claims",
+  "simplicityScore": 69,
+  "explanatoryCompressionScore": 71,
+  "predictionRiskScore": 56,
+  "noveltyVsPriorScore": 81
+}

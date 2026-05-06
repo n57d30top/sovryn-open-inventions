@@ -1,0 +1,155 @@
+{
+  "kind": "decisive_experiment_execution",
+  "frozenSource": "aggregate/original-principle-grandchallenge/frozen-decisive-experiments.json",
+  "executedAt": "2026-05-06T19:36:09.892Z",
+  "results": [
+    {
+      "experimentId": "DEXP-01",
+      "target": "UCI MAGIC Gamma Telescope",
+      "domain": "dataset_benchmark",
+      "sourceUrl": "https://archive.ics.uci.edu/ml/machine-learning-databases/magic/magic04.data",
+      "sourceHash": "e9314b7ebd4b4b59a3b3d65f7316663963777b16a46786877651dbbaa640b36a",
+      "downloadedBytes": 1477391,
+      "installAttempted": false,
+      "executionAttempted": true,
+      "executionSucceeded": true,
+      "baselineAttempted": true,
+      "negativeControlAttempted": true,
+      "replayAttempted": true,
+      "replaySucceeded": true,
+      "metrics": {
+        "rows": 19020,
+        "accuracy": 0.6865,
+        "majorityAccuracy": 0.6512,
+        "shuffledLabelAccuracy": 0.6512
+      },
+      "result": "principle_2_supported",
+      "weakenedPrinciple": "Accessible Falsifier Boundary"
+    },
+    {
+      "experimentId": "DEXP-02",
+      "target": "UCI Ionosphere",
+      "domain": "dataset_benchmark",
+      "sourceUrl": "https://archive.ics.uci.edu/ml/machine-learning-databases/ionosphere/ionosphere.data",
+      "sourceHash": "46d52186b84e20be52918adb93e8fb9926b34795ff7504c24350ae0616a04bbd",
+      "downloadedBytes": 76467,
+      "installAttempted": false,
+      "executionAttempted": true,
+      "executionSucceeded": true,
+      "baselineAttempted": true,
+      "negativeControlAttempted": true,
+      "replayAttempted": true,
+      "replaySucceeded": true,
+      "metrics": {
+        "rows": 351,
+        "accuracy": 0.7264,
+        "majorityAccuracy": 0.6132,
+        "shuffledLabelAccuracy": 0.6132
+      },
+      "result": "principle_1_supported_or_inconclusive",
+      "weakenedPrinciple": "none"
+    },
+    {
+      "experimentId": "DEXP-03",
+      "target": "Monthly Car Sales time series",
+      "domain": "time_series_temporal",
+      "sourceUrl": "https://raw.githubusercontent.com/jbrownlee/Datasets/master/monthly-car-sales.csv",
+      "sourceHash": "a4194226eb1d0eba5fd503e829b1279f1a10683d8009f2871aca05e7fb648f70",
+      "downloadedBytes": 1834,
+      "installAttempted": false,
+      "executionAttempted": true,
+      "executionSucceeded": true,
+      "baselineAttempted": true,
+      "negativeControlAttempted": true,
+      "replayAttempted": true,
+      "replaySucceeded": true,
+      "metrics": {
+        "points": 108,
+        "temporalNaiveMae": 3983.0606,
+        "temporalMeanMae": 4164.6715,
+        "shuffledTimeNaiveMae": 5666.303
+      },
+      "result": "principle_1_supported",
+      "weakenedPrinciple": "none"
+    },
+    {
+      "experimentId": "DEXP-04",
+      "target": "slash npm package",
+      "domain": "tool_usefulness",
+      "sourceUrl": "https://www.npmjs.com/package/slash",
+      "sourceHash": "1e4e4b502d4280d2c14ad936b541eb873d631bb6d9e0ee86fe8bb0e9e77b4786",
+      "downloadedBytes": 716,
+      "installAttempted": true,
+      "installSucceeded": true,
+      "executionAttempted": true,
+      "executionSucceeded": true,
+      "baselineAttempted": true,
+      "negativeControlAttempted": true,
+      "replayAttempted": true,
+      "replaySucceeded": true,
+      "metrics": {
+        "installSucceeded": true,
+        "smokeSucceeded": true,
+        "replaySucceeded": true
+      },
+      "result": "principle_1_supported_with_principle_2_caveat",
+      "weakenedPrinciple": "none"
+    },
+    {
+      "experimentId": "DEXP-05",
+      "target": "camelcase npm package",
+      "domain": "tool_usefulness",
+      "sourceUrl": "https://www.npmjs.com/package/camelcase",
+      "sourceHash": "3d0e5be865ded3476b83a076fef29b25e1a50018ea407328b3d113b8ba2989ca",
+      "downloadedBytes": 924,
+      "installAttempted": true,
+      "installSucceeded": true,
+      "executionAttempted": true,
+      "executionSucceeded": true,
+      "baselineAttempted": true,
+      "negativeControlAttempted": true,
+      "replayAttempted": true,
+      "replaySucceeded": true,
+      "metrics": {
+        "installSucceeded": true,
+        "smokeSucceeded": true,
+        "replaySucceeded": true
+      },
+      "result": "principle_1_supported_with_principle_2_caveat",
+      "weakenedPrinciple": "none"
+    },
+    {
+      "experimentId": "DEXP-06",
+      "target": "escape-string-regexp npm package",
+      "domain": "tool_usefulness",
+      "sourceUrl": "https://www.npmjs.com/package/escape-string-regexp",
+      "sourceHash": "6d7ae0240943e38cb8a8dd35242584b2c3415a2bca83aa86497d3b7b1bef08ef",
+      "downloadedBytes": 732,
+      "installAttempted": true,
+      "installSucceeded": true,
+      "executionAttempted": true,
+      "executionSucceeded": true,
+      "baselineAttempted": true,
+      "negativeControlAttempted": true,
+      "replayAttempted": true,
+      "replaySucceeded": true,
+      "metrics": {
+        "installSucceeded": true,
+        "smokeSucceeded": true,
+        "replaySucceeded": true
+      },
+      "result": "principle_1_supported_with_principle_2_caveat",
+      "weakenedPrinciple": "none"
+    }
+  ],
+  "counts": {
+    "executed": 6,
+    "realEvidenceChecks": 6,
+    "installProvisionExecutionAttempts": 6,
+    "repoTestPackageExecutions": 3,
+    "datasetBenchmarkTimeSeriesExecutions": 3,
+    "baselineNegativeControls": 6,
+    "replayAttemptsOrFailures": 6,
+    "weakenedTopPrinciples": 1
+  }
+}

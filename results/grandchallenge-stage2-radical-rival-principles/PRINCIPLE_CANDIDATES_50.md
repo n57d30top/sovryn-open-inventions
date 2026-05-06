@@ -1,0 +1,52 @@
+# Principle Candidates 50
+
+- CAND-01: Accessible Falsifier Boundary
+- CAND-02: Resolution-Cost Gradient
+- CAND-03: Executable Specificity Dominance
+- CAND-04: Negative-Control Asymmetry
+- CAND-05: Artifact Friction Limit
+- CAND-06: Reviewer Burden Inversion
+- CAND-07: Field Count Saturation
+- CAND-08: Decisive Counterexample Priority
+- CAND-09: Claim Width Penalty
+- CAND-10: Control Gap Dominance
+- CAND-11: Replay Ceiling
+- CAND-12: Evidence Liquidity
+- CAND-13: Target Replacement Bias
+- CAND-14: Metadata Sufficiency Trap
+- CAND-15: Protocol-Free Falsifier
+- CAND-16: Baseline Surprise Boundary
+- CAND-17: Low-Cost Upgrade Rule
+- CAND-18: Failed Install Evidence Rule
+- CAND-19: Metric-Only Mirage
+- CAND-20: Review Package Compression Limit
+- CAND-21: Execution Specificity Boundary
+- CAND-22: Non-Example Density Principle
+- CAND-23: Support-Only Tool Boundary
+- CAND-24: Artifact Age Penalty
+- CAND-25: Source Hash Stability Rule
+- CAND-26: Documentation-Execution Divergence
+- CAND-27: Observable Mechanism Gate
+- CAND-28: Overblocking Reversal Threshold
+- CAND-29: Underblocking Falsifier Gap
+- CAND-30: Result-Receipt Separability
+- CAND-31: Public Artifact Liquidity
+- CAND-32: Runnable Claim Privilege
+- CAND-33: Ambiguity Persistence Rule
+- CAND-34: Freshness Fragility Boundary
+- CAND-35: Field Action Delta
+- CAND-36: Prediction Risk Ladder
+- CAND-37: Domain Burden Transfer
+- CAND-38: Protocol Independence Penalty
+- CAND-39: Control Asymmetry Boundary
+- CAND-40: Claim Repair Ceiling
+- CAND-41: Reproduction-Minimality Principle
+- CAND-42: Evidence Field Substitution
+- CAND-43: Practical Falsifier Weight
+- CAND-44: Decision Cost Dominance
+- CAND-45: Artifact-Type Prior
+- CAND-46: Human-Readable Loss Function
+- CAND-47: External Usefulness Gap
+- CAND-48: Compression Without Novelty Trap
+- CAND-49: Caveat Inflation Limit
+- CAND-50: Brittle Success Boundary

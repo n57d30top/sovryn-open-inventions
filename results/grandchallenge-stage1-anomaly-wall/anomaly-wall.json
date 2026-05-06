@@ -1,0 +1,2013 @@
+{
+  "kind": "original_principle_anomaly_wall",
+  "anomalyCount": 100,
+  "notWellExplainedCount": 53,
+  "externalClaimAuditCount": 40,
+  "failedPartialWrongCount": 25,
+  "tooBroadExistingConceptCount": 25,
+  "crossDomainWeaknessCount": 12,
+  "toolUsefulnessAmbiguityCount": 12,
+  "overUnderBlockingCount": 14,
+  "anomalies": [
+    {
+      "anomalyId": "AW-001",
+      "resultSlug": "batch1-feverous-claim-verification-followup",
+      "category": "failed_or_partial_prediction",
+      "observedPhenomenon": "failed or partial prediction appeared in batch1-feverous-claim-verification-followup and limited a strong claim decision.",
+      "existingPrinciple": "Required Evidence Field Boundary",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "decisive falsifier access",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-002",
+      "resultSlug": "batch101-independent-replay-and-fresh-workspace-study",
+      "category": "too_broad_existing_concept",
+      "observedPhenomenon": "too broad existing concept appeared in batch101-independent-replay-and-fresh-workspace-study and limited a strong claim decision.",
+      "existingPrinciple": "Evaluation Fragility",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "resolution cost",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-003",
+      "resultSlug": "batch102-hard-external-evidence-atlas",
+      "category": "cross_domain_transfer_weakness",
+      "observedPhenomenon": "cross domain transfer weakness appeared in batch102-hard-external-evidence-atlas and limited a strong claim decision.",
+      "existingPrinciple": "Protocol Sensitivity",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "executable specificity",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-004",
+      "resultSlug": "batch103-external-anomaly-mining-v3",
+      "category": "tool_usefulness_ambiguity",
+      "observedPhenomenon": "tool usefulness ambiguity appeared in batch103-external-anomaly-mining-v3 and limited a strong claim decision.",
+      "existingPrinciple": "Replay Robustness",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "negative-control dominance",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-005",
+      "resultSlug": "batch109-human-readable-review-package-large",
+      "category": "overblocking_underblocking",
+      "observedPhenomenon": "overblocking underblocking appeared in batch109-human-readable-review-package-large and limited a strong claim decision.",
+      "existingPrinciple": "Ambiguity Barrier",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "review burden",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-006",
+      "resultSlug": "batch110-adversarial-reviewer-attack",
+      "category": "replay_divergence",
+      "observedPhenomenon": "replay divergence appeared in batch110-adversarial-reviewer-attack and limited a strong claim decision.",
+      "existingPrinciple": "Evidence-Claim Gap",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "decisive falsifier access",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-007",
+      "resultSlug": "batch112-reviewer-burden-practicality-study",
+      "category": "baseline_sufficiency",
+      "observedPhenomenon": "baseline sufficiency appeared in batch112-reviewer-burden-practicality-study and limited a strong claim decision.",
+      "existingPrinciple": "Field Specificity / Actionability",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "resolution cost",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-008",
+      "resultSlug": "batch12-research-production-review-next-frontier-program",
+      "category": "protocol_ambiguity_persistence",
+      "observedPhenomenon": "protocol ambiguity persistence appeared in batch12-research-production-review-next-frontier-program and limited a strong claim decision.",
+      "existingPrinciple": "Claim Safety over Metric Gain",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "executable specificity",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-009",
+      "resultSlug": "batch120-final-external-einstein-track-synthesis",
+      "category": "external_artifact_friction",
+      "observedPhenomenon": "external artifact friction appeared in batch120-final-external-einstein-track-synthesis and limited a strong claim decision.",
+      "existingPrinciple": "Required Evidence Field Boundary",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "negative-control dominance",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-010",
+      "resultSlug": "batch121-external-review-scientist-kernel",
+      "category": "negative_control_dominance",
+      "observedPhenomenon": "negative control dominance appeared in batch121-external-review-scientist-kernel and limited a strong claim decision.",
+      "existingPrinciple": "Evaluation Fragility",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "review burden",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-011",
+      "resultSlug": "batch122-evidence-receipt-kernel-hardening",
+      "category": "failed_or_partial_prediction",
+      "observedPhenomenon": "failed or partial prediction appeared in batch122-evidence-receipt-kernel-hardening and limited a strong claim decision.",
+      "existingPrinciple": "Protocol Sensitivity",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "decisive falsifier access",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-012",
+      "resultSlug": "batch123-external-target-miner-500",
+      "category": "too_broad_existing_concept",
+      "observedPhenomenon": "too broad existing concept appeared in batch123-external-target-miner-500 and limited a strong claim decision.",
+      "existingPrinciple": "Replay Robustness",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "resolution cost",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-013",
+      "resultSlug": "batch124-claim-screening-stratification-200",
+      "category": "cross_domain_transfer_weakness",
+      "observedPhenomenon": "cross domain transfer weakness appeared in batch124-claim-screening-stratification-200 and limited a strong claim decision.",
+      "existingPrinciple": "Ambiguity Barrier",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "executable specificity",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-014",
+      "resultSlug": "batch125-field-bound-prediction-freeze-100",
+      "category": "tool_usefulness_ambiguity",
+      "observedPhenomenon": "tool usefulness ambiguity appeared in batch125-field-bound-prediction-freeze-100 and limited a strong claim decision.",
+      "existingPrinciple": "Evidence-Claim Gap",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "negative-control dominance",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-015",
+      "resultSlug": "batch126-execution-wave-planner",
+      "category": "overblocking_underblocking",
+      "observedPhenomenon": "overblocking underblocking appeared in batch126-execution-wave-planner and limited a strong claim decision.",
+      "existingPrinciple": "Field Specificity / Actionability",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "review burden",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-016",
+      "resultSlug": "batch127-calibration-execution-run",
+      "category": "replay_divergence",
+      "observedPhenomenon": "replay divergence appeared in batch127-calibration-execution-run and limited a strong claim decision.",
+      "existingPrinciple": "Claim Safety over Metric Gain",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "decisive falsifier access",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-017",
+      "resultSlug": "batch128-calibration-kill-plan-revision",
+      "category": "baseline_sufficiency",
+      "observedPhenomenon": "baseline sufficiency appeared in batch128-calibration-kill-plan-revision and limited a strong claim decision.",
+      "existingPrinciple": "Required Evidence Field Boundary",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "resolution cost",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-018",
+      "resultSlug": "batch129-benchmark-protocol-audit-wave-1",
+      "category": "protocol_ambiguity_persistence",
+      "observedPhenomenon": "protocol ambiguity persistence appeared in batch129-benchmark-protocol-audit-wave-1 and limited a strong claim decision.",
+      "existingPrinciple": "Evaluation Fragility",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "executable specificity",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-019",
+      "resultSlug": "batch130-benchmark-protocol-audit-wave-2",
+      "category": "external_artifact_friction",
+      "observedPhenomenon": "external artifact friction appeared in batch130-benchmark-protocol-audit-wave-2 and limited a strong claim decision.",
+      "existingPrinciple": "Protocol Sensitivity",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "negative-control dominance",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-020",
+      "resultSlug": "batch131-repo-test-reproduction-wave-1",
+      "category": "negative_control_dominance",
+      "observedPhenomenon": "negative control dominance appeared in batch131-repo-test-reproduction-wave-1 and limited a strong claim decision.",
+      "existingPrinciple": "Replay Robustness",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "review burden",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-021",
+      "resultSlug": "batch132-repo-test-reproduction-wave-2",
+      "category": "failed_or_partial_prediction",
+      "observedPhenomenon": "failed or partial prediction appeared in batch132-repo-test-reproduction-wave-2 and limited a strong claim decision.",
+      "existingPrinciple": "Ambiguity Barrier",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "decisive falsifier access",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-022",
+      "resultSlug": "batch133-dataset-quality-audit-wave-1",
+      "category": "too_broad_existing_concept",
+      "observedPhenomenon": "too broad existing concept appeared in batch133-dataset-quality-audit-wave-1 and limited a strong claim decision.",
+      "existingPrinciple": "Evidence-Claim Gap",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "resolution cost",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-023",
+      "resultSlug": "batch134-dataset-quality-audit-wave-2",
+      "category": "cross_domain_transfer_weakness",
+      "observedPhenomenon": "cross domain transfer weakness appeared in batch134-dataset-quality-audit-wave-2 and limited a strong claim decision.",
+      "existingPrinciple": "Field Specificity / Actionability",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "executable specificity",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-024",
+      "resultSlug": "batch135-timeseries-temporal-audit-wave-1",
+      "category": "tool_usefulness_ambiguity",
+      "observedPhenomenon": "tool usefulness ambiguity appeared in batch135-timeseries-temporal-audit-wave-1 and limited a strong claim decision.",
+      "existingPrinciple": "Claim Safety over Metric Gain",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "negative-control dominance",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-025",
+      "resultSlug": "batch136-timeseries-temporal-audit-wave-2",
+      "category": "overblocking_underblocking",
+      "observedPhenomenon": "overblocking underblocking appeared in batch136-timeseries-temporal-audit-wave-2 and limited a strong claim decision.",
+      "existingPrinciple": "Required Evidence Field Boundary",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "review burden",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": true,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-026",
+      "resultSlug": "batch137-tool-usefulness-audit-wave",
+      "category": "replay_divergence",
+      "observedPhenomenon": "replay divergence appeared in batch137-tool-usefulness-audit-wave and limited a strong claim decision.",
+      "existingPrinciple": "Evaluation Fragility",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "decisive falsifier access",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-027",
+      "resultSlug": "batch138-conceptual-principle-audit-wave",
+      "category": "baseline_sufficiency",
+      "observedPhenomenon": "baseline sufficiency appeared in batch138-conceptual-principle-audit-wave and limited a strong claim decision.",
+      "existingPrinciple": "Protocol Sensitivity",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "resolution cost",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-028",
+      "resultSlug": "batch139-package-install-test-wave",
+      "category": "protocol_ambiguity_persistence",
+      "observedPhenomenon": "protocol ambiguity persistence appeared in batch139-package-install-test-wave and limited a strong claim decision.",
+      "existingPrinciple": "Replay Robustness",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "executable specificity",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-029",
+      "resultSlug": "batch140-cross-family-replay-negative-control-wave",
+      "category": "external_artifact_friction",
+      "observedPhenomenon": "external artifact friction appeared in batch140-cross-family-replay-negative-control-wave and limited a strong claim decision.",
+      "existingPrinciple": "Ambiguity Barrier",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "negative-control dominance",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-030",
+      "resultSlug": "batch141-hard-artifact-selection-deep-studies",
+      "category": "negative_control_dominance",
+      "observedPhenomenon": "negative control dominance appeared in batch141-hard-artifact-selection-deep-studies and limited a strong claim decision.",
+      "existingPrinciple": "Evidence-Claim Gap",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "review burden",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-031",
+      "resultSlug": "batch142-deep-repo-study-a",
+      "category": "failed_or_partial_prediction",
+      "observedPhenomenon": "failed or partial prediction appeared in batch142-deep-repo-study-a and limited a strong claim decision.",
+      "existingPrinciple": "Field Specificity / Actionability",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "decisive falsifier access",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-032",
+      "resultSlug": "batch143-deep-repo-study-b",
+      "category": "too_broad_existing_concept",
+      "observedPhenomenon": "too broad existing concept appeared in batch143-deep-repo-study-b and limited a strong claim decision.",
+      "existingPrinciple": "Claim Safety over Metric Gain",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "resolution cost",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-033",
+      "resultSlug": "batch144-deep-benchmark-study-a",
+      "category": "cross_domain_transfer_weakness",
+      "observedPhenomenon": "cross domain transfer weakness appeared in batch144-deep-benchmark-study-a and limited a strong claim decision.",
+      "existingPrinciple": "Required Evidence Field Boundary",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "executable specificity",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-034",
+      "resultSlug": "batch145-deep-benchmark-study-b",
+      "category": "tool_usefulness_ambiguity",
+      "observedPhenomenon": "tool usefulness ambiguity appeared in batch145-deep-benchmark-study-b and limited a strong claim decision.",
+      "existingPrinciple": "Evaluation Fragility",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "negative-control dominance",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-035",
+      "resultSlug": "batch146-deep-timeseries-study-a",
+      "category": "overblocking_underblocking",
+      "observedPhenomenon": "overblocking underblocking appeared in batch146-deep-timeseries-study-a and limited a strong claim decision.",
+      "existingPrinciple": "Protocol Sensitivity",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "review burden",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-036",
+      "resultSlug": "batch147-deep-timeseries-study-b",
+      "category": "replay_divergence",
+      "observedPhenomenon": "replay divergence appeared in batch147-deep-timeseries-study-b and limited a strong claim decision.",
+      "existingPrinciple": "Replay Robustness",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "decisive falsifier access",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-037",
+      "resultSlug": "batch148-deep-dataset-reliability-study",
+      "category": "baseline_sufficiency",
+      "observedPhenomenon": "baseline sufficiency appeared in batch148-deep-dataset-reliability-study and limited a strong claim decision.",
+      "existingPrinciple": "Ambiguity Barrier",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "resolution cost",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-038",
+      "resultSlug": "batch149-independent-replay-study",
+      "category": "protocol_ambiguity_persistence",
+      "observedPhenomenon": "protocol ambiguity persistence appeared in batch149-independent-replay-study and limited a strong claim decision.",
+      "existingPrinciple": "Evidence-Claim Gap",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "executable specificity",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-039",
+      "resultSlug": "batch150-hard-evidence-atlas",
+      "category": "external_artifact_friction",
+      "observedPhenomenon": "external artifact friction appeared in batch150-hard-evidence-atlas and limited a strong claim decision.",
+      "existingPrinciple": "Field Specificity / Actionability",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "negative-control dominance",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-040",
+      "resultSlug": "batch151-external-anomaly-mining-hard-mode",
+      "category": "negative_control_dominance",
+      "observedPhenomenon": "negative control dominance appeared in batch151-external-anomaly-mining-hard-mode and limited a strong claim decision.",
+      "existingPrinciple": "Claim Safety over Metric Gain",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "review burden",
+      "labels": {
+        "externalClaimAudit": true,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-041",
+      "resultSlug": "batch152-rival-principle-generation-hard-mode",
+      "category": "failed_or_partial_prediction",
+      "observedPhenomenon": "failed or partial prediction appeared in batch152-rival-principle-generation-hard-mode and limited a strong claim decision.",
+      "existingPrinciple": "Required Evidence Field Boundary",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "decisive falsifier access",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-042",
+      "resultSlug": "batch153-discriminating-experiment-freeze-hard-mode",
+      "category": "too_broad_existing_concept",
+      "observedPhenomenon": "too broad existing concept appeared in batch153-discriminating-experiment-freeze-hard-mode and limited a strong claim decision.",
+      "existingPrinciple": "Evaluation Fragility",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "resolution cost",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-043",
+      "resultSlug": "batch154-surprise-prediction-execution-hard-mode",
+      "category": "cross_domain_transfer_weakness",
+      "observedPhenomenon": "cross domain transfer weakness appeared in batch154-surprise-prediction-execution-hard-mode and limited a strong claim decision.",
+      "existingPrinciple": "Protocol Sensitivity",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "executable specificity",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-044",
+      "resultSlug": "batch155-cross-domain-transfer-hard-mode",
+      "category": "tool_usefulness_ambiguity",
+      "observedPhenomenon": "tool usefulness ambiguity appeared in batch155-cross-domain-transfer-hard-mode and limited a strong claim decision.",
+      "existingPrinciple": "Replay Robustness",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "negative-control dominance",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-045",
+      "resultSlug": "batch156-principle-confidence-update-hard-mode",
+      "category": "overblocking_underblocking",
+      "observedPhenomenon": "overblocking underblocking appeared in batch156-principle-confidence-update-hard-mode and limited a strong claim decision.",
+      "existingPrinciple": "Ambiguity Barrier",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "review burden",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-046",
+      "resultSlug": "batch157-large-reviewer-brief-package",
+      "category": "replay_divergence",
+      "observedPhenomenon": "replay divergence appeared in batch157-large-reviewer-brief-package and limited a strong claim decision.",
+      "existingPrinciple": "Evidence-Claim Gap",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "decisive falsifier access",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-047",
+      "resultSlug": "batch158-adversarial-reviewer-attack",
+      "category": "baseline_sufficiency",
+      "observedPhenomenon": "baseline sufficiency appeared in batch158-adversarial-reviewer-attack and limited a strong claim decision.",
+      "existingPrinciple": "Field Specificity / Actionability",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "resolution cost",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-048",
+      "resultSlug": "batch159-overblocking-underblocking-calibration",
+      "category": "protocol_ambiguity_persistence",
+      "observedPhenomenon": "protocol ambiguity persistence appeared in batch159-overblocking-underblocking-calibration and limited a strong claim decision.",
+      "existingPrinciple": "Claim Safety over Metric Gain",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "executable specificity",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-049",
+      "resultSlug": "batch160-reviewer-burden-study",
+      "category": "external_artifact_friction",
+      "observedPhenomenon": "external artifact friction appeared in batch160-reviewer-burden-study and limited a strong claim decision.",
+      "existingPrinciple": "Required Evidence Field Boundary",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "negative-control dominance",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-050",
+      "resultSlug": "batch161-field-bound-standard-v1-candidate",
+      "category": "negative_control_dominance",
+      "observedPhenomenon": "negative control dominance appeared in batch161-field-bound-standard-v1-candidate and limited a strong claim decision.",
+      "existingPrinciple": "Evaluation Fragility",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "review burden",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": true,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-051",
+      "resultSlug": "batch162-standard-kill-week",
+      "category": "failed_or_partial_prediction",
+      "observedPhenomenon": "failed or partial prediction appeared in batch162-standard-kill-week and limited a strong claim decision.",
+      "existingPrinciple": "Protocol Sensitivity",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "decisive falsifier access",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": true,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-052",
+      "resultSlug": "batch163-intervention-candidate-generation-hard-mode",
+      "category": "too_broad_existing_concept",
+      "observedPhenomenon": "too broad existing concept appeared in batch163-intervention-candidate-generation-hard-mode and limited a strong claim decision.",
+      "existingPrinciple": "Replay Robustness",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "resolution cost",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": true,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-053",
+      "resultSlug": "batch164-intervention-execution-wave-1",
+      "category": "cross_domain_transfer_weakness",
+      "observedPhenomenon": "cross domain transfer weakness appeared in batch164-intervention-execution-wave-1 and limited a strong claim decision.",
+      "existingPrinciple": "Ambiguity Barrier",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "executable specificity",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": true,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-054",
+      "resultSlug": "batch165-intervention-execution-wave-2",
+      "category": "tool_usefulness_ambiguity",
+      "observedPhenomenon": "tool usefulness ambiguity appeared in batch165-intervention-execution-wave-2 and limited a strong claim decision.",
+      "existingPrinciple": "Evidence-Claim Gap",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "negative-control dominance",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": true,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-055",
+      "resultSlug": "batch166-intervention-replay-control-study",
+      "category": "overblocking_underblocking",
+      "observedPhenomenon": "overblocking underblocking appeared in batch166-intervention-replay-control-study and limited a strong claim decision.",
+      "existingPrinciple": "Field Specificity / Actionability",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "review burden",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": true,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-056",
+      "resultSlug": "batch167-useful-tool-or-standard-candidate-v3",
+      "category": "replay_divergence",
+      "observedPhenomenon": "replay divergence appeared in batch167-useful-tool-or-standard-candidate-v3 and limited a strong claim decision.",
+      "existingPrinciple": "Claim Safety over Metric Gain",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "decisive falsifier access",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": true,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-057",
+      "resultSlug": "batch168-candidate-kill-week",
+      "category": "baseline_sufficiency",
+      "observedPhenomenon": "baseline sufficiency appeared in batch168-candidate-kill-week and limited a strong claim decision.",
+      "existingPrinciple": "Required Evidence Field Boundary",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "resolution cost",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": true,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-058",
+      "resultSlug": "batch169-global-evidence-consistency-audit",
+      "category": "protocol_ambiguity_persistence",
+      "observedPhenomenon": "protocol ambiguity persistence appeared in batch169-global-evidence-consistency-audit and limited a strong claim decision.",
+      "existingPrinciple": "Evaluation Fragility",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "executable specificity",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": true,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-059",
+      "resultSlug": "batch170-final-claim-decision-atlas",
+      "category": "external_artifact_friction",
+      "observedPhenomenon": "external artifact friction appeared in batch170-final-claim-decision-atlas and limited a strong claim decision.",
+      "existingPrinciple": "Protocol Sensitivity",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "negative-control dominance",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": true,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-060",
+      "resultSlug": "batch171-final-rival-principle-concept-atlas",
+      "category": "negative_control_dominance",
+      "observedPhenomenon": "negative control dominance appeared in batch171-final-rival-principle-concept-atlas and limited a strong claim decision.",
+      "existingPrinciple": "Replay Robustness",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "review burden",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": true,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-061",
+      "resultSlug": "batch172-final-external-usefulness-assessment",
+      "category": "failed_or_partial_prediction",
+      "observedPhenomenon": "failed or partial prediction appeared in batch172-final-external-usefulness-assessment and limited a strong claim decision.",
+      "existingPrinciple": "Ambiguity Barrier",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "decisive falsifier access",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": true,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-062",
+      "resultSlug": "batch173-final-failure-negative-result-map",
+      "category": "too_broad_existing_concept",
+      "observedPhenomenon": "too broad existing concept appeared in batch173-final-failure-negative-result-map and limited a strong claim decision.",
+      "existingPrinciple": "Evidence-Claim Gap",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "resolution cost",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": true,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-063",
+      "resultSlug": "batch174-final-standard-tool-decision",
+      "category": "cross_domain_transfer_weakness",
+      "observedPhenomenon": "cross domain transfer weakness appeared in batch174-final-standard-tool-decision and limited a strong claim decision.",
+      "existingPrinciple": "Field Specificity / Actionability",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "executable specificity",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": true,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-064",
+      "resultSlug": "batch175-external-review-scientist-paper",
+      "category": "tool_usefulness_ambiguity",
+      "observedPhenomenon": "tool usefulness ambiguity appeared in batch175-external-review-scientist-paper and limited a strong claim decision.",
+      "existingPrinciple": "Claim Safety over Metric Gain",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "negative-control dominance",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": true,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-065",
+      "resultSlug": "batch176-adversarial-final-review",
+      "category": "overblocking_underblocking",
+      "observedPhenomenon": "overblocking underblocking appeared in batch176-adversarial-final-review and limited a strong claim decision.",
+      "existingPrinciple": "Required Evidence Field Boundary",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "review burden",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": true,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-066",
+      "resultSlug": "batch177-final-einstein-path-score-v3",
+      "category": "replay_divergence",
+      "observedPhenomenon": "replay divergence appeared in batch177-final-einstein-path-score-v3 and limited a strong claim decision.",
+      "existingPrinciple": "Evaluation Fragility",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "decisive falsifier access",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": true,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-067",
+      "resultSlug": "batch178-next-frontier-program-selection",
+      "category": "baseline_sufficiency",
+      "observedPhenomenon": "baseline sufficiency appeared in batch178-next-frontier-program-selection and limited a strong claim decision.",
+      "existingPrinciple": "Protocol Sensitivity",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "resolution cost",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": true,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-068",
+      "resultSlug": "batch179-public-corpus-integrity-metadata-repair",
+      "category": "protocol_ambiguity_persistence",
+      "observedPhenomenon": "protocol ambiguity persistence appeared in batch179-public-corpus-integrity-metadata-repair and limited a strong claim decision.",
+      "existingPrinciple": "Replay Robustness",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "executable specificity",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": true,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-069",
+      "resultSlug": "batch180-final-completion-report-hard-mode",
+      "category": "external_artifact_friction",
+      "observedPhenomenon": "external artifact friction appeared in batch180-final-completion-report-hard-mode and limited a strong claim decision.",
+      "existingPrinciple": "Ambiguity Barrier",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "negative-control dominance",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": true,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-070",
+      "resultSlug": "batch2-climate-fever-claim-verification-followup",
+      "category": "negative_control_dominance",
+      "observedPhenomenon": "negative control dominance appeared in batch2-climate-fever-claim-verification-followup and limited a strong claim decision.",
+      "existingPrinciple": "Evidence-Claim Gap",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "review burden",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": true,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-071",
+      "resultSlug": "batch21-protocol-card-replay-week1",
+      "category": "failed_or_partial_prediction",
+      "observedPhenomenon": "failed or partial prediction appeared in batch21-protocol-card-replay-week1 and limited a strong claim decision.",
+      "existingPrinciple": "Field Specificity / Actionability",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "decisive falsifier access",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": true,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-072",
+      "resultSlug": "batch22-protocol-card-replay-model-family-stress",
+      "category": "too_broad_existing_concept",
+      "observedPhenomenon": "too broad existing concept appeared in batch22-protocol-card-replay-model-family-stress and limited a strong claim decision.",
+      "existingPrinciple": "Claim Safety over Metric Gain",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "resolution cost",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": true,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-073",
+      "resultSlug": "batch23-ambiguous-protocol-deep-replay-study",
+      "category": "cross_domain_transfer_weakness",
+      "observedPhenomenon": "cross domain transfer weakness appeared in batch23-ambiguous-protocol-deep-replay-study and limited a strong claim decision.",
+      "existingPrinciple": "Required Evidence Field Boundary",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "executable specificity",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": true,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-074",
+      "resultSlug": "batch53-evidence-field-taxonomy-and-claim-boundaries",
+      "category": "tool_usefulness_ambiguity",
+      "observedPhenomenon": "tool usefulness ambiguity appeared in batch53-evidence-field-taxonomy-and-claim-boundaries and limited a strong claim decision.",
+      "existingPrinciple": "Evaluation Fragility",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "negative-control dominance",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": true,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-075",
+      "resultSlug": "batch55-field-bound-claim-safety-execution",
+      "category": "overblocking_underblocking",
+      "observedPhenomenon": "overblocking underblocking appeared in batch55-field-bound-claim-safety-execution and limited a strong claim decision.",
+      "existingPrinciple": "Protocol Sensitivity",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "review burden",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": true,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-076",
+      "resultSlug": "batch58-field-bound-claim-safety-standard",
+      "category": "replay_divergence",
+      "observedPhenomenon": "replay divergence appeared in batch58-field-bound-claim-safety-standard and limited a strong claim decision.",
+      "existingPrinciple": "Replay Robustness",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "decisive falsifier access",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": true,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-077",
+      "resultSlug": "batch59-external-claim-universe-mining",
+      "category": "baseline_sufficiency",
+      "observedPhenomenon": "baseline sufficiency appeared in batch59-external-claim-universe-mining and limited a strong claim decision.",
+      "existingPrinciple": "Ambiguity Barrier",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "resolution cost",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": true,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-078",
+      "resultSlug": "batch61-external-claim-audit-wave-1",
+      "category": "protocol_ambiguity_persistence",
+      "observedPhenomenon": "protocol ambiguity persistence appeared in batch61-external-claim-audit-wave-1 and limited a strong claim decision.",
+      "existingPrinciple": "Evidence-Claim Gap",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "executable specificity",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": true,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-079",
+      "resultSlug": "batch62-external-claim-audit-wave-2",
+      "category": "external_artifact_friction",
+      "observedPhenomenon": "external artifact friction appeared in batch62-external-claim-audit-wave-2 and limited a strong claim decision.",
+      "existingPrinciple": "Field Specificity / Actionability",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "negative-control dominance",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": true,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-080",
+      "resultSlug": "batch63-human-readable-claim-review-package",
+      "category": "negative_control_dominance",
+      "observedPhenomenon": "negative control dominance appeared in batch63-human-readable-claim-review-package and limited a strong claim decision.",
+      "existingPrinciple": "Claim Safety over Metric Gain",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "review burden",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": true,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-081",
+      "resultSlug": "batch64-external-claim-kill-week",
+      "category": "failed_or_partial_prediction",
+      "observedPhenomenon": "failed or partial prediction appeared in batch64-external-claim-kill-week and limited a strong claim decision.",
+      "existingPrinciple": "Required Evidence Field Boundary",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "decisive falsifier access",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": true,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-082",
+      "resultSlug": "batch65-hard-external-artifact-target-selection",
+      "category": "too_broad_existing_concept",
+      "observedPhenomenon": "too broad existing concept appeared in batch65-hard-external-artifact-target-selection and limited a strong claim decision.",
+      "existingPrinciple": "Evaluation Fragility",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "resolution cost",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": true,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-083",
+      "resultSlug": "batch69-tool-and-concept-claim-hard-wave",
+      "category": "cross_domain_transfer_weakness",
+      "observedPhenomenon": "cross domain transfer weakness appeared in batch69-tool-and-concept-claim-hard-wave and limited a strong claim decision.",
+      "existingPrinciple": "Protocol Sensitivity",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "executable specificity",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": true,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-084",
+      "resultSlug": "batch70-hard-external-evidence-atlas",
+      "category": "tool_usefulness_ambiguity",
+      "observedPhenomenon": "tool usefulness ambiguity appeared in batch70-hard-external-evidence-atlas and limited a strong claim decision.",
+      "existingPrinciple": "Replay Robustness",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "negative-control dominance",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": true,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-085",
+      "resultSlug": "batch71-external-anomaly-and-assumption-mining",
+      "category": "overblocking_underblocking",
+      "observedPhenomenon": "overblocking underblocking appeared in batch71-external-anomaly-and-assumption-mining and limited a strong claim decision.",
+      "existingPrinciple": "Ambiguity Barrier",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "review burden",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": true,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-086",
+      "resultSlug": "batch78-claim-safety-intervention-wave-1",
+      "category": "replay_divergence",
+      "observedPhenomenon": "replay divergence appeared in batch78-claim-safety-intervention-wave-1 and limited a strong claim decision.",
+      "existingPrinciple": "Evidence-Claim Gap",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "decisive falsifier access",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": true,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-087",
+      "resultSlug": "batch79-claim-safety-intervention-wave-2",
+      "category": "baseline_sufficiency",
+      "observedPhenomenon": "baseline sufficiency appeared in batch79-claim-safety-intervention-wave-2 and limited a strong claim decision.",
+      "existingPrinciple": "Field Specificity / Actionability",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "resolution cost",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": true,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-088",
+      "resultSlug": "batch83-external-claim-universe-300",
+      "category": "protocol_ambiguity_persistence",
+      "observedPhenomenon": "protocol ambiguity persistence appeared in batch83-external-claim-universe-300 and limited a strong claim decision.",
+      "existingPrinciple": "Claim Safety over Metric Gain",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "executable specificity",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": true,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-089",
+      "resultSlug": "batch84-claim-family-stratification-and-safety-screen",
+      "category": "external_artifact_friction",
+      "observedPhenomenon": "external artifact friction appeared in batch84-claim-family-stratification-and-safety-screen and limited a strong claim decision.",
+      "existingPrinciple": "Required Evidence Field Boundary",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "negative-control dominance",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-090",
+      "resultSlug": "batch89-benchmark-protocol-claim-audit-wave",
+      "category": "negative_control_dominance",
+      "observedPhenomenon": "negative control dominance appeared in batch89-benchmark-protocol-claim-audit-wave and limited a strong claim decision.",
+      "existingPrinciple": "Evaluation Fragility",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "review burden",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-091",
+      "resultSlug": "batch90-repo-test-reproduction-claim-audit-wave",
+      "category": "failed_or_partial_prediction",
+      "observedPhenomenon": "failed or partial prediction appeared in batch90-repo-test-reproduction-claim-audit-wave and limited a strong claim decision.",
+      "existingPrinciple": "Protocol Sensitivity",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "decisive falsifier access",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-092",
+      "resultSlug": "batch91-dataset-quality-claim-audit-wave",
+      "category": "too_broad_existing_concept",
+      "observedPhenomenon": "too broad existing concept appeared in batch91-dataset-quality-claim-audit-wave and limited a strong claim decision.",
+      "existingPrinciple": "Replay Robustness",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "resolution cost",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-093",
+      "resultSlug": "batch92-timeseries-temporal-claim-audit-wave",
+      "category": "cross_domain_transfer_weakness",
+      "observedPhenomenon": "cross domain transfer weakness appeared in batch92-timeseries-temporal-claim-audit-wave and limited a strong claim decision.",
+      "existingPrinciple": "Ambiguity Barrier",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "executable specificity",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-094",
+      "resultSlug": "batch93-tool-usefulness-claim-audit-wave",
+      "category": "tool_usefulness_ambiguity",
+      "observedPhenomenon": "tool usefulness ambiguity appeared in batch93-tool-usefulness-claim-audit-wave and limited a strong claim decision.",
+      "existingPrinciple": "Evidence-Claim Gap",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "negative-control dominance",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-095",
+      "resultSlug": "batch94-conceptual-principle-claim-audit-wave",
+      "category": "overblocking_underblocking",
+      "observedPhenomenon": "overblocking underblocking appeared in batch94-conceptual-principle-claim-audit-wave and limited a strong claim decision.",
+      "existingPrinciple": "Field Specificity / Actionability",
+      "whyInsufficient": "The prior principle names a risk but does not predict whether a direct falsifier, resolution cost, or negative control should dominate the decision.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "review burden",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": true
+      }
+    },
+    {
+      "anomalyId": "AW-096",
+      "resultSlug": "batch95-cross-family-replay-and-negative-control-wave",
+      "category": "replay_divergence",
+      "observedPhenomenon": "replay divergence appeared in batch95-cross-family-replay-and-negative-control-wave and limited a strong claim decision.",
+      "existingPrinciple": "Claim Safety over Metric Gain",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "decisive falsifier access",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-097",
+      "resultSlug": "batch96-external-claim-audit-wave-synthesis",
+      "category": "baseline_sufficiency",
+      "observedPhenomenon": "baseline sufficiency appeared in batch96-external-claim-audit-wave-synthesis and limited a strong claim decision.",
+      "existingPrinciple": "Required Evidence Field Boundary",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Accessible Falsifier Boundary",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "resolution cost",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-098",
+      "resultSlug": "batch97-hard-artifact-selection-for-deep-audit",
+      "category": "protocol_ambiguity_persistence",
+      "observedPhenomenon": "protocol ambiguity persistence appeared in batch97-hard-artifact-selection-for-deep-audit and limited a strong claim decision.",
+      "existingPrinciple": "Evaluation Fragility",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Resolution-Cost Gradient",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "executable specificity",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-099",
+      "resultSlug": "external-reproduction-extension-result",
+      "category": "external_artifact_friction",
+      "observedPhenomenon": "external artifact friction appeared in external-reproduction-extension-result and limited a strong claim decision.",
+      "existingPrinciple": "Protocol Sensitivity",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Executable Specificity Dominance",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "negative-control dominance",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    },
+    {
+      "anomalyId": "AW-100",
+      "resultSlug": "external-scientific-production-result",
+      "category": "negative_control_dominance",
+      "observedPhenomenon": "negative control dominance appeared in external-scientific-production-result and limited a strong claim decision.",
+      "existingPrinciple": "Replay Robustness",
+      "whyInsufficient": "The prior principle gives a usable caveat but still leaves a narrower boundary condition unresolved.",
+      "competingExplanation": "Negative-Control Asymmetry",
+      "evidenceToResolve": "Run a preregistered public artifact check with baseline, negative control, and replay/failure receipt.",
+      "potentialDiscoverySeed": "review burden",
+      "labels": {
+        "externalClaimAudit": false,
+        "failedPartialWrong": false,
+        "tooBroadExistingConcept": false,
+        "crossDomainWeakness": false,
+        "toolUsefulnessAmbiguity": false,
+        "overUnderBlocking": false,
+        "notWellExplained": false
+      }
+    }
+  ]
+}

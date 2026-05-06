@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T19:17:34.940Z",
+  "generatedAt": "2026-05-06T19:43:53.802Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1395,6 +1395,66 @@
       "domain": "bounded computational scientist orchestration"
     },
     {
+      "id": "result:grandchallenge-stage1-anomaly-wall",
+      "kind": "result",
+      "label": "Original Principle Discovery Grand Challenge Stage 1 Anomaly Wall",
+      "domain": "original principle discovery grand challenge"
+    },
+    {
+      "id": "result:grandchallenge-stage10-original-principle-discovery-paper",
+      "kind": "result",
+      "label": "Original Principle Discovery Grand Challenge Stage 10 Original Principle Discovery Paper",
+      "domain": "original principle discovery grand challenge"
+    },
+    {
+      "id": "result:grandchallenge-stage2-radical-rival-principles",
+      "kind": "result",
+      "label": "Original Principle Discovery Grand Challenge Stage 2 Radical Rival Principles",
+      "domain": "original principle discovery grand challenge"
+    },
+    {
+      "id": "result:grandchallenge-stage3-non-obvious-prediction-freeze",
+      "kind": "result",
+      "label": "Original Principle Discovery Grand Challenge Stage 3 Non Obvious Prediction Freeze",
+      "domain": "original principle discovery grand challenge"
+    },
+    {
+      "id": "result:grandchallenge-stage4-fresh-external-tests",
+      "kind": "result",
+      "label": "Original Principle Discovery Grand Challenge Stage 4 Fresh External Tests",
+      "domain": "original principle discovery grand challenge"
+    },
+    {
+      "id": "result:grandchallenge-stage5-decisive-experiment-design",
+      "kind": "result",
+      "label": "Original Principle Discovery Grand Challenge Stage 5 Decisive Experiment Design",
+      "domain": "original principle discovery grand challenge"
+    },
+    {
+      "id": "result:grandchallenge-stage6-decisive-experiment-execution",
+      "kind": "result",
+      "label": "Original Principle Discovery Grand Challenge Stage 6 Decisive Experiment Execution",
+      "domain": "original principle discovery grand challenge"
+    },
+    {
+      "id": "result:grandchallenge-stage7-conceptual-compression",
+      "kind": "result",
+      "label": "Original Principle Discovery Grand Challenge Stage 7 Conceptual Compression",
+      "domain": "original principle discovery grand challenge"
+    },
+    {
+      "id": "result:grandchallenge-stage8-external-usefulness-challenge",
+      "kind": "result",
+      "label": "Original Principle Discovery Grand Challenge Stage 8 External Usefulness Challenge",
+      "domain": "original principle discovery grand challenge"
+    },
+    {
+      "id": "result:grandchallenge-stage9-adversarial-final-kill-week",
+      "kind": "result",
+      "label": "Original Principle Discovery Grand Challenge Stage 9 Adversarial Final Kill Week",
+      "domain": "original principle discovery grand challenge"
+    },
+    {
       "id": "result:patch-risk-auditor",
       "kind": "result",
       "label": "Patch Risk Auditor",
@@ -1699,6 +1759,11 @@
       "id": "domain:bounded computational scientist orchestration",
       "kind": "domain",
       "label": "bounded computational scientist orchestration"
+    },
+    {
+      "id": "domain:original principle discovery grand challenge",
+      "kind": "domain",
+      "label": "original principle discovery grand challenge"
     },
     {
       "id": "domain:software-supply-chain",
@@ -3783,6 +3848,56 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:grandchallenge-stage1-anomaly-wall",
+      "target": "domain:original principle discovery grand challenge",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:grandchallenge-stage10-original-principle-discovery-paper",
+      "target": "domain:original principle discovery grand challenge",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:grandchallenge-stage2-radical-rival-principles",
+      "target": "domain:original principle discovery grand challenge",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:grandchallenge-stage3-non-obvious-prediction-freeze",
+      "target": "domain:original principle discovery grand challenge",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:grandchallenge-stage4-fresh-external-tests",
+      "target": "domain:original principle discovery grand challenge",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:grandchallenge-stage5-decisive-experiment-design",
+      "target": "domain:original principle discovery grand challenge",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:grandchallenge-stage6-decisive-experiment-execution",
+      "target": "domain:original principle discovery grand challenge",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:grandchallenge-stage7-conceptual-compression",
+      "target": "domain:original principle discovery grand challenge",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:grandchallenge-stage8-external-usefulness-challenge",
+      "target": "domain:original principle discovery grand challenge",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:grandchallenge-stage9-adversarial-final-kill-week",
+      "target": "domain:original principle discovery grand challenge",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:patch-risk-auditor",
       "target": "domain:software-supply-chain",
       "relation": "belongs_to_domain"
@@ -3888,5 +4003,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "066d737601bd92554270f333a0d618a619a7aacf89366e1860ee9291794355e6"
+  "evidenceHash": "7f15a21e4292bb0d6466241724e34b5bbc47040c3914c87fb3e5b55ba7487f7c"
 }

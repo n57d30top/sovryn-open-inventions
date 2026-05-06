@@ -1,0 +1,47 @@
+{
+  "principleId": "RGC-03",
+  "name": "Executable Specificity Dominance",
+  "oneSentenceClaim": "A narrow executable claim can be safer than a broad well-documented claim if the executable behavior is specific and falsifiable.",
+  "hiddenAssumption": "positive evidence dominates controls",
+  "whyExistingPrinciplesInsufficient": "Existing concepts identify risk sources but do not predict dominance among falsifier access, resolution cost, executable specificity, and controls.",
+  "mechanism": "specific executable predicate reduces interpretation space and exposes a direct false case",
+  "measurableVariables": [
+    "behavior_specificity",
+    "smoke_success",
+    "negative_case_success",
+    "claim_width"
+  ],
+  "examples": [
+    "nanoid length smoke",
+    "camelcase string transform"
+  ],
+  "nonExamples": [
+    "general package usefulness or broad benchmark win"
+  ],
+  "predictedWins": [
+    "fresh package smoke",
+    "label-shuffle controlled dataset",
+    "temporal negative control"
+  ],
+  "predictedFailures": [
+    "private artifact",
+    "unavailable protocol",
+    "overbroad usefulness claim"
+  ],
+  "falsificationTests": [
+    "rival predicts observation with fewer caveats",
+    "negative control reverses result",
+    "replay failure blocks claim"
+  ],
+  "rivalPrinciples": [
+    "Accessible Falsifier Boundary",
+    "Resolution-Cost Gradient",
+    "Negative-Control Asymmetry"
+  ],
+  "scope": "small software/tool behavior claims",
+  "expectedCrossDomainTransfer": "dataset, temporal, repo/package, tool claims",
+  "simplicityScore": 68,
+  "explanatoryCompressionScore": 70,
+  "predictionRiskScore": 57,
+  "noveltyVsPriorScore": 80
+}

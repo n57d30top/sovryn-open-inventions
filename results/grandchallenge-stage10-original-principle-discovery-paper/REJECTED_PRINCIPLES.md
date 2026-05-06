@@ -1,0 +1,37 @@
+# Rejected Principles
+
+- Replay Ceiling: too close to existing field-bound logic
+- Evidence Liquidity: too vague or not measurable
+- Target Replacement Bias: no distinct prediction
+- Metadata Sufficiency Trap: dominated by selected rival
+- Protocol-Free Falsifier: too close to existing field-bound logic
+- Baseline Surprise Boundary: too vague or not measurable
+- Low-Cost Upgrade Rule: no distinct prediction
+- Failed Install Evidence Rule: dominated by selected rival
+- Metric-Only Mirage: too close to existing field-bound logic
+- Review Package Compression Limit: too vague or not measurable
+- Execution Specificity Boundary: no distinct prediction
+- Non-Example Density Principle: dominated by selected rival
+- Support-Only Tool Boundary: too close to existing field-bound logic
+- Artifact Age Penalty: too vague or not measurable
+- Source Hash Stability Rule: no distinct prediction
+- Documentation-Execution Divergence: dominated by selected rival
+- Observable Mechanism Gate: too close to existing field-bound logic
+- Overblocking Reversal Threshold: too vague or not measurable
+- Underblocking Falsifier Gap: no distinct prediction
+- Result-Receipt Separability: dominated by selected rival
+- Public Artifact Liquidity: too close to existing field-bound logic
+- Runnable Claim Privilege: too vague or not measurable
+- Ambiguity Persistence Rule: no distinct prediction
+- Freshness Fragility Boundary: dominated by selected rival
+- Field Action Delta: too close to existing field-bound logic
+- Prediction Risk Ladder: too vague or not measurable
+- Domain Burden Transfer: no distinct prediction
+- Protocol Independence Penalty: dominated by selected rival
+- Control Asymmetry Boundary: too close to existing field-bound logic
+- Claim Repair Ceiling: too vague or not measurable
+- Reproduction-Minimality Principle: no distinct prediction
+- Evidence Field Substitution: dominated by selected rival
+- Practical Falsifier Weight: too close to existing field-bound logic
+- Decision Cost Dominance: too vague or not measurable
+- Artifact-Type Prior: no distinct prediction

@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-06T19:17:34.940Z",
+  "generatedAt": "2026-05-06T19:43:53.802Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 232,
+    "good": 242,
     "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 212,
+    "autopublished": 222,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -3263,6 +3263,146 @@
       "specificityScore": 92
     },
     {
+      "slug": "grandchallenge-stage1-anomaly-wall",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "grandchallenge-stage1-anomaly-wall",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 91,
+      "publicationSafetyScore": 99,
+      "specificityScore": 93
+    },
+    {
+      "slug": "grandchallenge-stage10-original-principle-discovery-paper",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "grandchallenge-stage10-original-principle-discovery-paper",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 91,
+      "reproducibilityScore": 91,
+      "publicationSafetyScore": 99,
+      "specificityScore": 93
+    },
+    {
+      "slug": "grandchallenge-stage2-radical-rival-principles",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "grandchallenge-stage2-radical-rival-principles",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 91,
+      "publicationSafetyScore": 99,
+      "specificityScore": 93
+    },
+    {
+      "slug": "grandchallenge-stage3-non-obvious-prediction-freeze",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "grandchallenge-stage3-non-obvious-prediction-freeze",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 91,
+      "publicationSafetyScore": 99,
+      "specificityScore": 93
+    },
+    {
+      "slug": "grandchallenge-stage4-fresh-external-tests",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "grandchallenge-stage4-fresh-external-tests",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 91,
+      "publicationSafetyScore": 99,
+      "specificityScore": 93
+    },
+    {
+      "slug": "grandchallenge-stage5-decisive-experiment-design",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "grandchallenge-stage5-decisive-experiment-design",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 91,
+      "publicationSafetyScore": 99,
+      "specificityScore": 93
+    },
+    {
+      "slug": "grandchallenge-stage6-decisive-experiment-execution",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "grandchallenge-stage6-decisive-experiment-execution",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 91,
+      "publicationSafetyScore": 99,
+      "specificityScore": 93
+    },
+    {
+      "slug": "grandchallenge-stage7-conceptual-compression",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "grandchallenge-stage7-conceptual-compression",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 91,
+      "publicationSafetyScore": 99,
+      "specificityScore": 93
+    },
+    {
+      "slug": "grandchallenge-stage8-external-usefulness-challenge",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "grandchallenge-stage8-external-usefulness-challenge",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 91,
+      "publicationSafetyScore": 99,
+      "specificityScore": 93
+    },
+    {
+      "slug": "grandchallenge-stage9-adversarial-final-kill-week",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "grandchallenge-stage9-adversarial-final-kill-week",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 89,
+      "reproducibilityScore": 91,
+      "publicationSafetyScore": 99,
+      "specificityScore": 93
+    },
+    {
       "slug": "patch-risk-auditor",
       "qualityLabel": "good",
       "antiTemplateStatus": "unknown",
@@ -3417,5 +3557,5 @@
       "specificityScore": 60
     }
   ],
-  "evidenceHash": "574eecc373c2f9e6ef9017f87aaf442e91fa946b987562c7a981ba50b9a1ee49"
+  "evidenceHash": "f0c0e62a9dd6efb5271ac246b2670ea550045ab5c3718ccd3f0ebb281ddfa815"
 }
