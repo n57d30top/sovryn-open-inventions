@@ -1,0 +1,188 @@
+{
+  "slug": "external-reproduction-extension-result",
+  "title": "External Reproduction and Extension Result",
+  "resultKind": "external_reproduction_extension_result",
+  "targetVersion": "4.3.0-rc.1",
+  "domain": "scientific-claim-evidence-extraction",
+  "selectedExternalTargetId": "external-target-scifact",
+  "selectedExternalTargetTitle": "SciFact scientific claim verification benchmark",
+  "preregistrationHash": "306d6d77c5bd25820bb1c6de1824730775f3d8dba5853d7c4b426f4bbd0d778c",
+  "baselineReproductionHash": "06015ff892494debc629836ebc54ba15c7bb2c0f8270b8844ce2a5b5b8099c44",
+  "gapAnalysisHash": "849329e7874e4f77a1e46d5b88b841f74bb6f9b758c379d801d182e36e704155",
+  "improvementEvaluationHash": "6cc55c344d91131c46a2172af9282295905e9f822febeab61e45822e1b8dc376",
+  "independentRebuildHash": "73f6d3d30fdca5086560c867770cb8c50493d1e010ca07956566700f6991e939",
+  "finalResult": "external_extension_supported",
+  "finalStatus": "external_extension_supported",
+  "baselinesExecuted": 4,
+  "baselineDeviations": 1,
+  "failureModes": 12,
+  "improvementHypotheses": 30,
+  "implementedImprovements": 5,
+  "holdoutWins": 15,
+  "holdoutLosses": 30,
+  "holdoutTies": 8,
+  "rejectedImprovements": 3,
+  "replicationVariants": 5,
+  "reviewerAttacks": 5,
+  "knowledgeUpdated": true,
+  "publicHygienePassed": true,
+  "noRawLogs": true,
+  "noSecretLeaks": true,
+  "noLocalAbsolutePaths": true,
+  "noFakeReproductionClaims": true,
+  "noFakeImprovementClaims": true,
+  "noFakeBreakthroughClaims": true,
+  "noUnsupportedScientificClaims": true,
+  "knowledgeArtifacts": {
+    "claimGraphHash": "2a4214d627d905b399828bb62bb67cafdd1555f20a38686a7651566734b91024",
+    "confidenceHash": "80982eef7869407c4881c794d5cf2f49872650dee187551f8da9ca4d1c0c663a",
+    "contradictionCount": 0,
+    "methodAtlasHash": "fbbd4c49fa0a512cf6389549e26d09f806fd663b090bf10668169730557346ba",
+    "nextExperimentCount": 18
+  },
+  "nextResearchDirection": "Repeat external reproduction and extension on a second scientific claim/evidence benchmark with stronger maintained reference metrics and independent external baseline code.",
+  "disclaimer": "External reproduction and extension result. Safe computational science only: public datasets, public benchmark metadata, open-source software, reproducibility evidence, baseline comparison, holdout evaluation, independent rebuilds, reviewer attacks, and evidence-bound claims. This is not wet-lab guidance, hazardous chemistry, medical advice, exploit guidance, a patent filing, a patentability opinion, legal novelty advice, freedom-to-operate advice, a confirmed breakthrough claim, or a guarantee of scientific truth.",
+  "evidenceHash": "340cfc863c4da6b57dfec861bb44e86c6bb0c9b893c47d246819f356395e5a3a",
+  "gates": [
+    {
+      "code": "EXTERNAL_TARGET_BOUND",
+      "passed": true,
+      "severity": "info",
+      "message": "EXTERNAL_TARGET_BOUND passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "PREREGISTRATION_BOUND",
+      "passed": true,
+      "severity": "info",
+      "message": "PREREGISTRATION_BOUND passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "BASELINE_REPRODUCTION_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "BASELINE_REPRODUCTION_PRESENT passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "REPRODUCTION_DEVIATIONS_RECORDED",
+      "passed": true,
+      "severity": "info",
+      "message": "REPRODUCTION_DEVIATIONS_RECORDED passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "GAP_ANALYSIS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "GAP_ANALYSIS_PRESENT passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "HOLDOUT_EVALUATION_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "HOLDOUT_EVALUATION_PRESENT passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "INDEPENDENT_REBUILD_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "INDEPENDENT_REBUILD_PRESENT passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "REVIEWER_ATTACKS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "REVIEWER_ATTACKS_PRESENT passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "FAILURES_AND_LOSSES_RECORDED",
+      "passed": true,
+      "severity": "info",
+      "message": "FAILURES_AND_LOSSES_RECORDED passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "FINAL_RESULT_LABEL_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "FINAL_RESULT_LABEL_PRESENT passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "KNOWLEDGE_UPDATED",
+      "passed": true,
+      "severity": "info",
+      "message": "KNOWLEDGE_UPDATED passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "PUBLIC_HYGIENE_PASSED",
+      "passed": true,
+      "severity": "info",
+      "message": "PUBLIC_HYGIENE_PASSED passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "NO_RAW_LOGS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_RAW_LOGS passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "NO_SECRET_LEAKS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_SECRET_LEAKS passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "NO_LOCAL_ABSOLUTE_PATHS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_LOCAL_ABSOLUTE_PATHS passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "NO_FAKE_REPRODUCTION_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_FAKE_REPRODUCTION_CLAIMS passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "NO_FAKE_IMPROVEMENT_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_FAKE_IMPROVEMENT_CLAIMS passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "NO_FAKE_BREAKTHROUGH_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_FAKE_BREAKTHROUGH_CLAIMS passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "NO_UNSUPPORTED_SCIENTIFIC_CLAIMS",
+      "passed": true,
+      "severity": "info",
+      "message": "NO_UNSUPPORTED_SCIENTIFIC_CLAIMS passed.",
+      "evidencePath": null
+    },
+    {
+      "code": "LIMITATIONS_PRESENT",
+      "passed": true,
+      "severity": "info",
+      "message": "LIMITATIONS_PRESENT passed.",
+      "evidencePath": null
+    }
+  ]
+}

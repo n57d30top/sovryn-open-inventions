@@ -1,7 +1,7 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-05T19:37:52.686Z",
-  "resultCount": 38,
+  "updatedAt": "2026-05-06T05:59:49.056Z",
+  "resultCount": 39,
   "results": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -940,6 +940,45 @@
       "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
     },
     {
+      "slug": "external-reproduction-extension-result",
+      "title": "External Reproduction and Extension Result",
+      "resultKind": "external_reproduction_extension_result",
+      "domain": "scientific-claim-evidence-extraction",
+      "path": "results/external-reproduction-extension-result",
+      "qualityLabel": "unknown",
+      "candidateStatus": "unknown",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "external-reproduction-extension-result",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      },
+      "revisionReason": null,
+      "humanReadableSummary": "This package reports an external paper/benchmark reproduction and extension campaign. It includes target selection, preregistration, environment and baseline reproduction, deviations, gap analysis, improvement hypotheses, holdout evaluation, ablations, sensitivity tests, independent rebuild, reviewer attacks, claim/evidence bindings, confidence update, limit",
+      "releaseReadinessScore": 0,
+      "evidenceStrengthScore": 0,
+      "reproducibilityScore": 0,
+      "publicationSafetyScore": 0,
+      "replayCriticalPassRate": 0,
+      "specificityScore": 80,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "customTool": null,
+      "workerAssurance": "container-netoff",
+      "falsificationStatus": "not_evaluated",
+      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+    },
+    {
       "slug": "external-scientific-production-result",
       "title": "External Scientific Production Result",
       "resultKind": "external_scientific_production_result",
@@ -1578,5 +1617,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "c043fc83c7bb97e92afa7ceebc9c6300c7221b85ea0546012cb86dbd47cbb338"
+  "evidenceHash": "558614bb2adff0fe3e716cf53713b08265f432a8b755d83065a4bd9c758e314b"
 }

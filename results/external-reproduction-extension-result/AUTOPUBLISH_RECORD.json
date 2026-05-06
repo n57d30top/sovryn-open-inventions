@@ -1,0 +1,14 @@
+{
+  "resultId": "external-reproduction-extension-result",
+  "slug": "external-reproduction-extension-result",
+  "publishedBy": "sovryn-external-reproduction-extension-autopublish",
+  "automatedPolicyVersion": "4.3.0-rc.1-external-reproduction-extension-policy",
+  "targetRepo": "https://github.com/n57d30top/sovryn-open-inventions",
+  "targetPath": "results/external-reproduction-extension-result",
+  "pushed": true,
+  "dryRun": false,
+  "publicHygienePassed": true,
+  "noCriticalFailures": true,
+  "disclaimer": "External reproduction and extension result. Safe computational science only: public datasets, public benchmark metadata, open-source software, reproducibility evidence, baseline comparison, holdout evaluation, independent rebuilds, reviewer attacks, and evidence-bound claims. This is not wet-lab guidance, hazardous chemistry, medical advice, exploit guidance, a patent filing, a patentability opinion, legal novelty advice, freedom-to-operate advice, a confirmed breakthrough claim, or a guarantee of scientific truth.",
+  "evidenceHash": "58160c5d09e365d459ff09d053d0b78b0b8f6304a6c25641e6ca02e23139c45c"
+}

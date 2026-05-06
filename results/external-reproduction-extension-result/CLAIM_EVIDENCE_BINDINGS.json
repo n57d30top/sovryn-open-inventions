@@ -1,0 +1,61 @@
+{
+  "kind": "external_reproduction_claim_evidence_bindings",
+  "bindingCount": 6,
+  "bindings": [
+    {
+      "claimId": "external-repro-target-bound",
+      "claimText": "The result is bound to a selected external paper, benchmark, or repository target.",
+      "evidenceRefs": [
+        "SELECTED_EXTERNAL_TARGET.md",
+        "REPRODUCTION_PREREGISTRATION.md"
+      ],
+      "evidenceHash": "d9cb35e54291997829ef9cd1bc573eb3c2251ddc3781ce95e534cfdb35b208db"
+    },
+    {
+      "claimId": "external-repro-baseline",
+      "claimText": "Baseline/reference behavior was reproduced or deviations were explicitly recorded before improvements.",
+      "evidenceRefs": [
+        "BASELINE_REPRODUCTION.md",
+        "REPRODUCTION_DEVIATIONS.md"
+      ],
+      "evidenceHash": "06015ff892494debc629836ebc54ba15c7bb2c0f8270b8844ce2a5b5b8099c44"
+    },
+    {
+      "claimId": "external-repro-gap-analysis",
+      "claimText": "Improvement hypotheses were derived from observed baseline gaps and failure modes.",
+      "evidenceRefs": [
+        "GAP_ANALYSIS.md",
+        "IMPROVEMENT_HYPOTHESES.md"
+      ],
+      "evidenceHash": "849329e7874e4f77a1e46d5b88b841f74bb6f9b758c379d801d182e36e704155"
+    },
+    {
+      "claimId": "external-repro-holdout",
+      "claimText": "Improvement methods were frozen before holdout evaluation and compared with reproduced baselines.",
+      "evidenceRefs": [
+        "HOLDOUT_EVALUATION.md",
+        "WIN_LOSS_TIE_MATRIX.md"
+      ],
+      "evidenceHash": "6cc55c344d91131c46a2172af9282295905e9f822febeab61e45822e1b8dc376"
+    },
+    {
+      "claimId": "external-repro-independent-rebuild",
+      "claimText": "The best surviving improvement was independently rebuilt from documentation and tested with replication variants.",
+      "evidenceRefs": [
+        "INDEPENDENT_REBUILD.md",
+        "REPLICATION.md"
+      ],
+      "evidenceHash": "73f6d3d30fdca5086560c867770cb8c50493d1e010ca07956566700f6991e939"
+    },
+    {
+      "claimId": "external-repro-no-breakthrough",
+      "claimText": "The package does not claim a breakthrough, scientific truth guarantee, patentability, or legal novelty.",
+      "evidenceRefs": [
+        "SUMMARY.json",
+        "LIMITATIONS.md"
+      ],
+      "evidenceHash": "340cfc863c4da6b57dfec861bb44e86c6bb0c9b893c47d246819f356395e5a3a"
+    }
+  ],
+  "evidenceHash": "3c48c7ac8e45e52d1c815f74626aeeee7b57bf460b23b046e35f7d6b98cece1a"
+}

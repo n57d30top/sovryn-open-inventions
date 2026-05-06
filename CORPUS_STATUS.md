@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 38
+Results: 39
 
 ## Lifecycle Counts
 
-- autopublished: 7
+- autopublished: 8
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -25,6 +25,7 @@ Results: 38
 - energy-data-quality-self-built-lab-study: latest energy-data-quality-self-built-lab-study-v2; energy-data-quality-self-built-lab-study, energy-data-quality-self-built-lab-study-v2
 - energy-usage-anomaly-auditor: latest energy-usage-anomaly-auditor-v3; energy-usage-anomaly-auditor, energy-usage-anomaly-auditor-v2, energy-usage-anomaly-auditor-v3
 - evidence-chain: latest evidence-chain-v2; evidence-chain, evidence-chain-v2
+- external-reproduction-extension-result: latest external-reproduction-extension-result; external-reproduction-extension-result
 - external-scientific-production-result: latest external-scientific-production-result; external-scientific-production-result
 - field-grade-autonomous-science-trial: latest field-grade-autonomous-science-trial-v3; field-grade-autonomous-science-trial, field-grade-autonomous-science-trial-v2, field-grade-autonomous-science-trial-v3
 - frontier-scientific-production-trial: latest frontier-scientific-production-trial; frontier-scientific-production-trial

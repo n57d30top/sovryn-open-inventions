@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-05T19:37:52.686Z",
+  "generatedAt": "2026-05-06T05:59:49.056Z",
   "badges": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -399,6 +399,24 @@
       "showcaseRank": null
     },
     {
+      "slug": "external-reproduction-extension-result",
+      "badges": {
+        "quality": "unknown",
+        "status": "unknown",
+        "antiTemplate": "unknown",
+        "replay": "replay-partial",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "not_evaluated",
+        "lifecycle": "autopublished",
+        "version": "external-reproduction-extension-result",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
       "slug": "external-scientific-production-result",
       "badges": {
         "quality": "unknown",
@@ -687,5 +705,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "2b96758913aac1085bc5c265cb274888637ed161eb3f7fa22be27b3c11dc9e4a"
+  "evidenceHash": "571a51c9c260db487f8005402aa74bfe830f2292d8621e6ebec8888f6eaa6aa1"
 }

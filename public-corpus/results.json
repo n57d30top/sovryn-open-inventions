@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_results",
-  "generatedAt": "2026-05-05T19:37:52.686Z",
+  "generatedAt": "2026-05-06T05:59:49.056Z",
   "results": [
     {
       "slug": "autonomous-research-strategy-trial",
@@ -1681,6 +1681,81 @@
       }
     },
     {
+      "slug": "external-reproduction-extension-result",
+      "title": "External Reproduction and Extension Result",
+      "domain": "scientific-claim-evidence-extraction",
+      "resultKind": "external_reproduction_extension_result",
+      "path": "results/external-reproduction-extension-result",
+      "qualityLabel": "unknown",
+      "publicationStatus": "unknown",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "external-reproduction-extension-result",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": null,
+      "humanReadableSummary": "This package reports an external paper/benchmark reproduction and extension campaign. It includes target selection, preregistration, environment and baseline reproduction, deviations, gap analysis, improvement hypotheses, holdout evaluation, ablations, sensitivity tests, independent rebuild, reviewer attacks, claim/evidence bindings, confidence update, limit",
+      "releaseReadinessScore": 0,
+      "evidenceStrengthScore": 0,
+      "reproducibilityScore": 0,
+      "publicationSafetyScore": 0,
+      "replayCriticalPassRate": 0,
+      "specificityScore": 80,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": true,
+      "externalPackages": [],
+      "customTool": null,
+      "workerAssurance": "container-netoff",
+      "falsificationStatus": "not_evaluated",
+      "scientificQuestion": null,
+      "hypothesisCount": 0,
+      "nullHypothesisPresent": false,
+      "experimentCount": 0,
+      "replicationRunCount": 0,
+      "peerReviewPresent": false,
+      "statisticalAnalysisPresent": false,
+      "baselineComparisonPresent": false,
+      "ablationPresent": false,
+      "sensitivityPresent": false,
+      "studyResultLabel": null,
+      "scientificMemoryUpdated": false,
+      "safetyScope": null,
+      "summary": "This package reports an external paper/benchmark reproduction and extension campaign. It includes target selection, preregistration, environment and baseline reproduction, deviations, gap analysis, improvement hypotheses, holdout evaluation, ablations, sensitivity tests, independent rebuild, reviewer attacks, claim/evidence bindings, confidence update, limit",
+      "limitations": [
+        "\"LIMITATIONS.md\"",
+        "Limitations",
+        "The campaign reproduces and extends a public external benchmark target in a bounded computational setting. It does not redistribute raw fulltext, use private data, claim external peer review, claim a confirmed breakthrough, or guarantee scientific truth.",
+        "This package reports an external paper/benchmark reproduction and extension campaign. It includes target selection, preregistration, environment and baseline reproduction, deviations, gap analysis, improvement hypotheses, holdout evaluation, ablations, sensitivity tests, independent rebuild, reviewer attacks, claim/evidence bindings, confidence update, limitations, and reproducibility notes.",
+        "statistics_review: Review completed with bounded limitations recorded. Blocks claim: false",
+        "baseline_adequacy_review: Review completed with bounded limitations recorded. Blocks claim: false"
+      ],
+      "badges": {
+        "quality": "unknown",
+        "status": "unknown",
+        "antiTemplate": "unknown",
+        "replay": "replay-partial",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "container-netoff",
+        "falsification": "not_evaluated",
+        "lifecycle": "autopublished",
+        "version": "external-reproduction-extension-result",
+        "showcase": "not-showcase"
+      },
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": false,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      }
+    },
+    {
       "slug": "external-scientific-production-result",
       "title": "External Scientific Production Result",
       "domain": "source-evidence-extraction-quality",
@@ -2892,5 +2967,5 @@
       }
     }
   ],
-  "evidenceHash": "0313e0cda5bbdb70802d5c04db41782cae131b771aa6fbd2813319adfa1519a3"
+  "evidenceHash": "c7ebb8ef4398d32f01398f8ba9ad7bb535aaad24d500f3a5548952c4a7c39ca4"
 }

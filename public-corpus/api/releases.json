@@ -200,6 +200,15 @@
       "pushed": true
     },
     {
+      "slug": "external-reproduction-extension-result",
+      "path": "results/external-reproduction-extension-result",
+      "status": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "external-reproduction-extension-result",
+      "supersededBy": null,
+      "pushed": true
+    },
+    {
       "slug": "external-scientific-production-result",
       "path": "results/external-scientific-production-result",
       "status": "unknown",
@@ -344,5 +353,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "62376aa32a7799fd6ff7eaeb2c48ac49db93dab854581098c0c010e1cf78cdf7"
+  "evidenceHash": "43f7919754f7987829c120194cfed62b4c66e9d5c59b06b48036985ff51e638b"
 }

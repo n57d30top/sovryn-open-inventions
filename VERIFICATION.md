@@ -1,6 +1,6 @@
 # Verification
 
-Indexed public results: 38
+Indexed public results: 39
 
 ## Public Corpus Product Gates
 
@@ -19,11 +19,11 @@ Indexed public results: 38
 - reality_grade_trial_ready: 1
 - replication_supported_candidate: 1
 - strategy_trial_ready: 1
-- unknown: 2
+- unknown: 3
 
 ## Lifecycle Counts
 
-- autopublished: 7
+- autopublished: 8
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10

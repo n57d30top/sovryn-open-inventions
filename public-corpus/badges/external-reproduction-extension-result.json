@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "external-reproduction-extension-result",
+  "badges": {
+    "quality": "unknown",
+    "status": "unknown",
+    "antiTemplate": "unknown",
+    "replay": "replay-partial",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "container-netoff",
+    "falsification": "not_evaluated",
+    "lifecycle": "autopublished",
+    "version": "external-reproduction-extension-result",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "9a6b567a990d165f6e1eb735e7998f3fa3303ee88ecda076398b36b6c889a972"
+}

@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-05T19:37:52.686Z",
+  "updatedAt": "2026-05-06T05:59:49.056Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-strategy-trial",
@@ -103,6 +103,13 @@
       ]
     },
     {
+      "versionGroup": "external-reproduction-extension-result",
+      "latestSlug": "external-reproduction-extension-result",
+      "resultSlugs": [
+        "external-reproduction-extension-result"
+      ]
+    },
+    {
       "versionGroup": "external-scientific-production-result",
       "latestSlug": "external-scientific-production-result",
       "resultSlugs": [
@@ -185,5 +192,5 @@
       ]
     }
   ],
-  "evidenceHash": "3a9cd221f6e5f73e28539edac76c08ff0e725d0b691ad2545f3429dfcd298244"
+  "evidenceHash": "cf3e9fe7c5585812dbbd527a1368b81eef6865b24cfee93aefad06a7350f0452"
 }
