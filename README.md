@@ -344,6 +344,16 @@ and safety scope in human-readable language.
 - [Candidate Decision](results/temporal-stage16-candidate-decision/) — good, autopublished, temporal-stage16-candidate-decision, temporal evaluation fragility deep discovery program
 - [Paper or Failure Package](results/temporal-stage17-paper-or-failure-package/) — good, autopublished, temporal-stage17-paper-or-failure-package, temporal evaluation fragility deep discovery program
 - [Next Frontier](results/temporal-stage18-next-frontier/) — good, autopublished, temporal-stage18-next-frontier, temporal evaluation fragility deep discovery program
+- [Instrument Design](results/temporal-tool-stage01-instrument-design/) — good, autopublished, temporal-tool-stage01-instrument-design, temporal evaluation fragility instrument v0
+- [Product Implementation](results/temporal-tool-stage02-product-implementation/) — good, autopublished, temporal-tool-stage02-product-implementation, temporal evaluation fragility instrument v0
+- [Calibration Target Selection](results/temporal-tool-stage03-calibration-target-selection/) — good, autopublished, temporal-tool-stage03-calibration-target-selection, temporal evaluation fragility instrument v0
+- [Calibration Run](results/temporal-tool-stage04-calibration-run/) — good, autopublished, temporal-tool-stage04-calibration-run, temporal evaluation fragility instrument v0
+- [Known Failure Controls](results/temporal-tool-stage05-known-failure-controls/) — good, autopublished, temporal-tool-stage05-known-failure-controls, temporal evaluation fragility instrument v0
+- [Blind Target Prediction Freeze](results/temporal-tool-stage06-blind-target-prediction-freeze/) — good, autopublished, temporal-tool-stage06-blind-target-prediction-freeze, temporal evaluation fragility instrument v0
+- [Blind Target Execution](results/temporal-tool-stage07-blind-target-execution/) — good, autopublished, temporal-tool-stage07-blind-target-execution, temporal evaluation fragility instrument v0
+- [Counterexample and Mutation Tests](results/temporal-tool-stage08-counterexample-and-mutation-tests/) — good, autopublished, temporal-tool-stage08-counterexample-and-mutation-tests, temporal evaluation fragility instrument v0
+- [Instrument Kill Week](results/temporal-tool-stage09-instrument-kill-week/) — good, autopublished, temporal-tool-stage09-instrument-kill-week, temporal evaluation fragility instrument v0
+- [Final Classifier and Next Frontier](results/temporal-tool-stage10-final-classifier-and-next-frontier/) — good, autopublished, temporal-tool-stage10-final-classifier-and-next-frontier, temporal evaluation fragility instrument v0
 - [Policy-Gated Toolchain Installation Protocol](results/toolchain-policy/) — good, needs_revision, toolchain-policy, node-toolchain-policy
 - [Validation Stage 01 Candidate Inspection](results/validation-stage01-candidate-inspection/) — good, autopublished, validation-stage01-candidate-inspection, no-external-reviewer discovery validation gauntlet
 - [Validation Stage 02 Freeze Ledger and Predictions](results/validation-stage02-freeze-ledger-and-predictions/) — good, autopublished, validation-stage02-freeze-ledger-and-predictions, no-external-reviewer discovery validation gauntlet

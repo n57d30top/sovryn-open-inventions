@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 326
+Results: 336
 
 ## Lifecycle Counts
 
-- autopublished: 295
+- autopublished: 305
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -307,6 +307,16 @@ Results: 326
 - temporal-stage16-candidate-decision: latest temporal-stage16-candidate-decision; temporal-stage16-candidate-decision
 - temporal-stage17-paper-or-failure-package: latest temporal-stage17-paper-or-failure-package; temporal-stage17-paper-or-failure-package
 - temporal-stage18-next-frontier: latest temporal-stage18-next-frontier; temporal-stage18-next-frontier
+- temporal-tool-stage01-instrument-design: latest temporal-tool-stage01-instrument-design; temporal-tool-stage01-instrument-design
+- temporal-tool-stage02-product-implementation: latest temporal-tool-stage02-product-implementation; temporal-tool-stage02-product-implementation
+- temporal-tool-stage03-calibration-target-selection: latest temporal-tool-stage03-calibration-target-selection; temporal-tool-stage03-calibration-target-selection
+- temporal-tool-stage04-calibration-run: latest temporal-tool-stage04-calibration-run; temporal-tool-stage04-calibration-run
+- temporal-tool-stage05-known-failure-controls: latest temporal-tool-stage05-known-failure-controls; temporal-tool-stage05-known-failure-controls
+- temporal-tool-stage06-blind-target-prediction-freeze: latest temporal-tool-stage06-blind-target-prediction-freeze; temporal-tool-stage06-blind-target-prediction-freeze
+- temporal-tool-stage07-blind-target-execution: latest temporal-tool-stage07-blind-target-execution; temporal-tool-stage07-blind-target-execution
+- temporal-tool-stage08-counterexample-and-mutation-tests: latest temporal-tool-stage08-counterexample-and-mutation-tests; temporal-tool-stage08-counterexample-and-mutation-tests
+- temporal-tool-stage09-instrument-kill-week: latest temporal-tool-stage09-instrument-kill-week; temporal-tool-stage09-instrument-kill-week
+- temporal-tool-stage10-final-classifier-and-next-frontier: latest temporal-tool-stage10-final-classifier-and-next-frontier; temporal-tool-stage10-final-classifier-and-next-frontier
 - toolchain-policy: latest toolchain-policy; toolchain-policy
 - validation-stage01-candidate-inspection: latest validation-stage01-candidate-inspection; validation-stage01-candidate-inspection
 - validation-stage02-freeze-ledger-and-predictions: latest validation-stage02-freeze-ledger-and-predictions; validation-stage02-freeze-ledger-and-predictions

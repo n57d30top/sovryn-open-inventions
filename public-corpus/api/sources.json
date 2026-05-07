@@ -1827,6 +1827,56 @@
       "customTool": null
     },
     {
+      "slug": "temporal-tool-stage01-instrument-design",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-tool-stage02-product-implementation",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-tool-stage03-calibration-target-selection",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-tool-stage04-calibration-run",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-tool-stage05-known-failure-controls",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-tool-stage06-blind-target-prediction-freeze",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-tool-stage07-blind-target-execution",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-tool-stage08-counterexample-and-mutation-tests",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-tool-stage09-instrument-kill-week",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-tool-stage10-final-classifier-and-next-frontier",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "toolchain-policy",
       "externalPackages": [],
       "customTool": null
@@ -1912,5 +1962,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "2a2a7927ae54c9ce05a959ce9d2424181446f6344493d76666a56b3fa7d2a87a"
+  "evidenceHash": "ca740cdb70edf642a17357eceb9c4eeb9a4603984ef0db39a9f0537042b65deb"
 }

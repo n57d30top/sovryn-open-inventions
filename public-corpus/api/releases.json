@@ -2783,6 +2783,96 @@
       "pushed": false
     },
     {
+      "slug": "temporal-tool-stage01-instrument-design",
+      "path": "results/temporal-tool-stage01-instrument-design",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "temporal-tool-stage01-instrument-design",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "temporal-tool-stage02-product-implementation",
+      "path": "results/temporal-tool-stage02-product-implementation",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "temporal-tool-stage02-product-implementation",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "temporal-tool-stage03-calibration-target-selection",
+      "path": "results/temporal-tool-stage03-calibration-target-selection",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "temporal-tool-stage03-calibration-target-selection",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "temporal-tool-stage04-calibration-run",
+      "path": "results/temporal-tool-stage04-calibration-run",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "temporal-tool-stage04-calibration-run",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "temporal-tool-stage05-known-failure-controls",
+      "path": "results/temporal-tool-stage05-known-failure-controls",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "temporal-tool-stage05-known-failure-controls",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "temporal-tool-stage06-blind-target-prediction-freeze",
+      "path": "results/temporal-tool-stage06-blind-target-prediction-freeze",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "temporal-tool-stage06-blind-target-prediction-freeze",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "temporal-tool-stage07-blind-target-execution",
+      "path": "results/temporal-tool-stage07-blind-target-execution",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "temporal-tool-stage07-blind-target-execution",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "temporal-tool-stage08-counterexample-and-mutation-tests",
+      "path": "results/temporal-tool-stage08-counterexample-and-mutation-tests",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "temporal-tool-stage08-counterexample-and-mutation-tests",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "temporal-tool-stage09-instrument-kill-week",
+      "path": "results/temporal-tool-stage09-instrument-kill-week",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "temporal-tool-stage09-instrument-kill-week",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "temporal-tool-stage10-final-classifier-and-next-frontier",
+      "path": "results/temporal-tool-stage10-final-classifier-and-next-frontier",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "temporal-tool-stage10-final-classifier-and-next-frontier",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "toolchain-policy",
       "path": "results/toolchain-policy",
       "status": "autopublished",
@@ -2936,5 +3026,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "1f8dae44baccc9bf0ccfc277f07cf6fc43075a7e8ce9855e223dea2fe2c18bcd"
+  "evidenceHash": "789b68b858b52c084f5b08768ad97386a314db895fd1bcd995d4a5299f4b804f"
 }

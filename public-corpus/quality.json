@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-07T06:32:28.556Z",
+  "generatedAt": "2026-05-07T06:51:23.891Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 315,
+    "good": 325,
     "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 295,
+    "autopublished": 305,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -4341,6 +4341,146 @@
       "specificityScore": 93
     },
     {
+      "slug": "temporal-tool-stage01-instrument-design",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "temporal-tool-stage01-instrument-design",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 87,
+      "evidenceStrengthScore": 85,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "temporal-tool-stage02-product-implementation",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "temporal-tool-stage02-product-implementation",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 87,
+      "evidenceStrengthScore": 85,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "temporal-tool-stage03-calibration-target-selection",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "temporal-tool-stage03-calibration-target-selection",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 87,
+      "evidenceStrengthScore": 85,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "temporal-tool-stage04-calibration-run",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "temporal-tool-stage04-calibration-run",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 87,
+      "evidenceStrengthScore": 85,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "temporal-tool-stage05-known-failure-controls",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "temporal-tool-stage05-known-failure-controls",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 87,
+      "evidenceStrengthScore": 85,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "temporal-tool-stage06-blind-target-prediction-freeze",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "temporal-tool-stage06-blind-target-prediction-freeze",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 87,
+      "evidenceStrengthScore": 85,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "temporal-tool-stage07-blind-target-execution",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "temporal-tool-stage07-blind-target-execution",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 87,
+      "evidenceStrengthScore": 85,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "temporal-tool-stage08-counterexample-and-mutation-tests",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "temporal-tool-stage08-counterexample-and-mutation-tests",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 87,
+      "evidenceStrengthScore": 85,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "temporal-tool-stage09-instrument-kill-week",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "temporal-tool-stage09-instrument-kill-week",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 87,
+      "evidenceStrengthScore": 85,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "temporal-tool-stage10-final-classifier-and-next-frontier",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "temporal-tool-stage10-final-classifier-and-next-frontier",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 87,
+      "evidenceStrengthScore": 85,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
       "slug": "toolchain-policy",
       "qualityLabel": "good",
       "antiTemplateStatus": "unknown",
@@ -4579,5 +4719,5 @@
       "specificityScore": 94
     }
   ],
-  "evidenceHash": "76e9468dfbcb87a1adca621a31badef188f4cb712c65155ff22b25842d005abc"
+  "evidenceHash": "596b0dc9cb1689bec16b67008946bb0f83fb71a3221089db3e09c0e372cf51de"
 }

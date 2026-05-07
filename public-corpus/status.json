@@ -1,8 +1,8 @@
 {
   "kind": "public_corpus_status",
-  "generatedAt": "2026-05-07T06:32:28.556Z",
+  "generatedAt": "2026-05-07T06:51:23.891Z",
   "statusCounts": {
-    "autopublished": 291,
+    "autopublished": 301,
     "benchmark_challenge_negative_result": 4,
     "dataset_quality_audit_supported": 7,
     "external_extension_supported": 1,
@@ -21,7 +21,7 @@
     "v1_candidate_with_limits": 1
   },
   "lifecycleCounts": {
-    "autopublished": 295,
+    "autopublished": 305,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -83,6 +83,7 @@
     "tabular-benchmark-baseline-dominance": 2,
     "tabular-regression-benchmark": 1,
     "temporal evaluation fragility deep discovery program": 18,
+    "temporal evaluation fragility instrument v0": 10,
     "theory-guided protocol and leakage mechanism trials": 4,
     "time-series-anomaly-benchmark": 1,
     "time-series-benchmark-challenge": 1,
@@ -90,5 +91,5 @@
     "time-series-tabular-benchmark": 1,
     "tool-backed-dataset-quality-audit": 1
   },
-  "evidenceHash": "feaa5b71f4d1b2123f6b3ee036b8cf8756e9e6871dfd5cb7ba96cf767b29a3c3"
+  "evidenceHash": "f4415ae3253c8d73a0c977081264381540492846a3f841020643b04143a5cde2"
 }

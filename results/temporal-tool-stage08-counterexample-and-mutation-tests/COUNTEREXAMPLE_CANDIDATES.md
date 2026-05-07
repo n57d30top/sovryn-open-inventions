@@ -1,0 +1,34 @@
+# Counterexample Candidates
+
+| ID | Type | Executed |
+| --- | --- | --- |
+| TTI-CE-01 | temporal_like_no_fragility | true |
+| TTI-CE-02 | fragility_like_baseline_explained | true |
+| TTI-CE-03 | shuffle_preserves_signal | true |
+| TTI-CE-04 | leakage_prone_only | true |
+| TTI-CE-05 | low_risk_control | true |
+| TTI-CE-06 | temporal_like_no_fragility | true |
+| TTI-CE-07 | fragility_like_baseline_explained | true |
+| TTI-CE-08 | shuffle_preserves_signal | true |
+| TTI-CE-09 | leakage_prone_only | true |
+| TTI-CE-10 | low_risk_control | true |
+| TTI-CE-11 | temporal_like_no_fragility | true |
+| TTI-CE-12 | fragility_like_baseline_explained | true |
+| TTI-CE-13 | shuffle_preserves_signal | false |
+| TTI-CE-14 | leakage_prone_only | false |
+| TTI-CE-15 | low_risk_control | false |
+| TTI-CE-16 | temporal_like_no_fragility | false |
+| TTI-CE-17 | fragility_like_baseline_explained | false |
+| TTI-CE-18 | shuffle_preserves_signal | false |
+| TTI-CE-19 | leakage_prone_only | false |
+| TTI-CE-20 | low_risk_control | false |
+| TTI-CE-21 | temporal_like_no_fragility | false |
+| TTI-CE-22 | fragility_like_baseline_explained | false |
+| TTI-CE-23 | shuffle_preserves_signal | false |
+| TTI-CE-24 | leakage_prone_only | false |
+| TTI-CE-25 | low_risk_control | false |
+| TTI-CE-26 | temporal_like_no_fragility | false |
+| TTI-CE-27 | fragility_like_baseline_explained | false |
+| TTI-CE-28 | shuffle_preserves_signal | false |
+| TTI-CE-29 | leakage_prone_only | false |
+| TTI-CE-30 | low_risk_control | false |

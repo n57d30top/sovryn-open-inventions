@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-07T06:32:28.556Z",
+  "generatedAt": "2026-05-07T06:51:23.891Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1857,6 +1857,66 @@
       "domain": "temporal evaluation fragility deep discovery program"
     },
     {
+      "id": "result:temporal-tool-stage01-instrument-design",
+      "kind": "result",
+      "label": "Instrument Design",
+      "domain": "temporal evaluation fragility instrument v0"
+    },
+    {
+      "id": "result:temporal-tool-stage02-product-implementation",
+      "kind": "result",
+      "label": "Product Implementation",
+      "domain": "temporal evaluation fragility instrument v0"
+    },
+    {
+      "id": "result:temporal-tool-stage03-calibration-target-selection",
+      "kind": "result",
+      "label": "Calibration Target Selection",
+      "domain": "temporal evaluation fragility instrument v0"
+    },
+    {
+      "id": "result:temporal-tool-stage04-calibration-run",
+      "kind": "result",
+      "label": "Calibration Run",
+      "domain": "temporal evaluation fragility instrument v0"
+    },
+    {
+      "id": "result:temporal-tool-stage05-known-failure-controls",
+      "kind": "result",
+      "label": "Known Failure Controls",
+      "domain": "temporal evaluation fragility instrument v0"
+    },
+    {
+      "id": "result:temporal-tool-stage06-blind-target-prediction-freeze",
+      "kind": "result",
+      "label": "Blind Target Prediction Freeze",
+      "domain": "temporal evaluation fragility instrument v0"
+    },
+    {
+      "id": "result:temporal-tool-stage07-blind-target-execution",
+      "kind": "result",
+      "label": "Blind Target Execution",
+      "domain": "temporal evaluation fragility instrument v0"
+    },
+    {
+      "id": "result:temporal-tool-stage08-counterexample-and-mutation-tests",
+      "kind": "result",
+      "label": "Counterexample and Mutation Tests",
+      "domain": "temporal evaluation fragility instrument v0"
+    },
+    {
+      "id": "result:temporal-tool-stage09-instrument-kill-week",
+      "kind": "result",
+      "label": "Instrument Kill Week",
+      "domain": "temporal evaluation fragility instrument v0"
+    },
+    {
+      "id": "result:temporal-tool-stage10-final-classifier-and-next-frontier",
+      "kind": "result",
+      "label": "Final Classifier and Next Frontier",
+      "domain": "temporal evaluation fragility instrument v0"
+    },
+    {
       "id": "result:toolchain-policy",
       "kind": "result",
       "label": "Policy-Gated Toolchain Installation Protocol",
@@ -2252,6 +2312,11 @@
       "id": "domain:temporal evaluation fragility deep discovery program",
       "kind": "domain",
       "label": "temporal evaluation fragility deep discovery program"
+    },
+    {
+      "id": "domain:temporal evaluation fragility instrument v0",
+      "kind": "domain",
+      "label": "temporal evaluation fragility instrument v0"
     },
     {
       "id": "domain:node-toolchain-policy",
@@ -4746,6 +4811,56 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:temporal-tool-stage01-instrument-design",
+      "target": "domain:temporal evaluation fragility instrument v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-tool-stage02-product-implementation",
+      "target": "domain:temporal evaluation fragility instrument v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-tool-stage03-calibration-target-selection",
+      "target": "domain:temporal evaluation fragility instrument v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-tool-stage04-calibration-run",
+      "target": "domain:temporal evaluation fragility instrument v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-tool-stage05-known-failure-controls",
+      "target": "domain:temporal evaluation fragility instrument v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-tool-stage06-blind-target-prediction-freeze",
+      "target": "domain:temporal evaluation fragility instrument v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-tool-stage07-blind-target-execution",
+      "target": "domain:temporal evaluation fragility instrument v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-tool-stage08-counterexample-and-mutation-tests",
+      "target": "domain:temporal evaluation fragility instrument v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-tool-stage09-instrument-kill-week",
+      "target": "domain:temporal evaluation fragility instrument v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-tool-stage10-final-classifier-and-next-frontier",
+      "target": "domain:temporal evaluation fragility instrument v0",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:toolchain-policy",
       "target": "domain:node-toolchain-policy",
       "relation": "belongs_to_domain"
@@ -4831,5 +4946,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "c66ec1c7e36af425cf35194d80e36f12eb4ee93b88112b694e9bc5c03b71745b"
+  "evidenceHash": "ce883f3e81012525080427770cc644b41fe516d5db4ebf50a1427bc4af0acd4c"
 }

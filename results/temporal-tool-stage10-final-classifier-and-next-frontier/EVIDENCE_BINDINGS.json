@@ -1,0 +1,10 @@
+{
+  "productCommit": "ca9fbfc",
+  "calibrationTargetsRun": 20,
+  "knownFailureControlsRun": 12,
+  "blindTargetsExecuted": 16,
+  "counterexamplesExecuted": 12,
+  "mutationTestsExecuted": 12,
+  "killWeekAttacks": 50,
+  "finalStatus": "partial_temporal_classifier"
+}

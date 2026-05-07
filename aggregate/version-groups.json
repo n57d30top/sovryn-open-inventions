@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T06:32:28.556Z",
+  "updatedAt": "2026-05-07T06:51:23.891Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -2082,6 +2082,76 @@
       ]
     },
     {
+      "versionGroup": "temporal-tool-stage01-instrument-design",
+      "latestSlug": "temporal-tool-stage01-instrument-design",
+      "resultSlugs": [
+        "temporal-tool-stage01-instrument-design"
+      ]
+    },
+    {
+      "versionGroup": "temporal-tool-stage02-product-implementation",
+      "latestSlug": "temporal-tool-stage02-product-implementation",
+      "resultSlugs": [
+        "temporal-tool-stage02-product-implementation"
+      ]
+    },
+    {
+      "versionGroup": "temporal-tool-stage03-calibration-target-selection",
+      "latestSlug": "temporal-tool-stage03-calibration-target-selection",
+      "resultSlugs": [
+        "temporal-tool-stage03-calibration-target-selection"
+      ]
+    },
+    {
+      "versionGroup": "temporal-tool-stage04-calibration-run",
+      "latestSlug": "temporal-tool-stage04-calibration-run",
+      "resultSlugs": [
+        "temporal-tool-stage04-calibration-run"
+      ]
+    },
+    {
+      "versionGroup": "temporal-tool-stage05-known-failure-controls",
+      "latestSlug": "temporal-tool-stage05-known-failure-controls",
+      "resultSlugs": [
+        "temporal-tool-stage05-known-failure-controls"
+      ]
+    },
+    {
+      "versionGroup": "temporal-tool-stage06-blind-target-prediction-freeze",
+      "latestSlug": "temporal-tool-stage06-blind-target-prediction-freeze",
+      "resultSlugs": [
+        "temporal-tool-stage06-blind-target-prediction-freeze"
+      ]
+    },
+    {
+      "versionGroup": "temporal-tool-stage07-blind-target-execution",
+      "latestSlug": "temporal-tool-stage07-blind-target-execution",
+      "resultSlugs": [
+        "temporal-tool-stage07-blind-target-execution"
+      ]
+    },
+    {
+      "versionGroup": "temporal-tool-stage08-counterexample-and-mutation-tests",
+      "latestSlug": "temporal-tool-stage08-counterexample-and-mutation-tests",
+      "resultSlugs": [
+        "temporal-tool-stage08-counterexample-and-mutation-tests"
+      ]
+    },
+    {
+      "versionGroup": "temporal-tool-stage09-instrument-kill-week",
+      "latestSlug": "temporal-tool-stage09-instrument-kill-week",
+      "resultSlugs": [
+        "temporal-tool-stage09-instrument-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "temporal-tool-stage10-final-classifier-and-next-frontier",
+      "latestSlug": "temporal-tool-stage10-final-classifier-and-next-frontier",
+      "resultSlugs": [
+        "temporal-tool-stage10-final-classifier-and-next-frontier"
+      ]
+    },
+    {
       "versionGroup": "toolchain-policy",
       "latestSlug": "toolchain-policy",
       "resultSlugs": [
@@ -2201,5 +2271,5 @@
       ]
     }
   ],
-  "evidenceHash": "bbb958df2deb56dc3d657a130e1c4bd714cb0a66082dfe03635be958f6b162df"
+  "evidenceHash": "4697ca91312949ff1e507999459323ab6e71be0c1028b22aa3b7b32b3fc41b98"
 }
