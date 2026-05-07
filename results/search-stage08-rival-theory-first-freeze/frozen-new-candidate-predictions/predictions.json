@@ -1,0 +1,218 @@
+[
+  {
+    "predictionId": "P01",
+    "candidateId": "NEW-CAND-01",
+    "targetId": "T001",
+    "sourceUrl": "https://raw.githubusercontent.com/jbrownlee/Datasets/master/airline-passengers.csv",
+    "expectedObservation": "Temporal holdout gap remains after trend baseline.",
+    "predictionCategory": "candidate_support",
+    "riskType": "non-obvious",
+    "rivalTheories": [
+      "simple baseline explains the signal",
+      "artifact or source instability explains the signal",
+      "domain-specific proxy explains the signal"
+    ],
+    "falsifier": "Candidate weakens if baseline, artifact, source instability, or domain proxy explains the observation as well or better.",
+    "noEditRule": "Frozen prediction cards must not be edited after the freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:05:59.224Z",
+    "preregistrationHash": "9a945f53a57b9bf2a7947bee6e3f98553257ccb632f2a54b5fdc609cf3159252"
+  },
+  {
+    "predictionId": "P02",
+    "candidateId": "NEW-CAND-01",
+    "targetId": "T003",
+    "sourceUrl": "https://raw.githubusercontent.com/jbrownlee/Datasets/master/monthly-sunspots.csv",
+    "expectedObservation": "Sunspot temporal residual is partly baseline-resistant but replay-stable.",
+    "predictionCategory": "candidate_support",
+    "riskType": "non-obvious",
+    "rivalTheories": [
+      "simple baseline explains the signal",
+      "artifact or source instability explains the signal",
+      "domain-specific proxy explains the signal"
+    ],
+    "falsifier": "Candidate weakens if baseline, artifact, source instability, or domain proxy explains the observation as well or better.",
+    "noEditRule": "Frozen prediction cards must not be edited after the freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:05:59.224Z",
+    "preregistrationHash": "48e34b4c30c16af2790d9a1adb5b2051bfe66111dd7c3e52aa51fde5f7dbb789"
+  },
+  {
+    "predictionId": "P03",
+    "candidateId": "NEW-CAND-01",
+    "targetId": "T002",
+    "sourceUrl": "https://raw.githubusercontent.com/jbrownlee/Datasets/master/daily-min-temperatures.csv",
+    "expectedObservation": "Daily temperature residual is explained by autocorrelation baseline.",
+    "predictionCategory": "candidate_failure",
+    "riskType": "rival-favoring",
+    "rivalTheories": [
+      "simple baseline explains the signal",
+      "artifact or source instability explains the signal",
+      "domain-specific proxy explains the signal"
+    ],
+    "falsifier": "Candidate weakens if baseline, artifact, source instability, or domain proxy explains the observation as well or better.",
+    "noEditRule": "Frozen prediction cards must not be edited after the freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:05:59.224Z",
+    "preregistrationHash": "d0828835b8ac4c77350b134bdf63104cf0b9c0781bced3e99e3d9b7371f56d2e"
+  },
+  {
+    "predictionId": "P04",
+    "candidateId": "NEW-CAND-01",
+    "targetId": "T004",
+    "sourceUrl": "https://raw.githubusercontent.com/jbrownlee/Datasets/master/shampoo.csv",
+    "expectedObservation": "Small shampoo series is too short and weakens broad temporal claim.",
+    "predictionCategory": "candidate_failure",
+    "riskType": "rival-favoring",
+    "rivalTheories": [
+      "simple baseline explains the signal",
+      "artifact or source instability explains the signal",
+      "domain-specific proxy explains the signal"
+    ],
+    "falsifier": "Candidate weakens if baseline, artifact, source instability, or domain proxy explains the observation as well or better.",
+    "noEditRule": "Frozen prediction cards must not be edited after the freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:05:59.224Z",
+    "preregistrationHash": "1c96544219d8befe0673fa76f5680b06a99efd7b3574753f0740b830496c3f9e"
+  },
+  {
+    "predictionId": "P05",
+    "candidateId": "NEW-CAND-01",
+    "targetId": "T009",
+    "sourceUrl": "https://raw.githubusercontent.com/owid/energy-data/master/owid-energy-data.csv",
+    "expectedObservation": "Energy data trend baseline explains most residual.",
+    "predictionCategory": "rival_support",
+    "riskType": "non-obvious",
+    "rivalTheories": [
+      "simple baseline explains the signal",
+      "artifact or source instability explains the signal",
+      "domain-specific proxy explains the signal"
+    ],
+    "falsifier": "Candidate weakens if baseline, artifact, source instability, or domain proxy explains the observation as well or better.",
+    "noEditRule": "Frozen prediction cards must not be edited after the freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:05:59.224Z",
+    "preregistrationHash": "6e89aeccaee0fa47abf3a53a7bb24a5239e70d55ba135c8185c34124a2b956dc"
+  },
+  {
+    "predictionId": "P06",
+    "candidateId": "NEW-CAND-01",
+    "targetId": "T010",
+    "sourceUrl": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+    "expectedObservation": "CO2 data residual is trend-dominated and should not support candidate.",
+    "predictionCategory": "rival_support",
+    "riskType": "control",
+    "rivalTheories": [
+      "simple baseline explains the signal",
+      "artifact or source instability explains the signal",
+      "domain-specific proxy explains the signal"
+    ],
+    "falsifier": "Candidate weakens if baseline, artifact, source instability, or domain proxy explains the observation as well or better.",
+    "noEditRule": "Frozen prediction cards must not be edited after the freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:05:59.224Z",
+    "preregistrationHash": "f472a155d9962edb8a55ac57cafaa48d124b300976927ceee6c7e42b375fc767"
+  },
+  {
+    "predictionId": "P07",
+    "candidateId": "NEW-CAND-02",
+    "targetId": "T011",
+    "sourceUrl": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+top+50+pl_name,hostname,disc_year,pl_orbper,pl_rade,pl_bmasse+from+pscomppars&format=csv",
+    "expectedObservation": "Exoplanet catalog has measurement missingness tied to discovery-year strata.",
+    "predictionCategory": "candidate_support",
+    "riskType": "non-obvious",
+    "rivalTheories": [
+      "simple baseline explains the signal",
+      "artifact or source instability explains the signal",
+      "domain-specific proxy explains the signal"
+    ],
+    "falsifier": "Candidate weakens if baseline, artifact, source instability, or domain proxy explains the observation as well or better.",
+    "noEditRule": "Frozen prediction cards must not be edited after the freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:05:59.224Z",
+    "preregistrationHash": "b4464d00d91910e208f1c8f6bf1fafc611503a7212e01847bc495f91cca25303"
+  },
+  {
+    "predictionId": "P08",
+    "candidateId": "NEW-CAND-02",
+    "targetId": "T012",
+    "sourceUrl": "https://data.nasa.gov/resource/y77d-th95.json?$limit=100",
+    "expectedObservation": "Meteor API retrieval instability should weaken catalog-lag claim.",
+    "predictionCategory": "candidate_failure",
+    "riskType": "rival-favoring",
+    "rivalTheories": [
+      "simple baseline explains the signal",
+      "artifact or source instability explains the signal",
+      "domain-specific proxy explains the signal"
+    ],
+    "falsifier": "Candidate weakens if baseline, artifact, source instability, or domain proxy explains the observation as well or better.",
+    "noEditRule": "Frozen prediction cards must not be edited after the freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:05:59.224Z",
+    "preregistrationHash": "f3e78702f96a14d1da07b7fc721f5417a3b7506146cb781cdf271cc2d4c4390f"
+  },
+  {
+    "predictionId": "P09",
+    "candidateId": "NEW-CAND-02",
+    "targetId": "T006",
+    "sourceUrl": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/penguins.csv",
+    "expectedObservation": "Penguins missingness is a table artifact, not catalog-lag evidence.",
+    "predictionCategory": "rival_support",
+    "riskType": "control",
+    "rivalTheories": [
+      "simple baseline explains the signal",
+      "artifact or source instability explains the signal",
+      "domain-specific proxy explains the signal"
+    ],
+    "falsifier": "Candidate weakens if baseline, artifact, source instability, or domain proxy explains the observation as well or better.",
+    "noEditRule": "Frozen prediction cards must not be edited after the freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:05:59.224Z",
+    "preregistrationHash": "0708d0b8bb06d6aad0b9cc78593d9509b30eb6d54d7820c809d6343c9dc5e7b5"
+  },
+  {
+    "predictionId": "P10",
+    "candidateId": "NEW-CAND-02",
+    "targetId": "T005",
+    "sourceUrl": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv",
+    "expectedObservation": "Iris low-missingness control should not support metadata-lag candidate.",
+    "predictionCategory": "candidate_failure",
+    "riskType": "control",
+    "rivalTheories": [
+      "simple baseline explains the signal",
+      "artifact or source instability explains the signal",
+      "domain-specific proxy explains the signal"
+    ],
+    "falsifier": "Candidate weakens if baseline, artifact, source instability, or domain proxy explains the observation as well or better.",
+    "noEditRule": "Frozen prediction cards must not be edited after the freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:05:59.224Z",
+    "preregistrationHash": "e34073cf770d26fe765867f927d16208daf9cb385ad7689d2af0e4a14f6bc707"
+  },
+  {
+    "predictionId": "P11",
+    "candidateId": "NEW-CAND-02",
+    "targetId": "T007",
+    "sourceUrl": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/mpg.csv",
+    "expectedObservation": "MPG model-year effects are proxy-baseline dominated.",
+    "predictionCategory": "rival_support",
+    "riskType": "non-obvious",
+    "rivalTheories": [
+      "simple baseline explains the signal",
+      "artifact or source instability explains the signal",
+      "domain-specific proxy explains the signal"
+    ],
+    "falsifier": "Candidate weakens if baseline, artifact, source instability, or domain proxy explains the observation as well or better.",
+    "noEditRule": "Frozen prediction cards must not be edited after the freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:05:59.224Z",
+    "preregistrationHash": "590c127ce7b8d026efd0aef92eb293511695fa10b7ac2ff9920025e08439c64e"
+  },
+  {
+    "predictionId": "P12",
+    "candidateId": "NEW-CAND-02",
+    "targetId": "T014",
+    "sourceUrl": "https://oeis.org/A000040/b000040.txt",
+    "expectedObservation": "OEIS prime sequence is not applicable and should block transfer.",
+    "predictionCategory": "candidate_failure",
+    "riskType": "control",
+    "rivalTheories": [
+      "simple baseline explains the signal",
+      "artifact or source instability explains the signal",
+      "domain-specific proxy explains the signal"
+    ],
+    "falsifier": "Candidate weakens if baseline, artifact, source instability, or domain proxy explains the observation as well or better.",
+    "noEditRule": "Frozen prediction cards must not be edited after the freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:05:59.224Z",
+    "preregistrationHash": "5ad7bcac53640b96b3282aac2f5edb1cb7d3fb415b66c3efadfa9674374b3000"
+  }
+]
