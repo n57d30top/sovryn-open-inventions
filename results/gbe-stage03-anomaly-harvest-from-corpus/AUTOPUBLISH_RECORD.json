@@ -1,0 +1,21 @@
+{
+  "kind": "autopublish_record",
+  "slug": "gbe-stage03-anomaly-harvest-from-corpus",
+  "title": "Anomaly Harvest From Corpus",
+  "resultKind": "gbe_anomaly_harvest_from_corpus",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 82,
+  "evidenceStrengthScore": 80,
+  "reproducibilityScore": 82,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 96,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "pushed": false,
+  "evidenceHash": "3037d9c5b63d3b90b7f6d9d5a070f820a63bed3a6f9034c63c34a21ff0292ba5"
+}

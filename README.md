@@ -300,6 +300,26 @@ and safety scope in human-readable language.
 - [Paper or Failure Package](results/formal-v1-stage17-paper-or-failure-package/) — good, autopublished, formal-v1-stage17-paper-or-failure-package, formal pattern and conjecture discovery v1
 - [Next Frontier](results/formal-v1-stage18-next-frontier/) — good, autopublished, formal-v1-stage18-next-frontier, formal pattern and conjecture discovery v1
 - [Frontier Scientific Production Trial](results/frontier-scientific-production-trial/) — excellent, autopublished, frontier-scientific-production-trial, provenance-aware-data-quality-methods
+- [Target Reset and Kill History](results/gbe-stage01-target-reset-and-kill-history/) — good, autopublished, gbe-stage01-target-reset-and-kill-history, Great-Benefit Discovery Candidate Factory v1
+- [High Impact Domain Map](results/gbe-stage02-high-impact-domain-map/) — good, autopublished, gbe-stage02-high-impact-domain-map, Great-Benefit Discovery Candidate Factory v1
+- [Anomaly Harvest From Corpus](results/gbe-stage03-anomaly-harvest-from-corpus/) — good, autopublished, gbe-stage03-anomaly-harvest-from-corpus, Great-Benefit Discovery Candidate Factory v1
+- [Fresh External Anomaly Scan](results/gbe-stage04-fresh-external-anomaly-scan/) — good, autopublished, gbe-stage04-fresh-external-anomaly-scan, Great-Benefit Discovery Candidate Factory v1
+- [Candidate Generation](results/gbe-stage05-candidate-generation/) — good, autopublished, gbe-stage05-candidate-generation, Great-Benefit Discovery Candidate Factory v1
+- [Death Gate Filtering](results/gbe-stage06-death-gate-filtering/) — good, autopublished, gbe-stage06-death-gate-filtering, Great-Benefit Discovery Candidate Factory v1
+- [Rival Theory First Screen](results/gbe-stage07-rival-theory-first-screen/) — good, autopublished, gbe-stage07-rival-theory-first-screen, Great-Benefit Discovery Candidate Factory v1
+- [Baseline Resistance Screen](results/gbe-stage08-baseline-resistance-screen/) — good, autopublished, gbe-stage08-baseline-resistance-screen, Great-Benefit Discovery Candidate Factory v1
+- [Counterexample Scarcity Screen](results/gbe-stage09-counterexample-scarcity-screen/) — good, autopublished, gbe-stage09-counterexample-scarcity-screen, Great-Benefit Discovery Candidate Factory v1
+- [Candidate Promotion Freeze](results/gbe-stage10-candidate-promotion-freeze/) — good, autopublished, gbe-stage10-candidate-promotion-freeze, Great-Benefit Discovery Candidate Factory v1
+- [Execution Wave](results/gbe-stage11-execution-wave/) — good, autopublished, gbe-stage11-execution-wave, Great-Benefit Discovery Candidate Factory v1
+- [Holdout Wave](results/gbe-stage12-holdout-wave/) — good, autopublished, gbe-stage12-holdout-wave, Great-Benefit Discovery Candidate Factory v1
+- [Replay And Reproduction](results/gbe-stage13-replay-and-reproduction/) — good, autopublished, gbe-stage13-replay-and-reproduction, Great-Benefit Discovery Candidate Factory v1
+- [Deep Candidate Validation](results/gbe-stage14-deep-candidate-validation/) — good, autopublished, gbe-stage14-deep-candidate-validation, Great-Benefit Discovery Candidate Factory v1
+- [Proof Or Mechanism Pressure](results/gbe-stage15-proof-or-mechanism-pressure/) — good, autopublished, gbe-stage15-proof-or-mechanism-pressure, Great-Benefit Discovery Candidate Factory v1
+- [Great Benefit Kill Week](results/gbe-stage16-great-benefit-kill-week/) — good, autopublished, gbe-stage16-great-benefit-kill-week, Great-Benefit Discovery Candidate Factory v1
+- [Candidate Decision](results/gbe-stage17-candidate-decision/) — good, autopublished, gbe-stage17-candidate-decision, Great-Benefit Discovery Candidate Factory v1
+- [External Review Package Or Failure](results/gbe-stage18-external-review-ready-package-or-failure/) — good, autopublished, gbe-stage18-external-review-ready-package-or-failure, Great-Benefit Discovery Candidate Factory v1
+- [Einstein Nobel Score Update](results/gbe-stage19-einstein-nobel-score-update/) — good, autopublished, gbe-stage19-einstein-nobel-score-update, Great-Benefit Discovery Candidate Factory v1
+- [Next Frontier](results/gbe-stage20-next-frontier/) — good, autopublished, gbe-stage20-next-frontier, Great-Benefit Discovery Candidate Factory v1
 - [General AI Scientist v0 bounded trial](results/general-ai-scientist-v0-trial/) — good, autopublished, general-ai-scientist-v0-trial, bounded computational scientist orchestration
 - [Original Principle Discovery Grand Challenge Stage 1 Anomaly Wall](results/grandchallenge-stage1-anomaly-wall/) — good, autopublished, grandchallenge-stage1-anomaly-wall, original principle discovery grand challenge
 - [Original Principle Discovery Grand Challenge Stage 10 Original Principle Discovery Paper](results/grandchallenge-stage10-original-principle-discovery-paper/) — good, autopublished, grandchallenge-stage10-original-principle-discovery-paper, original principle discovery grand challenge

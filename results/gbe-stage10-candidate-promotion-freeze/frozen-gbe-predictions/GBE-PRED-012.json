@@ -1,0 +1,10 @@
+{
+  "kind": "frozen_gbe_prediction",
+  "id": "GBE-PRED-012",
+  "candidateId": "GBE-CAND-120",
+  "type": "support",
+  "statement": "Frozen prediction 12: bounded counterexample scarcity explains a bounded anomaly class in benchmark protocol data reliability better than a simple presence/absence checklist",
+  "falsifier": "Contrary holdout, stronger rival baseline, replay divergence, or counterexample-dense behavior downgrades the candidate.",
+  "frozenAt": "2026-05-07T15:54:10.281Z",
+  "evidenceHash": "61672bd9917bc25fc46b78837d41a785f63c2d2771876c783eb1fed5f67b923a"
+}

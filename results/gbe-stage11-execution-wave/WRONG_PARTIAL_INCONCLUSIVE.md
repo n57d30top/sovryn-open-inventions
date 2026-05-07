@@ -1,0 +1,10 @@
+| Prediction | Outcome |
+| --- | --- |
+| GBE-PRED-001 | wrong |
+| GBE-PRED-002 | partial |
+| GBE-PRED-003 | inconclusive |
+| GBE-PRED-004 | wrong |
+| GBE-PRED-005 | partial |
+| GBE-PRED-006 | inconclusive |
+| GBE-PRED-007 | wrong |
+| GBE-PRED-008 | partial |

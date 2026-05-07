@@ -1,0 +1,10 @@
+{
+  "kind": "frozen_gbe_prediction",
+  "id": "GBE-PRED-014",
+  "candidateId": "GBE-CAND-118",
+  "type": "weakening",
+  "statement": "Frozen prediction 14: runtime dependency replay explains a bounded anomaly class in scientific software reproduction mechanisms better than a simple presence/absence checklist",
+  "falsifier": "Contrary holdout, stronger rival baseline, replay divergence, or counterexample-dense behavior downgrades the candidate.",
+  "frozenAt": "2026-05-07T15:54:10.281Z",
+  "evidenceHash": "fe87e04d7d55c83cffcceb0a7f1c46c2666940ee17d7e8f8be82bcc1293a1ae3"
+}

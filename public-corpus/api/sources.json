@@ -1591,6 +1591,109 @@
       "customTool": null
     },
     {
+      "slug": "gbe-stage01-target-reset-and-kill-history",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe-stage02-high-impact-domain-map",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe-stage03-anomaly-harvest-from-corpus",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe-stage04-fresh-external-anomaly-scan",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "gbe-stage05-candidate-generation",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe-stage06-death-gate-filtering",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe-stage07-rival-theory-first-screen",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe-stage08-baseline-resistance-screen",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe-stage09-counterexample-scarcity-screen",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe-stage10-candidate-promotion-freeze",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe-stage11-execution-wave",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe-stage12-holdout-wave",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe-stage13-replay-and-reproduction",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe-stage14-deep-candidate-validation",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe-stage15-proof-or-mechanism-pressure",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe-stage16-great-benefit-kill-week",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe-stage17-candidate-decision",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe-stage18-external-review-ready-package-or-failure",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe-stage19-einstein-nobel-score-update",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe-stage20-next-frontier",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "general-ai-scientist-v0-trial",
       "externalPackages": [],
       "customTool": null
@@ -3221,5 +3324,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "e429ecebdb3f5b0a9727a0255e548486b39dea323a4e9322690fcb9c1996d132"
+  "evidenceHash": "3c18268f414b2c9b7d763081326edf8747315ab6ecc57dc68beb82c08e1838d2"
 }

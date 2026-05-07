@@ -1,0 +1,14 @@
+| Replay | Outcome | Impact |
+| --- | --- | --- |
+| GBE-REPLAY-001 | divergence_or_caveat | downgrade_scope |
+| GBE-REPLAY-002 | divergence_or_caveat | downgrade_scope |
+| GBE-REPLAY-003 | divergence_or_caveat | downgrade_scope |
+| GBE-REPLAY-004 | replayed_bounded_receipt | preserve_bounded_evidence |
+| GBE-REPLAY-005 | replayed_bounded_receipt | preserve_bounded_evidence |
+| GBE-REPLAY-006 | replayed_bounded_receipt | preserve_bounded_evidence |
+| GBE-REPLAY-007 | replayed_bounded_receipt | preserve_bounded_evidence |
+| GBE-REPLAY-008 | replayed_bounded_receipt | preserve_bounded_evidence |
+| GBE-REPLAY-009 | replayed_bounded_receipt | preserve_bounded_evidence |
+| GBE-REPLAY-010 | replayed_bounded_receipt | preserve_bounded_evidence |
+| GBE-REPLAY-011 | replayed_bounded_receipt | preserve_bounded_evidence |
+| GBE-REPLAY-012 | replayed_bounded_receipt | preserve_bounded_evidence |

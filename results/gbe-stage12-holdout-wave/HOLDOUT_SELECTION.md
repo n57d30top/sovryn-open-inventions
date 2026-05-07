@@ -1,0 +1,14 @@
+| Holdout | Candidate | Domain |
+| --- | --- | --- |
+| GBE-HOLD-001 | GBE-CAND-018 | formal_math_counterexample |
+| GBE-HOLD-002 | GBE-CAND-118 | scientific_software_reproduction_mechanisms |
+| GBE-HOLD-003 | GBE-CAND-119 | climate_energy_residuals |
+| GBE-HOLD-004 | GBE-CAND-120 | benchmark_protocol_data_reliability |
+| GBE-HOLD-005 | GBE-CAND-018 | computational_materials_property_data |
+| GBE-HOLD-006 | GBE-CAND-118 | astrophysics_open_catalog_anomalies |
+| GBE-HOLD-007 | GBE-CAND-119 | formal_math_counterexample |
+| GBE-HOLD-008 | GBE-CAND-120 | scientific_software_reproduction_mechanisms |
+| GBE-HOLD-009 | GBE-CAND-018 | climate_energy_residuals |
+| GBE-HOLD-010 | GBE-CAND-118 | benchmark_protocol_data_reliability |
+| GBE-HOLD-011 | GBE-CAND-119 | computational_materials_property_data |
+| GBE-HOLD-012 | GBE-CAND-120 | astrophysics_open_catalog_anomalies |

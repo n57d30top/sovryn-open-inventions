@@ -1,0 +1,10 @@
+{
+  "kind": "frozen_gbe_prediction",
+  "id": "GBE-PRED-023",
+  "candidateId": "GBE-CAND-119",
+  "type": "non_obvious",
+  "statement": "Frozen prediction 23: catalog provenance stability explains a bounded anomaly class in climate energy residuals better than a simple presence/absence checklist",
+  "falsifier": "Contrary holdout, stronger rival baseline, replay divergence, or counterexample-dense behavior downgrades the candidate.",
+  "frozenAt": "2026-05-07T15:54:10.281Z",
+  "evidenceHash": "9899deb446c99d25c6f4dd6051960116276724f1d6b8b40322794843849b10a0"
+}

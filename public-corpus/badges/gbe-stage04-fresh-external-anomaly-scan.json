@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "gbe-stage04-fresh-external-anomaly-scan",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "specific_public_evidence",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "candidate_factory_evaluated",
+    "lifecycle": "autopublished",
+    "version": "gbe-stage04-fresh-external-anomaly-scan",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "5725442f3c46bb2a7fd1d887704d9cbe4b80f897fa54968d8892a884a1ecd423"
+}

@@ -1,0 +1,8 @@
+# Selected Domains
+
+- computational_materials_property_data
+- astrophysics_open_catalog_anomalies
+- formal_math_counterexample
+- scientific_software_reproduction_mechanisms
+- climate_energy_residuals
+- benchmark_protocol_data_reliability

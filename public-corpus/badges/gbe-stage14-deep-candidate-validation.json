@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "gbe-stage14-deep-candidate-validation",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "specific_public_evidence",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "candidate_factory_evaluated",
+    "lifecycle": "autopublished",
+    "version": "gbe-stage14-deep-candidate-validation",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "05b7c3a15d032985e0c195fa49a445def960fd3b1a7308d51bdb7e395f2060c2"
+}

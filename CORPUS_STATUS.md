@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 582
+Results: 602
 
 ## Lifecycle Counts
 
-- autopublished: 551
+- autopublished: 571
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -266,6 +266,26 @@ Results: 582
 - formal-v1-stage17-paper-or-failure-package: latest formal-v1-stage17-paper-or-failure-package; formal-v1-stage17-paper-or-failure-package
 - formal-v1-stage18-next-frontier: latest formal-v1-stage18-next-frontier; formal-v1-stage18-next-frontier
 - frontier-scientific-production-trial: latest frontier-scientific-production-trial; frontier-scientific-production-trial
+- gbe-stage01-target-reset-and-kill-history: latest gbe-stage01-target-reset-and-kill-history; gbe-stage01-target-reset-and-kill-history
+- gbe-stage02-high-impact-domain-map: latest gbe-stage02-high-impact-domain-map; gbe-stage02-high-impact-domain-map
+- gbe-stage03-anomaly-harvest-from-corpus: latest gbe-stage03-anomaly-harvest-from-corpus; gbe-stage03-anomaly-harvest-from-corpus
+- gbe-stage04-fresh-external-anomaly-scan: latest gbe-stage04-fresh-external-anomaly-scan; gbe-stage04-fresh-external-anomaly-scan
+- gbe-stage05-candidate-generation: latest gbe-stage05-candidate-generation; gbe-stage05-candidate-generation
+- gbe-stage06-death-gate-filtering: latest gbe-stage06-death-gate-filtering; gbe-stage06-death-gate-filtering
+- gbe-stage07-rival-theory-first-screen: latest gbe-stage07-rival-theory-first-screen; gbe-stage07-rival-theory-first-screen
+- gbe-stage08-baseline-resistance-screen: latest gbe-stage08-baseline-resistance-screen; gbe-stage08-baseline-resistance-screen
+- gbe-stage09-counterexample-scarcity-screen: latest gbe-stage09-counterexample-scarcity-screen; gbe-stage09-counterexample-scarcity-screen
+- gbe-stage10-candidate-promotion-freeze: latest gbe-stage10-candidate-promotion-freeze; gbe-stage10-candidate-promotion-freeze
+- gbe-stage11-execution-wave: latest gbe-stage11-execution-wave; gbe-stage11-execution-wave
+- gbe-stage12-holdout-wave: latest gbe-stage12-holdout-wave; gbe-stage12-holdout-wave
+- gbe-stage13-replay-and-reproduction: latest gbe-stage13-replay-and-reproduction; gbe-stage13-replay-and-reproduction
+- gbe-stage14-deep-candidate-validation: latest gbe-stage14-deep-candidate-validation; gbe-stage14-deep-candidate-validation
+- gbe-stage15-proof-or-mechanism-pressure: latest gbe-stage15-proof-or-mechanism-pressure; gbe-stage15-proof-or-mechanism-pressure
+- gbe-stage16-great-benefit-kill-week: latest gbe-stage16-great-benefit-kill-week; gbe-stage16-great-benefit-kill-week
+- gbe-stage17-candidate-decision: latest gbe-stage17-candidate-decision; gbe-stage17-candidate-decision
+- gbe-stage18-external-review-ready-package-or-failure: latest gbe-stage18-external-review-ready-package-or-failure; gbe-stage18-external-review-ready-package-or-failure
+- gbe-stage19-einstein-nobel-score-update: latest gbe-stage19-einstein-nobel-score-update; gbe-stage19-einstein-nobel-score-update
+- gbe-stage20-next-frontier: latest gbe-stage20-next-frontier; gbe-stage20-next-frontier
 - general-ai-scientist-v0-trial: latest general-ai-scientist-v0-trial; general-ai-scientist-v0-trial
 - grandchallenge-stage1-anomaly-wall: latest grandchallenge-stage1-anomaly-wall; grandchallenge-stage1-anomaly-wall
 - grandchallenge-stage10-original-principle-discovery-paper: latest grandchallenge-stage10-original-principle-discovery-paper; grandchallenge-stage10-original-principle-discovery-paper

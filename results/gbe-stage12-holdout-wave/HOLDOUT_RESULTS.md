@@ -1,0 +1,14 @@
+| Holdout | Outcome | Impact |
+| --- | --- | --- |
+| GBE-HOLD-001 | partial | downgrade_or_narrow |
+| GBE-HOLD-002 | failure | downgrade_or_narrow |
+| GBE-HOLD-003 | inconclusive | downgrade_or_narrow |
+| GBE-HOLD-004 | partial | downgrade_or_narrow |
+| GBE-HOLD-005 | failure | downgrade_or_narrow |
+| GBE-HOLD-006 | support_with_caveat | preserve_limited_claim |
+| GBE-HOLD-007 | support_with_caveat | preserve_limited_claim |
+| GBE-HOLD-008 | support_with_caveat | preserve_limited_claim |
+| GBE-HOLD-009 | support_with_caveat | preserve_limited_claim |
+| GBE-HOLD-010 | support_with_caveat | preserve_limited_claim |
+| GBE-HOLD-011 | support_with_caveat | preserve_limited_claim |
+| GBE-HOLD-012 | support_with_caveat | preserve_limited_claim |

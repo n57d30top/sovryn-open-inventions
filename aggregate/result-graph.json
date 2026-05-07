@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-07T15:28:28.278Z",
+  "generatedAt": "2026-05-07T15:55:57.358Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1591,6 +1591,126 @@
       "kind": "result",
       "label": "Frontier Scientific Production Trial",
       "domain": "provenance-aware-data-quality-methods"
+    },
+    {
+      "id": "result:gbe-stage01-target-reset-and-kill-history",
+      "kind": "result",
+      "label": "Target Reset and Kill History",
+      "domain": "Great-Benefit Discovery Candidate Factory v1"
+    },
+    {
+      "id": "result:gbe-stage02-high-impact-domain-map",
+      "kind": "result",
+      "label": "High Impact Domain Map",
+      "domain": "Great-Benefit Discovery Candidate Factory v1"
+    },
+    {
+      "id": "result:gbe-stage03-anomaly-harvest-from-corpus",
+      "kind": "result",
+      "label": "Anomaly Harvest From Corpus",
+      "domain": "Great-Benefit Discovery Candidate Factory v1"
+    },
+    {
+      "id": "result:gbe-stage04-fresh-external-anomaly-scan",
+      "kind": "result",
+      "label": "Fresh External Anomaly Scan",
+      "domain": "Great-Benefit Discovery Candidate Factory v1"
+    },
+    {
+      "id": "result:gbe-stage05-candidate-generation",
+      "kind": "result",
+      "label": "Candidate Generation",
+      "domain": "Great-Benefit Discovery Candidate Factory v1"
+    },
+    {
+      "id": "result:gbe-stage06-death-gate-filtering",
+      "kind": "result",
+      "label": "Death Gate Filtering",
+      "domain": "Great-Benefit Discovery Candidate Factory v1"
+    },
+    {
+      "id": "result:gbe-stage07-rival-theory-first-screen",
+      "kind": "result",
+      "label": "Rival Theory First Screen",
+      "domain": "Great-Benefit Discovery Candidate Factory v1"
+    },
+    {
+      "id": "result:gbe-stage08-baseline-resistance-screen",
+      "kind": "result",
+      "label": "Baseline Resistance Screen",
+      "domain": "Great-Benefit Discovery Candidate Factory v1"
+    },
+    {
+      "id": "result:gbe-stage09-counterexample-scarcity-screen",
+      "kind": "result",
+      "label": "Counterexample Scarcity Screen",
+      "domain": "Great-Benefit Discovery Candidate Factory v1"
+    },
+    {
+      "id": "result:gbe-stage10-candidate-promotion-freeze",
+      "kind": "result",
+      "label": "Candidate Promotion Freeze",
+      "domain": "Great-Benefit Discovery Candidate Factory v1"
+    },
+    {
+      "id": "result:gbe-stage11-execution-wave",
+      "kind": "result",
+      "label": "Execution Wave",
+      "domain": "Great-Benefit Discovery Candidate Factory v1"
+    },
+    {
+      "id": "result:gbe-stage12-holdout-wave",
+      "kind": "result",
+      "label": "Holdout Wave",
+      "domain": "Great-Benefit Discovery Candidate Factory v1"
+    },
+    {
+      "id": "result:gbe-stage13-replay-and-reproduction",
+      "kind": "result",
+      "label": "Replay And Reproduction",
+      "domain": "Great-Benefit Discovery Candidate Factory v1"
+    },
+    {
+      "id": "result:gbe-stage14-deep-candidate-validation",
+      "kind": "result",
+      "label": "Deep Candidate Validation",
+      "domain": "Great-Benefit Discovery Candidate Factory v1"
+    },
+    {
+      "id": "result:gbe-stage15-proof-or-mechanism-pressure",
+      "kind": "result",
+      "label": "Proof Or Mechanism Pressure",
+      "domain": "Great-Benefit Discovery Candidate Factory v1"
+    },
+    {
+      "id": "result:gbe-stage16-great-benefit-kill-week",
+      "kind": "result",
+      "label": "Great Benefit Kill Week",
+      "domain": "Great-Benefit Discovery Candidate Factory v1"
+    },
+    {
+      "id": "result:gbe-stage17-candidate-decision",
+      "kind": "result",
+      "label": "Candidate Decision",
+      "domain": "Great-Benefit Discovery Candidate Factory v1"
+    },
+    {
+      "id": "result:gbe-stage18-external-review-ready-package-or-failure",
+      "kind": "result",
+      "label": "External Review Package Or Failure",
+      "domain": "Great-Benefit Discovery Candidate Factory v1"
+    },
+    {
+      "id": "result:gbe-stage19-einstein-nobel-score-update",
+      "kind": "result",
+      "label": "Einstein Nobel Score Update",
+      "domain": "Great-Benefit Discovery Candidate Factory v1"
+    },
+    {
+      "id": "result:gbe-stage20-next-frontier",
+      "kind": "result",
+      "label": "Next Frontier",
+      "domain": "Great-Benefit Discovery Candidate Factory v1"
     },
     {
       "id": "result:general-ai-scientist-v0-trial",
@@ -3738,6 +3858,11 @@
       "id": "domain:provenance-aware-data-quality-methods",
       "kind": "domain",
       "label": "provenance-aware-data-quality-methods"
+    },
+    {
+      "id": "domain:Great-Benefit Discovery Candidate Factory v1",
+      "kind": "domain",
+      "label": "Great-Benefit Discovery Candidate Factory v1"
     },
     {
       "id": "domain:bounded computational scientist orchestration",
@@ -6102,6 +6227,116 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:gbe-stage01-target-reset-and-kill-history",
+      "target": "domain:Great-Benefit Discovery Candidate Factory v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe-stage02-high-impact-domain-map",
+      "target": "domain:Great-Benefit Discovery Candidate Factory v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe-stage03-anomaly-harvest-from-corpus",
+      "target": "domain:Great-Benefit Discovery Candidate Factory v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe-stage04-fresh-external-anomaly-scan",
+      "target": "domain:Great-Benefit Discovery Candidate Factory v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe-stage04-fresh-external-anomaly-scan",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:gbe-stage04-fresh-external-anomaly-scan",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:gbe-stage05-candidate-generation",
+      "target": "domain:Great-Benefit Discovery Candidate Factory v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe-stage06-death-gate-filtering",
+      "target": "domain:Great-Benefit Discovery Candidate Factory v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe-stage07-rival-theory-first-screen",
+      "target": "domain:Great-Benefit Discovery Candidate Factory v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe-stage08-baseline-resistance-screen",
+      "target": "domain:Great-Benefit Discovery Candidate Factory v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe-stage09-counterexample-scarcity-screen",
+      "target": "domain:Great-Benefit Discovery Candidate Factory v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe-stage10-candidate-promotion-freeze",
+      "target": "domain:Great-Benefit Discovery Candidate Factory v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe-stage11-execution-wave",
+      "target": "domain:Great-Benefit Discovery Candidate Factory v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe-stage12-holdout-wave",
+      "target": "domain:Great-Benefit Discovery Candidate Factory v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe-stage13-replay-and-reproduction",
+      "target": "domain:Great-Benefit Discovery Candidate Factory v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe-stage14-deep-candidate-validation",
+      "target": "domain:Great-Benefit Discovery Candidate Factory v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe-stage15-proof-or-mechanism-pressure",
+      "target": "domain:Great-Benefit Discovery Candidate Factory v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe-stage16-great-benefit-kill-week",
+      "target": "domain:Great-Benefit Discovery Candidate Factory v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe-stage17-candidate-decision",
+      "target": "domain:Great-Benefit Discovery Candidate Factory v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe-stage18-external-review-ready-package-or-failure",
+      "target": "domain:Great-Benefit Discovery Candidate Factory v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe-stage19-einstein-nobel-score-update",
+      "target": "domain:Great-Benefit Discovery Candidate Factory v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe-stage20-next-frontier",
+      "target": "domain:Great-Benefit Discovery Candidate Factory v1",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:general-ai-scientist-v0-trial",
       "target": "domain:bounded computational scientist orchestration",
       "relation": "belongs_to_domain"
@@ -7832,5 +8067,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "636fa354d10d565a28cc53c7ccd511c2e81b71d441ce6fb96e1fb7c24afdcfac"
+  "evidenceHash": "afc0bee35e5fdb4920a2122353e68f3c31c369bf107fe0ca037982a685db5ab0"
 }

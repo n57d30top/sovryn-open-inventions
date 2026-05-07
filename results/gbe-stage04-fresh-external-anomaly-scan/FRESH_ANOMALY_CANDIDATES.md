@@ -1,0 +1,32 @@
+| Anomaly | Target | Domain | Flags | Retained |
+| --- | --- | --- | --- | --- |
+| GBE-FRESH-ANOM-001 | GBE-TARGET-001 | materials | none | false |
+| GBE-FRESH-ANOM-002 | GBE-TARGET-002 | materials | none | false |
+| GBE-FRESH-ANOM-003 | GBE-TARGET-003 | materials | none | false |
+| GBE-FRESH-ANOM-004 | GBE-TARGET-004 | materials | none | false |
+| GBE-FRESH-ANOM-005 | GBE-TARGET-005 | materials | unavailable_or_blocked_metadata_check | false |
+| GBE-FRESH-ANOM-006 | GBE-TARGET-006 | materials | unavailable_or_blocked_metadata_check | false |
+| GBE-FRESH-ANOM-007 | GBE-TARGET-007 | materials | none | false |
+| GBE-FRESH-ANOM-008 | GBE-TARGET-008 | materials | none | false |
+| GBE-FRESH-ANOM-009 | GBE-TARGET-009 | astro | none | false |
+| GBE-FRESH-ANOM-010 | GBE-TARGET-010 | astro | none | false |
+| GBE-FRESH-ANOM-011 | GBE-TARGET-011 | astro | none | false |
+| GBE-FRESH-ANOM-012 | GBE-TARGET-012 | astro | weak_version_receipt_metadata; missing_content_length | false |
+| GBE-FRESH-ANOM-013 | GBE-TARGET-013 | astro | none | false |
+| GBE-FRESH-ANOM-014 | GBE-TARGET-014 | astro | none | false |
+| GBE-FRESH-ANOM-015 | GBE-TARGET-015 | astro | none | false |
+| GBE-FRESH-ANOM-016 | GBE-TARGET-016 | astro | none | false |
+| GBE-FRESH-ANOM-017 | GBE-TARGET-017 | repo | none | false |
+| GBE-FRESH-ANOM-018 | GBE-TARGET-018 | repo | none | false |
+| GBE-FRESH-ANOM-019 | GBE-TARGET-019 | repo | none | true |
+| GBE-FRESH-ANOM-020 | GBE-TARGET-020 | repo | none | true |
+| GBE-FRESH-ANOM-021 | GBE-TARGET-021 | repo | none | true |
+| GBE-FRESH-ANOM-022 | GBE-TARGET-022 | repo | none | true |
+| GBE-FRESH-ANOM-023 | GBE-TARGET-023 | repo | none | true |
+| GBE-FRESH-ANOM-024 | GBE-TARGET-024 | repo | none | true |
+| GBE-FRESH-ANOM-025 | GBE-TARGET-025 | climate_energy | none | true |
+| GBE-FRESH-ANOM-026 | GBE-TARGET-026 | climate_energy | none | true |
+| GBE-FRESH-ANOM-027 | GBE-TARGET-027 | climate_energy | none | true |
+| GBE-FRESH-ANOM-028 | GBE-TARGET-028 | climate_energy | none | true |
+| GBE-FRESH-ANOM-029 | GBE-TARGET-029 | climate_energy | none | true |
+| GBE-FRESH-ANOM-030 | GBE-TARGET-030 | climate_energy | weak_version_receipt_metadata; missing_content_length | true |

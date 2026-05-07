@@ -1,0 +1,10 @@
+{
+  "kind": "frozen_gbe_prediction",
+  "id": "GBE-PRED-013",
+  "candidateId": "GBE-CAND-018",
+  "type": "support",
+  "statement": "Frozen prediction 13: Machine-checkable evidence-triad completeness appears to predict benchmark/protocol reproducibility risk better than headline benchmark popularity in bounded public metadata and replay probes.",
+  "falsifier": "Contrary holdout, stronger rival baseline, replay divergence, or counterexample-dense behavior downgrades the candidate.",
+  "frozenAt": "2026-05-07T15:54:10.281Z",
+  "evidenceHash": "cb6ff1c125ba9679971a5e81cc192b99e990b12ac9fe0c701f1894149632fc64"
+}

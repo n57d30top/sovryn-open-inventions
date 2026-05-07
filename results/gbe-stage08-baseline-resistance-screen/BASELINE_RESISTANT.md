@@ -1,0 +1,14 @@
+| Candidate | Domain |
+| --- | --- |
+| GBE-CAND-109 | computational_materials_property_data |
+| GBE-CAND-110 | astrophysics_open_catalog_anomalies |
+| GBE-CAND-111 | formal_math_counterexample |
+| GBE-CAND-112 | scientific_software_reproduction_mechanisms |
+| GBE-CAND-113 | climate_energy_residuals |
+| GBE-CAND-114 | benchmark_protocol_data_reliability |
+| GBE-CAND-115 | computational_materials_property_data |
+| GBE-CAND-116 | astrophysics_open_catalog_anomalies |
+| GBE-CAND-018 | benchmark_protocol_data_reliability |
+| GBE-CAND-118 | scientific_software_reproduction_mechanisms |
+| GBE-CAND-119 | climate_energy_residuals |
+| GBE-CAND-120 | benchmark_protocol_data_reliability |

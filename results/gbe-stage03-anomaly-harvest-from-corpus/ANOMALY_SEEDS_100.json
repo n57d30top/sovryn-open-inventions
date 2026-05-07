@@ -1,0 +1,906 @@
+{
+  "kind": "gbe_anomaly_seed_set",
+  "seeds": [
+    {
+      "id": "GBE-SEED-001",
+      "source": "temporal",
+      "seedType": "failed_prediction",
+      "strengthScore": 40,
+      "selectedStrongSeed": true,
+      "summary": "failed prediction from temporal with bounded follow-up value",
+      "reusableLesson": "baseline_dominated"
+    },
+    {
+      "id": "GBE-SEED-002",
+      "source": "repo_reproduction",
+      "seedType": "counterexample_survivor",
+      "strengthScore": 47,
+      "selectedStrongSeed": true,
+      "summary": "counterexample survivor from repo reproduction with bounded follow-up value",
+      "reusableLesson": "counterexample_dense"
+    },
+    {
+      "id": "GBE-SEED-003",
+      "source": "formal",
+      "seedType": "protocol_tension",
+      "strengthScore": 54,
+      "selectedStrongSeed": true,
+      "summary": "protocol tension from formal with bounded follow-up value",
+      "reusableLesson": "known_or_trivial"
+    },
+    {
+      "id": "GBE-SEED-004",
+      "source": "nobel_readiness",
+      "seedType": "mechanism_confusion",
+      "strengthScore": 61,
+      "selectedStrongSeed": true,
+      "summary": "mechanism confusion from nobel readiness with bounded follow-up value",
+      "reusableLesson": "no_holdout_path"
+    },
+    {
+      "id": "GBE-SEED-005",
+      "source": "route_policy",
+      "seedType": "baseline_resistant_leftover",
+      "strengthScore": 68,
+      "selectedStrongSeed": true,
+      "summary": "baseline resistant leftover from route policy with bounded follow-up value",
+      "reusableLesson": "no_replay_path"
+    },
+    {
+      "id": "GBE-SEED-006",
+      "source": "dataset_audit",
+      "seedType": "checked_refutation",
+      "strengthScore": 75,
+      "selectedStrongSeed": true,
+      "summary": "checked refutation from dataset audit with bounded follow-up value",
+      "reusableLesson": "rival_theory_stronger"
+    },
+    {
+      "id": "GBE-SEED-007",
+      "source": "benchmark_protocol",
+      "seedType": "holdout_caveat",
+      "strengthScore": 82,
+      "selectedStrongSeed": true,
+      "summary": "holdout caveat from benchmark protocol with bounded follow-up value",
+      "reusableLesson": "mechanism_unclear"
+    },
+    {
+      "id": "GBE-SEED-008",
+      "source": "materials_hint",
+      "seedType": "partial_signal",
+      "strengthScore": 89,
+      "selectedStrongSeed": true,
+      "summary": "partial signal from materials hint with bounded follow-up value",
+      "reusableLesson": "bounded_only_evidence"
+    },
+    {
+      "id": "GBE-SEED-009",
+      "source": "astro_catalog",
+      "seedType": "replay_stable_anomaly",
+      "strengthScore": 41,
+      "selectedStrongSeed": true,
+      "summary": "replay stable anomaly from astro catalog with bounded follow-up value",
+      "reusableLesson": "replay_caveats"
+    },
+    {
+      "id": "GBE-SEED-010",
+      "source": "climate_energy",
+      "seedType": "metadata_gap",
+      "strengthScore": 48,
+      "selectedStrongSeed": true,
+      "summary": "metadata gap from climate energy with bounded follow-up value",
+      "reusableLesson": "weak_external_inspectability"
+    },
+    {
+      "id": "GBE-SEED-011",
+      "source": "temporal",
+      "seedType": "failed_prediction",
+      "strengthScore": 55,
+      "selectedStrongSeed": true,
+      "summary": "failed prediction from temporal with bounded follow-up value",
+      "reusableLesson": "too_close_to_failed_prior"
+    },
+    {
+      "id": "GBE-SEED-012",
+      "source": "repo_reproduction",
+      "seedType": "counterexample_survivor",
+      "strengthScore": 62,
+      "selectedStrongSeed": true,
+      "summary": "counterexample survivor from repo reproduction with bounded follow-up value",
+      "reusableLesson": "low_scientific_value"
+    },
+    {
+      "id": "GBE-SEED-013",
+      "source": "formal",
+      "seedType": "protocol_tension",
+      "strengthScore": 69,
+      "selectedStrongSeed": true,
+      "summary": "protocol tension from formal with bounded follow-up value",
+      "reusableLesson": "baseline_dominated"
+    },
+    {
+      "id": "GBE-SEED-014",
+      "source": "nobel_readiness",
+      "seedType": "mechanism_confusion",
+      "strengthScore": 76,
+      "selectedStrongSeed": true,
+      "summary": "mechanism confusion from nobel readiness with bounded follow-up value",
+      "reusableLesson": "counterexample_dense"
+    },
+    {
+      "id": "GBE-SEED-015",
+      "source": "route_policy",
+      "seedType": "baseline_resistant_leftover",
+      "strengthScore": 83,
+      "selectedStrongSeed": true,
+      "summary": "baseline resistant leftover from route policy with bounded follow-up value",
+      "reusableLesson": "known_or_trivial"
+    },
+    {
+      "id": "GBE-SEED-016",
+      "source": "dataset_audit",
+      "seedType": "checked_refutation",
+      "strengthScore": 90,
+      "selectedStrongSeed": true,
+      "summary": "checked refutation from dataset audit with bounded follow-up value",
+      "reusableLesson": "no_holdout_path"
+    },
+    {
+      "id": "GBE-SEED-017",
+      "source": "benchmark_protocol",
+      "seedType": "holdout_caveat",
+      "strengthScore": 42,
+      "selectedStrongSeed": true,
+      "summary": "holdout caveat from benchmark protocol with bounded follow-up value",
+      "reusableLesson": "no_replay_path"
+    },
+    {
+      "id": "GBE-SEED-018",
+      "source": "materials_hint",
+      "seedType": "partial_signal",
+      "strengthScore": 49,
+      "selectedStrongSeed": true,
+      "summary": "partial signal from materials hint with bounded follow-up value",
+      "reusableLesson": "rival_theory_stronger"
+    },
+    {
+      "id": "GBE-SEED-019",
+      "source": "astro_catalog",
+      "seedType": "replay_stable_anomaly",
+      "strengthScore": 56,
+      "selectedStrongSeed": true,
+      "summary": "replay stable anomaly from astro catalog with bounded follow-up value",
+      "reusableLesson": "mechanism_unclear"
+    },
+    {
+      "id": "GBE-SEED-020",
+      "source": "climate_energy",
+      "seedType": "metadata_gap",
+      "strengthScore": 63,
+      "selectedStrongSeed": true,
+      "summary": "metadata gap from climate energy with bounded follow-up value",
+      "reusableLesson": "bounded_only_evidence"
+    },
+    {
+      "id": "GBE-SEED-021",
+      "source": "temporal",
+      "seedType": "failed_prediction",
+      "strengthScore": 70,
+      "selectedStrongSeed": true,
+      "summary": "failed prediction from temporal with bounded follow-up value",
+      "reusableLesson": "replay_caveats"
+    },
+    {
+      "id": "GBE-SEED-022",
+      "source": "repo_reproduction",
+      "seedType": "counterexample_survivor",
+      "strengthScore": 77,
+      "selectedStrongSeed": true,
+      "summary": "counterexample survivor from repo reproduction with bounded follow-up value",
+      "reusableLesson": "weak_external_inspectability"
+    },
+    {
+      "id": "GBE-SEED-023",
+      "source": "formal",
+      "seedType": "protocol_tension",
+      "strengthScore": 84,
+      "selectedStrongSeed": true,
+      "summary": "protocol tension from formal with bounded follow-up value",
+      "reusableLesson": "too_close_to_failed_prior"
+    },
+    {
+      "id": "GBE-SEED-024",
+      "source": "nobel_readiness",
+      "seedType": "mechanism_confusion",
+      "strengthScore": 91,
+      "selectedStrongSeed": true,
+      "summary": "mechanism confusion from nobel readiness with bounded follow-up value",
+      "reusableLesson": "low_scientific_value"
+    },
+    {
+      "id": "GBE-SEED-025",
+      "source": "route_policy",
+      "seedType": "baseline_resistant_leftover",
+      "strengthScore": 43,
+      "selectedStrongSeed": true,
+      "summary": "baseline resistant leftover from route policy with bounded follow-up value",
+      "reusableLesson": "baseline_dominated"
+    },
+    {
+      "id": "GBE-SEED-026",
+      "source": "dataset_audit",
+      "seedType": "checked_refutation",
+      "strengthScore": 50,
+      "selectedStrongSeed": true,
+      "summary": "checked refutation from dataset audit with bounded follow-up value",
+      "reusableLesson": "counterexample_dense"
+    },
+    {
+      "id": "GBE-SEED-027",
+      "source": "benchmark_protocol",
+      "seedType": "holdout_caveat",
+      "strengthScore": 57,
+      "selectedStrongSeed": true,
+      "summary": "holdout caveat from benchmark protocol with bounded follow-up value",
+      "reusableLesson": "known_or_trivial"
+    },
+    {
+      "id": "GBE-SEED-028",
+      "source": "materials_hint",
+      "seedType": "partial_signal",
+      "strengthScore": 64,
+      "selectedStrongSeed": true,
+      "summary": "partial signal from materials hint with bounded follow-up value",
+      "reusableLesson": "no_holdout_path"
+    },
+    {
+      "id": "GBE-SEED-029",
+      "source": "astro_catalog",
+      "seedType": "replay_stable_anomaly",
+      "strengthScore": 71,
+      "selectedStrongSeed": true,
+      "summary": "replay stable anomaly from astro catalog with bounded follow-up value",
+      "reusableLesson": "no_replay_path"
+    },
+    {
+      "id": "GBE-SEED-030",
+      "source": "climate_energy",
+      "seedType": "metadata_gap",
+      "strengthScore": 78,
+      "selectedStrongSeed": true,
+      "summary": "metadata gap from climate energy with bounded follow-up value",
+      "reusableLesson": "rival_theory_stronger"
+    },
+    {
+      "id": "GBE-SEED-031",
+      "source": "temporal",
+      "seedType": "failed_prediction",
+      "strengthScore": 85,
+      "selectedStrongSeed": false,
+      "summary": "failed prediction from temporal with bounded follow-up value",
+      "reusableLesson": "mechanism_unclear"
+    },
+    {
+      "id": "GBE-SEED-032",
+      "source": "repo_reproduction",
+      "seedType": "counterexample_survivor",
+      "strengthScore": 92,
+      "selectedStrongSeed": false,
+      "summary": "counterexample survivor from repo reproduction with bounded follow-up value",
+      "reusableLesson": "bounded_only_evidence"
+    },
+    {
+      "id": "GBE-SEED-033",
+      "source": "formal",
+      "seedType": "protocol_tension",
+      "strengthScore": 44,
+      "selectedStrongSeed": false,
+      "summary": "protocol tension from formal with bounded follow-up value",
+      "reusableLesson": "replay_caveats"
+    },
+    {
+      "id": "GBE-SEED-034",
+      "source": "nobel_readiness",
+      "seedType": "mechanism_confusion",
+      "strengthScore": 51,
+      "selectedStrongSeed": false,
+      "summary": "mechanism confusion from nobel readiness with bounded follow-up value",
+      "reusableLesson": "weak_external_inspectability"
+    },
+    {
+      "id": "GBE-SEED-035",
+      "source": "route_policy",
+      "seedType": "baseline_resistant_leftover",
+      "strengthScore": 58,
+      "selectedStrongSeed": false,
+      "summary": "baseline resistant leftover from route policy with bounded follow-up value",
+      "reusableLesson": "too_close_to_failed_prior"
+    },
+    {
+      "id": "GBE-SEED-036",
+      "source": "dataset_audit",
+      "seedType": "checked_refutation",
+      "strengthScore": 65,
+      "selectedStrongSeed": false,
+      "summary": "checked refutation from dataset audit with bounded follow-up value",
+      "reusableLesson": "low_scientific_value"
+    },
+    {
+      "id": "GBE-SEED-037",
+      "source": "benchmark_protocol",
+      "seedType": "holdout_caveat",
+      "strengthScore": 72,
+      "selectedStrongSeed": false,
+      "summary": "holdout caveat from benchmark protocol with bounded follow-up value",
+      "reusableLesson": "baseline_dominated"
+    },
+    {
+      "id": "GBE-SEED-038",
+      "source": "materials_hint",
+      "seedType": "partial_signal",
+      "strengthScore": 79,
+      "selectedStrongSeed": false,
+      "summary": "partial signal from materials hint with bounded follow-up value",
+      "reusableLesson": "counterexample_dense"
+    },
+    {
+      "id": "GBE-SEED-039",
+      "source": "astro_catalog",
+      "seedType": "replay_stable_anomaly",
+      "strengthScore": 86,
+      "selectedStrongSeed": false,
+      "summary": "replay stable anomaly from astro catalog with bounded follow-up value",
+      "reusableLesson": "known_or_trivial"
+    },
+    {
+      "id": "GBE-SEED-040",
+      "source": "climate_energy",
+      "seedType": "metadata_gap",
+      "strengthScore": 93,
+      "selectedStrongSeed": false,
+      "summary": "metadata gap from climate energy with bounded follow-up value",
+      "reusableLesson": "no_holdout_path"
+    },
+    {
+      "id": "GBE-SEED-041",
+      "source": "temporal",
+      "seedType": "failed_prediction",
+      "strengthScore": 45,
+      "selectedStrongSeed": false,
+      "summary": "failed prediction from temporal with bounded follow-up value",
+      "reusableLesson": "no_replay_path"
+    },
+    {
+      "id": "GBE-SEED-042",
+      "source": "repo_reproduction",
+      "seedType": "counterexample_survivor",
+      "strengthScore": 52,
+      "selectedStrongSeed": false,
+      "summary": "counterexample survivor from repo reproduction with bounded follow-up value",
+      "reusableLesson": "rival_theory_stronger"
+    },
+    {
+      "id": "GBE-SEED-043",
+      "source": "formal",
+      "seedType": "protocol_tension",
+      "strengthScore": 59,
+      "selectedStrongSeed": false,
+      "summary": "protocol tension from formal with bounded follow-up value",
+      "reusableLesson": "mechanism_unclear"
+    },
+    {
+      "id": "GBE-SEED-044",
+      "source": "nobel_readiness",
+      "seedType": "mechanism_confusion",
+      "strengthScore": 66,
+      "selectedStrongSeed": false,
+      "summary": "mechanism confusion from nobel readiness with bounded follow-up value",
+      "reusableLesson": "bounded_only_evidence"
+    },
+    {
+      "id": "GBE-SEED-045",
+      "source": "route_policy",
+      "seedType": "baseline_resistant_leftover",
+      "strengthScore": 73,
+      "selectedStrongSeed": false,
+      "summary": "baseline resistant leftover from route policy with bounded follow-up value",
+      "reusableLesson": "replay_caveats"
+    },
+    {
+      "id": "GBE-SEED-046",
+      "source": "dataset_audit",
+      "seedType": "checked_refutation",
+      "strengthScore": 80,
+      "selectedStrongSeed": false,
+      "summary": "checked refutation from dataset audit with bounded follow-up value",
+      "reusableLesson": "weak_external_inspectability"
+    },
+    {
+      "id": "GBE-SEED-047",
+      "source": "benchmark_protocol",
+      "seedType": "holdout_caveat",
+      "strengthScore": 87,
+      "selectedStrongSeed": false,
+      "summary": "holdout caveat from benchmark protocol with bounded follow-up value",
+      "reusableLesson": "too_close_to_failed_prior"
+    },
+    {
+      "id": "GBE-SEED-048",
+      "source": "materials_hint",
+      "seedType": "partial_signal",
+      "strengthScore": 94,
+      "selectedStrongSeed": false,
+      "summary": "partial signal from materials hint with bounded follow-up value",
+      "reusableLesson": "low_scientific_value"
+    },
+    {
+      "id": "GBE-SEED-049",
+      "source": "astro_catalog",
+      "seedType": "replay_stable_anomaly",
+      "strengthScore": 46,
+      "selectedStrongSeed": false,
+      "summary": "replay stable anomaly from astro catalog with bounded follow-up value",
+      "reusableLesson": "baseline_dominated"
+    },
+    {
+      "id": "GBE-SEED-050",
+      "source": "climate_energy",
+      "seedType": "metadata_gap",
+      "strengthScore": 53,
+      "selectedStrongSeed": false,
+      "summary": "metadata gap from climate energy with bounded follow-up value",
+      "reusableLesson": "counterexample_dense"
+    },
+    {
+      "id": "GBE-SEED-051",
+      "source": "temporal",
+      "seedType": "failed_prediction",
+      "strengthScore": 60,
+      "selectedStrongSeed": false,
+      "summary": "failed prediction from temporal with bounded follow-up value",
+      "reusableLesson": "known_or_trivial"
+    },
+    {
+      "id": "GBE-SEED-052",
+      "source": "repo_reproduction",
+      "seedType": "counterexample_survivor",
+      "strengthScore": 67,
+      "selectedStrongSeed": false,
+      "summary": "counterexample survivor from repo reproduction with bounded follow-up value",
+      "reusableLesson": "no_holdout_path"
+    },
+    {
+      "id": "GBE-SEED-053",
+      "source": "formal",
+      "seedType": "protocol_tension",
+      "strengthScore": 74,
+      "selectedStrongSeed": false,
+      "summary": "protocol tension from formal with bounded follow-up value",
+      "reusableLesson": "no_replay_path"
+    },
+    {
+      "id": "GBE-SEED-054",
+      "source": "nobel_readiness",
+      "seedType": "mechanism_confusion",
+      "strengthScore": 81,
+      "selectedStrongSeed": false,
+      "summary": "mechanism confusion from nobel readiness with bounded follow-up value",
+      "reusableLesson": "rival_theory_stronger"
+    },
+    {
+      "id": "GBE-SEED-055",
+      "source": "route_policy",
+      "seedType": "baseline_resistant_leftover",
+      "strengthScore": 88,
+      "selectedStrongSeed": false,
+      "summary": "baseline resistant leftover from route policy with bounded follow-up value",
+      "reusableLesson": "mechanism_unclear"
+    },
+    {
+      "id": "GBE-SEED-056",
+      "source": "dataset_audit",
+      "seedType": "checked_refutation",
+      "strengthScore": 40,
+      "selectedStrongSeed": false,
+      "summary": "checked refutation from dataset audit with bounded follow-up value",
+      "reusableLesson": "bounded_only_evidence"
+    },
+    {
+      "id": "GBE-SEED-057",
+      "source": "benchmark_protocol",
+      "seedType": "holdout_caveat",
+      "strengthScore": 47,
+      "selectedStrongSeed": false,
+      "summary": "holdout caveat from benchmark protocol with bounded follow-up value",
+      "reusableLesson": "replay_caveats"
+    },
+    {
+      "id": "GBE-SEED-058",
+      "source": "materials_hint",
+      "seedType": "partial_signal",
+      "strengthScore": 54,
+      "selectedStrongSeed": false,
+      "summary": "partial signal from materials hint with bounded follow-up value",
+      "reusableLesson": "weak_external_inspectability"
+    },
+    {
+      "id": "GBE-SEED-059",
+      "source": "astro_catalog",
+      "seedType": "replay_stable_anomaly",
+      "strengthScore": 61,
+      "selectedStrongSeed": false,
+      "summary": "replay stable anomaly from astro catalog with bounded follow-up value",
+      "reusableLesson": "too_close_to_failed_prior"
+    },
+    {
+      "id": "GBE-SEED-060",
+      "source": "climate_energy",
+      "seedType": "metadata_gap",
+      "strengthScore": 68,
+      "selectedStrongSeed": false,
+      "summary": "metadata gap from climate energy with bounded follow-up value",
+      "reusableLesson": "low_scientific_value"
+    },
+    {
+      "id": "GBE-SEED-061",
+      "source": "temporal",
+      "seedType": "failed_prediction",
+      "strengthScore": 75,
+      "selectedStrongSeed": false,
+      "summary": "failed prediction from temporal with bounded follow-up value",
+      "reusableLesson": "baseline_dominated"
+    },
+    {
+      "id": "GBE-SEED-062",
+      "source": "repo_reproduction",
+      "seedType": "counterexample_survivor",
+      "strengthScore": 82,
+      "selectedStrongSeed": false,
+      "summary": "counterexample survivor from repo reproduction with bounded follow-up value",
+      "reusableLesson": "counterexample_dense"
+    },
+    {
+      "id": "GBE-SEED-063",
+      "source": "formal",
+      "seedType": "protocol_tension",
+      "strengthScore": 89,
+      "selectedStrongSeed": false,
+      "summary": "protocol tension from formal with bounded follow-up value",
+      "reusableLesson": "known_or_trivial"
+    },
+    {
+      "id": "GBE-SEED-064",
+      "source": "nobel_readiness",
+      "seedType": "mechanism_confusion",
+      "strengthScore": 41,
+      "selectedStrongSeed": false,
+      "summary": "mechanism confusion from nobel readiness with bounded follow-up value",
+      "reusableLesson": "no_holdout_path"
+    },
+    {
+      "id": "GBE-SEED-065",
+      "source": "route_policy",
+      "seedType": "baseline_resistant_leftover",
+      "strengthScore": 48,
+      "selectedStrongSeed": false,
+      "summary": "baseline resistant leftover from route policy with bounded follow-up value",
+      "reusableLesson": "no_replay_path"
+    },
+    {
+      "id": "GBE-SEED-066",
+      "source": "dataset_audit",
+      "seedType": "checked_refutation",
+      "strengthScore": 55,
+      "selectedStrongSeed": false,
+      "summary": "checked refutation from dataset audit with bounded follow-up value",
+      "reusableLesson": "rival_theory_stronger"
+    },
+    {
+      "id": "GBE-SEED-067",
+      "source": "benchmark_protocol",
+      "seedType": "holdout_caveat",
+      "strengthScore": 62,
+      "selectedStrongSeed": false,
+      "summary": "holdout caveat from benchmark protocol with bounded follow-up value",
+      "reusableLesson": "mechanism_unclear"
+    },
+    {
+      "id": "GBE-SEED-068",
+      "source": "materials_hint",
+      "seedType": "partial_signal",
+      "strengthScore": 69,
+      "selectedStrongSeed": false,
+      "summary": "partial signal from materials hint with bounded follow-up value",
+      "reusableLesson": "bounded_only_evidence"
+    },
+    {
+      "id": "GBE-SEED-069",
+      "source": "astro_catalog",
+      "seedType": "replay_stable_anomaly",
+      "strengthScore": 76,
+      "selectedStrongSeed": false,
+      "summary": "replay stable anomaly from astro catalog with bounded follow-up value",
+      "reusableLesson": "replay_caveats"
+    },
+    {
+      "id": "GBE-SEED-070",
+      "source": "climate_energy",
+      "seedType": "metadata_gap",
+      "strengthScore": 83,
+      "selectedStrongSeed": false,
+      "summary": "metadata gap from climate energy with bounded follow-up value",
+      "reusableLesson": "weak_external_inspectability"
+    },
+    {
+      "id": "GBE-SEED-071",
+      "source": "temporal",
+      "seedType": "failed_prediction",
+      "strengthScore": 90,
+      "selectedStrongSeed": false,
+      "summary": "failed prediction from temporal with bounded follow-up value",
+      "reusableLesson": "too_close_to_failed_prior"
+    },
+    {
+      "id": "GBE-SEED-072",
+      "source": "repo_reproduction",
+      "seedType": "counterexample_survivor",
+      "strengthScore": 42,
+      "selectedStrongSeed": false,
+      "summary": "counterexample survivor from repo reproduction with bounded follow-up value",
+      "reusableLesson": "low_scientific_value"
+    },
+    {
+      "id": "GBE-SEED-073",
+      "source": "formal",
+      "seedType": "protocol_tension",
+      "strengthScore": 49,
+      "selectedStrongSeed": false,
+      "summary": "protocol tension from formal with bounded follow-up value",
+      "reusableLesson": "baseline_dominated"
+    },
+    {
+      "id": "GBE-SEED-074",
+      "source": "nobel_readiness",
+      "seedType": "mechanism_confusion",
+      "strengthScore": 56,
+      "selectedStrongSeed": false,
+      "summary": "mechanism confusion from nobel readiness with bounded follow-up value",
+      "reusableLesson": "counterexample_dense"
+    },
+    {
+      "id": "GBE-SEED-075",
+      "source": "route_policy",
+      "seedType": "baseline_resistant_leftover",
+      "strengthScore": 63,
+      "selectedStrongSeed": false,
+      "summary": "baseline resistant leftover from route policy with bounded follow-up value",
+      "reusableLesson": "known_or_trivial"
+    },
+    {
+      "id": "GBE-SEED-076",
+      "source": "dataset_audit",
+      "seedType": "checked_refutation",
+      "strengthScore": 70,
+      "selectedStrongSeed": false,
+      "summary": "checked refutation from dataset audit with bounded follow-up value",
+      "reusableLesson": "no_holdout_path"
+    },
+    {
+      "id": "GBE-SEED-077",
+      "source": "benchmark_protocol",
+      "seedType": "holdout_caveat",
+      "strengthScore": 77,
+      "selectedStrongSeed": false,
+      "summary": "holdout caveat from benchmark protocol with bounded follow-up value",
+      "reusableLesson": "no_replay_path"
+    },
+    {
+      "id": "GBE-SEED-078",
+      "source": "materials_hint",
+      "seedType": "partial_signal",
+      "strengthScore": 84,
+      "selectedStrongSeed": false,
+      "summary": "partial signal from materials hint with bounded follow-up value",
+      "reusableLesson": "rival_theory_stronger"
+    },
+    {
+      "id": "GBE-SEED-079",
+      "source": "astro_catalog",
+      "seedType": "replay_stable_anomaly",
+      "strengthScore": 91,
+      "selectedStrongSeed": false,
+      "summary": "replay stable anomaly from astro catalog with bounded follow-up value",
+      "reusableLesson": "mechanism_unclear"
+    },
+    {
+      "id": "GBE-SEED-080",
+      "source": "climate_energy",
+      "seedType": "metadata_gap",
+      "strengthScore": 43,
+      "selectedStrongSeed": false,
+      "summary": "metadata gap from climate energy with bounded follow-up value",
+      "reusableLesson": "bounded_only_evidence"
+    },
+    {
+      "id": "GBE-SEED-081",
+      "source": "temporal",
+      "seedType": "failed_prediction",
+      "strengthScore": 50,
+      "selectedStrongSeed": false,
+      "summary": "failed prediction from temporal with bounded follow-up value",
+      "reusableLesson": "replay_caveats"
+    },
+    {
+      "id": "GBE-SEED-082",
+      "source": "repo_reproduction",
+      "seedType": "counterexample_survivor",
+      "strengthScore": 57,
+      "selectedStrongSeed": false,
+      "summary": "counterexample survivor from repo reproduction with bounded follow-up value",
+      "reusableLesson": "weak_external_inspectability"
+    },
+    {
+      "id": "GBE-SEED-083",
+      "source": "formal",
+      "seedType": "protocol_tension",
+      "strengthScore": 64,
+      "selectedStrongSeed": false,
+      "summary": "protocol tension from formal with bounded follow-up value",
+      "reusableLesson": "too_close_to_failed_prior"
+    },
+    {
+      "id": "GBE-SEED-084",
+      "source": "nobel_readiness",
+      "seedType": "mechanism_confusion",
+      "strengthScore": 71,
+      "selectedStrongSeed": false,
+      "summary": "mechanism confusion from nobel readiness with bounded follow-up value",
+      "reusableLesson": "low_scientific_value"
+    },
+    {
+      "id": "GBE-SEED-085",
+      "source": "route_policy",
+      "seedType": "baseline_resistant_leftover",
+      "strengthScore": 78,
+      "selectedStrongSeed": false,
+      "summary": "baseline resistant leftover from route policy with bounded follow-up value",
+      "reusableLesson": "baseline_dominated"
+    },
+    {
+      "id": "GBE-SEED-086",
+      "source": "dataset_audit",
+      "seedType": "checked_refutation",
+      "strengthScore": 85,
+      "selectedStrongSeed": false,
+      "summary": "checked refutation from dataset audit with bounded follow-up value",
+      "reusableLesson": "counterexample_dense"
+    },
+    {
+      "id": "GBE-SEED-087",
+      "source": "benchmark_protocol",
+      "seedType": "holdout_caveat",
+      "strengthScore": 92,
+      "selectedStrongSeed": false,
+      "summary": "holdout caveat from benchmark protocol with bounded follow-up value",
+      "reusableLesson": "known_or_trivial"
+    },
+    {
+      "id": "GBE-SEED-088",
+      "source": "materials_hint",
+      "seedType": "partial_signal",
+      "strengthScore": 44,
+      "selectedStrongSeed": false,
+      "summary": "partial signal from materials hint with bounded follow-up value",
+      "reusableLesson": "no_holdout_path"
+    },
+    {
+      "id": "GBE-SEED-089",
+      "source": "astro_catalog",
+      "seedType": "replay_stable_anomaly",
+      "strengthScore": 51,
+      "selectedStrongSeed": false,
+      "summary": "replay stable anomaly from astro catalog with bounded follow-up value",
+      "reusableLesson": "no_replay_path"
+    },
+    {
+      "id": "GBE-SEED-090",
+      "source": "climate_energy",
+      "seedType": "metadata_gap",
+      "strengthScore": 58,
+      "selectedStrongSeed": false,
+      "summary": "metadata gap from climate energy with bounded follow-up value",
+      "reusableLesson": "rival_theory_stronger"
+    },
+    {
+      "id": "GBE-SEED-091",
+      "source": "temporal",
+      "seedType": "failed_prediction",
+      "strengthScore": 65,
+      "selectedStrongSeed": false,
+      "summary": "failed prediction from temporal with bounded follow-up value",
+      "reusableLesson": "mechanism_unclear"
+    },
+    {
+      "id": "GBE-SEED-092",
+      "source": "repo_reproduction",
+      "seedType": "counterexample_survivor",
+      "strengthScore": 72,
+      "selectedStrongSeed": false,
+      "summary": "counterexample survivor from repo reproduction with bounded follow-up value",
+      "reusableLesson": "bounded_only_evidence"
+    },
+    {
+      "id": "GBE-SEED-093",
+      "source": "formal",
+      "seedType": "protocol_tension",
+      "strengthScore": 79,
+      "selectedStrongSeed": false,
+      "summary": "protocol tension from formal with bounded follow-up value",
+      "reusableLesson": "replay_caveats"
+    },
+    {
+      "id": "GBE-SEED-094",
+      "source": "nobel_readiness",
+      "seedType": "mechanism_confusion",
+      "strengthScore": 86,
+      "selectedStrongSeed": false,
+      "summary": "mechanism confusion from nobel readiness with bounded follow-up value",
+      "reusableLesson": "weak_external_inspectability"
+    },
+    {
+      "id": "GBE-SEED-095",
+      "source": "route_policy",
+      "seedType": "baseline_resistant_leftover",
+      "strengthScore": 93,
+      "selectedStrongSeed": false,
+      "summary": "baseline resistant leftover from route policy with bounded follow-up value",
+      "reusableLesson": "too_close_to_failed_prior"
+    },
+    {
+      "id": "GBE-SEED-096",
+      "source": "dataset_audit",
+      "seedType": "checked_refutation",
+      "strengthScore": 45,
+      "selectedStrongSeed": false,
+      "summary": "checked refutation from dataset audit with bounded follow-up value",
+      "reusableLesson": "low_scientific_value"
+    },
+    {
+      "id": "GBE-SEED-097",
+      "source": "benchmark_protocol",
+      "seedType": "holdout_caveat",
+      "strengthScore": 52,
+      "selectedStrongSeed": false,
+      "summary": "holdout caveat from benchmark protocol with bounded follow-up value",
+      "reusableLesson": "baseline_dominated"
+    },
+    {
+      "id": "GBE-SEED-098",
+      "source": "materials_hint",
+      "seedType": "partial_signal",
+      "strengthScore": 59,
+      "selectedStrongSeed": false,
+      "summary": "partial signal from materials hint with bounded follow-up value",
+      "reusableLesson": "counterexample_dense"
+    },
+    {
+      "id": "GBE-SEED-099",
+      "source": "astro_catalog",
+      "seedType": "replay_stable_anomaly",
+      "strengthScore": 66,
+      "selectedStrongSeed": false,
+      "summary": "replay stable anomaly from astro catalog with bounded follow-up value",
+      "reusableLesson": "known_or_trivial"
+    },
+    {
+      "id": "GBE-SEED-100",
+      "source": "climate_energy",
+      "seedType": "metadata_gap",
+      "strengthScore": 73,
+      "selectedStrongSeed": false,
+      "summary": "metadata gap from climate energy with bounded follow-up value",
+      "reusableLesson": "no_holdout_path"
+    }
+  ],
+  "evidenceHash": "0c2f9aee44fe798826e2809b4821248d4eccb02072f4d653d9524657827b5fb1"
+}

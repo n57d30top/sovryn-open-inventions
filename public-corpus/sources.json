@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-07T15:28:28.278Z",
+  "generatedAt": "2026-05-07T15:55:57.358Z",
   "sources": [
     {
       "resultSlug": "batch10-toolchain-kill-week",
@@ -1023,6 +1023,18 @@
       "publicOnly": true
     },
     {
+      "resultSlug": "gbe-stage04-fresh-external-anomaly-scan",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "gbe-stage04-fresh-external-anomaly-scan",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
       "resultSlug": "patch-risk-auditor",
       "sourceKind": "external_package_or_tool",
       "name": "acorn",
@@ -1197,5 +1209,5 @@
       "publicOnly": true
     }
   ],
-  "evidenceHash": "e429ecebdb3f5b0a9727a0255e548486b39dea323a4e9322690fcb9c1996d132"
+  "evidenceHash": "3c18268f414b2c9b7d763081326edf8747315ab6ecc57dc68beb82c08e1838d2"
 }
