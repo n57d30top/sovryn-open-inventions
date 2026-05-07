@@ -1,0 +1,9 @@
+{
+  "slug": "temporal-mech-stage01-label-confusion-forensics",
+  "resultKind": "temporal_label_confusion_forensics",
+  "publicCorpus": true,
+  "noRawLogs": true,
+  "noLocalPaths": true,
+  "noSecrets": true,
+  "noOverclaim": true
+}

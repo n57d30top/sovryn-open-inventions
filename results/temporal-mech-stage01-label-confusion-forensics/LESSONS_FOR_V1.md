@@ -1,0 +1,5 @@
+- Require rival mechanism panel before final label
+- Require class-specific falsifier
+- Downgrade close margins to inconclusive
+- Treat replay caveats as label evidence
+- Do not promote true-fragility labels without baseline and artifact separation

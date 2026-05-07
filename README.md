@@ -393,3 +393,10 @@ auditability; newer version-group entries supersede earlier iterations.
 ## Autopublish
 
 Results in this corpus were published automatically only after automated quality, replay, safety, reliability, public-hygiene, and publication dry-run gates. Human interpretation is still required before operational use.
+- [Label Confusion Forensics](results/temporal-mech-stage01-label-confusion-forensics/) - good, autopublished, temporal-mech-stage01-label-confusion-forensics, mechanism-separable temporal evaluation instrument
+- [Mechanism Panel Design](results/temporal-mech-stage02-mechanism-panel-design/) - good, autopublished, temporal-mech-stage02-mechanism-panel-design, mechanism-separable temporal evaluation instrument
+- [Product Implementation](results/temporal-mech-stage03-product-implementation/) - good, autopublished, temporal-mech-stage03-product-implementation, mechanism-separable temporal evaluation instrument
+- [Class-Specific Falsifier Design](results/temporal-mech-stage04-class-specific-falsifier-design/) - good, autopublished, temporal-mech-stage04-class-specific-falsifier-design, mechanism-separable temporal evaluation instrument
+- [Calibration on Known Cases](results/temporal-mech-stage05-calibration-on-known-cases/) - good, autopublished, temporal-mech-stage05-calibration-on-known-cases, mechanism-separable temporal evaluation instrument
+- [Confusion Reduction Experiment](results/temporal-mech-stage06-confusion-reduction-experiment/) - good, autopublished, temporal-mech-stage06-confusion-reduction-experiment, mechanism-separable temporal evaluation instrument
+- [Blind Mechanism Prediction Freeze](results/temporal-mech-stage07-blind-mechanism-prediction-freeze/) - good, autopublished, temporal-mech-stage07-blind-mechanism-prediction-freeze, mechanism-separable temporal evaluation instrument

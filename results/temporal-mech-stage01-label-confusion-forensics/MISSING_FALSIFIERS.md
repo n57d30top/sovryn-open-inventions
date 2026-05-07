@@ -1,0 +1,5 @@
+- horizon invariance falsifier
+- strong baseline dominance falsifier
+- window/horizon separation falsifier
+- shuffle/leakage separation falsifier
+- fresh replay stability falsifier

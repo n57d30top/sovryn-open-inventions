@@ -1,0 +1,5 @@
+- sovryn temporal mechanism-panel --target <target-id> --json
+- sovryn temporal compare-mechanisms --target <target-id> --json
+- sovryn temporal calibrate-mechanisms --json
+- sovryn temporal blind-mechanism-test --json
+- sovryn temporal mechanism-audit --json

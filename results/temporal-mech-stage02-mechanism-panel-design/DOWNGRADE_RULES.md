@@ -1,0 +1,10 @@
+- downgrade true_temporal_fragility_candidate when a rival panel explains the same signal with fewer unresolved caveats
+- downgrade baseline_dominated when a rival panel explains the same signal with fewer unresolved caveats
+- downgrade random_split_artifact when a rival panel explains the same signal with fewer unresolved caveats
+- downgrade horizon_sensitive when a rival panel explains the same signal with fewer unresolved caveats
+- downgrade window_sensitive when a rival panel explains the same signal with fewer unresolved caveats
+- downgrade leakage_artifact when a rival panel explains the same signal with fewer unresolved caveats
+- downgrade shuffled_time_artifact when a rival panel explains the same signal with fewer unresolved caveats
+- downgrade replay_unstable when a rival panel explains the same signal with fewer unresolved caveats
+- downgrade low_risk_control when a rival panel explains the same signal with fewer unresolved caveats
+- downgrade inconclusive when a rival panel explains the same signal with fewer unresolved caveats
