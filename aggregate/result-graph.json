@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-07T16:55:33.080Z",
+  "generatedAt": "2026-05-07T18:18:36.089Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1285,6 +1285,36 @@
       "kind": "result",
       "label": "Corpus Deduplication for Defensive Publications",
       "domain": "open-invention-corpus"
+    },
+    {
+      "id": "result:daemon-stage01-discovery-daemon-implementation",
+      "kind": "result",
+      "label": "Discovery Daemon Implementation",
+      "domain": "Autonomous Discovery Daemon - Silent Until Fund"
+    },
+    {
+      "id": "result:daemon-stage02-fund-gate-definition",
+      "kind": "result",
+      "label": "Fund Gate Definition",
+      "domain": "Autonomous Discovery Daemon - Silent Until Fund"
+    },
+    {
+      "id": "result:daemon-stage03-silent-search-loop-smoke",
+      "kind": "result",
+      "label": "Silent Search Loop Smoke",
+      "domain": "Autonomous Discovery Daemon - Silent Until Fund"
+    },
+    {
+      "id": "result:daemon-stage04-candidate-graveyard-policy",
+      "kind": "result",
+      "label": "Candidate Graveyard Policy",
+      "domain": "Autonomous Discovery Daemon - Silent Until Fund"
+    },
+    {
+      "id": "result:daemon-stage05-autonomous-search-state",
+      "kind": "result",
+      "label": "Autonomous Search State",
+      "domain": "Autonomous Discovery Daemon - Silent Until Fund"
     },
     {
       "id": "result:discovery-promising-unproven-method",
@@ -3866,6 +3896,11 @@
       "label": "open-invention-corpus"
     },
     {
+      "id": "domain:Autonomous Discovery Daemon - Silent Until Fund",
+      "kind": "domain",
+      "label": "Autonomous Discovery Daemon - Silent Until Fund"
+    },
+    {
       "id": "domain:energy-data-quality",
       "kind": "domain",
       "label": "energy-data-quality"
@@ -5960,6 +5995,31 @@
     {
       "source": "result:corpus-deduplication",
       "target": "domain:open-invention-corpus",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:daemon-stage01-discovery-daemon-implementation",
+      "target": "domain:Autonomous Discovery Daemon - Silent Until Fund",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:daemon-stage02-fund-gate-definition",
+      "target": "domain:Autonomous Discovery Daemon - Silent Until Fund",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:daemon-stage03-silent-search-loop-smoke",
+      "target": "domain:Autonomous Discovery Daemon - Silent Until Fund",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:daemon-stage04-candidate-graveyard-policy",
+      "target": "domain:Autonomous Discovery Daemon - Silent Until Fund",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:daemon-stage05-autonomous-search-state",
+      "target": "domain:Autonomous Discovery Daemon - Silent Until Fund",
       "relation": "belongs_to_domain"
     },
     {
@@ -8138,5 +8198,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "109192a5ada2aa86d964641d25ae17a42aa4a52345f2ce086d7a2b4b7cdcb972"
+  "evidenceHash": "e3878a81add985b5840c2b26f306ddc2d1e7eda4bb25be25e2c9150280eb50fe"
 }

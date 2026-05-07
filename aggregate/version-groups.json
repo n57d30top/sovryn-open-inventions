@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T16:55:33.080Z",
+  "updatedAt": "2026-05-07T18:18:36.089Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -1474,6 +1474,41 @@
       "latestSlug": "corpus-deduplication",
       "resultSlugs": [
         "corpus-deduplication"
+      ]
+    },
+    {
+      "versionGroup": "daemon-stage01-discovery-daemon-implementation",
+      "latestSlug": "daemon-stage01-discovery-daemon-implementation",
+      "resultSlugs": [
+        "daemon-stage01-discovery-daemon-implementation"
+      ]
+    },
+    {
+      "versionGroup": "daemon-stage02-fund-gate-definition",
+      "latestSlug": "daemon-stage02-fund-gate-definition",
+      "resultSlugs": [
+        "daemon-stage02-fund-gate-definition"
+      ]
+    },
+    {
+      "versionGroup": "daemon-stage03-silent-search-loop-smoke",
+      "latestSlug": "daemon-stage03-silent-search-loop-smoke",
+      "resultSlugs": [
+        "daemon-stage03-silent-search-loop-smoke"
+      ]
+    },
+    {
+      "versionGroup": "daemon-stage04-candidate-graveyard-policy",
+      "latestSlug": "daemon-stage04-candidate-graveyard-policy",
+      "resultSlugs": [
+        "daemon-stage04-candidate-graveyard-policy"
+      ]
+    },
+    {
+      "versionGroup": "daemon-stage05-autonomous-search-state",
+      "latestSlug": "daemon-stage05-autonomous-search-state",
+      "resultSlugs": [
+        "daemon-stage05-autonomous-search-state"
       ]
     },
     {
@@ -4175,5 +4210,5 @@
       ]
     }
   ],
-  "evidenceHash": "2cd4818295d6fdf7acad0e6b4e1e7cb141de389b33f3d75dc47a69e5d4b3b10c"
+  "evidenceHash": "4742015d40acd9941c42bccf974cf99d50d8f34a0ba54c2b9a3d7e584087db71"
 }

@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "daemon-stage03-silent-search-loop-smoke",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "specific_public_evidence",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "fund_gate_not_passed_continue_searching",
+    "lifecycle": "autopublished",
+    "version": "daemon-stage03-silent-search-loop-smoke",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "7217575e06afbbec6e86d61d035572bd4addf8435e72beedb999afc78d0b294b"
+}

@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-07T16:55:33.080Z",
+  "generatedAt": "2026-05-07T18:18:36.089Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 597,
+    "good": 602,
     "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 577,
+    "autopublished": 582,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -3009,6 +3009,76 @@
       "reproducibilityScore": 100,
       "publicationSafetyScore": 90,
       "specificityScore": 60
+    },
+    {
+      "slug": "daemon-stage01-discovery-daemon-implementation",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "daemon-stage01-discovery-daemon-implementation",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 99,
+      "specificityScore": 95
+    },
+    {
+      "slug": "daemon-stage02-fund-gate-definition",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "daemon-stage02-fund-gate-definition",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 99,
+      "specificityScore": 95
+    },
+    {
+      "slug": "daemon-stage03-silent-search-loop-smoke",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "daemon-stage03-silent-search-loop-smoke",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 99,
+      "specificityScore": 95
+    },
+    {
+      "slug": "daemon-stage04-candidate-graveyard-policy",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "daemon-stage04-candidate-graveyard-policy",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 99,
+      "specificityScore": 95
+    },
+    {
+      "slug": "daemon-stage05-autonomous-search-state",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "daemon-stage05-autonomous-search-state",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 90,
+      "evidenceStrengthScore": 88,
+      "reproducibilityScore": 90,
+      "publicationSafetyScore": 99,
+      "specificityScore": 95
     },
     {
       "slug": "discovery-promising-unproven-method",
@@ -8527,5 +8597,5 @@
       "specificityScore": 94
     }
   ],
-  "evidenceHash": "cb83432ee722fdad3493dc3bdde5834a512a3dc711bd869c51714b17b1aa1208"
+  "evidenceHash": "b168a639dd0ea2efc7f864e45911d2e8178023674f3476a5534fea0d2e09e6de"
 }

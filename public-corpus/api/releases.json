@@ -1928,6 +1928,51 @@
       "pushed": false
     },
     {
+      "slug": "daemon-stage01-discovery-daemon-implementation",
+      "path": "results/daemon-stage01-discovery-daemon-implementation",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "daemon-stage01-discovery-daemon-implementation",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "daemon-stage02-fund-gate-definition",
+      "path": "results/daemon-stage02-fund-gate-definition",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "daemon-stage02-fund-gate-definition",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "daemon-stage03-silent-search-loop-smoke",
+      "path": "results/daemon-stage03-silent-search-loop-smoke",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "daemon-stage03-silent-search-loop-smoke",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "daemon-stage04-candidate-graveyard-policy",
+      "path": "results/daemon-stage04-candidate-graveyard-policy",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "daemon-stage04-candidate-graveyard-policy",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "daemon-stage05-autonomous-search-state",
+      "path": "results/daemon-stage05-autonomous-search-state",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "daemon-stage05-autonomous-search-state",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "discovery-promising-unproven-method",
       "path": "results/discovery-promising-unproven-method",
       "status": "promising_but_unproven",
@@ -5474,5 +5519,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "958c885f60ba13b82995f72ee921d676cf8b123c6b461bf7b9b61c95c7de22b0"
+  "evidenceHash": "c07d19e356a0df30d8fb1e2b5736c32e1187a3c16f4afd8181e38d5374bab67e"
 }

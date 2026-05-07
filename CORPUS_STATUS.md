@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 608
+Results: 613
 
 ## Lifecycle Counts
 
-- autopublished: 577
+- autopublished: 582
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -222,6 +222,11 @@ Results: 608
 - chemistry-data-quality-self-built-lab-study: latest chemistry-data-quality-self-built-lab-study-v2; chemistry-data-quality-self-built-lab-study, chemistry-data-quality-self-built-lab-study-v2
 - chemistry-record-auditor-tool: latest chemistry-record-auditor-tool-v2-v3; chemistry-record-auditor-tool, chemistry-record-auditor-tool-v2, chemistry-record-auditor-tool-v2-v2, chemistry-record-auditor-tool-v2-v3
 - corpus-deduplication: latest corpus-deduplication; corpus-deduplication
+- daemon-stage01-discovery-daemon-implementation: latest daemon-stage01-discovery-daemon-implementation; daemon-stage01-discovery-daemon-implementation
+- daemon-stage02-fund-gate-definition: latest daemon-stage02-fund-gate-definition; daemon-stage02-fund-gate-definition
+- daemon-stage03-silent-search-loop-smoke: latest daemon-stage03-silent-search-loop-smoke; daemon-stage03-silent-search-loop-smoke
+- daemon-stage04-candidate-graveyard-policy: latest daemon-stage04-candidate-graveyard-policy; daemon-stage04-candidate-graveyard-policy
+- daemon-stage05-autonomous-search-state: latest daemon-stage05-autonomous-search-state; daemon-stage05-autonomous-search-state
 - discovery-promising-unproven-method: latest discovery-promising-unproven-method; discovery-promising-unproven-method
 - energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-: latest energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe; energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-public, energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe
 - energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthet: latest energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene; energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene

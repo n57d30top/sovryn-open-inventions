@@ -1320,6 +1320,31 @@
       "customTool": null
     },
     {
+      "slug": "daemon-stage01-discovery-daemon-implementation",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "daemon-stage02-fund-gate-definition",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "daemon-stage03-silent-search-loop-smoke",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "daemon-stage04-candidate-graveyard-policy",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "daemon-stage05-autonomous-search-state",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "discovery-promising-unproven-method",
       "externalPackages": [
         "numpy"
@@ -3354,5 +3379,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "f8ce15cc4d3900f2e5cfac3c623d69c795fc03ad9eca20b66a22fec5ba6640a5"
+  "evidenceHash": "8d1300b5dfc189ed541827f5d6e6cb2d52eed5dbda890a108db84be436494fd1"
 }

@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-07T16:55:33.080Z",
+  "generatedAt": "2026-05-07T18:18:36.089Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -3852,6 +3852,96 @@
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "needs_revision",
+      "showcaseRank": null
+    },
+    {
+      "slug": "daemon-stage01-discovery-daemon-implementation",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "fund_gate_not_passed_continue_searching",
+        "lifecycle": "autopublished",
+        "version": "daemon-stage01-discovery-daemon-implementation",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "daemon-stage02-fund-gate-definition",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "fund_gate_not_passed_continue_searching",
+        "lifecycle": "autopublished",
+        "version": "daemon-stage02-fund-gate-definition",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "daemon-stage03-silent-search-loop-smoke",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "fund_gate_not_passed_continue_searching",
+        "lifecycle": "autopublished",
+        "version": "daemon-stage03-silent-search-loop-smoke",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "daemon-stage04-candidate-graveyard-policy",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "fund_gate_not_passed_continue_searching",
+        "lifecycle": "autopublished",
+        "version": "daemon-stage04-candidate-graveyard-policy",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "daemon-stage05-autonomous-search-state",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "fund_gate_not_passed_continue_searching",
+        "lifecycle": "autopublished",
+        "version": "daemon-stage05-autonomous-search-state",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
       "showcaseRank": null
     },
     {
@@ -10947,5 +11037,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "0dbcb8947f5d90474c835ccd155c31263045c3057c78204f721fb70a96dfb42b"
+  "evidenceHash": "3a74de681893b6c6d99c0f5f4afe5fc0c7a610ff5446a9510cf36c82873e2db0"
 }

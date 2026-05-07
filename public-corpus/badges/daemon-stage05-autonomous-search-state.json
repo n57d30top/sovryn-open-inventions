@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "daemon-stage05-autonomous-search-state",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "specific_public_evidence",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "fund_gate_not_passed_continue_searching",
+    "lifecycle": "autopublished",
+    "version": "daemon-stage05-autonomous-search-state",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "5c08f83078225f7eb1fc878711a10c7b9600b49541c502bb548a28a4935af5eb"
+}

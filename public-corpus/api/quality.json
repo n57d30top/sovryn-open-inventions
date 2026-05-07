@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 597,
+    "good": 602,
     "reviewable": 6
   },
   "results": [
@@ -1075,6 +1075,31 @@
       "slug": "corpus-deduplication",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
+    },
+    {
+      "slug": "daemon-stage01-discovery-daemon-implementation",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "daemon-stage02-fund-gate-definition",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "daemon-stage03-silent-search-loop-smoke",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "daemon-stage04-candidate-graveyard-policy",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "daemon-stage05-autonomous-search-state",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
     },
     {
       "slug": "discovery-promising-unproven-method",
@@ -3047,5 +3072,5 @@
       "releaseReadinessScore": 86
     }
   ],
-  "evidenceHash": "cb83432ee722fdad3493dc3bdde5834a512a3dc711bd869c51714b17b1aa1208"
+  "evidenceHash": "b168a639dd0ea2efc7f864e45911d2e8178023674f3476a5534fea0d2e09e6de"
 }
