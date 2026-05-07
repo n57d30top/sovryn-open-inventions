@@ -1,0 +1,21 @@
+{
+  "kind": "autopublish_record",
+  "slug": "proof-stage09-refutation-search",
+  "title": "Refutation Search",
+  "resultKind": "proof_refutation_search",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "antiTemplateStatus": "specific_public_evidence",
+  "releaseReadinessScore": 87,
+  "evidenceStrengthScore": 86,
+  "reproducibilityScore": 90,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 94,
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "pushed": false,
+  "productCommit": "e5b76b4",
+  "evidenceHash": "8a65075133c2e41d81e646aa5e988820546c3fd69d1cfdf017db53e87a501beb"
+}

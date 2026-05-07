@@ -1,0 +1,21 @@
+{
+  "kind": "autopublish_record",
+  "slug": "proof-stage11-proof-replay",
+  "title": "Proof Replay",
+  "resultKind": "proof_replay",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "antiTemplateStatus": "specific_public_evidence",
+  "releaseReadinessScore": 87,
+  "evidenceStrengthScore": 86,
+  "reproducibilityScore": 90,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 94,
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "pushed": false,
+  "productCommit": "e5b76b4",
+  "evidenceHash": "32b97e5c865b3119c7c900613bbc89d26e89755e5cc07bef6213cfd7aacb10c4"
+}

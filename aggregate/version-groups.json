@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T10:23:33.341Z",
+  "updatedAt": "2026-05-07T10:47:32.101Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -2053,6 +2053,118 @@
       ]
     },
     {
+      "versionGroup": "proof-stage01-proof-route-design",
+      "latestSlug": "proof-stage01-proof-route-design",
+      "resultSlugs": [
+        "proof-stage01-proof-route-design"
+      ]
+    },
+    {
+      "versionGroup": "proof-stage02-product-implementation",
+      "latestSlug": "proof-stage02-product-implementation",
+      "resultSlugs": [
+        "proof-stage02-product-implementation"
+      ]
+    },
+    {
+      "versionGroup": "proof-stage03-proof-tool-doctor",
+      "latestSlug": "proof-stage03-proof-tool-doctor",
+      "resultSlugs": [
+        "proof-stage03-proof-tool-doctor"
+      ]
+    },
+    {
+      "versionGroup": "proof-stage04-formalization-target-selection",
+      "latestSlug": "proof-stage04-formalization-target-selection",
+      "resultSlugs": [
+        "proof-stage04-formalization-target-selection"
+      ]
+    },
+    {
+      "versionGroup": "proof-stage05-formal-statement-building",
+      "latestSlug": "proof-stage05-formal-statement-building",
+      "resultSlugs": [
+        "proof-stage05-formal-statement-building"
+      ]
+    },
+    {
+      "versionGroup": "proof-stage06-lemma-mining",
+      "latestSlug": "proof-stage06-lemma-mining",
+      "resultSlugs": [
+        "proof-stage06-lemma-mining"
+      ]
+    },
+    {
+      "versionGroup": "proof-stage07-proof-attempt-wave1",
+      "latestSlug": "proof-stage07-proof-attempt-wave1",
+      "resultSlugs": [
+        "proof-stage07-proof-attempt-wave1"
+      ]
+    },
+    {
+      "versionGroup": "proof-stage08-proof-attempt-wave2",
+      "latestSlug": "proof-stage08-proof-attempt-wave2",
+      "resultSlugs": [
+        "proof-stage08-proof-attempt-wave2"
+      ]
+    },
+    {
+      "versionGroup": "proof-stage09-refutation-search",
+      "latestSlug": "proof-stage09-refutation-search",
+      "resultSlugs": [
+        "proof-stage09-refutation-search"
+      ]
+    },
+    {
+      "versionGroup": "proof-stage10-bounded-to-formal-bridge",
+      "latestSlug": "proof-stage10-bounded-to-formal-bridge",
+      "resultSlugs": [
+        "proof-stage10-bounded-to-formal-bridge"
+      ]
+    },
+    {
+      "versionGroup": "proof-stage11-proof-replay",
+      "latestSlug": "proof-stage11-proof-replay",
+      "resultSlugs": [
+        "proof-stage11-proof-replay"
+      ]
+    },
+    {
+      "versionGroup": "proof-stage12-proof-failure-atlas",
+      "latestSlug": "proof-stage12-proof-failure-atlas",
+      "resultSlugs": [
+        "proof-stage12-proof-failure-atlas"
+      ]
+    },
+    {
+      "versionGroup": "proof-stage13-adversarial-proof-kill-week",
+      "latestSlug": "proof-stage13-adversarial-proof-kill-week",
+      "resultSlugs": [
+        "proof-stage13-adversarial-proof-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "proof-stage14-formal-conjecture-decision",
+      "latestSlug": "proof-stage14-formal-conjecture-decision",
+      "resultSlugs": [
+        "proof-stage14-formal-conjecture-decision"
+      ]
+    },
+    {
+      "versionGroup": "proof-stage15-paper-or-failure-package",
+      "latestSlug": "proof-stage15-paper-or-failure-package",
+      "resultSlugs": [
+        "proof-stage15-paper-or-failure-package"
+      ]
+    },
+    {
+      "versionGroup": "proof-stage16-next-frontier",
+      "latestSlug": "proof-stage16-next-frontier",
+      "resultSlugs": [
+        "proof-stage16-next-frontier"
+      ]
+    },
+    {
       "versionGroup": "reality-grade-autonomous-science-trial",
       "latestSlug": "reality-grade-autonomous-science-trial",
       "resultSlugs": [
@@ -2901,5 +3013,5 @@
       ]
     }
   ],
-  "evidenceHash": "b604328b250c1d03cbc28e096fcc86208f7955d3881acfd416e646a2f3042b9c"
+  "evidenceHash": "4aa05a68c37644415d39c6871dfda0f8d138441b28cff287b481d1b0edf05dcf"
 }

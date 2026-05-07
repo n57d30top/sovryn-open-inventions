@@ -1,0 +1,42 @@
+# Attack Matrix
+
+- attack-01: downgraded or narrowed proof-route component
+- attack-02: downgraded or narrowed proof-route component
+- attack-03: downgraded or narrowed proof-route component
+- attack-04: downgraded or narrowed proof-route component
+- attack-05: downgraded or narrowed proof-route component
+- attack-06: downgraded or narrowed proof-route component
+- attack-07: downgraded or narrowed proof-route component
+- attack-08: downgraded or narrowed proof-route component
+- attack-09: downgraded or narrowed proof-route component
+- attack-10: downgraded or narrowed proof-route component
+- attack-11: preserved bounded or refutation component
+- attack-12: preserved bounded or refutation component
+- attack-13: preserved bounded or refutation component
+- attack-14: preserved bounded or refutation component
+- attack-15: preserved bounded or refutation component
+- attack-16: preserved bounded or refutation component
+- attack-17: preserved bounded or refutation component
+- attack-18: preserved bounded or refutation component
+- attack-19: preserved bounded or refutation component
+- attack-20: preserved bounded or refutation component
+- attack-21: reviewed without promotion
+- attack-22: reviewed without promotion
+- attack-23: reviewed without promotion
+- attack-24: reviewed without promotion
+- attack-25: reviewed without promotion
+- attack-26: reviewed without promotion
+- attack-27: reviewed without promotion
+- attack-28: reviewed without promotion
+- attack-29: reviewed without promotion
+- attack-30: reviewed without promotion
+- attack-31: reviewed without promotion
+- attack-32: reviewed without promotion
+- attack-33: reviewed without promotion
+- attack-34: reviewed without promotion
+- attack-35: reviewed without promotion
+- attack-36: reviewed without promotion
+- attack-37: reviewed without promotion
+- attack-38: reviewed without promotion
+- attack-39: reviewed without promotion
+- attack-40: reviewed without promotion

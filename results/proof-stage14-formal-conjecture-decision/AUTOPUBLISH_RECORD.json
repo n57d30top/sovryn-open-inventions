@@ -1,0 +1,21 @@
+{
+  "kind": "autopublish_record",
+  "slug": "proof-stage14-formal-conjecture-decision",
+  "title": "Formal Conjecture Decision",
+  "resultKind": "proof_formal_conjecture_decision",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "antiTemplateStatus": "specific_public_evidence",
+  "releaseReadinessScore": 87,
+  "evidenceStrengthScore": 86,
+  "reproducibilityScore": 90,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 94,
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "pushed": false,
+  "productCommit": "e5b76b4",
+  "evidenceHash": "8be4c2af3624c76947435b51cd6ce52fd93ec7b8e83b455c4297539f2686cba2"
+}

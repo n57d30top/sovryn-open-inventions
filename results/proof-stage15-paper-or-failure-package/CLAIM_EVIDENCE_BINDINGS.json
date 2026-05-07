@@ -1,0 +1,16 @@
+{
+  "kind": "proof_claim_evidence_bindings",
+  "checkedProofs": [],
+  "checkedRefutations": [
+    "proof-target-002",
+    "proof-target-005",
+    "proof-target-008"
+  ],
+  "boundedOnly": [
+    "proof-target-001",
+    "proof-target-004",
+    "proof-target-007",
+    "proof-target-010"
+  ],
+  "productCommit": "e5b76b40c7b8ebdd2182bcf4d8a6f9c4bd537f67"
+}

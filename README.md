@@ -339,6 +339,22 @@ and safety scope in human-readable language.
 - [Patch Risk Auditor](results/patch-risk-auditor/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v2/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v3/) — good, showcase, patch-risk-auditor, software-supply-chain
+- [Proof Route Design](results/proof-stage01-proof-route-design/) — good, autopublished, proof-stage01-proof-route-design, formal proof assistant route v0
+- [Product Implementation](results/proof-stage02-product-implementation/) — good, autopublished, proof-stage02-product-implementation, formal proof assistant route v0
+- [Proof Tool Doctor](results/proof-stage03-proof-tool-doctor/) — good, autopublished, proof-stage03-proof-tool-doctor, formal proof assistant route v0
+- [Formalization Target Selection](results/proof-stage04-formalization-target-selection/) — good, autopublished, proof-stage04-formalization-target-selection, formal proof assistant route v0
+- [Formal Statement Building](results/proof-stage05-formal-statement-building/) — good, autopublished, proof-stage05-formal-statement-building, formal proof assistant route v0
+- [Lemma Mining](results/proof-stage06-lemma-mining/) — good, autopublished, proof-stage06-lemma-mining, formal proof assistant route v0
+- [Proof Attempt Wave 1](results/proof-stage07-proof-attempt-wave1/) — good, autopublished, proof-stage07-proof-attempt-wave1, formal proof assistant route v0
+- [Proof Attempt Wave 2](results/proof-stage08-proof-attempt-wave2/) — good, autopublished, proof-stage08-proof-attempt-wave2, formal proof assistant route v0
+- [Refutation Search](results/proof-stage09-refutation-search/) — good, autopublished, proof-stage09-refutation-search, formal proof assistant route v0
+- [Bounded-to-Formal Bridge](results/proof-stage10-bounded-to-formal-bridge/) — good, autopublished, proof-stage10-bounded-to-formal-bridge, formal proof assistant route v0
+- [Proof Replay](results/proof-stage11-proof-replay/) — good, autopublished, proof-stage11-proof-replay, formal proof assistant route v0
+- [Proof Failure Atlas](results/proof-stage12-proof-failure-atlas/) — good, autopublished, proof-stage12-proof-failure-atlas, formal proof assistant route v0
+- [Adversarial Proof Kill Week](results/proof-stage13-adversarial-proof-kill-week/) — good, autopublished, proof-stage13-adversarial-proof-kill-week, formal proof assistant route v0
+- [Formal Conjecture Decision](results/proof-stage14-formal-conjecture-decision/) — good, autopublished, proof-stage14-formal-conjecture-decision, formal proof assistant route v0
+- [Paper or Failure Package](results/proof-stage15-paper-or-failure-package/) — good, autopublished, proof-stage15-paper-or-failure-package, formal proof assistant route v0
+- [Next Frontier](results/proof-stage16-next-frontier/) — good, autopublished, proof-stage16-next-frontier, formal proof assistant route v0
 - [Reality-Grade Autonomous Science Trial](results/reality-grade-autonomous-science-trial/) — excellent, autopublished, reality-grade-autonomous-science-trial, reality-grade-scientific-autonomy
 - [Domain Scope and Prior Lessons](results/repo-stage01-domain-scope-and-prior-lessons/) — good, autopublished, repo-stage01-domain-scope-and-prior-lessons, scientific software reproduction fragility
 - [Public Repo Target Universe](results/repo-stage02-public-repo-target-universe/) — good, autopublished, repo-stage02-public-repo-target-universe, scientific software reproduction fragility

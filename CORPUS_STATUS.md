@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 426
+Results: 442
 
 ## Lifecycle Counts
 
-- autopublished: 395
+- autopublished: 411
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -303,6 +303,22 @@ Results: 426
 - nobel-stage8-holdout-challenge: latest nobel-stage8-holdout-challenge; nobel-stage8-holdout-challenge
 - nobel-stage9-independent-reproduction-gauntlet: latest nobel-stage9-independent-reproduction-gauntlet; nobel-stage9-independent-reproduction-gauntlet
 - patch-risk-auditor: latest patch-risk-auditor-v3; patch-risk-auditor, patch-risk-auditor-v2, patch-risk-auditor-v3
+- proof-stage01-proof-route-design: latest proof-stage01-proof-route-design; proof-stage01-proof-route-design
+- proof-stage02-product-implementation: latest proof-stage02-product-implementation; proof-stage02-product-implementation
+- proof-stage03-proof-tool-doctor: latest proof-stage03-proof-tool-doctor; proof-stage03-proof-tool-doctor
+- proof-stage04-formalization-target-selection: latest proof-stage04-formalization-target-selection; proof-stage04-formalization-target-selection
+- proof-stage05-formal-statement-building: latest proof-stage05-formal-statement-building; proof-stage05-formal-statement-building
+- proof-stage06-lemma-mining: latest proof-stage06-lemma-mining; proof-stage06-lemma-mining
+- proof-stage07-proof-attempt-wave1: latest proof-stage07-proof-attempt-wave1; proof-stage07-proof-attempt-wave1
+- proof-stage08-proof-attempt-wave2: latest proof-stage08-proof-attempt-wave2; proof-stage08-proof-attempt-wave2
+- proof-stage09-refutation-search: latest proof-stage09-refutation-search; proof-stage09-refutation-search
+- proof-stage10-bounded-to-formal-bridge: latest proof-stage10-bounded-to-formal-bridge; proof-stage10-bounded-to-formal-bridge
+- proof-stage11-proof-replay: latest proof-stage11-proof-replay; proof-stage11-proof-replay
+- proof-stage12-proof-failure-atlas: latest proof-stage12-proof-failure-atlas; proof-stage12-proof-failure-atlas
+- proof-stage13-adversarial-proof-kill-week: latest proof-stage13-adversarial-proof-kill-week; proof-stage13-adversarial-proof-kill-week
+- proof-stage14-formal-conjecture-decision: latest proof-stage14-formal-conjecture-decision; proof-stage14-formal-conjecture-decision
+- proof-stage15-paper-or-failure-package: latest proof-stage15-paper-or-failure-package; proof-stage15-paper-or-failure-package
+- proof-stage16-next-frontier: latest proof-stage16-next-frontier; proof-stage16-next-frontier
 - reality-grade-autonomous-science-trial: latest reality-grade-autonomous-science-trial; reality-grade-autonomous-science-trial
 - repo-stage01-domain-scope-and-prior-lessons: latest repo-stage01-domain-scope-and-prior-lessons; repo-stage01-domain-scope-and-prior-lessons
 - repo-stage02-public-repo-target-universe: latest repo-stage02-public-repo-target-universe; repo-stage02-public-repo-target-universe

@@ -1,0 +1,21 @@
+{
+  "kind": "autopublish_record",
+  "slug": "proof-stage06-lemma-mining",
+  "title": "Lemma Mining",
+  "resultKind": "proof_lemma_mining",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "antiTemplateStatus": "specific_public_evidence",
+  "releaseReadinessScore": 87,
+  "evidenceStrengthScore": 86,
+  "reproducibilityScore": 90,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 94,
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "pushed": false,
+  "productCommit": "e5b76b4",
+  "evidenceHash": "d89eeb8cac097c7d598bb913f7dfa7e0c29d9a30efbcd44a821b7020b58cb44f"
+}

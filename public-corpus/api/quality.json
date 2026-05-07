@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 415,
+    "good": 431,
     "reviewable": 6
   },
   "results": [
@@ -1527,6 +1527,86 @@
       "releaseReadinessScore": 88
     },
     {
+      "slug": "proof-stage01-proof-route-design",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "proof-stage02-product-implementation",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "proof-stage03-proof-tool-doctor",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "proof-stage04-formalization-target-selection",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "proof-stage05-formal-statement-building",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "proof-stage06-lemma-mining",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "proof-stage07-proof-attempt-wave1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "proof-stage08-proof-attempt-wave2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "proof-stage09-refutation-search",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "proof-stage10-bounded-to-formal-bridge",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "proof-stage11-proof-replay",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "proof-stage12-proof-failure-atlas",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "proof-stage13-adversarial-proof-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "proof-stage14-formal-conjecture-decision",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "proof-stage15-paper-or-failure-package",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "proof-stage16-next-frontier",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
       "slug": "reality-grade-autonomous-science-trial",
       "qualityLabel": "excellent",
       "releaseReadinessScore": 92
@@ -2137,5 +2217,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "5ed72caae59ca4b69e6ea4d044d843fdd43c432976cf7db23fd33ea511003c98"
+  "evidenceHash": "cd6f22be421fcf4e89db2c43627b368cea19a63a6de29389fb4e0ee700a71012"
 }

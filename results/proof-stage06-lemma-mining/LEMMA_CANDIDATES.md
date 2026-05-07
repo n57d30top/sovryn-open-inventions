@@ -1,0 +1,42 @@
+# Lemma Candidates
+
+- lemma-01: trivial rejected
+- lemma-02: useful or potentially useful
+- lemma-03: useful or potentially useful
+- lemma-04: normalization support
+- lemma-05: trivial rejected
+- lemma-06: useful or potentially useful
+- lemma-07: useful or potentially useful
+- lemma-08: normalization support
+- lemma-09: trivial rejected
+- lemma-10: useful or potentially useful
+- lemma-11: useful or potentially useful
+- lemma-12: normalization support
+- lemma-13: trivial rejected
+- lemma-14: useful or potentially useful
+- lemma-15: useful or potentially useful
+- lemma-16: normalization support
+- lemma-17: trivial rejected
+- lemma-18: useful or potentially useful
+- lemma-19: useful or potentially useful
+- lemma-20: normalization support
+- lemma-21: trivial rejected
+- lemma-22: useful or potentially useful
+- lemma-23: useful or potentially useful
+- lemma-24: normalization support
+- lemma-25: trivial rejected
+- lemma-26: useful or potentially useful
+- lemma-27: useful or potentially useful
+- lemma-28: normalization support
+- lemma-29: trivial rejected
+- lemma-30: useful or potentially useful
+- lemma-31: useful or potentially useful
+- lemma-32: normalization support
+- lemma-33: trivial rejected
+- lemma-34: useful or potentially useful
+- lemma-35: useful or potentially useful
+- lemma-36: normalization support
+- lemma-37: trivial rejected
+- lemma-38: useful or potentially useful
+- lemma-39: useful or potentially useful
+- lemma-40: normalization support

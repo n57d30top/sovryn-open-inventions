@@ -296,6 +296,22 @@ can supersede earlier entries while preserving audit history.
 - nobel-stage8-holdout-challenge: latest nobel-stage8-holdout-challenge; versions nobel-stage8-holdout-challenge
 - nobel-stage9-independent-reproduction-gauntlet: latest nobel-stage9-independent-reproduction-gauntlet; versions nobel-stage9-independent-reproduction-gauntlet
 - patch-risk-auditor: latest patch-risk-auditor-v3; versions patch-risk-auditor, patch-risk-auditor-v2, patch-risk-auditor-v3
+- proof-stage01-proof-route-design: latest proof-stage01-proof-route-design; versions proof-stage01-proof-route-design
+- proof-stage02-product-implementation: latest proof-stage02-product-implementation; versions proof-stage02-product-implementation
+- proof-stage03-proof-tool-doctor: latest proof-stage03-proof-tool-doctor; versions proof-stage03-proof-tool-doctor
+- proof-stage04-formalization-target-selection: latest proof-stage04-formalization-target-selection; versions proof-stage04-formalization-target-selection
+- proof-stage05-formal-statement-building: latest proof-stage05-formal-statement-building; versions proof-stage05-formal-statement-building
+- proof-stage06-lemma-mining: latest proof-stage06-lemma-mining; versions proof-stage06-lemma-mining
+- proof-stage07-proof-attempt-wave1: latest proof-stage07-proof-attempt-wave1; versions proof-stage07-proof-attempt-wave1
+- proof-stage08-proof-attempt-wave2: latest proof-stage08-proof-attempt-wave2; versions proof-stage08-proof-attempt-wave2
+- proof-stage09-refutation-search: latest proof-stage09-refutation-search; versions proof-stage09-refutation-search
+- proof-stage10-bounded-to-formal-bridge: latest proof-stage10-bounded-to-formal-bridge; versions proof-stage10-bounded-to-formal-bridge
+- proof-stage11-proof-replay: latest proof-stage11-proof-replay; versions proof-stage11-proof-replay
+- proof-stage12-proof-failure-atlas: latest proof-stage12-proof-failure-atlas; versions proof-stage12-proof-failure-atlas
+- proof-stage13-adversarial-proof-kill-week: latest proof-stage13-adversarial-proof-kill-week; versions proof-stage13-adversarial-proof-kill-week
+- proof-stage14-formal-conjecture-decision: latest proof-stage14-formal-conjecture-decision; versions proof-stage14-formal-conjecture-decision
+- proof-stage15-paper-or-failure-package: latest proof-stage15-paper-or-failure-package; versions proof-stage15-paper-or-failure-package
+- proof-stage16-next-frontier: latest proof-stage16-next-frontier; versions proof-stage16-next-frontier
 - reality-grade-autonomous-science-trial: latest reality-grade-autonomous-science-trial; versions reality-grade-autonomous-science-trial
 - repo-stage01-domain-scope-and-prior-lessons: latest repo-stage01-domain-scope-and-prior-lessons; versions repo-stage01-domain-scope-and-prior-lessons
 - repo-stage02-public-repo-target-universe: latest repo-stage02-public-repo-target-universe; versions repo-stage02-public-repo-target-universe

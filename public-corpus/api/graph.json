@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-07T10:23:33.341Z",
+  "generatedAt": "2026-05-07T10:47:32.101Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1827,6 +1827,102 @@
       "domain": "software-supply-chain"
     },
     {
+      "id": "result:proof-stage01-proof-route-design",
+      "kind": "result",
+      "label": "Proof Route Design",
+      "domain": "formal proof assistant route v0"
+    },
+    {
+      "id": "result:proof-stage02-product-implementation",
+      "kind": "result",
+      "label": "Product Implementation",
+      "domain": "formal proof assistant route v0"
+    },
+    {
+      "id": "result:proof-stage03-proof-tool-doctor",
+      "kind": "result",
+      "label": "Proof Tool Doctor",
+      "domain": "formal proof assistant route v0"
+    },
+    {
+      "id": "result:proof-stage04-formalization-target-selection",
+      "kind": "result",
+      "label": "Formalization Target Selection",
+      "domain": "formal proof assistant route v0"
+    },
+    {
+      "id": "result:proof-stage05-formal-statement-building",
+      "kind": "result",
+      "label": "Formal Statement Building",
+      "domain": "formal proof assistant route v0"
+    },
+    {
+      "id": "result:proof-stage06-lemma-mining",
+      "kind": "result",
+      "label": "Lemma Mining",
+      "domain": "formal proof assistant route v0"
+    },
+    {
+      "id": "result:proof-stage07-proof-attempt-wave1",
+      "kind": "result",
+      "label": "Proof Attempt Wave 1",
+      "domain": "formal proof assistant route v0"
+    },
+    {
+      "id": "result:proof-stage08-proof-attempt-wave2",
+      "kind": "result",
+      "label": "Proof Attempt Wave 2",
+      "domain": "formal proof assistant route v0"
+    },
+    {
+      "id": "result:proof-stage09-refutation-search",
+      "kind": "result",
+      "label": "Refutation Search",
+      "domain": "formal proof assistant route v0"
+    },
+    {
+      "id": "result:proof-stage10-bounded-to-formal-bridge",
+      "kind": "result",
+      "label": "Bounded-to-Formal Bridge",
+      "domain": "formal proof assistant route v0"
+    },
+    {
+      "id": "result:proof-stage11-proof-replay",
+      "kind": "result",
+      "label": "Proof Replay",
+      "domain": "formal proof assistant route v0"
+    },
+    {
+      "id": "result:proof-stage12-proof-failure-atlas",
+      "kind": "result",
+      "label": "Proof Failure Atlas",
+      "domain": "formal proof assistant route v0"
+    },
+    {
+      "id": "result:proof-stage13-adversarial-proof-kill-week",
+      "kind": "result",
+      "label": "Adversarial Proof Kill Week",
+      "domain": "formal proof assistant route v0"
+    },
+    {
+      "id": "result:proof-stage14-formal-conjecture-decision",
+      "kind": "result",
+      "label": "Formal Conjecture Decision",
+      "domain": "formal proof assistant route v0"
+    },
+    {
+      "id": "result:proof-stage15-paper-or-failure-package",
+      "kind": "result",
+      "label": "Paper or Failure Package",
+      "domain": "formal proof assistant route v0"
+    },
+    {
+      "id": "result:proof-stage16-next-frontier",
+      "kind": "result",
+      "label": "Next Frontier",
+      "domain": "formal proof assistant route v0"
+    },
+    {
       "id": "result:reality-grade-autonomous-science-trial",
       "kind": "result",
       "label": "Reality-Grade Autonomous Science Trial",
@@ -2827,6 +2923,11 @@
       "id": "domain:software-supply-chain",
       "kind": "domain",
       "label": "software-supply-chain"
+    },
+    {
+      "id": "domain:formal proof assistant route v0",
+      "kind": "domain",
+      "label": "formal proof assistant route v0"
     },
     {
       "id": "domain:reality-grade-scientific-autonomy",
@@ -5321,6 +5422,86 @@
       "relation": "uses_public_tool_evidence"
     },
     {
+      "source": "result:proof-stage01-proof-route-design",
+      "target": "domain:formal proof assistant route v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:proof-stage02-product-implementation",
+      "target": "domain:formal proof assistant route v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:proof-stage03-proof-tool-doctor",
+      "target": "domain:formal proof assistant route v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:proof-stage04-formalization-target-selection",
+      "target": "domain:formal proof assistant route v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:proof-stage05-formal-statement-building",
+      "target": "domain:formal proof assistant route v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:proof-stage06-lemma-mining",
+      "target": "domain:formal proof assistant route v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:proof-stage07-proof-attempt-wave1",
+      "target": "domain:formal proof assistant route v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:proof-stage08-proof-attempt-wave2",
+      "target": "domain:formal proof assistant route v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:proof-stage09-refutation-search",
+      "target": "domain:formal proof assistant route v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:proof-stage10-bounded-to-formal-bridge",
+      "target": "domain:formal proof assistant route v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:proof-stage11-proof-replay",
+      "target": "domain:formal proof assistant route v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:proof-stage12-proof-failure-atlas",
+      "target": "domain:formal proof assistant route v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:proof-stage13-adversarial-proof-kill-week",
+      "target": "domain:formal proof assistant route v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:proof-stage14-formal-conjecture-decision",
+      "target": "domain:formal proof assistant route v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:proof-stage15-paper-or-failure-package",
+      "target": "domain:formal proof assistant route v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:proof-stage16-next-frontier",
+      "target": "domain:formal proof assistant route v0",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:reality-grade-autonomous-science-trial",
       "target": "domain:reality-grade-scientific-autonomy",
       "relation": "belongs_to_domain"
@@ -6061,5 +6242,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "b0534dce3c0c0d6b7197a1eba1ee24bfa5af8f7e3290084126fd8335cd26a2b8"
+  "evidenceHash": "a2a98efc948e72f4d2997bc163c2325447d0e86145ae081d8bda42da6838c015"
 }

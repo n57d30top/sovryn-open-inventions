@@ -1,0 +1,21 @@
+{
+  "kind": "autopublish_record",
+  "slug": "proof-stage07-proof-attempt-wave1",
+  "title": "Proof Attempt Wave 1",
+  "resultKind": "proof_attempt_wave1",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "antiTemplateStatus": "specific_public_evidence",
+  "releaseReadinessScore": 87,
+  "evidenceStrengthScore": 86,
+  "reproducibilityScore": 90,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 94,
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "pushed": false,
+  "productCommit": "e5b76b4",
+  "evidenceHash": "c1bef35efe16922cf579f419a1769095bff737ff42a964c4c019a9d70d564dd1"
+}

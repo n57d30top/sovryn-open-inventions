@@ -1,0 +1,10 @@
+{
+  "kind": "formal_statement_card",
+  "targetId": "proof-target-010",
+  "domain": "finite automata",
+  "statementStatus": "precise",
+  "proofStatus": "bounded_verified_only",
+  "route": "internal bounded finite checker or refutation route",
+  "outcome": "bounded_verified_only",
+  "evidenceHash": "42f90f39d6121df64e1141bf02e5d2ce254a3436d76c457d0664ada360dbd271"
+}

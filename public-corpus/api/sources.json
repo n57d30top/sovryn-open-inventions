@@ -1792,6 +1792,86 @@
       "customTool": "patch-risk-auditor"
     },
     {
+      "slug": "proof-stage01-proof-route-design",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "proof-stage02-product-implementation",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "proof-stage03-proof-tool-doctor",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "proof-stage04-formalization-target-selection",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "proof-stage05-formal-statement-building",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "proof-stage06-lemma-mining",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "proof-stage07-proof-attempt-wave1",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "proof-stage08-proof-attempt-wave2",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "proof-stage09-refutation-search",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "proof-stage10-bounded-to-formal-bridge",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "proof-stage11-proof-replay",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "proof-stage12-proof-failure-atlas",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "proof-stage13-adversarial-proof-kill-week",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "proof-stage14-formal-conjecture-decision",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "proof-stage15-paper-or-failure-package",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "proof-stage16-next-frontier",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "reality-grade-autonomous-science-trial",
       "externalPackages": [],
       "customTool": null
@@ -2441,5 +2521,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "887b30a559c259a98a5c95a994f274229d3cbb745d5b4a0eec881806fd9d9b82"
+  "evidenceHash": "12e264bab0cc2c9db9c0f7648799ccc2dc140da8d13ef630e3bf2f84b315a92e"
 }
