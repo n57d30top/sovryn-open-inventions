@@ -1,0 +1,8 @@
+{
+  "slug": "temporal-stage07-freeze-predictions",
+  "resultKind": "temporal_prediction_freeze",
+  "noFakeDiscovery": true,
+  "noExternalValidationClaim": true,
+  "rejectedDescriptorCandidateNotRevived": true,
+  "evidenceHash": "c3c4d309ff3bb1601b9ee113d015291ff6a7b3758fe2d5d489bb433d5dd2b237"
+}

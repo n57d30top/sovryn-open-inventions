@@ -1,0 +1,674 @@
+[
+  {
+    "predictionId": "TP-01",
+    "hypothesisId": "TH-01",
+    "targetId": "TT01",
+    "sourceUrl": "https://raw.githubusercontent.com/jbrownlee/Datasets/master/airline-passengers.csv",
+    "targetFamily": "forecasting",
+    "expectedDirection": "support",
+    "expectedObservation": "chronological or horizon-sensitive evaluation should differ materially from random split challenger after simple baselines",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": true,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "2fe93d50f7ea535a43ff457f16a4710dadf61162b5c91f0af6a9e4b84aa6d998"
+  },
+  {
+    "predictionId": "TP-02",
+    "hypothesisId": "TH-02",
+    "targetId": "TT02",
+    "sourceUrl": "https://raw.githubusercontent.com/jbrownlee/Datasets/master/daily-min-temperatures.csv",
+    "targetFamily": "forecasting",
+    "expectedDirection": "support",
+    "expectedObservation": "chronological or horizon-sensitive evaluation should differ materially from random split challenger after simple baselines",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": false,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "fba4d77840138d08ce2d81d143e6cecf62923dd353ca620cb9b8e6c977efd064"
+  },
+  {
+    "predictionId": "TP-03",
+    "hypothesisId": "TH-03",
+    "targetId": "TT03",
+    "sourceUrl": "https://raw.githubusercontent.com/jbrownlee/Datasets/master/monthly-sunspots.csv",
+    "targetFamily": "forecasting",
+    "expectedDirection": "support",
+    "expectedObservation": "chronological or horizon-sensitive evaluation should differ materially from random split challenger after simple baselines",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": false,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "dd5132e9002092849c0ce50330d9398d3379f429501b6214d6ec80bf885bd948"
+  },
+  {
+    "predictionId": "TP-04",
+    "hypothesisId": "TH-04",
+    "targetId": "TT04",
+    "sourceUrl": "https://raw.githubusercontent.com/jbrownlee/Datasets/master/shampoo.csv",
+    "targetFamily": "forecasting",
+    "expectedDirection": "support",
+    "expectedObservation": "chronological or horizon-sensitive evaluation should differ materially from random split challenger after simple baselines",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": true,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "211fb3fc864e7cffbfee18362278bb9d8d83c9f1175d79eb5f5a0e821058e704"
+  },
+  {
+    "predictionId": "TP-05",
+    "hypothesisId": "TH-05",
+    "targetId": "TT05",
+    "sourceUrl": "https://raw.githubusercontent.com/jbrownlee/Datasets/master/monthly-robberies.csv",
+    "targetFamily": "forecasting",
+    "expectedDirection": "fail_weaken",
+    "expectedObservation": "simple baseline, seasonality, horizon choice, or source/protocol caveat should explain the apparent fragility",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": false,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "c9cb93dfb9cc758621a16964de2da12beca931d5a3750ca458387374d8d1c0ed"
+  },
+  {
+    "predictionId": "TP-06",
+    "hypothesisId": "TH-06",
+    "targetId": "TT06",
+    "sourceUrl": "https://raw.githubusercontent.com/jbrownlee/Datasets/master/daily-total-female-births.csv",
+    "targetFamily": "forecasting",
+    "expectedDirection": "fail_weaken",
+    "expectedObservation": "simple baseline, seasonality, horizon choice, or source/protocol caveat should explain the apparent fragility",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": false,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "6cae3e3a8bb999d6344ea8cc6c128f465d847312511acd5f9bdf55ae2a027c34"
+  },
+  {
+    "predictionId": "TP-07",
+    "hypothesisId": "TH-01",
+    "targetId": "TT07",
+    "sourceUrl": "https://raw.githubusercontent.com/jbrownlee/Datasets/master/monthly-car-sales.csv",
+    "targetFamily": "forecasting",
+    "expectedDirection": "fail_weaken",
+    "expectedObservation": "simple baseline, seasonality, horizon choice, or source/protocol caveat should explain the apparent fragility",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": true,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "76aec4d2318d87cfdd917afb5bb140ee7d6a13aa155d86f5014d5ace9793972e"
+  },
+  {
+    "predictionId": "TP-08",
+    "hypothesisId": "TH-02",
+    "targetId": "TT08",
+    "sourceUrl": "https://raw.githubusercontent.com/jbrownlee/Datasets/master/yearly-water-usage.csv",
+    "targetFamily": "forecasting",
+    "expectedDirection": "fail_weaken",
+    "expectedObservation": "simple baseline, seasonality, horizon choice, or source/protocol caveat should explain the apparent fragility",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": false,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "2776a725f560fe67099477141ccd9c55cb32bbe60b0e9bf1809b6a7613e2d7b8"
+  },
+  {
+    "predictionId": "TP-09",
+    "hypothesisId": "TH-03",
+    "targetId": "TT09",
+    "sourceUrl": "https://raw.githubusercontent.com/jbrownlee/Datasets/master/monthly-mean-temp.csv",
+    "targetFamily": "weather",
+    "expectedDirection": "control",
+    "expectedObservation": "low-risk control should not produce a strong fragility claim",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": false,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "5825dd8f5e078575055e7ad65a6bf8efd2bf2b802a20caa8b63b4a6325dcc8dd"
+  },
+  {
+    "predictionId": "TP-10",
+    "hypothesisId": "TH-04",
+    "targetId": "TT10",
+    "sourceUrl": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/flights.csv",
+    "targetFamily": "transport/travel",
+    "expectedDirection": "control",
+    "expectedObservation": "low-risk control should not produce a strong fragility claim",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": true,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "0293b881cc05f9a74e961d8ab288d7e0ccda64c9769cc7eae103633eb0f00a6c"
+  },
+  {
+    "predictionId": "TP-11",
+    "hypothesisId": "TH-05",
+    "targetId": "TT11",
+    "sourceUrl": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/fmri.csv",
+    "targetFamily": "temporal-classification",
+    "expectedDirection": "rival_favoring",
+    "expectedObservation": "rival explanation should explain the observation as well as or better than temporal fragility",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": false,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "c2e44936f64e2a9c542cb01449af30148f0eae40de6609c9edacc8ac974ee94d"
+  },
+  {
+    "predictionId": "TP-12",
+    "hypothesisId": "TH-06",
+    "targetId": "TT12",
+    "sourceUrl": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/dowjones.csv",
+    "targetFamily": "finance/economic",
+    "expectedDirection": "rival_favoring",
+    "expectedObservation": "rival explanation should explain the observation as well as or better than temporal fragility",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": false,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "1a867dee1596d53643bffe539c291d612efe819bb5ce54f3e468b63e437f30cb"
+  },
+  {
+    "predictionId": "TP-13",
+    "hypothesisId": "TH-01",
+    "targetId": "TT13",
+    "sourceUrl": "https://raw.githubusercontent.com/owid/energy-data/master/owid-energy-data.csv",
+    "targetFamily": "energy/climate",
+    "expectedDirection": "support",
+    "expectedObservation": "chronological or horizon-sensitive evaluation should differ materially from random split challenger after simple baselines",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": true,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "f6013a968617ed79f38e38f8bb32a3ecb13409264f49af79d282ee33de49e8c4"
+  },
+  {
+    "predictionId": "TP-14",
+    "hypothesisId": "TH-02",
+    "targetId": "TT14",
+    "sourceUrl": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv",
+    "targetFamily": "energy/climate",
+    "expectedDirection": "support",
+    "expectedObservation": "chronological or horizon-sensitive evaluation should differ materially from random split challenger after simple baselines",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": false,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "8d57416af43ee9ad6ec2bd7417202115544069c1bd09cdba7997f019e2eacfb8"
+  },
+  {
+    "predictionId": "TP-15",
+    "hypothesisId": "TH-03",
+    "targetId": "TT15",
+    "sourceUrl": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE",
+    "targetFamily": "economic",
+    "expectedDirection": "support",
+    "expectedObservation": "chronological or horizon-sensitive evaluation should differ materially from random split challenger after simple baselines",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": false,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "130b6f14ad70aa4860dd53e3472c4389d06a49c91c5e5c8f6143559081837402"
+  },
+  {
+    "predictionId": "TP-16",
+    "hypothesisId": "TH-04",
+    "targetId": "TT16",
+    "sourceUrl": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCSL",
+    "targetFamily": "economic",
+    "expectedDirection": "support",
+    "expectedObservation": "chronological or horizon-sensitive evaluation should differ materially from random split challenger after simple baselines",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": true,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "1f0c24ea5f9c974a186cb08b1f9a9d8dbb3dc6cf9b79f5b7ca0da441ad110d7f"
+  },
+  {
+    "predictionId": "TP-17",
+    "hypothesisId": "TH-05",
+    "targetId": "TT17",
+    "sourceUrl": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+    "targetFamily": "economic",
+    "expectedDirection": "fail_weaken",
+    "expectedObservation": "simple baseline, seasonality, horizon choice, or source/protocol caveat should explain the apparent fragility",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": false,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "e3676f39e7d5ee009111a9c1448027e5348d4225690d53a4b57193eb1a2e7ee4"
+  },
+  {
+    "predictionId": "TP-18",
+    "hypothesisId": "TH-06",
+    "targetId": "TT18",
+    "sourceUrl": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=INDPRO",
+    "targetFamily": "economic",
+    "expectedDirection": "fail_weaken",
+    "expectedObservation": "simple baseline, seasonality, horizon choice, or source/protocol caveat should explain the apparent fragility",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": false,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "67e8a800515c623a94323481766188dcbf12eb58a260f7eba73c991684bdec8c"
+  },
+  {
+    "predictionId": "TP-19",
+    "hypothesisId": "TH-01",
+    "targetId": "TT19",
+    "sourceUrl": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PAYEMS",
+    "targetFamily": "economic",
+    "expectedDirection": "fail_weaken",
+    "expectedObservation": "simple baseline, seasonality, horizon choice, or source/protocol caveat should explain the apparent fragility",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": true,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "98884bc379c61c921a4829db5a5391848c1221bb8b33891658a01b66be137a67"
+  },
+  {
+    "predictionId": "TP-20",
+    "hypothesisId": "TH-02",
+    "targetId": "TT20",
+    "sourceUrl": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU",
+    "targetFamily": "economic",
+    "expectedDirection": "fail_weaken",
+    "expectedObservation": "simple baseline, seasonality, horizon choice, or source/protocol caveat should explain the apparent fragility",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": false,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "d9ff47ff63f7e2195ddf13743b255528e9758222243c29e99bbeb3c6d45c0284"
+  },
+  {
+    "predictionId": "TP-21",
+    "hypothesisId": "TH-03",
+    "targetId": "TT21",
+    "sourceUrl": "https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv",
+    "targetFamily": "finance/economic",
+    "expectedDirection": "control",
+    "expectedObservation": "low-risk control should not produce a strong fragility claim",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": false,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "3746e73beda25ac53878ebbda6dfd60958e7d62c1bfae6cf7597019e74512790"
+  },
+  {
+    "predictionId": "TP-22",
+    "hypothesisId": "TH-04",
+    "targetId": "TT22",
+    "sourceUrl": "https://raw.githubusercontent.com/plotly/datasets/master/2014_apple_stock.csv",
+    "targetFamily": "finance/economic",
+    "expectedDirection": "control",
+    "expectedObservation": "low-risk control should not produce a strong fragility claim",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": true,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "1796f2ec05f72a04f5a8bb23de67434608f2d96dc7089ae89627a69c8c4ef5a3"
+  },
+  {
+    "predictionId": "TP-23",
+    "hypothesisId": "TH-05",
+    "targetId": "TT23",
+    "sourceUrl": "https://raw.githubusercontent.com/plotly/datasets/master/tesla-stock-price.csv",
+    "targetFamily": "finance/economic",
+    "expectedDirection": "rival_favoring",
+    "expectedObservation": "rival explanation should explain the observation as well as or better than temporal fragility",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": false,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "30fdf3b0abdc4c4904b99a404d043d6747b0d9e6722e865ea3e4d0bd3b2b45a7"
+  },
+  {
+    "predictionId": "TP-24",
+    "hypothesisId": "TH-06",
+    "targetId": "TT24",
+    "sourceUrl": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+top+200+pl_name,hostname,disc_year,pl_orbper,pl_rade,pl_bmasse+from+pscomppars&format=csv",
+    "targetFamily": "astrophysics-catalog",
+    "expectedDirection": "rival_favoring",
+    "expectedObservation": "rival explanation should explain the observation as well as or better than temporal fragility",
+    "falsifier": "Prediction weakens if the opposite split/control relation appears or if source/protocol replay fails.",
+    "baselines": [
+      "persistence",
+      "seasonal naive",
+      "rolling mean",
+      "linear trend",
+      "random split challenger"
+    ],
+    "negativeControls": [
+      "shuffled time",
+      "shuffled target",
+      "random index",
+      "horizon shift"
+    ],
+    "replayPlan": "Re-fetch public source and recompute redacted metrics.",
+    "nonObvious": false,
+    "noEditRule": "Do not edit after freeze commit.",
+    "frozenTimestamp": "2026-05-07T06:30:18.831Z",
+    "preregistrationHash": "ec2ad618f9277a8791f6d3ff4a704767c9ddd4e25b57ef84b54c97c48e3f3735"
+  }
+]
