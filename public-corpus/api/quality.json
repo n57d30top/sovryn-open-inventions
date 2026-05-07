@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 283,
+    "good": 297,
     "reviewable": 6
   },
   "results": [
@@ -1372,6 +1372,76 @@
       "releaseReadinessScore": 91
     },
     {
+      "slug": "search-stage01-failure-autopsy",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "search-stage02-death-cause-taxonomy",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "search-stage03-new-search-criteria",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "search-stage04-domain-resampling",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "search-stage05-anomaly-search-wave1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "search-stage06-pre-baseline-screen",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "search-stage07-counterexample-aware-selection",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "search-stage08-rival-theory-first-freeze",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "search-stage09-new-candidate-execution-wave",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "search-stage10-holdout-and-replay",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "search-stage11-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "search-stage12-candidate-decision",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "search-stage13-paper-or-failure-package",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "search-stage14-next-frontier",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
       "slug": "self-built-lab-reproduction-388ccd1946ad",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
@@ -1477,5 +1547,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "3ec9a8825188f279b63f322b89a7a369483c2bc670a1ab046c53d94c63a4bb37"
+  "evidenceHash": "b8ce0bab8e46fc8a31950a4b02998844d4caf3fc35d1c634b5003b2c33eb661a"
 }

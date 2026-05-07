@@ -1,8 +1,8 @@
 {
   "kind": "public_corpus_status",
-  "generatedAt": "2026-05-06T21:16:31.291Z",
+  "generatedAt": "2026-05-07T06:07:54.015Z",
   "statusCounts": {
-    "autopublished": 259,
+    "autopublished": 273,
     "benchmark_challenge_negative_result": 4,
     "dataset_quality_audit_supported": 7,
     "external_extension_supported": 1,
@@ -21,7 +21,7 @@
     "v1_candidate_with_limits": 1
   },
   "lifecycleCounts": {
-    "autopublished": 263,
+    "autopublished": 277,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -36,6 +36,7 @@
     "benchmark-metric-validation": 1,
     "bounded computational scientist orchestration": 1,
     "bounded conceptual discovery": 6,
+    "candidate rejection and new discovery search": 14,
     "chemistry-data-quality": 10,
     "claim-verification-benchmark": 1,
     "claim-verification-benchmark-quality": 1,
@@ -88,5 +89,5 @@
     "time-series-tabular-benchmark": 1,
     "tool-backed-dataset-quality-audit": 1
   },
-  "evidenceHash": "3f011813d0ca1a49b8954f21af309a9b16d0bc8dba7b5f8926e2d35b4871daf1"
+  "evidenceHash": "507477cb50c841fae1c1c862cf7570d4e413a6ebc14aadfa28d53863692951b8"
 }

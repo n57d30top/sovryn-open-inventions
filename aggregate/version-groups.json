@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-06T21:16:31.291Z",
+  "updatedAt": "2026-05-07T06:07:54.015Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -1836,6 +1836,104 @@
       ]
     },
     {
+      "versionGroup": "search-stage01-failure-autopsy",
+      "latestSlug": "search-stage01-failure-autopsy",
+      "resultSlugs": [
+        "search-stage01-failure-autopsy"
+      ]
+    },
+    {
+      "versionGroup": "search-stage02-death-cause-taxonomy",
+      "latestSlug": "search-stage02-death-cause-taxonomy",
+      "resultSlugs": [
+        "search-stage02-death-cause-taxonomy"
+      ]
+    },
+    {
+      "versionGroup": "search-stage03-new-search-criteria",
+      "latestSlug": "search-stage03-new-search-criteria",
+      "resultSlugs": [
+        "search-stage03-new-search-criteria"
+      ]
+    },
+    {
+      "versionGroup": "search-stage04-domain-resampling",
+      "latestSlug": "search-stage04-domain-resampling",
+      "resultSlugs": [
+        "search-stage04-domain-resampling"
+      ]
+    },
+    {
+      "versionGroup": "search-stage05-anomaly-search-wave1",
+      "latestSlug": "search-stage05-anomaly-search-wave1",
+      "resultSlugs": [
+        "search-stage05-anomaly-search-wave1"
+      ]
+    },
+    {
+      "versionGroup": "search-stage06-pre-baseline-screen",
+      "latestSlug": "search-stage06-pre-baseline-screen",
+      "resultSlugs": [
+        "search-stage06-pre-baseline-screen"
+      ]
+    },
+    {
+      "versionGroup": "search-stage07-counterexample-aware-selection",
+      "latestSlug": "search-stage07-counterexample-aware-selection",
+      "resultSlugs": [
+        "search-stage07-counterexample-aware-selection"
+      ]
+    },
+    {
+      "versionGroup": "search-stage08-rival-theory-first-freeze",
+      "latestSlug": "search-stage08-rival-theory-first-freeze",
+      "resultSlugs": [
+        "search-stage08-rival-theory-first-freeze"
+      ]
+    },
+    {
+      "versionGroup": "search-stage09-new-candidate-execution-wave",
+      "latestSlug": "search-stage09-new-candidate-execution-wave",
+      "resultSlugs": [
+        "search-stage09-new-candidate-execution-wave"
+      ]
+    },
+    {
+      "versionGroup": "search-stage10-holdout-and-replay",
+      "latestSlug": "search-stage10-holdout-and-replay",
+      "resultSlugs": [
+        "search-stage10-holdout-and-replay"
+      ]
+    },
+    {
+      "versionGroup": "search-stage11-kill-week",
+      "latestSlug": "search-stage11-kill-week",
+      "resultSlugs": [
+        "search-stage11-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "search-stage12-candidate-decision",
+      "latestSlug": "search-stage12-candidate-decision",
+      "resultSlugs": [
+        "search-stage12-candidate-decision"
+      ]
+    },
+    {
+      "versionGroup": "search-stage13-paper-or-failure-package",
+      "latestSlug": "search-stage13-paper-or-failure-package",
+      "resultSlugs": [
+        "search-stage13-paper-or-failure-package"
+      ]
+    },
+    {
+      "versionGroup": "search-stage14-next-frontier",
+      "latestSlug": "search-stage14-next-frontier",
+      "resultSlugs": [
+        "search-stage14-next-frontier"
+      ]
+    },
+    {
       "versionGroup": "self-built-lab-reproduction-388ccd1946ad",
       "latestSlug": "self-built-lab-reproduction-388ccd1946ad",
       "resultSlugs": [
@@ -1977,5 +2075,5 @@
       ]
     }
   ],
-  "evidenceHash": "cb2f6a770cf9836fb956be1086bcf893dc61574c66f54c29d091dab31b3d61c0"
+  "evidenceHash": "fe428039363106c26bef9cb8e1591c2465a4f55a9cf0d2d720b56c870a5f8eb0"
 }

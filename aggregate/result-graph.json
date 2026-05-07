@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-06T21:16:31.291Z",
+  "generatedAt": "2026-05-07T06:07:54.015Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1641,6 +1641,90 @@
       "domain": "scientific-knowledge-engine"
     },
     {
+      "id": "result:search-stage01-failure-autopsy",
+      "kind": "result",
+      "label": "Candidate Failure Autopsy",
+      "domain": "candidate rejection and new discovery search"
+    },
+    {
+      "id": "result:search-stage02-death-cause-taxonomy",
+      "kind": "result",
+      "label": "Discovery Candidate Death-Cause Taxonomy",
+      "domain": "candidate rejection and new discovery search"
+    },
+    {
+      "id": "result:search-stage03-new-search-criteria",
+      "kind": "result",
+      "label": "New Discovery Search Criteria",
+      "domain": "candidate rejection and new discovery search"
+    },
+    {
+      "id": "result:search-stage04-domain-resampling",
+      "kind": "result",
+      "label": "Discovery Domain Resampling",
+      "domain": "candidate rejection and new discovery search"
+    },
+    {
+      "id": "result:search-stage05-anomaly-search-wave1",
+      "kind": "result",
+      "label": "Anomaly Search Wave 1",
+      "domain": "candidate rejection and new discovery search"
+    },
+    {
+      "id": "result:search-stage06-pre-baseline-screen",
+      "kind": "result",
+      "label": "Pre-Baseline Screen",
+      "domain": "candidate rejection and new discovery search"
+    },
+    {
+      "id": "result:search-stage07-counterexample-aware-selection",
+      "kind": "result",
+      "label": "Counterexample-Aware Selection",
+      "domain": "candidate rejection and new discovery search"
+    },
+    {
+      "id": "result:search-stage08-rival-theory-first-freeze",
+      "kind": "result",
+      "label": "Rival-Theory-First Freeze",
+      "domain": "candidate rejection and new discovery search"
+    },
+    {
+      "id": "result:search-stage09-new-candidate-execution-wave",
+      "kind": "result",
+      "label": "New Candidate Execution Wave",
+      "domain": "candidate rejection and new discovery search"
+    },
+    {
+      "id": "result:search-stage10-holdout-and-replay",
+      "kind": "result",
+      "label": "New Candidate Holdout and Replay",
+      "domain": "candidate rejection and new discovery search"
+    },
+    {
+      "id": "result:search-stage11-kill-week",
+      "kind": "result",
+      "label": "New Candidate Kill Week",
+      "domain": "candidate rejection and new discovery search"
+    },
+    {
+      "id": "result:search-stage12-candidate-decision",
+      "kind": "result",
+      "label": "New Candidate Decision",
+      "domain": "candidate rejection and new discovery search"
+    },
+    {
+      "id": "result:search-stage13-paper-or-failure-package",
+      "kind": "result",
+      "label": "Search Paper or Failure Package",
+      "domain": "candidate rejection and new discovery search"
+    },
+    {
+      "id": "result:search-stage14-next-frontier",
+      "kind": "result",
+      "label": "New Search Next Frontier",
+      "domain": "candidate rejection and new discovery search"
+    },
+    {
       "id": "result:self-built-lab-reproduction-388ccd1946ad",
       "kind": "result",
       "label": "Self-built lab reproduction challenge",
@@ -2040,6 +2124,11 @@
       "id": "domain:scientific-knowledge-engine",
       "kind": "domain",
       "label": "scientific-knowledge-engine"
+    },
+    {
+      "id": "domain:candidate rejection and new discovery search",
+      "kind": "domain",
+      "label": "candidate rejection and new discovery search"
     },
     {
       "id": "domain:safe-computational-reproduction",
@@ -4344,6 +4433,76 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:search-stage01-failure-autopsy",
+      "target": "domain:candidate rejection and new discovery search",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:search-stage02-death-cause-taxonomy",
+      "target": "domain:candidate rejection and new discovery search",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:search-stage03-new-search-criteria",
+      "target": "domain:candidate rejection and new discovery search",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:search-stage04-domain-resampling",
+      "target": "domain:candidate rejection and new discovery search",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:search-stage05-anomaly-search-wave1",
+      "target": "domain:candidate rejection and new discovery search",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:search-stage06-pre-baseline-screen",
+      "target": "domain:candidate rejection and new discovery search",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:search-stage07-counterexample-aware-selection",
+      "target": "domain:candidate rejection and new discovery search",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:search-stage08-rival-theory-first-freeze",
+      "target": "domain:candidate rejection and new discovery search",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:search-stage09-new-candidate-execution-wave",
+      "target": "domain:candidate rejection and new discovery search",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:search-stage10-holdout-and-replay",
+      "target": "domain:candidate rejection and new discovery search",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:search-stage11-kill-week",
+      "target": "domain:candidate rejection and new discovery search",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:search-stage12-candidate-decision",
+      "target": "domain:candidate rejection and new discovery search",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:search-stage13-paper-or-failure-package",
+      "target": "domain:candidate rejection and new discovery search",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:search-stage14-next-frontier",
+      "target": "domain:candidate rejection and new discovery search",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:self-built-lab-reproduction-388ccd1946ad",
       "target": "domain:safe-computational-reproduction",
       "relation": "belongs_to_domain"
@@ -4469,5 +4628,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "93605d2ee4bea54f56010ad2f46b4510b54aa031189cbe6bfbe338e392e27c3e"
+  "evidenceHash": "5ac5298daab086560860c07d3fbb11a85f274ca60d3780418a13f75f7592854f"
 }

@@ -265,6 +265,20 @@ can supersede earlier entries while preserving audit history.
 - reality-grade-autonomous-science-trial: latest reality-grade-autonomous-science-trial; versions reality-grade-autonomous-science-trial
 - scientific-dataset-reliability-self-built-lab-study: latest scientific-dataset-reliability-self-built-lab-study; versions scientific-dataset-reliability-self-built-lab-study
 - scientific-knowledge-engine-trial: latest scientific-knowledge-engine-trial; versions scientific-knowledge-engine-trial
+- search-stage01-failure-autopsy: latest search-stage01-failure-autopsy; versions search-stage01-failure-autopsy
+- search-stage02-death-cause-taxonomy: latest search-stage02-death-cause-taxonomy; versions search-stage02-death-cause-taxonomy
+- search-stage03-new-search-criteria: latest search-stage03-new-search-criteria; versions search-stage03-new-search-criteria
+- search-stage04-domain-resampling: latest search-stage04-domain-resampling; versions search-stage04-domain-resampling
+- search-stage05-anomaly-search-wave1: latest search-stage05-anomaly-search-wave1; versions search-stage05-anomaly-search-wave1
+- search-stage06-pre-baseline-screen: latest search-stage06-pre-baseline-screen; versions search-stage06-pre-baseline-screen
+- search-stage07-counterexample-aware-selection: latest search-stage07-counterexample-aware-selection; versions search-stage07-counterexample-aware-selection
+- search-stage08-rival-theory-first-freeze: latest search-stage08-rival-theory-first-freeze; versions search-stage08-rival-theory-first-freeze
+- search-stage09-new-candidate-execution-wave: latest search-stage09-new-candidate-execution-wave; versions search-stage09-new-candidate-execution-wave
+- search-stage10-holdout-and-replay: latest search-stage10-holdout-and-replay; versions search-stage10-holdout-and-replay
+- search-stage11-kill-week: latest search-stage11-kill-week; versions search-stage11-kill-week
+- search-stage12-candidate-decision: latest search-stage12-candidate-decision; versions search-stage12-candidate-decision
+- search-stage13-paper-or-failure-package: latest search-stage13-paper-or-failure-package; versions search-stage13-paper-or-failure-package
+- search-stage14-next-frontier: latest search-stage14-next-frontier; versions search-stage14-next-frontier
 - self-built-lab-reproduction-388ccd1946ad: latest self-built-lab-reproduction-388ccd1946ad; versions self-built-lab-reproduction-388ccd1946ad
 - software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for: latest software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth; versions software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth
 - software-supply-chain-assurance-self-built-lab-study: latest software-supply-chain-assurance-self-built-lab-study-v2; versions software-supply-chain-assurance-self-built-lab-study, software-supply-chain-assurance-self-built-lab-study-v2

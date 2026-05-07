@@ -2459,6 +2459,132 @@
       "pushed": true
     },
     {
+      "slug": "search-stage01-failure-autopsy",
+      "path": "results/search-stage01-failure-autopsy",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "search-stage01-failure-autopsy",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "search-stage02-death-cause-taxonomy",
+      "path": "results/search-stage02-death-cause-taxonomy",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "search-stage02-death-cause-taxonomy",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "search-stage03-new-search-criteria",
+      "path": "results/search-stage03-new-search-criteria",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "search-stage03-new-search-criteria",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "search-stage04-domain-resampling",
+      "path": "results/search-stage04-domain-resampling",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "search-stage04-domain-resampling",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "search-stage05-anomaly-search-wave1",
+      "path": "results/search-stage05-anomaly-search-wave1",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "search-stage05-anomaly-search-wave1",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "search-stage06-pre-baseline-screen",
+      "path": "results/search-stage06-pre-baseline-screen",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "search-stage06-pre-baseline-screen",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "search-stage07-counterexample-aware-selection",
+      "path": "results/search-stage07-counterexample-aware-selection",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "search-stage07-counterexample-aware-selection",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "search-stage08-rival-theory-first-freeze",
+      "path": "results/search-stage08-rival-theory-first-freeze",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "search-stage08-rival-theory-first-freeze",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "search-stage09-new-candidate-execution-wave",
+      "path": "results/search-stage09-new-candidate-execution-wave",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "search-stage09-new-candidate-execution-wave",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "search-stage10-holdout-and-replay",
+      "path": "results/search-stage10-holdout-and-replay",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "search-stage10-holdout-and-replay",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "search-stage11-kill-week",
+      "path": "results/search-stage11-kill-week",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "search-stage11-kill-week",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "search-stage12-candidate-decision",
+      "path": "results/search-stage12-candidate-decision",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "search-stage12-candidate-decision",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "search-stage13-paper-or-failure-package",
+      "path": "results/search-stage13-paper-or-failure-package",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "search-stage13-paper-or-failure-package",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "search-stage14-next-frontier",
+      "path": "results/search-stage14-next-frontier",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "search-stage14-next-frontier",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "self-built-lab-reproduction-388ccd1946ad",
       "path": "results/self-built-lab-reproduction-388ccd1946ad",
       "status": "partially_reproduced",
@@ -2648,5 +2774,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "60284682c7171d95e9fd86c394d3b571346cabd2014f55001b3b70d441b042b8"
+  "evidenceHash": "839da667e98deeba16fca4d91ffce90959277bab17c1e631f167a4050150de4b"
 }

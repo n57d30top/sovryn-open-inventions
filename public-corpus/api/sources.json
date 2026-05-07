@@ -1641,6 +1641,76 @@
       "customTool": null
     },
     {
+      "slug": "search-stage01-failure-autopsy",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "search-stage02-death-cause-taxonomy",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "search-stage03-new-search-criteria",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "search-stage04-domain-resampling",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "search-stage05-anomaly-search-wave1",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "search-stage06-pre-baseline-screen",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "search-stage07-counterexample-aware-selection",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "search-stage08-rival-theory-first-freeze",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "search-stage09-new-candidate-execution-wave",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "search-stage10-holdout-and-replay",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "search-stage11-kill-week",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "search-stage12-candidate-decision",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "search-stage13-paper-or-failure-package",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "search-stage14-next-frontier",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "self-built-lab-reproduction-388ccd1946ad",
       "externalPackages": [],
       "customTool": null
@@ -1752,5 +1822,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "ba4e459c8eeeacc52710b4317e82fc84121c9670ab84585b41b48335e074b339"
+  "evidenceHash": "21b4c272546d0d601b4a8d0c5415c1598f8539a49ea54c771ea89701cc9431db"
 }
