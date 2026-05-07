@@ -1,0 +1,242 @@
+| id | targetClass | expectedRoute | routeConfidence | expectedEvidenceCost | expectedPackageQuality | expectedAccelerationClass | expectedFailureMode | fallbackRoute |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| scale-target-001 | claim_review | claim_safety_review | 0.805 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-002 | claim_review | claim_safety_review | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-003 | claim_review | claim_safety_review | 0.855 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-004 | claim_review | claim_safety_review | 0.88 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-005 | claim_review | claim_safety_review | 0.905 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-006 | claim_review | claim_safety_review | 0.93 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-007 | claim_review | claim_safety_review | 0.78 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-008 | claim_review | claim_safety_review | 0.805 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-009 | claim_review | claim_safety_review | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-010 | claim_review | claim_safety_review | 0.855 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-011 | claim_review | claim_safety_review | 0.88 | low-medium | high | class_candidate_possible | not-testable uncertainty | quick_reject |
+| scale-target-012 | claim_review | claim_safety_review | 0.905 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-013 | claim_review | claim_safety_review | 0.93 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-014 | claim_review | claim_safety_review | 0.78 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-015 | claim_review | claim_safety_review | 0.805 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-016 | claim_review | claim_safety_review | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-017 | claim_review | claim_safety_review | 0.855 | low-medium | high | class_candidate_possible | route ambiguity or package caveat | quick_reject |
+| scale-target-018 | claim_review | claim_safety_review | 0.88 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-019 | claim_review | claim_safety_review | 0.905 | low-medium | medium-with-caveat | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-020 | claim_review | claim_safety_review | 0.93 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-021 | claim_review | claim_safety_review | 0.78 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-022 | claim_review | claim_safety_review | 0.805 | low-medium | high | class_candidate_possible | not-testable uncertainty | quick_reject |
+| scale-target-023 | claim_review | claim_safety_review | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-024 | claim_review | claim_safety_review | 0.855 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-025 | claim_review | claim_safety_review | 0.88 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-026 | claim_review | claim_safety_review | 0.905 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-027 | claim_review | claim_safety_review | 0.93 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-028 | claim_review | claim_safety_review | 0.78 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-029 | claim_review | claim_safety_review | 0.805 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-030 | claim_review | claim_safety_review | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | quick_reject |
+| scale-target-031 | tool_usefulness | static_scan_only | 0.805 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-032 | tool_usefulness | static_scan_only | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-033 | tool_usefulness | static_scan_only | 0.855 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-034 | tool_usefulness | static_scan_only | 0.88 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-035 | tool_usefulness | static_scan_only | 0.905 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-036 | tool_usefulness | static_scan_only | 0.93 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-037 | tool_usefulness | static_scan_only | 0.78 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-038 | tool_usefulness | static_scan_only | 0.805 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-039 | tool_usefulness | static_scan_only | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-040 | tool_usefulness | static_scan_only | 0.855 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-041 | tool_usefulness | static_scan_only | 0.88 | low-medium | high | class_candidate_possible | not-testable uncertainty | claim_safety_review |
+| scale-target-042 | tool_usefulness | static_scan_only | 0.905 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-043 | tool_usefulness | static_scan_only | 0.93 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-044 | tool_usefulness | static_scan_only | 0.78 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-045 | tool_usefulness | static_scan_only | 0.805 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-046 | tool_usefulness | static_scan_only | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-047 | tool_usefulness | static_scan_only | 0.855 | low-medium | high | class_candidate_possible | route ambiguity or package caveat | claim_safety_review |
+| scale-target-048 | tool_usefulness | static_scan_only | 0.88 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-049 | tool_usefulness | static_scan_only | 0.905 | low-medium | medium-with-caveat | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-050 | tool_usefulness | static_scan_only | 0.93 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-051 | tool_usefulness | static_scan_only | 0.78 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-052 | tool_usefulness | static_scan_only | 0.805 | low-medium | high | class_candidate_possible | not-testable uncertainty | claim_safety_review |
+| scale-target-053 | tool_usefulness | static_scan_only | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-054 | tool_usefulness | static_scan_only | 0.855 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-055 | tool_usefulness | static_scan_only | 0.88 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-056 | tool_usefulness | static_scan_only | 0.905 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-057 | tool_usefulness | static_scan_only | 0.93 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-058 | tool_usefulness | static_scan_only | 0.78 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-059 | tool_usefulness | static_scan_only | 0.805 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-060 | tool_usefulness | static_scan_only | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | claim_safety_review |
+| scale-target-061 | repo_package_reproduction | runtime_reproduction | 0.805 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-062 | repo_package_reproduction | runtime_reproduction | 0.83 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-063 | repo_package_reproduction | runtime_reproduction | 0.855 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-064 | repo_package_reproduction | runtime_reproduction | 0.88 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-065 | repo_package_reproduction | runtime_reproduction | 0.905 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-066 | repo_package_reproduction | runtime_reproduction | 0.93 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-067 | repo_package_reproduction | runtime_reproduction | 0.78 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-068 | repo_package_reproduction | runtime_reproduction | 0.805 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-069 | repo_package_reproduction | runtime_reproduction | 0.83 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-070 | repo_package_reproduction | runtime_reproduction | 0.855 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-071 | repo_package_reproduction | runtime_reproduction | 0.88 | medium-high | high | task_or_partial_only | not-testable uncertainty | install_probe |
+| scale-target-072 | repo_package_reproduction | runtime_reproduction | 0.905 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-073 | repo_package_reproduction | runtime_reproduction | 0.93 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-074 | repo_package_reproduction | runtime_reproduction | 0.78 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-075 | repo_package_reproduction | runtime_reproduction | 0.805 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-076 | repo_package_reproduction | runtime_reproduction | 0.83 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-077 | repo_package_reproduction | runtime_reproduction | 0.855 | medium-high | high | task_or_partial_only | route ambiguity or package caveat | install_probe |
+| scale-target-078 | repo_package_reproduction | runtime_reproduction | 0.88 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-079 | repo_package_reproduction | runtime_reproduction | 0.905 | medium-high | medium-with-caveat | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-080 | repo_package_reproduction | runtime_reproduction | 0.93 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-081 | repo_package_reproduction | runtime_reproduction | 0.78 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-082 | repo_package_reproduction | runtime_reproduction | 0.805 | medium-high | high | task_or_partial_only | not-testable uncertainty | install_probe |
+| scale-target-083 | repo_package_reproduction | runtime_reproduction | 0.83 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-084 | repo_package_reproduction | runtime_reproduction | 0.855 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-085 | repo_package_reproduction | runtime_reproduction | 0.88 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-086 | repo_package_reproduction | runtime_reproduction | 0.905 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-087 | repo_package_reproduction | runtime_reproduction | 0.93 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-088 | repo_package_reproduction | runtime_reproduction | 0.78 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-089 | repo_package_reproduction | runtime_reproduction | 0.805 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-090 | repo_package_reproduction | runtime_reproduction | 0.83 | medium-high | high | task_or_partial_only | none expected beyond bounded workload limits | install_probe |
+| scale-target-091 | dataset_audit | dataset_audit | 0.805 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-092 | dataset_audit | dataset_audit | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-093 | dataset_audit | dataset_audit | 0.855 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-094 | dataset_audit | dataset_audit | 0.88 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-095 | dataset_audit | dataset_audit | 0.905 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-096 | dataset_audit | dataset_audit | 0.93 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-097 | dataset_audit | dataset_audit | 0.78 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-098 | dataset_audit | dataset_audit | 0.805 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-099 | dataset_audit | dataset_audit | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-100 | dataset_audit | dataset_audit | 0.855 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-101 | dataset_audit | dataset_audit | 0.88 | low-medium | high | class_candidate_possible | not-testable uncertainty | static_scan_only |
+| scale-target-102 | dataset_audit | dataset_audit | 0.905 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-103 | dataset_audit | dataset_audit | 0.93 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-104 | dataset_audit | dataset_audit | 0.78 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-105 | dataset_audit | dataset_audit | 0.805 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-106 | dataset_audit | dataset_audit | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-107 | dataset_audit | dataset_audit | 0.855 | low-medium | high | class_candidate_possible | route ambiguity or package caveat | static_scan_only |
+| scale-target-108 | dataset_audit | dataset_audit | 0.88 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-109 | dataset_audit | dataset_audit | 0.905 | low-medium | medium-with-caveat | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-110 | dataset_audit | dataset_audit | 0.93 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-111 | dataset_audit | dataset_audit | 0.78 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-112 | dataset_audit | dataset_audit | 0.805 | low-medium | high | class_candidate_possible | not-testable uncertainty | static_scan_only |
+| scale-target-113 | dataset_audit | dataset_audit | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-114 | dataset_audit | dataset_audit | 0.855 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-115 | dataset_audit | dataset_audit | 0.88 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-116 | dataset_audit | dataset_audit | 0.905 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-117 | dataset_audit | dataset_audit | 0.93 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-118 | dataset_audit | dataset_audit | 0.78 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-119 | dataset_audit | dataset_audit | 0.805 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-120 | dataset_audit | dataset_audit | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-121 | benchmark_protocol_audit | benchmark_protocol_audit | 0.805 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-122 | benchmark_protocol_audit | benchmark_protocol_audit | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-123 | benchmark_protocol_audit | benchmark_protocol_audit | 0.855 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-124 | benchmark_protocol_audit | benchmark_protocol_audit | 0.88 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-125 | benchmark_protocol_audit | benchmark_protocol_audit | 0.905 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-126 | benchmark_protocol_audit | benchmark_protocol_audit | 0.93 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-127 | benchmark_protocol_audit | benchmark_protocol_audit | 0.78 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-128 | benchmark_protocol_audit | benchmark_protocol_audit | 0.805 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-129 | benchmark_protocol_audit | benchmark_protocol_audit | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-130 | benchmark_protocol_audit | benchmark_protocol_audit | 0.855 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-131 | benchmark_protocol_audit | benchmark_protocol_audit | 0.88 | low-medium | high | class_candidate_possible | not-testable uncertainty | dataset_audit |
+| scale-target-132 | benchmark_protocol_audit | benchmark_protocol_audit | 0.905 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-133 | benchmark_protocol_audit | benchmark_protocol_audit | 0.93 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-134 | benchmark_protocol_audit | benchmark_protocol_audit | 0.78 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-135 | benchmark_protocol_audit | benchmark_protocol_audit | 0.805 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-136 | benchmark_protocol_audit | benchmark_protocol_audit | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-137 | benchmark_protocol_audit | benchmark_protocol_audit | 0.855 | low-medium | high | class_candidate_possible | route ambiguity or package caveat | dataset_audit |
+| scale-target-138 | benchmark_protocol_audit | benchmark_protocol_audit | 0.88 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-139 | benchmark_protocol_audit | benchmark_protocol_audit | 0.905 | low-medium | medium-with-caveat | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-140 | benchmark_protocol_audit | benchmark_protocol_audit | 0.93 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-141 | benchmark_protocol_audit | benchmark_protocol_audit | 0.78 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-142 | benchmark_protocol_audit | benchmark_protocol_audit | 0.805 | low-medium | high | class_candidate_possible | not-testable uncertainty | dataset_audit |
+| scale-target-143 | benchmark_protocol_audit | benchmark_protocol_audit | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-144 | benchmark_protocol_audit | benchmark_protocol_audit | 0.855 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-145 | benchmark_protocol_audit | benchmark_protocol_audit | 0.88 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-146 | benchmark_protocol_audit | benchmark_protocol_audit | 0.905 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-147 | benchmark_protocol_audit | benchmark_protocol_audit | 0.93 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-148 | benchmark_protocol_audit | benchmark_protocol_audit | 0.78 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-149 | benchmark_protocol_audit | benchmark_protocol_audit | 0.805 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-150 | benchmark_protocol_audit | benchmark_protocol_audit | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | dataset_audit |
+| scale-target-151 | formal_counterexample | formal_counterexample | 0.805 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-152 | formal_counterexample | formal_counterexample | 0.83 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-153 | formal_counterexample | formal_counterexample | 0.855 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-154 | formal_counterexample | formal_counterexample | 0.88 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-155 | formal_counterexample | formal_counterexample | 0.905 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-156 | formal_counterexample | formal_counterexample | 0.93 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-157 | formal_counterexample | formal_counterexample | 0.78 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-158 | formal_counterexample | formal_counterexample | 0.805 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-159 | formal_counterexample | formal_counterexample | 0.83 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-160 | formal_counterexample | formal_counterexample | 0.855 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-161 | formal_counterexample | formal_counterexample | 0.88 | medium | high | task_or_partial_only | not-testable uncertainty | proof_route |
+| scale-target-162 | formal_counterexample | formal_counterexample | 0.905 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-163 | formal_counterexample | formal_counterexample | 0.93 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-164 | formal_counterexample | formal_counterexample | 0.78 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-165 | formal_counterexample | formal_counterexample | 0.805 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-166 | formal_counterexample | formal_counterexample | 0.83 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-167 | formal_counterexample | formal_counterexample | 0.855 | medium | high | task_or_partial_only | route ambiguity or package caveat | proof_route |
+| scale-target-168 | formal_counterexample | formal_counterexample | 0.88 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-169 | formal_counterexample | formal_counterexample | 0.905 | medium | medium-with-caveat | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-170 | formal_counterexample | formal_counterexample | 0.93 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-171 | formal_counterexample | formal_counterexample | 0.78 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-172 | formal_counterexample | formal_counterexample | 0.805 | medium | high | task_or_partial_only | not-testable uncertainty | proof_route |
+| scale-target-173 | formal_counterexample | formal_counterexample | 0.83 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-174 | formal_counterexample | formal_counterexample | 0.855 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-175 | formal_counterexample | formal_counterexample | 0.88 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-176 | formal_counterexample | formal_counterexample | 0.905 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-177 | formal_counterexample | formal_counterexample | 0.93 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-178 | formal_counterexample | formal_counterexample | 0.78 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-179 | formal_counterexample | formal_counterexample | 0.805 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-180 | formal_counterexample | formal_counterexample | 0.83 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | proof_route |
+| scale-target-181 | temporal_evaluation | temporal_evaluation | 0.805 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-182 | temporal_evaluation | temporal_evaluation | 0.83 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-183 | temporal_evaluation | temporal_evaluation | 0.855 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-184 | temporal_evaluation | temporal_evaluation | 0.88 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-185 | temporal_evaluation | temporal_evaluation | 0.905 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-186 | temporal_evaluation | temporal_evaluation | 0.93 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-187 | temporal_evaluation | temporal_evaluation | 0.78 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-188 | temporal_evaluation | temporal_evaluation | 0.805 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-189 | temporal_evaluation | temporal_evaluation | 0.83 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-190 | temporal_evaluation | temporal_evaluation | 0.855 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-191 | temporal_evaluation | temporal_evaluation | 0.88 | medium | high | task_or_partial_only | not-testable uncertainty | benchmark_protocol_audit |
+| scale-target-192 | temporal_evaluation | temporal_evaluation | 0.905 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-193 | temporal_evaluation | temporal_evaluation | 0.93 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-194 | temporal_evaluation | temporal_evaluation | 0.78 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-195 | temporal_evaluation | temporal_evaluation | 0.805 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-196 | temporal_evaluation | temporal_evaluation | 0.83 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-197 | temporal_evaluation | temporal_evaluation | 0.855 | medium | high | task_or_partial_only | route ambiguity or package caveat | benchmark_protocol_audit |
+| scale-target-198 | temporal_evaluation | temporal_evaluation | 0.88 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-199 | temporal_evaluation | temporal_evaluation | 0.905 | medium | medium-with-caveat | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-200 | temporal_evaluation | temporal_evaluation | 0.93 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-201 | temporal_evaluation | temporal_evaluation | 0.78 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-202 | temporal_evaluation | temporal_evaluation | 0.805 | medium | high | task_or_partial_only | not-testable uncertainty | benchmark_protocol_audit |
+| scale-target-203 | temporal_evaluation | temporal_evaluation | 0.83 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-204 | temporal_evaluation | temporal_evaluation | 0.855 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-205 | temporal_evaluation | temporal_evaluation | 0.88 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-206 | temporal_evaluation | temporal_evaluation | 0.905 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-207 | temporal_evaluation | temporal_evaluation | 0.93 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-208 | temporal_evaluation | temporal_evaluation | 0.78 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-209 | temporal_evaluation | temporal_evaluation | 0.805 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-210 | temporal_evaluation | temporal_evaluation | 0.83 | medium | high | task_or_partial_only | none expected beyond bounded workload limits | benchmark_protocol_audit |
+| scale-target-211 | scientific_public_data_triage | dataset_audit | 0.805 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-212 | scientific_public_data_triage | dataset_audit | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-213 | scientific_public_data_triage | dataset_audit | 0.855 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-214 | scientific_public_data_triage | dataset_audit | 0.88 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-215 | scientific_public_data_triage | dataset_audit | 0.905 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-216 | scientific_public_data_triage | dataset_audit | 0.93 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-217 | scientific_public_data_triage | dataset_audit | 0.78 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-218 | scientific_public_data_triage | dataset_audit | 0.805 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-219 | scientific_public_data_triage | dataset_audit | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-220 | scientific_public_data_triage | dataset_audit | 0.855 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-221 | scientific_public_data_triage | dataset_audit | 0.88 | low-medium | high | class_candidate_possible | not-testable uncertainty | static_scan_only |
+| scale-target-222 | scientific_public_data_triage | dataset_audit | 0.905 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-223 | scientific_public_data_triage | dataset_audit | 0.93 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-224 | scientific_public_data_triage | dataset_audit | 0.78 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-225 | scientific_public_data_triage | dataset_audit | 0.805 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-226 | scientific_public_data_triage | dataset_audit | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-227 | scientific_public_data_triage | dataset_audit | 0.855 | low-medium | high | class_candidate_possible | route ambiguity or package caveat | static_scan_only |
+| scale-target-228 | scientific_public_data_triage | dataset_audit | 0.88 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-229 | scientific_public_data_triage | dataset_audit | 0.905 | low-medium | medium-with-caveat | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-230 | scientific_public_data_triage | dataset_audit | 0.93 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-231 | scientific_public_data_triage | dataset_audit | 0.78 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-232 | scientific_public_data_triage | dataset_audit | 0.805 | low-medium | high | class_candidate_possible | not-testable uncertainty | static_scan_only |
+| scale-target-233 | scientific_public_data_triage | dataset_audit | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-234 | scientific_public_data_triage | dataset_audit | 0.855 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-235 | scientific_public_data_triage | dataset_audit | 0.88 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-236 | scientific_public_data_triage | dataset_audit | 0.905 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-237 | scientific_public_data_triage | dataset_audit | 0.93 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-238 | scientific_public_data_triage | dataset_audit | 0.78 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-239 | scientific_public_data_triage | dataset_audit | 0.805 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |
+| scale-target-240 | scientific_public_data_triage | dataset_audit | 0.83 | low-medium | high | class_candidate_possible | none expected beyond bounded workload limits | static_scan_only |

@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 507,
+    "good": 519,
     "reviewable": 6
   },
   "results": [
@@ -2072,6 +2072,66 @@
       "releaseReadinessScore": 90
     },
     {
+      "slug": "scale-stage01-v3-scale-protocol",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "scale-stage02-class-target-selection",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "scale-stage03-frozen-class-route-predictions",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "scale-stage04-execution-wave1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "scale-stage05-execution-wave2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "scale-stage06-execution-wave3",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "scale-stage07-package-quality-and-brief-audit",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "scale-stage08-class-level-acceleration-audit",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "scale-stage09-error-and-caveat-analysis",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "scale-stage10-adversarial-scale-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "scale-stage11-os-v1-readiness-decision",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 92
+    },
+    {
+      "slug": "scale-stage12-next-frontier",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 92
+    },
+    {
       "slug": "scientific-dataset-reliability-self-built-lab-study",
       "qualityLabel": "good",
       "releaseReadinessScore": 92
@@ -2597,5 +2657,5 @@
       "releaseReadinessScore": 86
     }
   ],
-  "evidenceHash": "09770793dc8da7198079bfc9799b4769c6409201ebd1ab650bd3730841ae86d7"
+  "evidenceHash": "4bb9394b615c2a753ea26888454402f7974062e99a15d486977ead4211034f2f"
 }

@@ -1,0 +1,10 @@
+# scale-target-202
+
+- Target class: temporal_evaluation
+- Expected route: temporal_evaluation
+- Route confidence: 0.805
+- Expected evidence cost: medium
+- Expected package quality: high
+- Expected acceleration class: task_or_partial_only
+- Expected failure mode: not-testable uncertainty
+- Fallback route: benchmark_protocol_audit

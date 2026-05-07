@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-07T13:36:53.268Z",
+  "generatedAt": "2026-05-07T13:55:07.467Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -2481,6 +2481,78 @@
       "domain": "Cross-Domain Evidence Routing OS route policy v3"
     },
     {
+      "id": "result:scale-stage01-v3-scale-protocol",
+      "kind": "result",
+      "label": "v3 Scale Protocol",
+      "domain": "Cross-Domain Evidence Routing OS route policy v3 scale"
+    },
+    {
+      "id": "result:scale-stage02-class-target-selection",
+      "kind": "result",
+      "label": "Class Target Selection",
+      "domain": "Cross-Domain Evidence Routing OS route policy v3 scale"
+    },
+    {
+      "id": "result:scale-stage03-frozen-class-route-predictions",
+      "kind": "result",
+      "label": "Frozen Class Route Predictions",
+      "domain": "Cross-Domain Evidence Routing OS route policy v3 scale"
+    },
+    {
+      "id": "result:scale-stage04-execution-wave1",
+      "kind": "result",
+      "label": "Execution Wave 1",
+      "domain": "Cross-Domain Evidence Routing OS route policy v3 scale"
+    },
+    {
+      "id": "result:scale-stage05-execution-wave2",
+      "kind": "result",
+      "label": "Execution Wave 2",
+      "domain": "Cross-Domain Evidence Routing OS route policy v3 scale"
+    },
+    {
+      "id": "result:scale-stage06-execution-wave3",
+      "kind": "result",
+      "label": "Execution Wave 3",
+      "domain": "Cross-Domain Evidence Routing OS route policy v3 scale"
+    },
+    {
+      "id": "result:scale-stage07-package-quality-and-brief-audit",
+      "kind": "result",
+      "label": "Package Quality and Brief Audit",
+      "domain": "Cross-Domain Evidence Routing OS route policy v3 scale"
+    },
+    {
+      "id": "result:scale-stage08-class-level-acceleration-audit",
+      "kind": "result",
+      "label": "Class-Level Acceleration Audit",
+      "domain": "Cross-Domain Evidence Routing OS route policy v3 scale"
+    },
+    {
+      "id": "result:scale-stage09-error-and-caveat-analysis",
+      "kind": "result",
+      "label": "Error and Caveat Analysis",
+      "domain": "Cross-Domain Evidence Routing OS route policy v3 scale"
+    },
+    {
+      "id": "result:scale-stage10-adversarial-scale-kill-week",
+      "kind": "result",
+      "label": "Adversarial Scale Kill Week",
+      "domain": "Cross-Domain Evidence Routing OS route policy v3 scale"
+    },
+    {
+      "id": "result:scale-stage11-os-v1-readiness-decision",
+      "kind": "result",
+      "label": "OS v1 Readiness Decision",
+      "domain": "Cross-Domain Evidence Routing OS route policy v3 scale"
+    },
+    {
+      "id": "result:scale-stage12-next-frontier",
+      "kind": "result",
+      "label": "Next Frontier",
+      "domain": "Cross-Domain Evidence Routing OS route policy v3 scale"
+    },
+    {
       "id": "result:scientific-dataset-reliability-self-built-lab-study",
       "kind": "result",
       "label": "Provenance-aware schema-drift checks reduce false positives and improve inconsistent-record detection compared with schema-only validation baselines.",
@@ -3424,6 +3496,11 @@
       "id": "domain:Cross-Domain Evidence Routing OS route policy v3",
       "kind": "domain",
       "label": "Cross-Domain Evidence Routing OS route policy v3"
+    },
+    {
+      "id": "domain:Cross-Domain Evidence Routing OS route policy v3 scale",
+      "kind": "domain",
+      "label": "Cross-Domain Evidence Routing OS route policy v3 scale"
     },
     {
       "id": "domain:scientific-dataset-reliability",
@@ -6548,6 +6625,66 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:scale-stage01-v3-scale-protocol",
+      "target": "domain:Cross-Domain Evidence Routing OS route policy v3 scale",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:scale-stage02-class-target-selection",
+      "target": "domain:Cross-Domain Evidence Routing OS route policy v3 scale",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:scale-stage03-frozen-class-route-predictions",
+      "target": "domain:Cross-Domain Evidence Routing OS route policy v3 scale",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:scale-stage04-execution-wave1",
+      "target": "domain:Cross-Domain Evidence Routing OS route policy v3 scale",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:scale-stage05-execution-wave2",
+      "target": "domain:Cross-Domain Evidence Routing OS route policy v3 scale",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:scale-stage06-execution-wave3",
+      "target": "domain:Cross-Domain Evidence Routing OS route policy v3 scale",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:scale-stage07-package-quality-and-brief-audit",
+      "target": "domain:Cross-Domain Evidence Routing OS route policy v3 scale",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:scale-stage08-class-level-acceleration-audit",
+      "target": "domain:Cross-Domain Evidence Routing OS route policy v3 scale",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:scale-stage09-error-and-caveat-analysis",
+      "target": "domain:Cross-Domain Evidence Routing OS route policy v3 scale",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:scale-stage10-adversarial-scale-kill-week",
+      "target": "domain:Cross-Domain Evidence Routing OS route policy v3 scale",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:scale-stage11-os-v1-readiness-decision",
+      "target": "domain:Cross-Domain Evidence Routing OS route policy v3 scale",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:scale-stage12-next-frontier",
+      "target": "domain:Cross-Domain Evidence Routing OS route policy v3 scale",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:scientific-dataset-reliability-self-built-lab-study",
       "target": "domain:scientific-dataset-reliability",
       "relation": "belongs_to_domain"
@@ -7108,5 +7245,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "56b28b1e42433c30d65ca5346b6d0c620e066b9c231d2f9fdd9c8224c5df3d43"
+  "evidenceHash": "c19303f33bcc67053b4077b0798275f02ca6fc4492ea851308cad97e0d9a21c3"
 }

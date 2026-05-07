@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T13:36:53.268Z",
+  "updatedAt": "2026-05-07T13:55:07.467Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -2816,6 +2816,90 @@
       ]
     },
     {
+      "versionGroup": "scale-stage01-v3-scale-protocol",
+      "latestSlug": "scale-stage01-v3-scale-protocol",
+      "resultSlugs": [
+        "scale-stage01-v3-scale-protocol"
+      ]
+    },
+    {
+      "versionGroup": "scale-stage02-class-target-selection",
+      "latestSlug": "scale-stage02-class-target-selection",
+      "resultSlugs": [
+        "scale-stage02-class-target-selection"
+      ]
+    },
+    {
+      "versionGroup": "scale-stage03-frozen-class-route-predictions",
+      "latestSlug": "scale-stage03-frozen-class-route-predictions",
+      "resultSlugs": [
+        "scale-stage03-frozen-class-route-predictions"
+      ]
+    },
+    {
+      "versionGroup": "scale-stage04-execution-wave1",
+      "latestSlug": "scale-stage04-execution-wave1",
+      "resultSlugs": [
+        "scale-stage04-execution-wave1"
+      ]
+    },
+    {
+      "versionGroup": "scale-stage05-execution-wave2",
+      "latestSlug": "scale-stage05-execution-wave2",
+      "resultSlugs": [
+        "scale-stage05-execution-wave2"
+      ]
+    },
+    {
+      "versionGroup": "scale-stage06-execution-wave3",
+      "latestSlug": "scale-stage06-execution-wave3",
+      "resultSlugs": [
+        "scale-stage06-execution-wave3"
+      ]
+    },
+    {
+      "versionGroup": "scale-stage07-package-quality-and-brief-audit",
+      "latestSlug": "scale-stage07-package-quality-and-brief-audit",
+      "resultSlugs": [
+        "scale-stage07-package-quality-and-brief-audit"
+      ]
+    },
+    {
+      "versionGroup": "scale-stage08-class-level-acceleration-audit",
+      "latestSlug": "scale-stage08-class-level-acceleration-audit",
+      "resultSlugs": [
+        "scale-stage08-class-level-acceleration-audit"
+      ]
+    },
+    {
+      "versionGroup": "scale-stage09-error-and-caveat-analysis",
+      "latestSlug": "scale-stage09-error-and-caveat-analysis",
+      "resultSlugs": [
+        "scale-stage09-error-and-caveat-analysis"
+      ]
+    },
+    {
+      "versionGroup": "scale-stage10-adversarial-scale-kill-week",
+      "latestSlug": "scale-stage10-adversarial-scale-kill-week",
+      "resultSlugs": [
+        "scale-stage10-adversarial-scale-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "scale-stage11-os-v1-readiness-decision",
+      "latestSlug": "scale-stage11-os-v1-readiness-decision",
+      "resultSlugs": [
+        "scale-stage11-os-v1-readiness-decision"
+      ]
+    },
+    {
+      "versionGroup": "scale-stage12-next-frontier",
+      "latestSlug": "scale-stage12-next-frontier",
+      "resultSlugs": [
+        "scale-stage12-next-frontier"
+      ]
+    },
+    {
       "versionGroup": "scientific-dataset-reliability-self-built-lab-study",
       "latestSlug": "scientific-dataset-reliability-self-built-lab-study",
       "resultSlugs": [
@@ -3545,5 +3629,5 @@
       ]
     }
   ],
-  "evidenceHash": "ef7bc116f1a08a70243d616ae1a3996d840e5a2d2d8d96ab5a271b709dbe08b0"
+  "evidenceHash": "a4422c819bfa69fd2f2222f4e621a1e46434e6d26cdbd222e11003c318b06e53"
 }

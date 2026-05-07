@@ -1,9 +1,9 @@
 {
   "kind": "public_corpus_status_summary",
-  "updatedAt": "2026-05-07T13:36:53.268Z",
-  "resultCount": 518,
+  "updatedAt": "2026-05-07T13:55:07.467Z",
+  "resultCount": 530,
   "statusCounts": {
-    "autopublished": 483,
+    "autopublished": 495,
     "benchmark_challenge_negative_result": 4,
     "dataset_quality_audit_supported": 7,
     "external_extension_supported": 1,
@@ -22,11 +22,11 @@
     "v1_candidate_with_limits": 1
   },
   "lifecycleCounts": {
-    "autopublished": 487,
+    "autopublished": 499,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
     "superseded": 14
   },
-  "evidenceHash": "8f676190a54ab0e140181df1238cecf5f69fbfe2177734834208f9c57fc457fd"
+  "evidenceHash": "25183dc759239b9a42aebe8c6c4d59ac75ec412bcce5f7e60ba12029d8d56dd1"
 }

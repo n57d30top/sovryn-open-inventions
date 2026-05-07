@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 518
+Results: 530
 
 ## Lifecycle Counts
 
-- autopublished: 487
+- autopublished: 499
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -412,6 +412,18 @@ Results: 518
 - route-v3-stage10-class-level-acceleration-audit: latest route-v3-stage10-class-level-acceleration-audit; route-v3-stage10-class-level-acceleration-audit
 - route-v3-stage11-adversarial-route-v3-kill-week: latest route-v3-stage11-adversarial-route-v3-kill-week; route-v3-stage11-adversarial-route-v3-kill-week
 - route-v3-stage12-final-x10-routing-decision: latest route-v3-stage12-final-x10-routing-decision; route-v3-stage12-final-x10-routing-decision
+- scale-stage01-v3-scale-protocol: latest scale-stage01-v3-scale-protocol; scale-stage01-v3-scale-protocol
+- scale-stage02-class-target-selection: latest scale-stage02-class-target-selection; scale-stage02-class-target-selection
+- scale-stage03-frozen-class-route-predictions: latest scale-stage03-frozen-class-route-predictions; scale-stage03-frozen-class-route-predictions
+- scale-stage04-execution-wave1: latest scale-stage04-execution-wave1; scale-stage04-execution-wave1
+- scale-stage05-execution-wave2: latest scale-stage05-execution-wave2; scale-stage05-execution-wave2
+- scale-stage06-execution-wave3: latest scale-stage06-execution-wave3; scale-stage06-execution-wave3
+- scale-stage07-package-quality-and-brief-audit: latest scale-stage07-package-quality-and-brief-audit; scale-stage07-package-quality-and-brief-audit
+- scale-stage08-class-level-acceleration-audit: latest scale-stage08-class-level-acceleration-audit; scale-stage08-class-level-acceleration-audit
+- scale-stage09-error-and-caveat-analysis: latest scale-stage09-error-and-caveat-analysis; scale-stage09-error-and-caveat-analysis
+- scale-stage10-adversarial-scale-kill-week: latest scale-stage10-adversarial-scale-kill-week; scale-stage10-adversarial-scale-kill-week
+- scale-stage11-os-v1-readiness-decision: latest scale-stage11-os-v1-readiness-decision; scale-stage11-os-v1-readiness-decision
+- scale-stage12-next-frontier: latest scale-stage12-next-frontier; scale-stage12-next-frontier
 - scientific-dataset-reliability-self-built-lab-study: latest scientific-dataset-reliability-self-built-lab-study; scientific-dataset-reliability-self-built-lab-study
 - scientific-knowledge-engine-trial: latest scientific-knowledge-engine-trial; scientific-knowledge-engine-trial
 - search-stage01-failure-autopsy: latest search-stage01-failure-autopsy; search-stage01-failure-autopsy

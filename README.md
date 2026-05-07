@@ -448,6 +448,18 @@ and safety scope in human-readable language.
 - [Class-Level Acceleration Audit](results/route-v3-stage10-class-level-acceleration-audit/) — good, autopublished, route-v3-stage10-class-level-acceleration-audit, Cross-Domain Evidence Routing OS route policy v3
 - [Adversarial Route v3 Kill Week](results/route-v3-stage11-adversarial-route-v3-kill-week/) — good, autopublished, route-v3-stage11-adversarial-route-v3-kill-week, Cross-Domain Evidence Routing OS route policy v3
 - [Final x10 Routing Decision](results/route-v3-stage12-final-x10-routing-decision/) — good, autopublished, route-v3-stage12-final-x10-routing-decision, Cross-Domain Evidence Routing OS route policy v3
+- [v3 Scale Protocol](results/scale-stage01-v3-scale-protocol/) — good, autopublished, scale-stage01-v3-scale-protocol, Cross-Domain Evidence Routing OS route policy v3 scale
+- [Class Target Selection](results/scale-stage02-class-target-selection/) — good, autopublished, scale-stage02-class-target-selection, Cross-Domain Evidence Routing OS route policy v3 scale
+- [Frozen Class Route Predictions](results/scale-stage03-frozen-class-route-predictions/) — good, autopublished, scale-stage03-frozen-class-route-predictions, Cross-Domain Evidence Routing OS route policy v3 scale
+- [Execution Wave 1](results/scale-stage04-execution-wave1/) — good, autopublished, scale-stage04-execution-wave1, Cross-Domain Evidence Routing OS route policy v3 scale
+- [Execution Wave 2](results/scale-stage05-execution-wave2/) — good, autopublished, scale-stage05-execution-wave2, Cross-Domain Evidence Routing OS route policy v3 scale
+- [Execution Wave 3](results/scale-stage06-execution-wave3/) — good, autopublished, scale-stage06-execution-wave3, Cross-Domain Evidence Routing OS route policy v3 scale
+- [Package Quality and Brief Audit](results/scale-stage07-package-quality-and-brief-audit/) — good, autopublished, scale-stage07-package-quality-and-brief-audit, Cross-Domain Evidence Routing OS route policy v3 scale
+- [Class-Level Acceleration Audit](results/scale-stage08-class-level-acceleration-audit/) — good, autopublished, scale-stage08-class-level-acceleration-audit, Cross-Domain Evidence Routing OS route policy v3 scale
+- [Error and Caveat Analysis](results/scale-stage09-error-and-caveat-analysis/) — good, autopublished, scale-stage09-error-and-caveat-analysis, Cross-Domain Evidence Routing OS route policy v3 scale
+- [Adversarial Scale Kill Week](results/scale-stage10-adversarial-scale-kill-week/) — good, autopublished, scale-stage10-adversarial-scale-kill-week, Cross-Domain Evidence Routing OS route policy v3 scale
+- [OS v1 Readiness Decision](results/scale-stage11-os-v1-readiness-decision/) — good, autopublished, scale-stage11-os-v1-readiness-decision, Cross-Domain Evidence Routing OS route policy v3 scale
+- [Next Frontier](results/scale-stage12-next-frontier/) — good, autopublished, scale-stage12-next-frontier, Cross-Domain Evidence Routing OS route policy v3 scale
 - [Provenance-aware schema-drift checks reduce false positives and improve inconsistent-record detection compared with schema-only validation baselines.](results/scientific-dataset-reliability-self-built-lab-study/) — good, showcase_science, scientific-dataset-reliability-self-built-lab-study, scientific-dataset-reliability
 - [Scientific Knowledge Engine Trial](results/scientific-knowledge-engine-trial/) — good, autopublished, scientific-knowledge-engine-trial, scientific-knowledge-engine
 - [Candidate Failure Autopsy](results/search-stage01-failure-autopsy/) — good, autopublished, search-stage01-failure-autopsy, candidate rejection and new discovery search

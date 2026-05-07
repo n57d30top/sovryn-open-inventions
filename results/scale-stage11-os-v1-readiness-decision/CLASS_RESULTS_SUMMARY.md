@@ -1,0 +1,10 @@
+| targetClass | targetCount | taskLevel10xCount | averageAccelerationFactor | routeErrorRate | packageCount | classLevel10x |
+| --- | --- | --- | --- | --- | --- | --- |
+| claim_review | 30 | 18 | 11.42 | 0.033 | 12 | true |
+| tool_usefulness | 30 | 20 | 11.73 | 0.033 | 12 | true |
+| repo_package_reproduction | 30 | 8 | 9.31 | 0.133 | 12 | false |
+| dataset_audit | 30 | 15 | 10.58 | 0.067 | 12 | true |
+| benchmark_protocol_audit | 30 | 13 | 10.24 | 0.067 | 12 | true |
+| formal_counterexample | 30 | 7 | 9.08 | 0.1 | 12 | false |
+| temporal_evaluation | 30 | 6 | 8.91 | 0.133 | 12 | false |
+| scientific_public_data_triage | 30 | 14 | 10.35 | 0.033 | 12 | true |

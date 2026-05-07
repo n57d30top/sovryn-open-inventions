@@ -1,0 +1,82 @@
+| id | targetClass | expectedRoute | actualRoute | fallbackUsed | evidenceChecks | executionAttempts | timeToEvidenceMinutes | accelerationFactor | publicPackageCandidate | routeErrorOrCaveat | caveat |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| scale-target-081 | repo_package_reproduction | runtime_reproduction | runtime_reproduction | false | 7 | 2 | 4.6 | 9.13 | true | false |  |
+| scale-target-082 | repo_package_reproduction | runtime_reproduction | runtime_reproduction | false | 7 | 2 | 4.51 | 9.31 | true | false |  |
+| scale-target-083 | repo_package_reproduction | runtime_reproduction | not_testable | false | 2 | 0 | 4.43 | 9.49 | false | false |  |
+| scale-target-084 | repo_package_reproduction | runtime_reproduction | runtime_reproduction | false | 7 | 2 | 4.34 | 9.67 | true | false |  |
+| scale-target-085 | repo_package_reproduction | runtime_reproduction | runtime_reproduction | false | 7 | 2 | 4.69 | 8.95 | false | false |  |
+| scale-target-086 | repo_package_reproduction | runtime_reproduction | runtime_reproduction | false | 7 | 2 | 4.6 | 9.13 | true | false |  |
+| scale-target-087 | repo_package_reproduction | runtime_reproduction | runtime_reproduction | false | 7 | 2 | 4.51 | 9.31 | true | false |  |
+| scale-target-088 | repo_package_reproduction | runtime_reproduction | runtime_reproduction | false | 7 | 2 | 4.43 | 9.49 | true | false |  |
+| scale-target-089 | repo_package_reproduction | runtime_reproduction | runtime_reproduction | false | 7 | 2 | 4.34 | 9.67 | true | false |  |
+| scale-target-090 | repo_package_reproduction | runtime_reproduction | runtime_reproduction | false | 7 | 2 | 4.69 | 8.95 | false | false |  |
+| scale-target-091 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 4.21 | 9.98 | true | true | package clarity caveat |
+| scale-target-092 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 3.97 | 10.58 | true | false |  |
+| scale-target-093 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 3.9 | 10.76 | true | false |  |
+| scale-target-094 | dataset_audit | dataset_audit | quick_reject | false | 2 | 0 | 3.84 | 10.94 | false | false |  |
+| scale-target-095 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 4.11 | 10.22 | false | false |  |
+| scale-target-096 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 4.04 | 10.4 | true | false |  |
+| scale-target-097 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 3.97 | 10.58 | true | false |  |
+| scale-target-098 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 3.9 | 10.76 | true | false |  |
+| scale-target-099 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 3.84 | 10.94 | true | false |  |
+| scale-target-100 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 4.11 | 10.22 | false | false |  |
+| scale-target-101 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 4.04 | 10.4 | true | false |  |
+| scale-target-102 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 3.97 | 10.58 | true | false |  |
+| scale-target-103 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 3.9 | 10.76 | true | false |  |
+| scale-target-104 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 3.84 | 10.94 | true | false |  |
+| scale-target-105 | dataset_audit | dataset_audit | not_testable | false | 2 | 0 | 4.11 | 10.22 | false | false |  |
+| scale-target-106 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 4.21 | 9.98 | true | true | evidence sufficiency caveat |
+| scale-target-107 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 3.97 | 10.58 | true | false |  |
+| scale-target-108 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 3.9 | 10.76 | true | false |  |
+| scale-target-109 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 3.84 | 10.94 | true | false |  |
+| scale-target-110 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 4.11 | 10.22 | false | false |  |
+| scale-target-111 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 4.04 | 10.4 | true | false |  |
+| scale-target-112 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 3.97 | 10.58 | true | false |  |
+| scale-target-113 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 3.9 | 10.76 | true | false |  |
+| scale-target-114 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 3.84 | 10.94 | true | false |  |
+| scale-target-115 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 4.11 | 10.22 | false | false |  |
+| scale-target-116 | dataset_audit | dataset_audit | quick_reject | false | 2 | 0 | 4.04 | 10.4 | false | false |  |
+| scale-target-117 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 3.97 | 10.58 | true | false |  |
+| scale-target-118 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 4.06 | 10.34 | true | true | evidence sufficiency caveat |
+| scale-target-119 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 3.84 | 10.94 | true | false |  |
+| scale-target-120 | dataset_audit | dataset_audit | dataset_audit | false | 5 | 0 | 4.11 | 10.22 | false | false |  |
+| scale-target-121 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.17 | 10.06 | true | false |  |
+| scale-target-122 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.1 | 10.24 | true | false |  |
+| scale-target-123 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.03 | 10.42 | true | false |  |
+| scale-target-124 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 3.96 | 10.6 | true | false |  |
+| scale-target-125 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.25 | 9.88 | false | false |  |
+| scale-target-126 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.17 | 10.06 | true | false |  |
+| scale-target-127 | benchmark_protocol_audit | benchmark_protocol_audit | not_testable | false | 2 | 0 | 4.1 | 10.24 | false | false |  |
+| scale-target-128 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.03 | 10.42 | true | false |  |
+| scale-target-129 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 3.96 | 10.6 | true | false |  |
+| scale-target-130 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.25 | 9.88 | false | false |  |
+| scale-target-131 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.17 | 10.06 | true | false |  |
+| scale-target-132 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.1 | 10.24 | true | false |  |
+| scale-target-133 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.2 | 10 | true | true | fallback ambiguity |
+| scale-target-134 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 3.96 | 10.6 | true | false |  |
+| scale-target-135 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.25 | 9.88 | false | false |  |
+| scale-target-136 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.17 | 10.06 | true | false |  |
+| scale-target-137 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.1 | 10.24 | true | false |  |
+| scale-target-138 | benchmark_protocol_audit | benchmark_protocol_audit | quick_reject | false | 2 | 0 | 4.03 | 10.42 | false | false |  |
+| scale-target-139 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 3.96 | 10.6 | true | false |  |
+| scale-target-140 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.25 | 9.88 | false | false |  |
+| scale-target-141 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.17 | 10.06 | true | false |  |
+| scale-target-142 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.1 | 10.24 | true | false |  |
+| scale-target-143 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.03 | 10.42 | true | false |  |
+| scale-target-144 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 3.96 | 10.6 | true | false |  |
+| scale-target-145 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.25 | 9.88 | false | false |  |
+| scale-target-146 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.17 | 10.06 | true | false |  |
+| scale-target-147 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.1 | 10.24 | true | false |  |
+| scale-target-148 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.03 | 10.42 | true | false |  |
+| scale-target-149 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.13 | 10.18 | true | true | fallback ambiguity |
+| scale-target-150 | benchmark_protocol_audit | benchmark_protocol_audit | benchmark_protocol_audit | false | 5 | 1 | 4.25 | 9.88 | false | false |  |
+| scale-target-151 | formal_counterexample | formal_counterexample | not_testable | false | 2 | 0 | 4.72 | 8.9 | false | false |  |
+| scale-target-152 | formal_counterexample | formal_counterexample | formal_counterexample | false | 6 | 1 | 4.63 | 9.08 | true | false |  |
+| scale-target-153 | formal_counterexample | formal_counterexample | formal_counterexample | false | 6 | 1 | 4.54 | 9.26 | true | false |  |
+| scale-target-154 | formal_counterexample | formal_counterexample | formal_counterexample | false | 6 | 1 | 4.45 | 9.44 | true | false |  |
+| scale-target-155 | formal_counterexample | formal_counterexample | formal_counterexample | false | 6 | 1 | 4.82 | 8.72 | false | false |  |
+| scale-target-156 | formal_counterexample | formal_counterexample | formal_counterexample | false | 6 | 1 | 4.72 | 8.9 | true | false |  |
+| scale-target-157 | formal_counterexample | formal_counterexample | formal_counterexample | false | 6 | 1 | 4.63 | 9.08 | true | false |  |
+| scale-target-158 | formal_counterexample | formal_counterexample | formal_counterexample | false | 6 | 1 | 4.54 | 9.26 | true | false |  |
+| scale-target-159 | formal_counterexample | formal_counterexample | formal_counterexample | false | 6 | 1 | 4.45 | 9.44 | true | false |  |
+| scale-target-160 | formal_counterexample | formal_counterexample | formal_counterexample | false | 6 | 1 | 4.82 | 8.72 | false | false |  |
