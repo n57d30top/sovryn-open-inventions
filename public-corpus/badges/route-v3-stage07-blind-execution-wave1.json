@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "route-v3-stage07-blind-execution-wave1",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "specific_public_evidence",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "route_v3_adversarially_reviewed",
+    "lifecycle": "autopublished",
+    "version": "route-v3-stage07-blind-execution-wave1",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "33fee5d775892d3f7d6c375d4f154afca46a71dfadb67a62181e2d94ae244963"
+}

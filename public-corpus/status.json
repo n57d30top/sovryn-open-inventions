@@ -1,8 +1,8 @@
 {
   "kind": "public_corpus_status",
-  "generatedAt": "2026-05-07T12:58:13.610Z",
+  "generatedAt": "2026-05-07T13:36:53.268Z",
   "statusCounts": {
-    "autopublished": 471,
+    "autopublished": 483,
     "benchmark_challenge_negative_result": 4,
     "dataset_quality_audit_supported": 7,
     "external_extension_supported": 1,
@@ -21,7 +21,7 @@
     "v1_candidate_with_limits": 1
   },
   "lifecycleCounts": {
-    "autopublished": 475,
+    "autopublished": 487,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -41,6 +41,7 @@
     "claim-verification-benchmark": 1,
     "claim-verification-benchmark-quality": 1,
     "computational-reproducibility-audit": 1,
+    "Cross-Domain Evidence Routing OS route policy v3": 12,
     "Cross-Domain Evidence Routing OS v1": 12,
     "dataset-and-metric-validation": 1,
     "dataset-schema-provenance-auditing": 1,
@@ -103,5 +104,5 @@
     "time-series-tabular-benchmark": 1,
     "tool-backed-dataset-quality-audit": 1
   },
-  "evidenceHash": "e78eb6a46f6ca380957d428bc0a745af1dfb1e9e7a9afea5100593830e850a2a"
+  "evidenceHash": "c463f44daf4999ac9b3f2de034485fe455347efb24092c8291fcd6cf8f8cdd27"
 }

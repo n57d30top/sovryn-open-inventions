@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-07T12:58:13.610Z",
+  "generatedAt": "2026-05-07T13:36:53.268Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -7221,6 +7221,222 @@
       "showcaseRank": null
     },
     {
+      "slug": "route-v3-stage01-error-taxonomy",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_v3_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "route-v3-stage01-error-taxonomy",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "route-v3-stage02-policy-v3-design",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_v3_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "route-v3-stage02-policy-v3-design",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "route-v3-stage03-product-implementation",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_v3_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "route-v3-stage03-product-implementation",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "route-v3-stage04-policy-calibration-on-v2-errors",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_v3_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "route-v3-stage04-policy-calibration-on-v2-errors",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "route-v3-stage05-blind-workload-selection",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_v3_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "route-v3-stage05-blind-workload-selection",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "route-v3-stage06-blind-routing-freeze",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_v3_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "route-v3-stage06-blind-routing-freeze",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "route-v3-stage07-blind-execution-wave1",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_v3_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "route-v3-stage07-blind-execution-wave1",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "route-v3-stage08-blind-execution-wave2",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_v3_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "route-v3-stage08-blind-execution-wave2",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "route-v3-stage09-public-package-quality-audit",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_v3_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "route-v3-stage09-public-package-quality-audit",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "route-v3-stage10-class-level-acceleration-audit",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_v3_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "route-v3-stage10-class-level-acceleration-audit",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "route-v3-stage11-adversarial-route-v3-kill-week",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_v3_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "route-v3-stage11-adversarial-route-v3-kill-week",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "route-v3-stage12-final-x10-routing-decision",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_v3_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "route-v3-stage12-final-x10-routing-decision",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
       "slug": "scientific-dataset-reliability-self-built-lab-study",
       "badges": {
         "quality": "good",
@@ -9111,5 +9327,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "00af7560ebbbf2d274f94be958ebf4411803d788fac115dcd8ef9cf411112cdf"
+  "evidenceHash": "8571990b34e0fbc57d0c7e6e0392ae4f98ed7c6218563d7922e72a3df22bf5e7"
 }

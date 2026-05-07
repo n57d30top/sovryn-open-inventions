@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T12:58:13.610Z",
+  "updatedAt": "2026-05-07T13:36:53.268Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -2732,6 +2732,90 @@
       ]
     },
     {
+      "versionGroup": "route-v3-stage01-error-taxonomy",
+      "latestSlug": "route-v3-stage01-error-taxonomy",
+      "resultSlugs": [
+        "route-v3-stage01-error-taxonomy"
+      ]
+    },
+    {
+      "versionGroup": "route-v3-stage02-policy-v3-design",
+      "latestSlug": "route-v3-stage02-policy-v3-design",
+      "resultSlugs": [
+        "route-v3-stage02-policy-v3-design"
+      ]
+    },
+    {
+      "versionGroup": "route-v3-stage03-product-implementation",
+      "latestSlug": "route-v3-stage03-product-implementation",
+      "resultSlugs": [
+        "route-v3-stage03-product-implementation"
+      ]
+    },
+    {
+      "versionGroup": "route-v3-stage04-policy-calibration-on-v2-errors",
+      "latestSlug": "route-v3-stage04-policy-calibration-on-v2-errors",
+      "resultSlugs": [
+        "route-v3-stage04-policy-calibration-on-v2-errors"
+      ]
+    },
+    {
+      "versionGroup": "route-v3-stage05-blind-workload-selection",
+      "latestSlug": "route-v3-stage05-blind-workload-selection",
+      "resultSlugs": [
+        "route-v3-stage05-blind-workload-selection"
+      ]
+    },
+    {
+      "versionGroup": "route-v3-stage06-blind-routing-freeze",
+      "latestSlug": "route-v3-stage06-blind-routing-freeze",
+      "resultSlugs": [
+        "route-v3-stage06-blind-routing-freeze"
+      ]
+    },
+    {
+      "versionGroup": "route-v3-stage07-blind-execution-wave1",
+      "latestSlug": "route-v3-stage07-blind-execution-wave1",
+      "resultSlugs": [
+        "route-v3-stage07-blind-execution-wave1"
+      ]
+    },
+    {
+      "versionGroup": "route-v3-stage08-blind-execution-wave2",
+      "latestSlug": "route-v3-stage08-blind-execution-wave2",
+      "resultSlugs": [
+        "route-v3-stage08-blind-execution-wave2"
+      ]
+    },
+    {
+      "versionGroup": "route-v3-stage09-public-package-quality-audit",
+      "latestSlug": "route-v3-stage09-public-package-quality-audit",
+      "resultSlugs": [
+        "route-v3-stage09-public-package-quality-audit"
+      ]
+    },
+    {
+      "versionGroup": "route-v3-stage10-class-level-acceleration-audit",
+      "latestSlug": "route-v3-stage10-class-level-acceleration-audit",
+      "resultSlugs": [
+        "route-v3-stage10-class-level-acceleration-audit"
+      ]
+    },
+    {
+      "versionGroup": "route-v3-stage11-adversarial-route-v3-kill-week",
+      "latestSlug": "route-v3-stage11-adversarial-route-v3-kill-week",
+      "resultSlugs": [
+        "route-v3-stage11-adversarial-route-v3-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "route-v3-stage12-final-x10-routing-decision",
+      "latestSlug": "route-v3-stage12-final-x10-routing-decision",
+      "resultSlugs": [
+        "route-v3-stage12-final-x10-routing-decision"
+      ]
+    },
+    {
       "versionGroup": "scientific-dataset-reliability-self-built-lab-study",
       "latestSlug": "scientific-dataset-reliability-self-built-lab-study",
       "resultSlugs": [
@@ -3461,5 +3545,5 @@
       ]
     }
   ],
-  "evidenceHash": "00ca687f31296a30e15f9e3f02f34ccd61c58427c803cc4b609822fa5ef54f92"
+  "evidenceHash": "ef7bc116f1a08a70243d616ae1a3996d840e5a2d2d8d96ab5a271b709dbe08b0"
 }

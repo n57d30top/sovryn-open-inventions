@@ -436,6 +436,18 @@ and safety scope in human-readable language.
 - [Route Stage 10 Route Kill Week](results/route-stage10-route-kill-week/) — good, autopublished, route-stage10-route-kill-week, Cross-Domain Evidence Routing OS v1
 - [Route Stage 11 Acceleration Claim Audit](results/route-stage11-acceleration-claim-audit/) — good, autopublished, route-stage11-acceleration-claim-audit, Cross-Domain Evidence Routing OS v1
 - [Route Stage 12 x10 OS Readiness Decision](results/route-stage12-x10-os-readiness-decision/) — good, autopublished, route-stage12-x10-os-readiness-decision, Cross-Domain Evidence Routing OS v1
+- [Error Taxonomy](results/route-v3-stage01-error-taxonomy/) — good, autopublished, route-v3-stage01-error-taxonomy, Cross-Domain Evidence Routing OS route policy v3
+- [Policy v3 Design](results/route-v3-stage02-policy-v3-design/) — good, autopublished, route-v3-stage02-policy-v3-design, Cross-Domain Evidence Routing OS route policy v3
+- [Product Implementation](results/route-v3-stage03-product-implementation/) — good, autopublished, route-v3-stage03-product-implementation, Cross-Domain Evidence Routing OS route policy v3
+- [Policy Calibration on v2 Errors](results/route-v3-stage04-policy-calibration-on-v2-errors/) — good, autopublished, route-v3-stage04-policy-calibration-on-v2-errors, Cross-Domain Evidence Routing OS route policy v3
+- [Blind Workload Selection](results/route-v3-stage05-blind-workload-selection/) — good, autopublished, route-v3-stage05-blind-workload-selection, Cross-Domain Evidence Routing OS route policy v3
+- [Blind Routing Freeze](results/route-v3-stage06-blind-routing-freeze/) — good, autopublished, route-v3-stage06-blind-routing-freeze, Cross-Domain Evidence Routing OS route policy v3
+- [Blind Execution Wave 1](results/route-v3-stage07-blind-execution-wave1/) — good, autopublished, route-v3-stage07-blind-execution-wave1, Cross-Domain Evidence Routing OS route policy v3
+- [Blind Execution Wave 2](results/route-v3-stage08-blind-execution-wave2/) — good, autopublished, route-v3-stage08-blind-execution-wave2, Cross-Domain Evidence Routing OS route policy v3
+- [Public Package Quality Audit](results/route-v3-stage09-public-package-quality-audit/) — good, autopublished, route-v3-stage09-public-package-quality-audit, Cross-Domain Evidence Routing OS route policy v3
+- [Class-Level Acceleration Audit](results/route-v3-stage10-class-level-acceleration-audit/) — good, autopublished, route-v3-stage10-class-level-acceleration-audit, Cross-Domain Evidence Routing OS route policy v3
+- [Adversarial Route v3 Kill Week](results/route-v3-stage11-adversarial-route-v3-kill-week/) — good, autopublished, route-v3-stage11-adversarial-route-v3-kill-week, Cross-Domain Evidence Routing OS route policy v3
+- [Final x10 Routing Decision](results/route-v3-stage12-final-x10-routing-decision/) — good, autopublished, route-v3-stage12-final-x10-routing-decision, Cross-Domain Evidence Routing OS route policy v3
 - [Provenance-aware schema-drift checks reduce false positives and improve inconsistent-record detection compared with schema-only validation baselines.](results/scientific-dataset-reliability-self-built-lab-study/) — good, showcase_science, scientific-dataset-reliability-self-built-lab-study, scientific-dataset-reliability
 - [Scientific Knowledge Engine Trial](results/scientific-knowledge-engine-trial/) — good, autopublished, scientific-knowledge-engine-trial, scientific-knowledge-engine
 - [Candidate Failure Autopsy](results/search-stage01-failure-autopsy/) — good, autopublished, search-stage01-failure-autopsy, candidate rejection and new discovery search

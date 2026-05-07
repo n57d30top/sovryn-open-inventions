@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 506
+Results: 518
 
 ## Lifecycle Counts
 
-- autopublished: 475
+- autopublished: 487
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -400,6 +400,18 @@ Results: 506
 - route-stage10-route-kill-week: latest route-stage10-route-kill-week; route-stage10-route-kill-week
 - route-stage11-acceleration-claim-audit: latest route-stage11-acceleration-claim-audit; route-stage11-acceleration-claim-audit
 - route-stage12-x10-os-readiness-decision: latest route-stage12-x10-os-readiness-decision; route-stage12-x10-os-readiness-decision
+- route-v3-stage01-error-taxonomy: latest route-v3-stage01-error-taxonomy; route-v3-stage01-error-taxonomy
+- route-v3-stage02-policy-v3-design: latest route-v3-stage02-policy-v3-design; route-v3-stage02-policy-v3-design
+- route-v3-stage03-product-implementation: latest route-v3-stage03-product-implementation; route-v3-stage03-product-implementation
+- route-v3-stage04-policy-calibration-on-v2-errors: latest route-v3-stage04-policy-calibration-on-v2-errors; route-v3-stage04-policy-calibration-on-v2-errors
+- route-v3-stage05-blind-workload-selection: latest route-v3-stage05-blind-workload-selection; route-v3-stage05-blind-workload-selection
+- route-v3-stage06-blind-routing-freeze: latest route-v3-stage06-blind-routing-freeze; route-v3-stage06-blind-routing-freeze
+- route-v3-stage07-blind-execution-wave1: latest route-v3-stage07-blind-execution-wave1; route-v3-stage07-blind-execution-wave1
+- route-v3-stage08-blind-execution-wave2: latest route-v3-stage08-blind-execution-wave2; route-v3-stage08-blind-execution-wave2
+- route-v3-stage09-public-package-quality-audit: latest route-v3-stage09-public-package-quality-audit; route-v3-stage09-public-package-quality-audit
+- route-v3-stage10-class-level-acceleration-audit: latest route-v3-stage10-class-level-acceleration-audit; route-v3-stage10-class-level-acceleration-audit
+- route-v3-stage11-adversarial-route-v3-kill-week: latest route-v3-stage11-adversarial-route-v3-kill-week; route-v3-stage11-adversarial-route-v3-kill-week
+- route-v3-stage12-final-x10-routing-decision: latest route-v3-stage12-final-x10-routing-decision; route-v3-stage12-final-x10-routing-decision
 - scientific-dataset-reliability-self-built-lab-study: latest scientific-dataset-reliability-self-built-lab-study; scientific-dataset-reliability-self-built-lab-study
 - scientific-knowledge-engine-trial: latest scientific-knowledge-engine-trial; scientific-knowledge-engine-trial
 - search-stage01-failure-autopsy: latest search-stage01-failure-autopsy; search-stage01-failure-autopsy

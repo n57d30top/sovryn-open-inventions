@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 495,
+    "good": 507,
     "reviewable": 6
   },
   "results": [
@@ -2012,6 +2012,66 @@
       "releaseReadinessScore": 86
     },
     {
+      "slug": "route-v3-stage01-error-taxonomy",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "route-v3-stage02-policy-v3-design",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "route-v3-stage03-product-implementation",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "route-v3-stage04-policy-calibration-on-v2-errors",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "route-v3-stage05-blind-workload-selection",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "route-v3-stage06-blind-routing-freeze",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "route-v3-stage07-blind-execution-wave1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "route-v3-stage08-blind-execution-wave2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "route-v3-stage09-public-package-quality-audit",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "route-v3-stage10-class-level-acceleration-audit",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "route-v3-stage11-adversarial-route-v3-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "route-v3-stage12-final-x10-routing-decision",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
       "slug": "scientific-dataset-reliability-self-built-lab-study",
       "qualityLabel": "good",
       "releaseReadinessScore": 92
@@ -2537,5 +2597,5 @@
       "releaseReadinessScore": 86
     }
   ],
-  "evidenceHash": "799cf91ebb3bb55b22e9b7559d4cc3f385f7b3ea132731db0f881bb3c48155cd"
+  "evidenceHash": "09770793dc8da7198079bfc9799b4769c6409201ebd1ab650bd3730841ae86d7"
 }

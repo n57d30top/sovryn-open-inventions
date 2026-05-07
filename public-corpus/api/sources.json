@@ -2306,6 +2306,66 @@
       "customTool": null
     },
     {
+      "slug": "route-v3-stage01-error-taxonomy",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-v3-stage02-policy-v3-design",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-v3-stage03-product-implementation",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-v3-stage04-policy-calibration-on-v2-errors",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-v3-stage05-blind-workload-selection",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-v3-stage06-blind-routing-freeze",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-v3-stage07-blind-execution-wave1",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-v3-stage08-blind-execution-wave2",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-v3-stage09-public-package-quality-audit",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-v3-stage10-class-level-acceleration-audit",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-v3-stage11-adversarial-route-v3-kill-week",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-v3-stage12-final-x10-routing-decision",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "scientific-dataset-reliability-self-built-lab-study",
       "externalPackages": [
         "pandas",
@@ -2841,5 +2901,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "9aca4eaa640d9a68490d003d982de03171313378124a9a61653e89b44a274b72"
+  "evidenceHash": "6dba1d70c603cc60c0628b3d20cd34a584c9982af62e492d88d62fb380e69cc7"
 }
