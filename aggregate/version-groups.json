@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T06:51:23.891Z",
+  "updatedAt": "2026-05-07T07:18:21.724Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -1956,6 +1956,90 @@
       ]
     },
     {
+      "versionGroup": "temporal-blind-stage01-validation-protocol",
+      "latestSlug": "temporal-blind-stage01-validation-protocol",
+      "resultSlugs": [
+        "temporal-blind-stage01-validation-protocol"
+      ]
+    },
+    {
+      "versionGroup": "temporal-blind-stage02-freeze-classifier-and-predictions",
+      "latestSlug": "temporal-blind-stage02-freeze-classifier-and-predictions",
+      "resultSlugs": [
+        "temporal-blind-stage02-freeze-classifier-and-predictions"
+      ]
+    },
+    {
+      "versionGroup": "temporal-blind-stage03-target-universe-and-blind-selection",
+      "latestSlug": "temporal-blind-stage03-target-universe-and-blind-selection",
+      "resultSlugs": [
+        "temporal-blind-stage03-target-universe-and-blind-selection"
+      ]
+    },
+    {
+      "versionGroup": "temporal-blind-stage04-execution-wave1",
+      "latestSlug": "temporal-blind-stage04-execution-wave1",
+      "resultSlugs": [
+        "temporal-blind-stage04-execution-wave1"
+      ]
+    },
+    {
+      "versionGroup": "temporal-blind-stage05-execution-wave2",
+      "latestSlug": "temporal-blind-stage05-execution-wave2",
+      "resultSlugs": [
+        "temporal-blind-stage05-execution-wave2"
+      ]
+    },
+    {
+      "versionGroup": "temporal-blind-stage06-execution-wave3",
+      "latestSlug": "temporal-blind-stage06-execution-wave3",
+      "resultSlugs": [
+        "temporal-blind-stage06-execution-wave3"
+      ]
+    },
+    {
+      "versionGroup": "temporal-blind-stage07-error-analysis",
+      "latestSlug": "temporal-blind-stage07-error-analysis",
+      "resultSlugs": [
+        "temporal-blind-stage07-error-analysis"
+      ]
+    },
+    {
+      "versionGroup": "temporal-blind-stage08-true-fragility-candidate-deep-check",
+      "latestSlug": "temporal-blind-stage08-true-fragility-candidate-deep-check",
+      "resultSlugs": [
+        "temporal-blind-stage08-true-fragility-candidate-deep-check"
+      ]
+    },
+    {
+      "versionGroup": "temporal-blind-stage09-counterexample-and-mutation-pressure",
+      "latestSlug": "temporal-blind-stage09-counterexample-and-mutation-pressure",
+      "resultSlugs": [
+        "temporal-blind-stage09-counterexample-and-mutation-pressure"
+      ]
+    },
+    {
+      "versionGroup": "temporal-blind-stage10-replay-gauntlet",
+      "latestSlug": "temporal-blind-stage10-replay-gauntlet",
+      "resultSlugs": [
+        "temporal-blind-stage10-replay-gauntlet"
+      ]
+    },
+    {
+      "versionGroup": "temporal-blind-stage11-final-instrument-decision",
+      "latestSlug": "temporal-blind-stage11-final-instrument-decision",
+      "resultSlugs": [
+        "temporal-blind-stage11-final-instrument-decision"
+      ]
+    },
+    {
+      "versionGroup": "temporal-blind-stage12-next-frontier",
+      "latestSlug": "temporal-blind-stage12-next-frontier",
+      "resultSlugs": [
+        "temporal-blind-stage12-next-frontier"
+      ]
+    },
+    {
       "versionGroup": "temporal-stage01-domain-scope-and-prior-failure-analysis",
       "latestSlug": "temporal-stage01-domain-scope-and-prior-failure-analysis",
       "resultSlugs": [
@@ -2271,5 +2355,5 @@
       ]
     }
   ],
-  "evidenceHash": "4697ca91312949ff1e507999459323ab6e71be0c1028b22aa3b7b32b3fc41b98"
+  "evidenceHash": "215a47dc0569a09f00f39589d975ce043459429620bd6bc9879697482c250248"
 }

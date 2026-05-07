@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 325,
+    "good": 337,
     "reviewable": 6
   },
   "results": [
@@ -1462,6 +1462,66 @@
       "releaseReadinessScore": 92
     },
     {
+      "slug": "temporal-blind-stage01-validation-protocol",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "temporal-blind-stage02-freeze-classifier-and-predictions",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "temporal-blind-stage03-target-universe-and-blind-selection",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "temporal-blind-stage04-execution-wave1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "temporal-blind-stage05-execution-wave2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "temporal-blind-stage06-execution-wave3",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "temporal-blind-stage07-error-analysis",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "temporal-blind-stage08-true-fragility-candidate-deep-check",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "temporal-blind-stage09-counterexample-and-mutation-pressure",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "temporal-blind-stage10-replay-gauntlet",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "temporal-blind-stage11-final-instrument-decision",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
+      "slug": "temporal-blind-stage12-next-frontier",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 87
+    },
+    {
       "slug": "temporal-stage01-domain-scope-and-prior-failure-analysis",
       "qualityLabel": "good",
       "releaseReadinessScore": 86
@@ -1687,5 +1747,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "596b0dc9cb1689bec16b67008946bb0f83fb71a3221089db3e09c0e372cf51de"
+  "evidenceHash": "a175205e7a564f600bec0184db69a33277b511b8dba4bff06c5c59a62449b7e3"
 }

@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-07T06:51:23.891Z",
+  "generatedAt": "2026-05-07T07:18:21.724Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -5241,6 +5241,222 @@
       "showcaseRank": null
     },
     {
+      "slug": "temporal-blind-stage01-validation-protocol",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "temporal-blind-stage01-validation-protocol",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "temporal-blind-stage02-freeze-classifier-and-predictions",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "temporal-blind-stage02-freeze-classifier-and-predictions",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "temporal-blind-stage03-target-universe-and-blind-selection",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "temporal-blind-stage03-target-universe-and-blind-selection",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "temporal-blind-stage04-execution-wave1",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "temporal-blind-stage04-execution-wave1",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "temporal-blind-stage05-execution-wave2",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "temporal-blind-stage05-execution-wave2",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "temporal-blind-stage06-execution-wave3",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "temporal-blind-stage06-execution-wave3",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "temporal-blind-stage07-error-analysis",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "temporal-blind-stage07-error-analysis",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "temporal-blind-stage08-true-fragility-candidate-deep-check",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "temporal-blind-stage08-true-fragility-candidate-deep-check",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "temporal-blind-stage09-counterexample-and-mutation-pressure",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "temporal-blind-stage09-counterexample-and-mutation-pressure",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "temporal-blind-stage10-replay-gauntlet",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "temporal-blind-stage10-replay-gauntlet",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "temporal-blind-stage11-final-instrument-decision",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "temporal-blind-stage11-final-instrument-decision",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "temporal-blind-stage12-next-frontier",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "temporal-blind-stage12-next-frontier",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
       "slug": "temporal-stage01-domain-scope-and-prior-failure-analysis",
       "badges": {
         "quality": "good",
@@ -6051,5 +6267,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "9d99c82d0c6477cf0a8c4a63526ee0d24448f6fee9073f33f52170573386bb13"
+  "evidenceHash": "d39033f89666b1f58d70108a67175d0594ad2b03600e2487d735d21a12982c25"
 }

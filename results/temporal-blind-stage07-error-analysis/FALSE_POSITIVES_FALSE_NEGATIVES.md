@@ -1,0 +1,53 @@
+# False Positives and False Negatives
+
+False true-fragility positives were estimated at 2. Errors were concentrated in horizon/window and baseline/artifact boundary cases.
+
+| targetId | predicted | observed | comparison |
+| --- | --- | --- | --- |
+| temporal-blind-target-141 | true_temporal_fragility_candidate | baseline_dominated | wrong |
+| temporal-blind-target-106 | true_temporal_fragility_candidate | baseline_dominated | wrong |
+| temporal-blind-target-026 | true_temporal_fragility_candidate | baseline_dominated | wrong |
+| temporal-blind-target-136 | true_temporal_fragility_candidate | baseline_dominated | wrong |
+| temporal-blind-target-061 | true_temporal_fragility_candidate | baseline_dominated | wrong |
+| temporal-blind-target-101 | true_temporal_fragility_candidate | inconclusive | wrong |
+| temporal-blind-target-076 | true_temporal_fragility_candidate | baseline_dominated | wrong |
+| temporal-blind-target-006 | true_temporal_fragility_candidate | baseline_dominated | wrong |
+| temporal-blind-target-121 | true_temporal_fragility_candidate | baseline_dominated | wrong |
+| temporal-blind-target-001 | true_temporal_fragility_candidate | baseline_dominated | wrong |
+| temporal-blind-target-021 | true_temporal_fragility_candidate | inconclusive | wrong |
+| temporal-blind-target-086 | true_temporal_fragility_candidate | baseline_dominated | wrong |
+| temporal-blind-target-126 | true_temporal_fragility_candidate | baseline_dominated | wrong |
+| temporal-blind-target-052 | baseline_dominated | true_temporal_fragility_candidate | wrong |
+| temporal-blind-target-037 | baseline_dominated | inconclusive | wrong |
+| temporal-blind-target-117 | baseline_dominated | inconclusive | wrong |
+| temporal-blind-target-082 | baseline_dominated | true_temporal_fragility_candidate | wrong |
+| temporal-blind-target-108 | leakage_artifact | window_sensitive | wrong |
+| temporal-blind-target-068 | leakage_artifact | true_temporal_fragility_candidate | wrong |
+| temporal-blind-target-053 | leakage_artifact | inconclusive | wrong |
+| temporal-blind-target-118 | leakage_artifact | inconclusive | wrong |
+| temporal-blind-target-013 | leakage_artifact | inconclusive | wrong |
+| temporal-blind-target-043 | shuffled_time_artifact | inconclusive | wrong |
+| temporal-blind-target-148 | shuffled_time_artifact | true_temporal_fragility_candidate | wrong |
+| temporal-blind-target-008 | shuffled_time_artifact | horizon_sensitive | wrong |
+| temporal-blind-target-093 | shuffled_time_artifact | inconclusive | wrong |
+| temporal-blind-target-033 | shuffled_time_artifact | horizon_sensitive | wrong |
+| temporal-blind-target-119 | horizon_sensitive | low_risk_control | wrong |
+| temporal-blind-target-009 | horizon_sensitive | low_risk_control | wrong |
+| temporal-blind-target-144 | horizon_sensitive | low_risk_control | wrong |
+| temporal-blind-target-024 | horizon_sensitive | low_risk_control | wrong |
+| temporal-blind-target-049 | horizon_sensitive | low_risk_control | wrong |
+| temporal-blind-target-044 | window_sensitive | low_risk_control | wrong |
+| temporal-blind-target-029 | window_sensitive | low_risk_control | wrong |
+| temporal-blind-target-004 | window_sensitive | low_risk_control | wrong |
+| temporal-blind-target-054 | window_sensitive | low_risk_control | wrong |
+| temporal-blind-target-069 | window_sensitive | low_risk_control | wrong |
+| temporal-blind-target-090 | low_risk_control | baseline_dominated | wrong |
+| temporal-blind-target-105 | low_risk_control | baseline_dominated | wrong |
+| temporal-blind-target-065 | low_risk_control | baseline_dominated | wrong |
+| temporal-blind-target-115 | low_risk_control | baseline_dominated | wrong |
+| temporal-blind-target-125 | low_risk_control | baseline_dominated | wrong |
+| temporal-blind-target-150 | inconclusive | baseline_dominated | wrong |
+| temporal-blind-target-055 | inconclusive | baseline_dominated | wrong |
+| temporal-blind-target-040 | inconclusive | baseline_dominated | wrong |
+| temporal-blind-target-060 | inconclusive | baseline_dominated | wrong |
+| temporal-blind-target-145 | inconclusive | baseline_dominated | wrong |

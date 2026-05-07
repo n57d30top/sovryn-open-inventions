@@ -1,0 +1,34 @@
+# Mutation Test Plan
+
+| mutationId | class | expected |
+| --- | --- | --- |
+| temporal-blind-mutation-001 | time_index_shuffle | should_break_candidate |
+| temporal-blind-mutation-002 | horizon_shift | should_preserve_non_candidate_label |
+| temporal-blind-mutation-003 | window_change | should_preserve_non_candidate_label |
+| temporal-blind-mutation-004 | leakage_prone_split | should_preserve_non_candidate_label |
+| temporal-blind-mutation-005 | metric_change | should_break_candidate |
+| temporal-blind-mutation-006 | baseline_substitution | should_preserve_non_candidate_label |
+| temporal-blind-mutation-007 | time_index_shuffle | should_preserve_non_candidate_label |
+| temporal-blind-mutation-008 | horizon_shift | should_preserve_non_candidate_label |
+| temporal-blind-mutation-009 | window_change | should_break_candidate |
+| temporal-blind-mutation-010 | leakage_prone_split | should_preserve_non_candidate_label |
+| temporal-blind-mutation-011 | metric_change | should_preserve_non_candidate_label |
+| temporal-blind-mutation-012 | baseline_substitution | should_preserve_non_candidate_label |
+| temporal-blind-mutation-013 | time_index_shuffle | should_break_candidate |
+| temporal-blind-mutation-014 | horizon_shift | should_preserve_non_candidate_label |
+| temporal-blind-mutation-015 | window_change | should_preserve_non_candidate_label |
+| temporal-blind-mutation-016 | leakage_prone_split | should_preserve_non_candidate_label |
+| temporal-blind-mutation-017 | metric_change | should_break_candidate |
+| temporal-blind-mutation-018 | baseline_substitution | should_preserve_non_candidate_label |
+| temporal-blind-mutation-019 | time_index_shuffle | should_preserve_non_candidate_label |
+| temporal-blind-mutation-020 | horizon_shift | should_preserve_non_candidate_label |
+| temporal-blind-mutation-021 | window_change | should_break_candidate |
+| temporal-blind-mutation-022 | leakage_prone_split | should_preserve_non_candidate_label |
+| temporal-blind-mutation-023 | metric_change | should_preserve_non_candidate_label |
+| temporal-blind-mutation-024 | baseline_substitution | should_preserve_non_candidate_label |
+| temporal-blind-mutation-025 | time_index_shuffle | should_break_candidate |
+| temporal-blind-mutation-026 | horizon_shift | should_preserve_non_candidate_label |
+| temporal-blind-mutation-027 | window_change | should_preserve_non_candidate_label |
+| temporal-blind-mutation-028 | leakage_prone_split | should_preserve_non_candidate_label |
+| temporal-blind-mutation-029 | metric_change | should_break_candidate |
+| temporal-blind-mutation-030 | baseline_substitution | should_preserve_non_candidate_label |

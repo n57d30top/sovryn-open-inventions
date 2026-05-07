@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-07T06:51:23.891Z",
+  "generatedAt": "2026-05-07T07:18:21.724Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1749,6 +1749,78 @@
       "domain": "software-supply-chain-assurance"
     },
     {
+      "id": "result:temporal-blind-stage01-validation-protocol",
+      "kind": "result",
+      "label": "Validation Protocol",
+      "domain": "temporal evaluation fragility instrument larger blind validation"
+    },
+    {
+      "id": "result:temporal-blind-stage02-freeze-classifier-and-predictions",
+      "kind": "result",
+      "label": "Freeze Classifier and Predictions",
+      "domain": "temporal evaluation fragility instrument larger blind validation"
+    },
+    {
+      "id": "result:temporal-blind-stage03-target-universe-and-blind-selection",
+      "kind": "result",
+      "label": "Target Universe and Blind Selection",
+      "domain": "temporal evaluation fragility instrument larger blind validation"
+    },
+    {
+      "id": "result:temporal-blind-stage04-execution-wave1",
+      "kind": "result",
+      "label": "Execution Wave 1",
+      "domain": "temporal evaluation fragility instrument larger blind validation"
+    },
+    {
+      "id": "result:temporal-blind-stage05-execution-wave2",
+      "kind": "result",
+      "label": "Execution Wave 2",
+      "domain": "temporal evaluation fragility instrument larger blind validation"
+    },
+    {
+      "id": "result:temporal-blind-stage06-execution-wave3",
+      "kind": "result",
+      "label": "Execution Wave 3",
+      "domain": "temporal evaluation fragility instrument larger blind validation"
+    },
+    {
+      "id": "result:temporal-blind-stage07-error-analysis",
+      "kind": "result",
+      "label": "Error Analysis",
+      "domain": "temporal evaluation fragility instrument larger blind validation"
+    },
+    {
+      "id": "result:temporal-blind-stage08-true-fragility-candidate-deep-check",
+      "kind": "result",
+      "label": "True-Fragility Candidate Deep Check",
+      "domain": "temporal evaluation fragility instrument larger blind validation"
+    },
+    {
+      "id": "result:temporal-blind-stage09-counterexample-and-mutation-pressure",
+      "kind": "result",
+      "label": "Counterexample and Mutation Pressure",
+      "domain": "temporal evaluation fragility instrument larger blind validation"
+    },
+    {
+      "id": "result:temporal-blind-stage10-replay-gauntlet",
+      "kind": "result",
+      "label": "Replay Gauntlet",
+      "domain": "temporal evaluation fragility instrument larger blind validation"
+    },
+    {
+      "id": "result:temporal-blind-stage11-final-instrument-decision",
+      "kind": "result",
+      "label": "Final Instrument Decision",
+      "domain": "temporal evaluation fragility instrument larger blind validation"
+    },
+    {
+      "id": "result:temporal-blind-stage12-next-frontier",
+      "kind": "result",
+      "label": "Next Frontier",
+      "domain": "temporal evaluation fragility instrument larger blind validation"
+    },
+    {
       "id": "result:temporal-stage01-domain-scope-and-prior-failure-analysis",
       "kind": "result",
       "label": "Domain Scope and Prior Failure Analysis",
@@ -2307,6 +2379,11 @@
       "id": "domain:software-supply-chain-assurance",
       "kind": "domain",
       "label": "software-supply-chain-assurance"
+    },
+    {
+      "id": "domain:temporal evaluation fragility instrument larger blind validation",
+      "kind": "domain",
+      "label": "temporal evaluation fragility instrument larger blind validation"
     },
     {
       "id": "domain:temporal evaluation fragility deep discovery program",
@@ -4721,6 +4798,66 @@
       "relation": "uses_public_tool_evidence"
     },
     {
+      "source": "result:temporal-blind-stage01-validation-protocol",
+      "target": "domain:temporal evaluation fragility instrument larger blind validation",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-blind-stage02-freeze-classifier-and-predictions",
+      "target": "domain:temporal evaluation fragility instrument larger blind validation",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-blind-stage03-target-universe-and-blind-selection",
+      "target": "domain:temporal evaluation fragility instrument larger blind validation",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-blind-stage04-execution-wave1",
+      "target": "domain:temporal evaluation fragility instrument larger blind validation",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-blind-stage05-execution-wave2",
+      "target": "domain:temporal evaluation fragility instrument larger blind validation",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-blind-stage06-execution-wave3",
+      "target": "domain:temporal evaluation fragility instrument larger blind validation",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-blind-stage07-error-analysis",
+      "target": "domain:temporal evaluation fragility instrument larger blind validation",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-blind-stage08-true-fragility-candidate-deep-check",
+      "target": "domain:temporal evaluation fragility instrument larger blind validation",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-blind-stage09-counterexample-and-mutation-pressure",
+      "target": "domain:temporal evaluation fragility instrument larger blind validation",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-blind-stage10-replay-gauntlet",
+      "target": "domain:temporal evaluation fragility instrument larger blind validation",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-blind-stage11-final-instrument-decision",
+      "target": "domain:temporal evaluation fragility instrument larger blind validation",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-blind-stage12-next-frontier",
+      "target": "domain:temporal evaluation fragility instrument larger blind validation",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:temporal-stage01-domain-scope-and-prior-failure-analysis",
       "target": "domain:temporal evaluation fragility deep discovery program",
       "relation": "belongs_to_domain"
@@ -4946,5 +5083,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "ce883f3e81012525080427770cc644b41fe516d5db4ebf50a1427bc4af0acd4c"
+  "evidenceHash": "283cbe46215725234f28628a3a5e90869603e90c59ff1caa8319cca8a846084d"
 }

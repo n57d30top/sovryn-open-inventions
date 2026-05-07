@@ -1737,6 +1737,66 @@
       "customTool": "patch-risk-auditor"
     },
     {
+      "slug": "temporal-blind-stage01-validation-protocol",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-blind-stage02-freeze-classifier-and-predictions",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-blind-stage03-target-universe-and-blind-selection",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-blind-stage04-execution-wave1",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-blind-stage05-execution-wave2",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-blind-stage06-execution-wave3",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-blind-stage07-error-analysis",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-blind-stage08-true-fragility-candidate-deep-check",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-blind-stage09-counterexample-and-mutation-pressure",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-blind-stage10-replay-gauntlet",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-blind-stage11-final-instrument-decision",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-blind-stage12-next-frontier",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "temporal-stage01-domain-scope-and-prior-failure-analysis",
       "externalPackages": [],
       "customTool": null
@@ -1962,5 +2022,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "ca740cdb70edf642a17357eceb9c4eeb9a4603984ef0db39a9f0537042b65deb"
+  "evidenceHash": "f26b7e19563aee17635d57bc1a77549b3a942a79d7ee5a45d4afbbc6a93a5ad8"
 }

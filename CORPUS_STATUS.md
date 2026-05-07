@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 336
+Results: 348
 
 ## Lifecycle Counts
 
-- autopublished: 305
+- autopublished: 317
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -289,6 +289,18 @@ Results: 336
 - self-built-lab-reproduction-388ccd1946ad: latest self-built-lab-reproduction-388ccd1946ad; self-built-lab-reproduction-388ccd1946ad
 - software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for: latest software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth; software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth
 - software-supply-chain-assurance-self-built-lab-study: latest software-supply-chain-assurance-self-built-lab-study-v2; software-supply-chain-assurance-self-built-lab-study, software-supply-chain-assurance-self-built-lab-study-v2
+- temporal-blind-stage01-validation-protocol: latest temporal-blind-stage01-validation-protocol; temporal-blind-stage01-validation-protocol
+- temporal-blind-stage02-freeze-classifier-and-predictions: latest temporal-blind-stage02-freeze-classifier-and-predictions; temporal-blind-stage02-freeze-classifier-and-predictions
+- temporal-blind-stage03-target-universe-and-blind-selection: latest temporal-blind-stage03-target-universe-and-blind-selection; temporal-blind-stage03-target-universe-and-blind-selection
+- temporal-blind-stage04-execution-wave1: latest temporal-blind-stage04-execution-wave1; temporal-blind-stage04-execution-wave1
+- temporal-blind-stage05-execution-wave2: latest temporal-blind-stage05-execution-wave2; temporal-blind-stage05-execution-wave2
+- temporal-blind-stage06-execution-wave3: latest temporal-blind-stage06-execution-wave3; temporal-blind-stage06-execution-wave3
+- temporal-blind-stage07-error-analysis: latest temporal-blind-stage07-error-analysis; temporal-blind-stage07-error-analysis
+- temporal-blind-stage08-true-fragility-candidate-deep-check: latest temporal-blind-stage08-true-fragility-candidate-deep-check; temporal-blind-stage08-true-fragility-candidate-deep-check
+- temporal-blind-stage09-counterexample-and-mutation-pressure: latest temporal-blind-stage09-counterexample-and-mutation-pressure; temporal-blind-stage09-counterexample-and-mutation-pressure
+- temporal-blind-stage10-replay-gauntlet: latest temporal-blind-stage10-replay-gauntlet; temporal-blind-stage10-replay-gauntlet
+- temporal-blind-stage11-final-instrument-decision: latest temporal-blind-stage11-final-instrument-decision; temporal-blind-stage11-final-instrument-decision
+- temporal-blind-stage12-next-frontier: latest temporal-blind-stage12-next-frontier; temporal-blind-stage12-next-frontier
 - temporal-stage01-domain-scope-and-prior-failure-analysis: latest temporal-stage01-domain-scope-and-prior-failure-analysis; temporal-stage01-domain-scope-and-prior-failure-analysis
 - temporal-stage02-public-temporal-target-universe: latest temporal-stage02-public-temporal-target-universe; temporal-stage02-public-temporal-target-universe
 - temporal-stage03-temporal-split-protocol-taxonomy: latest temporal-stage03-temporal-split-protocol-taxonomy; temporal-stage03-temporal-split-protocol-taxonomy

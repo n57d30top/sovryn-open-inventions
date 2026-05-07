@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-05-07T07:20:00.000Z",
+  "productCommit": "ca9fbfc",
+  "selectedTargets": 60,
+  "executionSummary": {
+    "executed": 60,
+    "realLoads": 60,
+    "temporalRandomComparisons": 60,
+    "baselineControlComparisons": 60,
+    "replayAttemptsOrFailures": 43,
+    "wrongPartialInconclusive": 47
+  },
+  "labelCounts": {
+    "baseline_dominated": 32,
+    "true_temporal_fragility_candidate": 6,
+    "inconclusive": 9,
+    "window_sensitive": 1,
+    "horizon_sensitive": 2,
+    "low_risk_control": 10
+  },
+  "comparisonCounts": {
+    "wrong": 47,
+    "correct": 13
+  },
+  "falseTrueFragilityPositives": 2,
+  "trueFragilityCandidatesIdentified": 6,
+  "survivingDeepCheckCandidates": 2,
+  "counterexamplesExecuted": 20,
+  "mutationTestsExecuted": 20,
+  "replayGauntletItems": 16,
+  "finalInstrumentStatus": "partial_temporal_classifier",
+  "evidenceHash": "c1b475be5bfdf3c4d86e9c88cecaeef42d2638d1caca829bb6febbbdbc86feb4"
+}
