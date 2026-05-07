@@ -338,6 +338,20 @@ and safety scope in human-readable language.
 - [Replay Gauntlet](results/temporal-blind-stage10-replay-gauntlet/) — good, autopublished, temporal-blind-stage10-replay-gauntlet, temporal evaluation fragility instrument larger blind validation
 - [Final Instrument Decision](results/temporal-blind-stage11-final-instrument-decision/) — good, autopublished, temporal-blind-stage11-final-instrument-decision, temporal evaluation fragility instrument larger blind validation
 - [Next Frontier](results/temporal-blind-stage12-next-frontier/) — good, autopublished, temporal-blind-stage12-next-frontier, temporal evaluation fragility instrument larger blind validation
+- [Label Confusion Forensics](results/temporal-mech-stage01-label-confusion-forensics/) — good, autopublished, temporal-mech-stage01-label-confusion-forensics, mechanism-separable temporal evaluation instrument
+- [Mechanism Panel Design](results/temporal-mech-stage02-mechanism-panel-design/) — good, autopublished, temporal-mech-stage02-mechanism-panel-design, mechanism-separable temporal evaluation instrument
+- [Product Implementation](results/temporal-mech-stage03-product-implementation/) — good, autopublished, temporal-mech-stage03-product-implementation, mechanism-separable temporal evaluation instrument
+- [Class-Specific Falsifier Design](results/temporal-mech-stage04-class-specific-falsifier-design/) — good, autopublished, temporal-mech-stage04-class-specific-falsifier-design, mechanism-separable temporal evaluation instrument
+- [Calibration on Known Cases](results/temporal-mech-stage05-calibration-on-known-cases/) — good, autopublished, temporal-mech-stage05-calibration-on-known-cases, mechanism-separable temporal evaluation instrument
+- [Confusion Reduction Experiment](results/temporal-mech-stage06-confusion-reduction-experiment/) — good, autopublished, temporal-mech-stage06-confusion-reduction-experiment, mechanism-separable temporal evaluation instrument
+- [Blind Mechanism Prediction Freeze](results/temporal-mech-stage07-blind-mechanism-prediction-freeze/) — good, autopublished, temporal-mech-stage07-blind-mechanism-prediction-freeze, mechanism-separable temporal evaluation instrument
+- [Blind Mechanism Execution Wave 1](results/temporal-mech-stage08-blind-mechanism-execution-wave1/) — good, autopublished, temporal-mech-stage08-blind-mechanism-execution-wave1, mechanism-separable temporal evaluation instrument
+- [Blind Mechanism Execution Wave 2](results/temporal-mech-stage09-blind-mechanism-execution-wave2/) — good, autopublished, temporal-mech-stage09-blind-mechanism-execution-wave2, mechanism-separable temporal evaluation instrument
+- [Mechanism Counterexample Search](results/temporal-mech-stage10-mechanism-counterexample-search/) — good, autopublished, temporal-mech-stage10-mechanism-counterexample-search, mechanism-separable temporal evaluation instrument
+- [Mechanism Replay Gauntlet](results/temporal-mech-stage11-mechanism-replay-gauntlet/) — good, autopublished, temporal-mech-stage11-mechanism-replay-gauntlet, mechanism-separable temporal evaluation instrument
+- [Adversarial Mechanism Kill Week](results/temporal-mech-stage12-adversarial-mechanism-kill-week/) — good, autopublished, temporal-mech-stage12-adversarial-mechanism-kill-week, mechanism-separable temporal evaluation instrument
+- [Final Mechanism Instrument Decision](results/temporal-mech-stage13-final-mechanism-instrument-decision/) — good, autopublished, temporal-mech-stage13-final-mechanism-instrument-decision, mechanism-separable temporal evaluation instrument
+- [Next Frontier](results/temporal-mech-stage14-next-frontier/) — good, autopublished, temporal-mech-stage14-next-frontier, mechanism-separable temporal evaluation instrument
 - [Domain Scope and Prior Failure Analysis](results/temporal-stage01-domain-scope-and-prior-failure-analysis/) — good, autopublished, temporal-stage01-domain-scope-and-prior-failure-analysis, temporal evaluation fragility deep discovery program
 - [Public Temporal Target Universe](results/temporal-stage02-public-temporal-target-universe/) — good, autopublished, temporal-stage02-public-temporal-target-universe, temporal evaluation fragility deep discovery program
 - [Temporal Split Protocol Taxonomy](results/temporal-stage03-temporal-split-protocol-taxonomy/) — good, autopublished, temporal-stage03-temporal-split-protocol-taxonomy, temporal evaluation fragility deep discovery program
@@ -393,10 +407,3 @@ auditability; newer version-group entries supersede earlier iterations.
 ## Autopublish
 
 Results in this corpus were published automatically only after automated quality, replay, safety, reliability, public-hygiene, and publication dry-run gates. Human interpretation is still required before operational use.
-- [Label Confusion Forensics](results/temporal-mech-stage01-label-confusion-forensics/) - good, autopublished, temporal-mech-stage01-label-confusion-forensics, mechanism-separable temporal evaluation instrument
-- [Mechanism Panel Design](results/temporal-mech-stage02-mechanism-panel-design/) - good, autopublished, temporal-mech-stage02-mechanism-panel-design, mechanism-separable temporal evaluation instrument
-- [Product Implementation](results/temporal-mech-stage03-product-implementation/) - good, autopublished, temporal-mech-stage03-product-implementation, mechanism-separable temporal evaluation instrument
-- [Class-Specific Falsifier Design](results/temporal-mech-stage04-class-specific-falsifier-design/) - good, autopublished, temporal-mech-stage04-class-specific-falsifier-design, mechanism-separable temporal evaluation instrument
-- [Calibration on Known Cases](results/temporal-mech-stage05-calibration-on-known-cases/) - good, autopublished, temporal-mech-stage05-calibration-on-known-cases, mechanism-separable temporal evaluation instrument
-- [Confusion Reduction Experiment](results/temporal-mech-stage06-confusion-reduction-experiment/) - good, autopublished, temporal-mech-stage06-confusion-reduction-experiment, mechanism-separable temporal evaluation instrument
-- [Blind Mechanism Prediction Freeze](results/temporal-mech-stage07-blind-mechanism-prediction-freeze/) - good, autopublished, temporal-mech-stage07-blind-mechanism-prediction-freeze, mechanism-separable temporal evaluation instrument

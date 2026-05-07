@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 348
+Results: 362
 
 ## Lifecycle Counts
 
-- autopublished: 317
+- autopublished: 331
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -301,6 +301,20 @@ Results: 348
 - temporal-blind-stage10-replay-gauntlet: latest temporal-blind-stage10-replay-gauntlet; temporal-blind-stage10-replay-gauntlet
 - temporal-blind-stage11-final-instrument-decision: latest temporal-blind-stage11-final-instrument-decision; temporal-blind-stage11-final-instrument-decision
 - temporal-blind-stage12-next-frontier: latest temporal-blind-stage12-next-frontier; temporal-blind-stage12-next-frontier
+- temporal-mech-stage01-label-confusion-forensics: latest temporal-mech-stage01-label-confusion-forensics; temporal-mech-stage01-label-confusion-forensics
+- temporal-mech-stage02-mechanism-panel-design: latest temporal-mech-stage02-mechanism-panel-design; temporal-mech-stage02-mechanism-panel-design
+- temporal-mech-stage03-product-implementation: latest temporal-mech-stage03-product-implementation; temporal-mech-stage03-product-implementation
+- temporal-mech-stage04-class-specific-falsifier-design: latest temporal-mech-stage04-class-specific-falsifier-design; temporal-mech-stage04-class-specific-falsifier-design
+- temporal-mech-stage05-calibration-on-known-cases: latest temporal-mech-stage05-calibration-on-known-cases; temporal-mech-stage05-calibration-on-known-cases
+- temporal-mech-stage06-confusion-reduction-experiment: latest temporal-mech-stage06-confusion-reduction-experiment; temporal-mech-stage06-confusion-reduction-experiment
+- temporal-mech-stage07-blind-mechanism-prediction-freeze: latest temporal-mech-stage07-blind-mechanism-prediction-freeze; temporal-mech-stage07-blind-mechanism-prediction-freeze
+- temporal-mech-stage08-blind-mechanism-execution-wave1: latest temporal-mech-stage08-blind-mechanism-execution-wave1; temporal-mech-stage08-blind-mechanism-execution-wave1
+- temporal-mech-stage09-blind-mechanism-execution-wave2: latest temporal-mech-stage09-blind-mechanism-execution-wave2; temporal-mech-stage09-blind-mechanism-execution-wave2
+- temporal-mech-stage10-mechanism-counterexample-search: latest temporal-mech-stage10-mechanism-counterexample-search; temporal-mech-stage10-mechanism-counterexample-search
+- temporal-mech-stage11-mechanism-replay-gauntlet: latest temporal-mech-stage11-mechanism-replay-gauntlet; temporal-mech-stage11-mechanism-replay-gauntlet
+- temporal-mech-stage12-adversarial-mechanism-kill-week: latest temporal-mech-stage12-adversarial-mechanism-kill-week; temporal-mech-stage12-adversarial-mechanism-kill-week
+- temporal-mech-stage13-final-mechanism-instrument-decision: latest temporal-mech-stage13-final-mechanism-instrument-decision; temporal-mech-stage13-final-mechanism-instrument-decision
+- temporal-mech-stage14-next-frontier: latest temporal-mech-stage14-next-frontier; temporal-mech-stage14-next-frontier
 - temporal-stage01-domain-scope-and-prior-failure-analysis: latest temporal-stage01-domain-scope-and-prior-failure-analysis; temporal-stage01-domain-scope-and-prior-failure-analysis
 - temporal-stage02-public-temporal-target-universe: latest temporal-stage02-public-temporal-target-universe; temporal-stage02-public-temporal-target-universe
 - temporal-stage03-temporal-split-protocol-taxonomy: latest temporal-stage03-temporal-split-protocol-taxonomy; temporal-stage03-temporal-split-protocol-taxonomy

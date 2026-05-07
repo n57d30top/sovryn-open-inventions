@@ -1,0 +1,14 @@
+| replayId | target | class |
+| --- | --- | --- |
+| temporal-mech-replay-001 | temporal-mech-target-055 | horizon_sensitive |
+| temporal-mech-replay-002 | temporal-mech-target-065 | low_risk_control |
+| temporal-mech-replay-003 | temporal-mech-target-030 | true_temporal_fragility_candidate |
+| temporal-mech-replay-004 | temporal-mech-target-078 | true_temporal_fragility_candidate |
+| temporal-mech-replay-005 | temporal-mech-target-011 | true_temporal_fragility_candidate |
+| temporal-mech-replay-006 | temporal-mech-target-048 | horizon_sensitive |
+| temporal-mech-replay-007 | temporal-mech-target-022 | baseline_dominated |
+| temporal-mech-replay-008 | temporal-mech-target-073 | low_risk_control |
+| temporal-mech-replay-009 | temporal-mech-target-070 | baseline_dominated |
+| temporal-mech-replay-010 | temporal-mech-target-069 | inconclusive |
+| temporal-mech-replay-011 | temporal-mech-target-003 | horizon_sensitive |
+| temporal-mech-replay-012 | temporal-mech-target-004 | horizon_sensitive |

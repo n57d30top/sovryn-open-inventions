@@ -1,0 +1,8 @@
+- Week 1: choose one non-temporal safe computational domain with stronger ground-truth structure
+- Week 2: build domain-specific target universe
+- Week 3: run baseline-first anomaly mining
+- Week 4: generate rival theories before candidate promotion
+- Week 5: freeze non-obvious predictions
+- Week 6: execute holdouts and controls
+- Week 7: replay and counterexample gauntlet
+- Week 8: kill week and honest decision

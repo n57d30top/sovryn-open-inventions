@@ -1,8 +1,8 @@
 {
   "kind": "public_corpus_status",
-  "generatedAt": "2026-05-07T07:18:21.724Z",
+  "generatedAt": "2026-05-07T08:01:32.432Z",
   "statusCounts": {
-    "autopublished": 313,
+    "autopublished": 327,
     "benchmark_challenge_negative_result": 4,
     "dataset_quality_audit_supported": 7,
     "external_extension_supported": 1,
@@ -21,7 +21,7 @@
     "v1_candidate_with_limits": 1
   },
   "lifecycleCounts": {
-    "autopublished": 317,
+    "autopublished": 331,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -53,6 +53,7 @@
     "formal predictive mechanism science": 6,
     "larger blind holdout validation for narrowed receipt-stable descriptor residual candidate": 12,
     "mechanism-guided benchmark repair": 5,
+    "mechanism-separable temporal evaluation instrument": 14,
     "ml-repository-reproduction": 1,
     "no-external-reviewer discovery validation gauntlet": 16,
     "nobel discovery portfolio v0": 13,
@@ -92,5 +93,5 @@
     "time-series-tabular-benchmark": 1,
     "tool-backed-dataset-quality-audit": 1
   },
-  "evidenceHash": "8e3be75ffd6990b8fdd780ab89b6e1c6f9e00fc8aad345f54579e2e016376986"
+  "evidenceHash": "8c721adb5ce3f3623490ad5fb0e2bafcfe14dbc80331dd8e00673005dfc5b3fb"
 }

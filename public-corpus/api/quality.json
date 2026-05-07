@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 337,
+    "good": 351,
     "reviewable": 6
   },
   "results": [
@@ -1522,6 +1522,76 @@
       "releaseReadinessScore": 87
     },
     {
+      "slug": "temporal-mech-stage01-label-confusion-forensics",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "temporal-mech-stage02-mechanism-panel-design",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "temporal-mech-stage03-product-implementation",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "temporal-mech-stage04-class-specific-falsifier-design",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "temporal-mech-stage05-calibration-on-known-cases",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "temporal-mech-stage06-confusion-reduction-experiment",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "temporal-mech-stage07-blind-mechanism-prediction-freeze",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "temporal-mech-stage08-blind-mechanism-execution-wave1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "temporal-mech-stage09-blind-mechanism-execution-wave2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "temporal-mech-stage10-mechanism-counterexample-search",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "temporal-mech-stage11-mechanism-replay-gauntlet",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "temporal-mech-stage12-adversarial-mechanism-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "temporal-mech-stage13-final-mechanism-instrument-decision",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "temporal-mech-stage14-next-frontier",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
       "slug": "temporal-stage01-domain-scope-and-prior-failure-analysis",
       "qualityLabel": "good",
       "releaseReadinessScore": 86
@@ -1747,5 +1817,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "a175205e7a564f600bec0184db69a33277b511b8dba4bff06c5c59a62449b7e3"
+  "evidenceHash": "09e7161f1bb89365ecf990f7fd54dd621bff6b2d3fd94fdfd5dfe5c3071c57aa"
 }

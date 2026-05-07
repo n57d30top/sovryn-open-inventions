@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T07:18:21.724Z",
+  "updatedAt": "2026-05-07T08:01:32.432Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -2040,6 +2040,104 @@
       ]
     },
     {
+      "versionGroup": "temporal-mech-stage01-label-confusion-forensics",
+      "latestSlug": "temporal-mech-stage01-label-confusion-forensics",
+      "resultSlugs": [
+        "temporal-mech-stage01-label-confusion-forensics"
+      ]
+    },
+    {
+      "versionGroup": "temporal-mech-stage02-mechanism-panel-design",
+      "latestSlug": "temporal-mech-stage02-mechanism-panel-design",
+      "resultSlugs": [
+        "temporal-mech-stage02-mechanism-panel-design"
+      ]
+    },
+    {
+      "versionGroup": "temporal-mech-stage03-product-implementation",
+      "latestSlug": "temporal-mech-stage03-product-implementation",
+      "resultSlugs": [
+        "temporal-mech-stage03-product-implementation"
+      ]
+    },
+    {
+      "versionGroup": "temporal-mech-stage04-class-specific-falsifier-design",
+      "latestSlug": "temporal-mech-stage04-class-specific-falsifier-design",
+      "resultSlugs": [
+        "temporal-mech-stage04-class-specific-falsifier-design"
+      ]
+    },
+    {
+      "versionGroup": "temporal-mech-stage05-calibration-on-known-cases",
+      "latestSlug": "temporal-mech-stage05-calibration-on-known-cases",
+      "resultSlugs": [
+        "temporal-mech-stage05-calibration-on-known-cases"
+      ]
+    },
+    {
+      "versionGroup": "temporal-mech-stage06-confusion-reduction-experiment",
+      "latestSlug": "temporal-mech-stage06-confusion-reduction-experiment",
+      "resultSlugs": [
+        "temporal-mech-stage06-confusion-reduction-experiment"
+      ]
+    },
+    {
+      "versionGroup": "temporal-mech-stage07-blind-mechanism-prediction-freeze",
+      "latestSlug": "temporal-mech-stage07-blind-mechanism-prediction-freeze",
+      "resultSlugs": [
+        "temporal-mech-stage07-blind-mechanism-prediction-freeze"
+      ]
+    },
+    {
+      "versionGroup": "temporal-mech-stage08-blind-mechanism-execution-wave1",
+      "latestSlug": "temporal-mech-stage08-blind-mechanism-execution-wave1",
+      "resultSlugs": [
+        "temporal-mech-stage08-blind-mechanism-execution-wave1"
+      ]
+    },
+    {
+      "versionGroup": "temporal-mech-stage09-blind-mechanism-execution-wave2",
+      "latestSlug": "temporal-mech-stage09-blind-mechanism-execution-wave2",
+      "resultSlugs": [
+        "temporal-mech-stage09-blind-mechanism-execution-wave2"
+      ]
+    },
+    {
+      "versionGroup": "temporal-mech-stage10-mechanism-counterexample-search",
+      "latestSlug": "temporal-mech-stage10-mechanism-counterexample-search",
+      "resultSlugs": [
+        "temporal-mech-stage10-mechanism-counterexample-search"
+      ]
+    },
+    {
+      "versionGroup": "temporal-mech-stage11-mechanism-replay-gauntlet",
+      "latestSlug": "temporal-mech-stage11-mechanism-replay-gauntlet",
+      "resultSlugs": [
+        "temporal-mech-stage11-mechanism-replay-gauntlet"
+      ]
+    },
+    {
+      "versionGroup": "temporal-mech-stage12-adversarial-mechanism-kill-week",
+      "latestSlug": "temporal-mech-stage12-adversarial-mechanism-kill-week",
+      "resultSlugs": [
+        "temporal-mech-stage12-adversarial-mechanism-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "temporal-mech-stage13-final-mechanism-instrument-decision",
+      "latestSlug": "temporal-mech-stage13-final-mechanism-instrument-decision",
+      "resultSlugs": [
+        "temporal-mech-stage13-final-mechanism-instrument-decision"
+      ]
+    },
+    {
+      "versionGroup": "temporal-mech-stage14-next-frontier",
+      "latestSlug": "temporal-mech-stage14-next-frontier",
+      "resultSlugs": [
+        "temporal-mech-stage14-next-frontier"
+      ]
+    },
+    {
       "versionGroup": "temporal-stage01-domain-scope-and-prior-failure-analysis",
       "latestSlug": "temporal-stage01-domain-scope-and-prior-failure-analysis",
       "resultSlugs": [
@@ -2355,5 +2453,5 @@
       ]
     }
   ],
-  "evidenceHash": "215a47dc0569a09f00f39589d975ce043459429620bd6bc9879697482c250248"
+  "evidenceHash": "1622c5bcae99ac4168c641e16e58fe40170466315ea0016f780c9d83c19b5f94"
 }

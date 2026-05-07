@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-07T07:18:21.724Z",
+  "generatedAt": "2026-05-07T08:01:32.432Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1821,6 +1821,90 @@
       "domain": "temporal evaluation fragility instrument larger blind validation"
     },
     {
+      "id": "result:temporal-mech-stage01-label-confusion-forensics",
+      "kind": "result",
+      "label": "Label Confusion Forensics",
+      "domain": "mechanism-separable temporal evaluation instrument"
+    },
+    {
+      "id": "result:temporal-mech-stage02-mechanism-panel-design",
+      "kind": "result",
+      "label": "Mechanism Panel Design",
+      "domain": "mechanism-separable temporal evaluation instrument"
+    },
+    {
+      "id": "result:temporal-mech-stage03-product-implementation",
+      "kind": "result",
+      "label": "Product Implementation",
+      "domain": "mechanism-separable temporal evaluation instrument"
+    },
+    {
+      "id": "result:temporal-mech-stage04-class-specific-falsifier-design",
+      "kind": "result",
+      "label": "Class-Specific Falsifier Design",
+      "domain": "mechanism-separable temporal evaluation instrument"
+    },
+    {
+      "id": "result:temporal-mech-stage05-calibration-on-known-cases",
+      "kind": "result",
+      "label": "Calibration on Known Cases",
+      "domain": "mechanism-separable temporal evaluation instrument"
+    },
+    {
+      "id": "result:temporal-mech-stage06-confusion-reduction-experiment",
+      "kind": "result",
+      "label": "Confusion Reduction Experiment",
+      "domain": "mechanism-separable temporal evaluation instrument"
+    },
+    {
+      "id": "result:temporal-mech-stage07-blind-mechanism-prediction-freeze",
+      "kind": "result",
+      "label": "Blind Mechanism Prediction Freeze",
+      "domain": "mechanism-separable temporal evaluation instrument"
+    },
+    {
+      "id": "result:temporal-mech-stage08-blind-mechanism-execution-wave1",
+      "kind": "result",
+      "label": "Blind Mechanism Execution Wave 1",
+      "domain": "mechanism-separable temporal evaluation instrument"
+    },
+    {
+      "id": "result:temporal-mech-stage09-blind-mechanism-execution-wave2",
+      "kind": "result",
+      "label": "Blind Mechanism Execution Wave 2",
+      "domain": "mechanism-separable temporal evaluation instrument"
+    },
+    {
+      "id": "result:temporal-mech-stage10-mechanism-counterexample-search",
+      "kind": "result",
+      "label": "Mechanism Counterexample Search",
+      "domain": "mechanism-separable temporal evaluation instrument"
+    },
+    {
+      "id": "result:temporal-mech-stage11-mechanism-replay-gauntlet",
+      "kind": "result",
+      "label": "Mechanism Replay Gauntlet",
+      "domain": "mechanism-separable temporal evaluation instrument"
+    },
+    {
+      "id": "result:temporal-mech-stage12-adversarial-mechanism-kill-week",
+      "kind": "result",
+      "label": "Adversarial Mechanism Kill Week",
+      "domain": "mechanism-separable temporal evaluation instrument"
+    },
+    {
+      "id": "result:temporal-mech-stage13-final-mechanism-instrument-decision",
+      "kind": "result",
+      "label": "Final Mechanism Instrument Decision",
+      "domain": "mechanism-separable temporal evaluation instrument"
+    },
+    {
+      "id": "result:temporal-mech-stage14-next-frontier",
+      "kind": "result",
+      "label": "Next Frontier",
+      "domain": "mechanism-separable temporal evaluation instrument"
+    },
+    {
       "id": "result:temporal-stage01-domain-scope-and-prior-failure-analysis",
       "kind": "result",
       "label": "Domain Scope and Prior Failure Analysis",
@@ -2384,6 +2468,11 @@
       "id": "domain:temporal evaluation fragility instrument larger blind validation",
       "kind": "domain",
       "label": "temporal evaluation fragility instrument larger blind validation"
+    },
+    {
+      "id": "domain:mechanism-separable temporal evaluation instrument",
+      "kind": "domain",
+      "label": "mechanism-separable temporal evaluation instrument"
     },
     {
       "id": "domain:temporal evaluation fragility deep discovery program",
@@ -4858,6 +4947,76 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:temporal-mech-stage01-label-confusion-forensics",
+      "target": "domain:mechanism-separable temporal evaluation instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-mech-stage02-mechanism-panel-design",
+      "target": "domain:mechanism-separable temporal evaluation instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-mech-stage03-product-implementation",
+      "target": "domain:mechanism-separable temporal evaluation instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-mech-stage04-class-specific-falsifier-design",
+      "target": "domain:mechanism-separable temporal evaluation instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-mech-stage05-calibration-on-known-cases",
+      "target": "domain:mechanism-separable temporal evaluation instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-mech-stage06-confusion-reduction-experiment",
+      "target": "domain:mechanism-separable temporal evaluation instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-mech-stage07-blind-mechanism-prediction-freeze",
+      "target": "domain:mechanism-separable temporal evaluation instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-mech-stage08-blind-mechanism-execution-wave1",
+      "target": "domain:mechanism-separable temporal evaluation instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-mech-stage09-blind-mechanism-execution-wave2",
+      "target": "domain:mechanism-separable temporal evaluation instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-mech-stage10-mechanism-counterexample-search",
+      "target": "domain:mechanism-separable temporal evaluation instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-mech-stage11-mechanism-replay-gauntlet",
+      "target": "domain:mechanism-separable temporal evaluation instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-mech-stage12-adversarial-mechanism-kill-week",
+      "target": "domain:mechanism-separable temporal evaluation instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-mech-stage13-final-mechanism-instrument-decision",
+      "target": "domain:mechanism-separable temporal evaluation instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-mech-stage14-next-frontier",
+      "target": "domain:mechanism-separable temporal evaluation instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:temporal-stage01-domain-scope-and-prior-failure-analysis",
       "target": "domain:temporal evaluation fragility deep discovery program",
       "relation": "belongs_to_domain"
@@ -5083,5 +5242,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "283cbe46215725234f28628a3a5e90869603e90c59ff1caa8319cca8a846084d"
+  "evidenceHash": "45d45b9753901301160d558a586f974862dbd62b4f0e233b2e49e6c97a9aed3f"
 }

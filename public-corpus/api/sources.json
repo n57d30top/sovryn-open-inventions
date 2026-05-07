@@ -1797,6 +1797,76 @@
       "customTool": null
     },
     {
+      "slug": "temporal-mech-stage01-label-confusion-forensics",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-mech-stage02-mechanism-panel-design",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-mech-stage03-product-implementation",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-mech-stage04-class-specific-falsifier-design",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-mech-stage05-calibration-on-known-cases",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-mech-stage06-confusion-reduction-experiment",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-mech-stage07-blind-mechanism-prediction-freeze",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-mech-stage08-blind-mechanism-execution-wave1",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-mech-stage09-blind-mechanism-execution-wave2",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-mech-stage10-mechanism-counterexample-search",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-mech-stage11-mechanism-replay-gauntlet",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-mech-stage12-adversarial-mechanism-kill-week",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-mech-stage13-final-mechanism-instrument-decision",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-mech-stage14-next-frontier",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "temporal-stage01-domain-scope-and-prior-failure-analysis",
       "externalPackages": [],
       "customTool": null
@@ -2022,5 +2092,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "f26b7e19563aee17635d57bc1a77549b3a942a79d7ee5a45d4afbbc6a93a5ad8"
+  "evidenceHash": "a5f1ae8d78624fccefbdd3fbb86344c593647be95248ff94016c9bad85d5707d"
 }
