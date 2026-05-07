@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T12:21:35.719Z",
+  "updatedAt": "2026-05-07T12:58:13.610Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -3361,7 +3361,105 @@
       "resultSlugs": [
         "validation-stage16-next-frontier-selection"
       ]
+    },
+    {
+      "versionGroup": "workload-stage01-hard-workload-design",
+      "latestSlug": "workload-stage01-hard-workload-design",
+      "resultSlugs": [
+        "workload-stage01-hard-workload-design"
+      ]
+    },
+    {
+      "versionGroup": "workload-stage02-route-policy-failure-analysis",
+      "latestSlug": "workload-stage02-route-policy-failure-analysis",
+      "resultSlugs": [
+        "workload-stage02-route-policy-failure-analysis"
+      ]
+    },
+    {
+      "versionGroup": "workload-stage03-route-policy-v2-design",
+      "latestSlug": "workload-stage03-route-policy-v2-design",
+      "resultSlugs": [
+        "workload-stage03-route-policy-v2-design"
+      ]
+    },
+    {
+      "versionGroup": "workload-stage04-product-implementation",
+      "latestSlug": "workload-stage04-product-implementation",
+      "resultSlugs": [
+        "workload-stage04-product-implementation"
+      ]
+    },
+    {
+      "versionGroup": "workload-stage05-hard-target-universe",
+      "latestSlug": "workload-stage05-hard-target-universe",
+      "resultSlugs": [
+        "workload-stage05-hard-target-universe"
+      ]
+    },
+    {
+      "versionGroup": "workload-stage06-blind-routing-freeze",
+      "latestSlug": "workload-stage06-blind-routing-freeze",
+      "resultSlugs": [
+        "workload-stage06-blind-routing-freeze"
+      ]
+    },
+    {
+      "versionGroup": "workload-stage07-routing-execution-wave1",
+      "latestSlug": "workload-stage07-routing-execution-wave1",
+      "resultSlugs": [
+        "workload-stage07-routing-execution-wave1"
+      ]
+    },
+    {
+      "versionGroup": "workload-stage08-routing-execution-wave2",
+      "latestSlug": "workload-stage08-routing-execution-wave2",
+      "resultSlugs": [
+        "workload-stage08-routing-execution-wave2"
+      ]
+    },
+    {
+      "versionGroup": "workload-stage09-public-package-wave",
+      "latestSlug": "workload-stage09-public-package-wave",
+      "resultSlugs": [
+        "workload-stage09-public-package-wave"
+      ]
+    },
+    {
+      "versionGroup": "workload-stage10-time-to-evidence-measurement",
+      "latestSlug": "workload-stage10-time-to-evidence-measurement",
+      "resultSlugs": [
+        "workload-stage10-time-to-evidence-measurement"
+      ]
+    },
+    {
+      "versionGroup": "workload-stage11-route-error-analysis",
+      "latestSlug": "workload-stage11-route-error-analysis",
+      "resultSlugs": [
+        "workload-stage11-route-error-analysis"
+      ]
+    },
+    {
+      "versionGroup": "workload-stage12-adversarial-route-kill-week",
+      "latestSlug": "workload-stage12-adversarial-route-kill-week",
+      "resultSlugs": [
+        "workload-stage12-adversarial-route-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "workload-stage13-x10-class-level-decision",
+      "latestSlug": "workload-stage13-x10-class-level-decision",
+      "resultSlugs": [
+        "workload-stage13-x10-class-level-decision"
+      ]
+    },
+    {
+      "versionGroup": "workload-stage14-next-frontier",
+      "latestSlug": "workload-stage14-next-frontier",
+      "resultSlugs": [
+        "workload-stage14-next-frontier"
+      ]
     }
   ],
-  "evidenceHash": "593dc02df41439dd1ce7f35f6a9dcdebdd8cc18e6ba58b4f8c970fdd9551e285"
+  "evidenceHash": "00ca687f31296a30e15f9e3f02f34ccd61c58427c803cc4b609822fa5ef54f92"
 }

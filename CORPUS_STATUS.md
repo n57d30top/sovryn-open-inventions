@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 492
+Results: 506
 
 ## Lifecycle Counts
 
-- autopublished: 461
+- autopublished: 475
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -490,5 +490,19 @@ Results: 492
 - validation-stage14-paper-or-failure-package: latest validation-stage14-paper-or-failure-package; validation-stage14-paper-or-failure-package
 - validation-stage15-final-gauntlet-audit: latest validation-stage15-final-gauntlet-audit; validation-stage15-final-gauntlet-audit
 - validation-stage16-next-frontier-selection: latest validation-stage16-next-frontier-selection; validation-stage16-next-frontier-selection
+- workload-stage01-hard-workload-design: latest workload-stage01-hard-workload-design; workload-stage01-hard-workload-design
+- workload-stage02-route-policy-failure-analysis: latest workload-stage02-route-policy-failure-analysis; workload-stage02-route-policy-failure-analysis
+- workload-stage03-route-policy-v2-design: latest workload-stage03-route-policy-v2-design; workload-stage03-route-policy-v2-design
+- workload-stage04-product-implementation: latest workload-stage04-product-implementation; workload-stage04-product-implementation
+- workload-stage05-hard-target-universe: latest workload-stage05-hard-target-universe; workload-stage05-hard-target-universe
+- workload-stage06-blind-routing-freeze: latest workload-stage06-blind-routing-freeze; workload-stage06-blind-routing-freeze
+- workload-stage07-routing-execution-wave1: latest workload-stage07-routing-execution-wave1; workload-stage07-routing-execution-wave1
+- workload-stage08-routing-execution-wave2: latest workload-stage08-routing-execution-wave2; workload-stage08-routing-execution-wave2
+- workload-stage09-public-package-wave: latest workload-stage09-public-package-wave; workload-stage09-public-package-wave
+- workload-stage10-time-to-evidence-measurement: latest workload-stage10-time-to-evidence-measurement; workload-stage10-time-to-evidence-measurement
+- workload-stage11-route-error-analysis: latest workload-stage11-route-error-analysis; workload-stage11-route-error-analysis
+- workload-stage12-adversarial-route-kill-week: latest workload-stage12-adversarial-route-kill-week; workload-stage12-adversarial-route-kill-week
+- workload-stage13-x10-class-level-decision: latest workload-stage13-x10-class-level-decision; workload-stage13-x10-class-level-decision
+- workload-stage14-next-frontier: latest workload-stage14-next-frontier; workload-stage14-next-frontier
 
 Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.

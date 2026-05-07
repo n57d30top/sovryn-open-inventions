@@ -1,0 +1,30 @@
+# Route Errors
+
+- hard-route-target-084: not_testable_confirmed, predicted not_testable, actual not_testable
+- hard-route-target-120: not_testable_confirmed, predicted not_testable, actual not_testable
+- hard-route-target-147: not_testable_confirmed, predicted not_testable, actual not_testable
+- hard-route-target-156: fallback_used, predicted benchmark_protocol_audit, actual dataset_audit
+- hard-route-target-112: not_testable_confirmed, predicted not_testable, actual not_testable
+- hard-route-target-130: not_testable_confirmed, predicted not_testable, actual not_testable
+- hard-route-target-166: unsafe_rejected, predicted unsafe_rejected, actual unsafe_rejected
+- hard-route-target-175: not_testable_confirmed, predicted not_testable, actual not_testable
+- hard-route-target-050: not_testable_confirmed, predicted not_testable, actual not_testable
+- hard-route-target-077: not_testable_confirmed, predicted not_testable, actual not_testable
+- hard-route-target-104: fallback_used, predicted formal_counterexample, actual proof_route
+- hard-route-target-140: not_testable_confirmed, predicted not_testable, actual not_testable
+- hard-route-target-060: not_testable_confirmed, predicted not_testable, actual not_testable
+- hard-route-target-078: fallback_used, predicted claim_safety_review, actual claim_safety_review
+- hard-route-target-105: not_testable_confirmed, predicted not_testable, actual not_testable
+- hard-route-target-150: not_testable_confirmed, predicted not_testable, actual not_testable
+- hard-route-target-168: not_testable_confirmed, predicted not_testable, actual not_testable
+- hard-route-target-007: not_testable_confirmed, predicted not_testable, actual not_testable
+- hard-route-target-052: fallback_used, predicted claim_safety_review, actual claim_safety_review
+- hard-route-target-070: not_testable_confirmed, predicted not_testable, actual not_testable
+- hard-route-target-026: fallback_used, predicted dataset_audit, actual claim_safety_review
+- hard-route-target-035: not_testable_confirmed, predicted not_testable, actual not_testable
+- hard-route-target-080: not_testable_confirmed, predicted not_testable, actual not_testable
+- hard-route-target-009: unsafe_rejected, predicted unsafe_rejected, actual unsafe_rejected
+- hard-route-target-018: unsafe_rejected, predicted unsafe_rejected, actual unsafe_rejected
+- hard-route-target-027: unsafe_rejected, predicted unsafe_rejected, actual unsafe_rejected
+- hard-route-target-036: unsafe_rejected, predicted unsafe_rejected, actual unsafe_rejected
+- hard-route-target-045: unsafe_rejected, predicted unsafe_rejected, actual unsafe_rejected

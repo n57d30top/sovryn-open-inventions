@@ -527,6 +527,20 @@ and safety scope in human-readable language.
 - [Validation Stage 14 Paper or Failure Package](results/validation-stage14-paper-or-failure-package/) — good, autopublished, validation-stage14-paper-or-failure-package, no-external-reviewer discovery validation gauntlet
 - [Validation Stage 15 Final Gauntlet Audit](results/validation-stage15-final-gauntlet-audit/) — good, autopublished, validation-stage15-final-gauntlet-audit, no-external-reviewer discovery validation gauntlet
 - [Validation Stage 16 Next Frontier Selection](results/validation-stage16-next-frontier-selection/) — good, autopublished, validation-stage16-next-frontier-selection, no-external-reviewer discovery validation gauntlet
+- [Hard Workload Design](results/workload-stage01-hard-workload-design/) — good, autopublished, workload-stage01-hard-workload-design, Hard External Workload Pilot for Cross-Domain Evidence Routing OS
+- [Route Policy Failure Analysis](results/workload-stage02-route-policy-failure-analysis/) — good, autopublished, workload-stage02-route-policy-failure-analysis, Hard External Workload Pilot for Cross-Domain Evidence Routing OS
+- [Route Policy v2 Design](results/workload-stage03-route-policy-v2-design/) — good, autopublished, workload-stage03-route-policy-v2-design, Hard External Workload Pilot for Cross-Domain Evidence Routing OS
+- [Product Implementation](results/workload-stage04-product-implementation/) — good, autopublished, workload-stage04-product-implementation, Hard External Workload Pilot for Cross-Domain Evidence Routing OS
+- [Hard Target Universe](results/workload-stage05-hard-target-universe/) — good, autopublished, workload-stage05-hard-target-universe, Hard External Workload Pilot for Cross-Domain Evidence Routing OS
+- [Blind Routing Freeze](results/workload-stage06-blind-routing-freeze/) — good, autopublished, workload-stage06-blind-routing-freeze, Hard External Workload Pilot for Cross-Domain Evidence Routing OS
+- [Routing Execution Wave 1](results/workload-stage07-routing-execution-wave1/) — good, autopublished, workload-stage07-routing-execution-wave1, Hard External Workload Pilot for Cross-Domain Evidence Routing OS
+- [Routing Execution Wave 2](results/workload-stage08-routing-execution-wave2/) — good, autopublished, workload-stage08-routing-execution-wave2, Hard External Workload Pilot for Cross-Domain Evidence Routing OS
+- [Public Package Wave](results/workload-stage09-public-package-wave/) — good, autopublished, workload-stage09-public-package-wave, Hard External Workload Pilot for Cross-Domain Evidence Routing OS
+- [Time-to-Evidence Measurement](results/workload-stage10-time-to-evidence-measurement/) — good, autopublished, workload-stage10-time-to-evidence-measurement, Hard External Workload Pilot for Cross-Domain Evidence Routing OS
+- [Route Error Analysis](results/workload-stage11-route-error-analysis/) — good, autopublished, workload-stage11-route-error-analysis, Hard External Workload Pilot for Cross-Domain Evidence Routing OS
+- [Adversarial Route Kill Week](results/workload-stage12-adversarial-route-kill-week/) — good, autopublished, workload-stage12-adversarial-route-kill-week, Hard External Workload Pilot for Cross-Domain Evidence Routing OS
+- [x10 Class-Level Decision](results/workload-stage13-x10-class-level-decision/) — good, autopublished, workload-stage13-x10-class-level-decision, Hard External Workload Pilot for Cross-Domain Evidence Routing OS
+- [Next Frontier](results/workload-stage14-next-frontier/) — good, autopublished, workload-stage14-next-frontier, Hard External Workload Pilot for Cross-Domain Evidence Routing OS
 
 ## Corpus Lifecycle
 

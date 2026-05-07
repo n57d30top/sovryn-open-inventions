@@ -1,0 +1,427 @@
+{
+  "kind": "hard_workload_public_package_index",
+  "packageCount": 60,
+  "packages": [
+    {
+      "packageId": "route-package-hard-route-target-001",
+      "targetId": "hard-route-target-001",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-019",
+      "targetId": "hard-route-target-019",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-037",
+      "targetId": "hard-route-target-037",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-046",
+      "targetId": "hard-route-target-046",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-055",
+      "targetId": "hard-route-target-055",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-064",
+      "targetId": "hard-route-target-064",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-073",
+      "targetId": "hard-route-target-073",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-082",
+      "targetId": "hard-route-target-082",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-109",
+      "targetId": "hard-route-target-109",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-118",
+      "targetId": "hard-route-target-118",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-127",
+      "targetId": "hard-route-target-127",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-136",
+      "targetId": "hard-route-target-136",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-145",
+      "targetId": "hard-route-target-145",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-163",
+      "targetId": "hard-route-target-163",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-172",
+      "targetId": "hard-route-target-172",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-181",
+      "targetId": "hard-route-target-181",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-199",
+      "targetId": "hard-route-target-199",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-208",
+      "targetId": "hard-route-target-208",
+      "route": "static_scan_only",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-226",
+      "targetId": "hard-route-target-226",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-235",
+      "targetId": "hard-route-target-235",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-244",
+      "targetId": "hard-route-target-244",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-253",
+      "targetId": "hard-route-target-253",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-262",
+      "targetId": "hard-route-target-262",
+      "route": "install_probe",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-002",
+      "targetId": "hard-route-target-002",
+      "route": "dataset_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-011",
+      "targetId": "hard-route-target-011",
+      "route": "dataset_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-029",
+      "targetId": "hard-route-target-029",
+      "route": "dataset_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-038",
+      "targetId": "hard-route-target-038",
+      "route": "dataset_audit",
+      "result": "deep_validation_candidate",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-047",
+      "targetId": "hard-route-target-047",
+      "route": "dataset_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-065",
+      "targetId": "hard-route-target-065",
+      "route": "claim_safety_review",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-074",
+      "targetId": "hard-route-target-074",
+      "route": "dataset_audit",
+      "result": "deep_validation_candidate",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-092",
+      "targetId": "hard-route-target-092",
+      "route": "dataset_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-101",
+      "targetId": "hard-route-target-101",
+      "route": "dataset_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-128",
+      "targetId": "hard-route-target-128",
+      "route": "dataset_audit",
+      "result": "deep_validation_candidate",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-137",
+      "targetId": "hard-route-target-137",
+      "route": "dataset_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-146",
+      "targetId": "hard-route-target-146",
+      "route": "dataset_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-155",
+      "targetId": "hard-route-target-155",
+      "route": "dataset_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-164",
+      "targetId": "hard-route-target-164",
+      "route": "dataset_audit",
+      "result": "deep_validation_candidate",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-173",
+      "targetId": "hard-route-target-173",
+      "route": "dataset_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-191",
+      "targetId": "hard-route-target-191",
+      "route": "dataset_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-209",
+      "targetId": "hard-route-target-209",
+      "route": "dataset_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-218",
+      "targetId": "hard-route-target-218",
+      "route": "dataset_audit",
+      "result": "deep_validation_candidate",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-003",
+      "targetId": "hard-route-target-003",
+      "route": "benchmark_protocol_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-012",
+      "targetId": "hard-route-target-012",
+      "route": "benchmark_protocol_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-039",
+      "targetId": "hard-route-target-039",
+      "route": "dataset_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-048",
+      "targetId": "hard-route-target-048",
+      "route": "benchmark_protocol_audit",
+      "result": "deep_validation_candidate",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-057",
+      "targetId": "hard-route-target-057",
+      "route": "benchmark_protocol_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-066",
+      "targetId": "hard-route-target-066",
+      "route": "benchmark_protocol_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-075",
+      "targetId": "hard-route-target-075",
+      "route": "benchmark_protocol_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-093",
+      "targetId": "hard-route-target-093",
+      "route": "benchmark_protocol_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-102",
+      "targetId": "hard-route-target-102",
+      "route": "benchmark_protocol_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-111",
+      "targetId": "hard-route-target-111",
+      "route": "benchmark_protocol_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-129",
+      "targetId": "hard-route-target-129",
+      "route": "benchmark_protocol_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-138",
+      "targetId": "hard-route-target-138",
+      "route": "benchmark_protocol_audit",
+      "result": "deep_validation_candidate",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-156",
+      "targetId": "hard-route-target-156",
+      "route": "dataset_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-165",
+      "targetId": "hard-route-target-165",
+      "route": "benchmark_protocol_audit",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-174",
+      "targetId": "hard-route-target-174",
+      "route": "benchmark_protocol_audit",
+      "result": "deep_validation_candidate",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-004",
+      "targetId": "hard-route-target-004",
+      "route": "temporal_evaluation",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-013",
+      "targetId": "hard-route-target-013",
+      "route": "benchmark_protocol_audit",
+      "result": "deep_validation_candidate",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-022",
+      "targetId": "hard-route-target-022",
+      "route": "temporal_evaluation",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    },
+    {
+      "packageId": "route-package-hard-route-target-031",
+      "targetId": "hard-route-target-031",
+      "route": "temporal_evaluation",
+      "result": "bounded_evidence_package",
+      "publicSafe": true
+    }
+  ],
+  "evidenceHash": "adf6c298eb73e8402ab52d80a28ad51fe932e6adece8c88f698305b00d95f364"
+}

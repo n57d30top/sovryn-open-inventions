@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-07T12:21:35.719Z",
+  "generatedAt": "2026-05-07T12:58:13.610Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -8857,7 +8857,259 @@
       },
       "lifecycleStatus": "autopublished",
       "showcaseRank": null
+    },
+    {
+      "slug": "workload-stage01-hard-workload-design",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "adversarial_route_reviewed",
+        "lifecycle": "autopublished",
+        "version": "workload-stage01-hard-workload-design",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "workload-stage02-route-policy-failure-analysis",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "adversarial_route_reviewed",
+        "lifecycle": "autopublished",
+        "version": "workload-stage02-route-policy-failure-analysis",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "workload-stage03-route-policy-v2-design",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "adversarial_route_reviewed",
+        "lifecycle": "autopublished",
+        "version": "workload-stage03-route-policy-v2-design",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "workload-stage04-product-implementation",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "adversarial_route_reviewed",
+        "lifecycle": "autopublished",
+        "version": "workload-stage04-product-implementation",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "workload-stage05-hard-target-universe",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "adversarial_route_reviewed",
+        "lifecycle": "autopublished",
+        "version": "workload-stage05-hard-target-universe",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "workload-stage06-blind-routing-freeze",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "adversarial_route_reviewed",
+        "lifecycle": "autopublished",
+        "version": "workload-stage06-blind-routing-freeze",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "workload-stage07-routing-execution-wave1",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "adversarial_route_reviewed",
+        "lifecycle": "autopublished",
+        "version": "workload-stage07-routing-execution-wave1",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "workload-stage08-routing-execution-wave2",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "adversarial_route_reviewed",
+        "lifecycle": "autopublished",
+        "version": "workload-stage08-routing-execution-wave2",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "workload-stage09-public-package-wave",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "adversarial_route_reviewed",
+        "lifecycle": "autopublished",
+        "version": "workload-stage09-public-package-wave",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "workload-stage10-time-to-evidence-measurement",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "adversarial_route_reviewed",
+        "lifecycle": "autopublished",
+        "version": "workload-stage10-time-to-evidence-measurement",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "workload-stage11-route-error-analysis",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "adversarial_route_reviewed",
+        "lifecycle": "autopublished",
+        "version": "workload-stage11-route-error-analysis",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "workload-stage12-adversarial-route-kill-week",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "adversarial_route_reviewed",
+        "lifecycle": "autopublished",
+        "version": "workload-stage12-adversarial-route-kill-week",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "workload-stage13-x10-class-level-decision",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "adversarial_route_reviewed",
+        "lifecycle": "autopublished",
+        "version": "workload-stage13-x10-class-level-decision",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "workload-stage14-next-frontier",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "adversarial_route_reviewed",
+        "lifecycle": "autopublished",
+        "version": "workload-stage14-next-frontier",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
     }
   ],
-  "evidenceHash": "9db15b7eb64f31993a3397e3388ab2bd9c896e07a1116c5ac7aa7c2d7cc3ef3a"
+  "evidenceHash": "00af7560ebbbf2d274f94be958ebf4411803d788fac115dcd8ef9cf411112cdf"
 }

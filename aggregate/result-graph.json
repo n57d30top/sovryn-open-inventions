@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-07T12:21:35.719Z",
+  "generatedAt": "2026-05-07T12:58:13.610Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -2955,6 +2955,90 @@
       "domain": "no-external-reviewer discovery validation gauntlet"
     },
     {
+      "id": "result:workload-stage01-hard-workload-design",
+      "kind": "result",
+      "label": "Hard Workload Design",
+      "domain": "Hard External Workload Pilot for Cross-Domain Evidence Routing OS"
+    },
+    {
+      "id": "result:workload-stage02-route-policy-failure-analysis",
+      "kind": "result",
+      "label": "Route Policy Failure Analysis",
+      "domain": "Hard External Workload Pilot for Cross-Domain Evidence Routing OS"
+    },
+    {
+      "id": "result:workload-stage03-route-policy-v2-design",
+      "kind": "result",
+      "label": "Route Policy v2 Design",
+      "domain": "Hard External Workload Pilot for Cross-Domain Evidence Routing OS"
+    },
+    {
+      "id": "result:workload-stage04-product-implementation",
+      "kind": "result",
+      "label": "Product Implementation",
+      "domain": "Hard External Workload Pilot for Cross-Domain Evidence Routing OS"
+    },
+    {
+      "id": "result:workload-stage05-hard-target-universe",
+      "kind": "result",
+      "label": "Hard Target Universe",
+      "domain": "Hard External Workload Pilot for Cross-Domain Evidence Routing OS"
+    },
+    {
+      "id": "result:workload-stage06-blind-routing-freeze",
+      "kind": "result",
+      "label": "Blind Routing Freeze",
+      "domain": "Hard External Workload Pilot for Cross-Domain Evidence Routing OS"
+    },
+    {
+      "id": "result:workload-stage07-routing-execution-wave1",
+      "kind": "result",
+      "label": "Routing Execution Wave 1",
+      "domain": "Hard External Workload Pilot for Cross-Domain Evidence Routing OS"
+    },
+    {
+      "id": "result:workload-stage08-routing-execution-wave2",
+      "kind": "result",
+      "label": "Routing Execution Wave 2",
+      "domain": "Hard External Workload Pilot for Cross-Domain Evidence Routing OS"
+    },
+    {
+      "id": "result:workload-stage09-public-package-wave",
+      "kind": "result",
+      "label": "Public Package Wave",
+      "domain": "Hard External Workload Pilot for Cross-Domain Evidence Routing OS"
+    },
+    {
+      "id": "result:workload-stage10-time-to-evidence-measurement",
+      "kind": "result",
+      "label": "Time-to-Evidence Measurement",
+      "domain": "Hard External Workload Pilot for Cross-Domain Evidence Routing OS"
+    },
+    {
+      "id": "result:workload-stage11-route-error-analysis",
+      "kind": "result",
+      "label": "Route Error Analysis",
+      "domain": "Hard External Workload Pilot for Cross-Domain Evidence Routing OS"
+    },
+    {
+      "id": "result:workload-stage12-adversarial-route-kill-week",
+      "kind": "result",
+      "label": "Adversarial Route Kill Week",
+      "domain": "Hard External Workload Pilot for Cross-Domain Evidence Routing OS"
+    },
+    {
+      "id": "result:workload-stage13-x10-class-level-decision",
+      "kind": "result",
+      "label": "x10 Class-Level Decision",
+      "domain": "Hard External Workload Pilot for Cross-Domain Evidence Routing OS"
+    },
+    {
+      "id": "result:workload-stage14-next-frontier",
+      "kind": "result",
+      "label": "Next Frontier",
+      "domain": "Hard External Workload Pilot for Cross-Domain Evidence Routing OS"
+    },
+    {
       "id": "domain:autonomous-research-production-continuity",
       "kind": "domain",
       "label": "autonomous-research-production-continuity"
@@ -3318,6 +3402,11 @@
       "id": "domain:no-external-reviewer discovery validation gauntlet",
       "kind": "domain",
       "label": "no-external-reviewer discovery validation gauntlet"
+    },
+    {
+      "id": "domain:Hard External Workload Pilot for Cross-Domain Evidence Routing OS",
+      "kind": "domain",
+      "label": "Hard External Workload Pilot for Cross-Domain Evidence Routing OS"
     },
     {
       "id": "tool:pandas",
@@ -6810,7 +6899,77 @@
       "source": "result:validation-stage16-next-frontier-selection",
       "target": "domain:no-external-reviewer discovery validation gauntlet",
       "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:workload-stage01-hard-workload-design",
+      "target": "domain:Hard External Workload Pilot for Cross-Domain Evidence Routing OS",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:workload-stage02-route-policy-failure-analysis",
+      "target": "domain:Hard External Workload Pilot for Cross-Domain Evidence Routing OS",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:workload-stage03-route-policy-v2-design",
+      "target": "domain:Hard External Workload Pilot for Cross-Domain Evidence Routing OS",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:workload-stage04-product-implementation",
+      "target": "domain:Hard External Workload Pilot for Cross-Domain Evidence Routing OS",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:workload-stage05-hard-target-universe",
+      "target": "domain:Hard External Workload Pilot for Cross-Domain Evidence Routing OS",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:workload-stage06-blind-routing-freeze",
+      "target": "domain:Hard External Workload Pilot for Cross-Domain Evidence Routing OS",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:workload-stage07-routing-execution-wave1",
+      "target": "domain:Hard External Workload Pilot for Cross-Domain Evidence Routing OS",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:workload-stage08-routing-execution-wave2",
+      "target": "domain:Hard External Workload Pilot for Cross-Domain Evidence Routing OS",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:workload-stage09-public-package-wave",
+      "target": "domain:Hard External Workload Pilot for Cross-Domain Evidence Routing OS",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:workload-stage10-time-to-evidence-measurement",
+      "target": "domain:Hard External Workload Pilot for Cross-Domain Evidence Routing OS",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:workload-stage11-route-error-analysis",
+      "target": "domain:Hard External Workload Pilot for Cross-Domain Evidence Routing OS",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:workload-stage12-adversarial-route-kill-week",
+      "target": "domain:Hard External Workload Pilot for Cross-Domain Evidence Routing OS",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:workload-stage13-x10-class-level-decision",
+      "target": "domain:Hard External Workload Pilot for Cross-Domain Evidence Routing OS",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:workload-stage14-next-frontier",
+      "target": "domain:Hard External Workload Pilot for Cross-Domain Evidence Routing OS",
+      "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "483437f0678c7a9bac3c9a38e0d64623ea82680004c5863b7de0aba21362743b"
+  "evidenceHash": "c83658e8dcd328d7dc0cc2146a8e2ee5ee98e5a61576d174af74c7c22fbfa0ce"
 }

@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 481,
+    "good": 495,
     "reviewable": 6
   },
   "results": [
@@ -2465,7 +2465,77 @@
       "slug": "validation-stage16-next-frontier-selection",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
+    },
+    {
+      "slug": "workload-stage01-hard-workload-design",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "workload-stage02-route-policy-failure-analysis",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "workload-stage03-route-policy-v2-design",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "workload-stage04-product-implementation",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "workload-stage05-hard-target-universe",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "workload-stage06-blind-routing-freeze",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "workload-stage07-routing-execution-wave1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "workload-stage08-routing-execution-wave2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "workload-stage09-public-package-wave",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "workload-stage10-time-to-evidence-measurement",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "workload-stage11-route-error-analysis",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "workload-stage12-adversarial-route-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "workload-stage13-x10-class-level-decision",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 84
+    },
+    {
+      "slug": "workload-stage14-next-frontier",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
     }
   ],
-  "evidenceHash": "644e57cb125a4b82bceace6348dd4276c5151f9c002b4cd7068dcb93f0e385c7"
+  "evidenceHash": "799cf91ebb3bb55b22e9b7559d4cc3f385f7b3ea132731db0f881bb3c48155cd"
 }

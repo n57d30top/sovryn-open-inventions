@@ -1,0 +1,7 @@
+{
+  "kind": "frozen_route_prediction_ledger",
+  "frozenPredictionCount": 160,
+  "freezeRule": "No route execution after this stage may edit frozen predictions.",
+  "policyVersion": "route_policy_v2",
+  "evidenceHash": "90205f18b423f9d7a4d86910db408bcc29eebb78249131643900de830bc6a5ef"
+}
