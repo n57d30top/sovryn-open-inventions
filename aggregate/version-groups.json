@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T06:07:54.015Z",
+  "updatedAt": "2026-05-07T06:32:28.556Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -1956,6 +1956,132 @@
       ]
     },
     {
+      "versionGroup": "temporal-stage01-domain-scope-and-prior-failure-analysis",
+      "latestSlug": "temporal-stage01-domain-scope-and-prior-failure-analysis",
+      "resultSlugs": [
+        "temporal-stage01-domain-scope-and-prior-failure-analysis"
+      ]
+    },
+    {
+      "versionGroup": "temporal-stage02-public-temporal-target-universe",
+      "latestSlug": "temporal-stage02-public-temporal-target-universe",
+      "resultSlugs": [
+        "temporal-stage02-public-temporal-target-universe"
+      ]
+    },
+    {
+      "versionGroup": "temporal-stage03-temporal-split-protocol-taxonomy",
+      "latestSlug": "temporal-stage03-temporal-split-protocol-taxonomy",
+      "resultSlugs": [
+        "temporal-stage03-temporal-split-protocol-taxonomy"
+      ]
+    },
+    {
+      "versionGroup": "temporal-stage04-anomaly-mining-wave1",
+      "latestSlug": "temporal-stage04-anomaly-mining-wave1",
+      "resultSlugs": [
+        "temporal-stage04-anomaly-mining-wave1"
+      ]
+    },
+    {
+      "versionGroup": "temporal-stage05-anomaly-mining-wave2",
+      "latestSlug": "temporal-stage05-anomaly-mining-wave2",
+      "resultSlugs": [
+        "temporal-stage05-anomaly-mining-wave2"
+      ]
+    },
+    {
+      "versionGroup": "temporal-stage06-rival-hypothesis-generation",
+      "latestSlug": "temporal-stage06-rival-hypothesis-generation",
+      "resultSlugs": [
+        "temporal-stage06-rival-hypothesis-generation"
+      ]
+    },
+    {
+      "versionGroup": "temporal-stage07-freeze-predictions",
+      "latestSlug": "temporal-stage07-freeze-predictions",
+      "resultSlugs": [
+        "temporal-stage07-freeze-predictions"
+      ]
+    },
+    {
+      "versionGroup": "temporal-stage08-baseline-and-negative-control-setup",
+      "latestSlug": "temporal-stage08-baseline-and-negative-control-setup",
+      "resultSlugs": [
+        "temporal-stage08-baseline-and-negative-control-setup"
+      ]
+    },
+    {
+      "versionGroup": "temporal-stage09-execution-wave1",
+      "latestSlug": "temporal-stage09-execution-wave1",
+      "resultSlugs": [
+        "temporal-stage09-execution-wave1"
+      ]
+    },
+    {
+      "versionGroup": "temporal-stage10-execution-wave2",
+      "latestSlug": "temporal-stage10-execution-wave2",
+      "resultSlugs": [
+        "temporal-stage10-execution-wave2"
+      ]
+    },
+    {
+      "versionGroup": "temporal-stage11-horizon-and-window-stress-tests",
+      "latestSlug": "temporal-stage11-horizon-and-window-stress-tests",
+      "resultSlugs": [
+        "temporal-stage11-horizon-and-window-stress-tests"
+      ]
+    },
+    {
+      "versionGroup": "temporal-stage12-shuffled-time-and-leakage-controls",
+      "latestSlug": "temporal-stage12-shuffled-time-and-leakage-controls",
+      "resultSlugs": [
+        "temporal-stage12-shuffled-time-and-leakage-controls"
+      ]
+    },
+    {
+      "versionGroup": "temporal-stage13-counterexample-search",
+      "latestSlug": "temporal-stage13-counterexample-search",
+      "resultSlugs": [
+        "temporal-stage13-counterexample-search"
+      ]
+    },
+    {
+      "versionGroup": "temporal-stage14-independent-replay",
+      "latestSlug": "temporal-stage14-independent-replay",
+      "resultSlugs": [
+        "temporal-stage14-independent-replay"
+      ]
+    },
+    {
+      "versionGroup": "temporal-stage15-adversarial-kill-week",
+      "latestSlug": "temporal-stage15-adversarial-kill-week",
+      "resultSlugs": [
+        "temporal-stage15-adversarial-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "temporal-stage16-candidate-decision",
+      "latestSlug": "temporal-stage16-candidate-decision",
+      "resultSlugs": [
+        "temporal-stage16-candidate-decision"
+      ]
+    },
+    {
+      "versionGroup": "temporal-stage17-paper-or-failure-package",
+      "latestSlug": "temporal-stage17-paper-or-failure-package",
+      "resultSlugs": [
+        "temporal-stage17-paper-or-failure-package"
+      ]
+    },
+    {
+      "versionGroup": "temporal-stage18-next-frontier",
+      "latestSlug": "temporal-stage18-next-frontier",
+      "resultSlugs": [
+        "temporal-stage18-next-frontier"
+      ]
+    },
+    {
       "versionGroup": "toolchain-policy",
       "latestSlug": "toolchain-policy",
       "resultSlugs": [
@@ -2075,5 +2201,5 @@
       ]
     }
   ],
-  "evidenceHash": "fe428039363106c26bef9cb8e1591c2465a4f55a9cf0d2d720b56c870a5f8eb0"
+  "evidenceHash": "bbb958df2deb56dc3d657a130e1c4bd714cb0a66082dfe03635be958f6b162df"
 }

@@ -1737,6 +1737,96 @@
       "customTool": "patch-risk-auditor"
     },
     {
+      "slug": "temporal-stage01-domain-scope-and-prior-failure-analysis",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-stage02-public-temporal-target-universe",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-stage03-temporal-split-protocol-taxonomy",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-stage04-anomaly-mining-wave1",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-stage05-anomaly-mining-wave2",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-stage06-rival-hypothesis-generation",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-stage07-freeze-predictions",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-stage08-baseline-and-negative-control-setup",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-stage09-execution-wave1",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-stage10-execution-wave2",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-stage11-horizon-and-window-stress-tests",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-stage12-shuffled-time-and-leakage-controls",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-stage13-counterexample-search",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-stage14-independent-replay",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-stage15-adversarial-kill-week",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-stage16-candidate-decision",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-stage17-paper-or-failure-package",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "temporal-stage18-next-frontier",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "toolchain-policy",
       "externalPackages": [],
       "customTool": null
@@ -1822,5 +1912,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "21b4c272546d0d601b4a8d0c5415c1598f8539a49ea54c771ea89701cc9431db"
+  "evidenceHash": "2a2a7927ae54c9ce05a959ce9d2424181446f6344493d76666a56b3fa7d2a87a"
 }

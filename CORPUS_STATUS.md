@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 308
+Results: 326
 
 ## Lifecycle Counts
 
-- autopublished: 277
+- autopublished: 295
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -289,6 +289,24 @@ Results: 308
 - self-built-lab-reproduction-388ccd1946ad: latest self-built-lab-reproduction-388ccd1946ad; self-built-lab-reproduction-388ccd1946ad
 - software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for: latest software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth; software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth
 - software-supply-chain-assurance-self-built-lab-study: latest software-supply-chain-assurance-self-built-lab-study-v2; software-supply-chain-assurance-self-built-lab-study, software-supply-chain-assurance-self-built-lab-study-v2
+- temporal-stage01-domain-scope-and-prior-failure-analysis: latest temporal-stage01-domain-scope-and-prior-failure-analysis; temporal-stage01-domain-scope-and-prior-failure-analysis
+- temporal-stage02-public-temporal-target-universe: latest temporal-stage02-public-temporal-target-universe; temporal-stage02-public-temporal-target-universe
+- temporal-stage03-temporal-split-protocol-taxonomy: latest temporal-stage03-temporal-split-protocol-taxonomy; temporal-stage03-temporal-split-protocol-taxonomy
+- temporal-stage04-anomaly-mining-wave1: latest temporal-stage04-anomaly-mining-wave1; temporal-stage04-anomaly-mining-wave1
+- temporal-stage05-anomaly-mining-wave2: latest temporal-stage05-anomaly-mining-wave2; temporal-stage05-anomaly-mining-wave2
+- temporal-stage06-rival-hypothesis-generation: latest temporal-stage06-rival-hypothesis-generation; temporal-stage06-rival-hypothesis-generation
+- temporal-stage07-freeze-predictions: latest temporal-stage07-freeze-predictions; temporal-stage07-freeze-predictions
+- temporal-stage08-baseline-and-negative-control-setup: latest temporal-stage08-baseline-and-negative-control-setup; temporal-stage08-baseline-and-negative-control-setup
+- temporal-stage09-execution-wave1: latest temporal-stage09-execution-wave1; temporal-stage09-execution-wave1
+- temporal-stage10-execution-wave2: latest temporal-stage10-execution-wave2; temporal-stage10-execution-wave2
+- temporal-stage11-horizon-and-window-stress-tests: latest temporal-stage11-horizon-and-window-stress-tests; temporal-stage11-horizon-and-window-stress-tests
+- temporal-stage12-shuffled-time-and-leakage-controls: latest temporal-stage12-shuffled-time-and-leakage-controls; temporal-stage12-shuffled-time-and-leakage-controls
+- temporal-stage13-counterexample-search: latest temporal-stage13-counterexample-search; temporal-stage13-counterexample-search
+- temporal-stage14-independent-replay: latest temporal-stage14-independent-replay; temporal-stage14-independent-replay
+- temporal-stage15-adversarial-kill-week: latest temporal-stage15-adversarial-kill-week; temporal-stage15-adversarial-kill-week
+- temporal-stage16-candidate-decision: latest temporal-stage16-candidate-decision; temporal-stage16-candidate-decision
+- temporal-stage17-paper-or-failure-package: latest temporal-stage17-paper-or-failure-package; temporal-stage17-paper-or-failure-package
+- temporal-stage18-next-frontier: latest temporal-stage18-next-frontier; temporal-stage18-next-frontier
 - toolchain-policy: latest toolchain-policy; toolchain-policy
 - validation-stage01-candidate-inspection: latest validation-stage01-candidate-inspection; validation-stage01-candidate-inspection
 - validation-stage02-freeze-ledger-and-predictions: latest validation-stage02-freeze-ledger-and-predictions; validation-stage02-freeze-ledger-and-predictions

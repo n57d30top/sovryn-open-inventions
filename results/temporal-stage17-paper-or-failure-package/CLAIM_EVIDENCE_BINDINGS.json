@@ -1,0 +1,17 @@
+{
+  "finalClassification": "partial_temporal_signal",
+  "bindings": [
+    {
+      "claim": "24 predictions executed",
+      "evidence": "temporal-stage09 and temporal-stage10"
+    },
+    {
+      "claim": "horizon/window instability narrows claim",
+      "evidence": "temporal-stage11"
+    },
+    {
+      "claim": "controls and counterexamples prevent validation-ready status",
+      "evidence": "temporal-stage12 and temporal-stage13"
+    }
+  ]
+}

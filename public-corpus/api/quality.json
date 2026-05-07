@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 297,
+    "good": 315,
     "reviewable": 6
   },
   "results": [
@@ -1462,6 +1462,96 @@
       "releaseReadinessScore": 92
     },
     {
+      "slug": "temporal-stage01-domain-scope-and-prior-failure-analysis",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "temporal-stage02-public-temporal-target-universe",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "temporal-stage03-temporal-split-protocol-taxonomy",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "temporal-stage04-anomaly-mining-wave1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "temporal-stage05-anomaly-mining-wave2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "temporal-stage06-rival-hypothesis-generation",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "temporal-stage07-freeze-predictions",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "temporal-stage08-baseline-and-negative-control-setup",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "temporal-stage09-execution-wave1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "temporal-stage10-execution-wave2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "temporal-stage11-horizon-and-window-stress-tests",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "temporal-stage12-shuffled-time-and-leakage-controls",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "temporal-stage13-counterexample-search",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "temporal-stage14-independent-replay",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "temporal-stage15-adversarial-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "temporal-stage16-candidate-decision",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "temporal-stage17-paper-or-failure-package",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "temporal-stage18-next-frontier",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
       "slug": "toolchain-policy",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
@@ -1547,5 +1637,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "b8ce0bab8e46fc8a31950a4b02998844d4caf3fc35d1c634b5003b2c33eb661a"
+  "evidenceHash": "76e9468dfbcb87a1adca621a31badef188f4cb712c65155ff22b25842d005abc"
 }

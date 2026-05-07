@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-07T06:07:54.015Z",
+  "generatedAt": "2026-05-07T06:32:28.556Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1749,6 +1749,114 @@
       "domain": "software-supply-chain-assurance"
     },
     {
+      "id": "result:temporal-stage01-domain-scope-and-prior-failure-analysis",
+      "kind": "result",
+      "label": "Domain Scope and Prior Failure Analysis",
+      "domain": "temporal evaluation fragility deep discovery program"
+    },
+    {
+      "id": "result:temporal-stage02-public-temporal-target-universe",
+      "kind": "result",
+      "label": "Public Temporal Target Universe",
+      "domain": "temporal evaluation fragility deep discovery program"
+    },
+    {
+      "id": "result:temporal-stage03-temporal-split-protocol-taxonomy",
+      "kind": "result",
+      "label": "Temporal Split Protocol Taxonomy",
+      "domain": "temporal evaluation fragility deep discovery program"
+    },
+    {
+      "id": "result:temporal-stage04-anomaly-mining-wave1",
+      "kind": "result",
+      "label": "Anomaly Mining Wave 1",
+      "domain": "temporal evaluation fragility deep discovery program"
+    },
+    {
+      "id": "result:temporal-stage05-anomaly-mining-wave2",
+      "kind": "result",
+      "label": "Anomaly Mining Wave 2",
+      "domain": "temporal evaluation fragility deep discovery program"
+    },
+    {
+      "id": "result:temporal-stage06-rival-hypothesis-generation",
+      "kind": "result",
+      "label": "Rival Hypothesis Generation",
+      "domain": "temporal evaluation fragility deep discovery program"
+    },
+    {
+      "id": "result:temporal-stage07-freeze-predictions",
+      "kind": "result",
+      "label": "Freeze Predictions",
+      "domain": "temporal evaluation fragility deep discovery program"
+    },
+    {
+      "id": "result:temporal-stage08-baseline-and-negative-control-setup",
+      "kind": "result",
+      "label": "Baseline and Negative-Control Setup",
+      "domain": "temporal evaluation fragility deep discovery program"
+    },
+    {
+      "id": "result:temporal-stage09-execution-wave1",
+      "kind": "result",
+      "label": "Execution Wave 1",
+      "domain": "temporal evaluation fragility deep discovery program"
+    },
+    {
+      "id": "result:temporal-stage10-execution-wave2",
+      "kind": "result",
+      "label": "Execution Wave 2",
+      "domain": "temporal evaluation fragility deep discovery program"
+    },
+    {
+      "id": "result:temporal-stage11-horizon-and-window-stress-tests",
+      "kind": "result",
+      "label": "Horizon and Window Stress Tests",
+      "domain": "temporal evaluation fragility deep discovery program"
+    },
+    {
+      "id": "result:temporal-stage12-shuffled-time-and-leakage-controls",
+      "kind": "result",
+      "label": "Shuffled-Time and Leakage Controls",
+      "domain": "temporal evaluation fragility deep discovery program"
+    },
+    {
+      "id": "result:temporal-stage13-counterexample-search",
+      "kind": "result",
+      "label": "Counterexample Search",
+      "domain": "temporal evaluation fragility deep discovery program"
+    },
+    {
+      "id": "result:temporal-stage14-independent-replay",
+      "kind": "result",
+      "label": "Independent Replay",
+      "domain": "temporal evaluation fragility deep discovery program"
+    },
+    {
+      "id": "result:temporal-stage15-adversarial-kill-week",
+      "kind": "result",
+      "label": "Adversarial Kill Week",
+      "domain": "temporal evaluation fragility deep discovery program"
+    },
+    {
+      "id": "result:temporal-stage16-candidate-decision",
+      "kind": "result",
+      "label": "Candidate Decision",
+      "domain": "temporal evaluation fragility deep discovery program"
+    },
+    {
+      "id": "result:temporal-stage17-paper-or-failure-package",
+      "kind": "result",
+      "label": "Paper or Failure Package",
+      "domain": "temporal evaluation fragility deep discovery program"
+    },
+    {
+      "id": "result:temporal-stage18-next-frontier",
+      "kind": "result",
+      "label": "Next Frontier",
+      "domain": "temporal evaluation fragility deep discovery program"
+    },
+    {
       "id": "result:toolchain-policy",
       "kind": "result",
       "label": "Policy-Gated Toolchain Installation Protocol",
@@ -2139,6 +2247,11 @@
       "id": "domain:software-supply-chain-assurance",
       "kind": "domain",
       "label": "software-supply-chain-assurance"
+    },
+    {
+      "id": "domain:temporal evaluation fragility deep discovery program",
+      "kind": "domain",
+      "label": "temporal evaluation fragility deep discovery program"
     },
     {
       "id": "domain:node-toolchain-policy",
@@ -4543,6 +4656,96 @@
       "relation": "uses_public_tool_evidence"
     },
     {
+      "source": "result:temporal-stage01-domain-scope-and-prior-failure-analysis",
+      "target": "domain:temporal evaluation fragility deep discovery program",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-stage02-public-temporal-target-universe",
+      "target": "domain:temporal evaluation fragility deep discovery program",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-stage03-temporal-split-protocol-taxonomy",
+      "target": "domain:temporal evaluation fragility deep discovery program",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-stage04-anomaly-mining-wave1",
+      "target": "domain:temporal evaluation fragility deep discovery program",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-stage05-anomaly-mining-wave2",
+      "target": "domain:temporal evaluation fragility deep discovery program",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-stage06-rival-hypothesis-generation",
+      "target": "domain:temporal evaluation fragility deep discovery program",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-stage07-freeze-predictions",
+      "target": "domain:temporal evaluation fragility deep discovery program",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-stage08-baseline-and-negative-control-setup",
+      "target": "domain:temporal evaluation fragility deep discovery program",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-stage09-execution-wave1",
+      "target": "domain:temporal evaluation fragility deep discovery program",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-stage10-execution-wave2",
+      "target": "domain:temporal evaluation fragility deep discovery program",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-stage11-horizon-and-window-stress-tests",
+      "target": "domain:temporal evaluation fragility deep discovery program",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-stage12-shuffled-time-and-leakage-controls",
+      "target": "domain:temporal evaluation fragility deep discovery program",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-stage13-counterexample-search",
+      "target": "domain:temporal evaluation fragility deep discovery program",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-stage14-independent-replay",
+      "target": "domain:temporal evaluation fragility deep discovery program",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-stage15-adversarial-kill-week",
+      "target": "domain:temporal evaluation fragility deep discovery program",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-stage16-candidate-decision",
+      "target": "domain:temporal evaluation fragility deep discovery program",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-stage17-paper-or-failure-package",
+      "target": "domain:temporal evaluation fragility deep discovery program",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:temporal-stage18-next-frontier",
+      "target": "domain:temporal evaluation fragility deep discovery program",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:toolchain-policy",
       "target": "domain:node-toolchain-policy",
       "relation": "belongs_to_domain"
@@ -4628,5 +4831,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "5ac5298daab086560860c07d3fbb11a85f274ca60d3780418a13f75f7592854f"
+  "evidenceHash": "c66ec1c7e36af425cf35194d80e36f12eb4ee93b88112b694e9bc5c03b71745b"
 }

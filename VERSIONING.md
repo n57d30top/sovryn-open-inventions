@@ -282,6 +282,24 @@ can supersede earlier entries while preserving audit history.
 - self-built-lab-reproduction-388ccd1946ad: latest self-built-lab-reproduction-388ccd1946ad; versions self-built-lab-reproduction-388ccd1946ad
 - software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for: latest software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth; versions software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth
 - software-supply-chain-assurance-self-built-lab-study: latest software-supply-chain-assurance-self-built-lab-study-v2; versions software-supply-chain-assurance-self-built-lab-study, software-supply-chain-assurance-self-built-lab-study-v2
+- temporal-stage01-domain-scope-and-prior-failure-analysis: latest temporal-stage01-domain-scope-and-prior-failure-analysis; versions temporal-stage01-domain-scope-and-prior-failure-analysis
+- temporal-stage02-public-temporal-target-universe: latest temporal-stage02-public-temporal-target-universe; versions temporal-stage02-public-temporal-target-universe
+- temporal-stage03-temporal-split-protocol-taxonomy: latest temporal-stage03-temporal-split-protocol-taxonomy; versions temporal-stage03-temporal-split-protocol-taxonomy
+- temporal-stage04-anomaly-mining-wave1: latest temporal-stage04-anomaly-mining-wave1; versions temporal-stage04-anomaly-mining-wave1
+- temporal-stage05-anomaly-mining-wave2: latest temporal-stage05-anomaly-mining-wave2; versions temporal-stage05-anomaly-mining-wave2
+- temporal-stage06-rival-hypothesis-generation: latest temporal-stage06-rival-hypothesis-generation; versions temporal-stage06-rival-hypothesis-generation
+- temporal-stage07-freeze-predictions: latest temporal-stage07-freeze-predictions; versions temporal-stage07-freeze-predictions
+- temporal-stage08-baseline-and-negative-control-setup: latest temporal-stage08-baseline-and-negative-control-setup; versions temporal-stage08-baseline-and-negative-control-setup
+- temporal-stage09-execution-wave1: latest temporal-stage09-execution-wave1; versions temporal-stage09-execution-wave1
+- temporal-stage10-execution-wave2: latest temporal-stage10-execution-wave2; versions temporal-stage10-execution-wave2
+- temporal-stage11-horizon-and-window-stress-tests: latest temporal-stage11-horizon-and-window-stress-tests; versions temporal-stage11-horizon-and-window-stress-tests
+- temporal-stage12-shuffled-time-and-leakage-controls: latest temporal-stage12-shuffled-time-and-leakage-controls; versions temporal-stage12-shuffled-time-and-leakage-controls
+- temporal-stage13-counterexample-search: latest temporal-stage13-counterexample-search; versions temporal-stage13-counterexample-search
+- temporal-stage14-independent-replay: latest temporal-stage14-independent-replay; versions temporal-stage14-independent-replay
+- temporal-stage15-adversarial-kill-week: latest temporal-stage15-adversarial-kill-week; versions temporal-stage15-adversarial-kill-week
+- temporal-stage16-candidate-decision: latest temporal-stage16-candidate-decision; versions temporal-stage16-candidate-decision
+- temporal-stage17-paper-or-failure-package: latest temporal-stage17-paper-or-failure-package; versions temporal-stage17-paper-or-failure-package
+- temporal-stage18-next-frontier: latest temporal-stage18-next-frontier; versions temporal-stage18-next-frontier
 - toolchain-policy: latest toolchain-policy; versions toolchain-policy
 - validation-stage01-candidate-inspection: latest validation-stage01-candidate-inspection; versions validation-stage01-candidate-inspection
 - validation-stage02-freeze-ledger-and-predictions: latest validation-stage02-freeze-ledger-and-predictions; versions validation-stage02-freeze-ledger-and-predictions
