@@ -1,0 +1,11 @@
+{
+  "intent": "public_corpus_release",
+  "publicSafe": true,
+  "noRawLogs": true,
+  "noLocalAbsolutePaths": true,
+  "noSecrets": true,
+  "noUnsafeDomains": true,
+  "noOutsideConfirmationClaim": true,
+  "noBroadAccelerationClaim": true,
+  "evidenceHash": "c442742e775662c81c18f0c475f2a1c166c06885c3e94ebd93ee2d4f64d35670"
+}

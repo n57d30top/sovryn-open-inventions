@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-07T11:45:53.783Z",
+  "generatedAt": "2026-05-07T12:21:35.719Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -2337,6 +2337,78 @@
       "domain": "runtime reproduction alignment instrument"
     },
     {
+      "id": "result:route-stage01-routing-os-design",
+      "kind": "result",
+      "label": "Route Stage 01 Routing OS Design",
+      "domain": "Cross-Domain Evidence Routing OS v1"
+    },
+    {
+      "id": "result:route-stage02-product-implementation",
+      "kind": "result",
+      "label": "Route Stage 02 Product Implementation",
+      "domain": "Cross-Domain Evidence Routing OS v1"
+    },
+    {
+      "id": "result:route-stage03-target-universe",
+      "kind": "result",
+      "label": "Route Stage 03 Target Universe",
+      "domain": "Cross-Domain Evidence Routing OS v1"
+    },
+    {
+      "id": "result:route-stage04-routing-policy-calibration",
+      "kind": "result",
+      "label": "Route Stage 04 Routing Policy Calibration",
+      "domain": "Cross-Domain Evidence Routing OS v1"
+    },
+    {
+      "id": "result:route-stage05-batch-routing-wave1",
+      "kind": "result",
+      "label": "Route Stage 05 Batch Routing Wave 1",
+      "domain": "Cross-Domain Evidence Routing OS v1"
+    },
+    {
+      "id": "result:route-stage06-batch-routing-wave2",
+      "kind": "result",
+      "label": "Route Stage 06 Batch Routing Wave 2",
+      "domain": "Cross-Domain Evidence Routing OS v1"
+    },
+    {
+      "id": "result:route-stage07-deep-validation-promotions",
+      "kind": "result",
+      "label": "Route Stage 07 Deep Validation Promotions",
+      "domain": "Cross-Domain Evidence Routing OS v1"
+    },
+    {
+      "id": "result:route-stage08-time-to-evidence-benchmark",
+      "kind": "result",
+      "label": "Route Stage 08 Time To Evidence Benchmark",
+      "domain": "Cross-Domain Evidence Routing OS v1"
+    },
+    {
+      "id": "result:route-stage09-public-package-wave",
+      "kind": "result",
+      "label": "Route Stage 09 Public Package Wave",
+      "domain": "Cross-Domain Evidence Routing OS v1"
+    },
+    {
+      "id": "result:route-stage10-route-kill-week",
+      "kind": "result",
+      "label": "Route Stage 10 Route Kill Week",
+      "domain": "Cross-Domain Evidence Routing OS v1"
+    },
+    {
+      "id": "result:route-stage11-acceleration-claim-audit",
+      "kind": "result",
+      "label": "Route Stage 11 Acceleration Claim Audit",
+      "domain": "Cross-Domain Evidence Routing OS v1"
+    },
+    {
+      "id": "result:route-stage12-x10-os-readiness-decision",
+      "kind": "result",
+      "label": "Route Stage 12 x10 OS Readiness Decision",
+      "domain": "Cross-Domain Evidence Routing OS v1"
+    },
+    {
       "id": "result:scientific-dataset-reliability-self-built-lab-study",
       "kind": "result",
       "label": "Provenance-aware schema-drift checks reduce false positives and improve inconsistent-record detection compared with schema-only validation baselines.",
@@ -3186,6 +3258,11 @@
       "id": "domain:runtime reproduction alignment instrument",
       "kind": "domain",
       "label": "runtime reproduction alignment instrument"
+    },
+    {
+      "id": "domain:Cross-Domain Evidence Routing OS v1",
+      "kind": "domain",
+      "label": "Cross-Domain Evidence Routing OS v1"
     },
     {
       "id": "domain:scientific-dataset-reliability",
@@ -6185,6 +6262,66 @@
       "relation": "uses_public_tool_evidence"
     },
     {
+      "source": "result:route-stage01-routing-os-design",
+      "target": "domain:Cross-Domain Evidence Routing OS v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:route-stage02-product-implementation",
+      "target": "domain:Cross-Domain Evidence Routing OS v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:route-stage03-target-universe",
+      "target": "domain:Cross-Domain Evidence Routing OS v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:route-stage04-routing-policy-calibration",
+      "target": "domain:Cross-Domain Evidence Routing OS v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:route-stage05-batch-routing-wave1",
+      "target": "domain:Cross-Domain Evidence Routing OS v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:route-stage06-batch-routing-wave2",
+      "target": "domain:Cross-Domain Evidence Routing OS v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:route-stage07-deep-validation-promotions",
+      "target": "domain:Cross-Domain Evidence Routing OS v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:route-stage08-time-to-evidence-benchmark",
+      "target": "domain:Cross-Domain Evidence Routing OS v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:route-stage09-public-package-wave",
+      "target": "domain:Cross-Domain Evidence Routing OS v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:route-stage10-route-kill-week",
+      "target": "domain:Cross-Domain Evidence Routing OS v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:route-stage11-acceleration-claim-audit",
+      "target": "domain:Cross-Domain Evidence Routing OS v1",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:route-stage12-x10-os-readiness-decision",
+      "target": "domain:Cross-Domain Evidence Routing OS v1",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:scientific-dataset-reliability-self-built-lab-study",
       "target": "domain:scientific-dataset-reliability",
       "relation": "belongs_to_domain"
@@ -6675,5 +6812,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "823ec0c3170a8c24077f86757410a04ca82eaeabf46e979d0cc45b9e4d53be88"
+  "evidenceHash": "483437f0678c7a9bac3c9a38e0d64623ea82680004c5863b7de0aba21362743b"
 }

@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T11:45:53.783Z",
+  "updatedAt": "2026-05-07T12:21:35.719Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -2648,6 +2648,90 @@
       ]
     },
     {
+      "versionGroup": "route-stage01-routing-os-design",
+      "latestSlug": "route-stage01-routing-os-design",
+      "resultSlugs": [
+        "route-stage01-routing-os-design"
+      ]
+    },
+    {
+      "versionGroup": "route-stage02-product-implementation",
+      "latestSlug": "route-stage02-product-implementation",
+      "resultSlugs": [
+        "route-stage02-product-implementation"
+      ]
+    },
+    {
+      "versionGroup": "route-stage03-target-universe",
+      "latestSlug": "route-stage03-target-universe",
+      "resultSlugs": [
+        "route-stage03-target-universe"
+      ]
+    },
+    {
+      "versionGroup": "route-stage04-routing-policy-calibration",
+      "latestSlug": "route-stage04-routing-policy-calibration",
+      "resultSlugs": [
+        "route-stage04-routing-policy-calibration"
+      ]
+    },
+    {
+      "versionGroup": "route-stage05-batch-routing-wave1",
+      "latestSlug": "route-stage05-batch-routing-wave1",
+      "resultSlugs": [
+        "route-stage05-batch-routing-wave1"
+      ]
+    },
+    {
+      "versionGroup": "route-stage06-batch-routing-wave2",
+      "latestSlug": "route-stage06-batch-routing-wave2",
+      "resultSlugs": [
+        "route-stage06-batch-routing-wave2"
+      ]
+    },
+    {
+      "versionGroup": "route-stage07-deep-validation-promotions",
+      "latestSlug": "route-stage07-deep-validation-promotions",
+      "resultSlugs": [
+        "route-stage07-deep-validation-promotions"
+      ]
+    },
+    {
+      "versionGroup": "route-stage08-time-to-evidence-benchmark",
+      "latestSlug": "route-stage08-time-to-evidence-benchmark",
+      "resultSlugs": [
+        "route-stage08-time-to-evidence-benchmark"
+      ]
+    },
+    {
+      "versionGroup": "route-stage09-public-package-wave",
+      "latestSlug": "route-stage09-public-package-wave",
+      "resultSlugs": [
+        "route-stage09-public-package-wave"
+      ]
+    },
+    {
+      "versionGroup": "route-stage10-route-kill-week",
+      "latestSlug": "route-stage10-route-kill-week",
+      "resultSlugs": [
+        "route-stage10-route-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "route-stage11-acceleration-claim-audit",
+      "latestSlug": "route-stage11-acceleration-claim-audit",
+      "resultSlugs": [
+        "route-stage11-acceleration-claim-audit"
+      ]
+    },
+    {
+      "versionGroup": "route-stage12-x10-os-readiness-decision",
+      "latestSlug": "route-stage12-x10-os-readiness-decision",
+      "resultSlugs": [
+        "route-stage12-x10-os-readiness-decision"
+      ]
+    },
+    {
       "versionGroup": "scientific-dataset-reliability-self-built-lab-study",
       "latestSlug": "scientific-dataset-reliability-self-built-lab-study",
       "resultSlugs": [
@@ -3279,5 +3363,5 @@
       ]
     }
   ],
-  "evidenceHash": "051ccc18785d5b26d13019bcdfc6bb614abf27e03efc79061cfa082f5ee754d5"
+  "evidenceHash": "593dc02df41439dd1ce7f35f6a9dcdebdd8cc18e6ba58b4f8c970fdd9551e285"
 }

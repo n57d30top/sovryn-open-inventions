@@ -2246,6 +2246,66 @@
       "customTool": null
     },
     {
+      "slug": "route-stage01-routing-os-design",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-stage02-product-implementation",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-stage03-target-universe",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-stage04-routing-policy-calibration",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-stage05-batch-routing-wave1",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-stage06-batch-routing-wave2",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-stage07-deep-validation-promotions",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-stage08-time-to-evidence-benchmark",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-stage09-public-package-wave",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-stage10-route-kill-week",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-stage11-acceleration-claim-audit",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "route-stage12-x10-os-readiness-decision",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "scientific-dataset-reliability-self-built-lab-study",
       "externalPackages": [
         "pandas",
@@ -2711,5 +2771,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "5e07f3ed52c3c561931feb59d5d6edb0c7f91cd7d80c8794a00963908af7a502"
+  "evidenceHash": "4b9ac2f4cb850e240787d3aac0ec78828a308878ca4aa8ca99c7a93f82449f46"
 }

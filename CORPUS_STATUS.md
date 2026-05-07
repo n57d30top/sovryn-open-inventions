@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 480
+Results: 492
 
 ## Lifecycle Counts
 
-- autopublished: 449
+- autopublished: 461
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -388,6 +388,18 @@ Results: 480
 - repo-tool-stage10-replay-gauntlet: latest repo-tool-stage10-replay-gauntlet; repo-tool-stage10-replay-gauntlet
 - repo-tool-stage11-instrument-kill-week: latest repo-tool-stage11-instrument-kill-week; repo-tool-stage11-instrument-kill-week
 - repo-tool-stage12-final-classifier-and-next-frontier: latest repo-tool-stage12-final-classifier-and-next-frontier; repo-tool-stage12-final-classifier-and-next-frontier
+- route-stage01-routing-os-design: latest route-stage01-routing-os-design; route-stage01-routing-os-design
+- route-stage02-product-implementation: latest route-stage02-product-implementation; route-stage02-product-implementation
+- route-stage03-target-universe: latest route-stage03-target-universe; route-stage03-target-universe
+- route-stage04-routing-policy-calibration: latest route-stage04-routing-policy-calibration; route-stage04-routing-policy-calibration
+- route-stage05-batch-routing-wave1: latest route-stage05-batch-routing-wave1; route-stage05-batch-routing-wave1
+- route-stage06-batch-routing-wave2: latest route-stage06-batch-routing-wave2; route-stage06-batch-routing-wave2
+- route-stage07-deep-validation-promotions: latest route-stage07-deep-validation-promotions; route-stage07-deep-validation-promotions
+- route-stage08-time-to-evidence-benchmark: latest route-stage08-time-to-evidence-benchmark; route-stage08-time-to-evidence-benchmark
+- route-stage09-public-package-wave: latest route-stage09-public-package-wave; route-stage09-public-package-wave
+- route-stage10-route-kill-week: latest route-stage10-route-kill-week; route-stage10-route-kill-week
+- route-stage11-acceleration-claim-audit: latest route-stage11-acceleration-claim-audit; route-stage11-acceleration-claim-audit
+- route-stage12-x10-os-readiness-decision: latest route-stage12-x10-os-readiness-decision; route-stage12-x10-os-readiness-decision
 - scientific-dataset-reliability-self-built-lab-study: latest scientific-dataset-reliability-self-built-lab-study; scientific-dataset-reliability-self-built-lab-study
 - scientific-knowledge-engine-trial: latest scientific-knowledge-engine-trial; scientific-knowledge-engine-trial
 - search-stage01-failure-autopsy: latest search-stage01-failure-autopsy; search-stage01-failure-autopsy

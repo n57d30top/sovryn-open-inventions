@@ -424,6 +424,18 @@ and safety scope in human-readable language.
 - [Replay Gauntlet](results/repo-tool-stage10-replay-gauntlet/) — good, autopublished, repo-tool-stage10-replay-gauntlet, runtime reproduction alignment instrument
 - [Instrument Kill Week](results/repo-tool-stage11-instrument-kill-week/) — good, autopublished, repo-tool-stage11-instrument-kill-week, runtime reproduction alignment instrument
 - [Final Classifier and Next Frontier](results/repo-tool-stage12-final-classifier-and-next-frontier/) — good, autopublished, repo-tool-stage12-final-classifier-and-next-frontier, runtime reproduction alignment instrument
+- [Route Stage 01 Routing OS Design](results/route-stage01-routing-os-design/) — good, autopublished, route-stage01-routing-os-design, Cross-Domain Evidence Routing OS v1
+- [Route Stage 02 Product Implementation](results/route-stage02-product-implementation/) — good, autopublished, route-stage02-product-implementation, Cross-Domain Evidence Routing OS v1
+- [Route Stage 03 Target Universe](results/route-stage03-target-universe/) — good, autopublished, route-stage03-target-universe, Cross-Domain Evidence Routing OS v1
+- [Route Stage 04 Routing Policy Calibration](results/route-stage04-routing-policy-calibration/) — good, autopublished, route-stage04-routing-policy-calibration, Cross-Domain Evidence Routing OS v1
+- [Route Stage 05 Batch Routing Wave 1](results/route-stage05-batch-routing-wave1/) — good, autopublished, route-stage05-batch-routing-wave1, Cross-Domain Evidence Routing OS v1
+- [Route Stage 06 Batch Routing Wave 2](results/route-stage06-batch-routing-wave2/) — good, autopublished, route-stage06-batch-routing-wave2, Cross-Domain Evidence Routing OS v1
+- [Route Stage 07 Deep Validation Promotions](results/route-stage07-deep-validation-promotions/) — good, autopublished, route-stage07-deep-validation-promotions, Cross-Domain Evidence Routing OS v1
+- [Route Stage 08 Time To Evidence Benchmark](results/route-stage08-time-to-evidence-benchmark/) — good, autopublished, route-stage08-time-to-evidence-benchmark, Cross-Domain Evidence Routing OS v1
+- [Route Stage 09 Public Package Wave](results/route-stage09-public-package-wave/) — good, autopublished, route-stage09-public-package-wave, Cross-Domain Evidence Routing OS v1
+- [Route Stage 10 Route Kill Week](results/route-stage10-route-kill-week/) — good, autopublished, route-stage10-route-kill-week, Cross-Domain Evidence Routing OS v1
+- [Route Stage 11 Acceleration Claim Audit](results/route-stage11-acceleration-claim-audit/) — good, autopublished, route-stage11-acceleration-claim-audit, Cross-Domain Evidence Routing OS v1
+- [Route Stage 12 x10 OS Readiness Decision](results/route-stage12-x10-os-readiness-decision/) — good, autopublished, route-stage12-x10-os-readiness-decision, Cross-Domain Evidence Routing OS v1
 - [Provenance-aware schema-drift checks reduce false positives and improve inconsistent-record detection compared with schema-only validation baselines.](results/scientific-dataset-reliability-self-built-lab-study/) — good, showcase_science, scientific-dataset-reliability-self-built-lab-study, scientific-dataset-reliability
 - [Scientific Knowledge Engine Trial](results/scientific-knowledge-engine-trial/) — good, autopublished, scientific-knowledge-engine-trial, scientific-knowledge-engine
 - [Candidate Failure Autopsy](results/search-stage01-failure-autopsy/) — good, autopublished, search-stage01-failure-autopsy, candidate rejection and new discovery search
