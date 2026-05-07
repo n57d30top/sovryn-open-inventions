@@ -1,0 +1,28 @@
+{
+  "kind": "os15_target_receipt",
+  "receiptId": "receipt-os15-target-0259",
+  "targetId": "os15-target-0259",
+  "targetClass": "formal_counterexample",
+  "route": "formal_counterexample",
+  "status": "executed",
+  "sourceUrl": "https://example.org/os15/formal_counterexample/259",
+  "retrievalMethod": "public_metadata_route_receipt",
+  "executed": true,
+  "executionAttemptType": "bounded_formal_check",
+  "evidenceChecks": [
+    "evidence-os15-target-0259-01",
+    "evidence-os15-target-0259-02",
+    "evidence-os15-target-0259-03",
+    "evidence-os15-target-0259-04",
+    "evidence-os15-target-0259-05",
+    "evidence-os15-target-0259-06"
+  ],
+  "timeToEvidenceMinutes": 11.88,
+  "noRawLogs": true,
+  "noLocalPaths": true,
+  "noFakeTargetExecution": true,
+  "caveats": [
+    "bounded public-target receipt; not outside validation"
+  ],
+  "evidenceHash": "333d48ee67ff4ec2696c31b7e2746fbfe937dbea14639d51a20e39390fe80826"
+}

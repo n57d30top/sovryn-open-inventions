@@ -1,0 +1,15 @@
+{
+  "kind": "verification",
+  "buildPassed": true,
+  "testsPassed": true,
+  "formatCheckPassed": true,
+  "diffCheckPassed": true,
+  "publishAuditPassed": true,
+  "siteAuditPassed": true,
+  "launchCheckPassed": true,
+  "noBroadAccelerationClaim": true,
+  "noOutsideUseClaim": true,
+  "noRawLogs": true,
+  "noLocalPaths": true,
+  "evidenceHash": "09516178cb5fe6677cec1bedc2821d1b6b29debccbc1b560a613e4d7706b649a"
+}

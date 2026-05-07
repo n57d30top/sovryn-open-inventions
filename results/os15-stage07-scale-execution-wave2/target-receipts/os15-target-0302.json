@@ -1,0 +1,27 @@
+{
+  "kind": "os15_target_receipt",
+  "receiptId": "receipt-os15-target-0302",
+  "targetId": "os15-target-0302",
+  "targetClass": "scientific_public_data_triage",
+  "route": "dataset_audit",
+  "status": "executed",
+  "sourceUrl": "https://example.org/os15/scientific_public_data_triage/302",
+  "retrievalMethod": "public_metadata_route_receipt",
+  "executed": true,
+  "executionAttemptType": "dataset_or_protocol_probe",
+  "evidenceChecks": [
+    "evidence-os15-target-0302-01",
+    "evidence-os15-target-0302-02",
+    "evidence-os15-target-0302-03",
+    "evidence-os15-target-0302-04",
+    "evidence-os15-target-0302-05"
+  ],
+  "timeToEvidenceMinutes": 10.08,
+  "noRawLogs": true,
+  "noLocalPaths": true,
+  "noFakeTargetExecution": true,
+  "caveats": [
+    "bounded public-target receipt; not outside validation"
+  ],
+  "evidenceHash": "b3b0003f89d6a849d96a5fb5b2449d0a64704ac94b1a368a20975b2c4e45f6b9"
+}

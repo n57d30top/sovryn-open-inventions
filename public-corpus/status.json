@@ -1,8 +1,8 @@
 {
   "kind": "public_corpus_status",
-  "generatedAt": "2026-05-07T14:13:08.132Z",
+  "generatedAt": "2026-05-07T14:57:39.666Z",
   "statusCounts": {
-    "autopublished": 505,
+    "autopublished": 529,
     "benchmark_challenge_negative_result": 4,
     "dataset_quality_audit_supported": 7,
     "external_extension_supported": 1,
@@ -21,7 +21,7 @@
     "v1_candidate_with_limits": 1
   },
   "lifecycleCounts": {
-    "autopublished": 509,
+    "autopublished": 533,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -69,6 +69,7 @@
     "node-toolchain-policy": 1,
     "NR-CAND-004 deep validation for readiness": 12,
     "Open Verifiable Science OS v1 Candidate packaging": 10,
+    "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet": 24,
     "open-invention-corpus": 3,
     "open-research": 6,
     "original principle discovery grand challenge": 10,
@@ -106,5 +107,5 @@
     "time-series-tabular-benchmark": 1,
     "tool-backed-dataset-quality-audit": 1
   },
-  "evidenceHash": "2730fb34737578b18cf91ea82e00801ad09fe9dd03c755a29ea5113b49efbc13"
+  "evidenceHash": "226382c3e6ba5305c4e239f612a837584753c8fa8f21b7d9401a2ed5fbd1d3bd"
 }

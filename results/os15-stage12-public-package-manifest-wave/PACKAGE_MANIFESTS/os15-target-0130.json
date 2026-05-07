@@ -1,0 +1,23 @@
+{
+  "kind": "os15_public_package_manifest",
+  "manifestId": "manifest-os15-target-0130",
+  "packageId": "os15-package-os15-target-0130",
+  "targetId": "os15-target-0130",
+  "targetClass": "benchmark_protocol_audit",
+  "route": "benchmark_protocol_audit",
+  "receiptId": "receipt-os15-target-0130",
+  "resultSummary": "os15-target-0130 has a bounded benchmark_protocol_audit evidence package with receipt receipt-os15-target-0130.",
+  "limitations": [
+    "Bounded internal workload evidence only.",
+    "No broad or outside-use acceleration claim.",
+    "Target-level receipt records the route decision and public-safe evidence summary."
+  ],
+  "reproduce": [
+    "Run sovryn os package-verify --json and inspect receipt-os15-target-0130.",
+    "Use the package manifest, route result, and receipt hash together."
+  ],
+  "noRawLogs": true,
+  "noLocalPaths": true,
+  "manifestVersion": "os-v1.5-candidate",
+  "evidenceHash": "d3836126849679f33e225060b65fa2709fd441f0eca7f3dd076ca0ab0d0f487a"
+}

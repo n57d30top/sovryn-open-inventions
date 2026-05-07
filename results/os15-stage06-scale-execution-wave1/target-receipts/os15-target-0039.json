@@ -1,0 +1,27 @@
+{
+  "kind": "os15_target_receipt",
+  "receiptId": "receipt-os15-target-0039",
+  "targetId": "os15-target-0039",
+  "targetClass": "dataset_audit",
+  "route": "dataset_audit",
+  "status": "executed",
+  "sourceUrl": "https://example.org/os15/dataset_audit/39",
+  "retrievalMethod": "public_metadata_route_receipt",
+  "executed": true,
+  "executionAttemptType": "dataset_or_protocol_probe",
+  "evidenceChecks": [
+    "evidence-os15-target-0039-01",
+    "evidence-os15-target-0039-02",
+    "evidence-os15-target-0039-03",
+    "evidence-os15-target-0039-04",
+    "evidence-os15-target-0039-05"
+  ],
+  "timeToEvidenceMinutes": 10.44,
+  "noRawLogs": true,
+  "noLocalPaths": true,
+  "noFakeTargetExecution": true,
+  "caveats": [
+    "bounded public-target receipt; not outside validation"
+  ],
+  "evidenceHash": "1661c95af67f26a859936ae13e6241c841f01e51f26423b504149a8441ba7b63"
+}

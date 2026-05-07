@@ -1,0 +1,26 @@
+{
+  "kind": "os15_target_receipt",
+  "receiptId": "receipt-os15-target-0306",
+  "targetId": "os15-target-0306",
+  "targetClass": "mixed_control",
+  "route": "not_testable",
+  "status": "not_testable",
+  "sourceUrl": "https://example.org/os15/mixed_control/306",
+  "retrievalMethod": "safe_rejection_receipt",
+  "executed": false,
+  "executionAttemptType": "none",
+  "evidenceChecks": [
+    "evidence-os15-target-0306-01",
+    "evidence-os15-target-0306-02",
+    "evidence-os15-target-0306-03"
+  ],
+  "timeToEvidenceMinutes": 3.12,
+  "noRawLogs": true,
+  "noLocalPaths": true,
+  "noFakeTargetExecution": true,
+  "caveats": [
+    "bounded public-target receipt; not outside validation",
+    "control target is used for rejection or not-testable routing"
+  ],
+  "evidenceHash": "3fca624947cd9d901f7ca54153ce67ee5043f8077a41d38bd5449682f21de8a2"
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "os15_public_package_manifest",
+  "manifestId": "manifest-os15-target-0433",
+  "packageId": "os15-package-os15-target-0433",
+  "targetId": "os15-target-0433",
+  "targetClass": "claim_review",
+  "route": "claim_safety_review",
+  "receiptId": "receipt-os15-target-0433",
+  "resultSummary": "os15-target-0433 has a bounded claim_safety_review evidence package with receipt receipt-os15-target-0433.",
+  "limitations": [
+    "Bounded internal workload evidence only.",
+    "No broad or outside-use acceleration claim.",
+    "Target-level receipt records the route decision and public-safe evidence summary."
+  ],
+  "reproduce": [
+    "Run sovryn os package-verify --json and inspect receipt-os15-target-0433.",
+    "Use the package manifest, route result, and receipt hash together."
+  ],
+  "noRawLogs": true,
+  "noLocalPaths": true,
+  "manifestVersion": "os-v1.5-candidate",
+  "evidenceHash": "094e76670c72a0e345389f110ac80a8f08198ceec1e75e074d4b1d04552526fd"
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "publication_intent",
+  "slug": "os15-stage10-weak-class-formal-hardening",
+  "intent": "publish bounded public evidence package",
+  "noBroadAccelerationClaim": true,
+  "noOutsideUseClaim": true,
+  "noDiscoveryValidationClaim": true,
+  "safetyScope": "safe public computational and technical targets only",
+  "evidenceHash": "9f1304490b5a78f686444dfd17297bf6ba6fb035add83f3a8d4862edc4a2ae38"
+}

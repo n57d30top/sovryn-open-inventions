@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-07T14:13:08.132Z",
+  "generatedAt": "2026-05-07T14:57:39.666Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -6285,6 +6285,438 @@
       "showcaseRank": null
     },
     {
+      "slug": "os15-stage01-hardening-plan",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage01-hardening-plan",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage02-product-implementation",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage02-product-implementation",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage03-public-search-index-design",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage03-public-search-index-design",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage04-target-universe-1000",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage04-target-universe-1000",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage05-frozen-route-predictions",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage05-frozen-route-predictions",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage06-scale-execution-wave1",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage06-scale-execution-wave1",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage07-scale-execution-wave2",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage07-scale-execution-wave2",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage08-scale-execution-wave3",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage08-scale-execution-wave3",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage09-weak-class-repo-hardening",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage09-weak-class-repo-hardening",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage10-weak-class-formal-hardening",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage10-weak-class-formal-hardening",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage11-weak-class-temporal-hardening",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage11-weak-class-temporal-hardening",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage12-public-package-manifest-wave",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage12-public-package-manifest-wave",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage13-package-replay-sampling",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage13-package-replay-sampling",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage14-class-level-acceleration-audit",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage14-class-level-acceleration-audit",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage15-public-search-index-build",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage15-public-search-index-build",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage16-corpus-faceted-indexes",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage16-corpus-faceted-indexes",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage17-public-usability-guides",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage17-public-usability-guides",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage18-domain-pack-hardening",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage18-domain-pack-hardening",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage19-evidence-package-quality-audit",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage19-evidence-package-quality-audit",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage20-route-policy-v4-kill-week",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage20-route-policy-v4-kill-week",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage21-acceleration-claim-kill-week",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage21-acceleration-claim-kill-week",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage22-os-v1-5-readiness-decision",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage22-os-v1-5-readiness-decision",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage23-release-candidate-package",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage23-release-candidate-package",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os15-stage24-next-frontier",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+        "lifecycle": "autopublished",
+        "version": "os15-stage24-next-frontier",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
       "slug": "patch-risk-auditor",
       "badges": {
         "quality": "good",
@@ -9723,5 +10155,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "eb2192fe86311c554a66471d0c653c298e0399a8e453cedb0f5151a080f71122"
+  "evidenceHash": "1cfb6eeaea5d6c08ae02b19a65c221bc8af1b52acc0a429ea0087160a367d64f"
 }

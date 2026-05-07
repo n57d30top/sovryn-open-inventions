@@ -1,0 +1,26 @@
+{
+  "kind": "os15_target_receipt",
+  "receiptId": "receipt-os15-target-0353",
+  "targetId": "os15-target-0353",
+  "targetClass": "tool_usefulness",
+  "route": "static_scan_only",
+  "status": "executed",
+  "sourceUrl": "https://example.org/os15/tool_usefulness/353",
+  "retrievalMethod": "public_metadata_route_receipt",
+  "executed": true,
+  "executionAttemptType": "claim_or_tool_review",
+  "evidenceChecks": [
+    "evidence-os15-target-0353-01",
+    "evidence-os15-target-0353-02",
+    "evidence-os15-target-0353-03",
+    "evidence-os15-target-0353-04"
+  ],
+  "timeToEvidenceMinutes": 4.34,
+  "noRawLogs": true,
+  "noLocalPaths": true,
+  "noFakeTargetExecution": true,
+  "caveats": [
+    "bounded public-target receipt; not outside validation"
+  ],
+  "evidenceHash": "12385b0155e2862500564beb0b0cc0dd4e726608a1833de4594e64ec1fe542a4"
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "os15_target_receipt",
+  "receiptId": "receipt-os15-target-0269",
+  "targetId": "os15-target-0269",
+  "targetClass": "temporal_evaluation",
+  "route": "temporal_evaluation",
+  "status": "executed",
+  "sourceUrl": "https://example.org/os15/temporal_evaluation/269",
+  "retrievalMethod": "public_metadata_route_receipt",
+  "executed": true,
+  "executionAttemptType": "temporal_evaluation_probe",
+  "evidenceChecks": [
+    "evidence-os15-target-0269-01",
+    "evidence-os15-target-0269-02",
+    "evidence-os15-target-0269-03",
+    "evidence-os15-target-0269-04",
+    "evidence-os15-target-0269-05",
+    "evidence-os15-target-0269-06"
+  ],
+  "timeToEvidenceMinutes": 17.36,
+  "noRawLogs": true,
+  "noLocalPaths": true,
+  "noFakeTargetExecution": true,
+  "caveats": [
+    "bounded public-target receipt; not outside validation",
+    "temporal class remains replay-sensitive"
+  ],
+  "evidenceHash": "62b4a94b32e7eea3eac857cb4d2d769023f708742694867c339efa13c5a35024"
+}

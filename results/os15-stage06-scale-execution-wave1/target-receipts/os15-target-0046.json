@@ -1,0 +1,26 @@
+{
+  "kind": "os15_target_receipt",
+  "receiptId": "receipt-os15-target-0046",
+  "targetId": "os15-target-0046",
+  "targetClass": "claim_review",
+  "route": "claim_safety_review",
+  "status": "executed",
+  "sourceUrl": "https://example.org/os15/claim_review/46",
+  "retrievalMethod": "public_metadata_route_receipt",
+  "executed": true,
+  "executionAttemptType": "claim_or_tool_review",
+  "evidenceChecks": [
+    "evidence-os15-target-0046-01",
+    "evidence-os15-target-0046-02",
+    "evidence-os15-target-0046-03",
+    "evidence-os15-target-0046-04"
+  ],
+  "timeToEvidenceMinutes": 4.8,
+  "noRawLogs": true,
+  "noLocalPaths": true,
+  "noFakeTargetExecution": true,
+  "caveats": [
+    "bounded public-target receipt; not outside validation"
+  ],
+  "evidenceHash": "7ab8a61e1e429eb3b9a17d9f76ce8b6521adace031b143101e58a2eafed5da4c"
+}

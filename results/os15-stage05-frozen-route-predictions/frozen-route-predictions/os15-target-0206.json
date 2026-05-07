@@ -1,0 +1,14 @@
+{
+  "predictionId": "os15-pred-os15-target-0206",
+  "targetId": "os15-target-0206",
+  "targetClass": "temporal_evaluation",
+  "predictedRoute": "temporal_evaluation",
+  "fallbackRoute": "benchmark_protocol_audit",
+  "routeConfidence": 0.846,
+  "expectedEvidenceCostMinutes": 21,
+  "expectedPackageQuality": "medium",
+  "expectedAccelerationClass": "task_level_10x",
+  "expectedFailureMode": "temporal_replay_caveat",
+  "notTestableOrUnsafeExpected": false,
+  "evidenceHash": "cf7805cbafe9c7f84b612f61bf6d9eab7e918bc557633b928ce24fce0207872d"
+}

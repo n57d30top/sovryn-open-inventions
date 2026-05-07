@@ -1,0 +1,10 @@
+{
+  "kind": "publication_intent",
+  "slug": "os15-stage01-hardening-plan",
+  "intent": "publish bounded public evidence package",
+  "noBroadAccelerationClaim": true,
+  "noOutsideUseClaim": true,
+  "noDiscoveryValidationClaim": true,
+  "safetyScope": "safe public computational and technical targets only",
+  "evidenceHash": "0e23f3bf2c9aeee466ef3145ed640efca9a38b74913a1420e17674628abc52b5"
+}

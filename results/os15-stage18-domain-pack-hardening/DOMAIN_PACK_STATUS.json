@@ -1,0 +1,50 @@
+{
+  "claim_review": {
+    "readiness": "class_level_candidate",
+    "routeIssueRate": 0,
+    "packageCount": 50,
+    "limitation": "bounded class-level candidate only; no broad acceleration claim"
+  },
+  "tool_usefulness": {
+    "readiness": "class_level_candidate",
+    "routeIssueRate": 0.08,
+    "packageCount": 30,
+    "limitation": "bounded class-level candidate only; no broad acceleration claim"
+  },
+  "dataset_audit": {
+    "readiness": "class_level_candidate",
+    "routeIssueRate": 0.06,
+    "packageCount": 20,
+    "limitation": "bounded class-level candidate only; no broad acceleration claim"
+  },
+  "benchmark_protocol_audit": {
+    "readiness": "class_level_candidate",
+    "routeIssueRate": 0.044,
+    "packageCount": 20,
+    "limitation": "bounded class-level candidate only; no broad acceleration claim"
+  },
+  "scientific_public_data_triage": {
+    "readiness": "class_level_candidate",
+    "routeIssueRate": 0.067,
+    "packageCount": 20,
+    "limitation": "bounded class-level candidate only; no broad acceleration claim"
+  },
+  "repo_package_reproduction": {
+    "readiness": "class_level_candidate",
+    "routeIssueRate": 0.044,
+    "packageCount": 20,
+    "limitation": "bounded class-level candidate only; no broad acceleration claim"
+  },
+  "formal_counterexample": {
+    "readiness": "class_level_candidate",
+    "routeIssueRate": 0.05,
+    "packageCount": 20,
+    "limitation": "bounded class-level candidate only; no broad acceleration claim"
+  },
+  "temporal_evaluation": {
+    "readiness": "partial",
+    "routeIssueRate": 0.1,
+    "packageCount": 20,
+    "limitation": "temporal evaluation remains sensitive to horizon, window, and replay caveats"
+  }
+}

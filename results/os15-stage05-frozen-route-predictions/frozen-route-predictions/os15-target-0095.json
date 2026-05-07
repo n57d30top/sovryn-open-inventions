@@ -1,0 +1,14 @@
+{
+  "predictionId": "os15-pred-os15-target-0095",
+  "targetId": "os15-target-0095",
+  "targetClass": "scientific_public_data_triage",
+  "predictedRoute": "dataset_audit",
+  "fallbackRoute": null,
+  "routeConfidence": 0.845,
+  "expectedEvidenceCostMinutes": 12,
+  "expectedPackageQuality": "high",
+  "expectedAccelerationClass": "class_level_10x_candidate",
+  "expectedFailureMode": "none_expected",
+  "notTestableOrUnsafeExpected": false,
+  "evidenceHash": "1792727ffc2fd1b8325a0ca6c4a0e41a9ffcbb1189e79363a6a704989b5c2fe8"
+}

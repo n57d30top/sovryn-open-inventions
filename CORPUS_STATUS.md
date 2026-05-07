@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 540
+Results: 564
 
 ## Lifecycle Counts
 
-- autopublished: 509
+- autopublished: 533
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -350,6 +350,30 @@ Results: 540
 - os-v1-stage08-readiness-audit: latest os-v1-stage08-readiness-audit; os-v1-stage08-readiness-audit
 - os-v1-stage09-release-candidate-package: latest os-v1-stage09-release-candidate-package; os-v1-stage09-release-candidate-package
 - os-v1-stage10-next-frontier: latest os-v1-stage10-next-frontier; os-v1-stage10-next-frontier
+- os15-stage01-hardening-plan: latest os15-stage01-hardening-plan; os15-stage01-hardening-plan
+- os15-stage02-product-implementation: latest os15-stage02-product-implementation; os15-stage02-product-implementation
+- os15-stage03-public-search-index-design: latest os15-stage03-public-search-index-design; os15-stage03-public-search-index-design
+- os15-stage04-target-universe-1000: latest os15-stage04-target-universe-1000; os15-stage04-target-universe-1000
+- os15-stage05-frozen-route-predictions: latest os15-stage05-frozen-route-predictions; os15-stage05-frozen-route-predictions
+- os15-stage06-scale-execution-wave1: latest os15-stage06-scale-execution-wave1; os15-stage06-scale-execution-wave1
+- os15-stage07-scale-execution-wave2: latest os15-stage07-scale-execution-wave2; os15-stage07-scale-execution-wave2
+- os15-stage08-scale-execution-wave3: latest os15-stage08-scale-execution-wave3; os15-stage08-scale-execution-wave3
+- os15-stage09-weak-class-repo-hardening: latest os15-stage09-weak-class-repo-hardening; os15-stage09-weak-class-repo-hardening
+- os15-stage10-weak-class-formal-hardening: latest os15-stage10-weak-class-formal-hardening; os15-stage10-weak-class-formal-hardening
+- os15-stage11-weak-class-temporal-hardening: latest os15-stage11-weak-class-temporal-hardening; os15-stage11-weak-class-temporal-hardening
+- os15-stage12-public-package-manifest-wave: latest os15-stage12-public-package-manifest-wave; os15-stage12-public-package-manifest-wave
+- os15-stage13-package-replay-sampling: latest os15-stage13-package-replay-sampling; os15-stage13-package-replay-sampling
+- os15-stage14-class-level-acceleration-audit: latest os15-stage14-class-level-acceleration-audit; os15-stage14-class-level-acceleration-audit
+- os15-stage15-public-search-index-build: latest os15-stage15-public-search-index-build; os15-stage15-public-search-index-build
+- os15-stage16-corpus-faceted-indexes: latest os15-stage16-corpus-faceted-indexes; os15-stage16-corpus-faceted-indexes
+- os15-stage17-public-usability-guides: latest os15-stage17-public-usability-guides; os15-stage17-public-usability-guides
+- os15-stage18-domain-pack-hardening: latest os15-stage18-domain-pack-hardening; os15-stage18-domain-pack-hardening
+- os15-stage19-evidence-package-quality-audit: latest os15-stage19-evidence-package-quality-audit; os15-stage19-evidence-package-quality-audit
+- os15-stage20-route-policy-v4-kill-week: latest os15-stage20-route-policy-v4-kill-week; os15-stage20-route-policy-v4-kill-week
+- os15-stage21-acceleration-claim-kill-week: latest os15-stage21-acceleration-claim-kill-week; os15-stage21-acceleration-claim-kill-week
+- os15-stage22-os-v1-5-readiness-decision: latest os15-stage22-os-v1-5-readiness-decision; os15-stage22-os-v1-5-readiness-decision
+- os15-stage23-release-candidate-package: latest os15-stage23-release-candidate-package; os15-stage23-release-candidate-package
+- os15-stage24-next-frontier: latest os15-stage24-next-frontier; os15-stage24-next-frontier
 - patch-risk-auditor: latest patch-risk-auditor-v3; patch-risk-auditor, patch-risk-auditor-v2, patch-risk-auditor-v3
 - proof-stage01-proof-route-design: latest proof-stage01-proof-route-design; proof-stage01-proof-route-design
 - proof-stage02-product-implementation: latest proof-stage02-product-implementation; proof-stage02-product-implementation

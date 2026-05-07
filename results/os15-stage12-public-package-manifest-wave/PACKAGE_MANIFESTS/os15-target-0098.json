@@ -1,0 +1,23 @@
+{
+  "kind": "os15_public_package_manifest",
+  "manifestId": "manifest-os15-target-0098",
+  "packageId": "os15-package-os15-target-0098",
+  "targetId": "os15-target-0098",
+  "targetClass": "temporal_evaluation",
+  "route": "temporal_evaluation",
+  "receiptId": "receipt-os15-target-0098",
+  "resultSummary": "os15-target-0098 has a bounded temporal_evaluation evidence package with receipt receipt-os15-target-0098.",
+  "limitations": [
+    "Bounded internal workload evidence only.",
+    "No broad or outside-use acceleration claim.",
+    "Target-level receipt records the route decision and public-safe evidence summary."
+  ],
+  "reproduce": [
+    "Run sovryn os package-verify --json and inspect receipt-os15-target-0098.",
+    "Use the package manifest, route result, and receipt hash together."
+  ],
+  "noRawLogs": true,
+  "noLocalPaths": true,
+  "manifestVersion": "os-v1.5-candidate",
+  "evidenceHash": "0ad75ff62972d3070f289834a00240ff047a672e38a669227c39018b39984a40"
+}

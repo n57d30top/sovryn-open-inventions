@@ -1,0 +1,10 @@
+{
+  "kind": "publication_intent",
+  "slug": "os15-stage12-public-package-manifest-wave",
+  "intent": "publish bounded public evidence package",
+  "noBroadAccelerationClaim": true,
+  "noOutsideUseClaim": true,
+  "noDiscoveryValidationClaim": true,
+  "safetyScope": "safe public computational and technical targets only",
+  "evidenceHash": "1967ca4d63b6813e960f5ddb0d65ee05edde4b8e06e0037848a7b8d1261bd3d6"
+}

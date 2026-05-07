@@ -1,0 +1,10 @@
+{
+  "kind": "publication_intent",
+  "slug": "os15-stage11-weak-class-temporal-hardening",
+  "intent": "publish bounded public evidence package",
+  "noBroadAccelerationClaim": true,
+  "noOutsideUseClaim": true,
+  "noDiscoveryValidationClaim": true,
+  "safetyScope": "safe public computational and technical targets only",
+  "evidenceHash": "26d59bf3e78b32a1a340ebbc7c5339481db512da31d15a3b14978445edc2efe0"
+}

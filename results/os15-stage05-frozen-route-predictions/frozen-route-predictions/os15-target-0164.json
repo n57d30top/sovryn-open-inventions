@@ -1,0 +1,14 @@
+{
+  "predictionId": "os15-pred-os15-target-0164",
+  "targetId": "os15-target-0164",
+  "targetClass": "tool_usefulness",
+  "predictedRoute": "static_scan_only",
+  "fallbackRoute": null,
+  "routeConfidence": 0.874,
+  "expectedEvidenceCostMinutes": 9,
+  "expectedPackageQuality": "high",
+  "expectedAccelerationClass": "class_level_10x_candidate",
+  "expectedFailureMode": "none_expected",
+  "notTestableOrUnsafeExpected": false,
+  "evidenceHash": "384784019fd237eb43c5b3995a0cfe937c1adfe58fd49f33357321cca7a8c730"
+}

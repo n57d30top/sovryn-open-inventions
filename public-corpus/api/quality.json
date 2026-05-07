@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 529,
+    "good": 553,
     "reviewable": 6
   },
   "results": [
@@ -1752,6 +1752,126 @@
       "releaseReadinessScore": 89
     },
     {
+      "slug": "os15-stage01-hardening-plan",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "os15-stage02-product-implementation",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "os15-stage03-public-search-index-design",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "os15-stage04-target-universe-1000",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "os15-stage05-frozen-route-predictions",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "os15-stage06-scale-execution-wave1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "os15-stage07-scale-execution-wave2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "os15-stage08-scale-execution-wave3",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "os15-stage09-weak-class-repo-hardening",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "os15-stage10-weak-class-formal-hardening",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "os15-stage11-weak-class-temporal-hardening",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "os15-stage12-public-package-manifest-wave",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "os15-stage13-package-replay-sampling",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "os15-stage14-class-level-acceleration-audit",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "os15-stage15-public-search-index-build",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "os15-stage16-corpus-faceted-indexes",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "os15-stage17-public-usability-guides",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "os15-stage18-domain-pack-hardening",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "os15-stage19-evidence-package-quality-audit",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "os15-stage20-route-policy-v4-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "os15-stage21-acceleration-claim-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 90
+    },
+    {
+      "slug": "os15-stage22-os-v1-5-readiness-decision",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 94
+    },
+    {
+      "slug": "os15-stage23-release-candidate-package",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 94
+    },
+    {
+      "slug": "os15-stage24-next-frontier",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 94
+    },
+    {
       "slug": "patch-risk-auditor",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
@@ -2707,5 +2827,5 @@
       "releaseReadinessScore": 86
     }
   ],
-  "evidenceHash": "e6c73fd749a987716dc3091f6ce1f223245a194ac5f8e7e6cc84f4eb3a941c85"
+  "evidenceHash": "933f151c6353d51dde6b7cd7127d5fb4ded2e9d3846c75cdb80404eb44470e98"
 }

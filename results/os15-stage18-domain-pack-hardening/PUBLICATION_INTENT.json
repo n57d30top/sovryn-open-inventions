@@ -1,0 +1,10 @@
+{
+  "kind": "publication_intent",
+  "slug": "os15-stage18-domain-pack-hardening",
+  "intent": "publish bounded public evidence package",
+  "noBroadAccelerationClaim": true,
+  "noOutsideUseClaim": true,
+  "noDiscoveryValidationClaim": true,
+  "safetyScope": "safe public computational and technical targets only",
+  "evidenceHash": "4550b1ca987ced2e6cb2b51595559e7adf2bbf0b69ad134e88411392924dd1b8"
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "os15_public_package_manifest",
+  "manifestId": "manifest-os15-target-0051",
+  "packageId": "os15-package-os15-target-0051",
+  "targetId": "os15-target-0051",
+  "targetClass": "repo_package_reproduction",
+  "route": "runtime_reproduction",
+  "receiptId": "receipt-os15-target-0051",
+  "resultSummary": "os15-target-0051 has a bounded runtime_reproduction evidence package with receipt receipt-os15-target-0051.",
+  "limitations": [
+    "Bounded internal workload evidence only.",
+    "No broad or outside-use acceleration claim.",
+    "Target-level receipt records the route decision and public-safe evidence summary."
+  ],
+  "reproduce": [
+    "Run sovryn os package-verify --json and inspect receipt-os15-target-0051.",
+    "Use the package manifest, route result, and receipt hash together."
+  ],
+  "noRawLogs": true,
+  "noLocalPaths": true,
+  "manifestVersion": "os-v1.5-candidate",
+  "evidenceHash": "bb811f4307b98a01cd886360f14445806949627bff24cf015fb8ae2e2b8cc1bf"
+}

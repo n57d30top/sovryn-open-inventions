@@ -1,0 +1,23 @@
+{
+  "kind": "os15_public_package_manifest",
+  "manifestId": "manifest-os15-target-0101",
+  "packageId": "os15-package-os15-target-0101",
+  "targetId": "os15-target-0101",
+  "targetClass": "tool_usefulness",
+  "route": "static_scan_only",
+  "receiptId": "receipt-os15-target-0101",
+  "resultSummary": "os15-target-0101 has a bounded static_scan_only evidence package with receipt receipt-os15-target-0101.",
+  "limitations": [
+    "Bounded internal workload evidence only.",
+    "No broad or outside-use acceleration claim.",
+    "Target-level receipt records the route decision and public-safe evidence summary."
+  ],
+  "reproduce": [
+    "Run sovryn os package-verify --json and inspect receipt-os15-target-0101.",
+    "Use the package manifest, route result, and receipt hash together."
+  ],
+  "noRawLogs": true,
+  "noLocalPaths": true,
+  "manifestVersion": "os-v1.5-candidate",
+  "evidenceHash": "fc3d77a28c1b87791c5d12069a23f741e74beaf92aa5fa6743801faf270394db"
+}

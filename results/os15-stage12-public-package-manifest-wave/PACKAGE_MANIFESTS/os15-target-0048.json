@@ -1,0 +1,23 @@
+{
+  "kind": "os15_public_package_manifest",
+  "manifestId": "manifest-os15-target-0048",
+  "packageId": "os15-package-os15-target-0048",
+  "targetId": "os15-target-0048",
+  "targetClass": "dataset_audit",
+  "route": "dataset_audit",
+  "receiptId": "receipt-os15-target-0048",
+  "resultSummary": "os15-target-0048 has a bounded dataset_audit evidence package with receipt receipt-os15-target-0048.",
+  "limitations": [
+    "Bounded internal workload evidence only.",
+    "No broad or outside-use acceleration claim.",
+    "Target-level receipt records the route decision and public-safe evidence summary."
+  ],
+  "reproduce": [
+    "Run sovryn os package-verify --json and inspect receipt-os15-target-0048.",
+    "Use the package manifest, route result, and receipt hash together."
+  ],
+  "noRawLogs": true,
+  "noLocalPaths": true,
+  "manifestVersion": "os-v1.5-candidate",
+  "evidenceHash": "3707fb800d14b0788882dcf03b5915ad8cd67df49a9daae67a3d4267c9dadcb5"
+}

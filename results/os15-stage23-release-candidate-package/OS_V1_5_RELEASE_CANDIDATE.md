@@ -1,0 +1,17 @@
+# OS v1.5 Release Candidate
+
+This release package binds OS definition, domain pack catalog, search indexes, class evidence report, acceleration audit, public package index, limitations, reproduce instructions, and next frontier into one public candidate package.
+
+- Product commit: 3b26cfe3947f2f2d28d64178451cd416b06ee770
+- Corpus count: 540 -> 564
+- Product tests: 6832 -> 7297 (465 added)
+- Targets considered: 1000
+- Targets selected/routed/rejected with receipts: 400
+- Evidence checks: 2004
+- Install/provision/execution attempts: 160
+- Quick reject/not-testable/safety-control outcomes: 45
+- Public packages with manifests: 200
+- Route errors/caveats: 19 (0.048)
+- Package quality issues: 8 (0.04)
+- Replay sample: 50 sampled, 30 verified, 2 failures, 1 mismatch
+- Final status: open_verifiable_science_os_v1_5_candidate

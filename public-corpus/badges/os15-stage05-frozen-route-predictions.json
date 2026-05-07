@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "os15-stage05-frozen-route-predictions",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "specific_public_evidence",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "route_policy_v4_and_acceleration_claims_adversarially_reviewed",
+    "lifecycle": "autopublished",
+    "version": "os15-stage05-frozen-route-predictions",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "0522d7a9daa3f153ef35ec89a5a406ab0beb8cd5f73965a04b4f38ad80e3eb2f"
+}

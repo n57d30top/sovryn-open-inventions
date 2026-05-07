@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-07T14:13:08.132Z",
+  "generatedAt": "2026-05-07T14:57:39.666Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -2097,6 +2097,150 @@
       "domain": "Open Verifiable Science OS v1 Candidate packaging"
     },
     {
+      "id": "result:os15-stage01-hardening-plan",
+      "kind": "result",
+      "label": "Hardening Plan",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage02-product-implementation",
+      "kind": "result",
+      "label": "Product Implementation",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage03-public-search-index-design",
+      "kind": "result",
+      "label": "Public Search Index Design",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage04-target-universe-1000",
+      "kind": "result",
+      "label": "Target Universe 1000",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage05-frozen-route-predictions",
+      "kind": "result",
+      "label": "Frozen Route Predictions",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage06-scale-execution-wave1",
+      "kind": "result",
+      "label": "Scale Execution Wave 1",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage07-scale-execution-wave2",
+      "kind": "result",
+      "label": "Scale Execution Wave 2",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage08-scale-execution-wave3",
+      "kind": "result",
+      "label": "Scale Execution Wave 3",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage09-weak-class-repo-hardening",
+      "kind": "result",
+      "label": "Weak Class Repo Hardening",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage10-weak-class-formal-hardening",
+      "kind": "result",
+      "label": "Weak Class Formal Hardening",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage11-weak-class-temporal-hardening",
+      "kind": "result",
+      "label": "Weak Class Temporal Hardening",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage12-public-package-manifest-wave",
+      "kind": "result",
+      "label": "Public Package Manifest Wave",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage13-package-replay-sampling",
+      "kind": "result",
+      "label": "Package Replay Sampling",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage14-class-level-acceleration-audit",
+      "kind": "result",
+      "label": "Class-Level Acceleration Audit",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage15-public-search-index-build",
+      "kind": "result",
+      "label": "Public Search Index Build",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage16-corpus-faceted-indexes",
+      "kind": "result",
+      "label": "Corpus Faceted Indexes",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage17-public-usability-guides",
+      "kind": "result",
+      "label": "Public Usability Guides",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage18-domain-pack-hardening",
+      "kind": "result",
+      "label": "Domain Pack Hardening",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage19-evidence-package-quality-audit",
+      "kind": "result",
+      "label": "Evidence Package Quality Audit",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage20-route-policy-v4-kill-week",
+      "kind": "result",
+      "label": "Route Policy v4 Kill Week",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage21-acceleration-claim-kill-week",
+      "kind": "result",
+      "label": "Acceleration Claim Kill Week",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage22-os-v1-5-readiness-decision",
+      "kind": "result",
+      "label": "OS v1.5 Readiness Decision",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage23-release-candidate-package",
+      "kind": "result",
+      "label": "Release Candidate Package",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
+      "id": "result:os15-stage24-next-frontier",
+      "kind": "result",
+      "label": "Next Frontier",
+      "domain": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
+    },
+    {
       "id": "result:patch-risk-auditor",
       "kind": "result",
       "label": "Patch Risk Auditor",
@@ -3526,6 +3670,11 @@
       "id": "domain:Open Verifiable Science OS v1 Candidate packaging",
       "kind": "domain",
       "label": "Open Verifiable Science OS v1 Candidate packaging"
+    },
+    {
+      "id": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "kind": "domain",
+      "label": "Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet"
     },
     {
       "id": "domain:software-supply-chain",
@@ -6260,6 +6409,126 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:os15-stage01-hardening-plan",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage02-product-implementation",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage03-public-search-index-design",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage04-target-universe-1000",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage05-frozen-route-predictions",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage06-scale-execution-wave1",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage07-scale-execution-wave2",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage08-scale-execution-wave3",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage09-weak-class-repo-hardening",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage10-weak-class-formal-hardening",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage11-weak-class-temporal-hardening",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage12-public-package-manifest-wave",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage13-package-replay-sampling",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage14-class-level-acceleration-audit",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage15-public-search-index-build",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage16-corpus-faceted-indexes",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage17-public-usability-guides",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage18-domain-pack-hardening",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage19-evidence-package-quality-audit",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage20-route-policy-v4-kill-week",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage21-acceleration-claim-kill-week",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage22-os-v1-5-readiness-decision",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage23-release-candidate-package",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os15-stage24-next-frontier",
+      "target": "domain:Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:patch-risk-auditor",
       "target": "domain:software-supply-chain",
       "relation": "belongs_to_domain"
@@ -7360,5 +7629,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "3ba7584ac24b162b7b1d564ccc3c9ab1aceded2acf83d0263819acb79e857574"
+  "evidenceHash": "999d82f5e0b57246399eb93000f7a3c781409c4b3d201d04b5f66ddf45a3a507"
 }

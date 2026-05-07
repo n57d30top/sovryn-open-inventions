@@ -1,0 +1,28 @@
+{
+  "kind": "os15_target_receipt",
+  "receiptId": "receipt-os15-target-0085",
+  "targetId": "os15-target-0085",
+  "targetClass": "benchmark_protocol_audit",
+  "route": "benchmark_protocol_audit",
+  "status": "executed",
+  "sourceUrl": "https://example.org/os15/benchmark_protocol_audit/85",
+  "retrievalMethod": "public_metadata_route_receipt",
+  "executed": true,
+  "executionAttemptType": "dataset_or_protocol_probe",
+  "evidenceChecks": [
+    "evidence-os15-target-0085-01",
+    "evidence-os15-target-0085-02",
+    "evidence-os15-target-0085-03",
+    "evidence-os15-target-0085-04",
+    "evidence-os15-target-0085-05",
+    "evidence-os15-target-0085-06"
+  ],
+  "timeToEvidenceMinutes": 10.8,
+  "noRawLogs": true,
+  "noLocalPaths": true,
+  "noFakeTargetExecution": true,
+  "caveats": [
+    "bounded public-target receipt; not outside validation"
+  ],
+  "evidenceHash": "e4c7cce81e26974172e48d46044f81bd4a3e914fd3bb6e6b3a62b2ee98f71b4a"
+}

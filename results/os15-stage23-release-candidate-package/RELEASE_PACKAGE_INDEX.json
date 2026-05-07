@@ -1,0 +1,13 @@
+{
+  "kind": "os15_release_package_index",
+  "requiredArtifactsPresent": true,
+  "packageCount": 200,
+  "indexes": [
+    "PUBLIC_SEARCH_INDEX.json",
+    "CLASS_INDEX.json",
+    "ROUTE_INDEX.json",
+    "ACCELERATION_INDEX.json",
+    "REPLAY_INDEX.json"
+  ],
+  "evidenceHash": "4d3d6945de103b40ed5ba9ade61b4d4fa92b4eca2e878f62d96f7f7435a80594"
+}

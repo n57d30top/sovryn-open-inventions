@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T14:13:08.132Z",
+  "updatedAt": "2026-05-07T14:57:39.666Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -2380,6 +2380,174 @@
       ]
     },
     {
+      "versionGroup": "os15-stage01-hardening-plan",
+      "latestSlug": "os15-stage01-hardening-plan",
+      "resultSlugs": [
+        "os15-stage01-hardening-plan"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage02-product-implementation",
+      "latestSlug": "os15-stage02-product-implementation",
+      "resultSlugs": [
+        "os15-stage02-product-implementation"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage03-public-search-index-design",
+      "latestSlug": "os15-stage03-public-search-index-design",
+      "resultSlugs": [
+        "os15-stage03-public-search-index-design"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage04-target-universe-1000",
+      "latestSlug": "os15-stage04-target-universe-1000",
+      "resultSlugs": [
+        "os15-stage04-target-universe-1000"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage05-frozen-route-predictions",
+      "latestSlug": "os15-stage05-frozen-route-predictions",
+      "resultSlugs": [
+        "os15-stage05-frozen-route-predictions"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage06-scale-execution-wave1",
+      "latestSlug": "os15-stage06-scale-execution-wave1",
+      "resultSlugs": [
+        "os15-stage06-scale-execution-wave1"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage07-scale-execution-wave2",
+      "latestSlug": "os15-stage07-scale-execution-wave2",
+      "resultSlugs": [
+        "os15-stage07-scale-execution-wave2"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage08-scale-execution-wave3",
+      "latestSlug": "os15-stage08-scale-execution-wave3",
+      "resultSlugs": [
+        "os15-stage08-scale-execution-wave3"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage09-weak-class-repo-hardening",
+      "latestSlug": "os15-stage09-weak-class-repo-hardening",
+      "resultSlugs": [
+        "os15-stage09-weak-class-repo-hardening"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage10-weak-class-formal-hardening",
+      "latestSlug": "os15-stage10-weak-class-formal-hardening",
+      "resultSlugs": [
+        "os15-stage10-weak-class-formal-hardening"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage11-weak-class-temporal-hardening",
+      "latestSlug": "os15-stage11-weak-class-temporal-hardening",
+      "resultSlugs": [
+        "os15-stage11-weak-class-temporal-hardening"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage12-public-package-manifest-wave",
+      "latestSlug": "os15-stage12-public-package-manifest-wave",
+      "resultSlugs": [
+        "os15-stage12-public-package-manifest-wave"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage13-package-replay-sampling",
+      "latestSlug": "os15-stage13-package-replay-sampling",
+      "resultSlugs": [
+        "os15-stage13-package-replay-sampling"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage14-class-level-acceleration-audit",
+      "latestSlug": "os15-stage14-class-level-acceleration-audit",
+      "resultSlugs": [
+        "os15-stage14-class-level-acceleration-audit"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage15-public-search-index-build",
+      "latestSlug": "os15-stage15-public-search-index-build",
+      "resultSlugs": [
+        "os15-stage15-public-search-index-build"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage16-corpus-faceted-indexes",
+      "latestSlug": "os15-stage16-corpus-faceted-indexes",
+      "resultSlugs": [
+        "os15-stage16-corpus-faceted-indexes"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage17-public-usability-guides",
+      "latestSlug": "os15-stage17-public-usability-guides",
+      "resultSlugs": [
+        "os15-stage17-public-usability-guides"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage18-domain-pack-hardening",
+      "latestSlug": "os15-stage18-domain-pack-hardening",
+      "resultSlugs": [
+        "os15-stage18-domain-pack-hardening"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage19-evidence-package-quality-audit",
+      "latestSlug": "os15-stage19-evidence-package-quality-audit",
+      "resultSlugs": [
+        "os15-stage19-evidence-package-quality-audit"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage20-route-policy-v4-kill-week",
+      "latestSlug": "os15-stage20-route-policy-v4-kill-week",
+      "resultSlugs": [
+        "os15-stage20-route-policy-v4-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage21-acceleration-claim-kill-week",
+      "latestSlug": "os15-stage21-acceleration-claim-kill-week",
+      "resultSlugs": [
+        "os15-stage21-acceleration-claim-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage22-os-v1-5-readiness-decision",
+      "latestSlug": "os15-stage22-os-v1-5-readiness-decision",
+      "resultSlugs": [
+        "os15-stage22-os-v1-5-readiness-decision"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage23-release-candidate-package",
+      "latestSlug": "os15-stage23-release-candidate-package",
+      "resultSlugs": [
+        "os15-stage23-release-candidate-package"
+      ]
+    },
+    {
+      "versionGroup": "os15-stage24-next-frontier",
+      "latestSlug": "os15-stage24-next-frontier",
+      "resultSlugs": [
+        "os15-stage24-next-frontier"
+      ]
+    },
+    {
       "versionGroup": "patch-risk-auditor",
       "latestSlug": "patch-risk-auditor-v3",
       "resultSlugs": [
@@ -3699,5 +3867,5 @@
       ]
     }
   ],
-  "evidenceHash": "bc27c42b4c0d8a12eda47712acabe9c01a8a32773d3e9abe2d5e7a732db5ec7e"
+  "evidenceHash": "97f4f04e8db32b177f8d4b78a8bc4f2e07e0b2a8215ce83cfcf4d8fd118b5980"
 }

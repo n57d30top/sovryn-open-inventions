@@ -1,0 +1,23 @@
+{
+  "kind": "os15_public_package_manifest",
+  "manifestId": "manifest-os15-target-0424",
+  "packageId": "os15-package-os15-target-0424",
+  "targetId": "os15-target-0424",
+  "targetClass": "claim_review",
+  "route": "claim_safety_review",
+  "receiptId": "receipt-os15-target-0424",
+  "resultSummary": "os15-target-0424 has a bounded claim_safety_review evidence package with receipt receipt-os15-target-0424.",
+  "limitations": [
+    "Bounded internal workload evidence only.",
+    "No broad or outside-use acceleration claim.",
+    "Target-level receipt records the route decision and public-safe evidence summary."
+  ],
+  "reproduce": [
+    "Run sovryn os package-verify --json and inspect receipt-os15-target-0424.",
+    "Use the package manifest, route result, and receipt hash together."
+  ],
+  "noRawLogs": true,
+  "noLocalPaths": true,
+  "manifestVersion": "os-v1.5-candidate",
+  "evidenceHash": "7a5ff47901ac7dd37bdc7cdc9c8b66a68bb141087121d4b9d4b5c896cfa9e8b0"
+}

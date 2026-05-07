@@ -1,0 +1,23 @@
+{
+  "kind": "os15_public_package_manifest",
+  "manifestId": "manifest-os15-target-0106",
+  "packageId": "os15-package-os15-target-0106",
+  "targetId": "os15-target-0106",
+  "targetClass": "formal_counterexample",
+  "route": "formal_counterexample",
+  "receiptId": "receipt-os15-target-0106",
+  "resultSummary": "os15-target-0106 has a bounded formal_counterexample evidence package with receipt receipt-os15-target-0106.",
+  "limitations": [
+    "Bounded internal workload evidence only.",
+    "No broad or outside-use acceleration claim.",
+    "Target-level receipt records the route decision and public-safe evidence summary."
+  ],
+  "reproduce": [
+    "Run sovryn os package-verify --json and inspect receipt-os15-target-0106.",
+    "Use the package manifest, route result, and receipt hash together."
+  ],
+  "noRawLogs": true,
+  "noLocalPaths": true,
+  "manifestVersion": "os-v1.5-candidate",
+  "evidenceHash": "d3d56a9d2ac36f609ae423b0f9ab949654f82db8689bc3627c0f7ba9528b65b7"
+}

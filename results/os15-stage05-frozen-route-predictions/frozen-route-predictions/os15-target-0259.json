@@ -1,0 +1,14 @@
+{
+  "predictionId": "os15-pred-os15-target-0259",
+  "targetId": "os15-target-0259",
+  "targetClass": "formal_counterexample",
+  "predictedRoute": "formal_counterexample",
+  "fallbackRoute": "proof_route",
+  "routeConfidence": 0.865,
+  "expectedEvidenceCostMinutes": 18,
+  "expectedPackageQuality": "high",
+  "expectedAccelerationClass": "class_level_10x_candidate",
+  "expectedFailureMode": "evidence_sufficiency_caveat",
+  "notTestableOrUnsafeExpected": false,
+  "evidenceHash": "7f2fb23e882b23461b5af3bbbd8299f72f6d08db41329c0f51816c56fbbcd820"
+}

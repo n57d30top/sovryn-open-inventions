@@ -1,0 +1,14 @@
+{
+  "predictionId": "os15-pred-os15-target-0258",
+  "targetId": "os15-target-0258",
+  "targetClass": "repo_package_reproduction",
+  "predictedRoute": "runtime_reproduction",
+  "fallbackRoute": "install_probe",
+  "routeConfidence": 0.861,
+  "expectedEvidenceCostMinutes": 18,
+  "expectedPackageQuality": "high",
+  "expectedAccelerationClass": "class_level_10x_candidate",
+  "expectedFailureMode": "none_expected",
+  "notTestableOrUnsafeExpected": false,
+  "evidenceHash": "c1d06e05fe6e576270d037c1f14004519a677103aacc1a1d5d69e9bf97daa640"
+}

@@ -1,0 +1,14 @@
+{
+  "predictionId": "os15-pred-os15-target-0316",
+  "targetId": "os15-target-0316",
+  "targetClass": "claim_review",
+  "predictedRoute": "claim_safety_review",
+  "fallbackRoute": null,
+  "routeConfidence": 0.855,
+  "expectedEvidenceCostMinutes": 8,
+  "expectedPackageQuality": "high",
+  "expectedAccelerationClass": "class_level_10x_candidate",
+  "expectedFailureMode": "none_expected",
+  "notTestableOrUnsafeExpected": false,
+  "evidenceHash": "08f4ba1603472690bb9eabfe76e93cf4512d14d73a5750dfad08747e4b09b1b7"
+}

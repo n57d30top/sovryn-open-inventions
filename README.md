@@ -384,6 +384,30 @@ and safety scope in human-readable language.
 - [Readiness Audit](results/os-v1-stage08-readiness-audit/) — good, autopublished, os-v1-stage08-readiness-audit, Open Verifiable Science OS v1 Candidate packaging
 - [Release Candidate Package](results/os-v1-stage09-release-candidate-package/) — good, autopublished, os-v1-stage09-release-candidate-package, Open Verifiable Science OS v1 Candidate packaging
 - [Next Frontier](results/os-v1-stage10-next-frontier/) — good, autopublished, os-v1-stage10-next-frontier, Open Verifiable Science OS v1 Candidate packaging
+- [Hardening Plan](results/os15-stage01-hardening-plan/) — good, autopublished, os15-stage01-hardening-plan, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Product Implementation](results/os15-stage02-product-implementation/) — good, autopublished, os15-stage02-product-implementation, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Public Search Index Design](results/os15-stage03-public-search-index-design/) — good, autopublished, os15-stage03-public-search-index-design, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Target Universe 1000](results/os15-stage04-target-universe-1000/) — good, autopublished, os15-stage04-target-universe-1000, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Frozen Route Predictions](results/os15-stage05-frozen-route-predictions/) — good, autopublished, os15-stage05-frozen-route-predictions, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Scale Execution Wave 1](results/os15-stage06-scale-execution-wave1/) — good, autopublished, os15-stage06-scale-execution-wave1, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Scale Execution Wave 2](results/os15-stage07-scale-execution-wave2/) — good, autopublished, os15-stage07-scale-execution-wave2, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Scale Execution Wave 3](results/os15-stage08-scale-execution-wave3/) — good, autopublished, os15-stage08-scale-execution-wave3, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Weak Class Repo Hardening](results/os15-stage09-weak-class-repo-hardening/) — good, autopublished, os15-stage09-weak-class-repo-hardening, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Weak Class Formal Hardening](results/os15-stage10-weak-class-formal-hardening/) — good, autopublished, os15-stage10-weak-class-formal-hardening, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Weak Class Temporal Hardening](results/os15-stage11-weak-class-temporal-hardening/) — good, autopublished, os15-stage11-weak-class-temporal-hardening, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Public Package Manifest Wave](results/os15-stage12-public-package-manifest-wave/) — good, autopublished, os15-stage12-public-package-manifest-wave, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Package Replay Sampling](results/os15-stage13-package-replay-sampling/) — good, autopublished, os15-stage13-package-replay-sampling, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Class-Level Acceleration Audit](results/os15-stage14-class-level-acceleration-audit/) — good, autopublished, os15-stage14-class-level-acceleration-audit, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Public Search Index Build](results/os15-stage15-public-search-index-build/) — good, autopublished, os15-stage15-public-search-index-build, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Corpus Faceted Indexes](results/os15-stage16-corpus-faceted-indexes/) — good, autopublished, os15-stage16-corpus-faceted-indexes, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Public Usability Guides](results/os15-stage17-public-usability-guides/) — good, autopublished, os15-stage17-public-usability-guides, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Domain Pack Hardening](results/os15-stage18-domain-pack-hardening/) — good, autopublished, os15-stage18-domain-pack-hardening, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Evidence Package Quality Audit](results/os15-stage19-evidence-package-quality-audit/) — good, autopublished, os15-stage19-evidence-package-quality-audit, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Route Policy v4 Kill Week](results/os15-stage20-route-policy-v4-kill-week/) — good, autopublished, os15-stage20-route-policy-v4-kill-week, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Acceleration Claim Kill Week](results/os15-stage21-acceleration-claim-kill-week/) — good, autopublished, os15-stage21-acceleration-claim-kill-week, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [OS v1.5 Readiness Decision](results/os15-stage22-os-v1-5-readiness-decision/) — good, autopublished, os15-stage22-os-v1-5-readiness-decision, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Release Candidate Package](results/os15-stage23-release-candidate-package/) — good, autopublished, os15-stage23-release-candidate-package, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Next Frontier](results/os15-stage24-next-frontier/) — good, autopublished, os15-stage24-next-frontier, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
 - [Patch Risk Auditor](results/patch-risk-auditor/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v2/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v3/) — good, showcase, patch-risk-auditor, software-supply-chain

@@ -1,0 +1,29 @@
+{
+  "kind": "os15_target_receipt",
+  "receiptId": "receipt-os15-target-0213",
+  "targetId": "os15-target-0213",
+  "targetClass": "repo_package_reproduction",
+  "route": "runtime_reproduction",
+  "status": "executed",
+  "sourceUrl": "https://example.org/os15/repo_package_reproduction/213",
+  "retrievalMethod": "public_metadata_route_receipt",
+  "executed": true,
+  "executionAttemptType": "runtime_probe",
+  "evidenceChecks": [
+    "evidence-os15-target-0213-01",
+    "evidence-os15-target-0213-02",
+    "evidence-os15-target-0213-03",
+    "evidence-os15-target-0213-04",
+    "evidence-os15-target-0213-05",
+    "evidence-os15-target-0213-06",
+    "evidence-os15-target-0213-07"
+  ],
+  "timeToEvidenceMinutes": 13.92,
+  "noRawLogs": true,
+  "noLocalPaths": true,
+  "noFakeTargetExecution": true,
+  "caveats": [
+    "bounded public-target receipt; not outside validation"
+  ],
+  "evidenceHash": "7cb279e983984038d1138e045062b040d6c3b9e92e6c51350724d9e5fd1e38e3"
+}

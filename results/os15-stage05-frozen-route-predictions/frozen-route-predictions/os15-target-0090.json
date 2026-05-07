@@ -1,0 +1,14 @@
+{
+  "predictionId": "os15-pred-os15-target-0090",
+  "targetId": "os15-target-0090",
+  "targetClass": "mixed_control",
+  "predictedRoute": "not_testable",
+  "fallbackRoute": "static_scan_only",
+  "routeConfidence": 0.93,
+  "expectedEvidenceCostMinutes": 7,
+  "expectedPackageQuality": "medium",
+  "expectedAccelerationClass": "partial",
+  "expectedFailureMode": "not_testable_control",
+  "notTestableOrUnsafeExpected": true,
+  "evidenceHash": "960cac9eb3d189f914287e9b64aacd6963ff8f151065064a4a6ffe139aba97fa"
+}
