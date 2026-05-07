@@ -1,0 +1,13 @@
+{
+  "predictionId": "NRS2-PRED-19",
+  "candidateId": "NRS2-CAND-096",
+  "type": "low_risk_control",
+  "claimComponent": "control remains low-risk",
+  "expectedObservation": "control stays non-promoted",
+  "falsifier": "Observed result contradicts expected label or baseline/rival dominates.",
+  "expectedRange": null,
+  "nonObvious": false,
+  "frozenAt": "2026-05-07T11:55:00.000Z",
+  "preregistrationHash": "7682119a76b144b3f72e7d422fa4ca5900c951102442f5bb5ee663f3831c51e1",
+  "noEditRule": "No edits after freeze."
+}

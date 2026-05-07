@@ -1,0 +1,62 @@
+- NRS2-CAND-059: rejected; baseline-dominated or proxy-explained
+- NRS2-CAND-060: downgraded; baseline-dominated or proxy-explained
+- NRS2-CAND-061: rejected; baseline-dominated or proxy-explained
+- NRS2-CAND-062: downgraded; baseline-dominated or proxy-explained
+- NRS2-CAND-063: rejected; baseline-dominated or proxy-explained
+- NRS2-CAND-064: downgraded; baseline-dominated or proxy-explained
+- NRS2-CAND-065: rejected; baseline-dominated or proxy-explained
+- NRS2-CAND-066: downgraded; baseline-dominated or proxy-explained
+- NRS2-CAND-067: rejected; baseline-dominated or proxy-explained
+- NRS2-CAND-068: downgraded; baseline-dominated or proxy-explained
+- NRS2-CAND-069: rejected; baseline-dominated or proxy-explained
+- NRS2-CAND-070: downgraded; baseline-dominated or proxy-explained
+- NRS2-CAND-071: rejected; baseline-dominated or proxy-explained
+- NRS2-CAND-072: downgraded; baseline-dominated or proxy-explained
+- NRS2-CAND-073: rejected; baseline-dominated or proxy-explained
+- NRS2-CAND-074: downgraded; baseline-dominated or proxy-explained
+- NRS2-CAND-075: rejected; baseline-dominated or proxy-explained
+- NRS2-CAND-076: downgraded; baseline-dominated or proxy-explained
+- NRS2-CAND-077: rejected; baseline-dominated or proxy-explained
+- NRS2-CAND-078: downgraded; baseline-dominated or proxy-explained
+- NRS2-CAND-079: rejected; baseline-dominated or proxy-explained
+- NRS2-CAND-080: downgraded; baseline-dominated or proxy-explained
+- NRS2-CAND-081: rejected; baseline-dominated or proxy-explained
+- NRS2-CAND-082: downgraded; baseline-dominated or proxy-explained
+- NRS2-CAND-083: rejected; baseline-dominated or proxy-explained
+- NRS2-CAND-084: downgraded; baseline-dominated or proxy-explained
+- NRS2-CAND-085: rejected; baseline-dominated or proxy-explained
+- NRS2-CAND-086: downgraded; baseline-dominated or proxy-explained
+- NRS2-CAND-087: rejected; baseline-dominated or proxy-explained
+- NRS2-CAND-088: downgraded; baseline-dominated or proxy-explained
+- NRS2-CAND-089: rejected; baseline-dominated or proxy-explained
+- NRS2-CAND-090: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-091: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-092: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-093: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-094: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-095: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-096: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-097: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-098: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-099: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-100: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-101: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-102: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-103: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-104: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-105: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-106: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-107: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-108: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-109: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-110: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-111: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-112: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-113: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-114: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-115: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-116: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-117: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-118: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-119: survived; not baseline-dominated in pre-screen
+- NRS2-CAND-120: survived; not baseline-dominated in pre-screen

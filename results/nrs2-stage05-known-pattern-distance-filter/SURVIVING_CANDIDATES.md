@@ -1,0 +1,62 @@
+- NRS2-CAND-059: Scientific software runtime reproduction alignment; benchmark split/protocol metadata predicts claim failure beyond task family
+- NRS2-CAND-060: Benchmark methodology and dataset reliability claims; artifact accessibility plus checksum lineage predicts replay stability
+- NRS2-CAND-061: Formal proof/refutation target maturity; unit provenance plus missingness topology separates data artifact from property residual
+- NRS2-CAND-062: Computational materials descriptor and property data reliability; catalog source lineage plus measurement-flag interaction predicts reproducibility failure
+- NRS2-CAND-063: Astrophysics open catalog reliability and source-provenance anomalies; proof-obligation clarity predicts refutation/proof route better than bounded-pass count
+- NRS2-CAND-064: Scientific software runtime reproduction alignment; runtime alignment receipts predict reproduction outcome beyond tests/docs presence
+- NRS2-CAND-065: Benchmark methodology and dataset reliability claims; benchmark split/protocol metadata predicts claim failure beyond task family
+- NRS2-CAND-066: Formal proof/refutation target maturity; artifact accessibility plus checksum lineage predicts replay stability
+- NRS2-CAND-067: Computational materials descriptor and property data reliability; unit provenance plus missingness topology separates data artifact from property residual
+- NRS2-CAND-068: Astrophysics open catalog reliability and source-provenance anomalies; catalog source lineage plus measurement-flag interaction predicts reproducibility failure
+- NRS2-CAND-069: Scientific software runtime reproduction alignment; proof-obligation clarity predicts refutation/proof route better than bounded-pass count
+- NRS2-CAND-070: Benchmark methodology and dataset reliability claims; runtime alignment receipts predict reproduction outcome beyond tests/docs presence
+- NRS2-CAND-071: Formal proof/refutation target maturity; benchmark split/protocol metadata predicts claim failure beyond task family
+- NRS2-CAND-072: Computational materials descriptor and property data reliability; artifact accessibility plus checksum lineage predicts replay stability
+- NRS2-CAND-073: Astrophysics open catalog reliability and source-provenance anomalies; unit provenance plus missingness topology separates data artifact from property residual
+- NRS2-CAND-074: Scientific software runtime reproduction alignment; catalog source lineage plus measurement-flag interaction predicts reproducibility failure
+- NRS2-CAND-075: Benchmark methodology and dataset reliability claims; proof-obligation clarity predicts refutation/proof route better than bounded-pass count
+- NRS2-CAND-076: Formal proof/refutation target maturity; runtime alignment receipts predict reproduction outcome beyond tests/docs presence
+- NRS2-CAND-077: Computational materials descriptor and property data reliability; benchmark split/protocol metadata predicts claim failure beyond task family
+- NRS2-CAND-078: Astrophysics open catalog reliability and source-provenance anomalies; artifact accessibility plus checksum lineage predicts replay stability
+- NRS2-CAND-079: Scientific software runtime reproduction alignment; unit provenance plus missingness topology separates data artifact from property residual
+- NRS2-CAND-080: Benchmark methodology and dataset reliability claims; catalog source lineage plus measurement-flag interaction predicts reproducibility failure
+- NRS2-CAND-081: Formal proof/refutation target maturity; proof-obligation clarity predicts refutation/proof route better than bounded-pass count
+- NRS2-CAND-082: Computational materials descriptor and property data reliability; runtime alignment receipts predict reproduction outcome beyond tests/docs presence
+- NRS2-CAND-083: Astrophysics open catalog reliability and source-provenance anomalies; benchmark split/protocol metadata predicts claim failure beyond task family
+- NRS2-CAND-084: Scientific software runtime reproduction alignment; artifact accessibility plus checksum lineage predicts replay stability
+- NRS2-CAND-085: Benchmark methodology and dataset reliability claims; unit provenance plus missingness topology separates data artifact from property residual
+- NRS2-CAND-086: Formal proof/refutation target maturity; catalog source lineage plus measurement-flag interaction predicts reproducibility failure
+- NRS2-CAND-087: Computational materials descriptor and property data reliability; proof-obligation clarity predicts refutation/proof route better than bounded-pass count
+- NRS2-CAND-088: Astrophysics open catalog reliability and source-provenance anomalies; runtime alignment receipts predict reproduction outcome beyond tests/docs presence
+- NRS2-CAND-089: Scientific software runtime reproduction alignment; benchmark split/protocol metadata predicts claim failure beyond task family
+- NRS2-CAND-090: Benchmark methodology and dataset reliability claims; artifact accessibility plus checksum lineage predicts replay stability
+- NRS2-CAND-091: Formal proof/refutation target maturity; unit provenance plus missingness topology separates data artifact from property residual
+- NRS2-CAND-092: Computational materials descriptor and property data reliability; catalog source lineage plus measurement-flag interaction predicts reproducibility failure
+- NRS2-CAND-093: Astrophysics open catalog reliability and source-provenance anomalies; proof-obligation clarity predicts refutation/proof route better than bounded-pass count
+- NRS2-CAND-094: Scientific software runtime reproduction alignment; runtime alignment receipts predict reproduction outcome beyond tests/docs presence
+- NRS2-CAND-095: Benchmark methodology and dataset reliability claims; benchmark split/protocol metadata predicts claim failure beyond task family
+- NRS2-CAND-096: Formal proof/refutation target maturity; artifact accessibility plus checksum lineage predicts replay stability
+- NRS2-CAND-097: Computational materials descriptor and property data reliability; unit provenance plus missingness topology separates data artifact from property residual
+- NRS2-CAND-098: Astrophysics open catalog reliability and source-provenance anomalies; catalog source lineage plus measurement-flag interaction predicts reproducibility failure
+- NRS2-CAND-099: Scientific software runtime reproduction alignment; proof-obligation clarity predicts refutation/proof route better than bounded-pass count
+- NRS2-CAND-100: Benchmark methodology and dataset reliability claims; runtime alignment receipts predict reproduction outcome beyond tests/docs presence
+- NRS2-CAND-101: Formal proof/refutation target maturity; benchmark split/protocol metadata predicts claim failure beyond task family
+- NRS2-CAND-102: Computational materials descriptor and property data reliability; artifact accessibility plus checksum lineage predicts replay stability
+- NRS2-CAND-103: Astrophysics open catalog reliability and source-provenance anomalies; unit provenance plus missingness topology separates data artifact from property residual
+- NRS2-CAND-104: Scientific software runtime reproduction alignment; catalog source lineage plus measurement-flag interaction predicts reproducibility failure
+- NRS2-CAND-105: Benchmark methodology and dataset reliability claims; proof-obligation clarity predicts refutation/proof route better than bounded-pass count
+- NRS2-CAND-106: Formal proof/refutation target maturity; runtime alignment receipts predict reproduction outcome beyond tests/docs presence
+- NRS2-CAND-107: Computational materials descriptor and property data reliability; benchmark split/protocol metadata predicts claim failure beyond task family
+- NRS2-CAND-108: Astrophysics open catalog reliability and source-provenance anomalies; artifact accessibility plus checksum lineage predicts replay stability
+- NRS2-CAND-109: Scientific software runtime reproduction alignment; unit provenance plus missingness topology separates data artifact from property residual
+- NRS2-CAND-110: Benchmark methodology and dataset reliability claims; catalog source lineage plus measurement-flag interaction predicts reproducibility failure
+- NRS2-CAND-111: Formal proof/refutation target maturity; proof-obligation clarity predicts refutation/proof route better than bounded-pass count
+- NRS2-CAND-112: Computational materials descriptor and property data reliability; runtime alignment receipts predict reproduction outcome beyond tests/docs presence
+- NRS2-CAND-113: Astrophysics open catalog reliability and source-provenance anomalies; benchmark split/protocol metadata predicts claim failure beyond task family
+- NRS2-CAND-114: Scientific software runtime reproduction alignment; artifact accessibility plus checksum lineage predicts replay stability
+- NRS2-CAND-115: Benchmark methodology and dataset reliability claims; unit provenance plus missingness topology separates data artifact from property residual
+- NRS2-CAND-116: Formal proof/refutation target maturity; catalog source lineage plus measurement-flag interaction predicts reproducibility failure
+- NRS2-CAND-117: Computational materials descriptor and property data reliability; proof-obligation clarity predicts refutation/proof route better than bounded-pass count
+- NRS2-CAND-118: Astrophysics open catalog reliability and source-provenance anomalies; runtime alignment receipts predict reproduction outcome beyond tests/docs presence
+- NRS2-CAND-119: Scientific software runtime reproduction alignment; benchmark split/protocol metadata predicts claim failure beyond task family
+- NRS2-CAND-120: Benchmark methodology and dataset reliability claims; artifact accessibility plus checksum lineage predicts replay stability

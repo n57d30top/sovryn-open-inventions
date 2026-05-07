@@ -1,0 +1,31 @@
+- NRS2-CAND-090: Benchmark methodology and dataset reliability claims
+- NRS2-CAND-091: Formal proof/refutation target maturity
+- NRS2-CAND-092: Computational materials descriptor and property data reliability
+- NRS2-CAND-093: Astrophysics open catalog reliability and source-provenance anomalies
+- NRS2-CAND-094: Scientific software runtime reproduction alignment
+- NRS2-CAND-095: Benchmark methodology and dataset reliability claims
+- NRS2-CAND-096: Formal proof/refutation target maturity
+- NRS2-CAND-097: Computational materials descriptor and property data reliability
+- NRS2-CAND-098: Astrophysics open catalog reliability and source-provenance anomalies
+- NRS2-CAND-099: Scientific software runtime reproduction alignment
+- NRS2-CAND-100: Benchmark methodology and dataset reliability claims
+- NRS2-CAND-101: Formal proof/refutation target maturity
+- NRS2-CAND-102: Computational materials descriptor and property data reliability
+- NRS2-CAND-103: Astrophysics open catalog reliability and source-provenance anomalies
+- NRS2-CAND-104: Scientific software runtime reproduction alignment
+- NRS2-CAND-105: Benchmark methodology and dataset reliability claims
+- NRS2-CAND-106: Formal proof/refutation target maturity
+- NRS2-CAND-107: Computational materials descriptor and property data reliability
+- NRS2-CAND-108: Astrophysics open catalog reliability and source-provenance anomalies
+- NRS2-CAND-109: Scientific software runtime reproduction alignment
+- NRS2-CAND-110: Benchmark methodology and dataset reliability claims
+- NRS2-CAND-111: Formal proof/refutation target maturity
+- NRS2-CAND-112: Computational materials descriptor and property data reliability
+- NRS2-CAND-113: Astrophysics open catalog reliability and source-provenance anomalies
+- NRS2-CAND-114: Scientific software runtime reproduction alignment
+- NRS2-CAND-115: Benchmark methodology and dataset reliability claims
+- NRS2-CAND-116: Formal proof/refutation target maturity
+- NRS2-CAND-117: Computational materials descriptor and property data reliability
+- NRS2-CAND-118: Astrophysics open catalog reliability and source-provenance anomalies
+- NRS2-CAND-119: Scientific software runtime reproduction alignment
+- NRS2-CAND-120: Benchmark methodology and dataset reliability claims

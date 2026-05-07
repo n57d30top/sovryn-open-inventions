@@ -1,0 +1,5 @@
+- NRS2-HOLDOUT-02: partial; narrowed
+- NRS2-HOLDOUT-04: failure; downgraded
+- NRS2-HOLDOUT-06: inconclusive; narrowed
+- NRS2-HOLDOUT-08: partial; narrowed
+- NRS2-HOLDOUT-10: failure; downgraded

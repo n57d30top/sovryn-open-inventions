@@ -1,0 +1,11 @@
+- NRS2-CAND-103: dense or partial-dense
+- NRS2-CAND-104: dense or partial-dense
+- NRS2-CAND-105: dense or partial-dense
+- NRS2-CAND-106: dense or partial-dense
+- NRS2-CAND-107: dense or partial-dense
+- NRS2-CAND-108: dense or partial-dense
+- NRS2-CAND-109: dense or partial-dense
+- NRS2-CAND-110: dense or partial-dense
+- NRS2-CAND-111: dense or partial-dense
+- NRS2-CAND-112: dense or partial-dense
+- NRS2-CAND-113: dense or partial-dense

@@ -1,0 +1,19 @@
+{
+  "candidateId": "NRS2-CAND-090",
+  "domainId": "benchmark-methodology-reliability",
+  "domain": "Benchmark methodology and dataset reliability claims",
+  "claim": "Benchmark methodology and dataset reliability claims candidate 90 tests whether artifact accessibility plus checksum lineage predicts replay stability remains useful after baselines, rivals, counterexamples, holdouts, and replay checks.",
+  "expectedMechanism": "artifact accessibility plus checksum lineage predicts replay stability",
+  "whyNontrivial": "Must survive domain baseline and rival explanation before promotion.",
+  "baselineRisk": "bounded",
+  "knownPatternRisk": "bounded",
+  "rivalTheories": [
+    "simple baseline explains signal",
+    "source/protocol artifact explains signal",
+    "selection effect explains signal"
+  ],
+  "holdoutPath": "fresh public target or bounded structure selected after freeze",
+  "replayPath": "deterministic rerun with curated public artifact",
+  "externalInspectabilityPath": "paper-grade public artifact bundle",
+  "nr004RevivalRisk": "none"
+}

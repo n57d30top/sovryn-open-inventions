@@ -1,0 +1,12 @@
+- NRS2-HOLDOUT-01: outcome=support; baselineResistant=true; impact=preserved
+- NRS2-HOLDOUT-02: outcome=partial; baselineResistant=true; impact=narrowed
+- NRS2-HOLDOUT-03: outcome=support; baselineResistant=true; impact=preserved
+- NRS2-HOLDOUT-04: outcome=failure; baselineResistant=false; impact=downgraded
+- NRS2-HOLDOUT-05: outcome=support; baselineResistant=true; impact=preserved
+- NRS2-HOLDOUT-06: outcome=inconclusive; baselineResistant=false; impact=narrowed
+- NRS2-HOLDOUT-07: outcome=support; baselineResistant=true; impact=preserved
+- NRS2-HOLDOUT-08: outcome=partial; baselineResistant=true; impact=narrowed
+- NRS2-HOLDOUT-09: outcome=support; baselineResistant=true; impact=preserved
+- NRS2-HOLDOUT-10: outcome=failure; baselineResistant=false; impact=downgraded
+- NRS2-HOLDOUT-11: outcome=support; baselineResistant=true; impact=preserved
+- NRS2-HOLDOUT-12: outcome=support; baselineResistant=true; impact=preserved

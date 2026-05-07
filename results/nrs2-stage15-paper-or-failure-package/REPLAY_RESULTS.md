@@ -1,0 +1,10 @@
+- NRS2-REPLAY-01: true; caveat=none
+- NRS2-REPLAY-02: true; caveat=none
+- NRS2-REPLAY-03: partial; caveat=bounded formal replay stable but generalization path still absent
+- NRS2-REPLAY-04: true; caveat=none
+- NRS2-REPLAY-05: true; caveat=none
+- NRS2-REPLAY-06: true; caveat=none
+- NRS2-REPLAY-07: partial; caveat=runtime artifact replay matched classification but not quantitative margin
+- NRS2-REPLAY-08: true; caveat=none
+- NRS2-REPLAY-09: partial; caveat=fresh-workspace replay required curated artifact normalization
+- NRS2-REPLAY-10: true; caveat=none

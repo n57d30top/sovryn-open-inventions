@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "nrs2-stage11-holdout-wave",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "specific_public_evidence",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "passes_falsification",
+    "lifecycle": "autopublished",
+    "version": "nrs2-stage11-holdout-wave",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "7efab70a5193f6a4d2b4e260eaf68e6c75dde48067299203419a8fa97a339202"
+}

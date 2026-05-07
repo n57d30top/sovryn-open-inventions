@@ -1,8 +1,8 @@
 {
   "kind": "public_corpus_status",
-  "generatedAt": "2026-05-07T11:26:49.596Z",
+  "generatedAt": "2026-05-07T11:45:53.783Z",
   "statusCounts": {
-    "autopublished": 429,
+    "autopublished": 445,
     "benchmark_challenge_negative_result": 4,
     "dataset_quality_audit_supported": 7,
     "external_extension_supported": 1,
@@ -21,7 +21,7 @@
     "v1_candidate_with_limits": 1
   },
   "lifecycleCounts": {
-    "autopublished": 433,
+    "autopublished": 449,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -61,6 +61,7 @@
     "no-external-reviewer discovery validation gauntlet": 16,
     "nobel discovery portfolio v0": 13,
     "Nobel Discovery Readiness Layer v0": 10,
+    "Nobel-Readiness New Candidate Search v2": 16,
     "node-toolchain-policy": 1,
     "NR-CAND-004 deep validation for readiness": 12,
     "open-invention-corpus": 3,
@@ -100,5 +101,5 @@
     "time-series-tabular-benchmark": 1,
     "tool-backed-dataset-quality-audit": 1
   },
-  "evidenceHash": "e9d1b3201bd8bd1f65bbbec8b6d6300485994f75ec76e273869f7b9b022ebdcf"
+  "evidenceHash": "2038a63c461afd6a09a1630239a263619a7c375223bd26e54f29b69d4e53bc66"
 }

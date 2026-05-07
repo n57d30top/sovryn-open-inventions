@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-07T11:26:49.596Z",
+  "generatedAt": "2026-05-07T11:45:53.783Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1941,6 +1941,102 @@
       "domain": "NR-CAND-004 deep validation for readiness"
     },
     {
+      "id": "result:nrs2-stage01-nr004-failure-lessons",
+      "kind": "result",
+      "label": "NRS2 NR004 Failure Lessons",
+      "domain": "Nobel-Readiness New Candidate Search v2"
+    },
+    {
+      "id": "result:nrs2-stage02-prepromotion-gate-design",
+      "kind": "result",
+      "label": "NRS2 Prepromotion Gate Design",
+      "domain": "Nobel-Readiness New Candidate Search v2"
+    },
+    {
+      "id": "result:nrs2-stage03-domain-reselection",
+      "kind": "result",
+      "label": "NRS2 Domain Reselection",
+      "domain": "Nobel-Readiness New Candidate Search v2"
+    },
+    {
+      "id": "result:nrs2-stage04-candidate-idea-generation",
+      "kind": "result",
+      "label": "NRS2 Candidate Idea Generation",
+      "domain": "Nobel-Readiness New Candidate Search v2"
+    },
+    {
+      "id": "result:nrs2-stage05-known-pattern-distance-filter",
+      "kind": "result",
+      "label": "NRS2 Known Pattern Distance Filter",
+      "domain": "Nobel-Readiness New Candidate Search v2"
+    },
+    {
+      "id": "result:nrs2-stage06-baseline-resistance-screen",
+      "kind": "result",
+      "label": "NRS2 Baseline Resistance Screen",
+      "domain": "Nobel-Readiness New Candidate Search v2"
+    },
+    {
+      "id": "result:nrs2-stage07-rival-theory-first-screen",
+      "kind": "result",
+      "label": "NRS2 Rival Theory First Screen",
+      "domain": "Nobel-Readiness New Candidate Search v2"
+    },
+    {
+      "id": "result:nrs2-stage08-counterexample-scarcity-screen",
+      "kind": "result",
+      "label": "NRS2 Counterexample Scarcity Screen",
+      "domain": "Nobel-Readiness New Candidate Search v2"
+    },
+    {
+      "id": "result:nrs2-stage09-candidate-promotion-freeze",
+      "kind": "result",
+      "label": "NRS2 Candidate Promotion Freeze",
+      "domain": "Nobel-Readiness New Candidate Search v2"
+    },
+    {
+      "id": "result:nrs2-stage10-execution-wave",
+      "kind": "result",
+      "label": "NRS2 Execution Wave",
+      "domain": "Nobel-Readiness New Candidate Search v2"
+    },
+    {
+      "id": "result:nrs2-stage11-holdout-wave",
+      "kind": "result",
+      "label": "NRS2 Holdout Wave",
+      "domain": "Nobel-Readiness New Candidate Search v2"
+    },
+    {
+      "id": "result:nrs2-stage12-replay-and-reproduction",
+      "kind": "result",
+      "label": "NRS2 Replay and Reproduction",
+      "domain": "Nobel-Readiness New Candidate Search v2"
+    },
+    {
+      "id": "result:nrs2-stage13-readiness-kill-week",
+      "kind": "result",
+      "label": "NRS2 Readiness Kill Week",
+      "domain": "Nobel-Readiness New Candidate Search v2"
+    },
+    {
+      "id": "result:nrs2-stage14-candidate-decision",
+      "kind": "result",
+      "label": "NRS2 Candidate Decision",
+      "domain": "Nobel-Readiness New Candidate Search v2"
+    },
+    {
+      "id": "result:nrs2-stage15-paper-or-failure-package",
+      "kind": "result",
+      "label": "NRS2 Paper or Failure Package",
+      "domain": "Nobel-Readiness New Candidate Search v2"
+    },
+    {
+      "id": "result:nrs2-stage16-next-frontier",
+      "kind": "result",
+      "label": "NRS2 Next Frontier",
+      "domain": "Nobel-Readiness New Candidate Search v2"
+    },
+    {
       "id": "result:patch-risk-auditor",
       "kind": "result",
       "label": "Patch Risk Auditor",
@@ -3060,6 +3156,11 @@
       "id": "domain:NR-CAND-004 deep validation for readiness",
       "kind": "domain",
       "label": "NR-CAND-004 deep validation for readiness"
+    },
+    {
+      "id": "domain:Nobel-Readiness New Candidate Search v2",
+      "kind": "domain",
+      "label": "Nobel-Readiness New Candidate Search v2"
     },
     {
       "id": "domain:software-supply-chain",
@@ -5644,6 +5745,86 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:nrs2-stage01-nr004-failure-lessons",
+      "target": "domain:Nobel-Readiness New Candidate Search v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nrs2-stage02-prepromotion-gate-design",
+      "target": "domain:Nobel-Readiness New Candidate Search v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nrs2-stage03-domain-reselection",
+      "target": "domain:Nobel-Readiness New Candidate Search v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nrs2-stage04-candidate-idea-generation",
+      "target": "domain:Nobel-Readiness New Candidate Search v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nrs2-stage05-known-pattern-distance-filter",
+      "target": "domain:Nobel-Readiness New Candidate Search v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nrs2-stage06-baseline-resistance-screen",
+      "target": "domain:Nobel-Readiness New Candidate Search v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nrs2-stage07-rival-theory-first-screen",
+      "target": "domain:Nobel-Readiness New Candidate Search v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nrs2-stage08-counterexample-scarcity-screen",
+      "target": "domain:Nobel-Readiness New Candidate Search v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nrs2-stage09-candidate-promotion-freeze",
+      "target": "domain:Nobel-Readiness New Candidate Search v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nrs2-stage10-execution-wave",
+      "target": "domain:Nobel-Readiness New Candidate Search v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nrs2-stage11-holdout-wave",
+      "target": "domain:Nobel-Readiness New Candidate Search v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nrs2-stage12-replay-and-reproduction",
+      "target": "domain:Nobel-Readiness New Candidate Search v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nrs2-stage13-readiness-kill-week",
+      "target": "domain:Nobel-Readiness New Candidate Search v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nrs2-stage14-candidate-decision",
+      "target": "domain:Nobel-Readiness New Candidate Search v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nrs2-stage15-paper-or-failure-package",
+      "target": "domain:Nobel-Readiness New Candidate Search v2",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nrs2-stage16-next-frontier",
+      "target": "domain:Nobel-Readiness New Candidate Search v2",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:patch-risk-auditor",
       "target": "domain:software-supply-chain",
       "relation": "belongs_to_domain"
@@ -6494,5 +6675,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "9d1d2544fc53dd76ec5b3ed070469879b4aae4739681c5aa845a2520dbe1ef13"
+  "evidenceHash": "823ec0c3170a8c24077f86757410a04ca82eaeabf46e979d0cc45b9e4d53be88"
 }

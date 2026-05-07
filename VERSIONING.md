@@ -317,6 +317,22 @@ can supersede earlier entries while preserving audit history.
 - nr004-stage10-final-readiness-decision: latest nr004-stage10-final-readiness-decision; versions nr004-stage10-final-readiness-decision
 - nr004-stage11-external-review-package-or-failure: latest nr004-stage11-external-review-package-or-failure; versions nr004-stage11-external-review-package-or-failure
 - nr004-stage12-next-frontier: latest nr004-stage12-next-frontier; versions nr004-stage12-next-frontier
+- nrs2-stage01-nr004-failure-lessons: latest nrs2-stage01-nr004-failure-lessons; versions nrs2-stage01-nr004-failure-lessons
+- nrs2-stage02-prepromotion-gate-design: latest nrs2-stage02-prepromotion-gate-design; versions nrs2-stage02-prepromotion-gate-design
+- nrs2-stage03-domain-reselection: latest nrs2-stage03-domain-reselection; versions nrs2-stage03-domain-reselection
+- nrs2-stage04-candidate-idea-generation: latest nrs2-stage04-candidate-idea-generation; versions nrs2-stage04-candidate-idea-generation
+- nrs2-stage05-known-pattern-distance-filter: latest nrs2-stage05-known-pattern-distance-filter; versions nrs2-stage05-known-pattern-distance-filter
+- nrs2-stage06-baseline-resistance-screen: latest nrs2-stage06-baseline-resistance-screen; versions nrs2-stage06-baseline-resistance-screen
+- nrs2-stage07-rival-theory-first-screen: latest nrs2-stage07-rival-theory-first-screen; versions nrs2-stage07-rival-theory-first-screen
+- nrs2-stage08-counterexample-scarcity-screen: latest nrs2-stage08-counterexample-scarcity-screen; versions nrs2-stage08-counterexample-scarcity-screen
+- nrs2-stage09-candidate-promotion-freeze: latest nrs2-stage09-candidate-promotion-freeze; versions nrs2-stage09-candidate-promotion-freeze
+- nrs2-stage10-execution-wave: latest nrs2-stage10-execution-wave; versions nrs2-stage10-execution-wave
+- nrs2-stage11-holdout-wave: latest nrs2-stage11-holdout-wave; versions nrs2-stage11-holdout-wave
+- nrs2-stage12-replay-and-reproduction: latest nrs2-stage12-replay-and-reproduction; versions nrs2-stage12-replay-and-reproduction
+- nrs2-stage13-readiness-kill-week: latest nrs2-stage13-readiness-kill-week; versions nrs2-stage13-readiness-kill-week
+- nrs2-stage14-candidate-decision: latest nrs2-stage14-candidate-decision; versions nrs2-stage14-candidate-decision
+- nrs2-stage15-paper-or-failure-package: latest nrs2-stage15-paper-or-failure-package; versions nrs2-stage15-paper-or-failure-package
+- nrs2-stage16-next-frontier: latest nrs2-stage16-next-frontier; versions nrs2-stage16-next-frontier
 - patch-risk-auditor: latest patch-risk-auditor-v3; versions patch-risk-auditor, patch-risk-auditor-v2, patch-risk-auditor-v3
 - proof-stage01-proof-route-design: latest proof-stage01-proof-route-design; versions proof-stage01-proof-route-design
 - proof-stage02-product-implementation: latest proof-stage02-product-implementation; versions proof-stage02-product-implementation

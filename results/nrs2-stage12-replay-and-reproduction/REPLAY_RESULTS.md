@@ -1,0 +1,10 @@
+- NRS2-REPLAY-01: replaySucceeded=true; caveat=none; impact=preserved
+- NRS2-REPLAY-02: replaySucceeded=true; caveat=none; impact=preserved
+- NRS2-REPLAY-03: replaySucceeded=partial; caveat=bounded formal replay stable but generalization path still absent; impact=narrowed
+- NRS2-REPLAY-04: replaySucceeded=true; caveat=none; impact=preserved
+- NRS2-REPLAY-05: replaySucceeded=true; caveat=none; impact=preserved
+- NRS2-REPLAY-06: replaySucceeded=true; caveat=none; impact=preserved
+- NRS2-REPLAY-07: replaySucceeded=partial; caveat=runtime artifact replay matched classification but not quantitative margin; impact=narrowed
+- NRS2-REPLAY-08: replaySucceeded=true; caveat=none; impact=preserved
+- NRS2-REPLAY-09: replaySucceeded=partial; caveat=fresh-workspace replay required curated artifact normalization; impact=narrowed
+- NRS2-REPLAY-10: replaySucceeded=true; caveat=none; impact=preserved

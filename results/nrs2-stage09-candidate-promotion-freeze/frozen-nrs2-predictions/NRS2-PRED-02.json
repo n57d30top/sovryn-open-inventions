@@ -1,0 +1,17 @@
+{
+  "predictionId": "NRS2-PRED-02",
+  "candidateId": "NRS2-CAND-073",
+  "type": "support",
+  "claimComponent": "mechanism survives gate",
+  "expectedObservation": "bounded support without baseline dominance",
+  "falsifier": "Observed result contradicts expected label or baseline/rival dominates.",
+  "expectedRange": {
+    "lower": 0.12,
+    "upper": 0.28,
+    "unit": "margin over simple baseline where applicable"
+  },
+  "nonObvious": true,
+  "frozenAt": "2026-05-07T11:55:00.000Z",
+  "preregistrationHash": "bf4a90c91e3c22b37c4c4650a83684a82b5d1a9eeb3461f3bc6aedaff722b7f7",
+  "noEditRule": "No edits after freeze."
+}

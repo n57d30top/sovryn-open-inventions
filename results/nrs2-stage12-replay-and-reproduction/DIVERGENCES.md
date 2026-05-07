@@ -1,0 +1,3 @@
+- NRS2-REPLAY-03: bounded formal replay stable but generalization path still absent
+- NRS2-REPLAY-07: runtime artifact replay matched classification but not quantitative margin
+- NRS2-REPLAY-09: fresh-workspace replay required curated artifact normalization

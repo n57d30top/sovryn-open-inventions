@@ -1,0 +1,17 @@
+{
+  "predictionId": "NRS2-PRED-17",
+  "candidateId": "NRS2-CAND-047",
+  "type": "rival_favoring",
+  "claimComponent": "rival gains support",
+  "expectedObservation": "rival wins a direct comparison",
+  "falsifier": "Observed result contradicts expected label or baseline/rival dominates.",
+  "expectedRange": {
+    "lower": 0.12,
+    "upper": 0.28,
+    "unit": "margin over simple baseline where applicable"
+  },
+  "nonObvious": true,
+  "frozenAt": "2026-05-07T11:55:00.000Z",
+  "preregistrationHash": "fa2b0a9573e9767dbd2d106aedf917ff9026e4238ddd601d80a5efbb2014ed62",
+  "noEditRule": "No edits after freeze."
+}

@@ -1,0 +1,24 @@
+- NRS2-PRED-01: NRS2-CAND-047; type=support; expected=bounded support without baseline dominance; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-02: NRS2-CAND-073; type=support; expected=bounded support without baseline dominance; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-03: NRS2-CAND-096; type=support; expected=bounded support without baseline dominance; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-04: NRS2-CAND-112; type=support; expected=bounded support without baseline dominance; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-05: NRS2-CAND-047; type=support; expected=bounded support without baseline dominance; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-06: NRS2-CAND-073; type=support; expected=bounded support without baseline dominance; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-07: NRS2-CAND-096; type=weakening; expected=partial or weak result; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-08: NRS2-CAND-112; type=weakening; expected=partial or weak result; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-09: NRS2-CAND-047; type=weakening; expected=partial or weak result; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-10: NRS2-CAND-073; type=weakening; expected=partial or weak result; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-11: NRS2-CAND-096; type=weakening; expected=partial or weak result; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-12: NRS2-CAND-112; type=weakening; expected=partial or weak result; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-13: NRS2-CAND-047; type=rival_favoring; expected=rival wins a direct comparison; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-14: NRS2-CAND-073; type=rival_favoring; expected=rival wins a direct comparison; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-15: NRS2-CAND-096; type=rival_favoring; expected=rival wins a direct comparison; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-16: NRS2-CAND-112; type=rival_favoring; expected=rival wins a direct comparison; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-17: NRS2-CAND-047; type=rival_favoring; expected=rival wins a direct comparison; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-18: NRS2-CAND-073; type=rival_favoring; expected=rival wins a direct comparison; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-19: NRS2-CAND-096; type=low_risk_control; expected=control stays non-promoted; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-20: NRS2-CAND-112; type=low_risk_control; expected=control stays non-promoted; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-21: NRS2-CAND-047; type=low_risk_control; expected=control stays non-promoted; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-22: NRS2-CAND-073; type=low_risk_control; expected=control stays non-promoted; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-23: NRS2-CAND-096; type=low_risk_control; expected=control stays non-promoted; falsifier=Observed result contradicts expected label or baseline/rival dominates.
+- NRS2-PRED-24: NRS2-CAND-112; type=low_risk_control; expected=control stays non-promoted; falsifier=Observed result contradicts expected label or baseline/rival dominates.

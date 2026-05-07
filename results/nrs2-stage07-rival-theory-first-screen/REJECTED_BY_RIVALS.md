@@ -1,0 +1,13 @@
+- NRS2-CAND-090: rival theory explained evidence better
+- NRS2-CAND-091: rival theory explained evidence better
+- NRS2-CAND-092: rival theory explained evidence better
+- NRS2-CAND-093: rival theory explained evidence better
+- NRS2-CAND-094: rival theory explained evidence better
+- NRS2-CAND-095: rival theory explained evidence better
+- NRS2-CAND-096: rival theory explained evidence better
+- NRS2-CAND-097: rival theory explained evidence better
+- NRS2-CAND-098: rival theory explained evidence better
+- NRS2-CAND-099: rival theory explained evidence better
+- NRS2-CAND-100: rival theory explained evidence better
+- NRS2-CAND-101: rival theory explained evidence better
+- NRS2-CAND-102: rival theory explained evidence better

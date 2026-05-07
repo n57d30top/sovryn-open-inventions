@@ -1,0 +1,17 @@
+- NRS2-ATTACK-01: NRS2-CAND-047; rejected; Evidence did not support promotion beyond bounded internal readiness.
+- NRS2-ATTACK-02: NRS2-CAND-073; rejected; Evidence did not support promotion beyond bounded internal readiness.
+- NRS2-ATTACK-03: NRS2-CAND-096; rejected; Evidence did not support promotion beyond bounded internal readiness.
+- NRS2-ATTACK-04: NRS2-CAND-112; rejected; Evidence did not support promotion beyond bounded internal readiness.
+- NRS2-ATTACK-05: NRS2-CAND-047; rejected; Evidence did not support promotion beyond bounded internal readiness.
+- NRS2-ATTACK-06: NRS2-CAND-073; narrowed; Evidence did not support promotion beyond bounded internal readiness.
+- NRS2-ATTACK-07: NRS2-CAND-096; narrowed; Evidence did not support promotion beyond bounded internal readiness.
+- NRS2-ATTACK-08: NRS2-CAND-112; narrowed; Evidence did not support promotion beyond bounded internal readiness.
+- NRS2-ATTACK-09: NRS2-CAND-047; narrowed; Evidence did not support promotion beyond bounded internal readiness.
+- NRS2-ATTACK-10: NRS2-CAND-073; narrowed; Evidence did not support promotion beyond bounded internal readiness.
+- NRS2-ATTACK-11: NRS2-CAND-096; narrowed; Evidence did not support promotion beyond bounded internal readiness.
+- NRS2-ATTACK-12: NRS2-CAND-112; narrowed; Evidence did not support promotion beyond bounded internal readiness.
+- NRS2-ATTACK-13: NRS2-CAND-047; narrowed; Evidence did not support promotion beyond bounded internal readiness.
+- NRS2-ATTACK-14: NRS2-CAND-073; downgraded; Evidence did not support promotion beyond bounded internal readiness.
+- NRS2-ATTACK-15: NRS2-CAND-096; downgraded; Evidence did not support promotion beyond bounded internal readiness.
+- NRS2-ATTACK-16: NRS2-CAND-112; downgraded; Evidence did not support promotion beyond bounded internal readiness.
+- NRS2-ATTACK-17: NRS2-CAND-047; downgraded; Evidence did not support promotion beyond bounded internal readiness.

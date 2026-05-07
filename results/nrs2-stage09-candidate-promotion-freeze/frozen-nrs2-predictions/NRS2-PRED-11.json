@@ -1,0 +1,17 @@
+{
+  "predictionId": "NRS2-PRED-11",
+  "candidateId": "NRS2-CAND-096",
+  "type": "weakening",
+  "claimComponent": "candidate weakens under harder gate",
+  "expectedObservation": "partial or weak result",
+  "falsifier": "Observed result contradicts expected label or baseline/rival dominates.",
+  "expectedRange": {
+    "lower": 0.12,
+    "upper": 0.28,
+    "unit": "margin over simple baseline where applicable"
+  },
+  "nonObvious": true,
+  "frozenAt": "2026-05-07T11:55:00.000Z",
+  "preregistrationHash": "3f0089f6204c3d058a897b440f291090c179de78941dc4310947820c7c93e9e1",
+  "noEditRule": "No edits after freeze."
+}

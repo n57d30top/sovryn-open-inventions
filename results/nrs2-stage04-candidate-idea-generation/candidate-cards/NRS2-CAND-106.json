@@ -1,0 +1,19 @@
+{
+  "candidateId": "NRS2-CAND-106",
+  "domainId": "formal-proof-maturity",
+  "domain": "Formal proof/refutation target maturity",
+  "claim": "Formal proof/refutation target maturity candidate 106 tests whether runtime alignment receipts predict reproduction outcome beyond tests/docs presence remains useful after baselines, rivals, counterexamples, holdouts, and replay checks.",
+  "expectedMechanism": "runtime alignment receipts predict reproduction outcome beyond tests/docs presence",
+  "whyNontrivial": "Must survive domain baseline and rival explanation before promotion.",
+  "baselineRisk": "medium",
+  "knownPatternRisk": "high",
+  "rivalTheories": [
+    "simple baseline explains signal",
+    "source/protocol artifact explains signal",
+    "selection effect explains signal"
+  ],
+  "holdoutPath": "fresh public target or bounded structure selected after freeze",
+  "replayPath": "deterministic rerun with curated public artifact",
+  "externalInspectabilityPath": "paper-grade public artifact bundle",
+  "nr004RevivalRisk": "none"
+}

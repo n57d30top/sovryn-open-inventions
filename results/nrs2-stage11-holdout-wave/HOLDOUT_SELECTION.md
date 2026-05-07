@@ -1,0 +1,12 @@
+- NRS2-HOLDOUT-01: NRS2-CAND-047; selectedAfterFreeze=true; domain=Computational materials descriptor and property data reliability
+- NRS2-HOLDOUT-02: NRS2-CAND-073; selectedAfterFreeze=true; domain=Astrophysics open catalog reliability and source-provenance anomalies
+- NRS2-HOLDOUT-03: NRS2-CAND-096; selectedAfterFreeze=true; domain=Scientific software runtime reproduction alignment
+- NRS2-HOLDOUT-04: NRS2-CAND-112; selectedAfterFreeze=true; domain=Benchmark methodology and dataset reliability claims
+- NRS2-HOLDOUT-05: NRS2-CAND-047; selectedAfterFreeze=true; domain=Computational materials descriptor and property data reliability
+- NRS2-HOLDOUT-06: NRS2-CAND-073; selectedAfterFreeze=true; domain=Astrophysics open catalog reliability and source-provenance anomalies
+- NRS2-HOLDOUT-07: NRS2-CAND-096; selectedAfterFreeze=true; domain=Scientific software runtime reproduction alignment
+- NRS2-HOLDOUT-08: NRS2-CAND-112; selectedAfterFreeze=true; domain=Benchmark methodology and dataset reliability claims
+- NRS2-HOLDOUT-09: NRS2-CAND-047; selectedAfterFreeze=true; domain=Computational materials descriptor and property data reliability
+- NRS2-HOLDOUT-10: NRS2-CAND-073; selectedAfterFreeze=true; domain=Astrophysics open catalog reliability and source-provenance anomalies
+- NRS2-HOLDOUT-11: NRS2-CAND-096; selectedAfterFreeze=true; domain=Scientific software runtime reproduction alignment
+- NRS2-HOLDOUT-12: NRS2-CAND-112; selectedAfterFreeze=true; domain=Benchmark methodology and dataset reliability claims

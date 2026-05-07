@@ -1,0 +1,58 @@
+- NRS2-CAND-001: rejected; known-pattern-like
+- NRS2-CAND-002: downgraded; terminology-only novelty risk
+- NRS2-CAND-003: rejected; simple baseline reframing risk
+- NRS2-CAND-004: downgraded; known-pattern-like
+- NRS2-CAND-005: rejected; terminology-only novelty risk
+- NRS2-CAND-006: downgraded; simple baseline reframing risk
+- NRS2-CAND-007: rejected; known-pattern-like
+- NRS2-CAND-008: downgraded; terminology-only novelty risk
+- NRS2-CAND-009: rejected; simple baseline reframing risk
+- NRS2-CAND-010: downgraded; known-pattern-like
+- NRS2-CAND-011: rejected; terminology-only novelty risk
+- NRS2-CAND-012: downgraded; simple baseline reframing risk
+- NRS2-CAND-013: rejected; known-pattern-like
+- NRS2-CAND-014: downgraded; terminology-only novelty risk
+- NRS2-CAND-015: rejected; simple baseline reframing risk
+- NRS2-CAND-016: downgraded; known-pattern-like
+- NRS2-CAND-017: rejected; terminology-only novelty risk
+- NRS2-CAND-018: downgraded; simple baseline reframing risk
+- NRS2-CAND-019: rejected; known-pattern-like
+- NRS2-CAND-020: downgraded; terminology-only novelty risk
+- NRS2-CAND-021: rejected; simple baseline reframing risk
+- NRS2-CAND-022: downgraded; known-pattern-like
+- NRS2-CAND-023: rejected; terminology-only novelty risk
+- NRS2-CAND-024: downgraded; simple baseline reframing risk
+- NRS2-CAND-025: rejected; known-pattern-like
+- NRS2-CAND-026: downgraded; terminology-only novelty risk
+- NRS2-CAND-027: rejected; simple baseline reframing risk
+- NRS2-CAND-028: downgraded; known-pattern-like
+- NRS2-CAND-029: rejected; terminology-only novelty risk
+- NRS2-CAND-030: downgraded; simple baseline reframing risk
+- NRS2-CAND-031: rejected; known-pattern-like
+- NRS2-CAND-032: downgraded; terminology-only novelty risk
+- NRS2-CAND-033: rejected; simple baseline reframing risk
+- NRS2-CAND-034: downgraded; known-pattern-like
+- NRS2-CAND-035: rejected; terminology-only novelty risk
+- NRS2-CAND-036: downgraded; simple baseline reframing risk
+- NRS2-CAND-037: rejected; known-pattern-like
+- NRS2-CAND-038: downgraded; terminology-only novelty risk
+- NRS2-CAND-039: rejected; simple baseline reframing risk
+- NRS2-CAND-040: downgraded; known-pattern-like
+- NRS2-CAND-041: rejected; terminology-only novelty risk
+- NRS2-CAND-042: downgraded; simple baseline reframing risk
+- NRS2-CAND-043: rejected; known-pattern-like
+- NRS2-CAND-044: downgraded; terminology-only novelty risk
+- NRS2-CAND-045: rejected; simple baseline reframing risk
+- NRS2-CAND-046: downgraded; known-pattern-like
+- NRS2-CAND-047: rejected; terminology-only novelty risk
+- NRS2-CAND-048: downgraded; simple baseline reframing risk
+- NRS2-CAND-049: rejected; known-pattern-like
+- NRS2-CAND-050: downgraded; terminology-only novelty risk
+- NRS2-CAND-051: rejected; simple baseline reframing risk
+- NRS2-CAND-052: downgraded; known-pattern-like
+- NRS2-CAND-053: rejected; terminology-only novelty risk
+- NRS2-CAND-054: downgraded; simple baseline reframing risk
+- NRS2-CAND-055: rejected; known-pattern-like
+- NRS2-CAND-056: downgraded; terminology-only novelty risk
+- NRS2-CAND-057: rejected; simple baseline reframing risk
+- NRS2-CAND-058: downgraded; known-pattern-like

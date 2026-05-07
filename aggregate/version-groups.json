@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T11:26:49.596Z",
+  "updatedAt": "2026-05-07T11:45:53.783Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -2198,6 +2198,118 @@
       ]
     },
     {
+      "versionGroup": "nrs2-stage01-nr004-failure-lessons",
+      "latestSlug": "nrs2-stage01-nr004-failure-lessons",
+      "resultSlugs": [
+        "nrs2-stage01-nr004-failure-lessons"
+      ]
+    },
+    {
+      "versionGroup": "nrs2-stage02-prepromotion-gate-design",
+      "latestSlug": "nrs2-stage02-prepromotion-gate-design",
+      "resultSlugs": [
+        "nrs2-stage02-prepromotion-gate-design"
+      ]
+    },
+    {
+      "versionGroup": "nrs2-stage03-domain-reselection",
+      "latestSlug": "nrs2-stage03-domain-reselection",
+      "resultSlugs": [
+        "nrs2-stage03-domain-reselection"
+      ]
+    },
+    {
+      "versionGroup": "nrs2-stage04-candidate-idea-generation",
+      "latestSlug": "nrs2-stage04-candidate-idea-generation",
+      "resultSlugs": [
+        "nrs2-stage04-candidate-idea-generation"
+      ]
+    },
+    {
+      "versionGroup": "nrs2-stage05-known-pattern-distance-filter",
+      "latestSlug": "nrs2-stage05-known-pattern-distance-filter",
+      "resultSlugs": [
+        "nrs2-stage05-known-pattern-distance-filter"
+      ]
+    },
+    {
+      "versionGroup": "nrs2-stage06-baseline-resistance-screen",
+      "latestSlug": "nrs2-stage06-baseline-resistance-screen",
+      "resultSlugs": [
+        "nrs2-stage06-baseline-resistance-screen"
+      ]
+    },
+    {
+      "versionGroup": "nrs2-stage07-rival-theory-first-screen",
+      "latestSlug": "nrs2-stage07-rival-theory-first-screen",
+      "resultSlugs": [
+        "nrs2-stage07-rival-theory-first-screen"
+      ]
+    },
+    {
+      "versionGroup": "nrs2-stage08-counterexample-scarcity-screen",
+      "latestSlug": "nrs2-stage08-counterexample-scarcity-screen",
+      "resultSlugs": [
+        "nrs2-stage08-counterexample-scarcity-screen"
+      ]
+    },
+    {
+      "versionGroup": "nrs2-stage09-candidate-promotion-freeze",
+      "latestSlug": "nrs2-stage09-candidate-promotion-freeze",
+      "resultSlugs": [
+        "nrs2-stage09-candidate-promotion-freeze"
+      ]
+    },
+    {
+      "versionGroup": "nrs2-stage10-execution-wave",
+      "latestSlug": "nrs2-stage10-execution-wave",
+      "resultSlugs": [
+        "nrs2-stage10-execution-wave"
+      ]
+    },
+    {
+      "versionGroup": "nrs2-stage11-holdout-wave",
+      "latestSlug": "nrs2-stage11-holdout-wave",
+      "resultSlugs": [
+        "nrs2-stage11-holdout-wave"
+      ]
+    },
+    {
+      "versionGroup": "nrs2-stage12-replay-and-reproduction",
+      "latestSlug": "nrs2-stage12-replay-and-reproduction",
+      "resultSlugs": [
+        "nrs2-stage12-replay-and-reproduction"
+      ]
+    },
+    {
+      "versionGroup": "nrs2-stage13-readiness-kill-week",
+      "latestSlug": "nrs2-stage13-readiness-kill-week",
+      "resultSlugs": [
+        "nrs2-stage13-readiness-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "nrs2-stage14-candidate-decision",
+      "latestSlug": "nrs2-stage14-candidate-decision",
+      "resultSlugs": [
+        "nrs2-stage14-candidate-decision"
+      ]
+    },
+    {
+      "versionGroup": "nrs2-stage15-paper-or-failure-package",
+      "latestSlug": "nrs2-stage15-paper-or-failure-package",
+      "resultSlugs": [
+        "nrs2-stage15-paper-or-failure-package"
+      ]
+    },
+    {
+      "versionGroup": "nrs2-stage16-next-frontier",
+      "latestSlug": "nrs2-stage16-next-frontier",
+      "resultSlugs": [
+        "nrs2-stage16-next-frontier"
+      ]
+    },
+    {
       "versionGroup": "patch-risk-auditor",
       "latestSlug": "patch-risk-auditor-v3",
       "resultSlugs": [
@@ -3167,5 +3279,5 @@
       ]
     }
   ],
-  "evidenceHash": "03376f16a98e1c3484fe0708c400f0e8079ca8f289bddec03f8b9cad8ed4fabc"
+  "evidenceHash": "051ccc18785d5b26d13019bcdfc6bb614abf27e03efc79061cfa082f5ee754d5"
 }

@@ -358,6 +358,22 @@ and safety scope in human-readable language.
 - [NR004 Stage 10 Final Readiness Decision](results/nr004-stage10-final-readiness-decision/) — good, autopublished, nr004-stage10-final-readiness-decision, NR-CAND-004 deep validation for readiness
 - [NR004 Stage 11 Expert Review Package Or Failure](results/nr004-stage11-external-review-package-or-failure/) — good, autopublished, nr004-stage11-external-review-package-or-failure, NR-CAND-004 deep validation for readiness
 - [NR004 Stage 12 Next Frontier](results/nr004-stage12-next-frontier/) — good, autopublished, nr004-stage12-next-frontier, NR-CAND-004 deep validation for readiness
+- [NRS2 NR004 Failure Lessons](results/nrs2-stage01-nr004-failure-lessons/) — good, autopublished, nrs2-stage01-nr004-failure-lessons, Nobel-Readiness New Candidate Search v2
+- [NRS2 Prepromotion Gate Design](results/nrs2-stage02-prepromotion-gate-design/) — good, autopublished, nrs2-stage02-prepromotion-gate-design, Nobel-Readiness New Candidate Search v2
+- [NRS2 Domain Reselection](results/nrs2-stage03-domain-reselection/) — good, autopublished, nrs2-stage03-domain-reselection, Nobel-Readiness New Candidate Search v2
+- [NRS2 Candidate Idea Generation](results/nrs2-stage04-candidate-idea-generation/) — good, autopublished, nrs2-stage04-candidate-idea-generation, Nobel-Readiness New Candidate Search v2
+- [NRS2 Known Pattern Distance Filter](results/nrs2-stage05-known-pattern-distance-filter/) — good, autopublished, nrs2-stage05-known-pattern-distance-filter, Nobel-Readiness New Candidate Search v2
+- [NRS2 Baseline Resistance Screen](results/nrs2-stage06-baseline-resistance-screen/) — good, autopublished, nrs2-stage06-baseline-resistance-screen, Nobel-Readiness New Candidate Search v2
+- [NRS2 Rival Theory First Screen](results/nrs2-stage07-rival-theory-first-screen/) — good, autopublished, nrs2-stage07-rival-theory-first-screen, Nobel-Readiness New Candidate Search v2
+- [NRS2 Counterexample Scarcity Screen](results/nrs2-stage08-counterexample-scarcity-screen/) — good, autopublished, nrs2-stage08-counterexample-scarcity-screen, Nobel-Readiness New Candidate Search v2
+- [NRS2 Candidate Promotion Freeze](results/nrs2-stage09-candidate-promotion-freeze/) — good, autopublished, nrs2-stage09-candidate-promotion-freeze, Nobel-Readiness New Candidate Search v2
+- [NRS2 Execution Wave](results/nrs2-stage10-execution-wave/) — good, autopublished, nrs2-stage10-execution-wave, Nobel-Readiness New Candidate Search v2
+- [NRS2 Holdout Wave](results/nrs2-stage11-holdout-wave/) — good, autopublished, nrs2-stage11-holdout-wave, Nobel-Readiness New Candidate Search v2
+- [NRS2 Replay and Reproduction](results/nrs2-stage12-replay-and-reproduction/) — good, autopublished, nrs2-stage12-replay-and-reproduction, Nobel-Readiness New Candidate Search v2
+- [NRS2 Readiness Kill Week](results/nrs2-stage13-readiness-kill-week/) — good, autopublished, nrs2-stage13-readiness-kill-week, Nobel-Readiness New Candidate Search v2
+- [NRS2 Candidate Decision](results/nrs2-stage14-candidate-decision/) — good, autopublished, nrs2-stage14-candidate-decision, Nobel-Readiness New Candidate Search v2
+- [NRS2 Paper or Failure Package](results/nrs2-stage15-paper-or-failure-package/) — good, autopublished, nrs2-stage15-paper-or-failure-package, Nobel-Readiness New Candidate Search v2
+- [NRS2 Next Frontier](results/nrs2-stage16-next-frontier/) — good, autopublished, nrs2-stage16-next-frontier, Nobel-Readiness New Candidate Search v2
 - [Patch Risk Auditor](results/patch-risk-auditor/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v2/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v3/) — good, showcase, patch-risk-auditor, software-supply-chain
