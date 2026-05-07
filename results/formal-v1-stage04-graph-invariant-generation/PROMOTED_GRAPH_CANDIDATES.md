@@ -1,0 +1,22 @@
+# Promoted Graph Candidates
+
+- formal-v1-promoted-001: For the generated small-graph family G_20, the degree-radius compression invariant bounds the clique/independent-set gap after leaf expansion.
+- formal-v1-promoted-002: For the generated small-graph family G_30, the degree-radius compression invariant bounds the clique/independent-set gap after leaf expansion.
+- formal-v1-promoted-003: For the generated small-graph family G_45, the degree-radius compression invariant bounds the clique/independent-set gap after leaf expansion.
+- formal-v1-promoted-004: For the generated small-graph family G_55, the degree-radius compression invariant bounds the clique/independent-set gap after leaf expansion.
+- formal-v1-promoted-005: For the generated small-graph family G_80, the degree-radius compression invariant bounds the clique/independent-set gap after leaf expansion.
+- formal-v1-promoted-006: For the generated small-graph family G_90, the degree-radius compression invariant bounds the clique/independent-set gap after leaf expansion.
+- formal-v1-promoted-007: For the generated small-graph family G_105, the degree-radius compression invariant bounds the clique/independent-set gap after leaf expansion.
+- formal-v1-promoted-008: For the generated small-graph family G_115, the degree-radius compression invariant bounds the clique/independent-set gap after leaf expansion.
+- formal-v1-promoted-009: For the generated small-graph family G_140, the degree-radius compression invariant bounds the clique/independent-set gap after leaf expansion.
+- formal-v1-promoted-010: For the generated small-graph family G_150, the degree-radius compression invariant bounds the clique/independent-set gap after leaf expansion.
+- formal-v1-promoted-011: For the generated small-graph family G_165, the degree-radius compression invariant bounds the clique/independent-set gap after leaf expansion.
+- formal-v1-promoted-012: For the generated small-graph family G_175, the degree-radius compression invariant bounds the clique/independent-set gap after leaf expansion.
+- formal-v1-promoted-013: For the generated small-graph family G_200, the degree-radius compression invariant bounds the clique/independent-set gap after leaf expansion.
+- formal-v1-promoted-014: For the generated small-graph family G_210, the degree-radius compression invariant bounds the clique/independent-set gap after leaf expansion.
+- formal-v1-promoted-015: For the generated small-graph family G_225, the degree-radius compression invariant bounds the clique/independent-set gap after leaf expansion.
+- formal-v1-promoted-016: For the generated small-graph family G_235, the degree-radius compression invariant bounds the clique/independent-set gap after leaf expansion.
+- formal-v1-promoted-017: For the generated small-graph family G_260, the degree-radius compression invariant bounds the clique/independent-set gap after leaf expansion.
+- formal-v1-promoted-018: For the generated small-graph family G_270, the degree-radius compression invariant bounds the clique/independent-set gap after leaf expansion.
+- formal-v1-promoted-019: For the generated small-graph family G_285, the degree-radius compression invariant bounds the clique/independent-set gap after leaf expansion.
+- formal-v1-promoted-020: For the generated small-graph family G_295, the degree-radius compression invariant bounds the clique/independent-set gap after leaf expansion.

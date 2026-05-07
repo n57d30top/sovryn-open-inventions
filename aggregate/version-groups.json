@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T09:39:38.483Z",
+  "updatedAt": "2026-05-07T10:23:33.341Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -1659,6 +1659,132 @@
       ]
     },
     {
+      "versionGroup": "formal-v1-stage01-failure-autopsy",
+      "latestSlug": "formal-v1-stage01-failure-autopsy",
+      "resultSlugs": [
+        "formal-v1-stage01-failure-autopsy"
+      ]
+    },
+    {
+      "versionGroup": "formal-v1-stage02-rich-generator-design",
+      "latestSlug": "formal-v1-stage02-rich-generator-design",
+      "resultSlugs": [
+        "formal-v1-stage02-rich-generator-design"
+      ]
+    },
+    {
+      "versionGroup": "formal-v1-stage03-product-implementation",
+      "latestSlug": "formal-v1-stage03-product-implementation",
+      "resultSlugs": [
+        "formal-v1-stage03-product-implementation"
+      ]
+    },
+    {
+      "versionGroup": "formal-v1-stage04-graph-invariant-generation",
+      "latestSlug": "formal-v1-stage04-graph-invariant-generation",
+      "resultSlugs": [
+        "formal-v1-stage04-graph-invariant-generation"
+      ]
+    },
+    {
+      "versionGroup": "formal-v1-stage05-recurrence-relation-generation",
+      "latestSlug": "formal-v1-stage05-recurrence-relation-generation",
+      "resultSlugs": [
+        "formal-v1-stage05-recurrence-relation-generation"
+      ]
+    },
+    {
+      "versionGroup": "formal-v1-stage06-symbolic-identity-generation",
+      "latestSlug": "formal-v1-stage06-symbolic-identity-generation",
+      "resultSlugs": [
+        "formal-v1-stage06-symbolic-identity-generation"
+      ]
+    },
+    {
+      "versionGroup": "formal-v1-stage07-automata-pattern-generation",
+      "latestSlug": "formal-v1-stage07-automata-pattern-generation",
+      "resultSlugs": [
+        "formal-v1-stage07-automata-pattern-generation"
+      ]
+    },
+    {
+      "versionGroup": "formal-v1-stage08-strong-known-triviality-filter",
+      "latestSlug": "formal-v1-stage08-strong-known-triviality-filter",
+      "resultSlugs": [
+        "formal-v1-stage08-strong-known-triviality-filter"
+      ]
+    },
+    {
+      "versionGroup": "formal-v1-stage09-conjecture-family-selection",
+      "latestSlug": "formal-v1-stage09-conjecture-family-selection",
+      "resultSlugs": [
+        "formal-v1-stage09-conjecture-family-selection"
+      ]
+    },
+    {
+      "versionGroup": "formal-v1-stage10-counterexample-search",
+      "latestSlug": "formal-v1-stage10-counterexample-search-v2",
+      "resultSlugs": [
+        "formal-v1-stage10-counterexample-search-v2"
+      ]
+    },
+    {
+      "versionGroup": "formal-v1-stage11-exhaustive-bound-and-holdout-tests",
+      "latestSlug": "formal-v1-stage11-exhaustive-bound-and-holdout-tests",
+      "resultSlugs": [
+        "formal-v1-stage11-exhaustive-bound-and-holdout-tests"
+      ]
+    },
+    {
+      "versionGroup": "formal-v1-stage12-proof-pressure-scoring",
+      "latestSlug": "formal-v1-stage12-proof-pressure-scoring",
+      "resultSlugs": [
+        "formal-v1-stage12-proof-pressure-scoring"
+      ]
+    },
+    {
+      "versionGroup": "formal-v1-stage13-proof-sketch-and-formalization-attempt",
+      "latestSlug": "formal-v1-stage13-proof-sketch-and-formalization-attempt",
+      "resultSlugs": [
+        "formal-v1-stage13-proof-sketch-and-formalization-attempt"
+      ]
+    },
+    {
+      "versionGroup": "formal-v1-stage14-independent-replay",
+      "latestSlug": "formal-v1-stage14-independent-replay",
+      "resultSlugs": [
+        "formal-v1-stage14-independent-replay"
+      ]
+    },
+    {
+      "versionGroup": "formal-v1-stage15-adversarial-kill-week",
+      "latestSlug": "formal-v1-stage15-adversarial-kill-week",
+      "resultSlugs": [
+        "formal-v1-stage15-adversarial-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "formal-v1-stage16-conjecture-decision",
+      "latestSlug": "formal-v1-stage16-conjecture-decision",
+      "resultSlugs": [
+        "formal-v1-stage16-conjecture-decision"
+      ]
+    },
+    {
+      "versionGroup": "formal-v1-stage17-paper-or-failure-package",
+      "latestSlug": "formal-v1-stage17-paper-or-failure-package",
+      "resultSlugs": [
+        "formal-v1-stage17-paper-or-failure-package"
+      ]
+    },
+    {
+      "versionGroup": "formal-v1-stage18-next-frontier",
+      "latestSlug": "formal-v1-stage18-next-frontier",
+      "resultSlugs": [
+        "formal-v1-stage18-next-frontier"
+      ]
+    },
+    {
       "versionGroup": "frontier-scientific-production-trial",
       "latestSlug": "frontier-scientific-production-trial",
       "resultSlugs": [
@@ -2775,5 +2901,5 @@
       ]
     }
   ],
-  "evidenceHash": "0f7ba60cf6b2ec101a57e926d0570e48f15f7c475f8f858156e1a78b6d8b0bb5"
+  "evidenceHash": "b604328b250c1d03cbc28e096fcc86208f7955d3881acfd416e646a2f3042b9c"
 }

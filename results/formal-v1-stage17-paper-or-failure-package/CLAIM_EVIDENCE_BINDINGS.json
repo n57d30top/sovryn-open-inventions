@@ -1,0 +1,31 @@
+{
+  "kind": "formal_v1_claim_evidence_bindings",
+  "productCommit": "41b1d5f",
+  "claims": [
+    {
+      "claim": "Rich generators produced required candidate volume.",
+      "evidence": [
+        "GRAPH_CANDIDATES.md",
+        "RECURRENCE_CANDIDATES.md",
+        "SYMBOLIC_IDENTITY_CANDIDATES.md",
+        "AUTOMATA_CANDIDATES.md"
+      ]
+    },
+    {
+      "claim": "Strong filter rejected more than half of promoted candidates.",
+      "evidence": [
+        "STRONG_FILTER_RESULTS.md"
+      ]
+    },
+    {
+      "claim": "No conjecture family survived for promotion.",
+      "evidence": [
+        "COUNTEREXAMPLES_FOUND.md",
+        "CONJECTURE_DECISION.md",
+        "KILL_WEEK_REPORT.md"
+      ]
+    }
+  ],
+  "noCheckedProofClaim": true,
+  "evidenceHash": "a11f0d69dac3c4019cedc66943ad957abcf4e7f4d284729be3950e0e8003b806"
+}

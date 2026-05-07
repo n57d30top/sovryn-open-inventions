@@ -1,0 +1,32 @@
+# Rejected Known or Trivial Candidates
+
+- formal-v1-promoted-005: duplicate_family_signature
+- formal-v1-promoted-006: duplicate_family_signature
+- formal-v1-promoted-007: duplicate_family_signature
+- formal-v1-promoted-008: duplicate_family_signature
+- formal-v1-promoted-009: duplicate_family_signature
+- formal-v1-promoted-010: duplicate_family_signature
+- formal-v1-promoted-011: duplicate_family_signature
+- formal-v1-promoted-012: duplicate_family_signature
+- formal-v1-promoted-013: duplicate_family_signature
+- formal-v1-promoted-014: duplicate_family_signature
+- formal-v1-promoted-015: duplicate_family_signature
+- formal-v1-promoted-016: duplicate_family_signature
+- formal-v1-promoted-017: duplicate_family_signature
+- formal-v1-promoted-018: duplicate_family_signature
+- formal-v1-promoted-019: duplicate_family_signature
+- formal-v1-promoted-020: duplicate_family_signature
+- formal-v1-promoted-025: duplicate_family_signature
+- formal-v1-promoted-026: duplicate_family_signature
+- formal-v1-promoted-027: duplicate_family_signature
+- formal-v1-promoted-028: duplicate_family_signature
+- formal-v1-promoted-029: duplicate_family_signature
+- formal-v1-promoted-030: duplicate_family_signature
+- formal-v1-promoted-031: duplicate_family_signature
+- formal-v1-promoted-032: duplicate_family_signature
+- formal-v1-promoted-033: duplicate_family_signature
+- formal-v1-promoted-034: duplicate_family_signature
+- formal-v1-promoted-035: duplicate_family_signature
+- formal-v1-promoted-036: duplicate_family_signature
+- formal-v1-promoted-037: duplicate_family_signature
+- formal-v1-promoted-038: duplicate_family_signature

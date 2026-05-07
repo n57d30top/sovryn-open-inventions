@@ -1,0 +1,22 @@
+# Promoted Recurrence Candidates
+
+- formal-v1-promoted-021: For recurrence family R_20, the second finite-difference transform predicts a stable modular residue class beyond the seed window.
+- formal-v1-promoted-022: For recurrence family R_30, the second finite-difference transform predicts a stable modular residue class beyond the seed window.
+- formal-v1-promoted-023: For recurrence family R_45, the second finite-difference transform predicts a stable modular residue class beyond the seed window.
+- formal-v1-promoted-024: For recurrence family R_55, the second finite-difference transform predicts a stable modular residue class beyond the seed window.
+- formal-v1-promoted-025: For recurrence family R_80, the second finite-difference transform predicts a stable modular residue class beyond the seed window.
+- formal-v1-promoted-026: For recurrence family R_90, the second finite-difference transform predicts a stable modular residue class beyond the seed window.
+- formal-v1-promoted-027: For recurrence family R_105, the second finite-difference transform predicts a stable modular residue class beyond the seed window.
+- formal-v1-promoted-028: For recurrence family R_115, the second finite-difference transform predicts a stable modular residue class beyond the seed window.
+- formal-v1-promoted-029: For recurrence family R_140, the second finite-difference transform predicts a stable modular residue class beyond the seed window.
+- formal-v1-promoted-030: For recurrence family R_150, the second finite-difference transform predicts a stable modular residue class beyond the seed window.
+- formal-v1-promoted-031: For recurrence family R_165, the second finite-difference transform predicts a stable modular residue class beyond the seed window.
+- formal-v1-promoted-032: For recurrence family R_175, the second finite-difference transform predicts a stable modular residue class beyond the seed window.
+- formal-v1-promoted-033: For recurrence family R_200, the second finite-difference transform predicts a stable modular residue class beyond the seed window.
+- formal-v1-promoted-034: For recurrence family R_210, the second finite-difference transform predicts a stable modular residue class beyond the seed window.
+- formal-v1-promoted-035: For recurrence family R_225, the second finite-difference transform predicts a stable modular residue class beyond the seed window.
+- formal-v1-promoted-036: For recurrence family R_235, the second finite-difference transform predicts a stable modular residue class beyond the seed window.
+- formal-v1-promoted-037: For recurrence family R_260, the second finite-difference transform predicts a stable modular residue class beyond the seed window.
+- formal-v1-promoted-038: For recurrence family R_270, the second finite-difference transform predicts a stable modular residue class beyond the seed window.
+- formal-v1-promoted-039: For recurrence family R_285, the second finite-difference transform predicts a stable modular residue class beyond the seed window.
+- formal-v1-promoted-040: For recurrence family R_295, the second finite-difference transform predicts a stable modular residue class beyond the seed window.

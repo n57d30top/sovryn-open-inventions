@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 397,
+    "good": 415,
     "reviewable": 6
   },
   "results": [
@@ -1237,6 +1237,96 @@
       "releaseReadinessScore": 86
     },
     {
+      "slug": "formal-v1-stage01-failure-autopsy",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "formal-v1-stage02-rich-generator-design",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "formal-v1-stage03-product-implementation",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "formal-v1-stage04-graph-invariant-generation",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "formal-v1-stage05-recurrence-relation-generation",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "formal-v1-stage06-symbolic-identity-generation",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "formal-v1-stage07-automata-pattern-generation",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "formal-v1-stage08-strong-known-triviality-filter",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "formal-v1-stage09-conjecture-family-selection",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "formal-v1-stage10-counterexample-search-v2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "formal-v1-stage11-exhaustive-bound-and-holdout-tests",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "formal-v1-stage12-proof-pressure-scoring",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "formal-v1-stage13-proof-sketch-and-formalization-attempt",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "formal-v1-stage14-independent-replay",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "formal-v1-stage15-adversarial-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "formal-v1-stage16-conjecture-decision",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "formal-v1-stage17-paper-or-failure-package",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "formal-v1-stage18-next-frontier",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
       "slug": "frontier-scientific-production-trial",
       "qualityLabel": "excellent",
       "releaseReadinessScore": 92
@@ -2047,5 +2137,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "d146621d1b81b3f1cdb787dc31a09f621a0ec35628997566924cc40e17267317"
+  "evidenceHash": "5ed72caae59ca4b69e6ea4d044d843fdd43c432976cf7db23fd33ea511003c98"
 }

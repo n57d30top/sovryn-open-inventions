@@ -1496,6 +1496,96 @@
       "customTool": null
     },
     {
+      "slug": "formal-v1-stage01-failure-autopsy",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-v1-stage02-rich-generator-design",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-v1-stage03-product-implementation",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-v1-stage04-graph-invariant-generation",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-v1-stage05-recurrence-relation-generation",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-v1-stage06-symbolic-identity-generation",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-v1-stage07-automata-pattern-generation",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-v1-stage08-strong-known-triviality-filter",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-v1-stage09-conjecture-family-selection",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-v1-stage10-counterexample-search-v2",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-v1-stage11-exhaustive-bound-and-holdout-tests",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-v1-stage12-proof-pressure-scoring",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-v1-stage13-proof-sketch-and-formalization-attempt",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-v1-stage14-independent-replay",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-v1-stage15-adversarial-kill-week",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-v1-stage16-conjecture-decision",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-v1-stage17-paper-or-failure-package",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-v1-stage18-next-frontier",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "frontier-scientific-production-trial",
       "externalPackages": [],
       "customTool": null
@@ -2351,5 +2441,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "ddb0421c09287270bf31452f9ad4dec7df8a5e3c618ef8585f0e8bcdfa98a946"
+  "evidenceHash": "887b30a559c259a98a5c95a994f274229d3cbb745d5b4a0eec881806fd9d9b82"
 }

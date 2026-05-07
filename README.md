@@ -281,6 +281,24 @@ and safety scope in human-readable language.
 - [Conjecture Decision](results/formal-stage14-conjecture-decision/) — good, autopublished, formal-stage14-conjecture-decision, formal pattern and conjecture discovery
 - [Paper or Failure Package](results/formal-stage15-paper-or-failure-package/) — good, autopublished, formal-stage15-paper-or-failure-package, formal pattern and conjecture discovery
 - [Next Frontier](results/formal-stage16-next-frontier/) — good, autopublished, formal-stage16-next-frontier, formal pattern and conjecture discovery
+- [Formal v1 Failure Autopsy](results/formal-v1-stage01-failure-autopsy/) — good, autopublished, formal-v1-stage01-failure-autopsy, formal pattern and conjecture discovery v1
+- [Rich Generator Design](results/formal-v1-stage02-rich-generator-design/) — good, autopublished, formal-v1-stage02-rich-generator-design, formal pattern and conjecture discovery v1
+- [Product Implementation](results/formal-v1-stage03-product-implementation/) — good, autopublished, formal-v1-stage03-product-implementation, formal pattern and conjecture discovery v1
+- [Graph Invariant Generation](results/formal-v1-stage04-graph-invariant-generation/) — good, autopublished, formal-v1-stage04-graph-invariant-generation, formal pattern and conjecture discovery v1
+- [Recurrence Relation Generation](results/formal-v1-stage05-recurrence-relation-generation/) — good, autopublished, formal-v1-stage05-recurrence-relation-generation, formal pattern and conjecture discovery v1
+- [Symbolic Identity Generation](results/formal-v1-stage06-symbolic-identity-generation/) — good, autopublished, formal-v1-stage06-symbolic-identity-generation, formal pattern and conjecture discovery v1
+- [Automata Pattern Generation](results/formal-v1-stage07-automata-pattern-generation/) — good, autopublished, formal-v1-stage07-automata-pattern-generation, formal pattern and conjecture discovery v1
+- [Strong Known and Triviality Filter](results/formal-v1-stage08-strong-known-triviality-filter/) — good, autopublished, formal-v1-stage08-strong-known-triviality-filter, formal pattern and conjecture discovery v1
+- [Conjecture Family Selection](results/formal-v1-stage09-conjecture-family-selection/) — good, autopublished, formal-v1-stage09-conjecture-family-selection, formal pattern and conjecture discovery v1
+- [Counterexample Search v2](results/formal-v1-stage10-counterexample-search-v2/) — good, autopublished, formal-v1-stage10-counterexample-search, formal pattern and conjecture discovery v1
+- [Exhaustive Bound and Holdout Tests](results/formal-v1-stage11-exhaustive-bound-and-holdout-tests/) — good, autopublished, formal-v1-stage11-exhaustive-bound-and-holdout-tests, formal pattern and conjecture discovery v1
+- [Proof Pressure Scoring](results/formal-v1-stage12-proof-pressure-scoring/) — good, autopublished, formal-v1-stage12-proof-pressure-scoring, formal pattern and conjecture discovery v1
+- [Proof Sketch and Formalization Attempt](results/formal-v1-stage13-proof-sketch-and-formalization-attempt/) — good, autopublished, formal-v1-stage13-proof-sketch-and-formalization-attempt, formal pattern and conjecture discovery v1
+- [Independent Replay](results/formal-v1-stage14-independent-replay/) — good, autopublished, formal-v1-stage14-independent-replay, formal pattern and conjecture discovery v1
+- [Adversarial Kill Week](results/formal-v1-stage15-adversarial-kill-week/) — good, autopublished, formal-v1-stage15-adversarial-kill-week, formal pattern and conjecture discovery v1
+- [Conjecture Decision](results/formal-v1-stage16-conjecture-decision/) — good, autopublished, formal-v1-stage16-conjecture-decision, formal pattern and conjecture discovery v1
+- [Paper or Failure Package](results/formal-v1-stage17-paper-or-failure-package/) — good, autopublished, formal-v1-stage17-paper-or-failure-package, formal pattern and conjecture discovery v1
+- [Next Frontier](results/formal-v1-stage18-next-frontier/) — good, autopublished, formal-v1-stage18-next-frontier, formal pattern and conjecture discovery v1
 - [Frontier Scientific Production Trial](results/frontier-scientific-production-trial/) — excellent, autopublished, frontier-scientific-production-trial, provenance-aware-data-quality-methods
 - [General AI Scientist v0 bounded trial](results/general-ai-scientist-v0-trial/) — good, autopublished, general-ai-scientist-v0-trial, bounded computational scientist orchestration
 - [Original Principle Discovery Grand Challenge Stage 1 Anomaly Wall](results/grandchallenge-stage1-anomaly-wall/) — good, autopublished, grandchallenge-stage1-anomaly-wall, original principle discovery grand challenge
