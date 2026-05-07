@@ -1,0 +1,309 @@
+{
+  "productCommit": "ddb815e",
+  "stages": [
+    {
+      "slug": "repo-tool-stage01-instrument-design",
+      "resultKind": "repo_instrument_design"
+    },
+    {
+      "slug": "repo-tool-stage02-product-implementation",
+      "resultKind": "repo_product_implementation"
+    },
+    {
+      "slug": "repo-tool-stage03-calibration-target-selection",
+      "resultKind": "repo_calibration_target_selection"
+    },
+    {
+      "slug": "repo-tool-stage04-calibration-run",
+      "resultKind": "repo_calibration_run"
+    },
+    {
+      "slug": "repo-tool-stage05-known-failure-controls",
+      "resultKind": "repo_known_failure_controls"
+    },
+    {
+      "slug": "repo-tool-stage06-blind-target-prediction-freeze",
+      "resultKind": "repo_blind_prediction_freeze"
+    },
+    {
+      "slug": "repo-tool-stage07-blind-target-execution-wave1",
+      "resultKind": "repo_blind_execution_wave1"
+    },
+    {
+      "slug": "repo-tool-stage08-blind-target-execution-wave2",
+      "resultKind": "repo_blind_execution_wave2"
+    },
+    {
+      "slug": "repo-tool-stage09-counterexample-and-environment-mutation-tests",
+      "resultKind": "repo_counterexample_environment_mutation_tests"
+    },
+    {
+      "slug": "repo-tool-stage10-replay-gauntlet",
+      "resultKind": "repo_replay_gauntlet"
+    },
+    {
+      "slug": "repo-tool-stage11-instrument-kill-week",
+      "resultKind": "repo_instrument_kill_week"
+    },
+    {
+      "slug": "repo-tool-stage12-final-classifier-and-next-frontier",
+      "resultKind": "repo_final_classifier_next_frontier"
+    }
+  ],
+  "blindTargets": [
+    {
+      "targetId": "repo-blind-01",
+      "packageName": "packaging",
+      "observedLabel": "replay_unstable",
+      "evidenceHash": "e75f33a9adda1d2b572c2cd01bd2617536d382b5d6ef0e08ce117d5fbc302b44"
+    },
+    {
+      "targetId": "repo-blind-02",
+      "packageName": "pyparsing",
+      "observedLabel": "runtime_reproducible",
+      "evidenceHash": "8a1ef163978fa579af2b291f39528b653d2d9db0da9e55f31cb906c0232ac3d5"
+    },
+    {
+      "targetId": "repo-blind-03",
+      "packageName": "attrs",
+      "observedLabel": "runtime_reproducible",
+      "evidenceHash": "51aaf3591418dffc73b3c51a09636585635daee978fe10642b40acd9270985b8"
+    },
+    {
+      "targetId": "repo-blind-04",
+      "packageName": "pluggy",
+      "observedLabel": "runtime_reproducible",
+      "evidenceHash": "b9f6a0ace49569b5997afcc70d7d197ec353836b84e34882fe7be68f926409f9"
+    },
+    {
+      "targetId": "repo-blind-05",
+      "packageName": "iniconfig",
+      "observedLabel": "runtime_reproducible",
+      "evidenceHash": "0f2715e9cc96f49eaad14db05509c7435d587ea352ac05f133635633d21b4f97"
+    },
+    {
+      "targetId": "repo-blind-06",
+      "packageName": "tomli",
+      "observedLabel": "runtime_reproducible",
+      "evidenceHash": "7d72f66cf440957db57cfd29e63c5e893fd549f412a2d97f261870850e635d0b"
+    },
+    {
+      "targetId": "repo-blind-07",
+      "packageName": "six",
+      "observedLabel": "runtime_reproducible",
+      "evidenceHash": "7dc9a8279d2e23a733b1a34054fc34ebe0d30e03d1e7be6c64e45fb35a1bb49b"
+    },
+    {
+      "targetId": "repo-blind-08",
+      "packageName": "python-dateutil",
+      "observedLabel": "replay_unstable",
+      "evidenceHash": "9cc1e906f034dec7a0851efa0f8513975ed5a7c4ae6dbd84f3cc9588e530789e"
+    },
+    {
+      "targetId": "repo-blind-09",
+      "packageName": "pytz",
+      "observedLabel": "runtime_reproducible",
+      "evidenceHash": "deac4e0d64ca63be9f5bfd287c07d9981483149ef92f7e3bacfa9582cf409ae1"
+    },
+    {
+      "targetId": "repo-blind-10",
+      "packageName": "tzdata",
+      "observedLabel": "runtime_reproducible",
+      "evidenceHash": "ca21557d630b81e9f22c1cc4e5ad7e05021bef883eb84304dd3c46eb14357b08"
+    },
+    {
+      "targetId": "repo-blind-11",
+      "packageName": "joblib",
+      "observedLabel": "runtime_reproducible",
+      "evidenceHash": "d9d16acbb267682152a9309152326faeef0c8a59febd56e1bc4f4134915fc6db"
+    },
+    {
+      "targetId": "repo-blind-12",
+      "packageName": "threadpoolctl",
+      "observedLabel": "runtime_reproducible",
+      "evidenceHash": "6595b7f803da6168fb811865bf84c173e8dd1a02b1a54a4f965e1cbb273363ae"
+    },
+    {
+      "targetId": "repo-blind-13",
+      "packageName": "networkx",
+      "observedLabel": "runtime_reproducible",
+      "evidenceHash": "657b18b9ef4c89c7c929c69f42ce6172bc0db7b82cc9d278e80f3eb92c0d7931"
+    },
+    {
+      "targetId": "repo-blind-14",
+      "packageName": "sympy",
+      "observedLabel": "runtime_reproducible",
+      "evidenceHash": "ad06cf22e7be4847ecf54d3725ea02cbec2e83f7b5d68682d125295f2bac3dcd"
+    },
+    {
+      "targetId": "repo-blind-15",
+      "packageName": "pint",
+      "observedLabel": "dependency_pin_fragile",
+      "evidenceHash": "f425d3881524ea8a47b2e012a1a8773ea81e9464156cbc4261451c5d3b6b15f8"
+    },
+    {
+      "targetId": "repo-blind-16",
+      "packageName": "uncertainties",
+      "observedLabel": "runtime_reproducible",
+      "evidenceHash": "8403129eb7317d9a8dbad41755fd6be404093ce37672bd93761f21eb084a2964"
+    },
+    {
+      "targetId": "repo-blind-17",
+      "packageName": "asteval",
+      "observedLabel": "runtime_reproducible",
+      "evidenceHash": "3f48fbdf6be888a0ac6afe84749db38118d4b414e1e190b55b5d6591e45cc83c"
+    },
+    {
+      "targetId": "repo-blind-18",
+      "packageName": "lmfit",
+      "observedLabel": "dependency_pin_fragile",
+      "evidenceHash": "bbd88d31efcbd2441aa55e63ad1938bdefc74b75cb86596b4d9083e0879f7af4"
+    },
+    {
+      "targetId": "repo-blind-19",
+      "packageName": "xarray",
+      "observedLabel": "dependency_pin_fragile",
+      "evidenceHash": "c0d917924458e0cfc78dbccdb78c2a1baaba7bf823873ee4fae6913a1e398b2d"
+    },
+    {
+      "targetId": "repo-blind-20",
+      "packageName": "dask",
+      "observedLabel": "dependency_pin_fragile",
+      "evidenceHash": "1e97a7a501c66e103aa7762872ae567d05aa3dbe29aeb26f9acde4cbc1dc5ce2"
+    },
+    {
+      "targetId": "repo-blind-21",
+      "packageName": "zarr",
+      "observedLabel": "dependency_pin_fragile",
+      "evidenceHash": "15a547a0c200f246872de9b52b0b9ea93515daec5ff18b987c41852ceea9d56b"
+    },
+    {
+      "targetId": "repo-blind-22",
+      "packageName": "patsy",
+      "observedLabel": "dependency_pin_fragile",
+      "evidenceHash": "f6bef4a47a2bfb586d659a146481a18f1bc015c7c679290d0000613d7e1179f1"
+    },
+    {
+      "targetId": "repo-blind-23",
+      "packageName": "jsonschema",
+      "observedLabel": "dependency_pin_fragile",
+      "evidenceHash": "1ef4eaa577943056cbe25a439d832dcd2f5d82dcdcc19659e0d0e105562f7201"
+    },
+    {
+      "targetId": "repo-blind-24",
+      "packageName": "referencing",
+      "observedLabel": "dependency_pin_fragile",
+      "evidenceHash": "fb0e65ea972f41f6812bf60984a2fdb5690185f52a710d616399f0fba27c96eb"
+    },
+    {
+      "targetId": "repo-blind-25",
+      "packageName": "fastjsonschema",
+      "observedLabel": "runtime_reproducible",
+      "evidenceHash": "2786e0f1e101f40fd7f9de1c63e1f9cc69d48fb857594b48fac6568c258d6d79"
+    },
+    {
+      "targetId": "repo-blind-26",
+      "packageName": "click",
+      "observedLabel": "runtime_reproducible",
+      "evidenceHash": "bebc789cb81456d6f9f0c8c8f374b6c01b2cea0a7f172ab5691c829718c28b03"
+    },
+    {
+      "targetId": "repo-blind-27",
+      "packageName": "typer",
+      "observedLabel": "dependency_pin_fragile",
+      "evidenceHash": "7643f9c4f2b6429e710c0b67b1688226e47930c45967a76a8324815a612f5318"
+    },
+    {
+      "targetId": "repo-blind-28",
+      "packageName": "rich",
+      "observedLabel": "runtime_reproducible",
+      "evidenceHash": "19410edb1de4a72cf878ca8cbde862fdfd2e513e58afe3a458ffe8b5c3217c6d"
+    },
+    {
+      "targetId": "repo-blind-29",
+      "packageName": "tqdm",
+      "observedLabel": "replay_unstable",
+      "evidenceHash": "9dd76735bec7299ba5cbb06baa8b546f7797b44ac0ace0ca0d22cab1f0806036"
+    },
+    {
+      "targetId": "repo-blind-30",
+      "packageName": "fsspec",
+      "observedLabel": "runtime_reproducible",
+      "evidenceHash": "3787797563b0d5cfea35957a6ec8600b8a302b10eced19a9756ee6dd98de375a"
+    },
+    {
+      "targetId": "repo-blind-31",
+      "packageName": "cloudpickle",
+      "observedLabel": "runtime_reproducible",
+      "evidenceHash": "4559d5214cc40871d13897f114043bd5b61680be1aa7ec685d032e33c785f271"
+    },
+    {
+      "targetId": "repo-blind-32",
+      "packageName": "platformdirs",
+      "observedLabel": "runtime_reproducible",
+      "evidenceHash": "c74a9ad17ca7dbd1b26da5bb10219041f44a6ece69201da7448000a6af10eed4"
+    }
+  ],
+  "replay": [
+    {
+      "targetId": "repo-blind-02",
+      "divergence": false,
+      "evidenceHash": "f9443b8b434cc782090f72a349ce2c820c0b34fb5b86a71bbc15df271410536f"
+    },
+    {
+      "targetId": "repo-blind-03",
+      "divergence": false,
+      "evidenceHash": "6c5f1f114d01dc259aef0eb72cda9eb10cb7a1467f5949525a0b9dcdd4f9ae2c"
+    },
+    {
+      "targetId": "repo-blind-04",
+      "divergence": false,
+      "evidenceHash": "291c197e4fdcc10b9ebf341ca9c6ea9601041b2a418bc0b78129c43350a8bd2b"
+    },
+    {
+      "targetId": "repo-blind-15",
+      "divergence": true,
+      "evidenceHash": "0ab40ff230fa422e9658550e6ca5cd1f8aa07cea7a13664cbeb773175437db00"
+    },
+    {
+      "targetId": "repo-blind-18",
+      "divergence": true,
+      "evidenceHash": "48a620ab0b64b2b7a72bdbe8528db320ae53d998f59bfcffe9373a0d2dd759e1"
+    },
+    {
+      "targetId": "repo-blind-01",
+      "divergence": true,
+      "evidenceHash": "95d58d6bdaee5f80d4d0b1673bd45e42ac8343d1092fdafd555e2231c3dfe5e3"
+    },
+    {
+      "targetId": "repo-blind-08",
+      "divergence": true,
+      "evidenceHash": "6c45c5d6ab762a08a06e724a12f4d6df279779709335730520db9905e657241f"
+    },
+    {
+      "targetId": "repo-blind-05",
+      "divergence": false,
+      "evidenceHash": "ef4744d88aad58741f227346cb012d30a188a938c4a0e37668570834bcf74279"
+    },
+    {
+      "targetId": "repo-blind-06",
+      "divergence": false,
+      "evidenceHash": "1ef77a6512a8f37f0a38b021f9ba48c2d4440041186c50408a70f6e101a1d733"
+    },
+    {
+      "targetId": "repo-blind-07",
+      "divergence": false,
+      "evidenceHash": "2aa0c6b756dec85d966f3e1e926872d212045def9611e165dba61e9b26fce4ee"
+    },
+    {
+      "targetId": "repo-blind-09",
+      "divergence": false,
+      "evidenceHash": "ffc701468d0a929643233d773c78e44f36330faaa34f656284e022be7559ff7e"
+    },
+    {
+      "targetId": "repo-blind-10",
+      "divergence": false,
+      "evidenceHash": "994651164842f9f8df7cc1633ecac7389bf30ba5086982ef271b3d8dd0e8d43b"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+# Selected blind targets
+
+| targetId | packageName | sourceUrl |
+| --- | --- | --- |
+| repo-blind-01 | packaging | https://pypi.org/project/packaging/ |
+| repo-blind-02 | pyparsing | https://pypi.org/project/pyparsing/ |
+| repo-blind-03 | attrs | https://pypi.org/project/attrs/ |
+| repo-blind-04 | pluggy | https://pypi.org/project/pluggy/ |
+| repo-blind-05 | iniconfig | https://pypi.org/project/iniconfig/ |
+| repo-blind-06 | tomli | https://pypi.org/project/tomli/ |
+| repo-blind-07 | six | https://pypi.org/project/six/ |
+| repo-blind-08 | python-dateutil | https://pypi.org/project/python-dateutil/ |
+| repo-blind-09 | pytz | https://pypi.org/project/pytz/ |
+| repo-blind-10 | tzdata | https://pypi.org/project/tzdata/ |
+| repo-blind-11 | joblib | https://pypi.org/project/joblib/ |
+| repo-blind-12 | threadpoolctl | https://pypi.org/project/threadpoolctl/ |
+| repo-blind-13 | networkx | https://pypi.org/project/networkx/ |
+| repo-blind-14 | sympy | https://pypi.org/project/sympy/ |
+| repo-blind-15 | pint | https://pypi.org/project/pint/ |
+| repo-blind-16 | uncertainties | https://pypi.org/project/uncertainties/ |
+| repo-blind-17 | asteval | https://pypi.org/project/asteval/ |
+| repo-blind-18 | lmfit | https://pypi.org/project/lmfit/ |
+| repo-blind-19 | xarray | https://pypi.org/project/xarray/ |
+| repo-blind-20 | dask | https://pypi.org/project/dask/ |
+| repo-blind-21 | zarr | https://pypi.org/project/zarr/ |
+| repo-blind-22 | patsy | https://pypi.org/project/patsy/ |
+| repo-blind-23 | jsonschema | https://pypi.org/project/jsonschema/ |
+| repo-blind-24 | referencing | https://pypi.org/project/referencing/ |
+| repo-blind-25 | fastjsonschema | https://pypi.org/project/fastjsonschema/ |
+| repo-blind-26 | click | https://pypi.org/project/click/ |
+| repo-blind-27 | typer | https://pypi.org/project/typer/ |
+| repo-blind-28 | rich | https://pypi.org/project/rich/ |
+| repo-blind-29 | tqdm | https://pypi.org/project/tqdm/ |
+| repo-blind-30 | fsspec | https://pypi.org/project/fsspec/ |
+| repo-blind-31 | cloudpickle | https://pypi.org/project/cloudpickle/ |
+| repo-blind-32 | platformdirs | https://pypi.org/project/platformdirs/ |

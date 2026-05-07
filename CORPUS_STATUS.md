@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 380
+Results: 392
 
 ## Lifecycle Counts
 
-- autopublished: 349
+- autopublished: 361
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -288,6 +288,18 @@ Results: 380
 - repo-stage16-candidate-decision: latest repo-stage16-candidate-decision; repo-stage16-candidate-decision
 - repo-stage17-paper-or-failure-package: latest repo-stage17-paper-or-failure-package; repo-stage17-paper-or-failure-package
 - repo-stage18-next-frontier: latest repo-stage18-next-frontier; repo-stage18-next-frontier
+- repo-tool-stage01-instrument-design: latest repo-tool-stage01-instrument-design; repo-tool-stage01-instrument-design
+- repo-tool-stage02-product-implementation: latest repo-tool-stage02-product-implementation; repo-tool-stage02-product-implementation
+- repo-tool-stage03-calibration-target-selection: latest repo-tool-stage03-calibration-target-selection; repo-tool-stage03-calibration-target-selection
+- repo-tool-stage04-calibration-run: latest repo-tool-stage04-calibration-run; repo-tool-stage04-calibration-run
+- repo-tool-stage05-known-failure-controls: latest repo-tool-stage05-known-failure-controls; repo-tool-stage05-known-failure-controls
+- repo-tool-stage06-blind-target-prediction-freeze: latest repo-tool-stage06-blind-target-prediction-freeze; repo-tool-stage06-blind-target-prediction-freeze
+- repo-tool-stage07-blind-target-execution-wave1: latest repo-tool-stage07-blind-target-execution-wave1; repo-tool-stage07-blind-target-execution-wave1
+- repo-tool-stage08-blind-target-execution-wave2: latest repo-tool-stage08-blind-target-execution-wave2; repo-tool-stage08-blind-target-execution-wave2
+- repo-tool-stage09-counterexample-and-environment-mutation-tests: latest repo-tool-stage09-counterexample-and-environment-mutation-tests; repo-tool-stage09-counterexample-and-environment-mutation-tests
+- repo-tool-stage10-replay-gauntlet: latest repo-tool-stage10-replay-gauntlet; repo-tool-stage10-replay-gauntlet
+- repo-tool-stage11-instrument-kill-week: latest repo-tool-stage11-instrument-kill-week; repo-tool-stage11-instrument-kill-week
+- repo-tool-stage12-final-classifier-and-next-frontier: latest repo-tool-stage12-final-classifier-and-next-frontier; repo-tool-stage12-final-classifier-and-next-frontier
 - scientific-dataset-reliability-self-built-lab-study: latest scientific-dataset-reliability-self-built-lab-study; scientific-dataset-reliability-self-built-lab-study
 - scientific-knowledge-engine-trial: latest scientific-knowledge-engine-trial; scientific-knowledge-engine-trial
 - search-stage01-failure-autopsy: latest search-stage01-failure-autopsy; search-stage01-failure-autopsy

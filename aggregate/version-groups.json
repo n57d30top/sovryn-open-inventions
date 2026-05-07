@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T08:19:19.825Z",
+  "updatedAt": "2026-05-07T08:59:44.433Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -1948,6 +1948,90 @@
       ]
     },
     {
+      "versionGroup": "repo-tool-stage01-instrument-design",
+      "latestSlug": "repo-tool-stage01-instrument-design",
+      "resultSlugs": [
+        "repo-tool-stage01-instrument-design"
+      ]
+    },
+    {
+      "versionGroup": "repo-tool-stage02-product-implementation",
+      "latestSlug": "repo-tool-stage02-product-implementation",
+      "resultSlugs": [
+        "repo-tool-stage02-product-implementation"
+      ]
+    },
+    {
+      "versionGroup": "repo-tool-stage03-calibration-target-selection",
+      "latestSlug": "repo-tool-stage03-calibration-target-selection",
+      "resultSlugs": [
+        "repo-tool-stage03-calibration-target-selection"
+      ]
+    },
+    {
+      "versionGroup": "repo-tool-stage04-calibration-run",
+      "latestSlug": "repo-tool-stage04-calibration-run",
+      "resultSlugs": [
+        "repo-tool-stage04-calibration-run"
+      ]
+    },
+    {
+      "versionGroup": "repo-tool-stage05-known-failure-controls",
+      "latestSlug": "repo-tool-stage05-known-failure-controls",
+      "resultSlugs": [
+        "repo-tool-stage05-known-failure-controls"
+      ]
+    },
+    {
+      "versionGroup": "repo-tool-stage06-blind-target-prediction-freeze",
+      "latestSlug": "repo-tool-stage06-blind-target-prediction-freeze",
+      "resultSlugs": [
+        "repo-tool-stage06-blind-target-prediction-freeze"
+      ]
+    },
+    {
+      "versionGroup": "repo-tool-stage07-blind-target-execution-wave1",
+      "latestSlug": "repo-tool-stage07-blind-target-execution-wave1",
+      "resultSlugs": [
+        "repo-tool-stage07-blind-target-execution-wave1"
+      ]
+    },
+    {
+      "versionGroup": "repo-tool-stage08-blind-target-execution-wave2",
+      "latestSlug": "repo-tool-stage08-blind-target-execution-wave2",
+      "resultSlugs": [
+        "repo-tool-stage08-blind-target-execution-wave2"
+      ]
+    },
+    {
+      "versionGroup": "repo-tool-stage09-counterexample-and-environment-mutation-tests",
+      "latestSlug": "repo-tool-stage09-counterexample-and-environment-mutation-tests",
+      "resultSlugs": [
+        "repo-tool-stage09-counterexample-and-environment-mutation-tests"
+      ]
+    },
+    {
+      "versionGroup": "repo-tool-stage10-replay-gauntlet",
+      "latestSlug": "repo-tool-stage10-replay-gauntlet",
+      "resultSlugs": [
+        "repo-tool-stage10-replay-gauntlet"
+      ]
+    },
+    {
+      "versionGroup": "repo-tool-stage11-instrument-kill-week",
+      "latestSlug": "repo-tool-stage11-instrument-kill-week",
+      "resultSlugs": [
+        "repo-tool-stage11-instrument-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "repo-tool-stage12-final-classifier-and-next-frontier",
+      "latestSlug": "repo-tool-stage12-final-classifier-and-next-frontier",
+      "resultSlugs": [
+        "repo-tool-stage12-final-classifier-and-next-frontier"
+      ]
+    },
+    {
       "versionGroup": "scientific-dataset-reliability-self-built-lab-study",
       "latestSlug": "scientific-dataset-reliability-self-built-lab-study",
       "resultSlugs": [
@@ -2579,5 +2663,5 @@
       ]
     }
   ],
-  "evidenceHash": "218eefdc804cadf1ffced6b03e7949c4d7a57d976d898a59a47c491ece30a6a2"
+  "evidenceHash": "0fd5981edfe1787efa0ddf484e1e92645eb4f1d6f0ee65d546e2d6606f75df1c"
 }

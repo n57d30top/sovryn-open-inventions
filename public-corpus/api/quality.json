@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 369,
+    "good": 381,
     "reviewable": 6
   },
   "results": [
@@ -1452,6 +1452,66 @@
       "releaseReadinessScore": 86
     },
     {
+      "slug": "repo-tool-stage01-instrument-design",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-tool-stage02-product-implementation",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-tool-stage03-calibration-target-selection",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-tool-stage04-calibration-run",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-tool-stage05-known-failure-controls",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-tool-stage06-blind-target-prediction-freeze",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-tool-stage07-blind-target-execution-wave1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-tool-stage08-blind-target-execution-wave2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-tool-stage09-counterexample-and-environment-mutation-tests",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-tool-stage10-replay-gauntlet",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-tool-stage11-instrument-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-tool-stage12-final-classifier-and-next-frontier",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
       "slug": "scientific-dataset-reliability-self-built-lab-study",
       "qualityLabel": "good",
       "releaseReadinessScore": 92
@@ -1907,5 +1967,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "e40694a8bbadad3ba5043693d72ea244a41d0b75e96765dc07b225c70873f8fb"
+  "evidenceHash": "4285a76ba78ac9e162d7ff4427d97be49797baa5ba0811ebc22238ed6691cbcd"
 }

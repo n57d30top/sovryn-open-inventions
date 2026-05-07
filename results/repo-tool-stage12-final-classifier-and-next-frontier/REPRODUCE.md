@@ -1,0 +1,1 @@
+Use `sovryn repo status --json`, `sovryn repo instrument run --target repo-target-001 --json`, and `sovryn repo audit --json` for Product reproduction. Public blind package probes used PyPI metadata and isolated pip install/runtime summaries.

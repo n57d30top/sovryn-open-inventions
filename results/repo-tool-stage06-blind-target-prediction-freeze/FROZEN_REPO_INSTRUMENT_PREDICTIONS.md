@@ -1,0 +1,36 @@
+# Frozen predictions
+
+| predictionId | targetId | packageName | expectedLabel | category | preregistrationHash |
+| --- | --- | --- | --- | --- | --- |
+| RRA-P01 | repo-blind-01 | packaging | runtime_reproducible | expected_runtime_reproducible | 3bd706968fc435d729251fac9b468fdbd1be7b8784cf68ed8911b54d9db3ae01 |
+| RRA-P02 | repo-blind-02 | pyparsing | runtime_reproducible | expected_runtime_reproducible | 25681feefb4f28713c0b6868cc20c87e8b3c0cf8ac90004ef58f83a5d33d2a90 |
+| RRA-P03 | repo-blind-03 | attrs | runtime_reproducible | expected_runtime_reproducible | 29127b1d049a24c71a042c3842782cb2d7feace94775496b83b00b1dca88410d |
+| RRA-P04 | repo-blind-04 | pluggy | runtime_reproducible | expected_runtime_reproducible | 68f142c524cf67d28e6ea5d5f6a9ff64532d5f97dedae947fdcc0e18948ccc03 |
+| RRA-P05 | repo-blind-05 | iniconfig | runtime_reproducible | expected_runtime_reproducible | fe1355bfb861443dce18b3027321d4c849ccdbb87695480320a604f4149931a4 |
+| RRA-P06 | repo-blind-06 | tomli | runtime_reproducible | expected_runtime_reproducible | f4663906c09f7614689b29c59807107302626b78e7ee74a7607f7056274d0be6 |
+| RRA-P07 | repo-blind-07 | six | runtime_reproducible | expected_runtime_reproducible | b28fd675636a40f16b3ec94e8571413fdd425d8578fa60e3de1cdae9472bd41c |
+| RRA-P08 | repo-blind-08 | python-dateutil | runtime_reproducible | expected_runtime_reproducible | 393a62543871355615d8d148d5f2bc64be67ee961cf1513627d16b4c8d52a045 |
+| RRA-P09 | repo-blind-09 | pytz | static_only_evidence | expected_static_runtime_mismatch | 19dcefc75674d69554d64e4e29f78431bbf773e51201891bbcfdc40059cb0ebb |
+| RRA-P10 | repo-blind-10 | tzdata | static_only_evidence | expected_static_runtime_mismatch | a9af7967238b4f4892186b255d4b798e23f9c10c07180b7565d64d71f3719c48 |
+| RRA-P11 | repo-blind-11 | joblib | static_only_evidence | expected_static_runtime_mismatch | 2b7a2f7344a49db760dc660f91cbb99c43dac317f52acb5f7a53f89666f9ffa5 |
+| RRA-P12 | repo-blind-12 | threadpoolctl | static_only_evidence | expected_static_runtime_mismatch | 56c6e454b357315f85f25ae78aa04c866ff04a876b74f616ea67540497b41ad3 |
+| RRA-P13 | repo-blind-13 | networkx | static_only_evidence | expected_static_runtime_mismatch | a170ec494e0779f9f00db09ff621f6aa289d3d815a33617e4d99aac3a8c28bcc |
+| RRA-P14 | repo-blind-14 | sympy | static_only_evidence | expected_static_runtime_mismatch | caca6c2e1d1f250b75336a4a080d73db0006e289a68a0ab3461e1cfecddd0e22 |
+| RRA-P15 | repo-blind-15 | pint | static_only_evidence | expected_static_runtime_mismatch | 4a0b3eb794f5b6f128bf5c6167b6b3bd727e852fbbfd0d3b23ce27d9ad2b91ee |
+| RRA-P16 | repo-blind-16 | uncertainties | static_only_evidence | expected_static_runtime_mismatch | b5865570fc8867367d627f9a45671bd70c13d8cc2b063248e963b69397aa1a21 |
+| RRA-P17 | repo-blind-17 | asteval | dependency_pin_fragile | expected_dependency_fragile | 2f6e2675c0d931f7bca6c6496729cc706d02050452e1876df6f7e59fbf3aac6d |
+| RRA-P18 | repo-blind-18 | lmfit | dependency_pin_fragile | expected_dependency_fragile | bf7aa01c6e69a2229e887f20afc38ad503415929526073c89e0860dd690c2a83 |
+| RRA-P19 | repo-blind-19 | xarray | dependency_pin_fragile | expected_dependency_fragile | 16572debb5e4ee384cd6040667a7a1cfd52abf8e1c97678a9be4f35ce0b4de79 |
+| RRA-P20 | repo-blind-20 | dask | dependency_pin_fragile | expected_dependency_fragile | c549aab2974e820073e05f87e0a7f835b2e187adc8130c413524b4e8d6c46a93 |
+| RRA-P21 | repo-blind-21 | zarr | dependency_pin_fragile | expected_dependency_fragile | 1e25f5da780ab9dc021f1c6c55c8c7f805436658cbcfcb86cb1e7b1c481f8138 |
+| RRA-P22 | repo-blind-22 | patsy | dependency_pin_fragile | expected_dependency_fragile | 237c1ba955b83a527df4b17a5d531a9d4b0c7cbeb77f226372d3a8fdbc53859a |
+| RRA-P23 | repo-blind-23 | jsonschema | install_only_reproducible | expected_install_or_smoke_only | a7cf38e8116895fd78d55f97d4f88c274a44930cbf47db6e4b76dc0c8298940e |
+| RRA-P24 | repo-blind-24 | referencing | install_only_reproducible | expected_install_or_smoke_only | 2c97d79eb10de2c6824941af07daed8d2c97a2fea392b18250c2532fafa56c1e |
+| RRA-P25 | repo-blind-25 | fastjsonschema | install_only_reproducible | expected_install_or_smoke_only | 17939ec17e512fe83a5baea2b2f874607d81def9bd53171ac5d3b8a8855b4b9d |
+| RRA-P26 | repo-blind-26 | click | install_only_reproducible | expected_install_or_smoke_only | c32e2f0718dea325dfc52fb9153f5acd66333135d71c3728899c0e27b6af3de0 |
+| RRA-P27 | repo-blind-27 | typer | install_only_reproducible | expected_install_or_smoke_only | 3a2333b022946ec6143f62226f934fb69c5fee739f79a5d0bccd63f82c96fa84 |
+| RRA-P28 | repo-blind-28 | rich | install_only_reproducible | expected_install_or_smoke_only | d07b59eb79b7d0b48a99209fdf7053b0979dbab73b2124c3f723859d6354d843 |
+| RRA-P29 | repo-blind-29 | tqdm | low_risk_control | low_risk_control | eb9e2d83d9767a7f06ea4ee300dd0ae84fd9baa6f239ea85f998c9ddf2f5f929 |
+| RRA-P30 | repo-blind-30 | fsspec | low_risk_control | low_risk_control | c14ee3b249633a1779c8ca51000f4bebbd2e50448b803c1c372d3c9699fd3f7f |
+| RRA-P31 | repo-blind-31 | cloudpickle | low_risk_control | low_risk_control | 0c4a8945aecf8af735eea001d25e7b7513722e5ef91e5226f0783e87bb7359b4 |
+| RRA-P32 | repo-blind-32 | platformdirs | low_risk_control | low_risk_control | f2667d3414afc858a988aad113299e88c6056d5ec1779ef4ceb4f165fe049c7a |

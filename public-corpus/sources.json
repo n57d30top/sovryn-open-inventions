@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-07T08:19:19.825Z",
+  "generatedAt": "2026-05-07T08:59:44.433Z",
   "sources": [
     {
       "resultSlug": "batch10-toolchain-kill-week",
@@ -1083,6 +1083,78 @@
       "publicOnly": true
     },
     {
+      "resultSlug": "repo-tool-stage06-blind-target-prediction-freeze",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "repo-tool-stage06-blind-target-prediction-freeze",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "repo-tool-stage06-blind-target-prediction-freeze",
+      "sourceKind": "external_package_or_tool",
+      "name": "pint",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "repo-tool-stage06-blind-target-prediction-freeze",
+      "sourceKind": "external_package_or_tool",
+      "name": "python-dateutil",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "repo-tool-stage07-blind-target-execution-wave1",
+      "sourceKind": "external_package_or_tool",
+      "name": "pint",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "repo-tool-stage07-blind-target-execution-wave1",
+      "sourceKind": "external_package_or_tool",
+      "name": "python-dateutil",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "repo-tool-stage09-counterexample-and-environment-mutation-tests",
+      "sourceKind": "external_package_or_tool",
+      "name": "pint",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "repo-tool-stage09-counterexample-and-environment-mutation-tests",
+      "sourceKind": "external_package_or_tool",
+      "name": "python-dateutil",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "repo-tool-stage10-replay-gauntlet",
+      "sourceKind": "external_package_or_tool",
+      "name": "pint",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "repo-tool-stage10-replay-gauntlet",
+      "sourceKind": "external_package_or_tool",
+      "name": "python-dateutil",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "repo-tool-stage12-final-classifier-and-next-frontier",
+      "sourceKind": "external_package_or_tool",
+      "name": "pint",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "repo-tool-stage12-final-classifier-and-next-frontier",
+      "sourceKind": "external_package_or_tool",
+      "name": "python-dateutil",
+      "publicOnly": true
+    },
+    {
       "resultSlug": "scientific-dataset-reliability-self-built-lab-study",
       "sourceKind": "external_package_or_tool",
       "name": "pandas",
@@ -1125,5 +1197,5 @@
       "publicOnly": true
     }
   ],
-  "evidenceHash": "a38941ba1736b87151ca4c7f7ee3daba142dfe01f32614388feaec4d47e567ef"
+  "evidenceHash": "d48ebe2dd90253c15f7ba6fd775f0086379c562ecd3657a2f5acecde36746101"
 }

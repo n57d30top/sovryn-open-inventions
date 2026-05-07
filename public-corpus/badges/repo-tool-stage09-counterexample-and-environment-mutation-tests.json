@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "repo-tool-stage09-counterexample-and-environment-mutation-tests",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "specific_public_evidence",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "passes_falsification",
+    "lifecycle": "autopublished",
+    "version": "repo-tool-stage09-counterexample-and-environment-mutation-tests",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "df1bac430161e36f45fd003530c6201adab9f245d33675bc0b9df0a785ee6f24"
+}

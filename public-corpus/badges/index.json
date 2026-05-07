@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-07T08:19:19.825Z",
+  "generatedAt": "2026-05-07T08:59:44.433Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -5205,6 +5205,222 @@
       "showcaseRank": null
     },
     {
+      "slug": "repo-tool-stage01-instrument-design",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "repo-tool-stage01-instrument-design",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "repo-tool-stage02-product-implementation",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "repo-tool-stage02-product-implementation",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "repo-tool-stage03-calibration-target-selection",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "repo-tool-stage03-calibration-target-selection",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "repo-tool-stage04-calibration-run",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "repo-tool-stage04-calibration-run",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "repo-tool-stage05-known-failure-controls",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "repo-tool-stage05-known-failure-controls",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "repo-tool-stage06-blind-target-prediction-freeze",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "repo-tool-stage06-blind-target-prediction-freeze",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "repo-tool-stage07-blind-target-execution-wave1",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "repo-tool-stage07-blind-target-execution-wave1",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "repo-tool-stage08-blind-target-execution-wave2",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "repo-tool-stage08-blind-target-execution-wave2",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "repo-tool-stage09-counterexample-and-environment-mutation-tests",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "repo-tool-stage09-counterexample-and-environment-mutation-tests",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "repo-tool-stage10-replay-gauntlet",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "repo-tool-stage10-replay-gauntlet",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "repo-tool-stage11-instrument-kill-week",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "repo-tool-stage11-instrument-kill-week",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "repo-tool-stage12-final-classifier-and-next-frontier",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "passes_falsification",
+        "lifecycle": "autopublished",
+        "version": "repo-tool-stage12-final-classifier-and-next-frontier",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
       "slug": "scientific-dataset-reliability-self-built-lab-study",
       "badges": {
         "quality": "good",
@@ -6843,5 +7059,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "c2f1466aefe8168b1b605f240b99bba385aad34ae63b016322ab533ac880a6dd"
+  "evidenceHash": "0e50a8643a2c5e89661a89461cc312756c570ca67c314a38229a6631a5eb08bd"
 }

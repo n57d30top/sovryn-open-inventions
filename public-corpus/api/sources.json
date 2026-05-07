@@ -1729,6 +1729,83 @@
       "customTool": null
     },
     {
+      "slug": "repo-tool-stage01-instrument-design",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "repo-tool-stage02-product-implementation",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "repo-tool-stage03-calibration-target-selection",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "repo-tool-stage04-calibration-run",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "repo-tool-stage05-known-failure-controls",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "repo-tool-stage06-blind-target-prediction-freeze",
+      "externalPackages": [
+        "numpy",
+        "pandas",
+        "pint",
+        "python-dateutil"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "repo-tool-stage07-blind-target-execution-wave1",
+      "externalPackages": [
+        "pint",
+        "python-dateutil"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "repo-tool-stage08-blind-target-execution-wave2",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "repo-tool-stage09-counterexample-and-environment-mutation-tests",
+      "externalPackages": [
+        "pint",
+        "python-dateutil"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "repo-tool-stage10-replay-gauntlet",
+      "externalPackages": [
+        "pint",
+        "python-dateutil"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "repo-tool-stage11-instrument-kill-week",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "repo-tool-stage12-final-classifier-and-next-frontier",
+      "externalPackages": [
+        "pint",
+        "python-dateutil"
+      ],
+      "customTool": null
+    },
+    {
       "slug": "scientific-dataset-reliability-self-built-lab-study",
       "externalPackages": [
         "pandas",
@@ -2194,5 +2271,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "a38941ba1736b87151ca4c7f7ee3daba142dfe01f32614388feaec4d47e567ef"
+  "evidenceHash": "d48ebe2dd90253c15f7ba6fd775f0086379c562ecd3657a2f5acecde36746101"
 }

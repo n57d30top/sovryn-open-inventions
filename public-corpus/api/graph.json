@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-07T08:19:19.825Z",
+  "generatedAt": "2026-05-07T08:59:44.433Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1737,6 +1737,78 @@
       "domain": "scientific software reproduction fragility"
     },
     {
+      "id": "result:repo-tool-stage01-instrument-design",
+      "kind": "result",
+      "label": "Instrument Design",
+      "domain": "runtime reproduction alignment instrument"
+    },
+    {
+      "id": "result:repo-tool-stage02-product-implementation",
+      "kind": "result",
+      "label": "Product Implementation",
+      "domain": "runtime reproduction alignment instrument"
+    },
+    {
+      "id": "result:repo-tool-stage03-calibration-target-selection",
+      "kind": "result",
+      "label": "Calibration Target Selection",
+      "domain": "runtime reproduction alignment instrument"
+    },
+    {
+      "id": "result:repo-tool-stage04-calibration-run",
+      "kind": "result",
+      "label": "Calibration Run",
+      "domain": "runtime reproduction alignment instrument"
+    },
+    {
+      "id": "result:repo-tool-stage05-known-failure-controls",
+      "kind": "result",
+      "label": "Known Failure Controls",
+      "domain": "runtime reproduction alignment instrument"
+    },
+    {
+      "id": "result:repo-tool-stage06-blind-target-prediction-freeze",
+      "kind": "result",
+      "label": "Blind Target Prediction Freeze",
+      "domain": "runtime reproduction alignment instrument"
+    },
+    {
+      "id": "result:repo-tool-stage07-blind-target-execution-wave1",
+      "kind": "result",
+      "label": "Blind Target Execution Wave 1",
+      "domain": "runtime reproduction alignment instrument"
+    },
+    {
+      "id": "result:repo-tool-stage08-blind-target-execution-wave2",
+      "kind": "result",
+      "label": "Blind Target Execution Wave 2",
+      "domain": "runtime reproduction alignment instrument"
+    },
+    {
+      "id": "result:repo-tool-stage09-counterexample-and-environment-mutation-tests",
+      "kind": "result",
+      "label": "Counterexample and Environment Mutation Tests",
+      "domain": "runtime reproduction alignment instrument"
+    },
+    {
+      "id": "result:repo-tool-stage10-replay-gauntlet",
+      "kind": "result",
+      "label": "Replay Gauntlet",
+      "domain": "runtime reproduction alignment instrument"
+    },
+    {
+      "id": "result:repo-tool-stage11-instrument-kill-week",
+      "kind": "result",
+      "label": "Instrument Kill Week",
+      "domain": "runtime reproduction alignment instrument"
+    },
+    {
+      "id": "result:repo-tool-stage12-final-classifier-and-next-frontier",
+      "kind": "result",
+      "label": "Final Classifier and Next Frontier",
+      "domain": "runtime reproduction alignment instrument"
+    },
+    {
       "id": "result:scientific-dataset-reliability-self-built-lab-study",
       "kind": "result",
       "label": "Provenance-aware schema-drift checks reduce false positives and improve inconsistent-record detection compared with schema-only validation baselines.",
@@ -2551,6 +2623,11 @@
       "id": "domain:scientific software reproduction fragility",
       "kind": "domain",
       "label": "scientific software reproduction fragility"
+    },
+    {
+      "id": "domain:runtime reproduction alignment instrument",
+      "kind": "domain",
+      "label": "runtime reproduction alignment instrument"
     },
     {
       "id": "domain:scientific-dataset-reliability",
@@ -4990,6 +5067,126 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:repo-tool-stage01-instrument-design",
+      "target": "domain:runtime reproduction alignment instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-tool-stage02-product-implementation",
+      "target": "domain:runtime reproduction alignment instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-tool-stage03-calibration-target-selection",
+      "target": "domain:runtime reproduction alignment instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-tool-stage04-calibration-run",
+      "target": "domain:runtime reproduction alignment instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-tool-stage05-known-failure-controls",
+      "target": "domain:runtime reproduction alignment instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-tool-stage06-blind-target-prediction-freeze",
+      "target": "domain:runtime reproduction alignment instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-tool-stage06-blind-target-prediction-freeze",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:repo-tool-stage06-blind-target-prediction-freeze",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:repo-tool-stage06-blind-target-prediction-freeze",
+      "target": "tool:pint",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:repo-tool-stage06-blind-target-prediction-freeze",
+      "target": "tool:python-dateutil",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:repo-tool-stage07-blind-target-execution-wave1",
+      "target": "domain:runtime reproduction alignment instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-tool-stage07-blind-target-execution-wave1",
+      "target": "tool:pint",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:repo-tool-stage07-blind-target-execution-wave1",
+      "target": "tool:python-dateutil",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:repo-tool-stage08-blind-target-execution-wave2",
+      "target": "domain:runtime reproduction alignment instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-tool-stage09-counterexample-and-environment-mutation-tests",
+      "target": "domain:runtime reproduction alignment instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-tool-stage09-counterexample-and-environment-mutation-tests",
+      "target": "tool:pint",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:repo-tool-stage09-counterexample-and-environment-mutation-tests",
+      "target": "tool:python-dateutil",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:repo-tool-stage10-replay-gauntlet",
+      "target": "domain:runtime reproduction alignment instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-tool-stage10-replay-gauntlet",
+      "target": "tool:pint",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:repo-tool-stage10-replay-gauntlet",
+      "target": "tool:python-dateutil",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:repo-tool-stage11-instrument-kill-week",
+      "target": "domain:runtime reproduction alignment instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-tool-stage12-final-classifier-and-next-frontier",
+      "target": "domain:runtime reproduction alignment instrument",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-tool-stage12-final-classifier-and-next-frontier",
+      "target": "tool:pint",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:repo-tool-stage12-final-classifier-and-next-frontier",
+      "target": "tool:python-dateutil",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
       "source": "result:scientific-dataset-reliability-self-built-lab-study",
       "target": "domain:scientific-dataset-reliability",
       "relation": "belongs_to_domain"
@@ -5480,5 +5677,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "f5dc630dfe4f1485ff5e599f9e7a51fd0104d70aa8058d02a1c8b3499abdc4b7"
+  "evidenceHash": "e6c318f9e927a31d7a5ea097d37f0d2899ec2ce0aefd28b517dafe919791b80c"
 }

@@ -324,6 +324,18 @@ and safety scope in human-readable language.
 - [Candidate Decision](results/repo-stage16-candidate-decision/) — good, autopublished, repo-stage16-candidate-decision, scientific software reproduction fragility
 - [Paper or Failure Package](results/repo-stage17-paper-or-failure-package/) — good, autopublished, repo-stage17-paper-or-failure-package, scientific software reproduction fragility
 - [Next Frontier](results/repo-stage18-next-frontier/) — good, autopublished, repo-stage18-next-frontier, scientific software reproduction fragility
+- [Instrument Design](results/repo-tool-stage01-instrument-design/) — good, autopublished, repo-tool-stage01-instrument-design, runtime reproduction alignment instrument
+- [Product Implementation](results/repo-tool-stage02-product-implementation/) — good, autopublished, repo-tool-stage02-product-implementation, runtime reproduction alignment instrument
+- [Calibration Target Selection](results/repo-tool-stage03-calibration-target-selection/) — good, autopublished, repo-tool-stage03-calibration-target-selection, runtime reproduction alignment instrument
+- [Calibration Run](results/repo-tool-stage04-calibration-run/) — good, autopublished, repo-tool-stage04-calibration-run, runtime reproduction alignment instrument
+- [Known Failure Controls](results/repo-tool-stage05-known-failure-controls/) — good, autopublished, repo-tool-stage05-known-failure-controls, runtime reproduction alignment instrument
+- [Blind Target Prediction Freeze](results/repo-tool-stage06-blind-target-prediction-freeze/) — good, autopublished, repo-tool-stage06-blind-target-prediction-freeze, runtime reproduction alignment instrument
+- [Blind Target Execution Wave 1](results/repo-tool-stage07-blind-target-execution-wave1/) — good, autopublished, repo-tool-stage07-blind-target-execution-wave1, runtime reproduction alignment instrument
+- [Blind Target Execution Wave 2](results/repo-tool-stage08-blind-target-execution-wave2/) — good, autopublished, repo-tool-stage08-blind-target-execution-wave2, runtime reproduction alignment instrument
+- [Counterexample and Environment Mutation Tests](results/repo-tool-stage09-counterexample-and-environment-mutation-tests/) — good, autopublished, repo-tool-stage09-counterexample-and-environment-mutation-tests, runtime reproduction alignment instrument
+- [Replay Gauntlet](results/repo-tool-stage10-replay-gauntlet/) — good, autopublished, repo-tool-stage10-replay-gauntlet, runtime reproduction alignment instrument
+- [Instrument Kill Week](results/repo-tool-stage11-instrument-kill-week/) — good, autopublished, repo-tool-stage11-instrument-kill-week, runtime reproduction alignment instrument
+- [Final Classifier and Next Frontier](results/repo-tool-stage12-final-classifier-and-next-frontier/) — good, autopublished, repo-tool-stage12-final-classifier-and-next-frontier, runtime reproduction alignment instrument
 - [Provenance-aware schema-drift checks reduce false positives and improve inconsistent-record detection compared with schema-only validation baselines.](results/scientific-dataset-reliability-self-built-lab-study/) — good, showcase_science, scientific-dataset-reliability-self-built-lab-study, scientific-dataset-reliability
 - [Scientific Knowledge Engine Trial](results/scientific-knowledge-engine-trial/) — good, autopublished, scientific-knowledge-engine-trial, scientific-knowledge-engine
 - [Candidate Failure Autopsy](results/search-stage01-failure-autopsy/) — good, autopublished, search-stage01-failure-autopsy, candidate rejection and new discovery search

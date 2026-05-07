@@ -2603,6 +2603,114 @@
       "pushed": false
     },
     {
+      "slug": "repo-tool-stage01-instrument-design",
+      "path": "results/repo-tool-stage01-instrument-design",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "repo-tool-stage01-instrument-design",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "repo-tool-stage02-product-implementation",
+      "path": "results/repo-tool-stage02-product-implementation",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "repo-tool-stage02-product-implementation",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "repo-tool-stage03-calibration-target-selection",
+      "path": "results/repo-tool-stage03-calibration-target-selection",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "repo-tool-stage03-calibration-target-selection",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "repo-tool-stage04-calibration-run",
+      "path": "results/repo-tool-stage04-calibration-run",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "repo-tool-stage04-calibration-run",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "repo-tool-stage05-known-failure-controls",
+      "path": "results/repo-tool-stage05-known-failure-controls",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "repo-tool-stage05-known-failure-controls",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "repo-tool-stage06-blind-target-prediction-freeze",
+      "path": "results/repo-tool-stage06-blind-target-prediction-freeze",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "repo-tool-stage06-blind-target-prediction-freeze",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "repo-tool-stage07-blind-target-execution-wave1",
+      "path": "results/repo-tool-stage07-blind-target-execution-wave1",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "repo-tool-stage07-blind-target-execution-wave1",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "repo-tool-stage08-blind-target-execution-wave2",
+      "path": "results/repo-tool-stage08-blind-target-execution-wave2",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "repo-tool-stage08-blind-target-execution-wave2",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "repo-tool-stage09-counterexample-and-environment-mutation-tests",
+      "path": "results/repo-tool-stage09-counterexample-and-environment-mutation-tests",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "repo-tool-stage09-counterexample-and-environment-mutation-tests",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "repo-tool-stage10-replay-gauntlet",
+      "path": "results/repo-tool-stage10-replay-gauntlet",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "repo-tool-stage10-replay-gauntlet",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "repo-tool-stage11-instrument-kill-week",
+      "path": "results/repo-tool-stage11-instrument-kill-week",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "repo-tool-stage11-instrument-kill-week",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "repo-tool-stage12-final-classifier-and-next-frontier",
+      "path": "results/repo-tool-stage12-final-classifier-and-next-frontier",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "repo-tool-stage12-final-classifier-and-next-frontier",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "scientific-dataset-reliability-self-built-lab-study",
       "path": "results/scientific-dataset-reliability-self-built-lab-study",
       "status": "autopublished",
@@ -3422,5 +3530,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "670ce931a78e616f789639f53b1ecd9f47d6f96be367ffa37a4430ae77826e11"
+  "evidenceHash": "17967eb73ded790d0fe3d13e316d76162db997d982e0cc626aae6827beec6ff1"
 }

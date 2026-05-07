@@ -1,0 +1,34 @@
+# Calibration targets
+
+| targetId | expectedLabel | stratum |
+| --- | --- | --- |
+| repo-target-001 | runtime_reproducible | runtime_reproducible |
+| repo-target-002 | install_only_reproducible | runtime_reproducible |
+| repo-target-003 | static_only_evidence | runtime_reproducible |
+| repo-target-004 | dependency_pin_fragile | runtime_reproducible |
+| repo-target-005 | dynamic_test_mismatch | runtime_reproducible |
+| repo-target-006 | hidden_data_dependency | install_only |
+| repo-target-007 | example_missing | install_only |
+| repo-target-008 | docs_overclaim | install_only |
+| repo-target-009 | smoke_only_success | install_only |
+| repo-target-010 | replay_unstable | install_only |
+| repo-target-011 | low_risk_control | static_only |
+| repo-target-012 | inconclusive | static_only |
+| repo-target-013 | runtime_reproducible | static_only |
+| repo-target-014 | install_only_reproducible | static_only |
+| repo-target-015 | static_only_evidence | static_only |
+| repo-target-016 | dependency_pin_fragile | dependency_fragile |
+| repo-target-017 | dynamic_test_mismatch | dependency_fragile |
+| repo-target-018 | hidden_data_dependency | dependency_fragile |
+| repo-target-019 | example_missing | dependency_fragile |
+| repo-target-020 | docs_overclaim | dependency_fragile |
+| repo-target-021 | smoke_only_success | smoke_or_example_missing |
+| repo-target-022 | replay_unstable | smoke_or_example_missing |
+| repo-target-023 | low_risk_control | smoke_or_example_missing |
+| repo-target-024 | inconclusive | smoke_or_example_missing |
+| repo-target-025 | runtime_reproducible | smoke_or_example_missing |
+| repo-target-026 | install_only_reproducible | replay_unstable_or_inconclusive |
+| repo-target-027 | static_only_evidence | replay_unstable_or_inconclusive |
+| repo-target-028 | dependency_pin_fragile | replay_unstable_or_inconclusive |
+| repo-target-029 | dynamic_test_mismatch | replay_unstable_or_inconclusive |
+| repo-target-030 | hidden_data_dependency | replay_unstable_or_inconclusive |

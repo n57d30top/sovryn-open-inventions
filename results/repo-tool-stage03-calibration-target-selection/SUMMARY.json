@@ -1,0 +1,31 @@
+{
+  "kind": "repo_calibration_target_selection_summary",
+  "slug": "repo-tool-stage03-calibration-target-selection",
+  "title": "Calibration Target Selection",
+  "resultKind": "repo_calibration_target_selection",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 86,
+  "evidenceStrengthScore": 86,
+  "reproducibilityScore": 86,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 92,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "passes_falsification",
+  "baselineComparisonPresent": true,
+  "domain": "runtime reproduction alignment instrument",
+  "scientificQuestion": "Can runtime reproduction alignment distinguish real repository runtime reproducibility from static tests/docs evidence?",
+  "humanReadableSummary": "Selected 30 calibration targets from prior repo-style fixtures with known expected labels; this was calibration, not blind validation.",
+  "disclaimer": "Bounded computational repository reproduction instrument result only. It does not claim external validation, breakthrough discovery, universal reproducibility, legal validity, medical validity, unsafe capability, or external adoption.",
+  "productCommit": "ddb815e",
+  "metrics": {
+    "calibrationTargets": 30,
+    "strata": 6
+  },
+  "evidenceHash": "dc00d36b958be4afa01d643e3aaacfb03145cdcea8ad9bd454705c0f9b987a18"
+}

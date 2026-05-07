@@ -1,0 +1,32 @@
+{
+  "kind": "repo_instrument_design_summary",
+  "slug": "repo-tool-stage01-instrument-design",
+  "title": "Instrument Design",
+  "resultKind": "repo_instrument_design",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 86,
+  "evidenceStrengthScore": 86,
+  "reproducibilityScore": 86,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 92,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "passes_falsification",
+  "baselineComparisonPresent": true,
+  "domain": "runtime reproduction alignment instrument",
+  "scientificQuestion": "Can runtime reproduction alignment distinguish real repository runtime reproducibility from static tests/docs evidence?",
+  "humanReadableSummary": "Designed Runtime Reproduction Alignment Instrument v0 labels, evidence fields, falsifiers, downgrade rules, and no-overclaim boundaries.",
+  "disclaimer": "Bounded computational repository reproduction instrument result only. It does not claim external validation, breakthrough discovery, universal reproducibility, legal validity, medical validity, unsafe capability, or external adoption.",
+  "productCommit": "ddb815e",
+  "metrics": {
+    "labelsDefined": 12,
+    "requiredEvidenceFamilies": 8,
+    "falsifierFamilies": 12
+  },
+  "evidenceHash": "3a77a2ad77367f94b526586c59c04ffb89255628b17aa7c8ea599c648e4a8a0c"
+}

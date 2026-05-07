@@ -1,0 +1,1 @@
+Known failure controls covered install-only, static-only, dependency fragile, dynamic mismatch, hidden data dependency, example missing, docs overclaim, smoke-only, replay unstable, low-risk control, and inconclusive labels.

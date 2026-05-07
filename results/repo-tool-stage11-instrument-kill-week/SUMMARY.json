@@ -1,0 +1,33 @@
+{
+  "kind": "repo_instrument_kill_week_summary",
+  "slug": "repo-tool-stage11-instrument-kill-week",
+  "title": "Instrument Kill Week",
+  "resultKind": "repo_instrument_kill_week",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 86,
+  "evidenceStrengthScore": 86,
+  "reproducibilityScore": 86,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 92,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "passes_falsification",
+  "baselineComparisonPresent": true,
+  "domain": "runtime reproduction alignment instrument",
+  "scientificQuestion": "Can runtime reproduction alignment distinguish real repository runtime reproducibility from static tests/docs evidence?",
+  "humanReadableSummary": "Attacked calibration, blind execution, controls, counterexamples, mutations, and replay evidence. The instrument survived as useful but not validation-ready.",
+  "disclaimer": "Bounded computational repository reproduction instrument result only. It does not claim external validation, breakthrough discovery, universal reproducibility, legal validity, medical validity, unsafe capability, or external adoption.",
+  "productCommit": "ddb815e",
+  "metrics": {
+    "attackedComponents": 60,
+    "downgradedOrNarrowed": 15,
+    "preserved": 15,
+    "majorLimitations": 8
+  },
+  "evidenceHash": "c6cd3a9f6d760dd1f85454bb759dff94e5f1fd270d73ffbef6d4945334cb776a"
+}

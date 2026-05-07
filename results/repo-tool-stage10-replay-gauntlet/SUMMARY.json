@@ -1,0 +1,32 @@
+{
+  "kind": "repo_replay_gauntlet_summary",
+  "slug": "repo-tool-stage10-replay-gauntlet",
+  "title": "Replay Gauntlet",
+  "resultKind": "repo_replay_gauntlet",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 86,
+  "evidenceStrengthScore": 86,
+  "reproducibilityScore": 86,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 92,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "passes_falsification",
+  "baselineComparisonPresent": true,
+  "domain": "runtime reproduction alignment instrument",
+  "scientificQuestion": "Can runtime reproduction alignment distinguish real repository runtime reproducibility from static tests/docs evidence?",
+  "humanReadableSummary": "Replayed 12 decisive repo reproduction decisions in fresh package install targets. Replay caveats remain material and block validation-ready status.",
+  "disclaimer": "Bounded computational repository reproduction instrument result only. It does not claim external validation, breakthrough discovery, universal reproducibility, legal validity, medical validity, unsafe capability, or external adoption.",
+  "productCommit": "ddb815e",
+  "metrics": {
+    "replayTargets": 12,
+    "replayAttempts": 12,
+    "replayDivergencesOrCaveats": 4
+  },
+  "evidenceHash": "ec602f5b4f23d4e6085049dfa20636ef88b704e0a0d1b010024644841cbcbc56"
+}

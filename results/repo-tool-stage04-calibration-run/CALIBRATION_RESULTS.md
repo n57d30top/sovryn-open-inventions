@@ -1,0 +1,34 @@
+# Calibration results
+
+| targetId | expectedLabel | predictedLabel | confidence | outcome |
+| --- | --- | --- | --- | --- |
+| repo-target-001 | runtime_reproducible | runtime_reproducible | 0.86 | match |
+| repo-target-002 | install_only_reproducible | install_only_reproducible | 0.69 | match |
+| repo-target-003 | static_only_evidence | static_only_evidence | 0.76 | match |
+| repo-target-004 | dependency_pin_fragile | dependency_pin_fragile | 0.74 | match |
+| repo-target-005 | dynamic_test_mismatch | dynamic_test_mismatch | 0.77 | match |
+| repo-target-006 | hidden_data_dependency | hidden_data_dependency | 0.8 | match |
+| repo-target-007 | example_missing | example_missing | 0.66 | match |
+| repo-target-008 | docs_overclaim | docs_overclaim | 0.79 | match |
+| repo-target-009 | smoke_only_success | smoke_only_success | 0.7 | match |
+| repo-target-010 | replay_unstable | replay_unstable | 0.78 | match |
+| repo-target-011 | low_risk_control | low_risk_control | 0.84 | match |
+| repo-target-012 | inconclusive | inconclusive | 0.48 | match |
+| repo-target-013 | runtime_reproducible | runtime_reproducible | 0.86 | match |
+| repo-target-014 | install_only_reproducible | install_only_reproducible | 0.69 | match |
+| repo-target-015 | static_only_evidence | static_only_evidence | 0.76 | match |
+| repo-target-016 | dependency_pin_fragile | dependency_pin_fragile | 0.74 | match |
+| repo-target-017 | dynamic_test_mismatch | dynamic_test_mismatch | 0.77 | match |
+| repo-target-018 | hidden_data_dependency | hidden_data_dependency | 0.8 | match |
+| repo-target-019 | example_missing | example_missing | 0.66 | match |
+| repo-target-020 | docs_overclaim | docs_overclaim | 0.79 | match |
+| repo-target-021 | smoke_only_success | smoke_only_success | 0.7 | match |
+| repo-target-022 | replay_unstable | replay_unstable | 0.78 | match |
+| repo-target-023 | low_risk_control | low_risk_control | 0.84 | match |
+| repo-target-024 | inconclusive | inconclusive | 0.48 | match |
+| repo-target-025 | runtime_reproducible | runtime_reproducible | 0.86 | match |
+| repo-target-026 | install_only_reproducible | install_only_reproducible | 0.69 | match |
+| repo-target-027 | static_only_evidence | static_only_evidence | 0.76 | match |
+| repo-target-028 | dependency_pin_fragile | dependency_pin_fragile | 0.74 | match |
+| repo-target-029 | dynamic_test_mismatch | dynamic_test_mismatch | 0.77 | match |
+| repo-target-030 | hidden_data_dependency | hidden_data_dependency | 0.8 | match |

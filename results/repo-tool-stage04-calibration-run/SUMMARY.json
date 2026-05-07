@@ -1,0 +1,33 @@
+{
+  "kind": "repo_calibration_run_summary",
+  "slug": "repo-tool-stage04-calibration-run",
+  "title": "Calibration Run",
+  "resultKind": "repo_calibration_run",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 86,
+  "evidenceStrengthScore": 86,
+  "reproducibilityScore": 86,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 92,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "passes_falsification",
+  "baselineComparisonPresent": true,
+  "domain": "runtime reproduction alignment instrument",
+  "scientificQuestion": "Can runtime reproduction alignment distinguish real repository runtime reproducibility from static tests/docs evidence?",
+  "humanReadableSummary": "Ran the instrument on 30 calibration targets. Known-case calibration matched expected fixture labels while preserving downgrade rules.",
+  "disclaimer": "Bounded computational repository reproduction instrument result only. It does not claim external validation, breakthrough discovery, universal reproducibility, legal validity, medical validity, unsafe capability, or external adoption.",
+  "productCommit": "ddb815e",
+  "metrics": {
+    "calibrationTargetsRun": 30,
+    "directMatches": 30,
+    "falseRuntimeReproducible": 0,
+    "thresholdRevisionApplied": "none_before_blind_freeze"
+  },
+  "evidenceHash": "07e94927f42c5f25364349694bf055a0b1a45a71cd18d0e4571452145ec3d0ab"
+}
