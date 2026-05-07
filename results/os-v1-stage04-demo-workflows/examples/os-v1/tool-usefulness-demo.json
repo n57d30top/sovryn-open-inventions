@@ -1,0 +1,10 @@
+{
+  "id": "tool-usefulness-demo",
+  "title": "Tool Usefulness Demo",
+  "targetClass": "tool_usefulness",
+  "input": "A public tool claim, README, and minimal usage example.",
+  "command": "sovryn route plan --target tool-usefulness-demo --json && sovryn route execute --target tool-usefulness-demo --json",
+  "package": "tool usefulness brief with static scan, route decision, and caveats",
+  "interpretation": "Use the output to identify whether the tool has enough public evidence for a quick usefulness read.",
+  "limitations": "Does not certify production fitness."
+}

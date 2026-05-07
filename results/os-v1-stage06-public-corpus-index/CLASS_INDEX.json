@@ -1,0 +1,98 @@
+{
+  "claim_review": {
+    "targetClass": "claim_review",
+    "status": "passing",
+    "route": "claim_safety_review",
+    "targets": 30,
+    "routeErrors": 1,
+    "packageCount": 12,
+    "avgAcceleration": 11.42,
+    "evidenceCompleteness": 0.89,
+    "packageCompleteness": 0.91,
+    "readinessLabel": "class_level_candidate"
+  },
+  "tool_usefulness": {
+    "targetClass": "tool_usefulness",
+    "status": "passing",
+    "route": "static_scan_only",
+    "targets": 30,
+    "routeErrors": 1,
+    "packageCount": 12,
+    "avgAcceleration": 11.73,
+    "evidenceCompleteness": 0.88,
+    "packageCompleteness": 0.9,
+    "readinessLabel": "class_level_candidate"
+  },
+  "dataset_audit": {
+    "targetClass": "dataset_audit",
+    "status": "passing",
+    "route": "dataset_audit",
+    "targets": 30,
+    "routeErrors": 2,
+    "packageCount": 12,
+    "avgAcceleration": 10.58,
+    "evidenceCompleteness": 0.86,
+    "packageCompleteness": 0.89,
+    "readinessLabel": "class_level_candidate"
+  },
+  "benchmark_protocol_audit": {
+    "targetClass": "benchmark_protocol_audit",
+    "status": "passing",
+    "route": "benchmark_protocol_audit",
+    "targets": 30,
+    "routeErrors": 2,
+    "packageCount": 12,
+    "avgAcceleration": 10.24,
+    "evidenceCompleteness": 0.85,
+    "packageCompleteness": 0.88,
+    "readinessLabel": "class_level_candidate"
+  },
+  "scientific_public_data_triage": {
+    "targetClass": "scientific_public_data_triage",
+    "status": "passing",
+    "route": "dataset_audit",
+    "targets": 30,
+    "routeErrors": 1,
+    "packageCount": 12,
+    "avgAcceleration": 10.35,
+    "evidenceCompleteness": 0.86,
+    "packageCompleteness": 0.88,
+    "readinessLabel": "class_level_candidate"
+  },
+  "repo_package_reproduction": {
+    "targetClass": "repo_package_reproduction",
+    "status": "partial",
+    "route": "runtime_reproduction",
+    "targets": 30,
+    "routeErrors": 4,
+    "packageCount": 12,
+    "avgAcceleration": 9.31,
+    "evidenceCompleteness": 0.84,
+    "packageCompleteness": 0.86,
+    "readinessLabel": "partial_class"
+  },
+  "formal_counterexample": {
+    "targetClass": "formal_counterexample",
+    "status": "partial",
+    "route": "formal_counterexample",
+    "targets": 30,
+    "routeErrors": 3,
+    "packageCount": 12,
+    "avgAcceleration": 9.08,
+    "evidenceCompleteness": 0.85,
+    "packageCompleteness": 0.87,
+    "readinessLabel": "partial_class"
+  },
+  "temporal_evaluation": {
+    "targetClass": "temporal_evaluation",
+    "status": "partial",
+    "route": "temporal_evaluation",
+    "targets": 30,
+    "routeErrors": 4,
+    "packageCount": 12,
+    "avgAcceleration": 8.91,
+    "evidenceCompleteness": 0.84,
+    "packageCompleteness": 0.86,
+    "readinessLabel": "partial_class"
+  }
+}

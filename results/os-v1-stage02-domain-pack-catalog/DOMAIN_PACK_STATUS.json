@@ -1,0 +1,134 @@
+{
+  "kind": "domain_pack_status",
+  "packs": {
+    "claim_review": {
+      "class": "claim_review",
+      "status": "passing",
+      "route": "claim_safety_review",
+      "evidenceRequired": [
+        "target classification",
+        "minimum evidence policy",
+        "route result",
+        "limitations",
+        "public-safe package"
+      ],
+      "exampleCommand": "sovryn route plan --target claim-review-example --json && sovryn route execute --target claim-review-example --json",
+      "publicPackageTemplate": "claim_review_evidence_package",
+      "limitations": "bounded class-level candidate only",
+      "readinessLabel": "class_level_candidate"
+    },
+    "tool_usefulness": {
+      "class": "tool_usefulness",
+      "status": "passing",
+      "route": "static_scan_only",
+      "evidenceRequired": [
+        "target classification",
+        "minimum evidence policy",
+        "route result",
+        "limitations",
+        "public-safe package"
+      ],
+      "exampleCommand": "sovryn route plan --target tool-usefulness-example --json && sovryn route execute --target tool-usefulness-example --json",
+      "publicPackageTemplate": "tool_usefulness_evidence_package",
+      "limitations": "bounded class-level candidate only",
+      "readinessLabel": "class_level_candidate"
+    },
+    "dataset_audit": {
+      "class": "dataset_audit",
+      "status": "passing",
+      "route": "dataset_audit",
+      "evidenceRequired": [
+        "target classification",
+        "minimum evidence policy",
+        "route result",
+        "limitations",
+        "public-safe package"
+      ],
+      "exampleCommand": "sovryn route plan --target dataset-audit-example --json && sovryn route execute --target dataset-audit-example --json",
+      "publicPackageTemplate": "dataset_audit_evidence_package",
+      "limitations": "bounded class-level candidate only",
+      "readinessLabel": "class_level_candidate"
+    },
+    "benchmark_protocol_audit": {
+      "class": "benchmark_protocol_audit",
+      "status": "passing",
+      "route": "benchmark_protocol_audit",
+      "evidenceRequired": [
+        "target classification",
+        "minimum evidence policy",
+        "route result",
+        "limitations",
+        "public-safe package"
+      ],
+      "exampleCommand": "sovryn route plan --target benchmark-protocol-audit-example --json && sovryn route execute --target benchmark-protocol-audit-example --json",
+      "publicPackageTemplate": "benchmark_protocol_audit_evidence_package",
+      "limitations": "bounded class-level candidate only",
+      "readinessLabel": "class_level_candidate"
+    },
+    "scientific_public_data_triage": {
+      "class": "scientific_public_data_triage",
+      "status": "passing",
+      "route": "dataset_audit",
+      "evidenceRequired": [
+        "target classification",
+        "minimum evidence policy",
+        "route result",
+        "limitations",
+        "public-safe package"
+      ],
+      "exampleCommand": "sovryn route plan --target scientific-public-data-triage-example --json && sovryn route execute --target scientific-public-data-triage-example --json",
+      "publicPackageTemplate": "scientific_public_data_triage_evidence_package",
+      "limitations": "bounded class-level candidate only",
+      "readinessLabel": "class_level_candidate"
+    },
+    "repo_package_reproduction": {
+      "class": "repo_package_reproduction",
+      "status": "partial",
+      "route": "runtime_reproduction",
+      "evidenceRequired": [
+        "target classification",
+        "minimum evidence policy",
+        "route result",
+        "limitations",
+        "public-safe package"
+      ],
+      "exampleCommand": "sovryn route plan --target repo-package-reproduction-example --json && sovryn route execute --target repo-package-reproduction-example --json",
+      "publicPackageTemplate": "repo_package_reproduction_evidence_package",
+      "limitations": "partial class requiring hardening",
+      "readinessLabel": "partial_class"
+    },
+    "formal_counterexample": {
+      "class": "formal_counterexample",
+      "status": "partial",
+      "route": "formal_counterexample",
+      "evidenceRequired": [
+        "target classification",
+        "minimum evidence policy",
+        "route result",
+        "limitations",
+        "public-safe package"
+      ],
+      "exampleCommand": "sovryn route plan --target formal-counterexample-example --json && sovryn route execute --target formal-counterexample-example --json",
+      "publicPackageTemplate": "formal_counterexample_evidence_package",
+      "limitations": "partial class requiring hardening",
+      "readinessLabel": "partial_class"
+    },
+    "temporal_evaluation": {
+      "class": "temporal_evaluation",
+      "status": "partial",
+      "route": "temporal_evaluation",
+      "evidenceRequired": [
+        "target classification",
+        "minimum evidence policy",
+        "route result",
+        "limitations",
+        "public-safe package"
+      ],
+      "exampleCommand": "sovryn route plan --target temporal-evaluation-example --json && sovryn route execute --target temporal-evaluation-example --json",
+      "publicPackageTemplate": "temporal_evaluation_evidence_package",
+      "limitations": "partial class requiring hardening",
+      "readinessLabel": "partial_class"
+    }
+  },
+  "evidenceHash": "0da9937aa80d77c63b2525be85ae555dd5d7da916511f336b0e92e5391c18096"
+}

@@ -1,0 +1,24 @@
+{
+  "claim_safety_review": [
+    "claim_review"
+  ],
+  "static_scan_only": [
+    "tool_usefulness"
+  ],
+  "dataset_audit": [
+    "dataset_audit",
+    "scientific_public_data_triage"
+  ],
+  "benchmark_protocol_audit": [
+    "benchmark_protocol_audit"
+  ],
+  "runtime_reproduction": [
+    "repo_package_reproduction"
+  ],
+  "formal_counterexample": [
+    "formal_counterexample"
+  ],
+  "temporal_evaluation": [
+    "temporal_evaluation"
+  ]
+}

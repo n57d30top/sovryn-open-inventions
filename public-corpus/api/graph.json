@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-07T13:55:07.467Z",
+  "generatedAt": "2026-05-07T14:13:08.132Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -2037,6 +2037,66 @@
       "domain": "Nobel-Readiness New Candidate Search v2"
     },
     {
+      "id": "result:os-v1-stage01-public-definition",
+      "kind": "result",
+      "label": "Public Definition",
+      "domain": "Open Verifiable Science OS v1 Candidate packaging"
+    },
+    {
+      "id": "result:os-v1-stage02-domain-pack-catalog",
+      "kind": "result",
+      "label": "Domain Pack Catalog",
+      "domain": "Open Verifiable Science OS v1 Candidate packaging"
+    },
+    {
+      "id": "result:os-v1-stage03-class-level-evidence-report",
+      "kind": "result",
+      "label": "Class-Level Evidence Report",
+      "domain": "Open Verifiable Science OS v1 Candidate packaging"
+    },
+    {
+      "id": "result:os-v1-stage04-demo-workflows",
+      "kind": "result",
+      "label": "Demo Workflows",
+      "domain": "Open Verifiable Science OS v1 Candidate packaging"
+    },
+    {
+      "id": "result:os-v1-stage05-human-readable-guide",
+      "kind": "result",
+      "label": "Human-Readable Guide",
+      "domain": "Open Verifiable Science OS v1 Candidate packaging"
+    },
+    {
+      "id": "result:os-v1-stage06-public-corpus-index",
+      "kind": "result",
+      "label": "Public Corpus Index",
+      "domain": "Open Verifiable Science OS v1 Candidate packaging"
+    },
+    {
+      "id": "result:os-v1-stage07-limitations-and-nonclaims",
+      "kind": "result",
+      "label": "Limitations and Nonclaims",
+      "domain": "Open Verifiable Science OS v1 Candidate packaging"
+    },
+    {
+      "id": "result:os-v1-stage08-readiness-audit",
+      "kind": "result",
+      "label": "Readiness Audit",
+      "domain": "Open Verifiable Science OS v1 Candidate packaging"
+    },
+    {
+      "id": "result:os-v1-stage09-release-candidate-package",
+      "kind": "result",
+      "label": "Release Candidate Package",
+      "domain": "Open Verifiable Science OS v1 Candidate packaging"
+    },
+    {
+      "id": "result:os-v1-stage10-next-frontier",
+      "kind": "result",
+      "label": "Next Frontier",
+      "domain": "Open Verifiable Science OS v1 Candidate packaging"
+    },
+    {
       "id": "result:patch-risk-auditor",
       "kind": "result",
       "label": "Patch Risk Auditor",
@@ -3461,6 +3521,11 @@
       "id": "domain:Nobel-Readiness New Candidate Search v2",
       "kind": "domain",
       "label": "Nobel-Readiness New Candidate Search v2"
+    },
+    {
+      "id": "domain:Open Verifiable Science OS v1 Candidate packaging",
+      "kind": "domain",
+      "label": "Open Verifiable Science OS v1 Candidate packaging"
     },
     {
       "id": "domain:software-supply-chain",
@@ -6145,6 +6210,56 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:os-v1-stage01-public-definition",
+      "target": "domain:Open Verifiable Science OS v1 Candidate packaging",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os-v1-stage02-domain-pack-catalog",
+      "target": "domain:Open Verifiable Science OS v1 Candidate packaging",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os-v1-stage03-class-level-evidence-report",
+      "target": "domain:Open Verifiable Science OS v1 Candidate packaging",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os-v1-stage04-demo-workflows",
+      "target": "domain:Open Verifiable Science OS v1 Candidate packaging",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os-v1-stage05-human-readable-guide",
+      "target": "domain:Open Verifiable Science OS v1 Candidate packaging",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os-v1-stage06-public-corpus-index",
+      "target": "domain:Open Verifiable Science OS v1 Candidate packaging",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os-v1-stage07-limitations-and-nonclaims",
+      "target": "domain:Open Verifiable Science OS v1 Candidate packaging",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os-v1-stage08-readiness-audit",
+      "target": "domain:Open Verifiable Science OS v1 Candidate packaging",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os-v1-stage09-release-candidate-package",
+      "target": "domain:Open Verifiable Science OS v1 Candidate packaging",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:os-v1-stage10-next-frontier",
+      "target": "domain:Open Verifiable Science OS v1 Candidate packaging",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:patch-risk-auditor",
       "target": "domain:software-supply-chain",
       "relation": "belongs_to_domain"
@@ -7245,5 +7360,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "c19303f33bcc67053b4077b0798275f02ca6fc4492ea851308cad97e0d9a21c3"
+  "evidenceHash": "3ba7584ac24b162b7b1d564ccc3c9ab1aceded2acf83d0263819acb79e857574"
 }

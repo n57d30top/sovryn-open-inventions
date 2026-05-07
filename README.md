@@ -374,6 +374,16 @@ and safety scope in human-readable language.
 - [NRS2 Candidate Decision](results/nrs2-stage14-candidate-decision/) — good, autopublished, nrs2-stage14-candidate-decision, Nobel-Readiness New Candidate Search v2
 - [NRS2 Paper or Failure Package](results/nrs2-stage15-paper-or-failure-package/) — good, autopublished, nrs2-stage15-paper-or-failure-package, Nobel-Readiness New Candidate Search v2
 - [NRS2 Next Frontier](results/nrs2-stage16-next-frontier/) — good, autopublished, nrs2-stage16-next-frontier, Nobel-Readiness New Candidate Search v2
+- [Public Definition](results/os-v1-stage01-public-definition/) — good, autopublished, os-v1-stage01-public-definition, Open Verifiable Science OS v1 Candidate packaging
+- [Domain Pack Catalog](results/os-v1-stage02-domain-pack-catalog/) — good, autopublished, os-v1-stage02-domain-pack-catalog, Open Verifiable Science OS v1 Candidate packaging
+- [Class-Level Evidence Report](results/os-v1-stage03-class-level-evidence-report/) — good, autopublished, os-v1-stage03-class-level-evidence-report, Open Verifiable Science OS v1 Candidate packaging
+- [Demo Workflows](results/os-v1-stage04-demo-workflows/) — good, autopublished, os-v1-stage04-demo-workflows, Open Verifiable Science OS v1 Candidate packaging
+- [Human-Readable Guide](results/os-v1-stage05-human-readable-guide/) — good, autopublished, os-v1-stage05-human-readable-guide, Open Verifiable Science OS v1 Candidate packaging
+- [Public Corpus Index](results/os-v1-stage06-public-corpus-index/) — good, autopublished, os-v1-stage06-public-corpus-index, Open Verifiable Science OS v1 Candidate packaging
+- [Limitations and Nonclaims](results/os-v1-stage07-limitations-and-nonclaims/) — good, autopublished, os-v1-stage07-limitations-and-nonclaims, Open Verifiable Science OS v1 Candidate packaging
+- [Readiness Audit](results/os-v1-stage08-readiness-audit/) — good, autopublished, os-v1-stage08-readiness-audit, Open Verifiable Science OS v1 Candidate packaging
+- [Release Candidate Package](results/os-v1-stage09-release-candidate-package/) — good, autopublished, os-v1-stage09-release-candidate-package, Open Verifiable Science OS v1 Candidate packaging
+- [Next Frontier](results/os-v1-stage10-next-frontier/) — good, autopublished, os-v1-stage10-next-frontier, Open Verifiable Science OS v1 Candidate packaging
 - [Patch Risk Auditor](results/patch-risk-auditor/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v2/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v3/) — good, showcase, patch-risk-auditor, software-supply-chain

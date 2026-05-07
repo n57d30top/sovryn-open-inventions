@@ -1,0 +1,10 @@
+{
+  "id": "scientific-public-data-triage-demo",
+  "title": "Scientific Public Data Triage Demo",
+  "targetClass": "scientific_public_data_triage",
+  "input": "A public scientific data artifact with metadata and access notes.",
+  "command": "sovryn route plan --target scientific-public-data-triage-demo --json && sovryn route package --json",
+  "package": "public-data triage package with route, evidence status, and limitations",
+  "interpretation": "Use the output to choose whether a deeper domain-specific audit is justified.",
+  "limitations": "Does not make real-world scientific validation claims."
+}

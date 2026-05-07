@@ -1,0 +1,16 @@
+{
+  "passing": [
+    "claim_review",
+    "tool_usefulness",
+    "dataset_audit",
+    "benchmark_protocol_audit",
+    "scientific_public_data_triage"
+  ],
+  "partial": [
+    "repo_package_reproduction",
+    "formal_counterexample",
+    "temporal_evaluation"
+  ],
+  "routeErrorRate": 0.075,
+  "packageQualityIssueRate": 0.0417
+}

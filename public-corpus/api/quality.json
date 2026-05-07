@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 519,
+    "good": 529,
     "reviewable": 6
   },
   "results": [
@@ -1702,6 +1702,56 @@
       "releaseReadinessScore": 86
     },
     {
+      "slug": "os-v1-stage01-public-definition",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 89
+    },
+    {
+      "slug": "os-v1-stage02-domain-pack-catalog",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 89
+    },
+    {
+      "slug": "os-v1-stage03-class-level-evidence-report",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 89
+    },
+    {
+      "slug": "os-v1-stage04-demo-workflows",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 89
+    },
+    {
+      "slug": "os-v1-stage05-human-readable-guide",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 89
+    },
+    {
+      "slug": "os-v1-stage06-public-corpus-index",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 89
+    },
+    {
+      "slug": "os-v1-stage07-limitations-and-nonclaims",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 89
+    },
+    {
+      "slug": "os-v1-stage08-readiness-audit",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 93
+    },
+    {
+      "slug": "os-v1-stage09-release-candidate-package",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 93
+    },
+    {
+      "slug": "os-v1-stage10-next-frontier",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 89
+    },
+    {
       "slug": "patch-risk-auditor",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
@@ -2657,5 +2707,5 @@
       "releaseReadinessScore": 86
     }
   ],
-  "evidenceHash": "4bb9394b615c2a753ea26888454402f7974062e99a15d486977ead4211034f2f"
+  "evidenceHash": "e6c73fd749a987716dc3091f6ce1f223245a194ac5f8e7e6cc84f4eb3a941c85"
 }

@@ -1,0 +1,44 @@
+{
+  "root": "results/os-v1-stage09-release-candidate-package",
+  "includedStages": [
+    "os-v1-stage01-public-definition",
+    "os-v1-stage02-domain-pack-catalog",
+    "os-v1-stage03-class-level-evidence-report",
+    "os-v1-stage04-demo-workflows",
+    "os-v1-stage05-human-readable-guide",
+    "os-v1-stage06-public-corpus-index",
+    "os-v1-stage07-limitations-and-nonclaims",
+    "os-v1-stage08-readiness-audit",
+    "os-v1-stage09-release-candidate-package",
+    "os-v1-stage10-next-frontier"
+  ],
+  "docs": [
+    "OPEN_VERIFIABLE_SCIENCE_OS_V1.md",
+    "DOMAIN_PACK_CATALOG.md",
+    "CLASS_LEVEL_EVIDENCE_REPORT.md",
+    "DEMO_WORKFLOWS.md",
+    "docs/GETTING_STARTED_OS_V1.md",
+    "PUBLIC_CORPUS_INDEX.json",
+    "LIMITATIONS_AND_NONCLAIMS.md"
+  ],
+  "examples": [
+    "examples/os-v1/claim-review-demo.json",
+    "examples/os-v1/tool-usefulness-demo.json",
+    "examples/os-v1/dataset-audit-demo.json",
+    "examples/os-v1/benchmark-protocol-demo.json",
+    "examples/os-v1/scientific-public-data-triage-demo.json"
+  ],
+  "passingClasses": [
+    "claim_review",
+    "tool_usefulness",
+    "dataset_audit",
+    "benchmark_protocol_audit",
+    "scientific_public_data_triage"
+  ],
+  "partialClasses": [
+    "repo_package_reproduction",
+    "formal_counterexample",
+    "temporal_evaluation"
+  ],
+  "evidenceHash": "648d6c8c303ae377d6a425b79b286f9d25486c9e13c0190ce8721c802723a108"
+}

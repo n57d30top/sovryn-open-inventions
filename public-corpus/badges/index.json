@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-07T13:55:07.467Z",
+  "generatedAt": "2026-05-07T14:13:08.132Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -6105,6 +6105,186 @@
       "showcaseRank": null
     },
     {
+      "slug": "os-v1-stage01-public-definition",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "os_v1_candidate_packaged_with_nonclaims",
+        "lifecycle": "autopublished",
+        "version": "os-v1-stage01-public-definition",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os-v1-stage02-domain-pack-catalog",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "os_v1_candidate_packaged_with_nonclaims",
+        "lifecycle": "autopublished",
+        "version": "os-v1-stage02-domain-pack-catalog",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os-v1-stage03-class-level-evidence-report",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "os_v1_candidate_packaged_with_nonclaims",
+        "lifecycle": "autopublished",
+        "version": "os-v1-stage03-class-level-evidence-report",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os-v1-stage04-demo-workflows",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "os_v1_candidate_packaged_with_nonclaims",
+        "lifecycle": "autopublished",
+        "version": "os-v1-stage04-demo-workflows",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os-v1-stage05-human-readable-guide",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "os_v1_candidate_packaged_with_nonclaims",
+        "lifecycle": "autopublished",
+        "version": "os-v1-stage05-human-readable-guide",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os-v1-stage06-public-corpus-index",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "os_v1_candidate_packaged_with_nonclaims",
+        "lifecycle": "autopublished",
+        "version": "os-v1-stage06-public-corpus-index",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os-v1-stage07-limitations-and-nonclaims",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "os_v1_candidate_packaged_with_nonclaims",
+        "lifecycle": "autopublished",
+        "version": "os-v1-stage07-limitations-and-nonclaims",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os-v1-stage08-readiness-audit",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "os_v1_candidate_packaged_with_nonclaims",
+        "lifecycle": "autopublished",
+        "version": "os-v1-stage08-readiness-audit",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os-v1-stage09-release-candidate-package",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "os_v1_candidate_packaged_with_nonclaims",
+        "lifecycle": "autopublished",
+        "version": "os-v1-stage09-release-candidate-package",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os-v1-stage10-next-frontier",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "os_v1_candidate_packaged_with_nonclaims",
+        "lifecycle": "autopublished",
+        "version": "os-v1-stage10-next-frontier",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
       "slug": "patch-risk-auditor",
       "badges": {
         "quality": "good",
@@ -9543,5 +9723,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "c5032e386295cd47bbb7c20f4a9cad9031175b83cfdaadf9f361939d57090f57"
+  "evidenceHash": "eb2192fe86311c554a66471d0c653c298e0399a8e453cedb0f5151a080f71122"
 }

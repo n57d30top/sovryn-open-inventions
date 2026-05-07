@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "os-v1-stage09-release-candidate-package",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "specific_public_evidence",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "os_v1_candidate_packaged_with_nonclaims",
+    "lifecycle": "autopublished",
+    "version": "os-v1-stage09-release-candidate-package",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "b7db92b9e3a706742c7912e81c554978c423b853d4ddf76e48b7af8eaebdbc7c"
+}

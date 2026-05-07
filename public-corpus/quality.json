@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-07T13:55:07.467Z",
+  "generatedAt": "2026-05-07T14:13:08.132Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 519,
+    "good": 529,
     "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 499,
+    "autopublished": 509,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -4761,6 +4761,146 @@
       "specificityScore": 93
     },
     {
+      "slug": "os-v1-stage01-public-definition",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "os-v1-stage01-public-definition",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 89,
+      "evidenceStrengthScore": 86,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 95
+    },
+    {
+      "slug": "os-v1-stage02-domain-pack-catalog",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "os-v1-stage02-domain-pack-catalog",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 89,
+      "evidenceStrengthScore": 86,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 95
+    },
+    {
+      "slug": "os-v1-stage03-class-level-evidence-report",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "os-v1-stage03-class-level-evidence-report",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 89,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 95
+    },
+    {
+      "slug": "os-v1-stage04-demo-workflows",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "os-v1-stage04-demo-workflows",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 89,
+      "evidenceStrengthScore": 86,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 95
+    },
+    {
+      "slug": "os-v1-stage05-human-readable-guide",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "os-v1-stage05-human-readable-guide",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 89,
+      "evidenceStrengthScore": 86,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 95
+    },
+    {
+      "slug": "os-v1-stage06-public-corpus-index",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "os-v1-stage06-public-corpus-index",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 89,
+      "evidenceStrengthScore": 86,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 95
+    },
+    {
+      "slug": "os-v1-stage07-limitations-and-nonclaims",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "os-v1-stage07-limitations-and-nonclaims",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 89,
+      "evidenceStrengthScore": 86,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 95
+    },
+    {
+      "slug": "os-v1-stage08-readiness-audit",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "os-v1-stage08-readiness-audit",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 93,
+      "evidenceStrengthScore": 90,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 95
+    },
+    {
+      "slug": "os-v1-stage09-release-candidate-package",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "os-v1-stage09-release-candidate-package",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 93,
+      "evidenceStrengthScore": 86,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 95
+    },
+    {
+      "slug": "os-v1-stage10-next-frontier",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "os-v1-stage10-next-frontier",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 89,
+      "evidenceStrengthScore": 86,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 95
+    },
+    {
       "slug": "patch-risk-auditor",
       "qualityLabel": "good",
       "antiTemplateStatus": "unknown",
@@ -7435,5 +7575,5 @@
       "specificityScore": 94
     }
   ],
-  "evidenceHash": "4bb9394b615c2a753ea26888454402f7974062e99a15d486977ead4211034f2f"
+  "evidenceHash": "e6c73fd749a987716dc3091f6ce1f223245a194ac5f8e7e6cc84f4eb3a941c85"
 }

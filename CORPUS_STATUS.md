@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 530
+Results: 540
 
 ## Lifecycle Counts
 
-- autopublished: 499
+- autopublished: 509
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -340,6 +340,16 @@ Results: 530
 - nrs2-stage14-candidate-decision: latest nrs2-stage14-candidate-decision; nrs2-stage14-candidate-decision
 - nrs2-stage15-paper-or-failure-package: latest nrs2-stage15-paper-or-failure-package; nrs2-stage15-paper-or-failure-package
 - nrs2-stage16-next-frontier: latest nrs2-stage16-next-frontier; nrs2-stage16-next-frontier
+- os-v1-stage01-public-definition: latest os-v1-stage01-public-definition; os-v1-stage01-public-definition
+- os-v1-stage02-domain-pack-catalog: latest os-v1-stage02-domain-pack-catalog; os-v1-stage02-domain-pack-catalog
+- os-v1-stage03-class-level-evidence-report: latest os-v1-stage03-class-level-evidence-report; os-v1-stage03-class-level-evidence-report
+- os-v1-stage04-demo-workflows: latest os-v1-stage04-demo-workflows; os-v1-stage04-demo-workflows
+- os-v1-stage05-human-readable-guide: latest os-v1-stage05-human-readable-guide; os-v1-stage05-human-readable-guide
+- os-v1-stage06-public-corpus-index: latest os-v1-stage06-public-corpus-index; os-v1-stage06-public-corpus-index
+- os-v1-stage07-limitations-and-nonclaims: latest os-v1-stage07-limitations-and-nonclaims; os-v1-stage07-limitations-and-nonclaims
+- os-v1-stage08-readiness-audit: latest os-v1-stage08-readiness-audit; os-v1-stage08-readiness-audit
+- os-v1-stage09-release-candidate-package: latest os-v1-stage09-release-candidate-package; os-v1-stage09-release-candidate-package
+- os-v1-stage10-next-frontier: latest os-v1-stage10-next-frontier; os-v1-stage10-next-frontier
 - patch-risk-auditor: latest patch-risk-auditor-v3; patch-risk-auditor, patch-risk-auditor-v2, patch-risk-auditor-v3
 - proof-stage01-proof-route-design: latest proof-stage01-proof-route-design; proof-stage01-proof-route-design
 - proof-stage02-product-implementation: latest proof-stage02-product-implementation; proof-stage02-product-implementation

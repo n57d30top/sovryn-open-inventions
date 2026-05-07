@@ -1,0 +1,10 @@
+{
+  "id": "benchmark-protocol-demo",
+  "title": "Benchmark Protocol Audit Demo",
+  "targetClass": "benchmark_protocol_audit",
+  "input": "A benchmark protocol, scoring description, and public result table.",
+  "command": "sovryn route classify --target benchmark-protocol-demo --json && sovryn route execute --target benchmark-protocol-demo --json",
+  "package": "benchmark protocol brief with route, minimum evidence, limitations, and package status",
+  "interpretation": "Use the output to separate protocol clarity from result validity.",
+  "limitations": "Does not prove benchmark superiority."
+}

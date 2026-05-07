@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "os-v1-stage01-public-definition",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "specific_public_evidence",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "os_v1_candidate_packaged_with_nonclaims",
+    "lifecycle": "autopublished",
+    "version": "os-v1-stage01-public-definition",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "8d824e487b7ea952e3735b92d2799303915f47ea21295b78523da188b273cdf8"
+}

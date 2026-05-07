@@ -1,0 +1,18 @@
+{
+  "partialClasses": [
+    "repo_package_reproduction",
+    "formal_counterexample",
+    "temporal_evaluation"
+  ],
+  "failureModes": [
+    "route ambiguity",
+    "execution-cost burden",
+    "package caveat",
+    "benchmark-only timing estimate"
+  ],
+  "noClaimScope": [
+    "outside uptake",
+    "discovery validation",
+    "broad acceleration"
+  ]
+}

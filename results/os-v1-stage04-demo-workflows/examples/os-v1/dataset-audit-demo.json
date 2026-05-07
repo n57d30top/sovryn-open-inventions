@@ -1,0 +1,10 @@
+{
+  "id": "dataset-audit-demo",
+  "title": "Dataset Audit Demo",
+  "targetClass": "dataset_audit",
+  "input": "A safe public dataset metadata page and small sample artifact.",
+  "command": "sovryn route plan --target dataset-audit-demo --json && sovryn route execute --target dataset-audit-demo --json",
+  "package": "dataset audit package with evidence checks and failure modes",
+  "interpretation": "Use the output to identify missing metadata, quality caveats, and reproducibility blockers.",
+  "limitations": "Does not validate domain-specific scientific conclusions."
+}

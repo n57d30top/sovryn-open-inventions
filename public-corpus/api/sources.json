@@ -1961,6 +1961,56 @@
       "customTool": null
     },
     {
+      "slug": "os-v1-stage01-public-definition",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os-v1-stage02-domain-pack-catalog",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os-v1-stage03-class-level-evidence-report",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os-v1-stage04-demo-workflows",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os-v1-stage05-human-readable-guide",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os-v1-stage06-public-corpus-index",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os-v1-stage07-limitations-and-nonclaims",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os-v1-stage08-readiness-audit",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os-v1-stage09-release-candidate-package",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os-v1-stage10-next-frontier",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "patch-risk-auditor",
       "externalPackages": [
         "acorn"
@@ -2961,5 +3011,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "9d3ac2c07789a45fc91bee57103e7719c4f173811f69b5ddfa7e14057f79f06a"
+  "evidenceHash": "ad0cbf72dcd9c883f47c541c5ee4dc959e3fca49fd0258b707a2bd51e9776d91"
 }

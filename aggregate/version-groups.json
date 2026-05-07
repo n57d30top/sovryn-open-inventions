@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T13:55:07.467Z",
+  "updatedAt": "2026-05-07T14:13:08.132Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -2310,6 +2310,76 @@
       ]
     },
     {
+      "versionGroup": "os-v1-stage01-public-definition",
+      "latestSlug": "os-v1-stage01-public-definition",
+      "resultSlugs": [
+        "os-v1-stage01-public-definition"
+      ]
+    },
+    {
+      "versionGroup": "os-v1-stage02-domain-pack-catalog",
+      "latestSlug": "os-v1-stage02-domain-pack-catalog",
+      "resultSlugs": [
+        "os-v1-stage02-domain-pack-catalog"
+      ]
+    },
+    {
+      "versionGroup": "os-v1-stage03-class-level-evidence-report",
+      "latestSlug": "os-v1-stage03-class-level-evidence-report",
+      "resultSlugs": [
+        "os-v1-stage03-class-level-evidence-report"
+      ]
+    },
+    {
+      "versionGroup": "os-v1-stage04-demo-workflows",
+      "latestSlug": "os-v1-stage04-demo-workflows",
+      "resultSlugs": [
+        "os-v1-stage04-demo-workflows"
+      ]
+    },
+    {
+      "versionGroup": "os-v1-stage05-human-readable-guide",
+      "latestSlug": "os-v1-stage05-human-readable-guide",
+      "resultSlugs": [
+        "os-v1-stage05-human-readable-guide"
+      ]
+    },
+    {
+      "versionGroup": "os-v1-stage06-public-corpus-index",
+      "latestSlug": "os-v1-stage06-public-corpus-index",
+      "resultSlugs": [
+        "os-v1-stage06-public-corpus-index"
+      ]
+    },
+    {
+      "versionGroup": "os-v1-stage07-limitations-and-nonclaims",
+      "latestSlug": "os-v1-stage07-limitations-and-nonclaims",
+      "resultSlugs": [
+        "os-v1-stage07-limitations-and-nonclaims"
+      ]
+    },
+    {
+      "versionGroup": "os-v1-stage08-readiness-audit",
+      "latestSlug": "os-v1-stage08-readiness-audit",
+      "resultSlugs": [
+        "os-v1-stage08-readiness-audit"
+      ]
+    },
+    {
+      "versionGroup": "os-v1-stage09-release-candidate-package",
+      "latestSlug": "os-v1-stage09-release-candidate-package",
+      "resultSlugs": [
+        "os-v1-stage09-release-candidate-package"
+      ]
+    },
+    {
+      "versionGroup": "os-v1-stage10-next-frontier",
+      "latestSlug": "os-v1-stage10-next-frontier",
+      "resultSlugs": [
+        "os-v1-stage10-next-frontier"
+      ]
+    },
+    {
       "versionGroup": "patch-risk-auditor",
       "latestSlug": "patch-risk-auditor-v3",
       "resultSlugs": [
@@ -3629,5 +3699,5 @@
       ]
     }
   ],
-  "evidenceHash": "a4422c819bfa69fd2f2222f4e621a1e46434e6d26cdbd222e11003c318b06e53"
+  "evidenceHash": "bc27c42b4c0d8a12eda47712acabe9c01a8a32773d3e9abe2d5e7a732db5ec7e"
 }
