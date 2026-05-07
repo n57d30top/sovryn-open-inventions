@@ -2131,6 +2131,96 @@
       "customTool": null
     },
     {
+      "slug": "os16-stage01-capability-gap-map",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os16-stage02-product-hardening-implementation",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os16-stage03-temporal-v2-design",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os16-stage04-temporal-v2-validation",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os16-stage05-repo-deep-reproduction-design",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os16-stage06-repo-deep-reproduction-validation",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os16-stage07-formal-proof-route-hardening-design",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os16-stage08-formal-proof-route-validation",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os16-stage09-evidence-package-replay-coverage",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os16-stage10-route-policy-stability-check",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os16-stage11-class-level-100-percent-audit",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os16-stage12-temporal-kill-week",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os16-stage13-repo-kill-week",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os16-stage14-formal-kill-week",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os16-stage15-package-quality-kill-week",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os16-stage16-final-capability-decision",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os16-stage17-os-v1-6-release-candidate",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "os16-stage18-next-frontier",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "patch-risk-auditor",
       "externalPackages": [
         "acorn"
@@ -3131,5 +3221,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "d6c0bc0cae7b231d15552c37b78c64c81a278b02c2e25342509b9113a6d0bfe1"
+  "evidenceHash": "e429ecebdb3f5b0a9727a0255e548486b39dea323a4e9322690fcb9c1996d132"
 }

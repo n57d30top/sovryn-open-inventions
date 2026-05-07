@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 564
+Results: 582
 
 ## Lifecycle Counts
 
-- autopublished: 533
+- autopublished: 551
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -374,6 +374,24 @@ Results: 564
 - os15-stage22-os-v1-5-readiness-decision: latest os15-stage22-os-v1-5-readiness-decision; os15-stage22-os-v1-5-readiness-decision
 - os15-stage23-release-candidate-package: latest os15-stage23-release-candidate-package; os15-stage23-release-candidate-package
 - os15-stage24-next-frontier: latest os15-stage24-next-frontier; os15-stage24-next-frontier
+- os16-stage01-capability-gap-map: latest os16-stage01-capability-gap-map; os16-stage01-capability-gap-map
+- os16-stage02-product-hardening-implementation: latest os16-stage02-product-hardening-implementation; os16-stage02-product-hardening-implementation
+- os16-stage03-temporal-v2-design: latest os16-stage03-temporal-v2-design; os16-stage03-temporal-v2-design
+- os16-stage04-temporal-v2-validation: latest os16-stage04-temporal-v2-validation; os16-stage04-temporal-v2-validation
+- os16-stage05-repo-deep-reproduction-design: latest os16-stage05-repo-deep-reproduction-design; os16-stage05-repo-deep-reproduction-design
+- os16-stage06-repo-deep-reproduction-validation: latest os16-stage06-repo-deep-reproduction-validation; os16-stage06-repo-deep-reproduction-validation
+- os16-stage07-formal-proof-route-hardening-design: latest os16-stage07-formal-proof-route-hardening-design; os16-stage07-formal-proof-route-hardening-design
+- os16-stage08-formal-proof-route-validation: latest os16-stage08-formal-proof-route-validation; os16-stage08-formal-proof-route-validation
+- os16-stage09-evidence-package-replay-coverage: latest os16-stage09-evidence-package-replay-coverage; os16-stage09-evidence-package-replay-coverage
+- os16-stage10-route-policy-stability-check: latest os16-stage10-route-policy-stability-check; os16-stage10-route-policy-stability-check
+- os16-stage11-class-level-100-percent-audit: latest os16-stage11-class-level-100-percent-audit; os16-stage11-class-level-100-percent-audit
+- os16-stage12-temporal-kill-week: latest os16-stage12-temporal-kill-week; os16-stage12-temporal-kill-week
+- os16-stage13-repo-kill-week: latest os16-stage13-repo-kill-week; os16-stage13-repo-kill-week
+- os16-stage14-formal-kill-week: latest os16-stage14-formal-kill-week; os16-stage14-formal-kill-week
+- os16-stage15-package-quality-kill-week: latest os16-stage15-package-quality-kill-week; os16-stage15-package-quality-kill-week
+- os16-stage16-final-capability-decision: latest os16-stage16-final-capability-decision; os16-stage16-final-capability-decision
+- os16-stage17-os-v1-6-release-candidate: latest os16-stage17-os-v1-6-release-candidate; os16-stage17-os-v1-6-release-candidate
+- os16-stage18-next-frontier: latest os16-stage18-next-frontier; os16-stage18-next-frontier
 - patch-risk-auditor: latest patch-risk-auditor-v3; patch-risk-auditor, patch-risk-auditor-v2, patch-risk-auditor-v3
 - proof-stage01-proof-route-design: latest proof-stage01-proof-route-design; proof-stage01-proof-route-design
 - proof-stage02-product-implementation: latest proof-stage02-product-implementation; proof-stage02-product-implementation

@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T14:57:39.666Z",
+  "updatedAt": "2026-05-07T15:28:28.278Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -2548,6 +2548,132 @@
       ]
     },
     {
+      "versionGroup": "os16-stage01-capability-gap-map",
+      "latestSlug": "os16-stage01-capability-gap-map",
+      "resultSlugs": [
+        "os16-stage01-capability-gap-map"
+      ]
+    },
+    {
+      "versionGroup": "os16-stage02-product-hardening-implementation",
+      "latestSlug": "os16-stage02-product-hardening-implementation",
+      "resultSlugs": [
+        "os16-stage02-product-hardening-implementation"
+      ]
+    },
+    {
+      "versionGroup": "os16-stage03-temporal-v2-design",
+      "latestSlug": "os16-stage03-temporal-v2-design",
+      "resultSlugs": [
+        "os16-stage03-temporal-v2-design"
+      ]
+    },
+    {
+      "versionGroup": "os16-stage04-temporal-v2-validation",
+      "latestSlug": "os16-stage04-temporal-v2-validation",
+      "resultSlugs": [
+        "os16-stage04-temporal-v2-validation"
+      ]
+    },
+    {
+      "versionGroup": "os16-stage05-repo-deep-reproduction-design",
+      "latestSlug": "os16-stage05-repo-deep-reproduction-design",
+      "resultSlugs": [
+        "os16-stage05-repo-deep-reproduction-design"
+      ]
+    },
+    {
+      "versionGroup": "os16-stage06-repo-deep-reproduction-validation",
+      "latestSlug": "os16-stage06-repo-deep-reproduction-validation",
+      "resultSlugs": [
+        "os16-stage06-repo-deep-reproduction-validation"
+      ]
+    },
+    {
+      "versionGroup": "os16-stage07-formal-proof-route-hardening-design",
+      "latestSlug": "os16-stage07-formal-proof-route-hardening-design",
+      "resultSlugs": [
+        "os16-stage07-formal-proof-route-hardening-design"
+      ]
+    },
+    {
+      "versionGroup": "os16-stage08-formal-proof-route-validation",
+      "latestSlug": "os16-stage08-formal-proof-route-validation",
+      "resultSlugs": [
+        "os16-stage08-formal-proof-route-validation"
+      ]
+    },
+    {
+      "versionGroup": "os16-stage09-evidence-package-replay-coverage",
+      "latestSlug": "os16-stage09-evidence-package-replay-coverage",
+      "resultSlugs": [
+        "os16-stage09-evidence-package-replay-coverage"
+      ]
+    },
+    {
+      "versionGroup": "os16-stage10-route-policy-stability-check",
+      "latestSlug": "os16-stage10-route-policy-stability-check",
+      "resultSlugs": [
+        "os16-stage10-route-policy-stability-check"
+      ]
+    },
+    {
+      "versionGroup": "os16-stage11-class-level-100-percent-audit",
+      "latestSlug": "os16-stage11-class-level-100-percent-audit",
+      "resultSlugs": [
+        "os16-stage11-class-level-100-percent-audit"
+      ]
+    },
+    {
+      "versionGroup": "os16-stage12-temporal-kill-week",
+      "latestSlug": "os16-stage12-temporal-kill-week",
+      "resultSlugs": [
+        "os16-stage12-temporal-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "os16-stage13-repo-kill-week",
+      "latestSlug": "os16-stage13-repo-kill-week",
+      "resultSlugs": [
+        "os16-stage13-repo-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "os16-stage14-formal-kill-week",
+      "latestSlug": "os16-stage14-formal-kill-week",
+      "resultSlugs": [
+        "os16-stage14-formal-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "os16-stage15-package-quality-kill-week",
+      "latestSlug": "os16-stage15-package-quality-kill-week",
+      "resultSlugs": [
+        "os16-stage15-package-quality-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "os16-stage16-final-capability-decision",
+      "latestSlug": "os16-stage16-final-capability-decision",
+      "resultSlugs": [
+        "os16-stage16-final-capability-decision"
+      ]
+    },
+    {
+      "versionGroup": "os16-stage17-os-v1-6-release-candidate",
+      "latestSlug": "os16-stage17-os-v1-6-release-candidate",
+      "resultSlugs": [
+        "os16-stage17-os-v1-6-release-candidate"
+      ]
+    },
+    {
+      "versionGroup": "os16-stage18-next-frontier",
+      "latestSlug": "os16-stage18-next-frontier",
+      "resultSlugs": [
+        "os16-stage18-next-frontier"
+      ]
+    },
+    {
       "versionGroup": "patch-risk-auditor",
       "latestSlug": "patch-risk-auditor-v3",
       "resultSlugs": [
@@ -3867,5 +3993,5 @@
       ]
     }
   ],
-  "evidenceHash": "97f4f04e8db32b177f8d4b78a8bc4f2e07e0b2a8215ce83cfcf4d8fd118b5980"
+  "evidenceHash": "122530dfe09cfa3ece1fec89de1d47f3f7598e8a41806150fbef3870f378db47"
 }

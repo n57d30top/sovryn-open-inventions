@@ -1,0 +1,13 @@
+{
+  "kind": "os16_formal_kill_week",
+  "attackedComponentCount": 60,
+  "deepAttackCount": 60,
+  "downgradedOrRevisedCount": 15,
+  "preservedCount": 34,
+  "finalStatus": "release_grade_with_caveats",
+  "limitations": [
+    "Formal counterexample routing is not a proof-generation guarantee.",
+    "Bounded verification remains separated from checked proof."
+  ],
+  "evidenceHash": "485698a7a8e9d52b2a1af03620c3ac9397e75202ebc5c720680a30c30bdfeafe"
+}

@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-07T14:57:39.666Z",
+  "generatedAt": "2026-05-07T15:28:28.278Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -6717,6 +6717,330 @@
       "showcaseRank": null
     },
     {
+      "slug": "os16-stage01-capability-gap-map",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "capability_kill_weeks_completed",
+        "lifecycle": "autopublished",
+        "version": "os16-stage01-capability-gap-map",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os16-stage02-product-hardening-implementation",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "capability_kill_weeks_completed",
+        "lifecycle": "autopublished",
+        "version": "os16-stage02-product-hardening-implementation",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os16-stage03-temporal-v2-design",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "capability_kill_weeks_completed",
+        "lifecycle": "autopublished",
+        "version": "os16-stage03-temporal-v2-design",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os16-stage04-temporal-v2-validation",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "capability_kill_weeks_completed",
+        "lifecycle": "autopublished",
+        "version": "os16-stage04-temporal-v2-validation",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os16-stage05-repo-deep-reproduction-design",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "capability_kill_weeks_completed",
+        "lifecycle": "autopublished",
+        "version": "os16-stage05-repo-deep-reproduction-design",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os16-stage06-repo-deep-reproduction-validation",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "capability_kill_weeks_completed",
+        "lifecycle": "autopublished",
+        "version": "os16-stage06-repo-deep-reproduction-validation",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os16-stage07-formal-proof-route-hardening-design",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "capability_kill_weeks_completed",
+        "lifecycle": "autopublished",
+        "version": "os16-stage07-formal-proof-route-hardening-design",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os16-stage08-formal-proof-route-validation",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "capability_kill_weeks_completed",
+        "lifecycle": "autopublished",
+        "version": "os16-stage08-formal-proof-route-validation",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os16-stage09-evidence-package-replay-coverage",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "capability_kill_weeks_completed",
+        "lifecycle": "autopublished",
+        "version": "os16-stage09-evidence-package-replay-coverage",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os16-stage10-route-policy-stability-check",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "capability_kill_weeks_completed",
+        "lifecycle": "autopublished",
+        "version": "os16-stage10-route-policy-stability-check",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os16-stage11-class-level-100-percent-audit",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "capability_kill_weeks_completed",
+        "lifecycle": "autopublished",
+        "version": "os16-stage11-class-level-100-percent-audit",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os16-stage12-temporal-kill-week",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "capability_kill_weeks_completed",
+        "lifecycle": "autopublished",
+        "version": "os16-stage12-temporal-kill-week",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os16-stage13-repo-kill-week",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "capability_kill_weeks_completed",
+        "lifecycle": "autopublished",
+        "version": "os16-stage13-repo-kill-week",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os16-stage14-formal-kill-week",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "capability_kill_weeks_completed",
+        "lifecycle": "autopublished",
+        "version": "os16-stage14-formal-kill-week",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os16-stage15-package-quality-kill-week",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "capability_kill_weeks_completed",
+        "lifecycle": "autopublished",
+        "version": "os16-stage15-package-quality-kill-week",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os16-stage16-final-capability-decision",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "capability_kill_weeks_completed",
+        "lifecycle": "autopublished",
+        "version": "os16-stage16-final-capability-decision",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os16-stage17-os-v1-6-release-candidate",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "capability_kill_weeks_completed",
+        "lifecycle": "autopublished",
+        "version": "os16-stage17-os-v1-6-release-candidate",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "os16-stage18-next-frontier",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "capability_kill_weeks_completed",
+        "lifecycle": "autopublished",
+        "version": "os16-stage18-next-frontier",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
       "slug": "patch-risk-auditor",
       "badges": {
         "quality": "good",
@@ -10155,5 +10479,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "1cfb6eeaea5d6c08ae02b19a65c221bc8af1b52acc0a429ea0087160a367d64f"
+  "evidenceHash": "d7846ce589892b9f8f3b502c5f2720082cbc2fea64907e65045964110c9e80df"
 }

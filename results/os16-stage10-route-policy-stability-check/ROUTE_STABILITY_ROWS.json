@@ -1,0 +1,2706 @@
+{
+  "kind": "os16_route_stability_rows_public_summary",
+  "rows": [
+    {
+      "targetId": "os16-stability-0001",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "route_confidence_miscalibration",
+      "fallbackUsed": true
+    },
+    {
+      "targetId": "os16-stability-0002",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0003",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0004",
+      "targetClass": "mixed_control",
+      "predictedRoute": "unsafe_rejected",
+      "actualRoute": "unsafe_rejected",
+      "status": "unsafe_rejected",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0005",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0006",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0007",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0008",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0009",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0010",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0011",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0012",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0013",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0014",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0015",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0016",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0017",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0018",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0019",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0020",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0021",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0022",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0023",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0024",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0025",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0026",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0027",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0028",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0029",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0030",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0031",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0032",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0033",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0034",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0035",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0036",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0037",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0038",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0039",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0040",
+      "targetClass": "mixed_control",
+      "predictedRoute": "unsafe_rejected",
+      "actualRoute": "unsafe_rejected",
+      "status": "unsafe_rejected",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0041",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0042",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": true
+    },
+    {
+      "targetId": "os16-stability-0043",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0044",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0045",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0046",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0047",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0048",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "weak_public_package",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0049",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0050",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0051",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0052",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0053",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0054",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "route_confidence_miscalibration",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0055",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0056",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0057",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0058",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0059",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0060",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0061",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0062",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0063",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0064",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0065",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0066",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0067",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0068",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0069",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0070",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0071",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0072",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0073",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0074",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0075",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0076",
+      "targetClass": "mixed_control",
+      "predictedRoute": "unsafe_rejected",
+      "actualRoute": "unsafe_rejected",
+      "status": "unsafe_rejected",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0077",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0078",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0079",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0080",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0081",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0082",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0083",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": true
+    },
+    {
+      "targetId": "os16-stability-0084",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0085",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0086",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0087",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0088",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0089",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0090",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0091",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0092",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0093",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0094",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0095",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "weak_public_package",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0096",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0097",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0098",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0099",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0100",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0101",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0102",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0103",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0104",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0105",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0106",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0107",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "route_confidence_miscalibration",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0108",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0109",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0110",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0111",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0112",
+      "targetClass": "mixed_control",
+      "predictedRoute": "unsafe_rejected",
+      "actualRoute": "unsafe_rejected",
+      "status": "unsafe_rejected",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0113",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0114",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0115",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0116",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0117",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0118",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0119",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0120",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0121",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0122",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0123",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0124",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": true
+    },
+    {
+      "targetId": "os16-stability-0125",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0126",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0127",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0128",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0129",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0130",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0131",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0132",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0133",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0134",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0135",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0136",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0137",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0138",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0139",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0140",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0141",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0142",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "weak_public_package",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0143",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0144",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0145",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0146",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0147",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0148",
+      "targetClass": "mixed_control",
+      "predictedRoute": "unsafe_rejected",
+      "actualRoute": "unsafe_rejected",
+      "status": "unsafe_rejected",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0149",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0150",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0151",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0152",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0153",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0154",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0155",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0156",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0157",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0158",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0159",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0160",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "route_confidence_miscalibration",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0161",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0162",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0163",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0164",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0165",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": true
+    },
+    {
+      "targetId": "os16-stability-0166",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0167",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0168",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0169",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0170",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0171",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0172",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0173",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0174",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0175",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0176",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0177",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0178",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0179",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0180",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0181",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0182",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0183",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0184",
+      "targetClass": "mixed_control",
+      "predictedRoute": "unsafe_rejected",
+      "actualRoute": "unsafe_rejected",
+      "status": "unsafe_rejected",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0185",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0186",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0187",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0188",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0189",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "weak_public_package",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0190",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0191",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0192",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0193",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0194",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0195",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0196",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0197",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0198",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0199",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0200",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0201",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0202",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0203",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0204",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0205",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0206",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": true
+    },
+    {
+      "targetId": "os16-stability-0207",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0208",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0209",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0210",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0211",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0212",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0213",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "route_confidence_miscalibration",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0214",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0215",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0216",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0217",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0218",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0219",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0220",
+      "targetClass": "mixed_control",
+      "predictedRoute": "unsafe_rejected",
+      "actualRoute": "unsafe_rejected",
+      "status": "unsafe_rejected",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0221",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0222",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0223",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0224",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0225",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0226",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0227",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0228",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0229",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0230",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0231",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0232",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0233",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0234",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0235",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0236",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "weak_public_package",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0237",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0238",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0239",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0240",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0241",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0242",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0243",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0244",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0245",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0246",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0247",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": true
+    },
+    {
+      "targetId": "os16-stability-0248",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0249",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0250",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0251",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0252",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0253",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0254",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0255",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0256",
+      "targetClass": "mixed_control",
+      "predictedRoute": "unsafe_rejected",
+      "actualRoute": "unsafe_rejected",
+      "status": "unsafe_rejected",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0257",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0258",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0259",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0260",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0261",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0262",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0263",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0264",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0265",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0266",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "route_confidence_miscalibration",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0267",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0268",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0269",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0270",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0271",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0272",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0273",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0274",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0275",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0276",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0277",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0278",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0279",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0280",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0281",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0282",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0283",
+      "targetClass": "mixed_control",
+      "predictedRoute": "not_testable",
+      "actualRoute": "not_testable",
+      "status": "not_testable",
+      "routeError": "weak_public_package",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0284",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0285",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0286",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0287",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0288",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": true
+    },
+    {
+      "targetId": "os16-stability-0289",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0290",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0291",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0292",
+      "targetClass": "mixed_control",
+      "predictedRoute": "unsafe_rejected",
+      "actualRoute": "unsafe_rejected",
+      "status": "unsafe_rejected",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0293",
+      "targetClass": "claim_review",
+      "predictedRoute": "claim_safety_review",
+      "actualRoute": "claim_safety_review",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0294",
+      "targetClass": "tool_usefulness",
+      "predictedRoute": "static_scan_only",
+      "actualRoute": "static_scan_only",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0295",
+      "targetClass": "dataset_audit",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0296",
+      "targetClass": "benchmark_protocol_audit",
+      "predictedRoute": "benchmark_protocol_audit",
+      "actualRoute": "benchmark_protocol_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0297",
+      "targetClass": "scientific_public_data_triage",
+      "predictedRoute": "dataset_audit",
+      "actualRoute": "dataset_audit",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0298",
+      "targetClass": "repo_package_reproduction",
+      "predictedRoute": "runtime_reproduction",
+      "actualRoute": "runtime_reproduction",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0299",
+      "targetClass": "formal_counterexample",
+      "predictedRoute": "formal_counterexample",
+      "actualRoute": "formal_counterexample",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    },
+    {
+      "targetId": "os16-stability-0300",
+      "targetClass": "temporal_evaluation",
+      "predictedRoute": "temporal_evaluation",
+      "actualRoute": "temporal_evaluation",
+      "status": "executed",
+      "routeError": "none",
+      "fallbackUsed": false
+    }
+  ],
+  "evidenceHash": "0b1a928df30d38af63677ce3cf398546e1a7c343bc03c001cfab73902a3ed48a"
+}

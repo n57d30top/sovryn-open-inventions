@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "os16-stage04-temporal-v2-validation",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "specific_public_evidence",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "capability_kill_weeks_completed",
+    "lifecycle": "autopublished",
+    "version": "os16-stage04-temporal-v2-validation",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "2628c8d2aefcb1868c9da2864f6817a440f3521bc25f973c4a38fe8257333d37"
+}

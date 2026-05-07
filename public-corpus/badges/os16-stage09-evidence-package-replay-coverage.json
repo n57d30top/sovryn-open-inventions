@@ -1,0 +1,20 @@
+{
+  "kind": "public_corpus_result_badges",
+  "slug": "os16-stage09-evidence-package-replay-coverage",
+  "badges": {
+    "quality": "good",
+    "status": "autopublished",
+    "antiTemplate": "specific_public_evidence",
+    "replay": "replay-100",
+    "safety": "safety-passed",
+    "hygiene": "hygiene-passed",
+    "worker": "not-recorded",
+    "falsification": "capability_kill_weeks_completed",
+    "lifecycle": "autopublished",
+    "version": "os16-stage09-evidence-package-replay-coverage",
+    "showcase": "not-showcase"
+  },
+  "lifecycleStatus": "autopublished",
+  "showcaseRank": null,
+  "evidenceHash": "5ab6f1fad2e33fa6e80c1f3e79b37ee6f366706e8838d7bfe310f95149f2b553"
+}

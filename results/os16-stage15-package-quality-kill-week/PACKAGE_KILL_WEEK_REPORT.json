@@ -1,0 +1,13 @@
+{
+  "kind": "os16_package_quality_kill_week",
+  "attackedComponentCount": 120,
+  "deepAttackCount": 50,
+  "downgradedOrRevisedCount": 20,
+  "preservedCount": 72,
+  "finalStatus": "package_quality_passed_with_revisions",
+  "limitations": [
+    "Package quality gate uses sampled replay plus manifest checks.",
+    "Some packages were revised or caveated instead of silently promoted."
+  ],
+  "evidenceHash": "b5d17d85c497f3ed838c5e4372c11eb43892d45abc03551cf7d3139e1449bdf1"
+}

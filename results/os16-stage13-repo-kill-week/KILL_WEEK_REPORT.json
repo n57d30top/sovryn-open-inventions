@@ -1,0 +1,13 @@
+{
+  "kind": "os16_repo_kill_week",
+  "attackedComponentCount": 60,
+  "deepAttackCount": 60,
+  "downgradedOrRevisedCount": 15,
+  "preservedCount": 36,
+  "finalStatus": "release_grade",
+  "limitations": [
+    "Repo reproduction remains environment-sensitive.",
+    "Full-test runtime is not guaranteed for every public package."
+  ],
+  "evidenceHash": "29b17f069f4846021a521868768b6c8871d722b45adf5ea575a47b7a696583a0"
+}

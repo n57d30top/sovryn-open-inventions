@@ -1,0 +1,566 @@
+{
+  "kind": "os16_temporal_rows_public_summary",
+  "rows": [
+    {
+      "targetId": "os16-temporal-0001",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0002",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0003",
+      "subtype": "rolling_window",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0004",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0005",
+      "subtype": "seasonal_control",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0006",
+      "subtype": "rolling_window",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0007",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "baseline_or_shuffle_explained",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0008",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0009",
+      "subtype": "rolling_window",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0010",
+      "subtype": "seasonal_control",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0011",
+      "subtype": "low_risk_control",
+      "executed": true,
+      "label": "low_risk_control",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0012",
+      "subtype": "rolling_window",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0013",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": true
+    },
+    {
+      "targetId": "os16-temporal-0014",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "baseline_or_shuffle_explained",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0015",
+      "subtype": "seasonal_control",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0016",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0017",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "partial_temporal_case",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0018",
+      "subtype": "rolling_window",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0019",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0020",
+      "subtype": "seasonal_control",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0021",
+      "subtype": "rolling_window",
+      "executed": true,
+      "label": "baseline_or_shuffle_explained",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0022",
+      "subtype": "low_risk_control",
+      "executed": true,
+      "label": "low_risk_control",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0023",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0024",
+      "subtype": "rolling_window",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0025",
+      "subtype": "seasonal_control",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0026",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": true
+    },
+    {
+      "targetId": "os16-temporal-0027",
+      "subtype": "rolling_window",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0028",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "baseline_or_shuffle_explained",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0029",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0030",
+      "subtype": "seasonal_control",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0031",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0032",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0033",
+      "subtype": "low_risk_control",
+      "executed": true,
+      "label": "low_risk_control",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0034",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0035",
+      "subtype": "seasonal_control",
+      "executed": true,
+      "label": "baseline_or_shuffle_explained",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0036",
+      "subtype": "rolling_window",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0037",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0038",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0039",
+      "subtype": "rolling_window",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": true
+    },
+    {
+      "targetId": "os16-temporal-0040",
+      "subtype": "seasonal_control",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0041",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0042",
+      "subtype": "rolling_window",
+      "executed": true,
+      "label": "baseline_or_shuffle_explained",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0043",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0044",
+      "subtype": "low_risk_control",
+      "executed": true,
+      "label": "low_risk_control",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0045",
+      "subtype": "seasonal_control",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0046",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0047",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0048",
+      "subtype": "rolling_window",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0049",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "baseline_or_shuffle_explained",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0050",
+      "subtype": "seasonal_control",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0051",
+      "subtype": "rolling_window",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0052",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": true
+    },
+    {
+      "targetId": "os16-temporal-0053",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "partial_temporal_case",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0054",
+      "subtype": "rolling_window",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0055",
+      "subtype": "low_risk_control",
+      "executed": true,
+      "label": "low_risk_control",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0056",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "baseline_or_shuffle_explained",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0057",
+      "subtype": "rolling_window",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0058",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0059",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0060",
+      "subtype": "seasonal_control",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0061",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0062",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0063",
+      "subtype": "rolling_window",
+      "executed": true,
+      "label": "baseline_or_shuffle_explained",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0064",
+      "subtype": "forecast_horizon",
+      "executed": true,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0065",
+      "subtype": "seasonal_control",
+      "executed": false,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0066",
+      "subtype": "low_risk_control",
+      "executed": false,
+      "label": "low_risk_control",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0067",
+      "subtype": "forecast_horizon",
+      "executed": false,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0068",
+      "subtype": "forecast_horizon",
+      "executed": false,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0069",
+      "subtype": "rolling_window",
+      "executed": false,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0070",
+      "subtype": "seasonal_control",
+      "executed": false,
+      "label": "baseline_or_shuffle_explained",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0071",
+      "subtype": "forecast_horizon",
+      "executed": false,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0072",
+      "subtype": "rolling_window",
+      "executed": false,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0073",
+      "subtype": "forecast_horizon",
+      "executed": false,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0074",
+      "subtype": "forecast_horizon",
+      "executed": false,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0075",
+      "subtype": "seasonal_control",
+      "executed": false,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0076",
+      "subtype": "forecast_horizon",
+      "executed": false,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0077",
+      "subtype": "low_risk_control",
+      "executed": false,
+      "label": "low_risk_control",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0078",
+      "subtype": "rolling_window",
+      "executed": false,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0079",
+      "subtype": "forecast_horizon",
+      "executed": false,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    },
+    {
+      "targetId": "os16-temporal-0080",
+      "subtype": "seasonal_control",
+      "executed": false,
+      "label": "bounded_temporal_signal",
+      "routeCaveat": false
+    }
+  ],
+  "evidenceHash": "507b266b95e6bc7a21d579c0d34ba4aea74928a6692c7f9286595bf8fb6a7d18"
+}

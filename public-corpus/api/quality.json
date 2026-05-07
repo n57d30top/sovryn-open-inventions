@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 553,
+    "good": 571,
     "reviewable": 6
   },
   "results": [
@@ -1872,6 +1872,96 @@
       "releaseReadinessScore": 94
     },
     {
+      "slug": "os16-stage01-capability-gap-map",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 95
+    },
+    {
+      "slug": "os16-stage02-product-hardening-implementation",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 95
+    },
+    {
+      "slug": "os16-stage03-temporal-v2-design",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 95
+    },
+    {
+      "slug": "os16-stage04-temporal-v2-validation",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 95
+    },
+    {
+      "slug": "os16-stage05-repo-deep-reproduction-design",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 95
+    },
+    {
+      "slug": "os16-stage06-repo-deep-reproduction-validation",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 95
+    },
+    {
+      "slug": "os16-stage07-formal-proof-route-hardening-design",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 95
+    },
+    {
+      "slug": "os16-stage08-formal-proof-route-validation",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 95
+    },
+    {
+      "slug": "os16-stage09-evidence-package-replay-coverage",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 95
+    },
+    {
+      "slug": "os16-stage10-route-policy-stability-check",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 95
+    },
+    {
+      "slug": "os16-stage11-class-level-100-percent-audit",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 95
+    },
+    {
+      "slug": "os16-stage12-temporal-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 95
+    },
+    {
+      "slug": "os16-stage13-repo-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 95
+    },
+    {
+      "slug": "os16-stage14-formal-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 95
+    },
+    {
+      "slug": "os16-stage15-package-quality-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 95
+    },
+    {
+      "slug": "os16-stage16-final-capability-decision",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 95
+    },
+    {
+      "slug": "os16-stage17-os-v1-6-release-candidate",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 95
+    },
+    {
+      "slug": "os16-stage18-next-frontier",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 95
+    },
+    {
       "slug": "patch-risk-auditor",
       "qualityLabel": "good",
       "releaseReadinessScore": 88
@@ -2827,5 +2917,5 @@
       "releaseReadinessScore": 86
     }
   ],
-  "evidenceHash": "933f151c6353d51dde6b7cd7127d5fb4ded2e9d3846c75cdb80404eb44470e98"
+  "evidenceHash": "8972f96feb07cf71a6526f801c9594e90ee41a4a2a6043f5f2f7e3e674bcc204"
 }

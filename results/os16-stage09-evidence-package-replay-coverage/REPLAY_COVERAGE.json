@@ -1,0 +1,865 @@
+{
+  "kind": "os16_evidence_package_replay_coverage",
+  "sampledPackageCount": 120,
+  "verifiedPackageCount": 80,
+  "classesCovered": [
+    "claim_review",
+    "tool_usefulness",
+    "dataset_audit",
+    "benchmark_protocol_audit",
+    "scientific_public_data_triage",
+    "repo_package_reproduction",
+    "formal_counterexample",
+    "temporal_evaluation"
+  ],
+  "replaySuccessCount": 73,
+  "replayCaveatCount": 5,
+  "notReplayableCount": 40,
+  "packageMismatchCount": 2,
+  "missingReceiptCount": 0,
+  "downgradedPackageCount": 2,
+  "coveragePassed": true,
+  "rows": [
+    {
+      "packageId": "os15-package-os15-target-0001",
+      "targetClass": "claim_review",
+      "replayStatus": "success_with_caveat",
+      "verified": true,
+      "classImpact": "class_caveat"
+    },
+    {
+      "packageId": "os15-package-os15-target-0010",
+      "targetClass": "claim_review",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0019",
+      "targetClass": "claim_review",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0028",
+      "targetClass": "claim_review",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0037",
+      "targetClass": "claim_review",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0046",
+      "targetClass": "claim_review",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0055",
+      "targetClass": "claim_review",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0064",
+      "targetClass": "claim_review",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0073",
+      "targetClass": "claim_review",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0082",
+      "targetClass": "claim_review",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0091",
+      "targetClass": "claim_review",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0100",
+      "targetClass": "claim_review",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0109",
+      "targetClass": "claim_review",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0118",
+      "targetClass": "claim_review",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0127",
+      "targetClass": "claim_review",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0002",
+      "targetClass": "tool_usefulness",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0011",
+      "targetClass": "tool_usefulness",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0020",
+      "targetClass": "tool_usefulness",
+      "replayStatus": "success_with_caveat",
+      "verified": true,
+      "classImpact": "class_caveat"
+    },
+    {
+      "packageId": "os15-package-os15-target-0029",
+      "targetClass": "tool_usefulness",
+      "replayStatus": "package_mismatch",
+      "verified": true,
+      "classImpact": "package_downgraded"
+    },
+    {
+      "packageId": "os15-package-os15-target-0038",
+      "targetClass": "tool_usefulness",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0047",
+      "targetClass": "tool_usefulness",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0056",
+      "targetClass": "tool_usefulness",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0065",
+      "targetClass": "tool_usefulness",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0074",
+      "targetClass": "tool_usefulness",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0083",
+      "targetClass": "tool_usefulness",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0092",
+      "targetClass": "tool_usefulness",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0101",
+      "targetClass": "tool_usefulness",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0110",
+      "targetClass": "tool_usefulness",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0119",
+      "targetClass": "tool_usefulness",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0128",
+      "targetClass": "tool_usefulness",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0003",
+      "targetClass": "dataset_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0012",
+      "targetClass": "dataset_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0021",
+      "targetClass": "dataset_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0030",
+      "targetClass": "dataset_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0039",
+      "targetClass": "dataset_audit",
+      "replayStatus": "success_with_caveat",
+      "verified": true,
+      "classImpact": "class_caveat"
+    },
+    {
+      "packageId": "os15-package-os15-target-0048",
+      "targetClass": "dataset_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0057",
+      "targetClass": "dataset_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0066",
+      "targetClass": "dataset_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0075",
+      "targetClass": "dataset_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0084",
+      "targetClass": "dataset_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0093",
+      "targetClass": "dataset_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0102",
+      "targetClass": "dataset_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0111",
+      "targetClass": "dataset_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0120",
+      "targetClass": "dataset_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0129",
+      "targetClass": "dataset_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0004",
+      "targetClass": "benchmark_protocol_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0013",
+      "targetClass": "benchmark_protocol_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0022",
+      "targetClass": "benchmark_protocol_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0031",
+      "targetClass": "benchmark_protocol_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0040",
+      "targetClass": "benchmark_protocol_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0049",
+      "targetClass": "benchmark_protocol_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0058",
+      "targetClass": "benchmark_protocol_audit",
+      "replayStatus": "success_with_caveat",
+      "verified": true,
+      "classImpact": "class_caveat"
+    },
+    {
+      "packageId": "os15-package-os15-target-0067",
+      "targetClass": "benchmark_protocol_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0076",
+      "targetClass": "benchmark_protocol_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0085",
+      "targetClass": "benchmark_protocol_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0094",
+      "targetClass": "benchmark_protocol_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0103",
+      "targetClass": "benchmark_protocol_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0112",
+      "targetClass": "benchmark_protocol_audit",
+      "replayStatus": "package_mismatch",
+      "verified": true,
+      "classImpact": "package_downgraded"
+    },
+    {
+      "packageId": "os15-package-os15-target-0121",
+      "targetClass": "benchmark_protocol_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0130",
+      "targetClass": "benchmark_protocol_audit",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0005",
+      "targetClass": "scientific_public_data_triage",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0014",
+      "targetClass": "scientific_public_data_triage",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0023",
+      "targetClass": "scientific_public_data_triage",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0032",
+      "targetClass": "scientific_public_data_triage",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0041",
+      "targetClass": "scientific_public_data_triage",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0050",
+      "targetClass": "scientific_public_data_triage",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0059",
+      "targetClass": "scientific_public_data_triage",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0068",
+      "targetClass": "scientific_public_data_triage",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0077",
+      "targetClass": "scientific_public_data_triage",
+      "replayStatus": "success_with_caveat",
+      "verified": true,
+      "classImpact": "class_caveat"
+    },
+    {
+      "packageId": "os15-package-os15-target-0086",
+      "targetClass": "scientific_public_data_triage",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0095",
+      "targetClass": "scientific_public_data_triage",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0104",
+      "targetClass": "scientific_public_data_triage",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0113",
+      "targetClass": "scientific_public_data_triage",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0122",
+      "targetClass": "scientific_public_data_triage",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0131",
+      "targetClass": "scientific_public_data_triage",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0006",
+      "targetClass": "repo_package_reproduction",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0015",
+      "targetClass": "repo_package_reproduction",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0024",
+      "targetClass": "repo_package_reproduction",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0033",
+      "targetClass": "repo_package_reproduction",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0042",
+      "targetClass": "repo_package_reproduction",
+      "replayStatus": "success",
+      "verified": true,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0051",
+      "targetClass": "repo_package_reproduction",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0060",
+      "targetClass": "repo_package_reproduction",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0069",
+      "targetClass": "repo_package_reproduction",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0078",
+      "targetClass": "repo_package_reproduction",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0087",
+      "targetClass": "repo_package_reproduction",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0096",
+      "targetClass": "repo_package_reproduction",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0105",
+      "targetClass": "repo_package_reproduction",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0114",
+      "targetClass": "repo_package_reproduction",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0123",
+      "targetClass": "repo_package_reproduction",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0132",
+      "targetClass": "repo_package_reproduction",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0007",
+      "targetClass": "formal_counterexample",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0016",
+      "targetClass": "formal_counterexample",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0025",
+      "targetClass": "formal_counterexample",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0034",
+      "targetClass": "formal_counterexample",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0043",
+      "targetClass": "formal_counterexample",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0052",
+      "targetClass": "formal_counterexample",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0061",
+      "targetClass": "formal_counterexample",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0070",
+      "targetClass": "formal_counterexample",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0079",
+      "targetClass": "formal_counterexample",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0088",
+      "targetClass": "formal_counterexample",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0097",
+      "targetClass": "formal_counterexample",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0106",
+      "targetClass": "formal_counterexample",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0115",
+      "targetClass": "formal_counterexample",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0124",
+      "targetClass": "formal_counterexample",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0133",
+      "targetClass": "formal_counterexample",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0008",
+      "targetClass": "temporal_evaluation",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0017",
+      "targetClass": "temporal_evaluation",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0026",
+      "targetClass": "temporal_evaluation",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0035",
+      "targetClass": "temporal_evaluation",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0044",
+      "targetClass": "temporal_evaluation",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0053",
+      "targetClass": "temporal_evaluation",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0062",
+      "targetClass": "temporal_evaluation",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0071",
+      "targetClass": "temporal_evaluation",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0080",
+      "targetClass": "temporal_evaluation",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0089",
+      "targetClass": "temporal_evaluation",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0098",
+      "targetClass": "temporal_evaluation",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0107",
+      "targetClass": "temporal_evaluation",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0116",
+      "targetClass": "temporal_evaluation",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0125",
+      "targetClass": "temporal_evaluation",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    },
+    {
+      "packageId": "os15-package-os15-target-0134",
+      "targetClass": "temporal_evaluation",
+      "replayStatus": "not_replayable",
+      "verified": false,
+      "classImpact": "none"
+    }
+  ],
+  "evidenceHash": "97d3b365e3caa39d65868111f2e86a94a6cf65b94790e198ee66688146a780c5"
+}

@@ -1,0 +1,13 @@
+{
+  "kind": "os16_temporal_kill_week",
+  "attackedComponentCount": 60,
+  "deepAttackCount": 60,
+  "downgradedOrRevisedCount": 15,
+  "preservedCount": 30,
+  "finalStatus": "release_grade_with_caveats",
+  "limitations": [
+    "Temporal v2 is release-grade only inside the narrowed subtype scope.",
+    "Horizon and replay caveats are explicit class limitations."
+  ],
+  "evidenceHash": "552da837aabf4e31508d4deb8b0174304a7d6dcaad32ccb4ec3020c777c02792"
+}

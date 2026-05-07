@@ -1,0 +1,224 @@
+{
+  "kind": "os16_final_capability_decision",
+  "status": "open_verifiable_science_os_v1_6_candidate",
+  "releaseGradeOrCaveatedClassCount": 8,
+  "partialClassCount": 0,
+  "replayCoverageComplete": true,
+  "packageQualityThresholdPassed": true,
+  "routeStabilityThresholdPassed": true,
+  "noFakeFullCompletionClaim": true,
+  "classStatuses": [
+    {
+      "targetClass": "claim_review",
+      "previousStatus": "passing",
+      "releaseGradeDefinition": "bounded route, package, replay, and limitation evidence with stable class-level routing",
+      "failureModes": [
+        "wrong route",
+        "insufficient package evidence",
+        "weak limitation text",
+        "replay caveat"
+      ],
+      "missingEvidence": [],
+      "replayGaps": [],
+      "packageGaps": [],
+      "routeGaps": [],
+      "label": "release_grade",
+      "releaseGradeCriteria": [
+        "route stability threshold passed",
+        "package manifest present",
+        "replay coverage includes class",
+        "limitations explicit"
+      ],
+      "evidenceBinding": "os16-claim_review-evidence-binding"
+    },
+    {
+      "targetClass": "tool_usefulness",
+      "previousStatus": "passing",
+      "releaseGradeDefinition": "bounded route, package, replay, and limitation evidence with stable class-level routing",
+      "failureModes": [
+        "wrong route",
+        "insufficient package evidence",
+        "weak limitation text",
+        "replay caveat"
+      ],
+      "missingEvidence": [],
+      "replayGaps": [],
+      "packageGaps": [],
+      "routeGaps": [],
+      "label": "release_grade",
+      "releaseGradeCriteria": [
+        "route stability threshold passed",
+        "package manifest present",
+        "replay coverage includes class",
+        "limitations explicit"
+      ],
+      "evidenceBinding": "os16-tool_usefulness-evidence-binding"
+    },
+    {
+      "targetClass": "dataset_audit",
+      "previousStatus": "passing",
+      "releaseGradeDefinition": "bounded route, package, replay, and limitation evidence with stable class-level routing",
+      "failureModes": [
+        "wrong route",
+        "insufficient package evidence",
+        "weak limitation text",
+        "replay caveat"
+      ],
+      "missingEvidence": [],
+      "replayGaps": [],
+      "packageGaps": [],
+      "routeGaps": [],
+      "label": "release_grade",
+      "releaseGradeCriteria": [
+        "route stability threshold passed",
+        "package manifest present",
+        "replay coverage includes class",
+        "limitations explicit"
+      ],
+      "evidenceBinding": "os16-dataset_audit-evidence-binding"
+    },
+    {
+      "targetClass": "benchmark_protocol_audit",
+      "previousStatus": "passing",
+      "releaseGradeDefinition": "bounded route, package, replay, and limitation evidence with stable class-level routing",
+      "failureModes": [
+        "wrong route",
+        "insufficient package evidence",
+        "weak limitation text",
+        "replay caveat"
+      ],
+      "missingEvidence": [],
+      "replayGaps": [],
+      "packageGaps": [],
+      "routeGaps": [],
+      "label": "release_grade",
+      "releaseGradeCriteria": [
+        "route stability threshold passed",
+        "package manifest present",
+        "replay coverage includes class",
+        "limitations explicit"
+      ],
+      "evidenceBinding": "os16-benchmark_protocol_audit-evidence-binding"
+    },
+    {
+      "targetClass": "scientific_public_data_triage",
+      "previousStatus": "passing",
+      "releaseGradeDefinition": "bounded route, package, replay, and limitation evidence with stable class-level routing",
+      "failureModes": [
+        "wrong route",
+        "insufficient package evidence",
+        "weak limitation text",
+        "replay caveat"
+      ],
+      "missingEvidence": [],
+      "replayGaps": [],
+      "packageGaps": [],
+      "routeGaps": [],
+      "label": "release_grade",
+      "releaseGradeCriteria": [
+        "route stability threshold passed",
+        "package manifest present",
+        "replay coverage includes class",
+        "limitations explicit"
+      ],
+      "evidenceBinding": "os16-scientific_public_data_triage-evidence-binding"
+    },
+    {
+      "targetClass": "repo_package_reproduction",
+      "previousStatus": "weak",
+      "releaseGradeDefinition": "tiered reproduction result with install, runtime, dependency, replay, manifest, and false-claim blocker evidence",
+      "failureModes": [
+        "install-only success",
+        "smoke-only success",
+        "dependency drift",
+        "hidden artifact dependency",
+        "fresh workspace divergence"
+      ],
+      "missingEvidence": [],
+      "replayGaps": [],
+      "packageGaps": [],
+      "routeGaps": [],
+      "label": "release_grade",
+      "releaseGradeCriteria": [
+        "60 or more deep reproduction executions",
+        "install and runtime tiers separated",
+        "dependency/version checks present",
+        "fresh workspace or container replay sampled",
+        "false reproduction claims blocked"
+      ],
+      "evidenceBinding": "os16-repo_package_reproduction-evidence-binding"
+    },
+    {
+      "targetClass": "formal_counterexample",
+      "previousStatus": "weak",
+      "releaseGradeDefinition": "known/trivial rejection plus counterexample, bounded check, refutation route, replay, and no-fake-proof gates",
+      "failureModes": [
+        "known/trivial pattern",
+        "bounded-only evidence",
+        "missing proof route",
+        "unchecked proof sketch",
+        "counterexample gap"
+      ],
+      "missingEvidence": [
+        "checked positive proof availability"
+      ],
+      "replayGaps": [
+        "proof assistant replay only applies when proof route exists"
+      ],
+      "packageGaps": [],
+      "routeGaps": [],
+      "label": "release_grade_with_caveats",
+      "releaseGradeCriteria": [
+        "60 or more formal route executions",
+        "known/trivial filter present",
+        "counterexample and bounded checks present",
+        "proof/refutation route attempted where feasible",
+        "no checked-proof claim unless actually checked"
+      ],
+      "evidenceBinding": "os16-formal_counterexample-evidence-binding"
+    },
+    {
+      "targetClass": "temporal_evaluation",
+      "previousStatus": "weak",
+      "releaseGradeDefinition": "narrowed temporal v2 scope with split, horizon/window, shuffle, leakage, baseline, package, and replay thresholds",
+      "failureModes": [
+        "horizon sensitivity",
+        "window sensitivity",
+        "shuffled-time artifact",
+        "leakage artifact",
+        "replay instability"
+      ],
+      "missingEvidence": [
+        "broader temporal subtypes outside narrowed v2 scope"
+      ],
+      "replayGaps": [
+        "long-horizon replay remains caveated"
+      ],
+      "packageGaps": [
+        "some packages require caveated reproduce instructions"
+      ],
+      "routeGaps": [
+        "unsupported temporal subtypes are rejected or marked partial"
+      ],
+      "label": "release_grade_with_caveats",
+      "releaseGradeCriteria": [
+        "60 or more executed temporal v2 targets",
+        "false true-fragility positives <= 2",
+        "route/caveat issues <= 10%",
+        "20 or more public packages",
+        "replay sample complete"
+      ],
+      "evidenceBinding": "os16-temporal_evaluation-evidence-binding"
+    }
+  ],
+  "temporalDecision": "release_grade_with_caveats",
+  "repoDecision": "release_grade",
+  "formalDecision": "release_grade_with_caveats",
+  "limitations": [
+    "Release-grade means bounded class capability under public-safe workloads.",
+    "Temporal v2 and formal proof routing remain caveated, not unrestricted capabilities.",
+    "Replay coverage is sampled across package classes and not exhaustive.",
+    "The result is not an outside-use, broad-acceleration, or discovery-validation claim."
+  ],
+  "evidenceHash": "e1f65a3a5bc77524196301632f71727c5de0852fec3ae5095d59d7b7d45ea3ed"
+}

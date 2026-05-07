@@ -1,0 +1,14 @@
+{
+  "kind": "os16_evidence_bindings",
+  "bindings": {
+    "claim_review": "os16-claim_review-evidence-binding",
+    "tool_usefulness": "os16-tool_usefulness-evidence-binding",
+    "dataset_audit": "os16-dataset_audit-evidence-binding",
+    "benchmark_protocol_audit": "os16-benchmark_protocol_audit-evidence-binding",
+    "scientific_public_data_triage": "os16-scientific_public_data_triage-evidence-binding",
+    "repo_package_reproduction": "os16-repo_package_reproduction-evidence-binding",
+    "formal_counterexample": "os16-formal_counterexample-evidence-binding",
+    "temporal_evaluation": "os16-temporal_evaluation-evidence-binding"
+  },
+  "evidenceHash": "634b8d3fe527e2e77145c119101663bdd5bbb48ed778d144a285bdf729db5c5a"
+}

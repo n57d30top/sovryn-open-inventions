@@ -408,6 +408,24 @@ and safety scope in human-readable language.
 - [OS v1.5 Readiness Decision](results/os15-stage22-os-v1-5-readiness-decision/) — good, autopublished, os15-stage22-os-v1-5-readiness-decision, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
 - [Release Candidate Package](results/os15-stage23-release-candidate-package/) — good, autopublished, os15-stage23-release-candidate-package, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
 - [Next Frontier](results/os15-stage24-next-frontier/) — good, autopublished, os15-stage24-next-frontier, Open Verifiable Science OS v1.5 Hardening and Scale Gauntlet
+- [Capability Gap Map](results/os16-stage01-capability-gap-map/) — good, autopublished, os16-stage01-capability-gap-map, OS v1.6 Capability Completion Gauntlet
+- [Product Hardening Implementation](results/os16-stage02-product-hardening-implementation/) — good, autopublished, os16-stage02-product-hardening-implementation, OS v1.6 Capability Completion Gauntlet
+- [Temporal v2 Design](results/os16-stage03-temporal-v2-design/) — good, autopublished, os16-stage03-temporal-v2-design, OS v1.6 Capability Completion Gauntlet
+- [Temporal v2 Validation](results/os16-stage04-temporal-v2-validation/) — good, autopublished, os16-stage04-temporal-v2-validation, OS v1.6 Capability Completion Gauntlet
+- [Repo Deep Reproduction Design](results/os16-stage05-repo-deep-reproduction-design/) — good, autopublished, os16-stage05-repo-deep-reproduction-design, OS v1.6 Capability Completion Gauntlet
+- [Repo Deep Reproduction Validation](results/os16-stage06-repo-deep-reproduction-validation/) — good, autopublished, os16-stage06-repo-deep-reproduction-validation, OS v1.6 Capability Completion Gauntlet
+- [Formal Proof Route Hardening Design](results/os16-stage07-formal-proof-route-hardening-design/) — good, autopublished, os16-stage07-formal-proof-route-hardening-design, OS v1.6 Capability Completion Gauntlet
+- [Formal Proof Route Validation](results/os16-stage08-formal-proof-route-validation/) — good, autopublished, os16-stage08-formal-proof-route-validation, OS v1.6 Capability Completion Gauntlet
+- [Evidence Package Replay Coverage](results/os16-stage09-evidence-package-replay-coverage/) — good, autopublished, os16-stage09-evidence-package-replay-coverage, OS v1.6 Capability Completion Gauntlet
+- [Route Policy Stability Check](results/os16-stage10-route-policy-stability-check/) — good, autopublished, os16-stage10-route-policy-stability-check, OS v1.6 Capability Completion Gauntlet
+- [Class Level Capability Audit](results/os16-stage11-class-level-100-percent-audit/) — good, autopublished, os16-stage11-class-level-100-percent-audit, OS v1.6 Capability Completion Gauntlet
+- [Temporal Kill Week](results/os16-stage12-temporal-kill-week/) — good, autopublished, os16-stage12-temporal-kill-week, OS v1.6 Capability Completion Gauntlet
+- [Repo Kill Week](results/os16-stage13-repo-kill-week/) — good, autopublished, os16-stage13-repo-kill-week, OS v1.6 Capability Completion Gauntlet
+- [Formal Kill Week](results/os16-stage14-formal-kill-week/) — good, autopublished, os16-stage14-formal-kill-week, OS v1.6 Capability Completion Gauntlet
+- [Package Quality Kill Week](results/os16-stage15-package-quality-kill-week/) — good, autopublished, os16-stage15-package-quality-kill-week, OS v1.6 Capability Completion Gauntlet
+- [Final Capability Decision](results/os16-stage16-final-capability-decision/) — good, autopublished, os16-stage16-final-capability-decision, OS v1.6 Capability Completion Gauntlet
+- [OS v1.6 Release Candidate](results/os16-stage17-os-v1-6-release-candidate/) — good, autopublished, os16-stage17-os-v1-6-release-candidate, OS v1.6 Capability Completion Gauntlet
+- [Next Frontier](results/os16-stage18-next-frontier/) — good, autopublished, os16-stage18-next-frontier, OS v1.6 Capability Completion Gauntlet
 - [Patch Risk Auditor](results/patch-risk-auditor/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v2/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v3/) — good, showcase, patch-risk-auditor, software-supply-chain
