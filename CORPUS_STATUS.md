@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 452
+Results: 464
 
 ## Lifecycle Counts
 
-- autopublished: 421
+- autopublished: 433
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -312,6 +312,18 @@ Results: 452
 - nobel-stage7-deep-prediction-execution-wave: latest nobel-stage7-deep-prediction-execution-wave; nobel-stage7-deep-prediction-execution-wave
 - nobel-stage8-holdout-challenge: latest nobel-stage8-holdout-challenge; nobel-stage8-holdout-challenge
 - nobel-stage9-independent-reproduction-gauntlet: latest nobel-stage9-independent-reproduction-gauntlet; nobel-stage9-independent-reproduction-gauntlet
+- nr004-stage01-candidate-forensics: latest nr004-stage01-candidate-forensics; nr004-stage01-candidate-forensics
+- nr004-stage02-evidence-gap-map: latest nr004-stage02-evidence-gap-map; nr004-stage02-evidence-gap-map
+- nr004-stage03-rival-theory-hardening: latest nr004-stage03-rival-theory-hardening; nr004-stage03-rival-theory-hardening
+- nr004-stage04-prediction-freeze: latest nr004-stage04-prediction-freeze; nr004-stage04-prediction-freeze
+- nr004-stage05-execution-wave1: latest nr004-stage05-execution-wave1; nr004-stage05-execution-wave1
+- nr004-stage06-execution-wave2: latest nr004-stage06-execution-wave2; nr004-stage06-execution-wave2
+- nr004-stage07-holdout-and-counterexample-gauntlet: latest nr004-stage07-holdout-and-counterexample-gauntlet; nr004-stage07-holdout-and-counterexample-gauntlet
+- nr004-stage08-independent-replay: latest nr004-stage08-independent-replay; nr004-stage08-independent-replay
+- nr004-stage09-readiness-kill-week: latest nr004-stage09-readiness-kill-week; nr004-stage09-readiness-kill-week
+- nr004-stage10-final-readiness-decision: latest nr004-stage10-final-readiness-decision; nr004-stage10-final-readiness-decision
+- nr004-stage11-external-review-package-or-failure: latest nr004-stage11-external-review-package-or-failure; nr004-stage11-external-review-package-or-failure
+- nr004-stage12-next-frontier: latest nr004-stage12-next-frontier; nr004-stage12-next-frontier
 - patch-risk-auditor: latest patch-risk-auditor-v3; patch-risk-auditor, patch-risk-auditor-v2, patch-risk-auditor-v3
 - proof-stage01-proof-route-design: latest proof-stage01-proof-route-design; proof-stage01-proof-route-design
 - proof-stage02-product-implementation: latest proof-stage02-product-implementation; proof-stage02-product-implementation

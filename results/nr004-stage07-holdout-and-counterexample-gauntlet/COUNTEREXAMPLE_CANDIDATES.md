@@ -1,0 +1,32 @@
+# Counterexample Candidates
+
+- NR004-CE-01: simple-rule survivor without discovery value
+- NR004-CE-02: known-pattern-like bounded family
+- NR004-CE-03: edge case that narrows replay evidence
+- NR004-CE-04: stable receipt with no nontrivial statement
+- NR004-CE-05: simple-rule survivor without discovery value
+- NR004-CE-06: known-pattern-like bounded family
+- NR004-CE-07: edge case that narrows replay evidence
+- NR004-CE-08: stable receipt with no nontrivial statement
+- NR004-CE-09: simple-rule survivor without discovery value
+- NR004-CE-10: known-pattern-like bounded family
+- NR004-CE-11: edge case that narrows replay evidence
+- NR004-CE-12: stable receipt with no nontrivial statement
+- NR004-CE-13: simple-rule survivor without discovery value
+- NR004-CE-14: known-pattern-like bounded family
+- NR004-CE-15: edge case that narrows replay evidence
+- NR004-CE-16: stable receipt with no nontrivial statement
+- NR004-CE-17: simple-rule survivor without discovery value
+- NR004-CE-18: known-pattern-like bounded family
+- NR004-CE-19: edge case that narrows replay evidence
+- NR004-CE-20: stable receipt with no nontrivial statement
+- NR004-CE-21: simple-rule survivor without discovery value
+- NR004-CE-22: known-pattern-like bounded family
+- NR004-CE-23: edge case that narrows replay evidence
+- NR004-CE-24: stable receipt with no nontrivial statement
+- NR004-CE-25: simple-rule survivor without discovery value
+- NR004-CE-26: known-pattern-like bounded family
+- NR004-CE-27: edge case that narrows replay evidence
+- NR004-CE-28: stable receipt with no nontrivial statement
+- NR004-CE-29: simple-rule survivor without discovery value
+- NR004-CE-30: known-pattern-like bounded family

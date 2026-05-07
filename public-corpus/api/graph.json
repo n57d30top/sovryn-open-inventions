@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-07T11:12:18.021Z",
+  "generatedAt": "2026-05-07T11:26:49.596Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1869,6 +1869,78 @@
       "domain": "nobel discovery portfolio v0"
     },
     {
+      "id": "result:nr004-stage01-candidate-forensics",
+      "kind": "result",
+      "label": "NR004 Stage 01 Candidate Forensics",
+      "domain": "NR-CAND-004 deep validation for readiness"
+    },
+    {
+      "id": "result:nr004-stage02-evidence-gap-map",
+      "kind": "result",
+      "label": "NR004 Stage 02 Evidence Gap Map",
+      "domain": "NR-CAND-004 deep validation for readiness"
+    },
+    {
+      "id": "result:nr004-stage03-rival-theory-hardening",
+      "kind": "result",
+      "label": "NR004 Stage 03 Rival Theory Hardening",
+      "domain": "NR-CAND-004 deep validation for readiness"
+    },
+    {
+      "id": "result:nr004-stage04-prediction-freeze",
+      "kind": "result",
+      "label": "NR004 Stage 04 Prediction Freeze",
+      "domain": "NR-CAND-004 deep validation for readiness"
+    },
+    {
+      "id": "result:nr004-stage05-execution-wave1",
+      "kind": "result",
+      "label": "NR004 Stage 05 Execution Wave 1",
+      "domain": "NR-CAND-004 deep validation for readiness"
+    },
+    {
+      "id": "result:nr004-stage06-execution-wave2",
+      "kind": "result",
+      "label": "NR004 Stage 06 Execution Wave 2",
+      "domain": "NR-CAND-004 deep validation for readiness"
+    },
+    {
+      "id": "result:nr004-stage07-holdout-and-counterexample-gauntlet",
+      "kind": "result",
+      "label": "NR004 Stage 07 Holdout Counterexample Gauntlet",
+      "domain": "NR-CAND-004 deep validation for readiness"
+    },
+    {
+      "id": "result:nr004-stage08-independent-replay",
+      "kind": "result",
+      "label": "NR004 Stage 08 Independent Replay",
+      "domain": "NR-CAND-004 deep validation for readiness"
+    },
+    {
+      "id": "result:nr004-stage09-readiness-kill-week",
+      "kind": "result",
+      "label": "NR004 Stage 09 Readiness Kill Week",
+      "domain": "NR-CAND-004 deep validation for readiness"
+    },
+    {
+      "id": "result:nr004-stage10-final-readiness-decision",
+      "kind": "result",
+      "label": "NR004 Stage 10 Final Readiness Decision",
+      "domain": "NR-CAND-004 deep validation for readiness"
+    },
+    {
+      "id": "result:nr004-stage11-external-review-package-or-failure",
+      "kind": "result",
+      "label": "NR004 Stage 11 Expert Review Package Or Failure",
+      "domain": "NR-CAND-004 deep validation for readiness"
+    },
+    {
+      "id": "result:nr004-stage12-next-frontier",
+      "kind": "result",
+      "label": "NR004 Stage 12 Next Frontier",
+      "domain": "NR-CAND-004 deep validation for readiness"
+    },
+    {
       "id": "result:patch-risk-auditor",
       "kind": "result",
       "label": "Patch Risk Auditor",
@@ -2983,6 +3055,11 @@
       "id": "domain:nobel discovery portfolio v0",
       "kind": "domain",
       "label": "nobel discovery portfolio v0"
+    },
+    {
+      "id": "domain:NR-CAND-004 deep validation for readiness",
+      "kind": "domain",
+      "label": "NR-CAND-004 deep validation for readiness"
     },
     {
       "id": "domain:software-supply-chain",
@@ -5507,6 +5584,66 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:nr004-stage01-candidate-forensics",
+      "target": "domain:NR-CAND-004 deep validation for readiness",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nr004-stage02-evidence-gap-map",
+      "target": "domain:NR-CAND-004 deep validation for readiness",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nr004-stage03-rival-theory-hardening",
+      "target": "domain:NR-CAND-004 deep validation for readiness",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nr004-stage04-prediction-freeze",
+      "target": "domain:NR-CAND-004 deep validation for readiness",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nr004-stage05-execution-wave1",
+      "target": "domain:NR-CAND-004 deep validation for readiness",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nr004-stage06-execution-wave2",
+      "target": "domain:NR-CAND-004 deep validation for readiness",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nr004-stage07-holdout-and-counterexample-gauntlet",
+      "target": "domain:NR-CAND-004 deep validation for readiness",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nr004-stage08-independent-replay",
+      "target": "domain:NR-CAND-004 deep validation for readiness",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nr004-stage09-readiness-kill-week",
+      "target": "domain:NR-CAND-004 deep validation for readiness",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nr004-stage10-final-readiness-decision",
+      "target": "domain:NR-CAND-004 deep validation for readiness",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nr004-stage11-external-review-package-or-failure",
+      "target": "domain:NR-CAND-004 deep validation for readiness",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nr004-stage12-next-frontier",
+      "target": "domain:NR-CAND-004 deep validation for readiness",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:patch-risk-auditor",
       "target": "domain:software-supply-chain",
       "relation": "belongs_to_domain"
@@ -6357,5 +6494,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "f927b9302257906d14ae1246eebbd1c2c45cb9cbb0ae9f93385aad87474cdd6c"
+  "evidenceHash": "9d1d2544fc53dd76ec5b3ed070469879b4aae4739681c5aa845a2520dbe1ef13"
 }

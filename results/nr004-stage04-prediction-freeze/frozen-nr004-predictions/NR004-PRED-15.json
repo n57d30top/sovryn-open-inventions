@@ -1,0 +1,12 @@
+{
+  "predictionId": "NR004-PRED-15",
+  "candidateId": "NR-CAND-004",
+  "category": "rival_favoring",
+  "nonObvious": true,
+  "claimComponent": "rival theory pressure",
+  "expectedObservation": "direct rival explains observation more simply",
+  "falsifier": "Prediction fails if observed evidence contradicts the expected category or cannot be replayed.",
+  "frozenTimestamp": "2026-05-07T11:24:17.260Z",
+  "noEditRule": "Frozen before NR-CAND-004 deep execution; post-hoc edits invalidate this stage.",
+  "preregistrationHash": "4366bc41f3a18046bda391cfa55b82507aa5f4176b69b59a414023b007c1f6a0"
+}

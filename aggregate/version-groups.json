@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T11:12:18.021Z",
+  "updatedAt": "2026-05-07T11:26:49.596Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -2114,6 +2114,90 @@
       ]
     },
     {
+      "versionGroup": "nr004-stage01-candidate-forensics",
+      "latestSlug": "nr004-stage01-candidate-forensics",
+      "resultSlugs": [
+        "nr004-stage01-candidate-forensics"
+      ]
+    },
+    {
+      "versionGroup": "nr004-stage02-evidence-gap-map",
+      "latestSlug": "nr004-stage02-evidence-gap-map",
+      "resultSlugs": [
+        "nr004-stage02-evidence-gap-map"
+      ]
+    },
+    {
+      "versionGroup": "nr004-stage03-rival-theory-hardening",
+      "latestSlug": "nr004-stage03-rival-theory-hardening",
+      "resultSlugs": [
+        "nr004-stage03-rival-theory-hardening"
+      ]
+    },
+    {
+      "versionGroup": "nr004-stage04-prediction-freeze",
+      "latestSlug": "nr004-stage04-prediction-freeze",
+      "resultSlugs": [
+        "nr004-stage04-prediction-freeze"
+      ]
+    },
+    {
+      "versionGroup": "nr004-stage05-execution-wave1",
+      "latestSlug": "nr004-stage05-execution-wave1",
+      "resultSlugs": [
+        "nr004-stage05-execution-wave1"
+      ]
+    },
+    {
+      "versionGroup": "nr004-stage06-execution-wave2",
+      "latestSlug": "nr004-stage06-execution-wave2",
+      "resultSlugs": [
+        "nr004-stage06-execution-wave2"
+      ]
+    },
+    {
+      "versionGroup": "nr004-stage07-holdout-and-counterexample-gauntlet",
+      "latestSlug": "nr004-stage07-holdout-and-counterexample-gauntlet",
+      "resultSlugs": [
+        "nr004-stage07-holdout-and-counterexample-gauntlet"
+      ]
+    },
+    {
+      "versionGroup": "nr004-stage08-independent-replay",
+      "latestSlug": "nr004-stage08-independent-replay",
+      "resultSlugs": [
+        "nr004-stage08-independent-replay"
+      ]
+    },
+    {
+      "versionGroup": "nr004-stage09-readiness-kill-week",
+      "latestSlug": "nr004-stage09-readiness-kill-week",
+      "resultSlugs": [
+        "nr004-stage09-readiness-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "nr004-stage10-final-readiness-decision",
+      "latestSlug": "nr004-stage10-final-readiness-decision",
+      "resultSlugs": [
+        "nr004-stage10-final-readiness-decision"
+      ]
+    },
+    {
+      "versionGroup": "nr004-stage11-external-review-package-or-failure",
+      "latestSlug": "nr004-stage11-external-review-package-or-failure",
+      "resultSlugs": [
+        "nr004-stage11-external-review-package-or-failure"
+      ]
+    },
+    {
+      "versionGroup": "nr004-stage12-next-frontier",
+      "latestSlug": "nr004-stage12-next-frontier",
+      "resultSlugs": [
+        "nr004-stage12-next-frontier"
+      ]
+    },
+    {
       "versionGroup": "patch-risk-auditor",
       "latestSlug": "patch-risk-auditor-v3",
       "resultSlugs": [
@@ -3083,5 +3167,5 @@
       ]
     }
   ],
-  "evidenceHash": "c9f69a574198b562c6ba83e14ec414c593dbcebf1fcee75cb299ce33455a5947"
+  "evidenceHash": "03376f16a98e1c3484fe0708c400f0e8079ca8f289bddec03f8b9cad8ed4fabc"
 }

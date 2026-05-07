@@ -1,0 +1,12 @@
+{
+  "predictionId": "NR004-PRED-08",
+  "candidateId": "NR-CAND-004",
+  "category": "weakening_failure",
+  "nonObvious": false,
+  "claimComponent": "baseline and counterexample vulnerability",
+  "expectedObservation": "candidate narrows under stronger baseline or edge case",
+  "falsifier": "Prediction fails if observed evidence contradicts the expected category or cannot be replayed.",
+  "frozenTimestamp": "2026-05-07T11:24:17.260Z",
+  "noEditRule": "Frozen before NR-CAND-004 deep execution; post-hoc edits invalidate this stage.",
+  "preregistrationHash": "4d0eafce69872693a8c2bbc64717365c43037cb3bc7099e852ac1e98d5f4e5ac"
+}

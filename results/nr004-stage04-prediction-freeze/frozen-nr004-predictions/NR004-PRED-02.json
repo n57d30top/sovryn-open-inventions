@@ -1,0 +1,12 @@
+{
+  "predictionId": "NR004-PRED-02",
+  "candidateId": "NR-CAND-004",
+  "category": "support",
+  "nonObvious": true,
+  "claimComponent": "receipt-stable bounded replay signal",
+  "expectedObservation": "bounded replay support survives one stronger check",
+  "falsifier": "Prediction fails if observed evidence contradicts the expected category or cannot be replayed.",
+  "frozenTimestamp": "2026-05-07T11:24:17.260Z",
+  "noEditRule": "Frozen before NR-CAND-004 deep execution; post-hoc edits invalidate this stage.",
+  "preregistrationHash": "210bf9a99d75ed64d0cbb16d276a463063458f6546496ea42730261ff6f1af6d"
+}

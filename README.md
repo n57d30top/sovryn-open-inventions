@@ -346,6 +346,18 @@ and safety scope in human-readable language.
 - [Execute Discovery Predictions Wave 2 with Deep Targets](results/nobel-stage7-deep-prediction-execution-wave/) — good, autopublished, nobel-stage7-deep-prediction-execution-wave, nobel discovery portfolio v0
 - [Run Holdout Challenge](results/nobel-stage8-holdout-challenge/) — good, autopublished, nobel-stage8-holdout-challenge, nobel discovery portfolio v0
 - [Independent Reproduction Gauntlet](results/nobel-stage9-independent-reproduction-gauntlet/) — good, autopublished, nobel-stage9-independent-reproduction-gauntlet, nobel discovery portfolio v0
+- [NR004 Stage 01 Candidate Forensics](results/nr004-stage01-candidate-forensics/) — good, autopublished, nr004-stage01-candidate-forensics, NR-CAND-004 deep validation for readiness
+- [NR004 Stage 02 Evidence Gap Map](results/nr004-stage02-evidence-gap-map/) — good, autopublished, nr004-stage02-evidence-gap-map, NR-CAND-004 deep validation for readiness
+- [NR004 Stage 03 Rival Theory Hardening](results/nr004-stage03-rival-theory-hardening/) — good, autopublished, nr004-stage03-rival-theory-hardening, NR-CAND-004 deep validation for readiness
+- [NR004 Stage 04 Prediction Freeze](results/nr004-stage04-prediction-freeze/) — good, autopublished, nr004-stage04-prediction-freeze, NR-CAND-004 deep validation for readiness
+- [NR004 Stage 05 Execution Wave 1](results/nr004-stage05-execution-wave1/) — good, autopublished, nr004-stage05-execution-wave1, NR-CAND-004 deep validation for readiness
+- [NR004 Stage 06 Execution Wave 2](results/nr004-stage06-execution-wave2/) — good, autopublished, nr004-stage06-execution-wave2, NR-CAND-004 deep validation for readiness
+- [NR004 Stage 07 Holdout Counterexample Gauntlet](results/nr004-stage07-holdout-and-counterexample-gauntlet/) — good, autopublished, nr004-stage07-holdout-and-counterexample-gauntlet, NR-CAND-004 deep validation for readiness
+- [NR004 Stage 08 Independent Replay](results/nr004-stage08-independent-replay/) — good, autopublished, nr004-stage08-independent-replay, NR-CAND-004 deep validation for readiness
+- [NR004 Stage 09 Readiness Kill Week](results/nr004-stage09-readiness-kill-week/) — good, autopublished, nr004-stage09-readiness-kill-week, NR-CAND-004 deep validation for readiness
+- [NR004 Stage 10 Final Readiness Decision](results/nr004-stage10-final-readiness-decision/) — good, autopublished, nr004-stage10-final-readiness-decision, NR-CAND-004 deep validation for readiness
+- [NR004 Stage 11 Expert Review Package Or Failure](results/nr004-stage11-external-review-package-or-failure/) — good, autopublished, nr004-stage11-external-review-package-or-failure, NR-CAND-004 deep validation for readiness
+- [NR004 Stage 12 Next Frontier](results/nr004-stage12-next-frontier/) — good, autopublished, nr004-stage12-next-frontier, NR-CAND-004 deep validation for readiness
 - [Patch Risk Auditor](results/patch-risk-auditor/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v2/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v3/) — good, showcase, patch-risk-auditor, software-supply-chain

@@ -1,0 +1,12 @@
+{
+  "predictionId": "NR004-PRED-18",
+  "candidateId": "NR-CAND-004",
+  "category": "low_risk_control",
+  "nonObvious": false,
+  "claimComponent": "low-risk control behavior",
+  "expectedObservation": "control does not create positive readiness signal",
+  "falsifier": "Prediction fails if observed evidence contradicts the expected category or cannot be replayed.",
+  "frozenTimestamp": "2026-05-07T11:24:17.260Z",
+  "noEditRule": "Frozen before NR-CAND-004 deep execution; post-hoc edits invalidate this stage.",
+  "preregistrationHash": "d52f79b98ebeb6a2167da30ecb527135fd27e07ae3591d36ab00527567b782b3"
+}
