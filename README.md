@@ -381,3 +381,5 @@ auditability; newer version-group entries supersede earlier iterations.
 ## Autopublish
 
 Results in this corpus were published automatically only after automated quality, replay, safety, reliability, public-hygiene, and publication dry-run gates. Human interpretation is still required before operational use.
+- [Validation Protocol](results/temporal-blind-stage01-validation-protocol/) - good, autopublished, temporal-blind-stage01-validation-protocol, temporal evaluation fragility instrument larger blind validation
+- [Freeze Classifier and Predictions](results/temporal-blind-stage02-freeze-classifier-and-predictions/) - good, autopublished, temporal-blind-stage02-freeze-classifier-and-predictions, temporal evaluation fragility instrument larger blind validation

@@ -1,0 +1,28 @@
+{
+  "classifierVersion": "ca9fbfc",
+  "frozenAt": "2026-05-07T07:05:00.000Z",
+  "labels": [
+    "true_temporal_fragility_candidate",
+    "baseline_dominated",
+    "random_split_artifact",
+    "horizon_sensitive",
+    "window_sensitive",
+    "leakage_artifact",
+    "shuffled_time_artifact",
+    "replay_unstable",
+    "low_risk_control",
+    "inconclusive"
+  ],
+  "thresholds": {
+    "validationReadyBlindTargetsExecuted": 48,
+    "falseTrueFragilityPositiveMax": 2,
+    "minTrueFragilityCandidatesIdentified": 3,
+    "minSurvivingDeepCheckCandidates": 2,
+    "minCandidatePrecisionProxy": 0.6,
+    "maxReplayInvalidatingCaveatsForSurvivors": 0,
+    "minAccuracyLikeScore": 0.72
+  },
+  "noOverclaim": true,
+  "predictionCount": 60,
+  "configHash": "0067bc1bb0b58c2939115426fba0fa96cd796cbb0fe5a37846fe8d12c5f4a6cd"
+}

@@ -1,0 +1,962 @@
+[
+  {
+    "predictionId": "temporal-blind-pred-001",
+    "blindSlot": "blind-slot-001",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "true_temporal_fragility_candidate",
+    "targetFamily": "forecasting",
+    "expectedTemporalSignalRange": [
+      0.62,
+      0.95
+    ],
+    "falsifier": "Strong baseline, shuffled-time, leakage, horizon, or replay evidence explains the signal.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "a1befec2db274fcad72263ffdf92aee8314d69aeba5b7905bf4deff79998be05"
+  },
+  {
+    "predictionId": "temporal-blind-pred-002",
+    "blindSlot": "blind-slot-002",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "true_temporal_fragility_candidate",
+    "targetFamily": "forecasting",
+    "expectedTemporalSignalRange": [
+      0.62,
+      0.95
+    ],
+    "falsifier": "Strong baseline, shuffled-time, leakage, horizon, or replay evidence explains the signal.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "41ed542011f2058925f070e87c4918f00161ade6b8f4baa1efafbabe242b21a8"
+  },
+  {
+    "predictionId": "temporal-blind-pred-003",
+    "blindSlot": "blind-slot-003",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "true_temporal_fragility_candidate",
+    "targetFamily": "forecasting",
+    "expectedTemporalSignalRange": [
+      0.62,
+      0.95
+    ],
+    "falsifier": "Strong baseline, shuffled-time, leakage, horizon, or replay evidence explains the signal.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "c95a8a880a13a7f076c40775436c2c20eeb4280acf67d06835d4bf82c5e57006"
+  },
+  {
+    "predictionId": "temporal-blind-pred-004",
+    "blindSlot": "blind-slot-004",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "true_temporal_fragility_candidate",
+    "targetFamily": "forecasting",
+    "expectedTemporalSignalRange": [
+      0.62,
+      0.95
+    ],
+    "falsifier": "Strong baseline, shuffled-time, leakage, horizon, or replay evidence explains the signal.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "4a205c190d104df2af6abbbc504ca32509dbbbe4d8d343a7b7d28aef9f89a0a0"
+  },
+  {
+    "predictionId": "temporal-blind-pred-005",
+    "blindSlot": "blind-slot-005",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "true_temporal_fragility_candidate",
+    "targetFamily": "forecasting",
+    "expectedTemporalSignalRange": [
+      0.62,
+      0.95
+    ],
+    "falsifier": "Strong baseline, shuffled-time, leakage, horizon, or replay evidence explains the signal.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "e4cd733b28870bd1fa5f82d75abc24f4d0207ab63b8b3c0aff524378f432bdb6"
+  },
+  {
+    "predictionId": "temporal-blind-pred-006",
+    "blindSlot": "blind-slot-006",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "true_temporal_fragility_candidate",
+    "targetFamily": "forecasting",
+    "expectedTemporalSignalRange": [
+      0.62,
+      0.95
+    ],
+    "falsifier": "Strong baseline, shuffled-time, leakage, horizon, or replay evidence explains the signal.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "9a2126e2db205bd73cfcdb7da78e2bc14014b1dc1e7c97273634365612775727"
+  },
+  {
+    "predictionId": "temporal-blind-pred-007",
+    "blindSlot": "blind-slot-007",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "true_temporal_fragility_candidate",
+    "targetFamily": "forecasting",
+    "expectedTemporalSignalRange": [
+      0.62,
+      0.95
+    ],
+    "falsifier": "Strong baseline, shuffled-time, leakage, horizon, or replay evidence explains the signal.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "510ca8afe8a0f74c474a7ae77de9fe3c8a9595353a88e27a7b6c41d6cc925fad"
+  },
+  {
+    "predictionId": "temporal-blind-pred-008",
+    "blindSlot": "blind-slot-008",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "true_temporal_fragility_candidate",
+    "targetFamily": "forecasting",
+    "expectedTemporalSignalRange": [
+      0.62,
+      0.95
+    ],
+    "falsifier": "Strong baseline, shuffled-time, leakage, horizon, or replay evidence explains the signal.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "659a3b62e1e560a49480c1428a234ec6ff9361e4f89f457055f65a98a114ac01"
+  },
+  {
+    "predictionId": "temporal-blind-pred-009",
+    "blindSlot": "blind-slot-009",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "true_temporal_fragility_candidate",
+    "targetFamily": "forecasting",
+    "expectedTemporalSignalRange": [
+      0.62,
+      0.95
+    ],
+    "falsifier": "Strong baseline, shuffled-time, leakage, horizon, or replay evidence explains the signal.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "694c89031f2c5f7b42b9417d8dd17a17b1338a8c31662d8b28eea2e739adc115"
+  },
+  {
+    "predictionId": "temporal-blind-pred-010",
+    "blindSlot": "blind-slot-010",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "true_temporal_fragility_candidate",
+    "targetFamily": "forecasting",
+    "expectedTemporalSignalRange": [
+      0.62,
+      0.95
+    ],
+    "falsifier": "Strong baseline, shuffled-time, leakage, horizon, or replay evidence explains the signal.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "6446743c428a0b7a4341ec41d8be85422fa4727856d77268d0cc9909a992a103"
+  },
+  {
+    "predictionId": "temporal-blind-pred-011",
+    "blindSlot": "blind-slot-011",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "true_temporal_fragility_candidate",
+    "targetFamily": "forecasting",
+    "expectedTemporalSignalRange": [
+      0.62,
+      0.95
+    ],
+    "falsifier": "Strong baseline, shuffled-time, leakage, horizon, or replay evidence explains the signal.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "6d123cfdd25b252212f8933251ece4b58c30a04eda52654e4c09f5db34524d61"
+  },
+  {
+    "predictionId": "temporal-blind-pred-012",
+    "blindSlot": "blind-slot-012",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "true_temporal_fragility_candidate",
+    "targetFamily": "forecasting",
+    "expectedTemporalSignalRange": [
+      0.62,
+      0.95
+    ],
+    "falsifier": "Strong baseline, shuffled-time, leakage, horizon, or replay evidence explains the signal.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "91beef705d254c4c23e9134ce56c5d94ac039e142ba5fa7bca1f37539e22a6a9"
+  },
+  {
+    "predictionId": "temporal-blind-pred-013",
+    "blindSlot": "blind-slot-013",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "true_temporal_fragility_candidate",
+    "targetFamily": "forecasting",
+    "expectedTemporalSignalRange": [
+      0.62,
+      0.95
+    ],
+    "falsifier": "Strong baseline, shuffled-time, leakage, horizon, or replay evidence explains the signal.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "6d7cfde9edb7e18feb639bc0fee3fd8cf58833a77f91d1e5d8627750269cc8c6"
+  },
+  {
+    "predictionId": "temporal-blind-pred-014",
+    "blindSlot": "blind-slot-014",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "true_temporal_fragility_candidate",
+    "targetFamily": "forecasting",
+    "expectedTemporalSignalRange": [
+      0.62,
+      0.95
+    ],
+    "falsifier": "Strong baseline, shuffled-time, leakage, horizon, or replay evidence explains the signal.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "99661f81985e6380c7bb4625c80d138a9fadfde406449b841fd610e247c4c1fd"
+  },
+  {
+    "predictionId": "temporal-blind-pred-015",
+    "blindSlot": "blind-slot-015",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "true_temporal_fragility_candidate",
+    "targetFamily": "forecasting",
+    "expectedTemporalSignalRange": [
+      0.62,
+      0.95
+    ],
+    "falsifier": "Strong baseline, shuffled-time, leakage, horizon, or replay evidence explains the signal.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "801fb9f5d6fb0432186dbf176085363caaaf6cddaebd3075ee17bd96183e2d10"
+  },
+  {
+    "predictionId": "temporal-blind-pred-016",
+    "blindSlot": "blind-slot-016",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "baseline_dominated",
+    "targetFamily": "temporal_classification",
+    "expectedTemporalSignalRange": [
+      0.35,
+      0.7
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "a74cfa81c4d680dd82ee71a890e737536365de1faf3e9ab70d123bbd16aa651e"
+  },
+  {
+    "predictionId": "temporal-blind-pred-017",
+    "blindSlot": "blind-slot-017",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "baseline_dominated",
+    "targetFamily": "temporal_classification",
+    "expectedTemporalSignalRange": [
+      0.35,
+      0.7
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "9df69c2e96aaf9bb9ff5ac085760f06401856fa7ef0b71f0c6a1258ed2afbf67"
+  },
+  {
+    "predictionId": "temporal-blind-pred-018",
+    "blindSlot": "blind-slot-018",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "baseline_dominated",
+    "targetFamily": "temporal_classification",
+    "expectedTemporalSignalRange": [
+      0.35,
+      0.7
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "65da78495c72268783ca2e321e8a4b56d506b6289c1520443b697affb7decdab"
+  },
+  {
+    "predictionId": "temporal-blind-pred-019",
+    "blindSlot": "blind-slot-019",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "baseline_dominated",
+    "targetFamily": "temporal_classification",
+    "expectedTemporalSignalRange": [
+      0.35,
+      0.7
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "34ebf367a8fb97e114a58e732549ddf3343a60ac32615e78386cad46186b01bf"
+  },
+  {
+    "predictionId": "temporal-blind-pred-020",
+    "blindSlot": "blind-slot-020",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "baseline_dominated",
+    "targetFamily": "temporal_classification",
+    "expectedTemporalSignalRange": [
+      0.35,
+      0.7
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "bf557b7e8fc1973f39762357cbe9ec9f05cc5967098f585cf813fda6333b3967"
+  },
+  {
+    "predictionId": "temporal-blind-pred-021",
+    "blindSlot": "blind-slot-021",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "baseline_dominated",
+    "targetFamily": "temporal_classification",
+    "expectedTemporalSignalRange": [
+      0.35,
+      0.7
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "53a6a9cc82f109206a28d5d24ba822c95d6429d5d6ddb0d5319d85ac5d3b0e23"
+  },
+  {
+    "predictionId": "temporal-blind-pred-022",
+    "blindSlot": "blind-slot-022",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "baseline_dominated",
+    "targetFamily": "temporal_classification",
+    "expectedTemporalSignalRange": [
+      0.35,
+      0.7
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "d9a8478cce74a0b0de623219950db7a153c9fd0d5f0075c97043266269a3f1f7"
+  },
+  {
+    "predictionId": "temporal-blind-pred-023",
+    "blindSlot": "blind-slot-023",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "baseline_dominated",
+    "targetFamily": "temporal_classification",
+    "expectedTemporalSignalRange": [
+      0.35,
+      0.7
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "76d79d491c847194eede53d588614f1b5bfd7e9618e7924d2b1db478df875221"
+  },
+  {
+    "predictionId": "temporal-blind-pred-024",
+    "blindSlot": "blind-slot-024",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "baseline_dominated",
+    "targetFamily": "temporal_classification",
+    "expectedTemporalSignalRange": [
+      0.35,
+      0.7
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "candidatePrecisionProxy below 0.60 or class-specific false positive pressure above threshold",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "e1dbc509f05ec462c02dce290303c1a03ee3f87bda929dc81e2060cc67fa37bb"
+  },
+  {
+    "predictionId": "temporal-blind-pred-025",
+    "blindSlot": "blind-slot-025",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "baseline_dominated",
+    "targetFamily": "temporal_classification",
+    "expectedTemporalSignalRange": [
+      0.35,
+      0.7
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "8d908a6b23aaaee85cf36340d73d9474951f996b0daccc13514fb875a633e96e"
+  },
+  {
+    "predictionId": "temporal-blind-pred-026",
+    "blindSlot": "blind-slot-026",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "baseline_dominated",
+    "targetFamily": "temporal_classification",
+    "expectedTemporalSignalRange": [
+      0.35,
+      0.7
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "4fe404c94456d95b4885425db4bcd3035a0420029dce3c93cae60ba94e4e27eb"
+  },
+  {
+    "predictionId": "temporal-blind-pred-027",
+    "blindSlot": "blind-slot-027",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "baseline_dominated",
+    "targetFamily": "temporal_classification",
+    "expectedTemporalSignalRange": [
+      0.35,
+      0.7
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "7f73862659b924c8233cee5771af2ae221d8e2e1022e98dc65cff479c86f6488"
+  },
+  {
+    "predictionId": "temporal-blind-pred-028",
+    "blindSlot": "blind-slot-028",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "baseline_dominated",
+    "targetFamily": "temporal_classification",
+    "expectedTemporalSignalRange": [
+      0.35,
+      0.7
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "ce66fb1136618e8b13f8c5a0556aed4ff45124e71dc16f3f1e922a9629a16b14"
+  },
+  {
+    "predictionId": "temporal-blind-pred-029",
+    "blindSlot": "blind-slot-029",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "baseline_dominated",
+    "targetFamily": "temporal_classification",
+    "expectedTemporalSignalRange": [
+      0.35,
+      0.7
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "894f7c9b2aa0679d9970045338e87c8629de8dff677375e90e26efc05b81d220"
+  },
+  {
+    "predictionId": "temporal-blind-pred-030",
+    "blindSlot": "blind-slot-030",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "baseline_dominated",
+    "targetFamily": "temporal_classification",
+    "expectedTemporalSignalRange": [
+      0.35,
+      0.7
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "38812248cadb131b109aafd5fb1d6e9504ef65bcb942de2fa7deb887cb43759f"
+  },
+  {
+    "predictionId": "temporal-blind-pred-031",
+    "blindSlot": "blind-slot-031",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "leakage_artifact",
+    "targetFamily": "anomaly",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "e11995d0d83690955cffb9b3395cf84ade2e84697664eda5aa8d2b01bdb1ad17"
+  },
+  {
+    "predictionId": "temporal-blind-pred-032",
+    "blindSlot": "blind-slot-032",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "leakage_artifact",
+    "targetFamily": "anomaly",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "84f45332c27288c338d0d8f16d3b36423162817e120e7d0e5e5f11a6e4efe536"
+  },
+  {
+    "predictionId": "temporal-blind-pred-033",
+    "blindSlot": "blind-slot-033",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "leakage_artifact",
+    "targetFamily": "anomaly",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "b987dd99bd82a1af260cbb6f77aeb0856828ced7fef3fe2776f568b97d4cda1a"
+  },
+  {
+    "predictionId": "temporal-blind-pred-034",
+    "blindSlot": "blind-slot-034",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "leakage_artifact",
+    "targetFamily": "anomaly",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "010795311e64c76a3ec9f6f1902771ecdfa1eca4db343dc283619c2a76b2f508"
+  },
+  {
+    "predictionId": "temporal-blind-pred-035",
+    "blindSlot": "blind-slot-035",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "leakage_artifact",
+    "targetFamily": "anomaly",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "8683cf9268775be4ff8829e3a8e1062e929bdd0c1f1e45e6e9d9b8b01ca2fb3f"
+  },
+  {
+    "predictionId": "temporal-blind-pred-036",
+    "blindSlot": "blind-slot-036",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "shuffled_time_artifact",
+    "targetFamily": "anomaly",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "39fa6dc84f88a6aa4ab3631d8f2d50b9bc0be2382a120a31381368ae58f9d3a6"
+  },
+  {
+    "predictionId": "temporal-blind-pred-037",
+    "blindSlot": "blind-slot-037",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "shuffled_time_artifact",
+    "targetFamily": "anomaly",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "4c414978a5d9ba2e19597451fffc691ca53c0f2e9e28c180c124f0b1a6bbab23"
+  },
+  {
+    "predictionId": "temporal-blind-pred-038",
+    "blindSlot": "blind-slot-038",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "shuffled_time_artifact",
+    "targetFamily": "anomaly",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "7f770a4b29b958aff63160aa87f766e3bd670a68b59ba1a5f2eec803387ab99a"
+  },
+  {
+    "predictionId": "temporal-blind-pred-039",
+    "blindSlot": "blind-slot-039",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "shuffled_time_artifact",
+    "targetFamily": "anomaly",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "283d7abba9d82057b41113429e850ee02dfea4d53506d4014eeec86a7939ffa6"
+  },
+  {
+    "predictionId": "temporal-blind-pred-040",
+    "blindSlot": "blind-slot-040",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "shuffled_time_artifact",
+    "targetFamily": "anomaly",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "dd92884c5ab07ca8c689c8432aa79449cc5a1a160fa41a637236c062f45febce"
+  },
+  {
+    "predictionId": "temporal-blind-pred-041",
+    "blindSlot": "blind-slot-041",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "horizon_sensitive",
+    "targetFamily": "mixed_hard",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "0c6e411f123ee554625184c18384c86de872378ed382b2d79092877ba554cb30"
+  },
+  {
+    "predictionId": "temporal-blind-pred-042",
+    "blindSlot": "blind-slot-042",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "horizon_sensitive",
+    "targetFamily": "mixed_hard",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "262795c8e78fdd619aaa7f9e389db92a5d2ad95a7fecf100539225d5d4352bab"
+  },
+  {
+    "predictionId": "temporal-blind-pred-043",
+    "blindSlot": "blind-slot-043",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "horizon_sensitive",
+    "targetFamily": "mixed_hard",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "4e3ea1d3f9bf65057d0766092f596a7d85742dac41a44c999b3749643aa89cf0"
+  },
+  {
+    "predictionId": "temporal-blind-pred-044",
+    "blindSlot": "blind-slot-044",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "horizon_sensitive",
+    "targetFamily": "mixed_hard",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "44734b0f57d00e9a69a99ab7933e182471043a587bf6acb81e8b413578ab33a8"
+  },
+  {
+    "predictionId": "temporal-blind-pred-045",
+    "blindSlot": "blind-slot-045",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "horizon_sensitive",
+    "targetFamily": "mixed_hard",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "a037cda4d0fdd343ba3dfe70a714979e1c3d05be7ca1db867bda8e4679905bee"
+  },
+  {
+    "predictionId": "temporal-blind-pred-046",
+    "blindSlot": "blind-slot-046",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "window_sensitive",
+    "targetFamily": "mixed_hard",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "c82755142bdba35e391be461ca23e27668c4f69ab93613737abe5ae981f79bdc"
+  },
+  {
+    "predictionId": "temporal-blind-pred-047",
+    "blindSlot": "blind-slot-047",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "window_sensitive",
+    "targetFamily": "mixed_hard",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "260029de3ed8441b7f02084634ef282b9e13046a95efe267fa15f9b3492cd4f4"
+  },
+  {
+    "predictionId": "temporal-blind-pred-048",
+    "blindSlot": "blind-slot-048",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "window_sensitive",
+    "targetFamily": "mixed_hard",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "29283710a65f1f474e29d93a518d5a4a905852970380c0c4e0d4d3b922963e95"
+  },
+  {
+    "predictionId": "temporal-blind-pred-049",
+    "blindSlot": "blind-slot-049",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "window_sensitive",
+    "targetFamily": "mixed_hard",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "1910dfb4089989d4c7c233e04aa14740f3d98e9b8812da38a45743c85adc2b0d"
+  },
+  {
+    "predictionId": "temporal-blind-pred-050",
+    "blindSlot": "blind-slot-050",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "window_sensitive",
+    "targetFamily": "mixed_hard",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "38c9181738e3d8232669fbca1de8fc1ed23207d4bd500e71520325d507cce86d"
+  },
+  {
+    "predictionId": "temporal-blind-pred-051",
+    "blindSlot": "blind-slot-051",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "low_risk_control",
+    "targetFamily": "low_risk_control",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "191ec54e31e504660794c115a74c3dbdd11459de3cef691e38f603ad9606b10f"
+  },
+  {
+    "predictionId": "temporal-blind-pred-052",
+    "blindSlot": "blind-slot-052",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "low_risk_control",
+    "targetFamily": "low_risk_control",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "05dc670c92aab13e2f5fe55efddd0aa01cc3af3bf8136610a6f2682b02645b27"
+  },
+  {
+    "predictionId": "temporal-blind-pred-053",
+    "blindSlot": "blind-slot-053",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "low_risk_control",
+    "targetFamily": "low_risk_control",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "d03ed358990ef6834058e0d50594c8f594fec75c1e03e301cca0a05b0a478779"
+  },
+  {
+    "predictionId": "temporal-blind-pred-054",
+    "blindSlot": "blind-slot-054",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "low_risk_control",
+    "targetFamily": "low_risk_control",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "edcaa178b22c6abdbccd2398aa644b2fb71e06744a14b32ed2efcf0fed14395f"
+  },
+  {
+    "predictionId": "temporal-blind-pred-055",
+    "blindSlot": "blind-slot-055",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "low_risk_control",
+    "targetFamily": "low_risk_control",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "7873b1e7d2769adeadf005e8416c845658fedbef2b538db0935a39981e28ee75"
+  },
+  {
+    "predictionId": "temporal-blind-pred-056",
+    "blindSlot": "blind-slot-056",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "inconclusive",
+    "targetFamily": "low_risk_control",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "14041e3c16a48b6d565add3e35b092daebb423b00eb461839a1efea9a72eb8fb"
+  },
+  {
+    "predictionId": "temporal-blind-pred-057",
+    "blindSlot": "blind-slot-057",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "inconclusive",
+    "targetFamily": "low_risk_control",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "48a2498dcc1e860eb0c16a7b2b7baada10362be3a2da244accfb393b00731e65"
+  },
+  {
+    "predictionId": "temporal-blind-pred-058",
+    "blindSlot": "blind-slot-058",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "inconclusive",
+    "targetFamily": "low_risk_control",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "0a0fce6f512f6326a3bcc0a0418b88e0aafbcd906b6765a0db3928b18c95cf13"
+  },
+  {
+    "predictionId": "temporal-blind-pred-059",
+    "blindSlot": "blind-slot-059",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "inconclusive",
+    "targetFamily": "low_risk_control",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "754e4ffc8a1db021178e4acc78d1a8624e3297a050deea03ddd06e00ce5267cb"
+  },
+  {
+    "predictionId": "temporal-blind-pred-060",
+    "blindSlot": "blind-slot-060",
+    "classifierVersion": "ca9fbfc",
+    "expectedClassLabel": "inconclusive",
+    "targetFamily": "low_risk_control",
+    "expectedTemporalSignalRange": [
+      0.15,
+      0.75
+    ],
+    "falsifier": "Instrument classifies a robust temporal candidate with stable replay and no artifact explanation.",
+    "numericFalsifier": "categorical label mismatch after blind execution",
+    "noEditRule": "This card must not be edited after freeze.",
+    "frozenTimestamp": "2026-05-07T07:05:00.000Z",
+    "preregistrationHash": "b9797310661115841ffc96036ea32d4fde40c98262dddaabab21ed84b2730b1d"
+  }
+]
