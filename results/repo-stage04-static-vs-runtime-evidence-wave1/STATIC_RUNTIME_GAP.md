@@ -1,0 +1,10 @@
+| targetId | packageName | staticRuntimeGap | observedLabel |
+| --- | --- | --- | --- |
+| repo-target-001 | requests | smoke_succeeds_test_probe_fails | dynamic_test_mismatch |
+| repo-target-002 | click | smoke_succeeds_test_probe_fails | dynamic_test_mismatch |
+| repo-target-003 | attrs | smoke_succeeds_test_probe_fails | dynamic_test_mismatch |
+| repo-target-004 | packaging | smoke_succeeds_test_probe_fails | dynamic_test_mismatch |
+| repo-target-005 | PyYAML | smoke_succeeds_test_probe_fails | dynamic_test_mismatch |
+| repo-target-006 | tabulate | smoke_succeeds_test_probe_fails | dynamic_test_mismatch |
+| repo-target-007 | humanize | smoke_succeeds_test_probe_fails | dynamic_test_mismatch |
+| repo-target-008 | python-slugify | smoke_succeeds_test_probe_fails | dynamic_test_mismatch |

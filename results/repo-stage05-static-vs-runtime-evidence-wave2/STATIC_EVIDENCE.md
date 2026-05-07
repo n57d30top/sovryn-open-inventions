@@ -1,0 +1,10 @@
+| targetId | packageName | retrievalSucceeded | downloadedBytes | hasDescription | requiresDistCount |
+| --- | --- | --- | --- | --- | --- |
+| repo-target-009 | more-itertools | true | 123920 | true | 0 |
+| repo-target-010 | boltons | true | 68831 | true | 0 |
+| repo-target-011 | toolz | true | 35353 | true | 0 |
+| repo-target-012 | pydash | true | 116961 | true | 15 |
+| repo-target-013 | tinydb | true | 82046 | true | 0 |
+| repo-target-014 | networkx | true | 185402 | true | 37 |
+| repo-target-015 | pint | true | 83690 | true | 56 |
+| repo-target-016 | uncertainties | true | 73851 | true | 9 |

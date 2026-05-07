@@ -1,0 +1,10 @@
+| targetId | packageName | install | runtime | label | gap |
+| --- | --- | --- | --- | --- | --- |
+| repo-target-001 | requests | success | success | dynamic_test_mismatch | smoke_succeeds_test_probe_fails |
+| repo-target-002 | click | success | success | dynamic_test_mismatch | smoke_succeeds_test_probe_fails |
+| repo-target-003 | attrs | success | success | dynamic_test_mismatch | smoke_succeeds_test_probe_fails |
+| repo-target-004 | packaging | success | success | dynamic_test_mismatch | smoke_succeeds_test_probe_fails |
+| repo-target-005 | PyYAML | success | success | dynamic_test_mismatch | smoke_succeeds_test_probe_fails |
+| repo-target-006 | tabulate | success | success | dynamic_test_mismatch | smoke_succeeds_test_probe_fails |
+| repo-target-007 | humanize | success | success | dynamic_test_mismatch | smoke_succeeds_test_probe_fails |
+| repo-target-008 | python-slugify | success | success | dynamic_test_mismatch | smoke_succeeds_test_probe_fails |

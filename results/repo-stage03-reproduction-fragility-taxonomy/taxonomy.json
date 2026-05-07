@@ -1,0 +1,81 @@
+{
+  "labels": [
+    {
+      "label": "runtime_reproducible",
+      "definition": "runtime reproducible classification under bounded isolated reproduction checks",
+      "requiredEvidence": "metadata retrieval, install/provision attempt, runtime or explicit failure, static/runtime comparison",
+      "falsifier": "class-specific runtime, dependency, artifact, or replay check contradicts the assigned label",
+      "downgradeRule": "downgrade to inconclusive or narrower mechanism if static/runtime/replay evidence conflicts"
+    },
+    {
+      "label": "install_only_reproducible",
+      "definition": "install only reproducible classification under bounded isolated reproduction checks",
+      "requiredEvidence": "metadata retrieval, install/provision attempt, runtime or explicit failure, static/runtime comparison",
+      "falsifier": "class-specific runtime, dependency, artifact, or replay check contradicts the assigned label",
+      "downgradeRule": "downgrade to inconclusive or narrower mechanism if static/runtime/replay evidence conflicts"
+    },
+    {
+      "label": "static_only_evidence",
+      "definition": "static only evidence classification under bounded isolated reproduction checks",
+      "requiredEvidence": "metadata retrieval, install/provision attempt, runtime or explicit failure, static/runtime comparison",
+      "falsifier": "class-specific runtime, dependency, artifact, or replay check contradicts the assigned label",
+      "downgradeRule": "downgrade to inconclusive or narrower mechanism if static/runtime/replay evidence conflicts"
+    },
+    {
+      "label": "dependency_pin_fragile",
+      "definition": "dependency pin fragile classification under bounded isolated reproduction checks",
+      "requiredEvidence": "metadata retrieval, install/provision attempt, runtime or explicit failure, static/runtime comparison",
+      "falsifier": "class-specific runtime, dependency, artifact, or replay check contradicts the assigned label",
+      "downgradeRule": "downgrade to inconclusive or narrower mechanism if static/runtime/replay evidence conflicts"
+    },
+    {
+      "label": "dynamic_test_mismatch",
+      "definition": "dynamic test mismatch classification under bounded isolated reproduction checks",
+      "requiredEvidence": "metadata retrieval, install/provision attempt, runtime or explicit failure, static/runtime comparison",
+      "falsifier": "class-specific runtime, dependency, artifact, or replay check contradicts the assigned label",
+      "downgradeRule": "downgrade to inconclusive or narrower mechanism if static/runtime/replay evidence conflicts"
+    },
+    {
+      "label": "hidden_data_dependency",
+      "definition": "hidden data dependency classification under bounded isolated reproduction checks",
+      "requiredEvidence": "metadata retrieval, install/provision attempt, runtime or explicit failure, static/runtime comparison",
+      "falsifier": "class-specific runtime, dependency, artifact, or replay check contradicts the assigned label",
+      "downgradeRule": "downgrade to inconclusive or narrower mechanism if static/runtime/replay evidence conflicts"
+    },
+    {
+      "label": "example_missing",
+      "definition": "example missing classification under bounded isolated reproduction checks",
+      "requiredEvidence": "metadata retrieval, install/provision attempt, runtime or explicit failure, static/runtime comparison",
+      "falsifier": "class-specific runtime, dependency, artifact, or replay check contradicts the assigned label",
+      "downgradeRule": "downgrade to inconclusive or narrower mechanism if static/runtime/replay evidence conflicts"
+    },
+    {
+      "label": "docs_overclaim",
+      "definition": "docs overclaim classification under bounded isolated reproduction checks",
+      "requiredEvidence": "metadata retrieval, install/provision attempt, runtime or explicit failure, static/runtime comparison",
+      "falsifier": "class-specific runtime, dependency, artifact, or replay check contradicts the assigned label",
+      "downgradeRule": "downgrade to inconclusive or narrower mechanism if static/runtime/replay evidence conflicts"
+    },
+    {
+      "label": "replay_unstable",
+      "definition": "replay unstable classification under bounded isolated reproduction checks",
+      "requiredEvidence": "metadata retrieval, install/provision attempt, runtime or explicit failure, static/runtime comparison",
+      "falsifier": "class-specific runtime, dependency, artifact, or replay check contradicts the assigned label",
+      "downgradeRule": "downgrade to inconclusive or narrower mechanism if static/runtime/replay evidence conflicts"
+    },
+    {
+      "label": "low_risk_control",
+      "definition": "low risk control classification under bounded isolated reproduction checks",
+      "requiredEvidence": "metadata retrieval, install/provision attempt, runtime or explicit failure, static/runtime comparison",
+      "falsifier": "class-specific runtime, dependency, artifact, or replay check contradicts the assigned label",
+      "downgradeRule": "downgrade to inconclusive or narrower mechanism if static/runtime/replay evidence conflicts"
+    },
+    {
+      "label": "inconclusive",
+      "definition": "inconclusive classification under bounded isolated reproduction checks",
+      "requiredEvidence": "metadata retrieval, install/provision attempt, runtime or explicit failure, static/runtime comparison",
+      "falsifier": "class-specific runtime, dependency, artifact, or replay check contradicts the assigned label",
+      "downgradeRule": "downgrade to inconclusive or narrower mechanism if static/runtime/replay evidence conflicts"
+    }
+  ]
+}

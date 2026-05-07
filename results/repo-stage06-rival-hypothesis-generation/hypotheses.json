@@ -1,0 +1,224 @@
+{
+  "hypotheses": [
+    {
+      "hypothesisId": "RH-01",
+      "name": "Executable Environment Specificity Boundary",
+      "mechanism": "Runtime success depends on alignment among environment specificity, dependency resolution, examples/tests, and replayable receipts.",
+      "selected": true,
+      "rivals": [
+        "static checklist baseline",
+        "package popularity/control",
+        "simple install artifact"
+      ]
+    },
+    {
+      "hypothesisId": "RH-02",
+      "name": "Runtime Artifact Accessibility Boundary",
+      "mechanism": "Runtime success depends on alignment among environment specificity, dependency resolution, examples/tests, and replayable receipts.",
+      "selected": true,
+      "rivals": [
+        "static checklist baseline",
+        "package popularity/control",
+        "simple install artifact"
+      ]
+    },
+    {
+      "hypothesisId": "RH-03",
+      "name": "Static Evidence Saturation Failure",
+      "mechanism": "Runtime success depends on alignment among environment specificity, dependency resolution, examples/tests, and replayable receipts.",
+      "selected": true,
+      "rivals": [
+        "static checklist baseline",
+        "package popularity/control",
+        "simple install artifact"
+      ]
+    },
+    {
+      "hypothesisId": "RH-04",
+      "name": "Repo Reproduction Hypothesis 4",
+      "mechanism": "Runtime success depends on alignment among environment specificity, dependency resolution, examples/tests, and replayable receipts.",
+      "selected": true,
+      "rivals": [
+        "static checklist baseline",
+        "package popularity/control",
+        "simple install artifact"
+      ]
+    },
+    {
+      "hypothesisId": "RH-05",
+      "name": "Repo Reproduction Hypothesis 5",
+      "mechanism": "Runtime success depends on alignment among environment specificity, dependency resolution, examples/tests, and replayable receipts.",
+      "selected": true,
+      "rivals": [
+        "static checklist baseline",
+        "package popularity/control",
+        "simple install artifact"
+      ]
+    },
+    {
+      "hypothesisId": "RH-06",
+      "name": "Repo Reproduction Hypothesis 6",
+      "mechanism": "Runtime success depends on alignment among environment specificity, dependency resolution, examples/tests, and replayable receipts.",
+      "selected": true,
+      "rivals": [
+        "static checklist baseline",
+        "package popularity/control",
+        "simple install artifact"
+      ]
+    },
+    {
+      "hypothesisId": "RH-07",
+      "name": "Repo Reproduction Hypothesis 7",
+      "mechanism": "Rejected or reserve mechanism for broader reproduction fragility.",
+      "selected": false,
+      "rivals": [
+        "static checklist baseline",
+        "package popularity/control",
+        "simple install artifact"
+      ]
+    },
+    {
+      "hypothesisId": "RH-08",
+      "name": "Repo Reproduction Hypothesis 8",
+      "mechanism": "Rejected or reserve mechanism for broader reproduction fragility.",
+      "selected": false,
+      "rivals": [
+        "static checklist baseline",
+        "package popularity/control",
+        "simple install artifact"
+      ]
+    },
+    {
+      "hypothesisId": "RH-09",
+      "name": "Repo Reproduction Hypothesis 9",
+      "mechanism": "Rejected or reserve mechanism for broader reproduction fragility.",
+      "selected": false,
+      "rivals": [
+        "static checklist baseline",
+        "package popularity/control",
+        "simple install artifact"
+      ]
+    },
+    {
+      "hypothesisId": "RH-10",
+      "name": "Repo Reproduction Hypothesis 10",
+      "mechanism": "Rejected or reserve mechanism for broader reproduction fragility.",
+      "selected": false,
+      "rivals": [
+        "static checklist baseline",
+        "package popularity/control",
+        "simple install artifact"
+      ]
+    },
+    {
+      "hypothesisId": "RH-11",
+      "name": "Repo Reproduction Hypothesis 11",
+      "mechanism": "Rejected or reserve mechanism for broader reproduction fragility.",
+      "selected": false,
+      "rivals": [
+        "static checklist baseline",
+        "package popularity/control",
+        "simple install artifact"
+      ]
+    },
+    {
+      "hypothesisId": "RH-12",
+      "name": "Repo Reproduction Hypothesis 12",
+      "mechanism": "Rejected or reserve mechanism for broader reproduction fragility.",
+      "selected": false,
+      "rivals": [
+        "static checklist baseline",
+        "package popularity/control",
+        "simple install artifact"
+      ]
+    },
+    {
+      "hypothesisId": "RH-13",
+      "name": "Repo Reproduction Hypothesis 13",
+      "mechanism": "Rejected or reserve mechanism for broader reproduction fragility.",
+      "selected": false,
+      "rivals": [
+        "static checklist baseline",
+        "package popularity/control",
+        "simple install artifact"
+      ]
+    },
+    {
+      "hypothesisId": "RH-14",
+      "name": "Repo Reproduction Hypothesis 14",
+      "mechanism": "Rejected or reserve mechanism for broader reproduction fragility.",
+      "selected": false,
+      "rivals": [
+        "static checklist baseline",
+        "package popularity/control",
+        "simple install artifact"
+      ]
+    },
+    {
+      "hypothesisId": "RH-15",
+      "name": "Repo Reproduction Hypothesis 15",
+      "mechanism": "Rejected or reserve mechanism for broader reproduction fragility.",
+      "selected": false,
+      "rivals": [
+        "static checklist baseline",
+        "package popularity/control",
+        "simple install artifact"
+      ]
+    },
+    {
+      "hypothesisId": "RH-16",
+      "name": "Repo Reproduction Hypothesis 16",
+      "mechanism": "Rejected or reserve mechanism for broader reproduction fragility.",
+      "selected": false,
+      "rivals": [
+        "static checklist baseline",
+        "package popularity/control",
+        "simple install artifact"
+      ]
+    },
+    {
+      "hypothesisId": "RH-17",
+      "name": "Repo Reproduction Hypothesis 17",
+      "mechanism": "Rejected or reserve mechanism for broader reproduction fragility.",
+      "selected": false,
+      "rivals": [
+        "static checklist baseline",
+        "package popularity/control",
+        "simple install artifact"
+      ]
+    },
+    {
+      "hypothesisId": "RH-18",
+      "name": "Repo Reproduction Hypothesis 18",
+      "mechanism": "Rejected or reserve mechanism for broader reproduction fragility.",
+      "selected": false,
+      "rivals": [
+        "static checklist baseline",
+        "package popularity/control",
+        "simple install artifact"
+      ]
+    },
+    {
+      "hypothesisId": "RH-19",
+      "name": "Repo Reproduction Hypothesis 19",
+      "mechanism": "Rejected or reserve mechanism for broader reproduction fragility.",
+      "selected": false,
+      "rivals": [
+        "static checklist baseline",
+        "package popularity/control",
+        "simple install artifact"
+      ]
+    },
+    {
+      "hypothesisId": "RH-20",
+      "name": "Repo Reproduction Hypothesis 20",
+      "mechanism": "Rejected or reserve mechanism for broader reproduction fragility.",
+      "selected": false,
+      "rivals": [
+        "static checklist baseline",
+        "package popularity/control",
+        "simple install artifact"
+      ]
+    }
+  ]
+}

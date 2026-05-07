@@ -1,0 +1,10 @@
+| targetId | packageName | retrievalSucceeded | downloadedBytes | hasDescription | requiresDistCount |
+| --- | --- | --- | --- | --- | --- |
+| repo-target-001 | requests | true | 177259 | true | 6 |
+| repo-target-002 | click | true | 89422 | true | 1 |
+| repo-target-003 | attrs | true | 62871 | true | 0 |
+| repo-target-004 | packaging | true | 82436 | true | 0 |
+| repo-target-005 | PyYAML | true | 501515 | true | 0 |
+| repo-target-006 | tabulate | true | 72592 | true | 1 |
+| repo-target-007 | humanize | true | 86749 | true | 3 |
+| repo-target-008 | python-slugify | true | 55238 | true | 2 |

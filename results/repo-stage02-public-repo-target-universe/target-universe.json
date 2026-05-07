@@ -1,0 +1,1304 @@
+{
+  "candidates": [
+    {
+      "targetId": "repo-target-001",
+      "packageName": "requests",
+      "importName": "requests",
+      "family": "package_with_tests",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/requests/",
+      "apiUrl": "https://pypi.org/pypi/requests/json"
+    },
+    {
+      "targetId": "repo-target-002",
+      "packageName": "click",
+      "importName": "click",
+      "family": "scientific_python_dependency",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/click/",
+      "apiUrl": "https://pypi.org/pypi/click/json"
+    },
+    {
+      "targetId": "repo-target-003",
+      "packageName": "attrs",
+      "importName": "attr",
+      "family": "package_with_tests",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/attrs/",
+      "apiUrl": "https://pypi.org/pypi/attrs/json"
+    },
+    {
+      "targetId": "repo-target-004",
+      "packageName": "packaging",
+      "importName": "packaging",
+      "family": "package_with_tests",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/packaging/",
+      "apiUrl": "https://pypi.org/pypi/packaging/json"
+    },
+    {
+      "targetId": "repo-target-005",
+      "packageName": "PyYAML",
+      "importName": "yaml",
+      "family": "scientific_python_dependency",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/PyYAML/",
+      "apiUrl": "https://pypi.org/pypi/PyYAML/json"
+    },
+    {
+      "targetId": "repo-target-006",
+      "packageName": "tabulate",
+      "importName": "tabulate",
+      "family": "docs_examples_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/tabulate/",
+      "apiUrl": "https://pypi.org/pypi/tabulate/json"
+    },
+    {
+      "targetId": "repo-target-007",
+      "packageName": "humanize",
+      "importName": "humanize",
+      "family": "docs_examples_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/humanize/",
+      "apiUrl": "https://pypi.org/pypi/humanize/json"
+    },
+    {
+      "targetId": "repo-target-008",
+      "packageName": "python-slugify",
+      "importName": "slugify",
+      "family": "docs_examples_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/python-slugify/",
+      "apiUrl": "https://pypi.org/pypi/python-slugify/json"
+    },
+    {
+      "targetId": "repo-target-009",
+      "packageName": "more-itertools",
+      "importName": "more_itertools",
+      "family": "package_with_tests",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/more-itertools/",
+      "apiUrl": "https://pypi.org/pypi/more-itertools/json"
+    },
+    {
+      "targetId": "repo-target-010",
+      "packageName": "boltons",
+      "importName": "boltons",
+      "family": "package_with_tests",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/boltons/",
+      "apiUrl": "https://pypi.org/pypi/boltons/json"
+    },
+    {
+      "targetId": "repo-target-011",
+      "packageName": "toolz",
+      "importName": "toolz",
+      "family": "package_with_tests",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/toolz/",
+      "apiUrl": "https://pypi.org/pypi/toolz/json"
+    },
+    {
+      "targetId": "repo-target-012",
+      "packageName": "pydash",
+      "importName": "pydash",
+      "family": "package_with_tests",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/pydash/",
+      "apiUrl": "https://pypi.org/pypi/pydash/json"
+    },
+    {
+      "targetId": "repo-target-013",
+      "packageName": "tinydb",
+      "importName": "tinydb",
+      "family": "small_science_repo",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/tinydb/",
+      "apiUrl": "https://pypi.org/pypi/tinydb/json"
+    },
+    {
+      "targetId": "repo-target-014",
+      "packageName": "networkx",
+      "importName": "networkx",
+      "family": "scientific_python_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/networkx/",
+      "apiUrl": "https://pypi.org/pypi/networkx/json"
+    },
+    {
+      "targetId": "repo-target-015",
+      "packageName": "pint",
+      "importName": "pint",
+      "family": "scientific_python_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/pint/",
+      "apiUrl": "https://pypi.org/pypi/pint/json"
+    },
+    {
+      "targetId": "repo-target-016",
+      "packageName": "uncertainties",
+      "importName": "uncertainties",
+      "family": "scientific_python_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/uncertainties/",
+      "apiUrl": "https://pypi.org/pypi/uncertainties/json"
+    },
+    {
+      "targetId": "repo-target-017",
+      "packageName": "periodictable",
+      "importName": "periodictable",
+      "family": "scientific_python_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/periodictable/",
+      "apiUrl": "https://pypi.org/pypi/periodictable/json"
+    },
+    {
+      "targetId": "repo-target-018",
+      "packageName": "asteval",
+      "importName": "asteval",
+      "family": "scientific_python_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/asteval/",
+      "apiUrl": "https://pypi.org/pypi/asteval/json"
+    },
+    {
+      "targetId": "repo-target-019",
+      "packageName": "sgp4",
+      "importName": "sgp4",
+      "family": "scientific_python_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/sgp4/",
+      "apiUrl": "https://pypi.org/pypi/sgp4/json"
+    },
+    {
+      "targetId": "repo-target-020",
+      "packageName": "skyfield",
+      "importName": "skyfield",
+      "family": "scientific_python_package",
+      "expectedLabel": "dependency_pin_fragile",
+      "sourceUrl": "https://pypi.org/project/skyfield/",
+      "apiUrl": "https://pypi.org/pypi/skyfield/json"
+    },
+    {
+      "targetId": "repo-target-021",
+      "packageName": "ephem",
+      "importName": "ephem",
+      "family": "scientific_python_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/ephem/",
+      "apiUrl": "https://pypi.org/pypi/ephem/json"
+    },
+    {
+      "targetId": "repo-target-022",
+      "packageName": "jdcal",
+      "importName": "jdcal",
+      "family": "low_risk_control",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/jdcal/",
+      "apiUrl": "https://pypi.org/pypi/jdcal/json"
+    },
+    {
+      "targetId": "repo-target-023",
+      "packageName": "pyerfa",
+      "importName": "erfa",
+      "family": "scientific_python_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/pyerfa/",
+      "apiUrl": "https://pypi.org/pypi/pyerfa/json"
+    },
+    {
+      "targetId": "repo-target-024",
+      "packageName": "hypothesis",
+      "importName": "hypothesis",
+      "family": "package_with_tests",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/hypothesis/",
+      "apiUrl": "https://pypi.org/pypi/hypothesis/json"
+    },
+    {
+      "targetId": "repo-target-025",
+      "packageName": "joblib",
+      "importName": "joblib",
+      "family": "scientific_python_dependency",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/joblib/",
+      "apiUrl": "https://pypi.org/pypi/joblib/json"
+    },
+    {
+      "targetId": "repo-target-026",
+      "packageName": "cloudpickle",
+      "importName": "cloudpickle",
+      "family": "scientific_python_dependency",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/cloudpickle/",
+      "apiUrl": "https://pypi.org/pypi/cloudpickle/json"
+    },
+    {
+      "targetId": "repo-target-027",
+      "packageName": "sortedcontainers",
+      "importName": "sortedcontainers",
+      "family": "low_risk_control",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/sortedcontainers/",
+      "apiUrl": "https://pypi.org/pypi/sortedcontainers/json"
+    },
+    {
+      "targetId": "repo-target-028",
+      "packageName": "pypandoc",
+      "importName": "pypandoc",
+      "family": "docs_examples_package",
+      "expectedLabel": "hidden_data_dependency",
+      "sourceUrl": "https://pypi.org/project/pypandoc/",
+      "apiUrl": "https://pypi.org/pypi/pypandoc/json"
+    },
+    {
+      "targetId": "repo-target-029",
+      "packageName": "graphviz",
+      "importName": "graphviz",
+      "family": "docs_examples_package",
+      "expectedLabel": "hidden_data_dependency",
+      "sourceUrl": "https://pypi.org/project/graphviz/",
+      "apiUrl": "https://pypi.org/pypi/graphviz/json"
+    },
+    {
+      "targetId": "repo-target-030",
+      "packageName": "pygraphviz",
+      "importName": "pygraphviz",
+      "family": "scientific_python_package",
+      "expectedLabel": "dependency_pin_fragile",
+      "sourceUrl": "https://pypi.org/project/pygraphviz/",
+      "apiUrl": "https://pypi.org/pypi/pygraphviz/json"
+    },
+    {
+      "targetId": "repo-target-031",
+      "packageName": "rpy2",
+      "importName": "rpy2",
+      "family": "scientific_python_package",
+      "expectedLabel": "dependency_pin_fragile",
+      "sourceUrl": "https://pypi.org/project/rpy2/",
+      "apiUrl": "https://pypi.org/pypi/rpy2/json"
+    },
+    {
+      "targetId": "repo-target-032",
+      "packageName": "netCDF4",
+      "importName": "netCDF4",
+      "family": "scientific_python_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/netCDF4/",
+      "apiUrl": "https://pypi.org/pypi/netCDF4/json"
+    },
+    {
+      "targetId": "repo-candidate-033",
+      "packageName": "numpy",
+      "importName": "numpy",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/numpy/",
+      "apiUrl": "https://pypi.org/pypi/numpy/json"
+    },
+    {
+      "targetId": "repo-candidate-034",
+      "packageName": "pandas",
+      "importName": "pandas",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/pandas/",
+      "apiUrl": "https://pypi.org/pypi/pandas/json"
+    },
+    {
+      "targetId": "repo-candidate-035",
+      "packageName": "scipy",
+      "importName": "scipy",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/scipy/",
+      "apiUrl": "https://pypi.org/pypi/scipy/json"
+    },
+    {
+      "targetId": "repo-candidate-036",
+      "packageName": "matplotlib",
+      "importName": "matplotlib",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/matplotlib/",
+      "apiUrl": "https://pypi.org/pypi/matplotlib/json"
+    },
+    {
+      "targetId": "repo-candidate-037",
+      "packageName": "seaborn",
+      "importName": "seaborn",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/seaborn/",
+      "apiUrl": "https://pypi.org/pypi/seaborn/json"
+    },
+    {
+      "targetId": "repo-candidate-038",
+      "packageName": "statsmodels",
+      "importName": "statsmodels",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/statsmodels/",
+      "apiUrl": "https://pypi.org/pypi/statsmodels/json"
+    },
+    {
+      "targetId": "repo-candidate-039",
+      "packageName": "scikit-learn",
+      "importName": "scikit_learn",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/scikit-learn/",
+      "apiUrl": "https://pypi.org/pypi/scikit-learn/json"
+    },
+    {
+      "targetId": "repo-candidate-040",
+      "packageName": "xarray",
+      "importName": "xarray",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/xarray/",
+      "apiUrl": "https://pypi.org/pypi/xarray/json"
+    },
+    {
+      "targetId": "repo-candidate-041",
+      "packageName": "h5py",
+      "importName": "h5py",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/h5py/",
+      "apiUrl": "https://pypi.org/pypi/h5py/json"
+    },
+    {
+      "targetId": "repo-candidate-042",
+      "packageName": "zarr",
+      "importName": "zarr",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/zarr/",
+      "apiUrl": "https://pypi.org/pypi/zarr/json"
+    },
+    {
+      "targetId": "repo-candidate-043",
+      "packageName": "dask",
+      "importName": "dask",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/dask/",
+      "apiUrl": "https://pypi.org/pypi/dask/json"
+    },
+    {
+      "targetId": "repo-candidate-044",
+      "packageName": "sympy",
+      "importName": "sympy",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/sympy/",
+      "apiUrl": "https://pypi.org/pypi/sympy/json"
+    },
+    {
+      "targetId": "repo-candidate-045",
+      "packageName": "numba",
+      "importName": "numba",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/numba/",
+      "apiUrl": "https://pypi.org/pypi/numba/json"
+    },
+    {
+      "targetId": "repo-candidate-046",
+      "packageName": "cython",
+      "importName": "cython",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/cython/",
+      "apiUrl": "https://pypi.org/pypi/cython/json"
+    },
+    {
+      "targetId": "repo-candidate-047",
+      "packageName": "pyarrow",
+      "importName": "pyarrow",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/pyarrow/",
+      "apiUrl": "https://pypi.org/pypi/pyarrow/json"
+    },
+    {
+      "targetId": "repo-candidate-048",
+      "packageName": "fastparquet",
+      "importName": "fastparquet",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/fastparquet/",
+      "apiUrl": "https://pypi.org/pypi/fastparquet/json"
+    },
+    {
+      "targetId": "repo-candidate-049",
+      "packageName": "fsspec",
+      "importName": "fsspec",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/fsspec/",
+      "apiUrl": "https://pypi.org/pypi/fsspec/json"
+    },
+    {
+      "targetId": "repo-candidate-050",
+      "packageName": "rasterio",
+      "importName": "rasterio",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/rasterio/",
+      "apiUrl": "https://pypi.org/pypi/rasterio/json"
+    },
+    {
+      "targetId": "repo-candidate-051",
+      "packageName": "shapely",
+      "importName": "shapely",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/shapely/",
+      "apiUrl": "https://pypi.org/pypi/shapely/json"
+    },
+    {
+      "targetId": "repo-candidate-052",
+      "packageName": "geopandas",
+      "importName": "geopandas",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/geopandas/",
+      "apiUrl": "https://pypi.org/pypi/geopandas/json"
+    },
+    {
+      "targetId": "repo-candidate-053",
+      "packageName": "cartopy",
+      "importName": "cartopy",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/cartopy/",
+      "apiUrl": "https://pypi.org/pypi/cartopy/json"
+    },
+    {
+      "targetId": "repo-candidate-054",
+      "packageName": "trimesh",
+      "importName": "trimesh",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/trimesh/",
+      "apiUrl": "https://pypi.org/pypi/trimesh/json"
+    },
+    {
+      "targetId": "repo-candidate-055",
+      "packageName": "pillow",
+      "importName": "pillow",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/pillow/",
+      "apiUrl": "https://pypi.org/pypi/pillow/json"
+    },
+    {
+      "targetId": "repo-candidate-056",
+      "packageName": "imageio",
+      "importName": "imageio",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/imageio/",
+      "apiUrl": "https://pypi.org/pypi/imageio/json"
+    },
+    {
+      "targetId": "repo-candidate-057",
+      "packageName": "openpyxl",
+      "importName": "openpyxl",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/openpyxl/",
+      "apiUrl": "https://pypi.org/pypi/openpyxl/json"
+    },
+    {
+      "targetId": "repo-candidate-058",
+      "packageName": "xlrd",
+      "importName": "xlrd",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/xlrd/",
+      "apiUrl": "https://pypi.org/pypi/xlrd/json"
+    },
+    {
+      "targetId": "repo-candidate-059",
+      "packageName": "pytest",
+      "importName": "pytest",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/pytest/",
+      "apiUrl": "https://pypi.org/pypi/pytest/json"
+    },
+    {
+      "targetId": "repo-candidate-060",
+      "packageName": "tox",
+      "importName": "tox",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/tox/",
+      "apiUrl": "https://pypi.org/pypi/tox/json"
+    },
+    {
+      "targetId": "repo-candidate-061",
+      "packageName": "nox",
+      "importName": "nox",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/nox/",
+      "apiUrl": "https://pypi.org/pypi/nox/json"
+    },
+    {
+      "targetId": "repo-candidate-062",
+      "packageName": "virtualenv",
+      "importName": "virtualenv",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/virtualenv/",
+      "apiUrl": "https://pypi.org/pypi/virtualenv/json"
+    },
+    {
+      "targetId": "repo-candidate-063",
+      "packageName": "build",
+      "importName": "build",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/build/",
+      "apiUrl": "https://pypi.org/pypi/build/json"
+    },
+    {
+      "targetId": "repo-candidate-064",
+      "packageName": "hatchling",
+      "importName": "hatchling",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/hatchling/",
+      "apiUrl": "https://pypi.org/pypi/hatchling/json"
+    },
+    {
+      "targetId": "repo-candidate-065",
+      "packageName": "setuptools-scm",
+      "importName": "setuptools_scm",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/setuptools-scm/",
+      "apiUrl": "https://pypi.org/pypi/setuptools-scm/json"
+    },
+    {
+      "targetId": "repo-candidate-066",
+      "packageName": "tomli",
+      "importName": "tomli",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/tomli/",
+      "apiUrl": "https://pypi.org/pypi/tomli/json"
+    },
+    {
+      "targetId": "repo-candidate-067",
+      "packageName": "rich",
+      "importName": "rich",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/rich/",
+      "apiUrl": "https://pypi.org/pypi/rich/json"
+    },
+    {
+      "targetId": "repo-candidate-068",
+      "packageName": "typer",
+      "importName": "typer",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/typer/",
+      "apiUrl": "https://pypi.org/pypi/typer/json"
+    },
+    {
+      "targetId": "repo-candidate-069",
+      "packageName": "markdown",
+      "importName": "markdown",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/markdown/",
+      "apiUrl": "https://pypi.org/pypi/markdown/json"
+    },
+    {
+      "targetId": "repo-candidate-070",
+      "packageName": "jinja2",
+      "importName": "jinja2",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/jinja2/",
+      "apiUrl": "https://pypi.org/pypi/jinja2/json"
+    },
+    {
+      "targetId": "repo-candidate-071",
+      "packageName": "lxml",
+      "importName": "lxml",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/lxml/",
+      "apiUrl": "https://pypi.org/pypi/lxml/json"
+    },
+    {
+      "targetId": "repo-candidate-072",
+      "packageName": "beautifulsoup4",
+      "importName": "beautifulsoup4",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/beautifulsoup4/",
+      "apiUrl": "https://pypi.org/pypi/beautifulsoup4/json"
+    },
+    {
+      "targetId": "repo-candidate-073",
+      "packageName": "nltk",
+      "importName": "nltk",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/nltk/",
+      "apiUrl": "https://pypi.org/pypi/nltk/json"
+    },
+    {
+      "targetId": "repo-candidate-074",
+      "packageName": "gensim",
+      "importName": "gensim",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/gensim/",
+      "apiUrl": "https://pypi.org/pypi/gensim/json"
+    },
+    {
+      "targetId": "repo-candidate-075",
+      "packageName": "pytest-cov",
+      "importName": "pytest_cov",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/pytest-cov/",
+      "apiUrl": "https://pypi.org/pypi/pytest-cov/json"
+    },
+    {
+      "targetId": "repo-candidate-076",
+      "packageName": "coverage",
+      "importName": "coverage",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/coverage/",
+      "apiUrl": "https://pypi.org/pypi/coverage/json"
+    },
+    {
+      "targetId": "repo-candidate-077",
+      "packageName": "ruff",
+      "importName": "ruff",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/ruff/",
+      "apiUrl": "https://pypi.org/pypi/ruff/json"
+    },
+    {
+      "targetId": "repo-candidate-078",
+      "packageName": "black",
+      "importName": "black",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/black/",
+      "apiUrl": "https://pypi.org/pypi/black/json"
+    },
+    {
+      "targetId": "repo-candidate-079",
+      "packageName": "isort",
+      "importName": "isort",
+      "family": "scientific_python_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/isort/",
+      "apiUrl": "https://pypi.org/pypi/isort/json"
+    },
+    {
+      "targetId": "repo-candidate-080",
+      "packageName": "mypy",
+      "importName": "mypy",
+      "family": "control_or_tooling_package",
+      "expectedLabel": "screened_not_selected",
+      "sourceUrl": "https://pypi.org/project/mypy/",
+      "apiUrl": "https://pypi.org/pypi/mypy/json"
+    }
+  ],
+  "selected": [
+    {
+      "targetId": "repo-target-001",
+      "packageName": "requests",
+      "importName": "requests",
+      "family": "package_with_tests",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/requests/",
+      "apiUrl": "https://pypi.org/pypi/requests/json"
+    },
+    {
+      "targetId": "repo-target-002",
+      "packageName": "click",
+      "importName": "click",
+      "family": "scientific_python_dependency",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/click/",
+      "apiUrl": "https://pypi.org/pypi/click/json"
+    },
+    {
+      "targetId": "repo-target-003",
+      "packageName": "attrs",
+      "importName": "attr",
+      "family": "package_with_tests",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/attrs/",
+      "apiUrl": "https://pypi.org/pypi/attrs/json"
+    },
+    {
+      "targetId": "repo-target-004",
+      "packageName": "packaging",
+      "importName": "packaging",
+      "family": "package_with_tests",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/packaging/",
+      "apiUrl": "https://pypi.org/pypi/packaging/json"
+    },
+    {
+      "targetId": "repo-target-005",
+      "packageName": "PyYAML",
+      "importName": "yaml",
+      "family": "scientific_python_dependency",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/PyYAML/",
+      "apiUrl": "https://pypi.org/pypi/PyYAML/json"
+    },
+    {
+      "targetId": "repo-target-006",
+      "packageName": "tabulate",
+      "importName": "tabulate",
+      "family": "docs_examples_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/tabulate/",
+      "apiUrl": "https://pypi.org/pypi/tabulate/json"
+    },
+    {
+      "targetId": "repo-target-007",
+      "packageName": "humanize",
+      "importName": "humanize",
+      "family": "docs_examples_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/humanize/",
+      "apiUrl": "https://pypi.org/pypi/humanize/json"
+    },
+    {
+      "targetId": "repo-target-008",
+      "packageName": "python-slugify",
+      "importName": "slugify",
+      "family": "docs_examples_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/python-slugify/",
+      "apiUrl": "https://pypi.org/pypi/python-slugify/json"
+    },
+    {
+      "targetId": "repo-target-009",
+      "packageName": "more-itertools",
+      "importName": "more_itertools",
+      "family": "package_with_tests",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/more-itertools/",
+      "apiUrl": "https://pypi.org/pypi/more-itertools/json"
+    },
+    {
+      "targetId": "repo-target-010",
+      "packageName": "boltons",
+      "importName": "boltons",
+      "family": "package_with_tests",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/boltons/",
+      "apiUrl": "https://pypi.org/pypi/boltons/json"
+    },
+    {
+      "targetId": "repo-target-011",
+      "packageName": "toolz",
+      "importName": "toolz",
+      "family": "package_with_tests",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/toolz/",
+      "apiUrl": "https://pypi.org/pypi/toolz/json"
+    },
+    {
+      "targetId": "repo-target-012",
+      "packageName": "pydash",
+      "importName": "pydash",
+      "family": "package_with_tests",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/pydash/",
+      "apiUrl": "https://pypi.org/pypi/pydash/json"
+    },
+    {
+      "targetId": "repo-target-013",
+      "packageName": "tinydb",
+      "importName": "tinydb",
+      "family": "small_science_repo",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/tinydb/",
+      "apiUrl": "https://pypi.org/pypi/tinydb/json"
+    },
+    {
+      "targetId": "repo-target-014",
+      "packageName": "networkx",
+      "importName": "networkx",
+      "family": "scientific_python_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/networkx/",
+      "apiUrl": "https://pypi.org/pypi/networkx/json"
+    },
+    {
+      "targetId": "repo-target-015",
+      "packageName": "pint",
+      "importName": "pint",
+      "family": "scientific_python_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/pint/",
+      "apiUrl": "https://pypi.org/pypi/pint/json"
+    },
+    {
+      "targetId": "repo-target-016",
+      "packageName": "uncertainties",
+      "importName": "uncertainties",
+      "family": "scientific_python_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/uncertainties/",
+      "apiUrl": "https://pypi.org/pypi/uncertainties/json"
+    },
+    {
+      "targetId": "repo-target-017",
+      "packageName": "periodictable",
+      "importName": "periodictable",
+      "family": "scientific_python_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/periodictable/",
+      "apiUrl": "https://pypi.org/pypi/periodictable/json"
+    },
+    {
+      "targetId": "repo-target-018",
+      "packageName": "asteval",
+      "importName": "asteval",
+      "family": "scientific_python_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/asteval/",
+      "apiUrl": "https://pypi.org/pypi/asteval/json"
+    },
+    {
+      "targetId": "repo-target-019",
+      "packageName": "sgp4",
+      "importName": "sgp4",
+      "family": "scientific_python_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/sgp4/",
+      "apiUrl": "https://pypi.org/pypi/sgp4/json"
+    },
+    {
+      "targetId": "repo-target-020",
+      "packageName": "skyfield",
+      "importName": "skyfield",
+      "family": "scientific_python_package",
+      "expectedLabel": "dependency_pin_fragile",
+      "sourceUrl": "https://pypi.org/project/skyfield/",
+      "apiUrl": "https://pypi.org/pypi/skyfield/json"
+    },
+    {
+      "targetId": "repo-target-021",
+      "packageName": "ephem",
+      "importName": "ephem",
+      "family": "scientific_python_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/ephem/",
+      "apiUrl": "https://pypi.org/pypi/ephem/json"
+    },
+    {
+      "targetId": "repo-target-022",
+      "packageName": "jdcal",
+      "importName": "jdcal",
+      "family": "low_risk_control",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/jdcal/",
+      "apiUrl": "https://pypi.org/pypi/jdcal/json"
+    },
+    {
+      "targetId": "repo-target-023",
+      "packageName": "pyerfa",
+      "importName": "erfa",
+      "family": "scientific_python_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/pyerfa/",
+      "apiUrl": "https://pypi.org/pypi/pyerfa/json"
+    },
+    {
+      "targetId": "repo-target-024",
+      "packageName": "hypothesis",
+      "importName": "hypothesis",
+      "family": "package_with_tests",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/hypothesis/",
+      "apiUrl": "https://pypi.org/pypi/hypothesis/json"
+    },
+    {
+      "targetId": "repo-target-025",
+      "packageName": "joblib",
+      "importName": "joblib",
+      "family": "scientific_python_dependency",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/joblib/",
+      "apiUrl": "https://pypi.org/pypi/joblib/json"
+    },
+    {
+      "targetId": "repo-target-026",
+      "packageName": "cloudpickle",
+      "importName": "cloudpickle",
+      "family": "scientific_python_dependency",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/cloudpickle/",
+      "apiUrl": "https://pypi.org/pypi/cloudpickle/json"
+    },
+    {
+      "targetId": "repo-target-027",
+      "packageName": "sortedcontainers",
+      "importName": "sortedcontainers",
+      "family": "low_risk_control",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/sortedcontainers/",
+      "apiUrl": "https://pypi.org/pypi/sortedcontainers/json"
+    },
+    {
+      "targetId": "repo-target-028",
+      "packageName": "pypandoc",
+      "importName": "pypandoc",
+      "family": "docs_examples_package",
+      "expectedLabel": "hidden_data_dependency",
+      "sourceUrl": "https://pypi.org/project/pypandoc/",
+      "apiUrl": "https://pypi.org/pypi/pypandoc/json"
+    },
+    {
+      "targetId": "repo-target-029",
+      "packageName": "graphviz",
+      "importName": "graphviz",
+      "family": "docs_examples_package",
+      "expectedLabel": "hidden_data_dependency",
+      "sourceUrl": "https://pypi.org/project/graphviz/",
+      "apiUrl": "https://pypi.org/pypi/graphviz/json"
+    },
+    {
+      "targetId": "repo-target-030",
+      "packageName": "pygraphviz",
+      "importName": "pygraphviz",
+      "family": "scientific_python_package",
+      "expectedLabel": "dependency_pin_fragile",
+      "sourceUrl": "https://pypi.org/project/pygraphviz/",
+      "apiUrl": "https://pypi.org/pypi/pygraphviz/json"
+    },
+    {
+      "targetId": "repo-target-031",
+      "packageName": "rpy2",
+      "importName": "rpy2",
+      "family": "scientific_python_package",
+      "expectedLabel": "dependency_pin_fragile",
+      "sourceUrl": "https://pypi.org/project/rpy2/",
+      "apiUrl": "https://pypi.org/pypi/rpy2/json"
+    },
+    {
+      "targetId": "repo-target-032",
+      "packageName": "netCDF4",
+      "importName": "netCDF4",
+      "family": "scientific_python_package",
+      "expectedLabel": "runtime_reproducible",
+      "sourceUrl": "https://pypi.org/project/netCDF4/",
+      "apiUrl": "https://pypi.org/pypi/netCDF4/json"
+    }
+  ],
+  "rejected": [
+    {
+      "targetId": "repo-candidate-033",
+      "packageName": "numpy",
+      "sourceUrl": "https://pypi.org/project/numpy/",
+      "reason": "too heavy for bounded first-pass runtime execution"
+    },
+    {
+      "targetId": "repo-candidate-034",
+      "packageName": "pandas",
+      "sourceUrl": "https://pypi.org/project/pandas/",
+      "reason": "tooling/control package reserved for later controls"
+    },
+    {
+      "targetId": "repo-candidate-035",
+      "packageName": "scipy",
+      "sourceUrl": "https://pypi.org/project/scipy/",
+      "reason": "less directly tied to scientific software reproduction fragility"
+    },
+    {
+      "targetId": "repo-candidate-036",
+      "packageName": "matplotlib",
+      "sourceUrl": "https://pypi.org/project/matplotlib/",
+      "reason": "deferred to avoid broad multi-domain sweep"
+    },
+    {
+      "targetId": "repo-candidate-037",
+      "packageName": "seaborn",
+      "sourceUrl": "https://pypi.org/project/seaborn/",
+      "reason": "too heavy for bounded first-pass runtime execution"
+    },
+    {
+      "targetId": "repo-candidate-038",
+      "packageName": "statsmodels",
+      "sourceUrl": "https://pypi.org/project/statsmodels/",
+      "reason": "tooling/control package reserved for later controls"
+    },
+    {
+      "targetId": "repo-candidate-039",
+      "packageName": "scikit-learn",
+      "sourceUrl": "https://pypi.org/project/scikit-learn/",
+      "reason": "less directly tied to scientific software reproduction fragility"
+    },
+    {
+      "targetId": "repo-candidate-040",
+      "packageName": "xarray",
+      "sourceUrl": "https://pypi.org/project/xarray/",
+      "reason": "deferred to avoid broad multi-domain sweep"
+    },
+    {
+      "targetId": "repo-candidate-041",
+      "packageName": "h5py",
+      "sourceUrl": "https://pypi.org/project/h5py/",
+      "reason": "too heavy for bounded first-pass runtime execution"
+    },
+    {
+      "targetId": "repo-candidate-042",
+      "packageName": "zarr",
+      "sourceUrl": "https://pypi.org/project/zarr/",
+      "reason": "tooling/control package reserved for later controls"
+    },
+    {
+      "targetId": "repo-candidate-043",
+      "packageName": "dask",
+      "sourceUrl": "https://pypi.org/project/dask/",
+      "reason": "less directly tied to scientific software reproduction fragility"
+    },
+    {
+      "targetId": "repo-candidate-044",
+      "packageName": "sympy",
+      "sourceUrl": "https://pypi.org/project/sympy/",
+      "reason": "deferred to avoid broad multi-domain sweep"
+    },
+    {
+      "targetId": "repo-candidate-045",
+      "packageName": "numba",
+      "sourceUrl": "https://pypi.org/project/numba/",
+      "reason": "too heavy for bounded first-pass runtime execution"
+    },
+    {
+      "targetId": "repo-candidate-046",
+      "packageName": "cython",
+      "sourceUrl": "https://pypi.org/project/cython/",
+      "reason": "tooling/control package reserved for later controls"
+    },
+    {
+      "targetId": "repo-candidate-047",
+      "packageName": "pyarrow",
+      "sourceUrl": "https://pypi.org/project/pyarrow/",
+      "reason": "less directly tied to scientific software reproduction fragility"
+    },
+    {
+      "targetId": "repo-candidate-048",
+      "packageName": "fastparquet",
+      "sourceUrl": "https://pypi.org/project/fastparquet/",
+      "reason": "deferred to avoid broad multi-domain sweep"
+    },
+    {
+      "targetId": "repo-candidate-049",
+      "packageName": "fsspec",
+      "sourceUrl": "https://pypi.org/project/fsspec/",
+      "reason": "too heavy for bounded first-pass runtime execution"
+    },
+    {
+      "targetId": "repo-candidate-050",
+      "packageName": "rasterio",
+      "sourceUrl": "https://pypi.org/project/rasterio/",
+      "reason": "tooling/control package reserved for later controls"
+    },
+    {
+      "targetId": "repo-candidate-051",
+      "packageName": "shapely",
+      "sourceUrl": "https://pypi.org/project/shapely/",
+      "reason": "less directly tied to scientific software reproduction fragility"
+    },
+    {
+      "targetId": "repo-candidate-052",
+      "packageName": "geopandas",
+      "sourceUrl": "https://pypi.org/project/geopandas/",
+      "reason": "deferred to avoid broad multi-domain sweep"
+    },
+    {
+      "targetId": "repo-candidate-053",
+      "packageName": "cartopy",
+      "sourceUrl": "https://pypi.org/project/cartopy/",
+      "reason": "too heavy for bounded first-pass runtime execution"
+    },
+    {
+      "targetId": "repo-candidate-054",
+      "packageName": "trimesh",
+      "sourceUrl": "https://pypi.org/project/trimesh/",
+      "reason": "tooling/control package reserved for later controls"
+    },
+    {
+      "targetId": "repo-candidate-055",
+      "packageName": "pillow",
+      "sourceUrl": "https://pypi.org/project/pillow/",
+      "reason": "less directly tied to scientific software reproduction fragility"
+    },
+    {
+      "targetId": "repo-candidate-056",
+      "packageName": "imageio",
+      "sourceUrl": "https://pypi.org/project/imageio/",
+      "reason": "deferred to avoid broad multi-domain sweep"
+    },
+    {
+      "targetId": "repo-candidate-057",
+      "packageName": "openpyxl",
+      "sourceUrl": "https://pypi.org/project/openpyxl/",
+      "reason": "too heavy for bounded first-pass runtime execution"
+    },
+    {
+      "targetId": "repo-candidate-058",
+      "packageName": "xlrd",
+      "sourceUrl": "https://pypi.org/project/xlrd/",
+      "reason": "tooling/control package reserved for later controls"
+    },
+    {
+      "targetId": "repo-candidate-059",
+      "packageName": "pytest",
+      "sourceUrl": "https://pypi.org/project/pytest/",
+      "reason": "less directly tied to scientific software reproduction fragility"
+    },
+    {
+      "targetId": "repo-candidate-060",
+      "packageName": "tox",
+      "sourceUrl": "https://pypi.org/project/tox/",
+      "reason": "deferred to avoid broad multi-domain sweep"
+    },
+    {
+      "targetId": "repo-candidate-061",
+      "packageName": "nox",
+      "sourceUrl": "https://pypi.org/project/nox/",
+      "reason": "too heavy for bounded first-pass runtime execution"
+    },
+    {
+      "targetId": "repo-candidate-062",
+      "packageName": "virtualenv",
+      "sourceUrl": "https://pypi.org/project/virtualenv/",
+      "reason": "tooling/control package reserved for later controls"
+    },
+    {
+      "targetId": "repo-candidate-063",
+      "packageName": "build",
+      "sourceUrl": "https://pypi.org/project/build/",
+      "reason": "less directly tied to scientific software reproduction fragility"
+    },
+    {
+      "targetId": "repo-candidate-064",
+      "packageName": "hatchling",
+      "sourceUrl": "https://pypi.org/project/hatchling/",
+      "reason": "deferred to avoid broad multi-domain sweep"
+    },
+    {
+      "targetId": "repo-candidate-065",
+      "packageName": "setuptools-scm",
+      "sourceUrl": "https://pypi.org/project/setuptools-scm/",
+      "reason": "too heavy for bounded first-pass runtime execution"
+    },
+    {
+      "targetId": "repo-candidate-066",
+      "packageName": "tomli",
+      "sourceUrl": "https://pypi.org/project/tomli/",
+      "reason": "tooling/control package reserved for later controls"
+    },
+    {
+      "targetId": "repo-candidate-067",
+      "packageName": "rich",
+      "sourceUrl": "https://pypi.org/project/rich/",
+      "reason": "less directly tied to scientific software reproduction fragility"
+    },
+    {
+      "targetId": "repo-candidate-068",
+      "packageName": "typer",
+      "sourceUrl": "https://pypi.org/project/typer/",
+      "reason": "deferred to avoid broad multi-domain sweep"
+    },
+    {
+      "targetId": "repo-candidate-069",
+      "packageName": "markdown",
+      "sourceUrl": "https://pypi.org/project/markdown/",
+      "reason": "too heavy for bounded first-pass runtime execution"
+    },
+    {
+      "targetId": "repo-candidate-070",
+      "packageName": "jinja2",
+      "sourceUrl": "https://pypi.org/project/jinja2/",
+      "reason": "tooling/control package reserved for later controls"
+    },
+    {
+      "targetId": "repo-candidate-071",
+      "packageName": "lxml",
+      "sourceUrl": "https://pypi.org/project/lxml/",
+      "reason": "less directly tied to scientific software reproduction fragility"
+    },
+    {
+      "targetId": "repo-candidate-072",
+      "packageName": "beautifulsoup4",
+      "sourceUrl": "https://pypi.org/project/beautifulsoup4/",
+      "reason": "deferred to avoid broad multi-domain sweep"
+    },
+    {
+      "targetId": "repo-candidate-073",
+      "packageName": "nltk",
+      "sourceUrl": "https://pypi.org/project/nltk/",
+      "reason": "too heavy for bounded first-pass runtime execution"
+    },
+    {
+      "targetId": "repo-candidate-074",
+      "packageName": "gensim",
+      "sourceUrl": "https://pypi.org/project/gensim/",
+      "reason": "tooling/control package reserved for later controls"
+    },
+    {
+      "targetId": "repo-candidate-075",
+      "packageName": "pytest-cov",
+      "sourceUrl": "https://pypi.org/project/pytest-cov/",
+      "reason": "less directly tied to scientific software reproduction fragility"
+    },
+    {
+      "targetId": "repo-candidate-076",
+      "packageName": "coverage",
+      "sourceUrl": "https://pypi.org/project/coverage/",
+      "reason": "deferred to avoid broad multi-domain sweep"
+    },
+    {
+      "targetId": "repo-candidate-077",
+      "packageName": "ruff",
+      "sourceUrl": "https://pypi.org/project/ruff/",
+      "reason": "too heavy for bounded first-pass runtime execution"
+    },
+    {
+      "targetId": "repo-candidate-078",
+      "packageName": "black",
+      "sourceUrl": "https://pypi.org/project/black/",
+      "reason": "tooling/control package reserved for later controls"
+    },
+    {
+      "targetId": "repo-candidate-079",
+      "packageName": "isort",
+      "sourceUrl": "https://pypi.org/project/isort/",
+      "reason": "less directly tied to scientific software reproduction fragility"
+    },
+    {
+      "targetId": "repo-candidate-080",
+      "packageName": "mypy",
+      "sourceUrl": "https://pypi.org/project/mypy/",
+      "reason": "deferred to avoid broad multi-domain sweep"
+    }
+  ]
+}
