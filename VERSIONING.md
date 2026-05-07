@@ -282,6 +282,16 @@ can supersede earlier entries while preserving audit history.
 - narrowed-stage10-adversarial-kill-week: latest narrowed-stage10-adversarial-kill-week; versions narrowed-stage10-adversarial-kill-week
 - narrowed-stage11-final-candidate-decision: latest narrowed-stage11-final-candidate-decision; versions narrowed-stage11-final-candidate-decision
 - narrowed-stage12-next-frontier: latest narrowed-stage12-next-frontier; versions narrowed-stage12-next-frontier
+- nobel-readiness-stage01-criteria: latest nobel-readiness-stage01-criteria; versions nobel-readiness-stage01-criteria
+- nobel-readiness-stage02-domain-selection: latest nobel-readiness-stage02-domain-selection; versions nobel-readiness-stage02-domain-selection
+- nobel-readiness-stage03-candidate-search: latest nobel-readiness-stage03-candidate-search; versions nobel-readiness-stage03-candidate-search
+- nobel-readiness-stage04-prediction-freeze: latest nobel-readiness-stage04-prediction-freeze; versions nobel-readiness-stage04-prediction-freeze
+- nobel-readiness-stage05-execution-wave: latest nobel-readiness-stage05-execution-wave; versions nobel-readiness-stage05-execution-wave
+- nobel-readiness-stage06-holdout-counterexample-gauntlet: latest nobel-readiness-stage06-holdout-counterexample-gauntlet; versions nobel-readiness-stage06-holdout-counterexample-gauntlet
+- nobel-readiness-stage07-independent-replay: latest nobel-readiness-stage07-independent-replay; versions nobel-readiness-stage07-independent-replay
+- nobel-readiness-stage08-kill-week: latest nobel-readiness-stage08-kill-week; versions nobel-readiness-stage08-kill-week
+- nobel-readiness-stage09-decision: latest nobel-readiness-stage09-decision; versions nobel-readiness-stage09-decision
+- nobel-readiness-stage10-package-or-failure-paper: latest nobel-readiness-stage10-package-or-failure-paper; versions nobel-readiness-stage10-package-or-failure-paper
 - nobel-stage0-product-kernel: latest nobel-stage0-product-kernel; versions nobel-stage0-product-kernel
 - nobel-stage1-domain-portfolio-selection: latest nobel-stage1-domain-portfolio-selection; versions nobel-stage1-domain-portfolio-selection
 - nobel-stage10-adversarial-theory-kill-week: latest nobel-stage10-adversarial-theory-kill-week; versions nobel-stage10-adversarial-theory-kill-week

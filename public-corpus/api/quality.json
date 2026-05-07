@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 431,
+    "good": 441,
     "reviewable": 6
   },
   "results": [
@@ -1447,6 +1447,56 @@
       "releaseReadinessScore": 88
     },
     {
+      "slug": "nobel-readiness-stage01-criteria",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "nobel-readiness-stage02-domain-selection",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "nobel-readiness-stage03-candidate-search",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "nobel-readiness-stage04-prediction-freeze",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "nobel-readiness-stage05-execution-wave",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "nobel-readiness-stage06-holdout-counterexample-gauntlet",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "nobel-readiness-stage07-independent-replay",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "nobel-readiness-stage08-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "nobel-readiness-stage09-decision",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
+      "slug": "nobel-readiness-stage10-package-or-failure-paper",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 88
+    },
+    {
       "slug": "nobel-stage0-product-kernel",
       "qualityLabel": "good",
       "releaseReadinessScore": 91
@@ -2217,5 +2267,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "cd6f22be421fcf4e89db2c43627b368cea19a63a6de29389fb4e0ee700a71012"
+  "evidenceHash": "b3f9b210f55bae000b3ba8abb51dc270f1f8a860991f29bb4a5f46e1c6e33129"
 }

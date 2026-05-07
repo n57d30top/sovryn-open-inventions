@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T10:47:32.101Z",
+  "updatedAt": "2026-05-07T11:12:18.021Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -1953,6 +1953,76 @@
       ]
     },
     {
+      "versionGroup": "nobel-readiness-stage01-criteria",
+      "latestSlug": "nobel-readiness-stage01-criteria",
+      "resultSlugs": [
+        "nobel-readiness-stage01-criteria"
+      ]
+    },
+    {
+      "versionGroup": "nobel-readiness-stage02-domain-selection",
+      "latestSlug": "nobel-readiness-stage02-domain-selection",
+      "resultSlugs": [
+        "nobel-readiness-stage02-domain-selection"
+      ]
+    },
+    {
+      "versionGroup": "nobel-readiness-stage03-candidate-search",
+      "latestSlug": "nobel-readiness-stage03-candidate-search",
+      "resultSlugs": [
+        "nobel-readiness-stage03-candidate-search"
+      ]
+    },
+    {
+      "versionGroup": "nobel-readiness-stage04-prediction-freeze",
+      "latestSlug": "nobel-readiness-stage04-prediction-freeze",
+      "resultSlugs": [
+        "nobel-readiness-stage04-prediction-freeze"
+      ]
+    },
+    {
+      "versionGroup": "nobel-readiness-stage05-execution-wave",
+      "latestSlug": "nobel-readiness-stage05-execution-wave",
+      "resultSlugs": [
+        "nobel-readiness-stage05-execution-wave"
+      ]
+    },
+    {
+      "versionGroup": "nobel-readiness-stage06-holdout-counterexample-gauntlet",
+      "latestSlug": "nobel-readiness-stage06-holdout-counterexample-gauntlet",
+      "resultSlugs": [
+        "nobel-readiness-stage06-holdout-counterexample-gauntlet"
+      ]
+    },
+    {
+      "versionGroup": "nobel-readiness-stage07-independent-replay",
+      "latestSlug": "nobel-readiness-stage07-independent-replay",
+      "resultSlugs": [
+        "nobel-readiness-stage07-independent-replay"
+      ]
+    },
+    {
+      "versionGroup": "nobel-readiness-stage08-kill-week",
+      "latestSlug": "nobel-readiness-stage08-kill-week",
+      "resultSlugs": [
+        "nobel-readiness-stage08-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "nobel-readiness-stage09-decision",
+      "latestSlug": "nobel-readiness-stage09-decision",
+      "resultSlugs": [
+        "nobel-readiness-stage09-decision"
+      ]
+    },
+    {
+      "versionGroup": "nobel-readiness-stage10-package-or-failure-paper",
+      "latestSlug": "nobel-readiness-stage10-package-or-failure-paper",
+      "resultSlugs": [
+        "nobel-readiness-stage10-package-or-failure-paper"
+      ]
+    },
+    {
       "versionGroup": "nobel-stage0-product-kernel",
       "latestSlug": "nobel-stage0-product-kernel",
       "resultSlugs": [
@@ -3013,5 +3083,5 @@
       ]
     }
   ],
-  "evidenceHash": "4aa05a68c37644415d39c6871dfda0f8d138441b28cff287b481d1b0edf05dcf"
+  "evidenceHash": "c9f69a574198b562c6ba83e14ec414c593dbcebf1fcee75cb299ce33455a5947"
 }

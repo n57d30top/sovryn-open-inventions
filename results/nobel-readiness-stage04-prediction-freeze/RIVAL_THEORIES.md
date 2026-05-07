@@ -1,0 +1,26 @@
+# Rival Theories
+
+- NR-CAND-001: simple baseline or selection effect explains the observation
+- NR-CAND-001: source artifact or measurement process explains the observation
+- NR-CAND-004: simple baseline or selection effect explains the observation
+- NR-CAND-004: source artifact or measurement process explains the observation
+- NR-CAND-010: simple baseline or selection effect explains the observation
+- NR-CAND-010: source artifact or measurement process explains the observation
+- NR-CAND-021: simple baseline or selection effect explains the observation
+- NR-CAND-021: source artifact or measurement process explains the observation
+- NR-CAND-024: simple baseline or selection effect explains the observation
+- NR-CAND-024: source artifact or measurement process explains the observation
+- NR-CAND-030: simple baseline or selection effect explains the observation
+- NR-CAND-030: source artifact or measurement process explains the observation
+- NR-CAND-041: simple baseline or selection effect explains the observation
+- NR-CAND-041: source artifact or measurement process explains the observation
+- NR-CAND-044: simple baseline or selection effect explains the observation
+- NR-CAND-044: source artifact or measurement process explains the observation
+- NR-CAND-050: simple baseline or selection effect explains the observation
+- NR-CAND-050: source artifact or measurement process explains the observation
+- NR-CAND-061: simple baseline or selection effect explains the observation
+- NR-CAND-061: source artifact or measurement process explains the observation
+- NR-CAND-064: simple baseline or selection effect explains the observation
+- NR-CAND-064: source artifact or measurement process explains the observation
+- NR-CAND-070: simple baseline or selection effect explains the observation
+- NR-CAND-070: source artifact or measurement process explains the observation

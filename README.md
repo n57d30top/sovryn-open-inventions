@@ -323,6 +323,16 @@ and safety scope in human-readable language.
 - [Narrowed Stage 10 Adversarial Kill Week](results/narrowed-stage10-adversarial-kill-week/) — good, autopublished, narrowed-stage10-adversarial-kill-week, larger blind holdout validation for narrowed receipt-stable descriptor residual candidate
 - [Narrowed Stage 11 Final Candidate Decision](results/narrowed-stage11-final-candidate-decision/) — good, autopublished, narrowed-stage11-final-candidate-decision, larger blind holdout validation for narrowed receipt-stable descriptor residual candidate
 - [Narrowed Stage 12 Next Frontier](results/narrowed-stage12-next-frontier/) — good, autopublished, narrowed-stage12-next-frontier, larger blind holdout validation for narrowed receipt-stable descriptor residual candidate
+- [Nobel Readiness Stage 01 Criteria](results/nobel-readiness-stage01-criteria/) — good, autopublished, nobel-readiness-stage01-criteria, Nobel Discovery Readiness Layer v0
+- [Nobel Readiness Stage 02 Domain Selection](results/nobel-readiness-stage02-domain-selection/) — good, autopublished, nobel-readiness-stage02-domain-selection, Nobel Discovery Readiness Layer v0
+- [Nobel Readiness Stage 03 Candidate Search](results/nobel-readiness-stage03-candidate-search/) — good, autopublished, nobel-readiness-stage03-candidate-search, Nobel Discovery Readiness Layer v0
+- [Nobel Readiness Stage 04 Prediction Freeze](results/nobel-readiness-stage04-prediction-freeze/) — good, autopublished, nobel-readiness-stage04-prediction-freeze, Nobel Discovery Readiness Layer v0
+- [Nobel Readiness Stage 05 Execution Wave](results/nobel-readiness-stage05-execution-wave/) — good, autopublished, nobel-readiness-stage05-execution-wave, Nobel Discovery Readiness Layer v0
+- [Nobel Readiness Stage 06 Holdout Counterexample Gauntlet](results/nobel-readiness-stage06-holdout-counterexample-gauntlet/) — good, autopublished, nobel-readiness-stage06-holdout-counterexample-gauntlet, Nobel Discovery Readiness Layer v0
+- [Nobel Readiness Stage 07 Independent Replay](results/nobel-readiness-stage07-independent-replay/) — good, autopublished, nobel-readiness-stage07-independent-replay, Nobel Discovery Readiness Layer v0
+- [Nobel Readiness Stage 08 Kill Week](results/nobel-readiness-stage08-kill-week/) — good, autopublished, nobel-readiness-stage08-kill-week, Nobel Discovery Readiness Layer v0
+- [Nobel Readiness Stage 09 Decision](results/nobel-readiness-stage09-decision/) — good, autopublished, nobel-readiness-stage09-decision, Nobel Discovery Readiness Layer v0
+- [Nobel Readiness Stage 10 Package Or Failure Paper](results/nobel-readiness-stage10-package-or-failure-paper/) — good, autopublished, nobel-readiness-stage10-package-or-failure-paper, Nobel Discovery Readiness Layer v0
 - [Build Nobel Discovery Product Kernel](results/nobel-stage0-product-kernel/) — good, autopublished, nobel-stage0-product-kernel, nobel discovery portfolio v0
 - [Select High-Impact Safe Computational Discovery Domains](results/nobel-stage1-domain-portfolio-selection/) — good, autopublished, nobel-stage1-domain-portfolio-selection, nobel discovery portfolio v0
 - [Adversarial Theory Kill Week](results/nobel-stage10-adversarial-theory-kill-week/) — good, autopublished, nobel-stage10-adversarial-theory-kill-week, nobel discovery portfolio v0

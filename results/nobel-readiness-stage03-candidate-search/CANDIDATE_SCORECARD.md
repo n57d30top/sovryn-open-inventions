@@ -1,0 +1,34 @@
+# Candidate Scorecard
+
+| Candidate | Domain | Prior | Promoted |
+| --- | --- | --- | --- |
+| NR-CAND-001 | formal_mathematics_conjecture_discovery | 0.58 | true |
+| NR-CAND-002 | formal_mathematics_conjecture_discovery | 0.21000000000000002 | false |
+| NR-CAND-003 | formal_mathematics_conjecture_discovery | 0.22 | false |
+| NR-CAND-004 | formal_mathematics_conjecture_discovery | 0.58 | true |
+| NR-CAND-005 | formal_mathematics_conjecture_discovery | 0.24000000000000002 | false |
+| NR-CAND-006 | formal_mathematics_conjecture_discovery | 0.25 | false |
+| NR-CAND-007 | formal_mathematics_conjecture_discovery | 0.26 | false |
+| NR-CAND-008 | formal_mathematics_conjecture_discovery | 0.27 | false |
+| NR-CAND-009 | formal_mathematics_conjecture_discovery | 0.28 | false |
+| NR-CAND-010 | formal_mathematics_conjecture_discovery | 0.58 | true |
+| NR-CAND-011 | formal_mathematics_conjecture_discovery | 0.30000000000000004 | false |
+| NR-CAND-012 | formal_mathematics_conjecture_discovery | 0.31 | false |
+| NR-CAND-013 | formal_mathematics_conjecture_discovery | 0.32 | false |
+| NR-CAND-014 | formal_mathematics_conjecture_discovery | 0.33 | false |
+| NR-CAND-015 | formal_mathematics_conjecture_discovery | 0.34 | false |
+| NR-CAND-016 | formal_mathematics_conjecture_discovery | 0.35 | false |
+| NR-CAND-017 | formal_mathematics_conjecture_discovery | 0.36 | false |
+| NR-CAND-018 | formal_mathematics_conjecture_discovery | 0.37 | false |
+| NR-CAND-019 | formal_mathematics_conjecture_discovery | 0.38 | false |
+| NR-CAND-020 | formal_mathematics_conjecture_discovery | 0.39 | false |
+| NR-CAND-021 | computational_materials | 0.6 | true |
+| NR-CAND-022 | computational_materials | 0.21000000000000002 | false |
+| NR-CAND-023 | computational_materials | 0.22 | false |
+| NR-CAND-024 | computational_materials | 0.6 | true |
+| NR-CAND-025 | computational_materials | 0.24000000000000002 | false |
+| NR-CAND-026 | computational_materials | 0.25 | false |
+| NR-CAND-027 | computational_materials | 0.26 | false |
+| NR-CAND-028 | computational_materials | 0.27 | false |
+| NR-CAND-029 | computational_materials | 0.28 | false |
+| NR-CAND-030 | computational_materials | 0.6 | true |

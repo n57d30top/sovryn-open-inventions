@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-07T10:47:32.101Z",
+  "generatedAt": "2026-05-07T11:12:18.021Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 431,
+    "good": 441,
     "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 411,
+    "autopublished": 421,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -4047,6 +4047,146 @@
       "specificityScore": 94
     },
     {
+      "slug": "nobel-readiness-stage01-criteria",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "nobel-readiness-stage01-criteria",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 84,
+      "reproducibilityScore": 86,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "nobel-readiness-stage02-domain-selection",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "nobel-readiness-stage02-domain-selection",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 84,
+      "reproducibilityScore": 86,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "nobel-readiness-stage03-candidate-search",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "nobel-readiness-stage03-candidate-search",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 84,
+      "reproducibilityScore": 86,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "nobel-readiness-stage04-prediction-freeze",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "nobel-readiness-stage04-prediction-freeze",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 84,
+      "reproducibilityScore": 86,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "nobel-readiness-stage05-execution-wave",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "nobel-readiness-stage05-execution-wave",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 84,
+      "reproducibilityScore": 86,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "nobel-readiness-stage06-holdout-counterexample-gauntlet",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "nobel-readiness-stage06-holdout-counterexample-gauntlet",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 84,
+      "reproducibilityScore": 86,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "nobel-readiness-stage07-independent-replay",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "nobel-readiness-stage07-independent-replay",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 84,
+      "reproducibilityScore": 86,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "nobel-readiness-stage08-kill-week",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "nobel-readiness-stage08-kill-week",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 84,
+      "reproducibilityScore": 86,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "nobel-readiness-stage09-decision",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "nobel-readiness-stage09-decision",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 84,
+      "reproducibilityScore": 86,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
+      "slug": "nobel-readiness-stage10-package-or-failure-paper",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "nobel-readiness-stage10-package-or-failure-paper",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 84,
+      "reproducibilityScore": 86,
+      "publicationSafetyScore": 99,
+      "specificityScore": 94
+    },
+    {
       "slug": "nobel-stage0-product-kernel",
       "qualityLabel": "good",
       "antiTemplateStatus": "specific_public_evidence",
@@ -6203,5 +6343,5 @@
       "specificityScore": 94
     }
   ],
-  "evidenceHash": "cd6f22be421fcf4e89db2c43627b368cea19a63a6de29389fb4e0ee700a71012"
+  "evidenceHash": "b3f9b210f55bae000b3ba8abb51dc270f1f8a860991f29bb4a5f46e1c6e33129"
 }

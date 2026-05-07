@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-07T10:47:32.101Z",
+  "generatedAt": "2026-05-07T11:12:18.021Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1731,6 +1731,66 @@
       "domain": "larger blind holdout validation for narrowed receipt-stable descriptor residual candidate"
     },
     {
+      "id": "result:nobel-readiness-stage01-criteria",
+      "kind": "result",
+      "label": "Nobel Readiness Stage 01 Criteria",
+      "domain": "Nobel Discovery Readiness Layer v0"
+    },
+    {
+      "id": "result:nobel-readiness-stage02-domain-selection",
+      "kind": "result",
+      "label": "Nobel Readiness Stage 02 Domain Selection",
+      "domain": "Nobel Discovery Readiness Layer v0"
+    },
+    {
+      "id": "result:nobel-readiness-stage03-candidate-search",
+      "kind": "result",
+      "label": "Nobel Readiness Stage 03 Candidate Search",
+      "domain": "Nobel Discovery Readiness Layer v0"
+    },
+    {
+      "id": "result:nobel-readiness-stage04-prediction-freeze",
+      "kind": "result",
+      "label": "Nobel Readiness Stage 04 Prediction Freeze",
+      "domain": "Nobel Discovery Readiness Layer v0"
+    },
+    {
+      "id": "result:nobel-readiness-stage05-execution-wave",
+      "kind": "result",
+      "label": "Nobel Readiness Stage 05 Execution Wave",
+      "domain": "Nobel Discovery Readiness Layer v0"
+    },
+    {
+      "id": "result:nobel-readiness-stage06-holdout-counterexample-gauntlet",
+      "kind": "result",
+      "label": "Nobel Readiness Stage 06 Holdout Counterexample Gauntlet",
+      "domain": "Nobel Discovery Readiness Layer v0"
+    },
+    {
+      "id": "result:nobel-readiness-stage07-independent-replay",
+      "kind": "result",
+      "label": "Nobel Readiness Stage 07 Independent Replay",
+      "domain": "Nobel Discovery Readiness Layer v0"
+    },
+    {
+      "id": "result:nobel-readiness-stage08-kill-week",
+      "kind": "result",
+      "label": "Nobel Readiness Stage 08 Kill Week",
+      "domain": "Nobel Discovery Readiness Layer v0"
+    },
+    {
+      "id": "result:nobel-readiness-stage09-decision",
+      "kind": "result",
+      "label": "Nobel Readiness Stage 09 Decision",
+      "domain": "Nobel Discovery Readiness Layer v0"
+    },
+    {
+      "id": "result:nobel-readiness-stage10-package-or-failure-paper",
+      "kind": "result",
+      "label": "Nobel Readiness Stage 10 Package Or Failure Paper",
+      "domain": "Nobel Discovery Readiness Layer v0"
+    },
+    {
       "id": "result:nobel-stage0-product-kernel",
       "kind": "result",
       "label": "Build Nobel Discovery Product Kernel",
@@ -2913,6 +2973,11 @@
       "id": "domain:larger blind holdout validation for narrowed receipt-stable descriptor residual candidate",
       "kind": "domain",
       "label": "larger blind holdout validation for narrowed receipt-stable descriptor residual candidate"
+    },
+    {
+      "id": "domain:Nobel Discovery Readiness Layer v0",
+      "kind": "domain",
+      "label": "Nobel Discovery Readiness Layer v0"
     },
     {
       "id": "domain:nobel discovery portfolio v0",
@@ -5327,6 +5392,56 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:nobel-readiness-stage01-criteria",
+      "target": "domain:Nobel Discovery Readiness Layer v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nobel-readiness-stage02-domain-selection",
+      "target": "domain:Nobel Discovery Readiness Layer v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nobel-readiness-stage03-candidate-search",
+      "target": "domain:Nobel Discovery Readiness Layer v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nobel-readiness-stage04-prediction-freeze",
+      "target": "domain:Nobel Discovery Readiness Layer v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nobel-readiness-stage05-execution-wave",
+      "target": "domain:Nobel Discovery Readiness Layer v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nobel-readiness-stage06-holdout-counterexample-gauntlet",
+      "target": "domain:Nobel Discovery Readiness Layer v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nobel-readiness-stage07-independent-replay",
+      "target": "domain:Nobel Discovery Readiness Layer v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nobel-readiness-stage08-kill-week",
+      "target": "domain:Nobel Discovery Readiness Layer v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nobel-readiness-stage09-decision",
+      "target": "domain:Nobel Discovery Readiness Layer v0",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:nobel-readiness-stage10-package-or-failure-paper",
+      "target": "domain:Nobel Discovery Readiness Layer v0",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:nobel-stage0-product-kernel",
       "target": "domain:nobel discovery portfolio v0",
       "relation": "belongs_to_domain"
@@ -6242,5 +6357,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "a2a98efc948e72f4d2997bc163c2325447d0e86145ae081d8bda42da6838c015"
+  "evidenceHash": "f927b9302257906d14ae1246eebbd1c2c45cb9cbb0ae9f93385aad87474cdd6c"
 }
