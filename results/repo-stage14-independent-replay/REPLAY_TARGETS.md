@@ -1,0 +1,12 @@
+| replayId | targetId | packageName |
+| --- | --- | --- |
+| repo-replay-01 | repo-target-001 | requests |
+| repo-replay-02 | repo-target-002 | click |
+| repo-replay-03 | repo-target-003 | attrs |
+| repo-replay-04 | repo-target-004 | packaging |
+| repo-replay-05 | repo-target-005 | PyYAML |
+| repo-replay-06 | repo-target-006 | tabulate |
+| repo-replay-07 | repo-target-007 | humanize |
+| repo-replay-08 | repo-target-008 | python-slugify |
+| repo-replay-09 | repo-target-009 | more-itertools |
+| repo-replay-10 | repo-target-010 | boltons |

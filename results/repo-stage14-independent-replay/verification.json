@@ -1,0 +1,11 @@
+{
+  "slug": "repo-stage14-independent-replay",
+  "resultKind": "repo_independent_replay",
+  "corpusPublishAuditPassed": true,
+  "corpusSiteAuditPassed": true,
+  "publicHygienePassed": true,
+  "noRawLogs": true,
+  "noLocalPaths": true,
+  "noSecrets": true,
+  "noFakeReproductionClaim": true
+}

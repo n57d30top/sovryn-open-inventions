@@ -1627,6 +1627,108 @@
       "customTool": null
     },
     {
+      "slug": "repo-stage01-domain-scope-and-prior-lessons",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "repo-stage02-public-repo-target-universe",
+      "externalPackages": [
+        "numpy",
+        "pandas",
+        "pint"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "repo-stage03-reproduction-fragility-taxonomy",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "repo-stage04-static-vs-runtime-evidence-wave1",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "repo-stage05-static-vs-runtime-evidence-wave2",
+      "externalPackages": [
+        "pint"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "repo-stage06-rival-hypothesis-generation",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "repo-stage07-freeze-predictions",
+      "externalPackages": [
+        "pint"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "repo-stage08-baseline-and-negative-control-setup",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "repo-stage09-execution-wave1",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "repo-stage10-execution-wave2",
+      "externalPackages": [
+        "pint"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "repo-stage11-environment-specificity-stress",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "repo-stage12-dependency-and-example-coverage-controls",
+      "externalPackages": [
+        "pint"
+      ],
+      "customTool": null
+    },
+    {
+      "slug": "repo-stage13-counterexample-search",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "repo-stage14-independent-replay",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "repo-stage15-adversarial-kill-week",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "repo-stage16-candidate-decision",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "repo-stage17-paper-or-failure-package",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "repo-stage18-next-frontier",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "scientific-dataset-reliability-self-built-lab-study",
       "externalPackages": [
         "pandas",
@@ -2092,5 +2194,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "a5f1ae8d78624fccefbdd3fbb86344c593647be95248ff94016c9bad85d5707d"
+  "evidenceHash": "a38941ba1736b87151ca4c7f7ee3daba142dfe01f32614388feaec4d47e567ef"
 }

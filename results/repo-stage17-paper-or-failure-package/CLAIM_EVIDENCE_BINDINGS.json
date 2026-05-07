@@ -1,0 +1,11 @@
+{
+  "classification": "partial_repo_reproduction_signal",
+  "evidence": {
+    "staticRuntimeWaves": 16,
+    "frozenPredictionsExecuted": 24,
+    "environmentStressTests": 20,
+    "controls": 16,
+    "counterexampleChecks": 16,
+    "replayAttempts": 10
+  }
+}

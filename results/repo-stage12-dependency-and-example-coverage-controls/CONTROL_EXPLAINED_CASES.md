@@ -1,0 +1,12 @@
+| controlId | targetId | packageName | label | gap |
+| --- | --- | --- | --- | --- |
+| repo-control-02 | repo-target-008 | python-slugify | install_only_reproducible | install_succeeds_runtime_fails |
+| repo-control-04 | repo-target-010 | boltons | dynamic_test_mismatch | smoke_succeeds_test_probe_fails |
+| repo-control-05 | repo-target-011 | toolz | dynamic_test_mismatch | smoke_succeeds_test_probe_fails |
+| repo-control-06 | repo-target-012 | pydash | dependency_pin_fragile | install_succeeds_runtime_fails |
+| repo-control-07 | repo-target-013 | tinydb | install_only_reproducible | install_succeeds_runtime_fails |
+| repo-control-09 | repo-target-015 | pint | dynamic_test_mismatch | smoke_succeeds_test_probe_fails |
+| repo-control-10 | repo-target-016 | uncertainties | dynamic_test_mismatch | smoke_succeeds_test_probe_fails |
+| repo-control-12 | repo-target-018 | asteval | install_only_reproducible | install_succeeds_runtime_fails |
+| repo-control-14 | repo-target-020 | skyfield | dynamic_test_mismatch | smoke_succeeds_test_probe_fails |
+| repo-control-15 | repo-target-021 | ephem | dynamic_test_mismatch | smoke_succeeds_test_probe_fails |

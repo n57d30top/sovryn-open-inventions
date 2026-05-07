@@ -263,6 +263,24 @@ can supersede earlier entries while preserving audit history.
 - nobel-stage9-independent-reproduction-gauntlet: latest nobel-stage9-independent-reproduction-gauntlet; versions nobel-stage9-independent-reproduction-gauntlet
 - patch-risk-auditor: latest patch-risk-auditor-v3; versions patch-risk-auditor, patch-risk-auditor-v2, patch-risk-auditor-v3
 - reality-grade-autonomous-science-trial: latest reality-grade-autonomous-science-trial; versions reality-grade-autonomous-science-trial
+- repo-stage01-domain-scope-and-prior-lessons: latest repo-stage01-domain-scope-and-prior-lessons; versions repo-stage01-domain-scope-and-prior-lessons
+- repo-stage02-public-repo-target-universe: latest repo-stage02-public-repo-target-universe; versions repo-stage02-public-repo-target-universe
+- repo-stage03-reproduction-fragility-taxonomy: latest repo-stage03-reproduction-fragility-taxonomy; versions repo-stage03-reproduction-fragility-taxonomy
+- repo-stage04-static-vs-runtime-evidence-wave1: latest repo-stage04-static-vs-runtime-evidence-wave1; versions repo-stage04-static-vs-runtime-evidence-wave1
+- repo-stage05-static-vs-runtime-evidence-wave2: latest repo-stage05-static-vs-runtime-evidence-wave2; versions repo-stage05-static-vs-runtime-evidence-wave2
+- repo-stage06-rival-hypothesis-generation: latest repo-stage06-rival-hypothesis-generation; versions repo-stage06-rival-hypothesis-generation
+- repo-stage07-freeze-predictions: latest repo-stage07-freeze-predictions; versions repo-stage07-freeze-predictions
+- repo-stage08-baseline-and-negative-control-setup: latest repo-stage08-baseline-and-negative-control-setup; versions repo-stage08-baseline-and-negative-control-setup
+- repo-stage09-execution-wave1: latest repo-stage09-execution-wave1; versions repo-stage09-execution-wave1
+- repo-stage10-execution-wave2: latest repo-stage10-execution-wave2; versions repo-stage10-execution-wave2
+- repo-stage11-environment-specificity-stress: latest repo-stage11-environment-specificity-stress; versions repo-stage11-environment-specificity-stress
+- repo-stage12-dependency-and-example-coverage-controls: latest repo-stage12-dependency-and-example-coverage-controls; versions repo-stage12-dependency-and-example-coverage-controls
+- repo-stage13-counterexample-search: latest repo-stage13-counterexample-search; versions repo-stage13-counterexample-search
+- repo-stage14-independent-replay: latest repo-stage14-independent-replay; versions repo-stage14-independent-replay
+- repo-stage15-adversarial-kill-week: latest repo-stage15-adversarial-kill-week; versions repo-stage15-adversarial-kill-week
+- repo-stage16-candidate-decision: latest repo-stage16-candidate-decision; versions repo-stage16-candidate-decision
+- repo-stage17-paper-or-failure-package: latest repo-stage17-paper-or-failure-package; versions repo-stage17-paper-or-failure-package
+- repo-stage18-next-frontier: latest repo-stage18-next-frontier; versions repo-stage18-next-frontier
 - scientific-dataset-reliability-self-built-lab-study: latest scientific-dataset-reliability-self-built-lab-study; versions scientific-dataset-reliability-self-built-lab-study
 - scientific-knowledge-engine-trial: latest scientific-knowledge-engine-trial; versions scientific-knowledge-engine-trial
 - search-stage01-failure-autopsy: latest search-stage01-failure-autopsy; versions search-stage01-failure-autopsy

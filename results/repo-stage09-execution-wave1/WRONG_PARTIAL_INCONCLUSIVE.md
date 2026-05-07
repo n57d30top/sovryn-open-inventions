@@ -1,0 +1,10 @@
+| predictionId | targetId | packageName | predicted | observed | outcome |
+| --- | --- | --- | --- | --- | --- |
+| repo-pred-01 | repo-target-001 | requests | runtime_reproducible | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-02 | repo-target-002 | click | runtime_reproducible | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-03 | repo-target-003 | attrs | runtime_reproducible | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-04 | repo-target-004 | packaging | runtime_reproducible | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-05 | repo-target-005 | PyYAML | runtime_reproducible | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-06 | repo-target-006 | tabulate | runtime_reproducible | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-07 | repo-target-007 | humanize | runtime_reproducible | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-08 | repo-target-008 | python-slugify | runtime_reproducible | dynamic_test_mismatch | wrong_or_partial |

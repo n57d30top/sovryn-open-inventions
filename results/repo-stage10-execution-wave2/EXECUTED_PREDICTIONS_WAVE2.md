@@ -1,0 +1,14 @@
+| predictionId | targetId | packageName | predicted | observed | outcome |
+| --- | --- | --- | --- | --- | --- |
+| repo-pred-13 | repo-target-013 | tinydb | static_runtime_mismatch_or_dynamic_test_mismatch | dynamic_test_mismatch | correct_or_supported |
+| repo-pred-14 | repo-target-014 | networkx | static_runtime_mismatch_or_dynamic_test_mismatch | dynamic_test_mismatch | correct_or_supported |
+| repo-pred-15 | repo-target-015 | pint | static_runtime_mismatch_or_dynamic_test_mismatch | dynamic_test_mismatch | correct_or_supported |
+| repo-pred-16 | repo-target-016 | uncertainties | static_runtime_mismatch_or_dynamic_test_mismatch | dynamic_test_mismatch | correct_or_supported |
+| repo-pred-17 | repo-target-017 | periodictable | dependency_pin_fragile | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-18 | repo-target-018 | asteval | dependency_pin_fragile | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-19 | repo-target-019 | sgp4 | dependency_pin_fragile | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-20 | repo-target-020 | skyfield | dependency_pin_fragile | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-21 | repo-target-021 | ephem | low_risk_control | dynamic_test_mismatch | correct_or_supported |
+| repo-pred-22 | repo-target-022 | jdcal | low_risk_control | dynamic_test_mismatch | correct_or_supported |
+| repo-pred-23 | repo-target-023 | pyerfa | low_risk_control | dynamic_test_mismatch | correct_or_supported |
+| repo-pred-24 | repo-target-024 | hypothesis | low_risk_control | dynamic_test_mismatch | correct_or_supported |

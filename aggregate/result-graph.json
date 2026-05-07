@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-07T08:01:32.432Z",
+  "generatedAt": "2026-05-07T08:19:19.825Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1629,6 +1629,114 @@
       "domain": "reality-grade-scientific-autonomy"
     },
     {
+      "id": "result:repo-stage01-domain-scope-and-prior-lessons",
+      "kind": "result",
+      "label": "Domain Scope and Prior Lessons",
+      "domain": "scientific software reproduction fragility"
+    },
+    {
+      "id": "result:repo-stage02-public-repo-target-universe",
+      "kind": "result",
+      "label": "Public Repo Target Universe",
+      "domain": "scientific software reproduction fragility"
+    },
+    {
+      "id": "result:repo-stage03-reproduction-fragility-taxonomy",
+      "kind": "result",
+      "label": "Reproduction Fragility Taxonomy",
+      "domain": "scientific software reproduction fragility"
+    },
+    {
+      "id": "result:repo-stage04-static-vs-runtime-evidence-wave1",
+      "kind": "result",
+      "label": "Static vs Runtime Evidence Wave 1",
+      "domain": "scientific software reproduction fragility"
+    },
+    {
+      "id": "result:repo-stage05-static-vs-runtime-evidence-wave2",
+      "kind": "result",
+      "label": "Static vs Runtime Evidence Wave 2",
+      "domain": "scientific software reproduction fragility"
+    },
+    {
+      "id": "result:repo-stage06-rival-hypothesis-generation",
+      "kind": "result",
+      "label": "Rival Hypothesis Generation",
+      "domain": "scientific software reproduction fragility"
+    },
+    {
+      "id": "result:repo-stage07-freeze-predictions",
+      "kind": "result",
+      "label": "Freeze Predictions",
+      "domain": "scientific software reproduction fragility"
+    },
+    {
+      "id": "result:repo-stage08-baseline-and-negative-control-setup",
+      "kind": "result",
+      "label": "Baseline and Negative-Control Setup",
+      "domain": "scientific software reproduction fragility"
+    },
+    {
+      "id": "result:repo-stage09-execution-wave1",
+      "kind": "result",
+      "label": "Execution Wave 1",
+      "domain": "scientific software reproduction fragility"
+    },
+    {
+      "id": "result:repo-stage10-execution-wave2",
+      "kind": "result",
+      "label": "Execution Wave 2",
+      "domain": "scientific software reproduction fragility"
+    },
+    {
+      "id": "result:repo-stage11-environment-specificity-stress",
+      "kind": "result",
+      "label": "Environment Specificity Stress",
+      "domain": "scientific software reproduction fragility"
+    },
+    {
+      "id": "result:repo-stage12-dependency-and-example-coverage-controls",
+      "kind": "result",
+      "label": "Dependency and Example Coverage Controls",
+      "domain": "scientific software reproduction fragility"
+    },
+    {
+      "id": "result:repo-stage13-counterexample-search",
+      "kind": "result",
+      "label": "Counterexample Search",
+      "domain": "scientific software reproduction fragility"
+    },
+    {
+      "id": "result:repo-stage14-independent-replay",
+      "kind": "result",
+      "label": "Independent Replay",
+      "domain": "scientific software reproduction fragility"
+    },
+    {
+      "id": "result:repo-stage15-adversarial-kill-week",
+      "kind": "result",
+      "label": "Adversarial Kill Week",
+      "domain": "scientific software reproduction fragility"
+    },
+    {
+      "id": "result:repo-stage16-candidate-decision",
+      "kind": "result",
+      "label": "Candidate Decision",
+      "domain": "scientific software reproduction fragility"
+    },
+    {
+      "id": "result:repo-stage17-paper-or-failure-package",
+      "kind": "result",
+      "label": "Paper or Failure Package",
+      "domain": "scientific software reproduction fragility"
+    },
+    {
+      "id": "result:repo-stage18-next-frontier",
+      "kind": "result",
+      "label": "Next Frontier",
+      "domain": "scientific software reproduction fragility"
+    },
+    {
       "id": "result:scientific-dataset-reliability-self-built-lab-study",
       "kind": "result",
       "label": "Provenance-aware schema-drift checks reduce false positives and improve inconsistent-record detection compared with schema-only validation baselines.",
@@ -2438,6 +2546,11 @@
       "id": "domain:reality-grade-scientific-autonomy",
       "kind": "domain",
       "label": "reality-grade-scientific-autonomy"
+    },
+    {
+      "id": "domain:scientific software reproduction fragility",
+      "kind": "domain",
+      "label": "scientific software reproduction fragility"
     },
     {
       "id": "domain:scientific-dataset-reliability",
@@ -4752,6 +4865,131 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:repo-stage01-domain-scope-and-prior-lessons",
+      "target": "domain:scientific software reproduction fragility",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-stage02-public-repo-target-universe",
+      "target": "domain:scientific software reproduction fragility",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-stage02-public-repo-target-universe",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:repo-stage02-public-repo-target-universe",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:repo-stage02-public-repo-target-universe",
+      "target": "tool:pint",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:repo-stage03-reproduction-fragility-taxonomy",
+      "target": "domain:scientific software reproduction fragility",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-stage04-static-vs-runtime-evidence-wave1",
+      "target": "domain:scientific software reproduction fragility",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-stage05-static-vs-runtime-evidence-wave2",
+      "target": "domain:scientific software reproduction fragility",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-stage05-static-vs-runtime-evidence-wave2",
+      "target": "tool:pint",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:repo-stage06-rival-hypothesis-generation",
+      "target": "domain:scientific software reproduction fragility",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-stage07-freeze-predictions",
+      "target": "domain:scientific software reproduction fragility",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-stage07-freeze-predictions",
+      "target": "tool:pint",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:repo-stage08-baseline-and-negative-control-setup",
+      "target": "domain:scientific software reproduction fragility",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-stage09-execution-wave1",
+      "target": "domain:scientific software reproduction fragility",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-stage10-execution-wave2",
+      "target": "domain:scientific software reproduction fragility",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-stage10-execution-wave2",
+      "target": "tool:pint",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:repo-stage11-environment-specificity-stress",
+      "target": "domain:scientific software reproduction fragility",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-stage12-dependency-and-example-coverage-controls",
+      "target": "domain:scientific software reproduction fragility",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-stage12-dependency-and-example-coverage-controls",
+      "target": "tool:pint",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:repo-stage13-counterexample-search",
+      "target": "domain:scientific software reproduction fragility",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-stage14-independent-replay",
+      "target": "domain:scientific software reproduction fragility",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-stage15-adversarial-kill-week",
+      "target": "domain:scientific software reproduction fragility",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-stage16-candidate-decision",
+      "target": "domain:scientific software reproduction fragility",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-stage17-paper-or-failure-package",
+      "target": "domain:scientific software reproduction fragility",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:repo-stage18-next-frontier",
+      "target": "domain:scientific software reproduction fragility",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:scientific-dataset-reliability-self-built-lab-study",
       "target": "domain:scientific-dataset-reliability",
       "relation": "belongs_to_domain"
@@ -5242,5 +5480,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "45d45b9753901301160d558a586f974862dbd62b4f0e233b2e49e6c97a9aed3f"
+  "evidenceHash": "f5dc630dfe4f1485ff5e599f9e7a51fd0104d70aa8058d02a1c8b3499abdc4b7"
 }

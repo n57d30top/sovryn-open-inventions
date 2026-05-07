@@ -1,0 +1,14 @@
+| predictionId | predicted | observed | outcome |
+| --- | --- | --- | --- |
+| repo-pred-13 | static_runtime_mismatch_or_dynamic_test_mismatch | dynamic_test_mismatch | correct_or_supported |
+| repo-pred-14 | static_runtime_mismatch_or_dynamic_test_mismatch | dynamic_test_mismatch | correct_or_supported |
+| repo-pred-15 | static_runtime_mismatch_or_dynamic_test_mismatch | dynamic_test_mismatch | correct_or_supported |
+| repo-pred-16 | static_runtime_mismatch_or_dynamic_test_mismatch | dynamic_test_mismatch | correct_or_supported |
+| repo-pred-17 | dependency_pin_fragile | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-18 | dependency_pin_fragile | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-19 | dependency_pin_fragile | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-20 | dependency_pin_fragile | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-21 | low_risk_control | dynamic_test_mismatch | correct_or_supported |
+| repo-pred-22 | low_risk_control | dynamic_test_mismatch | correct_or_supported |
+| repo-pred-23 | low_risk_control | dynamic_test_mismatch | correct_or_supported |
+| repo-pred-24 | low_risk_control | dynamic_test_mismatch | correct_or_supported |

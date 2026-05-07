@@ -306,6 +306,24 @@ and safety scope in human-readable language.
 - [Patch Risk Auditor](results/patch-risk-auditor-v2/) — good, superseded, patch-risk-auditor, software-supply-chain
 - [Patch Risk Auditor](results/patch-risk-auditor-v3/) — good, showcase, patch-risk-auditor, software-supply-chain
 - [Reality-Grade Autonomous Science Trial](results/reality-grade-autonomous-science-trial/) — excellent, autopublished, reality-grade-autonomous-science-trial, reality-grade-scientific-autonomy
+- [Domain Scope and Prior Lessons](results/repo-stage01-domain-scope-and-prior-lessons/) — good, autopublished, repo-stage01-domain-scope-and-prior-lessons, scientific software reproduction fragility
+- [Public Repo Target Universe](results/repo-stage02-public-repo-target-universe/) — good, autopublished, repo-stage02-public-repo-target-universe, scientific software reproduction fragility
+- [Reproduction Fragility Taxonomy](results/repo-stage03-reproduction-fragility-taxonomy/) — good, autopublished, repo-stage03-reproduction-fragility-taxonomy, scientific software reproduction fragility
+- [Static vs Runtime Evidence Wave 1](results/repo-stage04-static-vs-runtime-evidence-wave1/) — good, autopublished, repo-stage04-static-vs-runtime-evidence-wave1, scientific software reproduction fragility
+- [Static vs Runtime Evidence Wave 2](results/repo-stage05-static-vs-runtime-evidence-wave2/) — good, autopublished, repo-stage05-static-vs-runtime-evidence-wave2, scientific software reproduction fragility
+- [Rival Hypothesis Generation](results/repo-stage06-rival-hypothesis-generation/) — good, autopublished, repo-stage06-rival-hypothesis-generation, scientific software reproduction fragility
+- [Freeze Predictions](results/repo-stage07-freeze-predictions/) — good, autopublished, repo-stage07-freeze-predictions, scientific software reproduction fragility
+- [Baseline and Negative-Control Setup](results/repo-stage08-baseline-and-negative-control-setup/) — good, autopublished, repo-stage08-baseline-and-negative-control-setup, scientific software reproduction fragility
+- [Execution Wave 1](results/repo-stage09-execution-wave1/) — good, autopublished, repo-stage09-execution-wave1, scientific software reproduction fragility
+- [Execution Wave 2](results/repo-stage10-execution-wave2/) — good, autopublished, repo-stage10-execution-wave2, scientific software reproduction fragility
+- [Environment Specificity Stress](results/repo-stage11-environment-specificity-stress/) — good, autopublished, repo-stage11-environment-specificity-stress, scientific software reproduction fragility
+- [Dependency and Example Coverage Controls](results/repo-stage12-dependency-and-example-coverage-controls/) — good, autopublished, repo-stage12-dependency-and-example-coverage-controls, scientific software reproduction fragility
+- [Counterexample Search](results/repo-stage13-counterexample-search/) — good, autopublished, repo-stage13-counterexample-search, scientific software reproduction fragility
+- [Independent Replay](results/repo-stage14-independent-replay/) — good, autopublished, repo-stage14-independent-replay, scientific software reproduction fragility
+- [Adversarial Kill Week](results/repo-stage15-adversarial-kill-week/) — good, autopublished, repo-stage15-adversarial-kill-week, scientific software reproduction fragility
+- [Candidate Decision](results/repo-stage16-candidate-decision/) — good, autopublished, repo-stage16-candidate-decision, scientific software reproduction fragility
+- [Paper or Failure Package](results/repo-stage17-paper-or-failure-package/) — good, autopublished, repo-stage17-paper-or-failure-package, scientific software reproduction fragility
+- [Next Frontier](results/repo-stage18-next-frontier/) — good, autopublished, repo-stage18-next-frontier, scientific software reproduction fragility
 - [Provenance-aware schema-drift checks reduce false positives and improve inconsistent-record detection compared with schema-only validation baselines.](results/scientific-dataset-reliability-self-built-lab-study/) — good, showcase_science, scientific-dataset-reliability-self-built-lab-study, scientific-dataset-reliability
 - [Scientific Knowledge Engine Trial](results/scientific-knowledge-engine-trial/) — good, autopublished, scientific-knowledge-engine-trial, scientific-knowledge-engine
 - [Candidate Failure Autopsy](results/search-stage01-failure-autopsy/) — good, autopublished, search-stage01-failure-autopsy, candidate rejection and new discovery search

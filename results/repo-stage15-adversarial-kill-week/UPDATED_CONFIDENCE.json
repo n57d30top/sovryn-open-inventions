@@ -1,0 +1,5 @@
+{
+  "candidateConfidence": 0.52,
+  "decision": "partial_repo_reproduction_signal",
+  "reason": "Runtime/static gap and environment specificity are real, but counterexamples and replay caveats block validation-ready status."
+}

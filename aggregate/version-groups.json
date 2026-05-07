@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T08:01:32.432Z",
+  "updatedAt": "2026-05-07T08:19:19.825Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -1822,6 +1822,132 @@
       ]
     },
     {
+      "versionGroup": "repo-stage01-domain-scope-and-prior-lessons",
+      "latestSlug": "repo-stage01-domain-scope-and-prior-lessons",
+      "resultSlugs": [
+        "repo-stage01-domain-scope-and-prior-lessons"
+      ]
+    },
+    {
+      "versionGroup": "repo-stage02-public-repo-target-universe",
+      "latestSlug": "repo-stage02-public-repo-target-universe",
+      "resultSlugs": [
+        "repo-stage02-public-repo-target-universe"
+      ]
+    },
+    {
+      "versionGroup": "repo-stage03-reproduction-fragility-taxonomy",
+      "latestSlug": "repo-stage03-reproduction-fragility-taxonomy",
+      "resultSlugs": [
+        "repo-stage03-reproduction-fragility-taxonomy"
+      ]
+    },
+    {
+      "versionGroup": "repo-stage04-static-vs-runtime-evidence-wave1",
+      "latestSlug": "repo-stage04-static-vs-runtime-evidence-wave1",
+      "resultSlugs": [
+        "repo-stage04-static-vs-runtime-evidence-wave1"
+      ]
+    },
+    {
+      "versionGroup": "repo-stage05-static-vs-runtime-evidence-wave2",
+      "latestSlug": "repo-stage05-static-vs-runtime-evidence-wave2",
+      "resultSlugs": [
+        "repo-stage05-static-vs-runtime-evidence-wave2"
+      ]
+    },
+    {
+      "versionGroup": "repo-stage06-rival-hypothesis-generation",
+      "latestSlug": "repo-stage06-rival-hypothesis-generation",
+      "resultSlugs": [
+        "repo-stage06-rival-hypothesis-generation"
+      ]
+    },
+    {
+      "versionGroup": "repo-stage07-freeze-predictions",
+      "latestSlug": "repo-stage07-freeze-predictions",
+      "resultSlugs": [
+        "repo-stage07-freeze-predictions"
+      ]
+    },
+    {
+      "versionGroup": "repo-stage08-baseline-and-negative-control-setup",
+      "latestSlug": "repo-stage08-baseline-and-negative-control-setup",
+      "resultSlugs": [
+        "repo-stage08-baseline-and-negative-control-setup"
+      ]
+    },
+    {
+      "versionGroup": "repo-stage09-execution-wave1",
+      "latestSlug": "repo-stage09-execution-wave1",
+      "resultSlugs": [
+        "repo-stage09-execution-wave1"
+      ]
+    },
+    {
+      "versionGroup": "repo-stage10-execution-wave2",
+      "latestSlug": "repo-stage10-execution-wave2",
+      "resultSlugs": [
+        "repo-stage10-execution-wave2"
+      ]
+    },
+    {
+      "versionGroup": "repo-stage11-environment-specificity-stress",
+      "latestSlug": "repo-stage11-environment-specificity-stress",
+      "resultSlugs": [
+        "repo-stage11-environment-specificity-stress"
+      ]
+    },
+    {
+      "versionGroup": "repo-stage12-dependency-and-example-coverage-controls",
+      "latestSlug": "repo-stage12-dependency-and-example-coverage-controls",
+      "resultSlugs": [
+        "repo-stage12-dependency-and-example-coverage-controls"
+      ]
+    },
+    {
+      "versionGroup": "repo-stage13-counterexample-search",
+      "latestSlug": "repo-stage13-counterexample-search",
+      "resultSlugs": [
+        "repo-stage13-counterexample-search"
+      ]
+    },
+    {
+      "versionGroup": "repo-stage14-independent-replay",
+      "latestSlug": "repo-stage14-independent-replay",
+      "resultSlugs": [
+        "repo-stage14-independent-replay"
+      ]
+    },
+    {
+      "versionGroup": "repo-stage15-adversarial-kill-week",
+      "latestSlug": "repo-stage15-adversarial-kill-week",
+      "resultSlugs": [
+        "repo-stage15-adversarial-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "repo-stage16-candidate-decision",
+      "latestSlug": "repo-stage16-candidate-decision",
+      "resultSlugs": [
+        "repo-stage16-candidate-decision"
+      ]
+    },
+    {
+      "versionGroup": "repo-stage17-paper-or-failure-package",
+      "latestSlug": "repo-stage17-paper-or-failure-package",
+      "resultSlugs": [
+        "repo-stage17-paper-or-failure-package"
+      ]
+    },
+    {
+      "versionGroup": "repo-stage18-next-frontier",
+      "latestSlug": "repo-stage18-next-frontier",
+      "resultSlugs": [
+        "repo-stage18-next-frontier"
+      ]
+    },
+    {
       "versionGroup": "scientific-dataset-reliability-self-built-lab-study",
       "latestSlug": "scientific-dataset-reliability-self-built-lab-study",
       "resultSlugs": [
@@ -2453,5 +2579,5 @@
       ]
     }
   ],
-  "evidenceHash": "1622c5bcae99ac4168c641e16e58fe40170466315ea0016f780c9d83c19b5f94"
+  "evidenceHash": "218eefdc804cadf1ffced6b03e7949c4d7a57d976d898a59a47c491ece30a6a2"
 }

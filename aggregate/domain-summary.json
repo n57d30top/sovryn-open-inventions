@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_domain_summary",
-  "updatedAt": "2026-05-07T08:01:32.432Z",
+  "updatedAt": "2026-05-07T08:19:19.825Z",
   "domainCounts": {
     "autonomous-research-production-continuity": 2,
     "autonomous-research-production-strategy": 1,
@@ -46,6 +46,7 @@
     "repo-test-result-extraction": 1,
     "research-strategy": 1,
     "safe-computational-reproduction": 1,
+    "scientific software reproduction fragility": 18,
     "scientific-claim-evidence-extraction": 1,
     "scientific-dataset-reliability": 1,
     "scientific-knowledge-engine": 1,
@@ -67,5 +68,5 @@
     "time-series-tabular-benchmark": 1,
     "tool-backed-dataset-quality-audit": 1
   },
-  "evidenceHash": "7acc5067cdf8b6ea2ef1f04ccbce981cd720fde575d37da9280e2e49044ce090"
+  "evidenceHash": "c07770c44d1cf6a3aba2fcd0170ee8349745d73fca5c0b7836ee6843f9fbc9d4"
 }

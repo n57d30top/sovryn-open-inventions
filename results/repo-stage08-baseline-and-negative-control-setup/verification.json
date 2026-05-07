@@ -1,0 +1,11 @@
+{
+  "slug": "repo-stage08-baseline-and-negative-control-setup",
+  "resultKind": "repo_baseline_negative_control_setup",
+  "corpusPublishAuditPassed": true,
+  "corpusSiteAuditPassed": true,
+  "publicHygienePassed": true,
+  "noRawLogs": true,
+  "noLocalPaths": true,
+  "noSecrets": true,
+  "noFakeReproductionClaim": true
+}

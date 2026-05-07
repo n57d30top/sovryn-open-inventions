@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 351,
+    "good": 369,
     "reviewable": 6
   },
   "results": [
@@ -1362,6 +1362,96 @@
       "releaseReadinessScore": 92
     },
     {
+      "slug": "repo-stage01-domain-scope-and-prior-lessons",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-stage02-public-repo-target-universe",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-stage03-reproduction-fragility-taxonomy",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-stage04-static-vs-runtime-evidence-wave1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-stage05-static-vs-runtime-evidence-wave2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-stage06-rival-hypothesis-generation",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-stage07-freeze-predictions",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-stage08-baseline-and-negative-control-setup",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-stage09-execution-wave1",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-stage10-execution-wave2",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-stage11-environment-specificity-stress",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-stage12-dependency-and-example-coverage-controls",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-stage13-counterexample-search",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-stage14-independent-replay",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-stage15-adversarial-kill-week",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-stage16-candidate-decision",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-stage17-paper-or-failure-package",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
+      "slug": "repo-stage18-next-frontier",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 86
+    },
+    {
       "slug": "scientific-dataset-reliability-self-built-lab-study",
       "qualityLabel": "good",
       "releaseReadinessScore": 92
@@ -1817,5 +1907,5 @@
       "releaseReadinessScore": 88
     }
   ],
-  "evidenceHash": "09e7161f1bb89365ecf990f7fd54dd621bff6b2d3fd94fdfd5dfe5c3071c57aa"
+  "evidenceHash": "e40694a8bbadad3ba5043693d72ea244a41d0b75e96765dc07b225c70873f8fb"
 }

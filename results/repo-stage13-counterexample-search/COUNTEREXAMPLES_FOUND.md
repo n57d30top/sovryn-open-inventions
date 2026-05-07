@@ -1,0 +1,12 @@
+| counterexampleId | packageName | label |
+| --- | --- | --- |
+| repo-ce-01 | periodictable | dynamic_test_mismatch |
+| repo-ce-03 | sgp4 | dynamic_test_mismatch |
+| repo-ce-05 | ephem | dynamic_test_mismatch |
+| repo-ce-07 | pyerfa | dynamic_test_mismatch |
+| repo-ce-09 | joblib | dynamic_test_mismatch |
+| repo-ce-11 | sortedcontainers | dynamic_test_mismatch |
+| repo-ce-12 | pypandoc | hidden_data_dependency |
+| repo-ce-13 | graphviz | install_only_reproducible |
+| repo-ce-14 | pygraphviz | dependency_pin_fragile |
+| repo-ce-15 | rpy2 | install_only_reproducible |

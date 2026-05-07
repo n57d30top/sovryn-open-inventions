@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-07T08:01:32.432Z",
+  "generatedAt": "2026-05-07T08:19:19.825Z",
   "sources": [
     {
       "resultSlug": "batch10-toolchain-kill-week",
@@ -1041,6 +1041,48 @@
       "publicOnly": true
     },
     {
+      "resultSlug": "repo-stage02-public-repo-target-universe",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "repo-stage02-public-repo-target-universe",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "repo-stage02-public-repo-target-universe",
+      "sourceKind": "external_package_or_tool",
+      "name": "pint",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "repo-stage05-static-vs-runtime-evidence-wave2",
+      "sourceKind": "external_package_or_tool",
+      "name": "pint",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "repo-stage07-freeze-predictions",
+      "sourceKind": "external_package_or_tool",
+      "name": "pint",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "repo-stage10-execution-wave2",
+      "sourceKind": "external_package_or_tool",
+      "name": "pint",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "repo-stage12-dependency-and-example-coverage-controls",
+      "sourceKind": "external_package_or_tool",
+      "name": "pint",
+      "publicOnly": true
+    },
+    {
       "resultSlug": "scientific-dataset-reliability-self-built-lab-study",
       "sourceKind": "external_package_or_tool",
       "name": "pandas",
@@ -1083,5 +1125,5 @@
       "publicOnly": true
     }
   ],
-  "evidenceHash": "a5f1ae8d78624fccefbdd3fbb86344c593647be95248ff94016c9bad85d5707d"
+  "evidenceHash": "a38941ba1736b87151ca4c7f7ee3daba142dfe01f32614388feaec4d47e567ef"
 }

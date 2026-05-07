@@ -1,0 +1,12 @@
+| replayId | targetId | packageName | label | runtime |
+| --- | --- | --- | --- | --- |
+| repo-replay-01 | repo-target-001 | requests | dynamic_test_mismatch | true |
+| repo-replay-02 | repo-target-002 | click | runtime_reproducible | true |
+| repo-replay-03 | repo-target-003 | attrs | runtime_reproducible | true |
+| repo-replay-04 | repo-target-004 | packaging | dynamic_test_mismatch | true |
+| repo-replay-05 | repo-target-005 | PyYAML | runtime_reproducible | true |
+| repo-replay-06 | repo-target-006 | tabulate | runtime_reproducible | true |
+| repo-replay-07 | repo-target-007 | humanize | dynamic_test_mismatch | true |
+| repo-replay-08 | repo-target-008 | python-slugify | runtime_reproducible | true |
+| repo-replay-09 | repo-target-009 | more-itertools | runtime_reproducible | true |
+| repo-replay-10 | repo-target-010 | boltons | dynamic_test_mismatch | true |

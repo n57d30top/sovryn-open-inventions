@@ -1,0 +1,14 @@
+| predictionId | predicted | observed | outcome |
+| --- | --- | --- | --- |
+| repo-pred-01 | runtime_reproducible | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-02 | runtime_reproducible | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-03 | runtime_reproducible | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-04 | runtime_reproducible | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-05 | runtime_reproducible | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-06 | runtime_reproducible | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-07 | runtime_reproducible | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-08 | runtime_reproducible | dynamic_test_mismatch | wrong_or_partial |
+| repo-pred-09 | static_runtime_mismatch_or_dynamic_test_mismatch | dynamic_test_mismatch | correct_or_supported |
+| repo-pred-10 | static_runtime_mismatch_or_dynamic_test_mismatch | dynamic_test_mismatch | correct_or_supported |
+| repo-pred-11 | static_runtime_mismatch_or_dynamic_test_mismatch | dynamic_test_mismatch | correct_or_supported |
+| repo-pred-12 | static_runtime_mismatch_or_dynamic_test_mismatch | dynamic_test_mismatch | correct_or_supported |
