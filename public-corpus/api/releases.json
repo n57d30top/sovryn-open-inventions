@@ -2072,6 +2072,150 @@
       "pushed": true
     },
     {
+      "slug": "formal-stage01-domain-scope",
+      "path": "results/formal-stage01-domain-scope",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "formal-stage01-domain-scope",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "formal-stage02-candidate-universe",
+      "path": "results/formal-stage02-candidate-universe",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "formal-stage02-candidate-universe",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "formal-stage03-known-pattern-and-triviality-filter",
+      "path": "results/formal-stage03-known-pattern-and-triviality-filter",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "formal-stage03-known-pattern-and-triviality-filter",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "formal-stage04-conjecture-generation-wave1",
+      "path": "results/formal-stage04-conjecture-generation-wave1",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "formal-stage04-conjecture-generation-wave1",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "formal-stage05-conjecture-generation-wave2",
+      "path": "results/formal-stage05-conjecture-generation-wave2",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "formal-stage05-conjecture-generation-wave2",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "formal-stage06-counterexample-search-wave1",
+      "path": "results/formal-stage06-counterexample-search-wave1",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "formal-stage06-counterexample-search-wave1",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "formal-stage07-exhaustive-bound-testing",
+      "path": "results/formal-stage07-exhaustive-bound-testing",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "formal-stage07-exhaustive-bound-testing",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "formal-stage08-rival-conjecture-and-baseline-tests",
+      "path": "results/formal-stage08-rival-conjecture-and-baseline-tests",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "formal-stage08-rival-conjecture-and-baseline-tests",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "formal-stage09-freeze-holdout-predictions",
+      "path": "results/formal-stage09-freeze-holdout-predictions",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "formal-stage09-freeze-holdout-predictions",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "formal-stage10-holdout-bound-execution",
+      "path": "results/formal-stage10-holdout-bound-execution",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "formal-stage10-holdout-bound-execution",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "formal-stage11-proof-sketch-and-formalization-attempt",
+      "path": "results/formal-stage11-proof-sketch-and-formalization-attempt",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "formal-stage11-proof-sketch-and-formalization-attempt",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "formal-stage12-independent-replay",
+      "path": "results/formal-stage12-independent-replay",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "formal-stage12-independent-replay",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "formal-stage13-adversarial-kill-week",
+      "path": "results/formal-stage13-adversarial-kill-week",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "formal-stage13-adversarial-kill-week",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "formal-stage14-conjecture-decision",
+      "path": "results/formal-stage14-conjecture-decision",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "formal-stage14-conjecture-decision",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "formal-stage15-paper-or-failure-package",
+      "path": "results/formal-stage15-paper-or-failure-package",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "formal-stage15-paper-or-failure-package",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
+      "slug": "formal-stage16-next-frontier",
+      "path": "results/formal-stage16-next-frontier",
+      "status": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "formal-stage16-next-frontier",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "frontier-scientific-production-trial",
       "path": "results/frontier-scientific-production-trial",
       "status": "replication_supported_candidate",
@@ -3530,5 +3674,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "17967eb73ded790d0fe3d13e316d76162db997d982e0cc626aae6827beec6ff1"
+  "evidenceHash": "cf1537fd0646576ef5445fc783ddd1823f64de83b6e4e99e287f65055150d278"
 }

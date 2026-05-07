@@ -1,0 +1,6 @@
+- formal-candidate-004: simple recurrence/invariant explanation; local known-pattern near-duplicate
+- formal-candidate-009: simple recurrence/invariant explanation; local known-pattern near-duplicate
+- formal-candidate-014: simple recurrence/invariant explanation; local known-pattern near-duplicate
+- formal-candidate-024: simple recurrence/invariant explanation; local known-pattern near-duplicate
+- formal-candidate-034: simple recurrence/invariant explanation; local known-pattern near-duplicate
+- formal-candidate-039: simple recurrence/invariant explanation; local known-pattern near-duplicate

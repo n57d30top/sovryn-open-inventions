@@ -1,0 +1,5 @@
+- formal-candidate-004: Alternating +/-1 partial sums stay within absolute value 1. [variant 4]
+- formal-candidate-009: Alternating +/-1 partial sums stay within absolute value 1. [variant 9]
+- formal-candidate-014: Alternating +/-1 partial sums stay within absolute value 1. [variant 14]
+- formal-candidate-024: Alternating +/-1 partial sums stay within absolute value 1. [variant 24]
+- formal-candidate-034: Alternating +/-1 partial sums stay within absolute value 1. [variant 34]

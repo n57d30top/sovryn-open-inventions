@@ -1,0 +1,12 @@
+- formal-candidate-004: triviality -> Novelty or nontriviality did not survive adversarial pressure.
+- formal-candidate-009: known-pattern duplication -> Novelty or nontriviality did not survive adversarial pressure.
+- formal-candidate-014: insufficient bounds -> Novelty or nontriviality did not survive adversarial pressure.
+- formal-candidate-024: counterexample gap -> Novelty or nontriviality did not survive adversarial pressure.
+- formal-candidate-034: baseline dominance -> Novelty or nontriviality did not survive adversarial pressure.
+- formal-candidate-004: proof sketch gap -> Novelty or nontriviality did not survive adversarial pressure.
+- formal-candidate-009: edge case -> Novelty or nontriviality did not survive adversarial pressure.
+- formal-candidate-014: replay divergence -> Novelty or nontriviality did not survive adversarial pressure.
+- formal-candidate-024: triviality -> Novelty or nontriviality did not survive adversarial pressure.
+- formal-candidate-034: known-pattern duplication -> Novelty or nontriviality did not survive adversarial pressure.
+- formal-candidate-004: insufficient bounds -> Novelty or nontriviality did not survive adversarial pressure.
+- formal-candidate-009: counterexample gap -> Novelty or nontriviality did not survive adversarial pressure.

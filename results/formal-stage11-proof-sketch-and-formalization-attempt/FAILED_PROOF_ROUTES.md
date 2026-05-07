@@ -1,0 +1,3 @@
+- formal-candidate-004: proof sketch not machine-checked; scope is bounded
+- formal-candidate-009: proof sketch not machine-checked; scope is bounded
+- formal-candidate-014: proof sketch not machine-checked; scope is bounded

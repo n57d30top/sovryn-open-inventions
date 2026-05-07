@@ -1,0 +1,3 @@
+- formal-candidate-004: sketch_only; no checked proof claimed.
+- formal-candidate-009: sketch_only; no checked proof claimed.
+- formal-candidate-014: sketch_only; no checked proof claimed.

@@ -1,0 +1,4 @@
+- formal-holdout-001: partial: bounded outcome survived, but simple recurrence baseline weakens novelty
+- formal-holdout-002: partial: bounded outcome survived, but simple recurrence baseline weakens novelty
+- formal-holdout-003: partial: bounded outcome survived, but simple recurrence baseline weakens novelty
+- formal-holdout-004: partial: bounded outcome survived, but simple recurrence baseline weakens novelty

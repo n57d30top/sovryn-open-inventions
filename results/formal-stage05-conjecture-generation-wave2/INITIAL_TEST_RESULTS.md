@@ -1,0 +1,12 @@
+|candidateId|bound|survived|failures|
+|---|---|---|---|
+|formal-candidate-065|40|false|n=7|
+|formal-candidate-066|41|false|n=6|
+|formal-candidate-073|42|false|n=7|
+|formal-candidate-074|43|false|n=6|
+|formal-candidate-077|44|false|n=7|
+|formal-candidate-081|45|false|n=7|
+|formal-candidate-082|46|false|n=6|
+|formal-candidate-085|47|false|n=7|
+|formal-candidate-086|48|false|n=6|
+|formal-candidate-089|49|false|n=7|

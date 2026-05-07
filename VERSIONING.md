@@ -224,6 +224,22 @@ can supersede earlier entries while preserving audit history.
 - external-reproduction-extension-result: latest external-reproduction-extension-result; versions external-reproduction-extension-result
 - external-scientific-production-result: latest external-scientific-production-result; versions external-scientific-production-result
 - field-grade-autonomous-science-trial: latest field-grade-autonomous-science-trial-v3; versions field-grade-autonomous-science-trial, field-grade-autonomous-science-trial-v2, field-grade-autonomous-science-trial-v3
+- formal-stage01-domain-scope: latest formal-stage01-domain-scope; versions formal-stage01-domain-scope
+- formal-stage02-candidate-universe: latest formal-stage02-candidate-universe; versions formal-stage02-candidate-universe
+- formal-stage03-known-pattern-and-triviality-filter: latest formal-stage03-known-pattern-and-triviality-filter; versions formal-stage03-known-pattern-and-triviality-filter
+- formal-stage04-conjecture-generation-wave1: latest formal-stage04-conjecture-generation-wave1; versions formal-stage04-conjecture-generation-wave1
+- formal-stage05-conjecture-generation-wave2: latest formal-stage05-conjecture-generation-wave2; versions formal-stage05-conjecture-generation-wave2
+- formal-stage06-counterexample-search-wave1: latest formal-stage06-counterexample-search-wave1; versions formal-stage06-counterexample-search-wave1
+- formal-stage07-exhaustive-bound-testing: latest formal-stage07-exhaustive-bound-testing; versions formal-stage07-exhaustive-bound-testing
+- formal-stage08-rival-conjecture-and-baseline-tests: latest formal-stage08-rival-conjecture-and-baseline-tests; versions formal-stage08-rival-conjecture-and-baseline-tests
+- formal-stage09-freeze-holdout-predictions: latest formal-stage09-freeze-holdout-predictions; versions formal-stage09-freeze-holdout-predictions
+- formal-stage10-holdout-bound-execution: latest formal-stage10-holdout-bound-execution; versions formal-stage10-holdout-bound-execution
+- formal-stage11-proof-sketch-and-formalization-attempt: latest formal-stage11-proof-sketch-and-formalization-attempt; versions formal-stage11-proof-sketch-and-formalization-attempt
+- formal-stage12-independent-replay: latest formal-stage12-independent-replay; versions formal-stage12-independent-replay
+- formal-stage13-adversarial-kill-week: latest formal-stage13-adversarial-kill-week; versions formal-stage13-adversarial-kill-week
+- formal-stage14-conjecture-decision: latest formal-stage14-conjecture-decision; versions formal-stage14-conjecture-decision
+- formal-stage15-paper-or-failure-package: latest formal-stage15-paper-or-failure-package; versions formal-stage15-paper-or-failure-package
+- formal-stage16-next-frontier: latest formal-stage16-next-frontier; versions formal-stage16-next-frontier
 - frontier-scientific-production-trial: latest frontier-scientific-production-trial; versions frontier-scientific-production-trial
 - general-ai-scientist-v0-trial: latest general-ai-scientist-v0-trial; versions general-ai-scientist-v0-trial
 - grandchallenge-stage1-anomaly-wall: latest grandchallenge-stage1-anomaly-wall; versions grandchallenge-stage1-anomaly-wall

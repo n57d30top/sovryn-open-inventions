@@ -1,0 +1,1 @@
+- none crossed the predeclared dominance threshold, but all carried baseline pressure.

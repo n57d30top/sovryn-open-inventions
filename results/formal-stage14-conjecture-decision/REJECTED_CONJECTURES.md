@@ -1,0 +1,12 @@
+- formal-candidate-004: rejected or narrowed by counterexample, known/triviality, or baseline pressure.
+- formal-candidate-007: rejected or narrowed by counterexample, known/triviality, or baseline pressure.
+- formal-candidate-009: rejected or narrowed by counterexample, known/triviality, or baseline pressure.
+- formal-candidate-012: rejected or narrowed by counterexample, known/triviality, or baseline pressure.
+- formal-candidate-014: rejected or narrowed by counterexample, known/triviality, or baseline pressure.
+- formal-candidate-017: rejected or narrowed by counterexample, known/triviality, or baseline pressure.
+- formal-candidate-022: rejected or narrowed by counterexample, known/triviality, or baseline pressure.
+- formal-candidate-024: rejected or narrowed by counterexample, known/triviality, or baseline pressure.
+- formal-candidate-027: rejected or narrowed by counterexample, known/triviality, or baseline pressure.
+- formal-candidate-032: rejected or narrowed by counterexample, known/triviality, or baseline pressure.
+- formal-candidate-034: rejected or narrowed by counterexample, known/triviality, or baseline pressure.
+- formal-candidate-039: rejected or narrowed by counterexample, known/triviality, or baseline pressure.

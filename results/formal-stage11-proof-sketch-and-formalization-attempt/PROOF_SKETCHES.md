@@ -1,0 +1,3 @@
+- formal-candidate-004: induction or modular arithmetic route; status sketch_only; proof claimed: false
+- formal-candidate-009: induction or modular arithmetic route; status sketch_only; proof claimed: false
+- formal-candidate-014: induction or modular arithmetic route; status sketch_only; proof claimed: false

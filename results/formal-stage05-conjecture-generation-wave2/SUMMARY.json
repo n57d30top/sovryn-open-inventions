@@ -1,0 +1,32 @@
+{
+  "kind": "formal_conjecture_generation_wave2_summary",
+  "slug": "formal-stage05-conjecture-generation-wave2",
+  "title": "Conjecture Generation Wave 2",
+  "resultKind": "formal_conjecture_generation_wave2",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 86,
+  "evidenceStrengthScore": 84,
+  "reproducibilityScore": 88,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 93,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "falsificationStatus": "passes_falsification",
+  "baselineComparisonPresent": true,
+  "domain": "formal pattern and conjecture discovery",
+  "scientificQuestion": "Can bounded formal candidate generation produce a nontrivial conjecture candidate that survives known-pattern filters, counterexample search, exhaustive bounds, holdouts, proof-sketch pressure, and replay?",
+  "humanReadableSummary": "Generated 50 transformed additional candidates after Wave 1 pressure, promoted 10, and selected 12 total candidates for counterexample search.",
+  "disclaimer": "Bounded computational formal result only. It reports finite tests and failure modes, not a checked proof, open-problem solution, broad discovery claim, outside-party review, or general law.",
+  "productCommit": "fb7d52e",
+  "metrics": {
+    "additionalCandidates": 50,
+    "promotedWave2": 10,
+    "selectedForCounterexampleSearch": 12
+  },
+  "evidenceHash": "60fc96103f2c333afa977a892cf86a72568e4844cd8269abb240e587a29056c7"
+}

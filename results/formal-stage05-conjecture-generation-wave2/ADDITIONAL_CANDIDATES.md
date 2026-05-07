@@ -1,0 +1,50 @@
+- formal-additional-001: For every n >= 0, n(n+1) is even. transformed after Wave 1 failure pressure.
+- formal-additional-002: For every n in the tested range, n^2+n+41 is prime. transformed after Wave 1 failure pressure.
+- formal-additional-003: Every square has residue 0 or 1 modulo 3. transformed after Wave 1 failure pressure.
+- formal-additional-004: Alternating +/-1 partial sums stay within absolute value 1. transformed after Wave 1 failure pressure.
+- formal-additional-005: The first difference of n+1 is constant. transformed after Wave 1 failure pressure.
+- formal-additional-006: For every n >= 0, n(n+1) is even. transformed after Wave 1 failure pressure.
+- formal-additional-007: For every n in the tested range, n^2+n+41 is prime. transformed after Wave 1 failure pressure.
+- formal-additional-008: Every square has residue 0 or 1 modulo 3. transformed after Wave 1 failure pressure.
+- formal-additional-009: Alternating +/-1 partial sums stay within absolute value 1. transformed after Wave 1 failure pressure.
+- formal-additional-010: The first difference of n+1 is constant. transformed after Wave 1 failure pressure.
+- formal-additional-011: For every n >= 0, n(n+1) is even. transformed after Wave 1 failure pressure.
+- formal-additional-012: For every n in the tested range, n^2+n+41 is prime. transformed after Wave 1 failure pressure.
+- formal-additional-013: Every square has residue 0 or 1 modulo 3. transformed after Wave 1 failure pressure.
+- formal-additional-014: Alternating +/-1 partial sums stay within absolute value 1. transformed after Wave 1 failure pressure.
+- formal-additional-015: The first difference of n+1 is constant. transformed after Wave 1 failure pressure.
+- formal-additional-016: For every n >= 0, n(n+1) is even. transformed after Wave 1 failure pressure.
+- formal-additional-017: For every n in the tested range, n^2+n+41 is prime. transformed after Wave 1 failure pressure.
+- formal-additional-018: Every square has residue 0 or 1 modulo 3. transformed after Wave 1 failure pressure.
+- formal-additional-019: Alternating +/-1 partial sums stay within absolute value 1. transformed after Wave 1 failure pressure.
+- formal-additional-020: The first difference of n+1 is constant. transformed after Wave 1 failure pressure.
+- formal-additional-021: For every n >= 0, n(n+1) is even. transformed after Wave 1 failure pressure.
+- formal-additional-022: For every n in the tested range, n^2+n+41 is prime. transformed after Wave 1 failure pressure.
+- formal-additional-023: Every square has residue 0 or 1 modulo 3. transformed after Wave 1 failure pressure.
+- formal-additional-024: Alternating +/-1 partial sums stay within absolute value 1. transformed after Wave 1 failure pressure.
+- formal-additional-025: The first difference of n+1 is constant. transformed after Wave 1 failure pressure.
+- formal-additional-026: For every n >= 0, n(n+1) is even. transformed after Wave 1 failure pressure.
+- formal-additional-027: For every n in the tested range, n^2+n+41 is prime. transformed after Wave 1 failure pressure.
+- formal-additional-028: Every square has residue 0 or 1 modulo 3. transformed after Wave 1 failure pressure.
+- formal-additional-029: Alternating +/-1 partial sums stay within absolute value 1. transformed after Wave 1 failure pressure.
+- formal-additional-030: The first difference of n+1 is constant. transformed after Wave 1 failure pressure.
+- formal-additional-031: For every n >= 0, n(n+1) is even. transformed after Wave 1 failure pressure.
+- formal-additional-032: For every n in the tested range, n^2+n+41 is prime. transformed after Wave 1 failure pressure.
+- formal-additional-033: Every square has residue 0 or 1 modulo 3. transformed after Wave 1 failure pressure.
+- formal-additional-034: Alternating +/-1 partial sums stay within absolute value 1. transformed after Wave 1 failure pressure.
+- formal-additional-035: The first difference of n+1 is constant. transformed after Wave 1 failure pressure.
+- formal-additional-036: For every n >= 0, n(n+1) is even. transformed after Wave 1 failure pressure.
+- formal-additional-037: For every n in the tested range, n^2+n+41 is prime. transformed after Wave 1 failure pressure.
+- formal-additional-038: Every square has residue 0 or 1 modulo 3. transformed after Wave 1 failure pressure.
+- formal-additional-039: Alternating +/-1 partial sums stay within absolute value 1. transformed after Wave 1 failure pressure.
+- formal-additional-040: The first difference of n+1 is constant. transformed after Wave 1 failure pressure.
+- formal-additional-041: For every n >= 0, n(n+1) is even. transformed after Wave 1 failure pressure.
+- formal-additional-042: For every n in the tested range, n^2+n+41 is prime. transformed after Wave 1 failure pressure.
+- formal-additional-043: Every square has residue 0 or 1 modulo 3. transformed after Wave 1 failure pressure.
+- formal-additional-044: Alternating +/-1 partial sums stay within absolute value 1. transformed after Wave 1 failure pressure.
+- formal-additional-045: The first difference of n+1 is constant. transformed after Wave 1 failure pressure.
+- formal-additional-046: For every n >= 0, n(n+1) is even. transformed after Wave 1 failure pressure.
+- formal-additional-047: For every n in the tested range, n^2+n+41 is prime. transformed after Wave 1 failure pressure.
+- formal-additional-048: Every square has residue 0 or 1 modulo 3. transformed after Wave 1 failure pressure.
+- formal-additional-049: Alternating +/-1 partial sums stay within absolute value 1. transformed after Wave 1 failure pressure.
+- formal-additional-050: The first difference of n+1 is constant. transformed after Wave 1 failure pressure.

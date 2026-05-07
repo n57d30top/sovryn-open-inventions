@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-07T08:59:44.433Z",
+  "generatedAt": "2026-05-07T09:33:30.092Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1383,6 +1383,102 @@
       "domain": "field-grade-scientific-autonomy"
     },
     {
+      "id": "result:formal-stage01-domain-scope",
+      "kind": "result",
+      "label": "Domain Scope",
+      "domain": "formal pattern and conjecture discovery"
+    },
+    {
+      "id": "result:formal-stage02-candidate-universe",
+      "kind": "result",
+      "label": "Candidate Universe",
+      "domain": "formal pattern and conjecture discovery"
+    },
+    {
+      "id": "result:formal-stage03-known-pattern-and-triviality-filter",
+      "kind": "result",
+      "label": "Known Pattern and Triviality Filter",
+      "domain": "formal pattern and conjecture discovery"
+    },
+    {
+      "id": "result:formal-stage04-conjecture-generation-wave1",
+      "kind": "result",
+      "label": "Conjecture Generation Wave 1",
+      "domain": "formal pattern and conjecture discovery"
+    },
+    {
+      "id": "result:formal-stage05-conjecture-generation-wave2",
+      "kind": "result",
+      "label": "Conjecture Generation Wave 2",
+      "domain": "formal pattern and conjecture discovery"
+    },
+    {
+      "id": "result:formal-stage06-counterexample-search-wave1",
+      "kind": "result",
+      "label": "Counterexample Search Wave 1",
+      "domain": "formal pattern and conjecture discovery"
+    },
+    {
+      "id": "result:formal-stage07-exhaustive-bound-testing",
+      "kind": "result",
+      "label": "Exhaustive Bound Testing",
+      "domain": "formal pattern and conjecture discovery"
+    },
+    {
+      "id": "result:formal-stage08-rival-conjecture-and-baseline-tests",
+      "kind": "result",
+      "label": "Rival Conjecture and Baseline Tests",
+      "domain": "formal pattern and conjecture discovery"
+    },
+    {
+      "id": "result:formal-stage09-freeze-holdout-predictions",
+      "kind": "result",
+      "label": "Freeze Holdout Predictions",
+      "domain": "formal pattern and conjecture discovery"
+    },
+    {
+      "id": "result:formal-stage10-holdout-bound-execution",
+      "kind": "result",
+      "label": "Holdout Bound Execution",
+      "domain": "formal pattern and conjecture discovery"
+    },
+    {
+      "id": "result:formal-stage11-proof-sketch-and-formalization-attempt",
+      "kind": "result",
+      "label": "Proof Sketch and Formalization Attempt",
+      "domain": "formal pattern and conjecture discovery"
+    },
+    {
+      "id": "result:formal-stage12-independent-replay",
+      "kind": "result",
+      "label": "Independent Replay",
+      "domain": "formal pattern and conjecture discovery"
+    },
+    {
+      "id": "result:formal-stage13-adversarial-kill-week",
+      "kind": "result",
+      "label": "Adversarial Kill Week",
+      "domain": "formal pattern and conjecture discovery"
+    },
+    {
+      "id": "result:formal-stage14-conjecture-decision",
+      "kind": "result",
+      "label": "Conjecture Decision",
+      "domain": "formal pattern and conjecture discovery"
+    },
+    {
+      "id": "result:formal-stage15-paper-or-failure-package",
+      "kind": "result",
+      "label": "Paper or Failure Package",
+      "domain": "formal pattern and conjecture discovery"
+    },
+    {
+      "id": "result:formal-stage16-next-frontier",
+      "kind": "result",
+      "label": "Next Frontier",
+      "domain": "formal pattern and conjecture discovery"
+    },
+    {
       "id": "result:frontier-scientific-production-trial",
       "kind": "result",
       "label": "Frontier Scientific Production Trial",
@@ -2583,6 +2679,11 @@
       "id": "domain:field-grade-scientific-autonomy",
       "kind": "domain",
       "label": "field-grade-scientific-autonomy"
+    },
+    {
+      "id": "domain:formal pattern and conjecture discovery",
+      "kind": "domain",
+      "label": "formal pattern and conjecture discovery"
     },
     {
       "id": "domain:provenance-aware-data-quality-methods",
@@ -4722,6 +4823,86 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:formal-stage01-domain-scope",
+      "target": "domain:formal pattern and conjecture discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:formal-stage02-candidate-universe",
+      "target": "domain:formal pattern and conjecture discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:formal-stage03-known-pattern-and-triviality-filter",
+      "target": "domain:formal pattern and conjecture discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:formal-stage04-conjecture-generation-wave1",
+      "target": "domain:formal pattern and conjecture discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:formal-stage05-conjecture-generation-wave2",
+      "target": "domain:formal pattern and conjecture discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:formal-stage06-counterexample-search-wave1",
+      "target": "domain:formal pattern and conjecture discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:formal-stage07-exhaustive-bound-testing",
+      "target": "domain:formal pattern and conjecture discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:formal-stage08-rival-conjecture-and-baseline-tests",
+      "target": "domain:formal pattern and conjecture discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:formal-stage09-freeze-holdout-predictions",
+      "target": "domain:formal pattern and conjecture discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:formal-stage10-holdout-bound-execution",
+      "target": "domain:formal pattern and conjecture discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:formal-stage11-proof-sketch-and-formalization-attempt",
+      "target": "domain:formal pattern and conjecture discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:formal-stage12-independent-replay",
+      "target": "domain:formal pattern and conjecture discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:formal-stage13-adversarial-kill-week",
+      "target": "domain:formal pattern and conjecture discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:formal-stage14-conjecture-decision",
+      "target": "domain:formal pattern and conjecture discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:formal-stage15-paper-or-failure-package",
+      "target": "domain:formal pattern and conjecture discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:formal-stage16-next-frontier",
+      "target": "domain:formal pattern and conjecture discovery",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:frontier-scientific-production-trial",
       "target": "domain:provenance-aware-data-quality-methods",
       "relation": "belongs_to_domain"
@@ -5677,5 +5858,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "e6c318f9e927a31d7a5ea097d37f0d2899ec2ce0aefd28b517dafe919791b80c"
+  "evidenceHash": "1ea74e423348cd50a8563ab84e88ade1fe3023b287357fcdfdde0e8f2c4b7444"
 }

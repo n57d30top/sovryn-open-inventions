@@ -1,0 +1,3 @@
+- formal-candidate-004: attempted=true; status=sketch_only
+- formal-candidate-009: attempted=true; status=sketch_only
+- formal-candidate-014: attempted=true; status=sketch_only

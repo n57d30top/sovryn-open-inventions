@@ -1,0 +1,14 @@
+- formal-candidate-014: bounded computation preserved, discovery claim not added.
+- formal-candidate-024: bounded computation preserved, discovery claim not added.
+- formal-candidate-034: bounded computation preserved, discovery claim not added.
+- formal-candidate-004: bounded computation preserved, discovery claim not added.
+- formal-candidate-009: bounded computation preserved, discovery claim not added.
+- formal-candidate-014: bounded computation preserved, discovery claim not added.
+- formal-candidate-024: bounded computation preserved, discovery claim not added.
+- formal-candidate-034: bounded computation preserved, discovery claim not added.
+- formal-candidate-004: bounded computation preserved, discovery claim not added.
+- formal-candidate-009: bounded computation preserved, discovery claim not added.
+- formal-candidate-014: bounded computation preserved, discovery claim not added.
+- formal-candidate-024: bounded computation preserved, discovery claim not added.
+- formal-candidate-034: bounded computation preserved, discovery claim not added.
+- formal-candidate-004: bounded computation preserved, discovery claim not added.

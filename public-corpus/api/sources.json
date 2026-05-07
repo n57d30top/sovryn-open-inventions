@@ -1416,6 +1416,86 @@
       "customTool": null
     },
     {
+      "slug": "formal-stage01-domain-scope",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-stage02-candidate-universe",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-stage03-known-pattern-and-triviality-filter",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-stage04-conjecture-generation-wave1",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-stage05-conjecture-generation-wave2",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-stage06-counterexample-search-wave1",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-stage07-exhaustive-bound-testing",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-stage08-rival-conjecture-and-baseline-tests",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-stage09-freeze-holdout-predictions",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-stage10-holdout-bound-execution",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-stage11-proof-sketch-and-formalization-attempt",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-stage12-independent-replay",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-stage13-adversarial-kill-week",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-stage14-conjecture-decision",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-stage15-paper-or-failure-package",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "formal-stage16-next-frontier",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "frontier-scientific-production-trial",
       "externalPackages": [],
       "customTool": null
@@ -2271,5 +2351,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "d48ebe2dd90253c15f7ba6fd775f0086379c562ecd3657a2f5acecde36746101"
+  "evidenceHash": "ddb0421c09287270bf31452f9ad4dec7df8a5e3c618ef8585f0e8bcdfa98a946"
 }

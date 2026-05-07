@@ -265,6 +265,22 @@ and safety scope in human-readable language.
 - [Field-Grade Autonomous Science Trial](results/field-grade-autonomous-science-trial/) — excellent, superseded, field-grade-autonomous-science-trial, field-grade-scientific-autonomy
 - [Field-Grade Autonomous Science Trial](results/field-grade-autonomous-science-trial-v2/) — excellent, superseded, field-grade-autonomous-science-trial, field-grade-scientific-autonomy
 - [Field-Grade Autonomous Science Trial](results/field-grade-autonomous-science-trial-v3/) — excellent, autopublished, field-grade-autonomous-science-trial, field-grade-scientific-autonomy
+- [Domain Scope](results/formal-stage01-domain-scope/) — good, autopublished, formal-stage01-domain-scope, formal pattern and conjecture discovery
+- [Candidate Universe](results/formal-stage02-candidate-universe/) — good, autopublished, formal-stage02-candidate-universe, formal pattern and conjecture discovery
+- [Known Pattern and Triviality Filter](results/formal-stage03-known-pattern-and-triviality-filter/) — good, autopublished, formal-stage03-known-pattern-and-triviality-filter, formal pattern and conjecture discovery
+- [Conjecture Generation Wave 1](results/formal-stage04-conjecture-generation-wave1/) — good, autopublished, formal-stage04-conjecture-generation-wave1, formal pattern and conjecture discovery
+- [Conjecture Generation Wave 2](results/formal-stage05-conjecture-generation-wave2/) — good, autopublished, formal-stage05-conjecture-generation-wave2, formal pattern and conjecture discovery
+- [Counterexample Search Wave 1](results/formal-stage06-counterexample-search-wave1/) — good, autopublished, formal-stage06-counterexample-search-wave1, formal pattern and conjecture discovery
+- [Exhaustive Bound Testing](results/formal-stage07-exhaustive-bound-testing/) — good, autopublished, formal-stage07-exhaustive-bound-testing, formal pattern and conjecture discovery
+- [Rival Conjecture and Baseline Tests](results/formal-stage08-rival-conjecture-and-baseline-tests/) — good, autopublished, formal-stage08-rival-conjecture-and-baseline-tests, formal pattern and conjecture discovery
+- [Freeze Holdout Predictions](results/formal-stage09-freeze-holdout-predictions/) — good, autopublished, formal-stage09-freeze-holdout-predictions, formal pattern and conjecture discovery
+- [Holdout Bound Execution](results/formal-stage10-holdout-bound-execution/) — good, autopublished, formal-stage10-holdout-bound-execution, formal pattern and conjecture discovery
+- [Proof Sketch and Formalization Attempt](results/formal-stage11-proof-sketch-and-formalization-attempt/) — good, autopublished, formal-stage11-proof-sketch-and-formalization-attempt, formal pattern and conjecture discovery
+- [Independent Replay](results/formal-stage12-independent-replay/) — good, autopublished, formal-stage12-independent-replay, formal pattern and conjecture discovery
+- [Adversarial Kill Week](results/formal-stage13-adversarial-kill-week/) — good, autopublished, formal-stage13-adversarial-kill-week, formal pattern and conjecture discovery
+- [Conjecture Decision](results/formal-stage14-conjecture-decision/) — good, autopublished, formal-stage14-conjecture-decision, formal pattern and conjecture discovery
+- [Paper or Failure Package](results/formal-stage15-paper-or-failure-package/) — good, autopublished, formal-stage15-paper-or-failure-package, formal pattern and conjecture discovery
+- [Next Frontier](results/formal-stage16-next-frontier/) — good, autopublished, formal-stage16-next-frontier, formal pattern and conjecture discovery
 - [Frontier Scientific Production Trial](results/frontier-scientific-production-trial/) — excellent, autopublished, frontier-scientific-production-trial, provenance-aware-data-quality-methods
 - [General AI Scientist v0 bounded trial](results/general-ai-scientist-v0-trial/) — good, autopublished, general-ai-scientist-v0-trial, bounded computational scientist orchestration
 - [Original Principle Discovery Grand Challenge Stage 1 Anomaly Wall](results/grandchallenge-stage1-anomaly-wall/) — good, autopublished, grandchallenge-stage1-anomaly-wall, original principle discovery grand challenge

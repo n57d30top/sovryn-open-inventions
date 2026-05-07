@@ -1,0 +1,5 @@
+- Example bounded survivor: formal-candidate-004; non-example for discovery promotion: simple recurrence/invariant explanation remains plausible.
+- Example bounded survivor: formal-candidate-009; non-example for discovery promotion: simple recurrence/invariant explanation remains plausible.
+- Example bounded survivor: formal-candidate-014; non-example for discovery promotion: simple recurrence/invariant explanation remains plausible.
+- Example bounded survivor: formal-candidate-024; non-example for discovery promotion: simple recurrence/invariant explanation remains plausible.
+- Example bounded survivor: formal-candidate-034; non-example for discovery promotion: simple recurrence/invariant explanation remains plausible.

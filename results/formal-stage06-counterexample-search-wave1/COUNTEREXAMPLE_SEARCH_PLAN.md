@@ -1,0 +1,1 @@
+Each selected candidate received exhaustive small-bound search, randomized/property checks, and adversarial constructed checks. Any witness rejected or narrowed the conjecture.

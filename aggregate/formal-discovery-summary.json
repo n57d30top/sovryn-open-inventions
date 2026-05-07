@@ -1,0 +1,19 @@
+{
+  "program": "Domain-Specific Deep Discovery Program on Formal Pattern and Conjecture Discovery",
+  "productCommit": "fb7d52e",
+  "beforeCount": 392,
+  "afterCount": 408,
+  "rawCandidates": 200,
+  "rejected": 128,
+  "survivors": 72,
+  "counterexamples": 12,
+  "exhaustiveTests": 8,
+  "holdoutPredictions": 20,
+  "holdoutExecuted": 20,
+  "proofSketches": 3,
+  "replays": 3,
+  "finalClassification": "failed_formal_discovery_attempt",
+  "nextFrontier": "expand_formal_discovery_with_richer_nontrivial_generators",
+  "scoreBefore": 61,
+  "scoreAfter": 61
+}

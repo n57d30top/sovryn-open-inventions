@@ -1,0 +1,60 @@
+- formal-candidate-004: Alternating +/-1 partial sums stay within absolute value 1. [variant 4]
+  - falsifier: Any finite witness inside or beyond the registered bound where the statement fails.
+  - rival: simple invariant explains the apparent novelty
+- formal-candidate-007: For every n in the tested range, n^2+n+41 is prime. [variant 7]
+  - falsifier: The candidate is falsified by the witness n=40.
+  - rival: simple invariant explains the apparent novelty
+- formal-candidate-009: Alternating +/-1 partial sums stay within absolute value 1. [variant 9]
+  - falsifier: Any finite witness inside or beyond the registered bound where the statement fails.
+  - rival: simple invariant explains the apparent novelty
+- formal-candidate-012: For every n in the tested range, n^2+n+41 is prime. [variant 12]
+  - falsifier: The candidate is falsified by the witness n=40.
+  - rival: simple invariant explains the apparent novelty
+- formal-candidate-014: Alternating +/-1 partial sums stay within absolute value 1. [variant 14]
+  - falsifier: Any finite witness inside or beyond the registered bound where the statement fails.
+  - rival: simple invariant explains the apparent novelty
+- formal-candidate-017: For every n in the tested range, n^2+n+41 is prime. [variant 17]
+  - falsifier: The candidate is falsified by the witness n=40.
+  - rival: simple invariant explains the apparent novelty
+- formal-candidate-022: For every n in the tested range, n^2+n+41 is prime. [variant 22]
+  - falsifier: The candidate is falsified by the witness n=40.
+  - rival: simple invariant explains the apparent novelty
+- formal-candidate-024: Alternating +/-1 partial sums stay within absolute value 1. [variant 24]
+  - falsifier: Any finite witness inside or beyond the registered bound where the statement fails.
+  - rival: simple invariant explains the apparent novelty
+- formal-candidate-027: For every n in the tested range, n^2+n+41 is prime. [variant 27]
+  - falsifier: The candidate is falsified by the witness n=40.
+  - rival: simple invariant explains the apparent novelty
+- formal-candidate-032: For every n in the tested range, n^2+n+41 is prime. [variant 32]
+  - falsifier: The candidate is falsified by the witness n=40.
+  - rival: simple invariant explains the apparent novelty
+- formal-candidate-034: Alternating +/-1 partial sums stay within absolute value 1. [variant 34]
+  - falsifier: Any finite witness inside or beyond the registered bound where the statement fails.
+  - rival: simple invariant explains the apparent novelty
+- formal-candidate-039: Alternating +/-1 partial sums stay within absolute value 1. [variant 39]
+  - falsifier: Any finite witness inside or beyond the registered bound where the statement fails.
+  - rival: simple invariant explains the apparent novelty
+- formal-candidate-042: For every n in the tested range, n^2+n+41 is prime. [variant 42]
+  - falsifier: The candidate is falsified by the witness n=40.
+  - rival: simple invariant explains the apparent novelty
+- formal-candidate-044: Alternating +/-1 partial sums stay within absolute value 1. [variant 44]
+  - falsifier: Any finite witness inside or beyond the registered bound where the statement fails.
+  - rival: simple invariant explains the apparent novelty
+- formal-candidate-049: Alternating +/-1 partial sums stay within absolute value 1. [variant 49]
+  - falsifier: Any finite witness inside or beyond the registered bound where the statement fails.
+  - rival: simple invariant explains the apparent novelty
+- formal-candidate-053: Unicyclic graph leaf excess follows the branch-excess identity in the bounded search. [variant 3]
+  - falsifier: The candidate is falsified by the witness n=7.
+  - rival: simple invariant explains the apparent novelty
+- formal-candidate-054: Minimum-degree constrained graphs always exceed the proposed edge floor. [variant 4]
+  - falsifier: The candidate is falsified by the witness n=6.
+  - rival: too-small sample artifact
+- formal-candidate-057: Unicyclic graph leaf excess follows the branch-excess identity in the bounded search. [variant 7]
+  - falsifier: The candidate is falsified by the witness n=7.
+  - rival: simple invariant explains the apparent novelty
+- formal-candidate-058: Minimum-degree constrained graphs always exceed the proposed edge floor. [variant 8]
+  - falsifier: The candidate is falsified by the witness n=6.
+  - rival: too-small sample artifact
+- formal-candidate-062: Minimum-degree constrained graphs always exceed the proposed edge floor. [variant 12]
+  - falsifier: The candidate is falsified by the witness n=6.
+  - rival: too-small sample artifact

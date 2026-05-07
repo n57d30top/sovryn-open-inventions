@@ -1,0 +1,15 @@
+{
+  "candidates": [
+    "formal-candidate-004",
+    "formal-candidate-009",
+    "formal-candidate-014",
+    "formal-candidate-024",
+    "formal-candidate-034"
+  ],
+  "knownRejected": 128,
+  "counterexamples": 12,
+  "exhaustive": 8,
+  "holdouts": 20,
+  "replays": 3,
+  "classification": "failed_formal_discovery_attempt"
+}

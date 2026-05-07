@@ -1,0 +1,6 @@
+- nontrivial
+- not locally known or trivial
+- bounded-testable
+- counterexample-searchable
+- holdout-testable
+- proof-sketchable

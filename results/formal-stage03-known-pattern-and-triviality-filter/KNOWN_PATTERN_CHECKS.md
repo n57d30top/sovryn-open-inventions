@@ -1,0 +1,42 @@
+|candidateId|rejected|reasons|
+|---|---|---|
+|formal-candidate-001|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; too_small_sample_artifact; oeis_style_known_signature_risk|
+|formal-candidate-002|true|too_small_sample_artifact|
+|formal-candidate-003|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; oeis_style_known_signature_risk|
+|formal-candidate-004|false|none|
+|formal-candidate-005|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; oeis_style_known_signature_risk|
+|formal-candidate-006|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; oeis_style_known_signature_risk|
+|formal-candidate-007|false|none|
+|formal-candidate-008|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; oeis_style_known_signature_risk|
+|formal-candidate-009|false|none|
+|formal-candidate-010|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; too_small_sample_artifact; oeis_style_known_signature_risk|
+|formal-candidate-011|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; too_small_sample_artifact; oeis_style_known_signature_risk|
+|formal-candidate-012|false|none|
+|formal-candidate-013|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; oeis_style_known_signature_risk|
+|formal-candidate-014|false|none|
+|formal-candidate-015|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; oeis_style_known_signature_risk|
+|formal-candidate-016|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; oeis_style_known_signature_risk|
+|formal-candidate-017|false|none|
+|formal-candidate-018|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; oeis_style_known_signature_risk|
+|formal-candidate-019|true|too_small_sample_artifact|
+|formal-candidate-020|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; too_small_sample_artifact; oeis_style_known_signature_risk|
+|formal-candidate-021|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; oeis_style_known_signature_risk|
+|formal-candidate-022|false|none|
+|formal-candidate-023|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; oeis_style_known_signature_risk|
+|formal-candidate-024|false|none|
+|formal-candidate-025|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; oeis_style_known_signature_risk|
+|formal-candidate-026|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; oeis_style_known_signature_risk|
+|formal-candidate-027|false|none|
+|formal-candidate-028|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; too_small_sample_artifact; oeis_style_known_signature_risk|
+|formal-candidate-029|true|too_small_sample_artifact|
+|formal-candidate-030|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; oeis_style_known_signature_risk|
+|formal-candidate-031|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; oeis_style_known_signature_risk|
+|formal-candidate-032|false|none|
+|formal-candidate-033|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; oeis_style_known_signature_risk|
+|formal-candidate-034|false|none|
+|formal-candidate-035|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; oeis_style_known_signature_risk|
+|formal-candidate-036|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; oeis_style_known_signature_risk|
+|formal-candidate-037|true|too_small_sample_artifact|
+|formal-candidate-038|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; too_small_sample_artifact; oeis_style_known_signature_risk|
+|formal-candidate-039|false|none|
+|formal-candidate-040|true|local_known_pattern_library_match; trivial_or_direct_algebraic_rule; simple_rule_baseline_explains_pattern; oeis_style_known_signature_risk|

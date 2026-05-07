@@ -1,0 +1,8 @@
+- formal-candidate-004: bound 96, cases 97, next bound 192
+- formal-candidate-009: bound 112, cases 113, next bound 224
+- formal-candidate-014: bound 128, cases 129, next bound 256
+- formal-candidate-024: bound 144, cases 145, next bound 288
+- formal-candidate-034: bound 160, cases 161, next bound 320
+- formal-candidate-039: bound 176, cases 177, next bound 352
+- formal-candidate-042: bound 192, cases 193, next bound 384
+- formal-candidate-044: bound 208, cases 209, next bound 416

@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T08:59:44.433Z",
+  "updatedAt": "2026-05-07T09:33:30.092Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -1547,6 +1547,118 @@
       ]
     },
     {
+      "versionGroup": "formal-stage01-domain-scope",
+      "latestSlug": "formal-stage01-domain-scope",
+      "resultSlugs": [
+        "formal-stage01-domain-scope"
+      ]
+    },
+    {
+      "versionGroup": "formal-stage02-candidate-universe",
+      "latestSlug": "formal-stage02-candidate-universe",
+      "resultSlugs": [
+        "formal-stage02-candidate-universe"
+      ]
+    },
+    {
+      "versionGroup": "formal-stage03-known-pattern-and-triviality-filter",
+      "latestSlug": "formal-stage03-known-pattern-and-triviality-filter",
+      "resultSlugs": [
+        "formal-stage03-known-pattern-and-triviality-filter"
+      ]
+    },
+    {
+      "versionGroup": "formal-stage04-conjecture-generation-wave1",
+      "latestSlug": "formal-stage04-conjecture-generation-wave1",
+      "resultSlugs": [
+        "formal-stage04-conjecture-generation-wave1"
+      ]
+    },
+    {
+      "versionGroup": "formal-stage05-conjecture-generation-wave2",
+      "latestSlug": "formal-stage05-conjecture-generation-wave2",
+      "resultSlugs": [
+        "formal-stage05-conjecture-generation-wave2"
+      ]
+    },
+    {
+      "versionGroup": "formal-stage06-counterexample-search-wave1",
+      "latestSlug": "formal-stage06-counterexample-search-wave1",
+      "resultSlugs": [
+        "formal-stage06-counterexample-search-wave1"
+      ]
+    },
+    {
+      "versionGroup": "formal-stage07-exhaustive-bound-testing",
+      "latestSlug": "formal-stage07-exhaustive-bound-testing",
+      "resultSlugs": [
+        "formal-stage07-exhaustive-bound-testing"
+      ]
+    },
+    {
+      "versionGroup": "formal-stage08-rival-conjecture-and-baseline-tests",
+      "latestSlug": "formal-stage08-rival-conjecture-and-baseline-tests",
+      "resultSlugs": [
+        "formal-stage08-rival-conjecture-and-baseline-tests"
+      ]
+    },
+    {
+      "versionGroup": "formal-stage09-freeze-holdout-predictions",
+      "latestSlug": "formal-stage09-freeze-holdout-predictions",
+      "resultSlugs": [
+        "formal-stage09-freeze-holdout-predictions"
+      ]
+    },
+    {
+      "versionGroup": "formal-stage10-holdout-bound-execution",
+      "latestSlug": "formal-stage10-holdout-bound-execution",
+      "resultSlugs": [
+        "formal-stage10-holdout-bound-execution"
+      ]
+    },
+    {
+      "versionGroup": "formal-stage11-proof-sketch-and-formalization-attempt",
+      "latestSlug": "formal-stage11-proof-sketch-and-formalization-attempt",
+      "resultSlugs": [
+        "formal-stage11-proof-sketch-and-formalization-attempt"
+      ]
+    },
+    {
+      "versionGroup": "formal-stage12-independent-replay",
+      "latestSlug": "formal-stage12-independent-replay",
+      "resultSlugs": [
+        "formal-stage12-independent-replay"
+      ]
+    },
+    {
+      "versionGroup": "formal-stage13-adversarial-kill-week",
+      "latestSlug": "formal-stage13-adversarial-kill-week",
+      "resultSlugs": [
+        "formal-stage13-adversarial-kill-week"
+      ]
+    },
+    {
+      "versionGroup": "formal-stage14-conjecture-decision",
+      "latestSlug": "formal-stage14-conjecture-decision",
+      "resultSlugs": [
+        "formal-stage14-conjecture-decision"
+      ]
+    },
+    {
+      "versionGroup": "formal-stage15-paper-or-failure-package",
+      "latestSlug": "formal-stage15-paper-or-failure-package",
+      "resultSlugs": [
+        "formal-stage15-paper-or-failure-package"
+      ]
+    },
+    {
+      "versionGroup": "formal-stage16-next-frontier",
+      "latestSlug": "formal-stage16-next-frontier",
+      "resultSlugs": [
+        "formal-stage16-next-frontier"
+      ]
+    },
+    {
       "versionGroup": "frontier-scientific-production-trial",
       "latestSlug": "frontier-scientific-production-trial",
       "resultSlugs": [
@@ -2663,5 +2775,5 @@
       ]
     }
   ],
-  "evidenceHash": "0fd5981edfe1787efa0ddf484e1e92645eb4f1d6f0ee65d546e2d6606f75df1c"
+  "evidenceHash": "0f7ba60cf6b2ec101a57e926d0570e48f15f7c475f8f858156e1a78b6d8b0bb5"
 }
