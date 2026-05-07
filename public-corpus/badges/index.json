@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-07T15:55:57.358Z",
+  "generatedAt": "2026-05-07T16:55:33.080Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -5127,6 +5127,114 @@
         "falsification": "candidate_factory_evaluated",
         "lifecycle": "autopublished",
         "version": "gbe-stage20-next-frontier",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "gbe018-stage01-candidate-identity-forensics",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "gbe018_triage_evaluated",
+        "lifecycle": "autopublished",
+        "version": "gbe018-stage01-candidate-identity-forensics",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "gbe018-stage02-evidence-and-provenance-audit",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "gbe018_triage_evaluated",
+        "lifecycle": "autopublished",
+        "version": "gbe018-stage02-evidence-and-provenance-audit",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "gbe018-stage03-rival-baseline-counterexample-pressure",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "gbe018_triage_evaluated",
+        "lifecycle": "autopublished",
+        "version": "gbe018-stage03-rival-baseline-counterexample-pressure",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "gbe018-stage04-deep-validation-readiness-decision",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "gbe018_triage_evaluated",
+        "lifecycle": "autopublished",
+        "version": "gbe018-stage04-deep-validation-readiness-decision",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "gbe018-stage05-rejection-or-repair-package",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "gbe018_triage_evaluated",
+        "lifecycle": "autopublished",
+        "version": "gbe018-stage05-rejection-or-repair-package",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "gbe018-stage06-next-frontier",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "gbe018_triage_evaluated",
+        "lifecycle": "autopublished",
+        "version": "gbe018-stage06-next-frontier",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -10839,5 +10947,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "c86515251a09f3281275795cef236e55e8d81d749df3f375f4d7b8168eb9797b"
+  "evidenceHash": "0dbcb8947f5d90474c835ccd155c31263045c3057c78204f721fb70a96dfb42b"
 }

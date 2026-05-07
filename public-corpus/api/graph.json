@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-07T15:55:57.358Z",
+  "generatedAt": "2026-05-07T16:55:33.080Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1711,6 +1711,42 @@
       "kind": "result",
       "label": "Next Frontier",
       "domain": "Great-Benefit Discovery Candidate Factory v1"
+    },
+    {
+      "id": "result:gbe018-stage01-candidate-identity-forensics",
+      "kind": "result",
+      "label": "GBE-CAND-018 Candidate Identity Forensics",
+      "domain": "GBE-CAND-018 benchmark/protocol evidence-triad triage"
+    },
+    {
+      "id": "result:gbe018-stage02-evidence-and-provenance-audit",
+      "kind": "result",
+      "label": "GBE-CAND-018 Evidence and Provenance Audit",
+      "domain": "GBE-CAND-018 benchmark/protocol evidence-triad triage"
+    },
+    {
+      "id": "result:gbe018-stage03-rival-baseline-counterexample-pressure",
+      "kind": "result",
+      "label": "GBE-CAND-018 Rival Baseline Counterexample Pressure",
+      "domain": "GBE-CAND-018 benchmark/protocol evidence-triad triage"
+    },
+    {
+      "id": "result:gbe018-stage04-deep-validation-readiness-decision",
+      "kind": "result",
+      "label": "GBE-CAND-018 Deep Validation Readiness Decision",
+      "domain": "GBE-CAND-018 benchmark/protocol evidence-triad triage"
+    },
+    {
+      "id": "result:gbe018-stage05-rejection-or-repair-package",
+      "kind": "result",
+      "label": "GBE-CAND-018 Rejection or Repair Package",
+      "domain": "GBE-CAND-018 benchmark/protocol evidence-triad triage"
+    },
+    {
+      "id": "result:gbe018-stage06-next-frontier",
+      "kind": "result",
+      "label": "GBE-CAND-018 Next Frontier",
+      "domain": "GBE-CAND-018 benchmark/protocol evidence-triad triage"
     },
     {
       "id": "result:general-ai-scientist-v0-trial",
@@ -3863,6 +3899,11 @@
       "id": "domain:Great-Benefit Discovery Candidate Factory v1",
       "kind": "domain",
       "label": "Great-Benefit Discovery Candidate Factory v1"
+    },
+    {
+      "id": "domain:GBE-CAND-018 benchmark/protocol evidence-triad triage",
+      "kind": "domain",
+      "label": "GBE-CAND-018 benchmark/protocol evidence-triad triage"
     },
     {
       "id": "domain:bounded computational scientist orchestration",
@@ -6337,6 +6378,36 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:gbe018-stage01-candidate-identity-forensics",
+      "target": "domain:GBE-CAND-018 benchmark/protocol evidence-triad triage",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe018-stage02-evidence-and-provenance-audit",
+      "target": "domain:GBE-CAND-018 benchmark/protocol evidence-triad triage",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe018-stage03-rival-baseline-counterexample-pressure",
+      "target": "domain:GBE-CAND-018 benchmark/protocol evidence-triad triage",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe018-stage04-deep-validation-readiness-decision",
+      "target": "domain:GBE-CAND-018 benchmark/protocol evidence-triad triage",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe018-stage05-rejection-or-repair-package",
+      "target": "domain:GBE-CAND-018 benchmark/protocol evidence-triad triage",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:gbe018-stage06-next-frontier",
+      "target": "domain:GBE-CAND-018 benchmark/protocol evidence-triad triage",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:general-ai-scientist-v0-trial",
       "target": "domain:bounded computational scientist orchestration",
       "relation": "belongs_to_domain"
@@ -8067,5 +8138,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "afc0bee35e5fdb4920a2122353e68f3c31c369bf107fe0ca037982a685db5ab0"
+  "evidenceHash": "109192a5ada2aa86d964641d25ae17a42aa4a52345f2ce086d7a2b4b7cdcb972"
 }

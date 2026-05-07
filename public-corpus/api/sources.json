@@ -1694,6 +1694,36 @@
       "customTool": null
     },
     {
+      "slug": "gbe018-stage01-candidate-identity-forensics",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe018-stage02-evidence-and-provenance-audit",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe018-stage03-rival-baseline-counterexample-pressure",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe018-stage04-deep-validation-readiness-decision",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe018-stage05-rejection-or-repair-package",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
+      "slug": "gbe018-stage06-next-frontier",
+      "externalPackages": [],
+      "customTool": null
+    },
+    {
       "slug": "general-ai-scientist-v0-trial",
       "externalPackages": [],
       "customTool": null
@@ -3324,5 +3354,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "3c18268f414b2c9b7d763081326edf8747315ab6ecc57dc68beb82c08e1838d2"
+  "evidenceHash": "f8ce15cc4d3900f2e5cfac3c623d69c795fc03ad9eca20b66a22fec5ba6640a5"
 }

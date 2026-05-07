@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 602
+Results: 608
 
 ## Lifecycle Counts
 
-- autopublished: 571
+- autopublished: 577
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -286,6 +286,12 @@ Results: 602
 - gbe-stage18-external-review-ready-package-or-failure: latest gbe-stage18-external-review-ready-package-or-failure; gbe-stage18-external-review-ready-package-or-failure
 - gbe-stage19-einstein-nobel-score-update: latest gbe-stage19-einstein-nobel-score-update; gbe-stage19-einstein-nobel-score-update
 - gbe-stage20-next-frontier: latest gbe-stage20-next-frontier; gbe-stage20-next-frontier
+- gbe018-stage01-candidate-identity-forensics: latest gbe018-stage01-candidate-identity-forensics; gbe018-stage01-candidate-identity-forensics
+- gbe018-stage02-evidence-and-provenance-audit: latest gbe018-stage02-evidence-and-provenance-audit; gbe018-stage02-evidence-and-provenance-audit
+- gbe018-stage03-rival-baseline-counterexample-pressure: latest gbe018-stage03-rival-baseline-counterexample-pressure; gbe018-stage03-rival-baseline-counterexample-pressure
+- gbe018-stage04-deep-validation-readiness-decision: latest gbe018-stage04-deep-validation-readiness-decision; gbe018-stage04-deep-validation-readiness-decision
+- gbe018-stage05-rejection-or-repair-package: latest gbe018-stage05-rejection-or-repair-package; gbe018-stage05-rejection-or-repair-package
+- gbe018-stage06-next-frontier: latest gbe018-stage06-next-frontier; gbe018-stage06-next-frontier
 - general-ai-scientist-v0-trial: latest general-ai-scientist-v0-trial; general-ai-scientist-v0-trial
 - grandchallenge-stage1-anomaly-wall: latest grandchallenge-stage1-anomaly-wall; grandchallenge-stage1-anomaly-wall
 - grandchallenge-stage10-original-principle-discovery-paper: latest grandchallenge-stage10-original-principle-discovery-paper; grandchallenge-stage10-original-principle-discovery-paper

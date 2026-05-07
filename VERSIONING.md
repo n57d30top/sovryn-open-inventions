@@ -279,6 +279,12 @@ can supersede earlier entries while preserving audit history.
 - gbe-stage18-external-review-ready-package-or-failure: latest gbe-stage18-external-review-ready-package-or-failure; versions gbe-stage18-external-review-ready-package-or-failure
 - gbe-stage19-einstein-nobel-score-update: latest gbe-stage19-einstein-nobel-score-update; versions gbe-stage19-einstein-nobel-score-update
 - gbe-stage20-next-frontier: latest gbe-stage20-next-frontier; versions gbe-stage20-next-frontier
+- gbe018-stage01-candidate-identity-forensics: latest gbe018-stage01-candidate-identity-forensics; versions gbe018-stage01-candidate-identity-forensics
+- gbe018-stage02-evidence-and-provenance-audit: latest gbe018-stage02-evidence-and-provenance-audit; versions gbe018-stage02-evidence-and-provenance-audit
+- gbe018-stage03-rival-baseline-counterexample-pressure: latest gbe018-stage03-rival-baseline-counterexample-pressure; versions gbe018-stage03-rival-baseline-counterexample-pressure
+- gbe018-stage04-deep-validation-readiness-decision: latest gbe018-stage04-deep-validation-readiness-decision; versions gbe018-stage04-deep-validation-readiness-decision
+- gbe018-stage05-rejection-or-repair-package: latest gbe018-stage05-rejection-or-repair-package; versions gbe018-stage05-rejection-or-repair-package
+- gbe018-stage06-next-frontier: latest gbe018-stage06-next-frontier; versions gbe018-stage06-next-frontier
 - general-ai-scientist-v0-trial: latest general-ai-scientist-v0-trial; versions general-ai-scientist-v0-trial
 - grandchallenge-stage1-anomaly-wall: latest grandchallenge-stage1-anomaly-wall; versions grandchallenge-stage1-anomaly-wall
 - grandchallenge-stage10-original-principle-discovery-paper: latest grandchallenge-stage10-original-principle-discovery-paper; versions grandchallenge-stage10-original-principle-discovery-paper

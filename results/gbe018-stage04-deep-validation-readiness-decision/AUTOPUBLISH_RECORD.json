@@ -1,0 +1,21 @@
+{
+  "kind": "autopublish_record",
+  "slug": "gbe018-stage04-deep-validation-readiness-decision",
+  "title": "GBE-CAND-018 Deep Validation Readiness Decision",
+  "resultKind": "gbe018_deep_validation_readiness_decision",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 82,
+  "evidenceStrengthScore": 80,
+  "reproducibilityScore": 81,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 97,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "pushed": false,
+  "evidenceHash": "5d6a69ed2404823911da97848c0479638267e9c2524eddd30657df423b498a49"
+}

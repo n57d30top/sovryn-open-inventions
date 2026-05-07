@@ -1,0 +1,21 @@
+{
+  "kind": "autopublish_record",
+  "slug": "gbe018-stage01-candidate-identity-forensics",
+  "title": "GBE-CAND-018 Candidate Identity Forensics",
+  "resultKind": "gbe018_candidate_identity_forensics",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 82,
+  "evidenceStrengthScore": 80,
+  "reproducibilityScore": 81,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 97,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "pushed": false,
+  "evidenceHash": "44d37124f04abdc170e0121ca2849f8ae964904d88f801f80a68674fb3c5b760"
+}

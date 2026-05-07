@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T15:55:57.358Z",
+  "updatedAt": "2026-05-07T16:55:33.080Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -1929,6 +1929,48 @@
       "latestSlug": "gbe-stage20-next-frontier",
       "resultSlugs": [
         "gbe-stage20-next-frontier"
+      ]
+    },
+    {
+      "versionGroup": "gbe018-stage01-candidate-identity-forensics",
+      "latestSlug": "gbe018-stage01-candidate-identity-forensics",
+      "resultSlugs": [
+        "gbe018-stage01-candidate-identity-forensics"
+      ]
+    },
+    {
+      "versionGroup": "gbe018-stage02-evidence-and-provenance-audit",
+      "latestSlug": "gbe018-stage02-evidence-and-provenance-audit",
+      "resultSlugs": [
+        "gbe018-stage02-evidence-and-provenance-audit"
+      ]
+    },
+    {
+      "versionGroup": "gbe018-stage03-rival-baseline-counterexample-pressure",
+      "latestSlug": "gbe018-stage03-rival-baseline-counterexample-pressure",
+      "resultSlugs": [
+        "gbe018-stage03-rival-baseline-counterexample-pressure"
+      ]
+    },
+    {
+      "versionGroup": "gbe018-stage04-deep-validation-readiness-decision",
+      "latestSlug": "gbe018-stage04-deep-validation-readiness-decision",
+      "resultSlugs": [
+        "gbe018-stage04-deep-validation-readiness-decision"
+      ]
+    },
+    {
+      "versionGroup": "gbe018-stage05-rejection-or-repair-package",
+      "latestSlug": "gbe018-stage05-rejection-or-repair-package",
+      "resultSlugs": [
+        "gbe018-stage05-rejection-or-repair-package"
+      ]
+    },
+    {
+      "versionGroup": "gbe018-stage06-next-frontier",
+      "latestSlug": "gbe018-stage06-next-frontier",
+      "resultSlugs": [
+        "gbe018-stage06-next-frontier"
       ]
     },
     {
@@ -4133,5 +4175,5 @@
       ]
     }
   ],
-  "evidenceHash": "9e9055d73b59c972b8d1e3e890d866b1308109fdc9c5dbd6d82c304884a00740"
+  "evidenceHash": "2cd4818295d6fdf7acad0e6b4e1e7cb141de389b33f3d75dc47a69e5d4b3b10c"
 }

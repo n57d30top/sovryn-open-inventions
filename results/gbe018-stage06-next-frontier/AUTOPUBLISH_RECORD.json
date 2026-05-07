@@ -1,0 +1,21 @@
+{
+  "kind": "autopublish_record",
+  "slug": "gbe018-stage06-next-frontier",
+  "title": "GBE-CAND-018 Next Frontier",
+  "resultKind": "gbe018_next_frontier",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 82,
+  "evidenceStrengthScore": 80,
+  "reproducibilityScore": 81,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 97,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "pushed": false,
+  "evidenceHash": "dd1db4778fce3b2178f45688b7831ad7df464ad3ad7d9f5cfb2e8fd5b710dad6"
+}

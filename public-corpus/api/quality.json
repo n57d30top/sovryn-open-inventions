@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 591,
+    "good": 597,
     "reviewable": 6
   },
   "results": [
@@ -1428,6 +1428,36 @@
     },
     {
       "slug": "gbe-stage20-next-frontier",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 82
+    },
+    {
+      "slug": "gbe018-stage01-candidate-identity-forensics",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 82
+    },
+    {
+      "slug": "gbe018-stage02-evidence-and-provenance-audit",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 82
+    },
+    {
+      "slug": "gbe018-stage03-rival-baseline-counterexample-pressure",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 82
+    },
+    {
+      "slug": "gbe018-stage04-deep-validation-readiness-decision",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 82
+    },
+    {
+      "slug": "gbe018-stage05-rejection-or-repair-package",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 82
+    },
+    {
+      "slug": "gbe018-stage06-next-frontier",
       "qualityLabel": "good",
       "releaseReadinessScore": 82
     },
@@ -3017,5 +3047,5 @@
       "releaseReadinessScore": 86
     }
   ],
-  "evidenceHash": "7221e8e9aa1c5394ad58de263dcce6d230bd2dd8f39f0962df9e86c0b1b8d389"
+  "evidenceHash": "cb83432ee722fdad3493dc3bdde5834a512a3dc711bd869c51714b17b1aa1208"
 }

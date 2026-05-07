@@ -1,0 +1,21 @@
+{
+  "kind": "autopublish_record",
+  "slug": "gbe018-stage02-evidence-and-provenance-audit",
+  "title": "GBE-CAND-018 Evidence and Provenance Audit",
+  "resultKind": "gbe018_evidence_provenance_audit",
+  "qualityLabel": "good",
+  "candidateStatus": "autopublished",
+  "lifecycleStatus": "autopublished",
+  "releaseReadinessScore": 82,
+  "evidenceStrengthScore": 80,
+  "reproducibilityScore": 81,
+  "publicationSafetyScore": 99,
+  "replayCriticalPassRate": 100,
+  "specificityScore": 97,
+  "antiTemplateStatus": "specific_public_evidence",
+  "publicHygienePassed": true,
+  "safetyScanPassed": true,
+  "reliabilityReplayPassed": true,
+  "pushed": false,
+  "evidenceHash": "b077eb05ffee7759f36db1404f669b66696cea9106613f3b28f8fc46af0e2126"
+}

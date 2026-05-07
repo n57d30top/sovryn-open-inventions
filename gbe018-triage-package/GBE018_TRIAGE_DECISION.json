@@ -1,0 +1,19 @@
+{
+  "kind": "gbe018_triage_decision",
+  "candidate": "GBE-CAND-018",
+  "currentClaim": "Machine-checkable evidence-triad completeness appears to predict benchmark/protocol reproducibility risk better than headline benchmark popularity in bounded public metadata and replay probes.",
+  "finalDecision": "not_deep_validation_ready",
+  "finalAction": "reject_current_gbe_cand_018_for_deep_validation",
+  "deepValidationReady": false,
+  "corpusBefore": 602,
+  "corpusAfter": 608,
+  "stages": [
+    "gbe018-stage01-candidate-identity-forensics",
+    "gbe018-stage02-evidence-and-provenance-audit",
+    "gbe018-stage03-rival-baseline-counterexample-pressure",
+    "gbe018-stage04-deep-validation-readiness-decision",
+    "gbe018-stage05-rejection-or-repair-package",
+    "gbe018-stage06-next-frontier"
+  ],
+  "evidenceHash": "ff4b951c67a1e914d4d1a420da7faf539506f5245dac72188a80f758538b8215"
+}
