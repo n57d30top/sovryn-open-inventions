@@ -4,6 +4,10 @@ Candidate ID: DAEMON-FRESH-R2600-SCIPY-RUNTIME-REPRODUCTION-EXTERNAL-REVIEW-READ
 
 Fund label: externally_review_ready_candidate
 
+Fund class: reproduction_fund_candidate
+
+Counts for Einstein/Nobel discovery score: false
+
 Domain: scientific_software_reproduction_mechanisms
 
 ## Exact Claim
@@ -21,6 +25,8 @@ This bounded candidate is derived from accepted hard-seed evidence and passed th
 - No AGI, Einstein-level intelligence, or human-level science claim.
 - No external validation or external adoption claim.
 - No legal, medical, wet-lab, unsafe, or universal-truth claim.
+- No nontrivial new scientific insight across real targets is claimed.
+- No Einstein/Nobel discovery scoring credit is claimed.
 
 ## Evidence Summary
 
@@ -66,6 +72,7 @@ Kill week completed with no fatal unresolved attack in the bounded cycle evidenc
 
 - This package is generated from public-safe hard-seed and daemon cycle evidence.
 - It is not external validation, external adoption, legal advice, medical advice, wet-lab capability, or a universal-truth claim.
+- It is a reproduction Fund candidate, not a discovery Fund candidate.
 - External expert review is still required before any stronger interpretation.
 
 ## Next Required External Review Or Validation Step

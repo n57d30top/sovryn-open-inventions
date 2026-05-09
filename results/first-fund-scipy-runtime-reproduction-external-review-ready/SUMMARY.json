@@ -21,7 +21,10 @@
   "scientificMemoryUpdated": false,
   "candidateId": "DAEMON-FRESH-R2600-SCIPY-RUNTIME-REPRODUCTION-EXTERNAL-REVIEW-READY-S260",
   "fundLabel": "externally_review_ready_candidate",
-  "fundClassification": "public_fund_ready",
+  "fundClassification": "reproduction_fund_candidate",
+  "countsForEinsteinNobelDiscoveryScore": false,
+  "nontrivialNewInsightAcrossRealTargets": false,
+  "domainScientificSignificance": false,
   "domain": "scientific_software_reproduction_mechanisms",
   "exactClaim": "Fresh external target slice scipy-runtime-reproduction-external-review-ready-slice-260 for seed scipy-runtime-reproduction (repo_package_reproduction, complete bounded Fund evidence path): Check runtime reproduction alignment across install, smoke, examples, tests, dependency behavior, and replay. Scope: candidate survives only if hard-seed evidence, holdouts, replay, mechanism pressure, kill week, and package inspectability all pass",
   "sourceProductCommit": "b89150329f76c7834efffcdac95fd6cb1e89a1ee",
@@ -47,9 +50,11 @@
   "limitations": [
     "This package is generated from public-safe hard-seed and daemon cycle evidence.",
     "It is not external validation, external adoption, legal advice, medical advice, wet-lab capability, or a universal-truth claim.",
+    "It is a reproduction Fund candidate, not a discovery Fund candidate.",
+    "It does not count toward Einstein/Nobel discovery score.",
     "External expert review is still required before any stronger interpretation."
   ],
   "disclaimer": "Bounded externally review-ready Fund candidate package. It does not claim external validation, external adoption, prize-level significance, broad intelligence, legal authority, medical authority, unsafe capability, or universal truth.",
   "nextExternalReviewStep": "Review PAPER.md, METHOD.md, CLAIM_EVIDENCE_BINDINGS.json, REPRODUCE.md, and LIMITATIONS.md against the cited public evidence refs.",
-  "evidenceHash": "c2c7b4f9aeff2f8b1a7e2a61a6940e12c468b7989860996981944909c8558ca1"
+  "evidenceHash": "d89917c4d4bbbc150ae7a7f4772e30b5043e67e18dadfef9de5066a46e735449"
 }

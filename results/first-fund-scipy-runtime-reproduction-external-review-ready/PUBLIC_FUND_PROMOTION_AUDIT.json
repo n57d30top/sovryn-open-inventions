@@ -1,7 +1,10 @@
 {
   "kind": "public_fund_promotion_audit",
   "auditedAt": "2026-05-09T14:26:51.109Z",
-  "classification": "public_fund_ready",
+  "classification": "reproduction_fund_candidate",
+  "countsForEinsteinNobelDiscoveryScore": false,
+  "nontrivialNewInsightAcrossRealTargets": false,
+  "domainScientificSignificance": false,
   "resultKind": "externally_review_ready_fund_candidate",
   "candidateId": "DAEMON-FRESH-R2600-SCIPY-RUNTIME-REPRODUCTION-EXTERNAL-REVIEW-READY-S260",
   "claim": "Fresh external target slice scipy-runtime-reproduction-external-review-ready-slice-260 for seed scipy-runtime-reproduction (repo_package_reproduction, complete bounded Fund evidence path): Check runtime reproduction alignment across install, smoke, examples, tests, dependency behavior, and replay. Scope: candidate survives only if hard-seed evidence, holdouts, replay, mechanism pressure, kill week, and package inspectability all pass",
@@ -118,100 +121,72 @@
     {
       "code": "allowed_fund_label",
       "passed": true,
-      "artifactRefs": [
-        "FUND_CANDIDATE.json#candidate.requestedFundLabel"
-      ]
+      "artifactRefs": ["FUND_CANDIDATE.json#candidate.requestedFundLabel"]
     },
     {
       "code": "external_review_package_path",
       "passed": true,
-      "artifactRefs": [
-        "FUND_CANDIDATE.json#candidate.publicPackagePath"
-      ]
+      "artifactRefs": ["FUND_CANDIDATE.json#candidate.publicPackagePath"]
     },
     {
       "code": "external_review_package_file_PAPER.md",
       "passed": true,
-      "artifactRefs": [
-        "PAPER.md"
-      ]
+      "artifactRefs": ["PAPER.md"]
     },
     {
       "code": "external_review_package_file_METHOD.md",
       "passed": true,
-      "artifactRefs": [
-        "METHOD.md"
-      ]
+      "artifactRefs": ["METHOD.md"]
     },
     {
       "code": "external_review_package_file_CLAIM_EVIDENCE_BINDINGS.json",
       "passed": true,
-      "artifactRefs": [
-        "CLAIM_EVIDENCE_BINDINGS.json"
-      ]
+      "artifactRefs": ["CLAIM_EVIDENCE_BINDINGS.json"]
     },
     {
       "code": "external_review_package_file_REPRODUCE.md",
       "passed": true,
-      "artifactRefs": [
-        "REPRODUCE.md"
-      ]
+      "artifactRefs": ["REPRODUCE.md"]
     },
     {
       "code": "external_review_package_file_LIMITATIONS.md",
       "passed": true,
-      "artifactRefs": [
-        "LIMITATIONS.md"
-      ]
+      "artifactRefs": ["LIMITATIONS.md"]
     },
     {
       "code": "external_review_package_public_safe_PAPER.md",
       "passed": true,
-      "artifactRefs": [
-        "PAPER.md"
-      ]
+      "artifactRefs": ["PAPER.md"]
     },
     {
       "code": "external_review_package_public_safe_METHOD.md",
       "passed": true,
-      "artifactRefs": [
-        "METHOD.md"
-      ]
+      "artifactRefs": ["METHOD.md"]
     },
     {
       "code": "external_review_package_public_safe_REPRODUCE.md",
       "passed": true,
-      "artifactRefs": [
-        "REPRODUCE.md"
-      ]
+      "artifactRefs": ["REPRODUCE.md"]
     },
     {
       "code": "external_review_package_public_safe_LIMITATIONS.md",
       "passed": true,
-      "artifactRefs": [
-        "LIMITATIONS.md"
-      ]
+      "artifactRefs": ["LIMITATIONS.md"]
     },
     {
       "code": "external_review_package_candidate_binding",
       "passed": true,
-      "artifactRefs": [
-        "CLAIM_EVIDENCE_BINDINGS.json#candidateId"
-      ]
+      "artifactRefs": ["CLAIM_EVIDENCE_BINDINGS.json#candidateId"]
     },
     {
       "code": "external_review_package_claim_binding",
       "passed": true,
-      "artifactRefs": [
-        "CLAIM_EVIDENCE_BINDINGS.json#claim"
-      ]
+      "artifactRefs": ["CLAIM_EVIDENCE_BINDINGS.json#claim"]
     },
     {
       "code": "external_review_package_evidence_refs",
       "passed": true,
-      "artifactRefs": [
-        "CLAIM_EVIDENCE_BINDINGS.json#sourceEvidenceRefs"
-      ]
+      "artifactRefs": ["CLAIM_EVIDENCE_BINDINGS.json#sourceEvidenceRefs"]
     },
     {
       "code": "external_review_package_prediction_refs",
@@ -256,10 +231,7 @@
     {
       "code": "external_review_package_method_binding",
       "passed": true,
-      "artifactRefs": [
-        "CLAIM_EVIDENCE_BINDINGS.json#methodRef",
-        "METHOD.md"
-      ]
+      "artifactRefs": ["CLAIM_EVIDENCE_BINDINGS.json#methodRef", "METHOD.md"]
     },
     {
       "code": "external_review_package_reproduce_binding",
@@ -325,7 +297,9 @@
   "remainingLimitations": [
     "This package is generated from public-safe hard-seed and daemon cycle evidence.",
     "It is not external validation, external adoption, legal advice, medical advice, wet-lab capability, or a universal-truth claim.",
+    "It is a reproduction Fund candidate, not a discovery Fund candidate.",
+    "It does not count toward Einstein/Nobel discovery score.",
     "External expert review is still required before any stronger interpretation."
   ],
-  "evidenceHash": "6dc635591a8de9a15cb7a31f044faab48a70a62d46d1567653f1646e1aa9f2cd"
+  "evidenceHash": "05a17c7ecf05276f863b9fe08a2c23eca1597af832f77099f94c5600510dc01b"
 }
