@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 613
+Results: 614
 
 ## Lifecycle Counts
 
-- autopublished: 582
+- autopublished: 583
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -236,6 +236,7 @@ Results: 613
 - external-reproduction-extension-result: latest external-reproduction-extension-result; external-reproduction-extension-result
 - external-scientific-production-result: latest external-scientific-production-result; external-scientific-production-result
 - field-grade-autonomous-science-trial: latest field-grade-autonomous-science-trial-v3; field-grade-autonomous-science-trial, field-grade-autonomous-science-trial-v2, field-grade-autonomous-science-trial-v3
+- first-fund-scipy-runtime-reproduction-external-review-ready: latest first-fund-scipy-runtime-reproduction-external-review-ready; first-fund-scipy-runtime-reproduction-external-review-ready
 - formal-stage01-domain-scope: latest formal-stage01-domain-scope; formal-stage01-domain-scope
 - formal-stage02-candidate-universe: latest formal-stage02-candidate-universe; formal-stage02-candidate-universe
 - formal-stage03-known-pattern-and-triviality-filter: latest formal-stage03-known-pattern-and-triviality-filter; formal-stage03-known-pattern-and-triviality-filter

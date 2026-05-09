@@ -1,0 +1,89 @@
+{
+  "kind": "fund_candidate",
+  "candidate": {
+    "candidateId": "DAEMON-FRESH-R2600-SCIPY-RUNTIME-REPRODUCTION-EXTERNAL-REVIEW-READY-S260",
+    "claim": "Fresh external target slice scipy-runtime-reproduction-external-review-ready-slice-260 for seed scipy-runtime-reproduction (repo_package_reproduction, complete bounded Fund evidence path): Check runtime reproduction alignment across install, smoke, examples, tests, dependency behavior, and replay. Scope: candidate survives only if hard-seed evidence, holdouts, replay, mechanism pressure, kill week, and package inspectability all pass",
+    "domain": "scientific_software_reproduction_mechanisms",
+    "requestedFundLabel": "externally_review_ready_candidate",
+    "stableIdentity": true,
+    "identityDriftDetected": false,
+    "highImpactDomain": true,
+    "plausibleScientificValue": true,
+    "notToolReportProcessOnly": true,
+    "nontrivial": true,
+    "knownOrTrivial": false,
+    "renamedPriorIdea": false,
+    "rivalTheoryCount": 3,
+    "rivalComparisonsExecuted": true,
+    "rivalWeakenedOrScopeLimited": true,
+    "strongBaselinesExecuted": true,
+    "baselineDominated": false,
+    "counterexampleCandidatesGenerated": true,
+    "counterexampleChecksExecuted": 6,
+    "counterexampleDense": false,
+    "predictionsFrozenBeforeExecution": true,
+    "postHocPredictionEdits": false,
+    "predictionsExecuted": 12,
+    "nonObviousPredictions": 3,
+    "freshHoldoutsAfterFreeze": true,
+    "holdoutSupported": true,
+    "decisiveEvidenceReplayed": true,
+    "freshWorkspaceReplay": true,
+    "decisiveUnreplayedClaims": false,
+    "proofOrMechanismPressureClear": true,
+    "fakeProofDetected": false,
+    "checkedProofConfirmed": false,
+    "killWeekComplete": true,
+    "fatalUnresolvedAttack": false,
+    "paperExists": true,
+    "methodExists": true,
+    "claimEvidenceBindingsExists": true,
+    "reproduceExists": true,
+    "limitationsExists": true,
+    "noOverclaim": true,
+    "publicPackagePath": ".sovryn/discovery-daemon/evidence-packages/DAEMON-FRESH-R2600-SCIPY-RUNTIME-REPRODUCTION-EXTERNAL-REVIEW-READY-S260",
+    "whyItMatters": "This bounded candidate is derived from accepted hard-seed evidence and passed the unchanged semantic Fund Gate before package-gate review.",
+    "rivalTheories": [
+      "https://github.com/scipy/scipy#rival-theory",
+      "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+    ],
+    "predictionOutcomes": [
+      "12 frozen predictions were executed with 3 non-obvious predictions."
+    ],
+    "holdoutOutcomes": [
+      "https://github.com/scipy/scipy#holdout",
+      "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage03-class-level-evidence-report"
+    ],
+    "counterexampleOutcomes": [
+      "https://github.com/scipy/scipy#counterexample",
+      "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage03-class-level-evidence-report"
+    ],
+    "replayOutcomes": [
+      "https://github.com/scipy/scipy#replay",
+      "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+    ],
+    "killWeekResult": "Kill week completed with no fatal unresolved attack in the bounded cycle evidence.",
+    "remainingLimitations": [
+      "This package is generated from public-safe hard-seed and daemon cycle evidence.",
+      "It is not external validation, external adoption, legal advice, medical advice, wet-lab capability, or a universal-truth claim.",
+      "External expert review is still required before any stronger interpretation."
+    ],
+    "nextExternalReviewStep": "Review PAPER.md, METHOD.md, CLAIM_EVIDENCE_BINDINGS.json, REPRODUCE.md, and LIMITATIONS.md against the cited public evidence refs."
+  },
+  "sourceEvidenceRefs": [
+    "https://github.com/scipy/scipy",
+    "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage03-class-level-evidence-report",
+    "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package",
+    "https://github.com/scipy/scipy#baseline",
+    "https://github.com/scipy/scipy#rival-theory",
+    "https://github.com/scipy/scipy#holdout",
+    "https://github.com/scipy/scipy#replay",
+    "https://github.com/scipy/scipy#counterexample"
+  ],
+  "identityLedgerRefs": [
+    ".sovryn/discovery-daemon/candidate-identity-ledger.json#DAEMON-FRESH-R2600-SCIPY-RUNTIME-REPRODUCTION-EXTERNAL-REVIEW-READY-S260"
+  ],
+  "hardSeedRefs": [
+    ".sovryn/discovery-daemon/search-cycles/cycle-68361.json#hardSeeds/HARD-DAEMON-FRESH-R2600-SCIPY-RUNTIME-REPRODUCTION-EXTERNAL-REVIEW-READY-S260"
+  ]
+}

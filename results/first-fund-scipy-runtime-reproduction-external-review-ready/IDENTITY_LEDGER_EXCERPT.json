@@ -1,0 +1,20 @@
+{
+  "kind": "fund_candidate_identity_ledger_excerpt",
+  "candidateId": "DAEMON-FRESH-R2600-SCIPY-RUNTIME-REPRODUCTION-EXTERNAL-REVIEW-READY-S260",
+  "sourceCycleId": "cycle-68361",
+  "identityLedgerDecision": {
+    "candidateId": "DAEMON-FRESH-R2600-SCIPY-RUNTIME-REPRODUCTION-EXTERNAL-REVIEW-READY-S260",
+    "accepted": true,
+    "cause": "new_identity",
+    "record": {
+      "candidateId": "DAEMON-FRESH-R2600-SCIPY-RUNTIME-REPRODUCTION-EXTERNAL-REVIEW-READY-S260",
+      "stableClaim": "Fresh external target slice scipy-runtime-reproduction-external-review-ready-slice-260 for seed scipy-runtime-reproduction (repo_package_reproduction, complete bounded Fund evidence path): Check runtime reproduction alignment across install, smoke, examples, tests, dependency behavior, and replay. Scope: candidate survives only if hard-seed evidence, holdouts, replay, mechanism pressure, kill week, and package inspectability all pass",
+      "claimHash": "ab341621446140870b65bbdb3112b96eada9ce28539cf857fa4c26d37b67b017",
+      "version": 1,
+      "createdAt": "2026-05-09T13:00:42.735Z",
+      "updatedAt": "2026-05-09T13:00:42.735Z"
+    },
+    "evidenceHash": "1606c2b3382874f5e5091bb6717e082d2e4840b31ab8eb142ff14b139eba797d"
+  },
+  "evidenceHash": "e742fd96fc242e26bb6419e09b6f1b808a3ec0cf8c1404b9100bc81a81e6dd3e"
+}

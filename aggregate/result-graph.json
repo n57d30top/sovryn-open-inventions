@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-07T18:18:36.089Z",
+  "generatedAt": "2026-05-09T14:29:40.115Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1411,6 +1411,12 @@
       "kind": "result",
       "label": "Field-Grade Autonomous Science Trial",
       "domain": "field-grade-scientific-autonomy"
+    },
+    {
+      "id": "result:first-fund-scipy-runtime-reproduction-external-review-ready",
+      "kind": "result",
+      "label": "First Fund: SciPy Runtime Reproduction External Review Package",
+      "domain": "scientific_software_reproduction_mechanisms"
     },
     {
       "id": "result:formal-stage01-domain-scope",
@@ -3916,6 +3922,11 @@
       "label": "field-grade-scientific-autonomy"
     },
     {
+      "id": "domain:scientific_software_reproduction_mechanisms",
+      "kind": "domain",
+      "label": "scientific_software_reproduction_mechanisms"
+    },
+    {
       "id": "domain:formal pattern and conjecture discovery",
       "kind": "domain",
       "label": "formal pattern and conjecture discovery"
@@ -6153,6 +6164,11 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:first-fund-scipy-runtime-reproduction-external-review-ready",
+      "target": "domain:scientific_software_reproduction_mechanisms",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:formal-stage01-domain-scope",
       "target": "domain:formal pattern and conjecture discovery",
       "relation": "belongs_to_domain"
@@ -8198,5 +8214,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "e3878a81add985b5840c2b26f306ddc2d1e7eda4bb25be25e2c9150280eb50fe"
+  "evidenceHash": "6f70b7fce3bdb61b5477498ef670d0288bc030dff1b3c0174b88302c3cd39643"
 }

@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_science_showcase_results",
-  "updatedAt": "2026-05-07T18:18:36.089Z",
+  "updatedAt": "2026-05-09T14:29:40.115Z",
   "resultCount": 10,
   "results": [
     {
@@ -52,8 +52,7 @@
       "sensitivityPresent": true,
       "studyResultLabel": "partially_supported",
       "scientificMemoryUpdated": true,
-      "safetyScope": "safe computational science over synthetic/public non-sensitive data",
-      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+      "safetyScope": "safe computational science over synthetic/public non-sensitive data"
     },
     {
       "slug": "chemistry-data-quality-does-unit-normalization-plus-provenance-scoring-improve-detection-of-inco",
@@ -104,8 +103,7 @@
       "sensitivityPresent": true,
       "studyResultLabel": "partially_supported",
       "scientificMemoryUpdated": true,
-      "safetyScope": "safe computational science over synthetic/public non-sensitive data",
-      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+      "safetyScope": "safe computational science over synthetic/public non-sensitive data"
     },
     {
       "slug": "chemistry-data-quality-self-built-lab-study-v2",
@@ -143,8 +141,7 @@
       "reliabilityReplayPassed": true,
       "customTool": "mol-record-auditor",
       "workerAssurance": "container-netoff",
-      "falsificationStatus": "passes_falsification",
-      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+      "falsificationStatus": "passes_falsification"
     },
     {
       "slug": "energy-data-quality-self-built-lab-study-v2",
@@ -182,8 +179,7 @@
       "reliabilityReplayPassed": true,
       "customTool": "energy-record-auditor",
       "workerAssurance": "container-netoff",
-      "falsificationStatus": "passes_falsification",
-      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+      "falsificationStatus": "passes_falsification"
     },
     {
       "slug": "chemistry-data-quality-can-safe-public-dataset-reliability-checks-identify-schema-drift-and-dupl",
@@ -234,8 +230,7 @@
       "sensitivityPresent": true,
       "studyResultLabel": "partially_supported",
       "scientificMemoryUpdated": true,
-      "safetyScope": "safe computational science over synthetic/public non-sensitive data",
-      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+      "safetyScope": "safe computational science over synthetic/public non-sensitive data"
     },
     {
       "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-reduce-false-positives-in-synthe",
@@ -286,8 +281,7 @@
       "sensitivityPresent": true,
       "studyResultLabel": "partially_supported",
       "scientificMemoryUpdated": true,
-      "safetyScope": "safe computational science over synthetic/public non-sensitive data",
-      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+      "safetyScope": "safe computational science over synthetic/public non-sensitive data"
     },
     {
       "slug": "energy-data-quality-do-provenance-aware-anomaly-scoring-methods-remain-stable-when-synthetic-ene",
@@ -338,8 +332,7 @@
       "sensitivityPresent": true,
       "studyResultLabel": "partially_supported",
       "scientificMemoryUpdated": true,
-      "safetyScope": "safe computational science over synthetic/public non-sensitive data",
-      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+      "safetyScope": "safe computational science over synthetic/public non-sensitive data"
     },
     {
       "slug": "software-supply-chain-assurance-self-built-lab-study-v2",
@@ -377,8 +370,7 @@
       "reliabilityReplayPassed": true,
       "customTool": "patch-risk-auditor",
       "workerAssurance": "container-netoff",
-      "falsificationStatus": "passes_falsification",
-      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+      "falsificationStatus": "passes_falsification"
     },
     {
       "slug": "scientific-dataset-reliability-self-built-lab-study",
@@ -416,8 +408,7 @@
       "reliabilityReplayPassed": true,
       "customTool": null,
       "workerAssurance": "container-netoff",
-      "falsificationStatus": "passes_falsification",
-      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+      "falsificationStatus": "passes_falsification"
     },
     {
       "slug": "software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth",
@@ -468,8 +459,7 @@
       "sensitivityPresent": true,
       "studyResultLabel": "partially_supported",
       "scientificMemoryUpdated": true,
-      "safetyScope": "safe computational science over synthetic/public non-sensitive data",
-      "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions."
+      "safetyScope": "safe computational science over synthetic/public non-sensitive data"
     }
   ],
   "evidenceHash": "d59f35095b02074578b95d85c134395a82fa4206d632dcba9c83690fb02114c7"

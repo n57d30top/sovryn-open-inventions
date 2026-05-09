@@ -1,0 +1,331 @@
+{
+  "kind": "public_fund_promotion_audit",
+  "auditedAt": "2026-05-09T14:26:51.109Z",
+  "classification": "public_fund_ready",
+  "resultKind": "externally_review_ready_fund_candidate",
+  "candidateId": "DAEMON-FRESH-R2600-SCIPY-RUNTIME-REPRODUCTION-EXTERNAL-REVIEW-READY-S260",
+  "claim": "Fresh external target slice scipy-runtime-reproduction-external-review-ready-slice-260 for seed scipy-runtime-reproduction (repo_package_reproduction, complete bounded Fund evidence path): Check runtime reproduction alignment across install, smoke, examples, tests, dependency behavior, and replay. Scope: candidate survives only if hard-seed evidence, holdouts, replay, mechanism pressure, kill week, and package inspectability all pass",
+  "domain": "scientific_software_reproduction_mechanisms",
+  "sourcePackagePath": ".sovryn/discovery-daemon/evidence-packages/DAEMON-FRESH-R2600-SCIPY-RUNTIME-REPRODUCTION-EXTERNAL-REVIEW-READY-S260",
+  "corpusResultPath": "results/first-fund-scipy-runtime-reproduction-external-review-ready",
+  "sourceProductCommit": "b89150329f76c7834efffcdac95fd6cb1e89a1ee",
+  "sourceCheckpoint": ".sovryn/discovery-daemon/checkpoints/cycle-68361.json",
+  "sourceCycle": ".sovryn/discovery-daemon/search-cycles/cycle-68361.json",
+  "gateStatuses": [
+    {
+      "code": "candidate_identity_integrity",
+      "passed": true,
+      "artifactRefs": [
+        "FUND_FOUND.md#candidate-id",
+        "FUND_CANDIDATE.json#candidate.candidateId",
+        "IDENTITY_LEDGER_EXCERPT.json#record"
+      ]
+    },
+    {
+      "code": "high_impact_domain",
+      "passed": true,
+      "artifactRefs": [
+        "FUND_FOUND.md#domain",
+        "FUND_CANDIDATE.json#candidate.domain"
+      ]
+    },
+    {
+      "code": "nontriviality",
+      "passed": true,
+      "artifactRefs": [
+        "FUND_CANDIDATE.json#candidate.nontrivial",
+        "CYCLE_EVIDENCE_SUMMARY.json#candidateIdeas"
+      ]
+    },
+    {
+      "code": "rival_theory_pressure",
+      "passed": true,
+      "artifactRefs": [
+        "FUND_CANDIDATE.json#candidate.rivalTheoryCount",
+        "CYCLE_EVIDENCE_SUMMARY.json#predictionExecution.rivalComparisons",
+        "CYCLE_EVIDENCE_SUMMARY.json#hardSeeds[0].rivalRefs"
+      ]
+    },
+    {
+      "code": "baseline_resistance",
+      "passed": true,
+      "artifactRefs": [
+        "FUND_CANDIDATE.json#candidate.strongBaselinesExecuted",
+        "CYCLE_EVIDENCE_SUMMARY.json#predictionExecution.baselineComparisons",
+        "CYCLE_EVIDENCE_SUMMARY.json#hardSeeds[0].baselineRefs"
+      ]
+    },
+    {
+      "code": "counterexample_pressure",
+      "passed": true,
+      "artifactRefs": [
+        "FUND_CANDIDATE.json#candidate.counterexampleChecksExecuted",
+        "CYCLE_EVIDENCE_SUMMARY.json#counterexampleResults"
+      ]
+    },
+    {
+      "code": "frozen_predictions",
+      "passed": true,
+      "artifactRefs": [
+        "CYCLE_EVIDENCE_SUMMARY.json#frozenPredictions",
+        "CYCLE_EVIDENCE_SUMMARY.json#predictionExecution"
+      ]
+    },
+    {
+      "code": "holdout_support",
+      "passed": true,
+      "artifactRefs": [
+        "CYCLE_EVIDENCE_SUMMARY.json#holdoutResults",
+        "CLAIM_EVIDENCE_BINDINGS.json#holdoutRefs"
+      ]
+    },
+    {
+      "code": "replay_reproduction",
+      "passed": true,
+      "artifactRefs": [
+        "CYCLE_EVIDENCE_SUMMARY.json#replayResults",
+        "CLAIM_EVIDENCE_BINDINGS.json#replayRefs"
+      ]
+    },
+    {
+      "code": "proof_or_mechanism_pressure",
+      "passed": true,
+      "artifactRefs": [
+        "CYCLE_EVIDENCE_SUMMARY.json#proofOrMechanismPressure",
+        "CYCLE_EVIDENCE_SUMMARY.json#mechanismPlans"
+      ]
+    },
+    {
+      "code": "kill_week",
+      "passed": true,
+      "artifactRefs": [
+        "CYCLE_EVIDENCE_SUMMARY.json#killWeek",
+        "CLAIM_EVIDENCE_BINDINGS.json#killWeekRefs"
+      ]
+    },
+    {
+      "code": "external_review_package",
+      "passed": true,
+      "artifactRefs": [
+        "PAPER.md",
+        "METHOD.md",
+        "CLAIM_EVIDENCE_BINDINGS.json",
+        "REPRODUCE.md",
+        "LIMITATIONS.md",
+        "FUND_CANDIDATE.json"
+      ]
+    },
+    {
+      "code": "allowed_fund_label",
+      "passed": true,
+      "artifactRefs": [
+        "FUND_CANDIDATE.json#candidate.requestedFundLabel"
+      ]
+    },
+    {
+      "code": "external_review_package_path",
+      "passed": true,
+      "artifactRefs": [
+        "FUND_CANDIDATE.json#candidate.publicPackagePath"
+      ]
+    },
+    {
+      "code": "external_review_package_file_PAPER.md",
+      "passed": true,
+      "artifactRefs": [
+        "PAPER.md"
+      ]
+    },
+    {
+      "code": "external_review_package_file_METHOD.md",
+      "passed": true,
+      "artifactRefs": [
+        "METHOD.md"
+      ]
+    },
+    {
+      "code": "external_review_package_file_CLAIM_EVIDENCE_BINDINGS.json",
+      "passed": true,
+      "artifactRefs": [
+        "CLAIM_EVIDENCE_BINDINGS.json"
+      ]
+    },
+    {
+      "code": "external_review_package_file_REPRODUCE.md",
+      "passed": true,
+      "artifactRefs": [
+        "REPRODUCE.md"
+      ]
+    },
+    {
+      "code": "external_review_package_file_LIMITATIONS.md",
+      "passed": true,
+      "artifactRefs": [
+        "LIMITATIONS.md"
+      ]
+    },
+    {
+      "code": "external_review_package_public_safe_PAPER.md",
+      "passed": true,
+      "artifactRefs": [
+        "PAPER.md"
+      ]
+    },
+    {
+      "code": "external_review_package_public_safe_METHOD.md",
+      "passed": true,
+      "artifactRefs": [
+        "METHOD.md"
+      ]
+    },
+    {
+      "code": "external_review_package_public_safe_REPRODUCE.md",
+      "passed": true,
+      "artifactRefs": [
+        "REPRODUCE.md"
+      ]
+    },
+    {
+      "code": "external_review_package_public_safe_LIMITATIONS.md",
+      "passed": true,
+      "artifactRefs": [
+        "LIMITATIONS.md"
+      ]
+    },
+    {
+      "code": "external_review_package_candidate_binding",
+      "passed": true,
+      "artifactRefs": [
+        "CLAIM_EVIDENCE_BINDINGS.json#candidateId"
+      ]
+    },
+    {
+      "code": "external_review_package_claim_binding",
+      "passed": true,
+      "artifactRefs": [
+        "CLAIM_EVIDENCE_BINDINGS.json#claim"
+      ]
+    },
+    {
+      "code": "external_review_package_evidence_refs",
+      "passed": true,
+      "artifactRefs": [
+        "CLAIM_EVIDENCE_BINDINGS.json#sourceEvidenceRefs"
+      ]
+    },
+    {
+      "code": "external_review_package_prediction_refs",
+      "passed": true,
+      "artifactRefs": [
+        "CLAIM_EVIDENCE_BINDINGS.json#predictionRefs",
+        "CYCLE_EVIDENCE_SUMMARY.json#predictionExecution"
+      ]
+    },
+    {
+      "code": "external_review_package_holdout_refs",
+      "passed": true,
+      "artifactRefs": [
+        "CLAIM_EVIDENCE_BINDINGS.json#holdoutRefs",
+        "CYCLE_EVIDENCE_SUMMARY.json#holdoutResults"
+      ]
+    },
+    {
+      "code": "external_review_package_counterexample_refs",
+      "passed": true,
+      "artifactRefs": [
+        "CLAIM_EVIDENCE_BINDINGS.json#counterexampleRefs",
+        "CYCLE_EVIDENCE_SUMMARY.json#counterexampleResults"
+      ]
+    },
+    {
+      "code": "external_review_package_replay_refs",
+      "passed": true,
+      "artifactRefs": [
+        "CLAIM_EVIDENCE_BINDINGS.json#replayRefs",
+        "CYCLE_EVIDENCE_SUMMARY.json#replayResults"
+      ]
+    },
+    {
+      "code": "external_review_package_kill_week_refs",
+      "passed": true,
+      "artifactRefs": [
+        "CLAIM_EVIDENCE_BINDINGS.json#killWeekRefs",
+        "CYCLE_EVIDENCE_SUMMARY.json#killWeek"
+      ]
+    },
+    {
+      "code": "external_review_package_method_binding",
+      "passed": true,
+      "artifactRefs": [
+        "CLAIM_EVIDENCE_BINDINGS.json#methodRef",
+        "METHOD.md"
+      ]
+    },
+    {
+      "code": "external_review_package_reproduce_binding",
+      "passed": true,
+      "artifactRefs": [
+        "CLAIM_EVIDENCE_BINDINGS.json#reproduceRef",
+        "REPRODUCE.md"
+      ]
+    },
+    {
+      "code": "external_review_package_limitations_binding",
+      "passed": true,
+      "artifactRefs": [
+        "CLAIM_EVIDENCE_BINDINGS.json#limitationsRef",
+        "LIMITATIONS.md"
+      ]
+    }
+  ],
+  "checks": {
+    "fundFoundMdLocated": true,
+    "fundCandidateJsonLocated": true,
+    "candidateMatchesFundFound": true,
+    "all34FundGateRequirementsPassed": true,
+    "everyGateHasArtifactRefs": true,
+    "requiredPackageFilesPresent": true,
+    "stableCandidateIdentity": true,
+    "hardSeedRefsPresent": true,
+    "frozenPredictionRefsPresent": true,
+    "executionRefsPresent": true,
+    "baselineRefsPresent": true,
+    "rivalTheoryRefsPresent": true,
+    "holdoutRefsPresent": true,
+    "counterexampleRefsPresent": true,
+    "replayRefsPresent": true,
+    "proofMechanismPressureRefsPresent": true,
+    "killWeekRefsPresent": true,
+    "notClaimedSectionPresent": true,
+    "noOverclaimAuditPassed": true,
+    "externalReviewReadinessAuditPassed": true
+  },
+  "overclaimAudit": {
+    "passed": true,
+    "findingCount": 0,
+    "note": "All restricted claim categories appear only as explicit non-claims or are absent."
+  },
+  "externalReviewReadinessAudit": {
+    "passed": true,
+    "requiredFiles": [
+      "PAPER.md",
+      "METHOD.md",
+      "CLAIM_EVIDENCE_BINDINGS.json",
+      "REPRODUCE.md",
+      "LIMITATIONS.md"
+    ],
+    "inspectabilityFiles": [
+      "FUND_FOUND.md",
+      "FUND_CANDIDATE.json",
+      "CYCLE_EVIDENCE_SUMMARY.json",
+      "IDENTITY_LEDGER_EXCERPT.json"
+    ],
+    "nextRequiredStep": "Review PAPER.md, METHOD.md, CLAIM_EVIDENCE_BINDINGS.json, REPRODUCE.md, and LIMITATIONS.md against the cited public evidence refs."
+  },
+  "remainingLimitations": [
+    "This package is generated from public-safe hard-seed and daemon cycle evidence.",
+    "It is not external validation, external adoption, legal advice, medical advice, wet-lab capability, or a universal-truth claim.",
+    "External expert review is still required before any stronger interpretation."
+  ],
+  "evidenceHash": "6dc635591a8de9a15cb7a31f044faab48a70a62d46d1567653f1646e1aa9f2cd"
+}

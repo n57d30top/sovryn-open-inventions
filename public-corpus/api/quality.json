@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 602,
+    "good": 603,
     "reviewable": 6
   },
   "results": [
@@ -1180,6 +1180,11 @@
       "slug": "field-grade-autonomous-science-trial-v3",
       "qualityLabel": "excellent",
       "releaseReadinessScore": 93
+    },
+    {
+      "slug": "first-fund-scipy-runtime-reproduction-external-review-ready",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 94
     },
     {
       "slug": "formal-stage01-domain-scope",
@@ -3072,5 +3077,5 @@
       "releaseReadinessScore": 86
     }
   ],
-  "evidenceHash": "b168a639dd0ea2efc7f864e45911d2e8178023674f3476a5534fea0d2e09e6de"
+  "evidenceHash": "c658164063f57d263048f21a77a373a26180d093538fc0054df9aea62becfcee"
 }

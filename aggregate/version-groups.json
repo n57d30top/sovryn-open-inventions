@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-07T18:18:36.089Z",
+  "updatedAt": "2026-05-09T14:29:40.115Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -1579,6 +1579,13 @@
         "field-grade-autonomous-science-trial",
         "field-grade-autonomous-science-trial-v2",
         "field-grade-autonomous-science-trial-v3"
+      ]
+    },
+    {
+      "versionGroup": "first-fund-scipy-runtime-reproduction-external-review-ready",
+      "latestSlug": "first-fund-scipy-runtime-reproduction-external-review-ready",
+      "resultSlugs": [
+        "first-fund-scipy-runtime-reproduction-external-review-ready"
       ]
     },
     {
@@ -4210,5 +4217,5 @@
       ]
     }
   ],
-  "evidenceHash": "4742015d40acd9941c42bccf974cf99d50d8f34a0ba54c2b9a3d7e584087db71"
+  "evidenceHash": "ed662cfd3b3317b923752077cb7fe03399aee8b1421d48b41298dd6be1124485"
 }

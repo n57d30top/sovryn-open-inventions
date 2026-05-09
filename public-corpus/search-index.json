@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-07T18:18:36.089Z",
-  "entryCount": 613,
+  "builtAt": "2026-05-09T14:29:40.115Z",
+  "entryCount": 614,
   "entries": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -10519,6 +10519,60 @@
         "validated",
         "verified",
         "with"
+      ]
+    },
+    {
+      "slug": "first-fund-scipy-runtime-reproduction-external-review-ready",
+      "title": "First Fund: SciPy Runtime Reproduction External Review Package",
+      "domain": "scientific_software_reproduction_mechanisms",
+      "href": "results/first-fund-scipy-runtime-reproduction-external-review-ready.html",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "first-fund-scipy-runtime-reproduction-external-review-ready",
+      "showcaseRank": null,
+      "terms": [
+        "260",
+        "across",
+        "alignment",
+        "and",
+        "autopublished",
+        "behavior",
+        "bounded",
+        "candidate",
+        "check",
+        "complete",
+        "dependency",
+        "evidence",
+        "examples",
+        "external",
+        "first",
+        "for",
+        "fresh",
+        "fund",
+        "hard",
+        "holdouts",
+        "install",
+        "mechanisms",
+        "only",
+        "package",
+        "path",
+        "ready",
+        "replay",
+        "repopackagereproduction",
+        "reproduction",
+        "review",
+        "runtime",
+        "scientific",
+        "scipy",
+        "scope",
+        "seed",
+        "slice",
+        "smoke",
+        "software",
+        "survives",
+        "target",
+        "tests"
       ]
     },
     {
@@ -24120,5 +24174,5 @@
       ]
     }
   ],
-  "evidenceHash": "a212a6b3c8b8867013e0552fda97ef2e5921d6fb1354e8e72a6e293dc67df88a"
+  "evidenceHash": "2d68bb5f465b65d270ff47d0b49d8bf5f765cc693a1c66fb768cf91caee88c59"
 }
