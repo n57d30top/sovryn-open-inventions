@@ -995,6 +995,393 @@ def write_raw_data_experiment_artifacts(result: dict[str, object], output_dir: P
     (output_dir / "RAW_DATA_BASELINE_IMPLEMENTATIONS.md").write_text("\n".join(baseline_lines) + "\n")
 
 
+def write_reconstructed_research_artifacts(result: dict[str, object], output_dir: Path) -> None:
+    experiment = result["rawDataReproducibleExperiment"]
+    rows = result["rawDataFeatureMatrixRows"]
+    train_rows = [row for row in rows if row["split"] == "train"]
+    holdout_rows = [row for row in rows if row["split"] == "holdout"]
+    source = result["source"]
+    proxy = result["standaloneProxyValues"]
+
+    status = "reconstructed_public_raw_data_proxy_artifacts_not_original_product_artifacts"
+    caveat = (
+        "These artifacts are regenerated from public Matbench raw data by "
+        "reproduce_matbench_candidate.py. They are not the original Product "
+        "descriptor-transfer artifacts and must not be used to restore discovery-score eligibility."
+    )
+    artifact_index = [
+        {
+            "artifact": "RAW_DATA_FEATURE_MATRIX.json",
+            "role": "reconstructed descriptor/feature matrix",
+            "originalProductArtifactRecovered": False,
+        },
+        {
+            "artifact": "RECONSTRUCTED_FEATURIZER_CONFIG.json",
+            "role": "public formula parser and seven-feature featurizer config",
+            "originalProductArtifactRecovered": False,
+        },
+        {
+            "artifact": "RECONSTRUCTED_MODEL_TRAINING_CONFIG.json",
+            "role": "dependency-free OLS proxy model/training config",
+            "originalProductArtifactRecovered": False,
+        },
+        {
+            "artifact": "RECONSTRUCTED_TARGET_SUBSET_MANIFEST.json",
+            "role": "public target subset used by the proxy experiment",
+            "originalProductArtifactRecovered": False,
+        },
+        {
+            "artifact": "RECONSTRUCTED_RESIDUAL_FORMULA.json",
+            "role": "proxy residual formula",
+            "originalProductArtifactRecovered": False,
+        },
+        {
+            "artifact": "RECONSTRUCTED_BASELINE_IMPLEMENTATIONS.json",
+            "role": "machine-readable proxy baseline definitions",
+            "originalProductArtifactRecovered": False,
+        },
+        {
+            "artifact": "RECONSTRUCTED_HOLDOUT_MANIFEST.json",
+            "role": "deterministic public holdout manifest for proxy replay",
+            "originalProductArtifactRecovered": False,
+        },
+        {
+            "artifact": "RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.json",
+            "role": "proxy negative/control checks",
+            "originalProductArtifactRecovered": False,
+        },
+        {
+            "artifact": "RECONSTRUCTED_REPLAY_MANIFEST.json",
+            "role": "standalone replay command and expected outputs",
+            "originalProductArtifactRecovered": False,
+        },
+    ]
+
+    featurizer_config = {
+        "kind": "reconstructed_featurizer_config",
+        "status": status,
+        "originalProductArtifactRecovered": False,
+        "sourceRef": experiment["sourceRef"],
+        "sourceHashSha256": experiment["sourceHashSha256"],
+        "parser": "regex-based composition parser implemented in reproduce_matbench_candidate.py::parse_formula",
+        "featureFunction": "reproduce_matbench_candidate.py::formula_features",
+        "featureSchema": experiment["featureSchema"],
+        "unsupportedOriginalInputs": [
+            "pymatgen/matminer/ASE Product featurizer config",
+            "descriptor-transfer feature matrix",
+            "Product preprocessing pipeline",
+        ],
+        "caveat": caveat,
+    }
+    model_training_config = {
+        "kind": "reconstructed_model_training_config",
+        "status": status,
+        "originalProductArtifactRecovered": False,
+        "sourceRef": experiment["sourceRef"],
+        "model": experiment["model"],
+        "candidateProxyColumns": experiment["candidateProxy"]["columns"],
+        "baselineModels": {
+            "null_or_trivial_rule": experiment["baselines"]["null_or_trivial_rule"]["definition"],
+            "composition_formula_size": {
+                "model": experiment["baselines"]["composition_formula_size"]["model"],
+                "columns": experiment["baselines"]["composition_formula_size"]["columns"],
+            },
+            "matched_negative_shuffled_target": {
+                "model": experiment["baselines"]["matched_negative_shuffled_target"]["model"],
+                "columns": experiment["baselines"]["matched_negative_shuffled_target"]["columns"],
+                "shuffleSeed": 1729,
+            },
+        },
+        "splitRule": experiment["splitRule"],
+        "standardization": "train-only mean/std standardization in reproduce_matbench_candidate.py::standardize",
+        "ridge": 1e-8,
+        "target": "experimental band gap from public Matbench JSON",
+        "caveat": caveat,
+    }
+    target_subset_manifest = {
+        "kind": "reconstructed_target_subset_manifest",
+        "status": status,
+        "originalProductTargetSubsetRecovered": False,
+        "sourceRef": experiment["sourceRef"],
+        "sourceHashSha256": experiment["sourceHashSha256"],
+        "selectionRule": "all parseable rows from the current public Matbench JSON",
+        "productSourceCacheRawTargetCount": 300,
+        "reconstructedPublicRowCount": len(rows),
+        "trainRecords": len(train_rows),
+        "holdoutRecords": len(holdout_rows),
+        "rows": [
+            {
+                "rowIndex": row["rowIndex"],
+                "formula": row["formula"],
+                "formulaHashSha256": row["formulaHashSha256"],
+                "split": row["split"],
+                "bandGap": row["bandGap"],
+            }
+            for row in rows
+        ],
+        "caveat": caveat,
+    }
+    residual_formula = {
+        "kind": "reconstructed_residual_formula",
+        "status": status,
+        "originalProductResidualFormulaRecovered": False,
+        "formula": experiment["residualDefinition"],
+        "observedProxyValues": {
+            "candidateProxyR2": proxy["descriptor_transfer_proxy_r2"],
+            "compositionFormulaSizeProxyR2": proxy["composition_formula_size_proxy_r2"],
+            "matchedNegativeControlProxyR2": proxy["matched_negative_control_proxy_r2"],
+            "nullOrTrivialRuleProxyR2": proxy["null_or_trivial_rule_proxy_r2"],
+            "residualProxyR2Delta": proxy["residual_proxy_r2_delta"],
+        },
+        "productRuntimeValuesNotReproducedScientifically": result["productRecordedValues"],
+        "caveat": caveat,
+    }
+    baseline_implementations = {
+        "kind": "reconstructed_baseline_implementations",
+        "status": status,
+        "originalProductBaselineImplementationsRecovered": False,
+        "baselines": {
+            "null_or_trivial_rule": {
+                "implementation": "predict train-target mean on deterministic holdout",
+                "sourceFunction": "reproduce_matbench_candidate.py::compute_reproduction",
+                "metrics": experiment["baselines"]["null_or_trivial_rule"]["metrics"],
+            },
+            "composition_formula_size": {
+                "implementation": "OLS with intercept on element_count and total_atoms",
+                "sourceFunction": "reproduce_matbench_candidate.py::run_linear_model",
+                "metrics": experiment["baselines"]["composition_formula_size"]["metrics"],
+            },
+            "matched_negative_shuffled_target": {
+                "implementation": "OLS on all seven formula descriptors after train-target shuffle seed 1729",
+                "sourceFunction": "reproduce_matbench_candidate.py::run_linear_model",
+                "metrics": experiment["baselines"]["matched_negative_shuffled_target"]["metrics"],
+            },
+        },
+        "caveat": caveat,
+    }
+    holdout_manifest = {
+        "kind": "reconstructed_holdout_manifest",
+        "status": status,
+        "originalProductHoldoutManifestRecovered": False,
+        "holdoutIndependenceClassification": "deterministic_formula_hash_holdout_not_source_family_independent",
+        "splitRule": experiment["splitRule"],
+        "leakageAssessment": (
+            "The holdout is selected deterministically from formula hashes and is useful for public replay. "
+            "It does not prove Product-recorded source-family independence."
+        ),
+        "baselineRivalRelevance": "All proxy baselines are scored on this holdout.",
+        "replayFeasible": True,
+        "holdoutRows": [
+            {
+                "rowIndex": row["rowIndex"],
+                "formula": row["formula"],
+                "formulaHashSha256": row["formulaHashSha256"],
+                "bandGap": row["bandGap"],
+            }
+            for row in holdout_rows
+        ],
+        "caveat": caveat,
+    }
+    counterexample_manifest = {
+        "kind": "reconstructed_counterexample_manifest",
+        "status": status,
+        "originalProductCounterexampleManifestRecovered": False,
+        "controls": [
+            {
+                "controlId": "null_or_trivial_rule",
+                "design": "train mean target prediction on holdout",
+                "expectedCollapseCondition": "candidate proxy residual is not above null R2",
+                "observedR2": proxy["null_or_trivial_rule_proxy_r2"],
+            },
+            {
+                "controlId": "composition_formula_size",
+                "design": "element_count and total_atoms OLS",
+                "expectedCollapseCondition": "candidate proxy residual is not above formula-size R2",
+                "observedR2": proxy["composition_formula_size_proxy_r2"],
+            },
+            {
+                "controlId": "matched_negative_shuffled_target",
+                "design": "all-feature OLS after train-target shuffle seed 1729",
+                "expectedCollapseCondition": "candidate proxy residual is not above shuffled-target R2",
+                "observedR2": proxy["matched_negative_control_proxy_r2"],
+            },
+        ],
+        "counterexampleSearchSpace": "public Matbench formulas under formula-only descriptors and deterministic holdout",
+        "caveat": caveat,
+    }
+    replay_manifest = {
+        "kind": "reconstructed_replay_manifest",
+        "status": status,
+        "originalProductReplayManifestRecovered": False,
+        "command": "python3 reproduce_matbench_candidate.py",
+        "dataUrl": DEFAULT_URL,
+        "sourceHashSha256": experiment["sourceHashSha256"],
+        "expectedOutputs": [
+            "standalone_reproduction_result.json",
+            "REPRODUCTION_RESULT_TABLE.md",
+            "RAW_DATA_FEATURE_MATRIX.json",
+            "RAW_DATA_SPLIT_MANIFEST.json",
+            "RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.json",
+            "RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.json",
+        ],
+        "expectedStatus": result["status"],
+        "rawDataScientificResidualReproduced": False,
+        "caveat": caveat,
+    }
+    manifest = {
+        "kind": "reconstructed_research_artifacts_manifest",
+        "status": status,
+        "originalProductScientificArtifactsFound": False,
+        "sourceRef": experiment["sourceRef"],
+        "sourceHashSha256": experiment["sourceHashSha256"],
+        "recordsExtracted": source["recordsExtracted"],
+        "trainRecords": source["trainRecords"],
+        "holdoutRecords": source["holdoutRecords"],
+        "artifactIndex": artifact_index,
+        "notOriginalProductArtifacts": True,
+        "doesNotRestoreDiscoveryScore": True,
+        "publicReviewStatus": result["publicReviewStatus"],
+        "caveat": caveat,
+    }
+
+    json_artifacts = {
+        "RECONSTRUCTED_FEATURIZER_CONFIG.json": featurizer_config,
+        "RECONSTRUCTED_MODEL_TRAINING_CONFIG.json": model_training_config,
+        "RECONSTRUCTED_TARGET_SUBSET_MANIFEST.json": target_subset_manifest,
+        "RECONSTRUCTED_RESIDUAL_FORMULA.json": residual_formula,
+        "RECONSTRUCTED_BASELINE_IMPLEMENTATIONS.json": baseline_implementations,
+        "RECONSTRUCTED_HOLDOUT_MANIFEST.json": holdout_manifest,
+        "RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.json": counterexample_manifest,
+        "RECONSTRUCTED_REPLAY_MANIFEST.json": replay_manifest,
+        "RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.json": manifest,
+    }
+    for filename, payload in json_artifacts.items():
+        (output_dir / filename).write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n")
+
+    summary_lines = [
+        "# Reconstructed Research Artifacts Manifest",
+        "",
+        "The original Product scientific artifacts needed for exact raw-data reproduction were not found in the public-safe Product export. This package therefore includes reconstructed public raw-data artifacts generated by `reproduce_matbench_candidate.py`.",
+        "",
+        "These files are not the original Product descriptor-transfer artifacts and do not restore discovery-score eligibility.",
+        "",
+        "## Reconstructed Artifacts",
+        "",
+        "| Artifact | Role | Original Product artifact recovered? |",
+        "| --- | --- | --- |",
+    ]
+    for item in artifact_index:
+        summary_lines.append(
+            f"| `{item['artifact']}` | {item['role']} | `{str(item['originalProductArtifactRecovered']).lower()}` |"
+        )
+    summary_lines.extend(
+        [
+            "",
+            "## Status",
+            "",
+            f"- Status: `{status}`",
+            "- Original Product scientific artifacts found: `false`",
+            "- Raw-data scientific Product claim reproduced: `false`",
+            "- Public discovery-score eligibility restored: `false`",
+            f"- Public review status: `{result['publicReviewStatus']}`",
+            "",
+            "## Caveat",
+            "",
+            caveat,
+        ]
+    )
+    (output_dir / "RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.md").write_text("\n".join(summary_lines) + "\n")
+
+    descriptor_lines = [
+        "# Reconstructed Descriptor Matrix",
+        "",
+        "The public raw-data descriptor matrix is written to `RAW_DATA_FEATURE_MATRIX.json`.",
+        "",
+        "It contains seven transparent formula descriptors for every parseable public Matbench row. It is reconstructed from public raw data by `reproduce_matbench_candidate.py`; it is not the original Product descriptor-transfer matrix.",
+        "",
+        f"- Source ref: `{experiment['sourceRef']}`",
+        f"- Source SHA-256: `{experiment['sourceHashSha256']}`",
+        f"- Rows: `{len(rows)}`",
+        f"- Train rows: `{len(train_rows)}`",
+        f"- Holdout rows: `{len(holdout_rows)}`",
+        "",
+        "Features: " + ", ".join(f"`{schema['name']}`" for schema in experiment["featureSchema"]),
+    ]
+    (output_dir / "RECONSTRUCTED_DESCRIPTOR_MATRIX.md").write_text("\n".join(descriptor_lines) + "\n")
+
+    readable_docs = {
+        "RECONSTRUCTED_FEATURIZER_CONFIG.md": [
+            "# Reconstructed Featurizer Config",
+            "",
+            "This is a public proxy featurizer, not the original Product pymatgen/matminer/ASE descriptor-transfer featurizer.",
+            "",
+            f"- Parser: `{featurizer_config['parser']}`",
+            f"- Feature function: `{featurizer_config['featureFunction']}`",
+            f"- Machine-readable config: `RECONSTRUCTED_FEATURIZER_CONFIG.json`",
+        ],
+        "RECONSTRUCTED_MODEL_TRAINING_CONFIG.md": [
+            "# Reconstructed Model Training Config",
+            "",
+            "This is the public proxy model configuration used by the standalone reproduction script. It is not the original Product model/training config.",
+            "",
+            f"- Model: `{model_training_config['model']}`",
+            f"- Split rule: `{model_training_config['splitRule']}`",
+            "- Candidate columns: " + ", ".join(f"`{col}`" for col in model_training_config["candidateProxyColumns"]),
+            "- Machine-readable config: `RECONSTRUCTED_MODEL_TRAINING_CONFIG.json`",
+        ],
+        "RECONSTRUCTED_TARGET_SUBSET_MANIFEST.md": [
+            "# Reconstructed Target Subset Manifest",
+            "",
+            "This is the public proxy target subset used by the standalone reproduction script. It is not the original Product target subset manifest.",
+            "",
+            "- Selection rule: all parseable rows from the current public Matbench JSON.",
+            f"- Product source-cache raw target count: `{target_subset_manifest['productSourceCacheRawTargetCount']}`",
+            f"- Reconstructed public row count: `{target_subset_manifest['reconstructedPublicRowCount']}`",
+            f"- Train rows: `{target_subset_manifest['trainRecords']}`",
+            f"- Holdout rows: `{target_subset_manifest['holdoutRecords']}`",
+            "- Machine-readable manifest: `RECONSTRUCTED_TARGET_SUBSET_MANIFEST.json`",
+        ],
+        "RECONSTRUCTED_RESIDUAL_FORMULA.md": [
+            "# Reconstructed Residual Formula",
+            "",
+            "This is the public proxy residual formula, not the original Product residual normalization.",
+            "",
+            f"- Formula: `{residual_formula['formula']}`",
+            f"- Proxy residual R2 delta: `{fmt_number(proxy['residual_proxy_r2_delta'])}`",
+            "- Machine-readable formula: `RECONSTRUCTED_RESIDUAL_FORMULA.json`",
+        ],
+        "RECONSTRUCTED_HOLDOUT_MANIFEST.md": [
+            "# Reconstructed Holdout Manifest",
+            "",
+            "This deterministic holdout supports public replay of the proxy experiment. It is not an independent source-family holdout for the Product claim.",
+            "",
+            f"- Split rule: `{holdout_manifest['splitRule']}`",
+            f"- Holdout rows: `{len(holdout_rows)}`",
+            f"- Classification: `{holdout_manifest['holdoutIndependenceClassification']}`",
+            "- Machine-readable manifest: `RECONSTRUCTED_HOLDOUT_MANIFEST.json`",
+        ],
+        "RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.md": [
+            "# Reconstructed Counterexample Manifest",
+            "",
+            "These are proxy negative/control checks for public replay. They are not the original Product counterexample manifest.",
+            "",
+            "- Controls: `null_or_trivial_rule`, `composition_formula_size`, `matched_negative_shuffled_target`",
+            "- Machine-readable manifest: `RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.json`",
+        ],
+        "RECONSTRUCTED_REPLAY_MANIFEST.md": [
+            "# Reconstructed Replay Manifest",
+            "",
+            "This replay manifest covers the public proxy experiment and Product runtime-scalar replay. It does not reproduce the original raw-data descriptor-transfer scientific claim.",
+            "",
+            f"- Command: `{replay_manifest['command']}`",
+            f"- Expected status: `{replay_manifest['expectedStatus']}`",
+            "- Machine-readable manifest: `RECONSTRUCTED_REPLAY_MANIFEST.json`",
+        ],
+    }
+    for filename, lines in readable_docs.items():
+        (output_dir / filename).write_text("\n".join(lines) + "\n")
+
+
 def write_missing_inputs(result: dict[str, object], output_dir: Path) -> None:
     bundle = result["rawReproductionBundle"]
     lines = [
@@ -1013,10 +1400,11 @@ def write_missing_inputs(result: dict[str, object], output_dir: Path) -> None:
         "| residual magnitude `0.21` | reproduced | `REPRODUCTION_RESULT_TABLE.md` |",
         "| baseline scalars `0.34`, `0.29`, `0.23` | reproduced | `REPRODUCTION_RESULT_TABLE.md` |",
         "| public raw-data proxy experiment | reproducible but separate from Product claim | `RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.md` |",
+        "| reconstructed public raw-data research artifacts | available but not original Product artifacts | `RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.md` |",
         "",
         "## Unresolved Raw-Data Scientific Inputs",
         "",
-        "The public-safe raw reproduction bundle was exported and searched. It contains Product runtime evidence, source receipts, generated evidence packages, candidate drafts, and review handoff artifacts. It does not contain the scientific raw-data inputs below.",
+        "The public-safe raw reproduction bundle was exported and searched. It contains Product runtime evidence, source receipts, generated evidence packages, candidate drafts, and review handoff artifacts. It does not contain the original scientific raw-data inputs below.",
         "",
         "| Missing input | Why it is required |",
         "| --- | --- |",
@@ -1035,6 +1423,8 @@ def write_missing_inputs(result: dict[str, object], output_dir: Path) -> None:
             "- Public raw Matbench source loaded: yes.",
             "- Public proxy checks produced: yes.",
             "- Public raw-data proxy experiment fully specified: yes.",
+            "- Reconstructed public raw-data artifacts produced: yes.",
+            "- Reconstructed artifacts are original Product artifacts: no.",
             "- Product values source classification: runtime_derived_deterministic_generator_scalars.",
             f"- Public-safe bundle decision: {bundle['bundleDecision']}.",
             "- Updated review readiness: not_external_review_ready_raw_scientific_reproduction_failed.",
@@ -1122,6 +1512,7 @@ def main() -> int:
     (args.output_dir / "standalone_reproduction_result.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
     write_result_table(result, args.output_dir)
     write_raw_data_experiment_artifacts(result, args.output_dir)
+    write_reconstructed_research_artifacts(result, args.output_dir)
     write_missing_inputs(result, args.output_dir)
     write_raw_scientific_repair_decision(result, args.output_dir)
     print(json.dumps({"status": result["status"], "recordsExtracted": result["source"]["recordsExtracted"]}, indent=2))

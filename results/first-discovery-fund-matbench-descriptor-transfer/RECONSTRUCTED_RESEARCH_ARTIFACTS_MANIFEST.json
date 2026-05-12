@@ -1,0 +1,61 @@
+{
+  "artifactIndex": [
+    {
+      "artifact": "RAW_DATA_FEATURE_MATRIX.json",
+      "originalProductArtifactRecovered": false,
+      "role": "reconstructed descriptor/feature matrix"
+    },
+    {
+      "artifact": "RECONSTRUCTED_FEATURIZER_CONFIG.json",
+      "originalProductArtifactRecovered": false,
+      "role": "public formula parser and seven-feature featurizer config"
+    },
+    {
+      "artifact": "RECONSTRUCTED_MODEL_TRAINING_CONFIG.json",
+      "originalProductArtifactRecovered": false,
+      "role": "dependency-free OLS proxy model/training config"
+    },
+    {
+      "artifact": "RECONSTRUCTED_TARGET_SUBSET_MANIFEST.json",
+      "originalProductArtifactRecovered": false,
+      "role": "public target subset used by the proxy experiment"
+    },
+    {
+      "artifact": "RECONSTRUCTED_RESIDUAL_FORMULA.json",
+      "originalProductArtifactRecovered": false,
+      "role": "proxy residual formula"
+    },
+    {
+      "artifact": "RECONSTRUCTED_BASELINE_IMPLEMENTATIONS.json",
+      "originalProductArtifactRecovered": false,
+      "role": "machine-readable proxy baseline definitions"
+    },
+    {
+      "artifact": "RECONSTRUCTED_HOLDOUT_MANIFEST.json",
+      "originalProductArtifactRecovered": false,
+      "role": "deterministic public holdout manifest for proxy replay"
+    },
+    {
+      "artifact": "RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.json",
+      "originalProductArtifactRecovered": false,
+      "role": "proxy negative/control checks"
+    },
+    {
+      "artifact": "RECONSTRUCTED_REPLAY_MANIFEST.json",
+      "originalProductArtifactRecovered": false,
+      "role": "standalone replay command and expected outputs"
+    }
+  ],
+  "caveat": "These artifacts are regenerated from public Matbench raw data by reproduce_matbench_candidate.py. They are not the original Product descriptor-transfer artifacts and must not be used to restore discovery-score eligibility.",
+  "doesNotRestoreDiscoveryScore": true,
+  "holdoutRecords": 194,
+  "kind": "reconstructed_research_artifacts_manifest",
+  "notOriginalProductArtifacts": true,
+  "originalProductScientificArtifactsFound": false,
+  "publicReviewStatus": "not_external_review_ready_raw_scientific_reproduction_failed",
+  "recordsExtracted": 921,
+  "sourceHashSha256": "e982f9d9586ab9603c588782646870542fb2b39f915ccb0fdb513426e2ff9859",
+  "sourceRef": "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json",
+  "status": "reconstructed_public_raw_data_proxy_artifacts_not_original_product_artifacts",
+  "trainRecords": 727
+}

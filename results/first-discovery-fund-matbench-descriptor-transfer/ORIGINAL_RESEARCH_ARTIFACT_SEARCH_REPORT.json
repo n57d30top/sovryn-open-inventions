@@ -1,0 +1,78 @@
+{
+  "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+  "kind": "original_research_artifact_search_report",
+  "productCommitInspected": "48afba2890e00947d9f555cf3ac9db637e6dff91",
+  "searchedScopes": [
+    ".sovryn",
+    "src",
+    "tests",
+    "docs",
+    "raw-reproduction-bundle"
+  ],
+  "searchTerms": [
+    "descriptor matrix",
+    "feature matrix",
+    "featurizer",
+    "matminer",
+    "pymatgen",
+    "model config",
+    "training config",
+    "split manifest",
+    "family labels",
+    "target subset",
+    "residual formula",
+    "baseline implementation",
+    "holdout manifest",
+    "counterexample manifest",
+    "replay manifest",
+    "matbench_descriptor_transfer",
+    "74933C45",
+    "matbench_expt_gap"
+  ],
+  "foundArtifacts": [
+    {
+      "class": "product_runtime_evidence",
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json",
+      "classification": "historical_product_runtime_state"
+    },
+    {
+      "class": "product_source_cache_receipt",
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP.json",
+      "classification": "source_receipt_and_aggregate_metrics"
+    },
+    {
+      "class": "product_evidence_packages",
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/evidence-packages/",
+      "classification": "historical_review_package_state"
+    },
+    {
+      "class": "product_generator_source_code",
+      "path": "src/core/discovery-daemon/discovery-daemon-service.ts::generatorOutcomeProfile",
+      "classification": "deterministic_runtime_scalar_source"
+    }
+  ],
+  "missingOriginalScientificInputs": [
+    "descriptor matrix / feature definition",
+    "pymatgen/matminer/ASE featurizer config",
+    "model and training config",
+    "exact train/validation/holdout split and family labels",
+    "target subset manifest",
+    "raw-data residual formula / normalization",
+    "exact baseline implementations for 0.34 / 0.29 / 0.23",
+    "external runnable holdout/counterexample manifests"
+  ],
+  "productValuesSource": {
+    "classification": "runtime_derived_deterministic_generator_scalars",
+    "measuredOutcomeFormula": "0.71 + ordinal / 100",
+    "residualMagnitudeFormula": "0.22 - ordinal / 100",
+    "ordinal": 1,
+    "measuredOutcome": 0.72,
+    "residualMagnitude": 0.21,
+    "baselines": {
+      "composition_formula_size_target_family_baseline": 0.34,
+      "matched_negative_control": 0.29,
+      "null_or_trivial_rule": 0.23
+    }
+  },
+  "conclusion": "Original raw scientific artifacts were not found in Product state. Reconstructed public raw-data proxy artifacts are provided separately and must not be treated as original Product artifacts or as restored discovery-scored evidence."
+}

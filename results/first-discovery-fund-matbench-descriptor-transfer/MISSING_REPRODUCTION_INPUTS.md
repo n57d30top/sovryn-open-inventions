@@ -13,10 +13,11 @@ Product runtime scalar replay is now exact. Exact independent raw-data scientifi
 | residual magnitude `0.21` | reproduced | `REPRODUCTION_RESULT_TABLE.md` |
 | baseline scalars `0.34`, `0.29`, `0.23` | reproduced | `REPRODUCTION_RESULT_TABLE.md` |
 | public raw-data proxy experiment | reproducible but separate from Product claim | `RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.md` |
+| reconstructed public raw-data research artifacts | available but not original Product artifacts | `RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.md` |
 
 ## Unresolved Raw-Data Scientific Inputs
 
-The public-safe raw reproduction bundle was exported and searched. It contains Product runtime evidence, source receipts, generated evidence packages, candidate drafts, and review handoff artifacts. It does not contain the scientific raw-data inputs below.
+The public-safe raw reproduction bundle was exported and searched. It contains Product runtime evidence, source receipts, generated evidence packages, candidate drafts, and review handoff artifacts. It does not contain the original scientific raw-data inputs below.
 
 | Missing input | Why it is required |
 | --- | --- |
@@ -37,6 +38,8 @@ The public-safe raw reproduction bundle was exported and searched. It contains P
 - Public raw Matbench source loaded: yes.
 - Public proxy checks produced: yes.
 - Public raw-data proxy experiment fully specified: yes.
+- Reconstructed public raw-data artifacts produced: yes.
+- Reconstructed artifacts are original Product artifacts: no.
 - Product values source classification: runtime_derived_deterministic_generator_scalars.
 - Public-safe bundle decision: maximal_public_safe_export_completed_but_raw_scientific_inputs_not_found.
 - Updated review readiness: not_external_review_ready_raw_scientific_reproduction_failed.

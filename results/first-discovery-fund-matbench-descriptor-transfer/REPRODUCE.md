@@ -115,6 +115,27 @@ The standalone script now prefers the runtime evidence copied into that bundle:
 
 The bundle improves inspectability of the Product evidence path. It does not supply the missing raw scientific inputs required for independent descriptor-transfer reproduction.
 
+## Original Artifact Search And Reconstructed Inputs
+
+Inspect the targeted Product-State search result:
+
+```bash
+sed -n '1,220p' ORIGINAL_RESEARCH_ARTIFACT_SEARCH_REPORT.md
+jq '{productValuesSource, missingOriginalScientificInputs, conclusion}' ORIGINAL_RESEARCH_ARTIFACT_SEARCH_REPORT.json
+```
+
+Inspect the reconstructed public raw-data artifacts:
+
+```bash
+sed -n '1,180p' RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.md
+jq '{status, originalProductScientificArtifactsFound, doesNotRestoreDiscoveryScore, artifactIndex}' RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.json
+jq '{parser, featureSchema}' RECONSTRUCTED_FEATURIZER_CONFIG.json
+jq '{model, splitRule, candidateProxyColumns, baselineModels}' RECONSTRUCTED_MODEL_TRAINING_CONFIG.json
+jq '{formula, observedProxyValues}' RECONSTRUCTED_RESIDUAL_FORMULA.json
+```
+
+These reconstructed files are generated from public Matbench raw data by `reproduce_matbench_candidate.py`. They are useful for external replay of the public proxy experiment. They are not the original Product descriptor-transfer inputs and must not be treated as restored discovery evidence.
+
 ## Reviewer Tables
 
 Inspect the reviewer-facing tables:

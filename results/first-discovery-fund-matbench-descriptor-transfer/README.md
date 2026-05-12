@@ -62,6 +62,26 @@ The public corpus package includes:
 - RAW_DATA_FEATURE_MATRIX.json
 - RAW_DATA_SPLIT_MANIFEST.json
 - RAW_DATA_BASELINE_IMPLEMENTATIONS.md
+- ORIGINAL_RESEARCH_ARTIFACT_SEARCH_REPORT.md
+- ORIGINAL_RESEARCH_ARTIFACT_SEARCH_REPORT.json
+- RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.md
+- RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.json
+- RECONSTRUCTED_DESCRIPTOR_MATRIX.md
+- RECONSTRUCTED_FEATURIZER_CONFIG.md
+- RECONSTRUCTED_FEATURIZER_CONFIG.json
+- RECONSTRUCTED_MODEL_TRAINING_CONFIG.md
+- RECONSTRUCTED_MODEL_TRAINING_CONFIG.json
+- RECONSTRUCTED_TARGET_SUBSET_MANIFEST.md
+- RECONSTRUCTED_TARGET_SUBSET_MANIFEST.json
+- RECONSTRUCTED_RESIDUAL_FORMULA.md
+- RECONSTRUCTED_RESIDUAL_FORMULA.json
+- RECONSTRUCTED_BASELINE_IMPLEMENTATIONS.json
+- RECONSTRUCTED_HOLDOUT_MANIFEST.md
+- RECONSTRUCTED_HOLDOUT_MANIFEST.json
+- RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.md
+- RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.json
+- RECONSTRUCTED_REPLAY_MANIFEST.md
+- RECONSTRUCTED_REPLAY_MANIFEST.json
 - PUBLIC_SAFE_REPRODUCTION_BUNDLE_REPORT.md
 - PUBLIC_SAFE_REPRODUCTION_BUNDLE_REPORT.json
 - raw-reproduction-bundle/
@@ -131,6 +151,24 @@ Bundle summary:
 - Bundle decision: `maximal_public_safe_export_completed_but_raw_scientific_inputs_not_found`.
 
 The bundle makes the Product evidence trail more inspectable. It does not restore external-review readiness because the raw descriptor matrix, model/training config, exact split/family labels, target subset manifest, raw-data residual formula, exact baseline implementations, and external runnable holdout/counterexample manifests were not found in the exported Product artifacts.
+
+## Original Artifact Search And Reconstruction
+
+`ORIGINAL_RESEARCH_ARTIFACT_SEARCH_REPORT.md` records the second targeted Product-State search. It found Product runtime evidence, source-cache receipts, evidence packages, candidate drafts, and generator source code. It did not find the original scientific inputs needed to recompute the descriptor-transfer result from raw Matbench data.
+
+The package now includes reconstructed public raw-data artifacts:
+
+- `RAW_DATA_FEATURE_MATRIX.json`
+- `RECONSTRUCTED_FEATURIZER_CONFIG.json`
+- `RECONSTRUCTED_MODEL_TRAINING_CONFIG.json`
+- `RECONSTRUCTED_TARGET_SUBSET_MANIFEST.json`
+- `RECONSTRUCTED_RESIDUAL_FORMULA.json`
+- `RECONSTRUCTED_BASELINE_IMPLEMENTATIONS.json`
+- `RECONSTRUCTED_HOLDOUT_MANIFEST.json`
+- `RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.json`
+- `RECONSTRUCTED_REPLAY_MANIFEST.json`
+
+These reconstructed artifacts are generated from public Matbench JSON by `reproduce_matbench_candidate.py`. They are not the original Product descriptor-transfer artifacts and do not restore discovery-score eligibility.
 
 ## No Overclaim
 

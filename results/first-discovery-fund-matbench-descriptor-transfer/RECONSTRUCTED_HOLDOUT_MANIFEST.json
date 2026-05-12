@@ -1,0 +1,1177 @@
+{
+  "baselineRivalRelevance": "All proxy baselines are scored on this holdout.",
+  "caveat": "These artifacts are regenerated from public Matbench raw data by reproduce_matbench_candidate.py. They are not the original Product descriptor-transfer artifacts and must not be used to restore discovery-score eligibility.",
+  "holdoutIndependenceClassification": "deterministic_formula_hash_holdout_not_source_family_independent",
+  "holdoutRows": [
+    {
+      "bandGap": 1.0,
+      "formula": "Ag7AsSe6",
+      "formulaHashSha256": "62bdafb245f53d018c93e6146c6b8278a3305745e0167de0bf7b0ba51528dfd2",
+      "rowIndex": 2
+    },
+    {
+      "bandGap": 0.13,
+      "formula": "AgBiPbSe3",
+      "formulaHashSha256": "1655deb04bd61a024540cb7e6262106d519bf875916271534ff53ef6bd5b675a",
+      "rowIndex": 3
+    },
+    {
+      "bandGap": 0.9,
+      "formula": "AgBiS2",
+      "formulaHashSha256": "eff04633602af692d883ac9f2434fdd8910a5b4045551975dc5e6d5401592669",
+      "rowIndex": 4
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Al2CoIr",
+      "formulaHashSha256": "861d6a068e9bd4899e7e5f209e8f50ff47f44f47ce28cee8f0c22678f068b977",
+      "rowIndex": 14
+    },
+    {
+      "bandGap": 3.64,
+      "formula": "B3Pb3NO10",
+      "formulaHashSha256": "6bb3808df809ebd117502298423717f6de0a7b4dda60b352e85ef575a503649d",
+      "rowIndex": 22
+    },
+    {
+      "bandGap": 1.45,
+      "formula": "BAs",
+      "formulaHashSha256": "b4ae91b0f29434f10e1ffc2ac95804a84c0f01914e7f5ac7569640350a3109df",
+      "rowIndex": 24
+    },
+    {
+      "bandGap": 2.51,
+      "formula": "Ba2GaSbSe5",
+      "formulaHashSha256": "38458c6e12feb07b3b727591bc414d09422c53bd3ed7ac9c30092957ab932e5d",
+      "rowIndex": 37
+    },
+    {
+      "bandGap": 2.12,
+      "formula": "Ba2NdGaS5",
+      "formulaHashSha256": "0ee655016976bf10a26405b2082d6cc3c6b2cc48e9a982c1f558c2028c66ba64",
+      "rowIndex": 42
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Ba3ErRu2O9",
+      "formulaHashSha256": "f483ea1a30da7f29ba33023248e71f0af10c69bf7e4c24fc755621f1c92e8d28",
+      "rowIndex": 55
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Ba3NaIrO6",
+      "formulaHashSha256": "11c6ad66dfd6bfc9662529112f5b57fcb3b2449845f2e0fb5ca3e0225b4852f2",
+      "rowIndex": 58
+    },
+    {
+      "bandGap": 1.33,
+      "formula": "BaGe4(IrSe3)2",
+      "formulaHashSha256": "2534be1f3e72e4a79d68db3df827f292bb591d4d2951e3f00467e4cd165745d0",
+      "rowIndex": 71
+    },
+    {
+      "bandGap": 1.87,
+      "formula": "BaLa2In2S7",
+      "formulaHashSha256": "be53fbfb34e18b776b4387801c79ace2ad7b07c0413aad2709199a943d5793e6",
+      "rowIndex": 74
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "BaLi4",
+      "formulaHashSha256": "53063a214ec93c0716fad08cc52e629dfa429600541348350cad55bfc6da2079",
+      "rowIndex": 77
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "BaTh3",
+      "formulaHashSha256": "3b43375eddaa6c2d4a904e1bd84a33ef95c79655a60a708bf97da29f59edc567",
+      "rowIndex": 81
+    },
+    {
+      "bandGap": 3.7,
+      "formula": "Bi2SeI2O11",
+      "formulaHashSha256": "1be18bdbee8d66eab31a27d59236dfe3977636a28f6f9d1fb6c775ca3230a6fe",
+      "rowIndex": 89
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Ca(Ni2O3)2",
+      "formulaHashSha256": "7796d8d742d21d9b867f2020f2f2404256cbb578c698cb54ffbf4f42f6058cc2",
+      "rowIndex": 97
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Ca2CuWO6",
+      "formulaHashSha256": "4a9cb7b68bfb986d8aa19e42ee1f5c6e85157acf68581289c6d09754ecb43b23",
+      "rowIndex": 99
+    },
+    {
+      "bandGap": 0.9,
+      "formula": "Ca2Sn",
+      "formulaHashSha256": "5eb9c3426f252828a70720950e3f9f9efce81b8e2c7dd55017d6666ef7007467",
+      "rowIndex": 102
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Ca3BiSb",
+      "formulaHashSha256": "ef81238ea771c1e368988d35d68761fd7812e9ce6b935974d1784b3be9829d46",
+      "rowIndex": 104
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Ca5Sn4S13",
+      "formulaHashSha256": "f4482156da90752dfb9b4f6aa725586dc21c8864ea54294a27af2a634b9e6ebd",
+      "rowIndex": 106
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "CaEuO2",
+      "formulaHashSha256": "7d021abbee9a19ca334e3af296945b7ed47cd88e8c73d9a7d35e83f63b1db236",
+      "rowIndex": 108
+    },
+    {
+      "bandGap": 0.35,
+      "formula": "Cd0.37Hg0.63Te1",
+      "formulaHashSha256": "73e4b803ad3d274228d551dcb302fc1edd270616e8205c6a68ca52f424fbd8a5",
+      "rowIndex": 113
+    },
+    {
+      "bandGap": 0.55,
+      "formula": "Cd0.7Hg0.3Se1",
+      "formulaHashSha256": "693047b08ff8e14564f946ac7dcdbbe70c8860ded3ab84041b6aa8b54c15abc5",
+      "rowIndex": 114
+    },
+    {
+      "bandGap": 3.0,
+      "formula": "CdSnO3",
+      "formulaHashSha256": "d2b0c9f846261682780069a30baacd90fe296599acb8ec6717540d02822663b7",
+      "rowIndex": 125
+    },
+    {
+      "bandGap": 1.25,
+      "formula": "Ce1.3Lu0.7S3",
+      "formulaHashSha256": "0b8ad913f198daab7a9cc14cbbccfc9198cd7acd60b775eab0f141325d0f50f8",
+      "rowIndex": 128
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Ce3SiPt5",
+      "formulaHashSha256": "19520b111f81cb29f2229f11be04adca50f1460e9aa9d0f3871fce5828d87890",
+      "rowIndex": 135
+    },
+    {
+      "bandGap": 1.69,
+      "formula": "Ce4InSbSe9",
+      "formulaHashSha256": "86bf966e6872e2f44ad4507dcf6e908836bae748636e60f0dcb1ca5ac6ba3f32",
+      "rowIndex": 137
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "CeB2Ir3",
+      "formulaHashSha256": "371afd477256e7ca54cc3afcd9d8e068ca4a1dc30484c764d8b45b582d1c90e1",
+      "rowIndex": 141
+    },
+    {
+      "bandGap": 0.49,
+      "formula": "CoSb3",
+      "formulaHashSha256": "e175cc22299f492c9c40a28d9292be6b4efabbd19c645865dbfa42a9cf1f5d9b",
+      "rowIndex": 153
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Cr3P",
+      "formulaHashSha256": "98e5bbdeabf5852e533d59ae679980cf2f9cd7875156078cfa1233a6d2955644",
+      "rowIndex": 156
+    },
+    {
+      "bandGap": 1.84,
+      "formula": "Cs2Cd1.35Hg4.65S7",
+      "formulaHashSha256": "6ea95137f7328c125285f278556c02a4675f31a6653467c2df5d705e78e784cf",
+      "rowIndex": 161
+    },
+    {
+      "bandGap": 1.7,
+      "formula": "Cs2Cd2Bi2S5",
+      "formulaHashSha256": "c2ef9297e309bbb2b8a33e19c6ff03d647de9937fc95106781013851ab45aeb7",
+      "rowIndex": 162
+    },
+    {
+      "bandGap": 2.4,
+      "formula": "Cs2Cu(PS3)3",
+      "formulaHashSha256": "df74b375ac40e338ef2692cd98d5941ad57d33e8f2088bdf9881f2e6a6e29a09",
+      "rowIndex": 163
+    },
+    {
+      "bandGap": 1.0,
+      "formula": "Cs2La1.19Bi8.81S16",
+      "formulaHashSha256": "60466b7f626d3a00ec7007f38ab22fbb579e3fe410c67445611c7a1457fbd196",
+      "rowIndex": 164
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Cs2SCl6F",
+      "formulaHashSha256": "9f37c48c490d024491d36c338e52c08feb3dff720da8788c7eafdbc54e614612",
+      "rowIndex": 165
+    },
+    {
+      "bandGap": 6.53,
+      "formula": "Cs3Li4(BO2)7",
+      "formulaHashSha256": "39c322136b73502a2b0be8cbc4c47abeb60ed15954f42a8d380bada6745f20ea",
+      "rowIndex": 171
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Cs5Mo21Se23",
+      "formulaHashSha256": "00896be23f9544aa165d8d0812f8a69748044bf5c9a903be8420b96628def9af",
+      "rowIndex": 173
+    },
+    {
+      "bandGap": 3.09,
+      "formula": "CsCd4Ga5S12",
+      "formulaHashSha256": "b4cf32677c17a5b0e9c1ebbda1fe4e9502bcea8c1d35eaf999c6f3b5f9e71c2d",
+      "rowIndex": 175
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "CsNb6I11",
+      "formulaHashSha256": "60997e9b856b980d15df369de7b21c0ead82538e513ed7beb8a4645c57e6f069",
+      "rowIndex": 186
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "CsNi2F6",
+      "formulaHashSha256": "3b26c178eceb7820f6896708a695654176c7faaf4a690b514c6388a3f01f8828",
+      "rowIndex": 187
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "CuP2(HO3)2",
+      "formulaHashSha256": "6bb5ef80c110c2647a77a0dc0a367a4c5d840d05a5dab47c4efc53895c63d9d9",
+      "rowIndex": 202
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Dy3MnB7",
+      "formulaHashSha256": "3c5d8a453ba9948926a92613d101a06e6e0e7a97c23cc770c82137f4040931c2",
+      "rowIndex": 206
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "DyZnRh2",
+      "formulaHashSha256": "91ea4f899aeebe131b57a134d170e67fc64e80deb68aca2fe77bb75e4b6d1f8a",
+      "rowIndex": 212
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Er(CuGe)2",
+      "formulaHashSha256": "51b64f1ca9249ea1ac6776ae6f40113ecd06a357d065d5d8e54143a063c99f51",
+      "rowIndex": 213
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Eu2Ge(BO4)2",
+      "formulaHashSha256": "37363a03b790713a171318b5a63fbdd96340c5c04f22cd03ee1e64ca1b530be2",
+      "rowIndex": 226
+    },
+    {
+      "bandGap": 0.54,
+      "formula": "EuSb4Te7",
+      "formulaHashSha256": "7e439aad8d78196d2f3f2d4943567c463b2c55c460d1b297126207cd2f4a21de",
+      "rowIndex": 238
+    },
+    {
+      "bandGap": 1.22,
+      "formula": "Ga1As0.1P0.9",
+      "formulaHashSha256": "4ab18ddf4efcef515a7ce7228b46ab7781b8a7922a1a731d2325fee40082c222",
+      "rowIndex": 247
+    },
+    {
+      "bandGap": 0.37,
+      "formula": "Ga0.04Te1Pb0.96",
+      "formulaHashSha256": "3b11443d682acfaa9e62bb1d3d5120b8ac67ce7ab3aaffa504ff4a7d723749a4",
+      "rowIndex": 248
+    },
+    {
+      "bandGap": 0.68,
+      "formula": "Ga1.005Sb0.995Te0.015",
+      "formulaHashSha256": "87fea722434eb7ceca69059fac9d66e6d927e52b88fc9550fb19200535f35486",
+      "rowIndex": 250
+    },
+    {
+      "bandGap": 1.92,
+      "formula": "Ga1.85Cu0.15Se2.85",
+      "formulaHashSha256": "cbd19da1d4222cc60f1814e7103ab23b4c5828d9a34613eb0b0344439d86ff72",
+      "rowIndex": 253
+    },
+    {
+      "bandGap": 1.99,
+      "formula": "Ga1.99Cu0.01Se2.99",
+      "formulaHashSha256": "2dbd8cf192f859bd9e9b7b39b77784335168ccff3a7de6c993085034fdc893a7",
+      "rowIndex": 254
+    },
+    {
+      "bandGap": 1.28,
+      "formula": "Ga1Sb0.95As0.05",
+      "formulaHashSha256": "4310c3bbc50512c9ffdf91343812f3eb132166a52ff534e26c1aaeb953be874a",
+      "rowIndex": 256
+    },
+    {
+      "bandGap": 1.96,
+      "formula": "Ga2GePbSe6",
+      "formulaHashSha256": "549160502105ae163fa64a3fa81e8e401c598e7e9bd5319820dbc42ca337becc",
+      "rowIndex": 257
+    },
+    {
+      "bandGap": 2.38,
+      "formula": "Ga2PbS4",
+      "formulaHashSha256": "f5ac12285a6ffee7a252355c4f6cedf01c531d51c26b355f6ab577578389cf58",
+      "rowIndex": 260
+    },
+    {
+      "bandGap": 0.44,
+      "formula": "Ge0.25Te1Pb0.75",
+      "formulaHashSha256": "d10066db68fac14587664d6d7aafa480faaa3de4d2a55267b1036dc7b7df8633",
+      "rowIndex": 277
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Hf2Al3C4",
+      "formulaHashSha256": "74a6e432d539d6ee02f719db1e6ea34659abd0435bb3f01f6fde2aa025066763",
+      "rowIndex": 285
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Hf2ReRh",
+      "formulaHashSha256": "2fe284ffac8927439c6154e1fb97182ce4d1db233d424f4632532c6aca946ad7",
+      "rowIndex": 286
+    },
+    {
+      "bandGap": 5.55,
+      "formula": "HfO2",
+      "formulaHashSha256": "ac0fe2b14ffd68a379ba9c883d79674aba230af6d97cf0eeb39b3da48fc3e301",
+      "rowIndex": 293
+    },
+    {
+      "bandGap": 1.29,
+      "formula": "In(PSe2)2",
+      "formulaHashSha256": "38a009b45d0fd2ef13689447a158d0ebc74ab4118fc9d6a05d7e834d1b1ce19f",
+      "rowIndex": 315
+    },
+    {
+      "bandGap": 1.0,
+      "formula": "In0.3Ga0.7As1",
+      "formulaHashSha256": "3170c21e7281749798c450f6a37275be24dc036deb7794f11097ca8ed7848b02",
+      "rowIndex": 319
+    },
+    {
+      "bandGap": 0.14,
+      "formula": "In1Sb0.1As0.9",
+      "formulaHashSha256": "7a53498eed8b11e17c0794b920001d927cbf61f7fc8bfeed94b69e55c6c7e359",
+      "rowIndex": 326
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "InSiIr",
+      "formulaHashSha256": "e40a09d0e0d1c5ced42c32c28270b8f61206386c168526cd5e0433385ed7b1fc",
+      "rowIndex": 338
+    },
+    {
+      "bandGap": 1.64,
+      "formula": "K2In3AgSe6",
+      "formulaHashSha256": "8db4859714b851ea896f1791e2740225069315c1a6c12fa59d510142c9f3c13c",
+      "rowIndex": 349
+    },
+    {
+      "bandGap": 2.2,
+      "formula": "K3Sm(AsS4)2",
+      "formulaHashSha256": "44201e5f1b69f65b80681fa3e4b72df7523f968561957db1b2da79abc057581e",
+      "rowIndex": 358
+    },
+    {
+      "bandGap": 0.8,
+      "formula": "K4GeS4",
+      "formulaHashSha256": "50b9bd79f2c70bda942314eb945c471861907d284d02ae0630b6cb7d58d1a201",
+      "rowIndex": 363
+    },
+    {
+      "bandGap": 1.54,
+      "formula": "KCeSe4",
+      "formulaHashSha256": "832c7af8c4972f83d8af8f939f83848c6482cc88293e16b3603de4fa0170c836",
+      "rowIndex": 372
+    },
+    {
+      "bandGap": 0.64,
+      "formula": "KRbBi8Se13",
+      "formulaHashSha256": "fd777060ddf93f52ad4356101bee7d83304b8fccf6cba6a625256700da1009d8",
+      "rowIndex": 378
+    },
+    {
+      "bandGap": 4.64,
+      "formula": "KSb(SO4)2",
+      "formulaHashSha256": "129e687d103bf2ecbc9fd40e8990f67727c40015690e8a7ca87de1c08fa4dd06",
+      "rowIndex": 379
+    },
+    {
+      "bandGap": 2.32,
+      "formula": "KZn4(BO3)3",
+      "formulaHashSha256": "fa403a129b9bac25fcfe4d2b6ddfe0c37d6416579e31e78053acd2047d7d372d",
+      "rowIndex": 383
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "La10Mn9O30",
+      "formulaHashSha256": "71f6606e30c3404e8d337a0c6aed18d1a9775f23d4b073f0cecac86af8bc3038",
+      "rowIndex": 388
+    },
+    {
+      "bandGap": 2.78,
+      "formula": "La2Ga2GeS8",
+      "formulaHashSha256": "0445cc441d29ad4fb65e1dfe94d64d5dcddf6c724d129f16b5291b750b339369",
+      "rowIndex": 389
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "La2Ni5B4",
+      "formulaHashSha256": "da7f1b620458ae0193c4df9645c850d1872db4e51d7e99057fea9c4c93e83108",
+      "rowIndex": 394
+    },
+    {
+      "bandGap": 1.15,
+      "formula": "La2YbCuSe5",
+      "formulaHashSha256": "0af869021982f70b569a0fcbb62728bed497859f4ca7f70e5a5a4370c6a1a221",
+      "rowIndex": 396
+    },
+    {
+      "bandGap": 0.43,
+      "formula": "La3Te4",
+      "formulaHashSha256": "b6f556fc361b42b339dd1e03ad61cb0fbb7da768f9d79ccce43974f88c3ef18a",
+      "rowIndex": 401
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "LaGa3Pd2",
+      "formulaHashSha256": "b15e7705e183c3f7041da2502d439362c3830a43d1d3ae647d2b593d60a8a916",
+      "rowIndex": 407
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "LaIn2Ir",
+      "formulaHashSha256": "c76562ede125096413d269b25e46bd714d59da6093758895228d7ea970d746eb",
+      "rowIndex": 410
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "LaPd3S4",
+      "formulaHashSha256": "c199036a7574e949643185286a3d99c1e860ee816b81cb9f7190ebc146672abb",
+      "rowIndex": 413
+    },
+    {
+      "bandGap": 0.8,
+      "formula": "LaSb",
+      "formulaHashSha256": "b2961a29eb758b0c9cfdccd068ead73b12c21468cd833c262eefb1a40ff13adf",
+      "rowIndex": 415
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Li2CrCo3O8",
+      "formulaHashSha256": "2e10260f0cbf5e86329e042f8d3d024305323b9b8c0f1f05d4c81ffe55d77354",
+      "rowIndex": 420
+    },
+    {
+      "bandGap": 1.86,
+      "formula": "Li2FeSnS4",
+      "formulaHashSha256": "8be16d48249c7795bf97c644e79e2065ef5bd32a5b3e3f23d5341b4acecd5c49",
+      "rowIndex": 422
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Li2FeWO6",
+      "formulaHashSha256": "2615746969bf9e670cbb59badc42808ef8e8b59660f1e4ea8b1e9e41d03a82e0",
+      "rowIndex": 423
+    },
+    {
+      "bandGap": 1.1,
+      "formula": "Li2ZnGe",
+      "formulaHashSha256": "0fd61d9dada00d25b8f5dac8ec271504866a2b573b07495cca582a888f25b403",
+      "rowIndex": 433
+    },
+    {
+      "bandGap": 1.87,
+      "formula": "Li2ZnSnSe4",
+      "formulaHashSha256": "953bcdfc971676b9ff8623ef9af4bb0ddda989bdef8499a9c2329bc4cdda4aeb",
+      "rowIndex": 434
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Li3(CuO2)2",
+      "formulaHashSha256": "68d15fd45e0cb426e40e3a361a7e9548eb8526486ab7959abd47dbce3ed6f47c",
+      "rowIndex": 435
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Li3Cr3(CuO6)2",
+      "formulaHashSha256": "98507beb07a45e2429c8ca2abf4eab40aa3923b10f3367949b97f00f384b0cd5",
+      "rowIndex": 437
+    },
+    {
+      "bandGap": 3.85,
+      "formula": "Li3GaTe4O11",
+      "formulaHashSha256": "9a7c4a9427d2fb8324904f1450c09c760cb0d1f06f744abcec677eefc521035f",
+      "rowIndex": 440
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Li3Ni3(PO4)4",
+      "formulaHashSha256": "044c450b5c8c081fceaa1b380880298d7e5afa750ae6bae7aab2a95f59bee500",
+      "rowIndex": 444
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Li3Ti2(PO4)3",
+      "formulaHashSha256": "eacf33d08b6837c0cda4c6ade348a61575cb9e6fe47ee4e730e73211d7875315",
+      "rowIndex": 445
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Li4Mn5Nb3O16",
+      "formulaHashSha256": "f29cb074163e1a8f5d3784eed845751e7568ad9a6187cb9c693da846fce88cfb",
+      "rowIndex": 454
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Li6FeO5F",
+      "formulaHashSha256": "6dcf636e615267e214bea2040a148dd50479cbecb4b707bdc88c840afd82b3ed",
+      "rowIndex": 459
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "LiAlGe",
+      "formulaHashSha256": "b13cea7cf6a4db780cdc7564b547c21f481230a459f81ec79e7ad98f49651c5d",
+      "rowIndex": 466
+    },
+    {
+      "bandGap": 4.75,
+      "formula": "LiB9PbO15",
+      "formulaHashSha256": "a4d78fd5582ca3cc8fe0de58e47157acac2274876a5faa1458ca2a23bdd116c8",
+      "rowIndex": 467
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "LiCa2In",
+      "formulaHashSha256": "f3032acab85c59b249055114a1dd0b5487ddf746e39165c1d5f9ec40e8d0a30a",
+      "rowIndex": 469
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "LiMnSiO4",
+      "formulaHashSha256": "1694d25a363659605139fee7e656b83d3b12d827d99131d6e947ce2cb1d2f17e",
+      "rowIndex": 477
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "LiSiPd2",
+      "formulaHashSha256": "9c620e5748c7b8dc3fa44ab07aab1b70ca42e895f6cb499f1fee17cc518c6966",
+      "rowIndex": 479
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "LiTiSiO4",
+      "formulaHashSha256": "8492d496839a6d16306aed4dd17e8242494ea57e5d94c04b35b50d9e087b113f",
+      "rowIndex": 481
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "LiY2Ru",
+      "formulaHashSha256": "d78e1e17b98ea82a3e8ae3c4bfdc045886cafbe63311f5a59887fc1c53666a53",
+      "rowIndex": 483
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Lu(SiOs)2",
+      "formulaHashSha256": "3c666e357435579c9f71fc55a6c4436c29d030c56cac9c0a02d839a3a528de45",
+      "rowIndex": 486
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "LuIr2",
+      "formulaHashSha256": "779a6baf04492683936c3293e50a960e4b100bb691feb9218833de1d3ca586d7",
+      "rowIndex": 492
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Mg(SnO2)4",
+      "formulaHashSha256": "c9cc81b515437f1867096e5c848be4027f01e7dfd4f9fffd6edd1c0ca2e4c070",
+      "rowIndex": 496
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Mg(TiS2)4",
+      "formulaHashSha256": "0380bda5ec56542e1d6560a7e62c4c3f78563e009f81979779801dc32affd262",
+      "rowIndex": 497
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Mg2AgIr",
+      "formulaHashSha256": "88ddcb0afe0787688d4b14575ad801f39baa4ffce92e5787f52e504d61e66c22",
+      "rowIndex": 500
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Mg2Cu",
+      "formulaHashSha256": "c6784c83f6b2061b8577fa0261ce88558efdc8779e4321b1b9c52738c7fd9c4f",
+      "rowIndex": 501
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "MgCuSb",
+      "formulaHashSha256": "ba69ce44292ad7f4a15a76f290b62dd5bcf167bb59e44e18f91b50f4ab02eb94",
+      "rowIndex": 507
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "MgInPd2",
+      "formulaHashSha256": "18f5ec1425abf2347edbaae93a118bef0229b4f26d636c6dc0a6fdc116d9a460",
+      "rowIndex": 508
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "MgSc",
+      "formulaHashSha256": "61fecff7020b943a3d1f07de4797df425b5a1ab714688642e7955788bb56c3ac",
+      "rowIndex": 511
+    },
+    {
+      "bandGap": 0.37,
+      "formula": "Mn0.05Te1Pb0.95",
+      "formulaHashSha256": "3ff17207de9ed9edcbc2c90426ef8f93ae746066e1768097f69972326baa8498",
+      "rowIndex": 516
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Mn2GeS4",
+      "formulaHashSha256": "41e6fb2c3a27775f088b5637121cf04276866577a594f2c21a61dc975da8a498",
+      "rowIndex": 518
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "MnGaPt",
+      "formulaHashSha256": "4ad9fdf6d8bcad3c1584fd093401a64728fa12b34d5f95a4edd6c744513dd590",
+      "rowIndex": 521
+    },
+    {
+      "bandGap": 1.45,
+      "formula": "MnIn2PbS5",
+      "formulaHashSha256": "64c48056112582307f570149095cac8231fb9914775995473a1befc1f9d4a7bb",
+      "rowIndex": 524
+    },
+    {
+      "bandGap": 2.45,
+      "formula": "Na2Sn2Hg3S8",
+      "formulaHashSha256": "a212ea88c9e09204a7e791982abfe8ccea1fe647cb6294eb82f5384d7927a38d",
+      "rowIndex": 533
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "NaAsO3",
+      "formulaHashSha256": "bce38c0aa2001fdfaa031169b368d96a9b0842974a57a557ac0c320407d90f6d",
+      "rowIndex": 536
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "NaC",
+      "formulaHashSha256": "cb4e3dc1938e12f9c8d80d1c2a57ec4226d7aa4537205f04c245827898e7e616",
+      "rowIndex": 538
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "NbHg3F6",
+      "formulaHashSha256": "16d884fafa941256e4841921ee7929ae31c78858e59e9fcc598ee119f89da103",
+      "rowIndex": 554
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Nd2BC",
+      "formulaHashSha256": "5e2538d5bb0913e986a494ccc45f3d2e790a970f48857d117deb752a0503f4cd",
+      "rowIndex": 559
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Nd2Ru2O7",
+      "formulaHashSha256": "67bcca4d08db6b115c6733d021464090203df079ef50185543197acbd87b5442",
+      "rowIndex": 561
+    },
+    {
+      "bandGap": 2.65,
+      "formula": "Nd2S3",
+      "formulaHashSha256": "dba2d3c1332350b15bef83db60d58bad4cc6ff60750b50533808eb1430cd73ce",
+      "rowIndex": 562
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Nd5Ge3",
+      "formulaHashSha256": "408c7a40b2c3bc892b14987bc4ddb7b2279b95cdd8e8b28ff3fd48c8dca7453a",
+      "rowIndex": 569
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Ni23B6",
+      "formulaHashSha256": "66961106ef0100c696e004e956d40e30c9b09e59e254336a3217ce69f243be58",
+      "rowIndex": 577
+    },
+    {
+      "bandGap": 4.0,
+      "formula": "NiO",
+      "formulaHashSha256": "250defb004655228f64fc4c98429540d464f94001fb0e42a6a3bfeb2f5f6cdf5",
+      "rowIndex": 579
+    },
+    {
+      "bandGap": 2.0,
+      "formula": "OsS2",
+      "formulaHashSha256": "e3a622531460156b2c2629ff0be75c0313e0f9a397027a067fc72644e04d95fd",
+      "rowIndex": 581
+    },
+    {
+      "bandGap": 1.38,
+      "formula": "PPdS",
+      "formulaHashSha256": "3318f9d8eb3e9ec28025c7ec1a00dd7cea9ab3f7c809600d9c598ec2322f8643",
+      "rowIndex": 586
+    },
+    {
+      "bandGap": 0.27,
+      "formula": "Pb1Se0.9S0.1",
+      "formulaHashSha256": "905e69d9e9867fae1da4fd0a0fc0cb891aa7347bc66b62e39f4a2a11e3db8bef",
+      "rowIndex": 589
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "PrAl3Ni2",
+      "formulaHashSha256": "e21fcbc82ca4b62064e110013ab6a9fdfeaaf74b27949ee8155f21c2d77d6e3c",
+      "rowIndex": 596
+    },
+    {
+      "bandGap": 1.33,
+      "formula": "Rb1.54Cd1.54Bi2.46S6",
+      "formulaHashSha256": "4af86953b9bb2dce8ff6a40defb29eab4aea6aaa312c1348b0997453aef43aae",
+      "rowIndex": 604
+    },
+    {
+      "bandGap": 2.19,
+      "formula": "Rb2NbCuSe4",
+      "formulaHashSha256": "c28205ec74d95f8ec6e8a45fcc361076565a58a628786c45f9dcd3f9a6caa137",
+      "rowIndex": 610
+    },
+    {
+      "bandGap": 2.14,
+      "formula": "Rb2TeBr6",
+      "formulaHashSha256": "2834c560e7de1a1cb02ffc62765c6ae61532f2a021b28de27d43e70d98584f3a",
+      "rowIndex": 612
+    },
+    {
+      "bandGap": 1.0,
+      "formula": "RbNa2Sb",
+      "formulaHashSha256": "ebb34f9d91eb0c1226c026535408fd59f00af70516fc9c4d1464f2debc209789",
+      "rowIndex": 626
+    },
+    {
+      "bandGap": 4.9,
+      "formula": "RbSc(SeO3)2",
+      "formulaHashSha256": "22a2b7ce5adff18c585d70a7c458286b0a71c26b6b9984cf58cb35dc703093da",
+      "rowIndex": 628
+    },
+    {
+      "bandGap": 0.8,
+      "formula": "Rh2S3",
+      "formulaHashSha256": "758199a10aa36870f71b7392d62bea099f3bde54c9d74628eda4beb199298f57",
+      "rowIndex": 638
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Sb2I2F11",
+      "formulaHashSha256": "c0f5e3c991ca519dece77b86ac5919032a96856c87745a049922bfbc5be618a2",
+      "rowIndex": 641
+    },
+    {
+      "bandGap": 1.8,
+      "formula": "Sb2PbSe4",
+      "formulaHashSha256": "680c894d30de1d8894dec4178ad251bb205f535dac6652938efb13401a647e46",
+      "rowIndex": 642
+    },
+    {
+      "bandGap": 0.4,
+      "formula": "SbOsSe",
+      "formulaHashSha256": "261ceff0cd9de9cc7a2a23e5190091461ccf4558efdf555ea6267016b2dfd47e",
+      "rowIndex": 643
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "SbRh3",
+      "formulaHashSha256": "8e8d035941dde5f0ecccdabf0ed910f297c0466ab6eb3a292d3389ffe5886433",
+      "rowIndex": 644
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Sc5Pb3",
+      "formulaHashSha256": "5371fc9dafed8897af6cd31630c7083b7df45230e6ab4fbb8568d3f91b36eb16",
+      "rowIndex": 656
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Sc6FeSb2",
+      "formulaHashSha256": "54d4f59ab87ba2a42b18edd9f3b92d3a5830556b6a0feb0539bc886eaf6885f8",
+      "rowIndex": 657
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "ScCoGe2",
+      "formulaHashSha256": "0af88e6ed1f2112e2cc401699b30f8d65bc3911bce3466cf3a5ed45b3117f337",
+      "rowIndex": 659
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "ScRh",
+      "formulaHashSha256": "a82cebb7b7cf0052f0fe41314a252712aaec7a636253f20c47dba771a60b7a8f",
+      "rowIndex": 660
+    },
+    {
+      "bandGap": 0.88,
+      "formula": "SiAs2",
+      "formulaHashSha256": "c7a06f28d03ba05b4c06449e3e181b323d5040ce77fa01038e317785d4353f96",
+      "rowIndex": 672
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Sm4U4O17",
+      "formulaHashSha256": "28b3e7af0965b637fd06718ab0fea9c1ffc3ca0462a60133c6aa4ce4cbddceca",
+      "rowIndex": 678
+    },
+    {
+      "bandGap": 0.13,
+      "formula": "Sn0.08Te1Pb0.92",
+      "formulaHashSha256": "98652e1f70ca72c957103f2cc53e2fd7af292425c491b77fae958c76a39fee36",
+      "rowIndex": 693
+    },
+    {
+      "bandGap": 0.89,
+      "formula": "Sn1Se0.99S0.01",
+      "formulaHashSha256": "a8ff864e1e5aede2ef4e5655be6410ab3c1a85130472796307a5cdb8e17de307",
+      "rowIndex": 696
+    },
+    {
+      "bandGap": 1.62,
+      "formula": "SnSe2",
+      "formulaHashSha256": "f52cfa603bd18853fdfca7f42a897ca1b96d5a2a507e47bb00b87c3a6f4eedb3",
+      "rowIndex": 701
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Sr2CoReO6",
+      "formulaHashSha256": "2b6fb5b4268677f3d057f77869d79bbc607d488cf0a94cfbf27c49d1040aa269",
+      "rowIndex": 704
+    },
+    {
+      "bandGap": 3.26,
+      "formula": "Sr3Ti2O7",
+      "formulaHashSha256": "70e7261880ce9152fe4968c0474ba29cc10f544414e2246604fa47682d249417",
+      "rowIndex": 709
+    },
+    {
+      "bandGap": 0.05,
+      "formula": "Sr4Ga8Ge15",
+      "formulaHashSha256": "39d241d55d2cd3dd9bc4b8b7e030c5e8118ecfdc5bdf6a197673d918b6f85aad",
+      "rowIndex": 710
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Sr8Fe3N8",
+      "formulaHashSha256": "62d974e5cb575b300e51e89a15f8b954737c7e25af0233a21cc3e22b3ec46b6f",
+      "rowIndex": 712
+    },
+    {
+      "bandGap": 5.7,
+      "formula": "SrO",
+      "formulaHashSha256": "e7dde17b107f09b86b725067691fd105de2ac66738a186b1091963811d2bf884",
+      "rowIndex": 718
+    },
+    {
+      "bandGap": 3.2,
+      "formula": "SrPb3Br8",
+      "formulaHashSha256": "1d25719c5dff97e978d87bb1f07fad08b4720c7b50b75d9239450fc35263b620",
+      "rowIndex": 719
+    },
+    {
+      "bandGap": 4.75,
+      "formula": "SrSeO4",
+      "formulaHashSha256": "d6bb9fb479a1fe93d5136e5f8bcdfc6e913b4f67051878031d988508b06b10af",
+      "rowIndex": 723
+    },
+    {
+      "bandGap": 4.59,
+      "formula": "Tb4Al2O9",
+      "formulaHashSha256": "01e7a26fc5e33ae08853327b1004a6471ad60ed342a2db3a1e19e34030b6c3e2",
+      "rowIndex": 737
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "TbCu5",
+      "formulaHashSha256": "a8cf3edf55f0bc34f2f65401da3bf26632af927c05abf58a09b0a6d613b6210f",
+      "rowIndex": 740
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "TbGa3",
+      "formulaHashSha256": "a11d14e6cc5838e52823d843c8abe2125ccacdfd542830e5af7794ab51dba4e6",
+      "rowIndex": 741
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "TbRh2",
+      "formulaHashSha256": "f9dda99c11c8fea61b0f3019d064af2690eebae8629681c3bc45903a3ca84480",
+      "rowIndex": 744
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Th(FeSi)2",
+      "formulaHashSha256": "c8a15491cba24df9a179fac6b987b11d714157da4197cc1665898c0e94c1357e",
+      "rowIndex": 753
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "ThCrB4",
+      "formulaHashSha256": "43ad613aaf2578518701797ed27bf8dd2c81ac00220dfe9fa4f88be81bec2567",
+      "rowIndex": 757
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Ti2TcPd",
+      "formulaHashSha256": "e0f64bfae918bc624f6a6cfe29bca9013ce8a313481442c0e8e49651f70d2c2a",
+      "rowIndex": 766
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Ti9O8",
+      "formulaHashSha256": "73c846d25651c6b4ab11c2b12abb0fa654f98f8c2137b2372a860776e0ea8ebd",
+      "rowIndex": 771
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "TiFe2As",
+      "formulaHashSha256": "b47ac5c9b9eae3096ea031efdfbd3212f9fd4153482769b42d4ce1edb4b26dcb",
+      "rowIndex": 774
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "TiGaIr2",
+      "formulaHashSha256": "d35181c7354b20e4784ae0917f9383d514217f36b9951b73d401548666d3dde7",
+      "rowIndex": 776
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "TiMn2Al",
+      "formulaHashSha256": "43a65f705f2187847a4ae91e709c1a80ce8cba4adce7aaffabf7687b8134a8c4",
+      "rowIndex": 777
+    },
+    {
+      "bandGap": 0.3,
+      "formula": "Tl0.001Te1Pb0.999",
+      "formulaHashSha256": "e8f0ccc20db042ce53a937258e285dc500df324a3087482db2287e9ce5c32ff1",
+      "rowIndex": 783
+    },
+    {
+      "bandGap": 0.36,
+      "formula": "Tl2GeTe3",
+      "formulaHashSha256": "47175a791f11689039839a3417d9e6d7a9399d1d767cde21ac75e460beb602e0",
+      "rowIndex": 784
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Tl3Cr",
+      "formulaHashSha256": "c24add1a93e27bc25fb059af2b74b29286e9877f87498b548545a566fa164ab4",
+      "rowIndex": 788
+    },
+    {
+      "bandGap": 0.1,
+      "formula": "TlAgTe2",
+      "formulaHashSha256": "1a15318647112c5a80386391703683252432d4844040847ac023c38f37104a69",
+      "rowIndex": 791
+    },
+    {
+      "bandGap": 2.15,
+      "formula": "TlAsS2",
+      "formulaHashSha256": "7eeec2078355a3f3e3abc53e1439eea270c6f5161946d4f13e05138f8107edd0",
+      "rowIndex": 792
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "TlCoBi",
+      "formulaHashSha256": "9d9078fec5715c0a315ccae02a1941f9c32c26ffbbe66b3db18774d010b0175e",
+      "rowIndex": 794
+    },
+    {
+      "bandGap": 1.4,
+      "formula": "TlN",
+      "formulaHashSha256": "7ce2b0b378f7d1be8ccbb599ca82550c0e9d548484e5c9792f4fd16ce9f10386",
+      "rowIndex": 798
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "TlZn2Tc",
+      "formulaHashSha256": "b1e15aa38adddf1ab330ebeb979172dc01a1aed6095f00bf67ccaf6dc2ec23e2",
+      "rowIndex": 802
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "U2Zn17",
+      "formulaHashSha256": "1742b4baf33809a4a3aaa30adc0f304ced720781ebf74a3d641f416bf1f58ac9",
+      "rowIndex": 819
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "U3Cu2Se7",
+      "formulaHashSha256": "7182529b2a8b31f43bfd97a04fd30aca2a0db2d6720172bff7a605d6991d57ad",
+      "rowIndex": 820
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "UGeRh",
+      "formulaHashSha256": "2593d14d4555b383cd62f7ece1b507d86714dcc75ea5da57c0a6555b36e9dadb",
+      "rowIndex": 826
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "UPt3",
+      "formulaHashSha256": "f31992dd8f6e5bd777d190cc2263269ecde0d1caf9203a1efa60429566212658",
+      "rowIndex": 827
+    },
+    {
+      "bandGap": 2.66,
+      "formula": "V3Cd4(TeO5)3",
+      "formulaHashSha256": "76dbf0f352aa747846e6a3bd894a017104d86ae95861ae4f047c720c8e8b84ad",
+      "rowIndex": 832
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "V5SiB2",
+      "formulaHashSha256": "27ccc8f724e9ed321e8db35185721b62bd1cfa23a5e11d6ecbc4b9ebc76451a3",
+      "rowIndex": 835
+    },
+    {
+      "bandGap": 1.92,
+      "formula": "VIn(NiO3)2",
+      "formulaHashSha256": "e8d7e1531c3647fe0fddfd3abbc104cef19fbf22ff43830b980d7c07fffeae36",
+      "rowIndex": 840
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Y(SiPt)2",
+      "formulaHashSha256": "468f3a0422557c5f6a895f73d5014b4352acde289314dd74037dffdace6f5dac",
+      "rowIndex": 846
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Y2U3O11",
+      "formulaHashSha256": "9649fedf63ce904cdd944cedbb30f9976fa5fae3a7604eb0c16456a002661097",
+      "rowIndex": 848
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "YAlPd",
+      "formulaHashSha256": "b89ab8fd041acf14780d7aa91bafd24343b56c4dba2c369b9faa8f0d5e621be2",
+      "rowIndex": 856
+    },
+    {
+      "bandGap": 4.83,
+      "formula": "YH2NO5",
+      "formulaHashSha256": "7527ba762719762abd18887ef81f2ff8d848dfebfacbe58ec9aab5887dd7d53d",
+      "rowIndex": 861
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "YMgGa",
+      "formulaHashSha256": "9b28645573620f3b355dc9a95afd92adad709a43123745e7f9b8ac7ba5899a79",
+      "rowIndex": 862
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Yb2Sn",
+      "formulaHashSha256": "163abb803c3746c70dc6a604699b59d5cb25e4dce5cbc51fe60fe251a4ebd855",
+      "rowIndex": 871
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Yb8Ge3Sb5",
+      "formulaHashSha256": "85f0eb2ae7cc98b27dc9cada7429318a9a1872fcc8c5f8f49d5e2257fa51ee6a",
+      "rowIndex": 874
+    },
+    {
+      "bandGap": 1.35,
+      "formula": "YbNd2CuS5",
+      "formulaHashSha256": "4c00f18a9ef5fad547083fa3e9f971b9ac7085c2ec280ed892af3671b2df7c11",
+      "rowIndex": 879
+    },
+    {
+      "bandGap": 1.28,
+      "formula": "YbSm2CuS5",
+      "formulaHashSha256": "c822639331a8b3b401fb0d8b13db9e9e3568ee19401f7143fbffb6338f239391",
+      "rowIndex": 881
+    },
+    {
+      "bandGap": 0.8,
+      "formula": "Zn0.55Hg0.45Se1",
+      "formulaHashSha256": "0f27fe396bbc940baf46b32c0243676cf0166ef2a449ca96129f6cc1666ba66e",
+      "rowIndex": 885
+    },
+    {
+      "bandGap": 1.8,
+      "formula": "Zn0.6Ga0.4As0.4Se0.6",
+      "formulaHashSha256": "72ce26c057388116a8bb3f50e5945fd3eebf27c46fd68035bc41c4e74c1f8858",
+      "rowIndex": 888
+    },
+    {
+      "bandGap": 1.93,
+      "formula": "Zn0.7Ga0.3As0.3Se0.7",
+      "formulaHashSha256": "36b7a20b128f52848d4f0e5de5829465ec6f901ea618053be970711b11aada68",
+      "rowIndex": 889
+    },
+    {
+      "bandGap": 2.25,
+      "formula": "Zn0.85Ga0.15As0.15Se0.85",
+      "formulaHashSha256": "638fcfdd8be91f8e24ec502a29db251be642bab38730065f72ee2305cc06d445",
+      "rowIndex": 890
+    },
+    {
+      "bandGap": 3.0,
+      "formula": "Zn4.5Ga1Sn0.5O7",
+      "formulaHashSha256": "0bcd4505a57468908db1874b017c15748948e6906828c183825ae5e1dac049d0",
+      "rowIndex": 898
+    },
+    {
+      "bandGap": 1.63,
+      "formula": "ZnCu2GeSe4",
+      "formulaHashSha256": "49e178e3e0aaf29daf28de1069d5903df871caa0e0c5814714f59d69c793aefb",
+      "rowIndex": 902
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "ZnIrO3",
+      "formulaHashSha256": "c124474bb6b6072cd439a2295b661900789315bf1d4294a4b3a721ef4c8c9f71",
+      "rowIndex": 903
+    },
+    {
+      "bandGap": 0.0,
+      "formula": "Zr6Al2CoH10",
+      "formulaHashSha256": "cf6bee71186b8e4e30d92594d96a3c9323b41a744dabedf7b9305c9f1186fcb7",
+      "rowIndex": 908
+    },
+    {
+      "bandGap": 2.0,
+      "formula": "ZrSe2",
+      "formulaHashSha256": "35524eb185fef139750a58c36e63bf02bb4208bf44c6c8d8d11d1ac13f669082",
+      "rowIndex": 918
+    }
+  ],
+  "kind": "reconstructed_holdout_manifest",
+  "leakageAssessment": "The holdout is selected deterministically from formula hashes and is useful for public replay. It does not prove Product-recorded source-family independence.",
+  "originalProductHoldoutManifestRecovered": false,
+  "replayFeasible": true,
+  "splitRule": "sha256(formula)[0:8] modulo 5 equals 0 for holdout; all other buckets train",
+  "status": "reconstructed_public_raw_data_proxy_artifacts_not_original_product_artifacts"
+}

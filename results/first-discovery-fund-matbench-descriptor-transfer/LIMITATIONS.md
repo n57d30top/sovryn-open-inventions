@@ -32,6 +32,8 @@ The package now supports public inspection of the Product evidence without priva
 
 The package also includes a fully specified raw-data proxy experiment with `RAW_DATA_FEATURE_MATRIX.json`, `RAW_DATA_SPLIT_MANIFEST.json`, `RAW_DATA_REPRODUCIBLE_EXPERIMENT_SPEC.md`, `RAW_DATA_BASELINE_IMPLEMENTATIONS.md`, and `RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.md`. That proxy experiment is reproducible from public Matbench data, but it is not the original Product descriptor-transfer computation and does not restore discovery-score eligibility.
 
+After a second targeted Product-State search, the package also includes `ORIGINAL_RESEARCH_ARTIFACT_SEARCH_REPORT.md` and reconstructed public raw-data artifacts listed in `RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.md`. These reconstructed files are reviewer aids for the public proxy experiment. They are not recovered original Product artifacts and must not be used to claim the old Product candidate is externally reproducible.
+
 The script does not exactly recompute the scientific descriptor-transfer residual, all baselines, holdout, and counterexamples from raw public Matbench data. Exact scientific reproduction failed because the missing inputs listed in `MISSING_REPRODUCTION_INPUTS.md` are not available.
 
 ## Evidence Limitation
@@ -48,6 +50,8 @@ The public package exposes copied Product artifacts and public source URLs. It d
 - a statistical uncertainty interval;
 - a p-value or confidence interval;
 - an independently authored reviewer report.
+
+Reconstructed proxy versions of the descriptor matrix, featurizer config, model/training config, target subset, residual formula, baseline definitions, holdout manifest, counterexample manifest, and replay manifest are now present. They are marked as reconstructed and are not original Product scientific inputs.
 
 ## Scoring Limitation
 

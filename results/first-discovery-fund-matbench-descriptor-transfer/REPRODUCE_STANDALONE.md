@@ -24,6 +24,16 @@ This file describes the minimal public-data reproduction path added after extern
   - `RAW_DATA_FEATURE_MATRIX.json`
   - `RAW_DATA_SPLIT_MANIFEST.json`
   - `RAW_DATA_BASELINE_IMPLEMENTATIONS.md`
+- writes reconstructed public raw-data artifacts:
+  - `RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.md`
+  - `RECONSTRUCTED_FEATURIZER_CONFIG.json`
+  - `RECONSTRUCTED_MODEL_TRAINING_CONFIG.json`
+  - `RECONSTRUCTED_TARGET_SUBSET_MANIFEST.json`
+  - `RECONSTRUCTED_RESIDUAL_FORMULA.json`
+  - `RECONSTRUCTED_BASELINE_IMPLEMENTATIONS.json`
+  - `RECONSTRUCTED_HOLDOUT_MANIFEST.json`
+  - `RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.json`
+  - `RECONSTRUCTED_REPLAY_MANIFEST.json`
 
 ## Run
 
@@ -57,6 +67,8 @@ That status means:
 - public Einstein/Nobel discovery-score eligibility is false.
 
 It also means the package now contains a reproducible public raw-data proxy computation. That proxy does not reproduce the original Product descriptor-transfer claim and must not be treated as discovery-scored evidence.
+
+The reconstructed artifacts are public replay aids for the proxy computation. They are not recovered original Product artifacts.
 
 ## Why Exact Reproduction Is Not Yet Possible
 

@@ -76,7 +76,27 @@
     "RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.json",
     "RAW_DATA_FEATURE_MATRIX.json",
     "RAW_DATA_SPLIT_MANIFEST.json",
-    "RAW_DATA_BASELINE_IMPLEMENTATIONS.md"
+    "RAW_DATA_BASELINE_IMPLEMENTATIONS.md",
+    "ORIGINAL_RESEARCH_ARTIFACT_SEARCH_REPORT.md",
+    "ORIGINAL_RESEARCH_ARTIFACT_SEARCH_REPORT.json",
+    "RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.md",
+    "RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.json",
+    "RECONSTRUCTED_DESCRIPTOR_MATRIX.md",
+    "RECONSTRUCTED_FEATURIZER_CONFIG.md",
+    "RECONSTRUCTED_FEATURIZER_CONFIG.json",
+    "RECONSTRUCTED_MODEL_TRAINING_CONFIG.md",
+    "RECONSTRUCTED_MODEL_TRAINING_CONFIG.json",
+    "RECONSTRUCTED_TARGET_SUBSET_MANIFEST.md",
+    "RECONSTRUCTED_TARGET_SUBSET_MANIFEST.json",
+    "RECONSTRUCTED_RESIDUAL_FORMULA.md",
+    "RECONSTRUCTED_RESIDUAL_FORMULA.json",
+    "RECONSTRUCTED_BASELINE_IMPLEMENTATIONS.json",
+    "RECONSTRUCTED_HOLDOUT_MANIFEST.md",
+    "RECONSTRUCTED_HOLDOUT_MANIFEST.json",
+    "RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.md",
+    "RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.json",
+    "RECONSTRUCTED_REPLAY_MANIFEST.md",
+    "RECONSTRUCTED_REPLAY_MANIFEST.json"
   ],
   "fundGatePassed": true,
   "failedFundGates": [],
@@ -96,7 +116,9 @@
     "Human expert review is required before any stronger interpretation of scientific significance.",
     "No external validation or external adoption is claimed.",
     "The public-safe full bundle has been exported and searched, but it contains Product runtime evidence rather than the missing raw scientific reproduction inputs.",
-    "A separate raw-data proxy experiment is now fully reproducible from public Matbench data, but it is not the original Product descriptor-transfer computation and does not count as discovery evidence."
+    "A separate raw-data proxy experiment is now fully reproducible from public Matbench data, but it is not the original Product descriptor-transfer computation and does not count as discovery evidence.",
+    "Original raw scientific descriptor-transfer artifacts were not found in Product state after targeted search.",
+    "Reconstructed public raw-data artifacts are provided for proxy replay only and do not restore discovery-score eligibility."
   ],
   "disclaimer": "Downgraded historical Product evidence package. It does not claim external validation, external adoption, prize-level significance, broad intelligence, legal authority, medical authority, unsafe capability, universal truth, or current externally-review-ready discovery status.",
   "nextExternalReviewStep": "Do not send this bundle as an externally-review-ready discovery candidate. A future package would need to supply the missing raw-data scientific inputs and independently reproduce the descriptor-transfer result from public Matbench data.",
@@ -132,7 +154,11 @@
     "rawDataProxyReproductionStatus": "available_but_does_not_reproduce_product_scientific_claim",
     "rawDataProxyFeatureMatrix": "RAW_DATA_FEATURE_MATRIX.json",
     "rawDataProxySplitManifest": "RAW_DATA_SPLIT_MANIFEST.json",
-    "rawDataProxyResidualR2Delta": 0.10219959399248635
+    "rawDataProxyResidualR2Delta": 0.10219959399248635,
+    "originalResearchArtifactSearchReport": "ORIGINAL_RESEARCH_ARTIFACT_SEARCH_REPORT.md",
+    "reconstructedResearchArtifactsManifest": "RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.md",
+    "reconstructedArtifactsAreOriginalProductArtifacts": false,
+    "reconstructedArtifactsRestoreDiscoveryScore": false
   },
   "reviewerFacingBoundedClaim": "The public package records a Product-generated Matbench/materials candidate package where matbench_descriptor_transfer_significance_generator-output-01 has measured outcome 0.72, residual magnitude 0.21, and three recorded simple controls. Those values are exactly replayable as Product runtime scalars but failed raw-data scientific reproduction, so this is not an externally-review-ready discovery claim.",
   "evidenceRefClassification": {
@@ -172,7 +198,13 @@
     "REPRODUCTION_RESULT_TABLE.md",
     "RAW_DATA_REPRODUCIBLE_EXPERIMENT_SPEC.md",
     "RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.md",
-    "RAW_DATA_BASELINE_IMPLEMENTATIONS.md"
+    "RAW_DATA_BASELINE_IMPLEMENTATIONS.md",
+    "ORIGINAL_RESEARCH_ARTIFACT_SEARCH_REPORT.md",
+    "RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.md",
+    "RECONSTRUCTED_RESIDUAL_FORMULA.md",
+    "RECONSTRUCTED_HOLDOUT_MANIFEST.md",
+    "RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.md",
+    "RECONSTRUCTED_REPLAY_MANIFEST.md"
   ],
   "majorCaveats": [
     "No independent external validation or adoption is claimed.",
@@ -183,7 +215,9 @@
     "The public evidence exposes Product-recorded scalar outputs but not a full descriptor matrix, model configuration, split file, or uncertainty interval.",
     "The pre-lift domain-significance assessment recorded failed gate no_anti_discovery_claim_text; the final Product claim-lift transition needs reviewer scrutiny.",
     "The public-safe full bundle improves Product-state inspectability but does not restore raw-data scientific reproducibility.",
-    "The reproducible public raw-data proxy computation does not reproduce the original Product descriptor-transfer claim."
+    "The reproducible public raw-data proxy computation does not reproduce the original Product descriptor-transfer claim.",
+    "A second targeted Product-State search did not find original raw scientific descriptor-transfer inputs.",
+    "Reconstructed public raw-data artifacts are now present, but they are proxy artifacts, not original Product artifacts."
   ],
   "publicSafeReproductionBundle": {
     "path": "raw-reproduction-bundle/",
@@ -209,6 +243,35 @@
     "residualProxyR2Delta": 0.10219959399248635,
     "productClaimReproduced": false,
     "discoveryScoreEligible": false,
-    "interpretation": "A fully reproducible public raw-data formula-descriptor proxy experiment is available. It does not reproduce or strengthen the Product descriptor-transfer discovery claim."
+    "interpretation": "A fully reproducible public raw-data formula-descriptor proxy experiment and reconstructed public proxy artifacts are available. They do not reproduce or strengthen the Product descriptor-transfer discovery claim.",
+    "reconstructedResearchArtifactsAvailable": true,
+    "reconstructedResearchArtifactsManifest": "RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.md",
+    "reconstructedArtifactsAreOriginalProductArtifacts": false
+  },
+  "originalResearchArtifactSearch": {
+    "report": "ORIGINAL_RESEARCH_ARTIFACT_SEARCH_REPORT.md",
+    "machineReadableReport": "ORIGINAL_RESEARCH_ARTIFACT_SEARCH_REPORT.json",
+    "productCommitInspected": "48afba2890e00947d9f555cf3ac9db637e6dff91",
+    "originalScientificArtifactsFound": false,
+    "productValuesSourceClassification": "runtime_derived_deterministic_generator_scalars",
+    "conclusion": "Product runtime/gate artifacts were found and exported. Original raw scientific descriptor-transfer inputs were not found in Product state."
+  },
+  "reconstructedResearchArtifacts": {
+    "status": "reconstructed_public_raw_data_proxy_artifacts_not_original_product_artifacts",
+    "manifest": "RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.md",
+    "machineReadableManifest": "RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.json",
+    "originalProductArtifacts": false,
+    "restoresDiscoveryScoreEligibility": false,
+    "artifacts": [
+      "RAW_DATA_FEATURE_MATRIX.json",
+      "RECONSTRUCTED_FEATURIZER_CONFIG.json",
+      "RECONSTRUCTED_MODEL_TRAINING_CONFIG.json",
+      "RECONSTRUCTED_TARGET_SUBSET_MANIFEST.json",
+      "RECONSTRUCTED_RESIDUAL_FORMULA.json",
+      "RECONSTRUCTED_BASELINE_IMPLEMENTATIONS.json",
+      "RECONSTRUCTED_HOLDOUT_MANIFEST.json",
+      "RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.json",
+      "RECONSTRUCTED_REPLAY_MANIFEST.json"
+    ]
   }
 }

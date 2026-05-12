@@ -22,6 +22,8 @@ The public package records a Product-generated Matbench/materials candidate pack
 - All internal Product refs used by the public package now have safe public copies or excerpts under `copied-product-evidence/`.
 - The Product runtime evidence records measured outcome `0.72`, residual magnitude `0.21`, baseline comparator values `0.34`, `0.29`, and `0.23`, and nonfatal counterexample/holdout/replay/mechanism-pressure status.
 - `reproduce_matbench_candidate.py` loads the public Matbench experimental band-gap JSON, exactly replays the Product runtime scalars from `PRODUCT_RUNTIME_REPRODUCTION_SPEC.json`, and records that raw-data scientific reproduction failed.
+- `ORIGINAL_RESEARCH_ARTIFACT_SEARCH_REPORT.md` records that a targeted Product-State search did not find the original raw scientific inputs needed for exact descriptor-transfer reproduction.
+- `RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.md` lists reconstructed public raw-data proxy artifacts. They make the proxy experiment replayable; they are not original Product artifacts.
 - Public Einstein/Nobel discovery-score eligibility is false.
 
 ## What Is Not Shown
@@ -32,6 +34,7 @@ The public package records a Product-generated Matbench/materials candidate pack
 - No exact standalone scientific reproduction of the Product descriptor-transfer residual from raw Matbench data.
 - No public externally-review-ready discovery candidate status after raw scientific reproduction repair.
 - No full descriptor matrix, model configuration, split file, target subset manifest, uncertainty interval, external runnable holdout/counterexample manifest, or reviewer-selected holdout result.
+- No recovered original Product descriptor matrix, featurizer config, model/training config, split/family manifest, target subset manifest, raw residual formula, exact baseline implementation, or executable holdout/counterexample manifest.
 - No proof that the result generalizes beyond the bounded target slice.
 
 ## Strongest Caveats
@@ -58,6 +61,8 @@ The public package records a Product-generated Matbench/materials candidate pack
 - `REPRODUCE_STANDALONE.md`
 - `REPRODUCTION_RESULT_TABLE.md`
 - `MISSING_REPRODUCTION_INPUTS.md`
+- `ORIGINAL_RESEARCH_ARTIFACT_SEARCH_REPORT.md`
+- `RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.md`
 - `DATASET_AND_TARGET_TABLE.md`
 - `BASELINE_RESULTS_TABLE.md`
 - `RIVAL_THEORY_RESULTS_TABLE.md`
