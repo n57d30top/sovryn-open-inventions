@@ -18,6 +18,12 @@ This file describes the minimal public-data reproduction path added after extern
   - matched negative control `0.29`;
   - null/trivial-rule baseline `0.23`;
 - writes `REPRODUCTION_RESULT_TABLE.md`, `MISSING_REPRODUCTION_INPUTS.md`, and `standalone_reproduction_result.json`.
+- writes a fully specified raw-data proxy experiment:
+  - `RAW_DATA_REPRODUCIBLE_EXPERIMENT_SPEC.md`
+  - `RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.md`
+  - `RAW_DATA_FEATURE_MATRIX.json`
+  - `RAW_DATA_SPLIT_MANIFEST.json`
+  - `RAW_DATA_BASELINE_IMPLEMENTATIONS.md`
 
 ## Run
 
@@ -49,6 +55,8 @@ That status means:
 - the Product values are classified as runtime-derived deterministic generator scalars;
 - the exact Product descriptor-transfer residual is not independently reproduced from raw Matbench scientific inputs in this public package;
 - public Einstein/Nobel discovery-score eligibility is false.
+
+It also means the package now contains a reproducible public raw-data proxy computation. That proxy does not reproduce the original Product descriptor-transfer claim and must not be treated as discovery-scored evidence.
 
 ## Why Exact Reproduction Is Not Yet Possible
 

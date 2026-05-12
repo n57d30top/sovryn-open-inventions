@@ -1,0 +1,46 @@
+{
+  "baselines": {
+    "composition_formula_size": "OLS using element_count and total_atoms",
+    "matched_negative_shuffled_target": "OLS using all seven formula descriptors after deterministic train-target shuffle seed 1729",
+    "null_or_trivial_rule": "predict train-target mean on deterministic holdout"
+  },
+  "candidateProxy": "OLS using all seven formula descriptors",
+  "claimScope": "This is a public raw-data formula-descriptor proxy experiment. It is not the original Product descriptor-transfer computation and must not be used to restore discovery-scored status.",
+  "featureSchema": [
+    {
+      "description": "Number of distinct elements parsed from the composition formula.",
+      "name": "element_count"
+    },
+    {
+      "description": "Sum of stoichiometric counts parsed from the composition formula.",
+      "name": "total_atoms"
+    },
+    {
+      "description": "Stoichiometry-weighted mean atomic number.",
+      "name": "mean_atomic_number"
+    },
+    {
+      "description": "Maximum atomic number minus minimum atomic number in the formula.",
+      "name": "atomic_number_range"
+    },
+    {
+      "description": "Fraction of parsed stoichiometric count belonging to transition metals.",
+      "name": "transition_metal_fraction"
+    },
+    {
+      "description": "Maximum atomic number in the formula.",
+      "name": "max_atomic_number"
+    },
+    {
+      "description": "Minimum atomic number in the formula.",
+      "name": "min_atomic_number"
+    }
+  ],
+  "kind": "raw_data_reproducible_experiment_spec",
+  "model": "ordinary least squares with intercept, train-only standardization, and ridge 1e-8",
+  "residualDefinition": "candidate_proxy_holdout_r2 - max(null_r2, formula_size_r2, shuffled_target_r2)",
+  "sourceHashSha256": "e982f9d9586ab9603c588782646870542fb2b39f915ccb0fdb513426e2ff9859",
+  "sourceRef": "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json",
+  "splitRule": "sha256(formula)[0:8] modulo 5 equals 0 for holdout; all other buckets train",
+  "status": "available_but_does_not_reproduce_product_scientific_claim"
+}

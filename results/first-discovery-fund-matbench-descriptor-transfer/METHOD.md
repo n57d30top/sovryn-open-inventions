@@ -47,6 +47,17 @@ The Product runtime evidence names the descriptor mechanism at the level of mech
 
 Major caveat: the public package still does not expose a full reviewer-ready descriptor matrix, training script, split file, or model configuration. The copied Product artifacts expose the recorded runtime/gate state, not a complete independent Materials-ML experiment implementation.
 
+## Public Raw-Data Proxy Reproduction
+
+This package now includes a separate dependency-free raw-data proxy experiment. It is not the original Product descriptor-transfer computation, but it gives reviewers an executable public baseline path:
+
+- `RAW_DATA_FEATURE_MATRIX.json` records seven formula-derived features for every parsed public Matbench row.
+- `RAW_DATA_SPLIT_MANIFEST.json` records the deterministic hash train/holdout split.
+- `RAW_DATA_REPRODUCIBLE_EXPERIMENT_SPEC.md` records the source hash, feature schema, model, split, baseline, and residual definitions.
+- `RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.md` records the computed public proxy metrics.
+
+The proxy experiment reports a reproducible formula-descriptor residual R2 delta of `0.1022`. It does not reproduce the Product residual `0.21`, measured outcome `0.72`, or Product baseline scalars as raw-data scientific outputs.
+
 ## Split And Holdout Definition
 
 The Product runtime evidence records holdout/replay availability as true. The copied source-cache artifact records a predeclared holdout path:

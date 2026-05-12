@@ -1,66 +1,36 @@
 {
-  "exactProductBaselinesReproduced": true,
-  "exactProductResidualReproduced": true,
-  "exactProductRuntimeScalarsReproduced": true,
-  "interpretation": "The Product runtime scalars were exactly replayed from the public-safe Product runtime reproduction spec. Inspection of the Product source shows those values are runtime-derived deterministic generator scalars, not recovered raw-data scientific outputs. The public Matbench raw JSON was also loaded and formula-only proxy checks were recomputed. The public-safe raw reproduction bundle was exported and searched, but it contains the same Product runtime evidence rather than the missing descriptor matrix, model, split, residual, and baseline inputs. The raw-data scientific descriptor-transfer residual failed exact reproduction because essential scientific inputs are not exposed in this public package.",
-  "missingInputs": [
+  "featureSchema": [
     {
-      "input": "descriptor matrix / feature definition",
-      "why_needed": "The Product claim refers to a descriptor-transfer residual, but the public package does not expose the exact pymatgen/matminer/ASE feature matrix or featurizer configuration."
+      "description": "Number of distinct elements parsed from the composition formula.",
+      "name": "element_count"
     },
     {
-      "input": "model and training configuration",
-      "why_needed": "The public package does not expose the model class, hyperparameters, preprocessing, target scaling, or random seed that map raw formulas to the Product measured outcome 0.72."
+      "description": "Sum of stoichiometric counts parsed from the composition formula.",
+      "name": "total_atoms"
     },
     {
-      "input": "exact train/validation/holdout split and family labels",
-      "why_needed": "The Product evidence names composition/formula-size/target-family and holdout pressure, but the public package does not expose the exact split manifest or target-family labels."
+      "description": "Stoichiometry-weighted mean atomic number.",
+      "name": "mean_atomic_number"
     },
     {
-      "input": "residual formula and score normalization",
-      "why_needed": "The public package does not define the exact scalar transformation that produces residual magnitude 0.21 from model, baseline, holdout, and control outputs."
+      "description": "Maximum atomic number minus minimum atomic number in the formula.",
+      "name": "atomic_number_range"
     },
     {
-      "input": "baseline implementation details",
-      "why_needed": "The Product values 0.34, 0.29, and 0.23 are recorded scalars, but their exact algorithms are not exposed as executable public code."
+      "description": "Fraction of parsed stoichiometric count belonging to transition metals.",
+      "name": "transition_metal_fraction"
     },
     {
-      "input": "target subset manifest",
-      "why_needed": "The copied Product source-cache artifact records rawTargetCount 300, while the current public Matbench JSON contains more rows; the exact Product subset selection is not public."
+      "description": "Maximum atomic number in the formula.",
+      "name": "max_atomic_number"
     },
     {
-      "input": "external runnable holdout/counterexample manifests",
-      "why_needed": "The public package records holdout, replay, and counterexample status, but does not expose an independent runnable manifest for those checks."
+      "description": "Minimum atomic number in the formula.",
+      "name": "min_atomic_number"
     }
   ],
-  "productRecordedValues": {
-    "composition_formula_size_target_family_baseline": 0.34,
-    "matched_negative_control": 0.29,
-    "measured_outcome": 0.72,
-    "null_or_trivial_rule": 0.23,
-    "residual_magnitude": 0.21
-  },
-  "productRuntimeReplayValues": {
-    "born": true,
-    "composition_formula_size_target_family_baseline": 0.34,
-    "matched_negative_control": 0.29,
-    "measured_outcome": 0.72,
-    "null_or_trivial_rule": 0.23,
-    "ordinal": 1,
-    "residual_magnitude": 0.21
-  },
-  "productRuntimeReproductionSpec": {
-    "path": "PRODUCT_RUNTIME_REPRODUCTION_SPEC.json",
-    "productSourceRef": "src/core/discovery-daemon/discovery-daemon-service.ts#matbench_descriptor_transfer_significance_generator",
-    "sourceProductCommit": "48afba2890e00947d9f555cf3ac9db637e6dff91",
-    "status": "public_safe_product_algorithm_replay_not_raw_data_scientific_reproduction"
-  },
-  "productValuesSourceClassification": "runtime_derived_deterministic_generator_scalars",
-  "publicDiscoveryScoreEligible": false,
-  "publicExternalReviewReadinessScore": 0,
-  "publicFundClass": "not_discovery_scored_raw_reproduction_failed",
-  "publicReviewStatus": "not_external_review_ready_raw_scientific_reproduction_failed",
-  "rawDataFeatureMatrixRows": [
+  "kind": "raw_data_feature_matrix_manifest",
+  "rows": [
     {
       "bandGap": 0.9,
       "features": {
@@ -14798,217 +14768,6 @@
       "split": "train"
     }
   ],
-  "rawDataReproducibleExperiment": {
-    "baselines": {
-      "composition_formula_size": {
-        "coefficients": [
-          0.9264374140302609,
-          0.43016362569778777,
-          0.025798403375860892
-        ],
-        "columns": [
-          "element_count",
-          "total_atoms"
-        ],
-        "holdoutPredictionCount": 194,
-        "metrics": {
-          "mae": 0.9810163114680854,
-          "r2": 0.06125258772807529,
-          "rmse": 1.3171263615292308
-        },
-        "model": "ordinary_least_squares_with_intercept_and_ridge_1e-8_after_train_standardization",
-        "shuffleTargets": false
-      },
-      "matched_negative_shuffled_target": {
-        "coefficients": [
-          0.9264374140302619,
-          0.015865171653673026,
-          0.026767512283511336,
-          -0.016412938002239263,
-          -0.015990552915917326,
-          0.12734705746405983,
-          0.015668466969609635,
-          0.039934049230784766
-        ],
-        "columns": [
-          "element_count",
-          "total_atoms",
-          "mean_atomic_number",
-          "atomic_number_range",
-          "transition_metal_fraction",
-          "max_atomic_number",
-          "min_atomic_number"
-        ],
-        "holdoutPredictionCount": 194,
-        "metrics": {
-          "mae": 1.0924183700874128,
-          "r2": -0.06038660839177412,
-          "rmse": 1.3998618653564376
-        },
-        "model": "ordinary_least_squares_with_intercept_and_ridge_1e-8_after_train_standardization",
-        "shuffleTargets": true
-      },
-      "null_or_trivial_rule": {
-        "definition": "predict train-target mean on deterministic holdout",
-        "metrics": {
-          "mae": 1.0587138927097661,
-          "r2": -9.228031336183662e-06,
-          "rmse": 1.3594244272124325
-        }
-      }
-    },
-    "candidateProxy": {
-      "coefficients": [
-        0.9264374140302609,
-        0.3050457851212291,
-        -0.04861262302767881,
-        -0.44864787521466626,
-        -0.0007112228182076241,
-        -0.3622842443978171,
-        0.16995540787912644,
-        0.21146201813057006
-      ],
-      "columns": [
-        "element_count",
-        "total_atoms",
-        "mean_atomic_number",
-        "atomic_number_range",
-        "transition_metal_fraction",
-        "max_atomic_number",
-        "min_atomic_number"
-      ],
-      "holdoutPredictionCount": 194,
-      "metrics": {
-        "mae": 0.9139796492876436,
-        "r2": 0.16345218172056164,
-        "rmse": 1.2433644645023627
-      },
-      "model": "ordinary_least_squares_with_intercept_and_ridge_1e-8_after_train_standardization",
-      "shuffleTargets": false
-    },
-    "claimScope": "This is a public raw-data formula-descriptor proxy experiment. It is not the original Product descriptor-transfer computation and must not be used to restore discovery-scored status.",
-    "featureSchema": [
-      {
-        "description": "Number of distinct elements parsed from the composition formula.",
-        "name": "element_count"
-      },
-      {
-        "description": "Sum of stoichiometric counts parsed from the composition formula.",
-        "name": "total_atoms"
-      },
-      {
-        "description": "Stoichiometry-weighted mean atomic number.",
-        "name": "mean_atomic_number"
-      },
-      {
-        "description": "Maximum atomic number minus minimum atomic number in the formula.",
-        "name": "atomic_number_range"
-      },
-      {
-        "description": "Fraction of parsed stoichiometric count belonging to transition metals.",
-        "name": "transition_metal_fraction"
-      },
-      {
-        "description": "Maximum atomic number in the formula.",
-        "name": "max_atomic_number"
-      },
-      {
-        "description": "Minimum atomic number in the formula.",
-        "name": "min_atomic_number"
-      }
-    ],
-    "holdoutRecords": 194,
-    "kind": "raw_data_reproducible_matbench_proxy_experiment",
-    "model": "ordinary least squares with intercept, train-only standardization, and ridge 1e-8",
-    "records": 921,
-    "reproducibilityDecision": "The proxy experiment is exactly reproducible from public raw data and this script. It does not reproduce the Product descriptor-transfer scientific claim because the original descriptor matrix, model config, split manifest, target subset, residual formula, and baseline implementations were not present in Product artifacts.",
-    "residualDefinition": "candidate_proxy_holdout_r2 - max(null_r2, formula_size_r2, shuffled_target_r2)",
-    "residualProxyR2Delta": 0.10219959399248635,
-    "sourceHashSha256": "e982f9d9586ab9603c588782646870542fb2b39f915ccb0fdb513426e2ff9859",
-    "sourceRef": "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json",
-    "splitRule": "sha256(formula)[0:8] modulo 5 equals 0 for holdout; all other buckets train",
-    "status": "available_but_does_not_reproduce_product_scientific_claim",
-    "trainRecords": 727
-  },
-  "rawDataScientificBaselinesReproduced": false,
-  "rawDataScientificReproductionAttempted": true,
-  "rawDataScientificResidualReproduced": false,
-  "rawReproductionBundle": {
-    "artifactCount": 78,
-    "bundleDecision": "maximal_public_safe_export_completed_but_raw_scientific_inputs_not_found",
-    "manifestLoaded": true,
-    "manifestPath": "raw-reproduction-bundle/BUNDLE_MANIFEST.json",
-    "missingRawScientificInputs": [
-      {
-        "input": "descriptor matrix / feature definition",
-        "status": "not found in Product .sovryn Matbench artifacts",
-        "whyRequired": "required to map raw formulas into descriptor-transfer features"
-      },
-      {
-        "input": "featurizer configuration",
-        "status": "not found in Product .sovryn Matbench artifacts",
-        "whyRequired": "required to reproduce pymatgen/matminer/ASE descriptor construction"
-      },
-      {
-        "input": "model and training configuration",
-        "status": "not found in Product .sovryn Matbench artifacts",
-        "whyRequired": "required to reproduce measured outcome 0.72 from raw data"
-      },
-      {
-        "input": "exact train/validation/holdout split and family labels",
-        "status": "not found in Product .sovryn Matbench artifacts",
-        "whyRequired": "required to reproduce target-family and holdout claims"
-      },
-      {
-        "input": "target subset manifest",
-        "status": "not found in Product .sovryn Matbench artifacts",
-        "whyRequired": "Product source-cache records rawTargetCount 300 but public JSON extraction sees 921 records"
-      },
-      {
-        "input": "raw-data residual formula / normalization",
-        "status": "not found in Product .sovryn Matbench artifacts",
-        "whyRequired": "required to derive residual 0.21 scientifically"
-      },
-      {
-        "input": "exact baseline implementations for 0.34 / 0.29 / 0.23",
-        "status": "not found in Product .sovryn Matbench artifacts",
-        "whyRequired": "required to derive control scalars scientifically"
-      },
-      {
-        "input": "external runnable holdout/counterexample manifests",
-        "status": "not found as executable manifests in Product .sovryn Matbench artifacts",
-        "whyRequired": "required for external replay of holdout/counterexample pressure"
-      }
-    ],
-    "path": "raw-reproduction-bundle/",
-    "rawDataScientificReproductionSucceeded": false,
-    "runtimeEvidencePathUsed": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json",
-    "sourceCachePath": "raw-reproduction-bundle/product-state/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP.json",
-    "unsafeCopiedCount": 0
-  },
-  "runtimeEvidenceLoaded": true,
-  "runtimeEvidencePathUsed": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json",
-  "source": {
-    "bytes": 99468,
-    "holdoutRecords": 194,
-    "recordsExtracted": 921,
-    "sourceHashSha256": "e982f9d9586ab9603c588782646870542fb2b39f915ccb0fdb513426e2ff9859",
-    "sourceRef": "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json",
-    "targetMax": 8.0,
-    "targetMean": 0.9273072747014115,
-    "targetMin": 0.0,
-    "trainRecords": 727
-  },
-  "standaloneProxyValues": {
-    "composition_formula_size_proxy_mae": 0.9810163114680854,
-    "composition_formula_size_proxy_r2": 0.06125258772807529,
-    "descriptor_transfer_proxy_mae": 0.9139796492876436,
-    "descriptor_transfer_proxy_r2": 0.16345218172056164,
-    "matched_negative_control_proxy_mae": 1.0924183700874128,
-    "matched_negative_control_proxy_r2": -0.06038660839177412,
-    "null_or_trivial_rule_proxy_mae": 1.0587138927097661,
-    "null_or_trivial_rule_proxy_r2": -9.228031336183662e-06,
-    "residual_proxy_r2_delta": 0.10219959399248635
-  },
-  "status": "raw_scientific_reproduction_failed_product_values_runtime_derived"
+  "sourceHashSha256": "e982f9d9586ab9603c588782646870542fb2b39f915ccb0fdb513426e2ff9859",
+  "sourceRef": "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json"
 }

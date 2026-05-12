@@ -68,12 +68,37 @@ The script downloads the public Matbench experimental band-gap JSON by default, 
 - `REPRODUCTION_RESULT_TABLE.md`
 - `MISSING_REPRODUCTION_INPUTS.md`
 - `standalone_reproduction_result.json`
+- `RAW_DATA_REPRODUCIBLE_EXPERIMENT_SPEC.md`
+- `RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.md`
+- `RAW_DATA_FEATURE_MATRIX.json`
+- `RAW_DATA_SPLIT_MANIFEST.json`
+- `RAW_DATA_BASELINE_IMPLEMENTATIONS.md`
 
 Current expected status:
 
 `raw_scientific_reproduction_failed_product_values_runtime_derived`
 
 That status is intentional and caveated. The script exactly replays Product-recorded values `0.72`, `0.21`, `0.34`, `0.29`, and `0.23` from `PRODUCT_RUNTIME_REPRODUCTION_SPEC.json`, and it verifies public raw-data access with transparent proxy baselines. It does not independently reproduce those values from raw Matbench data because the package lacks the exact descriptor matrix, model/training configuration, split/family manifest, target subset manifest, scientific residual formula, baseline implementations, and external runnable holdout/counterexample manifests. The public package is therefore not discovery-score eligible.
+
+## Raw-Data Proxy Reproduction
+
+The current reproducible public computation is intentionally separate from the Product claim:
+
+```bash
+python3 reproduce_matbench_candidate.py
+jq '{status, records, trainRecords, holdoutRecords, residualProxyR2Delta, productClaimReproduced, discoveryScoreEligible}' RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.json
+```
+
+Expected result:
+
+- status: `available_but_does_not_reproduce_product_scientific_claim`
+- records: `921`
+- train/holdout: `727` / `194`
+- reproducible proxy residual R2 delta: about `0.1022`
+- Product claim reproduced: `false`
+- discovery-score eligible: `false`
+
+This path makes the public raw-data computation replayable. It does not make the original Product candidate scientifically proven.
 
 ## Public-Safe Product Bundle
 

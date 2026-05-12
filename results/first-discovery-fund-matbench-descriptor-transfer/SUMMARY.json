@@ -69,7 +69,14 @@
     "PUBLIC_SAFE_REPRODUCTION_BUNDLE_REPORT.md",
     "PUBLIC_SAFE_REPRODUCTION_BUNDLE_REPORT.json",
     "raw-reproduction-bundle/BUNDLE_MANIFEST.md",
-    "raw-reproduction-bundle/BUNDLE_MANIFEST.json"
+    "raw-reproduction-bundle/BUNDLE_MANIFEST.json",
+    "RAW_DATA_REPRODUCIBLE_EXPERIMENT_SPEC.md",
+    "RAW_DATA_REPRODUCIBLE_EXPERIMENT_SPEC.json",
+    "RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.md",
+    "RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.json",
+    "RAW_DATA_FEATURE_MATRIX.json",
+    "RAW_DATA_SPLIT_MANIFEST.json",
+    "RAW_DATA_BASELINE_IMPLEMENTATIONS.md"
   ],
   "fundGatePassed": true,
   "failedFundGates": [],
@@ -88,7 +95,8 @@
     "This package makes only a bounded internal evidence claim and avoids prohibited public overclaim categories.",
     "Human expert review is required before any stronger interpretation of scientific significance.",
     "No external validation or external adoption is claimed.",
-    "The public-safe full bundle has been exported and searched, but it contains Product runtime evidence rather than the missing raw scientific reproduction inputs."
+    "The public-safe full bundle has been exported and searched, but it contains Product runtime evidence rather than the missing raw scientific reproduction inputs.",
+    "A separate raw-data proxy experiment is now fully reproducible from public Matbench data, but it is not the original Product descriptor-transfer computation and does not count as discovery evidence."
   ],
   "disclaimer": "Downgraded historical Product evidence package. It does not claim external validation, external adoption, prize-level significance, broad intelligence, legal authority, medical authority, unsafe capability, universal truth, or current externally-review-ready discovery status.",
   "nextExternalReviewStep": "Do not send this bundle as an externally-review-ready discovery candidate. A future package would need to supply the missing raw-data scientific inputs and independently reproduce the descriptor-transfer result from public Matbench data.",
@@ -119,7 +127,12 @@
     "publicSafeReproductionBundleManifest": "raw-reproduction-bundle/BUNDLE_MANIFEST.json",
     "publicSafeReproductionBundleArtifactCount": 78,
     "publicSafeReproductionBundleDecision": "maximal_public_safe_export_completed_but_raw_scientific_inputs_not_found",
-    "runtimeEvidencePathUsed": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json"
+    "runtimeEvidencePathUsed": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json",
+    "rawDataProxyReproductionAvailable": true,
+    "rawDataProxyReproductionStatus": "available_but_does_not_reproduce_product_scientific_claim",
+    "rawDataProxyFeatureMatrix": "RAW_DATA_FEATURE_MATRIX.json",
+    "rawDataProxySplitManifest": "RAW_DATA_SPLIT_MANIFEST.json",
+    "rawDataProxyResidualR2Delta": 0.10219959399248635
   },
   "reviewerFacingBoundedClaim": "The public package records a Product-generated Matbench/materials candidate package where matbench_descriptor_transfer_significance_generator-output-01 has measured outcome 0.72, residual magnitude 0.21, and three recorded simple controls. Those values are exactly replayable as Product runtime scalars but failed raw-data scientific reproduction, so this is not an externally-review-ready discovery claim.",
   "evidenceRefClassification": {
@@ -156,7 +169,10 @@
     "EFFECT_SIZE_AND_RESIDUAL_TABLE.md",
     "EXACT_REPRODUCTION_INPUTS_STATUS.md",
     "RAW_SCIENTIFIC_REPRODUCTION_REPAIR.md",
-    "REPRODUCTION_RESULT_TABLE.md"
+    "REPRODUCTION_RESULT_TABLE.md",
+    "RAW_DATA_REPRODUCIBLE_EXPERIMENT_SPEC.md",
+    "RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.md",
+    "RAW_DATA_BASELINE_IMPLEMENTATIONS.md"
   ],
   "majorCaveats": [
     "No independent external validation or adoption is claimed.",
@@ -166,7 +182,8 @@
     "The Product limitations include formal-object wording that does not cleanly match the Matbench/materials claim path.",
     "The public evidence exposes Product-recorded scalar outputs but not a full descriptor matrix, model configuration, split file, or uncertainty interval.",
     "The pre-lift domain-significance assessment recorded failed gate no_anti_discovery_claim_text; the final Product claim-lift transition needs reviewer scrutiny.",
-    "The public-safe full bundle improves Product-state inspectability but does not restore raw-data scientific reproducibility."
+    "The public-safe full bundle improves Product-state inspectability but does not restore raw-data scientific reproducibility.",
+    "The reproducible public raw-data proxy computation does not reproduce the original Product descriptor-transfer claim."
   ],
   "publicSafeReproductionBundle": {
     "path": "raw-reproduction-bundle/",
@@ -177,5 +194,21 @@
     "bundleDecision": "maximal_public_safe_export_completed_but_raw_scientific_inputs_not_found",
     "rawDataScientificReproductionSucceeded": false,
     "status": "public_safe_product_state_export_completed_raw_scientific_inputs_not_found"
+  },
+  "rawDataProxyReproduction": {
+    "status": "available_but_does_not_reproduce_product_scientific_claim",
+    "script": "reproduce_matbench_candidate.py",
+    "spec": "RAW_DATA_REPRODUCIBLE_EXPERIMENT_SPEC.md",
+    "results": "RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.md",
+    "featureMatrix": "RAW_DATA_FEATURE_MATRIX.json",
+    "splitManifest": "RAW_DATA_SPLIT_MANIFEST.json",
+    "baselineImplementations": "RAW_DATA_BASELINE_IMPLEMENTATIONS.md",
+    "records": 921,
+    "trainRecords": 727,
+    "holdoutRecords": 194,
+    "residualProxyR2Delta": 0.10219959399248635,
+    "productClaimReproduced": false,
+    "discoveryScoreEligible": false,
+    "interpretation": "A fully reproducible public raw-data formula-descriptor proxy experiment is available. It does not reproduce or strengthen the Product descriptor-transfer discovery claim."
   }
 }

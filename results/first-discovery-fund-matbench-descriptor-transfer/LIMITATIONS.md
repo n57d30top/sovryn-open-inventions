@@ -30,6 +30,8 @@ It does not claim a general law of materials descriptors, a broad benchmark impr
 
 The package now supports public inspection of the Product evidence without private local `.sovryn` paths and includes `reproduce_matbench_candidate.py`. The script loads the public Matbench experimental band-gap JSON, computes deterministic formula-only proxy checks, and exactly replays the Product runtime scalar formulas from `PRODUCT_RUNTIME_REPRODUCTION_SPEC.json`.
 
+The package also includes a fully specified raw-data proxy experiment with `RAW_DATA_FEATURE_MATRIX.json`, `RAW_DATA_SPLIT_MANIFEST.json`, `RAW_DATA_REPRODUCIBLE_EXPERIMENT_SPEC.md`, `RAW_DATA_BASELINE_IMPLEMENTATIONS.md`, and `RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.md`. That proxy experiment is reproducible from public Matbench data, but it is not the original Product descriptor-transfer computation and does not restore discovery-score eligibility.
+
 The script does not exactly recompute the scientific descriptor-transfer residual, all baselines, holdout, and counterexamples from raw public Matbench data. Exact scientific reproduction failed because the missing inputs listed in `MISSING_REPRODUCTION_INPUTS.md` are not available.
 
 ## Evidence Limitation

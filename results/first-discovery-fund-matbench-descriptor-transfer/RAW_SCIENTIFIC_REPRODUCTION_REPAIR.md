@@ -33,6 +33,7 @@ The exported bundle makes the Product evidence trail publicly inspectable. It do
 
 - Public Matbench JSON loaded: yes.
 - Formula-only proxy checks run: yes.
+- Separate raw-data proxy experiment fully reproducible: yes.
 - Exact raw-data descriptor-transfer residual reproduced: no.
 - Exact raw-data baselines reproduced: no.
 

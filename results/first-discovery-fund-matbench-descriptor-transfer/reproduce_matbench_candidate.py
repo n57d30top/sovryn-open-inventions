@@ -62,6 +62,37 @@ PRODUCT_RECORDED_VALUES = {
     "null_or_trivial_rule": 0.23,
 }
 
+FEATURE_SCHEMA = [
+    {
+        "name": "element_count",
+        "description": "Number of distinct elements parsed from the composition formula.",
+    },
+    {
+        "name": "total_atoms",
+        "description": "Sum of stoichiometric counts parsed from the composition formula.",
+    },
+    {
+        "name": "mean_atomic_number",
+        "description": "Stoichiometry-weighted mean atomic number.",
+    },
+    {
+        "name": "atomic_number_range",
+        "description": "Maximum atomic number minus minimum atomic number in the formula.",
+    },
+    {
+        "name": "transition_metal_fraction",
+        "description": "Fraction of parsed stoichiometric count belonging to transition metals.",
+    },
+    {
+        "name": "max_atomic_number",
+        "description": "Maximum atomic number in the formula.",
+    },
+    {
+        "name": "min_atomic_number",
+        "description": "Minimum atomic number in the formula.",
+    },
+]
+
 MISSING_INPUTS = [
     {
         "input": "descriptor matrix / feature definition",
@@ -341,6 +372,10 @@ def formula_features(record: MatbenchRecord) -> list[float]:
     ]
 
 
+def feature_dict(values: list[float]) -> dict[str, float]:
+    return {schema["name"]: values[index] for index, schema in enumerate(FEATURE_SCHEMA)}
+
+
 def deterministic_split(records: list[MatbenchRecord]) -> tuple[list[int], list[int]]:
     train: list[int] = []
     holdout: list[int] = []
@@ -451,6 +486,35 @@ def run_linear_proxy(
     return metrics(holdout_y, predicted)
 
 
+def run_linear_model(
+    features: list[list[float]],
+    targets: list[float],
+    train_idx: list[int],
+    holdout_idx: list[int],
+    columns: list[int],
+    shuffle_targets: bool = False,
+) -> dict[str, object]:
+    train_x_raw = select_columns([features[i] for i in train_idx], columns)
+    holdout_x_raw = select_columns([features[i] for i in holdout_idx], columns)
+    train_y = [targets[i] for i in train_idx]
+    if shuffle_targets:
+        shuffled = train_y[:]
+        random.Random(1729).shuffle(shuffled)
+        train_y = shuffled
+    holdout_y = [targets[i] for i in holdout_idx]
+    train_x, holdout_x = standardize(train_x_raw, holdout_x_raw)
+    coefficients = fit_linear_regression(train_x, train_y)
+    predictions = predict(coefficients, holdout_x)
+    return {
+        "columns": [FEATURE_SCHEMA[index]["name"] for index in columns],
+        "shuffleTargets": shuffle_targets,
+        "model": "ordinary_least_squares_with_intercept_and_ridge_1e-8_after_train_standardization",
+        "coefficients": coefficients,
+        "metrics": metrics(holdout_y, predictions),
+        "holdoutPredictionCount": len(predictions),
+    }
+
+
 def load_runtime_evidence() -> tuple[dict[str, object] | None, str | None]:
     for path in (BUNDLE_RUNTIME_EVIDENCE_PATH, LEGACY_RUNTIME_EVIDENCE_PATH):
         payload = read_json_if_present(path)
@@ -509,13 +573,14 @@ def compute_reproduction(raw: bytes, source_ref: str) -> dict[str, object]:
     train_idx, holdout_idx = deterministic_split(records)
     features = [formula_features(record) for record in records]
     targets = [record.band_gap for record in records]
+    train_set = set(train_idx)
 
     null_prediction = [statistics.mean(targets[i] for i in train_idx)] * len(holdout_idx)
     holdout_y = [targets[i] for i in holdout_idx]
     null_metrics = metrics(holdout_y, null_prediction)
-    formula_size_metrics = run_linear_proxy(features, targets, train_idx, holdout_idx, columns=[0, 1])
-    descriptor_proxy_metrics = run_linear_proxy(features, targets, train_idx, holdout_idx, columns=list(range(7)))
-    matched_negative_metrics = run_linear_proxy(
+    formula_size_model = run_linear_model(features, targets, train_idx, holdout_idx, columns=[0, 1])
+    descriptor_proxy_model = run_linear_model(features, targets, train_idx, holdout_idx, columns=list(range(7)))
+    matched_negative_model = run_linear_model(
         features,
         targets,
         train_idx,
@@ -523,11 +588,58 @@ def compute_reproduction(raw: bytes, source_ref: str) -> dict[str, object]:
         columns=list(range(7)),
         shuffle_targets=True,
     )
+    formula_size_metrics = formula_size_model["metrics"]
+    descriptor_proxy_metrics = descriptor_proxy_model["metrics"]
+    matched_negative_metrics = matched_negative_model["metrics"]
     residual_proxy = descriptor_proxy_metrics["r2"] - max(
         formula_size_metrics["r2"],
         matched_negative_metrics["r2"],
         null_metrics["r2"],
     )
+    raw_data_reproducible_experiment = {
+        "kind": "raw_data_reproducible_matbench_proxy_experiment",
+        "status": "available_but_does_not_reproduce_product_scientific_claim",
+        "claimScope": (
+            "This is a public raw-data formula-descriptor proxy experiment. It is not the original Product "
+            "descriptor-transfer computation and must not be used to restore discovery-scored status."
+        ),
+        "sourceRef": source_ref,
+        "sourceHashSha256": source_hash,
+        "featureSchema": FEATURE_SCHEMA,
+        "splitRule": "sha256(formula)[0:8] modulo 5 equals 0 for holdout; all other buckets train",
+        "model": "ordinary least squares with intercept, train-only standardization, and ridge 1e-8",
+        "baselines": {
+            "null_or_trivial_rule": {
+                "definition": "predict train-target mean on deterministic holdout",
+                "metrics": null_metrics,
+            },
+            "composition_formula_size": formula_size_model,
+            "matched_negative_shuffled_target": matched_negative_model,
+        },
+        "candidateProxy": descriptor_proxy_model,
+        "residualDefinition": "candidate_proxy_holdout_r2 - max(null_r2, formula_size_r2, shuffled_target_r2)",
+        "residualProxyR2Delta": residual_proxy,
+        "records": len(records),
+        "trainRecords": len(train_idx),
+        "holdoutRecords": len(holdout_idx),
+        "reproducibilityDecision": (
+            "The proxy experiment is exactly reproducible from public raw data and this script. "
+            "It does not reproduce the Product descriptor-transfer scientific claim because the original "
+            "descriptor matrix, model config, split manifest, target subset, residual formula, and baseline "
+            "implementations were not present in Product artifacts."
+        ),
+    }
+    raw_data_rows = [
+        {
+            "rowIndex": index,
+            "formula": record.formula,
+            "formulaHashSha256": hashlib.sha256(record.formula.encode("utf-8")).hexdigest(),
+            "split": "train" if index in train_set else "holdout",
+            "bandGap": record.band_gap,
+            "features": feature_dict(features[index]),
+        }
+        for index, record in enumerate(records)
+    ]
 
     runtime, runtime_path = load_runtime_evidence()
     bundle_manifest = load_bundle_manifest()
@@ -576,6 +688,8 @@ def compute_reproduction(raw: bytes, source_ref: str) -> dict[str, object]:
             "productSourceRef": product_runtime_spec["productSourceRef"],
         },
         "rawReproductionBundle": raw_bundle_summary,
+        "rawDataReproducibleExperiment": raw_data_reproducible_experiment,
+        "rawDataFeatureMatrixRows": raw_data_rows,
         "productRuntimeReplayValues": product_runtime_replay,
         "standaloneProxyValues": {
             "descriptor_transfer_proxy_r2": descriptor_proxy_metrics["r2"],
@@ -621,6 +735,7 @@ def write_result_table(result: dict[str, object], output_dir: Path) -> None:
     product = result["productRecordedValues"]
     runtime_replay = result["productRuntimeReplayValues"]
     proxy = result["standaloneProxyValues"]
+    raw_experiment = result["rawDataReproducibleExperiment"]
     rows = [
         (
             "measured outcome",
@@ -682,6 +797,7 @@ def write_result_table(result: dict[str, object], output_dir: Path) -> None:
         f"- Public-safe raw reproduction bundle loaded: `{str(bundle['manifestLoaded']).lower()}`",
         f"- Public-safe bundle artifact count: `{bundle['artifactCount']}`",
         f"- Public-safe bundle decision: `{bundle['bundleDecision']}`",
+        f"- Raw-data proxy experiment available: `{str(raw_experiment['status'] == 'available_but_does_not_reproduce_product_scientific_claim').lower()}`",
         "",
         "## Public Source Load",
         "",
@@ -711,9 +827,172 @@ def write_result_table(result: dict[str, object], output_dir: Path) -> None:
             str(result["interpretation"]),
             "",
             "The Product runtime replay verifies the copied Product scalars. The standalone proxy values are useful for checking public source access, formula parsing, deterministic splitting, and simple baseline behavior. They are not a replacement for the missing raw-data descriptor-transfer implementation.",
+            "",
+            "For a fully reproducible raw-data computation with explicit feature matrix, split manifest, baseline definitions, and result JSON, inspect `RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.md` and `RAW_DATA_REPRODUCIBLE_EXPERIMENT_SPEC.md`.",
         ]
     )
     (output_dir / "REPRODUCTION_RESULT_TABLE.md").write_text("\n".join(lines) + "\n")
+
+
+def write_raw_data_experiment_artifacts(result: dict[str, object], output_dir: Path) -> None:
+    experiment = result["rawDataReproducibleExperiment"]
+    rows = result["rawDataFeatureMatrixRows"]
+    feature_matrix = {
+        "kind": "raw_data_feature_matrix_manifest",
+        "sourceRef": experiment["sourceRef"],
+        "sourceHashSha256": experiment["sourceHashSha256"],
+        "featureSchema": experiment["featureSchema"],
+        "rows": rows,
+    }
+    split_manifest = {
+        "kind": "raw_data_split_manifest",
+        "splitRule": experiment["splitRule"],
+        "sourceRef": experiment["sourceRef"],
+        "sourceHashSha256": experiment["sourceHashSha256"],
+        "trainRecords": experiment["trainRecords"],
+        "holdoutRecords": experiment["holdoutRecords"],
+        "rows": [
+            {
+                "rowIndex": row["rowIndex"],
+                "formula": row["formula"],
+                "formulaHashSha256": row["formulaHashSha256"],
+                "split": row["split"],
+            }
+            for row in rows
+        ],
+    }
+    spec = {
+        "kind": "raw_data_reproducible_experiment_spec",
+        "status": experiment["status"],
+        "sourceRef": experiment["sourceRef"],
+        "sourceHashSha256": experiment["sourceHashSha256"],
+        "featureSchema": experiment["featureSchema"],
+        "splitRule": experiment["splitRule"],
+        "model": experiment["model"],
+        "baselines": {
+            "null_or_trivial_rule": experiment["baselines"]["null_or_trivial_rule"]["definition"],
+            "composition_formula_size": "OLS using element_count and total_atoms",
+            "matched_negative_shuffled_target": "OLS using all seven formula descriptors after deterministic train-target shuffle seed 1729",
+        },
+        "candidateProxy": "OLS using all seven formula descriptors",
+        "residualDefinition": experiment["residualDefinition"],
+        "claimScope": experiment["claimScope"],
+    }
+    result_payload = {
+        "kind": "raw_data_reproducible_experiment_results",
+        "status": experiment["status"],
+        "sourceRef": experiment["sourceRef"],
+        "sourceHashSha256": experiment["sourceHashSha256"],
+        "records": experiment["records"],
+        "trainRecords": experiment["trainRecords"],
+        "holdoutRecords": experiment["holdoutRecords"],
+        "baselines": experiment["baselines"],
+        "candidateProxy": experiment["candidateProxy"],
+        "residualDefinition": experiment["residualDefinition"],
+        "residualProxyR2Delta": experiment["residualProxyR2Delta"],
+        "reproducibilityDecision": experiment["reproducibilityDecision"],
+        "productClaimReproduced": False,
+        "discoveryScoreEligible": False,
+    }
+    (output_dir / "RAW_DATA_FEATURE_MATRIX.json").write_text(json.dumps(feature_matrix, indent=2, sort_keys=True) + "\n")
+    (output_dir / "RAW_DATA_SPLIT_MANIFEST.json").write_text(json.dumps(split_manifest, indent=2, sort_keys=True) + "\n")
+    (output_dir / "RAW_DATA_REPRODUCIBLE_EXPERIMENT_SPEC.json").write_text(
+        json.dumps(spec, indent=2, sort_keys=True) + "\n"
+    )
+    (output_dir / "RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.json").write_text(
+        json.dumps(result_payload, indent=2, sort_keys=True) + "\n"
+    )
+
+    spec_lines = [
+        "# Raw-Data Reproducible Experiment Spec",
+        "",
+        "This is a new public raw-data proxy experiment for inspectability. It does not reproduce or strengthen the Product descriptor-transfer claim.",
+        "",
+        "## Source",
+        "",
+        f"- Source ref: `{experiment['sourceRef']}`",
+        f"- Source SHA-256: `{experiment['sourceHashSha256']}`",
+        f"- Records: `{experiment['records']}`",
+        "",
+        "## Feature Schema",
+        "",
+        "| Feature | Definition |",
+        "| --- | --- |",
+    ]
+    for schema in experiment["featureSchema"]:
+        spec_lines.append(f"| `{schema['name']}` | {schema['description']} |")
+    spec_lines.extend(
+        [
+            "",
+            "## Split, Model, And Baselines",
+            "",
+            f"- Split rule: `{experiment['splitRule']}`",
+            f"- Model: `{experiment['model']}`",
+            "- Candidate proxy: OLS using all seven formula descriptors.",
+            "- Null baseline: train-target mean on deterministic holdout.",
+            "- Formula-size baseline: OLS using `element_count` and `total_atoms`.",
+            "- Matched negative control: all-feature OLS after deterministic train-target shuffle with seed `1729`.",
+            f"- Residual definition: `{experiment['residualDefinition']}`",
+            "",
+            "## Scope",
+            "",
+            str(experiment["claimScope"]),
+        ]
+    )
+    (output_dir / "RAW_DATA_REPRODUCIBLE_EXPERIMENT_SPEC.md").write_text("\n".join(spec_lines) + "\n")
+
+    baseline_rows = [
+        ("null_or_trivial_rule", experiment["baselines"]["null_or_trivial_rule"]["metrics"]),
+        ("composition_formula_size", experiment["baselines"]["composition_formula_size"]["metrics"]),
+        ("matched_negative_shuffled_target", experiment["baselines"]["matched_negative_shuffled_target"]["metrics"]),
+        ("candidate_formula_descriptor_proxy", experiment["candidateProxy"]["metrics"]),
+    ]
+    result_lines = [
+        "# Raw-Data Reproducible Experiment Results",
+        "",
+        "These results are recomputed by `reproduce_matbench_candidate.py` from public Matbench raw data. They are not the original Product descriptor-transfer values.",
+        "",
+        "## Decision",
+        "",
+        f"- Status: `{experiment['status']}`",
+        "- Product claim reproduced from raw data: `false`",
+        "- Discovery-score eligible: `false`",
+        f"- Reproducible proxy residual R2 delta: `{fmt_number(experiment['residualProxyR2Delta'])}`",
+        "",
+        "## Metrics",
+        "",
+        "| Check | R2 | MAE | RMSE |",
+        "| --- | ---: | ---: | ---: |",
+    ]
+    for name, model_metrics in baseline_rows:
+        result_lines.append(
+            f"| `{name}` | {fmt_number(model_metrics['r2'])} | {fmt_number(model_metrics['mae'])} | {fmt_number(model_metrics['rmse'])} |"
+        )
+    result_lines.extend(
+        [
+            "",
+            "## Interpretation",
+            "",
+            str(experiment["reproducibilityDecision"]),
+        ]
+    )
+    (output_dir / "RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.md").write_text("\n".join(result_lines) + "\n")
+
+    baseline_lines = [
+        "# Raw-Data Baseline Implementations",
+        "",
+        "The executable implementations are in `reproduce_matbench_candidate.py`. This document summarizes the exact public-data baselines used by the standalone raw-data proxy experiment.",
+        "",
+        "| Baseline | Implementation |",
+        "| --- | --- |",
+        "| `null_or_trivial_rule` | Predict the train-target mean for every deterministic holdout row. |",
+        "| `composition_formula_size` | Fit OLS with intercept on train-standardized `element_count` and `total_atoms`; score on deterministic holdout. |",
+        "| `matched_negative_shuffled_target` | Fit the same all-feature OLS after deterministic train-target shuffle with seed `1729`; score on deterministic holdout. |",
+        "| `candidate_formula_descriptor_proxy` | Fit OLS with intercept on all seven formula descriptors; score on deterministic holdout. |",
+        "",
+        "All baselines are intentionally simple and dependency-free so an external reviewer can rerun them with only Python standard library.",
+    ]
+    (output_dir / "RAW_DATA_BASELINE_IMPLEMENTATIONS.md").write_text("\n".join(baseline_lines) + "\n")
 
 
 def write_missing_inputs(result: dict[str, object], output_dir: Path) -> None:
@@ -733,6 +1012,7 @@ def write_missing_inputs(result: dict[str, object], output_dir: Path) -> None:
         "| measured outcome `0.72` | reproduced | `REPRODUCTION_RESULT_TABLE.md` |",
         "| residual magnitude `0.21` | reproduced | `REPRODUCTION_RESULT_TABLE.md` |",
         "| baseline scalars `0.34`, `0.29`, `0.23` | reproduced | `REPRODUCTION_RESULT_TABLE.md` |",
+        "| public raw-data proxy experiment | reproducible but separate from Product claim | `RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.md` |",
         "",
         "## Unresolved Raw-Data Scientific Inputs",
         "",
@@ -754,6 +1034,7 @@ def write_missing_inputs(result: dict[str, object], output_dir: Path) -> None:
             "- Raw-data scientific baselines reproduced exactly: no.",
             "- Public raw Matbench source loaded: yes.",
             "- Public proxy checks produced: yes.",
+            "- Public raw-data proxy experiment fully specified: yes.",
             "- Product values source classification: runtime_derived_deterministic_generator_scalars.",
             f"- Public-safe bundle decision: {bundle['bundleDecision']}.",
             "- Updated review readiness: not_external_review_ready_raw_scientific_reproduction_failed.",
@@ -817,6 +1098,7 @@ def write_raw_scientific_repair_decision(result: dict[str, object], output_dir: 
         "",
         "- Public Matbench JSON loaded: yes.",
         "- Formula-only proxy checks run: yes.",
+        "- Separate raw-data proxy experiment fully reproducible: yes.",
         "- Exact raw-data descriptor-transfer residual reproduced: no.",
         "- Exact raw-data baselines reproduced: no.",
         "",
@@ -839,6 +1121,7 @@ def main() -> int:
     args.output_dir.mkdir(parents=True, exist_ok=True)
     (args.output_dir / "standalone_reproduction_result.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
     write_result_table(result, args.output_dir)
+    write_raw_data_experiment_artifacts(result, args.output_dir)
     write_missing_inputs(result, args.output_dir)
     write_raw_scientific_repair_decision(result, args.output_dir)
     print(json.dumps({"status": result["status"], "recordsExtracted": result["source"]["recordsExtracted"]}, indent=2))

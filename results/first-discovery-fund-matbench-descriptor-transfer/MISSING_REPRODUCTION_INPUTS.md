@@ -12,6 +12,7 @@ Product runtime scalar replay is now exact. Exact independent raw-data scientifi
 | measured outcome `0.72` | reproduced | `REPRODUCTION_RESULT_TABLE.md` |
 | residual magnitude `0.21` | reproduced | `REPRODUCTION_RESULT_TABLE.md` |
 | baseline scalars `0.34`, `0.29`, `0.23` | reproduced | `REPRODUCTION_RESULT_TABLE.md` |
+| public raw-data proxy experiment | reproducible but separate from Product claim | `RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.md` |
 
 ## Unresolved Raw-Data Scientific Inputs
 
@@ -35,6 +36,7 @@ The public-safe raw reproduction bundle was exported and searched. It contains P
 - Raw-data scientific baselines reproduced exactly: no.
 - Public raw Matbench source loaded: yes.
 - Public proxy checks produced: yes.
+- Public raw-data proxy experiment fully specified: yes.
 - Product values source classification: runtime_derived_deterministic_generator_scalars.
 - Public-safe bundle decision: maximal_public_safe_export_completed_but_raw_scientific_inputs_not_found.
 - Updated review readiness: not_external_review_ready_raw_scientific_reproduction_failed.
