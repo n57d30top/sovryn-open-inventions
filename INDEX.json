@@ -1,7 +1,7 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-09T14:29:40.115Z",
-  "resultCount": 614,
+  "updatedAt": "2026-05-12T11:36:14.833Z",
+  "resultCount": 615,
   "results": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -9010,6 +9010,44 @@
       "customTool": null,
       "workerAssurance": "not-recorded",
       "falsificationStatus": "passes_falsification"
+    },
+    {
+      "slug": "first-discovery-fund-matbench-descriptor-transfer",
+      "title": "First Discovery Fund: Matbench Descriptor Transfer External Review Package",
+      "resultKind": "externally_review_ready_discovery_candidate",
+      "domain": "computational_materials_property_data",
+      "path": "results/first-discovery-fund-matbench-descriptor-transfer",
+      "qualityLabel": "good",
+      "candidateStatus": "autopublished",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "first-discovery-fund-matbench-descriptor-transfer",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": true,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      },
+      "revisionReason": null,
+      "humanReadableSummary": "This result publishes the Matbench descriptor-transfer discovery candidate package from the Product repo into the public corpus for inspection and external human review.",
+      "releaseReadinessScore": 72,
+      "evidenceStrengthScore": 54,
+      "reproducibilityScore": 58,
+      "publicationSafetyScore": 100,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 78,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "fund_gate_passed_internal_external_review_required"
     },
     {
       "slug": "first-fund-scipy-runtime-reproduction-external-review-ready",
@@ -23428,5 +23466,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "f00797c65177e8bc06f1c45a34a6273609311a644dace3ace816d47414177b45"
+  "evidenceHash": "bcab620fbbfa44d101227f7a9ff06055dcabb1c3297d8cd600c0e1f40347f29d"
 }

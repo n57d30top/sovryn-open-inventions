@@ -270,6 +270,7 @@ and safety scope in human-readable language.
 - [Field-Grade Autonomous Science Trial](results/field-grade-autonomous-science-trial/) — excellent, superseded, field-grade-autonomous-science-trial, field-grade-scientific-autonomy
 - [Field-Grade Autonomous Science Trial](results/field-grade-autonomous-science-trial-v2/) — excellent, superseded, field-grade-autonomous-science-trial, field-grade-scientific-autonomy
 - [Field-Grade Autonomous Science Trial](results/field-grade-autonomous-science-trial-v3/) — excellent, autopublished, field-grade-autonomous-science-trial, field-grade-scientific-autonomy
+- [First Discovery Fund: Matbench Descriptor Transfer External Review Package](results/first-discovery-fund-matbench-descriptor-transfer/) — good, autopublished, first-discovery-fund-matbench-descriptor-transfer, computational_materials_property_data
 - [First Fund: SciPy Runtime Reproduction External Review Package](results/first-fund-scipy-runtime-reproduction-external-review-ready/) — good, autopublished, first-fund-scipy-runtime-reproduction-external-review-ready, scientific_software_reproduction_mechanisms
 - [Domain Scope](results/formal-stage01-domain-scope/) — good, autopublished, formal-stage01-domain-scope, formal pattern and conjecture discovery
 - [Candidate Universe](results/formal-stage02-candidate-universe/) — good, autopublished, formal-stage02-candidate-universe, formal pattern and conjecture discovery

@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 614
+Results: 615
 
 ## Lifecycle Counts
 
-- autopublished: 583
+- autopublished: 584
 - needs_revision: 4
 - showcase: 3
 - showcase_science: 10
@@ -236,6 +236,7 @@ Results: 614
 - external-reproduction-extension-result: latest external-reproduction-extension-result; external-reproduction-extension-result
 - external-scientific-production-result: latest external-scientific-production-result; external-scientific-production-result
 - field-grade-autonomous-science-trial: latest field-grade-autonomous-science-trial-v3; field-grade-autonomous-science-trial, field-grade-autonomous-science-trial-v2, field-grade-autonomous-science-trial-v3
+- first-discovery-fund-matbench-descriptor-transfer: latest first-discovery-fund-matbench-descriptor-transfer; first-discovery-fund-matbench-descriptor-transfer
 - first-fund-scipy-runtime-reproduction-external-review-ready: latest first-fund-scipy-runtime-reproduction-external-review-ready; first-fund-scipy-runtime-reproduction-external-review-ready
 - formal-stage01-domain-scope: latest formal-stage01-domain-scope; formal-stage01-domain-scope
 - formal-stage02-candidate-universe: latest formal-stage02-candidate-universe; formal-stage02-candidate-universe

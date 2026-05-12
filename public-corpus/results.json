@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_results",
-  "generatedAt": "2026-05-09T14:29:40.115Z",
+  "generatedAt": "2026-05-12T11:36:14.833Z",
   "results": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -7201,6 +7201,36 @@
       "pushed": true,
       "customTool": null,
       "falsificationStatus": "passes_falsification"
+    },
+    {
+      "slug": "first-discovery-fund-matbench-descriptor-transfer",
+      "title": "First Discovery Fund: Matbench Descriptor Transfer External Review Package",
+      "domain": "computational_materials_property_data",
+      "resultKind": "externally_review_ready_discovery_candidate",
+      "path": "results/first-discovery-fund-matbench-descriptor-transfer",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "first-discovery-fund-matbench-descriptor-transfer",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": null,
+      "humanReadableSummary": "This result publishes the Matbench descriptor-transfer discovery candidate package from the Product repo into the public corpus for inspection and external human review.",
+      "releaseReadinessScore": 72,
+      "evidenceStrengthScore": 54,
+      "reproducibilityScore": 58,
+      "publicationSafetyScore": 100,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 78,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": false,
+      "customTool": null,
+      "falsificationStatus": "fund_gate_passed_internal_external_review_required"
     },
     {
       "slug": "first-fund-scipy-runtime-reproduction-external-review-ready",
@@ -18618,5 +18648,5 @@
       "falsificationStatus": "adversarial_route_reviewed"
     }
   ],
-  "evidenceHash": "e848e71952b3c169324326a3cc8a55223168f1b3ebe43e4d0289bb518d06ce27"
+  "evidenceHash": "635d4a3b4b64e4fba73c598ad59b44df3273ec47e023ced9eb1de09807ce181b"
 }

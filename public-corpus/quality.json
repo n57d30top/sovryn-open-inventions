@@ -1,13 +1,13 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-09T14:29:40.115Z",
+  "generatedAt": "2026-05-12T11:36:14.833Z",
   "qualityCounts": {
     "excellent": 5,
-    "good": 603,
+    "good": 604,
     "reviewable": 6
   },
   "lifecycleCounts": {
-    "autopublished": 583,
+    "autopublished": 584,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -3303,6 +3303,20 @@
       "reproducibilityScore": 92,
       "publicationSafetyScore": 98,
       "specificityScore": 90
+    },
+    {
+      "slug": "first-discovery-fund-matbench-descriptor-transfer",
+      "qualityLabel": "good",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "first-discovery-fund-matbench-descriptor-transfer",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 72,
+      "evidenceStrengthScore": 54,
+      "reproducibilityScore": 58,
+      "publicationSafetyScore": 100,
+      "specificityScore": 78
     },
     {
       "slug": "first-fund-scipy-runtime-reproduction-external-review-ready",
@@ -8611,5 +8625,5 @@
       "specificityScore": 94
     }
   ],
-  "evidenceHash": "c658164063f57d263048f21a77a373a26180d093538fc0054df9aea62becfcee"
+  "evidenceHash": "366ce5d25b60d745228b8e1575cdc76d864f39ebef9964ed5b7a3bda2c4f70ad"
 }

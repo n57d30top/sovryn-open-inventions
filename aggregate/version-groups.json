@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-09T14:29:40.115Z",
+  "updatedAt": "2026-05-12T11:36:14.833Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -1579,6 +1579,13 @@
         "field-grade-autonomous-science-trial",
         "field-grade-autonomous-science-trial-v2",
         "field-grade-autonomous-science-trial-v3"
+      ]
+    },
+    {
+      "versionGroup": "first-discovery-fund-matbench-descriptor-transfer",
+      "latestSlug": "first-discovery-fund-matbench-descriptor-transfer",
+      "resultSlugs": [
+        "first-discovery-fund-matbench-descriptor-transfer"
       ]
     },
     {
@@ -4217,5 +4224,5 @@
       ]
     }
   ],
-  "evidenceHash": "ed662cfd3b3317b923752077cb7fe03399aee8b1421d48b41298dd6be1124485"
+  "evidenceHash": "7906c3b244f79f24aed3f3964522aeefe07064200e5e2a497e7eb4b13f5e2b16"
 }

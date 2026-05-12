@@ -1,14 +1,14 @@
 {
   "kind": "sovryn_public_corpus_product",
-  "generatedAt": "2026-05-09T14:29:40.115Z",
-  "resultCount": 614,
+  "generatedAt": "2026-05-12T11:36:14.833Z",
+  "resultCount": 615,
   "qualityCounts": {
     "excellent": 5,
-    "good": 603,
+    "good": 604,
     "reviewable": 6
   },
   "statusCounts": {
-    "autopublished": 579,
+    "autopublished": 580,
     "benchmark_challenge_negative_result": 4,
     "dataset_quality_audit_supported": 7,
     "external_extension_supported": 1,
@@ -27,7 +27,7 @@
     "v1_candidate_with_limits": 1
   },
   "lifecycleCounts": {
-    "autopublished": 583,
+    "autopublished": 584,
     "needs_revision": 4,
     "showcase": 3,
     "showcase_science": 10,
@@ -47,6 +47,7 @@
     "chemistry-data-quality": 10,
     "claim-verification-benchmark": 1,
     "claim-verification-benchmark-quality": 1,
+    "computational_materials_property_data": 1,
     "computational-reproducibility-audit": 1,
     "Cross-Domain Evidence Routing OS route policy v3": 12,
     "Cross-Domain Evidence Routing OS route policy v3 scale": 12,
@@ -7318,6 +7319,36 @@
       "pushed": true,
       "customTool": null,
       "falsificationStatus": "passes_falsification"
+    },
+    {
+      "slug": "first-discovery-fund-matbench-descriptor-transfer",
+      "title": "First Discovery Fund: Matbench Descriptor Transfer External Review Package",
+      "domain": "computational_materials_property_data",
+      "resultKind": "externally_review_ready_discovery_candidate",
+      "path": "results/first-discovery-fund-matbench-descriptor-transfer",
+      "qualityLabel": "good",
+      "publicationStatus": "autopublished",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "first-discovery-fund-matbench-descriptor-transfer",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": null,
+      "humanReadableSummary": "This result publishes the Matbench descriptor-transfer discovery candidate package from the Product repo into the public corpus for inspection and external human review.",
+      "releaseReadinessScore": 72,
+      "evidenceStrengthScore": 54,
+      "reproducibilityScore": 58,
+      "publicationSafetyScore": 100,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 78,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": false,
+      "customTool": null,
+      "falsificationStatus": "fund_gate_passed_internal_external_review_required"
     },
     {
       "slug": "first-fund-scipy-runtime-reproduction-external-review-ready",
@@ -20316,6 +20347,13 @@
       ]
     },
     {
+      "versionGroup": "first-discovery-fund-matbench-descriptor-transfer",
+      "latestSlug": "first-discovery-fund-matbench-descriptor-transfer",
+      "resultSlugs": [
+        "first-discovery-fund-matbench-descriptor-transfer"
+      ]
+    },
+    {
       "versionGroup": "first-fund-scipy-runtime-reproduction-external-review-ready",
       "latestSlug": "first-fund-scipy-runtime-reproduction-external-review-ready",
       "resultSlugs": [
@@ -23626,5 +23664,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "3af3623990bb43a21b9d31cbe9b0e72c6ec00952d653041e818458dc5c9e1ac7"
+  "evidenceHash": "5a26481f0cb193994714691a4e5f3c7c35f6ed943030ee6a33e64ec10f23775f"
 }

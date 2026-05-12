@@ -1,0 +1,196 @@
+{
+  "kind": "public_fund_promotion_audit",
+  "auditedAt": "2026-05-12T11:30:25.985Z",
+  "classification": "externally_review_ready_discovery_candidate",
+  "countsForEinsteinNobelDiscoveryScore": true,
+  "nontrivialNewInsightAcrossRealTargets": true,
+  "domainScientificSignificance": true,
+  "resultKind": "externally_review_ready_discovery_candidate",
+  "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+  "claim": "The measured public computational_materials_property_data target-outcome residual for HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01 has scientific significance: public materials descriptor transfer residual survives composition formula size target family split leakage and shuffled target controls changes interpretation of the bounded measured target slice by surviving baseline, rival, holdout, replay, counterexample, recurrence, and mechanism pressure checks. The scope is limited to the cited public targets and the recorded evidence package.",
+  "domain": "computational_materials_property_data",
+  "sourcePackagePath": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45",
+  "corpusResultPath": "results/first-discovery-fund-matbench-descriptor-transfer",
+  "sourceProductCommit": "48afba2890e00947d9f555cf3ac9db637e6dff91",
+  "gateStatuses": [
+    {
+      "code": "candidate_identity_integrity",
+      "passed": true,
+      "message": "Candidate ID and exact claim must remain stable."
+    },
+    {
+      "code": "high_impact_domain",
+      "passed": true,
+      "message": "Candidate must be safe, high-impact, and not merely a tool/report/process improvement."
+    },
+    {
+      "code": "nontriviality",
+      "passed": true,
+      "message": "Candidate must not be known, trivial, or just renamed prior work."
+    },
+    {
+      "code": "rival_theory_pressure",
+      "passed": true,
+      "message": "At least three rivals must be compared and at least one weakened or scope-limited."
+    },
+    {
+      "code": "baseline_resistance",
+      "passed": true,
+      "message": "Strong baselines must be executed and not dominate the candidate."
+    },
+    {
+      "code": "counterexample_pressure",
+      "passed": true,
+      "message": "Counterexample checks must execute without collapsing the candidate."
+    },
+    {
+      "code": "frozen_predictions",
+      "passed": true,
+      "message": "Predictions must be frozen, unedited, executed, and include non-obvious cases."
+    },
+    {
+      "code": "holdout_support",
+      "passed": true,
+      "message": "Fresh post-freeze holdouts must support the candidate."
+    },
+    {
+      "code": "replay_reproduction",
+      "passed": true,
+      "message": "Decisive evidence must be replayed with at least one fresh workspace/container-style replay."
+    },
+    {
+      "code": "proof_or_mechanism_pressure",
+      "passed": true,
+      "message": "Proof, refutation, or mechanism pressure must be clear and must not fake proof status."
+    },
+    {
+      "code": "kill_week",
+      "passed": true,
+      "message": "Adversarial kill week must complete with no fatal unresolved attack."
+    },
+    {
+      "code": "external_review_package",
+      "passed": true,
+      "message": "External review package must exist with method, bindings, reproduce, limitations, and no overclaim."
+    },
+    {
+      "code": "allowed_fund_label",
+      "passed": true,
+      "message": "Only allowed Fund labels may notify the user."
+    },
+    {
+      "code": "external_review_package_path",
+      "passed": true,
+      "message": "Fund notification requires a relative, public-safe external-review package path."
+    },
+    {
+      "code": "external_review_package_file_PAPER.md",
+      "passed": true,
+      "message": "Fund notification requires PAPER.md in the candidate external-review package."
+    },
+    {
+      "code": "external_review_package_file_METHOD.md",
+      "passed": true,
+      "message": "Fund notification requires METHOD.md in the candidate external-review package."
+    },
+    {
+      "code": "external_review_package_file_CLAIM_EVIDENCE_BINDINGS.json",
+      "passed": true,
+      "message": "Fund notification requires CLAIM_EVIDENCE_BINDINGS.json in the candidate external-review package."
+    },
+    {
+      "code": "external_review_package_file_REPRODUCE.md",
+      "passed": true,
+      "message": "Fund notification requires REPRODUCE.md in the candidate external-review package."
+    },
+    {
+      "code": "external_review_package_file_LIMITATIONS.md",
+      "passed": true,
+      "message": "Fund notification requires LIMITATIONS.md in the candidate external-review package."
+    },
+    {
+      "code": "external_review_package_public_safe_PAPER.md",
+      "passed": true,
+      "message": "PAPER.md must be non-empty and must not contain local absolute paths."
+    },
+    {
+      "code": "external_review_package_public_safe_METHOD.md",
+      "passed": true,
+      "message": "METHOD.md must be non-empty and must not contain local absolute paths."
+    },
+    {
+      "code": "external_review_package_public_safe_REPRODUCE.md",
+      "passed": true,
+      "message": "REPRODUCE.md must be non-empty and must not contain local absolute paths."
+    },
+    {
+      "code": "external_review_package_public_safe_LIMITATIONS.md",
+      "passed": true,
+      "message": "LIMITATIONS.md must be non-empty and must not contain local absolute paths."
+    },
+    {
+      "code": "external_review_package_candidate_binding",
+      "passed": true,
+      "message": "CLAIM_EVIDENCE_BINDINGS.json must bind to the exact candidate ID."
+    },
+    {
+      "code": "external_review_package_claim_binding",
+      "passed": true,
+      "message": "CLAIM_EVIDENCE_BINDINGS.json must bind to the exact candidate claim."
+    },
+    {
+      "code": "external_review_package_evidence_refs",
+      "passed": true,
+      "message": "CLAIM_EVIDENCE_BINDINGS.json must bind at least five public-safe evidence refs."
+    },
+    {
+      "code": "external_review_package_prediction_refs",
+      "passed": true,
+      "message": "CLAIM_EVIDENCE_BINDINGS.json must bind prediction evidence refs."
+    },
+    {
+      "code": "external_review_package_holdout_refs",
+      "passed": true,
+      "message": "CLAIM_EVIDENCE_BINDINGS.json must bind holdout evidence refs."
+    },
+    {
+      "code": "external_review_package_counterexample_refs",
+      "passed": true,
+      "message": "CLAIM_EVIDENCE_BINDINGS.json must bind counterexample evidence refs."
+    },
+    {
+      "code": "external_review_package_replay_refs",
+      "passed": true,
+      "message": "CLAIM_EVIDENCE_BINDINGS.json must bind replay evidence refs."
+    },
+    {
+      "code": "external_review_package_kill_week_refs",
+      "passed": true,
+      "message": "CLAIM_EVIDENCE_BINDINGS.json must bind kill-week evidence refs."
+    },
+    {
+      "code": "external_review_package_method_binding",
+      "passed": true,
+      "message": "CLAIM_EVIDENCE_BINDINGS.json must bind METHOD.md."
+    },
+    {
+      "code": "external_review_package_reproduce_binding",
+      "passed": true,
+      "message": "CLAIM_EVIDENCE_BINDINGS.json must bind REPRODUCE.md."
+    },
+    {
+      "code": "external_review_package_limitations_binding",
+      "passed": true,
+      "message": "CLAIM_EVIDENCE_BINDINGS.json must bind LIMITATIONS.md."
+    },
+    {
+      "code": "external_review_package_forward_contract",
+      "passed": true,
+      "message": "Future Fund packages must bind a valid FundCandidateDraft ref or an explicit legacyBypassReason with candidate ID, claim, evidence refs, and audit status."
+    }
+  ],
+  "noOverclaimStatus": "passed_explicit_non_claims_only",
+  "externalReviewReadiness": "ready_for_human_review_dispatch",
+  "limitation": "External expert review is still required before any stronger interpretation.",
+  "evidenceHash": "47632cb19fc4d66a1942f9a94e498a7176da4845ab77212ee2d22e53ff1456e8"
+}

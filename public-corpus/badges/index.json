@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-09T14:29:40.115Z",
+  "generatedAt": "2026-05-12T11:36:14.833Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -4227,6 +4227,24 @@
         "falsification": "passes_falsification",
         "lifecycle": "autopublished",
         "version": "field-grade-autonomous-science-trial",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "first-discovery-fund-matbench-descriptor-transfer",
+      "badges": {
+        "quality": "good",
+        "status": "autopublished",
+        "antiTemplate": "specific_public_evidence",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "fund_gate_passed_internal_external_review_required",
+        "lifecycle": "autopublished",
+        "version": "first-discovery-fund-matbench-descriptor-transfer",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -11055,5 +11073,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "0901ce21b0cb870c109a7f8b94ceeb821060740905a22e0f853847f456b9ae91"
+  "evidenceHash": "d22571e9c8c555cde05857311ca1fd76076fbd8d6cdc556d3293f448e47524bb"
 }

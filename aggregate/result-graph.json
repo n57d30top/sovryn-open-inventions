@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-09T14:29:40.115Z",
+  "generatedAt": "2026-05-12T11:36:14.833Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1411,6 +1411,12 @@
       "kind": "result",
       "label": "Field-Grade Autonomous Science Trial",
       "domain": "field-grade-scientific-autonomy"
+    },
+    {
+      "id": "result:first-discovery-fund-matbench-descriptor-transfer",
+      "kind": "result",
+      "label": "First Discovery Fund: Matbench Descriptor Transfer External Review Package",
+      "domain": "computational_materials_property_data"
     },
     {
       "id": "result:first-fund-scipy-runtime-reproduction-external-review-ready",
@@ -3922,6 +3928,11 @@
       "label": "field-grade-scientific-autonomy"
     },
     {
+      "id": "domain:computational_materials_property_data",
+      "kind": "domain",
+      "label": "computational_materials_property_data"
+    },
+    {
       "id": "domain:scientific_software_reproduction_mechanisms",
       "kind": "domain",
       "label": "scientific_software_reproduction_mechanisms"
@@ -6164,6 +6175,11 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:first-discovery-fund-matbench-descriptor-transfer",
+      "target": "domain:computational_materials_property_data",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:first-fund-scipy-runtime-reproduction-external-review-ready",
       "target": "domain:scientific_software_reproduction_mechanisms",
       "relation": "belongs_to_domain"
@@ -8214,5 +8230,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "6f70b7fce3bdb61b5477498ef670d0288bc030dff1b3c0174b88302c3cd39643"
+  "evidenceHash": "fb6177447b9ec7ac2ec3b59811db8b8a4dcf457c9b76715646d370fb7878321c"
 }

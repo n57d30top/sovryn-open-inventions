@@ -2,7 +2,7 @@
   "kind": "public_corpus_api_quality",
   "qualityCounts": {
     "excellent": 5,
-    "good": 603,
+    "good": 604,
     "reviewable": 6
   },
   "results": [
@@ -1180,6 +1180,11 @@
       "slug": "field-grade-autonomous-science-trial-v3",
       "qualityLabel": "excellent",
       "releaseReadinessScore": 93
+    },
+    {
+      "slug": "first-discovery-fund-matbench-descriptor-transfer",
+      "qualityLabel": "good",
+      "releaseReadinessScore": 72
     },
     {
       "slug": "first-fund-scipy-runtime-reproduction-external-review-ready",
@@ -3077,5 +3082,5 @@
       "releaseReadinessScore": 86
     }
   ],
-  "evidenceHash": "c658164063f57d263048f21a77a373a26180d093538fc0054df9aea62becfcee"
+  "evidenceHash": "366ce5d25b60d745228b8e1575cdc76d864f39ebef9964ed5b7a3bda2c4f70ad"
 }
