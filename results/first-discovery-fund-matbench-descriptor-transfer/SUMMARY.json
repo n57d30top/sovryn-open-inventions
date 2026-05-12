@@ -44,6 +44,11 @@
     "REPRODUCTION_QUEUE.md",
     "NOBEL_READINESS_REPORT.md",
     "REVIEWER_SUMMARY.md",
+    "REPRODUCE_STANDALONE.md",
+    "reproduce_matbench_candidate.py",
+    "REPRODUCTION_RESULT_TABLE.md",
+    "MISSING_REPRODUCTION_INPUTS.md",
+    "standalone_reproduction_result.json",
     "DATASET_AND_TARGET_TABLE.md",
     "BASELINE_RESULTS_TABLE.md",
     "RIVAL_THEORY_RESULTS_TABLE.md",
@@ -64,16 +69,28 @@
   "limitations": [
     "Source Product limitation copied verbatim: \"The evidence is bounded to generated formal object families and replayed Product artifacts.\"",
     "For this Corpus result, the public claim remains bounded to the cited Matbench/public-materials target refs and recorded Product evidence package.",
+    "Standalone public-data reproduction is incomplete: the raw Matbench source loads and proxy checks run, but exact Product residual and baseline scalars are not independently recomputed.",
     "Domain scientific significance pressure failed gates: no_anti_discovery_claim_text.",
     "This package makes only a bounded internal evidence claim and avoids prohibited public overclaim categories.",
     "Human expert review is required before any stronger interpretation of scientific significance.",
     "No external validation or external adoption is claimed."
   ],
   "disclaimer": "Bounded externally review-ready discovery candidate package. It does not claim external validation, external adoption, prize-level significance, broad intelligence, legal authority, medical authority, unsafe capability, or universal truth.",
-  "nextExternalReviewStep": "Send this bundle and the referenced package to an independent domain expert for method, evidence, reproduction, limitation, and significance review.",
+  "nextExternalReviewStep": "Run the standalone public proxy script, inspect the missing exact-reproduction inputs, then send this bundle to an independent domain expert for method, evidence, reproduction, limitation, and significance review.",
   "evidenceHash": "a1b0717412b9862c3d43bb84e89fa464b76ba29d8777aa7f1a5a617c303e3a7e",
   "publicReviewStatus": "external_review_ready_with_major_caveats",
   "exactProductClaimPreserved": true,
+  "standaloneReproductionStatus": "incomplete_exact_reproduction_public_proxy_checks_only",
+  "standaloneReproduction": {
+    "script": "reproduce_matbench_candidate.py",
+    "resultTable": "REPRODUCTION_RESULT_TABLE.md",
+    "missingInputs": "MISSING_REPRODUCTION_INPUTS.md",
+    "resultJson": "standalone_reproduction_result.json",
+    "exactProductResidualReproduced": false,
+    "exactProductBaselinesReproduced": false,
+    "publicRawDataLoaded": true,
+    "publicProxyChecksProduced": true
+  },
   "reviewerFacingBoundedClaim": "The public package records a Product-generated Matbench/materials candidate package where matbench_descriptor_transfer_significance_generator-output-01 has measured outcome 0.72, residual magnitude 0.21, and three recorded simple controls that do not explain the signal. This is a reviewer-facing bounded interpretation of the package evidence, not a stronger scientific claim and not external validation.",
   "evidenceRefClassification": {
     "totalRefs": 62,
@@ -106,11 +123,12 @@
     "HOLDOUT_RESULTS_TABLE.md",
     "COUNTEREXAMPLE_RESULTS_TABLE.md",
     "REPLAY_RESULTS_TABLE.md",
-    "EFFECT_SIZE_AND_RESIDUAL_TABLE.md"
+    "EFFECT_SIZE_AND_RESIDUAL_TABLE.md",
+    "REPRODUCTION_RESULT_TABLE.md"
   ],
   "majorCaveats": [
     "No independent external validation or adoption is claimed.",
-    "The public package still does not include a standalone residual recomputation script from raw Matbench data.",
+    "A standalone public raw-data proxy script is included, but exact Product residual and baseline scalars are not independently reproduced.",
     "The Product limitations include formal-object wording that does not cleanly match the Matbench/materials claim path.",
     "The public evidence exposes Product-recorded scalar outputs but not a full descriptor matrix, model configuration, split file, or uncertainty interval.",
     "The pre-lift domain-significance assessment recorded failed gate no_anti_discovery_claim_text; the final Product claim-lift transition needs reviewer scrutiny."

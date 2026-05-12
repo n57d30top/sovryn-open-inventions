@@ -28,7 +28,9 @@ It does not claim a general law of materials descriptors, a broad benchmark impr
 
 ## Reproducibility Limitation
 
-The package now supports public inspection of the Product evidence without private local `.sovryn` paths. It still does not include a standalone external script that recomputes the residual, all baselines, holdout, and counterexamples from raw public Matbench data.
+The package now supports public inspection of the Product evidence without private local `.sovryn` paths and includes `reproduce_matbench_candidate.py`, a standalone public raw-data proxy check. The script loads the public Matbench experimental band-gap JSON and computes deterministic formula-only proxy checks.
+
+The script does not exactly recompute the Product residual, all baselines, holdout, and counterexamples from raw public Matbench data. Exact reproduction remains blocked by the missing inputs listed in `MISSING_REPRODUCTION_INPUTS.md`.
 
 ## Evidence Limitation
 
@@ -37,6 +39,8 @@ The public package exposes copied Product artifacts and public source URLs. It d
 - a full descriptor matrix;
 - a complete model configuration;
 - a train/test split file;
+- the exact residual formula and score normalization;
+- executable baseline implementations for Product scalars `0.34`, `0.29`, and `0.23`;
 - a statistical uncertainty interval;
 - a p-value or confidence interval;
 - an independently authored reviewer report.
@@ -64,6 +68,7 @@ The Product package records:
 Before the candidate should be treated as scientifically convincing outside Sovryn, a reviewer or future package should:
 
 - independently recompute the residual from public Matbench data;
+- supply or reconstruct the exact descriptor-transfer feature matrix, split manifest, residual formula, and baseline implementations;
 - publish exact feature construction and split definitions;
 - publish model configuration or computation code;
 - quantify uncertainty and effect size stability;

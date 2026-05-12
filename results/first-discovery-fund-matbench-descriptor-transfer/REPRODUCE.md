@@ -53,7 +53,27 @@ Compare the source availability and receipt context against:
 jq '{sourceRef, sourceReceipt, rawTargetCount, measuredVariable, targetOutcome, measuredOutcome, residualMagnitude, baselineResults, holdoutPath, replayPath}' copied-product-evidence/matbench-source-cache.json
 ```
 
-Important caveat: this public package does not yet include a standalone script that recomputes the Product residual from the downloaded raw JSON. The raw-source check verifies source access and receipt context; it does not by itself independently validate the scientific claim.
+Important caveat: the standalone script added in this repair does not exactly recompute the Product residual from raw JSON. The raw-source check verifies source access and receipt context; exact scientific reproduction remains blocked by missing Product inputs listed in `MISSING_REPRODUCTION_INPUTS.md`.
+
+## Standalone Public-Data Proxy Check
+
+This repair adds a minimal standalone script that can be run without private Product `.sovryn` state:
+
+```bash
+python3 reproduce_matbench_candidate.py
+```
+
+The script downloads the public Matbench experimental band-gap JSON by default, parses formulas and target values, computes deterministic formula-only proxy checks, and writes:
+
+- `REPRODUCTION_RESULT_TABLE.md`
+- `MISSING_REPRODUCTION_INPUTS.md`
+- `standalone_reproduction_result.json`
+
+Current expected status:
+
+`incomplete_exact_reproduction_public_proxy_checks_only`
+
+That status is intentional and caveated. The script verifies public raw-data access and recomputes transparent proxy baselines, but it does not exactly reproduce Product-recorded values `0.72`, `0.21`, `0.34`, `0.29`, or `0.23` because the package still lacks the exact descriptor matrix, model/training configuration, split/family manifest, residual formula, and baseline implementation.
 
 ## Reviewer Tables
 
@@ -91,4 +111,4 @@ The copied Product package records replay support as package-bound and nonfatal:
 - `copied-product-evidence/pre-lift-reproduce.md#replay`
 - `copied-product-evidence/runtime-evidence-output-01.json`
 
-External-review caveat: package-bound replay is not the same as independent external reproduction from raw data and fresh code. A stronger future package should add a minimal script that recomputes the residual, baselines, and holdout from the public Matbench JSON.
+External-review caveat: package-bound replay is not the same as independent external reproduction from raw data and fresh code. The standalone script now provides a public raw-source and proxy-baseline check, but exact descriptor-transfer reproduction remains blocked by the missing inputs listed in `MISSING_REPRODUCTION_INPUTS.md`.

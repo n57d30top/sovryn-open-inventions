@@ -44,6 +44,11 @@ The public corpus package includes:
 - REPRODUCTION_QUEUE.md
 - NOBEL_READINESS_REPORT.md
 - REVIEWER_SUMMARY.md
+- REPRODUCE_STANDALONE.md
+- reproduce_matbench_candidate.py
+- REPRODUCTION_RESULT_TABLE.md
+- MISSING_REPRODUCTION_INPUTS.md
+- standalone_reproduction_result.json
 - DATASET_AND_TARGET_TABLE.md
 - BASELINE_RESULTS_TABLE.md
 - RIVAL_THEORY_RESULTS_TABLE.md
@@ -68,6 +73,20 @@ The Product Fund Gate reports status `FUND_FOUND` for this candidate and FundCla
 
 The copied artifacts make the Product evidence trail inspectable in the public Corpus. They do not turn the package into independent external reproduction.
 
+## Standalone Reproduction Repair
+
+This package now includes a standalone public-data check:
+
+```bash
+python3 reproduce_matbench_candidate.py
+```
+
+The script loads the public Matbench experimental band-gap JSON, computes deterministic formula-only proxy checks, and writes `REPRODUCTION_RESULT_TABLE.md` plus `MISSING_REPRODUCTION_INPUTS.md`.
+
+Current standalone classification: `incomplete_exact_reproduction_public_proxy_checks_only`.
+
+The Product-recorded residual `0.21`, measured outcome `0.72`, and baseline values `0.34`, `0.29`, and `0.23` are not exactly reproduced from public raw data because the public package still lacks the descriptor matrix, model/training configuration, exact split/family manifest, residual formula, and baseline implementations.
+
 ## No Overclaim
 
 - No Nobel claim.
@@ -82,6 +101,7 @@ The copied artifacts make the Product evidence trail inspectable in the public C
 
 - Source Product limitation copied verbatim: "The evidence is bounded to generated formal object families and replayed Product artifacts."
 - For this Corpus result, the public claim remains bounded to the cited Matbench/public-materials target refs and recorded Product evidence package.
+- Standalone public-data reproduction is incomplete: the raw Matbench source loads and proxy checks run, but exact Product residual and baseline scalars are not independently recomputed.
 - Domain scientific significance pressure failed gates: no_anti_discovery_claim_text.
 - This package makes only a bounded internal evidence claim and avoids prohibited public overclaim categories.
 - Human expert review is required before any stronger interpretation of scientific significance.

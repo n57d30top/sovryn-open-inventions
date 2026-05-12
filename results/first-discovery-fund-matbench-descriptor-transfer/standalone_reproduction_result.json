@@ -1,0 +1,66 @@
+{
+  "exactProductBaselinesReproduced": false,
+  "exactProductResidualReproduced": false,
+  "interpretation": "The public Matbench raw JSON was loaded and formula-only proxy checks were recomputed. The Product-recorded descriptor-transfer measured outcome, residual magnitude, and baseline scalars were not exactly reproduced because essential Product inputs are not exposed in this public package.",
+  "missingInputs": [
+    {
+      "input": "descriptor matrix / feature definition",
+      "why_needed": "The Product claim refers to a descriptor-transfer residual, but the public package does not expose the exact pymatgen/matminer/ASE feature matrix or featurizer configuration."
+    },
+    {
+      "input": "model and training configuration",
+      "why_needed": "The public package does not expose the model class, hyperparameters, preprocessing, target scaling, or random seed that map raw formulas to the Product measured outcome 0.72."
+    },
+    {
+      "input": "exact train/validation/holdout split and family labels",
+      "why_needed": "The Product evidence names composition/formula-size/target-family and holdout pressure, but the public package does not expose the exact split manifest or target-family labels."
+    },
+    {
+      "input": "residual formula and score normalization",
+      "why_needed": "The public package does not define the exact scalar transformation that produces residual magnitude 0.21 from model, baseline, holdout, and control outputs."
+    },
+    {
+      "input": "baseline implementation details",
+      "why_needed": "The Product values 0.34, 0.29, and 0.23 are recorded scalars, but their exact algorithms are not exposed as executable public code."
+    },
+    {
+      "input": "target subset manifest",
+      "why_needed": "The copied Product source-cache artifact records rawTargetCount 300, while the current public Matbench JSON contains more rows; the exact Product subset selection is not public."
+    },
+    {
+      "input": "external runnable holdout/counterexample manifests",
+      "why_needed": "The public package records holdout, replay, and counterexample status, but does not expose an independent runnable manifest for those checks."
+    }
+  ],
+  "productRecordedValues": {
+    "composition_formula_size_target_family_baseline": 0.34,
+    "matched_negative_control": 0.29,
+    "measured_outcome": 0.72,
+    "null_or_trivial_rule": 0.23,
+    "residual_magnitude": 0.21
+  },
+  "runtimeEvidenceLoaded": true,
+  "source": {
+    "bytes": 99468,
+    "holdoutRecords": 194,
+    "recordsExtracted": 921,
+    "sourceHashSha256": "e982f9d9586ab9603c588782646870542fb2b39f915ccb0fdb513426e2ff9859",
+    "sourceRef": "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json",
+    "targetMax": 8.0,
+    "targetMean": 0.9273072747014115,
+    "targetMin": 0.0,
+    "trainRecords": 727
+  },
+  "standaloneProxyValues": {
+    "composition_formula_size_proxy_mae": 0.9810163114680854,
+    "composition_formula_size_proxy_r2": 0.06125258772807529,
+    "descriptor_transfer_proxy_mae": 0.9139796492876436,
+    "descriptor_transfer_proxy_r2": 0.16345218172056164,
+    "matched_negative_control_proxy_mae": 1.0924183700874128,
+    "matched_negative_control_proxy_r2": -0.06038660839177412,
+    "null_or_trivial_rule_proxy_mae": 1.0587138927097661,
+    "null_or_trivial_rule_proxy_r2": -9.228031336183662e-06,
+    "residual_proxy_r2_delta": 0.10219959399248635
+  },
+  "status": "incomplete_exact_reproduction_public_proxy_checks_only"
+}
