@@ -13,12 +13,17 @@ The measured public computational_materials_property_data target-outcome residua
 - Candidate ID: DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB
 - Result kind: externally_review_ready_discovery_candidate
 - Fund class: externally_review_ready_discovery_candidate
+- Public review status: external_review_ready_with_major_caveats
 - Fund label: externally_review_ready_candidate
 - Domain: computational_materials_property_data
 - Readiness score: 72/100
 - External review readiness score: 78/100
 - Counts for Einstein/Nobel discovery score internally: true
 - External expert validation claimed: no
+
+## Bounded Reviewer Interpretation
+
+The public package records a Product-generated Matbench/materials candidate package where `matbench_descriptor_transfer_significance_generator-output-01` has measured outcome `0.72`, residual magnitude `0.21`, and three recorded simple controls that do not explain the signal. This is a reviewer-facing bounded interpretation of the package evidence, not a stronger scientific claim and not external validation.
 
 ## Evidence Package
 
@@ -35,12 +40,33 @@ The public corpus package includes:
 - LIMITATIONS.md
 - REVIEWER_CHECKLIST.md
 - EVIDENCE_REF_INDEX.md
+- EVIDENCE_REF_CLASSIFICATION.md
 - REPRODUCTION_QUEUE.md
 - NOBEL_READINESS_REPORT.md
+- REVIEWER_SUMMARY.md
+- DATASET_AND_TARGET_TABLE.md
+- BASELINE_RESULTS_TABLE.md
+- RIVAL_THEORY_RESULTS_TABLE.md
+- HOLDOUT_RESULTS_TABLE.md
+- COUNTEREXAMPLE_RESULTS_TABLE.md
+- REPLAY_RESULTS_TABLE.md
+- EFFECT_SIZE_AND_RESIDUAL_TABLE.md
+- copied-product-evidence/
 
 ## Gate Summary
 
 The Product Fund Gate reports status `FUND_FOUND` for this candidate and FundClass `externally_review_ready_discovery_candidate`. The public package preserves that internal gate result and exposes it for external review; it does not claim that an outside expert has validated the result.
+
+## Inspectability Repair Summary
+
+- Evidence refs classified: 62.
+- Public raw/source refs: 10.
+- Product refs copied into the Corpus package: 38.
+- Package-local Corpus refs: 14.
+- Internal Product refs not copied: 0.
+- Unresolved or weak refs after this repair: 0.
+
+The copied artifacts make the Product evidence trail inspectable in the public Corpus. They do not turn the package into independent external reproduction.
 
 ## No Overclaim
 
@@ -63,4 +89,4 @@ The Product Fund Gate reports status `FUND_FOUND` for this candidate and FundCla
 
 ## Next Required External Review Step
 
-Review PAPER.md, METHOD.md, CLAIM_EVIDENCE_BINDINGS.json, REPRODUCE.md, LIMITATIONS.md, REVIEWER_CHECKLIST.md, EVIDENCE_REF_INDEX.md, and REPRODUCTION_QUEUE.md against the cited public evidence refs.
+Review REVIEWER_SUMMARY.md, METHOD.md, CLAIM_EVIDENCE_BINDINGS.json, REPRODUCE.md, LIMITATIONS.md, EVIDENCE_REF_CLASSIFICATION.md, the reviewer-facing result tables, and the copied Product evidence artifacts against the cited public Matbench refs.

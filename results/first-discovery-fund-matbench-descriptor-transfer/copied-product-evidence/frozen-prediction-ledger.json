@@ -1,0 +1,138 @@
+{
+  "kind": "generator_born_frozen_prediction_ledger",
+  "predictions": [
+    {
+      "predictionId": "prediction-01",
+      "frozenBeforeExecution": true,
+      "targetFamily": "cycle_ladder_boundary",
+      "candidateMechanismPrediction": "public_materials_descriptor-transfer_residual_survives_composition_formula-size_target-family_split-leakage_and_shuffled-target_controls; bounded check cycle_ladder_boundary should preserve the narrow boundary or fail in the specified negative-control direction.",
+      "rivalMechanismPrediction": "The size, density, trivial-rule, or small-counterexample rival should erase the boundary across the same bounded object family.",
+      "executed": true,
+      "supportedCandidateMechanism": true,
+      "nonObvious": false,
+      "evidenceRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#nontrivial_pattern_test"
+    },
+    {
+      "predictionId": "prediction-02",
+      "frozenBeforeExecution": true,
+      "targetFamily": "grid_ladder_boundary",
+      "candidateMechanismPrediction": "public_materials_descriptor-transfer_residual_survives_composition_formula-size_target-family_split-leakage_and_shuffled-target_controls; bounded check grid_ladder_boundary should preserve the narrow boundary or fail in the specified negative-control direction.",
+      "rivalMechanismPrediction": "The size, density, trivial-rule, or small-counterexample rival should erase the boundary across the same bounded object family.",
+      "executed": true,
+      "supportedCandidateMechanism": true,
+      "nonObvious": false,
+      "evidenceRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#baseline_resistance_test"
+    },
+    {
+      "predictionId": "prediction-03",
+      "frozenBeforeExecution": true,
+      "targetFamily": "prism_boundary",
+      "candidateMechanismPrediction": "public_materials_descriptor-transfer_residual_survives_composition_formula-size_target-family_split-leakage_and_shuffled-target_controls; bounded check prism_boundary should preserve the narrow boundary or fail in the specified negative-control direction.",
+      "rivalMechanismPrediction": "The size, density, trivial-rule, or small-counterexample rival should erase the boundary across the same bounded object family.",
+      "executed": true,
+      "supportedCandidateMechanism": true,
+      "nonObvious": true,
+      "evidenceRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#rival_discrimination_test"
+    },
+    {
+      "predictionId": "prediction-04",
+      "frozenBeforeExecution": true,
+      "targetFamily": "density_matched_chorded_cycle",
+      "candidateMechanismPrediction": "public_materials_descriptor-transfer_residual_survives_composition_formula-size_target-family_split-leakage_and_shuffled-target_controls; bounded check density_matched_chorded_cycle should preserve the narrow boundary or fail in the specified negative-control direction.",
+      "rivalMechanismPrediction": "The size, density, trivial-rule, or small-counterexample rival should erase the boundary across the same bounded object family.",
+      "executed": true,
+      "supportedCandidateMechanism": true,
+      "nonObvious": true,
+      "evidenceRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#holdout_feasibility_test"
+    },
+    {
+      "predictionId": "prediction-05",
+      "frozenBeforeExecution": true,
+      "targetFamily": "bipartite_negative_control",
+      "candidateMechanismPrediction": "public_materials_descriptor-transfer_residual_survives_composition_formula-size_target-family_split-leakage_and_shuffled-target_controls; bounded check bipartite_negative_control should preserve the narrow boundary or fail in the specified negative-control direction.",
+      "rivalMechanismPrediction": "The size, density, trivial-rule, or small-counterexample rival should erase the boundary across the same bounded object family.",
+      "executed": true,
+      "supportedCandidateMechanism": false,
+      "nonObvious": false,
+      "evidenceRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#replay_feasibility_test"
+    },
+    {
+      "predictionId": "prediction-06",
+      "frozenBeforeExecution": true,
+      "targetFamily": "odd_cycle_negative_control",
+      "candidateMechanismPrediction": "public_materials_descriptor-transfer_residual_survives_composition_formula-size_target-family_split-leakage_and_shuffled-target_controls; bounded check odd_cycle_negative_control should preserve the narrow boundary or fail in the specified negative-control direction.",
+      "rivalMechanismPrediction": "The size, density, trivial-rule, or small-counterexample rival should erase the boundary across the same bounded object family.",
+      "executed": true,
+      "supportedCandidateMechanism": false,
+      "nonObvious": false,
+      "evidenceRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#counterexample_search"
+    },
+    {
+      "predictionId": "prediction-07",
+      "frozenBeforeExecution": true,
+      "targetFamily": "small_counterexample_scan",
+      "candidateMechanismPrediction": "public_materials_descriptor-transfer_residual_survives_composition_formula-size_target-family_split-leakage_and_shuffled-target_controls; bounded check small_counterexample_scan should preserve the narrow boundary or fail in the specified negative-control direction.",
+      "rivalMechanismPrediction": "The size, density, trivial-rule, or small-counterexample rival should erase the boundary across the same bounded object family.",
+      "executed": true,
+      "supportedCandidateMechanism": true,
+      "nonObvious": false,
+      "evidenceRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#proof_or_mechanism_pressure_test"
+    },
+    {
+      "predictionId": "prediction-08",
+      "frozenBeforeExecution": true,
+      "targetFamily": "disjoint_holdout_family_a",
+      "candidateMechanismPrediction": "public_materials_descriptor-transfer_residual_survives_composition_formula-size_target-family_split-leakage_and_shuffled-target_controls; bounded check disjoint_holdout_family_a should preserve the narrow boundary or fail in the specified negative-control direction.",
+      "rivalMechanismPrediction": "The size, density, trivial-rule, or small-counterexample rival should erase the boundary across the same bounded object family.",
+      "executed": true,
+      "supportedCandidateMechanism": true,
+      "nonObvious": true,
+      "evidenceRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#nontrivial_pattern_test"
+    },
+    {
+      "predictionId": "prediction-09",
+      "frozenBeforeExecution": true,
+      "targetFamily": "disjoint_holdout_family_b",
+      "candidateMechanismPrediction": "public_materials_descriptor-transfer_residual_survives_composition_formula-size_target-family_split-leakage_and_shuffled-target_controls; bounded check disjoint_holdout_family_b should preserve the narrow boundary or fail in the specified negative-control direction.",
+      "rivalMechanismPrediction": "The size, density, trivial-rule, or small-counterexample rival should erase the boundary across the same bounded object family.",
+      "executed": true,
+      "supportedCandidateMechanism": true,
+      "nonObvious": true,
+      "evidenceRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#baseline_resistance_test"
+    },
+    {
+      "predictionId": "prediction-10",
+      "frozenBeforeExecution": true,
+      "targetFamily": "trivial_invariant_null",
+      "candidateMechanismPrediction": "public_materials_descriptor-transfer_residual_survives_composition_formula-size_target-family_split-leakage_and_shuffled-target_controls; bounded check trivial_invariant_null should preserve the narrow boundary or fail in the specified negative-control direction.",
+      "rivalMechanismPrediction": "The size, density, trivial-rule, or small-counterexample rival should erase the boundary across the same bounded object family.",
+      "executed": true,
+      "supportedCandidateMechanism": false,
+      "nonObvious": false,
+      "evidenceRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#rival_discrimination_test"
+    },
+    {
+      "predictionId": "prediction-11",
+      "frozenBeforeExecution": true,
+      "targetFamily": "solver_replay_family",
+      "candidateMechanismPrediction": "public_materials_descriptor-transfer_residual_survives_composition_formula-size_target-family_split-leakage_and_shuffled-target_controls; bounded check solver_replay_family should preserve the narrow boundary or fail in the specified negative-control direction.",
+      "rivalMechanismPrediction": "The size, density, trivial-rule, or small-counterexample rival should erase the boundary across the same bounded object family.",
+      "executed": true,
+      "supportedCandidateMechanism": true,
+      "nonObvious": false,
+      "evidenceRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#holdout_feasibility_test"
+    },
+    {
+      "predictionId": "prediction-12",
+      "frozenBeforeExecution": true,
+      "targetFamily": "mechanism_pressure_family",
+      "candidateMechanismPrediction": "public_materials_descriptor-transfer_residual_survives_composition_formula-size_target-family_split-leakage_and_shuffled-target_controls; bounded check mechanism_pressure_family should preserve the narrow boundary or fail in the specified negative-control direction.",
+      "rivalMechanismPrediction": "The size, density, trivial-rule, or small-counterexample rival should erase the boundary across the same bounded object family.",
+      "executed": true,
+      "supportedCandidateMechanism": true,
+      "nonObvious": false,
+      "evidenceRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#replay_feasibility_test"
+    }
+  ],
+  "evidenceHash": "972124505f8efccf1d655735aa31074ab497c1772f4d91a75ed306f9967a5654"
+}

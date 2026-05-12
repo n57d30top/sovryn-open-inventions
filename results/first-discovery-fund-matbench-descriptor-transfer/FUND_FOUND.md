@@ -6,6 +6,8 @@ Fund label: externally_review_ready_candidate
 
 Fund class: externally_review_ready_discovery_candidate
 
+Public review status: external_review_ready_with_major_caveats
+
 Counts for Einstein/Nobel discovery score internally: true
 
 Domain: computational_materials_property_data

@@ -1,12 +1,14 @@
 # Public Fund Promotion Audit
 
-Classification: public_discovery_fund_ready_for_external_review
+Classification: public_discovery_fund_ready_for_external_review_with_major_caveats
 
 Candidate ID: DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB
 
 Domain: computational_materials_property_data
 
 FundClass: externally_review_ready_discovery_candidate
+
+Public review status: external_review_ready_with_major_caveats
 
 ## Exact Claim
 
@@ -22,8 +24,16 @@ Passed. The corpus package includes explicit non-claims and does not claim outsi
 
 ## External Review Readiness
 
-Ready for human review dispatch. Required package, checklist, evidence-index, and reproduction-queue artifacts are present.
+Ready for human review dispatch with major caveats. Required package, checklist, evidence-index, reproduction-queue, evidence-ref classification, copied Product evidence, and reviewer-facing tables are present.
+
+## Inspectability Repair
+
+- Evidence refs classified: 62.
+- Internal Product refs copied or excerpted into Corpus: 38.
+- Internal Product refs not copied: 0.
+- Unresolved or weak refs after repair: 0.
+- Reviewer-facing result tables added: 7.
 
 ## Limitation
 
-External expert review is still required before any stronger interpretation.
+External expert review is still required before any stronger interpretation. The package still lacks a standalone raw-data residual recomputation script and should be read as externally inspectable with major caveats, not externally validated.

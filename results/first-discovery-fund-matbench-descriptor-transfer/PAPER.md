@@ -8,6 +8,10 @@ The measured public computational_materials_property_data target-outcome residua
 
 This package rebinds a generator-born claim-lift proposal to a new stable DiscoveryCandidate identity. It is an inspectability package for internal Fund Gate pressure and not outside expert validation.
 
+## Public Inspectability Repair
+
+The original Product refs below are preserved for traceability. This Corpus repair also adds public copies or excerpts for all internal Product refs under `copied-product-evidence/`, plus `EVIDENCE_REF_CLASSIFICATION.md` and reviewer-facing tables. The repair does not strengthen the claim; it changes the public review status to `external_review_ready_with_major_caveats`.
+
 ## Source Evidence Refs
 
 - https://matbench.materialsproject.org/

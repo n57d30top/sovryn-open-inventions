@@ -5,6 +5,9 @@
 - Total refs: 62
 - Resolved refs: 62
 - Unresolved refs: 0
+- Public review repair: see `EVIDENCE_REF_CLASSIFICATION.md` and `EVIDENCE_REF_CLASSIFICATION.json`.
+- Internal Product refs not copied after repair: 0
+- Unresolved or weak refs after repair classification: 0
 
 | Ref | Kind | Resolved | Public-safe | Reason |
 | --- | --- | --- | --- | --- |

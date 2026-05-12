@@ -42,7 +42,17 @@
     "REVIEWER_CHECKLIST.md",
     "EVIDENCE_REF_INDEX.md",
     "REPRODUCTION_QUEUE.md",
-    "NOBEL_READINESS_REPORT.md"
+    "NOBEL_READINESS_REPORT.md",
+    "REVIEWER_SUMMARY.md",
+    "DATASET_AND_TARGET_TABLE.md",
+    "BASELINE_RESULTS_TABLE.md",
+    "RIVAL_THEORY_RESULTS_TABLE.md",
+    "HOLDOUT_RESULTS_TABLE.md",
+    "COUNTEREXAMPLE_RESULTS_TABLE.md",
+    "REPLAY_RESULTS_TABLE.md",
+    "EFFECT_SIZE_AND_RESIDUAL_TABLE.md",
+    "EVIDENCE_REF_CLASSIFICATION.md",
+    "EVIDENCE_REF_CLASSIFICATION.json"
   ],
   "fundGatePassed": true,
   "failedFundGates": [],
@@ -61,5 +71,48 @@
   ],
   "disclaimer": "Bounded externally review-ready discovery candidate package. It does not claim external validation, external adoption, prize-level significance, broad intelligence, legal authority, medical authority, unsafe capability, or universal truth.",
   "nextExternalReviewStep": "Send this bundle and the referenced package to an independent domain expert for method, evidence, reproduction, limitation, and significance review.",
-  "evidenceHash": "a1b0717412b9862c3d43bb84e89fa464b76ba29d8777aa7f1a5a617c303e3a7e"
+  "evidenceHash": "a1b0717412b9862c3d43bb84e89fa464b76ba29d8777aa7f1a5a617c303e3a7e",
+  "publicReviewStatus": "external_review_ready_with_major_caveats",
+  "exactProductClaimPreserved": true,
+  "reviewerFacingBoundedClaim": "The public package records a Product-generated Matbench/materials candidate package where matbench_descriptor_transfer_significance_generator-output-01 has measured outcome 0.72, residual magnitude 0.21, and three recorded simple controls that do not explain the signal. This is a reviewer-facing bounded interpretation of the package evidence, not a stronger scientific claim and not external validation.",
+  "evidenceRefClassification": {
+    "totalRefs": 62,
+    "publicRawSource": 10,
+    "copiedPublicCorpusArtifact": 14,
+    "internalProductRefCopied": 38,
+    "internalProductRefNotCopied": 0,
+    "unresolvedOrWeak": 0,
+    "artifact": "EVIDENCE_REF_CLASSIFICATION.json"
+  },
+  "copiedProductEvidenceFiles": [
+    "copied-product-evidence/runtime-evidence-output-01.json",
+    "copied-product-evidence/insight-closure.json",
+    "copied-product-evidence/frozen-prediction-ledger.json",
+    "copied-product-evidence/kill-week-results.json",
+    "copied-product-evidence/pre-lift-claim-evidence-bindings.json",
+    "copied-product-evidence/pre-lift-method.md",
+    "copied-product-evidence/pre-lift-reproduce.md",
+    "copied-product-evidence/fund-candidate-draft.json",
+    "copied-product-evidence/matbench-source-cache.json",
+    "copied-product-evidence/generator-run-results.md",
+    "copied-product-evidence/hard-seed-pressure-row.json",
+    "copied-product-evidence/candidate-identity-ledger-excerpt.json",
+    "copied-product-evidence/insight-candidate-artifact.json"
+  ],
+  "reviewerTables": [
+    "DATASET_AND_TARGET_TABLE.md",
+    "BASELINE_RESULTS_TABLE.md",
+    "RIVAL_THEORY_RESULTS_TABLE.md",
+    "HOLDOUT_RESULTS_TABLE.md",
+    "COUNTEREXAMPLE_RESULTS_TABLE.md",
+    "REPLAY_RESULTS_TABLE.md",
+    "EFFECT_SIZE_AND_RESIDUAL_TABLE.md"
+  ],
+  "majorCaveats": [
+    "No independent external validation or adoption is claimed.",
+    "The public package still does not include a standalone residual recomputation script from raw Matbench data.",
+    "The Product limitations include formal-object wording that does not cleanly match the Matbench/materials claim path.",
+    "The public evidence exposes Product-recorded scalar outputs but not a full descriptor matrix, model configuration, split file, or uncertainty interval.",
+    "The pre-lift domain-significance assessment recorded failed gate no_anti_discovery_claim_text; the final Product claim-lift transition needs reviewer scrutiny."
+  ]
 }

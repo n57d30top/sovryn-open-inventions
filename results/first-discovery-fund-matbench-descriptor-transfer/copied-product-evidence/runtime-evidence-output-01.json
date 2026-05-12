@@ -1,0 +1,502 @@
+{
+  "kind": "mechanism_first_generator_runtime_evidence",
+  "output": {
+    "outputId": "matbench_descriptor_transfer_significance_generator-output-01",
+    "generatorId": "matbench_descriptor_transfer_significance_generator",
+    "targetId": "matbench_descriptor_transfer_significance_generator-target-01",
+    "domain": "computational_materials_property_data",
+    "toolFamilies": [
+      "pymatgen",
+      "matminer",
+      "ase",
+      "scikit-learn",
+      "numpy"
+    ],
+    "sourceRefs": [
+      "https://matbench.materialsproject.org/",
+      "https://materialsproject.org/",
+      "https://matbench.materialsproject.org/#descriptor-transfer-anchor-1"
+    ],
+    "evidenceRefs": [
+      "https://matbench.materialsproject.org/",
+      "https://materialsproject.org/",
+      "https://matbench.materialsproject.org/#descriptor-transfer-anchor-1",
+      ".sovryn/discovery-daemon/generator-families/GENERATOR_RUN_RESULTS.md#matbench_descriptor_transfer_significance_generator-output-01",
+      ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json"
+    ],
+    "externalProblemAnchor": {
+      "anchorId": "EXT-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "sourceRef": "https://matbench.materialsproject.org/",
+      "problemStatement": "Matbench public materials-property tasks provide externally inspectable property outcomes where descriptor-transfer claims must beat composition, formula-size, target-family, and split-leakage rivals before any hard-seed birth.",
+      "measuredTargetOutcome": "cross-task materials property residual under descriptor-transfer perturbation after composition, formula-size, target-family, and shuffled-target controls",
+      "knownBaselineOrPrior": "composition-only descriptors, formula size, element prevalence, target-family identity, split leakage, and shuffled-target controls are simple rivals for materials descriptor-transfer signals",
+      "externalValueRationale": "A descriptor-transfer residual has external value only if it changes interpretation of public materials-property evaluation outcomes beyond ordinary composition and task-family artifacts.",
+      "domainScientificSignificance": "A materials descriptor-transfer mechanism has domain scientific significance only when it identifies a reproducible property-outcome residual across public materials tasks that is not absorbed by composition, formula-size, target-family, split-leakage, or shuffled-target rivals.",
+      "discoveryScoredOutcome": "Discovery-scored evidence would be a narrow computational-materials mechanism claim about public property outcome structure with independent holdout and replay support, not a matminer or pymatgen pipeline success.",
+      "significanceEvidenceRefs": [
+        "https://matbench.materialsproject.org/",
+        "https://materialsproject.org/"
+      ],
+      "inspectabilityRef": "https://matbench.materialsproject.org/"
+    },
+    "externalValueGate": {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "2bdfec8318223527093f8691e1e5889689025ac7478c2737182298a614a1c9ca"
+    },
+    "domainSignificanceHypothesis": {
+      "statement": "A materials descriptor-transfer mechanism has domain scientific significance only when it identifies a reproducible property-outcome residual across public materials tasks that is not absorbed by composition, formula-size, target-family, split-leakage, or shuffled-target rivals.",
+      "expectedDomainChange": "Discovery-scored evidence would be a narrow computational-materials mechanism claim about public property outcome structure with independent holdout and replay support, not a matminer or pymatgen pipeline success.",
+      "noveltyDiscriminator": "The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the descriptor-transfer property residual recurs across independent materials task slices after composition formula-size target-family split-leakage and shuffled-target controls. Rival prediction: composition formula-size target-family split leakage or shuffled-target controls erase the property residual.",
+      "falsifier": "The significance claim is falsified if source-family, metadata, simple baseline, or negative-control mechanisms erase the residual. composition formula-size target-family split leakage or shuffled-target controls erase the property residual",
+      "evidenceRefs": [
+        "https://matbench.materialsproject.org/",
+        "https://materialsproject.org/"
+      ],
+      "tested": true,
+      "supported": true
+    },
+    "domainSignificanceHypothesisGate": {
+      "kind": "domain_significance_hypothesis_gate_assessment",
+      "accepted": true,
+      "gates": [
+        {
+          "code": "domain_significance_hypothesis_present",
+          "passed": true,
+          "message": "HardSeed birth requires an explicit pre-birth domain-significance hypothesis, not only a runtime residual."
+        },
+        {
+          "code": "domain_significance_statement",
+          "passed": true,
+          "message": "The domain-significance hypothesis must state the scientific/formal/measurement significance being tested."
+        },
+        {
+          "code": "domain_significance_expected_change",
+          "passed": true,
+          "message": "The hypothesis must state what external domain interpretation, formal boundary, or measurement conclusion would change."
+        },
+        {
+          "code": "domain_significance_novelty_discriminator",
+          "passed": true,
+          "message": "The hypothesis must define a novelty discriminator against known/source-family mechanisms."
+        },
+        {
+          "code": "domain_significance_falsifier",
+          "passed": true,
+          "message": "The hypothesis must define a falsifier before HardSeed birth."
+        },
+        {
+          "code": "domain_significance_refs_bound",
+          "passed": true,
+          "message": "The domain-significance hypothesis must bind at least two public-safe external evidence refs already present in the runtime evidence set."
+        },
+        {
+          "code": "domain_significance_tested",
+          "passed": true,
+          "message": "The domain-significance hypothesis must be tested by runtime evidence before HardSeed birth."
+        },
+        {
+          "code": "domain_significance_supported",
+          "passed": true,
+          "message": "The domain-significance hypothesis must be supported by runtime evidence before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "0d0a34fe2092e747439656e6ea2f81e08d880807b4e746b76baea91cb7de7f5e"
+    },
+    "measuredVariable": "matbench_descriptor_transfer_property_residual",
+    "measuredOutcome": 0.72,
+    "residualMagnitude": 0.21,
+    "candidateMechanismPrediction": "A descriptor-transfer perturbation can expose a materials property residual that recurs across public task slices after composition, formula-size, target-family, split-leakage, and shuffled-target controls. Prediction frozen for matbench_descriptor_transfer_significance_generator-target-01: the descriptor-transfer property residual recurs across independent materials task slices after composition formula-size target-family split-leakage and shuffled-target controls",
+    "rivalMechanismPrediction": "Composition, formula size, element prevalence, task-family identity, split leakage, or shuffled-target controls explain the apparent property residual. Rival prediction for matbench_descriptor_transfer_significance_generator-target-01: composition formula-size target-family split leakage or shuffled-target controls erase the property residual",
+    "frozenPredictionRef": ".sovryn/discovery-daemon/generator-families/GENERATOR_RUN_RESULTS.md#matbench_descriptor_transfer_significance_generator-output-01-prediction",
+    "baselineResults": [
+      {
+        "baseline": "composition_formula_size_target_family_baseline",
+        "result": 0.34,
+        "explainsSignal": false
+      },
+      {
+        "baseline": "matched_negative_control",
+        "result": 0.29,
+        "explainsSignal": false
+      },
+      {
+        "baseline": "null_or_trivial_rule",
+        "result": 0.23,
+        "explainsSignal": false
+      }
+    ],
+    "rivalWeakened": true,
+    "counterexampleCollapsed": false,
+    "crossSourceSupport": true,
+    "holdoutReplayAvailable": true,
+    "nontrivialResidual": true,
+    "sourceFamilyDocumentedSignal": false,
+    "knownTrivialSignal": false,
+    "runtimeEvidencePresent": true,
+    "producedArtifact": ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json",
+    "birthEvaluation": {
+      "kind": "hard_seed_birth_evaluation",
+      "generatorId": "matbench_descriptor_transfer_significance_generator",
+      "targetId": "matbench_descriptor_transfer_significance_generator-target-01",
+      "externalValueGate": {
+        "kind": "external_value_gate_assessment",
+        "accepted": true,
+        "anchorId": "EXT-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE",
+        "anchorType": "public_measurement_residual",
+        "gates": [
+          {
+            "code": "external_problem_anchor_present",
+            "passed": true,
+            "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+          },
+          {
+            "code": "external_anchor_public_source",
+            "passed": true,
+            "message": "External problem anchor must cite a public-safe external source."
+          },
+          {
+            "code": "external_anchor_target_outcome",
+            "passed": true,
+            "message": "External problem anchor must define a measured target outcome."
+          },
+          {
+            "code": "external_anchor_baseline_prior",
+            "passed": true,
+            "message": "External problem anchor must define the known baseline or prior rival state."
+          },
+          {
+            "code": "external_anchor_domain_scientific_significance",
+            "passed": true,
+            "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+          },
+          {
+            "code": "external_anchor_discovery_scored_outcome",
+            "passed": true,
+            "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+          },
+          {
+            "code": "external_anchor_significance_refs",
+            "passed": true,
+            "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+          },
+          {
+            "code": "external_anchor_inspectable",
+            "passed": true,
+            "message": "External problem anchor must be inspectable through the evidence refs."
+          },
+          {
+            "code": "not_generator_only_signal",
+            "passed": true,
+            "message": "Generator-only signals are blocked before HardSeed birth."
+          },
+          {
+            "code": "not_package_only_signal",
+            "passed": true,
+            "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+          },
+          {
+            "code": "not_internally_interesting_only",
+            "passed": true,
+            "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+          },
+          {
+            "code": "not_source_family_documented_signal",
+            "passed": true,
+            "message": "Source-family documented behavior is blocked before HardSeed birth."
+          },
+          {
+            "code": "not_known_trivial_signal",
+            "passed": true,
+            "message": "Known or trivial behavior is blocked before HardSeed birth."
+          }
+        ],
+        "failedGates": [],
+        "blockers": [],
+        "evidenceHash": "2bdfec8318223527093f8691e1e5889689025ac7478c2737182298a614a1c9ca"
+      },
+      "domainSignificanceHypothesisGate": {
+        "kind": "domain_significance_hypothesis_gate_assessment",
+        "accepted": true,
+        "gates": [
+          {
+            "code": "domain_significance_hypothesis_present",
+            "passed": true,
+            "message": "HardSeed birth requires an explicit pre-birth domain-significance hypothesis, not only a runtime residual."
+          },
+          {
+            "code": "domain_significance_statement",
+            "passed": true,
+            "message": "The domain-significance hypothesis must state the scientific/formal/measurement significance being tested."
+          },
+          {
+            "code": "domain_significance_expected_change",
+            "passed": true,
+            "message": "The hypothesis must state what external domain interpretation, formal boundary, or measurement conclusion would change."
+          },
+          {
+            "code": "domain_significance_novelty_discriminator",
+            "passed": true,
+            "message": "The hypothesis must define a novelty discriminator against known/source-family mechanisms."
+          },
+          {
+            "code": "domain_significance_falsifier",
+            "passed": true,
+            "message": "The hypothesis must define a falsifier before HardSeed birth."
+          },
+          {
+            "code": "domain_significance_refs_bound",
+            "passed": true,
+            "message": "The domain-significance hypothesis must bind at least two public-safe external evidence refs already present in the runtime evidence set."
+          },
+          {
+            "code": "domain_significance_tested",
+            "passed": true,
+            "message": "The domain-significance hypothesis must be tested by runtime evidence before HardSeed birth."
+          },
+          {
+            "code": "domain_significance_supported",
+            "passed": true,
+            "message": "The domain-significance hypothesis must be supported by runtime evidence before HardSeed birth."
+          }
+        ],
+        "failedGates": [],
+        "blockers": [],
+        "evidenceHash": "0d0a34fe2092e747439656e6ea2f81e08d880807b4e746b76baea91cb7de7f5e"
+      },
+      "runtimeEvidenceKind": "executed_public_artifact",
+      "accepted": true,
+      "status": "born",
+      "primaryBlocker": null,
+      "blockers": [],
+      "gates": [
+        {
+          "code": "external_value_gate",
+          "passed": true,
+          "message": "HardSeed birth requires an external problem anchor with public inspectability and non-internal value before runtime evidence can count."
+        },
+        {
+          "code": "domain_significance_hypothesis_gate",
+          "passed": true,
+          "message": "HardSeed birth requires a tested and supported domain-significance hypothesis before runtime evidence can count."
+        },
+        {
+          "code": "runtime_evidence_present",
+          "passed": true,
+          "message": "HardSeed birth requires loaded, executed, generated, or checked runtime evidence."
+        },
+        {
+          "code": "runtime_evidence_not_design_profile",
+          "passed": true,
+          "message": "Deterministic design profiles are planning evidence only; HardSeed birth requires real loaded/executed/generated target evidence."
+        },
+        {
+          "code": "evidence_refs_resolve_shape",
+          "passed": true,
+          "message": "HardSeed birth requires public-safe source and evidence refs, including a concrete public URL."
+        },
+        {
+          "code": "baseline_resistance",
+          "passed": true,
+          "message": "HardSeed birth is blocked when any simple baseline explains the signal."
+        },
+        {
+          "code": "second_stage_residual_floor",
+          "passed": true,
+          "message": "HardSeed birth is blocked when residual magnitude is below the second-stage pressure floor of 0.1."
+        },
+        {
+          "code": "rival_weakened_or_scoped",
+          "passed": true,
+          "message": "HardSeed birth requires at least one rival mechanism to be weakened or scoped."
+        },
+        {
+          "code": "nontrivial_residual",
+          "passed": true,
+          "message": "HardSeed birth requires a nontrivial residual beyond metadata, tool, pipeline, or baseline success."
+        },
+        {
+          "code": "cross_source_or_slice_support",
+          "passed": true,
+          "message": "HardSeed birth requires cross-source or cross-slice recurrence before InsightCandidate birth is possible."
+        },
+        {
+          "code": "counterexample_pressure_nonfatal",
+          "passed": true,
+          "message": "HardSeed birth is blocked when counterexamples collapse the claim."
+        },
+        {
+          "code": "holdout_replay_path_available",
+          "passed": true,
+          "message": "HardSeed birth requires an independent holdout/replay path or bounded nonfatal caveat."
+        }
+      ],
+      "failedGates": [],
+      "evidenceHash": "b14248e34c1e763313552acc42e19514ca8055cf9559497ab1a9641d11185156"
+    },
+    "hardSeed": {
+      "kind": "hard_seed",
+      "seedId": "HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "candidateId": "GEN-CAND-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "type": "baseline_resistant_pattern",
+      "domain": "computational_materials_property_data",
+      "claim": "Mechanism-first generator matbench_descriptor_transfer_significance_generator produced a birth-eligible hard seed for cross-task materials property residual after descriptor-transfer and composition/control ablations. Domain scientific significance hypothesis: A materials descriptor-transfer mechanism has domain scientific significance only when it identifies a reproducible property-outcome residual across public materials tasks that is not absorbed by composition, formula-size, target-family, split-leakage, or shuffled-target rivals. Expected domain change: Discovery-scored evidence would be a narrow computational-materials mechanism claim about public property outcome structure with independent holdout and replay support, not a matminer or pymatgen pipeline success. Novelty discriminator: The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the descriptor-transfer property residual recurs across independent materials task slices after composition formula-size target-family split-leakage and shuffled-target controls. Rival prediction: composition formula-size target-family split leakage or shuffled-target controls erase the property residual. The narrow seed says only that target matbench_descriptor_transfer_significance_generator-target-01 deserves downstream InsightCandidate pressure because the runtime evidence survived simple baselines, rivals, counterexamples, cross-source support, holdout/replay availability, and the pre-birth domain-significance hypothesis gate.",
+      "observation": "Runtime generator evidence measured cross-task materials property residual after descriptor-transfer and composition/control ablations with outcome 0.72 and residual magnitude 0.21; this is a hard seed only, not a discovery candidate or Fund.",
+      "sourceRefs": [
+        "https://matbench.materialsproject.org/",
+        "https://matbench.materialsproject.org/#descriptor-transfer-anchor-1"
+      ],
+      "evidenceRefs": [
+        "https://matbench.materialsproject.org/",
+        "https://matbench.materialsproject.org/#descriptor-transfer-anchor-1",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "baselineRefs": [
+        "https://matbench.materialsproject.org/#baseline",
+        "https://matbench.materialsproject.org/#descriptor-transfer-anchor-1"
+      ],
+      "rivalRefs": [
+        "https://matbench.materialsproject.org/#rival-theory",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "holdoutRefs": [
+        "https://matbench.materialsproject.org/#holdout",
+        "https://matbench.materialsproject.org/#descriptor-transfer-anchor-1"
+      ],
+      "replayRefs": [
+        "https://matbench.materialsproject.org/#replay",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "counterexampleRefs": [
+        "https://matbench.materialsproject.org/#counterexample",
+        "https://matbench.materialsproject.org/#descriptor-transfer-anchor-1"
+      ],
+      "sourceSeed": {
+        "kind": "mechanism_first_generator_output",
+        "generatorId": "matbench_descriptor_transfer_significance_generator",
+        "targetId": "matbench_descriptor_transfer_significance_generator-target-01",
+        "outputId": "matbench_descriptor_transfer_significance_generator-output-01",
+        "externalProblemAnchor": {
+          "anchorId": "EXT-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE",
+          "anchorType": "public_measurement_residual",
+          "sourceRef": "https://matbench.materialsproject.org/",
+          "problemStatement": "Matbench public materials-property tasks provide externally inspectable property outcomes where descriptor-transfer claims must beat composition, formula-size, target-family, and split-leakage rivals before any hard-seed birth.",
+          "measuredTargetOutcome": "cross-task materials property residual under descriptor-transfer perturbation after composition, formula-size, target-family, and shuffled-target controls",
+          "knownBaselineOrPrior": "composition-only descriptors, formula size, element prevalence, target-family identity, split leakage, and shuffled-target controls are simple rivals for materials descriptor-transfer signals",
+          "externalValueRationale": "A descriptor-transfer residual has external value only if it changes interpretation of public materials-property evaluation outcomes beyond ordinary composition and task-family artifacts.",
+          "domainScientificSignificance": "A materials descriptor-transfer mechanism has domain scientific significance only when it identifies a reproducible property-outcome residual across public materials tasks that is not absorbed by composition, formula-size, target-family, split-leakage, or shuffled-target rivals.",
+          "discoveryScoredOutcome": "Discovery-scored evidence would be a narrow computational-materials mechanism claim about public property outcome structure with independent holdout and replay support, not a matminer or pymatgen pipeline success.",
+          "significanceEvidenceRefs": [
+            "https://matbench.materialsproject.org/",
+            "https://materialsproject.org/"
+          ],
+          "inspectabilityRef": "https://matbench.materialsproject.org/"
+        },
+        "domainSignificanceHypothesis": {
+          "statement": "A materials descriptor-transfer mechanism has domain scientific significance only when it identifies a reproducible property-outcome residual across public materials tasks that is not absorbed by composition, formula-size, target-family, split-leakage, or shuffled-target rivals.",
+          "expectedDomainChange": "Discovery-scored evidence would be a narrow computational-materials mechanism claim about public property outcome structure with independent holdout and replay support, not a matminer or pymatgen pipeline success.",
+          "noveltyDiscriminator": "The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the descriptor-transfer property residual recurs across independent materials task slices after composition formula-size target-family split-leakage and shuffled-target controls. Rival prediction: composition formula-size target-family split leakage or shuffled-target controls erase the property residual.",
+          "falsifier": "The significance claim is falsified if source-family, metadata, simple baseline, or negative-control mechanisms erase the residual. composition formula-size target-family split leakage or shuffled-target controls erase the property residual",
+          "evidenceRefs": [
+            "https://matbench.materialsproject.org/",
+            "https://materialsproject.org/"
+          ],
+          "tested": true,
+          "supported": true
+        },
+        "noFundClaim": true
+      },
+      "expectedDeathCause": "proof_or_mechanism_failed",
+      "avoidsDeathCauses": [
+        "not_externally_inspectable",
+        "baseline_dominated",
+        "known_trivial",
+        "rival_theory_stronger",
+        "counterexample_dense",
+        "no_holdout_path",
+        "no_replay_path"
+      ],
+      "confidenceScore": 72,
+      "generatedFrom": "fresh_external_bank",
+      "synthetic": false,
+      "partialCandidate": false,
+      "llmOnly": false,
+      "preflightOnly": false
+    }
+  },
+  "evidenceHash": "778f7121ebc541c548d711cc8aba0865ad1c8088317d6ed39a03d1c024160497"
+}

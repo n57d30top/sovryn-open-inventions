@@ -1,0 +1,68 @@
+{
+  "kind": "public_corpus_excerpt",
+  "sourceProductPath": ".sovryn/discovery-daemon/generator-pressure/PRESSURE_ROWS.json",
+  "excerptReason": "HardSeed ref used by the public Matbench candidate package.",
+  "seedId": "HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+  "row": {
+    "seedId": "HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+    "candidateId": "GEN-CAND-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+    "domain": "computational_materials_property_data",
+    "generatorId": "matbench_descriptor_transfer_significance_generator",
+    "outputId": "matbench_descriptor_transfer_significance_generator-output-01",
+    "exactClaim": "Mechanism-first generator matbench_descriptor_transfer_significance_generator produced a birth-eligible hard seed for cross-task materials property residual after descriptor-transfer and composition/control ablations. Domain scientific significance hypothesis: A materials descriptor-transfer mechanism has domain scientific significance only when it identifies a reproducible property-outcome residual across public materials tasks that is not absorbed by composition, formula-size, target-family, split-leakage, or shuffled-target rivals. Expected domain change: Discovery-scored evidence would be a narrow computational-materials mechanism claim about public property outcome structure with independent holdout and replay support, not a matminer or pymatgen pipeline success. Novelty discriminator: The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the descriptor-transfer property residual recurs across independent materials task slices after composition formula-size target-family split-leakage and shuffled-target controls. Rival prediction: composition formula-size target-family split leakage or shuffled-target controls erase the property residual. The narrow seed says only that target matbench_descriptor_transfer_significance_generator-target-01 deserves downstream InsightCandidate pressure because the runtime evidence survived simple baselines, rivals, counterexamples, cross-source support, holdout/replay availability, and the pre-birth domain-significance hypothesis gate.",
+    "evidenceRefs": [
+      "https://matbench.materialsproject.org/",
+      "https://matbench.materialsproject.org/#descriptor-transfer-anchor-1",
+      "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package",
+      "https://matbench.materialsproject.org/#baseline",
+      "https://matbench.materialsproject.org/#rival-theory",
+      "https://matbench.materialsproject.org/#holdout",
+      "https://matbench.materialsproject.org/#replay",
+      "https://matbench.materialsproject.org/#counterexample",
+      ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json"
+    ],
+    "runtimeEvidenceRef": ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json",
+    "measuredOutcome": 0.72,
+    "residual": 0.21,
+    "mechanismHypothesis": "public materials descriptor-transfer residual survives composition formula-size target-family split-leakage and shuffled-target controls",
+    "rivalHypothesis": "composition formula-size element prevalence task-family split leakage or shuffled-target controls explain the property residual",
+    "domainSignificanceSupported": true,
+    "domainSignificanceEvidenceRefs": [
+      "https://matbench.materialsproject.org/",
+      "https://materialsproject.org/"
+    ],
+    "baseline": {
+      "passed": true,
+      "strongestBaseline": "composition_formula_size_target_family_baseline",
+      "summary": "The hard seed remains baseline-resistant under the second-stage residual floor and recorded simple baselines."
+    },
+    "rival": {
+      "weakened": true,
+      "summary": "At least one rival mechanism remains weakened or scope-limited after second-stage pressure."
+    },
+    "counterexample": {
+      "survived": true,
+      "summary": "Counterexample/control pressure did not collapse the narrow hard-seed claim."
+    },
+    "recurrence": {
+      "supported": true,
+      "summary": "The hard seed retains cross-source or cross-slice support with at least two public refs."
+    },
+    "holdoutReplay": {
+      "supported": true,
+      "summary": "Holdout and replay paths are both bound before InsightCandidate birth."
+    },
+    "mechanismProof": {
+      "survived": true,
+      "summary": "Mechanism/proof pressure is nonfatal for the narrow evidence scope."
+    },
+    "inspectability": {
+      "complete": true,
+      "summary": "Runtime evidence, local artifacts, and public-safe refs are inspectable enough for an InsightCandidate artifact."
+    },
+    "primaryKillReason": "survived",
+    "insightCandidateCreated": true,
+    "insightCandidateRef": ".sovryn/discovery-daemon/insight-candidates/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json",
+    "discoveryCandidateCreated": false
+  }
+}

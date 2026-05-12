@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-12T11:36:14.833Z",
+  "generatedAt": "2026-05-12T12:47:45.559Z",
   "sources": [
     {
       "resultSlug": "batch10-toolchain-kill-week",
@@ -1020,6 +1020,12 @@
       "resultSlug": "energy-usage-anomaly-auditor-v3",
       "sourceKind": "external_package_or_tool",
       "name": "pandas",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "first-discovery-fund-matbench-descriptor-transfer",
+      "sourceKind": "external_package_or_tool",
+      "name": "numpy",
       "publicOnly": true
     },
     {
