@@ -2,9 +2,9 @@
 
 ## Public Review Status
 
-This public package is `external_review_ready_with_major_caveats`.
+This public package is `package_repair_required_before_external_review`.
 
-The Product FundClass is preserved as `externally_review_ready_discovery_candidate`, but this Corpus repair explicitly records that the public package still needs external scientific review and stronger standalone reproducibility before it should be treated as an externally convincing materials-science result.
+The Product FundClass is preserved as `externally_review_ready_discovery_candidate`, but this Corpus repair explicitly records that the public package still needs exact raw-data scientific reproduction inputs before it should be treated as ready for external materials-science review.
 
 ## Preserved Product Limitation
 
@@ -28,9 +28,9 @@ It does not claim a general law of materials descriptors, a broad benchmark impr
 
 ## Reproducibility Limitation
 
-The package now supports public inspection of the Product evidence without private local `.sovryn` paths and includes `reproduce_matbench_candidate.py`, a standalone public raw-data proxy check. The script loads the public Matbench experimental band-gap JSON and computes deterministic formula-only proxy checks.
+The package now supports public inspection of the Product evidence without private local `.sovryn` paths and includes `reproduce_matbench_candidate.py`. The script loads the public Matbench experimental band-gap JSON, computes deterministic formula-only proxy checks, and exactly replays the Product runtime scalar formulas from `PRODUCT_RUNTIME_REPRODUCTION_SPEC.json`.
 
-The script does not exactly recompute the Product residual, all baselines, holdout, and counterexamples from raw public Matbench data. Exact reproduction remains blocked by the missing inputs listed in `MISSING_REPRODUCTION_INPUTS.md`.
+The script does not exactly recompute the scientific descriptor-transfer residual, all baselines, holdout, and counterexamples from raw public Matbench data. Exact scientific reproduction remains blocked by the missing inputs listed in `MISSING_REPRODUCTION_INPUTS.md`.
 
 ## Evidence Limitation
 
@@ -39,8 +39,10 @@ The public package exposes copied Product artifacts and public source URLs. It d
 - a full descriptor matrix;
 - a complete model configuration;
 - a train/test split file;
-- the exact residual formula and score normalization;
-- executable baseline implementations for Product scalars `0.34`, `0.29`, and `0.23`;
+- the exact target subset manifest;
+- the exact scientific residual formula and score normalization;
+- executable raw-data baseline implementations for Product scalars `0.34`, `0.29`, and `0.23`;
+- external runnable holdout and counterexample manifests;
 - a statistical uncertainty interval;
 - a p-value or confidence interval;
 - an independently authored reviewer report.

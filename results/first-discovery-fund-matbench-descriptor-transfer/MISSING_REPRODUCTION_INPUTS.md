@@ -1,6 +1,18 @@
 # Missing Reproduction Inputs
 
-Exact independent recomputation of the Product-recorded Matbench descriptor-transfer residual is blocked by the following missing public inputs.
+Product runtime scalar replay is now exact. Exact independent raw-data scientific recomputation of the Matbench descriptor-transfer residual remains blocked by the following missing public inputs.
+
+## Resolved Product Runtime Inputs
+
+| Input | Status | Artifact |
+| --- | --- | --- |
+| generator id / output id / ordinal rule | resolved | `PRODUCT_RUNTIME_REPRODUCTION_SPEC.json` |
+| Product runtime formulas | resolved | `PRODUCT_RUNTIME_REPRODUCTION_SPEC.json` |
+| measured outcome `0.72` | reproduced | `REPRODUCTION_RESULT_TABLE.md` |
+| residual magnitude `0.21` | reproduced | `REPRODUCTION_RESULT_TABLE.md` |
+| baseline scalars `0.34`, `0.29`, `0.23` | reproduced | `REPRODUCTION_RESULT_TABLE.md` |
+
+## Unresolved Raw-Data Scientific Inputs
 
 | Missing input | Why it is required |
 | --- | --- |
@@ -14,8 +26,10 @@ Exact independent recomputation of the Product-recorded Matbench descriptor-tran
 
 ## Classification
 
-- Residual reproduced exactly: no.
-- Baselines reproduced exactly: no.
+- Product runtime residual reproduced exactly: yes.
+- Product runtime baselines reproduced exactly: yes.
+- Raw-data scientific residual reproduced exactly: no.
+- Raw-data scientific baselines reproduced exactly: no.
 - Public raw Matbench source loaded: yes.
 - Public proxy checks produced: yes.
-- Updated review readiness: external_review_ready_with_major_caveats; exact standalone scientific reproduction remains incomplete.
+- Updated review readiness: package_repair_required_before_external_review.

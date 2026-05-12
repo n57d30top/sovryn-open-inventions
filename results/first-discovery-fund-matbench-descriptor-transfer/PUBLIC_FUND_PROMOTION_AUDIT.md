@@ -1,6 +1,6 @@
 # Public Fund Promotion Audit
 
-Classification: public_discovery_fund_ready_for_external_review_with_major_caveats
+Classification: public_discovery_fund_package_repair_required_before_external_review
 
 Candidate ID: DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB
 
@@ -8,7 +8,7 @@ Domain: computational_materials_property_data
 
 FundClass: externally_review_ready_discovery_candidate
 
-Public review status: external_review_ready_with_major_caveats
+Public review status: package_repair_required_before_external_review
 
 ## Exact Claim
 
@@ -24,7 +24,7 @@ Passed. The corpus package includes explicit non-claims and does not claim outsi
 
 ## External Review Readiness
 
-Ready for human review dispatch with major caveats. Required package, checklist, evidence-index, reproduction-queue, evidence-ref classification, copied Product evidence, and reviewer-facing tables are present.
+Not ready for external scientific review dispatch. Required package, checklist, evidence-index, reproduction-queue, evidence-ref classification, copied Product evidence, reviewer-facing tables, and exact Product runtime scalar replay are present, but raw-data scientific reproduction inputs remain incomplete.
 
 ## Inspectability Repair
 
@@ -36,4 +36,4 @@ Ready for human review dispatch with major caveats. Required package, checklist,
 
 ## Limitation
 
-External expert review is still required before any stronger interpretation. The package still lacks a standalone raw-data residual recomputation script and should be read as externally inspectable with major caveats, not externally validated.
+External expert review is still required before any stronger interpretation. The package has exact Product runtime scalar replay, but still lacks the raw-data descriptor matrix/model/split/residual/baseline inputs needed for independent scientific recomputation and should be read as package-repair-required, not externally validated.

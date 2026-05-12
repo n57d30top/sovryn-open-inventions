@@ -190,19 +190,21 @@
     }
   ],
   "noOverclaimStatus": "passed_explicit_non_claims_only",
-  "externalReviewReadiness": "ready_for_human_review_dispatch_with_major_caveats",
-  "limitation": "External expert review is still required before any stronger interpretation.",
+  "externalReviewReadiness": "package_repair_required_before_external_review",
+  "limitation": "External expert review is still required before any stronger interpretation. Raw-data scientific reproduction inputs remain incomplete.",
   "evidenceHash": "47632cb19fc4d66a1942f9a94e498a7176da4845ab77212ee2d22e53ff1456e8",
-  "publicReviewStatus": "external_review_ready_with_major_caveats",
+  "publicReviewStatus": "package_repair_required_before_external_review",
   "majorCaveatStatus": true,
   "externalReviewRequiredBeforeStrongerClaim": true,
-  "publicClassification": "public_discovery_fund_ready_for_external_review_with_major_caveats",
+  "publicClassification": "public_discovery_fund_package_repair_required_before_external_review",
   "publicInspectabilityRepair": {
     "evidenceRefsClassified": 62,
     "internalProductRefsCopied": 38,
     "internalProductRefsNotCopied": 0,
     "unresolvedOrWeakRefs": 0,
     "reviewerTablesAdded": 7,
-    "caveat": "Public package is more inspectable but still lacks standalone raw-data residual recomputation."
+    "productRuntimeScalarReplay": "exact",
+    "rawDataScientificReproduction": "incomplete",
+    "caveat": "Public package has exact Product runtime scalar replay but still lacks raw-data descriptor matrix, model, split, residual, baseline, holdout, and counterexample inputs for independent scientific recomputation."
   }
 }

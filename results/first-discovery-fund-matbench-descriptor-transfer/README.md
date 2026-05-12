@@ -13,7 +13,7 @@ The measured public computational_materials_property_data target-outcome residua
 - Candidate ID: DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB
 - Result kind: externally_review_ready_discovery_candidate
 - Fund class: externally_review_ready_discovery_candidate
-- Public review status: external_review_ready_with_major_caveats
+- Public review status: package_repair_required_before_external_review
 - Fund label: externally_review_ready_candidate
 - Domain: computational_materials_property_data
 - Readiness score: 72/100
@@ -46,6 +46,9 @@ The public corpus package includes:
 - REVIEWER_SUMMARY.md
 - REPRODUCE_STANDALONE.md
 - reproduce_matbench_candidate.py
+- PRODUCT_RUNTIME_REPRODUCTION_SPEC.md
+- PRODUCT_RUNTIME_REPRODUCTION_SPEC.json
+- EXACT_REPRODUCTION_INPUTS_STATUS.md
 - REPRODUCTION_RESULT_TABLE.md
 - MISSING_REPRODUCTION_INPUTS.md
 - standalone_reproduction_result.json
@@ -81,11 +84,11 @@ This package now includes a standalone public-data check:
 python3 reproduce_matbench_candidate.py
 ```
 
-The script loads the public Matbench experimental band-gap JSON, computes deterministic formula-only proxy checks, and writes `REPRODUCTION_RESULT_TABLE.md` plus `MISSING_REPRODUCTION_INPUTS.md`.
+The script loads the public Matbench experimental band-gap JSON, computes deterministic formula-only proxy checks, replays the Product runtime scalar formulas from `PRODUCT_RUNTIME_REPRODUCTION_SPEC.json`, and writes `REPRODUCTION_RESULT_TABLE.md` plus `MISSING_REPRODUCTION_INPUTS.md`.
 
-Current standalone classification: `incomplete_exact_reproduction_public_proxy_checks_only`.
+Current standalone classification: `product_runtime_scalars_reproduced_raw_scientific_reproduction_incomplete`.
 
-The Product-recorded residual `0.21`, measured outcome `0.72`, and baseline values `0.34`, `0.29`, and `0.23` are not exactly reproduced from public raw data because the public package still lacks the descriptor matrix, model/training configuration, exact split/family manifest, residual formula, and baseline implementations.
+The Product-recorded residual `0.21`, measured outcome `0.72`, and baseline values `0.34`, `0.29`, and `0.23` are exactly replayed as Product runtime scalars. They are not independently reproduced from public raw Matbench data because the public package still lacks the descriptor matrix, model/training configuration, exact split/family manifest, target subset manifest, scientific residual formula, baseline implementations, and external runnable holdout/counterexample manifests.
 
 ## No Overclaim
 
@@ -101,7 +104,7 @@ The Product-recorded residual `0.21`, measured outcome `0.72`, and baseline valu
 
 - Source Product limitation copied verbatim: "The evidence is bounded to generated formal object families and replayed Product artifacts."
 - For this Corpus result, the public claim remains bounded to the cited Matbench/public-materials target refs and recorded Product evidence package.
-- Standalone public-data reproduction is incomplete: the raw Matbench source loads and proxy checks run, but exact Product residual and baseline scalars are not independently recomputed.
+- Standalone Product runtime scalar replay is exact, but raw-data scientific reproduction is incomplete: the raw Matbench source loads and proxy checks run, while the descriptor-transfer residual and baseline method remain unreproduced from public scientific inputs.
 - Domain scientific significance pressure failed gates: no_anti_discovery_claim_text.
 - This package makes only a bounded internal evidence claim and avoids prohibited public overclaim categories.
 - Human expert review is required before any stronger interpretation of scientific significance.
@@ -109,4 +112,4 @@ The Product-recorded residual `0.21`, measured outcome `0.72`, and baseline valu
 
 ## Next Required External Review Step
 
-Review REVIEWER_SUMMARY.md, METHOD.md, CLAIM_EVIDENCE_BINDINGS.json, REPRODUCE.md, LIMITATIONS.md, EVIDENCE_REF_CLASSIFICATION.md, the reviewer-facing result tables, and the copied Product evidence artifacts against the cited public Matbench refs.
+Resolve the missing raw-data scientific reproduction inputs listed in `EXACT_REPRODUCTION_INPUTS_STATUS.md` and `MISSING_REPRODUCTION_INPUTS.md` before treating this package as externally review-ready. Until then, review this bundle as a package-repair-required Product evidence package with exact runtime scalar replay but incomplete independent scientific reproduction.

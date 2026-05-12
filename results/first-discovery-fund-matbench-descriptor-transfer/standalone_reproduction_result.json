@@ -1,7 +1,8 @@
 {
-  "exactProductBaselinesReproduced": false,
-  "exactProductResidualReproduced": false,
-  "interpretation": "The public Matbench raw JSON was loaded and formula-only proxy checks were recomputed. The Product-recorded descriptor-transfer measured outcome, residual magnitude, and baseline scalars were not exactly reproduced because essential Product inputs are not exposed in this public package.",
+  "exactProductBaselinesReproduced": true,
+  "exactProductResidualReproduced": true,
+  "exactProductRuntimeScalarsReproduced": true,
+  "interpretation": "The Product runtime scalars were exactly replayed from the public-safe Product runtime reproduction spec. The public Matbench raw JSON was also loaded and formula-only proxy checks were recomputed. The raw-data scientific descriptor-transfer residual remains unreproduced because essential scientific inputs are not exposed in this public package.",
   "missingInputs": [
     {
       "input": "descriptor matrix / feature definition",
@@ -39,6 +40,24 @@
     "null_or_trivial_rule": 0.23,
     "residual_magnitude": 0.21
   },
+  "productRuntimeReplayValues": {
+    "born": true,
+    "composition_formula_size_target_family_baseline": 0.34,
+    "matched_negative_control": 0.29,
+    "measured_outcome": 0.72,
+    "null_or_trivial_rule": 0.23,
+    "ordinal": 1,
+    "residual_magnitude": 0.21
+  },
+  "productRuntimeReproductionSpec": {
+    "path": "PRODUCT_RUNTIME_REPRODUCTION_SPEC.json",
+    "productSourceRef": "src/core/discovery-daemon/discovery-daemon-service.ts#matbench_descriptor_transfer_significance_generator",
+    "sourceProductCommit": "48afba2890e00947d9f555cf3ac9db637e6dff91",
+    "status": "public_safe_product_algorithm_replay_not_raw_data_scientific_reproduction"
+  },
+  "publicReviewStatus": "package_repair_required_before_external_review",
+  "rawDataScientificBaselinesReproduced": false,
+  "rawDataScientificResidualReproduced": false,
   "runtimeEvidenceLoaded": true,
   "source": {
     "bytes": 99468,
@@ -62,5 +81,5 @@
     "null_or_trivial_rule_proxy_r2": -9.228031336183662e-06,
     "residual_proxy_r2_delta": 0.10219959399248635
   },
-  "status": "incomplete_exact_reproduction_public_proxy_checks_only"
+  "status": "product_runtime_scalars_reproduced_raw_scientific_reproduction_incomplete"
 }

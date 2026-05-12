@@ -1,0 +1,47 @@
+{
+  "kind": "matbench_product_runtime_scalar_reproduction_spec",
+  "status": "public_safe_product_algorithm_replay_not_raw_data_scientific_reproduction",
+  "sourceProductCommit": "48afba2890e00947d9f555cf3ac9db637e6dff91",
+  "productSourceRef": "src/core/discovery-daemon/discovery-daemon-service.ts#matbench_descriptor_transfer_significance_generator",
+  "generatorId": "matbench_descriptor_transfer_significance_generator",
+  "outputId": "matbench_descriptor_transfer_significance_generator-output-01",
+  "targetId": "matbench_descriptor_transfer_significance_generator-target-01",
+  "ordinal": 1,
+  "ordinalRule": "Use the final numeric suffix in outputId or targetId; output-01 maps to ordinal 1.",
+  "bornRule": "born = ordinal <= 2",
+  "exactRuntimeFormulas": {
+    "measuredOutcome": "born ? 0.71 + ordinal / 100 : 0.48 + ordinal / 100",
+    "residualMagnitude": "born ? 0.22 - ordinal / 100 : ordinal === 8 ? 0.13 : 0.07",
+    "compositionFormulaSizeTargetFamilyBaseline": "born ? 0.34 : 0.48 + ordinal / 100",
+    "matchedNegativeControl": "born ? 0.29 : 0.5",
+    "nullOrTrivialRule": "born ? 0.23 : 0.47"
+  },
+  "expectedRuntimeScalars": {
+    "measuredOutcome": 0.72,
+    "residualMagnitude": 0.21,
+    "compositionFormulaSizeTargetFamilyBaseline": 0.34,
+    "matchedNegativeControl": 0.29,
+    "nullOrTrivialRule": 0.23
+  },
+  "runtimeGateFlags": {
+    "baselineExplains": false,
+    "controlExplains": false,
+    "nullExplains": false,
+    "rivalWeakened": true,
+    "nontrivialResidual": true,
+    "crossSourceSupport": true,
+    "counterexampleCollapsed": false,
+    "holdoutReplayAvailable": true,
+    "domainSignificanceSupported": true
+  },
+  "rawScientificReproductionInputs": {
+    "descriptorMatrixOrFeaturizerConfig": "not_found_in_public_package_or_product_artifacts",
+    "modelConfig": "not_found_in_public_package_or_product_artifacts",
+    "exactSplitManifest": "not_found_in_public_package_or_product_artifacts",
+    "targetSubsetManifest": "not_found_in_public_package_or_product_artifacts",
+    "rawDataResidualFormula": "not_found_in_public_package_or_product_artifacts",
+    "baselineImplementations": "not_found_in_public_package_or_product_artifacts",
+    "externalHoldoutCounterexampleManifests": "not_found_in_public_package_or_product_artifacts"
+  },
+  "interpretation": "This spec is sufficient to exactly replay the Product runtime scalars for output-01. It is not sufficient to independently reproduce the scientific residual from raw Matbench data."
+}
