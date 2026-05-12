@@ -32,4 +32,6 @@ Product runtime scalar replay is now exact. Exact independent raw-data scientifi
 - Raw-data scientific baselines reproduced exactly: no.
 - Public raw Matbench source loaded: yes.
 - Public proxy checks produced: yes.
-- Updated review readiness: package_repair_required_before_external_review.
+- Product values source classification: runtime_derived_deterministic_generator_scalars.
+- Updated review readiness: not_external_review_ready_raw_scientific_reproduction_failed.
+- Public discovery-score eligibility: false.

@@ -4,24 +4,38 @@
   "passed": true,
   "status": "FUND_FOUND",
   "fundLabel": "externally_review_ready_candidate",
-  "fundClass": "externally_review_ready_discovery_candidate",
-  "countsForEinsteinNobelDiscoveryScore": true,
+  "fundClass": "not_discovery_scored_raw_reproduction_failed",
+  "productRecordedFundClass": "externally_review_ready_discovery_candidate",
+  "countsForEinsteinNobelDiscoveryScore": false,
+  "historicalProductGatePassed": true,
+  "publicDowngrade": {
+    "kind": "raw_scientific_reproduction_downgrade",
+    "publicFundClass": "not_discovery_scored_raw_reproduction_failed",
+    "publicReviewStatus": "not_external_review_ready_raw_scientific_reproduction_failed",
+    "productValuesSourceClassification": "runtime_derived_deterministic_generator_scalars",
+    "rawDataScientificReproductionSucceeded": false,
+    "publicDiscoveryScoreEligible": false,
+    "reason": "The Product Fund Gate artifact is preserved, but public raw-data scientific reproduction failed; this package must not be counted as externally-review-ready discovery evidence."
+  },
   "fundClassAssessment": {
     "kind": "fund_class_assessment",
     "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
-    "fundClass": "externally_review_ready_discovery_candidate",
-    "validFundCandidate": true,
-    "countsForEinsteinNobelDiscoveryScore": true,
+    "fundClass": "not_discovery_scored_raw_reproduction_failed",
+    "productRecordedFundClass": "externally_review_ready_discovery_candidate",
+    "validFundCandidate": false,
+    "countsForEinsteinNobelDiscoveryScore": false,
     "discoveryGate": {
-      "nontrivialNewInsightAcrossRealTargets": true,
-      "domainScientificSignificance": true,
-      "evidenceBeyondRuntimeReproduction": true,
-      "notOnlyToolPipelineOrReproduction": true
+      "nontrivialNewInsightAcrossRealTargets": false,
+      "domainScientificSignificance": false,
+      "evidenceBeyondRuntimeReproduction": false,
+      "notOnlyToolPipelineOrReproduction": false
     },
     "rationale": [
-      "The existing Fund Gate may remain valid for the bounded package.",
-      "This class is eligible for Einstein/Nobel discovery scoring.",
-      "Assigned FundClass: externally_review_ready_discovery_candidate."
+      "The historical Product Fund Gate artifact is preserved for traceability.",
+      "Raw-data scientific reproduction failed for the public package.",
+      "Product values are runtime-derived deterministic generator scalars.",
+      "This class is not eligible for Einstein/Nobel discovery scoring.",
+      "Assigned public FundClass: not_discovery_scored_raw_reproduction_failed."
     ],
     "evidenceHash": "658f5e63da06952f5b24cf575a41fee24a1c2b254c1faed3c189da3bc8ab9461"
   },

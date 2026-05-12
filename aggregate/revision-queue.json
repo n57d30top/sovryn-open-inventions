@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_revision_queue",
-  "updatedAt": "2026-05-12T13:53:37.075Z",
+  "updatedAt": "2026-05-12T14:30:23.408Z",
   "results": [
     {
       "slug": "corpus-deduplication",
@@ -15,6 +15,12 @@
       "revisionReason": "Falsification status is insufficient_tests."
     },
     {
+      "slug": "first-discovery-fund-matbench-descriptor-transfer",
+      "title": "First Discovery Fund: Matbench Descriptor Transfer External Review Package",
+      "lifecycleStatus": "needs_revision",
+      "revisionReason": "Quality, candidate status, or anti-template review requires revision."
+    },
+    {
       "slug": "self-built-lab-reproduction-388ccd1946ad",
       "title": "Self-built lab reproduction challenge",
       "lifecycleStatus": "needs_revision",
@@ -27,5 +33,5 @@
       "revisionReason": "Falsification status is insufficient_tests."
     }
   ],
-  "evidenceHash": "0b944684042cb27e81df7fccbfad4e0ee3dbbb29e67461aac88247c5e7ce92a5"
+  "evidenceHash": "009a6abda92f47841719beeaa729784394d9b571184ebd67f6002e5b8634654f"
 }

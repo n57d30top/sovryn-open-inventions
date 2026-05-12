@@ -1,6 +1,11 @@
 {
   "kind": "matbench_product_runtime_scalar_reproduction_spec",
   "status": "public_safe_product_algorithm_replay_not_raw_data_scientific_reproduction",
+  "rawScientificReproductionDecision": "failed",
+  "productValuesSourceClassification": "runtime_derived_deterministic_generator_scalars",
+  "publicReviewStatus": "not_external_review_ready_raw_scientific_reproduction_failed",
+  "publicFundClass": "not_discovery_scored_raw_reproduction_failed",
+  "publicDiscoveryScoreEligible": false,
   "sourceProductCommit": "48afba2890e00947d9f555cf3ac9db637e6dff91",
   "productSourceRef": "src/core/discovery-daemon/discovery-daemon-service.ts#matbench_descriptor_transfer_significance_generator",
   "generatorId": "matbench_descriptor_transfer_significance_generator",

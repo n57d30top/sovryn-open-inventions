@@ -37,14 +37,16 @@ python3 reproduce_matbench_candidate.py --data-file matbench_expt_gap.review.jso
 
 The expected current classification is:
 
-`product_runtime_scalars_reproduced_raw_scientific_reproduction_incomplete`
+`raw_scientific_reproduction_failed_product_values_runtime_derived`
 
 That status means:
 
 - the public raw Matbench JSON can be fetched and parsed;
 - simple public proxy baselines can be recomputed;
 - the exact Product runtime scalars are replayed from the public-safe Product runtime spec;
-- the exact Product descriptor-transfer residual is not independently reproduced from raw Matbench scientific inputs in this public package.
+- the Product values are classified as runtime-derived deterministic generator scalars;
+- the exact Product descriptor-transfer residual is not independently reproduced from raw Matbench scientific inputs in this public package;
+- public Einstein/Nobel discovery-score eligibility is false.
 
 ## Why Exact Reproduction Is Not Yet Possible
 
@@ -52,4 +54,4 @@ The public package does not expose the full descriptor matrix, descriptor-transf
 
 ## No Overclaim
 
-This script is a reproducibility repair. It is not external validation, not external adoption, not a stronger scientific claim, and not a new Fund result.
+This script is a reproducibility repair and downgrade record. It is not external validation, not external adoption, not a stronger scientific claim, and not a new Fund result.

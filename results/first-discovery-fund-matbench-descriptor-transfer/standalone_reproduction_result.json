@@ -2,7 +2,7 @@
   "exactProductBaselinesReproduced": true,
   "exactProductResidualReproduced": true,
   "exactProductRuntimeScalarsReproduced": true,
-  "interpretation": "The Product runtime scalars were exactly replayed from the public-safe Product runtime reproduction spec. The public Matbench raw JSON was also loaded and formula-only proxy checks were recomputed. The raw-data scientific descriptor-transfer residual remains unreproduced because essential scientific inputs are not exposed in this public package.",
+  "interpretation": "The Product runtime scalars were exactly replayed from the public-safe Product runtime reproduction spec. Inspection of the Product source shows those values are runtime-derived deterministic generator scalars, not recovered raw-data scientific outputs. The public Matbench raw JSON was also loaded and formula-only proxy checks were recomputed. The raw-data scientific descriptor-transfer residual failed exact reproduction because essential scientific inputs are not exposed in this public package.",
   "missingInputs": [
     {
       "input": "descriptor matrix / feature definition",
@@ -55,8 +55,13 @@
     "sourceProductCommit": "48afba2890e00947d9f555cf3ac9db637e6dff91",
     "status": "public_safe_product_algorithm_replay_not_raw_data_scientific_reproduction"
   },
-  "publicReviewStatus": "package_repair_required_before_external_review",
+  "productValuesSourceClassification": "runtime_derived_deterministic_generator_scalars",
+  "publicDiscoveryScoreEligible": false,
+  "publicExternalReviewReadinessScore": 0,
+  "publicFundClass": "not_discovery_scored_raw_reproduction_failed",
+  "publicReviewStatus": "not_external_review_ready_raw_scientific_reproduction_failed",
   "rawDataScientificBaselinesReproduced": false,
+  "rawDataScientificReproductionAttempted": true,
   "rawDataScientificResidualReproduced": false,
   "runtimeEvidenceLoaded": true,
   "source": {
@@ -81,5 +86,5 @@
     "null_or_trivial_rule_proxy_r2": -9.228031336183662e-06,
     "residual_proxy_r2_delta": 0.10219959399248635
   },
-  "status": "product_runtime_scalars_reproduced_raw_scientific_reproduction_incomplete"
+  "status": "raw_scientific_reproduction_failed_product_values_runtime_derived"
 }

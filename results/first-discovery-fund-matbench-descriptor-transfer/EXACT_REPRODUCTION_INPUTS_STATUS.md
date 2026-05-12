@@ -32,12 +32,12 @@ Result: Product runtime scalars are exactly reproducible.
 | exact baseline implementations | unresolved | Product baseline scalars `0.34`, `0.29`, and `0.23` cannot be recomputed from public measurements alone. |
 | external runnable holdout/counterexample manifests | unresolved | Holdout and counterexample pressure remains package-bound rather than independently runnable. |
 
-Result: raw-data scientific reproduction remains incomplete.
+Result: raw-data scientific reproduction failed for this public package.
 
 ## Status Decision
 
 The public package should be classified as:
 
-`package_repair_required_before_external_review`
+`not_external_review_ready_raw_scientific_reproduction_failed`
 
-This is a package-readiness downgrade only. It does not change the Product claim, Product FundClass, or Product Fund Gate result.
+This is a public scientific-status downgrade. It does not change the historical Product claim or Product Fund Gate artifact, but it does remove this public package from Einstein/Nobel discovery-score eligibility.

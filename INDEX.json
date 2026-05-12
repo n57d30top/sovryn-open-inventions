@@ -1,6 +1,6 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-12T13:53:37.075Z",
+  "updatedAt": "2026-05-12T14:30:23.408Z",
   "resultCount": 615,
   "results": [
     {
@@ -9014,13 +9014,13 @@
     {
       "slug": "first-discovery-fund-matbench-descriptor-transfer",
       "title": "First Discovery Fund: Matbench Descriptor Transfer External Review Package",
-      "resultKind": "externally_review_ready_discovery_candidate",
+      "resultKind": "internal_runtime_replay_candidate_raw_scientific_reproduction_failed",
       "domain": "computational_materials_property_data",
       "path": "results/first-discovery-fund-matbench-descriptor-transfer",
-      "qualityLabel": "good",
-      "candidateStatus": "autopublished",
+      "qualityLabel": "weak",
+      "candidateStatus": "needs_revision",
       "antiTemplateStatus": "specific_public_evidence",
-      "lifecycleStatus": "autopublished",
+      "lifecycleStatus": "needs_revision",
       "versionGroup": "first-discovery-fund-matbench-descriptor-transfer",
       "supersedes": null,
       "supersededBy": null,
@@ -9034,11 +9034,11 @@
         "limitations": true,
         "examples": false
       },
-      "revisionReason": null,
-      "humanReadableSummary": "This result publishes the Matbench descriptor-transfer discovery candidate package from the Product repo into the public corpus for inspection and external human review.",
-      "releaseReadinessScore": 72,
-      "evidenceStrengthScore": 54,
-      "reproducibilityScore": 58,
+      "revisionReason": "Quality, candidate status, or anti-template review requires revision.",
+      "humanReadableSummary": "This result publishes the Matbench descriptor-transfer candidate package from the Product repo into the public corpus for inspection. A later raw scientific reproduction repair found that the Product values are deterministic runtime-derived scalars, not independently reproducible scientific outputs from public Matbench raw data.",
+      "releaseReadinessScore": 28,
+      "evidenceStrengthScore": 24,
+      "reproducibilityScore": 20,
       "publicationSafetyScore": 100,
       "replayCriticalPassRate": 100,
       "specificityScore": 78,
@@ -9047,7 +9047,7 @@
       "reliabilityReplayPassed": true,
       "customTool": null,
       "workerAssurance": "not-recorded",
-      "falsificationStatus": "fund_gate_passed_internal_external_review_required"
+      "falsificationStatus": "raw_scientific_reproduction_failed"
     },
     {
       "slug": "first-fund-scipy-runtime-reproduction-external-review-ready",
@@ -23466,5 +23466,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "bcab620fbbfa44d101227f7a9ff06055dcabb1c3297d8cd600c0e1f40347f29d"
+  "evidenceHash": "7d3323e45cdf75dcb0ef9d8a3e77ea139166d53b204d38cab99841cb28a6c1df"
 }

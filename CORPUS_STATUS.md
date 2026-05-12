@@ -4,8 +4,8 @@ Results: 615
 
 ## Lifecycle Counts
 
-- autopublished: 584
-- needs_revision: 4
+- autopublished: 583
+- needs_revision: 5
 - showcase: 3
 - showcase_science: 10
 - superseded: 14

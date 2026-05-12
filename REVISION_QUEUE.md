@@ -3,6 +3,7 @@
 
 - corpus-deduplication: needs_revision. Falsification status is insufficient_tests.
 - evidence-chain-v2: needs_revision. Falsification status is insufficient_tests.
+- first-discovery-fund-matbench-descriptor-transfer: needs_revision. Quality, candidate status, or anti-template review requires revision.
 - self-built-lab-reproduction-388ccd1946ad: needs_revision. Specificity score is below the public corpus promotion threshold.
 - toolchain-policy: needs_revision. Falsification status is insufficient_tests.
 

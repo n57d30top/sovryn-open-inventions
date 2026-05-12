@@ -10,7 +10,11 @@ This package rebinds a generator-born claim-lift proposal to a new stable Discov
 
 ## Public Inspectability Repair
 
-The original Product refs below are preserved for traceability. This Corpus repair also adds public copies or excerpts for all internal Product refs under `copied-product-evidence/`, plus `EVIDENCE_REF_CLASSIFICATION.md`, reviewer-facing tables, and exact Product runtime scalar replay. The repair does not strengthen the claim; it changes the public review status to `package_repair_required_before_external_review` because raw-data scientific reproduction inputs remain incomplete.
+The original Product refs below are preserved for traceability. This Corpus repair also adds public copies or excerpts for all internal Product refs under `copied-product-evidence/`, plus `EVIDENCE_REF_CLASSIFICATION.md`, reviewer-facing tables, and exact Product runtime scalar replay. The repair does not strengthen the claim; it changes the public review status to `not_external_review_ready_raw_scientific_reproduction_failed` because exact raw-data scientific reproduction failed and the Product values are runtime-derived deterministic generator scalars.
+
+## Raw Scientific Reproduction Repair
+
+The public raw-data repair loaded Matbench JSON and ran formula-only proxy checks, but did not reproduce the Product measured outcome, residual, or baselines from raw scientific inputs. The Product values are replayable from Product runtime formulas, not from a public descriptor-transfer experiment. Public discovery-score eligibility is therefore false.
 
 ## Source Evidence Refs
 

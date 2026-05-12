@@ -1,14 +1,15 @@
 {
   "kind": "sovryn_public_corpus_product",
-  "generatedAt": "2026-05-12T13:53:37.075Z",
+  "generatedAt": "2026-05-12T14:30:23.408Z",
   "resultCount": 615,
   "qualityCounts": {
     "excellent": 5,
-    "good": 604,
-    "reviewable": 6
+    "good": 603,
+    "reviewable": 6,
+    "weak": 1
   },
   "statusCounts": {
-    "autopublished": 580,
+    "autopublished": 579,
     "benchmark_challenge_negative_result": 4,
     "dataset_quality_audit_supported": 7,
     "external_extension_supported": 1,
@@ -16,6 +17,7 @@
     "external_reproduction_success": 2,
     "field_grade_trial_ready": 3,
     "knowledge_trial_ready": 1,
+    "needs_revision": 1,
     "partially_reproduced": 1,
     "promising_but_unproven": 1,
     "reality_grade_trial_ready": 1,
@@ -27,8 +29,8 @@
     "v1_candidate_with_limits": 1
   },
   "lifecycleCounts": {
-    "autopublished": 584,
-    "needs_revision": 4,
+    "autopublished": 583,
+    "needs_revision": 5,
     "showcase": 3,
     "showcase_science": 10,
     "superseded": 14
@@ -7324,22 +7326,22 @@
       "slug": "first-discovery-fund-matbench-descriptor-transfer",
       "title": "First Discovery Fund: Matbench Descriptor Transfer External Review Package",
       "domain": "computational_materials_property_data",
-      "resultKind": "externally_review_ready_discovery_candidate",
+      "resultKind": "internal_runtime_replay_candidate_raw_scientific_reproduction_failed",
       "path": "results/first-discovery-fund-matbench-descriptor-transfer",
-      "qualityLabel": "good",
-      "publicationStatus": "autopublished",
+      "qualityLabel": "weak",
+      "publicationStatus": "needs_revision",
       "antiTemplateStatus": "specific_public_evidence",
-      "lifecycleStatus": "autopublished",
+      "lifecycleStatus": "needs_revision",
       "versionGroup": "first-discovery-fund-matbench-descriptor-transfer",
       "supersedes": null,
       "supersededBy": null,
       "showcaseEligible": false,
       "showcaseRank": null,
-      "revisionReason": null,
-      "humanReadableSummary": "This result publishes the Matbench descriptor-transfer discovery candidate package from the Product repo into the public corpus for inspection and external human review.",
-      "releaseReadinessScore": 72,
-      "evidenceStrengthScore": 54,
-      "reproducibilityScore": 58,
+      "revisionReason": "Quality, candidate status, or anti-template review requires revision.",
+      "humanReadableSummary": "This result publishes the Matbench descriptor-transfer candidate package from the Product repo into the public corpus for inspection. A later raw scientific reproduction repair found that the Product values are determ...",
+      "releaseReadinessScore": 28,
+      "evidenceStrengthScore": 24,
+      "reproducibilityScore": 20,
       "publicationSafetyScore": 100,
       "replayCriticalPassRate": 100,
       "specificityScore": 78,
@@ -7348,7 +7350,7 @@
       "reliabilityReplayPassed": true,
       "pushed": false,
       "customTool": null,
-      "falsificationStatus": "fund_gate_passed_internal_external_review_required"
+      "falsificationStatus": "raw_scientific_reproduction_failed"
     },
     {
       "slug": "first-fund-scipy-runtime-reproduction-external-review-ready",
@@ -23651,6 +23653,12 @@
       "revisionReason": "Falsification status is insufficient_tests."
     },
     {
+      "slug": "first-discovery-fund-matbench-descriptor-transfer",
+      "title": "First Discovery Fund: Matbench Descriptor Transfer External Review Package",
+      "lifecycleStatus": "needs_revision",
+      "revisionReason": "Quality, candidate status, or anti-template review requires revision."
+    },
+    {
       "slug": "self-built-lab-reproduction-388ccd1946ad",
       "title": "Self-built lab reproduction challenge",
       "lifecycleStatus": "needs_revision",
@@ -23664,5 +23672,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "58c101522b0f32b7f4b64af80ce96f5e84569678fa4fda1054f908182fef9627"
+  "evidenceHash": "21464ef8406ff261f0160a9370bea11c411da19639013ce4e0fb9e6493aea40d"
 }

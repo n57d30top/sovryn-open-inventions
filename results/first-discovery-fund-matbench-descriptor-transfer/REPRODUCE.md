@@ -53,7 +53,7 @@ Compare the source availability and receipt context against:
 jq '{sourceRef, sourceReceipt, rawTargetCount, measuredVariable, targetOutcome, measuredOutcome, residualMagnitude, baselineResults, holdoutPath, replayPath}' copied-product-evidence/matbench-source-cache.json
 ```
 
-Important caveat: the standalone script added in this repair exactly replays the Product runtime scalar formulas, but it does not independently recompute the scientific descriptor-transfer residual from raw JSON. The raw-source check verifies source access and receipt context; exact scientific reproduction remains blocked by missing Product inputs listed in `MISSING_REPRODUCTION_INPUTS.md`.
+Important caveat: the standalone script exactly replays the Product runtime scalar formulas, but it does not independently recompute the scientific descriptor-transfer residual from raw JSON. Inspection of the Product source shows those values are runtime-derived deterministic generator scalars. The raw-source check verifies source access and receipt context; exact scientific reproduction failed for this public package because the missing inputs listed in `MISSING_REPRODUCTION_INPUTS.md` are not available.
 
 ## Standalone Public-Data Proxy Check
 
@@ -71,9 +71,9 @@ The script downloads the public Matbench experimental band-gap JSON by default, 
 
 Current expected status:
 
-`product_runtime_scalars_reproduced_raw_scientific_reproduction_incomplete`
+`raw_scientific_reproduction_failed_product_values_runtime_derived`
 
-That status is intentional and caveated. The script exactly replays Product-recorded values `0.72`, `0.21`, `0.34`, `0.29`, and `0.23` from `PRODUCT_RUNTIME_REPRODUCTION_SPEC.json`, and it verifies public raw-data access with transparent proxy baselines. It does not independently reproduce those values from raw Matbench data because the package still lacks the exact descriptor matrix, model/training configuration, split/family manifest, target subset manifest, scientific residual formula, baseline implementations, and external runnable holdout/counterexample manifests.
+That status is intentional and caveated. The script exactly replays Product-recorded values `0.72`, `0.21`, `0.34`, `0.29`, and `0.23` from `PRODUCT_RUNTIME_REPRODUCTION_SPEC.json`, and it verifies public raw-data access with transparent proxy baselines. It does not independently reproduce those values from raw Matbench data because the package lacks the exact descriptor matrix, model/training configuration, split/family manifest, target subset manifest, scientific residual formula, baseline implementations, and external runnable holdout/counterexample manifests. The public package is therefore not discovery-score eligible.
 
 ## Reviewer Tables
 
@@ -111,4 +111,4 @@ The copied Product package records replay support as package-bound and nonfatal:
 - `copied-product-evidence/pre-lift-reproduce.md#replay`
 - `copied-product-evidence/runtime-evidence-output-01.json`
 
-External-review caveat: package-bound replay is not the same as independent external reproduction from raw data and fresh code. The standalone script now provides exact Product runtime scalar replay plus a public raw-source/proxy-baseline check, but exact descriptor-transfer scientific reproduction remains blocked by the missing inputs listed in `MISSING_REPRODUCTION_INPUTS.md`.
+External-review caveat: package-bound replay is not the same as independent external reproduction from raw data and fresh code. The standalone script now provides exact Product runtime scalar replay plus a public raw-source/proxy-baseline check, but exact descriptor-transfer scientific reproduction failed because the missing inputs listed in `MISSING_REPRODUCTION_INPUTS.md` are not available.

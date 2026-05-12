@@ -2,19 +2,19 @@
   "kind": "public_corpus_result_badges",
   "slug": "first-discovery-fund-matbench-descriptor-transfer",
   "badges": {
-    "quality": "good",
-    "status": "autopublished",
+    "quality": "weak",
+    "status": "needs_revision",
     "antiTemplate": "specific_public_evidence",
     "replay": "replay-100",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
     "worker": "not-recorded",
-    "falsification": "fund_gate_passed_internal_external_review_required",
-    "lifecycle": "autopublished",
+    "falsification": "raw_scientific_reproduction_failed",
+    "lifecycle": "needs_revision",
     "version": "first-discovery-fund-matbench-descriptor-transfer",
     "showcase": "not-showcase"
   },
-  "lifecycleStatus": "autopublished",
+  "lifecycleStatus": "needs_revision",
   "showcaseRank": null,
-  "evidenceHash": "851ad391364c2156d3a8fa6480346c1fe8411b88169d3a075c15f10695d9c869"
+  "evidenceHash": "ba66949a49ecc3e819306c84d5e3a8412c315cbfd3b3b744116bb3d641cf1093"
 }

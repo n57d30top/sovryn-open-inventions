@@ -10,7 +10,7 @@ The measured public computational_materials_property_data target-outcome residua
 
 For review, the package should be read more narrowly:
 
-The public package records a Product-generated Matbench/materials hard-seed and claim-lift package in which `matbench_descriptor_transfer_significance_generator-output-01` has measured outcome `0.72` and residual magnitude `0.21`. The copied Product runtime evidence says three simple controls did not explain that residual: composition/formula-size/target-family baseline `0.34`, matched negative control `0.29`, and null/trivial-rule baseline `0.23`. The package now supports exact replay of those Product runtime scalars, but it remains `package_repair_required_before_external_review` because the raw-data scientific descriptor-transfer reproduction inputs are incomplete. This is not external validation.
+The public package records a Product-generated Matbench/materials hard-seed and claim-lift package in which `matbench_descriptor_transfer_significance_generator-output-01` has measured outcome `0.72` and residual magnitude `0.21`. The copied Product runtime evidence says three simple controls did not explain that residual: composition/formula-size/target-family baseline `0.34`, matched negative control `0.29`, and null/trivial-rule baseline `0.23`. The package supports exact replay of those Product runtime scalars, but inspection of the Product source classifies them as runtime-derived deterministic generator values. Raw-data scientific descriptor-transfer reproduction failed, so the public package is `not_external_review_ready_raw_scientific_reproduction_failed`. This is not external validation.
 
 ## Data Source
 

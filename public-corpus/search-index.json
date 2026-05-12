@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-12T13:53:37.075Z",
+  "builtAt": "2026-05-12T14:30:23.408Z",
   "entryCount": 615,
   "entries": [
     {
@@ -10526,42 +10526,58 @@
       "title": "First Discovery Fund: Matbench Descriptor Transfer External Review Package",
       "domain": "computational_materials_property_data",
       "href": "results/first-discovery-fund-matbench-descriptor-transfer.html",
-      "qualityLabel": "good",
-      "publicationStatus": "autopublished",
-      "lifecycleStatus": "autopublished",
+      "qualityLabel": "weak",
+      "publicationStatus": "needs_revision",
+      "lifecycleStatus": "needs_revision",
       "versionGroup": "first-discovery-fund-matbench-descriptor-transfer",
       "showcaseRank": null,
       "terms": [
-        "and",
-        "autopublished",
+        "are",
         "candidate",
         "computational",
         "corpus",
         "data",
+        "derived",
         "descriptor",
+        "deterministic",
         "discovery",
         "external",
         "first",
         "for",
+        "found",
         "from",
         "fund",
-        "human",
+        "independently",
         "inspection",
         "into",
+        "later",
         "matbench",
         "materials",
+        "needs",
+        "not",
         "numpy",
+        "outputs",
         "package",
         "product",
         "property",
         "public",
         "publishes",
+        "raw",
+        "repair",
         "repo",
+        "reproducible",
+        "reproduction",
         "result",
         "review",
+        "revision",
+        "runtime",
+        "scalars",
+        "scientific",
+        "that",
         "the",
         "this",
-        "transfer"
+        "transfer",
+        "values"
       ]
     },
     {
@@ -24217,5 +24233,5 @@
       ]
     }
   ],
-  "evidenceHash": "752d6464f74ecc6c5bb4b0fa19b2d8b633a78a3941728510093f5b7c54e1c6c4"
+  "evidenceHash": "8dc202627cf99086f51267cb0d80279ca4759a8adf45c4f577b6b4215bdc8218"
 }

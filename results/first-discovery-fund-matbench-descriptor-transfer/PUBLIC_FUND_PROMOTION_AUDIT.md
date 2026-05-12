@@ -1,14 +1,18 @@
 # Public Fund Promotion Audit
 
-Classification: public_discovery_fund_package_repair_required_before_external_review
+Classification: public_discovery_fund_downgraded_raw_scientific_reproduction_failed
 
 Candidate ID: DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB
 
 Domain: computational_materials_property_data
 
-FundClass: externally_review_ready_discovery_candidate
+Product-recorded FundClass: externally_review_ready_discovery_candidate
 
-Public review status: package_repair_required_before_external_review
+Public active FundClass: not_discovery_scored_raw_reproduction_failed
+
+Public review status: not_external_review_ready_raw_scientific_reproduction_failed
+
+Public Einstein/Nobel discovery-score eligible: false
 
 ## Exact Claim
 
@@ -24,7 +28,7 @@ Passed. The corpus package includes explicit non-claims and does not claim outsi
 
 ## External Review Readiness
 
-Not ready for external scientific review dispatch. Required package, checklist, evidence-index, reproduction-queue, evidence-ref classification, copied Product evidence, reviewer-facing tables, and exact Product runtime scalar replay are present, but raw-data scientific reproduction inputs remain incomplete.
+Not ready for external scientific review dispatch. Required package, checklist, evidence-index, reproduction-queue, evidence-ref classification, copied Product evidence, reviewer-facing tables, and exact Product runtime scalar replay are present, but raw-data scientific reproduction failed and the Product values are runtime-derived deterministic generator scalars.
 
 ## Inspectability Repair
 
@@ -36,4 +40,4 @@ Not ready for external scientific review dispatch. Required package, checklist, 
 
 ## Limitation
 
-External expert review is still required before any stronger interpretation. The package has exact Product runtime scalar replay, but still lacks the raw-data descriptor matrix/model/split/residual/baseline inputs needed for independent scientific recomputation and should be read as package-repair-required, not externally validated.
+External expert review is still required before any stronger interpretation. The package has exact Product runtime scalar replay, but lacks the raw-data descriptor matrix/model/split/residual/baseline inputs needed for independent scientific recomputation and should be read as downgraded, not externally validated.

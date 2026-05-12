@@ -7205,22 +7205,22 @@
       "slug": "first-discovery-fund-matbench-descriptor-transfer",
       "title": "First Discovery Fund: Matbench Descriptor Transfer External Review Package",
       "domain": "computational_materials_property_data",
-      "resultKind": "externally_review_ready_discovery_candidate",
+      "resultKind": "internal_runtime_replay_candidate_raw_scientific_reproduction_failed",
       "path": "results/first-discovery-fund-matbench-descriptor-transfer",
-      "qualityLabel": "good",
-      "publicationStatus": "autopublished",
+      "qualityLabel": "weak",
+      "publicationStatus": "needs_revision",
       "antiTemplateStatus": "specific_public_evidence",
-      "lifecycleStatus": "autopublished",
+      "lifecycleStatus": "needs_revision",
       "versionGroup": "first-discovery-fund-matbench-descriptor-transfer",
       "supersedes": null,
       "supersededBy": null,
       "showcaseEligible": false,
       "showcaseRank": null,
-      "revisionReason": null,
-      "humanReadableSummary": "This result publishes the Matbench descriptor-transfer discovery candidate package from the Product repo into the public corpus for inspection and external human review.",
-      "releaseReadinessScore": 72,
-      "evidenceStrengthScore": 54,
-      "reproducibilityScore": 58,
+      "revisionReason": "Quality, candidate status, or anti-template review requires revision.",
+      "humanReadableSummary": "This result publishes the Matbench descriptor-transfer candidate package from the Product repo into the public corpus for inspection. A later raw scientific reproduction repair found that the Product values are determ...",
+      "releaseReadinessScore": 28,
+      "evidenceStrengthScore": 24,
+      "reproducibilityScore": 20,
       "publicationSafetyScore": 100,
       "replayCriticalPassRate": 100,
       "specificityScore": 78,
@@ -7229,7 +7229,7 @@
       "reliabilityReplayPassed": true,
       "pushed": false,
       "customTool": null,
-      "falsificationStatus": "fund_gate_passed_internal_external_review_required"
+      "falsificationStatus": "raw_scientific_reproduction_failed"
     },
     {
       "slug": "first-fund-scipy-runtime-reproduction-external-review-ready",
@@ -18647,5 +18647,5 @@
       "falsificationStatus": "adversarial_route_reviewed"
     }
   ],
-  "evidenceHash": "635d4a3b4b64e4fba73c598ad59b44df3273ec47e023ced9eb1de09807ce181b"
+  "evidenceHash": "2f2771e5ce37a760ea43a350270cfdbdef5de56d28da393f935ffbe9b160c164"
 }

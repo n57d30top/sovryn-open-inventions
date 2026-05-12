@@ -1,6 +1,6 @@
 # Product Runtime Reproduction Spec
 
-This file documents the public-safe Product runtime scalar replay for the Matbench candidate. It does not strengthen the scientific claim and does not claim external validation.
+This file documents the public-safe Product runtime scalar replay for the Matbench candidate. It does not strengthen the scientific claim and does not claim external validation. The raw scientific reproduction repair classifies these values as runtime-derived deterministic generator scalars, not raw-data-derived scientific outputs.
 
 ## Scope
 
@@ -45,6 +45,8 @@ It does not resolve the raw scientific reproduction gap. The Product artifacts a
 
 ## Public Review Status Impact
 
-Because exact raw-data scientific reproduction remains unavailable, the public package status is downgraded to:
+Because exact raw-data scientific reproduction failed, the public package status is downgraded to:
 
-`package_repair_required_before_external_review`
+`not_external_review_ready_raw_scientific_reproduction_failed`
+
+The public FundClass is `not_discovery_scored_raw_reproduction_failed`, and public Einstein/Nobel discovery-score eligibility is `false`.

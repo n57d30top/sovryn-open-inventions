@@ -1,0 +1,42 @@
+{
+  "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+  "kind": "raw_scientific_reproduction_repair_decision",
+  "missingInputs": [
+    {
+      "input": "descriptor matrix / feature definition",
+      "why_needed": "The Product claim refers to a descriptor-transfer residual, but the public package does not expose the exact pymatgen/matminer/ASE feature matrix or featurizer configuration."
+    },
+    {
+      "input": "model and training configuration",
+      "why_needed": "The public package does not expose the model class, hyperparameters, preprocessing, target scaling, or random seed that map raw formulas to the Product measured outcome 0.72."
+    },
+    {
+      "input": "exact train/validation/holdout split and family labels",
+      "why_needed": "The Product evidence names composition/formula-size/target-family and holdout pressure, but the public package does not expose the exact split manifest or target-family labels."
+    },
+    {
+      "input": "residual formula and score normalization",
+      "why_needed": "The public package does not define the exact scalar transformation that produces residual magnitude 0.21 from model, baseline, holdout, and control outputs."
+    },
+    {
+      "input": "baseline implementation details",
+      "why_needed": "The Product values 0.34, 0.29, and 0.23 are recorded scalars, but their exact algorithms are not exposed as executable public code."
+    },
+    {
+      "input": "target subset manifest",
+      "why_needed": "The copied Product source-cache artifact records rawTargetCount 300, while the current public Matbench JSON contains more rows; the exact Product subset selection is not public."
+    },
+    {
+      "input": "external runnable holdout/counterexample manifests",
+      "why_needed": "The public package records holdout, replay, and counterexample status, but does not expose an independent runnable manifest for those checks."
+    }
+  ],
+  "productRuntimeScalarsReproduced": true,
+  "productValuesSourceClassification": "runtime_derived_deterministic_generator_scalars",
+  "publicDiscoveryScoreEligible": false,
+  "publicExternalReviewReadinessScore": 0,
+  "publicFundClass": "not_discovery_scored_raw_reproduction_failed",
+  "publicReviewStatus": "not_external_review_ready_raw_scientific_reproduction_failed",
+  "rawDataScientificReproductionSucceeded": false,
+  "reason": "Exact Product values are replayable from deterministic Product runtime formulas, but the public package does not contain raw-data descriptor-transfer inputs needed to recompute them scientifically from Matbench data."
+}

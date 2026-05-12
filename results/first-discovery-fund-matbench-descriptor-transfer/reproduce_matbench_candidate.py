@@ -7,11 +7,12 @@ transparent composition-only proxy checks, replays the public-safe Product
 runtime scalar formula, and compares both with the Product-recorded candidate
 scalars.
 
-The Product runtime scalars can now be exactly replayed from
+The Product runtime scalars can be exactly replayed from
 PRODUCT_RUNTIME_REPRODUCTION_SPEC.json. The scientific descriptor-transfer
 residual still cannot be independently recomputed from raw Matbench data
 because the descriptor matrix, model configuration, exact split, and raw-data
-residual formula are not exposed. The script reports that gap explicitly.
+residual formula are not exposed. The script reports that gap explicitly and
+downgrades public discovery-score eligibility.
 """
 
 from __future__ import annotations
@@ -496,8 +497,13 @@ def compute_reproduction(raw: bytes, source_ref: str) -> dict[str, object]:
     product_runtime_replay = product_runtime_scalar_replay(product_runtime_spec)
     exact_runtime_replay = product_runtime_matches(PRODUCT_RECORDED_VALUES, product_runtime_replay)
     return {
-        "status": "product_runtime_scalars_reproduced_raw_scientific_reproduction_incomplete",
-        "publicReviewStatus": "package_repair_required_before_external_review",
+        "status": "raw_scientific_reproduction_failed_product_values_runtime_derived",
+        "publicReviewStatus": "not_external_review_ready_raw_scientific_reproduction_failed",
+        "productValuesSourceClassification": "runtime_derived_deterministic_generator_scalars",
+        "publicFundClass": "not_discovery_scored_raw_reproduction_failed",
+        "publicDiscoveryScoreEligible": False,
+        "publicExternalReviewReadinessScore": 0,
+        "rawDataScientificReproductionAttempted": True,
         "source": {
             "sourceRef": source_ref,
             "sourceHashSha256": source_hash,
@@ -537,9 +543,11 @@ def compute_reproduction(raw: bytes, source_ref: str) -> dict[str, object]:
         "missingInputs": MISSING_INPUTS,
         "interpretation": (
             "The Product runtime scalars were exactly replayed from the public-safe Product runtime reproduction spec. "
+            "Inspection of the Product source shows those values are runtime-derived deterministic generator scalars, "
+            "not recovered raw-data scientific outputs. "
             "The public Matbench raw JSON was also loaded and formula-only proxy checks were recomputed. "
-            "The raw-data scientific descriptor-transfer residual remains unreproduced because essential scientific inputs "
-            "are not exposed in this public package."
+            "The raw-data scientific descriptor-transfer residual failed exact reproduction because essential scientific "
+            "inputs are not exposed in this public package."
         ),
     }
 
@@ -601,6 +609,10 @@ def write_result_table(result: dict[str, object], output_dir: Path) -> None:
         "",
         f"- Status: `{result['status']}`",
         f"- Public review status: `{result['publicReviewStatus']}`",
+        f"- Product values source classification: `{result['productValuesSourceClassification']}`",
+        f"- Public FundClass: `{result['publicFundClass']}`",
+        f"- Public discovery-score eligible: `{str(result['publicDiscoveryScoreEligible']).lower()}`",
+        f"- Public external-review readiness score: `{result['publicExternalReviewReadinessScore']}`",
         f"- Product runtime scalars reproduced: `{str(result['exactProductRuntimeScalarsReproduced']).lower()}`",
         f"- Exact Product residual reproduced: `{str(result['exactProductResidualReproduced']).lower()}`",
         f"- Exact Product baselines reproduced: `{str(result['exactProductBaselinesReproduced']).lower()}`",
@@ -676,10 +688,65 @@ def write_missing_inputs(result: dict[str, object], output_dir: Path) -> None:
             "- Raw-data scientific baselines reproduced exactly: no.",
             "- Public raw Matbench source loaded: yes.",
             "- Public proxy checks produced: yes.",
-            "- Updated review readiness: package_repair_required_before_external_review.",
+            "- Product values source classification: runtime_derived_deterministic_generator_scalars.",
+            "- Updated review readiness: not_external_review_ready_raw_scientific_reproduction_failed.",
+            "- Public discovery-score eligibility: false.",
         ]
     )
     (output_dir / "MISSING_REPRODUCTION_INPUTS.md").write_text("\n".join(lines) + "\n")
+
+
+def write_raw_scientific_repair_decision(result: dict[str, object], output_dir: Path) -> None:
+    decision = {
+        "kind": "raw_scientific_reproduction_repair_decision",
+        "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+        "rawDataScientificReproductionSucceeded": False,
+        "productRuntimeScalarsReproduced": result["exactProductRuntimeScalarsReproduced"],
+        "productValuesSourceClassification": result["productValuesSourceClassification"],
+        "publicReviewStatus": result["publicReviewStatus"],
+        "publicFundClass": result["publicFundClass"],
+        "publicDiscoveryScoreEligible": result["publicDiscoveryScoreEligible"],
+        "publicExternalReviewReadinessScore": result["publicExternalReviewReadinessScore"],
+        "reason": "Exact Product values are replayable from deterministic Product runtime formulas, but the public package does not contain raw-data descriptor-transfer inputs needed to recompute them scientifically from Matbench data.",
+        "missingInputs": result["missingInputs"],
+    }
+    (output_dir / "RAW_SCIENTIFIC_REPRODUCTION_REPAIR.json").write_text(
+        json.dumps(decision, indent=2, sort_keys=True) + "\n"
+    )
+    lines = [
+        "# Raw Scientific Reproduction Repair Decision",
+        "",
+        "## Decision",
+        "",
+        "`not_external_review_ready_raw_scientific_reproduction_failed`",
+        "",
+        "The Product runtime scalars are exactly replayable, but exact raw-data scientific reproduction failed.",
+        "",
+        "## Product Values Source",
+        "",
+        "`runtime_derived_deterministic_generator_scalars`",
+        "",
+        "The Product values `0.72`, `0.21`, `0.34`, `0.29`, and `0.23` are generated by the public-safe runtime formula documented in `PRODUCT_RUNTIME_REPRODUCTION_SPEC.json`. They are not recovered from a public Matbench descriptor matrix, trained model, split manifest, residual formula, or executable baseline implementation.",
+        "",
+        "## Public Scoring Impact",
+        "",
+        "- Public FundClass: `not_discovery_scored_raw_reproduction_failed`.",
+        "- Public Einstein/Nobel discovery-score eligible: `false`.",
+        "- Public external-review readiness score for the discovery claim: `0/100`.",
+        "- Product Fund Gate artifacts remain preserved as historical Product state, not as public scientific validation.",
+        "",
+        "## Raw-Data Scientific Reproduction",
+        "",
+        "- Public Matbench JSON loaded: yes.",
+        "- Formula-only proxy checks run: yes.",
+        "- Exact raw-data descriptor-transfer residual reproduced: no.",
+        "- Exact raw-data baselines reproduced: no.",
+        "",
+        "## No Overclaim",
+        "",
+        "This decision does not invalidate the existence of the Product runtime package. It does downgrade the public scientific status: the package must not be treated as an externally-review-ready discovery candidate unless the missing raw-data scientific inputs are later supplied and reproduced.",
+    ]
+    (output_dir / "RAW_SCIENTIFIC_REPRODUCTION_REPAIR.md").write_text("\n".join(lines) + "\n")
 
 
 def main() -> int:
@@ -695,6 +762,7 @@ def main() -> int:
     (args.output_dir / "standalone_reproduction_result.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
     write_result_table(result, args.output_dir)
     write_missing_inputs(result, args.output_dir)
+    write_raw_scientific_repair_decision(result, args.output_dir)
     print(json.dumps({"status": result["status"], "recordsExtracted": result["source"]["recordsExtracted"]}, indent=2))
     return 0
 

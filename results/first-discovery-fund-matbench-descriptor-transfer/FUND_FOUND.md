@@ -1,14 +1,16 @@
-# FUND_FOUND
+# Historical Product FUND_FOUND
 
 Candidate ID: DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB
 
-Fund label: externally_review_ready_candidate
+Product-recorded fund label: externally_review_ready_candidate
 
-Fund class: externally_review_ready_discovery_candidate
+Product-recorded fund class: externally_review_ready_discovery_candidate
 
-Public review status: package_repair_required_before_external_review
+Public active class: not_discovery_scored_raw_reproduction_failed
 
-Counts for Einstein/Nobel discovery score internally: true
+Public review status: not_external_review_ready_raw_scientific_reproduction_failed
+
+Counts for Einstein/Nobel discovery score publicly: false
 
 Domain: computational_materials_property_data
 
@@ -18,7 +20,9 @@ The measured public computational_materials_property_data target-outcome residua
 
 ## Evidence Summary
 
-- Product Fund Gate status: FUND_FOUND.
+- Historical Product Fund Gate status: FUND_FOUND.
+- Raw scientific reproduction status: failed.
+- Product values source: runtime-derived deterministic generator scalars.
 - Candidate identity stable: true.
 - Baseline resistance: true.
 - Counterexample pressure nonfatal: true.
@@ -26,6 +30,7 @@ The measured public computational_materials_property_data target-outcome residua
 - Replay present: true.
 - External review package artifacts present: true.
 - External expert validation claimed: no.
+- Public discovery-score eligible after repair: false.
 
 ## What Is Not Claimed
 
@@ -36,6 +41,10 @@ The measured public computational_materials_property_data target-outcome residua
 - No external adoption claim.
 - No legal, medical, wet-lab, or unsafe capability claim.
 - No stronger interpretation beyond the bounded package evidence is made.
+
+## Public Downgrade
+
+The Product runtime scalars can be replayed exactly, but exact raw-data scientific reproduction from public Matbench inputs failed. This file is preserved for historical Product traceability and must not be read as current public externally-review-ready discovery status.
 
 ## Public Package Path
 
