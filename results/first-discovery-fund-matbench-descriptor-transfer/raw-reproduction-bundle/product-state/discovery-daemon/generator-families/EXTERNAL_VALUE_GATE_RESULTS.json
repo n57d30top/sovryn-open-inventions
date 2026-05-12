@@ -1,0 +1,2291 @@
+{
+  "kind": "external_value_gate_results",
+  "evaluations": [
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "2bdfec8318223527093f8691e1e5889689025ac7478c2737182298a614a1c9ca"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "2bdfec8318223527093f8691e1e5889689025ac7478c2737182298a614a1c9ca"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "2bdfec8318223527093f8691e1e5889689025ac7478c2737182298a614a1c9ca"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "2bdfec8318223527093f8691e1e5889689025ac7478c2737182298a614a1c9ca"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "2bdfec8318223527093f8691e1e5889689025ac7478c2737182298a614a1c9ca"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "2bdfec8318223527093f8691e1e5889689025ac7478c2737182298a614a1c9ca"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "2bdfec8318223527093f8691e1e5889689025ac7478c2737182298a614a1c9ca"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "2bdfec8318223527093f8691e1e5889689025ac7478c2737182298a614a1c9ca"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "2bdfec8318223527093f8691e1e5889689025ac7478c2737182298a614a1c9ca"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": false,
+      "anchorId": "EXT-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": false,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [
+        "not_internally_interesting_only"
+      ],
+      "blockers": [
+        "internally_interesting_only"
+      ],
+      "evidenceHash": "f7c3847cb0bc45c96def08756cbb1589eb1d26647794bbe643f3ec31878e4831"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "f7ab57341d92fc95e1c285fa9d19aa688cc933c0105032f5b33ff0886d122521"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "f7ab57341d92fc95e1c285fa9d19aa688cc933c0105032f5b33ff0886d122521"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "f7ab57341d92fc95e1c285fa9d19aa688cc933c0105032f5b33ff0886d122521"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "f7ab57341d92fc95e1c285fa9d19aa688cc933c0105032f5b33ff0886d122521"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "f7ab57341d92fc95e1c285fa9d19aa688cc933c0105032f5b33ff0886d122521"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "f7ab57341d92fc95e1c285fa9d19aa688cc933c0105032f5b33ff0886d122521"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "f7ab57341d92fc95e1c285fa9d19aa688cc933c0105032f5b33ff0886d122521"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "f7ab57341d92fc95e1c285fa9d19aa688cc933c0105032f5b33ff0886d122521"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "f7ab57341d92fc95e1c285fa9d19aa688cc933c0105032f5b33ff0886d122521"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "f7ab57341d92fc95e1c285fa9d19aa688cc933c0105032f5b33ff0886d122521"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE",
+      "anchorType": "known_formal_question",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "3bf6f51a410c43f3bd7b9c5501f6a648803cefc33d81949a98cb9e45e0dd3f86"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE",
+      "anchorType": "known_formal_question",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "3bf6f51a410c43f3bd7b9c5501f6a648803cefc33d81949a98cb9e45e0dd3f86"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE",
+      "anchorType": "known_formal_question",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "3bf6f51a410c43f3bd7b9c5501f6a648803cefc33d81949a98cb9e45e0dd3f86"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE",
+      "anchorType": "known_formal_question",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "3bf6f51a410c43f3bd7b9c5501f6a648803cefc33d81949a98cb9e45e0dd3f86"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE",
+      "anchorType": "known_formal_question",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "3bf6f51a410c43f3bd7b9c5501f6a648803cefc33d81949a98cb9e45e0dd3f86"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE",
+      "anchorType": "known_formal_question",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "3bf6f51a410c43f3bd7b9c5501f6a648803cefc33d81949a98cb9e45e0dd3f86"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE",
+      "anchorType": "known_formal_question",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "3bf6f51a410c43f3bd7b9c5501f6a648803cefc33d81949a98cb9e45e0dd3f86"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE",
+      "anchorType": "known_formal_question",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "3bf6f51a410c43f3bd7b9c5501f6a648803cefc33d81949a98cb9e45e0dd3f86"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE",
+      "anchorType": "known_formal_question",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "3bf6f51a410c43f3bd7b9c5501f6a648803cefc33d81949a98cb9e45e0dd3f86"
+    },
+    {
+      "kind": "external_value_gate_assessment",
+      "accepted": true,
+      "anchorId": "EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE",
+      "anchorType": "known_formal_question",
+      "gates": [
+        {
+          "code": "external_problem_anchor_present",
+          "passed": true,
+          "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+        },
+        {
+          "code": "external_anchor_public_source",
+          "passed": true,
+          "message": "External problem anchor must cite a public-safe external source."
+        },
+        {
+          "code": "external_anchor_target_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a measured target outcome."
+        },
+        {
+          "code": "external_anchor_baseline_prior",
+          "passed": true,
+          "message": "External problem anchor must define the known baseline or prior rival state."
+        },
+        {
+          "code": "external_anchor_domain_scientific_significance",
+          "passed": true,
+          "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+        },
+        {
+          "code": "external_anchor_discovery_scored_outcome",
+          "passed": true,
+          "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+        },
+        {
+          "code": "external_anchor_significance_refs",
+          "passed": true,
+          "message": "External problem anchor must bind at least two public-safe significance evidence refs into the evidence set."
+        },
+        {
+          "code": "external_anchor_inspectable",
+          "passed": true,
+          "message": "External problem anchor must be inspectable through the evidence refs."
+        },
+        {
+          "code": "not_generator_only_signal",
+          "passed": true,
+          "message": "Generator-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_package_only_signal",
+          "passed": true,
+          "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_internally_interesting_only",
+          "passed": true,
+          "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+        },
+        {
+          "code": "not_source_family_documented_signal",
+          "passed": true,
+          "message": "Source-family documented behavior is blocked before HardSeed birth."
+        },
+        {
+          "code": "not_known_trivial_signal",
+          "passed": true,
+          "message": "Known or trivial behavior is blocked before HardSeed birth."
+        }
+      ],
+      "failedGates": [],
+      "blockers": [],
+      "evidenceHash": "3bf6f51a410c43f3bd7b9c5501f6a648803cefc33d81949a98cb9e45e0dd3f86"
+    }
+  ],
+  "blockedCount": 1,
+  "evidenceHash": "187436df8bc11ee6206314ed5ab4b793a4f23dd4237fde07998d209c6f58683b"
+}

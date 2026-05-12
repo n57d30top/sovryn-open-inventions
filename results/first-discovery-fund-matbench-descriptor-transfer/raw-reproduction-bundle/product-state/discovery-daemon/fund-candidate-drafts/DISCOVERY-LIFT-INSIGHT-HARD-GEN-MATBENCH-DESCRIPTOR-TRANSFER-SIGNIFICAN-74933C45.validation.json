@@ -1,0 +1,170 @@
+{
+  "kind": "fund_candidate_draft_record",
+  "draftRef": ".sovryn/discovery-daemon/fund-candidate-drafts/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45.json",
+  "validation": {
+    "kind": "fund_candidate_draft_validation",
+    "draftId": "DRAFT-DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45",
+    "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+    "accepted": true,
+    "gates": [
+      {
+        "code": "draft_schema",
+        "passed": true,
+        "message": "Draft must use the FundCandidateDraft schema with stable ID, exact claim, and valid domain."
+      },
+      {
+        "code": "candidate_identity_integrity",
+        "passed": true,
+        "message": "Draft candidate identity must not drift silently."
+      },
+      {
+        "code": "not_synthetic",
+        "passed": true,
+        "message": "Synthetic drafts cannot be promoted."
+      },
+      {
+        "code": "not_partial_candidate",
+        "passed": true,
+        "message": "Partial candidates cannot be promoted as Fund drafts."
+      },
+      {
+        "code": "public_source_refs",
+        "passed": true,
+        "message": "Draft must bind to concrete public source refs."
+      },
+      {
+        "code": "evidence_refs",
+        "passed": true,
+        "message": "Draft must bind at least five public-safe evidence refs."
+      },
+      {
+        "code": "identity_ledger_refs",
+        "passed": true,
+        "message": "Draft must bind to candidate identity ledger refs."
+      },
+      {
+        "code": "hard_seed_refs",
+        "passed": true,
+        "message": "Draft must bind to hard-seed refs."
+      },
+      {
+        "code": "package_refs",
+        "passed": true,
+        "message": "Draft must bind all required public package files."
+      },
+      {
+        "code": "inspectability_path",
+        "passed": true,
+        "message": "Draft must bind to a relative public-safe inspectability path."
+      },
+      {
+        "code": "prediction_holdout_counterexample_replay_refs",
+        "passed": true,
+        "message": "Draft must bind predictions, holdouts, counterexamples, replay, and kill-week evidence."
+      },
+      {
+        "code": "limitations_present",
+        "passed": true,
+        "message": "Draft must carry explicit limitations before inspectability promotion."
+      }
+    ],
+    "failedGates": [],
+    "identityDecision": {
+      "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+      "accepted": true,
+      "cause": "new_identity",
+      "record": {
+        "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+        "stableClaim": "The measured public computational_materials_property_data target-outcome residual for HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01 has scientific significance: public materials descriptor transfer residual survives composition formula size target family split leakage and shuffled target controls changes interpretation of the bounded measured target slice by surviving baseline, rival, holdout, replay, counterexample, recurrence, and mechanism pressure checks. The scope is limited to the cited public targets and the recorded evidence package.",
+        "claimHash": "10fed88e93f1192790ca273155d773088055ac633d7a606ff1b32821f4c29082",
+        "canonicalClaim": {
+          "kind": "candidate_claim_canonical_form",
+          "exactClaimParagraph": "The measured public computational_materials_property_data target-outcome residual for HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01 has scientific significance: public materials descriptor transfer residual survives composition formula size target family split leakage and shuffled target controls changes interpretation of the bounded measured target slice by surviving baseline, rival, holdout, replay, counterexample, recurrence, and mechanism pressure checks. The scope is limited to the cited public targets and the recorded evidence package.",
+          "domain": "unknown",
+          "mechanism": "repo_package_reproduction",
+          "evidenceScope": "bounded candidate evidence scope",
+          "fundClass": "unclassified_candidate",
+          "allowedRefinements": [
+            "grammar, punctuation, or formatting edits that preserve the exact domain, mechanism, fund class, target set, and evidence scope",
+            "adding evidence references without changing the claim paragraph or broadening the scope",
+            "narrowing limitations while keeping the same candidate identity boundaries"
+          ],
+          "forbiddenSemanticChanges": [
+            "domain changes",
+            "mechanism changes",
+            "fund class changes",
+            "evidence target or evidence scope changes",
+            "broader claims than the canonical paragraph supports",
+            "conversion of tool, reproduction, or pipeline evidence into a discovery claim without a new candidate identity"
+          ],
+          "claimHash": "10fed88e93f1192790ca273155d773088055ac633d7a606ff1b32821f4c29082",
+          "canonicalHash": "90b9004c5a699d4723ffb41adc280f84c38334789b1f5816d9bcd0abce570142"
+        },
+        "version": 1,
+        "createdAt": "2026-05-12T07:28:38.665Z",
+        "updatedAt": "2026-05-12T07:28:38.665Z"
+      },
+      "canonicalClaim": {
+        "kind": "candidate_claim_canonical_form",
+        "exactClaimParagraph": "The measured public computational_materials_property_data target-outcome residual for HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01 has scientific significance: public materials descriptor transfer residual survives composition formula size target family split leakage and shuffled target controls changes interpretation of the bounded measured target slice by surviving baseline, rival, holdout, replay, counterexample, recurrence, and mechanism pressure checks. The scope is limited to the cited public targets and the recorded evidence package.",
+        "domain": "unknown",
+        "mechanism": "repo_package_reproduction",
+        "evidenceScope": "bounded candidate evidence scope",
+        "fundClass": "unclassified_candidate",
+        "allowedRefinements": [
+          "grammar, punctuation, or formatting edits that preserve the exact domain, mechanism, fund class, target set, and evidence scope",
+          "adding evidence references without changing the claim paragraph or broadening the scope",
+          "narrowing limitations while keeping the same candidate identity boundaries"
+        ],
+        "forbiddenSemanticChanges": [
+          "domain changes",
+          "mechanism changes",
+          "fund class changes",
+          "evidence target or evidence scope changes",
+          "broader claims than the canonical paragraph supports",
+          "conversion of tool, reproduction, or pipeline evidence into a discovery claim without a new candidate identity"
+        ],
+        "claimHash": "10fed88e93f1192790ca273155d773088055ac633d7a606ff1b32821f4c29082",
+        "canonicalHash": "90b9004c5a699d4723ffb41adc280f84c38334789b1f5816d9bcd0abce570142"
+      },
+      "versioningDecision": {
+        "kind": "candidate_versioning_decision",
+        "inputCandidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+        "outputCandidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+        "previousCandidateId": null,
+        "acceptedSameId": true,
+        "requiresNewCandidateId": false,
+        "changeType": "new_identity",
+        "reasons": [],
+        "canonicalClaim": {
+          "kind": "candidate_claim_canonical_form",
+          "exactClaimParagraph": "The measured public computational_materials_property_data target-outcome residual for HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01 has scientific significance: public materials descriptor transfer residual survives composition formula size target family split leakage and shuffled target controls changes interpretation of the bounded measured target slice by surviving baseline, rival, holdout, replay, counterexample, recurrence, and mechanism pressure checks. The scope is limited to the cited public targets and the recorded evidence package.",
+          "domain": "unknown",
+          "mechanism": "repo_package_reproduction",
+          "evidenceScope": "bounded candidate evidence scope",
+          "fundClass": "unclassified_candidate",
+          "allowedRefinements": [
+            "grammar, punctuation, or formatting edits that preserve the exact domain, mechanism, fund class, target set, and evidence scope",
+            "adding evidence references without changing the claim paragraph or broadening the scope",
+            "narrowing limitations while keeping the same candidate identity boundaries"
+          ],
+          "forbiddenSemanticChanges": [
+            "domain changes",
+            "mechanism changes",
+            "fund class changes",
+            "evidence target or evidence scope changes",
+            "broader claims than the canonical paragraph supports",
+            "conversion of tool, reproduction, or pipeline evidence into a discovery claim without a new candidate identity"
+          ],
+          "claimHash": "10fed88e93f1192790ca273155d773088055ac633d7a606ff1b32821f4c29082",
+          "canonicalHash": "90b9004c5a699d4723ffb41adc280f84c38334789b1f5816d9bcd0abce570142"
+        },
+        "evidenceHash": "5ec274c7b5ee5f81d742d28243544c770b447c2fab2f16d90c41e6bb40064817"
+      },
+      "evidenceHash": "eb3cb8cb8bb282d02ca6d689cac9065068e2e55f4d4ffc411e57a7382a63aa57"
+    },
+    "promotionBlocked": false,
+    "evidenceHash": "97437716f85d435bed980dbf89bbd523ad28e28fc121da8801a2b3b3eee65e0d"
+  },
+  "evidenceHash": "d334845b20ca362e2d8b9ab97e9750f41f299b1075de54f5c2cf1940f42f5b79"
+}

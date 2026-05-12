@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-12T14:30:23.408Z",
+  "generatedAt": "2026-05-12T15:11:25.627Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -6185,6 +6185,11 @@
       "relation": "uses_public_tool_evidence"
     },
     {
+      "source": "result:first-discovery-fund-matbench-descriptor-transfer",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
       "source": "result:first-fund-scipy-runtime-reproduction-external-review-ready",
       "target": "domain:scientific_software_reproduction_mechanisms",
       "relation": "belongs_to_domain"
@@ -8235,5 +8240,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "2c75732cf8e58617f8ac9aa61562de610f826feff8779ccc532ee601e6e7fc23"
+  "evidenceHash": "c2c6405e754d15a738a6ac5dff7bf4b2b6a3fd67ccee847eec9c77e71d997011"
 }

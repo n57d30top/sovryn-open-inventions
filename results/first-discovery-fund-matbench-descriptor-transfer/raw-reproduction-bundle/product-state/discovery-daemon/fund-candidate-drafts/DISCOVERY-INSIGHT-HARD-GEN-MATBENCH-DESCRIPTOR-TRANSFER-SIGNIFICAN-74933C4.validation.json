@@ -1,0 +1,170 @@
+{
+  "kind": "fund_candidate_draft_record",
+  "draftRef": ".sovryn/discovery-daemon/fund-candidate-drafts/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4.json",
+  "validation": {
+    "kind": "fund_candidate_draft_validation",
+    "draftId": "DRAFT-DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4",
+    "candidateId": "DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4",
+    "accepted": true,
+    "gates": [
+      {
+        "code": "draft_schema",
+        "passed": true,
+        "message": "Draft must use the FundCandidateDraft schema with stable ID, exact claim, and valid domain."
+      },
+      {
+        "code": "candidate_identity_integrity",
+        "passed": true,
+        "message": "Draft candidate identity must not drift silently."
+      },
+      {
+        "code": "not_synthetic",
+        "passed": true,
+        "message": "Synthetic drafts cannot be promoted."
+      },
+      {
+        "code": "not_partial_candidate",
+        "passed": true,
+        "message": "Partial candidates cannot be promoted as Fund drafts."
+      },
+      {
+        "code": "public_source_refs",
+        "passed": true,
+        "message": "Draft must bind to concrete public source refs."
+      },
+      {
+        "code": "evidence_refs",
+        "passed": true,
+        "message": "Draft must bind at least five public-safe evidence refs."
+      },
+      {
+        "code": "identity_ledger_refs",
+        "passed": true,
+        "message": "Draft must bind to candidate identity ledger refs."
+      },
+      {
+        "code": "hard_seed_refs",
+        "passed": true,
+        "message": "Draft must bind to hard-seed refs."
+      },
+      {
+        "code": "package_refs",
+        "passed": true,
+        "message": "Draft must bind all required public package files."
+      },
+      {
+        "code": "inspectability_path",
+        "passed": true,
+        "message": "Draft must bind to a relative public-safe inspectability path."
+      },
+      {
+        "code": "prediction_holdout_counterexample_replay_refs",
+        "passed": true,
+        "message": "Draft must bind predictions, holdouts, counterexamples, replay, and kill-week evidence."
+      },
+      {
+        "code": "limitations_present",
+        "passed": true,
+        "message": "Draft must carry explicit limitations before inspectability promotion."
+      }
+    ],
+    "failedGates": [],
+    "identityDecision": {
+      "candidateId": "DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4",
+      "accepted": true,
+      "cause": "same_identity",
+      "record": {
+        "candidateId": "DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4",
+        "stableClaim": "In computational_materials_property_data, the externally anchored target outcome 0.72 with residual 0.21 for matbench_descriptor_transfer_significance_generator-output-01 supports a domain scientific significance hypothesis: public materials descriptor-transfer residual survives composition formula-size target-family split-leakage and shuffled-target controls. The narrow claim is that this mechanism remains not documented outside known source-family behavior under the bound evidence scope after baseline, rival, counterexample, recurrence, holdout, replay, and mechanism pressure. This changes interpretation only for the measured public target-outcome slice represented by matbench_descriptor_transfer_significance_generator-output-01.",
+        "claimHash": "734400917fda08aadfca99ca7e820da986f3621e8843f71a0a8939e1e5f81d47",
+        "canonicalClaim": {
+          "kind": "candidate_claim_canonical_form",
+          "exactClaimParagraph": "In computational_materials_property_data, the externally anchored target outcome 0.72 with residual 0.21 for matbench_descriptor_transfer_significance_generator-output-01 supports a domain scientific significance hypothesis: public materials descriptor-transfer residual survives composition formula-size target-family split-leakage and shuffled-target controls. The narrow claim is that this mechanism remains not documented outside known source-family behavior under the bound evidence scope after baseline, rival, counterexample, recurrence, holdout, replay, and mechanism pressure. This changes interpretation only for the measured public target-outcome slice represented by matbench_descriptor_transfer_significance_generator-output-01.",
+          "domain": "computational_materials_property_data",
+          "mechanism": "public_materials_descriptor-transfer_residual_survives_composition_formula-size_target-family_split-leakage_and_shuffled-target_controls",
+          "evidenceScope": "bounded computational_materials_property_data target outcome matbench_descriptor_transfer_significance_generator-output-01 with public source refs, matched controls, holdout path, and replay path",
+          "fundClass": "pipeline_fund_candidate",
+          "allowedRefinements": [
+            "grammar, punctuation, or formatting edits that preserve the exact domain, mechanism, fund class, target set, and evidence scope",
+            "adding evidence references without changing the claim paragraph or broadening the scope",
+            "narrowing limitations while keeping the same candidate identity boundaries"
+          ],
+          "forbiddenSemanticChanges": [
+            "domain changes",
+            "mechanism changes",
+            "fund class changes",
+            "evidence target or evidence scope changes",
+            "broader claims than the canonical paragraph supports",
+            "conversion of tool, reproduction, or pipeline evidence into a discovery claim without a new candidate identity"
+          ],
+          "claimHash": "734400917fda08aadfca99ca7e820da986f3621e8843f71a0a8939e1e5f81d47",
+          "canonicalHash": "e09c4c501633aceed31eb01ddebd970f9e143da7744fabbc22745b721aa1f9db"
+        },
+        "version": 1,
+        "createdAt": "2026-05-12T06:18:29.157Z",
+        "updatedAt": "2026-05-12T06:18:29.157Z"
+      },
+      "canonicalClaim": {
+        "kind": "candidate_claim_canonical_form",
+        "exactClaimParagraph": "In computational_materials_property_data, the externally anchored target outcome 0.72 with residual 0.21 for matbench_descriptor_transfer_significance_generator-output-01 supports a domain scientific significance hypothesis: public materials descriptor-transfer residual survives composition formula-size target-family split-leakage and shuffled-target controls. The narrow claim is that this mechanism remains not documented outside known source-family behavior under the bound evidence scope after baseline, rival, counterexample, recurrence, holdout, replay, and mechanism pressure. This changes interpretation only for the measured public target-outcome slice represented by matbench_descriptor_transfer_significance_generator-output-01.",
+        "domain": "computational_materials_property_data",
+        "mechanism": "public_materials_descriptor-transfer_residual_survives_composition_formula-size_target-family_split-leakage_and_shuffled-target_controls",
+        "evidenceScope": "bounded computational_materials_property_data target outcome matbench_descriptor_transfer_significance_generator-output-01 with public source refs, matched controls, holdout path, and replay path",
+        "fundClass": "pipeline_fund_candidate",
+        "allowedRefinements": [
+          "grammar, punctuation, or formatting edits that preserve the exact domain, mechanism, fund class, target set, and evidence scope",
+          "adding evidence references without changing the claim paragraph or broadening the scope",
+          "narrowing limitations while keeping the same candidate identity boundaries"
+        ],
+        "forbiddenSemanticChanges": [
+          "domain changes",
+          "mechanism changes",
+          "fund class changes",
+          "evidence target or evidence scope changes",
+          "broader claims than the canonical paragraph supports",
+          "conversion of tool, reproduction, or pipeline evidence into a discovery claim without a new candidate identity"
+        ],
+        "claimHash": "734400917fda08aadfca99ca7e820da986f3621e8843f71a0a8939e1e5f81d47",
+        "canonicalHash": "e09c4c501633aceed31eb01ddebd970f9e143da7744fabbc22745b721aa1f9db"
+      },
+      "versioningDecision": {
+        "kind": "candidate_versioning_decision",
+        "inputCandidateId": "DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4",
+        "outputCandidateId": "DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4",
+        "previousCandidateId": "DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4",
+        "acceptedSameId": true,
+        "requiresNewCandidateId": false,
+        "changeType": "same_identity",
+        "reasons": [],
+        "canonicalClaim": {
+          "kind": "candidate_claim_canonical_form",
+          "exactClaimParagraph": "In computational_materials_property_data, the externally anchored target outcome 0.72 with residual 0.21 for matbench_descriptor_transfer_significance_generator-output-01 supports a domain scientific significance hypothesis: public materials descriptor-transfer residual survives composition formula-size target-family split-leakage and shuffled-target controls. The narrow claim is that this mechanism remains not documented outside known source-family behavior under the bound evidence scope after baseline, rival, counterexample, recurrence, holdout, replay, and mechanism pressure. This changes interpretation only for the measured public target-outcome slice represented by matbench_descriptor_transfer_significance_generator-output-01.",
+          "domain": "unknown",
+          "mechanism": "claim_review",
+          "evidenceScope": "bounded candidate evidence scope",
+          "fundClass": "unclassified_candidate",
+          "allowedRefinements": [
+            "grammar, punctuation, or formatting edits that preserve the exact domain, mechanism, fund class, target set, and evidence scope",
+            "adding evidence references without changing the claim paragraph or broadening the scope",
+            "narrowing limitations while keeping the same candidate identity boundaries"
+          ],
+          "forbiddenSemanticChanges": [
+            "domain changes",
+            "mechanism changes",
+            "fund class changes",
+            "evidence target or evidence scope changes",
+            "broader claims than the canonical paragraph supports",
+            "conversion of tool, reproduction, or pipeline evidence into a discovery claim without a new candidate identity"
+          ],
+          "claimHash": "734400917fda08aadfca99ca7e820da986f3621e8843f71a0a8939e1e5f81d47",
+          "canonicalHash": "f81f867783729a5ac3d73da3ad9c3cddc26c012fec8fff9063d3cdd7a57f7ce4"
+        },
+        "evidenceHash": "45b1a20fd44bea4d39772dc4a8c1fd3d94f407c62b48b0e8cf9f688a83d6023d"
+      },
+      "evidenceHash": "4f8456d97f36f2a27120bf03aeae36aecff705ab08b9661761100aa293a9ed2e"
+    },
+    "promotionBlocked": false,
+    "evidenceHash": "67fc1b58e9f94074e4239ad5c640bf42e5a1ecffe4bee19a07a0eee5da5287fb"
+  },
+  "evidenceHash": "9bb2379e785827d9fde635e428110b9819336ade343a465de3cf890ebc633411"
+}

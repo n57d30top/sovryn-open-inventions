@@ -1,0 +1,106 @@
+{
+  "kind": "mechanism_first_generator_run",
+  "status": "continue_searching_checkpointed",
+  "generatorSet": "significance",
+  "generatorId": "all",
+  "checkpointUsed": ".sovryn/discovery-daemon/checkpoints/overnight-min-runtime-adaptive-stop.json",
+  "nextCheckpointRef": ".sovryn/discovery-daemon/checkpoints/generator-families-continue-searching.json",
+  "externalProblemAnchorsLoaded": 3,
+  "targetsMeasured": 30,
+  "familiesRun": 3,
+  "runtimeChecks": 30,
+  "hardSeedBirthAttempts": 30,
+  "seedsBlockedByExternalValueGate": 1,
+  "hardSeedsBorn": 6,
+  "blockedOutputsByCause": {
+    "unsupported_domain_significance_hypothesis": 23,
+    "internally_interesting_only": 1
+  },
+  "replacementRequired": false,
+  "replacementRequirements": [
+    {
+      "generatorId": "matbench_descriptor_transfer_significance_generator",
+      "status": "productive_or_not_run",
+      "runtimeChecks": 10,
+      "hardSeedsBorn": 2,
+      "blockedOutputs": 8,
+      "dominantBlocker": "unsupported_domain_significance_hypothesis",
+      "blockerCounts": {
+        "unsupported_domain_significance_hypothesis": 7,
+        "internally_interesting_only": 1
+      },
+      "requiredChange": "No replacement required from the latest run."
+    },
+    {
+      "generatorId": "gaia_astrometric_excess_significance_generator",
+      "status": "productive_or_not_run",
+      "runtimeChecks": 10,
+      "hardSeedsBorn": 2,
+      "blockedOutputs": 8,
+      "dominantBlocker": "unsupported_domain_significance_hypothesis",
+      "blockerCounts": {
+        "unsupported_domain_significance_hypothesis": 8
+      },
+      "requiredChange": "No replacement required from the latest run."
+    },
+    {
+      "generatorId": "bounded_graph_minor_obstruction_significance_generator",
+      "status": "productive_or_not_run",
+      "runtimeChecks": 10,
+      "hardSeedsBorn": 2,
+      "blockedOutputs": 8,
+      "dominantBlocker": "unsupported_domain_significance_hypothesis",
+      "blockerCounts": {
+        "unsupported_domain_significance_hypothesis": 8
+      },
+      "requiredChange": "No replacement required from the latest run."
+    }
+  ],
+  "insightCandidatesCreated": 0,
+  "discoveryCandidatesCreated": 0,
+  "fundGateResult": {
+    "kind": "fund_gate_result",
+    "candidateId": null,
+    "passed": false,
+    "status": "continue_searching",
+    "fundLabel": null,
+    "fundClass": null,
+    "countsForEinsteinNobelDiscoveryScore": false,
+    "fundClassAssessment": null,
+    "gates": [
+      {
+        "code": "candidate_present",
+        "passed": false,
+        "message": "No candidate is available."
+      }
+    ],
+    "failedGates": [
+      "candidate_present"
+    ],
+    "notificationAllowed": false,
+    "evidenceHash": "e9ef09669f14b89be278820b74e33347147b70308f03fed7a0ff76795b308e24"
+  },
+  "fundFound": false,
+  "remainingBottleneck": "6 birth-eligible hard seed(s) were produced, but no InsightCandidate or DiscoveryCandidate was created. Next bottleneck is downstream InsightCandidate pressure from generator-born seeds.",
+  "artifactRefs": [
+    ".sovryn/discovery-daemon/generator-families/GENERATOR_FAMILY_REGISTRY.md",
+    ".sovryn/discovery-daemon/generator-families/GENERATOR_FAMILY_REGISTRY.json",
+    ".sovryn/discovery-daemon/generator-families/EXTERNAL_PROBLEM_ANCHORS.md",
+    ".sovryn/discovery-daemon/generator-families/EXTERNAL_PROBLEM_ANCHORS.json",
+    ".sovryn/discovery-daemon/generator-families/GENERATOR_RUN_RESULTS.md",
+    ".sovryn/discovery-daemon/generator-families/EXTERNAL_VALUE_GATE_RESULTS.md",
+    ".sovryn/discovery-daemon/generator-families/EXTERNAL_VALUE_GATE_RESULTS.json",
+    ".sovryn/discovery-daemon/generator-families/HARD_SEED_BIRTH_EVALUATION.md",
+    ".sovryn/discovery-daemon/generator-families/HARD_SEED_BIRTH_EVALUATION.json",
+    ".sovryn/discovery-daemon/generator-families/BIRTH_ELIGIBLE_HARD_SEEDS.json",
+    ".sovryn/discovery-daemon/generator-families/BLOCKED_GENERATOR_OUTPUTS.md",
+    ".sovryn/discovery-daemon/generator-families/BLOCKED_GENERATOR_OUTPUTS.json",
+    ".sovryn/discovery-daemon/generator-families/GENERATOR_REPLACEMENT_REQUIREMENTS.md",
+    ".sovryn/discovery-daemon/generator-families/GENERATOR_REPLACEMENT_REQUIREMENTS.json",
+    ".sovryn/discovery-daemon/generator-families/GENERATOR_AUDIT.md",
+    ".sovryn/discovery-daemon/generator-families/NEXT_CHECKPOINT.md",
+    ".sovryn/discovery-daemon/generator-families/latest.json",
+    ".sovryn/discovery-daemon/checkpoints/generator-families-continue-searching.json"
+  ],
+  "evidenceHash": "dd34af011f00c4eab5189206f8156d6d4b63c29b8f1a13da118fcfc199e61490"
+}

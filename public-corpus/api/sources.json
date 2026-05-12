@@ -1443,7 +1443,8 @@
     {
       "slug": "first-discovery-fund-matbench-descriptor-transfer",
       "externalPackages": [
-        "numpy"
+        "numpy",
+        "pandas"
       ],
       "customTool": null
     },

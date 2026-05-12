@@ -65,7 +65,11 @@
     "REPLAY_RESULTS_TABLE.md",
     "EFFECT_SIZE_AND_RESIDUAL_TABLE.md",
     "EVIDENCE_REF_CLASSIFICATION.md",
-    "EVIDENCE_REF_CLASSIFICATION.json"
+    "EVIDENCE_REF_CLASSIFICATION.json",
+    "PUBLIC_SAFE_REPRODUCTION_BUNDLE_REPORT.md",
+    "PUBLIC_SAFE_REPRODUCTION_BUNDLE_REPORT.json",
+    "raw-reproduction-bundle/BUNDLE_MANIFEST.md",
+    "raw-reproduction-bundle/BUNDLE_MANIFEST.json"
   ],
   "fundGatePassed": true,
   "failedFundGates": [],
@@ -83,7 +87,8 @@
     "Domain scientific significance pressure failed gates: no_anti_discovery_claim_text.",
     "This package makes only a bounded internal evidence claim and avoids prohibited public overclaim categories.",
     "Human expert review is required before any stronger interpretation of scientific significance.",
-    "No external validation or external adoption is claimed."
+    "No external validation or external adoption is claimed.",
+    "The public-safe full bundle has been exported and searched, but it contains Product runtime evidence rather than the missing raw scientific reproduction inputs."
   ],
   "disclaimer": "Downgraded historical Product evidence package. It does not claim external validation, external adoption, prize-level significance, broad intelligence, legal authority, medical authority, unsafe capability, universal truth, or current externally-review-ready discovery status.",
   "nextExternalReviewStep": "Do not send this bundle as an externally-review-ready discovery candidate. A future package would need to supply the missing raw-data scientific inputs and independently reproduce the descriptor-transfer result from public Matbench data.",
@@ -109,7 +114,12 @@
     "publicDiscoveryScoreEligible": false,
     "publicExternalReviewReadinessScore": 0,
     "publicRawDataLoaded": true,
-    "publicProxyChecksProduced": true
+    "publicProxyChecksProduced": true,
+    "publicSafeReproductionBundle": "raw-reproduction-bundle/",
+    "publicSafeReproductionBundleManifest": "raw-reproduction-bundle/BUNDLE_MANIFEST.json",
+    "publicSafeReproductionBundleArtifactCount": 78,
+    "publicSafeReproductionBundleDecision": "maximal_public_safe_export_completed_but_raw_scientific_inputs_not_found",
+    "runtimeEvidencePathUsed": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json"
   },
   "reviewerFacingBoundedClaim": "The public package records a Product-generated Matbench/materials candidate package where matbench_descriptor_transfer_significance_generator-output-01 has measured outcome 0.72, residual magnitude 0.21, and three recorded simple controls. Those values are exactly replayable as Product runtime scalars but failed raw-data scientific reproduction, so this is not an externally-review-ready discovery claim.",
   "evidenceRefClassification": {
@@ -155,6 +165,17 @@
     "Public Einstein/Nobel discovery-score eligibility is false.",
     "The Product limitations include formal-object wording that does not cleanly match the Matbench/materials claim path.",
     "The public evidence exposes Product-recorded scalar outputs but not a full descriptor matrix, model configuration, split file, or uncertainty interval.",
-    "The pre-lift domain-significance assessment recorded failed gate no_anti_discovery_claim_text; the final Product claim-lift transition needs reviewer scrutiny."
-  ]
+    "The pre-lift domain-significance assessment recorded failed gate no_anti_discovery_claim_text; the final Product claim-lift transition needs reviewer scrutiny.",
+    "The public-safe full bundle improves Product-state inspectability but does not restore raw-data scientific reproducibility."
+  ],
+  "publicSafeReproductionBundle": {
+    "path": "raw-reproduction-bundle/",
+    "report": "PUBLIC_SAFE_REPRODUCTION_BUNDLE_REPORT.md",
+    "manifest": "raw-reproduction-bundle/BUNDLE_MANIFEST.json",
+    "artifactCount": 78,
+    "unsafeCopiedCount": 0,
+    "bundleDecision": "maximal_public_safe_export_completed_but_raw_scientific_inputs_not_found",
+    "rawDataScientificReproductionSucceeded": false,
+    "status": "public_safe_product_state_export_completed_raw_scientific_inputs_not_found"
+  }
 }

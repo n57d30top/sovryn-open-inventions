@@ -55,6 +55,9 @@ The public corpus package includes:
 - REPRODUCTION_RESULT_TABLE.md
 - MISSING_REPRODUCTION_INPUTS.md
 - standalone_reproduction_result.json
+- PUBLIC_SAFE_REPRODUCTION_BUNDLE_REPORT.md
+- PUBLIC_SAFE_REPRODUCTION_BUNDLE_REPORT.json
+- raw-reproduction-bundle/
 - DATASET_AND_TARGET_TABLE.md
 - BASELINE_RESULTS_TABLE.md
 - RIVAL_THEORY_RESULTS_TABLE.md
@@ -93,6 +96,21 @@ Current standalone classification: `raw_scientific_reproduction_failed_product_v
 
 The Product-recorded residual `0.21`, measured outcome `0.72`, and baseline values `0.34`, `0.29`, and `0.23` are exactly replayed as Product runtime scalars. Inspection of the Product source shows they are runtime-derived deterministic generator values. They are not independently reproduced from public raw Matbench data because the public package lacks the descriptor matrix, model/training configuration, exact split/family manifest, target subset manifest, scientific residual formula, baseline implementations, and external runnable holdout/counterexample manifests.
 
+## Public-Safe Full Bundle Export
+
+This repair also exports the public-safe Product artifacts found on the Matbench candidate path into:
+
+`raw-reproduction-bundle/`
+
+Bundle summary:
+
+- Exported public-safe artifacts: `78`.
+- Unsafe copied artifacts: `0`.
+- Runtime evidence path used by the standalone script: `raw-reproduction-bundle/product-state/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json`.
+- Bundle decision: `maximal_public_safe_export_completed_but_raw_scientific_inputs_not_found`.
+
+The bundle makes the Product evidence trail more inspectable. It does not restore external-review readiness because the raw descriptor matrix, model/training config, exact split/family labels, target subset manifest, raw-data residual formula, exact baseline implementations, and external runnable holdout/counterexample manifests were not found in the exported Product artifacts.
+
 ## No Overclaim
 
 - No Nobel claim.
@@ -108,6 +126,7 @@ The Product-recorded residual `0.21`, measured outcome `0.72`, and baseline valu
 - Source Product limitation copied verbatim: "The evidence is bounded to generated formal object families and replayed Product artifacts."
 - For this Corpus result, the public claim remains bounded to the cited Matbench/public-materials target refs and recorded Product evidence package.
 - Standalone Product runtime scalar replay is exact, but raw-data scientific reproduction failed: the raw Matbench source loads and proxy checks run, while the descriptor-transfer residual and baseline method are not recoverable from public scientific inputs.
+- The public-safe full bundle has been exported and searched, but it contains Product runtime evidence rather than the missing raw scientific reproduction inputs.
 - Public Einstein/Nobel discovery-score eligibility is false after the raw scientific reproduction repair.
 - Domain scientific significance pressure failed gates: no_anti_discovery_claim_text.
 - This package makes only a bounded internal evidence claim and avoids prohibited public overclaim categories.

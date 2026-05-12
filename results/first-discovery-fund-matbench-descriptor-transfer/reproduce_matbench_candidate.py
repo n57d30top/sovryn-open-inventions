@@ -33,7 +33,25 @@ from typing import Iterable
 
 DEFAULT_URL = "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json"
 PACKAGE_DIR = Path(__file__).resolve().parent
-RUNTIME_EVIDENCE_PATH = PACKAGE_DIR / "copied-product-evidence" / "runtime-evidence-output-01.json"
+RAW_REPRODUCTION_BUNDLE_DIR = PACKAGE_DIR / "raw-reproduction-bundle"
+BUNDLE_MANIFEST_PATH = RAW_REPRODUCTION_BUNDLE_DIR / "BUNDLE_MANIFEST.json"
+BUNDLE_RUNTIME_EVIDENCE_PATH = (
+    RAW_REPRODUCTION_BUNDLE_DIR
+    / "product-state"
+    / "discovery-daemon"
+    / "generator-families"
+    / "runtime-evidence"
+    / "matbench_descriptor_transfer_significance_generator-output-01.json"
+)
+BUNDLE_SOURCE_CACHE_PATH = (
+    RAW_REPRODUCTION_BUNDLE_DIR
+    / "product-state"
+    / "discovery-daemon"
+    / "discovery-anchor-run"
+    / "source-cache"
+    / "DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP.json"
+)
+LEGACY_RUNTIME_EVIDENCE_PATH = PACKAGE_DIR / "copied-product-evidence" / "runtime-evidence-output-01.json"
 PRODUCT_RUNTIME_SPEC_PATH = PACKAGE_DIR / "PRODUCT_RUNTIME_REPRODUCTION_SPEC.json"
 
 PRODUCT_RECORDED_VALUES = {
@@ -208,6 +226,19 @@ def fetch_bytes(url: str) -> bytes:
     request = urllib.request.Request(url, headers={"User-Agent": "sovryn-matbench-review/1.0"})
     with urllib.request.urlopen(request, timeout=90) as response:
         return response.read()
+
+
+def package_relative(path: Path) -> str:
+    try:
+        return path.relative_to(PACKAGE_DIR).as_posix()
+    except ValueError:
+        return str(path)
+
+
+def read_json_if_present(path: Path) -> dict[str, object] | None:
+    if not path.exists():
+        return None
+    return json.loads(path.read_text())
 
 
 def load_source(data_url: str, data_file: Path | None) -> tuple[bytes, str]:
@@ -420,10 +451,16 @@ def run_linear_proxy(
     return metrics(holdout_y, predicted)
 
 
-def load_runtime_evidence() -> dict[str, object] | None:
-    if not RUNTIME_EVIDENCE_PATH.exists():
-        return None
-    return json.loads(RUNTIME_EVIDENCE_PATH.read_text())
+def load_runtime_evidence() -> tuple[dict[str, object] | None, str | None]:
+    for path in (BUNDLE_RUNTIME_EVIDENCE_PATH, LEGACY_RUNTIME_EVIDENCE_PATH):
+        payload = read_json_if_present(path)
+        if payload is not None:
+            return payload, package_relative(path)
+    return None, None
+
+
+def load_bundle_manifest() -> dict[str, object] | None:
+    return read_json_if_present(BUNDLE_MANIFEST_PATH)
 
 
 def load_product_runtime_spec() -> dict[str, object]:
@@ -492,10 +529,26 @@ def compute_reproduction(raw: bytes, source_ref: str) -> dict[str, object]:
         null_metrics["r2"],
     )
 
-    runtime = load_runtime_evidence()
+    runtime, runtime_path = load_runtime_evidence()
+    bundle_manifest = load_bundle_manifest()
+    bundle_source_cache = read_json_if_present(BUNDLE_SOURCE_CACHE_PATH)
     product_runtime_spec = load_product_runtime_spec()
     product_runtime_replay = product_runtime_scalar_replay(product_runtime_spec)
     exact_runtime_replay = product_runtime_matches(PRODUCT_RECORDED_VALUES, product_runtime_replay)
+    raw_bundle_summary = {
+        "path": "raw-reproduction-bundle/",
+        "manifestPath": package_relative(BUNDLE_MANIFEST_PATH),
+        "manifestLoaded": bundle_manifest is not None,
+        "runtimeEvidencePathUsed": runtime_path,
+        "sourceCachePath": package_relative(BUNDLE_SOURCE_CACHE_PATH) if bundle_source_cache is not None else None,
+        "artifactCount": bundle_manifest.get("artifactCount") if bundle_manifest else None,
+        "unsafeCopiedCount": bundle_manifest.get("unsafeCopiedCount") if bundle_manifest else None,
+        "bundleDecision": bundle_manifest.get("bundleDecision") if bundle_manifest else "bundle_manifest_missing",
+        "rawDataScientificReproductionSucceeded": (
+            bundle_manifest.get("rawDataScientificReproductionSucceeded") if bundle_manifest else False
+        ),
+        "missingRawScientificInputs": bundle_manifest.get("missingRawScientificInputs") if bundle_manifest else [],
+    }
     return {
         "status": "raw_scientific_reproduction_failed_product_values_runtime_derived",
         "publicReviewStatus": "not_external_review_ready_raw_scientific_reproduction_failed",
@@ -522,6 +575,7 @@ def compute_reproduction(raw: bytes, source_ref: str) -> dict[str, object]:
             "sourceProductCommit": product_runtime_spec["sourceProductCommit"],
             "productSourceRef": product_runtime_spec["productSourceRef"],
         },
+        "rawReproductionBundle": raw_bundle_summary,
         "productRuntimeReplayValues": product_runtime_replay,
         "standaloneProxyValues": {
             "descriptor_transfer_proxy_r2": descriptor_proxy_metrics["r2"],
@@ -540,12 +594,15 @@ def compute_reproduction(raw: bytes, source_ref: str) -> dict[str, object]:
         "rawDataScientificResidualReproduced": False,
         "rawDataScientificBaselinesReproduced": False,
         "runtimeEvidenceLoaded": runtime is not None,
+        "runtimeEvidencePathUsed": runtime_path,
         "missingInputs": MISSING_INPUTS,
         "interpretation": (
             "The Product runtime scalars were exactly replayed from the public-safe Product runtime reproduction spec. "
             "Inspection of the Product source shows those values are runtime-derived deterministic generator scalars, "
             "not recovered raw-data scientific outputs. "
             "The public Matbench raw JSON was also loaded and formula-only proxy checks were recomputed. "
+            "The public-safe raw reproduction bundle was exported and searched, but it contains the same Product "
+            "runtime evidence rather than the missing descriptor matrix, model, split, residual, and baseline inputs. "
             "The raw-data scientific descriptor-transfer residual failed exact reproduction because essential scientific "
             "inputs are not exposed in this public package."
         ),
@@ -560,6 +617,7 @@ def fmt_number(value: object) -> str:
 
 def write_result_table(result: dict[str, object], output_dir: Path) -> None:
     source = result["source"]
+    bundle = result["rawReproductionBundle"]
     product = result["productRecordedValues"]
     runtime_replay = result["productRuntimeReplayValues"]
     proxy = result["standaloneProxyValues"]
@@ -619,7 +677,11 @@ def write_result_table(result: dict[str, object], output_dir: Path) -> None:
         f"- Raw-data scientific residual reproduced: `{str(result['rawDataScientificResidualReproduced']).lower()}`",
         f"- Raw-data scientific baselines reproduced: `{str(result['rawDataScientificBaselinesReproduced']).lower()}`",
         f"- Runtime evidence artifact loaded: `{str(result['runtimeEvidenceLoaded']).lower()}`",
+        f"- Runtime evidence artifact used: `{result['runtimeEvidencePathUsed']}`",
         f"- Product runtime spec: `{result['productRuntimeReproductionSpec']['path']}`",
+        f"- Public-safe raw reproduction bundle loaded: `{str(bundle['manifestLoaded']).lower()}`",
+        f"- Public-safe bundle artifact count: `{bundle['artifactCount']}`",
+        f"- Public-safe bundle decision: `{bundle['bundleDecision']}`",
         "",
         "## Public Source Load",
         "",
@@ -655,6 +717,7 @@ def write_result_table(result: dict[str, object], output_dir: Path) -> None:
 
 
 def write_missing_inputs(result: dict[str, object], output_dir: Path) -> None:
+    bundle = result["rawReproductionBundle"]
     lines = [
         "# Missing Reproduction Inputs",
         "",
@@ -666,11 +729,14 @@ def write_missing_inputs(result: dict[str, object], output_dir: Path) -> None:
         "| --- | --- | --- |",
         "| generator id / output id / ordinal rule | resolved | `PRODUCT_RUNTIME_REPRODUCTION_SPEC.json` |",
         "| Product runtime formulas | resolved | `PRODUCT_RUNTIME_REPRODUCTION_SPEC.json` |",
+        f"| public-safe Product artifact bundle | exported/searched | `{bundle['manifestPath']}` |",
         "| measured outcome `0.72` | reproduced | `REPRODUCTION_RESULT_TABLE.md` |",
         "| residual magnitude `0.21` | reproduced | `REPRODUCTION_RESULT_TABLE.md` |",
         "| baseline scalars `0.34`, `0.29`, `0.23` | reproduced | `REPRODUCTION_RESULT_TABLE.md` |",
         "",
         "## Unresolved Raw-Data Scientific Inputs",
+        "",
+        "The public-safe raw reproduction bundle was exported and searched. It contains Product runtime evidence, source receipts, generated evidence packages, candidate drafts, and review handoff artifacts. It does not contain the scientific raw-data inputs below.",
         "",
         "| Missing input | Why it is required |",
         "| --- | --- |",
@@ -689,6 +755,7 @@ def write_missing_inputs(result: dict[str, object], output_dir: Path) -> None:
             "- Public raw Matbench source loaded: yes.",
             "- Public proxy checks produced: yes.",
             "- Product values source classification: runtime_derived_deterministic_generator_scalars.",
+            f"- Public-safe bundle decision: {bundle['bundleDecision']}.",
             "- Updated review readiness: not_external_review_ready_raw_scientific_reproduction_failed.",
             "- Public discovery-score eligibility: false.",
         ]
@@ -707,6 +774,7 @@ def write_raw_scientific_repair_decision(result: dict[str, object], output_dir: 
         "publicFundClass": result["publicFundClass"],
         "publicDiscoveryScoreEligible": result["publicDiscoveryScoreEligible"],
         "publicExternalReviewReadinessScore": result["publicExternalReviewReadinessScore"],
+        "rawReproductionBundle": result["rawReproductionBundle"],
         "reason": "Exact Product values are replayable from deterministic Product runtime formulas, but the public package does not contain raw-data descriptor-transfer inputs needed to recompute them scientifically from Matbench data.",
         "missingInputs": result["missingInputs"],
     }
@@ -727,6 +795,16 @@ def write_raw_scientific_repair_decision(result: dict[str, object], output_dir: 
         "`runtime_derived_deterministic_generator_scalars`",
         "",
         "The Product values `0.72`, `0.21`, `0.34`, `0.29`, and `0.23` are generated by the public-safe runtime formula documented in `PRODUCT_RUNTIME_REPRODUCTION_SPEC.json`. They are not recovered from a public Matbench descriptor matrix, trained model, split manifest, residual formula, or executable baseline implementation.",
+        "",
+        "## Public-Safe Bundle Search",
+        "",
+        f"- Bundle path: `{result['rawReproductionBundle']['path']}`",
+        f"- Bundle manifest loaded: `{str(result['rawReproductionBundle']['manifestLoaded']).lower()}`",
+        f"- Bundle artifact count: `{result['rawReproductionBundle']['artifactCount']}`",
+        f"- Bundle decision: `{result['rawReproductionBundle']['bundleDecision']}`",
+        f"- Runtime evidence path used: `{result['rawReproductionBundle']['runtimeEvidencePathUsed']}`",
+        "",
+        "The exported bundle makes the Product evidence trail publicly inspectable. It does not supply the missing raw-data scientific reproduction inputs.",
         "",
         "## Public Scoring Impact",
         "",

@@ -9,6 +9,7 @@ This file describes the minimal public-data reproduction path added after extern
 - loads the public Matbench experimental band-gap JSON;
 - parses formula/target rows from the raw public source;
 - computes deterministic formula-only proxy checks with no private Product state;
+- reads the exported public-safe Product artifact bundle at `raw-reproduction-bundle/`;
 - replays the public-safe Product runtime scalar formulas from `PRODUCT_RUNTIME_REPRODUCTION_SPEC.json`;
 - compares those public proxy values against the Product-recorded scalars:
   - measured outcome `0.72`;
@@ -44,13 +45,14 @@ That status means:
 - the public raw Matbench JSON can be fetched and parsed;
 - simple public proxy baselines can be recomputed;
 - the exact Product runtime scalars are replayed from the public-safe Product runtime spec;
+- the public-safe Product artifact bundle is present and searched;
 - the Product values are classified as runtime-derived deterministic generator scalars;
 - the exact Product descriptor-transfer residual is not independently reproduced from raw Matbench scientific inputs in this public package;
 - public Einstein/Nobel discovery-score eligibility is false.
 
 ## Why Exact Reproduction Is Not Yet Possible
 
-The public package does not expose the full descriptor matrix, descriptor-transfer model/training configuration, exact split/family manifest, target subset manifest, scientific residual formula, baseline implementations, or external runnable holdout/counterexample manifests that would independently reproduce the Product-recorded values from raw data. Those gaps are listed in `MISSING_REPRODUCTION_INPUTS.md`.
+The public-safe bundle exports the relevant Product runtime evidence, source receipts, candidate drafts, evidence packages, and review handoff files found for this candidate. It does not expose the full descriptor matrix, descriptor-transfer model/training configuration, exact split/family manifest, target subset manifest, scientific residual formula, baseline implementations, or external runnable holdout/counterexample manifests that would independently reproduce the Product-recorded values from raw data. Those gaps are listed in `MISSING_REPRODUCTION_INPUTS.md`.
 
 ## No Overclaim
 

@@ -1,0 +1,106 @@
+{
+  "kind": "fund_candidate_draft",
+  "draftId": "DRAFT-DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45",
+  "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+  "claim": "The measured public computational_materials_property_data target-outcome residual for HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01 has scientific significance: public materials descriptor transfer residual survives composition formula size target family split leakage and shuffled target controls changes interpretation of the bounded measured target slice by surviving baseline, rival, holdout, replay, counterexample, recurrence, and mechanism pressure checks. The scope is limited to the cited public targets and the recorded evidence package.",
+  "domain": "computational_materials_property_data",
+  "sourceRefs": [
+    "https://matbench.materialsproject.org/",
+    "https://matbench.materialsproject.org/#descriptor-transfer-anchor-1",
+    "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package",
+    "https://matbench.materialsproject.org/#baseline",
+    "https://matbench.materialsproject.org/#rival-theory",
+    "https://matbench.materialsproject.org/#holdout",
+    "https://matbench.materialsproject.org/#replay",
+    "https://matbench.materialsproject.org/#counterexample",
+    ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#nontrivial_pattern_test",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#baseline_resistance_test",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#rival_discrimination_test"
+  ],
+  "evidenceRefs": [
+    "https://matbench.materialsproject.org/",
+    "https://matbench.materialsproject.org/#descriptor-transfer-anchor-1",
+    "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package",
+    "https://matbench.materialsproject.org/#baseline",
+    "https://matbench.materialsproject.org/#rival-theory",
+    "https://matbench.materialsproject.org/#holdout",
+    "https://matbench.materialsproject.org/#replay",
+    "https://matbench.materialsproject.org/#counterexample",
+    ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#nontrivial_pattern_test",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#baseline_resistance_test",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#rival_discrimination_test",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#holdout_feasibility_test",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#replay_feasibility_test",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#counterexample_search",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#proof_or_mechanism_pressure_test",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/KILL_WEEK_RESULTS.json",
+    ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/CLAIM_EVIDENCE_BINDINGS.json#baseline",
+    ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/CLAIM_EVIDENCE_BINDINGS.json#rival",
+    ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/METHOD.md#mechanism-pressure",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-ledger",
+    ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/CLAIM_EVIDENCE_BINDINGS.json#predictionLedger",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-01"
+  ],
+  "identityLedgerRefs": [
+    ".sovryn/discovery-daemon/candidate-identity-ledger.json#DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4"
+  ],
+  "hardSeedRefs": [
+    ".sovryn/discovery-daemon/generator-pressure/PRESSURE_ROWS.json#HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01"
+  ],
+  "packageRefs": [
+    "PAPER.md",
+    "METHOD.md",
+    "CLAIM_EVIDENCE_BINDINGS.json",
+    "REPRODUCE.md",
+    "LIMITATIONS.md"
+  ],
+  "inspectabilityPath": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4",
+  "predictionRefs": [
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-ledger",
+    ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/CLAIM_EVIDENCE_BINDINGS.json#predictionLedger",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-01",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-02",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-03",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-04",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-05",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-06",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-07",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-08",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-09",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-10",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-11",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-12"
+  ],
+  "holdoutRefs": [
+    ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/CLAIM_EVIDENCE_BINDINGS.json#holdoutEvidenceRefs",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#holdout_feasibility_test",
+    "https://matbench.materialsproject.org/#holdout"
+  ],
+  "counterexampleRefs": [
+    ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/CLAIM_EVIDENCE_BINDINGS.json#counterexampleEvidenceRefs",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#counterexample_search",
+    "https://matbench.materialsproject.org/#counterexample"
+  ],
+  "replayRefs": [
+    ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/CLAIM_EVIDENCE_BINDINGS.json#replayEvidenceRefs",
+    ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/REPRODUCE.md#replay",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#replay_feasibility_test",
+    "https://matbench.materialsproject.org/#replay"
+  ],
+  "killWeekRefs": [
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/KILL_WEEK_RESULTS.json#kill-week",
+    ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/CLAIM_EVIDENCE_BINDINGS.json#killWeek"
+  ],
+  "limitations": [
+    "The evidence is bounded to generated formal object families and replayed Product artifacts.",
+    "Domain scientific significance pressure failed gates: no_anti_discovery_claim_text.",
+    "This is not external validation, external adoption, Nobel-level discovery, breakthrough, AGI, human-level science, legal advice, medical advice, wet-lab capability, unsafe capability, or universal truth."
+  ],
+  "generatedFrom": "fresh_external_target",
+  "synthetic": false,
+  "partialCandidate": false,
+  "versionedClaimChange": true
+}

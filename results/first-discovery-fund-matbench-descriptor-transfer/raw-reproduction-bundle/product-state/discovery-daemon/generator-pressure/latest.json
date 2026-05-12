@@ -1,0 +1,58 @@
+{
+  "kind": "generator_born_hard_seed_pressure",
+  "status": "continue_searching_checkpointed",
+  "checkpointUsed": ".sovryn/discovery-daemon/checkpoints/generator-families-continue-searching.json",
+  "nextCheckpointRef": ".sovryn/discovery-daemon/checkpoints/generator-born-pressure-continue-searching.json",
+  "seedsLoaded": 9,
+  "testsRun": 63,
+  "seedsKilledByBaseline": 0,
+  "seedsKilledByRival": 0,
+  "seedsKilledByCounterexample": 0,
+  "seedsKilledByLackOfRecurrence": 0,
+  "seedsKilledByHoldoutReplay": 0,
+  "seedsKilledByMechanismProof": 0,
+  "insightCandidatesCreated": 9,
+  "discoveryCandidatesCreated": 0,
+  "fundGateResult": {
+    "kind": "fund_gate_result",
+    "candidateId": null,
+    "passed": false,
+    "status": "continue_searching",
+    "fundLabel": null,
+    "fundClass": null,
+    "countsForEinsteinNobelDiscoveryScore": false,
+    "fundClassAssessment": null,
+    "gates": [
+      {
+        "code": "candidate_present",
+        "passed": false,
+        "message": "No candidate is available."
+      }
+    ],
+    "failedGates": [
+      "candidate_present"
+    ],
+    "notificationAllowed": false,
+    "evidenceHash": "e9ef09669f14b89be278820b74e33347147b70308f03fed7a0ff76795b308e24"
+  },
+  "fundFound": false,
+  "remainingBottleneck": "9 generator-born hard seed(s) reached InsightCandidate birth, but none became a discovery-scored candidate. Remaining bottleneck is required-next-test closure and external-review package pressure.",
+  "artifactRefs": [
+    ".sovryn/discovery-daemon/generator-pressure/GENERATOR_BORN_HARD_SEEDS_PROFILE.md",
+    ".sovryn/discovery-daemon/generator-pressure/GENERATOR_BORN_TEST_PLANS.md",
+    ".sovryn/discovery-daemon/generator-pressure/BASELINE_PRESSURE_RESULTS.md",
+    ".sovryn/discovery-daemon/generator-pressure/RIVAL_PRESSURE_RESULTS.md",
+    ".sovryn/discovery-daemon/generator-pressure/COUNTEREXAMPLE_PRESSURE_RESULTS.md",
+    ".sovryn/discovery-daemon/generator-pressure/RECURRENCE_PRESSURE_RESULTS.md",
+    ".sovryn/discovery-daemon/generator-pressure/HOLDOUT_REPLAY_PRESSURE_RESULTS.md",
+    ".sovryn/discovery-daemon/generator-pressure/MECHANISM_PROOF_PRESSURE_RESULTS.md",
+    ".sovryn/discovery-daemon/generator-pressure/INSPECTABILITY_PRESSURE_RESULTS.md",
+    ".sovryn/discovery-daemon/generator-pressure/INSIGHT_CANDIDATE_DERIVATION_DECISIONS.md",
+    ".sovryn/discovery-daemon/generator-pressure/FUND_GATE_RESULTS.md",
+    ".sovryn/discovery-daemon/generator-pressure/NEXT_CHECKPOINT.md",
+    ".sovryn/discovery-daemon/generator-pressure/PRESSURE_ROWS.json",
+    ".sovryn/discovery-daemon/generator-pressure/latest.json",
+    ".sovryn/discovery-daemon/checkpoints/generator-born-pressure-continue-searching.json"
+  ],
+  "evidenceHash": "d6605db5cedd8e25902284490f018f6e165e4480b0c2eea50d095502a1c4729b"
+}

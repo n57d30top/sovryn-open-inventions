@@ -38,5 +38,58 @@
   "publicFundClass": "not_discovery_scored_raw_reproduction_failed",
   "publicReviewStatus": "not_external_review_ready_raw_scientific_reproduction_failed",
   "rawDataScientificReproductionSucceeded": false,
+  "rawReproductionBundle": {
+    "artifactCount": 78,
+    "bundleDecision": "maximal_public_safe_export_completed_but_raw_scientific_inputs_not_found",
+    "manifestLoaded": true,
+    "manifestPath": "raw-reproduction-bundle/BUNDLE_MANIFEST.json",
+    "missingRawScientificInputs": [
+      {
+        "input": "descriptor matrix / feature definition",
+        "status": "not found in Product .sovryn Matbench artifacts",
+        "whyRequired": "required to map raw formulas into descriptor-transfer features"
+      },
+      {
+        "input": "featurizer configuration",
+        "status": "not found in Product .sovryn Matbench artifacts",
+        "whyRequired": "required to reproduce pymatgen/matminer/ASE descriptor construction"
+      },
+      {
+        "input": "model and training configuration",
+        "status": "not found in Product .sovryn Matbench artifacts",
+        "whyRequired": "required to reproduce measured outcome 0.72 from raw data"
+      },
+      {
+        "input": "exact train/validation/holdout split and family labels",
+        "status": "not found in Product .sovryn Matbench artifacts",
+        "whyRequired": "required to reproduce target-family and holdout claims"
+      },
+      {
+        "input": "target subset manifest",
+        "status": "not found in Product .sovryn Matbench artifacts",
+        "whyRequired": "Product source-cache records rawTargetCount 300 but public JSON extraction sees 921 records"
+      },
+      {
+        "input": "raw-data residual formula / normalization",
+        "status": "not found in Product .sovryn Matbench artifacts",
+        "whyRequired": "required to derive residual 0.21 scientifically"
+      },
+      {
+        "input": "exact baseline implementations for 0.34 / 0.29 / 0.23",
+        "status": "not found in Product .sovryn Matbench artifacts",
+        "whyRequired": "required to derive control scalars scientifically"
+      },
+      {
+        "input": "external runnable holdout/counterexample manifests",
+        "status": "not found as executable manifests in Product .sovryn Matbench artifacts",
+        "whyRequired": "required for external replay of holdout/counterexample pressure"
+      }
+    ],
+    "path": "raw-reproduction-bundle/",
+    "rawDataScientificReproductionSucceeded": false,
+    "runtimeEvidencePathUsed": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json",
+    "sourceCachePath": "raw-reproduction-bundle/product-state/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP.json",
+    "unsafeCopiedCount": 0
+  },
   "reason": "Exact Product values are replayable from deterministic Product runtime formulas, but the public package does not contain raw-data descriptor-transfer inputs needed to recompute them scientifically from Matbench data."
 }

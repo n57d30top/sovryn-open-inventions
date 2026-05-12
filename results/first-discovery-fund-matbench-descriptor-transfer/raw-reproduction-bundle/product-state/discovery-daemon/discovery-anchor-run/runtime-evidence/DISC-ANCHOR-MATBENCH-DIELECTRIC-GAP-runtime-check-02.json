@@ -1,0 +1,297 @@
+{
+  "kind": "discovery_grade_anchor_runtime_evidence",
+  "check": {
+    "kind": "discovery_grade_anchor_runtime_check",
+    "checkId": "DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-runtime-check-02",
+    "anchorId": "DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP",
+    "domain": "computational_materials_property_data",
+    "executorId": "materials_descriptor_ablation_anchor_executor",
+    "runtimeEvidenceKind": "loaded_external_data",
+    "sourceReceipt": {
+      "kind": "discovery_anchor_source_receipt",
+      "status": "loaded_external_artifact",
+      "loadedExternalArtifact": true,
+      "sourceRef": "https://matbench.materialsproject.org/",
+      "sourceReceipt": "Matbench experimental band-gap public measurement; rows=300; status=200;etag=W/\"e40bc8bfe21e4f64ac1da82bffc65e6d03698b05\";lastModified=none;contentLength=99468;sourceHash=af0b8299275eb29711a6b6b895d1dbae80c80076464d05e1f44b0e139316da81",
+      "sourceHash": "92c9530ffd128eb2dd2491b5965ce17e55811d1f1f5b711548ce9f2a62ef56dd",
+      "loaderCheckCommand": "sovryn discover-daemon discovery-anchor-source-load --anchor DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP",
+      "rawTargetCount": 300,
+      "measuredVariable": "holdout experimental band-gap residual after composition-only, size, and source-family baselines",
+      "targetOutcome": "public Matbench experimental band-gap residual after composition, size, and simple family controls",
+      "holdoutPath": "predeclared Matbench family holdout: withhold formula-family groups after claim freeze and recompute composition-only residual direction on held-out families",
+      "replayPath": "replay Matbench public JSON download, formula parsing, composition baselines, and family residual scoring from source receipt",
+      "publicSafeRef": "https://matbench.materialsproject.org/",
+      "localArtifactRef": ".sovryn/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP.json"
+    },
+    "sourceRefs": [
+      "https://matbench.materialsproject.org/",
+      "https://materialsproject.org/",
+      "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json"
+    ],
+    "evidenceRefs": [
+      "https://matbench.materialsproject.org/",
+      "https://materialsproject.org/",
+      "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json",
+      ".sovryn/discovery-daemon/discovery-anchor-selection/DISCOVERY_GENERATOR_DESIGN_QUEUE.json#DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP",
+      ".sovryn/discovery-daemon/discovery-anchor-run/DISCOVERY_ANCHOR_RUNTIME_CHECKS.md#DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-runtime-check-02",
+      ".sovryn/discovery-daemon/discovery-anchor-run/runtime-evidence/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-runtime-check-02.json",
+      ".sovryn/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP.json",
+      "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json#matbench-expt-gap-runtime-source",
+      "https://matbench.materialsproject.org/#matbench-expt-gap"
+    ],
+    "producedArtifact": ".sovryn/discovery-daemon/discovery-anchor-run/runtime-evidence/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-runtime-check-02.json",
+    "measuredVariable": "holdout experimental band-gap residual after composition-only, size, and source-family baselines",
+    "measuredOutcome": 1.1487,
+    "residualMagnitude": 0.6376,
+    "frozenPrediction": "formula-family and local chemistry descriptors explain recurring experimental band-gap residuals better than composition-only and dataset-source baselines Frozen prediction: formula-family and local chemistry descriptors should add residual signal beyond composition-only controls",
+    "rivalPrediction": "composition-only descriptors explain the residual Rival prediction: composition, formula size, and simple family controls should absorb the band-gap residual",
+    "negativeControl": "composition- and family-matched formulas where the local chemistry mechanism should not add residual signal",
+    "holdoutReplayPlan": "predeclared Matbench family holdout: withhold formula-family groups after claim freeze and recompute composition-only residual direction on held-out families; replay Matbench public JSON download, formula parsing, composition baselines, and family residual scoring from source receipt",
+    "baselineResults": [
+      {
+        "baseline": "element_count_correlation",
+        "result": 0.2897,
+        "explainsSignal": false
+      },
+      {
+        "baseline": "total_atom_count_correlation",
+        "result": 0.1708,
+        "explainsSignal": false
+      },
+      {
+        "baseline": "transition_metal_mean_shift",
+        "result": 0.8753,
+        "explainsSignal": false
+      }
+    ],
+    "rivalWeakened": true,
+    "nontrivialResidual": true,
+    "crossSourceSupport": true,
+    "counterexampleCollapsed": false,
+    "holdoutReplayAvailable": true,
+    "birthEvaluation": {
+      "kind": "hard_seed_birth_evaluation",
+      "generatorId": "materials_descriptor_ablation_generator with family-grouped holdout and source-family matched controls",
+      "targetId": "DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-runtime-check-02",
+      "externalValueGate": {
+        "kind": "external_value_gate_assessment",
+        "accepted": true,
+        "anchorId": "DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP",
+        "anchorType": "public_measurement_residual",
+        "gates": [
+          {
+            "code": "external_problem_anchor_present",
+            "passed": true,
+            "message": "HardSeed birth requires a real external problem anchor before generator evidence can count."
+          },
+          {
+            "code": "external_anchor_public_source",
+            "passed": true,
+            "message": "External problem anchor must cite a public-safe external source."
+          },
+          {
+            "code": "external_anchor_target_outcome",
+            "passed": true,
+            "message": "External problem anchor must define a measured target outcome."
+          },
+          {
+            "code": "external_anchor_baseline_prior",
+            "passed": true,
+            "message": "External problem anchor must define the known baseline or prior rival state."
+          },
+          {
+            "code": "external_anchor_domain_scientific_significance",
+            "passed": true,
+            "message": "External problem anchor must explain domain scientific significance beyond pipeline, package, or tool capability."
+          },
+          {
+            "code": "external_anchor_discovery_scored_outcome",
+            "passed": true,
+            "message": "External problem anchor must define a discovery-scored outcome that is not only operational pipeline success."
+          },
+          {
+            "code": "external_anchor_significance_refs",
+            "passed": true,
+            "message": "External problem anchor must bind public-safe significance evidence refs into the evidence set."
+          },
+          {
+            "code": "external_anchor_inspectable",
+            "passed": true,
+            "message": "External problem anchor must be inspectable through the evidence refs."
+          },
+          {
+            "code": "not_generator_only_signal",
+            "passed": true,
+            "message": "Generator-only signals are blocked before HardSeed birth."
+          },
+          {
+            "code": "not_package_only_signal",
+            "passed": true,
+            "message": "Package-only or pipeline-contract-only signals are blocked before HardSeed birth."
+          },
+          {
+            "code": "not_internally_interesting_only",
+            "passed": true,
+            "message": "Internally interesting but externally unanchored signals are blocked before HardSeed birth."
+          },
+          {
+            "code": "not_source_family_documented_signal",
+            "passed": true,
+            "message": "Source-family documented behavior is blocked before HardSeed birth."
+          },
+          {
+            "code": "not_known_trivial_signal",
+            "passed": true,
+            "message": "Known or trivial behavior is blocked before HardSeed birth."
+          }
+        ],
+        "failedGates": [],
+        "blockers": [],
+        "evidenceHash": "cfd524774c3d730a0a37141000e27cf80896626e94d147b7af5cfcc83f33d399"
+      },
+      "runtimeEvidenceKind": "loaded_external_data",
+      "accepted": true,
+      "status": "born",
+      "primaryBlocker": null,
+      "blockers": [],
+      "gates": [
+        {
+          "code": "external_value_gate",
+          "passed": true,
+          "message": "HardSeed birth requires an external problem anchor with public inspectability and non-internal value before runtime evidence can count."
+        },
+        {
+          "code": "runtime_evidence_present",
+          "passed": true,
+          "message": "HardSeed birth requires loaded, executed, generated, or checked runtime evidence."
+        },
+        {
+          "code": "runtime_evidence_not_design_profile",
+          "passed": true,
+          "message": "Deterministic design profiles are planning evidence only; HardSeed birth requires real loaded/executed/generated target evidence."
+        },
+        {
+          "code": "evidence_refs_resolve_shape",
+          "passed": true,
+          "message": "HardSeed birth requires public-safe source and evidence refs, including a concrete public URL."
+        },
+        {
+          "code": "baseline_resistance",
+          "passed": true,
+          "message": "HardSeed birth is blocked when any simple baseline explains the signal."
+        },
+        {
+          "code": "second_stage_residual_floor",
+          "passed": true,
+          "message": "HardSeed birth is blocked when residual magnitude is below the second-stage pressure floor of 0.1."
+        },
+        {
+          "code": "rival_weakened_or_scoped",
+          "passed": true,
+          "message": "HardSeed birth requires at least one rival mechanism to be weakened or scoped."
+        },
+        {
+          "code": "nontrivial_residual",
+          "passed": true,
+          "message": "HardSeed birth requires a nontrivial residual beyond metadata, tool, pipeline, or baseline success."
+        },
+        {
+          "code": "cross_source_or_slice_support",
+          "passed": true,
+          "message": "HardSeed birth requires cross-source or cross-slice recurrence before InsightCandidate birth is possible."
+        },
+        {
+          "code": "counterexample_pressure_nonfatal",
+          "passed": true,
+          "message": "HardSeed birth is blocked when counterexamples collapse the claim."
+        },
+        {
+          "code": "holdout_replay_path_available",
+          "passed": true,
+          "message": "HardSeed birth requires an independent holdout/replay path or bounded nonfatal caveat."
+        }
+      ],
+      "failedGates": [],
+      "evidenceHash": "1edee3cf49e37b661a808368069d4659692b7ed30c5c55be9c39190aed6fb25a"
+    },
+    "hardSeed": {
+      "kind": "hard_seed",
+      "seedId": "HARD-DISC-ANCHOR-DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-RUNTIME-CHECK-02",
+      "candidateId": "DISC-ANCHOR-CAND-DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-RUNTIME-CHECK-02",
+      "type": "baseline_resistant_pattern",
+      "domain": "computational_materials_property_data",
+      "claim": "Discovery-grade external anchor DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP produced a birth-eligible HardSeed for holdout experimental band-gap residual after composition-only, size, and source-family baselines. This is not an InsightCandidate or Fund; it only authorizes downstream mechanism-first pressure from runtime evidence that survived birth gates.",
+      "observation": "Anchor runtime check DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-runtime-check-02 measured outcome 1.1487 with residual 0.6376 and survived baseline, rival, counterexample, recurrence, holdout, and replay birth-gate pressure.",
+      "sourceRefs": [
+        "https://matbench.materialsproject.org/",
+        ".sovryn/discovery-daemon/discovery-anchor-run/runtime-evidence/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-runtime-check-02.json"
+      ],
+      "evidenceRefs": [
+        "https://matbench.materialsproject.org/",
+        ".sovryn/discovery-daemon/discovery-anchor-run/runtime-evidence/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-runtime-check-02.json",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "baselineRefs": [
+        "https://matbench.materialsproject.org/#baseline",
+        ".sovryn/discovery-daemon/discovery-anchor-run/runtime-evidence/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-runtime-check-02.json"
+      ],
+      "rivalRefs": [
+        "https://matbench.materialsproject.org/#rival-theory",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "holdoutRefs": [
+        "https://matbench.materialsproject.org/#holdout",
+        ".sovryn/discovery-daemon/discovery-anchor-run/runtime-evidence/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-runtime-check-02.json"
+      ],
+      "replayRefs": [
+        "https://matbench.materialsproject.org/#replay",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "counterexampleRefs": [
+        "https://matbench.materialsproject.org/#counterexample",
+        ".sovryn/discovery-daemon/discovery-anchor-run/runtime-evidence/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-runtime-check-02.json"
+      ],
+      "sourceSeed": {
+        "kind": "discovery_grade_anchor_runtime_check",
+        "anchorId": "DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP",
+        "checkId": "DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-runtime-check-02",
+        "producedArtifact": ".sovryn/discovery-daemon/discovery-anchor-run/runtime-evidence/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-runtime-check-02.json",
+        "externalProblemAnchor": {
+          "anchorId": "DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP",
+          "anchorType": "public_measurement_residual",
+          "sourceRef": "https://matbench.materialsproject.org/",
+          "problemStatement": "Matbench experimental band-gap targets expose public materials-property outcomes where descriptor ablation can test whether chemistry and formula-family mechanisms predict residuals beyond composition-only baselines.",
+          "measuredTargetOutcome": "holdout experimental band-gap residual after composition-only, size, and source-family baselines",
+          "knownBaselineOrPrior": "composition-only descriptors explain the residual; training-set density and material family explain the residual; measurement provenance or missingness explains the residual",
+          "externalValueRationale": "Discovery-grade anchor selected because it is public, inspectable, outcome-bearing, and not merely generator/pipeline-internal.",
+          "domainScientificSignificance": "A stable residual mechanism for experimental band-gap prediction would improve inspectable materials-property modeling and could expose where chemistry descriptors add scientific value beyond composition labels.",
+          "discoveryScoredOutcome": "A discovery-scored outcome would be an externally inspectable mechanism claim about band-gap residuals that survives family holdout, descriptor ablation, rival baselines, and replay.",
+          "significanceEvidenceRefs": [
+            "https://matbench.materialsproject.org/",
+            "https://materialsproject.org/"
+          ],
+          "inspectabilityRef": "https://matbench.materialsproject.org/"
+        },
+        "noFundClaim": true
+      },
+      "expectedDeathCause": "proof_or_mechanism_failed",
+      "avoidsDeathCauses": [
+        "not_externally_inspectable",
+        "baseline_dominated",
+        "known_trivial",
+        "rival_theory_stronger",
+        "counterexample_dense",
+        "no_holdout_path",
+        "no_replay_path"
+      ],
+      "confidenceScore": 74,
+      "generatedFrom": "fresh_external_bank",
+      "synthetic": false,
+      "partialCandidate": false,
+      "llmOnly": false,
+      "preflightOnly": false
+    },
+    "evidenceHash": "3704df6626ecccea3619e49575811b2128d46c96622c8bd48fb8f4f0d2009f2b"
+  },
+  "evidenceHash": "3704df6626ecccea3619e49575811b2128d46c96622c8bd48fb8f4f0d2009f2b"
+}

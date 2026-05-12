@@ -1,0 +1,114 @@
+{
+  "kind": "generator_born_fund_closure_execution_refs",
+  "executions": [
+    {
+      "kind": "insight_candidate_required_next_test_execution",
+      "candidateId": "INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+      "testType": "nontrivial_pattern_test",
+      "promotionGate": "nontrivial_pattern_beyond_pipeline_success",
+      "executed": true,
+      "passed": true,
+      "artifactRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#nontrivial_pattern_test",
+      "evidenceRefs": [
+        ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json"
+      ],
+      "observation": "Generator-born pressure retained a nontrivial residual of 0.21 for matbench_descriptor_transfer_significance_generator-output-01.",
+      "caveats": [
+        "This is generator/formal-object evidence, not a Fund; Fund Gate still requires external-review package, kill week, and discovery-scored class pressure."
+      ],
+      "evidenceHash": "8bb273bccf8d04632fa3dd8b3ffeb22d67ad074dfd996e1504dee71093b8baa0"
+    },
+    {
+      "kind": "insight_candidate_required_next_test_execution",
+      "candidateId": "INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+      "testType": "baseline_resistance_test",
+      "promotionGate": "baseline_resistance",
+      "executed": true,
+      "passed": true,
+      "artifactRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#baseline_resistance_test",
+      "evidenceRefs": [
+        "https://matbench.materialsproject.org/#baseline"
+      ],
+      "observation": "The hard seed remains baseline-resistant under the second-stage residual floor and recorded simple baselines.",
+      "caveats": [],
+      "evidenceHash": "d3c5f29df9b2270d6e7dcc52443e7e935b99985cbd3b8e0622f76695a354d599"
+    },
+    {
+      "kind": "insight_candidate_required_next_test_execution",
+      "candidateId": "INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+      "testType": "rival_discrimination_test",
+      "promotionGate": "rival_discriminating_test",
+      "executed": true,
+      "passed": true,
+      "artifactRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#rival_discrimination_test",
+      "evidenceRefs": [
+        "https://matbench.materialsproject.org/#rival-theory"
+      ],
+      "observation": "At least one rival mechanism remains weakened or scope-limited after second-stage pressure.",
+      "caveats": [],
+      "evidenceHash": "76d24ccdbd3ef1c34f79170ff050e8baae5eec6b8fc9fb4006850c7cf576e2e7"
+    },
+    {
+      "kind": "insight_candidate_required_next_test_execution",
+      "candidateId": "INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+      "testType": "holdout_feasibility_test",
+      "promotionGate": "holdout_path",
+      "executed": true,
+      "passed": true,
+      "artifactRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#holdout_feasibility_test",
+      "evidenceRefs": [
+        "https://matbench.materialsproject.org/#holdout"
+      ],
+      "observation": "Holdout and replay paths are both bound before InsightCandidate birth.",
+      "caveats": [],
+      "evidenceHash": "81a7cfab31eb62a8e1ec78382c9e23812c5324379899b8dbcb4cda02f6e3e4fa"
+    },
+    {
+      "kind": "insight_candidate_required_next_test_execution",
+      "candidateId": "INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+      "testType": "replay_feasibility_test",
+      "promotionGate": "replay_path",
+      "executed": true,
+      "passed": true,
+      "artifactRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#replay_feasibility_test",
+      "evidenceRefs": [
+        "https://matbench.materialsproject.org/#replay",
+        ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json"
+      ],
+      "observation": "Holdout and replay paths are both bound before InsightCandidate birth.",
+      "caveats": [],
+      "evidenceHash": "66f119b477ca8a175c7db0b463793eb28da037ecda926ad18fa8cb1e36c29328"
+    },
+    {
+      "kind": "insight_candidate_required_next_test_execution",
+      "candidateId": "INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+      "testType": "counterexample_search",
+      "promotionGate": "counterexample_path",
+      "executed": true,
+      "passed": true,
+      "artifactRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#counterexample_search",
+      "evidenceRefs": [
+        "https://matbench.materialsproject.org/#counterexample"
+      ],
+      "observation": "Counterexample/control pressure did not collapse the narrow hard-seed claim.",
+      "caveats": [],
+      "evidenceHash": "326632d38aa995185afa172796e8d25c69d5383b5302b555e7fe4d5bb10cac9e"
+    },
+    {
+      "kind": "insight_candidate_required_next_test_execution",
+      "candidateId": "INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+      "testType": "proof_or_mechanism_pressure_test",
+      "promotionGate": "proof_or_mechanism_pressure_path",
+      "executed": true,
+      "passed": true,
+      "artifactRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#proof_or_mechanism_pressure_test",
+      "evidenceRefs": [
+        ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json"
+      ],
+      "observation": "Mechanism/proof pressure is nonfatal for the narrow evidence scope.",
+      "caveats": [],
+      "evidenceHash": "39cca7a458749da64e618ca11f49a548f8fb2c2e0cc09f47ce94d503c9134586"
+    }
+  ],
+  "evidenceHash": "0448709c8ae6a61c871b562b44540d53bff6e636c39e25c84f32a4815a8328e0"
+}

@@ -1,0 +1,768 @@
+{
+  "kind": "matbench_public_safe_raw_reproduction_bundle_manifest",
+  "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+  "createdAt": "2026-05-12T15:01:54.328Z",
+  "artifactCount": 78,
+  "publicSafeCopiedCount": 78,
+  "unsafeCopiedCount": 0,
+  "rawDataScientificReproductionSucceeded": false,
+  "productValuesSourceClassification": "runtime_derived_deterministic_generator_scalars",
+  "publicReviewStatus": "not_external_review_ready_raw_scientific_reproduction_failed",
+  "publicFundClass": "not_discovery_scored_raw_reproduction_failed",
+  "publicDiscoveryScoreEligible": false,
+  "bundleDecision": "maximal_public_safe_export_completed_but_raw_scientific_inputs_not_found",
+  "artifacts": [
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/FUND_FOUND.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/FUND_FOUND.md",
+      "classification": "public-safe",
+      "role": "supporting_product_artifact",
+      "bytes": 7144,
+      "sha256": "086bbbe1e9b7e4feed54b72edcfe6359a63ada05797a5ffbdcf55b7a6c1afe7b",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/candidate-intake/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45-claim-lift-intake.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/candidate-intake/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45-claim-lift-intake.json",
+      "classification": "public-safe",
+      "role": "supporting_product_artifact",
+      "bytes": 17202,
+      "sha256": "338d0f6cc5969406bffb04c9956b0d0565ca02392a7b817c5f0c758edaafc9d7",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/discovery-anchor-run/runtime-evidence/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-runtime-check-02.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/discovery-anchor-run/runtime-evidence/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-runtime-check-02.json",
+      "classification": "public-safe",
+      "role": "runtime_evidence",
+      "bytes": 16346,
+      "sha256": "a4d5fe1148fc1422d078d373b081db29781625df6b8d429eb9a4e979d79dad21",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP.json",
+      "classification": "public-safe",
+      "role": "source_receipt_or_raw_target_check",
+      "bytes": 2306,
+      "sha256": "9bbdc048a90effbe98e51ae3acbe3551cf9dc10a51e44605c50eb1af75081a6c",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/CLAIM_EVIDENCE_BINDINGS.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/CLAIM_EVIDENCE_BINDINGS.json",
+      "classification": "public-safe",
+      "role": "evidence_package",
+      "bytes": 38090,
+      "sha256": "230290e032c8832c5b73facb7b356c04074615c7940df7fbd92f87edfad227c0",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FUND_CANDIDATE.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FUND_CANDIDATE.json",
+      "classification": "public-safe",
+      "role": "evidence_package",
+      "bytes": 14785,
+      "sha256": "5c6169e6d8c3cf56c183d519796f7d36f43826aa15020f47913dd89754b9635d",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/LIMITATIONS.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/LIMITATIONS.md",
+      "classification": "public-safe",
+      "role": "evidence_package",
+      "bytes": 347,
+      "sha256": "167e0744366fd6e62221ad8f52d04ddf8aa2eafd26da8dccf4c0c9f77da534cb",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/METHOD.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/METHOD.md",
+      "classification": "public-safe",
+      "role": "evidence_package",
+      "bytes": 590,
+      "sha256": "980411003e96c482aadc7081f0a6f1985f18848c5b996367f323065bf3c96e4f",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/PAPER.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/PAPER.md",
+      "classification": "public-safe",
+      "role": "evidence_package",
+      "bytes": 3460,
+      "sha256": "4b2721e753152e7a84d21e6c51855200c4932586d06995120bab0a070ea96e31",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/REPRODUCE.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/REPRODUCE.md",
+      "classification": "public-safe",
+      "role": "evidence_package",
+      "bytes": 497,
+      "sha256": "ae00385fe74ee7c8420af2f6650051f99c58203bbb9c494dee0f38e8fcd18459",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45/CLAIM_EVIDENCE_BINDINGS.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45/CLAIM_EVIDENCE_BINDINGS.json",
+      "classification": "public-safe",
+      "role": "evidence_package",
+      "bytes": 20914,
+      "sha256": "d7513b8f8963cb602062e41c14913fcd924a73557535715f5479d83ef8479bad",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45/FUND_CANDIDATE.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45/FUND_CANDIDATE.json",
+      "classification": "public-safe",
+      "role": "evidence_package",
+      "bytes": 9498,
+      "sha256": "30907178c7cf30e4b48232014df4e677861752ef70eb19599eea323fa02de168",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45/LIMITATIONS.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45/LIMITATIONS.md",
+      "classification": "public-safe",
+      "role": "evidence_package",
+      "bytes": 705,
+      "sha256": "8b95705a5109a01b8b7f0358b53ce50ecc088f6c8badb2e87e8836324c3affb0",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45/METHOD.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45/METHOD.md",
+      "classification": "public-safe",
+      "role": "evidence_package",
+      "bytes": 616,
+      "sha256": "6faa69d81d7e31670f9e98fe735b4fca535ca4cf4c11a627c5941548b6fae209",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45/PAPER.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45/PAPER.md",
+      "classification": "public-safe",
+      "role": "evidence_package",
+      "bytes": 3354,
+      "sha256": "69c434fd054e38eb6da63c891f908c1227025ea6ea64afc263eb8633b93a7b53",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45/REPRODUCE.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45/REPRODUCE.md",
+      "classification": "public-safe",
+      "role": "evidence_package",
+      "bytes": 864,
+      "sha256": "492b1fec08ffa2ce0c99aabf982e694376633bdd2630791dccf1ba8622a66252",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/fund-candidate-drafts/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/fund-candidate-drafts/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4.json",
+      "classification": "public-safe",
+      "role": "draft_contract",
+      "bytes": 6396,
+      "sha256": "17f096c309c2a85d807cba011bb45e04832298f10b0d43ffd2e747e9c618648a",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/fund-candidate-drafts/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4.validation.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/fund-candidate-drafts/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4.validation.json",
+      "classification": "public-safe",
+      "role": "draft_contract",
+      "bytes": 11300,
+      "sha256": "43a4a53d187c915cc3e7dfae455794b8d2f5a7a9343381167279c41e97d40b7f",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/fund-candidate-drafts/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/fund-candidate-drafts/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45.json",
+      "classification": "public-safe",
+      "role": "draft_contract",
+      "bytes": 10698,
+      "sha256": "843db5110cd73fa5bc9e791c3f019eb2d79c7ba4ce93b5d1dd70f647ed6e0028",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/fund-candidate-drafts/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45.validation.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/fund-candidate-drafts/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45.validation.json",
+      "classification": "public-safe",
+      "role": "draft_contract",
+      "bytes": 10015,
+      "sha256": "4244f2e2f3cbc3ecf6ab2d4d76d6f5d776591a9920400cc7ef7f6134ef597648",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/fund-candidate.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/fund-candidate.json",
+      "classification": "public-safe",
+      "role": "supporting_product_artifact",
+      "bytes": 8598,
+      "sha256": "6f7ba845fc2a86443085d7e42a197cac6ff11911218216331c04c56dcbd6854c",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/fund-gate-results.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/fund-gate-results.json",
+      "classification": "public-safe",
+      "role": "supporting_product_artifact",
+      "bytes": 7636,
+      "sha256": "dd2b0dd8e154ccbebbfc4b937c6f20a1c635a5a97e90457fa8364079b1bffacc",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-claim-lift/discovery-candidates/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-claim-lift/discovery-candidates/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45.json",
+      "classification": "public-safe",
+      "role": "supporting_product_artifact",
+      "bytes": 6211,
+      "sha256": "e4329babbfc908e541ec923aabffd04bef5f0d0bd2146793fd6033c9894ff2ba",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/BIRTH_ELIGIBLE_HARD_SEEDS.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/BIRTH_ELIGIBLE_HARD_SEEDS.json",
+      "classification": "public-safe",
+      "role": "supporting_product_artifact",
+      "bytes": 59644,
+      "sha256": "dd42074ea3821cdc0ac58f776186734798cbf844e0d77d9a109870673db0e6b4",
+      "notes": [
+        "contains safety-policy text mentioning raw logs/stdout/stderr, not raw log content"
+      ]
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/BLOCKED_GENERATOR_OUTPUTS.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/BLOCKED_GENERATOR_OUTPUTS.json",
+      "classification": "public-safe",
+      "role": "supporting_product_artifact",
+      "bytes": 519755,
+      "sha256": "19fc9971bf91579923723cb55c11e22325a1ca2dace9eb42f74cd05f9129f5bf",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/BLOCKED_GENERATOR_OUTPUTS.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/BLOCKED_GENERATOR_OUTPUTS.md",
+      "classification": "public-safe",
+      "role": "supporting_product_artifact",
+      "bytes": 8733,
+      "sha256": "8ae3e0f47d70628ab55cfe13e51d2e8d54be72a94307220942af96c6de21c8b6",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/EXTERNAL_PROBLEM_ANCHORS.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/EXTERNAL_PROBLEM_ANCHORS.json",
+      "classification": "public-safe",
+      "role": "supporting_product_artifact",
+      "bytes": 5440,
+      "sha256": "7b3cb0fc74b116315f14209b880583de0e6c9eb00af7ded7a842edc7764b602c",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/EXTERNAL_PROBLEM_ANCHORS.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/EXTERNAL_PROBLEM_ANCHORS.md",
+      "classification": "public-safe",
+      "role": "supporting_product_artifact",
+      "bytes": 3346,
+      "sha256": "6131cacf53f990b071991d21197d8dbfcc647439f1d6cf9732716b696cede540",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/EXTERNAL_VALUE_GATE_RESULTS.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/EXTERNAL_VALUE_GATE_RESULTS.json",
+      "classification": "public-safe",
+      "role": "supporting_product_artifact",
+      "bytes": 90860,
+      "sha256": "4acd4cb080dfbc3d8ea3161c286824cdf66b9a39731526f60a725cd0c1d4e43d",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/EXTERNAL_VALUE_GATE_RESULTS.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/EXTERNAL_VALUE_GATE_RESULTS.md",
+      "classification": "public-safe",
+      "role": "supporting_product_artifact",
+      "bytes": 4271,
+      "sha256": "cc7cb16a4e8a4393aa2c8bb9f8fa553e8a8135628a7b3e29adf6a73ddd877017",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/GENERATOR_AUDIT.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/GENERATOR_AUDIT.json",
+      "classification": "public-safe",
+      "role": "supporting_product_artifact",
+      "bytes": 5792,
+      "sha256": "9b24aa7fc49b9c9c02bba633e1d76b83f9f2dee132204ea52a9c03671a21b9f2",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/GENERATOR_AUDIT.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/GENERATOR_AUDIT.md",
+      "classification": "public-safe",
+      "role": "supporting_product_artifact",
+      "bytes": 3664,
+      "sha256": "0d7101392944b812fc100e56feb3946bffbbc95217bfd0775d7f3c6c76e62397",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/GENERATOR_FAMILY_REGISTRY.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/GENERATOR_FAMILY_REGISTRY.json",
+      "classification": "public-safe",
+      "role": "generator_config",
+      "bytes": 12618,
+      "sha256": "b9ba6b78e291988b40fa4822e0b4681d6646c0802e1ca4bcb95e4c9ed6b641b6",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/GENERATOR_FAMILY_REGISTRY.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/GENERATOR_FAMILY_REGISTRY.md",
+      "classification": "public-safe",
+      "role": "generator_config",
+      "bytes": 2379,
+      "sha256": "627a67056e967430f211ecb5954e7344e610f686fa2dcb6bdece18998ec5ca33",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/GENERATOR_OUTPUTS.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/GENERATOR_OUTPUTS.json",
+      "classification": "public-safe",
+      "role": "supporting_product_artifact",
+      "bytes": 692253,
+      "sha256": "b6f3ea0fafb1870681394be2bcc0824e504ba4d2dfc554f8b2bd1eb3e9303a68",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/GENERATOR_RUN_RESULTS.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/GENERATOR_RUN_RESULTS.md",
+      "classification": "public-safe",
+      "role": "supporting_product_artifact",
+      "bytes": 12893,
+      "sha256": "26d8e83852aeebb3d90129e4a5786e37bdc7093961536f209b82aac807592818",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/HARD_SEED_BIRTH_EVALUATION.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/HARD_SEED_BIRTH_EVALUATION.json",
+      "classification": "public-safe",
+      "role": "supporting_product_artifact",
+      "bytes": 270635,
+      "sha256": "2e058b239c86b4d0e057b7af9ffe92d44edc0abd802a221624babc6be41d15d7",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/HARD_SEED_BIRTH_EVALUATION.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/HARD_SEED_BIRTH_EVALUATION.md",
+      "classification": "public-safe",
+      "role": "supporting_product_artifact",
+      "bytes": 11059,
+      "sha256": "2092a6047f3b26e6db2ee620490874f02a1ee68e502e4162f2ff8dc1888e2ba0",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/latest.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/latest.json",
+      "classification": "public-safe",
+      "role": "supporting_product_artifact",
+      "bytes": 4565,
+      "sha256": "0756059ee78ea97b2708603f747417dcb3b5b0b5e06e45b6849290fa06af035d",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json",
+      "classification": "public-safe",
+      "role": "runtime_evidence",
+      "bytes": 28341,
+      "sha256": "9f5de6d838ceedd67a822476e73e14c971a383cdf29be551a64482e3982b859f",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-02.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-02.json",
+      "classification": "public-safe",
+      "role": "runtime_evidence",
+      "bytes": 28339,
+      "sha256": "5493fe77fa37ad50c06eddfb586d1ee7aa3dbf0d4c11802298560e585817f601",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-03.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-03.json",
+      "classification": "public-safe",
+      "role": "runtime_evidence",
+      "bytes": 21178,
+      "sha256": "8281b14d03b55090a358bc3133061ba791caa52b5a3bfee6fc07c2bf05f8787d",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-04.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-04.json",
+      "classification": "public-safe",
+      "role": "runtime_evidence",
+      "bytes": 21178,
+      "sha256": "ed17cf6108706c0ece66903de89cf755c148d474b1331905322d0efbafe94a4d",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-05.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-05.json",
+      "classification": "public-safe",
+      "role": "runtime_evidence",
+      "bytes": 21178,
+      "sha256": "3686be5d926709540ea13380b7e50688b71df061533ea7eae6869b01fa7b6b1c",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-06.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-06.json",
+      "classification": "public-safe",
+      "role": "runtime_evidence",
+      "bytes": 21155,
+      "sha256": "340c725181858a43bae4eac2d64d101094660243e4ffe9ca48f4e8f617c9985e",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-07.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-07.json",
+      "classification": "public-safe",
+      "role": "runtime_evidence",
+      "bytes": 21151,
+      "sha256": "23eb90cb56dd63beb0f6e28cf6e7d093eb5263832ee0b814c395452977b05b4e",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-08.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-08.json",
+      "classification": "public-safe",
+      "role": "runtime_evidence",
+      "bytes": 20941,
+      "sha256": "25c952491efcfc91eb9d24edc3831f3f9d58d9a5b3f85345528ae9e936d0479f",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-09.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-09.json",
+      "classification": "public-safe",
+      "role": "runtime_evidence",
+      "bytes": 21149,
+      "sha256": "1971b7f235a73da0627d952871d68d6d2d7e6f0395ddb1892207d848e762fb1c",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-10.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-10.json",
+      "classification": "public-safe",
+      "role": "runtime_evidence",
+      "bytes": 21407,
+      "sha256": "389b0c856a6329ae6310dc7ab470e4b3339b705c85677c7bcec1f73e73dc99e0",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/EXECUTION_REFS.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/EXECUTION_REFS.json",
+      "classification": "public-safe",
+      "role": "holdout_prediction_killweek_or_execution_refs",
+      "bytes": 6259,
+      "sha256": "3a1792fc72ca75da42fe389801315f88541322ade56e7e61bb788de100ffc865",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json",
+      "classification": "public-safe",
+      "role": "holdout_prediction_killweek_or_execution_refs",
+      "bytes": 10695,
+      "sha256": "7bf86f9646c7f87d5ad44357f45c265e9dba283bf9a8c4839869b1c0b719e0e1",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.md",
+      "classification": "public-safe",
+      "role": "holdout_prediction_killweek_or_execution_refs",
+      "bytes": 2735,
+      "sha256": "4b67e226226b1b90d0863a4abb418f9c119eeb0497f5ed0540ead98d3ce5a827",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/KILL_WEEK_RESULTS.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/KILL_WEEK_RESULTS.json",
+      "classification": "public-safe",
+      "role": "holdout_prediction_killweek_or_execution_refs",
+      "bytes": 4082,
+      "sha256": "b6503aee940f3991bb2590da2d49c251ab0433eaa4f116f22bedaec5b757c480",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/KILL_WEEK_RESULTS.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/KILL_WEEK_RESULTS.md",
+      "classification": "public-safe",
+      "role": "holdout_prediction_killweek_or_execution_refs",
+      "bytes": 853,
+      "sha256": "b98099fe98571a8056438ddcccda8330e7abbf3312203dc80fd1fea3bd83bb6f",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json",
+      "classification": "public-safe",
+      "role": "supporting_product_artifact",
+      "bytes": 12879,
+      "sha256": "0e12debbd06dbb22386d5773c2d06544c7bcb6bd4f6ab126caeff6a585267fdd",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-pressure/BASELINE_PRESSURE_RESULTS.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-pressure/BASELINE_PRESSURE_RESULTS.md",
+      "classification": "public-safe",
+      "role": "pressure_test_record",
+      "bytes": 1952,
+      "sha256": "2c69b70b2a36d7a84fc979f37747e86a3fad2bfbd37aa58702625bb6a171767f",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-pressure/COUNTEREXAMPLE_PRESSURE_RESULTS.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-pressure/COUNTEREXAMPLE_PRESSURE_RESULTS.md",
+      "classification": "public-safe",
+      "role": "pressure_test_record",
+      "bytes": 1661,
+      "sha256": "41fe6a226dac93ba0f0a58a69a99c3d0491c28b8d1e30417625d16cefbdbc18e",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-pressure/FUND_GATE_RESULTS.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-pressure/FUND_GATE_RESULTS.md",
+      "classification": "public-safe",
+      "role": "pressure_test_record",
+      "bytes": 216,
+      "sha256": "c52ca75a48bce50211f6a2aaec5494fc12ffb9c3309a99f432b627e4b7bc0507",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-pressure/GENERATOR_BORN_HARD_SEEDS_PROFILE.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-pressure/GENERATOR_BORN_HARD_SEEDS_PROFILE.md",
+      "classification": "public-safe",
+      "role": "pressure_test_record",
+      "bytes": 5742,
+      "sha256": "6335c3858b35bc72ae1be973dc720c34bf6ca82a9a89bc659395f44bf446d513",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-pressure/GENERATOR_BORN_TEST_PLANS.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-pressure/GENERATOR_BORN_TEST_PLANS.md",
+      "classification": "public-safe",
+      "role": "pressure_test_record",
+      "bytes": 6433,
+      "sha256": "d1fc71f2b651f21fe1fb41f8f1988adbac7aadb646f2a4c7004506429a81db1a",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-pressure/HOLDOUT_REPLAY_PRESSURE_RESULTS.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-pressure/HOLDOUT_REPLAY_PRESSURE_RESULTS.md",
+      "classification": "public-safe",
+      "role": "pressure_test_record",
+      "bytes": 1607,
+      "sha256": "e162953e5a0a64a8095383259ee5daad2fa49aefbeba51b31936892b38118b12",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-pressure/INSIGHT_CANDIDATE_DERIVATION_DECISIONS.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-pressure/INSIGHT_CANDIDATE_DERIVATION_DECISIONS.md",
+      "classification": "public-safe",
+      "role": "pressure_test_record",
+      "bytes": 2372,
+      "sha256": "8874541a17c7332c2ba7e41ae9a307294c129f65dc27c41bfd44e9c880dafdff",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-pressure/INSPECTABILITY_PRESSURE_RESULTS.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-pressure/INSPECTABILITY_PRESSURE_RESULTS.md",
+      "classification": "public-safe",
+      "role": "pressure_test_record",
+      "bytes": 1985,
+      "sha256": "91408c703de1bfce4eedc0dcec9d2ab119e61da83517363a0e4efede1c14ad8c",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-pressure/MECHANISM_PROOF_PRESSURE_RESULTS.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-pressure/MECHANISM_PROOF_PRESSURE_RESULTS.md",
+      "classification": "public-safe",
+      "role": "pressure_test_record",
+      "bytes": 1581,
+      "sha256": "54c44d7ebe8cbe31084799665db731f7dc9572619ecbf5de6a996c50130c22dc",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-pressure/NEXT_CHECKPOINT.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-pressure/NEXT_CHECKPOINT.md",
+      "classification": "public-safe",
+      "role": "pressure_test_record",
+      "bytes": 478,
+      "sha256": "ab06f51b57b13c287a4c275d2cfa01d087cb0964f39ae1d8d7912e86f6d6732c",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-pressure/PRESSURE_ROWS.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-pressure/PRESSURE_ROWS.json",
+      "classification": "public-safe",
+      "role": "pressure_test_record",
+      "bytes": 41050,
+      "sha256": "ed6b071aadaf3de80e96907a5f5e8603bc4b2ad8ec24922fd5780b4bbe3caed9",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-pressure/RECURRENCE_PRESSURE_RESULTS.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-pressure/RECURRENCE_PRESSURE_RESULTS.md",
+      "classification": "public-safe",
+      "role": "pressure_test_record",
+      "bytes": 1769,
+      "sha256": "eba50f6eb01f50192c9285cf7dde7c240460e1047ef7a4522d287f324e8e3b8e",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-pressure/RIVAL_PRESSURE_RESULTS.md",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-pressure/RIVAL_PRESSURE_RESULTS.md",
+      "classification": "public-safe",
+      "role": "pressure_test_record",
+      "bytes": 1787,
+      "sha256": "37665595e59fe9a5ea648ce23f10b66f42cc8716cf453e90c69ecb76c9ca8db7",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/generator-pressure/latest.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/generator-pressure/latest.json",
+      "classification": "public-safe",
+      "role": "pressure_test_record",
+      "bytes": 2782,
+      "sha256": "75ba08c21b52d59c5797771fece1c0bf1ea27bc671a600cf1eb62898578f39ca",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/discovery-daemon/insight-candidates/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json",
+      "sourceProductPath": ".sovryn/discovery-daemon/insight-candidates/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json",
+      "classification": "public-safe",
+      "role": "supporting_product_artifact",
+      "bytes": 17919,
+      "sha256": "54c71a1e5c808e5e4058ac4e53f3a025d929a2e0e8e028ae26e7ef86a4b5d66c",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/nobel-readiness/EXTERNAL_REVIEW_HANDOFF.md",
+      "sourceProductPath": ".sovryn/nobel-readiness/EXTERNAL_REVIEW_HANDOFF.md",
+      "classification": "public-safe",
+      "role": "readiness_or_review_handoff",
+      "bytes": 2367,
+      "sha256": "d985927d064990e23855de0b627657249db80dcfadd2e3ac065b7dd5c6b281a9",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/nobel-readiness/NOBEL_READINESS_REPORT.md",
+      "sourceProductPath": ".sovryn/nobel-readiness/NOBEL_READINESS_REPORT.md",
+      "classification": "public-safe",
+      "role": "readiness_or_review_handoff",
+      "bytes": 752,
+      "sha256": "21676abdd5dbfc5cb5b6364d74dde00d3ac5db8ab653bf65db094989f842f4ad",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/nobel-readiness/external-review-bundle/EVIDENCE_REF_INDEX.md",
+      "sourceProductPath": ".sovryn/nobel-readiness/external-review-bundle/EVIDENCE_REF_INDEX.md",
+      "classification": "public-safe",
+      "role": "readiness_or_review_handoff",
+      "bytes": 10704,
+      "sha256": "9f8a4caf19c538ee4a357b117669e979407e5934e03ee1732db32ef240e2d4cc",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/nobel-readiness/external-review-bundle/MANIFEST.json",
+      "sourceProductPath": ".sovryn/nobel-readiness/external-review-bundle/MANIFEST.json",
+      "classification": "public-safe",
+      "role": "readiness_or_review_handoff",
+      "bytes": 18544,
+      "sha256": "110c5a204072c495c4188bf3c1ffae9f78a0f5aa89f7f99924a1dcd2557ba612",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/nobel-readiness/external-review-bundle/REPRODUCTION_QUEUE.md",
+      "sourceProductPath": ".sovryn/nobel-readiness/external-review-bundle/REPRODUCTION_QUEUE.md",
+      "classification": "public-safe",
+      "role": "readiness_or_review_handoff",
+      "bytes": 1203,
+      "sha256": "7d1195b93af58d0459d39bcd5c9d16a86d50eae6589d0ec7c49255237772b054",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/nobel-readiness/external-review-bundle/REVIEWER_CHECKLIST.md",
+      "sourceProductPath": ".sovryn/nobel-readiness/external-review-bundle/REVIEWER_CHECKLIST.md",
+      "classification": "public-safe",
+      "role": "readiness_or_review_handoff",
+      "bytes": 1675,
+      "sha256": "f27fa1856f730cd4ac5c49127c0efb0a31d501f100555cb489545006c4d88b33",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/nobel-readiness/external-review-handoff.json",
+      "sourceProductPath": ".sovryn/nobel-readiness/external-review-handoff.json",
+      "classification": "public-safe",
+      "role": "readiness_or_review_handoff",
+      "bytes": 20334,
+      "sha256": "33312218d210503406a542ede5d1e1f68098558977877b053c691e94488704ec",
+      "notes": []
+    },
+    {
+      "path": "raw-reproduction-bundle/product-state/nobel-readiness/readiness-score.json",
+      "sourceProductPath": ".sovryn/nobel-readiness/readiness-score.json",
+      "classification": "public-safe",
+      "role": "readiness_or_review_handoff",
+      "bytes": 1413,
+      "sha256": "2fbcfc3f78dc8c8a8bded6ac20a5d42d721f532a1312b2a6cfc52a1c91028416",
+      "notes": []
+    }
+  ],
+  "missingRawScientificInputs": [
+    {
+      "input": "descriptor matrix / feature definition",
+      "status": "not found in Product .sovryn Matbench artifacts",
+      "whyRequired": "required to map raw formulas into descriptor-transfer features"
+    },
+    {
+      "input": "featurizer configuration",
+      "status": "not found in Product .sovryn Matbench artifacts",
+      "whyRequired": "required to reproduce pymatgen/matminer/ASE descriptor construction"
+    },
+    {
+      "input": "model and training configuration",
+      "status": "not found in Product .sovryn Matbench artifacts",
+      "whyRequired": "required to reproduce measured outcome 0.72 from raw data"
+    },
+    {
+      "input": "exact train/validation/holdout split and family labels",
+      "status": "not found in Product .sovryn Matbench artifacts",
+      "whyRequired": "required to reproduce target-family and holdout claims"
+    },
+    {
+      "input": "target subset manifest",
+      "status": "not found in Product .sovryn Matbench artifacts",
+      "whyRequired": "Product source-cache records rawTargetCount 300 but public JSON extraction sees 921 records"
+    },
+    {
+      "input": "raw-data residual formula / normalization",
+      "status": "not found in Product .sovryn Matbench artifacts",
+      "whyRequired": "required to derive residual 0.21 scientifically"
+    },
+    {
+      "input": "exact baseline implementations for 0.34 / 0.29 / 0.23",
+      "status": "not found in Product .sovryn Matbench artifacts",
+      "whyRequired": "required to derive control scalars scientifically"
+    },
+    {
+      "input": "external runnable holdout/counterexample manifests",
+      "status": "not found as executable manifests in Product .sovryn Matbench artifacts",
+      "whyRequired": "required for external replay of holdout/counterexample pressure"
+    }
+  ],
+  "withheldArtifacts": [],
+  "irrelevantArtifactsNotCopied": [
+    "Other Matbench dielectric candidate packages not on the published descriptor-transfer candidate path.",
+    "Other generator family runtime evidence for Gaia, formal, benchmark, OpenML, SNAP, SATLIB, NASA/energy, and non-Matbench targets.",
+    "Historical search-cycle files with unrelated daemon state."
+  ]
+}

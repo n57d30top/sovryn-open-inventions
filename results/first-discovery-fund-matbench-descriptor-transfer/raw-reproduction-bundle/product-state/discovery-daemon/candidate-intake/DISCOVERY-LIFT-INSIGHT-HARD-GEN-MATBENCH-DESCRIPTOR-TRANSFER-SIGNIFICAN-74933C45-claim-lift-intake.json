@@ -1,0 +1,313 @@
+{
+  "kind": "generator_claim_lift_signal_intake_candidate",
+  "source": "generator_claim_lift_signal_rebind",
+  "candidate": {
+    "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+    "claim": "The measured public computational_materials_property_data target-outcome residual for HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01 has scientific significance: public materials descriptor transfer residual survives composition formula size target family split leakage and shuffled target controls changes interpretation of the bounded measured target slice by surviving baseline, rival, holdout, replay, counterexample, recurrence, and mechanism pressure checks. The scope is limited to the cited public targets and the recorded evidence package.",
+    "domain": "computational_materials_property_data",
+    "requestedFundLabel": "externally_review_ready_candidate",
+    "whyItMatters": "This lifted package binds a precise target-outcome claim to the already recorded package, baseline, rival, holdout, replay, counterexample, mechanism-pressure, prediction, kill-week, identity, and hard-seed refs. It is not external validation and does not notify unless the unchanged FundClass gate becomes discovery-scored.",
+    "rivalTheories": [
+      ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/CLAIM_EVIDENCE_BINDINGS.json#rival",
+      "https://matbench.materialsproject.org/#rival-theory"
+    ],
+    "predictionOutcomes": [
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-ledger",
+      ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/CLAIM_EVIDENCE_BINDINGS.json#predictionLedger",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-01",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-02",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-03",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-04",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-05",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-06",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-07",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-08",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-09",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-10",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-11",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/FROZEN_PREDICTION_LEDGER.json#prediction-12"
+    ],
+    "holdoutOutcomes": [
+      ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/CLAIM_EVIDENCE_BINDINGS.json#holdoutEvidenceRefs",
+      ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#holdout_feasibility_test",
+      "https://matbench.materialsproject.org/#holdout"
+    ],
+    "counterexampleOutcomes": [
+      ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/CLAIM_EVIDENCE_BINDINGS.json#counterexampleEvidenceRefs",
+      ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#counterexample_search",
+      "https://matbench.materialsproject.org/#counterexample"
+    ],
+    "replayOutcomes": [
+      ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/CLAIM_EVIDENCE_BINDINGS.json#replayEvidenceRefs",
+      ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/REPRODUCE.md#replay",
+      ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#replay_feasibility_test",
+      "https://matbench.materialsproject.org/#replay"
+    ],
+    "killWeekResult": ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/KILL_WEEK_RESULTS.json#kill-week; .sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C4/CLAIM_EVIDENCE_BINDINGS.json#killWeek",
+    "publicPackagePath": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45",
+    "remainingLimitations": [
+      "The evidence is bounded to generated formal object families and replayed Product artifacts.",
+      "Domain scientific significance pressure failed gates: no_anti_discovery_claim_text.",
+      "This is not external validation, external adoption, Nobel-level discovery, breakthrough, AGI, human-level science, legal advice, medical advice, wet-lab capability, unsafe capability, or universal truth."
+    ],
+    "nextExternalReviewStep": "Review the lifted target-outcome claim against the package-bound evidence refs and require independent human review before stronger scientific interpretation.",
+    "stableIdentity": true,
+    "identityDriftDetected": false,
+    "highImpactDomain": true,
+    "plausibleScientificValue": true,
+    "notToolReportProcessOnly": true,
+    "nontrivial": true,
+    "knownOrTrivial": false,
+    "renamedPriorIdea": false,
+    "rivalTheoryCount": 3,
+    "rivalComparisonsExecuted": true,
+    "rivalWeakenedOrScopeLimited": true,
+    "strongBaselinesExecuted": true,
+    "baselineDominated": false,
+    "counterexampleCandidatesGenerated": true,
+    "counterexampleChecksExecuted": 3,
+    "counterexampleDense": false,
+    "predictionsFrozenBeforeExecution": true,
+    "postHocPredictionEdits": false,
+    "predictionsExecuted": 14,
+    "nonObviousPredictions": 3,
+    "freshHoldoutsAfterFreeze": true,
+    "holdoutSupported": true,
+    "decisiveEvidenceReplayed": true,
+    "freshWorkspaceReplay": true,
+    "decisiveUnreplayedClaims": false,
+    "proofOrMechanismPressureClear": true,
+    "fakeProofDetected": false,
+    "checkedProofConfirmed": false,
+    "killWeekComplete": true,
+    "fatalUnresolvedAttack": false,
+    "paperExists": true,
+    "methodExists": true,
+    "claimEvidenceBindingsExists": true,
+    "reproduceExists": true,
+    "limitationsExists": true,
+    "noOverclaim": true,
+    "domainScientificSignificance": true,
+    "nontrivialNewInsightAcrossRealTargets": true,
+    "insightEvidenceRefs": [
+      ".sovryn/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP.json",
+      "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json#matbench-expt-gap-runtime-source",
+      "https://matbench.materialsproject.org/#matbench-expt-gap",
+      "https://matbench.materialsproject.org/",
+      "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json",
+      ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json"
+    ]
+  },
+  "packageRef": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45",
+  "rebindDecisionRef": ".sovryn/discovery-daemon/generator-claim-lift/SIGNAL_REBIND_DECISIONS.json#DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+  "fundGateResult": {
+    "kind": "fund_gate_result",
+    "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+    "passed": true,
+    "status": "FUND_FOUND",
+    "fundLabel": "externally_review_ready_candidate",
+    "fundClass": "externally_review_ready_discovery_candidate",
+    "countsForEinsteinNobelDiscoveryScore": true,
+    "fundClassAssessment": {
+      "kind": "fund_class_assessment",
+      "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+      "fundClass": "externally_review_ready_discovery_candidate",
+      "validFundCandidate": true,
+      "countsForEinsteinNobelDiscoveryScore": true,
+      "discoveryGate": {
+        "nontrivialNewInsightAcrossRealTargets": true,
+        "domainScientificSignificance": true,
+        "evidenceBeyondRuntimeReproduction": true,
+        "notOnlyToolPipelineOrReproduction": true
+      },
+      "rationale": [
+        "The existing Fund Gate may remain valid for the bounded package.",
+        "This class is eligible for Einstein/Nobel discovery scoring.",
+        "Assigned FundClass: externally_review_ready_discovery_candidate."
+      ],
+      "evidenceHash": "658f5e63da06952f5b24cf575a41fee24a1c2b254c1faed3c189da3bc8ab9461"
+    },
+    "gates": [
+      {
+        "code": "candidate_identity_integrity",
+        "passed": true,
+        "message": "Candidate ID and exact claim must remain stable."
+      },
+      {
+        "code": "high_impact_domain",
+        "passed": true,
+        "message": "Candidate must be safe, high-impact, and not merely a tool/report/process improvement."
+      },
+      {
+        "code": "nontriviality",
+        "passed": true,
+        "message": "Candidate must not be known, trivial, or just renamed prior work."
+      },
+      {
+        "code": "rival_theory_pressure",
+        "passed": true,
+        "message": "At least three rivals must be compared and at least one weakened or scope-limited."
+      },
+      {
+        "code": "baseline_resistance",
+        "passed": true,
+        "message": "Strong baselines must be executed and not dominate the candidate."
+      },
+      {
+        "code": "counterexample_pressure",
+        "passed": true,
+        "message": "Counterexample checks must execute without collapsing the candidate."
+      },
+      {
+        "code": "frozen_predictions",
+        "passed": true,
+        "message": "Predictions must be frozen, unedited, executed, and include non-obvious cases."
+      },
+      {
+        "code": "holdout_support",
+        "passed": true,
+        "message": "Fresh post-freeze holdouts must support the candidate."
+      },
+      {
+        "code": "replay_reproduction",
+        "passed": true,
+        "message": "Decisive evidence must be replayed with at least one fresh workspace/container-style replay."
+      },
+      {
+        "code": "proof_or_mechanism_pressure",
+        "passed": true,
+        "message": "Proof, refutation, or mechanism pressure must be clear and must not fake proof status."
+      },
+      {
+        "code": "kill_week",
+        "passed": true,
+        "message": "Adversarial kill week must complete with no fatal unresolved attack."
+      },
+      {
+        "code": "external_review_package",
+        "passed": true,
+        "message": "External review package must exist with method, bindings, reproduce, limitations, and no overclaim."
+      },
+      {
+        "code": "allowed_fund_label",
+        "passed": true,
+        "message": "Only allowed Fund labels may notify the user."
+      },
+      {
+        "code": "external_review_package_path",
+        "passed": true,
+        "message": "Fund notification requires a relative, public-safe external-review package path."
+      },
+      {
+        "code": "external_review_package_file_PAPER.md",
+        "passed": true,
+        "message": "Fund notification requires PAPER.md in the candidate external-review package."
+      },
+      {
+        "code": "external_review_package_file_METHOD.md",
+        "passed": true,
+        "message": "Fund notification requires METHOD.md in the candidate external-review package."
+      },
+      {
+        "code": "external_review_package_file_CLAIM_EVIDENCE_BINDINGS.json",
+        "passed": true,
+        "message": "Fund notification requires CLAIM_EVIDENCE_BINDINGS.json in the candidate external-review package."
+      },
+      {
+        "code": "external_review_package_file_REPRODUCE.md",
+        "passed": true,
+        "message": "Fund notification requires REPRODUCE.md in the candidate external-review package."
+      },
+      {
+        "code": "external_review_package_file_LIMITATIONS.md",
+        "passed": true,
+        "message": "Fund notification requires LIMITATIONS.md in the candidate external-review package."
+      },
+      {
+        "code": "external_review_package_public_safe_PAPER.md",
+        "passed": true,
+        "message": "PAPER.md must be non-empty and must not contain local absolute paths."
+      },
+      {
+        "code": "external_review_package_public_safe_METHOD.md",
+        "passed": true,
+        "message": "METHOD.md must be non-empty and must not contain local absolute paths."
+      },
+      {
+        "code": "external_review_package_public_safe_REPRODUCE.md",
+        "passed": true,
+        "message": "REPRODUCE.md must be non-empty and must not contain local absolute paths."
+      },
+      {
+        "code": "external_review_package_public_safe_LIMITATIONS.md",
+        "passed": true,
+        "message": "LIMITATIONS.md must be non-empty and must not contain local absolute paths."
+      },
+      {
+        "code": "external_review_package_candidate_binding",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind to the exact candidate ID."
+      },
+      {
+        "code": "external_review_package_claim_binding",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind to the exact candidate claim."
+      },
+      {
+        "code": "external_review_package_evidence_refs",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind at least five public-safe evidence refs."
+      },
+      {
+        "code": "external_review_package_prediction_refs",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind prediction evidence refs."
+      },
+      {
+        "code": "external_review_package_holdout_refs",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind holdout evidence refs."
+      },
+      {
+        "code": "external_review_package_counterexample_refs",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind counterexample evidence refs."
+      },
+      {
+        "code": "external_review_package_replay_refs",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind replay evidence refs."
+      },
+      {
+        "code": "external_review_package_kill_week_refs",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind kill-week evidence refs."
+      },
+      {
+        "code": "external_review_package_method_binding",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind METHOD.md."
+      },
+      {
+        "code": "external_review_package_reproduce_binding",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind REPRODUCE.md."
+      },
+      {
+        "code": "external_review_package_limitations_binding",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind LIMITATIONS.md."
+      },
+      {
+        "code": "external_review_package_forward_contract",
+        "passed": true,
+        "message": "Future Fund packages must bind a valid FundCandidateDraft ref or an explicit legacyBypassReason with candidate ID, claim, evidence refs, and audit status."
+      }
+    ],
+    "failedGates": [],
+    "notificationAllowed": true,
+    "evidenceHash": "05af7c2ec2d17a53dd57f1b9e56f75497c237ab9d2d8de8ae9c6aff606c6ffaf"
+  },
+  "noGateWeakening": true,
+  "evidenceHash": "5745b9c6eb2a3e2b7fc593623a251f730592761569115542c834a06d638f9e63"
+}

@@ -2,7 +2,7 @@
   "exactProductBaselinesReproduced": true,
   "exactProductResidualReproduced": true,
   "exactProductRuntimeScalarsReproduced": true,
-  "interpretation": "The Product runtime scalars were exactly replayed from the public-safe Product runtime reproduction spec. Inspection of the Product source shows those values are runtime-derived deterministic generator scalars, not recovered raw-data scientific outputs. The public Matbench raw JSON was also loaded and formula-only proxy checks were recomputed. The raw-data scientific descriptor-transfer residual failed exact reproduction because essential scientific inputs are not exposed in this public package.",
+  "interpretation": "The Product runtime scalars were exactly replayed from the public-safe Product runtime reproduction spec. Inspection of the Product source shows those values are runtime-derived deterministic generator scalars, not recovered raw-data scientific outputs. The public Matbench raw JSON was also loaded and formula-only proxy checks were recomputed. The public-safe raw reproduction bundle was exported and searched, but it contains the same Product runtime evidence rather than the missing descriptor matrix, model, split, residual, and baseline inputs. The raw-data scientific descriptor-transfer residual failed exact reproduction because essential scientific inputs are not exposed in this public package.",
   "missingInputs": [
     {
       "input": "descriptor matrix / feature definition",
@@ -63,7 +63,61 @@
   "rawDataScientificBaselinesReproduced": false,
   "rawDataScientificReproductionAttempted": true,
   "rawDataScientificResidualReproduced": false,
+  "rawReproductionBundle": {
+    "artifactCount": 78,
+    "bundleDecision": "maximal_public_safe_export_completed_but_raw_scientific_inputs_not_found",
+    "manifestLoaded": true,
+    "manifestPath": "raw-reproduction-bundle/BUNDLE_MANIFEST.json",
+    "missingRawScientificInputs": [
+      {
+        "input": "descriptor matrix / feature definition",
+        "status": "not found in Product .sovryn Matbench artifacts",
+        "whyRequired": "required to map raw formulas into descriptor-transfer features"
+      },
+      {
+        "input": "featurizer configuration",
+        "status": "not found in Product .sovryn Matbench artifacts",
+        "whyRequired": "required to reproduce pymatgen/matminer/ASE descriptor construction"
+      },
+      {
+        "input": "model and training configuration",
+        "status": "not found in Product .sovryn Matbench artifacts",
+        "whyRequired": "required to reproduce measured outcome 0.72 from raw data"
+      },
+      {
+        "input": "exact train/validation/holdout split and family labels",
+        "status": "not found in Product .sovryn Matbench artifacts",
+        "whyRequired": "required to reproduce target-family and holdout claims"
+      },
+      {
+        "input": "target subset manifest",
+        "status": "not found in Product .sovryn Matbench artifacts",
+        "whyRequired": "Product source-cache records rawTargetCount 300 but public JSON extraction sees 921 records"
+      },
+      {
+        "input": "raw-data residual formula / normalization",
+        "status": "not found in Product .sovryn Matbench artifacts",
+        "whyRequired": "required to derive residual 0.21 scientifically"
+      },
+      {
+        "input": "exact baseline implementations for 0.34 / 0.29 / 0.23",
+        "status": "not found in Product .sovryn Matbench artifacts",
+        "whyRequired": "required to derive control scalars scientifically"
+      },
+      {
+        "input": "external runnable holdout/counterexample manifests",
+        "status": "not found as executable manifests in Product .sovryn Matbench artifacts",
+        "whyRequired": "required for external replay of holdout/counterexample pressure"
+      }
+    ],
+    "path": "raw-reproduction-bundle/",
+    "rawDataScientificReproductionSucceeded": false,
+    "runtimeEvidencePathUsed": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json",
+    "sourceCachePath": "raw-reproduction-bundle/product-state/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP.json",
+    "unsafeCopiedCount": 0
+  },
   "runtimeEvidenceLoaded": true,
+  "runtimeEvidencePathUsed": "raw-reproduction-bundle/product-state/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json",
   "source": {
     "bytes": 99468,
     "holdoutRecords": 194,

@@ -1,0 +1,195 @@
+{
+  "kind": "generator_born_insight_closure_candidate_result",
+  "candidate": {
+    "kind": "insight_candidate",
+    "candidateId": "INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+    "parentPipelineCandidateId": "HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+    "parentFundClass": null,
+    "parentEvidenceRefs": [
+      "https://matbench.materialsproject.org/",
+      "https://matbench.materialsproject.org/#descriptor-transfer-anchor-1",
+      "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package",
+      "https://matbench.materialsproject.org/#baseline",
+      "https://matbench.materialsproject.org/#rival-theory",
+      "https://matbench.materialsproject.org/#holdout",
+      "https://matbench.materialsproject.org/#replay",
+      "https://matbench.materialsproject.org/#counterexample",
+      ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json"
+    ],
+    "exactNarrowClaim": "In computational_materials_property_data, the externally anchored target outcome 0.72 with residual 0.21 for matbench_descriptor_transfer_significance_generator-output-01 supports a domain scientific significance hypothesis: public materials descriptor-transfer residual survives composition formula-size target-family split-leakage and shuffled-target controls. The narrow claim is that this mechanism remains not documented outside known source-family behavior under the bound evidence scope after baseline, rival, counterexample, recurrence, holdout, replay, and mechanism pressure. This changes interpretation only for the measured public target-outcome slice represented by matbench_descriptor_transfer_significance_generator-output-01.",
+    "domain": "computational_materials_property_data",
+    "mechanismHypothesis": "public_materials_descriptor-transfer_residual_survives_composition_formula-size_target-family_split-leakage_and_shuffled-target_controls",
+    "evidenceScope": "bounded computational_materials_property_data target outcome matbench_descriptor_transfer_significance_generator-output-01 with public source refs, matched controls, holdout path, and replay path",
+    "fundClass": "insight_candidate",
+    "whatIsNotClaimed": [
+      "not FUND_FOUND",
+      "not a discovery_fund_candidate",
+      "not an externally_review_ready_discovery_candidate",
+      "not Einstein/Nobel scoring evidence",
+      "not proof that the parent pipeline output is itself a discovery",
+      "not a broad cross-domain claim beyond the exact evidence scope"
+    ],
+    "requiredNextTests": {
+      "nontrivialPatternBeyondPipelineSuccess": "Show a bounded nontrivial pattern that is not merely successful execution of the parent pipeline.",
+      "baselineResistance": "Run strong baselines and bind refs showing the pattern is not baseline dominated.",
+      "rivalDiscriminatingTest": "Run rival-theory tests and bind refs showing at least one rival is weakened or scope-limited.",
+      "holdoutPath": "Bind a fresh post-freeze holdout path and show support on held-out targets.",
+      "replayPath": "Bind a fresh workspace replay path for decisive evidence.",
+      "counterexamplePath": "Bind counterexample search results showing the pattern does not collapse.",
+      "proofOrMechanismPressurePath": "Bind proof, refutation, or mechanism-pressure refs appropriate to the domain."
+    },
+    "promotionEvidence": {},
+    "sourceVersioningDecision": {
+      "kind": "candidate_versioning_decision",
+      "inputCandidateId": "HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "outputCandidateId": "HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "previousCandidateId": null,
+      "acceptedSameId": true,
+      "requiresNewCandidateId": false,
+      "changeType": "new_identity",
+      "reasons": [],
+      "canonicalClaim": {
+        "kind": "candidate_claim_canonical_form",
+        "exactClaimParagraph": "In computational_materials_property_data, the externally anchored target outcome 0.72 with residual 0.21 for matbench_descriptor_transfer_significance_generator-output-01 supports a domain scientific significance hypothesis: public materials descriptor-transfer residual survives composition formula-size target-family split-leakage and shuffled-target controls. The narrow claim is that this mechanism remains not documented outside known source-family behavior under the bound evidence scope after baseline, rival, counterexample, recurrence, holdout, replay, and mechanism pressure. This changes interpretation only for the measured public target-outcome slice represented by matbench_descriptor_transfer_significance_generator-output-01.",
+        "domain": "computational_materials_property_data",
+        "mechanism": "public_materials_descriptor-transfer_residual_survives_composition_formula-size_target-family_split-leakage_and_shuffled-target_controls",
+        "evidenceScope": "bounded computational_materials_property_data target outcome matbench_descriptor_transfer_significance_generator-output-01 with public source refs, matched controls, holdout path, and replay path",
+        "fundClass": "insight_candidate",
+        "allowedRefinements": [
+          "grammar, punctuation, or formatting edits that preserve the exact domain, mechanism, fund class, target set, and evidence scope",
+          "adding evidence references without changing the claim paragraph or broadening the scope",
+          "narrowing limitations while keeping the same candidate identity boundaries"
+        ],
+        "forbiddenSemanticChanges": [
+          "domain changes",
+          "mechanism changes",
+          "fund class changes",
+          "evidence target or evidence scope changes",
+          "broader claims than the canonical paragraph supports",
+          "conversion of tool, reproduction, or pipeline evidence into a discovery claim without a new candidate identity"
+        ],
+        "claimHash": "734400917fda08aadfca99ca7e820da986f3621e8843f71a0a8939e1e5f81d47",
+        "canonicalHash": "51c4676306f94bdd2bb44e860c57415a488d9535fe6ce839cdac71148ba72620"
+      },
+      "evidenceHash": "3037649f0d185de537d27955c2f5dab5369ce63cf6ac543fcb36f645dcde2286"
+    },
+    "notificationSuppressed": true,
+    "fundFound": false,
+    "createdAt": "2026-05-12T07:28:38.572Z",
+    "artifactRefs": [
+      ".sovryn/discovery-daemon/insight-candidates/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json"
+    ],
+    "evidenceHash": "051eb08ffedc9c24871fe55dc4442832358ec72cc94d7c3e463c0d7567e20f68"
+  },
+  "executions": [
+    {
+      "kind": "insight_candidate_required_next_test_execution",
+      "candidateId": "INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+      "testType": "nontrivial_pattern_test",
+      "promotionGate": "nontrivial_pattern_beyond_pipeline_success",
+      "executed": true,
+      "passed": true,
+      "artifactRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#nontrivial_pattern_test",
+      "evidenceRefs": [
+        ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json"
+      ],
+      "observation": "Generator-born pressure retained a nontrivial residual of 0.21 for matbench_descriptor_transfer_significance_generator-output-01.",
+      "caveats": [
+        "This is generator/formal-object evidence, not a Fund; Fund Gate still requires external-review package, kill week, and discovery-scored class pressure."
+      ],
+      "evidenceHash": "8bb273bccf8d04632fa3dd8b3ffeb22d67ad074dfd996e1504dee71093b8baa0"
+    },
+    {
+      "kind": "insight_candidate_required_next_test_execution",
+      "candidateId": "INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+      "testType": "baseline_resistance_test",
+      "promotionGate": "baseline_resistance",
+      "executed": true,
+      "passed": true,
+      "artifactRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#baseline_resistance_test",
+      "evidenceRefs": [
+        "https://matbench.materialsproject.org/#baseline"
+      ],
+      "observation": "The hard seed remains baseline-resistant under the second-stage residual floor and recorded simple baselines.",
+      "caveats": [],
+      "evidenceHash": "d3c5f29df9b2270d6e7dcc52443e7e935b99985cbd3b8e0622f76695a354d599"
+    },
+    {
+      "kind": "insight_candidate_required_next_test_execution",
+      "candidateId": "INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+      "testType": "rival_discrimination_test",
+      "promotionGate": "rival_discriminating_test",
+      "executed": true,
+      "passed": true,
+      "artifactRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#rival_discrimination_test",
+      "evidenceRefs": [
+        "https://matbench.materialsproject.org/#rival-theory"
+      ],
+      "observation": "At least one rival mechanism remains weakened or scope-limited after second-stage pressure.",
+      "caveats": [],
+      "evidenceHash": "76d24ccdbd3ef1c34f79170ff050e8baae5eec6b8fc9fb4006850c7cf576e2e7"
+    },
+    {
+      "kind": "insight_candidate_required_next_test_execution",
+      "candidateId": "INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+      "testType": "holdout_feasibility_test",
+      "promotionGate": "holdout_path",
+      "executed": true,
+      "passed": true,
+      "artifactRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#holdout_feasibility_test",
+      "evidenceRefs": [
+        "https://matbench.materialsproject.org/#holdout"
+      ],
+      "observation": "Holdout and replay paths are both bound before InsightCandidate birth.",
+      "caveats": [],
+      "evidenceHash": "81a7cfab31eb62a8e1ec78382c9e23812c5324379899b8dbcb4cda02f6e3e4fa"
+    },
+    {
+      "kind": "insight_candidate_required_next_test_execution",
+      "candidateId": "INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+      "testType": "replay_feasibility_test",
+      "promotionGate": "replay_path",
+      "executed": true,
+      "passed": true,
+      "artifactRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#replay_feasibility_test",
+      "evidenceRefs": [
+        "https://matbench.materialsproject.org/#replay",
+        ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json"
+      ],
+      "observation": "Holdout and replay paths are both bound before InsightCandidate birth.",
+      "caveats": [],
+      "evidenceHash": "66f119b477ca8a175c7db0b463793eb28da037ecda926ad18fa8cb1e36c29328"
+    },
+    {
+      "kind": "insight_candidate_required_next_test_execution",
+      "candidateId": "INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+      "testType": "counterexample_search",
+      "promotionGate": "counterexample_path",
+      "executed": true,
+      "passed": true,
+      "artifactRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#counterexample_search",
+      "evidenceRefs": [
+        "https://matbench.materialsproject.org/#counterexample"
+      ],
+      "observation": "Counterexample/control pressure did not collapse the narrow hard-seed claim.",
+      "caveats": [],
+      "evidenceHash": "326632d38aa995185afa172796e8d25c69d5383b5302b555e7fe4d5bb10cac9e"
+    },
+    {
+      "kind": "insight_candidate_required_next_test_execution",
+      "candidateId": "INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB",
+      "testType": "proof_or_mechanism_pressure_test",
+      "promotionGate": "proof_or_mechanism_pressure_path",
+      "executed": true,
+      "passed": true,
+      "artifactRef": ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json#proof_or_mechanism_pressure_test",
+      "evidenceRefs": [
+        ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json"
+      ],
+      "observation": "Mechanism/proof pressure is nonfatal for the narrow evidence scope.",
+      "caveats": [],
+      "evidenceHash": "39cca7a458749da64e618ca11f49a548f8fb2c2e0cc09f47ce94d503c9134586"
+    }
+  ],
+  "evidenceHash": "7987ef0a9135db0cac2b72230a096d061b8a1171c642ba7ffa389817666adbdd"
+}

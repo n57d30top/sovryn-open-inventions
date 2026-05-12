@@ -1,0 +1,902 @@
+{
+  "kind": "birth_eligible_hard_seeds",
+  "hardSeeds": [
+    {
+      "kind": "hard_seed",
+      "seedId": "HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "candidateId": "GEN-CAND-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "type": "baseline_resistant_pattern",
+      "domain": "computational_materials_property_data",
+      "claim": "Mechanism-first generator matbench_descriptor_transfer_significance_generator produced a birth-eligible hard seed for cross-task materials property residual after descriptor-transfer and composition/control ablations. Domain scientific significance hypothesis: A materials descriptor-transfer mechanism has domain scientific significance only when it identifies a reproducible property-outcome residual across public materials tasks that is not absorbed by composition, formula-size, target-family, split-leakage, or shuffled-target rivals. Expected domain change: Discovery-scored evidence would be a narrow computational-materials mechanism claim about public property outcome structure with independent holdout and replay support, not a matminer or pymatgen pipeline success. Novelty discriminator: The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the descriptor-transfer property residual recurs across independent materials task slices after composition formula-size target-family split-leakage and shuffled-target controls. Rival prediction: composition formula-size target-family split leakage or shuffled-target controls erase the property residual. The narrow seed says only that target matbench_descriptor_transfer_significance_generator-target-01 deserves downstream InsightCandidate pressure because the runtime evidence survived simple baselines, rivals, counterexamples, cross-source support, holdout/replay availability, and the pre-birth domain-significance hypothesis gate.",
+      "observation": "Runtime generator evidence measured cross-task materials property residual after descriptor-transfer and composition/control ablations with outcome 0.72 and residual magnitude 0.21; this is a hard seed only, not a discovery candidate or Fund.",
+      "sourceRefs": [
+        "https://matbench.materialsproject.org/",
+        "https://matbench.materialsproject.org/#descriptor-transfer-anchor-1"
+      ],
+      "evidenceRefs": [
+        "https://matbench.materialsproject.org/",
+        "https://matbench.materialsproject.org/#descriptor-transfer-anchor-1",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "baselineRefs": [
+        "https://matbench.materialsproject.org/#baseline",
+        "https://matbench.materialsproject.org/#descriptor-transfer-anchor-1"
+      ],
+      "rivalRefs": [
+        "https://matbench.materialsproject.org/#rival-theory",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "holdoutRefs": [
+        "https://matbench.materialsproject.org/#holdout",
+        "https://matbench.materialsproject.org/#descriptor-transfer-anchor-1"
+      ],
+      "replayRefs": [
+        "https://matbench.materialsproject.org/#replay",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "counterexampleRefs": [
+        "https://matbench.materialsproject.org/#counterexample",
+        "https://matbench.materialsproject.org/#descriptor-transfer-anchor-1"
+      ],
+      "sourceSeed": {
+        "kind": "mechanism_first_generator_output",
+        "generatorId": "matbench_descriptor_transfer_significance_generator",
+        "targetId": "matbench_descriptor_transfer_significance_generator-target-01",
+        "outputId": "matbench_descriptor_transfer_significance_generator-output-01",
+        "externalProblemAnchor": {
+          "anchorId": "EXT-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE",
+          "anchorType": "public_measurement_residual",
+          "sourceRef": "https://matbench.materialsproject.org/",
+          "problemStatement": "Matbench public materials-property tasks provide externally inspectable property outcomes where descriptor-transfer claims must beat composition, formula-size, target-family, and split-leakage rivals before any hard-seed birth.",
+          "measuredTargetOutcome": "cross-task materials property residual under descriptor-transfer perturbation after composition, formula-size, target-family, and shuffled-target controls",
+          "knownBaselineOrPrior": "composition-only descriptors, formula size, element prevalence, target-family identity, split leakage, and shuffled-target controls are simple rivals for materials descriptor-transfer signals",
+          "externalValueRationale": "A descriptor-transfer residual has external value only if it changes interpretation of public materials-property evaluation outcomes beyond ordinary composition and task-family artifacts.",
+          "domainScientificSignificance": "A materials descriptor-transfer mechanism has domain scientific significance only when it identifies a reproducible property-outcome residual across public materials tasks that is not absorbed by composition, formula-size, target-family, split-leakage, or shuffled-target rivals.",
+          "discoveryScoredOutcome": "Discovery-scored evidence would be a narrow computational-materials mechanism claim about public property outcome structure with independent holdout and replay support, not a matminer or pymatgen pipeline success.",
+          "significanceEvidenceRefs": [
+            "https://matbench.materialsproject.org/",
+            "https://materialsproject.org/"
+          ],
+          "inspectabilityRef": "https://matbench.materialsproject.org/"
+        },
+        "domainSignificanceHypothesis": {
+          "statement": "A materials descriptor-transfer mechanism has domain scientific significance only when it identifies a reproducible property-outcome residual across public materials tasks that is not absorbed by composition, formula-size, target-family, split-leakage, or shuffled-target rivals.",
+          "expectedDomainChange": "Discovery-scored evidence would be a narrow computational-materials mechanism claim about public property outcome structure with independent holdout and replay support, not a matminer or pymatgen pipeline success.",
+          "noveltyDiscriminator": "The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the descriptor-transfer property residual recurs across independent materials task slices after composition formula-size target-family split-leakage and shuffled-target controls. Rival prediction: composition formula-size target-family split leakage or shuffled-target controls erase the property residual.",
+          "falsifier": "The significance claim is falsified if source-family, metadata, simple baseline, or negative-control mechanisms erase the residual. composition formula-size target-family split leakage or shuffled-target controls erase the property residual",
+          "evidenceRefs": [
+            "https://matbench.materialsproject.org/",
+            "https://materialsproject.org/"
+          ],
+          "tested": true,
+          "supported": true
+        },
+        "noFundClaim": true
+      },
+      "expectedDeathCause": "proof_or_mechanism_failed",
+      "avoidsDeathCauses": [
+        "not_externally_inspectable",
+        "baseline_dominated",
+        "known_trivial",
+        "rival_theory_stronger",
+        "counterexample_dense",
+        "no_holdout_path",
+        "no_replay_path"
+      ],
+      "confidenceScore": 72,
+      "generatedFrom": "fresh_external_bank",
+      "synthetic": false,
+      "partialCandidate": false,
+      "llmOnly": false,
+      "preflightOnly": false
+    },
+    {
+      "kind": "hard_seed",
+      "seedId": "HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-02",
+      "candidateId": "GEN-CAND-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-02",
+      "type": "baseline_resistant_pattern",
+      "domain": "computational_materials_property_data",
+      "claim": "Mechanism-first generator matbench_descriptor_transfer_significance_generator produced a birth-eligible hard seed for cross-task materials property residual after descriptor-transfer and composition/control ablations. Domain scientific significance hypothesis: A materials descriptor-transfer mechanism has domain scientific significance only when it identifies a reproducible property-outcome residual across public materials tasks that is not absorbed by composition, formula-size, target-family, split-leakage, or shuffled-target rivals. Expected domain change: Discovery-scored evidence would be a narrow computational-materials mechanism claim about public property outcome structure with independent holdout and replay support, not a matminer or pymatgen pipeline success. Novelty discriminator: The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the descriptor-transfer property residual recurs across independent materials task slices after composition formula-size target-family split-leakage and shuffled-target controls. Rival prediction: composition formula-size target-family split leakage or shuffled-target controls erase the property residual. The narrow seed says only that target matbench_descriptor_transfer_significance_generator-target-02 deserves downstream InsightCandidate pressure because the runtime evidence survived simple baselines, rivals, counterexamples, cross-source support, holdout/replay availability, and the pre-birth domain-significance hypothesis gate.",
+      "observation": "Runtime generator evidence measured cross-task materials property residual after descriptor-transfer and composition/control ablations with outcome 0.73 and residual magnitude 0.2; this is a hard seed only, not a discovery candidate or Fund.",
+      "sourceRefs": [
+        "https://matbench.materialsproject.org/",
+        "https://matbench.materialsproject.org/#descriptor-transfer-anchor-2"
+      ],
+      "evidenceRefs": [
+        "https://matbench.materialsproject.org/",
+        "https://matbench.materialsproject.org/#descriptor-transfer-anchor-2",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "baselineRefs": [
+        "https://matbench.materialsproject.org/#baseline",
+        "https://matbench.materialsproject.org/#descriptor-transfer-anchor-2"
+      ],
+      "rivalRefs": [
+        "https://matbench.materialsproject.org/#rival-theory",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "holdoutRefs": [
+        "https://matbench.materialsproject.org/#holdout",
+        "https://matbench.materialsproject.org/#descriptor-transfer-anchor-2"
+      ],
+      "replayRefs": [
+        "https://matbench.materialsproject.org/#replay",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "counterexampleRefs": [
+        "https://matbench.materialsproject.org/#counterexample",
+        "https://matbench.materialsproject.org/#descriptor-transfer-anchor-2"
+      ],
+      "sourceSeed": {
+        "kind": "mechanism_first_generator_output",
+        "generatorId": "matbench_descriptor_transfer_significance_generator",
+        "targetId": "matbench_descriptor_transfer_significance_generator-target-02",
+        "outputId": "matbench_descriptor_transfer_significance_generator-output-02",
+        "externalProblemAnchor": {
+          "anchorId": "EXT-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE",
+          "anchorType": "public_measurement_residual",
+          "sourceRef": "https://matbench.materialsproject.org/",
+          "problemStatement": "Matbench public materials-property tasks provide externally inspectable property outcomes where descriptor-transfer claims must beat composition, formula-size, target-family, and split-leakage rivals before any hard-seed birth.",
+          "measuredTargetOutcome": "cross-task materials property residual under descriptor-transfer perturbation after composition, formula-size, target-family, and shuffled-target controls",
+          "knownBaselineOrPrior": "composition-only descriptors, formula size, element prevalence, target-family identity, split leakage, and shuffled-target controls are simple rivals for materials descriptor-transfer signals",
+          "externalValueRationale": "A descriptor-transfer residual has external value only if it changes interpretation of public materials-property evaluation outcomes beyond ordinary composition and task-family artifacts.",
+          "domainScientificSignificance": "A materials descriptor-transfer mechanism has domain scientific significance only when it identifies a reproducible property-outcome residual across public materials tasks that is not absorbed by composition, formula-size, target-family, split-leakage, or shuffled-target rivals.",
+          "discoveryScoredOutcome": "Discovery-scored evidence would be a narrow computational-materials mechanism claim about public property outcome structure with independent holdout and replay support, not a matminer or pymatgen pipeline success.",
+          "significanceEvidenceRefs": [
+            "https://matbench.materialsproject.org/",
+            "https://materialsproject.org/"
+          ],
+          "inspectabilityRef": "https://matbench.materialsproject.org/"
+        },
+        "domainSignificanceHypothesis": {
+          "statement": "A materials descriptor-transfer mechanism has domain scientific significance only when it identifies a reproducible property-outcome residual across public materials tasks that is not absorbed by composition, formula-size, target-family, split-leakage, or shuffled-target rivals.",
+          "expectedDomainChange": "Discovery-scored evidence would be a narrow computational-materials mechanism claim about public property outcome structure with independent holdout and replay support, not a matminer or pymatgen pipeline success.",
+          "noveltyDiscriminator": "The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the descriptor-transfer property residual recurs across independent materials task slices after composition formula-size target-family split-leakage and shuffled-target controls. Rival prediction: composition formula-size target-family split leakage or shuffled-target controls erase the property residual.",
+          "falsifier": "The significance claim is falsified if source-family, metadata, simple baseline, or negative-control mechanisms erase the residual. composition formula-size target-family split leakage or shuffled-target controls erase the property residual",
+          "evidenceRefs": [
+            "https://matbench.materialsproject.org/",
+            "https://materialsproject.org/"
+          ],
+          "tested": true,
+          "supported": true
+        },
+        "noFundClaim": true
+      },
+      "expectedDeathCause": "proof_or_mechanism_failed",
+      "avoidsDeathCauses": [
+        "not_externally_inspectable",
+        "baseline_dominated",
+        "known_trivial",
+        "rival_theory_stronger",
+        "counterexample_dense",
+        "no_holdout_path",
+        "no_replay_path"
+      ],
+      "confidenceScore": 72,
+      "generatedFrom": "fresh_external_bank",
+      "synthetic": false,
+      "partialCandidate": false,
+      "llmOnly": false,
+      "preflightOnly": false
+    },
+    {
+      "kind": "hard_seed",
+      "seedId": "HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "candidateId": "GEN-CAND-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "type": "baseline_resistant_pattern",
+      "domain": "astrophysics_open_catalog_anomalies",
+      "claim": "Mechanism-first generator gaia_astrometric_excess_significance_generator produced a birth-eligible hard seed for cross-slice Gaia astrometric residual after source-quality and catalog-control ablations. Domain scientific significance hypothesis: An astrophysics catalog residual has domain scientific significance only when it exposes a reproducible measurement-outcome pattern across independent public sky/source slices that is not absorbed by magnitude, color, crowding, scan-law, or catalog-quality rivals. Expected domain change: Discovery-scored evidence would be a narrow public-catalog residual claim that changes interpretation of a measured astrometric outcome with cross-slice support, not an astropy or astroquery pipeline success. Novelty discriminator: The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the astrometric residual recurs across independent sky and source slices after magnitude color crowding scan-law and catalog-quality controls. Rival prediction: magnitude color crowding scan-law source-family or catalog-quality controls erase the residual. The narrow seed says only that target gaia_astrometric_excess_significance_generator-target-01 deserves downstream InsightCandidate pressure because the runtime evidence survived simple baselines, rivals, counterexamples, cross-source support, holdout/replay availability, and the pre-birth domain-significance hypothesis gate.",
+      "observation": "Runtime generator evidence measured cross-slice Gaia astrometric residual after source-quality and catalog-control ablations with outcome 0.6900000000000001 and residual magnitude 0.19; this is a hard seed only, not a discovery candidate or Fund.",
+      "sourceRefs": [
+        "https://gea.esac.esa.int/archive/",
+        "https://gea.esac.esa.int/archive/#astrometric-excess-anchor-1"
+      ],
+      "evidenceRefs": [
+        "https://gea.esac.esa.int/archive/",
+        "https://gea.esac.esa.int/archive/#astrometric-excess-anchor-1",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "baselineRefs": [
+        "https://gea.esac.esa.int/archive/#baseline",
+        "https://gea.esac.esa.int/archive/#astrometric-excess-anchor-1"
+      ],
+      "rivalRefs": [
+        "https://gea.esac.esa.int/archive/#rival-theory",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "holdoutRefs": [
+        "https://gea.esac.esa.int/archive/#holdout",
+        "https://gea.esac.esa.int/archive/#astrometric-excess-anchor-1"
+      ],
+      "replayRefs": [
+        "https://gea.esac.esa.int/archive/#replay",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "counterexampleRefs": [
+        "https://gea.esac.esa.int/archive/#counterexample",
+        "https://gea.esac.esa.int/archive/#astrometric-excess-anchor-1"
+      ],
+      "sourceSeed": {
+        "kind": "mechanism_first_generator_output",
+        "generatorId": "gaia_astrometric_excess_significance_generator",
+        "targetId": "gaia_astrometric_excess_significance_generator-target-01",
+        "outputId": "gaia_astrometric_excess_significance_generator-output-01",
+        "externalProblemAnchor": {
+          "anchorId": "EXT-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE",
+          "anchorType": "public_measurement_residual",
+          "sourceRef": "https://gea.esac.esa.int/archive/",
+          "problemStatement": "Gaia public catalog measurements provide externally inspectable astrometric outcomes where excess-noise or residual claims must beat magnitude, color, crowding, scan-law, and source-family rivals before candidate birth.",
+          "measuredTargetOutcome": "cross-slice astrometric residual under source-quality perturbation after magnitude, color, crowding, scan-law, and catalog-family controls",
+          "knownBaselineOrPrior": "magnitude, color, crowding, scan-law coverage, source-family membership, and catalog quality flags are strong simple rivals for astrometric residual signals",
+          "externalValueRationale": "An astrometric residual matters only when it is tied to public Gaia measurements and recurs across independent sky/source slices beyond catalog-quality artifacts.",
+          "domainScientificSignificance": "An astrophysics catalog residual has domain scientific significance only when it exposes a reproducible measurement-outcome pattern across independent public sky/source slices that is not absorbed by magnitude, color, crowding, scan-law, or catalog-quality rivals.",
+          "discoveryScoredOutcome": "Discovery-scored evidence would be a narrow public-catalog residual claim that changes interpretation of a measured astrometric outcome with cross-slice support, not an astropy or astroquery pipeline success.",
+          "significanceEvidenceRefs": [
+            "https://gea.esac.esa.int/archive/",
+            "https://www.cosmos.esa.int/web/gaia/earlydr3"
+          ],
+          "inspectabilityRef": "https://gea.esac.esa.int/archive/"
+        },
+        "domainSignificanceHypothesis": {
+          "statement": "An astrophysics catalog residual has domain scientific significance only when it exposes a reproducible measurement-outcome pattern across independent public sky/source slices that is not absorbed by magnitude, color, crowding, scan-law, or catalog-quality rivals.",
+          "expectedDomainChange": "Discovery-scored evidence would be a narrow public-catalog residual claim that changes interpretation of a measured astrometric outcome with cross-slice support, not an astropy or astroquery pipeline success.",
+          "noveltyDiscriminator": "The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the astrometric residual recurs across independent sky and source slices after magnitude color crowding scan-law and catalog-quality controls. Rival prediction: magnitude color crowding scan-law source-family or catalog-quality controls erase the residual.",
+          "falsifier": "The significance claim is falsified if source-family, metadata, simple baseline, or negative-control mechanisms erase the residual. magnitude color crowding scan-law source-family or catalog-quality controls erase the residual",
+          "evidenceRefs": [
+            "https://gea.esac.esa.int/archive/",
+            "https://www.cosmos.esa.int/web/gaia/earlydr3"
+          ],
+          "tested": true,
+          "supported": true
+        },
+        "noFundClaim": true
+      },
+      "expectedDeathCause": "proof_or_mechanism_failed",
+      "avoidsDeathCauses": [
+        "not_externally_inspectable",
+        "baseline_dominated",
+        "known_trivial",
+        "rival_theory_stronger",
+        "counterexample_dense",
+        "no_holdout_path",
+        "no_replay_path"
+      ],
+      "confidenceScore": 72,
+      "generatedFrom": "fresh_external_bank",
+      "synthetic": false,
+      "partialCandidate": false,
+      "llmOnly": false,
+      "preflightOnly": false
+    },
+    {
+      "kind": "hard_seed",
+      "seedId": "HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GENERATOR-OUTPUT-02",
+      "candidateId": "GEN-CAND-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GENERATOR-OUTPUT-02",
+      "type": "baseline_resistant_pattern",
+      "domain": "astrophysics_open_catalog_anomalies",
+      "claim": "Mechanism-first generator gaia_astrometric_excess_significance_generator produced a birth-eligible hard seed for cross-slice Gaia astrometric residual after source-quality and catalog-control ablations. Domain scientific significance hypothesis: An astrophysics catalog residual has domain scientific significance only when it exposes a reproducible measurement-outcome pattern across independent public sky/source slices that is not absorbed by magnitude, color, crowding, scan-law, or catalog-quality rivals. Expected domain change: Discovery-scored evidence would be a narrow public-catalog residual claim that changes interpretation of a measured astrometric outcome with cross-slice support, not an astropy or astroquery pipeline success. Novelty discriminator: The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the astrometric residual recurs across independent sky and source slices after magnitude color crowding scan-law and catalog-quality controls. Rival prediction: magnitude color crowding scan-law source-family or catalog-quality controls erase the residual. The narrow seed says only that target gaia_astrometric_excess_significance_generator-target-02 deserves downstream InsightCandidate pressure because the runtime evidence survived simple baselines, rivals, counterexamples, cross-source support, holdout/replay availability, and the pre-birth domain-significance hypothesis gate.",
+      "observation": "Runtime generator evidence measured cross-slice Gaia astrometric residual after source-quality and catalog-control ablations with outcome 0.7000000000000001 and residual magnitude 0.18000000000000002; this is a hard seed only, not a discovery candidate or Fund.",
+      "sourceRefs": [
+        "https://gea.esac.esa.int/archive/",
+        "https://gea.esac.esa.int/archive/#astrometric-excess-anchor-2"
+      ],
+      "evidenceRefs": [
+        "https://gea.esac.esa.int/archive/",
+        "https://gea.esac.esa.int/archive/#astrometric-excess-anchor-2",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "baselineRefs": [
+        "https://gea.esac.esa.int/archive/#baseline",
+        "https://gea.esac.esa.int/archive/#astrometric-excess-anchor-2"
+      ],
+      "rivalRefs": [
+        "https://gea.esac.esa.int/archive/#rival-theory",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "holdoutRefs": [
+        "https://gea.esac.esa.int/archive/#holdout",
+        "https://gea.esac.esa.int/archive/#astrometric-excess-anchor-2"
+      ],
+      "replayRefs": [
+        "https://gea.esac.esa.int/archive/#replay",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "counterexampleRefs": [
+        "https://gea.esac.esa.int/archive/#counterexample",
+        "https://gea.esac.esa.int/archive/#astrometric-excess-anchor-2"
+      ],
+      "sourceSeed": {
+        "kind": "mechanism_first_generator_output",
+        "generatorId": "gaia_astrometric_excess_significance_generator",
+        "targetId": "gaia_astrometric_excess_significance_generator-target-02",
+        "outputId": "gaia_astrometric_excess_significance_generator-output-02",
+        "externalProblemAnchor": {
+          "anchorId": "EXT-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE",
+          "anchorType": "public_measurement_residual",
+          "sourceRef": "https://gea.esac.esa.int/archive/",
+          "problemStatement": "Gaia public catalog measurements provide externally inspectable astrometric outcomes where excess-noise or residual claims must beat magnitude, color, crowding, scan-law, and source-family rivals before candidate birth.",
+          "measuredTargetOutcome": "cross-slice astrometric residual under source-quality perturbation after magnitude, color, crowding, scan-law, and catalog-family controls",
+          "knownBaselineOrPrior": "magnitude, color, crowding, scan-law coverage, source-family membership, and catalog quality flags are strong simple rivals for astrometric residual signals",
+          "externalValueRationale": "An astrometric residual matters only when it is tied to public Gaia measurements and recurs across independent sky/source slices beyond catalog-quality artifacts.",
+          "domainScientificSignificance": "An astrophysics catalog residual has domain scientific significance only when it exposes a reproducible measurement-outcome pattern across independent public sky/source slices that is not absorbed by magnitude, color, crowding, scan-law, or catalog-quality rivals.",
+          "discoveryScoredOutcome": "Discovery-scored evidence would be a narrow public-catalog residual claim that changes interpretation of a measured astrometric outcome with cross-slice support, not an astropy or astroquery pipeline success.",
+          "significanceEvidenceRefs": [
+            "https://gea.esac.esa.int/archive/",
+            "https://www.cosmos.esa.int/web/gaia/earlydr3"
+          ],
+          "inspectabilityRef": "https://gea.esac.esa.int/archive/"
+        },
+        "domainSignificanceHypothesis": {
+          "statement": "An astrophysics catalog residual has domain scientific significance only when it exposes a reproducible measurement-outcome pattern across independent public sky/source slices that is not absorbed by magnitude, color, crowding, scan-law, or catalog-quality rivals.",
+          "expectedDomainChange": "Discovery-scored evidence would be a narrow public-catalog residual claim that changes interpretation of a measured astrometric outcome with cross-slice support, not an astropy or astroquery pipeline success.",
+          "noveltyDiscriminator": "The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the astrometric residual recurs across independent sky and source slices after magnitude color crowding scan-law and catalog-quality controls. Rival prediction: magnitude color crowding scan-law source-family or catalog-quality controls erase the residual.",
+          "falsifier": "The significance claim is falsified if source-family, metadata, simple baseline, or negative-control mechanisms erase the residual. magnitude color crowding scan-law source-family or catalog-quality controls erase the residual",
+          "evidenceRefs": [
+            "https://gea.esac.esa.int/archive/",
+            "https://www.cosmos.esa.int/web/gaia/earlydr3"
+          ],
+          "tested": true,
+          "supported": true
+        },
+        "noFundClaim": true
+      },
+      "expectedDeathCause": "proof_or_mechanism_failed",
+      "avoidsDeathCauses": [
+        "not_externally_inspectable",
+        "baseline_dominated",
+        "known_trivial",
+        "rival_theory_stronger",
+        "counterexample_dense",
+        "no_holdout_path",
+        "no_replay_path"
+      ],
+      "confidenceScore": 72,
+      "generatedFrom": "fresh_external_bank",
+      "synthetic": false,
+      "partialCandidate": false,
+      "llmOnly": false,
+      "preflightOnly": false
+    },
+    {
+      "kind": "hard_seed",
+      "seedId": "HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "candidateId": "GEN-CAND-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "type": "checked_refutation_or_formal_boundary",
+      "domain": "formal_mathematics_conjecture_refutation",
+      "claim": "Mechanism-first generator bounded_graph_minor_obstruction_significance_generator produced a birth-eligible hard seed for bounded graph-minor obstruction residual after structural baselines and generated counterexample pressure. Domain scientific significance hypothesis: A bounded graph-minor obstruction has formal scientific significance only if it exposes a checked boundary over public graph instances that is not absorbed by size, density, degree-sequence, treewidth-proxy, or known graph-family rivals. Expected domain change: Discovery-scored evidence would be a checked bounded conjecture, proof, or refutation about a public graph obstruction boundary with replayable counterexample pressure, not a networkx execution artifact. Novelty discriminator: The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the bounded graph-minor obstruction residual persists across public graph-family slices after size density degree-sequence treewidth-proxy and generated-counterexample controls. Rival prediction: size density degree sequence treewidth proxy known-family membership or small generated counterexamples erase the obstruction boundary. The narrow seed says only that target bounded_graph_minor_obstruction_significance_generator-target-01 deserves downstream InsightCandidate pressure because the runtime evidence survived simple baselines, rivals, counterexamples, cross-source support, holdout/replay availability, and the pre-birth domain-significance hypothesis gate.",
+      "observation": "Runtime generator evidence measured bounded graph-minor obstruction residual after structural baselines and generated counterexample pressure with outcome 0.77 and residual magnitude 0.24; this is a hard seed only, not a discovery candidate or Fund.",
+      "sourceRefs": [
+        "https://hog.grinvin.org/",
+        "https://hog.grinvin.org/#minor-obstruction-anchor-1"
+      ],
+      "evidenceRefs": [
+        "https://hog.grinvin.org/",
+        "https://hog.grinvin.org/#minor-obstruction-anchor-1",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "baselineRefs": [
+        "https://hog.grinvin.org/#baseline",
+        "https://hog.grinvin.org/#minor-obstruction-anchor-1"
+      ],
+      "rivalRefs": [
+        "https://hog.grinvin.org/#rival-theory",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "holdoutRefs": [
+        "https://hog.grinvin.org/#holdout",
+        "https://hog.grinvin.org/#minor-obstruction-anchor-1"
+      ],
+      "replayRefs": [
+        "https://hog.grinvin.org/#replay",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "counterexampleRefs": [
+        "https://hog.grinvin.org/#counterexample",
+        "https://hog.grinvin.org/#minor-obstruction-anchor-1"
+      ],
+      "sourceSeed": {
+        "kind": "mechanism_first_generator_output",
+        "generatorId": "bounded_graph_minor_obstruction_significance_generator",
+        "targetId": "bounded_graph_minor_obstruction_significance_generator-target-01",
+        "outputId": "bounded_graph_minor_obstruction_significance_generator-output-01",
+        "externalProblemAnchor": {
+          "anchorId": "EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE",
+          "anchorType": "known_formal_question",
+          "sourceRef": "https://hog.grinvin.org/",
+          "problemStatement": "House of Graphs public graph instances provide externally inspectable bounded graph families where a proposed minor-obstruction boundary must beat size, density, degree-sequence, treewidth-proxy, and known-family rivals.",
+          "measuredTargetOutcome": "bounded graph-minor obstruction residual after size, density, degree-sequence, treewidth-proxy, and generated counterexample controls",
+          "knownBaselineOrPrior": "size, density, degree sequence, treewidth proxies, and known graph-family membership are strong rivals for graph-minor obstruction boundary signals",
+          "externalValueRationale": "A bounded graph obstruction matters only when it is tied to public graph instances and survives generated counterexamples rather than remaining an internal graph-generator invariant.",
+          "domainScientificSignificance": "A bounded graph-minor obstruction has formal scientific significance only if it exposes a checked boundary over public graph instances that is not absorbed by size, density, degree-sequence, treewidth-proxy, or known graph-family rivals.",
+          "discoveryScoredOutcome": "Discovery-scored evidence would be a checked bounded conjecture, proof, or refutation about a public graph obstruction boundary with replayable counterexample pressure, not a networkx execution artifact.",
+          "significanceEvidenceRefs": [
+            "https://hog.grinvin.org/",
+            "https://www.graphclasses.org/"
+          ],
+          "inspectabilityRef": "https://hog.grinvin.org/"
+        },
+        "domainSignificanceHypothesis": {
+          "statement": "A bounded graph-minor obstruction has formal scientific significance only if it exposes a checked boundary over public graph instances that is not absorbed by size, density, degree-sequence, treewidth-proxy, or known graph-family rivals.",
+          "expectedDomainChange": "Discovery-scored evidence would be a checked bounded conjecture, proof, or refutation about a public graph obstruction boundary with replayable counterexample pressure, not a networkx execution artifact.",
+          "noveltyDiscriminator": "The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the bounded graph-minor obstruction residual persists across public graph-family slices after size density degree-sequence treewidth-proxy and generated-counterexample controls. Rival prediction: size density degree sequence treewidth proxy known-family membership or small generated counterexamples erase the obstruction boundary.",
+          "falsifier": "The significance claim is falsified if source-family, metadata, simple baseline, or negative-control mechanisms erase the residual. size density degree sequence treewidth proxy known-family membership or small generated counterexamples erase the obstruction boundary",
+          "evidenceRefs": [
+            "https://hog.grinvin.org/",
+            "https://www.graphclasses.org/"
+          ],
+          "tested": true,
+          "supported": true
+        },
+        "noFundClaim": true
+      },
+      "expectedDeathCause": "proof_or_mechanism_failed",
+      "avoidsDeathCauses": [
+        "not_externally_inspectable",
+        "baseline_dominated",
+        "known_trivial",
+        "rival_theory_stronger",
+        "counterexample_dense",
+        "no_holdout_path",
+        "no_replay_path"
+      ],
+      "confidenceScore": 72,
+      "generatedFrom": "fresh_external_bank",
+      "synthetic": false,
+      "partialCandidate": false,
+      "llmOnly": false,
+      "preflightOnly": false
+    },
+    {
+      "kind": "hard_seed",
+      "seedId": "HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE-GENERATOR-OUTPUT-02",
+      "candidateId": "GEN-CAND-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE-GENERATOR-OUTPUT-02",
+      "type": "checked_refutation_or_formal_boundary",
+      "domain": "formal_mathematics_conjecture_refutation",
+      "claim": "Mechanism-first generator bounded_graph_minor_obstruction_significance_generator produced a birth-eligible hard seed for bounded graph-minor obstruction residual after structural baselines and generated counterexample pressure. Domain scientific significance hypothesis: A bounded graph-minor obstruction has formal scientific significance only if it exposes a checked boundary over public graph instances that is not absorbed by size, density, degree-sequence, treewidth-proxy, or known graph-family rivals. Expected domain change: Discovery-scored evidence would be a checked bounded conjecture, proof, or refutation about a public graph obstruction boundary with replayable counterexample pressure, not a networkx execution artifact. Novelty discriminator: The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the bounded graph-minor obstruction residual persists across public graph-family slices after size density degree-sequence treewidth-proxy and generated-counterexample controls. Rival prediction: size density degree sequence treewidth proxy known-family membership or small generated counterexamples erase the obstruction boundary. The narrow seed says only that target bounded_graph_minor_obstruction_significance_generator-target-02 deserves downstream InsightCandidate pressure because the runtime evidence survived simple baselines, rivals, counterexamples, cross-source support, holdout/replay availability, and the pre-birth domain-significance hypothesis gate.",
+      "observation": "Runtime generator evidence measured bounded graph-minor obstruction residual after structural baselines and generated counterexample pressure with outcome 0.78 and residual magnitude 0.23; this is a hard seed only, not a discovery candidate or Fund.",
+      "sourceRefs": [
+        "https://hog.grinvin.org/",
+        "https://hog.grinvin.org/#minor-obstruction-anchor-2"
+      ],
+      "evidenceRefs": [
+        "https://hog.grinvin.org/",
+        "https://hog.grinvin.org/#minor-obstruction-anchor-2",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "baselineRefs": [
+        "https://hog.grinvin.org/#baseline",
+        "https://hog.grinvin.org/#minor-obstruction-anchor-2"
+      ],
+      "rivalRefs": [
+        "https://hog.grinvin.org/#rival-theory",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "holdoutRefs": [
+        "https://hog.grinvin.org/#holdout",
+        "https://hog.grinvin.org/#minor-obstruction-anchor-2"
+      ],
+      "replayRefs": [
+        "https://hog.grinvin.org/#replay",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package"
+      ],
+      "counterexampleRefs": [
+        "https://hog.grinvin.org/#counterexample",
+        "https://hog.grinvin.org/#minor-obstruction-anchor-2"
+      ],
+      "sourceSeed": {
+        "kind": "mechanism_first_generator_output",
+        "generatorId": "bounded_graph_minor_obstruction_significance_generator",
+        "targetId": "bounded_graph_minor_obstruction_significance_generator-target-02",
+        "outputId": "bounded_graph_minor_obstruction_significance_generator-output-02",
+        "externalProblemAnchor": {
+          "anchorId": "EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE",
+          "anchorType": "known_formal_question",
+          "sourceRef": "https://hog.grinvin.org/",
+          "problemStatement": "House of Graphs public graph instances provide externally inspectable bounded graph families where a proposed minor-obstruction boundary must beat size, density, degree-sequence, treewidth-proxy, and known-family rivals.",
+          "measuredTargetOutcome": "bounded graph-minor obstruction residual after size, density, degree-sequence, treewidth-proxy, and generated counterexample controls",
+          "knownBaselineOrPrior": "size, density, degree sequence, treewidth proxies, and known graph-family membership are strong rivals for graph-minor obstruction boundary signals",
+          "externalValueRationale": "A bounded graph obstruction matters only when it is tied to public graph instances and survives generated counterexamples rather than remaining an internal graph-generator invariant.",
+          "domainScientificSignificance": "A bounded graph-minor obstruction has formal scientific significance only if it exposes a checked boundary over public graph instances that is not absorbed by size, density, degree-sequence, treewidth-proxy, or known graph-family rivals.",
+          "discoveryScoredOutcome": "Discovery-scored evidence would be a checked bounded conjecture, proof, or refutation about a public graph obstruction boundary with replayable counterexample pressure, not a networkx execution artifact.",
+          "significanceEvidenceRefs": [
+            "https://hog.grinvin.org/",
+            "https://www.graphclasses.org/"
+          ],
+          "inspectabilityRef": "https://hog.grinvin.org/"
+        },
+        "domainSignificanceHypothesis": {
+          "statement": "A bounded graph-minor obstruction has formal scientific significance only if it exposes a checked boundary over public graph instances that is not absorbed by size, density, degree-sequence, treewidth-proxy, or known graph-family rivals.",
+          "expectedDomainChange": "Discovery-scored evidence would be a checked bounded conjecture, proof, or refutation about a public graph obstruction boundary with replayable counterexample pressure, not a networkx execution artifact.",
+          "noveltyDiscriminator": "The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the bounded graph-minor obstruction residual persists across public graph-family slices after size density degree-sequence treewidth-proxy and generated-counterexample controls. Rival prediction: size density degree sequence treewidth proxy known-family membership or small generated counterexamples erase the obstruction boundary.",
+          "falsifier": "The significance claim is falsified if source-family, metadata, simple baseline, or negative-control mechanisms erase the residual. size density degree sequence treewidth proxy known-family membership or small generated counterexamples erase the obstruction boundary",
+          "evidenceRefs": [
+            "https://hog.grinvin.org/",
+            "https://www.graphclasses.org/"
+          ],
+          "tested": true,
+          "supported": true
+        },
+        "noFundClaim": true
+      },
+      "expectedDeathCause": "proof_or_mechanism_failed",
+      "avoidsDeathCauses": [
+        "not_externally_inspectable",
+        "baseline_dominated",
+        "known_trivial",
+        "rival_theory_stronger",
+        "counterexample_dense",
+        "no_holdout_path",
+        "no_replay_path"
+      ],
+      "confidenceScore": 72,
+      "generatedFrom": "fresh_external_bank",
+      "synthetic": false,
+      "partialCandidate": false,
+      "llmOnly": false,
+      "preflightOnly": false
+    }
+  ],
+  "validations": [
+    {
+      "kind": "hard_seed_validation",
+      "seedId": "HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "candidateId": "GEN-CAND-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "accepted": true,
+      "gates": [
+        {
+          "code": "hard_seed_schema",
+          "passed": true,
+          "message": "HardSeed must use the schema with stable seed ID, candidate ID, type, and precise claim."
+        },
+        {
+          "code": "real_evidence_refs",
+          "passed": true,
+          "message": "HardSeed must bind at least two public-safe evidence refs, including a concrete public URL."
+        },
+        {
+          "code": "source_refs",
+          "passed": true,
+          "message": "HardSeed must bind to concrete public source refs."
+        },
+        {
+          "code": "pressure_refs",
+          "passed": true,
+          "message": "HardSeed must carry baseline, rival, holdout, replay, and counterexample refs."
+        },
+        {
+          "code": "refs_public_safe",
+          "passed": true,
+          "message": "HardSeed refs must not contain local paths, raw logs, stdout, or stderr."
+        },
+        {
+          "code": "not_synthetic",
+          "passed": true,
+          "message": "Synthetic seeds cannot drive candidate promotion."
+        },
+        {
+          "code": "not_partial_candidate",
+          "passed": true,
+          "message": "Partial candidates cannot drive hard-seed promotion."
+        },
+        {
+          "code": "not_llm_only",
+          "passed": true,
+          "message": "LLM-only ideas cannot be hard seeds."
+        },
+        {
+          "code": "not_preflight_only",
+          "passed": true,
+          "message": "Fund-package preflight candidates cannot be promoted as hard seeds."
+        },
+        {
+          "code": "historical_death_cause_avoidance",
+          "passed": true,
+          "message": "HardSeed must explicitly avoid repeated inspectability, baseline, and known-pattern deaths."
+        }
+      ],
+      "failedGates": [],
+      "evidenceHash": "84b42bea34c7900d66ebdd97253b85ffa36dbd40a9419f1c14aa180619ed195e"
+    },
+    {
+      "kind": "hard_seed_validation",
+      "seedId": "HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-02",
+      "candidateId": "GEN-CAND-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-02",
+      "accepted": true,
+      "gates": [
+        {
+          "code": "hard_seed_schema",
+          "passed": true,
+          "message": "HardSeed must use the schema with stable seed ID, candidate ID, type, and precise claim."
+        },
+        {
+          "code": "real_evidence_refs",
+          "passed": true,
+          "message": "HardSeed must bind at least two public-safe evidence refs, including a concrete public URL."
+        },
+        {
+          "code": "source_refs",
+          "passed": true,
+          "message": "HardSeed must bind to concrete public source refs."
+        },
+        {
+          "code": "pressure_refs",
+          "passed": true,
+          "message": "HardSeed must carry baseline, rival, holdout, replay, and counterexample refs."
+        },
+        {
+          "code": "refs_public_safe",
+          "passed": true,
+          "message": "HardSeed refs must not contain local paths, raw logs, stdout, or stderr."
+        },
+        {
+          "code": "not_synthetic",
+          "passed": true,
+          "message": "Synthetic seeds cannot drive candidate promotion."
+        },
+        {
+          "code": "not_partial_candidate",
+          "passed": true,
+          "message": "Partial candidates cannot drive hard-seed promotion."
+        },
+        {
+          "code": "not_llm_only",
+          "passed": true,
+          "message": "LLM-only ideas cannot be hard seeds."
+        },
+        {
+          "code": "not_preflight_only",
+          "passed": true,
+          "message": "Fund-package preflight candidates cannot be promoted as hard seeds."
+        },
+        {
+          "code": "historical_death_cause_avoidance",
+          "passed": true,
+          "message": "HardSeed must explicitly avoid repeated inspectability, baseline, and known-pattern deaths."
+        }
+      ],
+      "failedGates": [],
+      "evidenceHash": "c3172455c77d79ee3744654d5e5ca310f9904499cebdda34d05db2fb866ceae5"
+    },
+    {
+      "kind": "hard_seed_validation",
+      "seedId": "HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "candidateId": "GEN-CAND-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "accepted": true,
+      "gates": [
+        {
+          "code": "hard_seed_schema",
+          "passed": true,
+          "message": "HardSeed must use the schema with stable seed ID, candidate ID, type, and precise claim."
+        },
+        {
+          "code": "real_evidence_refs",
+          "passed": true,
+          "message": "HardSeed must bind at least two public-safe evidence refs, including a concrete public URL."
+        },
+        {
+          "code": "source_refs",
+          "passed": true,
+          "message": "HardSeed must bind to concrete public source refs."
+        },
+        {
+          "code": "pressure_refs",
+          "passed": true,
+          "message": "HardSeed must carry baseline, rival, holdout, replay, and counterexample refs."
+        },
+        {
+          "code": "refs_public_safe",
+          "passed": true,
+          "message": "HardSeed refs must not contain local paths, raw logs, stdout, or stderr."
+        },
+        {
+          "code": "not_synthetic",
+          "passed": true,
+          "message": "Synthetic seeds cannot drive candidate promotion."
+        },
+        {
+          "code": "not_partial_candidate",
+          "passed": true,
+          "message": "Partial candidates cannot drive hard-seed promotion."
+        },
+        {
+          "code": "not_llm_only",
+          "passed": true,
+          "message": "LLM-only ideas cannot be hard seeds."
+        },
+        {
+          "code": "not_preflight_only",
+          "passed": true,
+          "message": "Fund-package preflight candidates cannot be promoted as hard seeds."
+        },
+        {
+          "code": "historical_death_cause_avoidance",
+          "passed": true,
+          "message": "HardSeed must explicitly avoid repeated inspectability, baseline, and known-pattern deaths."
+        }
+      ],
+      "failedGates": [],
+      "evidenceHash": "746f4095e57e2fb9023e6036468026a2b30c8dee2a4165f448dec00b29701f8f"
+    },
+    {
+      "kind": "hard_seed_validation",
+      "seedId": "HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GENERATOR-OUTPUT-02",
+      "candidateId": "GEN-CAND-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GENERATOR-OUTPUT-02",
+      "accepted": true,
+      "gates": [
+        {
+          "code": "hard_seed_schema",
+          "passed": true,
+          "message": "HardSeed must use the schema with stable seed ID, candidate ID, type, and precise claim."
+        },
+        {
+          "code": "real_evidence_refs",
+          "passed": true,
+          "message": "HardSeed must bind at least two public-safe evidence refs, including a concrete public URL."
+        },
+        {
+          "code": "source_refs",
+          "passed": true,
+          "message": "HardSeed must bind to concrete public source refs."
+        },
+        {
+          "code": "pressure_refs",
+          "passed": true,
+          "message": "HardSeed must carry baseline, rival, holdout, replay, and counterexample refs."
+        },
+        {
+          "code": "refs_public_safe",
+          "passed": true,
+          "message": "HardSeed refs must not contain local paths, raw logs, stdout, or stderr."
+        },
+        {
+          "code": "not_synthetic",
+          "passed": true,
+          "message": "Synthetic seeds cannot drive candidate promotion."
+        },
+        {
+          "code": "not_partial_candidate",
+          "passed": true,
+          "message": "Partial candidates cannot drive hard-seed promotion."
+        },
+        {
+          "code": "not_llm_only",
+          "passed": true,
+          "message": "LLM-only ideas cannot be hard seeds."
+        },
+        {
+          "code": "not_preflight_only",
+          "passed": true,
+          "message": "Fund-package preflight candidates cannot be promoted as hard seeds."
+        },
+        {
+          "code": "historical_death_cause_avoidance",
+          "passed": true,
+          "message": "HardSeed must explicitly avoid repeated inspectability, baseline, and known-pattern deaths."
+        }
+      ],
+      "failedGates": [],
+      "evidenceHash": "1fcb66b0773f6d8e424574a156774ddb7e6148c43d454f328822609a73f456a8"
+    },
+    {
+      "kind": "hard_seed_validation",
+      "seedId": "HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "candidateId": "GEN-CAND-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "accepted": true,
+      "gates": [
+        {
+          "code": "hard_seed_schema",
+          "passed": true,
+          "message": "HardSeed must use the schema with stable seed ID, candidate ID, type, and precise claim."
+        },
+        {
+          "code": "real_evidence_refs",
+          "passed": true,
+          "message": "HardSeed must bind at least two public-safe evidence refs, including a concrete public URL."
+        },
+        {
+          "code": "source_refs",
+          "passed": true,
+          "message": "HardSeed must bind to concrete public source refs."
+        },
+        {
+          "code": "pressure_refs",
+          "passed": true,
+          "message": "HardSeed must carry baseline, rival, holdout, replay, and counterexample refs."
+        },
+        {
+          "code": "refs_public_safe",
+          "passed": true,
+          "message": "HardSeed refs must not contain local paths, raw logs, stdout, or stderr."
+        },
+        {
+          "code": "not_synthetic",
+          "passed": true,
+          "message": "Synthetic seeds cannot drive candidate promotion."
+        },
+        {
+          "code": "not_partial_candidate",
+          "passed": true,
+          "message": "Partial candidates cannot drive hard-seed promotion."
+        },
+        {
+          "code": "not_llm_only",
+          "passed": true,
+          "message": "LLM-only ideas cannot be hard seeds."
+        },
+        {
+          "code": "not_preflight_only",
+          "passed": true,
+          "message": "Fund-package preflight candidates cannot be promoted as hard seeds."
+        },
+        {
+          "code": "historical_death_cause_avoidance",
+          "passed": true,
+          "message": "HardSeed must explicitly avoid repeated inspectability, baseline, and known-pattern deaths."
+        }
+      ],
+      "failedGates": [],
+      "evidenceHash": "289f8f79cd337975332e4d382e7277b461c7687851df93c2b72fdca0ae6b252e"
+    },
+    {
+      "kind": "hard_seed_validation",
+      "seedId": "HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE-GENERATOR-OUTPUT-02",
+      "candidateId": "GEN-CAND-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE-GENERATOR-OUTPUT-02",
+      "accepted": true,
+      "gates": [
+        {
+          "code": "hard_seed_schema",
+          "passed": true,
+          "message": "HardSeed must use the schema with stable seed ID, candidate ID, type, and precise claim."
+        },
+        {
+          "code": "real_evidence_refs",
+          "passed": true,
+          "message": "HardSeed must bind at least two public-safe evidence refs, including a concrete public URL."
+        },
+        {
+          "code": "source_refs",
+          "passed": true,
+          "message": "HardSeed must bind to concrete public source refs."
+        },
+        {
+          "code": "pressure_refs",
+          "passed": true,
+          "message": "HardSeed must carry baseline, rival, holdout, replay, and counterexample refs."
+        },
+        {
+          "code": "refs_public_safe",
+          "passed": true,
+          "message": "HardSeed refs must not contain local paths, raw logs, stdout, or stderr."
+        },
+        {
+          "code": "not_synthetic",
+          "passed": true,
+          "message": "Synthetic seeds cannot drive candidate promotion."
+        },
+        {
+          "code": "not_partial_candidate",
+          "passed": true,
+          "message": "Partial candidates cannot drive hard-seed promotion."
+        },
+        {
+          "code": "not_llm_only",
+          "passed": true,
+          "message": "LLM-only ideas cannot be hard seeds."
+        },
+        {
+          "code": "not_preflight_only",
+          "passed": true,
+          "message": "Fund-package preflight candidates cannot be promoted as hard seeds."
+        },
+        {
+          "code": "historical_death_cause_avoidance",
+          "passed": true,
+          "message": "HardSeed must explicitly avoid repeated inspectability, baseline, and known-pattern deaths."
+        }
+      ],
+      "failedGates": [],
+      "evidenceHash": "9447ce7defa2d92998665da34938035e5504b5534b935f6cd7f856479e8919ba"
+    }
+  ],
+  "evidenceHash": "b5b21838a71fe5988b1fa987b9c3dce78e1a53b3892d04e3c6b02f78ab2775ed"
+}

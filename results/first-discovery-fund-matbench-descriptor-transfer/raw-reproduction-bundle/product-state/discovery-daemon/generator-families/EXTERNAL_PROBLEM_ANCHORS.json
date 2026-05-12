@@ -1,0 +1,54 @@
+{
+  "kind": "external_problem_anchor_registry",
+  "anchors": [
+    {
+      "anchorId": "EXT-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "sourceRef": "https://matbench.materialsproject.org/",
+      "problemStatement": "Matbench public materials-property tasks provide externally inspectable property outcomes where descriptor-transfer claims must beat composition, formula-size, target-family, and split-leakage rivals before any hard-seed birth.",
+      "measuredTargetOutcome": "cross-task materials property residual under descriptor-transfer perturbation after composition, formula-size, target-family, and shuffled-target controls",
+      "knownBaselineOrPrior": "composition-only descriptors, formula size, element prevalence, target-family identity, split leakage, and shuffled-target controls are simple rivals for materials descriptor-transfer signals",
+      "externalValueRationale": "A descriptor-transfer residual has external value only if it changes interpretation of public materials-property evaluation outcomes beyond ordinary composition and task-family artifacts.",
+      "domainScientificSignificance": "A materials descriptor-transfer mechanism has domain scientific significance only when it identifies a reproducible property-outcome residual across public materials tasks that is not absorbed by composition, formula-size, target-family, split-leakage, or shuffled-target rivals.",
+      "discoveryScoredOutcome": "Discovery-scored evidence would be a narrow computational-materials mechanism claim about public property outcome structure with independent holdout and replay support, not a matminer or pymatgen pipeline success.",
+      "significanceEvidenceRefs": [
+        "https://matbench.materialsproject.org/",
+        "https://materialsproject.org/"
+      ],
+      "inspectabilityRef": "https://matbench.materialsproject.org/"
+    },
+    {
+      "anchorId": "EXT-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE",
+      "anchorType": "public_measurement_residual",
+      "sourceRef": "https://gea.esac.esa.int/archive/",
+      "problemStatement": "Gaia public catalog measurements provide externally inspectable astrometric outcomes where excess-noise or residual claims must beat magnitude, color, crowding, scan-law, and source-family rivals before candidate birth.",
+      "measuredTargetOutcome": "cross-slice astrometric residual under source-quality perturbation after magnitude, color, crowding, scan-law, and catalog-family controls",
+      "knownBaselineOrPrior": "magnitude, color, crowding, scan-law coverage, source-family membership, and catalog quality flags are strong simple rivals for astrometric residual signals",
+      "externalValueRationale": "An astrometric residual matters only when it is tied to public Gaia measurements and recurs across independent sky/source slices beyond catalog-quality artifacts.",
+      "domainScientificSignificance": "An astrophysics catalog residual has domain scientific significance only when it exposes a reproducible measurement-outcome pattern across independent public sky/source slices that is not absorbed by magnitude, color, crowding, scan-law, or catalog-quality rivals.",
+      "discoveryScoredOutcome": "Discovery-scored evidence would be a narrow public-catalog residual claim that changes interpretation of a measured astrometric outcome with cross-slice support, not an astropy or astroquery pipeline success.",
+      "significanceEvidenceRefs": [
+        "https://gea.esac.esa.int/archive/",
+        "https://www.cosmos.esa.int/web/gaia/earlydr3"
+      ],
+      "inspectabilityRef": "https://gea.esac.esa.int/archive/"
+    },
+    {
+      "anchorId": "EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE",
+      "anchorType": "known_formal_question",
+      "sourceRef": "https://hog.grinvin.org/",
+      "problemStatement": "House of Graphs public graph instances provide externally inspectable bounded graph families where a proposed minor-obstruction boundary must beat size, density, degree-sequence, treewidth-proxy, and known-family rivals.",
+      "measuredTargetOutcome": "bounded graph-minor obstruction residual after size, density, degree-sequence, treewidth-proxy, and generated counterexample controls",
+      "knownBaselineOrPrior": "size, density, degree sequence, treewidth proxies, and known graph-family membership are strong rivals for graph-minor obstruction boundary signals",
+      "externalValueRationale": "A bounded graph obstruction matters only when it is tied to public graph instances and survives generated counterexamples rather than remaining an internal graph-generator invariant.",
+      "domainScientificSignificance": "A bounded graph-minor obstruction has formal scientific significance only if it exposes a checked boundary over public graph instances that is not absorbed by size, density, degree-sequence, treewidth-proxy, or known graph-family rivals.",
+      "discoveryScoredOutcome": "Discovery-scored evidence would be a checked bounded conjecture, proof, or refutation about a public graph obstruction boundary with replayable counterexample pressure, not a networkx execution artifact.",
+      "significanceEvidenceRefs": [
+        "https://hog.grinvin.org/",
+        "https://www.graphclasses.org/"
+      ],
+      "inspectabilityRef": "https://hog.grinvin.org/"
+    }
+  ],
+  "evidenceHash": "ce8d0828c91b8879b8200e1dedcce7771ce1f3c7967cdfd6694879882622e5f8"
+}

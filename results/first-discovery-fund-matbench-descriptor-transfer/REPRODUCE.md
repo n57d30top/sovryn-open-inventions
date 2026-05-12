@@ -75,6 +75,21 @@ Current expected status:
 
 That status is intentional and caveated. The script exactly replays Product-recorded values `0.72`, `0.21`, `0.34`, `0.29`, and `0.23` from `PRODUCT_RUNTIME_REPRODUCTION_SPEC.json`, and it verifies public raw-data access with transparent proxy baselines. It does not independently reproduce those values from raw Matbench data because the package lacks the exact descriptor matrix, model/training configuration, split/family manifest, target subset manifest, scientific residual formula, baseline implementations, and external runnable holdout/counterexample manifests. The public package is therefore not discovery-score eligible.
 
+## Public-Safe Product Bundle
+
+The full public-safe Product artifact export for this candidate is available at:
+
+```bash
+find raw-reproduction-bundle -maxdepth 3 -type f | sort
+jq '{artifactCount, unsafeCopiedCount, bundleDecision, rawDataScientificReproductionSucceeded}' raw-reproduction-bundle/BUNDLE_MANIFEST.json
+```
+
+The standalone script now prefers the runtime evidence copied into that bundle:
+
+`raw-reproduction-bundle/product-state/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json`
+
+The bundle improves inspectability of the Product evidence path. It does not supply the missing raw scientific inputs required for independent descriptor-transfer reproduction.
+
 ## Reviewer Tables
 
 Inspect the reviewer-facing tables:
@@ -102,6 +117,8 @@ node dist/cli.js discover-daemon generator-claim-lift --json
 ```
 
 That path relies on Product `.sovryn` state. This Corpus repair copies the specific state needed for public inspection into `copied-product-evidence/`, so a reviewer can inspect the package without those local paths.
+
+The larger public-safe export in `raw-reproduction-bundle/` contains the additional relevant Product artifacts found for the candidate path. It remains a Product-state inspection bundle, not a raw-data scientific reproduction bundle.
 
 ## Replay Status
 

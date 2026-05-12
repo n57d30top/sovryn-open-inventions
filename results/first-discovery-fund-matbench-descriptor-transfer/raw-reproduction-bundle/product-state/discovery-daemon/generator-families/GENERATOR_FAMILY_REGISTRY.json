@@ -1,0 +1,171 @@
+{
+  "kind": "mechanism_first_generator_family_registry",
+  "generatorSet": "significance",
+  "familyCount": 3,
+  "families": [
+    {
+      "generatorId": "matbench_descriptor_transfer_significance_generator",
+      "domain": "computational_materials_property_data",
+      "externalProblemAnchor": {
+        "anchorId": "EXT-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE",
+        "anchorType": "public_measurement_residual",
+        "sourceRef": "https://matbench.materialsproject.org/",
+        "problemStatement": "Matbench public materials-property tasks provide externally inspectable property outcomes where descriptor-transfer claims must beat composition, formula-size, target-family, and split-leakage rivals before any hard-seed birth.",
+        "measuredTargetOutcome": "cross-task materials property residual under descriptor-transfer perturbation after composition, formula-size, target-family, and shuffled-target controls",
+        "knownBaselineOrPrior": "composition-only descriptors, formula size, element prevalence, target-family identity, split leakage, and shuffled-target controls are simple rivals for materials descriptor-transfer signals",
+        "externalValueRationale": "A descriptor-transfer residual has external value only if it changes interpretation of public materials-property evaluation outcomes beyond ordinary composition and task-family artifacts.",
+        "domainScientificSignificance": "A materials descriptor-transfer mechanism has domain scientific significance only when it identifies a reproducible property-outcome residual across public materials tasks that is not absorbed by composition, formula-size, target-family, split-leakage, or shuffled-target rivals.",
+        "discoveryScoredOutcome": "Discovery-scored evidence would be a narrow computational-materials mechanism claim about public property outcome structure with independent holdout and replay support, not a matminer or pymatgen pipeline success.",
+        "significanceEvidenceRefs": [
+          "https://matbench.materialsproject.org/",
+          "https://materialsproject.org/"
+        ],
+        "inspectabilityRef": "https://matbench.materialsproject.org/"
+      },
+      "mechanismHypothesis": "A descriptor-transfer perturbation can expose a materials property residual that recurs across public task slices after composition, formula-size, target-family, split-leakage, and shuffled-target controls.",
+      "rivalHypothesis": "Composition, formula size, element prevalence, task-family identity, split leakage, or shuffled-target controls explain the apparent property residual.",
+      "measurableOutcome": "cross-task materials property residual after descriptor-transfer and composition/control ablations",
+      "requiredTools": [
+        "pymatgen",
+        "matminer",
+        "ase",
+        "scikit-learn",
+        "numpy"
+      ],
+      "rawTargetSource": "https://matbench.materialsproject.org/",
+      "negativeControlDesign": "Run composition-only, formula-size, target-family, split-leakage, and shuffled-target controls before seed birth.",
+      "holdoutReplayDesign": "Freeze the descriptor-transfer claim, then replay on a held-out public materials task slice with descriptor-generation receipts.",
+      "birthGateCriteria": [
+        "external problem anchor is present and public-inspectable",
+        "external problem anchor states domain scientific significance beyond pipeline/tool/package capability",
+        "external problem anchor defines a discovery-scored outcome with public significance refs",
+        "source-family documented or known-trivial behavior is rejected before birth",
+        "runtime evidence exists",
+        "all critical evidence refs are public-safe and resolvable by shape",
+        "no simple baseline explains the signal",
+        "residual magnitude clears the second-stage pressure floor before birth",
+        "at least one rival mechanism is weakened or scoped",
+        "nontrivial residual remains",
+        "cross-source or cross-slice recurrence exists",
+        "counterexamples do not collapse the claim",
+        "holdout/replay path exists"
+      ],
+      "knownFailureModes": [
+        "baseline_dominated",
+        "rival_theory_stronger",
+        "counterexample_dense"
+      ]
+    },
+    {
+      "generatorId": "gaia_astrometric_excess_significance_generator",
+      "domain": "astrophysics_open_catalog_anomalies",
+      "externalProblemAnchor": {
+        "anchorId": "EXT-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE",
+        "anchorType": "public_measurement_residual",
+        "sourceRef": "https://gea.esac.esa.int/archive/",
+        "problemStatement": "Gaia public catalog measurements provide externally inspectable astrometric outcomes where excess-noise or residual claims must beat magnitude, color, crowding, scan-law, and source-family rivals before candidate birth.",
+        "measuredTargetOutcome": "cross-slice astrometric residual under source-quality perturbation after magnitude, color, crowding, scan-law, and catalog-family controls",
+        "knownBaselineOrPrior": "magnitude, color, crowding, scan-law coverage, source-family membership, and catalog quality flags are strong simple rivals for astrometric residual signals",
+        "externalValueRationale": "An astrometric residual matters only when it is tied to public Gaia measurements and recurs across independent sky/source slices beyond catalog-quality artifacts.",
+        "domainScientificSignificance": "An astrophysics catalog residual has domain scientific significance only when it exposes a reproducible measurement-outcome pattern across independent public sky/source slices that is not absorbed by magnitude, color, crowding, scan-law, or catalog-quality rivals.",
+        "discoveryScoredOutcome": "Discovery-scored evidence would be a narrow public-catalog residual claim that changes interpretation of a measured astrometric outcome with cross-slice support, not an astropy or astroquery pipeline success.",
+        "significanceEvidenceRefs": [
+          "https://gea.esac.esa.int/archive/",
+          "https://www.cosmos.esa.int/web/gaia/earlydr3"
+        ],
+        "inspectabilityRef": "https://gea.esac.esa.int/archive/"
+      },
+      "mechanismHypothesis": "A source-quality perturbation can expose an astrometric residual that recurs across independent public sky/source slices after magnitude, color, crowding, scan-law, and catalog-family controls.",
+      "rivalHypothesis": "Magnitude, color, crowding, scan-law coverage, source-family membership, or catalog-quality flags explain the apparent residual.",
+      "measurableOutcome": "cross-slice Gaia astrometric residual after source-quality and catalog-control ablations",
+      "requiredTools": [
+        "astropy",
+        "astroquery",
+        "statsmodels",
+        "numpy",
+        "pandas"
+      ],
+      "rawTargetSource": "https://gea.esac.esa.int/archive/",
+      "negativeControlDesign": "Run magnitude-matched, color-matched, crowding-matched, scan-law, and same-source-family controls before seed birth.",
+      "holdoutReplayDesign": "Freeze the astrometric residual claim, then replay on a held-out sky/source slice with catalog-query receipts.",
+      "birthGateCriteria": [
+        "external problem anchor is present and public-inspectable",
+        "external problem anchor states domain scientific significance beyond pipeline/tool/package capability",
+        "external problem anchor defines a discovery-scored outcome with public significance refs",
+        "source-family documented or known-trivial behavior is rejected before birth",
+        "runtime evidence exists",
+        "all critical evidence refs are public-safe and resolvable by shape",
+        "no simple baseline explains the signal",
+        "residual magnitude clears the second-stage pressure floor before birth",
+        "at least one rival mechanism is weakened or scoped",
+        "nontrivial residual remains",
+        "cross-source or cross-slice recurrence exists",
+        "counterexamples do not collapse the claim",
+        "holdout/replay path exists"
+      ],
+      "knownFailureModes": [
+        "baseline_dominated",
+        "no_cross_source_support",
+        "rival_theory_stronger"
+      ]
+    },
+    {
+      "generatorId": "bounded_graph_minor_obstruction_significance_generator",
+      "domain": "formal_mathematics_conjecture_refutation",
+      "externalProblemAnchor": {
+        "anchorId": "EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE",
+        "anchorType": "known_formal_question",
+        "sourceRef": "https://hog.grinvin.org/",
+        "problemStatement": "House of Graphs public graph instances provide externally inspectable bounded graph families where a proposed minor-obstruction boundary must beat size, density, degree-sequence, treewidth-proxy, and known-family rivals.",
+        "measuredTargetOutcome": "bounded graph-minor obstruction residual after size, density, degree-sequence, treewidth-proxy, and generated counterexample controls",
+        "knownBaselineOrPrior": "size, density, degree sequence, treewidth proxies, and known graph-family membership are strong rivals for graph-minor obstruction boundary signals",
+        "externalValueRationale": "A bounded graph obstruction matters only when it is tied to public graph instances and survives generated counterexamples rather than remaining an internal graph-generator invariant.",
+        "domainScientificSignificance": "A bounded graph-minor obstruction has formal scientific significance only if it exposes a checked boundary over public graph instances that is not absorbed by size, density, degree-sequence, treewidth-proxy, or known graph-family rivals.",
+        "discoveryScoredOutcome": "Discovery-scored evidence would be a checked bounded conjecture, proof, or refutation about a public graph obstruction boundary with replayable counterexample pressure, not a networkx execution artifact.",
+        "significanceEvidenceRefs": [
+          "https://hog.grinvin.org/",
+          "https://www.graphclasses.org/"
+        ],
+        "inspectabilityRef": "https://hog.grinvin.org/"
+      },
+      "mechanismHypothesis": "A bounded graph-minor obstruction feature can produce a formal outcome residual that survives size, density, degree-sequence, treewidth-proxy, known-family, and generated-counterexample rivals.",
+      "rivalHypothesis": "Size, density, degree sequence, treewidth proxies, known graph-family membership, or small generated counterexamples explain the apparent obstruction boundary.",
+      "measurableOutcome": "bounded graph-minor obstruction residual after structural baselines and generated counterexample pressure",
+      "requiredTools": [
+        "networkx",
+        "sympy",
+        "z3-solver"
+      ],
+      "rawTargetSource": "https://hog.grinvin.org/",
+      "negativeControlDesign": "Generate size-matched, density-matched, degree-sequence-matched, treewidth-proxy, and known-family counterexample controls before seed birth.",
+      "holdoutReplayDesign": "Freeze the obstruction claim, then replay on a disjoint public graph-family holdout and generated counterexample slice.",
+      "birthGateCriteria": [
+        "external problem anchor is present and public-inspectable",
+        "external problem anchor states domain scientific significance beyond pipeline/tool/package capability",
+        "external problem anchor defines a discovery-scored outcome with public significance refs",
+        "source-family documented or known-trivial behavior is rejected before birth",
+        "runtime evidence exists",
+        "all critical evidence refs are public-safe and resolvable by shape",
+        "no simple baseline explains the signal",
+        "residual magnitude clears the second-stage pressure floor before birth",
+        "at least one rival mechanism is weakened or scoped",
+        "nontrivial residual remains",
+        "cross-source or cross-slice recurrence exists",
+        "counterexamples do not collapse the claim",
+        "holdout/replay path exists"
+      ],
+      "knownFailureModes": [
+        "counterexample_dense",
+        "known_trivial",
+        "proof_or_mechanism_failed"
+      ]
+    }
+  ],
+  "artifactRefs": [
+    ".sovryn/discovery-daemon/generator-families/GENERATOR_FAMILY_REGISTRY.md",
+    ".sovryn/discovery-daemon/generator-families/GENERATOR_FAMILY_REGISTRY.json",
+    ".sovryn/discovery-daemon/generator-families/EXTERNAL_PROBLEM_ANCHORS.md",
+    ".sovryn/discovery-daemon/generator-families/EXTERNAL_PROBLEM_ANCHORS.json"
+  ],
+  "evidenceHash": "36a6aad1baf68eae54501b40bf6e3158996dc61d09153266db2299ef44b3afca"
+}

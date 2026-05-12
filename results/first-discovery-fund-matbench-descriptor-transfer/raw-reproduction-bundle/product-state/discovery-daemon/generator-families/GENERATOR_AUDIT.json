@@ -1,0 +1,142 @@
+{
+  "kind": "mechanism_first_generator_audit",
+  "passed": true,
+  "generatorSet": "significance",
+  "familyCount": 3,
+  "latestRunFound": true,
+  "runtimeChecks": 30,
+  "hardSeedBirthAttempts": 30,
+  "hardSeedsBorn": 6,
+  "replacementRequired": false,
+  "replacementRequirements": [
+    {
+      "generatorId": "matbench_descriptor_transfer_significance_generator",
+      "status": "productive_or_not_run",
+      "runtimeChecks": 10,
+      "hardSeedsBorn": 2,
+      "blockedOutputs": 8,
+      "dominantBlocker": "unsupported_domain_significance_hypothesis",
+      "blockerCounts": {
+        "unsupported_domain_significance_hypothesis": 7,
+        "internally_interesting_only": 1
+      },
+      "requiredChange": "No replacement required from the latest run."
+    },
+    {
+      "generatorId": "gaia_astrometric_excess_significance_generator",
+      "status": "productive_or_not_run",
+      "runtimeChecks": 10,
+      "hardSeedsBorn": 2,
+      "blockedOutputs": 8,
+      "dominantBlocker": "unsupported_domain_significance_hypothesis",
+      "blockerCounts": {
+        "unsupported_domain_significance_hypothesis": 8
+      },
+      "requiredChange": "No replacement required from the latest run."
+    },
+    {
+      "generatorId": "bounded_graph_minor_obstruction_significance_generator",
+      "status": "productive_or_not_run",
+      "runtimeChecks": 10,
+      "hardSeedsBorn": 2,
+      "blockedOutputs": 8,
+      "dominantBlocker": "unsupported_domain_significance_hypothesis",
+      "blockerCounts": {
+        "unsupported_domain_significance_hypothesis": 8
+      },
+      "requiredChange": "No replacement required from the latest run."
+    }
+  ],
+  "pressureYield": {
+    "pressureRunFound": true,
+    "seedsLoaded": 9,
+    "testsRun": 63,
+    "seedsKilledByBaseline": 0,
+    "insightCandidatesCreated": 9,
+    "discoveryCandidatesCreated": 0,
+    "noInsightAfterBornSeeds": false,
+    "dominantBlocker": null,
+    "recommendedAction": "continue generator-born InsightCandidate closure with full downstream gates",
+    "pressureRef": ".sovryn/discovery-daemon/generator-pressure/latest.json"
+  },
+  "closureYield": {
+    "closureRunFound": true,
+    "closureCandidateCount": 9,
+    "discoveryScoredCandidates": 0,
+    "nonDiscoveryClassifiedCandidates": 9,
+    "fundClassDistribution": {
+      "pipeline_fund_candidate": 9
+    },
+    "allClosedAsNonDiscovery": true,
+    "claimLiftRequired": true,
+    "dominantFundClass": "pipeline_fund_candidate",
+    "recommendedAction": "create a new stable DiscoveryCandidate claim lift with external scientific significance before rerunning long searches; current closure candidates classify as pipeline_fund_candidate because the frozen InsightCandidate scope still carries anti-discovery or pipeline-scope caveats",
+    "closureRef": ".sovryn/discovery-daemon/generator-fund-closure/latest.json"
+  },
+  "gates": [
+    {
+      "code": "registry_has_three_new_families",
+      "passed": true,
+      "message": "Generator registry must include the three required mechanism-first families for the selected generator set."
+    },
+    {
+      "code": "registry_families_have_external_problem_anchors",
+      "passed": true,
+      "message": "Every generator family must start from a public external problem anchor with explicit domain scientific significance and at least two public significance refs."
+    },
+    {
+      "code": "latest_run_present",
+      "passed": true,
+      "message": "Generator audit requires a focused generator run artifact."
+    },
+    {
+      "code": "runtime_checks_target_met",
+      "passed": true,
+      "message": "Focused generator validation must run at least thirty runtime checks when all families run."
+    },
+    {
+      "code": "every_output_has_birth_decision",
+      "passed": true,
+      "message": "Every generator output must explicitly decide hardSeedBirth born or blocked."
+    },
+    {
+      "code": "external_value_gate_blocks_internal_only_outputs",
+      "passed": true,
+      "message": "ExternalValueGate must run before HardSeed birth and block internal-only outputs when present."
+    },
+    {
+      "code": "success_or_precise_blockers",
+      "passed": true,
+      "message": "Focused validation must either produce a birth-eligible hard seed or prove precise blocker causes for every output."
+    },
+    {
+      "code": "no_birth_requires_replacement_requirements",
+      "passed": true,
+      "message": "If runtime generator validation creates no HardSeeds, the audit must expose concrete generator replacement requirements instead of a green-only audit."
+    },
+    {
+      "code": "pressure_yield_not_fake_green",
+      "passed": true,
+      "message": "Generator audit must not stay green after generator-pressure kills every born hard seed before InsightCandidate birth."
+    },
+    {
+      "code": "post_closure_discovery_yield_not_fake_green",
+      "passed": true,
+      "message": "Generator audit must not stay green after package/Fund closure classifies every closure candidate as non-discovery unless a later claim-lift intake produced a discovery-scored Fund."
+    },
+    {
+      "code": "no_fake_fund",
+      "passed": true,
+      "message": "Generator runs must not create FUND_FOUND.md or fund-candidate.json; a later discovery-scored claim-lift intake may own root Fund state."
+    }
+  ],
+  "failedGates": [],
+  "artifactRefs": [
+    ".sovryn/discovery-daemon/generator-families/GENERATOR_AUDIT.md",
+    ".sovryn/discovery-daemon/generator-families/GENERATOR_REPLACEMENT_REQUIREMENTS.md",
+    ".sovryn/discovery-daemon/generator-families/latest.json",
+    ".sovryn/discovery-daemon/generator-pressure/latest.json",
+    ".sovryn/discovery-daemon/generator-fund-closure/latest.json"
+  ],
+  "evidenceHash": "c030e3078ed072f2c0b713caed43e8fb862699a56da05eeaa99964fc0bfe5a6a"
+}

@@ -1,0 +1,47 @@
+{
+  "kind": "discovery_anchor_runtime_source",
+  "anchorId": "DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP",
+  "sourceRef": "https://matbench.materialsproject.org/",
+  "sourceReceipt": "Matbench experimental band-gap public measurement; rows=300; status=200;etag=W/\"e40bc8bfe21e4f64ac1da82bffc65e6d03698b05\";lastModified=none;contentLength=99468;sourceHash=af0b8299275eb29711a6b6b895d1dbae80c80076464d05e1f44b0e139316da81",
+  "sourceHash": "92c9530ffd128eb2dd2491b5965ce17e55811d1f1f5b711548ce9f2a62ef56dd",
+  "loaderCheckCommand": "sovryn discover-daemon discovery-anchor-source-load --anchor DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP",
+  "rawTargetCount": 300,
+  "measuredVariable": "holdout experimental band-gap residual after composition-only, size, and source-family baselines",
+  "targetOutcome": "public Matbench experimental band-gap residual after composition, size, and simple family controls",
+  "measuredOutcome": 1.1487,
+  "residualMagnitude": 0.6376,
+  "baselineResults": [
+    {
+      "baseline": "element_count_correlation",
+      "result": 0.2897,
+      "explainsSignal": false
+    },
+    {
+      "baseline": "total_atom_count_correlation",
+      "result": 0.1708,
+      "explainsSignal": false
+    },
+    {
+      "baseline": "transition_metal_mean_shift",
+      "result": 0.8753,
+      "explainsSignal": false
+    }
+  ],
+  "rivalWeakened": true,
+  "nontrivialResidual": true,
+  "crossSourceSupport": true,
+  "counterexampleCollapsed": false,
+  "holdoutReplayAvailable": true,
+  "holdoutPath": "predeclared Matbench family holdout: withhold formula-family groups after claim freeze and recompute composition-only residual direction on held-out families",
+  "replayPath": "replay Matbench public JSON download, formula parsing, composition baselines, and family residual scoring from source receipt",
+  "publicSafe": true,
+  "sourceRefs": [
+    "https://matbench.materialsproject.org/",
+    "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json"
+  ],
+  "evidenceRefs": [
+    ".sovryn/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP.json",
+    "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json#matbench-expt-gap-runtime-source",
+    "https://matbench.materialsproject.org/#matbench-expt-gap"
+  ]
+}

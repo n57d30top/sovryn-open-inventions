@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_sources",
-  "generatedAt": "2026-05-12T14:30:23.408Z",
+  "generatedAt": "2026-05-12T15:11:25.627Z",
   "sources": [
     {
       "resultSlug": "batch10-toolchain-kill-week",
@@ -1026,6 +1026,12 @@
       "resultSlug": "first-discovery-fund-matbench-descriptor-transfer",
       "sourceKind": "external_package_or_tool",
       "name": "numpy",
+      "publicOnly": true
+    },
+    {
+      "resultSlug": "first-discovery-fund-matbench-descriptor-transfer",
+      "sourceKind": "external_package_or_tool",
+      "name": "pandas",
       "publicOnly": true
     },
     {

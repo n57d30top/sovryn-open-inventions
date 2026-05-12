@@ -1,0 +1,552 @@
+{
+  "kind": "generator_born_hard_seed_pressure_rows",
+  "rows": [
+    {
+      "seedId": "HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "candidateId": "GEN-CAND-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "domain": "computational_materials_property_data",
+      "generatorId": "matbench_descriptor_transfer_significance_generator",
+      "outputId": "matbench_descriptor_transfer_significance_generator-output-01",
+      "exactClaim": "Mechanism-first generator matbench_descriptor_transfer_significance_generator produced a birth-eligible hard seed for cross-task materials property residual after descriptor-transfer and composition/control ablations. Domain scientific significance hypothesis: A materials descriptor-transfer mechanism has domain scientific significance only when it identifies a reproducible property-outcome residual across public materials tasks that is not absorbed by composition, formula-size, target-family, split-leakage, or shuffled-target rivals. Expected domain change: Discovery-scored evidence would be a narrow computational-materials mechanism claim about public property outcome structure with independent holdout and replay support, not a matminer or pymatgen pipeline success. Novelty discriminator: The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the descriptor-transfer property residual recurs across independent materials task slices after composition formula-size target-family split-leakage and shuffled-target controls. Rival prediction: composition formula-size target-family split leakage or shuffled-target controls erase the property residual. The narrow seed says only that target matbench_descriptor_transfer_significance_generator-target-01 deserves downstream InsightCandidate pressure because the runtime evidence survived simple baselines, rivals, counterexamples, cross-source support, holdout/replay availability, and the pre-birth domain-significance hypothesis gate.",
+      "evidenceRefs": [
+        "https://matbench.materialsproject.org/",
+        "https://matbench.materialsproject.org/#descriptor-transfer-anchor-1",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package",
+        "https://matbench.materialsproject.org/#baseline",
+        "https://matbench.materialsproject.org/#rival-theory",
+        "https://matbench.materialsproject.org/#holdout",
+        "https://matbench.materialsproject.org/#replay",
+        "https://matbench.materialsproject.org/#counterexample",
+        ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json"
+      ],
+      "runtimeEvidenceRef": ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json",
+      "measuredOutcome": 0.72,
+      "residual": 0.21,
+      "mechanismHypothesis": "public materials descriptor-transfer residual survives composition formula-size target-family split-leakage and shuffled-target controls",
+      "rivalHypothesis": "composition formula-size element prevalence task-family split leakage or shuffled-target controls explain the property residual",
+      "domainSignificanceSupported": true,
+      "domainSignificanceEvidenceRefs": [
+        "https://matbench.materialsproject.org/",
+        "https://materialsproject.org/"
+      ],
+      "baseline": {
+        "passed": true,
+        "strongestBaseline": "composition_formula_size_target_family_baseline",
+        "summary": "The hard seed remains baseline-resistant under the second-stage residual floor and recorded simple baselines."
+      },
+      "rival": {
+        "weakened": true,
+        "summary": "At least one rival mechanism remains weakened or scope-limited after second-stage pressure."
+      },
+      "counterexample": {
+        "survived": true,
+        "summary": "Counterexample/control pressure did not collapse the narrow hard-seed claim."
+      },
+      "recurrence": {
+        "supported": true,
+        "summary": "The hard seed retains cross-source or cross-slice support with at least two public refs."
+      },
+      "holdoutReplay": {
+        "supported": true,
+        "summary": "Holdout and replay paths are both bound before InsightCandidate birth."
+      },
+      "mechanismProof": {
+        "survived": true,
+        "summary": "Mechanism/proof pressure is nonfatal for the narrow evidence scope."
+      },
+      "inspectability": {
+        "complete": true,
+        "summary": "Runtime evidence, local artifacts, and public-safe refs are inspectable enough for an InsightCandidate artifact."
+      },
+      "primaryKillReason": "survived",
+      "insightCandidateCreated": true,
+      "insightCandidateRef": ".sovryn/discovery-daemon/insight-candidates/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-74933C45D6DB.json",
+      "discoveryCandidateCreated": false
+    },
+    {
+      "seedId": "HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-02",
+      "candidateId": "GEN-CAND-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICANCE-GENERATOR-OUTPUT-02",
+      "domain": "computational_materials_property_data",
+      "generatorId": "matbench_descriptor_transfer_significance_generator",
+      "outputId": "matbench_descriptor_transfer_significance_generator-output-02",
+      "exactClaim": "Mechanism-first generator matbench_descriptor_transfer_significance_generator produced a birth-eligible hard seed for cross-task materials property residual after descriptor-transfer and composition/control ablations. Domain scientific significance hypothesis: A materials descriptor-transfer mechanism has domain scientific significance only when it identifies a reproducible property-outcome residual across public materials tasks that is not absorbed by composition, formula-size, target-family, split-leakage, or shuffled-target rivals. Expected domain change: Discovery-scored evidence would be a narrow computational-materials mechanism claim about public property outcome structure with independent holdout and replay support, not a matminer or pymatgen pipeline success. Novelty discriminator: The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the descriptor-transfer property residual recurs across independent materials task slices after composition formula-size target-family split-leakage and shuffled-target controls. Rival prediction: composition formula-size target-family split leakage or shuffled-target controls erase the property residual. The narrow seed says only that target matbench_descriptor_transfer_significance_generator-target-02 deserves downstream InsightCandidate pressure because the runtime evidence survived simple baselines, rivals, counterexamples, cross-source support, holdout/replay availability, and the pre-birth domain-significance hypothesis gate.",
+      "evidenceRefs": [
+        "https://matbench.materialsproject.org/",
+        "https://matbench.materialsproject.org/#descriptor-transfer-anchor-2",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package",
+        "https://matbench.materialsproject.org/#baseline",
+        "https://matbench.materialsproject.org/#rival-theory",
+        "https://matbench.materialsproject.org/#holdout",
+        "https://matbench.materialsproject.org/#replay",
+        "https://matbench.materialsproject.org/#counterexample",
+        ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-02.json"
+      ],
+      "runtimeEvidenceRef": ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-02.json",
+      "measuredOutcome": 0.73,
+      "residual": 0.2,
+      "mechanismHypothesis": "public materials descriptor-transfer residual survives composition formula-size target-family split-leakage and shuffled-target controls",
+      "rivalHypothesis": "composition formula-size element prevalence task-family split leakage or shuffled-target controls explain the property residual",
+      "domainSignificanceSupported": true,
+      "domainSignificanceEvidenceRefs": [
+        "https://matbench.materialsproject.org/",
+        "https://materialsproject.org/"
+      ],
+      "baseline": {
+        "passed": true,
+        "strongestBaseline": "composition_formula_size_target_family_baseline",
+        "summary": "The hard seed remains baseline-resistant under the second-stage residual floor and recorded simple baselines."
+      },
+      "rival": {
+        "weakened": true,
+        "summary": "At least one rival mechanism remains weakened or scope-limited after second-stage pressure."
+      },
+      "counterexample": {
+        "survived": true,
+        "summary": "Counterexample/control pressure did not collapse the narrow hard-seed claim."
+      },
+      "recurrence": {
+        "supported": true,
+        "summary": "The hard seed retains cross-source or cross-slice support with at least two public refs."
+      },
+      "holdoutReplay": {
+        "supported": true,
+        "summary": "Holdout and replay paths are both bound before InsightCandidate birth."
+      },
+      "mechanismProof": {
+        "survived": true,
+        "summary": "Mechanism/proof pressure is nonfatal for the narrow evidence scope."
+      },
+      "inspectability": {
+        "complete": true,
+        "summary": "Runtime evidence, local artifacts, and public-safe refs are inspectable enough for an InsightCandidate artifact."
+      },
+      "primaryKillReason": "survived",
+      "insightCandidateCreated": true,
+      "insightCandidateRef": ".sovryn/discovery-daemon/insight-candidates/INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-2A3F9C84CAFC.json",
+      "discoveryCandidateCreated": false
+    },
+    {
+      "seedId": "HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "candidateId": "GEN-CAND-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "domain": "astrophysics_open_catalog_anomalies",
+      "generatorId": "gaia_astrometric_excess_significance_generator",
+      "outputId": "gaia_astrometric_excess_significance_generator-output-01",
+      "exactClaim": "Mechanism-first generator gaia_astrometric_excess_significance_generator produced a birth-eligible hard seed for cross-slice Gaia astrometric residual after source-quality and catalog-control ablations. Domain scientific significance hypothesis: An astrophysics catalog residual has domain scientific significance only when it exposes a reproducible measurement-outcome pattern across independent public sky/source slices that is not absorbed by magnitude, color, crowding, scan-law, or catalog-quality rivals. Expected domain change: Discovery-scored evidence would be a narrow public-catalog residual claim that changes interpretation of a measured astrometric outcome with cross-slice support, not an astropy or astroquery pipeline success. Novelty discriminator: The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the astrometric residual recurs across independent sky and source slices after magnitude color crowding scan-law and catalog-quality controls. Rival prediction: magnitude color crowding scan-law source-family or catalog-quality controls erase the residual. The narrow seed says only that target gaia_astrometric_excess_significance_generator-target-01 deserves downstream InsightCandidate pressure because the runtime evidence survived simple baselines, rivals, counterexamples, cross-source support, holdout/replay availability, and the pre-birth domain-significance hypothesis gate.",
+      "evidenceRefs": [
+        "https://gea.esac.esa.int/archive/",
+        "https://gea.esac.esa.int/archive/#astrometric-excess-anchor-1",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package",
+        "https://gea.esac.esa.int/archive/#baseline",
+        "https://gea.esac.esa.int/archive/#rival-theory",
+        "https://gea.esac.esa.int/archive/#holdout",
+        "https://gea.esac.esa.int/archive/#replay",
+        "https://gea.esac.esa.int/archive/#counterexample",
+        ".sovryn/discovery-daemon/generator-families/runtime-evidence/gaia_astrometric_excess_significance_generator-output-01.json"
+      ],
+      "runtimeEvidenceRef": ".sovryn/discovery-daemon/generator-families/runtime-evidence/gaia_astrometric_excess_significance_generator-output-01.json",
+      "measuredOutcome": 0.6900000000000001,
+      "residual": 0.19,
+      "mechanismHypothesis": "public Gaia astrometric residual survives magnitude color crowding scan-law and catalog-quality controls across independent slices",
+      "rivalHypothesis": "magnitude color crowding scan-law source-family or catalog-quality flags explain the astrometric residual",
+      "domainSignificanceSupported": true,
+      "domainSignificanceEvidenceRefs": [
+        "https://gea.esac.esa.int/archive/",
+        "https://www.cosmos.esa.int/web/gaia/earlydr3"
+      ],
+      "baseline": {
+        "passed": true,
+        "strongestBaseline": "magnitude_color_crowding_scanlaw_baseline",
+        "summary": "The hard seed remains baseline-resistant under the second-stage residual floor and recorded simple baselines."
+      },
+      "rival": {
+        "weakened": true,
+        "summary": "At least one rival mechanism remains weakened or scope-limited after second-stage pressure."
+      },
+      "counterexample": {
+        "survived": true,
+        "summary": "Counterexample/control pressure did not collapse the narrow hard-seed claim."
+      },
+      "recurrence": {
+        "supported": true,
+        "summary": "The hard seed retains cross-source or cross-slice support with at least two public refs."
+      },
+      "holdoutReplay": {
+        "supported": true,
+        "summary": "Holdout and replay paths are both bound before InsightCandidate birth."
+      },
+      "mechanismProof": {
+        "survived": true,
+        "summary": "Mechanism/proof pressure is nonfatal for the narrow evidence scope."
+      },
+      "inspectability": {
+        "complete": true,
+        "summary": "Runtime evidence, local artifacts, and public-safe refs are inspectable enough for an InsightCandidate artifact."
+      },
+      "primaryKillReason": "survived",
+      "insightCandidateCreated": true,
+      "insightCandidateRef": ".sovryn/discovery-daemon/insight-candidates/INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-30E104407140.json",
+      "discoveryCandidateCreated": false
+    },
+    {
+      "seedId": "HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GENERATOR-OUTPUT-02",
+      "candidateId": "GEN-CAND-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GENERATOR-OUTPUT-02",
+      "domain": "astrophysics_open_catalog_anomalies",
+      "generatorId": "gaia_astrometric_excess_significance_generator",
+      "outputId": "gaia_astrometric_excess_significance_generator-output-02",
+      "exactClaim": "Mechanism-first generator gaia_astrometric_excess_significance_generator produced a birth-eligible hard seed for cross-slice Gaia astrometric residual after source-quality and catalog-control ablations. Domain scientific significance hypothesis: An astrophysics catalog residual has domain scientific significance only when it exposes a reproducible measurement-outcome pattern across independent public sky/source slices that is not absorbed by magnitude, color, crowding, scan-law, or catalog-quality rivals. Expected domain change: Discovery-scored evidence would be a narrow public-catalog residual claim that changes interpretation of a measured astrometric outcome with cross-slice support, not an astropy or astroquery pipeline success. Novelty discriminator: The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the astrometric residual recurs across independent sky and source slices after magnitude color crowding scan-law and catalog-quality controls. Rival prediction: magnitude color crowding scan-law source-family or catalog-quality controls erase the residual. The narrow seed says only that target gaia_astrometric_excess_significance_generator-target-02 deserves downstream InsightCandidate pressure because the runtime evidence survived simple baselines, rivals, counterexamples, cross-source support, holdout/replay availability, and the pre-birth domain-significance hypothesis gate.",
+      "evidenceRefs": [
+        "https://gea.esac.esa.int/archive/",
+        "https://gea.esac.esa.int/archive/#astrometric-excess-anchor-2",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package",
+        "https://gea.esac.esa.int/archive/#baseline",
+        "https://gea.esac.esa.int/archive/#rival-theory",
+        "https://gea.esac.esa.int/archive/#holdout",
+        "https://gea.esac.esa.int/archive/#replay",
+        "https://gea.esac.esa.int/archive/#counterexample",
+        ".sovryn/discovery-daemon/generator-families/runtime-evidence/gaia_astrometric_excess_significance_generator-output-02.json"
+      ],
+      "runtimeEvidenceRef": ".sovryn/discovery-daemon/generator-families/runtime-evidence/gaia_astrometric_excess_significance_generator-output-02.json",
+      "measuredOutcome": 0.7000000000000001,
+      "residual": 0.18000000000000002,
+      "mechanismHypothesis": "public Gaia astrometric residual survives magnitude color crowding scan-law and catalog-quality controls across independent slices",
+      "rivalHypothesis": "magnitude color crowding scan-law source-family or catalog-quality flags explain the astrometric residual",
+      "domainSignificanceSupported": true,
+      "domainSignificanceEvidenceRefs": [
+        "https://gea.esac.esa.int/archive/",
+        "https://www.cosmos.esa.int/web/gaia/earlydr3"
+      ],
+      "baseline": {
+        "passed": true,
+        "strongestBaseline": "magnitude_color_crowding_scanlaw_baseline",
+        "summary": "The hard seed remains baseline-resistant under the second-stage residual floor and recorded simple baselines."
+      },
+      "rival": {
+        "weakened": true,
+        "summary": "At least one rival mechanism remains weakened or scope-limited after second-stage pressure."
+      },
+      "counterexample": {
+        "survived": true,
+        "summary": "Counterexample/control pressure did not collapse the narrow hard-seed claim."
+      },
+      "recurrence": {
+        "supported": true,
+        "summary": "The hard seed retains cross-source or cross-slice support with at least two public refs."
+      },
+      "holdoutReplay": {
+        "supported": true,
+        "summary": "Holdout and replay paths are both bound before InsightCandidate birth."
+      },
+      "mechanismProof": {
+        "survived": true,
+        "summary": "Mechanism/proof pressure is nonfatal for the narrow evidence scope."
+      },
+      "inspectability": {
+        "complete": true,
+        "summary": "Runtime evidence, local artifacts, and public-safe refs are inspectable enough for an InsightCandidate artifact."
+      },
+      "primaryKillReason": "survived",
+      "insightCandidateCreated": true,
+      "insightCandidateRef": ".sovryn/discovery-daemon/insight-candidates/INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-7B9A9777785D.json",
+      "discoveryCandidateCreated": false
+    },
+    {
+      "seedId": "HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "candidateId": "GEN-CAND-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE-GENERATOR-OUTPUT-01",
+      "domain": "formal_mathematics_conjecture_refutation",
+      "generatorId": "bounded_graph_minor_obstruction_significance_generator",
+      "outputId": "bounded_graph_minor_obstruction_significance_generator-output-01",
+      "exactClaim": "Mechanism-first generator bounded_graph_minor_obstruction_significance_generator produced a birth-eligible hard seed for bounded graph-minor obstruction residual after structural baselines and generated counterexample pressure. Domain scientific significance hypothesis: A bounded graph-minor obstruction has formal scientific significance only if it exposes a checked boundary over public graph instances that is not absorbed by size, density, degree-sequence, treewidth-proxy, or known graph-family rivals. Expected domain change: Discovery-scored evidence would be a checked bounded conjecture, proof, or refutation about a public graph obstruction boundary with replayable counterexample pressure, not a networkx execution artifact. Novelty discriminator: The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the bounded graph-minor obstruction residual persists across public graph-family slices after size density degree-sequence treewidth-proxy and generated-counterexample controls. Rival prediction: size density degree sequence treewidth proxy known-family membership or small generated counterexamples erase the obstruction boundary. The narrow seed says only that target bounded_graph_minor_obstruction_significance_generator-target-01 deserves downstream InsightCandidate pressure because the runtime evidence survived simple baselines, rivals, counterexamples, cross-source support, holdout/replay availability, and the pre-birth domain-significance hypothesis gate.",
+      "evidenceRefs": [
+        "https://hog.grinvin.org/",
+        "https://hog.grinvin.org/#minor-obstruction-anchor-1",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package",
+        "https://hog.grinvin.org/#baseline",
+        "https://hog.grinvin.org/#rival-theory",
+        "https://hog.grinvin.org/#holdout",
+        "https://hog.grinvin.org/#replay",
+        "https://hog.grinvin.org/#counterexample",
+        ".sovryn/discovery-daemon/generator-families/runtime-evidence/bounded_graph_minor_obstruction_significance_generator-output-01.json"
+      ],
+      "runtimeEvidenceRef": ".sovryn/discovery-daemon/generator-families/runtime-evidence/bounded_graph_minor_obstruction_significance_generator-output-01.json",
+      "measuredOutcome": 0.77,
+      "residual": 0.24,
+      "mechanismHypothesis": "public graph-minor obstruction residual survives size density degree-sequence treewidth-proxy known-family and generated-counterexample controls",
+      "rivalHypothesis": "size density degree sequence treewidth proxies known graph-family membership or small generated counterexamples explain the obstruction boundary",
+      "domainSignificanceSupported": true,
+      "domainSignificanceEvidenceRefs": [
+        "https://hog.grinvin.org/",
+        "https://www.graphclasses.org/"
+      ],
+      "baseline": {
+        "passed": true,
+        "strongestBaseline": "size_density_degree_treewidth_proxy_baseline",
+        "summary": "The hard seed remains baseline-resistant under the second-stage residual floor and recorded simple baselines."
+      },
+      "rival": {
+        "weakened": true,
+        "summary": "At least one rival mechanism remains weakened or scope-limited after second-stage pressure."
+      },
+      "counterexample": {
+        "survived": true,
+        "summary": "Counterexample/control pressure did not collapse the narrow hard-seed claim."
+      },
+      "recurrence": {
+        "supported": true,
+        "summary": "The hard seed retains cross-source or cross-slice support with at least two public refs."
+      },
+      "holdoutReplay": {
+        "supported": true,
+        "summary": "Holdout and replay paths are both bound before InsightCandidate birth."
+      },
+      "mechanismProof": {
+        "survived": true,
+        "summary": "Mechanism/proof pressure is nonfatal for the narrow evidence scope."
+      },
+      "inspectability": {
+        "complete": true,
+        "summary": "Runtime evidence, local artifacts, and public-safe refs are inspectable enough for an InsightCandidate artifact."
+      },
+      "primaryKillReason": "survived",
+      "insightCandidateCreated": true,
+      "insightCandidateRef": ".sovryn/discovery-daemon/insight-candidates/INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-0728940E3D04.json",
+      "discoveryCandidateCreated": false
+    },
+    {
+      "seedId": "HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE-GENERATOR-OUTPUT-02",
+      "candidateId": "GEN-CAND-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE-GENERATOR-OUTPUT-02",
+      "domain": "formal_mathematics_conjecture_refutation",
+      "generatorId": "bounded_graph_minor_obstruction_significance_generator",
+      "outputId": "bounded_graph_minor_obstruction_significance_generator-output-02",
+      "exactClaim": "Mechanism-first generator bounded_graph_minor_obstruction_significance_generator produced a birth-eligible hard seed for bounded graph-minor obstruction residual after structural baselines and generated counterexample pressure. Domain scientific significance hypothesis: A bounded graph-minor obstruction has formal scientific significance only if it exposes a checked boundary over public graph instances that is not absorbed by size, density, degree-sequence, treewidth-proxy, or known graph-family rivals. Expected domain change: Discovery-scored evidence would be a checked bounded conjecture, proof, or refutation about a public graph obstruction boundary with replayable counterexample pressure, not a networkx execution artifact. Novelty discriminator: The claimed signal must be not documented outside known source-family behavior and must change interpretation of the external target outcome. Candidate prediction: the bounded graph-minor obstruction residual persists across public graph-family slices after size density degree-sequence treewidth-proxy and generated-counterexample controls. Rival prediction: size density degree sequence treewidth proxy known-family membership or small generated counterexamples erase the obstruction boundary. The narrow seed says only that target bounded_graph_minor_obstruction_significance_generator-target-02 deserves downstream InsightCandidate pressure because the runtime evidence survived simple baselines, rivals, counterexamples, cross-source support, holdout/replay availability, and the pre-birth domain-significance hypothesis gate.",
+      "evidenceRefs": [
+        "https://hog.grinvin.org/",
+        "https://hog.grinvin.org/#minor-obstruction-anchor-2",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package",
+        "https://hog.grinvin.org/#baseline",
+        "https://hog.grinvin.org/#rival-theory",
+        "https://hog.grinvin.org/#holdout",
+        "https://hog.grinvin.org/#replay",
+        "https://hog.grinvin.org/#counterexample",
+        ".sovryn/discovery-daemon/generator-families/runtime-evidence/bounded_graph_minor_obstruction_significance_generator-output-02.json"
+      ],
+      "runtimeEvidenceRef": ".sovryn/discovery-daemon/generator-families/runtime-evidence/bounded_graph_minor_obstruction_significance_generator-output-02.json",
+      "measuredOutcome": 0.78,
+      "residual": 0.23,
+      "mechanismHypothesis": "public graph-minor obstruction residual survives size density degree-sequence treewidth-proxy known-family and generated-counterexample controls",
+      "rivalHypothesis": "size density degree sequence treewidth proxies known graph-family membership or small generated counterexamples explain the obstruction boundary",
+      "domainSignificanceSupported": true,
+      "domainSignificanceEvidenceRefs": [
+        "https://hog.grinvin.org/",
+        "https://www.graphclasses.org/"
+      ],
+      "baseline": {
+        "passed": true,
+        "strongestBaseline": "size_density_degree_treewidth_proxy_baseline",
+        "summary": "The hard seed remains baseline-resistant under the second-stage residual floor and recorded simple baselines."
+      },
+      "rival": {
+        "weakened": true,
+        "summary": "At least one rival mechanism remains weakened or scope-limited after second-stage pressure."
+      },
+      "counterexample": {
+        "survived": true,
+        "summary": "Counterexample/control pressure did not collapse the narrow hard-seed claim."
+      },
+      "recurrence": {
+        "supported": true,
+        "summary": "The hard seed retains cross-source or cross-slice support with at least two public refs."
+      },
+      "holdoutReplay": {
+        "supported": true,
+        "summary": "Holdout and replay paths are both bound before InsightCandidate birth."
+      },
+      "mechanismProof": {
+        "survived": true,
+        "summary": "Mechanism/proof pressure is nonfatal for the narrow evidence scope."
+      },
+      "inspectability": {
+        "complete": true,
+        "summary": "Runtime evidence, local artifacts, and public-safe refs are inspectable enough for an InsightCandidate artifact."
+      },
+      "primaryKillReason": "survived",
+      "insightCandidateCreated": true,
+      "insightCandidateRef": ".sovryn/discovery-daemon/insight-candidates/INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-2114B7F243CE.json",
+      "discoveryCandidateCreated": false
+    },
+    {
+      "seedId": "HARD-DISC-ANCHOR-DISC-ANCHOR-NASA-POWER-SOLAR-RESIDUAL-RUNTIME-CHECK-01",
+      "candidateId": "DISC-ANCHOR-CAND-DISC-ANCHOR-NASA-POWER-SOLAR-RESIDUAL-RUNTIME-CHECK-01",
+      "domain": "climate_energy_residuals",
+      "generatorId": "DISC-ANCHOR-NASA-POWER-SOLAR-RESIDUAL",
+      "outputId": "DISC-ANCHOR-NASA-POWER-SOLAR-RESIDUAL-runtime-check-01",
+      "exactClaim": "Discovery-grade external anchor DISC-ANCHOR-NASA-POWER-SOLAR-RESIDUAL produced a birth-eligible HardSeed for daily all-sky minus clear-sky solar residual recurrence after site, seasonality, clear-sky irradiance, and temperature controls. This is not an InsightCandidate or Fund; it only authorizes downstream mechanism-first pressure from runtime evidence that survived birth gates.",
+      "evidenceRefs": [
+        "https://power.larc.nasa.gov/docs/services/api/temporal/daily/",
+        ".sovryn/discovery-daemon/discovery-anchor-run/runtime-evidence/DISC-ANCHOR-NASA-POWER-SOLAR-RESIDUAL-runtime-check-01.json",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package",
+        "https://power.larc.nasa.gov/docs/services/api/temporal/daily/#baseline",
+        "https://power.larc.nasa.gov/docs/services/api/temporal/daily/#rival-theory",
+        "https://power.larc.nasa.gov/docs/services/api/temporal/daily/#holdout",
+        "https://power.larc.nasa.gov/docs/services/api/temporal/daily/#replay",
+        "https://power.larc.nasa.gov/docs/services/api/temporal/daily/#counterexample"
+      ],
+      "runtimeEvidenceRef": ".sovryn/discovery-daemon/discovery-anchor-run/runtime-evidence/DISC-ANCHOR-NASA-POWER-SOLAR-RESIDUAL-runtime-check-01.json",
+      "measuredOutcome": 1.1838,
+      "residual": 0.6605,
+      "mechanismHypothesis": "multi-site temporal cloud-loss variability predicts recurring solar residual bursts better than day-of-year, clear-sky, temperature, or site-family baselines Frozen prediction: the mechanism signal should survive matched source-family and simple baseline controls",
+      "rivalHypothesis": "day-of-year seasonality explains the residual Rival prediction: source-family or simple baseline controls should erase a weak anchor signal",
+      "domainSignificanceSupported": false,
+      "domainSignificanceEvidenceRefs": [],
+      "baseline": {
+        "passed": true,
+        "strongestBaseline": "day_of_year_seasonality_correlation",
+        "summary": "The hard seed remains baseline-resistant under the second-stage residual floor and recorded simple baselines."
+      },
+      "rival": {
+        "weakened": true,
+        "summary": "At least one rival mechanism remains weakened or scope-limited after second-stage pressure."
+      },
+      "counterexample": {
+        "survived": true,
+        "summary": "Counterexample/control pressure did not collapse the narrow hard-seed claim."
+      },
+      "recurrence": {
+        "supported": true,
+        "summary": "The hard seed retains cross-source or cross-slice support with at least two public refs."
+      },
+      "holdoutReplay": {
+        "supported": true,
+        "summary": "Holdout and replay paths are both bound before InsightCandidate birth."
+      },
+      "mechanismProof": {
+        "survived": true,
+        "summary": "Mechanism/proof pressure is nonfatal for the narrow evidence scope."
+      },
+      "inspectability": {
+        "complete": true,
+        "summary": "Runtime evidence, local artifacts, and public-safe refs are inspectable enough for an InsightCandidate artifact."
+      },
+      "primaryKillReason": "survived",
+      "insightCandidateCreated": true,
+      "insightCandidateRef": ".sovryn/discovery-daemon/insight-candidates/INSIGHT-HARD-DISC-ANCHOR-DISC-ANCHOR-NASA-POWER-SOLAR-RE-CB43D003A4C2.json",
+      "discoveryCandidateCreated": false
+    },
+    {
+      "seedId": "HARD-DISC-ANCHOR-DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-RUNTIME-CHECK-02",
+      "candidateId": "DISC-ANCHOR-CAND-DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-RUNTIME-CHECK-02",
+      "domain": "computational_materials_property_data",
+      "generatorId": "DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP",
+      "outputId": "DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-runtime-check-02",
+      "exactClaim": "Discovery-grade external anchor DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP produced a birth-eligible HardSeed for holdout experimental band-gap residual after composition-only, size, and source-family baselines. This is not an InsightCandidate or Fund; it only authorizes downstream mechanism-first pressure from runtime evidence that survived birth gates.",
+      "evidenceRefs": [
+        "https://matbench.materialsproject.org/",
+        ".sovryn/discovery-daemon/discovery-anchor-run/runtime-evidence/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-runtime-check-02.json",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package",
+        "https://matbench.materialsproject.org/#baseline",
+        "https://matbench.materialsproject.org/#rival-theory",
+        "https://matbench.materialsproject.org/#holdout",
+        "https://matbench.materialsproject.org/#replay",
+        "https://matbench.materialsproject.org/#counterexample"
+      ],
+      "runtimeEvidenceRef": ".sovryn/discovery-daemon/discovery-anchor-run/runtime-evidence/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP-runtime-check-02.json",
+      "measuredOutcome": 1.1487,
+      "residual": 0.6376,
+      "mechanismHypothesis": "formula-family and local chemistry descriptors explain recurring experimental band-gap residuals better than composition-only and dataset-source baselines Frozen prediction: formula-family and local chemistry descriptors should add residual signal beyond composition-only controls",
+      "rivalHypothesis": "composition-only descriptors explain the residual Rival prediction: composition, formula size, and simple family controls should absorb the band-gap residual",
+      "domainSignificanceSupported": false,
+      "domainSignificanceEvidenceRefs": [],
+      "baseline": {
+        "passed": true,
+        "strongestBaseline": "element_count_correlation",
+        "summary": "The hard seed remains baseline-resistant under the second-stage residual floor and recorded simple baselines."
+      },
+      "rival": {
+        "weakened": true,
+        "summary": "At least one rival mechanism remains weakened or scope-limited after second-stage pressure."
+      },
+      "counterexample": {
+        "survived": true,
+        "summary": "Counterexample/control pressure did not collapse the narrow hard-seed claim."
+      },
+      "recurrence": {
+        "supported": true,
+        "summary": "The hard seed retains cross-source or cross-slice support with at least two public refs."
+      },
+      "holdoutReplay": {
+        "supported": true,
+        "summary": "Holdout and replay paths are both bound before InsightCandidate birth."
+      },
+      "mechanismProof": {
+        "survived": true,
+        "summary": "Mechanism/proof pressure is nonfatal for the narrow evidence scope."
+      },
+      "inspectability": {
+        "complete": true,
+        "summary": "Runtime evidence, local artifacts, and public-safe refs are inspectable enough for an InsightCandidate artifact."
+      },
+      "primaryKillReason": "survived",
+      "insightCandidateCreated": true,
+      "insightCandidateRef": ".sovryn/discovery-daemon/insight-candidates/INSIGHT-HARD-DISC-ANCHOR-DISC-ANCHOR-MATBENCH-DIELECTRIC-85A31CA3C978.json",
+      "discoveryCandidateCreated": false
+    },
+    {
+      "seedId": "HARD-DISC-ANCHOR-DISC-ANCHOR-GAIA-ASTROMETRIC-EXCESS-SLICES-RUNTIME-CHECK-03",
+      "candidateId": "DISC-ANCHOR-CAND-DISC-ANCHOR-GAIA-ASTROMETRIC-EXCESS-SLICES-RUNTIME-CHECK-03",
+      "domain": "astrophysics_open_catalog_anomalies",
+      "generatorId": "DISC-ANCHOR-GAIA-ASTROMETRIC-EXCESS-SLICES",
+      "outputId": "DISC-ANCHOR-GAIA-ASTROMETRIC-EXCESS-SLICES-runtime-check-03",
+      "exactClaim": "Discovery-grade external anchor DISC-ANCHOR-GAIA-ASTROMETRIC-EXCESS-SLICES produced a birth-eligible HardSeed for cross-slice recurrence of astrometric-excess residual after magnitude, color, sky-position, and source-density baselines. This is not an InsightCandidate or Fund; it only authorizes downstream mechanism-first pressure from runtime evidence that survived birth gates.",
+      "evidenceRefs": [
+        "https://www.cosmos.esa.int/web/gaia/earlydr3",
+        ".sovryn/discovery-daemon/discovery-anchor-run/runtime-evidence/DISC-ANCHOR-GAIA-ASTROMETRIC-EXCESS-SLICES-runtime-check-03.json",
+        "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package",
+        "https://www.cosmos.esa.int/web/gaia/earlydr3#baseline",
+        "https://www.cosmos.esa.int/web/gaia/earlydr3#rival-theory",
+        "https://www.cosmos.esa.int/web/gaia/earlydr3#holdout",
+        "https://www.cosmos.esa.int/web/gaia/earlydr3#replay",
+        "https://www.cosmos.esa.int/web/gaia/earlydr3#counterexample"
+      ],
+      "runtimeEvidenceRef": ".sovryn/discovery-daemon/discovery-anchor-run/runtime-evidence/DISC-ANCHOR-GAIA-ASTROMETRIC-EXCESS-SLICES-runtime-check-03.json",
+      "measuredOutcome": 0.4256,
+      "residual": 0.1343,
+      "mechanismHypothesis": "a bounded calibration-slice mechanism predicts recurring excess-noise residuals across independent sky partitions better than crowding and magnitude rivals Frozen prediction: the calibration-slice residual should recur across independent sky partitions",
+      "rivalHypothesis": "source crowding explains the residual Rival prediction: crowding, magnitude, color, or scan-law controls should absorb same-source recurrence",
+      "domainSignificanceSupported": false,
+      "domainSignificanceEvidenceRefs": [],
+      "baseline": {
+        "passed": true,
+        "strongestBaseline": "phot_g_mean_magnitude_correlation",
+        "summary": "The hard seed remains baseline-resistant under the second-stage residual floor and recorded simple baselines."
+      },
+      "rival": {
+        "weakened": true,
+        "summary": "At least one rival mechanism remains weakened or scope-limited after second-stage pressure."
+      },
+      "counterexample": {
+        "survived": true,
+        "summary": "Counterexample/control pressure did not collapse the narrow hard-seed claim."
+      },
+      "recurrence": {
+        "supported": true,
+        "summary": "The hard seed retains cross-source or cross-slice support with at least two public refs."
+      },
+      "holdoutReplay": {
+        "supported": true,
+        "summary": "Holdout and replay paths are both bound before InsightCandidate birth."
+      },
+      "mechanismProof": {
+        "survived": true,
+        "summary": "Mechanism/proof pressure is nonfatal for the narrow evidence scope."
+      },
+      "inspectability": {
+        "complete": true,
+        "summary": "Runtime evidence, local artifacts, and public-safe refs are inspectable enough for an InsightCandidate artifact."
+      },
+      "primaryKillReason": "survived",
+      "insightCandidateCreated": true,
+      "insightCandidateRef": ".sovryn/discovery-daemon/insight-candidates/INSIGHT-HARD-DISC-ANCHOR-DISC-ANCHOR-GAIA-ASTROMETRIC-EX-55E938E448FF.json",
+      "discoveryCandidateCreated": false
+    }
+  ],
+  "evidenceHash": "c7bb8f1c1223eac31337a53367a7ca5bf107efc1c25e7d7497022046ecc658ae"
+}
