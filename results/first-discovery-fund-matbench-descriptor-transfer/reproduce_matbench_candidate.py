@@ -23,6 +23,7 @@ import json
 import math
 import random
 import re
+import shutil
 import statistics
 import sys
 import urllib.request
@@ -1382,6 +1383,181 @@ def write_reconstructed_research_artifacts(result: dict[str, object], output_dir
         (output_dir / filename).write_text("\n".join(lines) + "\n")
 
 
+def write_recreated_input_bundle(result: dict[str, object], raw: bytes, output_dir: Path) -> None:
+    bundle_dir = output_dir / "recreated-input-bundle"
+    bundle_dir.mkdir(parents=True, exist_ok=True)
+    source = result["source"]
+    source_file = bundle_dir / "MATBENCH_EXPT_GAP_PUBLIC_RAW.json"
+    source_file.write_bytes(raw)
+
+    source_receipt = {
+        "kind": "recreated_input_source_receipt",
+        "status": "public_raw_source_persisted",
+        "sourceRef": source["sourceRef"],
+        "sourceHashSha256": source["sourceHashSha256"],
+        "bytes": source["bytes"],
+        "recordsExtracted": source["recordsExtracted"],
+        "targetMean": source["targetMean"],
+        "targetMin": source["targetMin"],
+        "targetMax": source["targetMax"],
+        "caveat": (
+            "This source receipt belongs to the newly recreated public input bundle. "
+            "It is not evidence that the old Product descriptor-transfer inputs were recovered."
+        ),
+    }
+    (bundle_dir / "SOURCE_RECEIPT.json").write_text(json.dumps(source_receipt, indent=2, sort_keys=True) + "\n")
+
+    input_files = [
+        "RAW_DATA_FEATURE_MATRIX.json",
+        "RAW_DATA_SPLIT_MANIFEST.json",
+        "RECONSTRUCTED_FEATURIZER_CONFIG.json",
+        "RECONSTRUCTED_MODEL_TRAINING_CONFIG.json",
+        "RECONSTRUCTED_TARGET_SUBSET_MANIFEST.json",
+        "RECONSTRUCTED_RESIDUAL_FORMULA.json",
+        "RECONSTRUCTED_BASELINE_IMPLEMENTATIONS.json",
+        "RECONSTRUCTED_HOLDOUT_MANIFEST.json",
+        "RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.json",
+        "RECONSTRUCTED_REPLAY_MANIFEST.json",
+        "RAW_DATA_REPRODUCIBLE_EXPERIMENT_SPEC.json",
+        "RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.json",
+    ]
+    copied = []
+    for filename in input_files:
+        source_path = output_dir / filename
+        if source_path.exists():
+            target_path = bundle_dir / filename
+            shutil.copy2(source_path, target_path)
+            copied.append(filename)
+
+    def artifact_hash(filename: str) -> dict[str, object]:
+        path = bundle_dir / filename
+        data = path.read_bytes()
+        return {
+            "path": f"recreated-input-bundle/{filename}",
+            "bytes": len(data),
+            "sha256": hashlib.sha256(data).hexdigest(),
+        }
+
+    artifact_hashes = [artifact_hash("MATBENCH_EXPT_GAP_PUBLIC_RAW.json"), artifact_hash("SOURCE_RECEIPT.json")]
+    artifact_hashes.extend(artifact_hash(filename) for filename in copied)
+    manifest = {
+        "kind": "recreated_matbench_public_input_bundle",
+        "status": "complete_replayable_public_proxy_input_bundle",
+        "originalProductInputRecovered": False,
+        "recreatedFromPublicRawData": True,
+        "restoresOldProductClaim": False,
+        "restoresDiscoveryScoreEligibility": False,
+        "sourceRef": source["sourceRef"],
+        "sourceHashSha256": source["sourceHashSha256"],
+        "recordsExtracted": source["recordsExtracted"],
+        "trainRecords": source["trainRecords"],
+        "holdoutRecords": source["holdoutRecords"],
+        "artifactCount": len(artifact_hashes),
+        "requiredInputClasses": {
+            "rawSource": "recreated-input-bundle/MATBENCH_EXPT_GAP_PUBLIC_RAW.json",
+            "sourceReceipt": "recreated-input-bundle/SOURCE_RECEIPT.json",
+            "descriptorMatrix": "recreated-input-bundle/RAW_DATA_FEATURE_MATRIX.json",
+            "splitManifest": "recreated-input-bundle/RAW_DATA_SPLIT_MANIFEST.json",
+            "featurizerConfig": "recreated-input-bundle/RECONSTRUCTED_FEATURIZER_CONFIG.json",
+            "modelTrainingConfig": "recreated-input-bundle/RECONSTRUCTED_MODEL_TRAINING_CONFIG.json",
+            "targetSubsetManifest": "recreated-input-bundle/RECONSTRUCTED_TARGET_SUBSET_MANIFEST.json",
+            "residualFormula": "recreated-input-bundle/RECONSTRUCTED_RESIDUAL_FORMULA.json",
+            "baselineImplementations": "recreated-input-bundle/RECONSTRUCTED_BASELINE_IMPLEMENTATIONS.json",
+            "holdoutManifest": "recreated-input-bundle/RECONSTRUCTED_HOLDOUT_MANIFEST.json",
+            "counterexampleManifest": "recreated-input-bundle/RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.json",
+            "replayManifest": "recreated-input-bundle/RECONSTRUCTED_REPLAY_MANIFEST.json",
+        },
+        "artifactHashes": artifact_hashes,
+        "replayCommand": "python3 reproduce_matbench_candidate.py",
+        "expectedStatus": result["status"],
+        "publicReviewStatus": result["publicReviewStatus"],
+        "caveat": (
+            "This bundle is a newly recreated public raw-data proxy input set. "
+            "It is suitable for replaying the public proxy experiment, not for claiming that the old Product "
+            "descriptor-transfer candidate is scientifically reproduced."
+        ),
+    }
+    (bundle_dir / "INPUT_MANIFEST.json").write_text(json.dumps(manifest, indent=2, sort_keys=True) + "\n")
+
+    lines = [
+        "# Recreated Matbench Public Input Bundle",
+        "",
+        "This directory is a newly recreated public raw-data input bundle for the Matbench proxy experiment. It was generated by `reproduce_matbench_candidate.py` from public Matbench JSON.",
+        "",
+        "It is not a recovery of the original Product descriptor-transfer inputs and does not restore discovery-score eligibility.",
+        "",
+        "## Status",
+        "",
+        "- Status: `complete_replayable_public_proxy_input_bundle`",
+        "- Original Product input recovered: `false`",
+        "- Recreated from public raw data: `true`",
+        "- Restores old Product claim: `false`",
+        "- Restores discovery-score eligibility: `false`",
+        f"- Source SHA-256: `{source['sourceHashSha256']}`",
+        f"- Records extracted: `{source['recordsExtracted']}`",
+        f"- Train/holdout records: `{source['trainRecords']}` / `{source['holdoutRecords']}`",
+        "",
+        "## Input Classes",
+        "",
+        "| Input class | Artifact |",
+        "| --- | --- |",
+    ]
+    for input_class, artifact in manifest["requiredInputClasses"].items():
+        lines.append(f"| `{input_class}` | `{artifact}` |")
+    lines.extend(
+        [
+            "",
+            "## Replay",
+            "",
+            "Run from the result root:",
+            "",
+            "```bash",
+            "python3 reproduce_matbench_candidate.py",
+            "```",
+            "",
+            "Expected status:",
+            "",
+            f"`{result['status']}`",
+            "",
+            "## Caveat",
+            "",
+            str(manifest["caveat"]),
+        ]
+    )
+    (bundle_dir / "README.md").write_text("\n".join(lines) + "\n")
+
+    root_summary = {
+        "kind": "recreated_matbench_input_bundle_summary",
+        "bundlePath": "recreated-input-bundle/",
+        "manifest": "recreated-input-bundle/INPUT_MANIFEST.json",
+        "readme": "recreated-input-bundle/README.md",
+        "status": manifest["status"],
+        "originalProductInputRecovered": False,
+        "restoresDiscoveryScoreEligibility": False,
+        "artifactCount": len(manifest["artifactHashes"]),
+        "sourceHashSha256": source["sourceHashSha256"],
+        "recordsExtracted": source["recordsExtracted"],
+        "caveat": manifest["caveat"],
+    }
+    (output_dir / "RECREATED_INPUT_BUNDLE.json").write_text(json.dumps(root_summary, indent=2, sort_keys=True) + "\n")
+    root_lines = [
+        "# Recreated Input Bundle",
+        "",
+        "A new public Matbench input bundle has been created at `recreated-input-bundle/`.",
+        "",
+        "This bundle contains raw public Matbench data plus the reconstructed proxy inputs needed to rerun the public proxy experiment. It is not the missing original Product input.",
+        "",
+        f"- Bundle manifest: `{root_summary['manifest']}`",
+        f"- Status: `{root_summary['status']}`",
+        f"- Artifact count: `{root_summary['artifactCount']}`",
+        "- Original Product input recovered: `false`",
+        "- Restores discovery-score eligibility: `false`",
+        "",
+        "See `recreated-input-bundle/README.md` for the full input-class mapping.",
+    ]
+    (output_dir / "RECREATED_INPUT_BUNDLE.md").write_text("\n".join(root_lines) + "\n")
+
+
 def write_missing_inputs(result: dict[str, object], output_dir: Path) -> None:
     bundle = result["rawReproductionBundle"]
     lines = [
@@ -1513,6 +1689,7 @@ def main() -> int:
     write_result_table(result, args.output_dir)
     write_raw_data_experiment_artifacts(result, args.output_dir)
     write_reconstructed_research_artifacts(result, args.output_dir)
+    write_recreated_input_bundle(result, raw, args.output_dir)
     write_missing_inputs(result, args.output_dir)
     write_raw_scientific_repair_decision(result, args.output_dir)
     print(json.dumps({"status": result["status"], "recordsExtracted": result["source"]["recordsExtracted"]}, indent=2))

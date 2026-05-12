@@ -136,6 +136,17 @@ jq '{formula, observedProxyValues}' RECONSTRUCTED_RESIDUAL_FORMULA.json
 
 These reconstructed files are generated from public Matbench raw data by `reproduce_matbench_candidate.py`. They are useful for external replay of the public proxy experiment. They are not the original Product descriptor-transfer inputs and must not be treated as restored discovery evidence.
 
+## Recreated Input Bundle
+
+The newly recreated input is packaged as:
+
+```bash
+find recreated-input-bundle -maxdepth 1 -type f | sort
+jq '{status, originalProductInputRecovered, recreatedFromPublicRawData, requiredInputClasses}' recreated-input-bundle/INPUT_MANIFEST.json
+```
+
+This bundle is the concrete new public input set. It includes `MATBENCH_EXPT_GAP_PUBLIC_RAW.json`, `SOURCE_RECEIPT.json`, and all reconstructed proxy input classes needed to rerun the public proxy experiment. It is not the old Product input and does not make the old Product claim discovery-scored.
+
 ## Reviewer Tables
 
 Inspect the reviewer-facing tables:

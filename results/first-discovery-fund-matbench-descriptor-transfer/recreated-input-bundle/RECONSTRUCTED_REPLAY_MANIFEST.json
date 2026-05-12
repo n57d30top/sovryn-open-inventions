@@ -1,0 +1,19 @@
+{
+  "caveat": "These artifacts are regenerated from public Matbench raw data by reproduce_matbench_candidate.py. They are not the original Product descriptor-transfer artifacts and must not be used to restore discovery-score eligibility.",
+  "command": "python3 reproduce_matbench_candidate.py",
+  "dataUrl": "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json",
+  "expectedOutputs": [
+    "standalone_reproduction_result.json",
+    "REPRODUCTION_RESULT_TABLE.md",
+    "RAW_DATA_FEATURE_MATRIX.json",
+    "RAW_DATA_SPLIT_MANIFEST.json",
+    "RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.json",
+    "RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.json"
+  ],
+  "expectedStatus": "raw_scientific_reproduction_failed_product_values_runtime_derived",
+  "kind": "reconstructed_replay_manifest",
+  "originalProductReplayManifestRecovered": false,
+  "rawDataScientificResidualReproduced": false,
+  "sourceHashSha256": "e982f9d9586ab9603c588782646870542fb2b39f915ccb0fdb513426e2ff9859",
+  "status": "reconstructed_public_raw_data_proxy_artifacts_not_original_product_artifacts"
+}

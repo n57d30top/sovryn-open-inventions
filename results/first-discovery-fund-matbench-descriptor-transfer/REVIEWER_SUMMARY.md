@@ -24,6 +24,7 @@ The public package records a Product-generated Matbench/materials candidate pack
 - `reproduce_matbench_candidate.py` loads the public Matbench experimental band-gap JSON, exactly replays the Product runtime scalars from `PRODUCT_RUNTIME_REPRODUCTION_SPEC.json`, and records that raw-data scientific reproduction failed.
 - `ORIGINAL_RESEARCH_ARTIFACT_SEARCH_REPORT.md` records that a targeted Product-State search did not find the original raw scientific inputs needed for exact descriptor-transfer reproduction.
 - `RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.md` lists reconstructed public raw-data proxy artifacts. They make the proxy experiment replayable; they are not original Product artifacts.
+- `recreated-input-bundle/INPUT_MANIFEST.json` packages the newly recreated public input set for the proxy experiment.
 - Public Einstein/Nobel discovery-score eligibility is false.
 
 ## What Is Not Shown
@@ -63,6 +64,8 @@ The public package records a Product-generated Matbench/materials candidate pack
 - `MISSING_REPRODUCTION_INPUTS.md`
 - `ORIGINAL_RESEARCH_ARTIFACT_SEARCH_REPORT.md`
 - `RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.md`
+- `RECREATED_INPUT_BUNDLE.md`
+- `recreated-input-bundle/README.md`
 - `DATASET_AND_TARGET_TABLE.md`
 - `BASELINE_RESULTS_TABLE.md`
 - `RIVAL_THEORY_RESULTS_TABLE.md`

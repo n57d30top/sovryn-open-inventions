@@ -1,0 +1,13 @@
+{
+  "artifactCount": 14,
+  "bundlePath": "recreated-input-bundle/",
+  "caveat": "This bundle is a newly recreated public raw-data proxy input set. It is suitable for replaying the public proxy experiment, not for claiming that the old Product descriptor-transfer candidate is scientifically reproduced.",
+  "kind": "recreated_matbench_input_bundle_summary",
+  "manifest": "recreated-input-bundle/INPUT_MANIFEST.json",
+  "originalProductInputRecovered": false,
+  "readme": "recreated-input-bundle/README.md",
+  "recordsExtracted": 921,
+  "restoresDiscoveryScoreEligibility": false,
+  "sourceHashSha256": "e982f9d9586ab9603c588782646870542fb2b39f915ccb0fdb513426e2ff9859",
+  "status": "complete_replayable_public_proxy_input_bundle"
+}

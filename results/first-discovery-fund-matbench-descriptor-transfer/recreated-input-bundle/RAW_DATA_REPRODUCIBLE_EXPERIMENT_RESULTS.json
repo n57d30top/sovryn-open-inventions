@@ -1,0 +1,101 @@
+{
+  "baselines": {
+    "composition_formula_size": {
+      "coefficients": [
+        0.9264374140302609,
+        0.43016362569778777,
+        0.025798403375860892
+      ],
+      "columns": [
+        "element_count",
+        "total_atoms"
+      ],
+      "holdoutPredictionCount": 194,
+      "metrics": {
+        "mae": 0.9810163114680854,
+        "r2": 0.06125258772807529,
+        "rmse": 1.3171263615292308
+      },
+      "model": "ordinary_least_squares_with_intercept_and_ridge_1e-8_after_train_standardization",
+      "shuffleTargets": false
+    },
+    "matched_negative_shuffled_target": {
+      "coefficients": [
+        0.9264374140302619,
+        0.015865171653673026,
+        0.026767512283511336,
+        -0.016412938002239263,
+        -0.015990552915917326,
+        0.12734705746405983,
+        0.015668466969609635,
+        0.039934049230784766
+      ],
+      "columns": [
+        "element_count",
+        "total_atoms",
+        "mean_atomic_number",
+        "atomic_number_range",
+        "transition_metal_fraction",
+        "max_atomic_number",
+        "min_atomic_number"
+      ],
+      "holdoutPredictionCount": 194,
+      "metrics": {
+        "mae": 1.0924183700874128,
+        "r2": -0.06038660839177412,
+        "rmse": 1.3998618653564376
+      },
+      "model": "ordinary_least_squares_with_intercept_and_ridge_1e-8_after_train_standardization",
+      "shuffleTargets": true
+    },
+    "null_or_trivial_rule": {
+      "definition": "predict train-target mean on deterministic holdout",
+      "metrics": {
+        "mae": 1.0587138927097661,
+        "r2": -9.228031336183662e-06,
+        "rmse": 1.3594244272124325
+      }
+    }
+  },
+  "candidateProxy": {
+    "coefficients": [
+      0.9264374140302609,
+      0.3050457851212291,
+      -0.04861262302767881,
+      -0.44864787521466626,
+      -0.0007112228182076241,
+      -0.3622842443978171,
+      0.16995540787912644,
+      0.21146201813057006
+    ],
+    "columns": [
+      "element_count",
+      "total_atoms",
+      "mean_atomic_number",
+      "atomic_number_range",
+      "transition_metal_fraction",
+      "max_atomic_number",
+      "min_atomic_number"
+    ],
+    "holdoutPredictionCount": 194,
+    "metrics": {
+      "mae": 0.9139796492876436,
+      "r2": 0.16345218172056164,
+      "rmse": 1.2433644645023627
+    },
+    "model": "ordinary_least_squares_with_intercept_and_ridge_1e-8_after_train_standardization",
+    "shuffleTargets": false
+  },
+  "discoveryScoreEligible": false,
+  "holdoutRecords": 194,
+  "kind": "raw_data_reproducible_experiment_results",
+  "productClaimReproduced": false,
+  "records": 921,
+  "reproducibilityDecision": "The proxy experiment is exactly reproducible from public raw data and this script. It does not reproduce the Product descriptor-transfer scientific claim because the original descriptor matrix, model config, split manifest, target subset, residual formula, and baseline implementations were not present in Product artifacts.",
+  "residualDefinition": "candidate_proxy_holdout_r2 - max(null_r2, formula_size_r2, shuffled_target_r2)",
+  "residualProxyR2Delta": 0.10219959399248635,
+  "sourceHashSha256": "e982f9d9586ab9603c588782646870542fb2b39f915ccb0fdb513426e2ff9859",
+  "sourceRef": "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json",
+  "status": "available_but_does_not_reproduce_product_scientific_claim",
+  "trainRecords": 727
+}

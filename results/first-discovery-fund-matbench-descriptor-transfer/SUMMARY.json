@@ -96,7 +96,25 @@
     "RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.md",
     "RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.json",
     "RECONSTRUCTED_REPLAY_MANIFEST.md",
-    "RECONSTRUCTED_REPLAY_MANIFEST.json"
+    "RECONSTRUCTED_REPLAY_MANIFEST.json",
+    "RECREATED_INPUT_BUNDLE.md",
+    "RECREATED_INPUT_BUNDLE.json",
+    "recreated-input-bundle/README.md",
+    "recreated-input-bundle/INPUT_MANIFEST.json",
+    "recreated-input-bundle/MATBENCH_EXPT_GAP_PUBLIC_RAW.json",
+    "recreated-input-bundle/SOURCE_RECEIPT.json",
+    "recreated-input-bundle/RAW_DATA_FEATURE_MATRIX.json",
+    "recreated-input-bundle/RAW_DATA_SPLIT_MANIFEST.json",
+    "recreated-input-bundle/RECONSTRUCTED_FEATURIZER_CONFIG.json",
+    "recreated-input-bundle/RECONSTRUCTED_MODEL_TRAINING_CONFIG.json",
+    "recreated-input-bundle/RECONSTRUCTED_TARGET_SUBSET_MANIFEST.json",
+    "recreated-input-bundle/RECONSTRUCTED_RESIDUAL_FORMULA.json",
+    "recreated-input-bundle/RECONSTRUCTED_BASELINE_IMPLEMENTATIONS.json",
+    "recreated-input-bundle/RECONSTRUCTED_HOLDOUT_MANIFEST.json",
+    "recreated-input-bundle/RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.json",
+    "recreated-input-bundle/RECONSTRUCTED_REPLAY_MANIFEST.json",
+    "recreated-input-bundle/RAW_DATA_REPRODUCIBLE_EXPERIMENT_SPEC.json",
+    "recreated-input-bundle/RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.json"
   ],
   "fundGatePassed": true,
   "failedFundGates": [],
@@ -118,7 +136,8 @@
     "The public-safe full bundle has been exported and searched, but it contains Product runtime evidence rather than the missing raw scientific reproduction inputs.",
     "A separate raw-data proxy experiment is now fully reproducible from public Matbench data, but it is not the original Product descriptor-transfer computation and does not count as discovery evidence.",
     "Original raw scientific descriptor-transfer artifacts were not found in Product state after targeted search.",
-    "Reconstructed public raw-data artifacts are provided for proxy replay only and do not restore discovery-score eligibility."
+    "Reconstructed public raw-data artifacts are provided for proxy replay only and do not restore discovery-score eligibility.",
+    "The recreated input bundle is not the original Product input and does not restore discovery-score eligibility."
   ],
   "disclaimer": "Downgraded historical Product evidence package. It does not claim external validation, external adoption, prize-level significance, broad intelligence, legal authority, medical authority, unsafe capability, universal truth, or current externally-review-ready discovery status.",
   "nextExternalReviewStep": "Do not send this bundle as an externally-review-ready discovery candidate. A future package would need to supply the missing raw-data scientific inputs and independently reproduce the descriptor-transfer result from public Matbench data.",
@@ -158,7 +177,8 @@
     "originalResearchArtifactSearchReport": "ORIGINAL_RESEARCH_ARTIFACT_SEARCH_REPORT.md",
     "reconstructedResearchArtifactsManifest": "RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.md",
     "reconstructedArtifactsAreOriginalProductArtifacts": false,
-    "reconstructedArtifactsRestoreDiscoveryScore": false
+    "reconstructedArtifactsRestoreDiscoveryScore": false,
+    "recreatedInputBundle": "recreated-input-bundle/INPUT_MANIFEST.json"
   },
   "reviewerFacingBoundedClaim": "The public package records a Product-generated Matbench/materials candidate package where matbench_descriptor_transfer_significance_generator-output-01 has measured outcome 0.72, residual magnitude 0.21, and three recorded simple controls. Those values are exactly replayable as Product runtime scalars but failed raw-data scientific reproduction, so this is not an externally-review-ready discovery claim.",
   "evidenceRefClassification": {
@@ -204,7 +224,9 @@
     "RECONSTRUCTED_RESIDUAL_FORMULA.md",
     "RECONSTRUCTED_HOLDOUT_MANIFEST.md",
     "RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.md",
-    "RECONSTRUCTED_REPLAY_MANIFEST.md"
+    "RECONSTRUCTED_REPLAY_MANIFEST.md",
+    "RECREATED_INPUT_BUNDLE.md",
+    "recreated-input-bundle/README.md"
   ],
   "majorCaveats": [
     "No independent external validation or adoption is claimed.",
@@ -217,7 +239,8 @@
     "The public-safe full bundle improves Product-state inspectability but does not restore raw-data scientific reproducibility.",
     "The reproducible public raw-data proxy computation does not reproduce the original Product descriptor-transfer claim.",
     "A second targeted Product-State search did not find original raw scientific descriptor-transfer inputs.",
-    "Reconstructed public raw-data artifacts are now present, but they are proxy artifacts, not original Product artifacts."
+    "Reconstructed public raw-data artifacts are now present, but they are proxy artifacts, not original Product artifacts.",
+    "The newly recreated input bundle is complete for proxy replay, not for proving the historical Product descriptor-transfer claim."
   ],
   "publicSafeReproductionBundle": {
     "path": "raw-reproduction-bundle/",
@@ -246,7 +269,9 @@
     "interpretation": "A fully reproducible public raw-data formula-descriptor proxy experiment and reconstructed public proxy artifacts are available. They do not reproduce or strengthen the Product descriptor-transfer discovery claim.",
     "reconstructedResearchArtifactsAvailable": true,
     "reconstructedResearchArtifactsManifest": "RECONSTRUCTED_RESEARCH_ARTIFACTS_MANIFEST.md",
-    "reconstructedArtifactsAreOriginalProductArtifacts": false
+    "reconstructedArtifactsAreOriginalProductArtifacts": false,
+    "recreatedInputBundle": "recreated-input-bundle/INPUT_MANIFEST.json",
+    "recreatedInputBundleStatus": "complete_replayable_public_proxy_input_bundle"
   },
   "originalResearchArtifactSearch": {
     "report": "ORIGINAL_RESEARCH_ARTIFACT_SEARCH_REPORT.md",
@@ -273,5 +298,30 @@
       "RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.json",
       "RECONSTRUCTED_REPLAY_MANIFEST.json"
     ]
+  },
+  "recreatedInputBundle": {
+    "status": "complete_replayable_public_proxy_input_bundle",
+    "path": "recreated-input-bundle/",
+    "manifest": "recreated-input-bundle/INPUT_MANIFEST.json",
+    "readme": "recreated-input-bundle/README.md",
+    "originalProductInputRecovered": false,
+    "recreatedFromPublicRawData": true,
+    "restoresOldProductClaim": false,
+    "restoresDiscoveryScoreEligibility": false,
+    "requiredInputClasses": {
+      "rawSource": "recreated-input-bundle/MATBENCH_EXPT_GAP_PUBLIC_RAW.json",
+      "sourceReceipt": "recreated-input-bundle/SOURCE_RECEIPT.json",
+      "descriptorMatrix": "recreated-input-bundle/RAW_DATA_FEATURE_MATRIX.json",
+      "splitManifest": "recreated-input-bundle/RAW_DATA_SPLIT_MANIFEST.json",
+      "featurizerConfig": "recreated-input-bundle/RECONSTRUCTED_FEATURIZER_CONFIG.json",
+      "modelTrainingConfig": "recreated-input-bundle/RECONSTRUCTED_MODEL_TRAINING_CONFIG.json",
+      "targetSubsetManifest": "recreated-input-bundle/RECONSTRUCTED_TARGET_SUBSET_MANIFEST.json",
+      "residualFormula": "recreated-input-bundle/RECONSTRUCTED_RESIDUAL_FORMULA.json",
+      "baselineImplementations": "recreated-input-bundle/RECONSTRUCTED_BASELINE_IMPLEMENTATIONS.json",
+      "holdoutManifest": "recreated-input-bundle/RECONSTRUCTED_HOLDOUT_MANIFEST.json",
+      "counterexampleManifest": "recreated-input-bundle/RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.json",
+      "replayManifest": "recreated-input-bundle/RECONSTRUCTED_REPLAY_MANIFEST.json"
+    },
+    "interpretation": "This is the newly recreated input for the public proxy experiment. It is not the missing original Product input and does not restore discovery-score eligibility."
   }
 }

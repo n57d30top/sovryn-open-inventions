@@ -82,6 +82,9 @@ The public corpus package includes:
 - RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.json
 - RECONSTRUCTED_REPLAY_MANIFEST.md
 - RECONSTRUCTED_REPLAY_MANIFEST.json
+- RECREATED_INPUT_BUNDLE.md
+- RECREATED_INPUT_BUNDLE.json
+- recreated-input-bundle/
 - PUBLIC_SAFE_REPRODUCTION_BUNDLE_REPORT.md
 - PUBLIC_SAFE_REPRODUCTION_BUNDLE_REPORT.json
 - raw-reproduction-bundle/
@@ -169,6 +172,20 @@ The package now includes reconstructed public raw-data artifacts:
 - `RECONSTRUCTED_REPLAY_MANIFEST.json`
 
 These reconstructed artifacts are generated from public Matbench JSON by `reproduce_matbench_candidate.py`. They are not the original Product descriptor-transfer artifacts and do not restore discovery-score eligibility.
+
+## Newly Recreated Input Bundle
+
+The package now includes an explicit new input bundle at:
+
+`recreated-input-bundle/`
+
+This bundle contains the public Matbench raw JSON, source receipt, reconstructed descriptor matrix, split manifest, featurizer config, model/training config, target subset manifest, residual formula, baseline implementations, holdout manifest, counterexample manifest, and replay manifest.
+
+Its manifest is:
+
+`recreated-input-bundle/INPUT_MANIFEST.json`
+
+This is the input we can replay now. It is a new public proxy input set, not the missing original Product input. It does not reproduce the old Product scientific claim and does not restore discovery-score eligibility.
 
 ## No Overclaim
 

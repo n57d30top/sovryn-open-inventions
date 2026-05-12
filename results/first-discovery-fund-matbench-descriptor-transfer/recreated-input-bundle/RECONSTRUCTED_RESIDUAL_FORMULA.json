@@ -1,0 +1,21 @@
+{
+  "caveat": "These artifacts are regenerated from public Matbench raw data by reproduce_matbench_candidate.py. They are not the original Product descriptor-transfer artifacts and must not be used to restore discovery-score eligibility.",
+  "formula": "candidate_proxy_holdout_r2 - max(null_r2, formula_size_r2, shuffled_target_r2)",
+  "kind": "reconstructed_residual_formula",
+  "observedProxyValues": {
+    "candidateProxyR2": 0.16345218172056164,
+    "compositionFormulaSizeProxyR2": 0.06125258772807529,
+    "matchedNegativeControlProxyR2": -0.06038660839177412,
+    "nullOrTrivialRuleProxyR2": -9.228031336183662e-06,
+    "residualProxyR2Delta": 0.10219959399248635
+  },
+  "originalProductResidualFormulaRecovered": false,
+  "productRuntimeValuesNotReproducedScientifically": {
+    "composition_formula_size_target_family_baseline": 0.34,
+    "matched_negative_control": 0.29,
+    "measured_outcome": 0.72,
+    "null_or_trivial_rule": 0.23,
+    "residual_magnitude": 0.21
+  },
+  "status": "reconstructed_public_raw_data_proxy_artifacts_not_original_product_artifacts"
+}

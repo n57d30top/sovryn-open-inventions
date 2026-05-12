@@ -63,6 +63,25 @@ The proxy experiment reports a reproducible formula-descriptor residual R2 delta
 
 The reconstructed artifacts are not original Product artifacts. They make the public proxy experiment replayable; they do not make the old Product claim externally review ready.
 
+## Newly Recreated Input
+
+The concrete newly recreated input lives in `recreated-input-bundle/`. Its `INPUT_MANIFEST.json` maps every required input class to a public artifact:
+
+- raw source;
+- source receipt;
+- descriptor matrix;
+- split manifest;
+- featurizer config;
+- model/training config;
+- target subset manifest;
+- residual formula;
+- baseline implementations;
+- holdout manifest;
+- counterexample manifest;
+- replay manifest.
+
+This input is sufficient to rerun the public proxy experiment. It is not sufficient to prove the historical Product descriptor-transfer claim, because it is newly reconstructed and not the missing original Product input.
+
 ## Split And Holdout Definition
 
 The Product runtime evidence records holdout/replay availability as true. The copied source-cache artifact records a predeclared holdout path:

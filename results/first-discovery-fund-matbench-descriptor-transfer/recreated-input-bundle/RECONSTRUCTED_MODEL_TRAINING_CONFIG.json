@@ -1,0 +1,44 @@
+{
+  "baselineModels": {
+    "composition_formula_size": {
+      "columns": [
+        "element_count",
+        "total_atoms"
+      ],
+      "model": "ordinary_least_squares_with_intercept_and_ridge_1e-8_after_train_standardization"
+    },
+    "matched_negative_shuffled_target": {
+      "columns": [
+        "element_count",
+        "total_atoms",
+        "mean_atomic_number",
+        "atomic_number_range",
+        "transition_metal_fraction",
+        "max_atomic_number",
+        "min_atomic_number"
+      ],
+      "model": "ordinary_least_squares_with_intercept_and_ridge_1e-8_after_train_standardization",
+      "shuffleSeed": 1729
+    },
+    "null_or_trivial_rule": "predict train-target mean on deterministic holdout"
+  },
+  "candidateProxyColumns": [
+    "element_count",
+    "total_atoms",
+    "mean_atomic_number",
+    "atomic_number_range",
+    "transition_metal_fraction",
+    "max_atomic_number",
+    "min_atomic_number"
+  ],
+  "caveat": "These artifacts are regenerated from public Matbench raw data by reproduce_matbench_candidate.py. They are not the original Product descriptor-transfer artifacts and must not be used to restore discovery-score eligibility.",
+  "kind": "reconstructed_model_training_config",
+  "model": "ordinary least squares with intercept, train-only standardization, and ridge 1e-8",
+  "originalProductArtifactRecovered": false,
+  "ridge": 1e-08,
+  "sourceRef": "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json",
+  "splitRule": "sha256(formula)[0:8] modulo 5 equals 0 for holdout; all other buckets train",
+  "standardization": "train-only mean/std standardization in reproduce_matbench_candidate.py::standardize",
+  "status": "reconstructed_public_raw_data_proxy_artifacts_not_original_product_artifacts",
+  "target": "experimental band gap from public Matbench JSON"
+}

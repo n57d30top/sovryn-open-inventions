@@ -1,0 +1,35 @@
+{
+  "baselines": {
+    "composition_formula_size": {
+      "implementation": "OLS with intercept on element_count and total_atoms",
+      "metrics": {
+        "mae": 0.9810163114680854,
+        "r2": 0.06125258772807529,
+        "rmse": 1.3171263615292308
+      },
+      "sourceFunction": "reproduce_matbench_candidate.py::run_linear_model"
+    },
+    "matched_negative_shuffled_target": {
+      "implementation": "OLS on all seven formula descriptors after train-target shuffle seed 1729",
+      "metrics": {
+        "mae": 1.0924183700874128,
+        "r2": -0.06038660839177412,
+        "rmse": 1.3998618653564376
+      },
+      "sourceFunction": "reproduce_matbench_candidate.py::run_linear_model"
+    },
+    "null_or_trivial_rule": {
+      "implementation": "predict train-target mean on deterministic holdout",
+      "metrics": {
+        "mae": 1.0587138927097661,
+        "r2": -9.228031336183662e-06,
+        "rmse": 1.3594244272124325
+      },
+      "sourceFunction": "reproduce_matbench_candidate.py::compute_reproduction"
+    }
+  },
+  "caveat": "These artifacts are regenerated from public Matbench raw data by reproduce_matbench_candidate.py. They are not the original Product descriptor-transfer artifacts and must not be used to restore discovery-score eligibility.",
+  "kind": "reconstructed_baseline_implementations",
+  "originalProductBaselineImplementationsRecovered": false,
+  "status": "reconstructed_public_raw_data_proxy_artifacts_not_original_product_artifacts"
+}

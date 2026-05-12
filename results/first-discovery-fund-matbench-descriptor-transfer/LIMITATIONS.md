@@ -53,6 +53,8 @@ The public package exposes copied Product artifacts and public source URLs. It d
 
 Reconstructed proxy versions of the descriptor matrix, featurizer config, model/training config, target subset, residual formula, baseline definitions, holdout manifest, counterexample manifest, and replay manifest are now present. They are marked as reconstructed and are not original Product scientific inputs.
 
+The new `recreated-input-bundle/` packages those reconstructed inputs together with the public Matbench raw source and source receipt. This makes the proxy experiment input complete and replayable. It does not make the historical Product claim raw-data reproducible.
+
 ## Scoring Limitation
 
 After raw scientific reproduction repair, this package contributes:

@@ -70,6 +70,8 @@ It also means the package now contains a reproducible public raw-data proxy comp
 
 The reconstructed artifacts are public replay aids for the proxy computation. They are not recovered original Product artifacts.
 
+The concrete recreated input bundle is written to `recreated-input-bundle/`. Its `INPUT_MANIFEST.json` maps raw source, source receipt, descriptor matrix, split, featurizer, model, target subset, residual formula, baselines, holdout, counterexample, and replay inputs to public files.
+
 ## Why Exact Reproduction Is Not Yet Possible
 
 The public-safe bundle exports the relevant Product runtime evidence, source receipts, candidate drafts, evidence packages, and review handoff files found for this candidate. It does not expose the full descriptor matrix, descriptor-transfer model/training configuration, exact split/family manifest, target subset manifest, scientific residual formula, baseline implementations, or external runnable holdout/counterexample manifests that would independently reproduce the Product-recorded values from raw data. Those gaps are listed in `MISSING_REPRODUCTION_INPUTS.md`.

@@ -1,0 +1,104 @@
+{
+  "artifactCount": 14,
+  "artifactHashes": [
+    {
+      "bytes": 99468,
+      "path": "recreated-input-bundle/MATBENCH_EXPT_GAP_PUBLIC_RAW.json",
+      "sha256": "e982f9d9586ab9603c588782646870542fb2b39f915ccb0fdb513426e2ff9859"
+    },
+    {
+      "bytes": 573,
+      "path": "recreated-input-bundle/SOURCE_RECEIPT.json",
+      "sha256": "9204c7e3454b70c94afb8cd48f82f0f3799ecb91966a915f466dda8cc1191cd4"
+    },
+    {
+      "bytes": 450875,
+      "path": "recreated-input-bundle/RAW_DATA_FEATURE_MATRIX.json",
+      "sha256": "0a441700742f5267b4cec4db43bf1c95d7bed0587899a92ca2e20e6b4e8519d5"
+    },
+    {
+      "bytes": 169348,
+      "path": "recreated-input-bundle/RAW_DATA_SPLIT_MANIFEST.json",
+      "sha256": "b8494d480e8bf7691937c31ee8fc0ac36534599b9f6d261e5f73b805f9153162"
+    },
+    {
+      "bytes": 1880,
+      "path": "recreated-input-bundle/RECONSTRUCTED_FEATURIZER_CONFIG.json",
+      "sha256": "5d2c0d50e2144c6cbb24605df47107b41ba5293fe19aa75c2ee7b24040447966"
+    },
+    {
+      "bytes": 1844,
+      "path": "recreated-input-bundle/RECONSTRUCTED_MODEL_TRAINING_CONFIG.json",
+      "sha256": "17c17cd2f494479a69434a1225ea5362b08073820825fb3914f2a8a28569a331"
+    },
+    {
+      "bytes": 190347,
+      "path": "recreated-input-bundle/RECONSTRUCTED_TARGET_SUBSET_MANIFEST.json",
+      "sha256": "6a4fa51a56d71f376a5d7f4092baca600e4f3d10b9d033c7ba823a3657f66384"
+    },
+    {
+      "bytes": 1076,
+      "path": "recreated-input-bundle/RECONSTRUCTED_RESIDUAL_FORMULA.json",
+      "sha256": "d251b094a533e82b736f5a2da48f8013a231582a0d125eba3fda203fd3f6b566"
+    },
+    {
+      "bytes": 1486,
+      "path": "recreated-input-bundle/RECONSTRUCTED_BASELINE_IMPLEMENTATIONS.json",
+      "sha256": "12ea333e73ccbf0430bff722dcc203b0a180674539180861be9d91a6ba1fc2c3"
+    },
+    {
+      "bytes": 36229,
+      "path": "recreated-input-bundle/RECONSTRUCTED_HOLDOUT_MANIFEST.json",
+      "sha256": "929c1659c1759587f8c3a667c3b820bc3185a18eb547566d1cf03f7217a0220e"
+    },
+    {
+      "bytes": 1342,
+      "path": "recreated-input-bundle/RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.json",
+      "sha256": "c850a7b0bb81f139b08be30aa351fc38c6c25aa6808d7780a3e6f664a8f8fe95"
+    },
+    {
+      "bytes": 1095,
+      "path": "recreated-input-bundle/RECONSTRUCTED_REPLAY_MANIFEST.json",
+      "sha256": "d163b2f3f2da1aaa60ddc653cc2af22a8a0bd2c84409a4df479477133d21d15c"
+    },
+    {
+      "bytes": 2103,
+      "path": "recreated-input-bundle/RAW_DATA_REPRODUCIBLE_EXPERIMENT_SPEC.json",
+      "sha256": "c1d2a76a8ca86bd95f803f303ae1105a0625e576fbe7309c7982866603f60c40"
+    },
+    {
+      "bytes": 3389,
+      "path": "recreated-input-bundle/RAW_DATA_REPRODUCIBLE_EXPERIMENT_RESULTS.json",
+      "sha256": "4bb2835b1162b9bb6c2eb7d9dff07fa0188dbea57ea4da1a9a15df1b34ce557d"
+    }
+  ],
+  "caveat": "This bundle is a newly recreated public raw-data proxy input set. It is suitable for replaying the public proxy experiment, not for claiming that the old Product descriptor-transfer candidate is scientifically reproduced.",
+  "expectedStatus": "raw_scientific_reproduction_failed_product_values_runtime_derived",
+  "holdoutRecords": 194,
+  "kind": "recreated_matbench_public_input_bundle",
+  "originalProductInputRecovered": false,
+  "publicReviewStatus": "not_external_review_ready_raw_scientific_reproduction_failed",
+  "recordsExtracted": 921,
+  "recreatedFromPublicRawData": true,
+  "replayCommand": "python3 reproduce_matbench_candidate.py",
+  "requiredInputClasses": {
+    "baselineImplementations": "recreated-input-bundle/RECONSTRUCTED_BASELINE_IMPLEMENTATIONS.json",
+    "counterexampleManifest": "recreated-input-bundle/RECONSTRUCTED_COUNTEREXAMPLE_MANIFEST.json",
+    "descriptorMatrix": "recreated-input-bundle/RAW_DATA_FEATURE_MATRIX.json",
+    "featurizerConfig": "recreated-input-bundle/RECONSTRUCTED_FEATURIZER_CONFIG.json",
+    "holdoutManifest": "recreated-input-bundle/RECONSTRUCTED_HOLDOUT_MANIFEST.json",
+    "modelTrainingConfig": "recreated-input-bundle/RECONSTRUCTED_MODEL_TRAINING_CONFIG.json",
+    "rawSource": "recreated-input-bundle/MATBENCH_EXPT_GAP_PUBLIC_RAW.json",
+    "replayManifest": "recreated-input-bundle/RECONSTRUCTED_REPLAY_MANIFEST.json",
+    "residualFormula": "recreated-input-bundle/RECONSTRUCTED_RESIDUAL_FORMULA.json",
+    "sourceReceipt": "recreated-input-bundle/SOURCE_RECEIPT.json",
+    "splitManifest": "recreated-input-bundle/RAW_DATA_SPLIT_MANIFEST.json",
+    "targetSubsetManifest": "recreated-input-bundle/RECONSTRUCTED_TARGET_SUBSET_MANIFEST.json"
+  },
+  "restoresDiscoveryScoreEligibility": false,
+  "restoresOldProductClaim": false,
+  "sourceHashSha256": "e982f9d9586ab9603c588782646870542fb2b39f915ccb0fdb513426e2ff9859",
+  "sourceRef": "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json",
+  "status": "complete_replayable_public_proxy_input_bundle",
+  "trainRecords": 727
+}
