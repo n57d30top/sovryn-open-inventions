@@ -6,6 +6,7 @@
   "reviewerRole": "independent_formal_methods_or_graph_theory_reviewer",
   "reviewDate": "YYYY-MM-DD",
   "reviewSourceRef": "Provide a public-safe URL or attach/copy a review report alongside this JSON record. Score-impacting supportive reviews require an external public URL.",
+  "reviewSourceReceiptRef": "For external URL reviews, first run `sovryn nobel-readiness external-review-source-receipt --url <reviewSourceRef> --json`, then provide the generated source receipt path.",
   "decision": "accepted_with_caveats | major_revision | rejected | invalid_or_unverified",
   "independentReproductionStatus": "reproduced | partially_reproduced | not_reproduced | not_attempted",
   "noveltyAssessment": "nontrivial_and_plausibly_novel | known_or_trivial | unclear",
