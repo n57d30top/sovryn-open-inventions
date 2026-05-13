@@ -4,8 +4,10 @@
   "publicReviewStatus": "external_review_ready_raw_scientific_reproduction_succeeded_caveated_no_external_validation",
   "sourceCache": "SOURCE_CACHE.json",
   "runtimeEvidence": "RUNTIME_EVIDENCE.json",
+  "sourceRows": "source-rows/*.csv",
+  "sourceRowReceipts": "SOURCE_ROW_RECEIPTS.json",
   "standaloneScript": "../reproduce_gaia_candidate.py",
-  "sourceRowsStored": false,
-  "sourceRowsStoredReason": "The public replay fetches Gaia TAP rows directly from ESA using the exact ADQL queries recorded in SOURCE_CACHE.json.",
+  "sourceRowsStored": true,
+  "sourceRowsStoredReason": "The public replay can use the public-safe source-row CSV snapshots stored in raw-reproduction-bundle/source-rows. These snapshots were fetched from ESA Gaia TAP using the exact ADQL queries recorded in SOURCE_CACHE.json.",
   "publicSafe": true
 }

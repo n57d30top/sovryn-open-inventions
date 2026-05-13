@@ -54,6 +54,24 @@ def fetch_text(url):
             "sourceHash": hashlib.sha256(payload).hexdigest(),
         }
 
+def source_row_snapshot_path(slice_id):
+    return Path("raw-reproduction-bundle") / "source-rows" / f"{slice_id}.csv"
+
+def load_or_fetch_text(slice_id, url):
+    snapshot = source_row_snapshot_path(slice_id)
+    if snapshot.exists():
+        payload = snapshot.read_bytes()
+        return payload.decode("utf-8"), {
+            "status": "local_snapshot",
+            "contentLength": len(payload),
+            "sourceHash": hashlib.sha256(payload).hexdigest(),
+            "snapshotPath": str(snapshot),
+            "replaySource": "public_corpus_source_row_snapshot",
+        }
+    text, receipt = fetch_text(url)
+    receipt["replaySource"] = "live_public_gaia_tap"
+    return text, receipt
+
 def parse_rows(text, slice_id):
     rows = []
     for rec in csv.DictReader(io.StringIO(text)):
@@ -124,7 +142,7 @@ def main():
     receipts = []
     for slice_id, min_ra, max_ra in SLICES:
         url = tap_url(min_ra, max_ra)
-        text, receipt = fetch_text(url)
+        text, receipt = load_or_fetch_text(slice_id, url)
         receipt.update({"sliceId": slice_id, "sourceUrl": url})
         receipts.append(receipt)
         rows.extend(parse_rows(text, slice_id))

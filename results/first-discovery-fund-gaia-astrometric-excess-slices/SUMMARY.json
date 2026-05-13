@@ -21,6 +21,7 @@
   "productRecordedFundClass": "externally_review_ready_discovery_candidate",
   "countsForEinsteinNobelDiscoveryScore": true,
   "publicRawScientificReproductionReady": true,
+  "publicReplaySourceRowsStored": true,
   "publicReviewStatus": "external_review_ready_raw_scientific_reproduction_succeeded_caveated_no_external_validation",
   "extendedValidationStatus": "extended_validation_major_rival_caveat",
   "extendedValidation": {
@@ -47,6 +48,9 @@
     "resultTable": "REPRODUCTION_RESULT_TABLE.md",
     "exactRawScientificReproductionSucceeded": true,
     "rowsLoaded": 160,
+    "sourceRowsStored": true,
+    "sourceRowsPath": "raw-reproduction-bundle/source-rows/",
+    "sourceRowReceipts": "raw-reproduction-bundle/SOURCE_ROW_RECEIPTS.json",
     "measuredOutcome": 0.4256,
     "residualMagnitude": 0.1343
   },

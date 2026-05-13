@@ -5,30 +5,38 @@
   "rowsLoaded": 160,
   "receipts": [
     {
-      "status": 200,
+      "status": "local_snapshot",
       "contentLength": 3228,
       "sourceHash": "a0a35e637a3efe95b9fcd2ac7d6df97d7899a1e79a7a063415bd82d26b6f1f42",
+      "snapshotPath": "raw-reproduction-bundle/source-rows/ra_000_090.csv",
+      "replaySource": "public_corpus_source_row_snapshot",
       "sliceId": "ra_000_090",
       "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
     },
     {
-      "status": 200,
+      "status": "local_snapshot",
       "contentLength": 3442,
       "sourceHash": "fa6507f7a58b61f45ef93b46abb14138cef799ba0e0f611f3db9c647a6c2539e",
+      "snapshotPath": "raw-reproduction-bundle/source-rows/ra_090_180.csv",
+      "replaySource": "public_corpus_source_row_snapshot",
       "sliceId": "ra_090_180",
       "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
     },
     {
-      "status": 200,
+      "status": "local_snapshot",
       "contentLength": 3467,
       "sourceHash": "e7df8002ed369a7f584395878c355acf190bad96de876d1a98e4b5e2901c9aa0",
+      "snapshotPath": "raw-reproduction-bundle/source-rows/ra_180_270.csv",
+      "replaySource": "public_corpus_source_row_snapshot",
       "sliceId": "ra_180_270",
       "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
     },
     {
-      "status": 200,
+      "status": "local_snapshot",
       "contentLength": 3494,
       "sourceHash": "8e10a23e1b0c6e1d3a380ee78e5bf011fa63cdfba738242753a4d5dd84957ce0",
+      "snapshotPath": "raw-reproduction-bundle/source-rows/ra_270_360.csv",
+      "replaySource": "public_corpus_source_row_snapshot",
       "sliceId": "ra_270_360",
       "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
     }

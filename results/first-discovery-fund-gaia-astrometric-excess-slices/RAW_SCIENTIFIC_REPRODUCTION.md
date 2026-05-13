@@ -1,6 +1,8 @@
 # Raw Scientific Reproduction
 
-The public replay fetches four Gaia EDR3 TAP CSV queries and recomputes the bounded metric calculation from raw rows.
+The public replay uses four public-safe Gaia EDR3 TAP source-row CSV snapshots in `raw-reproduction-bundle/source-rows/` and recomputes the bounded metric calculation from raw rows. If the snapshots are removed, the replay script can fall back to the live Gaia TAP queries recorded in `raw-reproduction-bundle/SOURCE_CACHE.json`.
+
+Snapshot receipts are recorded in `raw-reproduction-bundle/SOURCE_ROW_RECEIPTS.json`.
 
 Expected values:
 
