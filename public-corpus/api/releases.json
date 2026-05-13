@@ -2117,6 +2117,15 @@
       "pushed": true
     },
     {
+      "slug": "first-discovery-fund-gaia-astrometric-excess-slices",
+      "path": "results/first-discovery-fund-gaia-astrometric-excess-slices",
+      "status": "external_review_ready_raw_reproduction_succeeded",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "first-discovery-fund-gaia-astrometric-excess-slices",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "first-discovery-fund-matbench-descriptor-transfer",
       "path": "results/first-discovery-fund-matbench-descriptor-transfer",
       "status": "needs_revision",
@@ -5537,5 +5546,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "6f91328f1d8ad35c230a4bcfc642eda31f76c53b6a3b374036e772bdd3e6e6d8"
+  "evidenceHash": "b05a094758a06be74703c15052b90bce1dad05c73af4d6682e4d4ec1c5418cde"
 }

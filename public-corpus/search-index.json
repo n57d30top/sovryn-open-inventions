@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-12T21:04:53.839Z",
-  "entryCount": 615,
+  "builtAt": "2026-05-13T00:33:00.280Z",
+  "entryCount": 616,
   "entries": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -10519,6 +10519,46 @@
         "validated",
         "verified",
         "with"
+      ]
+    },
+    {
+      "slug": "first-discovery-fund-gaia-astrometric-excess-slices",
+      "title": "Gaia Astrometric-Excess Slice Residual Discovery Candidate",
+      "domain": "astrophysics_open_catalog_anomalies",
+      "href": "results/first-discovery-fund-gaia-astrometric-excess-slices.html",
+      "qualityLabel": "reviewable",
+      "publicationStatus": "external_review_ready_raw_reproduction_succeeded",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "first-discovery-fund-gaia-astrometric-excess-slices",
+      "showcaseRank": null,
+      "terms": [
+        "anomalies",
+        "astrometric",
+        "astrophysics",
+        "autopublished",
+        "bounded",
+        "candidate",
+        "catalog",
+        "discovery",
+        "edr3",
+        "excess",
+        "exposes",
+        "first",
+        "fund",
+        "gaia",
+        "generated",
+        "numpy",
+        "open",
+        "package",
+        "pandas",
+        "public",
+        "raw",
+        "replayable",
+        "residual",
+        "slice",
+        "slices",
+        "sovryn",
+        "this"
       ]
     },
     {
@@ -24234,5 +24274,5 @@
       ]
     }
   ],
-  "evidenceHash": "2177fffb5b8f363e91d1c8199f9b790e2d650e64a8b7425dac29b3734884880b"
+  "evidenceHash": "341bd3f28f6247d18e8002177509c6c8a9431d1e503696f0d6fa70636e80477c"
 }

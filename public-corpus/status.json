@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_status",
-  "generatedAt": "2026-05-12T21:04:53.839Z",
+  "generatedAt": "2026-05-13T00:33:00.280Z",
   "statusCounts": {
     "autopublished": 579,
     "benchmark_challenge_negative_result": 4,
@@ -8,6 +8,7 @@
     "external_extension_supported": 1,
     "external_reproduction_partial": 6,
     "external_reproduction_success": 2,
+    "external_review_ready_raw_reproduction_succeeded": 1,
     "field_grade_trial_ready": 3,
     "knowledge_trial_ready": 1,
     "needs_revision": 1,
@@ -22,13 +23,14 @@
     "v1_candidate_with_limits": 1
   },
   "lifecycleCounts": {
-    "autopublished": 583,
+    "autopublished": 584,
     "needs_revision": 5,
     "showcase": 3,
     "showcase_science": 10,
     "superseded": 14
   },
   "domainCounts": {
+    "astrophysics_open_catalog_anomalies": 1,
     "Autonomous Discovery Daemon - Silent Until Fund": 5,
     "autonomous-research-production-continuity": 2,
     "autonomous-research-production-strategy": 1,
@@ -114,5 +116,5 @@
     "time-series-tabular-benchmark": 1,
     "tool-backed-dataset-quality-audit": 1
   },
-  "evidenceHash": "eb8710aa5efac80049dc71876cfdaa06de2a26ba8ef5f8d8a6d89712981d0041"
+  "evidenceHash": "691ae2ea4233228e4b3d56e2aeb936d6a44ff46f7e925a1d550199dfa1ecb380"
 }

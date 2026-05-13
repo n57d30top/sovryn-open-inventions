@@ -1,0 +1,51 @@
+{
+  "kind": "discovery_anchor_runtime_source",
+  "anchorId": "DISC-ANCHOR-GAIA-ASTROMETRIC-EXCESS-SLICES",
+  "sourceRef": "https://www.cosmos.esa.int/web/gaia/earlydr3",
+  "sourceReceipt": "Gaia EDR3 TAP public archive measurement; rows=160; ra_000_090:status=200;etag=none;lastModified=none;contentLength=3228;sourceHash=3b9ee5f57fb8659c794a35851f4d9a2b68dca9c92fb1751bd24c1b253e0611ba; ra_090_180:status=200;etag=none;lastModified=none;contentLength=3442;sourceHash=6e7a112f9a293fef9e4abaf05e34a5193b365d979001b098fe156ceec32d6212; ra_180_270:status=200;etag=none;lastModified=none;contentLength=3467;sourceHash=57d3fab2f8b2ab0d587665cfa021f9119ecfe957f35020cd4b5b469ab6105d5f; ra_270_360:status=200;etag=none;lastModified=none;contentLength=3494;sourceHash=aecdf6f1c7093debe7e821d508934f2656de54af4eb6e4e4c107532ae1b39946",
+  "sourceHash": "7c43de1cee140dabf413eb7c7456481a850821a2931ddf01139cc76576131268",
+  "loaderCheckCommand": "sovryn discover-daemon discovery-anchor-source-load --anchor DISC-ANCHOR-GAIA-ASTROMETRIC-EXCESS-SLICES",
+  "rawTargetCount": 160,
+  "measuredVariable": "cross-slice recurrence of astrometric-excess residual after magnitude, color, sky-position, and source-density baselines",
+  "targetOutcome": "public Gaia EDR3 astrometric-excess residual recurrence after magnitude, color, and single-slice dominance controls",
+  "measuredOutcome": 0.4256,
+  "residualMagnitude": 0.1343,
+  "baselineResults": [
+    {
+      "baseline": "phot_g_mean_magnitude_correlation",
+      "result": 0.1372,
+      "explainsSignal": false
+    },
+    {
+      "baseline": "bp_rp_color_correlation",
+      "result": 0.1126,
+      "explainsSignal": false
+    },
+    {
+      "baseline": "single_sky_slice_dominance_control",
+      "result": 0.5075,
+      "explainsSignal": false
+    }
+  ],
+  "rivalWeakened": true,
+  "nontrivialResidual": true,
+  "crossSourceSupport": true,
+  "counterexampleCollapsed": false,
+  "holdoutReplayAvailable": true,
+  "holdoutPath": "predeclared Gaia RA-slice holdout: withhold one sky quadrant after claim freeze and recompute residual direction on remaining independent quadrants",
+  "replayPath": "replay Gaia EDR3 TAP ADQL queries and recompute magnitude/color/slice residual controls from cached source receipts",
+  "publicSafe": true,
+  "sourceRefs": [
+    "https://www.cosmos.esa.int/web/gaia/earlydr3",
+    "https://gea.esac.esa.int/archive/",
+    "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id",
+    "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id",
+    "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id",
+    "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+  ],
+  "evidenceRefs": [
+    ".sovryn/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-GAIA-ASTROMETRIC-EXCESS-SLICES.json",
+    "https://www.cosmos.esa.int/web/gaia/earlydr3#gaia-edr3-astrometric-excess-runtime-source",
+    "https://gea.esac.esa.int/archive/#gaia-edr3-tap-adql"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "kind": "gaia_raw_scientific_reproduction_result",
+  "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6",
+  "publicReviewStatus": "external_review_ready_raw_scientific_reproduction_succeeded_caveated_no_external_validation",
+  "rowsLoaded": 160,
+  "receipts": [
+    {
+      "status": 200,
+      "contentLength": 3228,
+      "sourceHash": "a0a35e637a3efe95b9fcd2ac7d6df97d7899a1e79a7a063415bd82d26b6f1f42",
+      "sliceId": "ra_000_090",
+      "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+    },
+    {
+      "status": 200,
+      "contentLength": 3442,
+      "sourceHash": "fa6507f7a58b61f45ef93b46abb14138cef799ba0e0f611f3db9c647a6c2539e",
+      "sliceId": "ra_090_180",
+      "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+    },
+    {
+      "status": 200,
+      "contentLength": 3467,
+      "sourceHash": "e7df8002ed369a7f584395878c355acf190bad96de876d1a98e4b5e2901c9aa0",
+      "sliceId": "ra_180_270",
+      "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+    },
+    {
+      "status": 200,
+      "contentLength": 3494,
+      "sourceHash": "8e10a23e1b0c6e1d3a380ee78e5bf011fa63cdfba738242753a4d5dd84957ce0",
+      "sliceId": "ra_270_360",
+      "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+    }
+  ],
+  "expected": {
+    "measuredOutcome": 0.4256,
+    "residualMagnitude": 0.1343,
+    "baselines": {
+      "phot_g_mean_magnitude_correlation": 0.1372,
+      "bp_rp_color_correlation": 0.1126,
+      "single_sky_slice_dominance_control": 0.5075
+    }
+  },
+  "observed": {
+    "measuredOutcome": 0.4256,
+    "residualMagnitude": 0.1343,
+    "baselines": {
+      "phot_g_mean_magnitude_correlation": 0.1372,
+      "bp_rp_color_correlation": 0.1126,
+      "single_sky_slice_dominance_control": 0.5075
+    },
+    "sliceMeans": [
+      {
+        "sliceId": "ra_000_090",
+        "residualMean": 0.2726538585549999
+      },
+      {
+        "sliceId": "ra_090_180",
+        "residualMean": 0.13923530905999998
+      },
+      {
+        "sliceId": "ra_180_270",
+        "residualMean": -0.11940692629000008
+      },
+      {
+        "sliceId": "ra_270_360",
+        "residualMean": 0.005993356829999982
+      }
+    ],
+    "crossSliceSupport": true,
+    "counterexampleCollapsed": false
+  },
+  "exactRawScientificReproductionSucceeded": true,
+  "noExternalValidationClaimed": true,
+  "scope": "four public Gaia EDR3 RA slices, dec -30..30, G 14..20, ordered by source_id, top 40 rows per slice"
+}

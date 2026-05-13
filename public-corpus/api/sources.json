@@ -1441,6 +1441,14 @@
       "customTool": null
     },
     {
+      "slug": "first-discovery-fund-gaia-astrometric-excess-slices",
+      "externalPackages": [
+        "numpy",
+        "pandas"
+      ],
+      "customTool": null
+    },
+    {
       "slug": "first-discovery-fund-matbench-descriptor-transfer",
       "externalPackages": [
         "numpy",
@@ -3392,5 +3400,5 @@
       "customTool": null
     }
   ],
-  "evidenceHash": "09d904a37e0ed15772482a3c9abd31be73f4ff262d3e106f3117a8b8806d29d7"
+  "evidenceHash": "186cfb8044961b4616b585aa19d052c63b6b66629f2c4a29b503edea3d4ad310"
 }

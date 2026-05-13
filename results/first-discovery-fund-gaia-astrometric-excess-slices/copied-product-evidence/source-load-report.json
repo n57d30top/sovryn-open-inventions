@@ -1,0 +1,118 @@
+{
+  "kind": "discovery_anchor_source_load",
+  "status": "continue_searching_checkpointed",
+  "checkpointUsed": ".sovryn/discovery-daemon/checkpoints/discovery-anchor-selection-continue-searching.json",
+  "nextCheckpointRef": ".sovryn/discovery-daemon/checkpoints/discovery-anchor-source-load-continue-searching.json",
+  "anchorsLoaded": 3,
+  "anchorsAttempted": 3,
+  "sourceCachesWritten": 3,
+  "blockedByCause": {},
+  "attempts": [
+    {
+      "kind": "discovery_anchor_source_load_attempt",
+      "anchorId": "DISC-ANCHOR-NASA-POWER-SOLAR-RESIDUAL",
+      "domain": "climate_energy_residuals",
+      "loaderId": "nasa_power_daily_solar_residual_loader",
+      "status": "loaded_external_artifact",
+      "sourceRef": "https://power.larc.nasa.gov/docs/services/api/temporal/daily/",
+      "localArtifactRef": ".sovryn/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-NASA-POWER-SOLAR-RESIDUAL.json",
+      "rawTargetCount": 360,
+      "sourceHash": "add5668e3010aed8e5611f381604b911519bc62cae23ffca6b770392fa0bb976",
+      "blockers": [],
+      "gates": [
+        {
+          "code": "nasa_power_daily_solar_loaded",
+          "passed": true,
+          "message": "NASA POWER daily solar rows loaded from the public API."
+        },
+        {
+          "code": "runtime_source_contract_valid",
+          "passed": true,
+          "message": "The loaded rows satisfy the discovery-anchor runtime source contract."
+        },
+        {
+          "code": "no_fund_shortcut",
+          "passed": true,
+          "message": "Source loading writes only runtime-source cache; it cannot create InsightCandidates, DiscoveryCandidates, or Fund state."
+        }
+      ],
+      "validationErrors": [],
+      "sourceReceipt": "NASA POWER daily point public solar measurement; rows=360; colorado_front_range:status=200;etag=none;lastModified=none;contentLength=7000;sourceHash=e209bf2395bfd18e495e760166c4df3b0edfe27a765eef367584becc4f357905; arizona_sonoran_desert:status=200;etag=none;lastModified=none;contentLength=7015;sourceHash=80ec969409b3d1eba972f674ca5e7a7687414a0d3eb6001ee7dc1b12b2ee35c0; washington_puget_sound:status=200;etag=none;lastModified=none;contentLength=6942;sourceHash=fb9306376652f4da12b802acf241a045860ac37d709ec5ef6db7f2d85286f235",
+      "evidenceHash": "4e1eb0254b8edf66da08892bf8ea9faf708bc71cb653e831f4378f34f486d788"
+    },
+    {
+      "kind": "discovery_anchor_source_load_attempt",
+      "anchorId": "DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP",
+      "domain": "computational_materials_property_data",
+      "loaderId": "matbench_expt_gap_huggingface_loader",
+      "status": "loaded_external_artifact",
+      "sourceRef": "https://matbench.materialsproject.org/",
+      "localArtifactRef": ".sovryn/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP.json",
+      "rawTargetCount": 300,
+      "sourceHash": "92c9530ffd128eb2dd2491b5965ce17e55811d1f1f5b711548ce9f2a62ef56dd",
+      "blockers": [],
+      "gates": [
+        {
+          "code": "matbench_expt_gap_loaded",
+          "passed": true,
+          "message": "Matbench experimental band-gap rows loaded from a public dataset mirror."
+        },
+        {
+          "code": "runtime_source_contract_valid",
+          "passed": true,
+          "message": "The loaded rows satisfy the discovery-anchor runtime source contract."
+        },
+        {
+          "code": "no_fund_shortcut",
+          "passed": true,
+          "message": "Source loading writes only runtime-source cache; it cannot create InsightCandidates, DiscoveryCandidates, or Fund state."
+        }
+      ],
+      "validationErrors": [],
+      "sourceReceipt": "Matbench experimental band-gap public measurement; rows=300; status=200;etag=W/\"e40bc8bfe21e4f64ac1da82bffc65e6d03698b05\";lastModified=none;contentLength=99468;sourceHash=af0b8299275eb29711a6b6b895d1dbae80c80076464d05e1f44b0e139316da81",
+      "evidenceHash": "fbfd5ed91a31795a23d5760c9f5ca5c1301158a3cbdff6765a1d2eff2267052d"
+    },
+    {
+      "kind": "discovery_anchor_source_load_attempt",
+      "anchorId": "DISC-ANCHOR-GAIA-ASTROMETRIC-EXCESS-SLICES",
+      "domain": "astrophysics_open_catalog_anomalies",
+      "loaderId": "gaia_edr3_tap_astrometric_excess_loader",
+      "status": "loaded_external_artifact",
+      "sourceRef": "https://www.cosmos.esa.int/web/gaia/earlydr3",
+      "localArtifactRef": ".sovryn/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-GAIA-ASTROMETRIC-EXCESS-SLICES.json",
+      "rawTargetCount": 160,
+      "sourceHash": "7c43de1cee140dabf413eb7c7456481a850821a2931ddf01139cc76576131268",
+      "blockers": [],
+      "gates": [
+        {
+          "code": "gaia_tap_loaded",
+          "passed": true,
+          "message": "Gaia EDR3 TAP rows loaded from the public archive."
+        },
+        {
+          "code": "runtime_source_contract_valid",
+          "passed": true,
+          "message": "The loaded rows satisfy the discovery-anchor runtime source contract."
+        },
+        {
+          "code": "no_fund_shortcut",
+          "passed": true,
+          "message": "Source loading writes only runtime-source cache; it cannot create InsightCandidates, DiscoveryCandidates, or Fund state."
+        }
+      ],
+      "validationErrors": [],
+      "sourceReceipt": "Gaia EDR3 TAP public archive measurement; rows=160; ra_000_090:status=200;etag=none;lastModified=none;contentLength=3228;sourceHash=3b9ee5f57fb8659c794a35851f4d9a2b68dca9c92fb1751bd24c1b253e0611ba; ra_090_180:status=200;etag=none;lastModified=none;contentLength=3442;sourceHash=6e7a112f9a293fef9e4abaf05e34a5193b365d979001b098fe156ceec32d6212; ra_180_270:status=200;etag=none;lastModified=none;contentLength=3467;sourceHash=57d3fab2f8b2ab0d587665cfa021f9119ecfe957f35020cd4b5b469ab6105d5f; ra_270_360:status=200;etag=none;lastModified=none;contentLength=3494;sourceHash=aecdf6f1c7093debe7e821d508934f2656de54af4eb6e4e4c107532ae1b39946",
+      "evidenceHash": "76491987db3fff8f5f44bc095e4870311b815b8f84358a7685bcea0380cc6f67"
+    }
+  ],
+  "fundFound": false,
+  "artifactRefs": [
+    ".sovryn/discovery-daemon/discovery-anchor-run/SOURCE_LOAD_ATTEMPTS.json",
+    ".sovryn/discovery-daemon/discovery-anchor-run/SOURCE_LOAD_REPORT.json",
+    ".sovryn/discovery-daemon/discovery-anchor-run/SOURCE_LOAD_REPORT.md",
+    ".sovryn/discovery-daemon/discovery-anchor-run/source-load-latest.json",
+    ".sovryn/discovery-daemon/discovery-anchor-run/source-cache/",
+    ".sovryn/discovery-daemon/checkpoints/discovery-anchor-source-load-continue-searching.json"
+  ],
+  "evidenceHash": "195f5035c47c4de3ae2c26f1badc4987946648d2f5d2e27ea33fbacab87c59b6"
+}

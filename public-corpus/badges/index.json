@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-12T21:04:53.839Z",
+  "generatedAt": "2026-05-13T00:33:00.280Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -4227,6 +4227,24 @@
         "falsification": "passes_falsification",
         "lifecycle": "autopublished",
         "version": "field-grade-autonomous-science-trial",
+        "showcase": "not-showcase"
+      },
+      "lifecycleStatus": "autopublished",
+      "showcaseRank": null
+    },
+    {
+      "slug": "first-discovery-fund-gaia-astrometric-excess-slices",
+      "badges": {
+        "quality": "reviewable",
+        "status": "external_review_ready_raw_reproduction_succeeded",
+        "antiTemplate": "unknown",
+        "replay": "replay-100",
+        "safety": "safety-passed",
+        "hygiene": "hygiene-passed",
+        "worker": "not-recorded",
+        "falsification": "raw_scientific_reproduction_succeeded_with_caveats",
+        "lifecycle": "autopublished",
+        "version": "first-discovery-fund-gaia-astrometric-excess-slices",
         "showcase": "not-showcase"
       },
       "lifecycleStatus": "autopublished",
@@ -11073,5 +11091,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "2626e18615709d787a655b71b3cdd6a18859895df1a0d59fcf26796ca15d2005"
+  "evidenceHash": "2de9ae5e44202562b13a34136d2065bf8957858c7e3697fe8e21e75112451cbc"
 }

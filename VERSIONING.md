@@ -229,6 +229,7 @@ can supersede earlier entries while preserving audit history.
 - external-reproduction-extension-result: latest external-reproduction-extension-result; versions external-reproduction-extension-result
 - external-scientific-production-result: latest external-scientific-production-result; versions external-scientific-production-result
 - field-grade-autonomous-science-trial: latest field-grade-autonomous-science-trial-v3; versions field-grade-autonomous-science-trial, field-grade-autonomous-science-trial-v2, field-grade-autonomous-science-trial-v3
+- first-discovery-fund-gaia-astrometric-excess-slices: latest first-discovery-fund-gaia-astrometric-excess-slices; versions first-discovery-fund-gaia-astrometric-excess-slices
 - first-discovery-fund-matbench-descriptor-transfer: latest first-discovery-fund-matbench-descriptor-transfer; versions first-discovery-fund-matbench-descriptor-transfer
 - first-fund-scipy-runtime-reproduction-external-review-ready: latest first-fund-scipy-runtime-reproduction-external-review-ready; versions first-fund-scipy-runtime-reproduction-external-review-ready
 - formal-stage01-domain-scope: latest formal-stage01-domain-scope; versions formal-stage01-domain-scope

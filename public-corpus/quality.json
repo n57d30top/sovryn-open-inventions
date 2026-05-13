@@ -1,14 +1,14 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-12T21:04:53.839Z",
+  "generatedAt": "2026-05-13T00:33:00.280Z",
   "qualityCounts": {
     "excellent": 5,
     "good": 603,
-    "reviewable": 6,
+    "reviewable": 7,
     "weak": 1
   },
   "lifecycleCounts": {
-    "autopublished": 583,
+    "autopublished": 584,
     "needs_revision": 5,
     "showcase": 3,
     "showcase_science": 10,
@@ -3304,6 +3304,20 @@
       "reproducibilityScore": 92,
       "publicationSafetyScore": 98,
       "specificityScore": 90
+    },
+    {
+      "slug": "first-discovery-fund-gaia-astrometric-excess-slices",
+      "qualityLabel": "reviewable",
+      "antiTemplateStatus": "unknown",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "first-discovery-fund-gaia-astrometric-excess-slices",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 84,
+      "evidenceStrengthScore": 82,
+      "reproducibilityScore": 92,
+      "publicationSafetyScore": 100,
+      "specificityScore": 88
     },
     {
       "slug": "first-discovery-fund-matbench-descriptor-transfer",
@@ -8626,5 +8640,5 @@
       "specificityScore": 94
     }
   ],
-  "evidenceHash": "268cc15dae2f52f3488fbe3b7dea877046dd371f33712b44eda4dd750c655d54"
+  "evidenceHash": "d653537f0ad44f6823e000dd0ef23426ed1d0bef47f34d7ba18a792b6f0ac3bc"
 }

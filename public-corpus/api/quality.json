@@ -3,7 +3,7 @@
   "qualityCounts": {
     "excellent": 5,
     "good": 603,
-    "reviewable": 6,
+    "reviewable": 7,
     "weak": 1
   },
   "results": [
@@ -1181,6 +1181,11 @@
       "slug": "field-grade-autonomous-science-trial-v3",
       "qualityLabel": "excellent",
       "releaseReadinessScore": 93
+    },
+    {
+      "slug": "first-discovery-fund-gaia-astrometric-excess-slices",
+      "qualityLabel": "reviewable",
+      "releaseReadinessScore": 84
     },
     {
       "slug": "first-discovery-fund-matbench-descriptor-transfer",
@@ -3083,5 +3088,5 @@
       "releaseReadinessScore": 86
     }
   ],
-  "evidenceHash": "268cc15dae2f52f3488fbe3b7dea877046dd371f33712b44eda4dd750c655d54"
+  "evidenceHash": "d653537f0ad44f6823e000dd0ef23426ed1d0bef47f34d7ba18a792b6f0ac3bc"
 }

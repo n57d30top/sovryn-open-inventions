@@ -1,0 +1,61 @@
+{
+  "kind": "generator_born_kill_week_results",
+  "killWeek": {
+    "complete": true,
+    "fatalUnresolvedAttack": false,
+    "attacks": [
+      {
+        "attack": "novelty",
+        "result": "Bounded generator evidence is inspectable but external novelty and domain significance remain explicitly unclaimed.",
+        "fatal": false,
+        "evidenceRefs": [
+          ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6.json#nontrivial_pattern_test",
+          ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6.json#baseline_resistance_test",
+          ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6.json#rival_discrimination_test"
+        ]
+      },
+      {
+        "attack": "baseline_dominance",
+        "result": "The prior generator-born baseline gate remains closed; the package keeps the claim bounded to that runtime evidence.",
+        "fatal": false,
+        "evidenceRefs": [
+          ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6.json#nontrivial_pattern_test",
+          ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6.json#baseline_resistance_test",
+          ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6.json#rival_discrimination_test"
+        ]
+      },
+      {
+        "attack": "rival_theory",
+        "result": "Size, density, trivial-rule, and small-counterexample rivals are scoped by the closure executions, not eliminated globally.",
+        "fatal": false,
+        "evidenceRefs": [
+          ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6.json#nontrivial_pattern_test",
+          ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6.json#baseline_resistance_test",
+          ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6.json#rival_discrimination_test",
+          ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6.json#holdout_feasibility_test"
+        ]
+      },
+      {
+        "attack": "counterexample_pressure",
+        "result": "Counterexample pressure did not collapse the bounded claim in the generator-born closure evidence.",
+        "fatal": false,
+        "evidenceRefs": [
+          ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6.json#nontrivial_pattern_test",
+          ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6.json#baseline_resistance_test",
+          ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6.json#rival_discrimination_test",
+          ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6.json#holdout_feasibility_test",
+          ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6.json#replay_feasibility_test"
+        ]
+      },
+      {
+        "attack": "overclaim",
+        "result": "The package states that generated formal-object evidence is not a Nobel-level, breakthrough, externally validated, or universal claim.",
+        "fatal": false,
+        "evidenceRefs": [
+          ".sovryn/discovery-daemon/insight-candidates/INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6.json"
+        ]
+      }
+    ]
+  },
+  "evidenceHash": "78027fa13da32345ed9cfb639d01021e89627ccad565ed9012467a760add7cc4"
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "evidence_ref_classification",
+  "slug": "first-discovery-fund-gaia-astrometric-excess-slices",
+  "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6",
+  "totalRefsClassified": 24,
+  "publicRawSource": [
+    "https://www.cosmos.esa.int/web/gaia/earlydr3",
+    "https://gea.esac.esa.int/archive/",
+    "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id",
+    "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id",
+    "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id",
+    "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+  ],
+  "copiedPublicCorpusArtifact": [
+    "README.md",
+    "METHOD.md",
+    "REPRODUCE.md",
+    "LIMITATIONS.md",
+    "RAW_SCIENTIFIC_REPRODUCTION.md"
+  ],
+  "internalProductRefCopied": [
+    "copied-product-evidence/candidate-identity-ledger-excerpt.json",
+    "copied-product-evidence/frozen-prediction-ledger.json",
+    "copied-product-evidence/gaia-source-cache.json",
+    "copied-product-evidence/generator-run-results.md",
+    "copied-product-evidence/insight-closure.json",
+    "copied-product-evidence/kill-week-results.json",
+    "copied-product-evidence/pre-lift-claim-evidence-bindings.json",
+    "copied-product-evidence/pre-lift-method.md",
+    "copied-product-evidence/pre-lift-reproduce.md",
+    "copied-product-evidence/runtime-evidence-output-01.json",
+    "copied-product-evidence/signal-rebind.json",
+    "copied-product-evidence/source-load-attempts.json",
+    "copied-product-evidence/source-load-report.json"
+  ],
+  "internalProductRefNotCopied": [],
+  "unresolvedOrWeak": [],
+  "publicReviewStatus": "external_review_ready_raw_scientific_reproduction_succeeded_caveated_no_external_validation"
+}

@@ -1,0 +1,1303 @@
+{
+  "kind": "generator_born_discovery_claim_lift_signal_rebind",
+  "status": "discovery_package_rebound",
+  "checkpointUsed": ".sovryn/discovery-daemon/checkpoints/generator-claim-lift-experiment-continue-searching.json",
+  "nextCheckpointRef": ".sovryn/discovery-daemon/checkpoints/generator-claim-lift-rebind-continue-searching.json",
+  "experimentsLoaded": 6,
+  "packagesRebound": 4,
+  "packagesSkipped": 2,
+  "discoveryScoredPackages": 2,
+  "decisions": [
+    {
+      "kind": "generator_born_discovery_claim_lift_signal_rebind_decision",
+      "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-7E7437527231",
+      "packageRef": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-7E743752",
+      "rebindStatus": "rebound",
+      "primaryBlocker": "non_discovery_fund_class_after_rebind",
+      "insightEvidenceRefsBound": [
+        ".sovryn/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP.json",
+        "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json#matbench-expt-gap-runtime-source",
+        "https://matbench.materialsproject.org/#matbench-expt-gap",
+        "https://matbench.materialsproject.org/",
+        "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json",
+        ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json"
+      ],
+      "rawSourceReproductionConsistency": {
+        "checked": true,
+        "sourceCacheRef": ".sovryn/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP.json",
+        "runtimeEvidenceRef": ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-01.json",
+        "sourceMeasuredOutcome": 1.1487,
+        "runtimeMeasuredOutcome": 1.1487,
+        "sourceResidualMagnitude": 0.6376,
+        "runtimeResidualMagnitude": 0.6376,
+        "passed": true,
+        "reason": "raw_source_metrics_match_generator_runtime_evidence"
+      },
+      "fundClassBefore": "pipeline_capability_verified",
+      "fundClassAfter": "insight_candidate",
+      "countsForEinsteinNobelDiscoveryScoreAfter": false,
+      "notificationAllowedAfter": false,
+      "packageMutated": true,
+      "fundGateResult": {
+        "kind": "fund_gate_result",
+        "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-7E7437527231",
+        "passed": false,
+        "status": "continue_searching",
+        "fundLabel": null,
+        "fundClass": "insight_candidate",
+        "countsForEinsteinNobelDiscoveryScore": false,
+        "fundClassAssessment": {
+          "kind": "fund_class_assessment",
+          "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-7E7437527231",
+          "fundClass": "insight_candidate",
+          "validFundCandidate": false,
+          "countsForEinsteinNobelDiscoveryScore": false,
+          "discoveryGate": {
+            "nontrivialNewInsightAcrossRealTargets": true,
+            "domainScientificSignificance": true,
+            "evidenceBeyondRuntimeReproduction": true,
+            "notOnlyToolPipelineOrReproduction": true
+          },
+          "rationale": [
+            "The existing Fund Gate did not pass, so this is not a Fund notification class.",
+            "This class is excluded from Einstein/Nobel discovery scoring.",
+            "Assigned FundClass: insight_candidate."
+          ],
+          "evidenceHash": "8e254d83b1b2dc93c2b985d96031599b23986f2c39387839b1d9bc69ca447034"
+        },
+        "gates": [
+          {
+            "code": "candidate_identity_integrity",
+            "passed": true,
+            "message": "Candidate ID and exact claim must remain stable."
+          },
+          {
+            "code": "high_impact_domain",
+            "passed": true,
+            "message": "Candidate must be safe, high-impact, and not merely a tool/report/process improvement."
+          },
+          {
+            "code": "nontriviality",
+            "passed": true,
+            "message": "Candidate must not be known, trivial, or just renamed prior work."
+          },
+          {
+            "code": "rival_theory_pressure",
+            "passed": true,
+            "message": "At least three rivals must be compared and at least one weakened or scope-limited."
+          },
+          {
+            "code": "baseline_resistance",
+            "passed": true,
+            "message": "Strong baselines must be executed and not dominate the candidate."
+          },
+          {
+            "code": "counterexample_pressure",
+            "passed": true,
+            "message": "Counterexample checks must execute without collapsing the candidate."
+          },
+          {
+            "code": "frozen_predictions",
+            "passed": true,
+            "message": "Predictions must be frozen, unedited, executed, and include non-obvious cases."
+          },
+          {
+            "code": "holdout_support",
+            "passed": true,
+            "message": "Fresh post-freeze holdouts must support the candidate."
+          },
+          {
+            "code": "replay_reproduction",
+            "passed": true,
+            "message": "Decisive evidence must be replayed with at least one fresh workspace/container-style replay."
+          },
+          {
+            "code": "proof_or_mechanism_pressure",
+            "passed": true,
+            "message": "Proof, refutation, or mechanism pressure must be clear and must not fake proof status."
+          },
+          {
+            "code": "kill_week",
+            "passed": true,
+            "message": "Adversarial kill week must complete with no fatal unresolved attack."
+          },
+          {
+            "code": "external_review_package",
+            "passed": true,
+            "message": "External review package must exist with method, bindings, reproduce, limitations, and no overclaim."
+          },
+          {
+            "code": "allowed_fund_label",
+            "passed": true,
+            "message": "Only allowed Fund labels may notify the user."
+          },
+          {
+            "code": "external_review_package_path",
+            "passed": true,
+            "message": "Fund notification requires a relative, public-safe external-review package path."
+          },
+          {
+            "code": "external_review_package_file_PAPER.md",
+            "passed": true,
+            "message": "Fund notification requires PAPER.md in the candidate external-review package."
+          },
+          {
+            "code": "external_review_package_file_METHOD.md",
+            "passed": true,
+            "message": "Fund notification requires METHOD.md in the candidate external-review package."
+          },
+          {
+            "code": "external_review_package_file_CLAIM_EVIDENCE_BINDINGS.json",
+            "passed": true,
+            "message": "Fund notification requires CLAIM_EVIDENCE_BINDINGS.json in the candidate external-review package."
+          },
+          {
+            "code": "external_review_package_file_REPRODUCE.md",
+            "passed": true,
+            "message": "Fund notification requires REPRODUCE.md in the candidate external-review package."
+          },
+          {
+            "code": "external_review_package_file_LIMITATIONS.md",
+            "passed": true,
+            "message": "Fund notification requires LIMITATIONS.md in the candidate external-review package."
+          },
+          {
+            "code": "external_review_package_public_safe_PAPER.md",
+            "passed": true,
+            "message": "PAPER.md must be non-empty and must not contain local absolute paths."
+          },
+          {
+            "code": "external_review_package_public_safe_METHOD.md",
+            "passed": true,
+            "message": "METHOD.md must be non-empty and must not contain local absolute paths."
+          },
+          {
+            "code": "external_review_package_public_safe_REPRODUCE.md",
+            "passed": true,
+            "message": "REPRODUCE.md must be non-empty and must not contain local absolute paths."
+          },
+          {
+            "code": "external_review_package_public_safe_LIMITATIONS.md",
+            "passed": true,
+            "message": "LIMITATIONS.md must be non-empty and must not contain local absolute paths."
+          },
+          {
+            "code": "external_review_package_candidate_binding",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind to the exact candidate ID."
+          },
+          {
+            "code": "external_review_package_claim_binding",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind to the exact candidate claim."
+          },
+          {
+            "code": "external_review_package_evidence_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind at least five public-safe evidence refs."
+          },
+          {
+            "code": "external_review_package_prediction_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind prediction evidence refs."
+          },
+          {
+            "code": "external_review_package_holdout_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind holdout evidence refs."
+          },
+          {
+            "code": "external_review_package_counterexample_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind counterexample evidence refs."
+          },
+          {
+            "code": "external_review_package_replay_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind replay evidence refs."
+          },
+          {
+            "code": "external_review_package_kill_week_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind kill-week evidence refs."
+          },
+          {
+            "code": "external_review_package_method_binding",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind METHOD.md."
+          },
+          {
+            "code": "external_review_package_reproduce_binding",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind REPRODUCE.md."
+          },
+          {
+            "code": "external_review_package_limitations_binding",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind LIMITATIONS.md."
+          },
+          {
+            "code": "external_review_package_forward_contract",
+            "passed": false,
+            "message": "Future Fund packages must bind a valid FundCandidateDraft ref or an explicit legacyBypassReason with candidate ID, claim, evidence refs, and audit status."
+          }
+        ],
+        "failedGates": [
+          "external_review_package_forward_contract"
+        ],
+        "notificationAllowed": false,
+        "evidenceHash": "970c3283999f5a67d3d1c0f34ae7661183d4bdb0804d31b67808aa3199cd4af5"
+      },
+      "evidenceHash": "ed1c9d589380941d7b2f41a6a3561421d28a3c86b3649eae5dc3adc75e68b202"
+    },
+    {
+      "kind": "generator_born_discovery_claim_lift_signal_rebind_decision",
+      "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-A54425DE6613",
+      "packageRef": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-A54425DE",
+      "rebindStatus": "rebound",
+      "primaryBlocker": "non_discovery_fund_class_after_rebind",
+      "insightEvidenceRefsBound": [
+        ".sovryn/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP.json",
+        "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json#matbench-expt-gap-runtime-source",
+        "https://matbench.materialsproject.org/#matbench-expt-gap",
+        "https://matbench.materialsproject.org/",
+        "https://huggingface.co/datasets/smgjch/Matbench/resolve/main/matbench_expt_gap.json",
+        ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-02.json"
+      ],
+      "rawSourceReproductionConsistency": {
+        "checked": true,
+        "sourceCacheRef": ".sovryn/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-MATBENCH-DIELECTRIC-GAP.json",
+        "runtimeEvidenceRef": ".sovryn/discovery-daemon/generator-families/runtime-evidence/matbench_descriptor_transfer_significance_generator-output-02.json",
+        "sourceMeasuredOutcome": 1.1487,
+        "runtimeMeasuredOutcome": 1.1487,
+        "sourceResidualMagnitude": 0.6376,
+        "runtimeResidualMagnitude": 0.6376,
+        "passed": true,
+        "reason": "raw_source_metrics_match_generator_runtime_evidence"
+      },
+      "fundClassBefore": "pipeline_capability_verified",
+      "fundClassAfter": "insight_candidate",
+      "countsForEinsteinNobelDiscoveryScoreAfter": false,
+      "notificationAllowedAfter": false,
+      "packageMutated": true,
+      "fundGateResult": {
+        "kind": "fund_gate_result",
+        "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-A54425DE6613",
+        "passed": false,
+        "status": "continue_searching",
+        "fundLabel": null,
+        "fundClass": "insight_candidate",
+        "countsForEinsteinNobelDiscoveryScore": false,
+        "fundClassAssessment": {
+          "kind": "fund_class_assessment",
+          "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-MATBENCH-DESCRIPTOR-TRANSFER-SIGNIFICAN-A54425DE6613",
+          "fundClass": "insight_candidate",
+          "validFundCandidate": false,
+          "countsForEinsteinNobelDiscoveryScore": false,
+          "discoveryGate": {
+            "nontrivialNewInsightAcrossRealTargets": true,
+            "domainScientificSignificance": true,
+            "evidenceBeyondRuntimeReproduction": true,
+            "notOnlyToolPipelineOrReproduction": true
+          },
+          "rationale": [
+            "The existing Fund Gate did not pass, so this is not a Fund notification class.",
+            "This class is excluded from Einstein/Nobel discovery scoring.",
+            "Assigned FundClass: insight_candidate."
+          ],
+          "evidenceHash": "7be681bfc320ed4dfdaac4d7f2219964ee0f311051037f5203c8fff3020d79dd"
+        },
+        "gates": [
+          {
+            "code": "candidate_identity_integrity",
+            "passed": true,
+            "message": "Candidate ID and exact claim must remain stable."
+          },
+          {
+            "code": "high_impact_domain",
+            "passed": true,
+            "message": "Candidate must be safe, high-impact, and not merely a tool/report/process improvement."
+          },
+          {
+            "code": "nontriviality",
+            "passed": true,
+            "message": "Candidate must not be known, trivial, or just renamed prior work."
+          },
+          {
+            "code": "rival_theory_pressure",
+            "passed": true,
+            "message": "At least three rivals must be compared and at least one weakened or scope-limited."
+          },
+          {
+            "code": "baseline_resistance",
+            "passed": true,
+            "message": "Strong baselines must be executed and not dominate the candidate."
+          },
+          {
+            "code": "counterexample_pressure",
+            "passed": true,
+            "message": "Counterexample checks must execute without collapsing the candidate."
+          },
+          {
+            "code": "frozen_predictions",
+            "passed": true,
+            "message": "Predictions must be frozen, unedited, executed, and include non-obvious cases."
+          },
+          {
+            "code": "holdout_support",
+            "passed": true,
+            "message": "Fresh post-freeze holdouts must support the candidate."
+          },
+          {
+            "code": "replay_reproduction",
+            "passed": true,
+            "message": "Decisive evidence must be replayed with at least one fresh workspace/container-style replay."
+          },
+          {
+            "code": "proof_or_mechanism_pressure",
+            "passed": true,
+            "message": "Proof, refutation, or mechanism pressure must be clear and must not fake proof status."
+          },
+          {
+            "code": "kill_week",
+            "passed": true,
+            "message": "Adversarial kill week must complete with no fatal unresolved attack."
+          },
+          {
+            "code": "external_review_package",
+            "passed": true,
+            "message": "External review package must exist with method, bindings, reproduce, limitations, and no overclaim."
+          },
+          {
+            "code": "allowed_fund_label",
+            "passed": true,
+            "message": "Only allowed Fund labels may notify the user."
+          },
+          {
+            "code": "external_review_package_path",
+            "passed": true,
+            "message": "Fund notification requires a relative, public-safe external-review package path."
+          },
+          {
+            "code": "external_review_package_file_PAPER.md",
+            "passed": true,
+            "message": "Fund notification requires PAPER.md in the candidate external-review package."
+          },
+          {
+            "code": "external_review_package_file_METHOD.md",
+            "passed": true,
+            "message": "Fund notification requires METHOD.md in the candidate external-review package."
+          },
+          {
+            "code": "external_review_package_file_CLAIM_EVIDENCE_BINDINGS.json",
+            "passed": true,
+            "message": "Fund notification requires CLAIM_EVIDENCE_BINDINGS.json in the candidate external-review package."
+          },
+          {
+            "code": "external_review_package_file_REPRODUCE.md",
+            "passed": true,
+            "message": "Fund notification requires REPRODUCE.md in the candidate external-review package."
+          },
+          {
+            "code": "external_review_package_file_LIMITATIONS.md",
+            "passed": true,
+            "message": "Fund notification requires LIMITATIONS.md in the candidate external-review package."
+          },
+          {
+            "code": "external_review_package_public_safe_PAPER.md",
+            "passed": true,
+            "message": "PAPER.md must be non-empty and must not contain local absolute paths."
+          },
+          {
+            "code": "external_review_package_public_safe_METHOD.md",
+            "passed": true,
+            "message": "METHOD.md must be non-empty and must not contain local absolute paths."
+          },
+          {
+            "code": "external_review_package_public_safe_REPRODUCE.md",
+            "passed": true,
+            "message": "REPRODUCE.md must be non-empty and must not contain local absolute paths."
+          },
+          {
+            "code": "external_review_package_public_safe_LIMITATIONS.md",
+            "passed": true,
+            "message": "LIMITATIONS.md must be non-empty and must not contain local absolute paths."
+          },
+          {
+            "code": "external_review_package_candidate_binding",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind to the exact candidate ID."
+          },
+          {
+            "code": "external_review_package_claim_binding",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind to the exact candidate claim."
+          },
+          {
+            "code": "external_review_package_evidence_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind at least five public-safe evidence refs."
+          },
+          {
+            "code": "external_review_package_prediction_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind prediction evidence refs."
+          },
+          {
+            "code": "external_review_package_holdout_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind holdout evidence refs."
+          },
+          {
+            "code": "external_review_package_counterexample_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind counterexample evidence refs."
+          },
+          {
+            "code": "external_review_package_replay_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind replay evidence refs."
+          },
+          {
+            "code": "external_review_package_kill_week_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind kill-week evidence refs."
+          },
+          {
+            "code": "external_review_package_method_binding",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind METHOD.md."
+          },
+          {
+            "code": "external_review_package_reproduce_binding",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind REPRODUCE.md."
+          },
+          {
+            "code": "external_review_package_limitations_binding",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind LIMITATIONS.md."
+          },
+          {
+            "code": "external_review_package_forward_contract",
+            "passed": false,
+            "message": "Future Fund packages must bind a valid FundCandidateDraft ref or an explicit legacyBypassReason with candidate ID, claim, evidence refs, and audit status."
+          }
+        ],
+        "failedGates": [
+          "external_review_package_forward_contract"
+        ],
+        "notificationAllowed": false,
+        "evidenceHash": "a8d8b08054030effd2ed9a8012c908e2ffe1300c4ce2374c9cc98b24865a3ed0"
+      },
+      "evidenceHash": "6d09b505785be776b8318700ce4831ac9793caad6aa9abc8fcc36b94db9aad04"
+    },
+    {
+      "kind": "generator_born_discovery_claim_lift_signal_rebind_decision",
+      "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6",
+      "packageRef": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E8",
+      "rebindStatus": "rebound",
+      "primaryBlocker": "none",
+      "insightEvidenceRefsBound": [
+        ".sovryn/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-GAIA-ASTROMETRIC-EXCESS-SLICES.json",
+        "https://www.cosmos.esa.int/web/gaia/earlydr3#gaia-edr3-astrometric-excess-runtime-source",
+        "https://gea.esac.esa.int/archive/#gaia-edr3-tap-adql",
+        "https://www.cosmos.esa.int/web/gaia/earlydr3",
+        "https://gea.esac.esa.int/archive/",
+        "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id",
+        "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id",
+        "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id",
+        "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id",
+        ".sovryn/discovery-daemon/generator-families/runtime-evidence/gaia_astrometric_excess_significance_generator-output-01.json"
+      ],
+      "rawSourceReproductionConsistency": {
+        "checked": true,
+        "sourceCacheRef": ".sovryn/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-GAIA-ASTROMETRIC-EXCESS-SLICES.json",
+        "runtimeEvidenceRef": ".sovryn/discovery-daemon/generator-families/runtime-evidence/gaia_astrometric_excess_significance_generator-output-01.json",
+        "sourceMeasuredOutcome": 0.4256,
+        "runtimeMeasuredOutcome": 0.4256,
+        "sourceResidualMagnitude": 0.1343,
+        "runtimeResidualMagnitude": 0.1343,
+        "passed": true,
+        "reason": "raw_source_metrics_match_generator_runtime_evidence"
+      },
+      "fundClassBefore": "pipeline_fund_candidate",
+      "fundClassAfter": "externally_review_ready_discovery_candidate",
+      "countsForEinsteinNobelDiscoveryScoreAfter": true,
+      "notificationAllowedAfter": true,
+      "packageMutated": true,
+      "fundGateResult": {
+        "kind": "fund_gate_result",
+        "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6",
+        "passed": true,
+        "status": "FUND_FOUND",
+        "fundLabel": "externally_review_ready_candidate",
+        "fundClass": "externally_review_ready_discovery_candidate",
+        "countsForEinsteinNobelDiscoveryScore": true,
+        "fundClassAssessment": {
+          "kind": "fund_class_assessment",
+          "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6",
+          "fundClass": "externally_review_ready_discovery_candidate",
+          "validFundCandidate": true,
+          "countsForEinsteinNobelDiscoveryScore": true,
+          "discoveryGate": {
+            "nontrivialNewInsightAcrossRealTargets": true,
+            "domainScientificSignificance": true,
+            "evidenceBeyondRuntimeReproduction": true,
+            "notOnlyToolPipelineOrReproduction": true
+          },
+          "rationale": [
+            "The existing Fund Gate may remain valid for the bounded package.",
+            "This class is eligible for Einstein/Nobel discovery scoring.",
+            "Assigned FundClass: externally_review_ready_discovery_candidate."
+          ],
+          "evidenceHash": "068f3376312edab925cee87b7a69487ecb85f94984d113726f4f61caaa7c7343"
+        },
+        "gates": [
+          {
+            "code": "candidate_identity_integrity",
+            "passed": true,
+            "message": "Candidate ID and exact claim must remain stable."
+          },
+          {
+            "code": "high_impact_domain",
+            "passed": true,
+            "message": "Candidate must be safe, high-impact, and not merely a tool/report/process improvement."
+          },
+          {
+            "code": "nontriviality",
+            "passed": true,
+            "message": "Candidate must not be known, trivial, or just renamed prior work."
+          },
+          {
+            "code": "rival_theory_pressure",
+            "passed": true,
+            "message": "At least three rivals must be compared and at least one weakened or scope-limited."
+          },
+          {
+            "code": "baseline_resistance",
+            "passed": true,
+            "message": "Strong baselines must be executed and not dominate the candidate."
+          },
+          {
+            "code": "counterexample_pressure",
+            "passed": true,
+            "message": "Counterexample checks must execute without collapsing the candidate."
+          },
+          {
+            "code": "frozen_predictions",
+            "passed": true,
+            "message": "Predictions must be frozen, unedited, executed, and include non-obvious cases."
+          },
+          {
+            "code": "holdout_support",
+            "passed": true,
+            "message": "Fresh post-freeze holdouts must support the candidate."
+          },
+          {
+            "code": "replay_reproduction",
+            "passed": true,
+            "message": "Decisive evidence must be replayed with at least one fresh workspace/container-style replay."
+          },
+          {
+            "code": "proof_or_mechanism_pressure",
+            "passed": true,
+            "message": "Proof, refutation, or mechanism pressure must be clear and must not fake proof status."
+          },
+          {
+            "code": "kill_week",
+            "passed": true,
+            "message": "Adversarial kill week must complete with no fatal unresolved attack."
+          },
+          {
+            "code": "external_review_package",
+            "passed": true,
+            "message": "External review package must exist with method, bindings, reproduce, limitations, and no overclaim."
+          },
+          {
+            "code": "allowed_fund_label",
+            "passed": true,
+            "message": "Only allowed Fund labels may notify the user."
+          },
+          {
+            "code": "external_review_package_path",
+            "passed": true,
+            "message": "Fund notification requires a relative, public-safe external-review package path."
+          },
+          {
+            "code": "external_review_package_file_PAPER.md",
+            "passed": true,
+            "message": "Fund notification requires PAPER.md in the candidate external-review package."
+          },
+          {
+            "code": "external_review_package_file_METHOD.md",
+            "passed": true,
+            "message": "Fund notification requires METHOD.md in the candidate external-review package."
+          },
+          {
+            "code": "external_review_package_file_CLAIM_EVIDENCE_BINDINGS.json",
+            "passed": true,
+            "message": "Fund notification requires CLAIM_EVIDENCE_BINDINGS.json in the candidate external-review package."
+          },
+          {
+            "code": "external_review_package_file_REPRODUCE.md",
+            "passed": true,
+            "message": "Fund notification requires REPRODUCE.md in the candidate external-review package."
+          },
+          {
+            "code": "external_review_package_file_LIMITATIONS.md",
+            "passed": true,
+            "message": "Fund notification requires LIMITATIONS.md in the candidate external-review package."
+          },
+          {
+            "code": "external_review_package_public_safe_PAPER.md",
+            "passed": true,
+            "message": "PAPER.md must be non-empty and must not contain local absolute paths."
+          },
+          {
+            "code": "external_review_package_public_safe_METHOD.md",
+            "passed": true,
+            "message": "METHOD.md must be non-empty and must not contain local absolute paths."
+          },
+          {
+            "code": "external_review_package_public_safe_REPRODUCE.md",
+            "passed": true,
+            "message": "REPRODUCE.md must be non-empty and must not contain local absolute paths."
+          },
+          {
+            "code": "external_review_package_public_safe_LIMITATIONS.md",
+            "passed": true,
+            "message": "LIMITATIONS.md must be non-empty and must not contain local absolute paths."
+          },
+          {
+            "code": "external_review_package_candidate_binding",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind to the exact candidate ID."
+          },
+          {
+            "code": "external_review_package_claim_binding",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind to the exact candidate claim."
+          },
+          {
+            "code": "external_review_package_evidence_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind at least five public-safe evidence refs."
+          },
+          {
+            "code": "external_review_package_prediction_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind prediction evidence refs."
+          },
+          {
+            "code": "external_review_package_holdout_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind holdout evidence refs."
+          },
+          {
+            "code": "external_review_package_counterexample_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind counterexample evidence refs."
+          },
+          {
+            "code": "external_review_package_replay_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind replay evidence refs."
+          },
+          {
+            "code": "external_review_package_kill_week_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind kill-week evidence refs."
+          },
+          {
+            "code": "external_review_package_method_binding",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind METHOD.md."
+          },
+          {
+            "code": "external_review_package_reproduce_binding",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind REPRODUCE.md."
+          },
+          {
+            "code": "external_review_package_limitations_binding",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind LIMITATIONS.md."
+          },
+          {
+            "code": "external_review_package_forward_contract",
+            "passed": true,
+            "message": "Future Fund packages must bind a valid FundCandidateDraft ref or an explicit legacyBypassReason with candidate ID, claim, evidence refs, and audit status."
+          }
+        ],
+        "failedGates": [],
+        "notificationAllowed": true,
+        "evidenceHash": "3aa18a4f4d82314943bd61e6c6253d040374094974904e12a5e1bf8f49571547"
+      },
+      "evidenceHash": "71890726f567a259cb2440b6734b01e4f69eba3a7608a4054e5529c9a2f45fb0"
+    },
+    {
+      "kind": "generator_born_discovery_claim_lift_signal_rebind_decision",
+      "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-25525F5BE1BD",
+      "packageRef": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-25525F5B",
+      "rebindStatus": "rebound",
+      "primaryBlocker": "none",
+      "insightEvidenceRefsBound": [
+        ".sovryn/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-GAIA-ASTROMETRIC-EXCESS-SLICES.json",
+        "https://www.cosmos.esa.int/web/gaia/earlydr3#gaia-edr3-astrometric-excess-runtime-source",
+        "https://gea.esac.esa.int/archive/#gaia-edr3-tap-adql",
+        "https://www.cosmos.esa.int/web/gaia/earlydr3",
+        "https://gea.esac.esa.int/archive/",
+        "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id",
+        "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id",
+        "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id",
+        "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2Castrometric_excess_noise%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id",
+        ".sovryn/discovery-daemon/generator-families/runtime-evidence/gaia_astrometric_excess_significance_generator-output-02.json"
+      ],
+      "rawSourceReproductionConsistency": {
+        "checked": true,
+        "sourceCacheRef": ".sovryn/discovery-daemon/discovery-anchor-run/source-cache/DISC-ANCHOR-GAIA-ASTROMETRIC-EXCESS-SLICES.json",
+        "runtimeEvidenceRef": ".sovryn/discovery-daemon/generator-families/runtime-evidence/gaia_astrometric_excess_significance_generator-output-02.json",
+        "sourceMeasuredOutcome": 0.4256,
+        "runtimeMeasuredOutcome": 0.4256,
+        "sourceResidualMagnitude": 0.1343,
+        "runtimeResidualMagnitude": 0.1343,
+        "passed": true,
+        "reason": "raw_source_metrics_match_generator_runtime_evidence"
+      },
+      "fundClassBefore": "pipeline_fund_candidate",
+      "fundClassAfter": "externally_review_ready_discovery_candidate",
+      "countsForEinsteinNobelDiscoveryScoreAfter": true,
+      "notificationAllowedAfter": true,
+      "packageMutated": true,
+      "fundGateResult": {
+        "kind": "fund_gate_result",
+        "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-25525F5BE1BD",
+        "passed": true,
+        "status": "FUND_FOUND",
+        "fundLabel": "externally_review_ready_candidate",
+        "fundClass": "externally_review_ready_discovery_candidate",
+        "countsForEinsteinNobelDiscoveryScore": true,
+        "fundClassAssessment": {
+          "kind": "fund_class_assessment",
+          "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-25525F5BE1BD",
+          "fundClass": "externally_review_ready_discovery_candidate",
+          "validFundCandidate": true,
+          "countsForEinsteinNobelDiscoveryScore": true,
+          "discoveryGate": {
+            "nontrivialNewInsightAcrossRealTargets": true,
+            "domainScientificSignificance": true,
+            "evidenceBeyondRuntimeReproduction": true,
+            "notOnlyToolPipelineOrReproduction": true
+          },
+          "rationale": [
+            "The existing Fund Gate may remain valid for the bounded package.",
+            "This class is eligible for Einstein/Nobel discovery scoring.",
+            "Assigned FundClass: externally_review_ready_discovery_candidate."
+          ],
+          "evidenceHash": "e5a9043ce79c350f26665b4919d4d2d6f6bfbf3f80771541508af21dd4c1c4f5"
+        },
+        "gates": [
+          {
+            "code": "candidate_identity_integrity",
+            "passed": true,
+            "message": "Candidate ID and exact claim must remain stable."
+          },
+          {
+            "code": "high_impact_domain",
+            "passed": true,
+            "message": "Candidate must be safe, high-impact, and not merely a tool/report/process improvement."
+          },
+          {
+            "code": "nontriviality",
+            "passed": true,
+            "message": "Candidate must not be known, trivial, or just renamed prior work."
+          },
+          {
+            "code": "rival_theory_pressure",
+            "passed": true,
+            "message": "At least three rivals must be compared and at least one weakened or scope-limited."
+          },
+          {
+            "code": "baseline_resistance",
+            "passed": true,
+            "message": "Strong baselines must be executed and not dominate the candidate."
+          },
+          {
+            "code": "counterexample_pressure",
+            "passed": true,
+            "message": "Counterexample checks must execute without collapsing the candidate."
+          },
+          {
+            "code": "frozen_predictions",
+            "passed": true,
+            "message": "Predictions must be frozen, unedited, executed, and include non-obvious cases."
+          },
+          {
+            "code": "holdout_support",
+            "passed": true,
+            "message": "Fresh post-freeze holdouts must support the candidate."
+          },
+          {
+            "code": "replay_reproduction",
+            "passed": true,
+            "message": "Decisive evidence must be replayed with at least one fresh workspace/container-style replay."
+          },
+          {
+            "code": "proof_or_mechanism_pressure",
+            "passed": true,
+            "message": "Proof, refutation, or mechanism pressure must be clear and must not fake proof status."
+          },
+          {
+            "code": "kill_week",
+            "passed": true,
+            "message": "Adversarial kill week must complete with no fatal unresolved attack."
+          },
+          {
+            "code": "external_review_package",
+            "passed": true,
+            "message": "External review package must exist with method, bindings, reproduce, limitations, and no overclaim."
+          },
+          {
+            "code": "allowed_fund_label",
+            "passed": true,
+            "message": "Only allowed Fund labels may notify the user."
+          },
+          {
+            "code": "external_review_package_path",
+            "passed": true,
+            "message": "Fund notification requires a relative, public-safe external-review package path."
+          },
+          {
+            "code": "external_review_package_file_PAPER.md",
+            "passed": true,
+            "message": "Fund notification requires PAPER.md in the candidate external-review package."
+          },
+          {
+            "code": "external_review_package_file_METHOD.md",
+            "passed": true,
+            "message": "Fund notification requires METHOD.md in the candidate external-review package."
+          },
+          {
+            "code": "external_review_package_file_CLAIM_EVIDENCE_BINDINGS.json",
+            "passed": true,
+            "message": "Fund notification requires CLAIM_EVIDENCE_BINDINGS.json in the candidate external-review package."
+          },
+          {
+            "code": "external_review_package_file_REPRODUCE.md",
+            "passed": true,
+            "message": "Fund notification requires REPRODUCE.md in the candidate external-review package."
+          },
+          {
+            "code": "external_review_package_file_LIMITATIONS.md",
+            "passed": true,
+            "message": "Fund notification requires LIMITATIONS.md in the candidate external-review package."
+          },
+          {
+            "code": "external_review_package_public_safe_PAPER.md",
+            "passed": true,
+            "message": "PAPER.md must be non-empty and must not contain local absolute paths."
+          },
+          {
+            "code": "external_review_package_public_safe_METHOD.md",
+            "passed": true,
+            "message": "METHOD.md must be non-empty and must not contain local absolute paths."
+          },
+          {
+            "code": "external_review_package_public_safe_REPRODUCE.md",
+            "passed": true,
+            "message": "REPRODUCE.md must be non-empty and must not contain local absolute paths."
+          },
+          {
+            "code": "external_review_package_public_safe_LIMITATIONS.md",
+            "passed": true,
+            "message": "LIMITATIONS.md must be non-empty and must not contain local absolute paths."
+          },
+          {
+            "code": "external_review_package_candidate_binding",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind to the exact candidate ID."
+          },
+          {
+            "code": "external_review_package_claim_binding",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind to the exact candidate claim."
+          },
+          {
+            "code": "external_review_package_evidence_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind at least five public-safe evidence refs."
+          },
+          {
+            "code": "external_review_package_prediction_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind prediction evidence refs."
+          },
+          {
+            "code": "external_review_package_holdout_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind holdout evidence refs."
+          },
+          {
+            "code": "external_review_package_counterexample_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind counterexample evidence refs."
+          },
+          {
+            "code": "external_review_package_replay_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind replay evidence refs."
+          },
+          {
+            "code": "external_review_package_kill_week_refs",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind kill-week evidence refs."
+          },
+          {
+            "code": "external_review_package_method_binding",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind METHOD.md."
+          },
+          {
+            "code": "external_review_package_reproduce_binding",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind REPRODUCE.md."
+          },
+          {
+            "code": "external_review_package_limitations_binding",
+            "passed": true,
+            "message": "CLAIM_EVIDENCE_BINDINGS.json must bind LIMITATIONS.md."
+          },
+          {
+            "code": "external_review_package_forward_contract",
+            "passed": true,
+            "message": "Future Fund packages must bind a valid FundCandidateDraft ref or an explicit legacyBypassReason with candidate ID, claim, evidence refs, and audit status."
+          }
+        ],
+        "failedGates": [],
+        "notificationAllowed": true,
+        "evidenceHash": "5ea82934d70036b3354ac576d85d5f7d310bc3245ee7fc1d76314378e95bd1ae"
+      },
+      "evidenceHash": "79010404559cae7c9825d2b38a5a54441cb820fd4c16b88a7ef95d6b5a67d07c"
+    },
+    {
+      "kind": "generator_born_discovery_claim_lift_signal_rebind_decision",
+      "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-0728940E3D04",
+      "packageRef": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-0728940E",
+      "rebindStatus": "skipped",
+      "primaryBlocker": "missing_external_source_cache",
+      "insightEvidenceRefsBound": [],
+      "rawSourceReproductionConsistency": {
+        "checked": false,
+        "passed": false,
+        "sourceCacheRef": null,
+        "runtimeEvidenceRef": null,
+        "sourceMeasuredOutcome": null,
+        "runtimeMeasuredOutcome": null,
+        "sourceResidualMagnitude": null,
+        "runtimeResidualMagnitude": null,
+        "reason": "rebind_skipped_before_raw_source_reproduction_check"
+      },
+      "fundClassBefore": null,
+      "fundClassAfter": null,
+      "countsForEinsteinNobelDiscoveryScoreAfter": false,
+      "notificationAllowedAfter": false,
+      "packageMutated": false,
+      "fundGateResult": {
+        "kind": "fund_gate_result",
+        "candidateId": null,
+        "passed": false,
+        "status": "continue_searching",
+        "fundLabel": null,
+        "fundClass": null,
+        "countsForEinsteinNobelDiscoveryScore": false,
+        "fundClassAssessment": null,
+        "gates": [
+          {
+            "code": "candidate_present",
+            "passed": false,
+            "message": "No candidate is available."
+          }
+        ],
+        "failedGates": [
+          "candidate_present"
+        ],
+        "notificationAllowed": false,
+        "evidenceHash": "e9ef09669f14b89be278820b74e33347147b70308f03fed7a0ff76795b308e24"
+      },
+      "evidenceHash": "4eaadb860a433a186d996d94c80ffcc65a5dc03592eec2469a6b61f053624fb3"
+    },
+    {
+      "kind": "generator_born_discovery_claim_lift_signal_rebind_decision",
+      "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-2114B7F243CE",
+      "packageRef": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-2114B7F2",
+      "rebindStatus": "skipped",
+      "primaryBlocker": "missing_external_source_cache",
+      "insightEvidenceRefsBound": [],
+      "rawSourceReproductionConsistency": {
+        "checked": false,
+        "passed": false,
+        "sourceCacheRef": null,
+        "runtimeEvidenceRef": null,
+        "sourceMeasuredOutcome": null,
+        "runtimeMeasuredOutcome": null,
+        "sourceResidualMagnitude": null,
+        "runtimeResidualMagnitude": null,
+        "reason": "rebind_skipped_before_raw_source_reproduction_check"
+      },
+      "fundClassBefore": null,
+      "fundClassAfter": null,
+      "countsForEinsteinNobelDiscoveryScoreAfter": false,
+      "notificationAllowedAfter": false,
+      "packageMutated": false,
+      "fundGateResult": {
+        "kind": "fund_gate_result",
+        "candidateId": null,
+        "passed": false,
+        "status": "continue_searching",
+        "fundLabel": null,
+        "fundClass": null,
+        "countsForEinsteinNobelDiscoveryScore": false,
+        "fundClassAssessment": null,
+        "gates": [
+          {
+            "code": "candidate_present",
+            "passed": false,
+            "message": "No candidate is available."
+          }
+        ],
+        "failedGates": [
+          "candidate_present"
+        ],
+        "notificationAllowed": false,
+        "evidenceHash": "e9ef09669f14b89be278820b74e33347147b70308f03fed7a0ff76795b308e24"
+      },
+      "evidenceHash": "47ca2ea97a0208d525892a02cb802a2871f65d0a4ae39196f791c420f85fda8f"
+    }
+  ],
+  "blockerDistribution": {
+    "non_discovery_fund_class_after_rebind": 2,
+    "none": 2,
+    "missing_external_source_cache": 2
+  },
+  "fundGateResult": {
+    "kind": "fund_gate_result",
+    "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6",
+    "passed": true,
+    "status": "FUND_FOUND",
+    "fundLabel": "externally_review_ready_candidate",
+    "fundClass": "externally_review_ready_discovery_candidate",
+    "countsForEinsteinNobelDiscoveryScore": true,
+    "fundClassAssessment": {
+      "kind": "fund_class_assessment",
+      "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6",
+      "fundClass": "externally_review_ready_discovery_candidate",
+      "validFundCandidate": true,
+      "countsForEinsteinNobelDiscoveryScore": true,
+      "discoveryGate": {
+        "nontrivialNewInsightAcrossRealTargets": true,
+        "domainScientificSignificance": true,
+        "evidenceBeyondRuntimeReproduction": true,
+        "notOnlyToolPipelineOrReproduction": true
+      },
+      "rationale": [
+        "The existing Fund Gate may remain valid for the bounded package.",
+        "This class is eligible for Einstein/Nobel discovery scoring.",
+        "Assigned FundClass: externally_review_ready_discovery_candidate."
+      ],
+      "evidenceHash": "068f3376312edab925cee87b7a69487ecb85f94984d113726f4f61caaa7c7343"
+    },
+    "gates": [
+      {
+        "code": "candidate_identity_integrity",
+        "passed": true,
+        "message": "Candidate ID and exact claim must remain stable."
+      },
+      {
+        "code": "high_impact_domain",
+        "passed": true,
+        "message": "Candidate must be safe, high-impact, and not merely a tool/report/process improvement."
+      },
+      {
+        "code": "nontriviality",
+        "passed": true,
+        "message": "Candidate must not be known, trivial, or just renamed prior work."
+      },
+      {
+        "code": "rival_theory_pressure",
+        "passed": true,
+        "message": "At least three rivals must be compared and at least one weakened or scope-limited."
+      },
+      {
+        "code": "baseline_resistance",
+        "passed": true,
+        "message": "Strong baselines must be executed and not dominate the candidate."
+      },
+      {
+        "code": "counterexample_pressure",
+        "passed": true,
+        "message": "Counterexample checks must execute without collapsing the candidate."
+      },
+      {
+        "code": "frozen_predictions",
+        "passed": true,
+        "message": "Predictions must be frozen, unedited, executed, and include non-obvious cases."
+      },
+      {
+        "code": "holdout_support",
+        "passed": true,
+        "message": "Fresh post-freeze holdouts must support the candidate."
+      },
+      {
+        "code": "replay_reproduction",
+        "passed": true,
+        "message": "Decisive evidence must be replayed with at least one fresh workspace/container-style replay."
+      },
+      {
+        "code": "proof_or_mechanism_pressure",
+        "passed": true,
+        "message": "Proof, refutation, or mechanism pressure must be clear and must not fake proof status."
+      },
+      {
+        "code": "kill_week",
+        "passed": true,
+        "message": "Adversarial kill week must complete with no fatal unresolved attack."
+      },
+      {
+        "code": "external_review_package",
+        "passed": true,
+        "message": "External review package must exist with method, bindings, reproduce, limitations, and no overclaim."
+      },
+      {
+        "code": "allowed_fund_label",
+        "passed": true,
+        "message": "Only allowed Fund labels may notify the user."
+      },
+      {
+        "code": "external_review_package_path",
+        "passed": true,
+        "message": "Fund notification requires a relative, public-safe external-review package path."
+      },
+      {
+        "code": "external_review_package_file_PAPER.md",
+        "passed": true,
+        "message": "Fund notification requires PAPER.md in the candidate external-review package."
+      },
+      {
+        "code": "external_review_package_file_METHOD.md",
+        "passed": true,
+        "message": "Fund notification requires METHOD.md in the candidate external-review package."
+      },
+      {
+        "code": "external_review_package_file_CLAIM_EVIDENCE_BINDINGS.json",
+        "passed": true,
+        "message": "Fund notification requires CLAIM_EVIDENCE_BINDINGS.json in the candidate external-review package."
+      },
+      {
+        "code": "external_review_package_file_REPRODUCE.md",
+        "passed": true,
+        "message": "Fund notification requires REPRODUCE.md in the candidate external-review package."
+      },
+      {
+        "code": "external_review_package_file_LIMITATIONS.md",
+        "passed": true,
+        "message": "Fund notification requires LIMITATIONS.md in the candidate external-review package."
+      },
+      {
+        "code": "external_review_package_public_safe_PAPER.md",
+        "passed": true,
+        "message": "PAPER.md must be non-empty and must not contain local absolute paths."
+      },
+      {
+        "code": "external_review_package_public_safe_METHOD.md",
+        "passed": true,
+        "message": "METHOD.md must be non-empty and must not contain local absolute paths."
+      },
+      {
+        "code": "external_review_package_public_safe_REPRODUCE.md",
+        "passed": true,
+        "message": "REPRODUCE.md must be non-empty and must not contain local absolute paths."
+      },
+      {
+        "code": "external_review_package_public_safe_LIMITATIONS.md",
+        "passed": true,
+        "message": "LIMITATIONS.md must be non-empty and must not contain local absolute paths."
+      },
+      {
+        "code": "external_review_package_candidate_binding",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind to the exact candidate ID."
+      },
+      {
+        "code": "external_review_package_claim_binding",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind to the exact candidate claim."
+      },
+      {
+        "code": "external_review_package_evidence_refs",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind at least five public-safe evidence refs."
+      },
+      {
+        "code": "external_review_package_prediction_refs",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind prediction evidence refs."
+      },
+      {
+        "code": "external_review_package_holdout_refs",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind holdout evidence refs."
+      },
+      {
+        "code": "external_review_package_counterexample_refs",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind counterexample evidence refs."
+      },
+      {
+        "code": "external_review_package_replay_refs",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind replay evidence refs."
+      },
+      {
+        "code": "external_review_package_kill_week_refs",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind kill-week evidence refs."
+      },
+      {
+        "code": "external_review_package_method_binding",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind METHOD.md."
+      },
+      {
+        "code": "external_review_package_reproduce_binding",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind REPRODUCE.md."
+      },
+      {
+        "code": "external_review_package_limitations_binding",
+        "passed": true,
+        "message": "CLAIM_EVIDENCE_BINDINGS.json must bind LIMITATIONS.md."
+      },
+      {
+        "code": "external_review_package_forward_contract",
+        "passed": true,
+        "message": "Future Fund packages must bind a valid FundCandidateDraft ref or an explicit legacyBypassReason with candidate ID, claim, evidence refs, and audit status."
+      }
+    ],
+    "failedGates": [],
+    "notificationAllowed": true,
+    "evidenceHash": "3aa18a4f4d82314943bd61e6c6253d040374094974904e12a5e1bf8f49571547"
+  },
+  "fundFound": false,
+  "remainingBottleneck": "2 package(s) now carry discovery-scored FundClass after explicit signal-evidence rebind. Root Fund state was not written; next step is explicit notification/package intake through unchanged Fund Gate.",
+  "artifactRefs": [
+    ".sovryn/discovery-daemon/generator-claim-lift/SIGNAL_REBIND.json",
+    ".sovryn/discovery-daemon/generator-claim-lift/SIGNAL_REBIND_DECISIONS.json",
+    ".sovryn/discovery-daemon/generator-claim-lift/SIGNAL_REBIND_DECISIONS.md",
+    ".sovryn/discovery-daemon/generator-claim-lift/SIGNAL_REBIND_FUND_GATE_RESULTS.json",
+    ".sovryn/discovery-daemon/generator-claim-lift/SIGNAL_REBIND_FUND_GATE_RESULTS.md",
+    ".sovryn/discovery-daemon/generator-claim-lift/SIGNAL_REBIND_NEXT_CHECKPOINT.md",
+    ".sovryn/discovery-daemon/checkpoints/generator-claim-lift-rebind-continue-searching.json"
+  ],
+  "evidenceHash": "d82fb1081afcd8d411352143d788d452d60a6be3cca6abe2ed388fa6793f0fd4"
+}

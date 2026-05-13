@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-12T21:04:53.839Z",
+  "generatedAt": "2026-05-13T00:33:00.280Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1411,6 +1411,12 @@
       "kind": "result",
       "label": "Field-Grade Autonomous Science Trial",
       "domain": "field-grade-scientific-autonomy"
+    },
+    {
+      "id": "result:first-discovery-fund-gaia-astrometric-excess-slices",
+      "kind": "result",
+      "label": "Gaia Astrometric-Excess Slice Residual Discovery Candidate",
+      "domain": "astrophysics_open_catalog_anomalies"
     },
     {
       "id": "result:first-discovery-fund-matbench-descriptor-transfer",
@@ -3928,6 +3934,11 @@
       "label": "field-grade-scientific-autonomy"
     },
     {
+      "id": "domain:astrophysics_open_catalog_anomalies",
+      "kind": "domain",
+      "label": "astrophysics_open_catalog_anomalies"
+    },
+    {
       "id": "domain:computational_materials_property_data",
       "kind": "domain",
       "label": "computational_materials_property_data"
@@ -6175,6 +6186,21 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:first-discovery-fund-gaia-astrometric-excess-slices",
+      "target": "domain:astrophysics_open_catalog_anomalies",
+      "relation": "belongs_to_domain"
+    },
+    {
+      "source": "result:first-discovery-fund-gaia-astrometric-excess-slices",
+      "target": "tool:numpy",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
+      "source": "result:first-discovery-fund-gaia-astrometric-excess-slices",
+      "target": "tool:pandas",
+      "relation": "uses_public_tool_evidence"
+    },
+    {
       "source": "result:first-discovery-fund-matbench-descriptor-transfer",
       "target": "domain:computational_materials_property_data",
       "relation": "belongs_to_domain"
@@ -8240,5 +8266,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "da1862f19c520d17b9b19b07902e6a175329d241f56ccf99edc61701c7c73333"
+  "evidenceHash": "c722d7143a7be49a07112f143ba8e17faa2e28fa15a33b6501eadb8c5e821812"
 }
