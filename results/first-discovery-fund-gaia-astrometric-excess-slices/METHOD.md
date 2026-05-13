@@ -9,3 +9,14 @@
 7. Treat the claim as bounded to this exact data slice and this exact metric calculation.
 
 This method does not prove a broad astrophysical mechanism. It creates an externally inspectable candidate for expert review.
+
+## Extended validation supplement
+
+The supplementary script `validate_gaia_candidate_extended.py` keeps the original replay method unchanged, then adds:
+
+- north and south declination holdout panels,
+- a bright-magnitude control panel,
+- RUWE and visibility-period rival proxy correlations,
+- counterexample-collapse checks for cross-slice support and single-slice dominance.
+
+The supplement currently records `extended_validation_major_rival_caveat`: exact primary replay succeeds, one independent declination holdout is supportive with caveats, and RUWE remains the strongest catalog-quality rival proxy. This does not strengthen the Product claim.

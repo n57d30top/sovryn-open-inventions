@@ -1,0 +1,506 @@
+{
+  "kind": "gaia_extended_validation_result",
+  "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6",
+  "panels": {
+    "primary_equatorial_replay": {
+      "purpose": "exact replay panel",
+      "panel": {
+        "panelId": "primary_equatorial_replay",
+        "purpose": "exact replay panel",
+        "decMin": -30,
+        "decMax": 30,
+        "gMin": 14,
+        "gMax": 20,
+        "limit": 40
+      },
+      "receipts": [
+        {
+          "status": 200,
+          "contentLength": 3765,
+          "sourceHash": "94d422c1c7cfe0f613a757173e02c0c921aaaeab402179cff8a01dda0fc4d30c",
+          "panelId": "primary_equatorial_replay",
+          "sliceId": "ra_000_090",
+          "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+        },
+        {
+          "status": 200,
+          "contentLength": 3983,
+          "sourceHash": "7b2a0299792a45d3a40e831b30f1f6d99dcef6c6527a49ed8370d493e591e30c",
+          "panelId": "primary_equatorial_replay",
+          "sliceId": "ra_090_180",
+          "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+        },
+        {
+          "status": 200,
+          "contentLength": 4022,
+          "sourceHash": "3fdfda798281c590a896d7c33da2e3d5f14b48aed73849b1d1e30266cf53e12b",
+          "panelId": "primary_equatorial_replay",
+          "sliceId": "ra_180_270",
+          "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+        },
+        {
+          "status": 200,
+          "contentLength": 4039,
+          "sourceHash": "1356efaa7df82ee49e3a43b35a232b2c6c7880204d93a715d79d20bab9a6503a",
+          "panelId": "primary_equatorial_replay",
+          "sliceId": "ra_270_360",
+          "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+        }
+      ],
+      "metrics": {
+        "rowCount": 160,
+        "measuredOutcome": 0.4256,
+        "residualMagnitude": 0.1343,
+        "baselines": {
+          "phot_g_mean_magnitude_correlation": 0.1372,
+          "bp_rp_color_correlation": 0.1126,
+          "ruwe_correlation_rival": 0.4951,
+          "visibility_periods_correlation_rival": 0.1883,
+          "single_sky_slice_dominance_control": 0.5075
+        },
+        "rivalPairCounts": {
+          "ruwe": 158,
+          "visibilityPeriods": 160
+        },
+        "strongestRival": "ruwe_correlation_rival",
+        "strongestRivalScore": 0.4951,
+        "sliceMeans": [
+          {
+            "sliceId": "ra_000_090",
+            "residualMean": 0.2726538585549999,
+            "rowCount": 40
+          },
+          {
+            "sliceId": "ra_090_180",
+            "residualMean": 0.13923530905999998,
+            "rowCount": 40
+          },
+          {
+            "sliceId": "ra_180_270",
+            "residualMean": -0.11940692629000008,
+            "rowCount": 40
+          },
+          {
+            "sliceId": "ra_270_360",
+            "residualMean": 0.005993356829999982,
+            "rowCount": 40
+          }
+        ],
+        "crossSliceSupport": true,
+        "counterexampleCollapsed": false
+      }
+    },
+    "north_declination_holdout": {
+      "purpose": "independent declination holdout",
+      "panel": {
+        "panelId": "north_declination_holdout",
+        "purpose": "independent declination holdout",
+        "decMin": 30,
+        "decMax": 60,
+        "gMin": 14,
+        "gMax": 20,
+        "limit": 20
+      },
+      "receipts": [
+        {
+          "status": 200,
+          "contentLength": 1984,
+          "sourceHash": "958d4557d7ceed2568ea89f9ed1d2ca4a551d8d8817be252daf5334e1cbc356b",
+          "panelId": "north_declination_holdout",
+          "sliceId": "ra_000_090",
+          "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%2030%20and%20dec%20%3C%2060%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+        },
+        {
+          "status": 200,
+          "contentLength": 2031,
+          "sourceHash": "ca23901f5099b6a06fe30604068196ab193d77f7743ac07d28ab10818a66dfab",
+          "panelId": "north_declination_holdout",
+          "sliceId": "ra_090_180",
+          "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%2030%20and%20dec%20%3C%2060%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+        },
+        {
+          "status": 200,
+          "contentLength": 2017,
+          "sourceHash": "abffa186ebd3ab6811df213a868f940b95bfddc7eb827839526a168eaff41662",
+          "panelId": "north_declination_holdout",
+          "sliceId": "ra_180_270",
+          "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%2030%20and%20dec%20%3C%2060%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+        },
+        {
+          "status": 200,
+          "contentLength": 2017,
+          "sourceHash": "27b2a675b0a3e172c8289e38157e1168393796eb506d5df4d0f1bf150a401ab1",
+          "panelId": "north_declination_holdout",
+          "sliceId": "ra_270_360",
+          "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%2030%20and%20dec%20%3C%2060%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+        }
+      ],
+      "metrics": {
+        "rowCount": 80,
+        "measuredOutcome": 1.3326,
+        "residualMagnitude": 1.2495,
+        "baselines": {
+          "phot_g_mean_magnitude_correlation": 0.1296,
+          "bp_rp_color_correlation": 0.2421,
+          "ruwe_correlation_rival": 0.5442,
+          "visibility_periods_correlation_rival": 0.1599,
+          "single_sky_slice_dominance_control": 0.9004
+        },
+        "rivalPairCounts": {
+          "ruwe": 79,
+          "visibilityPeriods": 80
+        },
+        "strongestRival": "ruwe_correlation_rival",
+        "strongestRivalScore": 0.5442,
+        "sliceMeans": [
+          {
+            "sliceId": "ra_000_090",
+            "residualMean": -0.17093326726000005,
+            "rowCount": 20
+          },
+          {
+            "sliceId": "ra_090_180",
+            "residualMean": 4.50014653537,
+            "rowCount": 20
+          },
+          {
+            "sliceId": "ra_180_270",
+            "residualMean": -0.18587632680000005,
+            "rowCount": 20
+          },
+          {
+            "sliceId": "ra_270_360",
+            "residualMean": -0.14101279054000007,
+            "rowCount": 20
+          }
+        ],
+        "crossSliceSupport": true,
+        "counterexampleCollapsed": true
+      }
+    },
+    "south_declination_holdout": {
+      "purpose": "independent declination holdout",
+      "panel": {
+        "panelId": "south_declination_holdout",
+        "purpose": "independent declination holdout",
+        "decMin": -60,
+        "decMax": -30,
+        "gMin": 14,
+        "gMax": 20,
+        "limit": 20
+      },
+      "receipts": [
+        {
+          "status": 200,
+          "contentLength": 2072,
+          "sourceHash": "00215b7c6760a15cbf556e9eb4f497b1ff2aaf9d4ce819d579ce595c31951123",
+          "panelId": "south_declination_holdout",
+          "sliceId": "ra_000_090",
+          "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%20-60%20and%20dec%20%3C%20-30%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+        },
+        {
+          "status": 200,
+          "contentLength": 2011,
+          "sourceHash": "6d148219f374ebed4780bc81ea27f9f24b807ec4a2ca1c5d1fb249389bb19c9d",
+          "panelId": "south_declination_holdout",
+          "sliceId": "ra_090_180",
+          "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%20-60%20and%20dec%20%3C%20-30%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+        },
+        {
+          "status": 200,
+          "contentLength": 2051,
+          "sourceHash": "d933c408e9fd307cfabfd9c44b3642997d7b8b70052d290bbe3350a39b97ae72",
+          "panelId": "south_declination_holdout",
+          "sliceId": "ra_180_270",
+          "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%20-60%20and%20dec%20%3C%20-30%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+        },
+        {
+          "status": 200,
+          "contentLength": 2030,
+          "sourceHash": "fb032456a79282374ffded08f2cb3013e80017249f78e245b7be4ec9c969e6da",
+          "panelId": "south_declination_holdout",
+          "sliceId": "ra_270_360",
+          "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%20-60%20and%20dec%20%3C%20-30%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+        }
+      ],
+      "metrics": {
+        "rowCount": 80,
+        "measuredOutcome": 0.2249,
+        "residualMagnitude": 0.1204,
+        "baselines": {
+          "phot_g_mean_magnitude_correlation": 0.203,
+          "bp_rp_color_correlation": 0.061,
+          "ruwe_correlation_rival": 0.483,
+          "visibility_periods_correlation_rival": 0.1028,
+          "single_sky_slice_dominance_control": 0.3993
+        },
+        "rivalPairCounts": {
+          "ruwe": 80,
+          "visibilityPeriods": 80
+        },
+        "strongestRival": "ruwe_correlation_rival",
+        "strongestRivalScore": 0.483,
+        "sliceMeans": [
+          {
+            "sliceId": "ra_000_090",
+            "residualMean": -0.07472666608000007,
+            "rowCount": 20
+          },
+          {
+            "sliceId": "ra_090_180",
+            "residualMean": 0.04764649267999999,
+            "rowCount": 20
+          },
+          {
+            "sliceId": "ra_180_270",
+            "residualMean": -0.19221361012000007,
+            "rowCount": 20
+          },
+          {
+            "sliceId": "ra_270_360",
+            "residualMean": -0.16681599047200002,
+            "rowCount": 20
+          }
+        ],
+        "crossSliceSupport": true,
+        "counterexampleCollapsed": false
+      }
+    },
+    "bright_magnitude_control": {
+      "purpose": "negative/control magnitude slice",
+      "panel": {
+        "panelId": "bright_magnitude_control",
+        "purpose": "negative/control magnitude slice",
+        "decMin": -30,
+        "decMax": 30,
+        "gMin": 12,
+        "gMax": 14,
+        "limit": 20
+      },
+      "receipts": [
+        {
+          "status": 200,
+          "contentLength": 1979,
+          "sourceHash": "f4ba9c37c2338a5d346faa7f5ef5f09af56f48693e3ef26fd727e2313bdaab8c",
+          "panelId": "bright_magnitude_control",
+          "sliceId": "ra_000_090",
+          "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2012%20and%2014%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+        },
+        {
+          "status": 200,
+          "contentLength": 2044,
+          "sourceHash": "8a34939d41f87b3cec37bacf62e87be7276f08b21ea5b4bf4605166159eca86d",
+          "panelId": "bright_magnitude_control",
+          "sliceId": "ra_090_180",
+          "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2012%20and%2014%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+        },
+        {
+          "status": 200,
+          "contentLength": 2097,
+          "sourceHash": "641f2ba94e64f054fbc0f6c254e46e48a23942f01a750fd7f583e72ac7d49ff8",
+          "panelId": "bright_magnitude_control",
+          "sliceId": "ra_180_270",
+          "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2012%20and%2014%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+        },
+        {
+          "status": 200,
+          "contentLength": 2073,
+          "sourceHash": "3d6e63af027eecfc508441e705e89d2b30c8ac9370fa91bc92d966f509736d16",
+          "panelId": "bright_magnitude_control",
+          "sliceId": "ra_270_360",
+          "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2012%20and%2014%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+        }
+      ],
+      "metrics": {
+        "rowCount": 80,
+        "measuredOutcome": 0.1291,
+        "residualMagnitude": 0.031,
+        "baselines": {
+          "phot_g_mean_magnitude_correlation": 0.0349,
+          "bp_rp_color_correlation": 0.0114,
+          "ruwe_correlation_rival": 0.9825,
+          "visibility_periods_correlation_rival": 0.0089,
+          "single_sky_slice_dominance_control": 0.8654
+        },
+        "rivalPairCounts": {
+          "ruwe": 80,
+          "visibilityPeriods": 80
+        },
+        "strongestRival": "ruwe_correlation_rival",
+        "strongestRivalScore": 0.9825,
+        "sliceMeans": [
+          {
+            "sliceId": "ra_000_090",
+            "residualMean": -0.003341229729999998,
+            "rowCount": 20
+          },
+          {
+            "sliceId": "ra_090_180",
+            "residualMean": 0.10717848758,
+            "rowCount": 20
+          },
+          {
+            "sliceId": "ra_180_270",
+            "residualMean": 0.004050519649999997,
+            "rowCount": 20
+          },
+          {
+            "sliceId": "ra_270_360",
+            "residualMean": -0.009281184069999998,
+            "rowCount": 20
+          }
+        ],
+        "crossSliceSupport": false,
+        "counterexampleCollapsed": true
+      }
+    }
+  },
+  "receipts": [
+    {
+      "status": 200,
+      "contentLength": 3765,
+      "sourceHash": "94d422c1c7cfe0f613a757173e02c0c921aaaeab402179cff8a01dda0fc4d30c",
+      "panelId": "primary_equatorial_replay",
+      "sliceId": "ra_000_090",
+      "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+    },
+    {
+      "status": 200,
+      "contentLength": 3983,
+      "sourceHash": "7b2a0299792a45d3a40e831b30f1f6d99dcef6c6527a49ed8370d493e591e30c",
+      "panelId": "primary_equatorial_replay",
+      "sliceId": "ra_090_180",
+      "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+    },
+    {
+      "status": 200,
+      "contentLength": 4022,
+      "sourceHash": "3fdfda798281c590a896d7c33da2e3d5f14b48aed73849b1d1e30266cf53e12b",
+      "panelId": "primary_equatorial_replay",
+      "sliceId": "ra_180_270",
+      "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+    },
+    {
+      "status": 200,
+      "contentLength": 4039,
+      "sourceHash": "1356efaa7df82ee49e3a43b35a232b2c6c7880204d93a715d79d20bab9a6503a",
+      "panelId": "primary_equatorial_replay",
+      "sliceId": "ra_270_360",
+      "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+    },
+    {
+      "status": 200,
+      "contentLength": 1984,
+      "sourceHash": "958d4557d7ceed2568ea89f9ed1d2ca4a551d8d8817be252daf5334e1cbc356b",
+      "panelId": "north_declination_holdout",
+      "sliceId": "ra_000_090",
+      "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%2030%20and%20dec%20%3C%2060%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+    },
+    {
+      "status": 200,
+      "contentLength": 2031,
+      "sourceHash": "ca23901f5099b6a06fe30604068196ab193d77f7743ac07d28ab10818a66dfab",
+      "panelId": "north_declination_holdout",
+      "sliceId": "ra_090_180",
+      "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%2030%20and%20dec%20%3C%2060%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+    },
+    {
+      "status": 200,
+      "contentLength": 2017,
+      "sourceHash": "abffa186ebd3ab6811df213a868f940b95bfddc7eb827839526a168eaff41662",
+      "panelId": "north_declination_holdout",
+      "sliceId": "ra_180_270",
+      "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%2030%20and%20dec%20%3C%2060%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+    },
+    {
+      "status": 200,
+      "contentLength": 2017,
+      "sourceHash": "27b2a675b0a3e172c8289e38157e1168393796eb506d5df4d0f1bf150a401ab1",
+      "panelId": "north_declination_holdout",
+      "sliceId": "ra_270_360",
+      "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%2030%20and%20dec%20%3C%2060%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+    },
+    {
+      "status": 200,
+      "contentLength": 2072,
+      "sourceHash": "00215b7c6760a15cbf556e9eb4f497b1ff2aaf9d4ce819d579ce595c31951123",
+      "panelId": "south_declination_holdout",
+      "sliceId": "ra_000_090",
+      "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%20-60%20and%20dec%20%3C%20-30%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+    },
+    {
+      "status": 200,
+      "contentLength": 2011,
+      "sourceHash": "6d148219f374ebed4780bc81ea27f9f24b807ec4a2ca1c5d1fb249389bb19c9d",
+      "panelId": "south_declination_holdout",
+      "sliceId": "ra_090_180",
+      "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%20-60%20and%20dec%20%3C%20-30%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+    },
+    {
+      "status": 200,
+      "contentLength": 2051,
+      "sourceHash": "d933c408e9fd307cfabfd9c44b3642997d7b8b70052d290bbe3350a39b97ae72",
+      "panelId": "south_declination_holdout",
+      "sliceId": "ra_180_270",
+      "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%20-60%20and%20dec%20%3C%20-30%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+    },
+    {
+      "status": 200,
+      "contentLength": 2030,
+      "sourceHash": "fb032456a79282374ffded08f2cb3013e80017249f78e245b7be4ec9c969e6da",
+      "panelId": "south_declination_holdout",
+      "sliceId": "ra_270_360",
+      "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%20-60%20and%20dec%20%3C%20-30%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+    },
+    {
+      "status": 200,
+      "contentLength": 1979,
+      "sourceHash": "f4ba9c37c2338a5d346faa7f5ef5f09af56f48693e3ef26fd727e2313bdaab8c",
+      "panelId": "bright_magnitude_control",
+      "sliceId": "ra_000_090",
+      "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2012%20and%2014%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+    },
+    {
+      "status": 200,
+      "contentLength": 2044,
+      "sourceHash": "8a34939d41f87b3cec37bacf62e87be7276f08b21ea5b4bf4605166159eca86d",
+      "panelId": "bright_magnitude_control",
+      "sliceId": "ra_090_180",
+      "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2012%20and%2014%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+    },
+    {
+      "status": 200,
+      "contentLength": 2097,
+      "sourceHash": "641f2ba94e64f054fbc0f6c254e46e48a23942f01a750fd7f583e72ac7d49ff8",
+      "panelId": "bright_magnitude_control",
+      "sliceId": "ra_180_270",
+      "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2012%20and%2014%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+    },
+    {
+      "status": 200,
+      "contentLength": 2073,
+      "sourceHash": "3d6e63af027eecfc508441e705e89d2b30c8ac9370fa91bc92d966f509736d16",
+      "panelId": "bright_magnitude_control",
+      "sliceId": "ra_270_360",
+      "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2012%20and%2014%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
+    }
+  ],
+  "expectedPrimary": {
+    "measuredOutcome": 0.4256,
+    "residualMagnitude": 0.1343,
+    "baselines": {
+      "phot_g_mean_magnitude_correlation": 0.1372,
+      "bp_rp_color_correlation": 0.1126,
+      "single_sky_slice_dominance_control": 0.5075
+    }
+  },
+  "decision": {
+    "status": "extended_validation_major_rival_caveat",
+    "primaryExactReplaySucceeded": true,
+    "holdoutSupportedPanelCount": 1,
+    "ruweRivalStrong": true,
+    "noExternalValidationClaimed": true,
+    "claimStrengthened": false
+  },
+  "scope": "public Gaia EDR3 TAP panels only; no external validation or broad astrophysical law is claimed"
+}

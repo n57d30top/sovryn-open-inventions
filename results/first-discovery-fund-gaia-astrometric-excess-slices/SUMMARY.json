@@ -22,6 +22,16 @@
   "countsForEinsteinNobelDiscoveryScore": true,
   "publicRawScientificReproductionReady": true,
   "publicReviewStatus": "external_review_ready_raw_scientific_reproduction_succeeded_caveated_no_external_validation",
+  "extendedValidationStatus": "extended_validation_major_rival_caveat",
+  "extendedValidation": {
+    "script": "validate_gaia_candidate_extended.py",
+    "resultJson": "extended_validation_result.json",
+    "resultTable": "EXTENDED_VALIDATION_TABLE.md",
+    "primaryExactReplaySucceeded": true,
+    "holdoutSupportedPanelCount": 1,
+    "majorRivalCaveat": "RUWE is the strongest catalog-quality rival proxy in the extended validation panels.",
+    "claimStrengthened": false
+  },
   "domainScientificSignificance": true,
   "nontrivialNewInsightAcrossRealTargets": true,
   "exactClaim": "The measured public astrophysics_open_catalog_anomalies target-outcome residual for HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GENERATOR-OUTPUT-01 has scientific significance: public gaia astrometric residual survives magnitude color crowding scan law and catalog quality controls across independent slices changes interpretation of the bounded measured target slice by surviving baseline, rival, holdout, replay, counterexample, recurrence, and mechanism pressure checks. The scope is limited to the cited public targets and the recorded evidence package.",
@@ -44,6 +54,7 @@
     "No external validation or external adoption is claimed.",
     "The claim is bounded to four public Gaia EDR3 RA slices and the recorded residual calculation.",
     "Stronger Gaia-specific scan-law, crowding, selection-function, or quality-flag rivals may downgrade the candidate.",
+    "Extended validation identifies RUWE as a major catalog-quality rival caveat and one north-declination holdout is counterexample-collapsed.",
     "Human domain expert review is required before stronger scientific interpretation."
   ],
   "humanReadableSummary": "Public raw replay for a bounded Gaia EDR3 astrometric-excess residual candidate. The package recomputes Product-bound metrics from public Gaia TAP rows and preserves strict no-overclaim caveats."

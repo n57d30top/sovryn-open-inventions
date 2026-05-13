@@ -2,7 +2,7 @@
   "kind": "evidence_ref_classification",
   "slug": "first-discovery-fund-gaia-astrometric-excess-slices",
   "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6",
-  "totalRefsClassified": 24,
+  "totalRefsClassified": 27,
   "publicRawSource": [
     "https://www.cosmos.esa.int/web/gaia/earlydr3",
     "https://gea.esac.esa.int/archive/",
@@ -16,7 +16,10 @@
     "METHOD.md",
     "REPRODUCE.md",
     "LIMITATIONS.md",
-    "RAW_SCIENTIFIC_REPRODUCTION.md"
+    "RAW_SCIENTIFIC_REPRODUCTION.md",
+    "validate_gaia_candidate_extended.py",
+    "extended_validation_result.json",
+    "EXTENDED_VALIDATION_TABLE.md"
   ],
   "internalProductRefCopied": [
     "copied-product-evidence/candidate-identity-ledger-excerpt.json",

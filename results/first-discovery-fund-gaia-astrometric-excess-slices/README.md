@@ -7,6 +7,7 @@ This public package exposes a bounded, raw-replayable Gaia EDR3 astrometric-exce
 - Candidate ID: `DISCOVERY-LIFT-INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6`
 - Product FundClass: `externally_review_ready_discovery_candidate`
 - Public review status: `external_review_ready_raw_scientific_reproduction_succeeded_caveated_no_external_validation`
+- Extended validation status: `extended_validation_major_rival_caveat`
 - Domain: `astrophysics_open_catalog_anomalies`
 - Raw source: Gaia EDR3 TAP public archive
 - Rows: 160, from four RA slices with 40 rows per slice
@@ -20,6 +21,7 @@ For the exact public Gaia EDR3 TAP slices used here, mean astrometric_excess_noi
 - The standalone script fetches the public Gaia TAP rows and recomputes the Product-bound metrics exactly.
 - The Product runtime evidence is copied as public-safe evidence.
 - The raw source-cache metrics match the generator runtime evidence: measured outcome `0.4256`, residual magnitude `0.1343`.
+- The extended validation supplement preserves exact replay, adds north/south declination holdouts and a bright-magnitude control, and identifies RUWE as a major catalog-quality rival caveat.
 
 ## What Is Not Claimed
 
@@ -40,3 +42,11 @@ python3 reproduce_gaia_candidate.py
 ```
 
 The script writes `standalone_reproduction_result.json` and `REPRODUCTION_RESULT_TABLE.md`.
+
+For additional review pressure, run:
+
+```bash
+python3 validate_gaia_candidate_extended.py
+```
+
+That script writes `extended_validation_result.json` and `EXTENDED_VALIDATION_TABLE.md`. It does not strengthen the claim; it records the current major rival caveat.
