@@ -118,7 +118,8 @@
     "evidenceHash": "44a7357a8d6a4f462304d31bb005fb1fb65de0b764c1a5dd49abeb7799242834"
   },
   "publicReviewStatus": "formal_replay_succeeded_caveated_no_external_validation",
-  "publicRawScientificReproductionReady": true,
+  "publicRawScientificReproductionReady": false,
   "publicFormalReproductionReady": true,
+  "publicRawOrFormalReproductionReady": true,
   "publicReviewCaveat": "Formal replay succeeds from the exported public-safe formal-object manifest and source cache; this is not external validation or an independently reviewed theorem."
 }
