@@ -119,13 +119,15 @@
   "fundCandidateDraftRef": ".sovryn/discovery-daemon/fund-candidate-drafts/DISCOVERY-LIFT-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B843.json",
   "noOverclaim": true,
   "fundClass": "externally_review_ready_discovery_candidate",
-  "countsForEinsteinNobelDiscoveryScore": true,
+  "productRecordedFundClass": "externally_review_ready_discovery_candidate",
+  "countsForEinsteinNobelDiscoveryScore": false,
+  "publicDiscoveryScoreBlockedReason": "Public replay audit found the 0.438 null/trivial structural-rule baseline dominates measured outcome 0.424 and independent source replay is unavailable.",
   "fundClassAssessment": {
     "kind": "fund_class_assessment",
     "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B8436316",
     "fundClass": "externally_review_ready_discovery_candidate",
-    "validFundCandidate": true,
-    "countsForEinsteinNobelDiscoveryScore": true,
+    "validFundCandidate": false,
+    "countsForEinsteinNobelDiscoveryScore": false,
     "discoveryGate": {
       "nontrivialNewInsightAcrossRealTargets": true,
       "domainScientificSignificance": true,
@@ -133,9 +135,9 @@
       "notOnlyToolPipelineOrReproduction": true
     },
     "rationale": [
-      "The existing Fund Gate may remain valid for the bounded package.",
-      "This class is eligible for Einstein/Nobel discovery scoring.",
-      "Assigned FundClass: externally_review_ready_discovery_candidate."
+      "Product originally assigned FundClass: externally_review_ready_discovery_candidate.",
+      "Public package audit now blocks Einstein/Nobel discovery scoring.",
+      "Repair required: resolve 0.438 null/trivial structural-rule baseline and add independent source replay."
     ],
     "evidenceHash": "44a7357a8d6a4f462304d31bb005fb1fb65de0b764c1a5dd49abeb7799242834"
   },

@@ -1,9 +1,12 @@
 {
   "kind": "formal_reproduction_result",
   "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B8436316",
-  "status": "formal_replay_succeeded_caveated_no_external_validation",
+  "status": "package_repair_required_before_external_review",
   "publicSafe": true,
-  "replayReady": true,
+  "manifestReplayReady": true,
+  "publicFormalReproductionReady": false,
+  "publicRawOrFormalReproductionReady": false,
+  "countsForEinsteinNobelDiscoveryScore": false,
   "checkedObjectCount": 72,
   "productMeasuredOutcome": 0.424,
   "productResidualMagnitude": 0.128,
@@ -29,15 +32,103 @@
     "measuredOutcomeFromRows": 0.424,
     "simpleBaselineFromRows": 0.319,
     "meanSignedResidualFromRows": 0.105,
+    "meanPositiveResidualFromRows": 0.128,
     "meanAbsoluteResidualFromRows": 0.15,
+    "matchedKnownFamilyNegativeControlFromRows": 0.356,
+    "nullOrTrivialStructuralRuleFromRows": 0.438,
     "candidateMechanismHoldRate": 0.417,
     "rivalExplainsRate": 0.25,
     "holdoutCount": 24,
-    "developmentCount": 48
+    "developmentCount": 48,
+    "familySummary": {
+      "complete": {
+        "count": 12,
+        "measuredOutcome": 0.603,
+        "simpleBaseline": 0.7,
+        "meanSignedResidual": -0.097,
+        "meanPositiveResidual": 0.0,
+        "candidateMechanismHoldRate": 0.0,
+        "rivalExplainsRate": 1.0
+      },
+      "complete_bipartite": {
+        "count": 12,
+        "measuredOutcome": 0.532,
+        "simpleBaseline": 0.391,
+        "meanSignedResidual": 0.141,
+        "meanPositiveResidual": 0.141,
+        "candidateMechanismHoldRate": 0.5,
+        "rivalExplainsRate": 0.0
+      },
+      "cycle": {
+        "count": 12,
+        "measuredOutcome": 0.164,
+        "simpleBaseline": 0.186,
+        "meanSignedResidual": -0.022,
+        "meanPositiveResidual": 0.018,
+        "candidateMechanismHoldRate": 0.0,
+        "rivalExplainsRate": 0.5
+      },
+      "grid": {
+        "count": 12,
+        "measuredOutcome": 0.314,
+        "simpleBaseline": 0.174,
+        "meanSignedResidual": 0.14,
+        "meanPositiveResidual": 0.14,
+        "candidateMechanismHoldRate": 1.0,
+        "rivalExplainsRate": 0.0
+      },
+      "ladder": {
+        "count": 12,
+        "measuredOutcome": 0.238,
+        "simpleBaseline": 0.18,
+        "meanSignedResidual": 0.058,
+        "meanPositiveResidual": 0.058,
+        "candidateMechanismHoldRate": 0.0,
+        "rivalExplainsRate": 0.0
+      },
+      "wheel": {
+        "count": 12,
+        "measuredOutcome": 0.693,
+        "simpleBaseline": 0.283,
+        "meanSignedResidual": 0.41,
+        "meanPositiveResidual": 0.41,
+        "candidateMechanismHoldRate": 1.0,
+        "rivalExplainsRate": 0.0
+      }
+    },
+    "holdoutSummary": {
+      "development": {
+        "count": 48,
+        "measuredOutcome": 0.424,
+        "simpleBaseline": 0.319,
+        "meanSignedResidual": 0.105,
+        "meanPositiveResidual": 0.128,
+        "candidateMechanismHoldRate": 0.417,
+        "rivalExplainsRate": 0.25
+      },
+      "holdout": {
+        "count": 24,
+        "measuredOutcome": 0.424,
+        "simpleBaseline": 0.319,
+        "meanSignedResidual": 0.105,
+        "meanPositiveResidual": 0.128,
+        "candidateMechanismHoldRate": 0.417,
+        "rivalExplainsRate": 0.25
+      }
+    }
   },
   "exactProductScalarReplay": true,
   "measuredOutcomeRowsMatchProduct": true,
-  "residualFormulaCaveat": "The product residualMagnitude is replayed from the formal source cache. The row-level signed residual mean is reported separately because the Product residual normalization is not derivable from the public manifest alone.",
+  "productResidualMagnitudeExplained": "The Product residualMagnitude is the mean positive row residual.",
+  "baselineDecision": {
+    "status": "baseline_dominated_for_public_discovery_scoring",
+    "blockingBaseline": "null_or_trivial_structural_rule",
+    "blockingBaselineValue": 0.438,
+    "measuredOutcome": 0.424,
+    "reason": "The null/trivial structural-rule baseline is directionally comparable and exceeds the measured outcome under the public audit."
+  },
+  "independentSourceReplayStatus": "failed_manifest_only_replay_available",
+  "knownTrivialityDecision": "baseline_dominated_likely_known_needs_human_review",
   "noExternalValidationClaim": true,
   "noNobelClaim": true,
   "noEinsteinLevelClaim": true

@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_badge_index",
-  "generatedAt": "2026-05-13T09:17:40.684Z",
+  "generatedAt": "2026-05-13T12:51:13.043Z",
   "badges": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -4271,19 +4271,19 @@
     {
       "slug": "first-formal-discovery-fund-graph-minor-obstruction-boundary",
       "badges": {
-        "quality": "reviewable",
-        "status": "autopublished",
-        "antiTemplate": "review_ready",
-        "replay": "replay-100",
+        "quality": "major_revision",
+        "status": "package_repair_required_before_external_review",
+        "antiTemplate": "repair_required",
+        "replay": "replay-partial",
         "safety": "safety-passed",
         "hygiene": "hygiene-passed",
         "worker": "not-recorded",
-        "falsification": "not_evaluated",
-        "lifecycle": "autopublished",
+        "falsification": "baseline_dominated_source_replay_failed",
+        "lifecycle": "blocked",
         "version": "first-formal-discovery-fund-graph-minor-obstruction-boundary",
         "showcase": "not-showcase"
       },
-      "lifecycleStatus": "autopublished",
+      "lifecycleStatus": "blocked",
       "showcaseRank": null
     },
     {
@@ -11109,5 +11109,5 @@
       "showcaseRank": null
     }
   ],
-  "evidenceHash": "4749f70bf22e99eebfe7fb4b6d3b78e765c7dfab17d57905a053a7431a50947e"
+  "evidenceHash": "5000686529fa6872745759330cad46599e41bbbd6abe7396ffd233ecabf4b3c1"
 }

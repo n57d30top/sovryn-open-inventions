@@ -16,6 +16,13 @@
 - Method: https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/first-formal-discovery-fund-graph-minor-obstruction-boundary/METHOD.md
 - Reproduce: https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/first-formal-discovery-fund-graph-minor-obstruction-boundary/REPRODUCE.md
 - Limitations: https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/first-formal-discovery-fund-graph-minor-obstruction-boundary/LIMITATIONS.md
+- Exact bounded claim: https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/first-formal-discovery-fund-graph-minor-obstruction-boundary/EXACT_GRAPH_MINOR_CLAIM.md
+- Residual formula: https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/first-formal-discovery-fund-graph-minor-obstruction-boundary/GRAPH_MINOR_RESIDUAL_FORMULA.md
+- Baseline audit: https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/first-formal-discovery-fund-graph-minor-obstruction-boundary/GRAPH_MINOR_BASELINE_DIRECTIONALITY_AUDIT.md
+- Baseline decision: https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/first-formal-discovery-fund-graph-minor-obstruction-boundary/GRAPH_MINOR_BASELINE_DECISION.md
+- Independent source replay results: https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/first-formal-discovery-fund-graph-minor-obstruction-boundary/INDEPENDENT_SOURCE_REPLAY_RESULTS.md
+- Known/triviality review: https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/first-formal-discovery-fund-graph-minor-obstruction-boundary/GRAPH_MINOR_KNOWN_TRIVIALITY_REVIEW.md
+- Status decision: https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/first-formal-discovery-fund-graph-minor-obstruction-boundary/GRAPH_MINOR_STATUS_DECISION.md
 - Claim/evidence bindings: https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/first-formal-discovery-fund-graph-minor-obstruction-boundary/CLAIM_EVIDENCE_BINDINGS.json
 - Formal reproduction result: https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/first-formal-discovery-fund-graph-minor-obstruction-boundary/FORMAL_REPRODUCTION_RESULT.json
 - Formal object check manifest: https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/first-formal-discovery-fund-graph-minor-obstruction-boundary/raw-reproduction-bundle/formal-object-check-manifest.json
@@ -30,8 +37,8 @@
 1. Read `README.md`, `REVIEWER_SUMMARY.md`, `METHOD.md`, `REPRODUCE.md`, and `LIMITATIONS.md`.
 2. Run `python3 reproduce_graph_minor_candidate.py` from the result directory, or inspect the raw formal replay inputs above.
 3. Compare the bounded claim against `CLAIM_EVIDENCE_BINDINGS.json`, `FORMAL_REPRODUCTION_RESULT.json`, and the raw formal object manifest.
-4. Return a review JSON using `EXTERNAL_REVIEW_RECORD_TEMPLATE.json`.
+4. Treat the package as repair-required unless the baseline and source-replay blockers are resolved.
 
 ## Caveat
 
-These links make the bounded package easier to inspect. They do not record external human review, independent reproduction, field uptake, prize significance, or broad validation.
+These links make the bounded package easier to inspect. They do not record external human review, independent reproduction, field uptake, prize significance, or broad validation. The current package status is `package_repair_required_before_external_review`.

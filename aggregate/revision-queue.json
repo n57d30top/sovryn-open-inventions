@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_revision_queue",
-  "updatedAt": "2026-05-13T09:17:40.684Z",
+  "updatedAt": "2026-05-13T12:51:13.043Z",
   "results": [
     {
       "slug": "corpus-deduplication",
@@ -21,6 +21,12 @@
       "revisionReason": "Quality, candidate status, or anti-template review requires revision."
     },
     {
+      "slug": "first-formal-discovery-fund-graph-minor-obstruction-boundary",
+      "title": "Public Formal Replay Package: Graph-Minor Obstruction Boundary Candidate",
+      "lifecycleStatus": "blocked",
+      "revisionReason": "Public hygiene, safety scan, or reliability replay did not pass."
+    },
+    {
       "slug": "self-built-lab-reproduction-388ccd1946ad",
       "title": "Self-built lab reproduction challenge",
       "lifecycleStatus": "needs_revision",
@@ -33,5 +39,5 @@
       "revisionReason": "Falsification status is insufficient_tests."
     }
   ],
-  "evidenceHash": "009a6abda92f47841719beeaa729784394d9b571184ebd67f6002e5b8634654f"
+  "evidenceHash": "4840d56f00d60b7e589d5119d98b1ad96d7a909a0a98c705ba101ece41aa9106"
 }

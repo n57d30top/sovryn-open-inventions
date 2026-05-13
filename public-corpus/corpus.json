@@ -1,15 +1,16 @@
 {
   "kind": "sovryn_public_corpus_product",
-  "generatedAt": "2026-05-13T09:17:40.684Z",
+  "generatedAt": "2026-05-13T12:51:13.043Z",
   "resultCount": 617,
   "qualityCounts": {
     "excellent": 5,
     "good": 603,
-    "reviewable": 8,
+    "major_revision": 1,
+    "reviewable": 7,
     "weak": 1
   },
   "statusCounts": {
-    "autopublished": 580,
+    "autopublished": 579,
     "benchmark_challenge_negative_result": 4,
     "dataset_quality_audit_supported": 7,
     "external_extension_supported": 1,
@@ -19,6 +20,7 @@
     "field_grade_trial_ready": 3,
     "knowledge_trial_ready": 1,
     "needs_revision": 1,
+    "package_repair_required_before_external_review": 1,
     "partially_reproduced": 1,
     "promising_but_unproven": 1,
     "reality_grade_trial_ready": 1,
@@ -30,7 +32,8 @@
     "v1_candidate_with_limits": 1
   },
   "lifecycleCounts": {
-    "autopublished": 585,
+    "autopublished": 584,
+    "blocked": 1,
     "needs_revision": 5,
     "showcase": 3,
     "showcase_science": 10,
@@ -7389,31 +7392,31 @@
       "slug": "first-formal-discovery-fund-graph-minor-obstruction-boundary",
       "title": "Public Formal Replay Package: Graph-Minor Obstruction Boundary Candidate",
       "domain": "formal_mathematics_conjecture_refutation",
-      "resultKind": "externally_review_ready_discovery_candidate",
+      "resultKind": "formal_manifest_replay_package_repair_required",
       "path": "results/first-formal-discovery-fund-graph-minor-obstruction-boundary",
-      "qualityLabel": "reviewable",
-      "publicationStatus": "autopublished",
-      "antiTemplateStatus": "review_ready",
-      "lifecycleStatus": "autopublished",
+      "qualityLabel": "major_revision",
+      "publicationStatus": "package_repair_required_before_external_review",
+      "antiTemplateStatus": "repair_required",
+      "lifecycleStatus": "blocked",
       "versionGroup": "first-formal-discovery-fund-graph-minor-obstruction-boundary",
       "supersedes": null,
       "supersededBy": null,
       "showcaseEligible": false,
       "showcaseRank": null,
-      "revisionReason": null,
-      "humanReadableSummary": "In the exported bounded graph-family check manifest, the graph-minor obstruction score averages 0.424 across 72 checked formal objects and remains above the size/density/degree/treewidth proxy baseline average 0.319 u...",
-      "releaseReadinessScore": 88,
-      "evidenceStrengthScore": 86,
-      "reproducibilityScore": 84,
+      "revisionReason": "Public hygiene, safety scan, or reliability replay did not pass.",
+      "humanReadableSummary": "The exported manifest still replays, but this package is no longer presented as externally review-ready discovery evidence. The null/trivial structural-rule baseline is 0.438, above the measured outcome 0.424 under th...",
+      "releaseReadinessScore": 61,
+      "evidenceStrengthScore": 54,
+      "reproducibilityScore": 42,
       "publicationSafetyScore": 98,
-      "replayCriticalPassRate": 100,
-      "specificityScore": 86,
+      "replayCriticalPassRate": 40,
+      "specificityScore": 72,
       "publicHygienePassed": true,
       "safetyScanPassed": true,
-      "reliabilityReplayPassed": true,
+      "reliabilityReplayPassed": false,
       "pushed": false,
       "customTool": null,
-      "falsificationStatus": "not_evaluated"
+      "falsificationStatus": "baseline_dominated_source_replay_failed"
     },
     {
       "slug": "first-fund-scipy-runtime-reproduction-external-review-ready",
@@ -23736,6 +23739,12 @@
       "revisionReason": "Quality, candidate status, or anti-template review requires revision."
     },
     {
+      "slug": "first-formal-discovery-fund-graph-minor-obstruction-boundary",
+      "title": "Public Formal Replay Package: Graph-Minor Obstruction Boundary Candidate",
+      "lifecycleStatus": "blocked",
+      "revisionReason": "Public hygiene, safety scan, or reliability replay did not pass."
+    },
+    {
       "slug": "self-built-lab-reproduction-388ccd1946ad",
       "title": "Self-built lab reproduction challenge",
       "lifecycleStatus": "needs_revision",
@@ -23749,5 +23758,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "c1d014e0ae4424c5f345b5fd44c80d4946763ac4c362f31372bfc0d3ec91ff02"
+  "evidenceHash": "223af217f33fcefc00f5befb46ef3a1f9b2bbcb0a6375473ae0bc15753d857b1"
 }

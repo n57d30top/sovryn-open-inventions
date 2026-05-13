@@ -2,19 +2,19 @@
   "kind": "public_corpus_result_badges",
   "slug": "first-formal-discovery-fund-graph-minor-obstruction-boundary",
   "badges": {
-    "quality": "reviewable",
-    "status": "autopublished",
-    "antiTemplate": "review_ready",
-    "replay": "replay-100",
+    "quality": "major_revision",
+    "status": "package_repair_required_before_external_review",
+    "antiTemplate": "repair_required",
+    "replay": "replay-partial",
     "safety": "safety-passed",
     "hygiene": "hygiene-passed",
     "worker": "not-recorded",
-    "falsification": "not_evaluated",
-    "lifecycle": "autopublished",
+    "falsification": "baseline_dominated_source_replay_failed",
+    "lifecycle": "blocked",
     "version": "first-formal-discovery-fund-graph-minor-obstruction-boundary",
     "showcase": "not-showcase"
   },
-  "lifecycleStatus": "autopublished",
+  "lifecycleStatus": "blocked",
   "showcaseRank": null,
-  "evidenceHash": "3884b8da3fe030bb7690e27f96a05a23a67ffd6062ff90f05d466950572084a2"
+  "evidenceHash": "f247cedc94293a9ac19e052e88ca4950fd64488ead1aeef7859235683f71234e"
 }

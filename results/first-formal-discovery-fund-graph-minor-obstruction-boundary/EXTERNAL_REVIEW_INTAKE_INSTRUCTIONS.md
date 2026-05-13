@@ -29,7 +29,9 @@ Invalid, stale-schema, missing-source-receipt, mismatched, unresolved, not-publi
 
 ## Current State
 
-- External review dispatch status: `ready_to_request_external_review`
+- External review dispatch status: `not_ready_to_request_external_review`
+
+Current package status is `package_repair_required_before_external_review`; the package should receive repair before a supportive review is requested.
 - External human review status: `awaiting_external_review`
 - Valid external reviews recorded: `0`
 - Supportive external reviews recorded: `0`

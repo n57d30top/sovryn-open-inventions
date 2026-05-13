@@ -12,7 +12,7 @@ Indexed public results: 617
 
 ## Result Status Counts
 
-- autopublished: 580
+- autopublished: 579
 - benchmark_challenge_negative_result: 4
 - dataset_quality_audit_supported: 7
 - external_extension_supported: 1
@@ -22,6 +22,7 @@ Indexed public results: 617
 - field_grade_trial_ready: 3
 - knowledge_trial_ready: 1
 - needs_revision: 1
+- package_repair_required_before_external_review: 1
 - partially_reproduced: 1
 - promising_but_unproven: 1
 - reality_grade_trial_ready: 1
@@ -34,7 +35,8 @@ Indexed public results: 617
 
 ## Lifecycle Counts
 
-- autopublished: 585
+- autopublished: 584
+- blocked: 1
 - needs_revision: 5
 - showcase: 3
 - showcase_science: 10

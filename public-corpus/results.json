@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_results",
-  "generatedAt": "2026-05-13T09:17:40.684Z",
+  "generatedAt": "2026-05-13T12:51:13.043Z",
   "results": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -7266,31 +7266,31 @@
       "slug": "first-formal-discovery-fund-graph-minor-obstruction-boundary",
       "title": "Public Formal Replay Package: Graph-Minor Obstruction Boundary Candidate",
       "domain": "formal_mathematics_conjecture_refutation",
-      "resultKind": "externally_review_ready_discovery_candidate",
+      "resultKind": "formal_manifest_replay_package_repair_required",
       "path": "results/first-formal-discovery-fund-graph-minor-obstruction-boundary",
-      "qualityLabel": "reviewable",
-      "publicationStatus": "autopublished",
-      "antiTemplateStatus": "review_ready",
-      "lifecycleStatus": "autopublished",
+      "qualityLabel": "major_revision",
+      "publicationStatus": "package_repair_required_before_external_review",
+      "antiTemplateStatus": "repair_required",
+      "lifecycleStatus": "blocked",
       "versionGroup": "first-formal-discovery-fund-graph-minor-obstruction-boundary",
       "supersedes": null,
       "supersededBy": null,
       "showcaseEligible": false,
       "showcaseRank": null,
-      "revisionReason": null,
-      "humanReadableSummary": "In the exported bounded graph-family check manifest, the graph-minor obstruction score averages 0.424 across 72 checked formal objects and remains above the size/density/degree/treewidth proxy baseline average 0.319 u...",
-      "releaseReadinessScore": 88,
-      "evidenceStrengthScore": 86,
-      "reproducibilityScore": 84,
+      "revisionReason": "Public hygiene, safety scan, or reliability replay did not pass.",
+      "humanReadableSummary": "The exported manifest still replays, but this package is no longer presented as externally review-ready discovery evidence. The null/trivial structural-rule baseline is 0.438, above the measured outcome 0.424 under th...",
+      "releaseReadinessScore": 61,
+      "evidenceStrengthScore": 54,
+      "reproducibilityScore": 42,
       "publicationSafetyScore": 98,
-      "replayCriticalPassRate": 100,
-      "specificityScore": 86,
+      "replayCriticalPassRate": 40,
+      "specificityScore": 72,
       "publicHygienePassed": true,
       "safetyScanPassed": true,
-      "reliabilityReplayPassed": true,
+      "reliabilityReplayPassed": false,
       "pushed": false,
       "customTool": null,
-      "falsificationStatus": "not_evaluated"
+      "falsificationStatus": "baseline_dominated_source_replay_failed"
     },
     {
       "slug": "first-fund-scipy-runtime-reproduction-external-review-ready",
@@ -18708,5 +18708,5 @@
       "falsificationStatus": "adversarial_route_reviewed"
     }
   ],
-  "evidenceHash": "fea32f78db7568542fce5016a4d225c1d1b5456669f60efc2552933edcb205ec"
+  "evidenceHash": "e967ac590d3d10637cdca634d206c9e2e1fe9f97be292aeda20604300ede1add"
 }

@@ -3,7 +3,8 @@
   "qualityCounts": {
     "excellent": 5,
     "good": 603,
-    "reviewable": 8,
+    "major_revision": 1,
+    "reviewable": 7,
     "weak": 1
   },
   "results": [
@@ -1194,8 +1195,8 @@
     },
     {
       "slug": "first-formal-discovery-fund-graph-minor-obstruction-boundary",
-      "qualityLabel": "reviewable",
-      "releaseReadinessScore": 88
+      "qualityLabel": "major_revision",
+      "releaseReadinessScore": 61
     },
     {
       "slug": "first-fund-scipy-runtime-reproduction-external-review-ready",
@@ -3093,5 +3094,5 @@
       "releaseReadinessScore": 86
     }
   ],
-  "evidenceHash": "e02d922e17741fbd0b538cfcdc92c8ec8cf55f4bb841b728124978407ebc654f"
+  "evidenceHash": "4491011adf8b70a58bbbebf870758a6e11c330bd58584322eadd6ab018210bdb"
 }

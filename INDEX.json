@@ -1,6 +1,6 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-13T09:17:40.684Z",
+  "updatedAt": "2026-05-13T12:51:13.043Z",
   "resultCount": 617,
   "results": [
     {
@@ -9090,13 +9090,13 @@
     {
       "slug": "first-formal-discovery-fund-graph-minor-obstruction-boundary",
       "title": "Public Formal Replay Package: Graph-Minor Obstruction Boundary Candidate",
-      "resultKind": "externally_review_ready_discovery_candidate",
+      "resultKind": "formal_manifest_replay_package_repair_required",
       "domain": "formal_mathematics_conjecture_refutation",
       "path": "results/first-formal-discovery-fund-graph-minor-obstruction-boundary",
-      "qualityLabel": "reviewable",
-      "candidateStatus": "autopublished",
-      "antiTemplateStatus": "review_ready",
-      "lifecycleStatus": "autopublished",
+      "qualityLabel": "major_revision",
+      "candidateStatus": "package_repair_required_before_external_review",
+      "antiTemplateStatus": "repair_required",
+      "lifecycleStatus": "blocked",
       "versionGroup": "first-formal-discovery-fund-graph-minor-obstruction-boundary",
       "supersedes": null,
       "supersededBy": null,
@@ -9110,24 +9110,20 @@
         "limitations": true,
         "examples": false
       },
-      "revisionReason": null,
-      "humanReadableSummary": "In the exported bounded graph-family check manifest, the graph-minor obstruction score averages 0.424 across 72 checked formal objects and remains above the size/density/degree/treewidth proxy baseline average 0.319 under the recorded controls; this is a bounded formal replay candidate, not an externally validated theorem.",
-      "publicReviewStatus": "formal_replay_succeeded_caveated_no_external_validation",
-      "externalReviewDispatchStatus": "ready_to_request_external_review",
-      "publicReviewUrlsRef": "results/first-formal-discovery-fund-graph-minor-obstruction-boundary/PUBLIC_REVIEW_URLS.md",
-      "externalHumanReviewStatus": "awaiting_external_review",
-      "releaseReadinessScore": 88,
-      "evidenceStrengthScore": 86,
-      "reproducibilityScore": 84,
+      "revisionReason": "Public hygiene, safety scan, or reliability replay did not pass.",
+      "humanReadableSummary": "The exported manifest still replays, but this package is no longer presented as externally review-ready discovery evidence. The null/trivial structural-rule baseline is 0.438, above the measured outcome 0.424 under the public directionality audit, and independent source replay from HOG/GraphClasses or concrete graph encodings is not available.",
+      "releaseReadinessScore": 61,
+      "evidenceStrengthScore": 54,
+      "reproducibilityScore": 42,
       "publicationSafetyScore": 98,
-      "replayCriticalPassRate": 100,
-      "specificityScore": 86,
+      "replayCriticalPassRate": 40,
+      "specificityScore": 72,
       "publicHygienePassed": true,
       "safetyScanPassed": true,
-      "reliabilityReplayPassed": true,
+      "reliabilityReplayPassed": false,
       "customTool": null,
       "workerAssurance": "not-recorded",
-      "falsificationStatus": "not_evaluated"
+      "falsificationStatus": "baseline_dominated_source_replay_failed"
     },
     {
       "slug": "first-fund-scipy-runtime-reproduction-external-review-ready",
@@ -23546,5 +23542,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "65a1eb603bdc333a5670575a9e732acac462ef35140bdcad705989e45093625d"
+  "evidenceHash": "edbefa83f36240d5c0d473a24e659e5af6e5a01af8fbac302a66a6e9d57616b1"
 }

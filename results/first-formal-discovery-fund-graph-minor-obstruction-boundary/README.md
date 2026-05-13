@@ -1,8 +1,14 @@
 # Public Formal Replay Package: Graph-Minor Obstruction Boundary Candidate
 
+## Public Status
+
+Public review status: `package_repair_required_before_external_review`.
+
+The exported manifest still replays, but this package is no longer presented as externally review-ready discovery evidence. The null/trivial structural-rule baseline is `0.438`, above the measured outcome `0.424` under the public directionality audit, and independent source replay from HOG/GraphClasses or concrete graph encodings is not available.
+
 ## Bounded Reviewer Interpretation
 
-In the exported bounded graph-family check manifest, the graph-minor obstruction score averages 0.424 across 72 checked formal objects and remains above the size/density/degree/treewidth proxy baseline average 0.319 under the recorded controls; this is a bounded formal replay candidate, not an externally validated theorem.
+In the exported bounded graph-family check manifest, the graph-minor obstruction score averages `0.424` across 72 checked formal rows. The row-level simple structural baseline average is `0.319`, but the null/trivial structural-rule baseline is `0.438`, which blocks public discovery scoring until the baseline directionality is repaired or independently refuted. This is a manifest-replay package, not an externally validated theorem.
 
 ## Exact Product Claim Preserved
 
@@ -25,16 +31,27 @@ The measured public formal_mathematics_conjecture_refutation target-outcome resi
 - No claim that this is a certified proof.
 - No claim beyond the exported bounded formal-object slice.
 
-## Review Status
+## Repair Status
 
-Public review status: `formal_replay_succeeded_caveated_no_external_validation`.
+External review dispatch status: `not_ready_to_request_external_review`.
 
-External review dispatch status: `ready_to_request_external_review`.
-
-The public package now includes `EXTERNAL_REVIEW_REQUEST.md`, `EXTERNAL_REVIEW_RECORD_TEMPLATE.json`, and `EXTERNAL_REVIEW_INTAKE_INSTRUCTIONS.md` so an independent reviewer can inspect the bounded claim and return a machine-readable review record. No external review has been recorded yet.
+The public package includes review-request files, but they should not be used to request a supportive external review until the repair blockers in `GRAPH_MINOR_STATUS_DECISION.md` are resolved. No external review has been recorded.
 
 Reviewer URL index: `PUBLIC_REVIEW_URLS.md`.
 
 ## Evidence Summary
 
 The public package copies the necessary public-safe Product artifacts into `raw-reproduction-bundle/` so a reviewer can inspect the formal check rows, source cache, runtime evidence, prediction ledger, and kill-week evidence without private local state.
+
+## New Review Files
+
+- `EXACT_GRAPH_MINOR_CLAIM.md`
+- `GRAPH_MINOR_RESIDUAL_FORMULA.md`
+- `GRAPH_MINOR_RESIDUAL_RECOMPUTE.json`
+- `GRAPH_MINOR_BASELINE_DIRECTIONALITY_AUDIT.md`
+- `GRAPH_MINOR_BASELINE_DECISION.md`
+- `INDEPENDENT_SOURCE_REPLAY_PLAN.md`
+- `INDEPENDENT_SOURCE_REPLAY_RESULTS.md`
+- `SOURCE_REPLAY_FAILURES.md`
+- `GRAPH_MINOR_KNOWN_TRIVIALITY_REVIEW.md`
+- `GRAPH_MINOR_STATUS_DECISION.md`

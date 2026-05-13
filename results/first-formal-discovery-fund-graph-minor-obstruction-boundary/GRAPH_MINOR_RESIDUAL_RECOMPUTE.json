@@ -1,0 +1,130 @@
+{
+  "kind": "graph_minor_residual_recompute",
+  "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B8436316",
+  "sourceManifest": "raw-reproduction-bundle/formal-object-check-manifest.json",
+  "checkedObjectCount": 72,
+  "measuredOutcomeFromRows": 0.423917,
+  "roundedMeasuredOutcome": 0.424,
+  "simpleBaselineFromRows": 0.319083,
+  "roundedSimpleBaseline": 0.319,
+  "meanSignedResidualFromRows": 0.104833,
+  "roundedMeanSignedResidual": 0.105,
+  "meanPositiveResidualFromRows": 0.127667,
+  "roundedProductResidualMagnitude": 0.128,
+  "meanAbsoluteResidualFromRows": 0.1505,
+  "matchedKnownFamilyNegativeControlFromRows": 0.355571,
+  "roundedMatchedKnownFamilyNegativeControl": 0.356,
+  "nullRuleFromRows": 0.437697,
+  "roundedNullOrTrivialStructuralRule": 0.438,
+  "candidateMechanismHoldCount": 30,
+  "rivalExplainsCount": 18,
+  "developmentCount": 48,
+  "holdoutCount": 24,
+  "familySummary": {
+    "cycle": {
+      "count": 12,
+      "measuredOutcome": 0.164,
+      "simpleBaseline": 0.186,
+      "signedResidual": -0.022,
+      "positiveResidual": 0.0175,
+      "absoluteResidual": 0.057,
+      "candidateMechanismHoldRate": 0,
+      "rivalExplainsRate": 0.5
+    },
+    "wheel": {
+      "count": 12,
+      "measuredOutcome": 0.693,
+      "simpleBaseline": 0.283,
+      "signedResidual": 0.41,
+      "positiveResidual": 0.41,
+      "absoluteResidual": 0.41,
+      "candidateMechanismHoldRate": 1,
+      "rivalExplainsRate": 0
+    },
+    "complete_bipartite": {
+      "count": 12,
+      "measuredOutcome": 0.532,
+      "simpleBaseline": 0.3915,
+      "signedResidual": 0.1405,
+      "positiveResidual": 0.1405,
+      "absoluteResidual": 0.1405,
+      "candidateMechanismHoldRate": 0.5,
+      "rivalExplainsRate": 0
+    },
+    "grid": {
+      "count": 12,
+      "measuredOutcome": 0.314,
+      "simpleBaseline": 0.174,
+      "signedResidual": 0.14,
+      "positiveResidual": 0.14,
+      "absoluteResidual": 0.14,
+      "candidateMechanismHoldRate": 1,
+      "rivalExplainsRate": 0
+    },
+    "ladder": {
+      "count": 12,
+      "measuredOutcome": 0.238,
+      "simpleBaseline": 0.18,
+      "signedResidual": 0.058,
+      "positiveResidual": 0.058,
+      "absoluteResidual": 0.058,
+      "candidateMechanismHoldRate": 0,
+      "rivalExplainsRate": 0
+    },
+    "complete": {
+      "count": 12,
+      "measuredOutcome": 0.6025,
+      "simpleBaseline": 0.7,
+      "signedResidual": -0.0975,
+      "positiveResidual": 0,
+      "absoluteResidual": 0.0975,
+      "candidateMechanismHoldRate": 0,
+      "rivalExplainsRate": 1
+    }
+  },
+  "sourceSummary": {
+    "hog_public_family": {
+      "count": 36,
+      "measuredOutcome": 0.311333,
+      "simpleBaseline": 0.2525,
+      "signedResidual": 0.058833,
+      "positiveResidual": 0.072,
+      "absoluteResidual": 0.085167,
+      "candidateMechanismHoldRate": 0.166667,
+      "rivalExplainsRate": 0.166667
+    },
+    "graphclasses_public_family": {
+      "count": 36,
+      "measuredOutcome": 0.5365,
+      "simpleBaseline": 0.385667,
+      "signedResidual": 0.150833,
+      "positiveResidual": 0.183333,
+      "absoluteResidual": 0.215833,
+      "candidateMechanismHoldRate": 0.666667,
+      "rivalExplainsRate": 0.333333
+    }
+  },
+  "holdoutSummary": {
+    "development": {
+      "count": 48,
+      "measuredOutcome": 0.423917,
+      "simpleBaseline": 0.319083,
+      "signedResidual": 0.104833,
+      "positiveResidual": 0.127667,
+      "absoluteResidual": 0.1505,
+      "candidateMechanismHoldRate": 0.416667,
+      "rivalExplainsRate": 0.25
+    },
+    "holdout": {
+      "count": 24,
+      "measuredOutcome": 0.423917,
+      "simpleBaseline": 0.319083,
+      "signedResidual": 0.104833,
+      "positiveResidual": 0.127667,
+      "absoluteResidual": 0.1505,
+      "candidateMechanismHoldRate": 0.416667,
+      "rivalExplainsRate": 0.25
+    }
+  },
+  "interpretation": "Product residualMagnitude is reproducible as mean positive residual. Independent source replay remains unavailable because concrete external graph object definitions are not present in the public package."
+}

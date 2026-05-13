@@ -10,8 +10,10 @@ This public package is ready to be sent to an independent formal-methods or grap
 - Result slug: `first-formal-discovery-fund-graph-minor-obstruction-boundary`
 - Fund class recorded by Product: `externally_review_ready_discovery_candidate`
 - Domain: `formal_mathematics_conjecture_refutation`
-- Public review status: `formal_replay_succeeded_caveated_no_external_validation`
-- External review dispatch status: `ready_to_request_external_review`
+- Public review status: `package_repair_required_before_external_review`
+- External review dispatch status: `not_ready_to_request_external_review`
+
+This request file is retained for traceability. Do not use it to request a supportive external review until the baseline and independent-source-replay blockers documented in `GRAPH_MINOR_STATUS_DECISION.md` are repaired.
 
 ## Requested Review
 
