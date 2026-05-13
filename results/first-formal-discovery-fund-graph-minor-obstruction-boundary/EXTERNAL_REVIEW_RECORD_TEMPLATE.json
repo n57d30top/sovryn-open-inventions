@@ -1,0 +1,37 @@
+{
+  "kind": "external_human_review_record_template",
+  "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B8436316",
+  "resultSlug": "first-formal-discovery-fund-graph-minor-obstruction-boundary",
+  "reviewerRole": "independent_formal_methods_or_graph_theory_reviewer",
+  "reviewDate": "YYYY-MM-DD",
+  "reviewSourceRef": "Provide a public-safe URL or attach/copy a review report alongside this JSON record.",
+  "decision": "accepted_with_caveats | major_revision | rejected | invalid_or_unverified",
+  "independentReproductionStatus": "reproduced | partially_reproduced | not_reproduced | not_attempted",
+  "noveltyAssessment": "nontrivial_and_plausibly_novel | known_or_trivial | unclear",
+  "evidenceRefs": [
+    "README.md",
+    "REVIEWER_SUMMARY.md",
+    "PAPER.md",
+    "METHOD.md",
+    "REPRODUCE.md",
+    "LIMITATIONS.md",
+    "CLAIM_EVIDENCE_BINDINGS.json",
+    "FORMAL_REPRODUCTION_RESULT.json",
+    "raw-reproduction-bundle/formal-object-check-manifest.json",
+    "raw-reproduction-bundle/formal-source-cache.json",
+    "raw-reproduction-bundle/runtime-evidence-output-01.json",
+    "raw-reproduction-bundle/frozen-prediction-ledger.json",
+    "raw-reproduction-bundle/kill-week-results.json"
+  ],
+  "claimAssessment": {
+    "boundedClaimSupported": null,
+    "scopeTooBroad": null,
+    "knownResultOrTrivialMechanism": null,
+    "baselineOrRivalExplainsSignal": null,
+    "counterexamplePressureAdequate": null,
+    "replayAdequate": null
+  },
+  "requiredCaveats": [],
+  "overclaimFindings": [],
+  "reviewerNotes": "Summarize claim, method, replay, evidence binding, novelty, limitations, and downgrade/falsification concerns."
+}

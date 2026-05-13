@@ -29,6 +29,10 @@ The measured public formal_mathematics_conjecture_refutation target-outcome resi
 
 Public review status: `formal_replay_succeeded_caveated_no_external_validation`.
 
+External review dispatch status: `ready_to_request_external_review`.
+
+The public package now includes `EXTERNAL_REVIEW_REQUEST.md`, `EXTERNAL_REVIEW_RECORD_TEMPLATE.json`, and `EXTERNAL_REVIEW_INTAKE_INSTRUCTIONS.md` so an independent reviewer can inspect the bounded claim and return a machine-readable review record. No external review has been recorded yet.
+
 ## Evidence Summary
 
 The public package copies the necessary public-safe Product artifacts into `raw-reproduction-bundle/` so a reviewer can inspect the formal check rows, source cache, runtime evidence, prediction ledger, and kill-week evidence without private local state.
