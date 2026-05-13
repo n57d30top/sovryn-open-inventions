@@ -4,7 +4,7 @@
 
 1. Inspect this result directory.
 2. Run or inspect `REPRODUCE.md` and `reproduce_graph_minor_candidate.py`.
-3. Fill a review JSON record using `EXTERNAL_REVIEW_RECORD_TEMPLATE.json`.
+3. Fill a review JSON record using `EXTERNAL_REVIEW_RECORD_TEMPLATE.json` and keep `reviewRecordSchemaVersion` set to `sovryn_external_human_review_v1`.
 4. Return the review record with a public-safe review report or URL.
 
 ## Product Intake Step
@@ -19,7 +19,7 @@ Then run:
 
 ## Score Rule
 
-Invalid, mismatched, unresolved, not-public-safe, non-external, rejecting, non-reproduced, known/trivial, or overclaiming records cannot increase readiness. A supportive record can affect readiness only if it matches this candidate, resolves to an external public URL, records independent reproduction, and assesses the bounded claim as nontrivial and plausibly novel.
+Invalid, stale-schema, mismatched, unresolved, not-public-safe, non-external, rejecting, non-reproduced, known/trivial, or overclaiming records cannot increase readiness. A supportive record can affect readiness only if it declares `sovryn_external_human_review_v1`, matches this candidate, resolves to an external public URL, records independent reproduction, and assesses the bounded claim as nontrivial and plausibly novel.
 
 ## Current State
 
