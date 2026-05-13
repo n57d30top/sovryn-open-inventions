@@ -12,6 +12,8 @@ Expected values:
 - bp_rp_color_correlation: `0.1126`
 - single_sky_slice_dominance_control: `0.5075`
 
-Status: `external_review_ready_raw_scientific_reproduction_succeeded_caveated_no_external_validation`.
+Status: `raw_scientific_reproduction_succeeded_but_rival_explained_signal_no_external_validation`.
+
+The exact scalar replay succeeds. The candidate is still downgraded for public discovery scoring because the extended public RUWE rival closure shows that a G/color/RUWE control lowers the primary residual magnitude to `0.0263` and removes cross-slice support.
 
 No external validation is claimed.

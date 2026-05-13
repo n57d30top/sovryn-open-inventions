@@ -31,5 +31,9 @@ This fetches additional public Gaia TAP panels and writes:
 
 - `extended_validation_result.json`
 - `EXTENDED_VALIDATION_TABLE.md`
+- `ruwe_rival_closure_result.json`
+- `RUWE_RIVAL_CLOSURE_RESULTS.md`
 
-The supplement is slower than the exact replay because it performs additional public TAP queries. It is a review-pressure artifact, not a stronger claim and not external validation.
+By default the extended validation script now uses the public-safe extended source-row snapshots in `raw-reproduction-bundle/extended-source-rows/`. If those snapshots are removed, it falls back to live Gaia TAP and writes fresh snapshots.
+
+The supplement is a review-pressure artifact, not a stronger claim and not external validation. Its current public decision is `extended_validation_rival_explained_signal`.

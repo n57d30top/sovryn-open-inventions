@@ -14,19 +14,21 @@ For the exact public Gaia EDR3 TAP slices used here, mean astrometric_excess_noi
 
 An additional public Gaia TAP supplement preserves exact primary replay and adds fresh declination holdouts, a bright-magnitude control, RUWE, and visibility-period rival proxies.
 
-- Extended validation status: `extended_validation_major_rival_caveat`
+- Extended validation status: `extended_validation_rival_explained_signal`
 - Primary exact replay: `true`
 - Holdout-supported panel count: `1`
-- Major rival caveat: RUWE is the strongest rival proxy in the primary and holdout/control panels.
+- RUWE rival explains primary signal: `true`
+- Primary G/color/RUWE adjusted residual magnitude: `0.0263`
+- Primary G/color/RUWE adjusted cross-slice support: `false`
 
-This supplement does not strengthen the claim. It narrows the external-review question: a reviewer should decide whether the bounded residual is scientifically meaningful after accounting for Gaia catalog-quality proxies, especially RUWE.
+This supplement does not strengthen the claim. It downgrades the public interpretation: the raw scalar replay succeeds, but the strongest public catalog-quality rival explains/collapses the primary residual support. The public package should be treated as a replayable killed/downgraded candidate, not as a discovery-scored result.
 
 ## Caveats
 
-This is an internally generated discovery-scored candidate package with exact public raw replay for the bounded metric calculation. It is not external validation. A domain expert must still judge novelty, physical interpretation, sample adequacy, and whether the residual is scientifically important rather than a catalog-selection artifact.
+This is an internally generated candidate package with exact public raw replay for the bounded metric calculation. It is not external validation. The current public extended validation blocks Einstein/Nobel discovery scoring because RUWE explains the residual under the added control.
 
-The strongest newly exposed caveat is that RUWE behaves as a major catalog-quality rival proxy. The candidate should be downgraded if that rival fully explains the residual under expert review.
+The strongest newly exposed caveat is now decisive for public scoring: RUWE behaves as a catalog-quality rival proxy and the G/color/RUWE adjustment collapses cross-slice support.
 
 ## Downgrade triggers
 
-Downgrade if the Gaia TAP replay no longer reproduces the metrics, if a stronger catalog-quality or scan-law rival explains the residual, if independent slices fail, or if a reviewer finds the mechanism already known/trivial for this bounded slice.
+The candidate is already downgraded for public discovery scoring. Reconsider only if a new or narrowed candidate survives a preregistered Gaia quality-control rival, independent support, replay, and external expert scrutiny.

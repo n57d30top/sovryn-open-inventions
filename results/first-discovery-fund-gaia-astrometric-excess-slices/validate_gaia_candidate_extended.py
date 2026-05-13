@@ -105,7 +105,13 @@ def tap_url(panel, min_ra, max_ra):
 
 
 def fetch_text(url):
-    with urllib.request.urlopen(url, timeout=45) as response:
+    request = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "sovryn-open-inventions-gaia-review/1.0",
+        },
+    )
+    with urllib.request.urlopen(request, timeout=45) as response:
         payload = response.read()
         text = payload.decode("utf-8")
         return text, {
@@ -113,6 +119,34 @@ def fetch_text(url):
             "contentLength": len(text),
             "sourceHash": hashlib.sha256(payload).hexdigest(),
         }
+
+
+def source_row_snapshot_path(panel_id, slice_id):
+    return (
+        Path("raw-reproduction-bundle")
+        / "extended-source-rows"
+        / panel_id
+        / f"{slice_id}.csv"
+    )
+
+
+def load_or_fetch_text(panel_id, slice_id, url):
+    snapshot = source_row_snapshot_path(panel_id, slice_id)
+    if snapshot.exists():
+        payload = snapshot.read_bytes()
+        return payload.decode("utf-8"), {
+            "status": "local_snapshot",
+            "contentLength": len(payload),
+            "sourceHash": hashlib.sha256(payload).hexdigest(),
+            "snapshotPath": str(snapshot),
+            "replaySource": "public_corpus_extended_source_row_snapshot",
+        }
+    text, receipt = fetch_text(url)
+    snapshot.parent.mkdir(parents=True, exist_ok=True)
+    snapshot.write_text(text, encoding="utf8")
+    receipt["snapshotPath"] = str(snapshot)
+    receipt["replaySource"] = "live_public_gaia_tap_then_public_snapshot"
+    return text, receipt
 
 
 def parse_rows(text, panel_id, slice_id):
@@ -178,6 +212,107 @@ def round_metric(value):
     return round(value * 10000) / 10000
 
 
+def solve_linear_system(matrix, vector):
+    n = len(vector)
+    augmented = [list(matrix[i]) + [vector[i]] for i in range(n)]
+    for column in range(n):
+        pivot = max(range(column, n), key=lambda row: abs(augmented[row][column]))
+        if abs(augmented[pivot][column]) < 1e-12:
+            return None
+        if pivot != column:
+            augmented[column], augmented[pivot] = augmented[pivot], augmented[column]
+        divisor = augmented[column][column]
+        augmented[column] = [value / divisor for value in augmented[column]]
+        for row in range(n):
+            if row == column:
+                continue
+            factor = augmented[row][column]
+            augmented[row] = [
+                value - factor * augmented[column][index]
+                for index, value in enumerate(augmented[row])
+            ]
+    return [augmented[row][-1] for row in range(n)]
+
+
+def linear_residual_control(rows, feature_names):
+    usable = [
+        row
+        for row in rows
+        if all(row.get(name) is not None for name in feature_names)
+        and row.get("excess") is not None
+    ]
+    feature_count = len(feature_names) + 1
+    if len(usable) <= feature_count:
+        return {
+            "featureNames": feature_names,
+            "rowCount": len(usable),
+            "fitSucceeded": False,
+            "residualMagnitude": None,
+            "crossSliceSupport": False,
+            "counterexampleCollapsed": True,
+            "sliceMeans": [],
+        }
+    normal = [[0.0 for _ in range(feature_count)] for _ in range(feature_count)]
+    target = [0.0 for _ in range(feature_count)]
+    for row in usable:
+        features = [1.0] + [float(row[name]) for name in feature_names]
+        y = float(row["excess"])
+        for i in range(feature_count):
+            target[i] += features[i] * y
+            for j in range(feature_count):
+                normal[i][j] += features[i] * features[j]
+    coefficients = solve_linear_system(normal, target)
+    if coefficients is None:
+        return {
+            "featureNames": feature_names,
+            "rowCount": len(usable),
+            "fitSucceeded": False,
+            "residualMagnitude": None,
+            "crossSliceSupport": False,
+            "counterexampleCollapsed": True,
+            "sliceMeans": [],
+        }
+    residuals = []
+    for row in usable:
+        features = [1.0] + [float(row[name]) for name in feature_names]
+        predicted = sum(coefficient * feature for coefficient, feature in zip(coefficients, features))
+        residuals.append({**row, "adjustedResidual": row["excess"] - predicted})
+    slice_means = []
+    for slice_id, _, _ in RA_SLICES:
+        values = [
+            row["adjustedResidual"]
+            for row in residuals
+            if row["sliceId"] == slice_id
+        ]
+        slice_means.append(
+            {
+                "sliceId": slice_id,
+                "adjustedResidualMean": mean(values),
+                "rowCount": len(values),
+            }
+        )
+    residual_magnitude = round_metric(
+        mean([abs(row["adjustedResidualMean"]) for row in slice_means])
+    )
+    positive_slices = sum(
+        1 for row in slice_means if row["adjustedResidualMean"] > 0.05
+    )
+    negative_slices = sum(
+        1 for row in slice_means if row["adjustedResidualMean"] < -0.05
+    )
+    cross_slice_support = max(positive_slices, negative_slices) >= 2
+    return {
+        "featureNames": feature_names,
+        "rowCount": len(usable),
+        "fitSucceeded": True,
+        "coefficients": [round_metric(value) for value in coefficients],
+        "residualMagnitude": residual_magnitude,
+        "crossSliceSupport": cross_slice_support,
+        "counterexampleCollapsed": not cross_slice_support or residual_magnitude < 0.05,
+        "sliceMeans": slice_means,
+    }
+
+
 def expected_excess(row):
     return 0.08 + max(0, row["g"] - 16) * 0.1 + abs(row["color"] - 1.2) * 0.08
 
@@ -209,6 +344,14 @@ def score_panel(rows):
         ["phot_g_mean_magnitude_correlation", "bp_rp_color_correlation", "ruwe_correlation_rival", "visibility_periods_correlation_rival"],
         key=lambda name: baselines[name],
     )
+    adjusted_controls = {
+        "g_color": linear_residual_control(rows, ["g", "color"]),
+        "g_color_ruwe": linear_residual_control(rows, ["g", "color", "ruwe"]),
+        "g_color_ruwe_visibility": linear_residual_control(
+            rows,
+            ["g", "color", "ruwe", "visibilityPeriods"],
+        ),
+    }
     return {
         "rowCount": len(rows),
         "measuredOutcome": round_metric(mean([row["excess"] for row in rows])),
@@ -221,6 +364,7 @@ def score_panel(rows):
         "strongestRival": strongest_rival,
         "strongestRivalScore": baselines[strongest_rival],
         "sliceMeans": slice_means,
+        "adjustedControls": adjusted_controls,
         "crossSliceSupport": max(positive_slices, negative_slices) >= 2,
         "counterexampleCollapsed": not (max(positive_slices, negative_slices) >= 2) or single_slice_dominance > 0.85,
     }
@@ -257,9 +401,19 @@ def classify(panel_results):
         result["metrics"]["baselines"]["ruwe_correlation_rival"] >= 0.5
         for result in panel_results.values()
     )
+    primary_ruwe_adjusted = primary["adjustedControls"]["g_color_ruwe"]
+    ruwe_rival_explains_primary_signal = (
+        primary_ruwe_adjusted["fitSucceeded"]
+        and (
+            primary_ruwe_adjusted["residualMagnitude"] < 0.05
+            or not primary_ruwe_adjusted["crossSliceSupport"]
+        )
+    )
     holdout_supported = holdout_support_count >= 1
     if not exact:
         status = "primary_replay_failed"
+    elif ruwe_rival_explains_primary_signal:
+        status = "extended_validation_rival_explained_signal"
     elif ruwe_rival_strong and not holdout_supported:
         status = "extended_validation_major_rival_and_holdout_caveats"
     elif ruwe_rival_strong:
@@ -273,6 +427,13 @@ def classify(panel_results):
         "primaryExactReplaySucceeded": exact,
         "holdoutSupportedPanelCount": holdout_support_count,
         "ruweRivalStrong": ruwe_rival_strong,
+        "ruweRivalExplainsPrimarySignal": ruwe_rival_explains_primary_signal,
+        "primaryRuweAdjustedResidualMagnitude": primary_ruwe_adjusted[
+            "residualMagnitude"
+        ],
+        "primaryRuweAdjustedCrossSliceSupport": primary_ruwe_adjusted[
+            "crossSliceSupport"
+        ],
         "noExternalValidationClaimed": True,
         "claimStrengthened": False,
     }
@@ -316,11 +477,65 @@ def write_markdown(result):
             "",
             "- The original exact replay remains the authoritative bounded package claim.",
             "- RUWE is treated as a strong catalog-quality rival proxy, not as support for a new astrophysical mechanism.",
+            f"- On the primary panel, residual magnitude after a linear G/color/RUWE control is `{result['decision']['primaryRuweAdjustedResidualMagnitude']}` and cross-slice support is `{str(result['decision']['primaryRuweAdjustedCrossSliceSupport']).lower()}`.",
+            "- If the RUWE-adjusted residual loses cross-slice support or falls below the nontrivial threshold, this public package no longer counts as a discovery-scored candidate.",
             "- Holdout panels are independent public declination slices, but they are still Gaia-internal and do not equal outside expert validation.",
             "- Any strong RUWE/catalo-quality rival should downgrade scientific interpretation unless an external reviewer accepts the narrower residual claim.",
         ]
     )
     Path("EXTENDED_VALIDATION_TABLE.md").write_text("\n".join(lines) + "\n", encoding="utf8")
+    rival_lines = [
+        "# RUWE Rival Closure Results",
+        "",
+        "This file reports the strongest public catalog-quality rival pressure added after raw scientific replay. It does not create a new candidate or strengthen the original claim.",
+        "",
+        f"- Overall status: `{result['decision']['status']}`",
+        f"- RUWE rival explains primary signal: `{str(result['decision']['ruweRivalExplainsPrimarySignal']).lower()}`",
+        f"- Primary G/color/RUWE adjusted residual magnitude: `{result['decision']['primaryRuweAdjustedResidualMagnitude']}`",
+        f"- Primary G/color/RUWE adjusted cross-slice support: `{str(result['decision']['primaryRuweAdjustedCrossSliceSupport']).lower()}`",
+        "",
+        "## Primary Adjusted Controls",
+        "",
+        "| Control | Rows | Residual magnitude | Cross-slice support | Counterexample collapsed |",
+        "| --- | ---: | ---: | --- | --- |",
+    ]
+    primary_controls = result["panels"]["primary_equatorial_replay"]["metrics"][
+        "adjustedControls"
+    ]
+    for control_name, control in primary_controls.items():
+        rival_lines.append(
+            f"| {control_name} | {control['rowCount']} | {control['residualMagnitude']} | {str(control['crossSliceSupport']).lower()} | {str(control['counterexampleCollapsed']).lower()} |"
+        )
+    rival_lines.extend(
+        [
+            "",
+            "## Decision",
+            "",
+            "The public raw replay remains reproducible, but the RUWE-adjusted control collapses the cross-slice residual support. The package should therefore be treated as not discovery-scored until a new candidate or narrowed claim survives this catalog-quality rival.",
+        ]
+    )
+    Path("RUWE_RIVAL_CLOSURE_RESULTS.md").write_text(
+        "\n".join(rival_lines) + "\n",
+        encoding="utf8",
+    )
+    Path("ruwe_rival_closure_result.json").write_text(
+        json.dumps(
+            {
+                "kind": "gaia_ruwe_rival_closure_result",
+                "candidateId": CANDIDATE_ID,
+                "status": result["decision"]["status"],
+                "ruweRivalExplainsPrimarySignal": result["decision"][
+                    "ruweRivalExplainsPrimarySignal"
+                ],
+                "primaryAdjustedControls": primary_controls,
+                "noExternalValidationClaimed": True,
+                "claimStrengthened": False,
+            },
+            indent=2,
+        )
+        + "\n",
+        encoding="utf8",
+    )
 
 
 def main():
@@ -331,8 +546,8 @@ def main():
         panel_receipts = []
         for slice_id, min_ra, max_ra in RA_SLICES:
             url = tap_url(panel, min_ra, max_ra)
-            print(f"fetching {panel['panelId']} {slice_id}", flush=True)
-            text, receipt = fetch_text(url)
+            print(f"loading {panel['panelId']} {slice_id}", flush=True)
+            text, receipt = load_or_fetch_text(panel["panelId"], slice_id, url)
             receipt.update(
                 {
                     "panelId": panel["panelId"],

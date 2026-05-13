@@ -2,7 +2,7 @@
 
 This supplement adds fresh public Gaia TAP panels and stronger rival controls. It does not strengthen the bounded claim and does not claim external validation.
 
-Overall status: `extended_validation_major_rival_caveat`.
+Overall status: `extended_validation_rival_explained_signal`.
 
 | Panel | Purpose | Rows | Measured outcome | Residual magnitude | Strongest rival | Strongest rival score | Cross-slice support | Counterexample collapsed |
 | --- | --- | ---: | ---: | ---: | --- | ---: | --- | --- |
@@ -15,5 +15,7 @@ Overall status: `extended_validation_major_rival_caveat`.
 
 - The original exact replay remains the authoritative bounded package claim.
 - RUWE is treated as a strong catalog-quality rival proxy, not as support for a new astrophysical mechanism.
+- On the primary panel, residual magnitude after a linear G/color/RUWE control is `0.0263` and cross-slice support is `false`.
+- If the RUWE-adjusted residual loses cross-slice support or falls below the nontrivial threshold, this public package no longer counts as a discovery-scored candidate.
 - Holdout panels are independent public declination slices, but they are still Gaia-internal and do not equal outside expert validation.
 - Any strong RUWE/catalo-quality rival should downgrade scientific interpretation unless an external reviewer accepts the narrower residual claim.

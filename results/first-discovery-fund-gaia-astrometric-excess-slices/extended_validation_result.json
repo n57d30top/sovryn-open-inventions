@@ -15,33 +15,41 @@
       },
       "receipts": [
         {
-          "status": 200,
+          "status": "local_snapshot",
           "contentLength": 3765,
           "sourceHash": "94d422c1c7cfe0f613a757173e02c0c921aaaeab402179cff8a01dda0fc4d30c",
+          "snapshotPath": "raw-reproduction-bundle/extended-source-rows/primary_equatorial_replay/ra_000_090.csv",
+          "replaySource": "public_corpus_extended_source_row_snapshot",
           "panelId": "primary_equatorial_replay",
           "sliceId": "ra_000_090",
           "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
         },
         {
-          "status": 200,
+          "status": "local_snapshot",
           "contentLength": 3983,
           "sourceHash": "7b2a0299792a45d3a40e831b30f1f6d99dcef6c6527a49ed8370d493e591e30c",
+          "snapshotPath": "raw-reproduction-bundle/extended-source-rows/primary_equatorial_replay/ra_090_180.csv",
+          "replaySource": "public_corpus_extended_source_row_snapshot",
           "panelId": "primary_equatorial_replay",
           "sliceId": "ra_090_180",
           "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
         },
         {
-          "status": 200,
+          "status": "local_snapshot",
           "contentLength": 4022,
           "sourceHash": "3fdfda798281c590a896d7c33da2e3d5f14b48aed73849b1d1e30266cf53e12b",
+          "snapshotPath": "raw-reproduction-bundle/extended-source-rows/primary_equatorial_replay/ra_180_270.csv",
+          "replaySource": "public_corpus_extended_source_row_snapshot",
           "panelId": "primary_equatorial_replay",
           "sliceId": "ra_180_270",
           "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
         },
         {
-          "status": 200,
+          "status": "local_snapshot",
           "contentLength": 4039,
           "sourceHash": "1356efaa7df82ee49e3a43b35a232b2c6c7880204d93a715d79d20bab9a6503a",
+          "snapshotPath": "raw-reproduction-bundle/extended-source-rows/primary_equatorial_replay/ra_270_360.csv",
+          "replaySource": "public_corpus_extended_source_row_snapshot",
           "panelId": "primary_equatorial_replay",
           "sliceId": "ra_270_360",
           "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
@@ -86,6 +94,128 @@
             "rowCount": 40
           }
         ],
+        "adjustedControls": {
+          "g_color": {
+            "featureNames": [
+              "g",
+              "color"
+            ],
+            "rowCount": 160,
+            "fitSucceeded": true,
+            "coefficients": [
+              -1.5057,
+              0.0938,
+              0.1516
+            ],
+            "residualMagnitude": 0.1246,
+            "crossSliceSupport": true,
+            "counterexampleCollapsed": false,
+            "sliceMeans": [
+              {
+                "sliceId": "ra_000_090",
+                "adjustedResidualMean": 0.18706520922763253,
+                "rowCount": 40
+              },
+              {
+                "sliceId": "ra_090_180",
+                "adjustedResidualMean": 0.06219145191383294,
+                "rowCount": 40
+              },
+              {
+                "sliceId": "ra_180_270",
+                "adjustedResidualMean": -0.18505507568746546,
+                "rowCount": 40
+              },
+              {
+                "sliceId": "ra_270_360",
+                "adjustedResidualMean": -0.0642015854540001,
+                "rowCount": 40
+              }
+            ]
+          },
+          "g_color_ruwe": {
+            "featureNames": [
+              "g",
+              "color",
+              "ruwe"
+            ],
+            "rowCount": 158,
+            "fitSucceeded": true,
+            "coefficients": [
+              -2.5194,
+              0.1202,
+              0.02,
+              0.55
+            ],
+            "residualMagnitude": 0.0263,
+            "crossSliceSupport": false,
+            "counterexampleCollapsed": true,
+            "sliceMeans": [
+              {
+                "sliceId": "ra_000_090",
+                "adjustedResidualMean": 0.04886904494597545,
+                "rowCount": 39
+              },
+              {
+                "sliceId": "ra_090_180",
+                "adjustedResidualMean": -0.021817366174662324,
+                "rowCount": 39
+              },
+              {
+                "sliceId": "ra_180_270",
+                "adjustedResidualMean": -0.030486395649952546,
+                "rowCount": 40
+              },
+              {
+                "sliceId": "ra_270_360",
+                "adjustedResidualMean": 0.004111008847919169,
+                "rowCount": 40
+              }
+            ]
+          },
+          "g_color_ruwe_visibility": {
+            "featureNames": [
+              "g",
+              "color",
+              "ruwe",
+              "visibilityPeriods"
+            ],
+            "rowCount": 158,
+            "fitSucceeded": true,
+            "coefficients": [
+              -1.8628,
+              0.1208,
+              0.0274,
+              0.5538,
+              -0.0462
+            ],
+            "residualMagnitude": 0.0257,
+            "crossSliceSupport": false,
+            "counterexampleCollapsed": true,
+            "sliceMeans": [
+              {
+                "sliceId": "ra_000_090",
+                "adjustedResidualMean": 0.048878881538500854,
+                "rowCount": 39
+              },
+              {
+                "sliceId": "ra_090_180",
+                "adjustedResidualMean": -0.020014753744074014,
+                "rowCount": 39
+              },
+              {
+                "sliceId": "ra_180_270",
+                "adjustedResidualMean": -0.031117862026598157,
+                "rowCount": 40
+              },
+              {
+                "sliceId": "ra_270_360",
+                "adjustedResidualMean": 0.0029753374270348907,
+                "rowCount": 40
+              }
+            ]
+          }
+        },
         "crossSliceSupport": true,
         "counterexampleCollapsed": false
       }
@@ -103,33 +233,41 @@
       },
       "receipts": [
         {
-          "status": 200,
+          "status": "local_snapshot",
           "contentLength": 1984,
           "sourceHash": "958d4557d7ceed2568ea89f9ed1d2ca4a551d8d8817be252daf5334e1cbc356b",
+          "snapshotPath": "raw-reproduction-bundle/extended-source-rows/north_declination_holdout/ra_000_090.csv",
+          "replaySource": "public_corpus_extended_source_row_snapshot",
           "panelId": "north_declination_holdout",
           "sliceId": "ra_000_090",
           "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%2030%20and%20dec%20%3C%2060%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
         },
         {
-          "status": 200,
+          "status": "local_snapshot",
           "contentLength": 2031,
           "sourceHash": "ca23901f5099b6a06fe30604068196ab193d77f7743ac07d28ab10818a66dfab",
+          "snapshotPath": "raw-reproduction-bundle/extended-source-rows/north_declination_holdout/ra_090_180.csv",
+          "replaySource": "public_corpus_extended_source_row_snapshot",
           "panelId": "north_declination_holdout",
           "sliceId": "ra_090_180",
           "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%2030%20and%20dec%20%3C%2060%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
         },
         {
-          "status": 200,
+          "status": "local_snapshot",
           "contentLength": 2017,
           "sourceHash": "abffa186ebd3ab6811df213a868f940b95bfddc7eb827839526a168eaff41662",
+          "snapshotPath": "raw-reproduction-bundle/extended-source-rows/north_declination_holdout/ra_180_270.csv",
+          "replaySource": "public_corpus_extended_source_row_snapshot",
           "panelId": "north_declination_holdout",
           "sliceId": "ra_180_270",
           "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%2030%20and%20dec%20%3C%2060%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
         },
         {
-          "status": 200,
+          "status": "local_snapshot",
           "contentLength": 2017,
           "sourceHash": "27b2a675b0a3e172c8289e38157e1168393796eb506d5df4d0f1bf150a401ab1",
+          "snapshotPath": "raw-reproduction-bundle/extended-source-rows/north_declination_holdout/ra_270_360.csv",
+          "replaySource": "public_corpus_extended_source_row_snapshot",
           "panelId": "north_declination_holdout",
           "sliceId": "ra_270_360",
           "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%2030%20and%20dec%20%3C%2060%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
@@ -174,6 +312,128 @@
             "rowCount": 20
           }
         ],
+        "adjustedControls": {
+          "g_color": {
+            "featureNames": [
+              "g",
+              "color"
+            ],
+            "rowCount": 80,
+            "fitSucceeded": true,
+            "coefficients": [
+              -11.7987,
+              0.4244,
+              3.7736
+            ],
+            "residualMagnitude": 1.6822,
+            "crossSliceSupport": true,
+            "counterexampleCollapsed": false,
+            "sliceMeans": [
+              {
+                "sliceId": "ra_000_090",
+                "adjustedResidualMean": -1.6514949316109575,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_090_180",
+                "adjustedResidualMean": 3.3643459289374653,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_180_270",
+                "adjustedResidualMean": -1.2307961013761206,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_270_360",
+                "adjustedResidualMean": -0.4820548959503821,
+                "rowCount": 20
+              }
+            ]
+          },
+          "g_color_ruwe": {
+            "featureNames": [
+              "g",
+              "color",
+              "ruwe"
+            ],
+            "rowCount": 79,
+            "fitSucceeded": true,
+            "coefficients": [
+              -1.8005,
+              0.0786,
+              0.1691,
+              0.3453
+            ],
+            "residualMagnitude": 0.0774,
+            "crossSliceSupport": true,
+            "counterexampleCollapsed": false,
+            "sliceMeans": [
+              {
+                "sliceId": "ra_000_090",
+                "adjustedResidualMean": -0.07726365714334589,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_090_180",
+                "adjustedResidualMean": 0.1586820738433045,
+                "rowCount": 19
+              },
+              {
+                "sliceId": "ra_180_270",
+                "adjustedResidualMean": -0.06270480874040404,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_270_360",
+                "adjustedResidualMean": -0.01077950426738601,
+                "rowCount": 20
+              }
+            ]
+          },
+          "g_color_ruwe_visibility": {
+            "featureNames": [
+              "g",
+              "color",
+              "ruwe",
+              "visibilityPeriods"
+            ],
+            "rowCount": 79,
+            "fitSucceeded": true,
+            "coefficients": [
+              -1.7583,
+              0.0799,
+              0.1667,
+              0.3445,
+              -0.003
+            ],
+            "residualMagnitude": 0.0746,
+            "crossSliceSupport": false,
+            "counterexampleCollapsed": true,
+            "sliceMeans": [
+              {
+                "sliceId": "ra_000_090",
+                "adjustedResidualMean": -0.09556803151922265,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_090_180",
+                "adjustedResidualMean": 0.15301669908714444,
+                "rowCount": 19
+              },
+              {
+                "sliceId": "ra_180_270",
+                "adjustedResidualMean": -0.03667615016178015,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_270_360",
+                "adjustedResidualMean": -0.013121682451786099,
+                "rowCount": 20
+              }
+            ]
+          }
+        },
         "crossSliceSupport": true,
         "counterexampleCollapsed": true
       }
@@ -191,33 +451,41 @@
       },
       "receipts": [
         {
-          "status": 200,
+          "status": "local_snapshot",
           "contentLength": 2072,
           "sourceHash": "00215b7c6760a15cbf556e9eb4f497b1ff2aaf9d4ce819d579ce595c31951123",
+          "snapshotPath": "raw-reproduction-bundle/extended-source-rows/south_declination_holdout/ra_000_090.csv",
+          "replaySource": "public_corpus_extended_source_row_snapshot",
           "panelId": "south_declination_holdout",
           "sliceId": "ra_000_090",
           "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%20-60%20and%20dec%20%3C%20-30%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
         },
         {
-          "status": 200,
+          "status": "local_snapshot",
           "contentLength": 2011,
           "sourceHash": "6d148219f374ebed4780bc81ea27f9f24b807ec4a2ca1c5d1fb249389bb19c9d",
+          "snapshotPath": "raw-reproduction-bundle/extended-source-rows/south_declination_holdout/ra_090_180.csv",
+          "replaySource": "public_corpus_extended_source_row_snapshot",
           "panelId": "south_declination_holdout",
           "sliceId": "ra_090_180",
           "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%20-60%20and%20dec%20%3C%20-30%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
         },
         {
-          "status": 200,
+          "status": "local_snapshot",
           "contentLength": 2051,
           "sourceHash": "d933c408e9fd307cfabfd9c44b3642997d7b8b70052d290bbe3350a39b97ae72",
+          "snapshotPath": "raw-reproduction-bundle/extended-source-rows/south_declination_holdout/ra_180_270.csv",
+          "replaySource": "public_corpus_extended_source_row_snapshot",
           "panelId": "south_declination_holdout",
           "sliceId": "ra_180_270",
           "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%20-60%20and%20dec%20%3C%20-30%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
         },
         {
-          "status": 200,
+          "status": "local_snapshot",
           "contentLength": 2030,
           "sourceHash": "fb032456a79282374ffded08f2cb3013e80017249f78e245b7be4ec9c969e6da",
+          "snapshotPath": "raw-reproduction-bundle/extended-source-rows/south_declination_holdout/ra_270_360.csv",
+          "replaySource": "public_corpus_extended_source_row_snapshot",
           "panelId": "south_declination_holdout",
           "sliceId": "ra_270_360",
           "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%20-60%20and%20dec%20%3C%20-30%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
@@ -262,6 +530,128 @@
             "rowCount": 20
           }
         ],
+        "adjustedControls": {
+          "g_color": {
+            "featureNames": [
+              "g",
+              "color"
+            ],
+            "rowCount": 80,
+            "fitSucceeded": true,
+            "coefficients": [
+              -0.9239,
+              0.0722,
+              -0.1051
+            ],
+            "residualMagnitude": 0.0857,
+            "crossSliceSupport": true,
+            "counterexampleCollapsed": false,
+            "sliceMeans": [
+              {
+                "sliceId": "ra_000_090",
+                "adjustedResidualMean": 0.009469812511611905,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_090_180",
+                "adjustedResidualMean": 0.1618836671912949,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_180_270",
+                "adjustedResidualMean": -0.0942643688110257,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_270_360",
+                "adjustedResidualMean": -0.07708911089188249,
+                "rowCount": 20
+              }
+            ]
+          },
+          "g_color_ruwe": {
+            "featureNames": [
+              "g",
+              "color",
+              "ruwe"
+            ],
+            "rowCount": 80,
+            "fitSucceeded": true,
+            "coefficients": [
+              -2.0113,
+              0.105,
+              -0.0813,
+              0.4228
+            ],
+            "residualMagnitude": 0.0541,
+            "crossSliceSupport": false,
+            "counterexampleCollapsed": true,
+            "sliceMeans": [
+              {
+                "sliceId": "ra_000_090",
+                "adjustedResidualMean": 0.03460802356599125,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_090_180",
+                "adjustedResidualMean": 0.07355617578678854,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_180_270",
+                "adjustedResidualMean": -0.08355053809293558,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_270_360",
+                "adjustedResidualMean": -0.024613661259842115,
+                "rowCount": 20
+              }
+            ]
+          },
+          "g_color_ruwe_visibility": {
+            "featureNames": [
+              "g",
+              "color",
+              "ruwe",
+              "visibilityPeriods"
+            ],
+            "rowCount": 80,
+            "fitSucceeded": true,
+            "coefficients": [
+              -2.2213,
+              0.1046,
+              -0.0857,
+              0.4189,
+              0.0108
+            ],
+            "residualMagnitude": 0.0376,
+            "crossSliceSupport": false,
+            "counterexampleCollapsed": true,
+            "sliceMeans": [
+              {
+                "sliceId": "ra_000_090",
+                "adjustedResidualMean": 0.055751288810844034,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_090_180",
+                "adjustedResidualMean": 0.01940083891091308,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_180_270",
+                "adjustedResidualMean": -0.06641154601764562,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_270_360",
+                "adjustedResidualMean": -0.008740581704112935,
+                "rowCount": 20
+              }
+            ]
+          }
+        },
         "crossSliceSupport": true,
         "counterexampleCollapsed": false
       }
@@ -279,33 +669,41 @@
       },
       "receipts": [
         {
-          "status": 200,
+          "status": "local_snapshot",
           "contentLength": 1979,
           "sourceHash": "f4ba9c37c2338a5d346faa7f5ef5f09af56f48693e3ef26fd727e2313bdaab8c",
+          "snapshotPath": "raw-reproduction-bundle/extended-source-rows/bright_magnitude_control/ra_000_090.csv",
+          "replaySource": "public_corpus_extended_source_row_snapshot",
           "panelId": "bright_magnitude_control",
           "sliceId": "ra_000_090",
           "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2012%20and%2014%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
         },
         {
-          "status": 200,
+          "status": "local_snapshot",
           "contentLength": 2044,
           "sourceHash": "8a34939d41f87b3cec37bacf62e87be7276f08b21ea5b4bf4605166159eca86d",
+          "snapshotPath": "raw-reproduction-bundle/extended-source-rows/bright_magnitude_control/ra_090_180.csv",
+          "replaySource": "public_corpus_extended_source_row_snapshot",
           "panelId": "bright_magnitude_control",
           "sliceId": "ra_090_180",
           "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2012%20and%2014%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
         },
         {
-          "status": 200,
+          "status": "local_snapshot",
           "contentLength": 2097,
           "sourceHash": "641f2ba94e64f054fbc0f6c254e46e48a23942f01a750fd7f583e72ac7d49ff8",
+          "snapshotPath": "raw-reproduction-bundle/extended-source-rows/bright_magnitude_control/ra_180_270.csv",
+          "replaySource": "public_corpus_extended_source_row_snapshot",
           "panelId": "bright_magnitude_control",
           "sliceId": "ra_180_270",
           "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2012%20and%2014%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
         },
         {
-          "status": 200,
+          "status": "local_snapshot",
           "contentLength": 2073,
           "sourceHash": "3d6e63af027eecfc508441e705e89d2b30c8ac9370fa91bc92d966f509736d16",
+          "snapshotPath": "raw-reproduction-bundle/extended-source-rows/bright_magnitude_control/ra_270_360.csv",
+          "replaySource": "public_corpus_extended_source_row_snapshot",
           "panelId": "bright_magnitude_control",
           "sliceId": "ra_270_360",
           "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2012%20and%2014%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
@@ -350,6 +748,128 @@
             "rowCount": 20
           }
         ],
+        "adjustedControls": {
+          "g_color": {
+            "featureNames": [
+              "g",
+              "color"
+            ],
+            "rowCount": 80,
+            "fitSucceeded": true,
+            "coefficients": [
+              0.3442,
+              -0.0173,
+              0.0154
+            ],
+            "residualMagnitude": 0.0459,
+            "crossSliceSupport": false,
+            "counterexampleCollapsed": true,
+            "sliceMeans": [
+              {
+                "sliceId": "ra_000_090",
+                "adjustedResidualMean": -0.03426316648228442,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_090_180",
+                "adjustedResidualMean": 0.09184651827838575,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_180_270",
+                "adjustedResidualMean": -0.02692236389371936,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_270_360",
+                "adjustedResidualMean": -0.030660987902381927,
+                "rowCount": 20
+              }
+            ]
+          },
+          "g_color_ruwe": {
+            "featureNames": [
+              "g",
+              "color",
+              "ruwe"
+            ],
+            "rowCount": 80,
+            "fitSucceeded": true,
+            "coefficients": [
+              0.3466,
+              -0.0307,
+              -0.0673,
+              0.1457
+            ],
+            "residualMagnitude": 0.0065,
+            "crossSliceSupport": false,
+            "counterexampleCollapsed": true,
+            "sliceMeans": [
+              {
+                "sliceId": "ra_000_090",
+                "adjustedResidualMean": 0.003260863440308563,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_090_180",
+                "adjustedResidualMean": -0.004578671518803103,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_180_270",
+                "adjustedResidualMean": 0.009742012396146787,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_270_360",
+                "adjustedResidualMean": -0.008424204317652211,
+                "rowCount": 20
+              }
+            ]
+          },
+          "g_color_ruwe_visibility": {
+            "featureNames": [
+              "g",
+              "color",
+              "ruwe",
+              "visibilityPeriods"
+            ],
+            "rowCount": 80,
+            "fitSucceeded": true,
+            "coefficients": [
+              0.4433,
+              -0.0314,
+              -0.0707,
+              0.1457,
+              -0.0056
+            ],
+            "residualMagnitude": 0.0053,
+            "crossSliceSupport": false,
+            "counterexampleCollapsed": true,
+            "sliceMeans": [
+              {
+                "sliceId": "ra_000_090",
+                "adjustedResidualMean": 0.002170817563809437,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_090_180",
+                "adjustedResidualMean": -0.003958493919496819,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_180_270",
+                "adjustedResidualMean": 0.008455962575288422,
+                "rowCount": 20
+              },
+              {
+                "sliceId": "ra_270_360",
+                "adjustedResidualMean": -0.0066682862196011895,
+                "rowCount": 20
+              }
+            ]
+          }
+        },
         "crossSliceSupport": false,
         "counterexampleCollapsed": true
       }
@@ -357,129 +877,161 @@
   },
   "receipts": [
     {
-      "status": 200,
+      "status": "local_snapshot",
       "contentLength": 3765,
       "sourceHash": "94d422c1c7cfe0f613a757173e02c0c921aaaeab402179cff8a01dda0fc4d30c",
+      "snapshotPath": "raw-reproduction-bundle/extended-source-rows/primary_equatorial_replay/ra_000_090.csv",
+      "replaySource": "public_corpus_extended_source_row_snapshot",
       "panelId": "primary_equatorial_replay",
       "sliceId": "ra_000_090",
       "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
     },
     {
-      "status": 200,
+      "status": "local_snapshot",
       "contentLength": 3983,
       "sourceHash": "7b2a0299792a45d3a40e831b30f1f6d99dcef6c6527a49ed8370d493e591e30c",
+      "snapshotPath": "raw-reproduction-bundle/extended-source-rows/primary_equatorial_replay/ra_090_180.csv",
+      "replaySource": "public_corpus_extended_source_row_snapshot",
       "panelId": "primary_equatorial_replay",
       "sliceId": "ra_090_180",
       "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
     },
     {
-      "status": 200,
+      "status": "local_snapshot",
       "contentLength": 4022,
       "sourceHash": "3fdfda798281c590a896d7c33da2e3d5f14b48aed73849b1d1e30266cf53e12b",
+      "snapshotPath": "raw-reproduction-bundle/extended-source-rows/primary_equatorial_replay/ra_180_270.csv",
+      "replaySource": "public_corpus_extended_source_row_snapshot",
       "panelId": "primary_equatorial_replay",
       "sliceId": "ra_180_270",
       "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
     },
     {
-      "status": 200,
+      "status": "local_snapshot",
       "contentLength": 4039,
       "sourceHash": "1356efaa7df82ee49e3a43b35a232b2c6c7880204d93a715d79d20bab9a6503a",
+      "snapshotPath": "raw-reproduction-bundle/extended-source-rows/primary_equatorial_replay/ra_270_360.csv",
+      "replaySource": "public_corpus_extended_source_row_snapshot",
       "panelId": "primary_equatorial_replay",
       "sliceId": "ra_270_360",
       "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2040%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
     },
     {
-      "status": 200,
+      "status": "local_snapshot",
       "contentLength": 1984,
       "sourceHash": "958d4557d7ceed2568ea89f9ed1d2ca4a551d8d8817be252daf5334e1cbc356b",
+      "snapshotPath": "raw-reproduction-bundle/extended-source-rows/north_declination_holdout/ra_000_090.csv",
+      "replaySource": "public_corpus_extended_source_row_snapshot",
       "panelId": "north_declination_holdout",
       "sliceId": "ra_000_090",
       "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%2030%20and%20dec%20%3C%2060%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
     },
     {
-      "status": 200,
+      "status": "local_snapshot",
       "contentLength": 2031,
       "sourceHash": "ca23901f5099b6a06fe30604068196ab193d77f7743ac07d28ab10818a66dfab",
+      "snapshotPath": "raw-reproduction-bundle/extended-source-rows/north_declination_holdout/ra_090_180.csv",
+      "replaySource": "public_corpus_extended_source_row_snapshot",
       "panelId": "north_declination_holdout",
       "sliceId": "ra_090_180",
       "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%2030%20and%20dec%20%3C%2060%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
     },
     {
-      "status": 200,
+      "status": "local_snapshot",
       "contentLength": 2017,
       "sourceHash": "abffa186ebd3ab6811df213a868f940b95bfddc7eb827839526a168eaff41662",
+      "snapshotPath": "raw-reproduction-bundle/extended-source-rows/north_declination_holdout/ra_180_270.csv",
+      "replaySource": "public_corpus_extended_source_row_snapshot",
       "panelId": "north_declination_holdout",
       "sliceId": "ra_180_270",
       "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%2030%20and%20dec%20%3C%2060%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
     },
     {
-      "status": 200,
+      "status": "local_snapshot",
       "contentLength": 2017,
       "sourceHash": "27b2a675b0a3e172c8289e38157e1168393796eb506d5df4d0f1bf150a401ab1",
+      "snapshotPath": "raw-reproduction-bundle/extended-source-rows/north_declination_holdout/ra_270_360.csv",
+      "replaySource": "public_corpus_extended_source_row_snapshot",
       "panelId": "north_declination_holdout",
       "sliceId": "ra_270_360",
       "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%2030%20and%20dec%20%3C%2060%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
     },
     {
-      "status": 200,
+      "status": "local_snapshot",
       "contentLength": 2072,
       "sourceHash": "00215b7c6760a15cbf556e9eb4f497b1ff2aaf9d4ce819d579ce595c31951123",
+      "snapshotPath": "raw-reproduction-bundle/extended-source-rows/south_declination_holdout/ra_000_090.csv",
+      "replaySource": "public_corpus_extended_source_row_snapshot",
       "panelId": "south_declination_holdout",
       "sliceId": "ra_000_090",
       "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%20-60%20and%20dec%20%3C%20-30%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
     },
     {
-      "status": 200,
+      "status": "local_snapshot",
       "contentLength": 2011,
       "sourceHash": "6d148219f374ebed4780bc81ea27f9f24b807ec4a2ca1c5d1fb249389bb19c9d",
+      "snapshotPath": "raw-reproduction-bundle/extended-source-rows/south_declination_holdout/ra_090_180.csv",
+      "replaySource": "public_corpus_extended_source_row_snapshot",
       "panelId": "south_declination_holdout",
       "sliceId": "ra_090_180",
       "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%20-60%20and%20dec%20%3C%20-30%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
     },
     {
-      "status": 200,
+      "status": "local_snapshot",
       "contentLength": 2051,
       "sourceHash": "d933c408e9fd307cfabfd9c44b3642997d7b8b70052d290bbe3350a39b97ae72",
+      "snapshotPath": "raw-reproduction-bundle/extended-source-rows/south_declination_holdout/ra_180_270.csv",
+      "replaySource": "public_corpus_extended_source_row_snapshot",
       "panelId": "south_declination_holdout",
       "sliceId": "ra_180_270",
       "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%20-60%20and%20dec%20%3C%20-30%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
     },
     {
-      "status": 200,
+      "status": "local_snapshot",
       "contentLength": 2030,
       "sourceHash": "fb032456a79282374ffded08f2cb3013e80017249f78e245b7be4ec9c969e6da",
+      "snapshotPath": "raw-reproduction-bundle/extended-source-rows/south_declination_holdout/ra_270_360.csv",
+      "replaySource": "public_corpus_extended_source_row_snapshot",
       "panelId": "south_declination_holdout",
       "sliceId": "ra_270_360",
       "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%20-60%20and%20dec%20%3C%20-30%20and%20phot_g_mean_mag%20between%2014%20and%2020%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
     },
     {
-      "status": 200,
+      "status": "local_snapshot",
       "contentLength": 1979,
       "sourceHash": "f4ba9c37c2338a5d346faa7f5ef5f09af56f48693e3ef26fd727e2313bdaab8c",
+      "snapshotPath": "raw-reproduction-bundle/extended-source-rows/bright_magnitude_control/ra_000_090.csv",
+      "replaySource": "public_corpus_extended_source_row_snapshot",
       "panelId": "bright_magnitude_control",
       "sliceId": "ra_000_090",
       "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%200%20and%20ra%20%3C%2090%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2012%20and%2014%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
     },
     {
-      "status": 200,
+      "status": "local_snapshot",
       "contentLength": 2044,
       "sourceHash": "8a34939d41f87b3cec37bacf62e87be7276f08b21ea5b4bf4605166159eca86d",
+      "snapshotPath": "raw-reproduction-bundle/extended-source-rows/bright_magnitude_control/ra_090_180.csv",
+      "replaySource": "public_corpus_extended_source_row_snapshot",
       "panelId": "bright_magnitude_control",
       "sliceId": "ra_090_180",
       "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%2090%20and%20ra%20%3C%20180%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2012%20and%2014%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
     },
     {
-      "status": 200,
+      "status": "local_snapshot",
       "contentLength": 2097,
       "sourceHash": "641f2ba94e64f054fbc0f6c254e46e48a23942f01a750fd7f583e72ac7d49ff8",
+      "snapshotPath": "raw-reproduction-bundle/extended-source-rows/bright_magnitude_control/ra_180_270.csv",
+      "replaySource": "public_corpus_extended_source_row_snapshot",
       "panelId": "bright_magnitude_control",
       "sliceId": "ra_180_270",
       "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20180%20and%20ra%20%3C%20270%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2012%20and%2014%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
     },
     {
-      "status": 200,
+      "status": "local_snapshot",
       "contentLength": 2073,
       "sourceHash": "3d6e63af027eecfc508441e705e89d2b30c8ac9370fa91bc92d966f509736d16",
+      "snapshotPath": "raw-reproduction-bundle/extended-source-rows/bright_magnitude_control/ra_270_360.csv",
+      "replaySource": "public_corpus_extended_source_row_snapshot",
       "panelId": "bright_magnitude_control",
       "sliceId": "ra_270_360",
       "sourceUrl": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=csv&QUERY=select%20top%2020%20source_id%2Cra%2Cdec%2Cphot_g_mean_mag%2Cbp_rp%2C%20astrometric_excess_noise%2Cruwe%2Cvisibility_periods_used%20from%20gaiaedr3.gaia_source%20where%20ra%20%3E%3D%20270%20and%20ra%20%3C%20360%20and%20dec%20%3E%20-30%20and%20dec%20%3C%2030%20and%20phot_g_mean_mag%20between%2012%20and%2014%20and%20bp_rp%20is%20not%20null%20and%20astrometric_excess_noise%20is%20not%20null%20order%20by%20source_id"
@@ -495,10 +1047,13 @@
     }
   },
   "decision": {
-    "status": "extended_validation_major_rival_caveat",
+    "status": "extended_validation_rival_explained_signal",
     "primaryExactReplaySucceeded": true,
     "holdoutSupportedPanelCount": 1,
     "ruweRivalStrong": true,
+    "ruweRivalExplainsPrimarySignal": true,
+    "primaryRuweAdjustedResidualMagnitude": 0.0263,
+    "primaryRuweAdjustedCrossSliceSupport": false,
     "noExternalValidationClaimed": true,
     "claimStrengthened": false
   },

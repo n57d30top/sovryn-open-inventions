@@ -1,0 +1,130 @@
+{
+  "kind": "gaia_ruwe_rival_closure_result",
+  "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6",
+  "status": "extended_validation_rival_explained_signal",
+  "ruweRivalExplainsPrimarySignal": true,
+  "primaryAdjustedControls": {
+    "g_color": {
+      "featureNames": [
+        "g",
+        "color"
+      ],
+      "rowCount": 160,
+      "fitSucceeded": true,
+      "coefficients": [
+        -1.5057,
+        0.0938,
+        0.1516
+      ],
+      "residualMagnitude": 0.1246,
+      "crossSliceSupport": true,
+      "counterexampleCollapsed": false,
+      "sliceMeans": [
+        {
+          "sliceId": "ra_000_090",
+          "adjustedResidualMean": 0.18706520922763253,
+          "rowCount": 40
+        },
+        {
+          "sliceId": "ra_090_180",
+          "adjustedResidualMean": 0.06219145191383294,
+          "rowCount": 40
+        },
+        {
+          "sliceId": "ra_180_270",
+          "adjustedResidualMean": -0.18505507568746546,
+          "rowCount": 40
+        },
+        {
+          "sliceId": "ra_270_360",
+          "adjustedResidualMean": -0.0642015854540001,
+          "rowCount": 40
+        }
+      ]
+    },
+    "g_color_ruwe": {
+      "featureNames": [
+        "g",
+        "color",
+        "ruwe"
+      ],
+      "rowCount": 158,
+      "fitSucceeded": true,
+      "coefficients": [
+        -2.5194,
+        0.1202,
+        0.02,
+        0.55
+      ],
+      "residualMagnitude": 0.0263,
+      "crossSliceSupport": false,
+      "counterexampleCollapsed": true,
+      "sliceMeans": [
+        {
+          "sliceId": "ra_000_090",
+          "adjustedResidualMean": 0.04886904494597545,
+          "rowCount": 39
+        },
+        {
+          "sliceId": "ra_090_180",
+          "adjustedResidualMean": -0.021817366174662324,
+          "rowCount": 39
+        },
+        {
+          "sliceId": "ra_180_270",
+          "adjustedResidualMean": -0.030486395649952546,
+          "rowCount": 40
+        },
+        {
+          "sliceId": "ra_270_360",
+          "adjustedResidualMean": 0.004111008847919169,
+          "rowCount": 40
+        }
+      ]
+    },
+    "g_color_ruwe_visibility": {
+      "featureNames": [
+        "g",
+        "color",
+        "ruwe",
+        "visibilityPeriods"
+      ],
+      "rowCount": 158,
+      "fitSucceeded": true,
+      "coefficients": [
+        -1.8628,
+        0.1208,
+        0.0274,
+        0.5538,
+        -0.0462
+      ],
+      "residualMagnitude": 0.0257,
+      "crossSliceSupport": false,
+      "counterexampleCollapsed": true,
+      "sliceMeans": [
+        {
+          "sliceId": "ra_000_090",
+          "adjustedResidualMean": 0.048878881538500854,
+          "rowCount": 39
+        },
+        {
+          "sliceId": "ra_090_180",
+          "adjustedResidualMean": -0.020014753744074014,
+          "rowCount": 39
+        },
+        {
+          "sliceId": "ra_180_270",
+          "adjustedResidualMean": -0.031117862026598157,
+          "rowCount": 40
+        },
+        {
+          "sliceId": "ra_270_360",
+          "adjustedResidualMean": 0.0029753374270348907,
+          "rowCount": 40
+        }
+      ]
+    }
+  },
+  "noExternalValidationClaimed": true,
+  "claimStrengthened": false
+}

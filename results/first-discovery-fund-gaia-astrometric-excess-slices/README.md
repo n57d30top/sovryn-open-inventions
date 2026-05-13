@@ -6,8 +6,10 @@ This public package exposes a bounded, raw-replayable Gaia EDR3 astrometric-exce
 
 - Candidate ID: `DISCOVERY-LIFT-INSIGHT-HARD-GEN-GAIA-ASTROMETRIC-EXCESS-SIGNIFICANCE-GE-0F9E75E885B6`
 - Product FundClass: `externally_review_ready_discovery_candidate`
-- Public review status: `external_review_ready_raw_scientific_reproduction_succeeded_caveated_no_external_validation`
-- Extended validation status: `extended_validation_major_rival_caveat`
+- Public corpus FundClass: `not_discovery_scored_rival_explained_signal`
+- Public review status: `raw_scientific_reproduction_succeeded_but_rival_explained_signal_no_external_validation`
+- Extended validation status: `extended_validation_rival_explained_signal`
+- Counts for Einstein/Nobel discovery score: `false`
 - Domain: `astrophysics_open_catalog_anomalies`
 - Raw source: Gaia EDR3 TAP public archive
 - Rows: 160, from four RA slices with 40 rows per slice
@@ -21,7 +23,11 @@ For the exact public Gaia EDR3 TAP slices used here, mean astrometric_excess_noi
 - The standalone script fetches the public Gaia TAP rows and recomputes the Product-bound metrics exactly.
 - The Product runtime evidence is copied as public-safe evidence.
 - The raw source-cache metrics match the generator runtime evidence: measured outcome `0.4256`, residual magnitude `0.1343`.
-- The extended validation supplement preserves exact replay, adds north/south declination holdouts and a bright-magnitude control, and identifies RUWE as a major catalog-quality rival caveat.
+- The extended validation supplement preserves exact replay, adds north/south declination holdouts and a bright-magnitude control, and finds that the RUWE catalog-quality rival explains/collapses the primary cross-slice residual support.
+
+## Current Public Decision
+
+The raw replay is still useful and exact, but the candidate no longer counts as a discovery-scored public result. A linear G/color/RUWE control on the primary panel lowers the residual magnitude to `0.0263` and removes cross-slice support. The package is retained as an inspectable killed/downgraded candidate and as negative evidence for future search.
 
 ## What Is Not Claimed
 
@@ -49,4 +55,4 @@ For additional review pressure, run:
 python3 validate_gaia_candidate_extended.py
 ```
 
-That script writes `extended_validation_result.json` and `EXTENDED_VALIDATION_TABLE.md`. It does not strengthen the claim; it records the current major rival caveat.
+That script writes `extended_validation_result.json`, `EXTENDED_VALIDATION_TABLE.md`, `ruwe_rival_closure_result.json`, and `RUWE_RIVAL_CLOSURE_RESULTS.md`. It does not strengthen the claim; it records that the current public RUWE rival explains the primary signal.
