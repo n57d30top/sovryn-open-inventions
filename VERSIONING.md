@@ -231,6 +231,7 @@ can supersede earlier entries while preserving audit history.
 - field-grade-autonomous-science-trial: latest field-grade-autonomous-science-trial-v3; versions field-grade-autonomous-science-trial, field-grade-autonomous-science-trial-v2, field-grade-autonomous-science-trial-v3
 - first-discovery-fund-gaia-astrometric-excess-slices: latest first-discovery-fund-gaia-astrometric-excess-slices; versions first-discovery-fund-gaia-astrometric-excess-slices
 - first-discovery-fund-matbench-descriptor-transfer: latest first-discovery-fund-matbench-descriptor-transfer; versions first-discovery-fund-matbench-descriptor-transfer
+- first-formal-discovery-fund-graph-minor-obstruction-boundary: latest first-formal-discovery-fund-graph-minor-obstruction-boundary; versions first-formal-discovery-fund-graph-minor-obstruction-boundary
 - first-fund-scipy-runtime-reproduction-external-review-ready: latest first-fund-scipy-runtime-reproduction-external-review-ready; versions first-fund-scipy-runtime-reproduction-external-review-ready
 - formal-stage01-domain-scope: latest formal-stage01-domain-scope; versions formal-stage01-domain-scope
 - formal-stage02-candidate-universe: latest formal-stage02-candidate-universe; versions formal-stage02-candidate-universe

@@ -1,8 +1,8 @@
 {
   "kind": "public_corpus_status",
-  "generatedAt": "2026-05-13T02:47:28.121Z",
+  "generatedAt": "2026-05-13T08:43:13.560Z",
   "statusCounts": {
-    "autopublished": 579,
+    "autopublished": 580,
     "benchmark_challenge_negative_result": 4,
     "dataset_quality_audit_supported": 7,
     "external_extension_supported": 1,
@@ -23,7 +23,7 @@
     "v1_candidate_with_limits": 1
   },
   "lifecycleCounts": {
-    "autopublished": 584,
+    "autopublished": 585,
     "needs_revision": 5,
     "showcase": 3,
     "showcase_science": 10,
@@ -62,6 +62,7 @@
     "formal pattern and conjecture discovery v1": 18,
     "formal predictive mechanism science": 6,
     "formal proof assistant route v0": 16,
+    "formal_mathematics_conjecture_refutation": 1,
     "GBE-CAND-018 benchmark/protocol evidence-triad triage": 6,
     "Great-Benefit Discovery Candidate Factory v1": 20,
     "Hard External Workload Pilot for Cross-Domain Evidence Routing OS": 14,
@@ -116,5 +117,5 @@
     "time-series-tabular-benchmark": 1,
     "tool-backed-dataset-quality-audit": 1
   },
-  "evidenceHash": "691ae2ea4233228e4b3d56e2aeb936d6a44ff46f7e925a1d550199dfa1ecb380"
+  "evidenceHash": "715638f24e4d66883625d611180a9100089d4a1ed1f233f9144c4e73d83f6b41"
 }

@@ -1,14 +1,14 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-13T02:47:28.121Z",
+  "generatedAt": "2026-05-13T08:43:13.560Z",
   "qualityCounts": {
     "excellent": 5,
     "good": 603,
-    "reviewable": 7,
+    "reviewable": 8,
     "weak": 1
   },
   "lifecycleCounts": {
-    "autopublished": 584,
+    "autopublished": 585,
     "needs_revision": 5,
     "showcase": 3,
     "showcase_science": 10,
@@ -3332,6 +3332,20 @@
       "reproducibilityScore": 20,
       "publicationSafetyScore": 100,
       "specificityScore": 78
+    },
+    {
+      "slug": "first-formal-discovery-fund-graph-minor-obstruction-boundary",
+      "qualityLabel": "reviewable",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "first-formal-discovery-fund-graph-minor-obstruction-boundary",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 86,
+      "reproducibilityScore": 84,
+      "publicationSafetyScore": 98,
+      "specificityScore": 86
     },
     {
       "slug": "first-fund-scipy-runtime-reproduction-external-review-ready",
@@ -8640,5 +8654,5 @@
       "specificityScore": 94
     }
   ],
-  "evidenceHash": "d653537f0ad44f6823e000dd0ef23426ed1d0bef47f34d7ba18a792b6f0ac3bc"
+  "evidenceHash": "e02d922e17741fbd0b538cfcdc92c8ec8cf55f4bb841b728124978407ebc654f"
 }

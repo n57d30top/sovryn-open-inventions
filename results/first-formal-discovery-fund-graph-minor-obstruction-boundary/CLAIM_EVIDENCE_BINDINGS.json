@@ -1,0 +1,257 @@
+{
+  "kind": "claim_evidence_bindings",
+  "fundPackageContractVersion": 2,
+  "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B8436316",
+  "claim": "The measured public formal_mathematics_conjecture_refutation target-outcome residual for HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE-GENERATOR-OUTPUT-01 has scientific significance: public graph minor obstruction residual survives size density degree sequence treewidth proxy known family and generated counterexample controls changes interpretation of the bounded measured target slice by surviving baseline, rival, holdout, replay, counterexample, recurrence, and mechanism pressure checks. The scope is limited to the cited public targets and the recorded evidence package.",
+  "domain": "formal_mathematics_conjecture_refutation",
+  "sourceEvidenceRefs": [
+    "https://hog.grinvin.org/",
+    "https://hog.grinvin.org/#minor-obstruction-anchor-1",
+    "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/os-v1-stage09-release-candidate-package",
+    "https://hog.grinvin.org/#baseline",
+    "https://hog.grinvin.org/#rival-theory",
+    "https://hog.grinvin.org/#holdout",
+    "https://hog.grinvin.org/#replay",
+    "https://hog.grinvin.org/#counterexample",
+    ".sovryn/discovery-daemon/generator-families/runtime-evidence/bounded_graph_minor_obstruction_significance_generator-output-01.json",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B8436316.json#nontrivial_pattern_test",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B8436316.json#baseline_resistance_test",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B8436316.json#rival_discrimination_test",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B8436316.json#holdout_feasibility_test",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B8436316.json#replay_feasibility_test",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B8436316.json#counterexample_search",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B8436316.json#proof_or_mechanism_pressure_test",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/KILL_WEEK_RESULTS.json"
+  ],
+  "externalSignificanceEvidenceRefs": [
+    "https://hog.grinvin.org/",
+    "https://hog.grinvin.org/#minor-obstruction-anchor-1",
+    "https://hog.grinvin.org/#baseline",
+    "https://hog.grinvin.org/#rival-theory",
+    "https://hog.grinvin.org/#holdout",
+    "https://hog.grinvin.org/#replay",
+    "https://hog.grinvin.org/#counterexample"
+  ],
+  "identityLedgerRefs": [
+    ".sovryn/discovery-daemon/candidate-identity-ledger.json#DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84"
+  ],
+  "hardSeedRefs": [
+    ".sovryn/discovery-daemon/generator-pressure/PRESSURE_ROWS.json#HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE-GENERATOR-OUTPUT-01"
+  ],
+  "evidenceRefs": [
+    "PAPER.md#evidence-summary",
+    "METHOD.md#method",
+    "REPRODUCE.md#replay",
+    "LIMITATIONS.md#limitations",
+    "FORMAL_REPRODUCTION_RESULT.json#productMeasuredOutcome",
+    "raw-reproduction-bundle/formal-object-check-manifest.json#checks",
+    "raw-reproduction-bundle/formal-source-cache.json#measuredOutcome"
+  ],
+  "predictionRefs": [
+    "raw-reproduction-bundle/frozen-prediction-ledger.json#predictions"
+  ],
+  "holdoutRefs": [
+    "raw-reproduction-bundle/formal-object-check-manifest.json#holdoutSlice",
+    "FORMAL_REPRODUCTION_RESULT.json#recomputedFromManifestRows"
+  ],
+  "counterexampleRefs": [
+    "raw-reproduction-bundle/formal-object-check-manifest.json#counterexampleCollapsed",
+    "raw-reproduction-bundle/kill-week-results.json#attacks"
+  ],
+  "replayRefs": [
+    "REPRODUCE.md#replay",
+    "FORMAL_REPRODUCTION_RESULT.json#status"
+  ],
+  "killWeekRefs": [
+    "raw-reproduction-bundle/kill-week-results.json"
+  ],
+  "baselineRefs": [
+    ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/CLAIM_EVIDENCE_BINDINGS.json#baseline",
+    "https://hog.grinvin.org/#baseline"
+  ],
+  "rivalRefs": [
+    ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/CLAIM_EVIDENCE_BINDINGS.json#rival",
+    "https://hog.grinvin.org/#rival-theory"
+  ],
+  "mechanismPressureRefs": [
+    ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/METHOD.md#mechanism-pressure"
+  ],
+  "localPredictionRefs": [
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#predictions",
+    ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/CLAIM_EVIDENCE_BINDINGS.json#predictionLedger",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-01",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-02",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-03",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-04",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-05",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-06",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-07",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-08",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-09",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-10",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-11",
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-12"
+  ],
+  "localHoldoutRefs": [
+    ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/CLAIM_EVIDENCE_BINDINGS.json#holdoutEvidenceRefs",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B8436316.json#holdout_feasibility_test",
+    "https://hog.grinvin.org/#holdout"
+  ],
+  "localCounterexampleRefs": [
+    ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/CLAIM_EVIDENCE_BINDINGS.json#counterexampleEvidenceRefs",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B8436316.json#counterexample_search",
+    "https://hog.grinvin.org/#counterexample"
+  ],
+  "localReplayRefs": [
+    ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/CLAIM_EVIDENCE_BINDINGS.json#replayEvidenceRefs",
+    ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/REPRODUCE.md#replay",
+    ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B8436316.json#replay_feasibility_test",
+    "https://hog.grinvin.org/#replay"
+  ],
+  "localKillWeekRefs": [
+    ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/KILL_WEEK_RESULTS.json#killWeek",
+    ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/CLAIM_EVIDENCE_BINDINGS.json#killWeek"
+  ],
+  "methodRef": "METHOD.md",
+  "reproduceRef": "REPRODUCE.md",
+  "limitationsRef": "LIMITATIONS.md",
+  "fundCandidateDraftRef": ".sovryn/discovery-daemon/fund-candidate-drafts/DISCOVERY-LIFT-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B843.json",
+  "noOverclaim": true,
+  "fundClass": "externally_review_ready_discovery_candidate",
+  "countsForEinsteinNobelDiscoveryScore": true,
+  "fundClassAssessment": {
+    "kind": "fund_class_assessment",
+    "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B8436316",
+    "fundClass": "externally_review_ready_discovery_candidate",
+    "validFundCandidate": true,
+    "countsForEinsteinNobelDiscoveryScore": true,
+    "discoveryGate": {
+      "nontrivialNewInsightAcrossRealTargets": true,
+      "domainScientificSignificance": true,
+      "evidenceBeyondRuntimeReproduction": true,
+      "notOnlyToolPipelineOrReproduction": true
+    },
+    "rationale": [
+      "The existing Fund Gate may remain valid for the bounded package.",
+      "This class is eligible for Einstein/Nobel discovery scoring.",
+      "Assigned FundClass: externally_review_ready_discovery_candidate."
+    ],
+    "evidenceHash": "44a7357a8d6a4f462304d31bb005fb1fb65de0b764c1a5dd49abeb7799242834"
+  },
+  "fundCandidate": {
+    "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B8436316",
+    "claim": "The measured public formal_mathematics_conjecture_refutation target-outcome residual for HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE-GENERATOR-OUTPUT-01 has scientific significance: public graph minor obstruction residual survives size density degree sequence treewidth proxy known family and generated counterexample controls changes interpretation of the bounded measured target slice by surviving baseline, rival, holdout, replay, counterexample, recurrence, and mechanism pressure checks. The scope is limited to the cited public targets and the recorded evidence package.",
+    "domain": "formal_mathematics_conjecture_refutation",
+    "requestedFundLabel": "externally_review_ready_candidate",
+    "whyItMatters": "This lifted package binds a precise target-outcome claim to the already recorded package, baseline, rival, holdout, replay, counterexample, mechanism-pressure, prediction, kill-week, identity, and hard-seed refs. It is an internal evidence package and does not notify unless the unchanged FundClass gate becomes discovery-scored.",
+    "rivalTheories": [
+      ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/CLAIM_EVIDENCE_BINDINGS.json#rival",
+      "https://hog.grinvin.org/#rival-theory"
+    ],
+    "predictionOutcomes": [
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#predictions",
+      ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/CLAIM_EVIDENCE_BINDINGS.json#predictionLedger",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-01",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-02",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-03",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-04",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-05",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-06",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-07",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-08",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-09",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-10",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-11",
+      ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/FROZEN_PREDICTION_LEDGER.json#prediction-12"
+    ],
+    "holdoutOutcomes": [
+      ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/CLAIM_EVIDENCE_BINDINGS.json#holdoutEvidenceRefs",
+      ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B8436316.json#holdout_feasibility_test",
+      "https://hog.grinvin.org/#holdout"
+    ],
+    "counterexampleOutcomes": [
+      ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/CLAIM_EVIDENCE_BINDINGS.json#counterexampleEvidenceRefs",
+      ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B8436316.json#counterexample_search",
+      "https://hog.grinvin.org/#counterexample"
+    ],
+    "replayOutcomes": [
+      ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/CLAIM_EVIDENCE_BINDINGS.json#replayEvidenceRefs",
+      ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/REPRODUCE.md#replay",
+      ".sovryn/discovery-daemon/generator-insight-closure/INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B8436316.json#replay_feasibility_test",
+      "https://hog.grinvin.org/#replay"
+    ],
+    "killWeekResult": ".sovryn/discovery-daemon/generator-fund-closure/candidates/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/KILL_WEEK_RESULTS.json#killWeek; .sovryn/discovery-daemon/evidence-packages/DISCOVERY-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B84/CLAIM_EVIDENCE_BINDINGS.json#killWeek",
+    "publicPackagePath": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-LIFT-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B843",
+    "remainingLimitations": [
+      "The evidence is bounded to generated formal object families and replayed Product artifacts.",
+      "Domain scientific significance pressure failed gates: no_anti_discovery_claim_text.",
+      "This package makes only a bounded internal evidence claim and avoids prohibited public overclaim categories."
+    ],
+    "nextExternalReviewStep": "Review the lifted target-outcome claim against the package-bound evidence refs and require independent human review before stronger scientific interpretation.",
+    "stableIdentity": true,
+    "identityDriftDetected": false,
+    "highImpactDomain": true,
+    "plausibleScientificValue": true,
+    "notToolReportProcessOnly": true,
+    "nontrivial": true,
+    "knownOrTrivial": false,
+    "renamedPriorIdea": false,
+    "rivalTheoryCount": 3,
+    "rivalComparisonsExecuted": true,
+    "rivalWeakenedOrScopeLimited": true,
+    "strongBaselinesExecuted": true,
+    "baselineDominated": false,
+    "counterexampleCandidatesGenerated": true,
+    "counterexampleChecksExecuted": 3,
+    "counterexampleDense": false,
+    "predictionsFrozenBeforeExecution": true,
+    "postHocPredictionEdits": false,
+    "predictionsExecuted": 14,
+    "nonObviousPredictions": 3,
+    "freshHoldoutsAfterFreeze": true,
+    "holdoutSupported": true,
+    "decisiveEvidenceReplayed": true,
+    "freshWorkspaceReplay": true,
+    "decisiveUnreplayedClaims": false,
+    "proofOrMechanismPressureClear": true,
+    "fakeProofDetected": false,
+    "checkedProofConfirmed": false,
+    "killWeekComplete": true,
+    "fatalUnresolvedAttack": false,
+    "paperExists": true,
+    "methodExists": true,
+    "claimEvidenceBindingsExists": true,
+    "reproduceExists": true,
+    "limitationsExists": true,
+    "noOverclaim": true,
+    "domainScientificSignificance": true,
+    "nontrivialNewInsightAcrossRealTargets": true,
+    "insightEvidenceRefs": [
+      ".sovryn/discovery-daemon/generator-families/formal-source-cache/EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE.json",
+      ".sovryn/discovery-daemon/generator-families/formal-object-checks/EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE.json",
+      "https://hog.grinvin.org/",
+      "https://www.graphclasses.org/",
+      ".sovryn/discovery-daemon/generator-families/runtime-evidence/bounded_graph_minor_obstruction_significance_generator-output-01.json"
+    ]
+  },
+  "insightEvidenceRefs": [
+    "FORMAL_REPRODUCTION_RESULT.json#recomputedFromManifestRows",
+    "raw-reproduction-bundle/formal-object-check-manifest.json#checks",
+    "raw-reproduction-bundle/runtime-evidence-output-01.json#output"
+  ],
+  "nontrivialInsightEvidenceRefs": [
+    "FORMAL_REPRODUCTION_RESULT.json#productResidualMagnitude",
+    "FORMAL_REPRODUCTION_RESULT.json#recomputedFromManifestRows",
+    "raw-reproduction-bundle/formal-object-check-manifest.json#baselineResults"
+  ],
+  "domainSignificanceEvidenceRefs": [
+    ".sovryn/discovery-daemon/generator-families/formal-source-cache/EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE.json",
+    ".sovryn/discovery-daemon/generator-families/formal-object-checks/EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE.json",
+    "https://hog.grinvin.org/",
+    "https://www.graphclasses.org/",
+    ".sovryn/discovery-daemon/generator-families/runtime-evidence/bounded_graph_minor_obstruction_significance_generator-output-01.json"
+  ],
+  "publicPackageContractVersion": 1,
+  "productInternalRefsPreservedInBundle": true
+}

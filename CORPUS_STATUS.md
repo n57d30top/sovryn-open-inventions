@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 616
+Results: 617
 
 ## Lifecycle Counts
 
-- autopublished: 584
+- autopublished: 585
 - needs_revision: 5
 - showcase: 3
 - showcase_science: 10
@@ -238,6 +238,7 @@ Results: 616
 - field-grade-autonomous-science-trial: latest field-grade-autonomous-science-trial-v3; field-grade-autonomous-science-trial, field-grade-autonomous-science-trial-v2, field-grade-autonomous-science-trial-v3
 - first-discovery-fund-gaia-astrometric-excess-slices: latest first-discovery-fund-gaia-astrometric-excess-slices; first-discovery-fund-gaia-astrometric-excess-slices
 - first-discovery-fund-matbench-descriptor-transfer: latest first-discovery-fund-matbench-descriptor-transfer; first-discovery-fund-matbench-descriptor-transfer
+- first-formal-discovery-fund-graph-minor-obstruction-boundary: latest first-formal-discovery-fund-graph-minor-obstruction-boundary; first-formal-discovery-fund-graph-minor-obstruction-boundary
 - first-fund-scipy-runtime-reproduction-external-review-ready: latest first-fund-scipy-runtime-reproduction-external-review-ready; first-fund-scipy-runtime-reproduction-external-review-ready
 - formal-stage01-domain-scope: latest formal-stage01-domain-scope; formal-stage01-domain-scope
 - formal-stage02-candidate-universe: latest formal-stage02-candidate-universe; formal-stage02-candidate-universe

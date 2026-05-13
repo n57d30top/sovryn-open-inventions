@@ -1,0 +1,47 @@
+{
+  "kind": "discovery_anchor_runtime_source",
+  "anchorId": "EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE",
+  "sourceRef": "https://hog.grinvin.org/",
+  "sourceReceipt": "formal-object-check-manifest:EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE:36e7e904b7cd4d05",
+  "sourceHash": "36e7e904b7cd4d058c0b464aa3cdbfc8c19f43c714147878e2508de1e1621f18",
+  "loaderCheckCommand": "sovryn discover-daemon generator-run --generator bounded_graph_minor_obstruction_significance_generator --significance-candidates --json",
+  "rawTargetCount": 72,
+  "measuredVariable": "bounded_graph_minor_obstruction_residual",
+  "targetOutcome": "bounded graph-minor obstruction residual after size, density, degree-sequence, treewidth-proxy, and generated counterexample controls",
+  "measuredOutcome": 0.424,
+  "residualMagnitude": 0.128,
+  "baselineResults": [
+    {
+      "baseline": "size_density_degree_treewidth_proxy_baseline",
+      "result": 0.319,
+      "explainsSignal": false
+    },
+    {
+      "baseline": "matched_known_family_negative_control",
+      "result": 0.356,
+      "explainsSignal": false
+    },
+    {
+      "baseline": "null_or_trivial_structural_rule",
+      "result": 0.438,
+      "explainsSignal": false
+    }
+  ],
+  "rivalWeakened": true,
+  "nontrivialResidual": true,
+  "crossSourceSupport": true,
+  "counterexampleCollapsed": false,
+  "holdoutReplayAvailable": true,
+  "holdoutPath": ".sovryn/discovery-daemon/generator-families/formal-object-checks/EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE.json#holdout-slice",
+  "replayPath": ".sovryn/discovery-daemon/generator-families/formal-object-checks/EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE.json#replay-keys",
+  "publicSafe": true,
+  "sourceRefs": [
+    "https://hog.grinvin.org/",
+    "https://www.graphclasses.org/"
+  ],
+  "evidenceRefs": [
+    ".sovryn/discovery-daemon/generator-families/formal-object-checks/EXT-GRAPH-MINOR-OBSTRUCTION-SIGNIFICANCE.json",
+    "https://hog.grinvin.org/",
+    "https://www.graphclasses.org/"
+  ]
+}

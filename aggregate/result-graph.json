@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-13T02:47:28.121Z",
+  "generatedAt": "2026-05-13T08:43:13.560Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -1423,6 +1423,12 @@
       "kind": "result",
       "label": "First Discovery Fund: Matbench Descriptor Transfer External Review Package",
       "domain": "computational_materials_property_data"
+    },
+    {
+      "id": "result:first-formal-discovery-fund-graph-minor-obstruction-boundary",
+      "kind": "result",
+      "label": "Public Formal Replay Package: Graph-Minor Obstruction Boundary Candidate",
+      "domain": "formal_mathematics_conjecture_refutation"
     },
     {
       "id": "result:first-fund-scipy-runtime-reproduction-external-review-ready",
@@ -3944,6 +3950,11 @@
       "label": "computational_materials_property_data"
     },
     {
+      "id": "domain:formal_mathematics_conjecture_refutation",
+      "kind": "domain",
+      "label": "formal_mathematics_conjecture_refutation"
+    },
+    {
       "id": "domain:scientific_software_reproduction_mechanisms",
       "kind": "domain",
       "label": "scientific_software_reproduction_mechanisms"
@@ -6216,6 +6227,11 @@
       "relation": "uses_public_tool_evidence"
     },
     {
+      "source": "result:first-formal-discovery-fund-graph-minor-obstruction-boundary",
+      "target": "domain:formal_mathematics_conjecture_refutation",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:first-fund-scipy-runtime-reproduction-external-review-ready",
       "target": "domain:scientific_software_reproduction_mechanisms",
       "relation": "belongs_to_domain"
@@ -8266,5 +8282,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "2516b053952aa5d13f85e4fa0dd01ec4dd80ff3f96c0bfabbff67300cfde8d8c"
+  "evidenceHash": "9c52aa88ac3a1f956425d4798ccc5ed5dfe2625b7ba7e3d4a80476c06194d3f0"
 }

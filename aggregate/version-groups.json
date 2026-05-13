@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-13T02:47:28.121Z",
+  "updatedAt": "2026-05-13T08:43:13.560Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -1593,6 +1593,13 @@
       "latestSlug": "first-discovery-fund-matbench-descriptor-transfer",
       "resultSlugs": [
         "first-discovery-fund-matbench-descriptor-transfer"
+      ]
+    },
+    {
+      "versionGroup": "first-formal-discovery-fund-graph-minor-obstruction-boundary",
+      "latestSlug": "first-formal-discovery-fund-graph-minor-obstruction-boundary",
+      "resultSlugs": [
+        "first-formal-discovery-fund-graph-minor-obstruction-boundary"
       ]
     },
     {
@@ -4231,5 +4238,5 @@
       ]
     }
   ],
-  "evidenceHash": "ea70c8dd0bf915751963ac29c0a048489005915f00d803f6dd58a7dd47b422d2"
+  "evidenceHash": "c5cafb1bb0615b824c79f847e31e1c2b03229dcbc653f14dc617fdd53bc72dd6"
 }

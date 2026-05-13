@@ -1,0 +1,44 @@
+{
+  "kind": "formal_reproduction_result",
+  "candidateId": "DISCOVERY-LIFT-INSIGHT-HARD-GEN-BOUNDED-GRAPH-MINOR-OBSTRUCTION-SIGNIFI-4E76B8436316",
+  "status": "formal_replay_succeeded_caveated_no_external_validation",
+  "publicSafe": true,
+  "replayReady": true,
+  "checkedObjectCount": 72,
+  "productMeasuredOutcome": 0.424,
+  "productResidualMagnitude": 0.128,
+  "productBaselineResults": [
+    {
+      "baseline": "size_density_degree_treewidth_proxy_baseline",
+      "result": 0.319,
+      "explainsSignal": false
+    },
+    {
+      "baseline": "matched_known_family_negative_control",
+      "result": 0.356,
+      "explainsSignal": false
+    },
+    {
+      "baseline": "null_or_trivial_structural_rule",
+      "result": 0.438,
+      "explainsSignal": false
+    }
+  ],
+  "recomputedFromManifestRows": {
+    "checkedObjectCount": 72,
+    "measuredOutcomeFromRows": 0.424,
+    "simpleBaselineFromRows": 0.319,
+    "meanSignedResidualFromRows": 0.105,
+    "meanAbsoluteResidualFromRows": 0.15,
+    "candidateMechanismHoldRate": 0.417,
+    "rivalExplainsRate": 0.25,
+    "holdoutCount": 24,
+    "developmentCount": 48
+  },
+  "exactProductScalarReplay": true,
+  "measuredOutcomeRowsMatchProduct": true,
+  "residualFormulaCaveat": "The product residualMagnitude is replayed from the formal source cache. The row-level signed residual mean is reported separately because the Product residual normalization is not derivable from the public manifest alone.",
+  "noExternalValidationClaim": true,
+  "noNobelClaim": true,
+  "noEinsteinLevelClaim": true
+}

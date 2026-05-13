@@ -1,7 +1,7 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-13T02:47:28.121Z",
-  "resultCount": 616,
+  "updatedAt": "2026-05-13T08:43:13.560Z",
+  "resultCount": 617,
   "results": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -9014,7 +9014,7 @@
     {
       "slug": "first-discovery-fund-gaia-astrometric-excess-slices",
       "title": "Gaia Astrometric-Excess Slice Residual Discovery Candidate",
-      "resultKind": "externally_review_ready_discovery_candidate",
+      "resultKind": "not_discovery_scored_rival_explained_signal",
       "domain": "astrophysics_open_catalog_anomalies",
       "path": "results/first-discovery-fund-gaia-astrometric-excess-slices",
       "qualityLabel": "reviewable",
@@ -9086,6 +9086,44 @@
       "customTool": null,
       "workerAssurance": "not-recorded",
       "falsificationStatus": "raw_scientific_reproduction_failed"
+    },
+    {
+      "slug": "first-formal-discovery-fund-graph-minor-obstruction-boundary",
+      "title": "Public Formal Replay Package: Graph-Minor Obstruction Boundary Candidate",
+      "resultKind": "externally_review_ready_discovery_candidate",
+      "domain": "formal_mathematics_conjecture_refutation",
+      "path": "results/first-formal-discovery-fund-graph-minor-obstruction-boundary",
+      "qualityLabel": "reviewable",
+      "candidateStatus": "autopublished",
+      "antiTemplateStatus": "review_ready",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "first-formal-discovery-fund-graph-minor-obstruction-boundary",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "showcaseDocumentation": {
+        "readme": true,
+        "showcase": false,
+        "method": true,
+        "reproduce": true,
+        "limitations": true,
+        "examples": false
+      },
+      "revisionReason": null,
+      "humanReadableSummary": "In the exported bounded graph-family check manifest, the graph-minor obstruction score averages 0.424 across 72 checked formal objects and remains above the size/density/degree/treewidth proxy baseline average 0.319 under the recorded controls; this is a bounded formal replay candidate, not an externally validated theorem.",
+      "releaseReadinessScore": 88,
+      "evidenceStrengthScore": 86,
+      "reproducibilityScore": 84,
+      "publicationSafetyScore": 98,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 86,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "customTool": null,
+      "workerAssurance": "not-recorded",
+      "falsificationStatus": "not_evaluated"
     },
     {
       "slug": "first-fund-scipy-runtime-reproduction-external-review-ready",
@@ -23504,5 +23542,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "b83403874adae7566bdad49342f319a63fabadf470b169976172a2d710ceea38"
+  "evidenceHash": "65a1eb603bdc333a5670575a9e732acac462ef35140bdcad705989e45093625d"
 }
