@@ -29,6 +29,14 @@
   "standalonePublicReplayExternalValidation": false,
   "publicRawScientificReproductionReady": true,
   "publicRawOrFormalReproductionReady": true,
+  "publicExternalReviewBundleReady": true,
+  "publicExternalReviewBundleFiles": [
+    "EXTERNAL_REVIEW_BUNDLE_MANIFEST.json",
+    "EXTERNAL_REVIEW_SUBMISSION_COVER.md",
+    "EXTERNAL_REVIEW_REVIEWER_CHECKLIST.md",
+    "EXTERNAL_REVIEW_EVIDENCE_REF_INDEX.md",
+    "EXTERNAL_REVIEW_REPRODUCTION_QUEUE.md"
+  ],
   "showcaseEligible": false,
   "limitations": [
     "No external validation is claimed.",

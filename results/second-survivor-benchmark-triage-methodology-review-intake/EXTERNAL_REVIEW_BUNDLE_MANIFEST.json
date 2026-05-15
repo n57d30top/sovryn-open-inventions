@@ -1,0 +1,36 @@
+{
+  "kind": "public_external_review_bundle_manifest",
+  "candidateId": "DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001",
+  "slug": "second-survivor-benchmark-triage-methodology-review-intake",
+  "fundClass": "pipeline_fund_candidate",
+  "countsForDiscoveryScore": false,
+  "notificationAllowed": false,
+  "fundFound": false,
+  "externalExpertValidationClaimed": false,
+  "publicReviewStatus": "external_review_intake_ready_with_major_caveats",
+  "publicPackageUrl": "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/second-survivor-benchmark-triage-methodology-review-intake",
+  "bundleFiles": [
+    "EXTERNAL_REVIEW_SUBMISSION_COVER.md",
+    "EXTERNAL_REVIEW_REVIEWER_CHECKLIST.md",
+    "EXTERNAL_REVIEW_EVIDENCE_REF_INDEX.md",
+    "EXTERNAL_REVIEW_REPRODUCTION_QUEUE.md",
+    "EXTERNAL_REVIEW_RECORD_TEMPLATE.json",
+    "EXTERNAL_REVIEW_INTAKE_INSTRUCTIONS.md",
+    "EXTERNAL_REVIEW_REQUEST.md"
+  ],
+  "requiredReviewRecordFields": [
+    "reviewRecordSchemaVersion",
+    "candidateId",
+    "resultSlug",
+    "reviewerRole",
+    "reviewDate",
+    "reviewSourceRef",
+    "reviewSourceReceiptRef",
+    "decision",
+    "independentReproductionStatus",
+    "noveltyAssessment",
+    "evidenceRefs",
+    "overclaimFindings"
+  ],
+  "noOverclaim": "This bundle is for external review intake only. It does not claim external validation, discovery-scored Fund status, Nobel-level status, Einstein-level status, breakthrough status, or external adoption."
+}

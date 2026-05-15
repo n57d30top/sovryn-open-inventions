@@ -49,3 +49,13 @@ These URLs expose the public review-intake package for independent benchmark-met
 - https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/second-survivor-benchmark-triage-methodology-review-intake/EXTERNAL_REVIEW_RECORD_TEMPLATE.json
 - https://github.com/n57d30top/sovryn-open-inventions/blob/main/results/second-survivor-benchmark-triage-methodology-review-intake/EXTERNAL_REVIEW_INTAKE_INSTRUCTIONS.md
 - https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/second-survivor-benchmark-triage-methodology-review-intake/EXTERNAL_REVIEW_INTAKE_INSTRUCTIONS.md
+- https://github.com/n57d30top/sovryn-open-inventions/blob/main/results/second-survivor-benchmark-triage-methodology-review-intake/EXTERNAL_REVIEW_BUNDLE_MANIFEST.json
+- https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/second-survivor-benchmark-triage-methodology-review-intake/EXTERNAL_REVIEW_BUNDLE_MANIFEST.json
+- https://github.com/n57d30top/sovryn-open-inventions/blob/main/results/second-survivor-benchmark-triage-methodology-review-intake/EXTERNAL_REVIEW_SUBMISSION_COVER.md
+- https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/second-survivor-benchmark-triage-methodology-review-intake/EXTERNAL_REVIEW_SUBMISSION_COVER.md
+- https://github.com/n57d30top/sovryn-open-inventions/blob/main/results/second-survivor-benchmark-triage-methodology-review-intake/EXTERNAL_REVIEW_REVIEWER_CHECKLIST.md
+- https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/second-survivor-benchmark-triage-methodology-review-intake/EXTERNAL_REVIEW_REVIEWER_CHECKLIST.md
+- https://github.com/n57d30top/sovryn-open-inventions/blob/main/results/second-survivor-benchmark-triage-methodology-review-intake/EXTERNAL_REVIEW_EVIDENCE_REF_INDEX.md
+- https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/second-survivor-benchmark-triage-methodology-review-intake/EXTERNAL_REVIEW_EVIDENCE_REF_INDEX.md
+- https://github.com/n57d30top/sovryn-open-inventions/blob/main/results/second-survivor-benchmark-triage-methodology-review-intake/EXTERNAL_REVIEW_REPRODUCTION_QUEUE.md
+- https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/second-survivor-benchmark-triage-methodology-review-intake/EXTERNAL_REVIEW_REPRODUCTION_QUEUE.md
