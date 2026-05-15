@@ -15,7 +15,7 @@
   "readmeBody": "Public review-intake package for a receipt-first benchmark triage methodology candidate. It is not discovery-scored and does not claim external validation.",
   "releaseReadinessScore": 86,
   "evidenceStrengthScore": 86,
-  "reproducibilityScore": 88,
+  "reproducibilityScore": 91,
   "publicationSafetyScore": 99,
   "replayCriticalPassRate": 100,
   "specificityScore": 92,
@@ -24,6 +24,9 @@
   "safetyScanPassed": true,
   "reliabilityReplayPassed": true,
   "falsificationStatus": "review_intake_only_external_review_missing",
+  "standalonePublicReplayStatus": "public_raw_replay_reproduced_with_rounding_caveat",
+  "standalonePublicReplayReadsProductState": false,
+  "standalonePublicReplayExternalValidation": false,
   "showcaseEligible": false,
   "limitations": [
     "No external validation is claimed.",

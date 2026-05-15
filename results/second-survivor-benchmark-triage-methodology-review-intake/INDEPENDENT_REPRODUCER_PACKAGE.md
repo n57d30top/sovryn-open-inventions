@@ -6,6 +6,14 @@ DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001
 
 ## Required Commands
 
+Standalone public replay:
+
+```bash
+node reproduce_second_survivor_benchmark.js
+```
+
+Product replay:
+
 ```bash
 sovryn discover-daemon second-independent-survivor --live-openml --json
 sovryn discover-daemon second-survivor-fund-draft --json
@@ -27,6 +35,7 @@ sovryn discover-daemon second-survivor-methodology-evidence --json
 ## Expected Outputs
 
 - Seven public raw replay survivor rows.
+- Standalone public replay result: `public_raw_replay_reproduced_with_rounding_caveat`.
 - Baseline, holdout, rival, and negative-control tables.
 - Methodology value tests showing bounded value but no external validation.
 - No FUND_FOUND.md unless a future strict discovery-scored Fund Gate allows notification.

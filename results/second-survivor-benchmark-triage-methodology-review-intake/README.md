@@ -29,7 +29,18 @@ The package is bounded to the listed OpenML tasks and receipts. It does not clai
 - methodology value tests
 - independent reproducer checklist
 - external methodology review intake template
+- standalone public raw-data replay script and replay outputs
 - current blocker and next action
+
+## Standalone Public Replay
+
+Run:
+
+```bash
+node reproduce_second_survivor_benchmark.js
+```
+
+The script fetches the public OpenML ARFF receipts and recomputes the displayed replay metrics without reading Product `.sovryn` state. Current result: `public_raw_replay_reproduced_with_rounding_caveat`. Six of seven tasks reproduce the displayed Product metrics exactly; OpenML-32 differs by 0.001 on displayed rounded baseline/random metrics. This remains a replay/inspectability result, not external validation.
 
 ## What Would Be Needed To Improve Status
 

@@ -1,6 +1,6 @@
 {
   "kind": "sovryn_open_inventions_index",
-  "updatedAt": "2026-05-15T14:50:16.299Z",
+  "updatedAt": "2026-05-15T14:59:16.203Z",
   "resultCount": 618,
   "results": [
     {
@@ -20172,7 +20172,7 @@
       "humanReadableSummary": "This public package exposes the current second-survivor benchmark-triage methodology candidate for external inspection.",
       "releaseReadinessScore": 86,
       "evidenceStrengthScore": 86,
-      "reproducibilityScore": 88,
+      "reproducibilityScore": 91,
       "publicationSafetyScore": 99,
       "replayCriticalPassRate": 100,
       "specificityScore": 92,
@@ -23580,5 +23580,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "5c6bfa2e626dfdb5e8f43b85aa2c614c77d067a6437957eda0f3bb2bf4405419"
+  "evidenceHash": "81e4cb7b5b8e68a9c0e9a7381e3cc6dd0055257306f665a1c4d5f3b7cd56f594"
 }

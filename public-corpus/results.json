@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_results",
-  "generatedAt": "2026-05-15T14:50:16.299Z",
+  "generatedAt": "2026-05-15T14:59:16.203Z",
   "results": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -16027,7 +16027,7 @@
       "humanReadableSummary": "This public package exposes the current second-survivor benchmark-triage methodology candidate for external inspection.",
       "releaseReadinessScore": 86,
       "evidenceStrengthScore": 86,
-      "reproducibilityScore": 88,
+      "reproducibilityScore": 91,
       "publicationSafetyScore": 99,
       "replayCriticalPassRate": 100,
       "specificityScore": 92,
@@ -18738,5 +18738,5 @@
       "falsificationStatus": "adversarial_route_reviewed"
     }
   ],
-  "evidenceHash": "af9087190b8da53788f250dac609184c4e7ad134a8dc5cbb4ba93bfab6c02009"
+  "evidenceHash": "970b6b43815d3b215474528ec431bfa526c2d48838e78a164ceaba59f0b40744"
 }
