@@ -1,15 +1,15 @@
 {
   "kind": "public_corpus_quality",
-  "generatedAt": "2026-05-13T12:51:13.043Z",
+  "generatedAt": "2026-05-15T14:50:16.299Z",
   "qualityCounts": {
     "excellent": 5,
     "good": 603,
     "major_revision": 1,
-    "reviewable": 7,
+    "reviewable": 8,
     "weak": 1
   },
   "lifecycleCounts": {
-    "autopublished": 584,
+    "autopublished": 585,
     "blocked": 1,
     "needs_revision": 5,
     "showcase": 3,
@@ -7410,6 +7410,20 @@
       "specificityScore": 93
     },
     {
+      "slug": "second-survivor-benchmark-triage-methodology-review-intake",
+      "qualityLabel": "reviewable",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "second-survivor-benchmark-triage-methodology-review-intake",
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "releaseReadinessScore": 86,
+      "evidenceStrengthScore": 86,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "specificityScore": 92
+    },
+    {
       "slug": "self-built-lab-reproduction-388ccd1946ad",
       "qualityLabel": "good",
       "antiTemplateStatus": "unknown",
@@ -8656,5 +8670,5 @@
       "specificityScore": 94
     }
   ],
-  "evidenceHash": "4491011adf8b70a58bbbebf870758a6e11c330bd58584322eadd6ab018210bdb"
+  "evidenceHash": "ab3c68cddf437e3b5e5cd436d91d5cc6a11c83488c6e9ebb742581d5a009c5b6"
 }

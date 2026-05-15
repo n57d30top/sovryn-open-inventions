@@ -1,12 +1,12 @@
 {
   "kind": "sovryn_public_corpus_product",
-  "generatedAt": "2026-05-13T12:51:13.043Z",
-  "resultCount": 617,
+  "generatedAt": "2026-05-15T14:50:16.299Z",
+  "resultCount": 618,
   "qualityCounts": {
     "excellent": 5,
     "good": 603,
     "major_revision": 1,
-    "reviewable": 7,
+    "reviewable": 8,
     "weak": 1
   },
   "statusCounts": {
@@ -16,6 +16,7 @@
     "external_extension_supported": 1,
     "external_reproduction_partial": 6,
     "external_reproduction_success": 2,
+    "external_review_intake_ready_with_major_caveats": 1,
     "external_review_ready_raw_reproduction_succeeded": 1,
     "field_grade_trial_ready": 3,
     "knowledge_trial_ready": 1,
@@ -32,7 +33,7 @@
     "v1_candidate_with_limits": 1
   },
   "lifecycleCounts": {
-    "autopublished": 584,
+    "autopublished": 585,
     "blocked": 1,
     "needs_revision": 5,
     "showcase": 3,
@@ -45,6 +46,7 @@
     "autonomous-research-production-continuity": 2,
     "autonomous-research-production-strategy": 1,
     "autonomous-research-toolchain-falsification": 1,
+    "benchmark_protocol_fragility": 1,
     "benchmark-challenge-baseline-dominance": 1,
     "benchmark-leakage-risk-detection-under-protocol-cards": 1,
     "benchmark-metric-validation": 1,
@@ -16135,6 +16137,36 @@
       "falsificationStatus": "passes_falsification"
     },
     {
+      "slug": "second-survivor-benchmark-triage-methodology-review-intake",
+      "title": "Second-Survivor Benchmark Triage Methodology Review Intake",
+      "domain": "benchmark_protocol_fragility",
+      "resultKind": "benchmark_methodology_review_intake_package",
+      "path": "results/second-survivor-benchmark-triage-methodology-review-intake",
+      "qualityLabel": "reviewable",
+      "publicationStatus": "external_review_intake_ready_with_major_caveats",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "second-survivor-benchmark-triage-methodology-review-intake",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": null,
+      "humanReadableSummary": "This public package exposes the current second-survivor benchmark-triage methodology candidate for external inspection.",
+      "releaseReadinessScore": 86,
+      "evidenceStrengthScore": 86,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 92,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": false,
+      "customTool": null,
+      "falsificationStatus": "review_intake_only_external_review_missing"
+    },
+    {
       "slug": "self-built-lab-reproduction-388ccd1946ad",
       "title": "Self-built lab reproduction challenge",
       "domain": "safe-computational-reproduction",
@@ -22454,6 +22486,13 @@
       ]
     },
     {
+      "versionGroup": "second-survivor-benchmark-triage-methodology-review-intake",
+      "latestSlug": "second-survivor-benchmark-triage-methodology-review-intake",
+      "resultSlugs": [
+        "second-survivor-benchmark-triage-methodology-review-intake"
+      ]
+    },
+    {
       "versionGroup": "self-built-lab-reproduction-388ccd1946ad",
       "latestSlug": "self-built-lab-reproduction-388ccd1946ad",
       "resultSlugs": [
@@ -23758,5 +23797,5 @@
     }
   ],
   "disclaimer": "Sovryn produces autonomous open-research artifacts, defensive publications, and open-source research evidence. It is not a patent filing system and does not provide legal patentability, legal novelty, or freedom-to-operate opinions.",
-  "evidenceHash": "223af217f33fcefc00f5befb46ef3a1f9b2bbcb0a6375473ae0bc15753d857b1"
+  "evidenceHash": "c66b438c60b5002f375a6c1c187b5cd1d42df22eb9390639a539e5be60c4feff"
 }

@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_results",
-  "generatedAt": "2026-05-13T12:51:13.043Z",
+  "generatedAt": "2026-05-15T14:50:16.299Z",
   "results": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -16009,6 +16009,36 @@
       "falsificationStatus": "passes_falsification"
     },
     {
+      "slug": "second-survivor-benchmark-triage-methodology-review-intake",
+      "title": "Second-Survivor Benchmark Triage Methodology Review Intake",
+      "domain": "benchmark_protocol_fragility",
+      "resultKind": "benchmark_methodology_review_intake_package",
+      "path": "results/second-survivor-benchmark-triage-methodology-review-intake",
+      "qualityLabel": "reviewable",
+      "publicationStatus": "external_review_intake_ready_with_major_caveats",
+      "antiTemplateStatus": "specific_public_evidence",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "second-survivor-benchmark-triage-methodology-review-intake",
+      "supersedes": null,
+      "supersededBy": null,
+      "showcaseEligible": false,
+      "showcaseRank": null,
+      "revisionReason": null,
+      "humanReadableSummary": "This public package exposes the current second-survivor benchmark-triage methodology candidate for external inspection.",
+      "releaseReadinessScore": 86,
+      "evidenceStrengthScore": 86,
+      "reproducibilityScore": 88,
+      "publicationSafetyScore": 99,
+      "replayCriticalPassRate": 100,
+      "specificityScore": 92,
+      "publicHygienePassed": true,
+      "safetyScanPassed": true,
+      "reliabilityReplayPassed": true,
+      "pushed": false,
+      "customTool": null,
+      "falsificationStatus": "review_intake_only_external_review_missing"
+    },
+    {
       "slug": "self-built-lab-reproduction-388ccd1946ad",
       "title": "Self-built lab reproduction challenge",
       "domain": "safe-computational-reproduction",
@@ -18708,5 +18738,5 @@
       "falsificationStatus": "adversarial_route_reviewed"
     }
   ],
-  "evidenceHash": "e967ac590d3d10637cdca634d206c9e2e1fe9f97be292aeda20604300ede1add"
+  "evidenceHash": "af9087190b8da53788f250dac609184c4e7ad134a8dc5cbb4ba93bfab6c02009"
 }

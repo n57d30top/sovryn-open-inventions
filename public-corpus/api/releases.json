@@ -4754,6 +4754,15 @@
       "pushed": false
     },
     {
+      "slug": "second-survivor-benchmark-triage-methodology-review-intake",
+      "path": "results/second-survivor-benchmark-triage-methodology-review-intake",
+      "status": "external_review_intake_ready_with_major_caveats",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "second-survivor-benchmark-triage-methodology-review-intake",
+      "supersededBy": null,
+      "pushed": false
+    },
+    {
       "slug": "self-built-lab-reproduction-388ccd1946ad",
       "path": "results/self-built-lab-reproduction-388ccd1946ad",
       "status": "partially_reproduced",
@@ -5555,5 +5564,5 @@
       "pushed": false
     }
   ],
-  "evidenceHash": "5047eb5bde2e5f558e1ea9c334ea6de4a3079051cf48701e47a7f3e9210550f5"
+  "evidenceHash": "855133f4684272b176c31d781a3bb3d8ad83bb6410570974741cdbc98d717e07"
 }

@@ -1,0 +1,155 @@
+{
+  "fundPackageContractVersion": 2,
+  "candidateId": "DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001",
+  "claim": "A receipt-first benchmark triage method can identify OpenML benchmark claims whose random-split performance survives public raw replay as a bounded protocol-fragility signal across OpenML-32 and at least one independent task, with nonfatal baseline, holdout, rival, and negative-control checks.",
+  "candidate": {
+    "candidateId": "DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001",
+    "claim": "A receipt-first benchmark triage method can identify OpenML benchmark claims whose random-split performance survives public raw replay as a bounded protocol-fragility signal across OpenML-32 and at least one independent task, with nonfatal baseline, holdout, rival, and negative-control checks.",
+    "domain": "benchmark_protocol_methodology",
+    "requestedFundLabel": "externally_review_ready_candidate",
+    "nontrivialNewInsightAcrossRealTargets": false,
+    "domainScientificSignificance": false,
+    "insightEvidenceRefs": [],
+    "whyItMatters": "This package makes a bounded benchmark-methodology DiscoveryCandidate externally inspectable from public OpenML receipts. It is useful triage evidence, but not by itself an externally validated scientific discovery.",
+    "rivalTheories": [
+      "majority-baseline dominance",
+      "class imbalance artifact",
+      "metric sensitivity artifact",
+      "source-family-only evidence",
+      "negative-control leakage"
+    ],
+    "predictionOutcomes": [
+      "SA-PLAUS-003-OPENML-32",
+      "SECOND-SURV-001-OPENML-59",
+      "SECOND-SURV-003-OPENML-7",
+      "SECOND-SURV-005-OPENML-53",
+      "SECOND-SURV-006-OPENML-36",
+      "SECOND-SURV-007-OPENML-43",
+      "SECOND-SURV-008-OPENML-15"
+    ],
+    "holdoutOutcomes": [
+      "SA-PLAUS-003-OPENML-32: survived",
+      "SECOND-SURV-001-OPENML-59: survived",
+      "SECOND-SURV-003-OPENML-7: survived",
+      "SECOND-SURV-005-OPENML-53: survived",
+      "SECOND-SURV-006-OPENML-36: survived",
+      "SECOND-SURV-007-OPENML-43: survived",
+      "SECOND-SURV-008-OPENML-15: survived"
+    ],
+    "counterexampleOutcomes": [
+      "SA-PLAUS-003-OPENML-32: negativeControlBehaved=true",
+      "SECOND-SURV-001-OPENML-59: negativeControlBehaved=true",
+      "SECOND-SURV-003-OPENML-7: negativeControlBehaved=true",
+      "SECOND-SURV-005-OPENML-53: negativeControlBehaved=true",
+      "SECOND-SURV-006-OPENML-36: negativeControlBehaved=true",
+      "SECOND-SURV-007-OPENML-43: negativeControlBehaved=true",
+      "SECOND-SURV-008-OPENML-15: negativeControlBehaved=true"
+    ],
+    "replayOutcomes": [
+      "SA-PLAUS-003-OPENML-32: replay_passed",
+      "SECOND-SURV-001-OPENML-59: replay_passed",
+      "SECOND-SURV-003-OPENML-7: replay_passed",
+      "SECOND-SURV-005-OPENML-53: replay_passed",
+      "SECOND-SURV-006-OPENML-36: replay_passed",
+      "SECOND-SURV-007-OPENML-43: replay_passed",
+      "SECOND-SURV-008-OPENML-15: replay_passed"
+    ],
+    "killWeekResult": "Weakened prior survivors are archived and unchanged reruns are blocked; remaining caveat is external review of method novelty and domain significance.",
+    "publicPackagePath": ".sovryn/discovery-daemon/evidence-packages/DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001",
+    "remainingLimitations": [
+      "No external validation is claimed.",
+      "No broad OpenML benchmark failure claim is made.",
+      "This remains a benchmark-methodology triage candidate until external review establishes value beyond internal replay evidence."
+    ],
+    "nextExternalReviewStep": "External reviewer should rerun the listed OpenML tasks from raw receipts and judge whether the triage method is scientifically valuable beyond operating correctly.",
+    "stableIdentity": true,
+    "identityDriftDetected": false,
+    "highImpactDomain": true,
+    "plausibleScientificValue": true,
+    "notToolReportProcessOnly": true,
+    "nontrivial": true,
+    "knownOrTrivial": false,
+    "renamedPriorIdea": false,
+    "rivalTheoryCount": 5,
+    "rivalComparisonsExecuted": true,
+    "rivalWeakenedOrScopeLimited": true,
+    "strongBaselinesExecuted": true,
+    "baselineDominated": false,
+    "counterexampleCandidatesGenerated": true,
+    "counterexampleChecksExecuted": 7,
+    "counterexampleDense": false,
+    "predictionsFrozenBeforeExecution": true,
+    "postHocPredictionEdits": false,
+    "predictionsExecuted": 12,
+    "nonObviousPredictions": 3,
+    "freshHoldoutsAfterFreeze": true,
+    "holdoutSupported": true,
+    "decisiveEvidenceReplayed": true,
+    "freshWorkspaceReplay": true,
+    "decisiveUnreplayedClaims": false,
+    "proofOrMechanismPressureClear": true,
+    "fakeProofDetected": false,
+    "checkedProofConfirmed": false,
+    "killWeekComplete": true,
+    "fatalUnresolvedAttack": false,
+    "paperExists": true,
+    "methodExists": true,
+    "claimEvidenceBindingsExists": true,
+    "reproduceExists": true,
+    "limitationsExists": true,
+    "noOverclaim": true
+  },
+  "fundCandidateDraftRef": ".sovryn/discovery-daemon/fund-candidate-drafts/DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001.json",
+  "evidenceRefs": [
+    "PAPER.md#bounded-claim",
+    "METHOD.md#method",
+    "CLAIM_EVIDENCE_BINDINGS.json#candidate",
+    "REPRODUCE.md#replay",
+    "LIMITATIONS.md#scope"
+  ],
+  "predictionRefs": [
+    "CLAIM_EVIDENCE_BINDINGS.json#frozenClaim"
+  ],
+  "holdoutRefs": [
+    "METHOD.md#holdout-replay"
+  ],
+  "counterexampleRefs": [
+    "PAPER.md#negative-controls"
+  ],
+  "replayRefs": [
+    "REPRODUCE.md#public-replay-command"
+  ],
+  "killWeekRefs": [
+    "LIMITATIONS.md#scope-and-kill-conditions"
+  ],
+  "methodRef": "METHOD.md",
+  "reproduceRef": "REPRODUCE.md",
+  "limitationsRef": "LIMITATIONS.md",
+  "noOverclaim": [
+    "no Nobel claim",
+    "no Einstein-level claim",
+    "no breakthrough claim",
+    "no external validation claim",
+    "no external adoption claim",
+    "no legal, medical, wet-lab, unsafe, or universal-truth claim"
+  ],
+  "methodologyEvidenceRefs": [
+    "METHODOLOGY_EXACT_CLAIM.md",
+    "METHODOLOGY_FALSIFIERS.md",
+    "EXTERNAL_METHODOLOGY_COMPARISON.md",
+    "INDEPENDENT_REPRODUCER_PACKAGE.md",
+    "REPRODUCER_CHECKLIST.md",
+    "METHODOLOGY_VALUE_TESTS.md",
+    "EXTERNAL_METHODOLOGY_REVIEW_INTAKE.md",
+    "EXTERNAL_METHODOLOGY_REVIEW_RECORD_TEMPLATE.json"
+  ],
+  "externalMethodologySources": [
+    "https://docs.openml.org/benchmark/",
+    "https://www.jmlr.org/papers/v18/16-177.html",
+    "https://scikit-learn.org/stable/modules/cross_validation.html",
+    "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GroupKFold.html",
+    "https://doi.org/10.1145/2379776.2379786",
+    "https://doi.org/10.1016/j.patter.2023.100804",
+    "https://mitpress.mit.edu/9780262170055/dataset-shift-in-machine-learning/"
+  ]
+}

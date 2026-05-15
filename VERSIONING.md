@@ -520,6 +520,7 @@ can supersede earlier entries while preserving audit history.
 - search-stage12-candidate-decision: latest search-stage12-candidate-decision; versions search-stage12-candidate-decision
 - search-stage13-paper-or-failure-package: latest search-stage13-paper-or-failure-package; versions search-stage13-paper-or-failure-package
 - search-stage14-next-frontier: latest search-stage14-next-frontier; versions search-stage14-next-frontier
+- second-survivor-benchmark-triage-methodology-review-intake: latest second-survivor-benchmark-triage-methodology-review-intake; versions second-survivor-benchmark-triage-methodology-review-intake
 - self-built-lab-reproduction-388ccd1946ad: latest self-built-lab-reproduction-388ccd1946ad; versions self-built-lab-reproduction-388ccd1946ad
 - software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for: latest software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth; versions software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth
 - software-supply-chain-assurance-self-built-lab-study: latest software-supply-chain-assurance-self-built-lab-study-v2; versions software-supply-chain-assurance-self-built-lab-study, software-supply-chain-assurance-self-built-lab-study-v2

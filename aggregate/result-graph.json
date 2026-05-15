@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_result_graph",
-  "generatedAt": "2026-05-13T12:51:13.043Z",
+  "generatedAt": "2026-05-15T14:50:16.299Z",
   "nodes": [
     {
       "id": "result:autonomous-research-program-continuity-batches5-8",
@@ -3171,6 +3171,12 @@
       "domain": "candidate rejection and new discovery search"
     },
     {
+      "id": "result:second-survivor-benchmark-triage-methodology-review-intake",
+      "kind": "result",
+      "label": "Second-Survivor Benchmark Triage Methodology Review Intake",
+      "domain": "benchmark_protocol_fragility"
+    },
+    {
       "id": "result:self-built-lab-reproduction-388ccd1946ad",
       "kind": "result",
       "label": "Self-built lab reproduction challenge",
@@ -4088,6 +4094,11 @@
       "id": "domain:candidate rejection and new discovery search",
       "kind": "domain",
       "label": "candidate rejection and new discovery search"
+    },
+    {
+      "id": "domain:benchmark_protocol_fragility",
+      "kind": "domain",
+      "label": "benchmark_protocol_fragility"
     },
     {
       "id": "domain:safe-computational-reproduction",
@@ -7817,6 +7828,11 @@
       "relation": "belongs_to_domain"
     },
     {
+      "source": "result:second-survivor-benchmark-triage-methodology-review-intake",
+      "target": "domain:benchmark_protocol_fragility",
+      "relation": "belongs_to_domain"
+    },
+    {
       "source": "result:self-built-lab-reproduction-388ccd1946ad",
       "target": "domain:safe-computational-reproduction",
       "relation": "belongs_to_domain"
@@ -8282,5 +8298,5 @@
       "relation": "belongs_to_domain"
     }
   ],
-  "evidenceHash": "51b6527504308d7c6d7630206eb9af4d88806f84dbab62bf7702dd0b316008e2"
+  "evidenceHash": "c46ac882ccb78a81bb0c4f9ccac8c4877caeef3e774657baf29e94e417d5740b"
 }

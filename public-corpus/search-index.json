@@ -1,7 +1,7 @@
 {
   "kind": "public_corpus_search_index",
-  "builtAt": "2026-05-13T12:51:13.043Z",
-  "entryCount": 617,
+  "builtAt": "2026-05-15T14:50:16.299Z",
+  "entryCount": 618,
   "entries": [
     {
       "slug": "autonomous-research-program-continuity-batches5-8",
@@ -20845,6 +20845,39 @@
       ]
     },
     {
+      "slug": "second-survivor-benchmark-triage-methodology-review-intake",
+      "title": "Second-Survivor Benchmark Triage Methodology Review Intake",
+      "domain": "benchmark_protocol_fragility",
+      "href": "results/second-survivor-benchmark-triage-methodology-review-intake.html",
+      "qualityLabel": "reviewable",
+      "publicationStatus": "external_review_intake_ready_with_major_caveats",
+      "lifecycleStatus": "autopublished",
+      "versionGroup": "second-survivor-benchmark-triage-methodology-review-intake",
+      "showcaseRank": null,
+      "terms": [
+        "autopublished",
+        "benchmark",
+        "candidate",
+        "current",
+        "exposes",
+        "external",
+        "for",
+        "fragility",
+        "inspection",
+        "intake",
+        "methodology",
+        "package",
+        "protocol",
+        "public",
+        "review",
+        "second",
+        "survivor",
+        "the",
+        "this",
+        "triage"
+      ]
+    },
+    {
       "slug": "self-built-lab-reproduction-388ccd1946ad",
       "title": "Self-built lab reproduction challenge",
       "domain": "safe-computational-reproduction",
@@ -24339,5 +24372,5 @@
       ]
     }
   ],
-  "evidenceHash": "1ec4193ce9b2e1c9a1ea4274063bfa86ae3f594fb68051e9ef903032d77af97a"
+  "evidenceHash": "fc666c2c69d815ac11b5a52ed32b5554d65d796c9dfb8a74bfce6cc16da390b1"
 }

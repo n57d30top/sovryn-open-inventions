@@ -1,6 +1,6 @@
 {
   "kind": "public_corpus_version_groups",
-  "updatedAt": "2026-05-13T12:51:13.043Z",
+  "updatedAt": "2026-05-15T14:50:16.299Z",
   "groups": [
     {
       "versionGroup": "autonomous-research-program-continuity-batches5-8",
@@ -3621,6 +3621,13 @@
       ]
     },
     {
+      "versionGroup": "second-survivor-benchmark-triage-methodology-review-intake",
+      "latestSlug": "second-survivor-benchmark-triage-methodology-review-intake",
+      "resultSlugs": [
+        "second-survivor-benchmark-triage-methodology-review-intake"
+      ]
+    },
+    {
       "versionGroup": "self-built-lab-reproduction-388ccd1946ad",
       "latestSlug": "self-built-lab-reproduction-388ccd1946ad",
       "resultSlugs": [
@@ -4238,5 +4245,5 @@
       ]
     }
   ],
-  "evidenceHash": "c5cafb1bb0615b824c79f847e31e1c2b03229dcbc653f14dc617fdd53bc72dd6"
+  "evidenceHash": "2633def0d5b0e01dc2feca094c68fcc89775a1e7a9422ed01a8ee00775e6bbdb"
 }

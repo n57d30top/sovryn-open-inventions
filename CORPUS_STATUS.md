@@ -1,10 +1,10 @@
 # Corpus Status
 
-Results: 617
+Results: 618
 
 ## Lifecycle Counts
 
-- autopublished: 584
+- autopublished: 585
 - blocked: 1
 - needs_revision: 5
 - showcase: 3
@@ -528,6 +528,7 @@ Results: 617
 - search-stage12-candidate-decision: latest search-stage12-candidate-decision; search-stage12-candidate-decision
 - search-stage13-paper-or-failure-package: latest search-stage13-paper-or-failure-package; search-stage13-paper-or-failure-package
 - search-stage14-next-frontier: latest search-stage14-next-frontier; search-stage14-next-frontier
+- second-survivor-benchmark-triage-methodology-review-intake: latest second-survivor-benchmark-triage-methodology-review-intake; second-survivor-benchmark-triage-methodology-review-intake
 - self-built-lab-reproduction-388ccd1946ad: latest self-built-lab-reproduction-388ccd1946ad; self-built-lab-reproduction-388ccd1946ad
 - software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for: latest software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth; software-supply-chain-assurance-do-dependency-provenance-features-improve-risk-scoring-for-synth
 - software-supply-chain-assurance-self-built-lab-study: latest software-supply-chain-assurance-self-built-lab-study-v2; software-supply-chain-assurance-self-built-lab-study, software-supply-chain-assurance-self-built-lab-study-v2

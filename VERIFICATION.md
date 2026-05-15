@@ -1,6 +1,6 @@
 # Verification
 
-Indexed public results: 617
+Indexed public results: 618
 
 ## Public Corpus Product Gates
 
@@ -18,6 +18,7 @@ Indexed public results: 617
 - external_extension_supported: 1
 - external_reproduction_partial: 6
 - external_reproduction_success: 2
+- external_review_intake_ready_with_major_caveats: 1
 - external_review_ready_raw_reproduction_succeeded: 1
 - field_grade_trial_ready: 3
 - knowledge_trial_ready: 1
@@ -35,7 +36,7 @@ Indexed public results: 617
 
 ## Lifecycle Counts
 
-- autopublished: 584
+- autopublished: 585
 - blocked: 1
 - needs_revision: 5
 - showcase: 3
