@@ -6,6 +6,10 @@
   "productMetricsWithinRoundingTolerance": true,
   "fundFound": false,
   "countsForDiscoveryScore": false,
+  "standalonePublicReplayReadsProductState": false,
+  "standalonePublicReplayExternalValidation": false,
+  "publicRawScientificReproductionReady": true,
+  "publicRawOrFormalReproductionReady": true,
   "noOverclaim": "Standalone public replay is not external validation and cannot create FUND_FOUND.",
   "results": [
     {
