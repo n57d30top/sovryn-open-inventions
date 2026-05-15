@@ -6,16 +6,12 @@ From this result directory:
 
 ```bash
 node reproduce_second_survivor_benchmark.js
+node reviewer_replay_quickcheck.js
 ```
 
-The script fetches public OpenML ARFF files and writes:
+The standalone replay fetches public OpenML ARFF files and writes `standalone_replay_results.json` plus `STANDALONE_REPLAY_RESULTS.md`. The reviewer quickcheck reruns that replay and writes `reviewer_replay_quickcheck_result.json` plus `REVIEWER_REPLAY_QUICKCHECK_RESULT.md`.
 
-- `standalone_replay_results.json`
-- `STANDALONE_REPLAY_RESULTS.md`
-
-Current replay status: `public_raw_replay_reproduced_with_rounding_caveat`.
-
-This standalone replay does not read Product `.sovryn` state. It is still not external validation.
+This is public-data replay inspectability evidence only. It is not external validation.
 
 ## Product Replay
 

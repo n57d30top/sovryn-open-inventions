@@ -107,21 +107,11 @@
     "REPRODUCE.md#replay",
     "LIMITATIONS.md#scope"
   ],
-  "predictionRefs": [
-    "CLAIM_EVIDENCE_BINDINGS.json#frozenClaim"
-  ],
-  "holdoutRefs": [
-    "METHOD.md#holdout-replay"
-  ],
-  "counterexampleRefs": [
-    "PAPER.md#negative-controls"
-  ],
-  "replayRefs": [
-    "REPRODUCE.md#public-replay-command"
-  ],
-  "killWeekRefs": [
-    "LIMITATIONS.md#scope-and-kill-conditions"
-  ],
+  "predictionRefs": ["CLAIM_EVIDENCE_BINDINGS.json#frozenClaim"],
+  "holdoutRefs": ["METHOD.md#holdout-replay"],
+  "counterexampleRefs": ["PAPER.md#negative-controls"],
+  "replayRefs": ["REPRODUCE.md#public-replay-command"],
+  "killWeekRefs": ["LIMITATIONS.md#scope-and-kill-conditions"],
   "methodRef": "METHOD.md",
   "reproduceRef": "REPRODUCE.md",
   "limitationsRef": "LIMITATIONS.md",
@@ -142,6 +132,8 @@
     "METHODOLOGY_VALUE_TESTS.md",
     "EXTERNAL_METHODOLOGY_REVIEW_INTAKE.md",
     "EXTERNAL_METHODOLOGY_REVIEW_RECORD_TEMPLATE.json",
+    "REVIEWER_REPLAY_QUICKCHECK.md",
+    "reviewer_replay_quickcheck.js",
     "PUBLIC_REVIEW_URLS.md",
     "EXTERNAL_REVIEW_REQUEST.md",
     "EXTERNAL_REVIEW_RECORD_TEMPLATE.json",

@@ -1,0 +1,15 @@
+{
+  "kind": "second_survivor_reviewer_replay_quickcheck",
+  "generatedAt": "2026-05-15T16:26:06.705Z",
+  "candidateId": "DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001",
+  "replayReran": true,
+  "passed": true,
+  "failures": [],
+  "replayStatus": "public_raw_replay_reproduced_with_rounding_caveat",
+  "validatedRows": 7,
+  "productMetricsWithinRoundingTolerance": true,
+  "fundFound": false,
+  "countsForDiscoveryScore": false,
+  "externalValidationClaimed": false,
+  "noOverclaim": "Reviewer quickcheck is public replay inspectability evidence only; it is not external validation and cannot create FUND_FOUND."
+}
