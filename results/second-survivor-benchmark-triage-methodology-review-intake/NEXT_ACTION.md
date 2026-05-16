@@ -29,3 +29,7 @@ Manual next action:
    ```
 
 Only after that should Product gates decide whether any readiness score changes.
+
+Current public Issue #1 and the internal Codex review do not satisfy this
+requirement because both are owner/workspace-associated records, not independent
+external review or reproduction.

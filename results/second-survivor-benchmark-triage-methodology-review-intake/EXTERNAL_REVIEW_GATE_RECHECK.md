@@ -8,9 +8,12 @@ Date: 2026-05-16
 - Candidate one-page summary exists.
 - Fresh-location reproducer dry run passed with rounding caveat.
 - External review intake ledger exists.
-- No public external review URL is recorded.
+- Public GitHub review request URL exists.
+- Public internal Codex review record exists.
+- No independent public external review answer URL is recorded.
 - No independent third-party reproduction is recorded.
 - No supportive external benchmark-methodology review is recorded.
+- Source receipt attempts for the request/internal comment are public-safe but not score-effective.
 
 ## Gate Decision
 

@@ -1,0 +1,34 @@
+{
+  "kind": "independent_external_review_search",
+  "candidateId": "DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001",
+  "scannedAt": "2026-05-16T12:01:00Z",
+  "issueUrl": "https://github.com/n57d30top/sovryn-open-inventions/issues/1",
+  "issueCommentCount": 2,
+  "comments": [
+    {
+      "url": "https://github.com/n57d30top/sovryn-open-inventions/issues/1#issuecomment-4466674622",
+      "author": "n57d30top",
+      "authorAssociation": "OWNER",
+      "classification": "author_bookkeeping_update",
+      "independent": false,
+      "scoreEffective": false
+    },
+    {
+      "url": "https://github.com/n57d30top/sovryn-open-inventions/issues/1#issuecomment-4466753985",
+      "author": "n57d30top",
+      "authorAssociation": "OWNER",
+      "classification": "internal_codex_review_public_record",
+      "independent": false,
+      "scoreEffective": false
+    }
+  ],
+  "publicReviewRequestExists": true,
+  "independentExternalReviewUrlFound": false,
+  "independentExternalReproductionUrlFound": false,
+  "scoreEffectiveReviewFound": false,
+  "decision": "no_independent_external_review_found",
+  "candidateStatusAfterSearch": "pipeline_fund_candidate",
+  "discoveryScoredAfterSearch": false,
+  "notificationAllowedAfterSearch": false,
+  "fundFoundAfterSearch": false
+}

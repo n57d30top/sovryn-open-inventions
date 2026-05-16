@@ -39,6 +39,18 @@
       "independent": false,
       "scoreEffective": false,
       "reason": "Codex participated in package/request preparation, so this is not an independent external review and cannot affect score."
+    },
+    {
+      "intakeId": "REVIEW-INTAKE-003",
+      "reviewerSource": "github_issue_1_scan",
+      "publicReviewUrl": null,
+      "publicReviewRequestUrl": "https://github.com/n57d30top/sovryn-open-inventions/issues/1",
+      "reproductionStatus": "no_independent_external_reproduction_found",
+      "methodologyDecision": "none",
+      "supportive": false,
+      "independent": false,
+      "scoreEffective": false,
+      "reason": "GitHub Issue #1 has owner-authored request/bookkeeping/internal-review comments only; no independent public reviewer response was found."
     }
   ],
   "internalNonIndependentReviewRecords": [
@@ -52,6 +64,7 @@
     }
   ],
   "publicReviewUrlExists": false,
+  "publicReviewRequestExists": true,
   "independentExternalReproductionExists": false,
   "supportiveExternalMethodologyReviewExists": false,
   "candidateStatusAfterLedger": "pipeline_fund_candidate",

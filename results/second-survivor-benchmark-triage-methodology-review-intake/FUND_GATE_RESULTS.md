@@ -14,8 +14,10 @@ Failed gates:
 
 External review recheck:
 
-- Public external review URL: no
+- Public review request URL: yes
+- Independent public external review URL: no
 - Independent external reproduction record: no
 - Supportive external benchmark-methodology review: no
+- Internal Codex review: yes, not independent and not score-effective
 - Project-local fresh-location reproducer dry run: passed with rounding caveat
 - Score-effective change: no

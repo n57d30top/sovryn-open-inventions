@@ -1,0 +1,36 @@
+{
+  "kind": "source_receipt_attempts",
+  "candidateId": "DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001",
+  "generatedAt": "2026-05-16T12:01:00Z",
+  "attempts": [
+    {
+      "url": "https://github.com/n57d30top/sovryn-open-inventions/issues/1",
+      "fetched": true,
+      "publicSafe": true,
+      "receiptPassed": false,
+      "classification": "public_review_request_only",
+      "independent": false,
+      "scoreEffective": false
+    },
+    {
+      "url": "https://github.com/n57d30top/sovryn-open-inventions/issues/1#issuecomment-4466753985",
+      "fetched": true,
+      "publicSafe": true,
+      "receiptPassed": false,
+      "classification": "internal_codex_review_comment",
+      "independent": false,
+      "scoreEffective": false
+    },
+    {
+      "url": "https://api.github.com/repos/n57d30top/sovryn-open-inventions/issues/comments/4466753985",
+      "fetched": true,
+      "publicSafe": true,
+      "receiptPassed": false,
+      "classification": "internal_codex_review_api_record",
+      "independent": false,
+      "scoreEffective": false
+    }
+  ],
+  "scoreImpact": "none",
+  "reason": "No attempted source is a genuinely independent public review or independent reproduction record."
+}
