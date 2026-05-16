@@ -9,7 +9,7 @@ It is not a discovery-scored Fund, not an external validation record, and not a 
 - Candidate ID: `DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001`
 - Result kind: `benchmark_methodology_review_intake_package`
 - Public review status:
-  `pipeline_fund_candidate_major_revision_revised_public_receipt_missing`
+  `pipeline_fund_candidate_major_revision_revised_survivor_yield_tested_public_receipt_missing`
 - Product FundClass before external review: `pipeline_fund_candidate`
 - Counts for discovery score: no
 - Notification allowed: no
@@ -69,9 +69,27 @@ The package now includes a V2 triage method:
 
 V2 adds a formal scoring rule and demotes one weak replayable row whose
 negative-control metric is essentially equal to its random-split metric. This is
-a methodology improvement, but not a discovery-scored result. V2 still ties
-baseline-only selection on the current seven-row package, so the major-revision
-critique is only partially addressed.
+a methodology improvement, but not a discovery-scored result.
+
+## V2 Survivor-Yield Challenge
+
+The package now includes a larger internal/public survivor-yield challenge:
+
+- `V2_SURVIVOR_YIELD_BENCHMARK.md`
+- `V2_SURVIVOR_YIELD_BENCHMARK.json`
+- `V2_METHOD_COMPARISON_RESULTS.md`
+- `V2_BASELINE_ONLY_COMPARISON.md`
+- `V2_DEEP_VALIDATION_RESULTS.md`
+- `BASELINE_ONLY_DEEP_VALIDATION_RESULTS.md`
+- `GROUP_TIME_ENTITY_HOLDOUT_RESULTS.md`
+- `V2_SURVIVOR_YIELD_DECISION.md`
+
+Challenge result: V2 selected 17 plausible non-control claims and 17 survived
+the bounded deep-validation checks, for survivor yield `1.000`. Baseline-only
+selected 25 plausible non-control claims and 17 survived, for survivor yield
+`0.680`. This addresses the baseline-only tie on this larger mixed benchmark,
+but it is still internal/public package evidence, not external validation and
+not discovery-scored.
 
 ## What Would Be Needed To Improve Status
 

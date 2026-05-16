@@ -1,31 +1,6 @@
 # Final Blockers
 
-The current blockers are:
+V2 beats baseline-only on survivor yield in this larger mixed benchmark, but the package remains pipeline_fund_candidate until public external re-review with a source receipt and full discovery-scored Fund Gate.
 
-1. No independent external reproduction record exists.
-2. No supportive external benchmark-methodology review exists.
-3. No independent external public review URL and score-effective source receipt have been ingested.
-4. Candidate remains `pipeline_fund_candidate`, not discovery-scored.
-5. `notificationAllowed=false`.
-6. `FUND_FOUND=false`.
-
-Resolved package-preparation blockers:
-
-- Public package audit exists.
-- Review package manifest exists.
-- Independent reproducer README and script contract exist.
-- Expected reproducer outputs exist.
-- External review template exists.
-- Public review intake instructions exist.
-- Review score contract exists.
-- External reviewer target profiles are listed.
-- Review request draft exists.
-- First external review request packet exists.
-- Candidate one-page summary exists.
-- Fresh-location project-local dry run record exists.
-- External review intake ledger exists.
-- Non-independent internal Codex review exists.
-- Public GitHub review request exists.
-- Source receipt attempts for request/internal review exist but are not score-effective.
-
-Remaining blocker type: real external evidence absence.
+Fund Gate passed: no
+Failed gates: discovery_candidate_present
