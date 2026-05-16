@@ -150,9 +150,7 @@ function parseArff(arff, targetVariable) {
     const line = rawLine.trim();
     if (!line || line.startsWith("%")) continue;
     if (!inData && /^@attribute\s+/i.test(line)) {
-      const match = line.match(
-        /^@attribute\s+('([^']+)'|"([^"]+)"|([^\s]+))/i,
-      );
+      const match = line.match(/^@attribute\s+('([^']+)'|"([^"]+)"|([^\s]+))/i);
       attributes.push(
         (match && (match[2] || match[3] || match[4])) ||
           `attr${attributes.length}`,
@@ -263,9 +261,7 @@ function evaluateShuffledTarget(parsed, split) {
 function mostFrequent(values) {
   const counts = new Map();
   for (const value of values) counts.set(value, (counts.get(value) || 0) + 1);
-  return (
-    [...counts.entries()].sort((a, b) => b[1] - a[1])[0] || ["", 0]
-  )[0];
+  return ([...counts.entries()].sort((a, b) => b[1] - a[1])[0] || ["", 0])[0];
 }
 
 function compareMetric(actual, expected) {
@@ -296,7 +292,9 @@ async function replayTask(task) {
   const baselineMetric = round(random.majorityBaseline);
   const randomSplitMetric = round(random.modelMetric);
   const holdoutMetric = round(holdout.modelMetric);
-  const modelVsBaselineDelta = round(random.modelMetric - random.majorityBaseline);
+  const modelVsBaselineDelta = round(
+    random.modelMetric - random.majorityBaseline,
+  );
   const randomVsHoldoutDelta = round(random.modelMetric - holdout.modelMetric);
   const negativeControlMetric = round(negative.modelMetric);
   const negativeControlBehaved =
@@ -399,6 +397,10 @@ async function main() {
     ),
     fundFound: false,
     countsForDiscoveryScore: false,
+    standalonePublicReplayReadsProductState: false,
+    standalonePublicReplayExternalValidation: false,
+    publicRawScientificReproductionReady: true,
+    publicRawOrFormalReproductionReady: true,
     noOverclaim:
       "Standalone public replay is not external validation and cannot create FUND_FOUND.",
     results,
@@ -408,7 +410,10 @@ async function main() {
     join(outDir, "standalone_replay_results.json"),
     `${JSON.stringify(report, null, 2)}\n`,
   );
-  writeFileSync(join(outDir, "STANDALONE_REPLAY_RESULTS.md"), markdown(results));
+  writeFileSync(
+    join(outDir, "STANDALONE_REPLAY_RESULTS.md"),
+    markdown(results),
+  );
   console.log(JSON.stringify(report, null, 2));
 }
 

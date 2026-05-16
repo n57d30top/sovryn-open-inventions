@@ -1,0 +1,71 @@
+{
+  "kind": "expected_second_survivor_independent_reproducer_outputs",
+  "candidateId": "DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001",
+  "expectedStatus": "public_raw_replay_reproduced_with_rounding_caveat",
+  "expectedValidatedRows": 7,
+  "expectedProductMetricsWithinRoundingTolerance": true,
+  "expectedFundFound": false,
+  "expectedCountsForDiscoveryScore": false,
+  "expectedExternalValidationClaimed": false,
+  "expectedStandalonePublicReplayReadsProductState": false,
+  "expectedStandalonePublicReplayExternalValidation": false,
+  "expectedPublicRawScientificReproductionReady": true,
+  "expectedPublicRawOrFormalReproductionReady": true,
+  "expectedOutputFiles": [
+    "standalone_replay_results.json",
+    "STANDALONE_REPLAY_RESULTS.md",
+    "reviewer_replay_quickcheck_result.json"
+  ],
+  "expectedTasks": [
+    {
+      "claimId": "SA-PLAUS-003-OPENML-32",
+      "taskId": 32,
+      "datasetId": 32,
+      "datasetName": "pendigits",
+      "productMetricsWithinRoundingTolerance": true
+    },
+    {
+      "claimId": "SECOND-SURV-001-OPENML-59",
+      "taskId": 59,
+      "datasetId": 61,
+      "datasetName": "iris",
+      "productMetricsWithinRoundingTolerance": true
+    },
+    {
+      "claimId": "SECOND-SURV-003-OPENML-7",
+      "taskId": 7,
+      "datasetId": 7,
+      "datasetName": "audiology",
+      "productMetricsWithinRoundingTolerance": true
+    },
+    {
+      "claimId": "SECOND-SURV-005-OPENML-53",
+      "taskId": 53,
+      "datasetId": 54,
+      "datasetName": "vehicle",
+      "productMetricsWithinRoundingTolerance": true
+    },
+    {
+      "claimId": "SECOND-SURV-006-OPENML-36",
+      "taskId": 36,
+      "datasetId": 36,
+      "datasetName": "segment",
+      "productMetricsWithinRoundingTolerance": true
+    },
+    {
+      "claimId": "SECOND-SURV-007-OPENML-43",
+      "taskId": 43,
+      "datasetId": 44,
+      "datasetName": "spambase",
+      "productMetricsWithinRoundingTolerance": true
+    },
+    {
+      "claimId": "SECOND-SURV-008-OPENML-15",
+      "taskId": 15,
+      "datasetId": 15,
+      "datasetName": "breast-w",
+      "productMetricsWithinRoundingTolerance": true
+    }
+  ],
+  "scoreImpactRule": "These outputs support inspectability only. They cannot create FUND_FOUND or discovery-scored status without real external public review or independent reproduction records."
+}

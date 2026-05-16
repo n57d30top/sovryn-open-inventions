@@ -1,0 +1,98 @@
+{
+  "kind": "bounded_benchmark_triage_review_package_manifest",
+  "schemaVersion": "1.0",
+  "candidateId": "DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001",
+  "resultSlug": "second-survivor-benchmark-triage-methodology-review-intake",
+  "resultKind": "benchmark_methodology_review_intake_package",
+  "fundClass": "pipeline_fund_candidate",
+  "countsForDiscoveryScore": false,
+  "notificationAllowed": false,
+  "fundFound": false,
+  "externalValidationClaimed": false,
+  "reviewStatus": "external_review_intake_ready_with_major_caveats",
+  "publicReviewUrl": "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/second-survivor-benchmark-triage-methodology-review-intake",
+  "requiredContents": [
+    {
+      "requirement": "bounded_claim",
+      "files": [
+        "EXACT_CLAIM.md",
+        "METHODOLOGY_EXACT_CLAIM.md",
+        "REVIEWER_SUMMARY.md"
+      ],
+      "status": "present"
+    },
+    {
+      "requirement": "method_description",
+      "files": ["METHOD.md", "METHODOLOGY_VALUE_TESTS.md"],
+      "status": "present"
+    },
+    {
+      "requirement": "task_list_and_raw_data_receipts",
+      "files": [
+        "DATASETS_AND_TASKS.md",
+        "PUBLIC_REVIEW_URLS.md",
+        "INDEPENDENT_REPRODUCER_PACKAGE.md"
+      ],
+      "status": "present"
+    },
+    {
+      "requirement": "replay_commands",
+      "files": [
+        "REPRODUCE.md",
+        "INDEPENDENT_REPRODUCER_README.md",
+        "REVIEWER_REPLAY_QUICKCHECK.md"
+      ],
+      "status": "present"
+    },
+    {
+      "requirement": "baselines_holdouts_rivals_negative_controls",
+      "files": [
+        "BASELINES.md",
+        "HOLDOUT_REPLAY.md",
+        "RIVAL_EXPLANATIONS.md",
+        "NEGATIVE_CONTROLS.md",
+        "STANDALONE_REPLAY_RESULTS.md"
+      ],
+      "status": "present"
+    },
+    {
+      "requirement": "limitations_and_evidence_bindings",
+      "files": [
+        "LIMITATIONS.md",
+        "CLAIM_EVIDENCE_BINDINGS.json",
+        "EXTERNAL_REVIEW_EVIDENCE_REF_INDEX.md"
+      ],
+      "status": "present"
+    },
+    {
+      "requirement": "expected_outputs",
+      "files": [
+        "EXPECTED_REPRODUCER_OUTPUTS.json",
+        "standalone_replay_results.json",
+        "reviewer_replay_quickcheck_result.json"
+      ],
+      "status": "present"
+    },
+    {
+      "requirement": "review_intake",
+      "files": [
+        "EXTERNAL_REVIEW_TEMPLATE.md",
+        "PUBLIC_REVIEW_INTAKE_INSTRUCTIONS.md",
+        "REVIEW_SCORE_CONTRACT.md",
+        "EXTERNAL_REVIEW_TARGETS.md",
+        "REVIEW_REQUEST_DRAFT.md"
+      ],
+      "status": "present"
+    }
+  ],
+  "publicSafeReproducer": {
+    "script": "reproduce_second_survivor_benchmark.js",
+    "quickcheck": "reviewer_replay_quickcheck.js",
+    "requiresProductSovrynState": false,
+    "requiresSecrets": false,
+    "usesPrivatePaths": false,
+    "usesPublicOpenMlData": true,
+    "expectedStatus": "public_raw_replay_reproduced_with_rounding_caveat"
+  },
+  "scoreImpactRule": "This package cannot increase discovery readiness by itself. Only a real external public review URL or independent reproduction record with source receipt can affect score."
+}
