@@ -1,0 +1,137 @@
+{
+  "kind": "benchmark_triage_formal_rules_v2",
+  "candidateId": "DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001",
+  "status": "pipeline_fund_candidate_major_revision_revised_awaiting_re_review",
+  "countsForDiscoveryScore": false,
+  "fundFound": false,
+  "inputsRequired": [
+    "taskOrDatasetId",
+    "publicRawDataReceipt",
+    "deterministicLoadingPath",
+    "targetVariable",
+    "modelMetric",
+    "simpleBaselineMetric",
+    "holdoutOrSplitMetric",
+    "negativeControlMetric",
+    "rivalStatus",
+    "replayStatus"
+  ],
+  "features": {
+    "receiptReplay": "1 if raw receipt exists and public replay is within rounding tolerance, else 0",
+    "baselineSurvival": "clamp(modelVsBaselineDelta / 0.15, 0, 1)",
+    "holdoutSurvival": "clamp(randomVsHoldoutDelta / 0.20, 0, 1)",
+    "negativeControlSurvival": "1 if randomMetric - negativeControlMetric >= 0.02 and control behaved, 0.5 if >= 0.005, else 0",
+    "rivalClosure": "1 if rivalStatus is scoped_or_weakened, else 0",
+    "splitQuality": "0.6 for first-feature bucket holdouts, 1.0 for real group/time/entity holdouts"
+  },
+  "weights": {
+    "receiptReplay": 0.25,
+    "baselineSurvival": 0.2,
+    "holdoutSurvival": 0.2,
+    "negativeControlSurvival": 0.15,
+    "rivalClosure": 0.1,
+    "splitQuality": 0.1
+  },
+  "hardBlockers": [
+    "missing receipt or replay",
+    "modelVsBaselineDelta < 0.08",
+    "randomVsHoldoutDelta < 0.08",
+    "randomMetric - negativeControlMetric < 0.02",
+    "rival not scoped or weakened"
+  ],
+  "outputClasses": {
+    "retain_for_external_re_review": "score >= 0.70 and no hard blockers",
+    "major_revision_caveat_retain": "score >= 0.55 with one or more blockers",
+    "reject_or_abstain": "score < 0.55 or required input missing"
+  },
+  "v2Results": [
+    {
+      "claimId": "SA-PLAUS-003-OPENML-32",
+      "taskId": 32,
+      "datasetName": "pendigits",
+      "modelVsBaselineDelta": 0.093,
+      "randomVsHoldoutDelta": 0.187,
+      "negativeControlMargin": 0.081,
+      "v2Score": 0.871,
+      "outputClass": "retain_for_external_re_review",
+      "blockers": []
+    },
+    {
+      "claimId": "SECOND-SURV-001-OPENML-59",
+      "taskId": 59,
+      "datasetName": "iris",
+      "modelVsBaselineDelta": 0.289,
+      "randomVsHoldoutDelta": 0.511,
+      "negativeControlMargin": 0.289,
+      "v2Score": 0.96,
+      "outputClass": "retain_for_external_re_review",
+      "blockers": []
+    },
+    {
+      "claimId": "SECOND-SURV-003-OPENML-7",
+      "taskId": 7,
+      "datasetName": "audiology",
+      "modelVsBaselineDelta": 0.25,
+      "randomVsHoldoutDelta": 0.5,
+      "negativeControlMargin": 0.441,
+      "v2Score": 0.96,
+      "outputClass": "retain_for_external_re_review",
+      "blockers": []
+    },
+    {
+      "claimId": "SECOND-SURV-005-OPENML-53",
+      "taskId": 53,
+      "datasetName": "vehicle",
+      "modelVsBaselineDelta": 0.165,
+      "randomVsHoldoutDelta": 0.221,
+      "negativeControlMargin": 0.17,
+      "v2Score": 0.96,
+      "outputClass": "retain_for_external_re_review",
+      "blockers": []
+    },
+    {
+      "claimId": "SECOND-SURV-006-OPENML-36",
+      "taskId": 36,
+      "datasetName": "segment",
+      "modelVsBaselineDelta": 0.082,
+      "randomVsHoldoutDelta": 0.209,
+      "negativeControlMargin": 0.056,
+      "v2Score": 0.869,
+      "outputClass": "retain_for_external_re_review",
+      "blockers": []
+    },
+    {
+      "claimId": "SECOND-SURV-007-OPENML-43",
+      "taskId": 43,
+      "datasetName": "spambase",
+      "modelVsBaselineDelta": 0.043,
+      "randomVsHoldoutDelta": 0.653,
+      "negativeControlMargin": 0.001,
+      "v2Score": 0.667,
+      "outputClass": "major_revision_caveat_retain",
+      "blockers": [
+        "baseline_margin_too_small",
+        "negative_control_too_close_to_random"
+      ]
+    },
+    {
+      "claimId": "SECOND-SURV-008-OPENML-15",
+      "taskId": 15,
+      "datasetName": "breast-w",
+      "modelVsBaselineDelta": 0.119,
+      "randomVsHoldoutDelta": 0.79,
+      "negativeControlMargin": 0.19,
+      "v2Score": 0.919,
+      "outputClass": "retain_for_external_re_review",
+      "blockers": []
+    }
+  ],
+  "majorRevisionClosure": {
+    "checklistVsMethodology": "partially_repaired_by_formal_rule",
+    "rejectAllComparison": "partially_repaired_but_not_closed",
+    "holdoutPolicy": "documented_but_group_time_entity_evidence_missing",
+    "negativeControls": "strengthened_for_available_replay_rows",
+    "rivalClosure": "prose_and_decision_rules_added",
+    "comparativeAblations": "added_but_baseline_only_ties_v2_on_current_rows"
+  }
+}

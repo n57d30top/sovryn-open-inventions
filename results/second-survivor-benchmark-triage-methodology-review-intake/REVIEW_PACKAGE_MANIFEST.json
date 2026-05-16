@@ -9,7 +9,7 @@
   "notificationAllowed": false,
   "fundFound": false,
   "externalValidationClaimed": false,
-  "reviewStatus": "external_review_intake_ready_with_major_caveats",
+  "reviewStatus": "pipeline_fund_candidate_major_revision_revised_awaiting_re_review",
   "publicReviewUrl": "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/second-survivor-benchmark-triage-methodology-review-intake",
   "requiredContents": [
     {
@@ -23,7 +23,12 @@
     },
     {
       "requirement": "method_description",
-      "files": ["METHOD.md", "METHODOLOGY_VALUE_TESTS.md"],
+      "files": [
+        "METHOD.md",
+        "METHODOLOGY_VALUE_TESTS.md",
+        "BENCHMARK_TRIAGE_METHOD_V2.md",
+        "BENCHMARK_TRIAGE_FORMAL_RULES.json"
+      ],
       "status": "present"
     },
     {
@@ -51,7 +56,20 @@
         "HOLDOUT_REPLAY.md",
         "RIVAL_EXPLANATIONS.md",
         "NEGATIVE_CONTROLS.md",
-        "STANDALONE_REPLAY_RESULTS.md"
+        "STANDALONE_REPLAY_RESULTS.md",
+        "COMPARATIVE_ABLATION_RESULTS.md",
+        "HOLDOUT_POLICY_RESULTS.md",
+        "NEGATIVE_CONTROL_RESULTS.md",
+        "RIVAL_CLOSURE_EVIDENCE.md"
+      ],
+      "status": "present"
+    },
+    {
+      "requirement": "major_revision_response",
+      "files": [
+        "REVIEW_RESPONSE_TO_MAJOR_REVISION.md",
+        "UPDATED_REVIEW_PACKAGE_STATUS.md",
+        "UPDATED_FUND_GATE_RESULTS.md"
       ],
       "status": "present"
     },

@@ -42,14 +42,19 @@ external review or reproduction.
 
 The reported major-revision review is also not score-effective yet because no
 public review URL/source receipt is available. Its critique should drive the
-next revision:
+next re-review:
 
-- prove method value beyond checklist compliance,
-- beat or explain reject-all,
-- justify holdout policy,
-- strengthen negative controls,
-- deepen rival closure,
-- add comparative ablations.
+- run V2 on a larger mixed benchmark with weak, plausible, and known-good
+  claims,
+- require real group/time/entity manifests where claims depend on them,
+- add random-feature, duplicate/entity, metric-sensitivity, and threshold
+  controls,
+- prove V2 beats baseline-only on survivor yield,
+- ask the reviewer for a public URL/source receipt if they want the review to be
+  score-effective.
+
+Do not create `FUND_FOUND` from the V2 revision. It remains a revised
+`pipeline_fund_candidate`.
 
 Reviewer-friction reducers now available:
 

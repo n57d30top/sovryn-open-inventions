@@ -27,9 +27,9 @@ The package remains a valid bounded pipeline/reviewability package. It is not a
 discovery-scored result.
 
 The reported major-revision review does not change the FundClass into a
-discovery-scored class. It increases revision pressure and blocks any stronger
-interpretation until the critique is addressed and a public source receipt
-exists.
+discovery-scored class. The V2 revision improves reviewability but still does
+not supply public external acceptance, stronger status, or discovery-scored
+evidence.
 
 ## Current External Review Intake
 
@@ -43,3 +43,13 @@ review record:
 - revision/rejection count: 1
 - intake status: `external_review_requires_revision_or_rejects`
 - score impact: `blocks_discovery_readiness`
+
+## V2 Revision Gate Consequence
+
+- Method upgraded: yes
+- Ablations fully passed: no
+- Holdout fully justified: no
+- Negative controls strengthened: yes
+- Rival closure improved: yes
+- Discovery-scored: no
+- FUND_FOUND: no

@@ -9,7 +9,7 @@ It is not a discovery-scored Fund, not an external validation record, and not a 
 - Candidate ID: `DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001`
 - Result kind: `benchmark_methodology_review_intake_package`
 - Public review status:
-  `pipeline_fund_candidate_major_revision_public_receipt_missing`
+  `pipeline_fund_candidate_major_revision_revised_public_receipt_missing`
 - Product FundClass before external review: `pipeline_fund_candidate`
 - Counts for discovery score: no
 - Notification allowed: no
@@ -54,6 +54,24 @@ methodology contribution.
 
 The review is not score-effective because no public review URL or source receipt
 is available. It is recorded as revision guidance only.
+
+## V2 Revision
+
+The package now includes a V2 triage method:
+
+- `BENCHMARK_TRIAGE_METHOD_V2.md`
+- `BENCHMARK_TRIAGE_FORMAL_RULES.json`
+- `COMPARATIVE_ABLATION_RESULTS.md`
+- `HOLDOUT_POLICY_RESULTS.md`
+- `NEGATIVE_CONTROL_RESULTS.md`
+- `RIVAL_CLOSURE_EVIDENCE.md`
+- `REVIEW_RESPONSE_TO_MAJOR_REVISION.md`
+
+V2 adds a formal scoring rule and demotes one weak replayable row whose
+negative-control metric is essentially equal to its random-split metric. This is
+a methodology improvement, but not a discovery-scored result. V2 still ties
+baseline-only selection on the current seven-row package, so the major-revision
+critique is only partially addressed.
 
 ## What Would Be Needed To Improve Status
 
