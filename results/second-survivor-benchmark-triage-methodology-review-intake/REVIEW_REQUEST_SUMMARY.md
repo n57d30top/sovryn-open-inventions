@@ -14,6 +14,7 @@ Current status:
 - Review package ready: yes
 - Reproducer ready: yes
 - Review intake ready: yes
+- Public review request: https://github.com/n57d30top/sovryn-open-inventions/issues/1
 - External review URL: no
 - Independent external reproduction: no
 - Fund class: `pipeline_fund_candidate`

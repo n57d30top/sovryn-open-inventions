@@ -2,13 +2,22 @@
 
 No score-effective external review has been ingested.
 
+Public review request:
+
+- https://github.com/n57d30top/sovryn-open-inventions/issues/1
+
+This request URL is not an independent external review answer and does not
+affect score.
+
 | Intake ID           | Reviewer/source                        | Public review URL | Reproduction status      | Methodology decision | Supportive | Independent | Score-effective | Reason                                                                                       |
 | ------------------- | -------------------------------------- | ----------------- | ------------------------ | -------------------- | ---------- | ----------- | --------------- | -------------------------------------------------------------------------------------------- |
 | `REVIEW-INTAKE-000` | not yet submitted to external reviewer | none              | no external reproduction | none                 | no         | no          | no              | No public external review URL exists. Project-local dry run is inspectability evidence only. |
+| `REVIEW-INTAKE-001` | public GitHub review request           | none              | awaiting external reproduction | pending              | no         | no          | no              | Public request is open, but no independent external review answer or reproduction has been submitted. |
 
 ## Current Gate Consequence
 
-Because there is no public external review URL and no independent third-party reproduction record:
+Because there is still no public external review answer URL and no independent
+third-party reproduction record:
 
 - candidate remains `pipeline_fund_candidate`,
 - discovery-scored remains false,

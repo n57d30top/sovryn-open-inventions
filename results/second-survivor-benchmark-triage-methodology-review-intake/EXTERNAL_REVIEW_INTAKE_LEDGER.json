@@ -2,6 +2,7 @@
   "kind": "external_review_intake_ledger",
   "candidateId": "DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001",
   "updatedAt": "2026-05-16",
+  "publicReviewRequestUrl": "https://github.com/n57d30top/sovryn-open-inventions/issues/1",
   "records": [
     {
       "intakeId": "REVIEW-INTAKE-000",
@@ -13,6 +14,18 @@
       "independent": false,
       "scoreEffective": false,
       "reason": "No public external review URL exists. Project-local dry run is inspectability evidence only."
+    },
+    {
+      "intakeId": "REVIEW-INTAKE-001",
+      "reviewerSource": "public_github_review_request",
+      "publicReviewUrl": null,
+      "publicReviewRequestUrl": "https://github.com/n57d30top/sovryn-open-inventions/issues/1",
+      "reproductionStatus": "awaiting_external_reproduction",
+      "methodologyDecision": "pending",
+      "supportive": false,
+      "independent": false,
+      "scoreEffective": false,
+      "reason": "Public review request is open, but no independent external review answer or reproduction record has been submitted."
     }
   ],
   "publicReviewUrlExists": false,

@@ -2,6 +2,16 @@
 
 These URLs expose the public review-intake package for independent benchmark-methodology review. They do not claim external validation or Fund status.
 
+## Public Review Request
+
+- https://github.com/n57d30top/sovryn-open-inventions/issues/1
+
+This issue is the public request for independent review. It is not itself an
+independent external review answer, reproduction record, or score-effective
+review URL.
+
+## Public Package URLs
+
 - https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/second-survivor-benchmark-triage-methodology-review-intake
 - https://github.com/n57d30top/sovryn-open-inventions/blob/main/results/second-survivor-benchmark-triage-methodology-review-intake/README.md
 - https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/second-survivor-benchmark-triage-methodology-review-intake/README.md
