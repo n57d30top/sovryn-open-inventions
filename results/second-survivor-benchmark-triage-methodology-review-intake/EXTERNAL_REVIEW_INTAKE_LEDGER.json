@@ -26,6 +26,29 @@
       "independent": false,
       "scoreEffective": false,
       "reason": "Public review request is open, but no independent external review answer or reproduction record has been submitted."
+    },
+    {
+      "intakeId": "REVIEW-INTAKE-002",
+      "reviewerSource": "codex_internal_self_review",
+      "publicReviewUrl": null,
+      "internalReviewRecordUrl": "https://github.com/n57d30top/sovryn-open-inventions/blob/main/results/second-survivor-benchmark-triage-methodology-review-intake/INTERNAL_CODEX_REVIEW.md",
+      "reproductionStatus": "internal_replay_passed_with_rounding_caveat",
+      "methodologyDecision": "minor_revision",
+      "supportive": true,
+      "supportScope": "internal_only",
+      "independent": false,
+      "scoreEffective": false,
+      "reason": "Codex participated in package/request preparation, so this is not an independent external review and cannot affect score."
+    }
+  ],
+  "internalNonIndependentReviewRecords": [
+    {
+      "recordId": "INTERNAL-CODEX-REVIEW-001",
+      "recordUrl": "https://github.com/n57d30top/sovryn-open-inventions/blob/main/results/second-survivor-benchmark-triage-methodology-review-intake/INTERNAL_CODEX_REVIEW.md",
+      "decision": "minor_revision",
+      "reproductionStatus": "internal_replay_passed_with_rounding_caveat",
+      "independent": false,
+      "scoreEffective": false
     }
   ],
   "publicReviewUrlExists": false,

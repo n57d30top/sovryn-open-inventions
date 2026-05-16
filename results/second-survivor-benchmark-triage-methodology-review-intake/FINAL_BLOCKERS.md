@@ -24,5 +24,6 @@ Resolved package-preparation blockers:
 - Candidate one-page summary exists.
 - Fresh-location project-local dry run record exists.
 - External review intake ledger exists.
+- Non-independent internal Codex review exists.
 
 Remaining blocker type: real external evidence absence.

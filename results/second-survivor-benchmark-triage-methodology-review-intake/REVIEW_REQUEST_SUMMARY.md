@@ -15,6 +15,7 @@ Current status:
 - Reproducer ready: yes
 - Review intake ready: yes
 - Public review request: https://github.com/n57d30top/sovryn-open-inventions/issues/1
+- Non-independent internal Codex review: completed, `minor_revision`, not score-effective
 - External review URL: no
 - Independent external reproduction: no
 - Fund class: `pipeline_fund_candidate`

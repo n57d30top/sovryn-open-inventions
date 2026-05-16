@@ -10,6 +10,14 @@ This issue is the public request for independent review. It is not itself an
 independent external review answer, reproduction record, or score-effective
 review URL.
 
+## Non-Independent Internal Review
+
+- https://github.com/n57d30top/sovryn-open-inventions/blob/main/results/second-survivor-benchmark-triage-methodology-review-intake/INTERNAL_CODEX_REVIEW.md
+- https://raw.githubusercontent.com/n57d30top/sovryn-open-inventions/main/results/second-survivor-benchmark-triage-methodology-review-intake/INTERNAL_CODEX_REVIEW_RECORD.json
+
+This Codex review is public and reproducibility-relevant, but it is not
+independent external review and cannot affect score.
+
 ## Public Package URLs
 
 - https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/second-survivor-benchmark-triage-methodology-review-intake

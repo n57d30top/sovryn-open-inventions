@@ -1,0 +1,52 @@
+{
+  "kind": "non_independent_internal_codex_review",
+  "candidateId": "DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001",
+  "resultSlug": "second-survivor-benchmark-triage-methodology-review-intake",
+  "reviewDate": "2026-05-16",
+  "generatedAt": "2026-05-16T11:43:00Z",
+  "reviewerSource": "codex_assistant_project_workspace",
+  "reviewRecordUrl": "https://github.com/n57d30top/sovryn-open-inventions/blob/main/results/second-survivor-benchmark-triage-methodology-review-intake/INTERNAL_CODEX_REVIEW.md",
+  "independent": false,
+  "external": false,
+  "sourceReceiptExists": false,
+  "decision": "minor_revision",
+  "supportive": true,
+  "supportScope": "internal_methodology_review_only",
+  "scoreEffective": false,
+  "reproduction": {
+    "attempted": true,
+    "publicDataLoadedFromOpenML": true,
+    "freshDirectoryReplayCompleted": true,
+    "reproduceScriptCompleted": true,
+    "quickcheckCompleted": true,
+    "validatedRows": 7,
+    "resultStatus": "public_raw_replay_reproduced_with_rounding_caveat",
+    "productMetricsWithinRoundingTolerance": true,
+    "fundFound": false,
+    "countsForDiscoveryScore": false,
+    "standalonePublicReplayReadsProductState": false,
+    "standalonePublicReplayExternalValidation": false,
+    "knownCaveat": "OpenML-32 displayed rounded metrics differ by 0.001 while remaining within rounding tolerance."
+  },
+  "methodologyAssessment": {
+    "reviewable": true,
+    "boundedClaimClear": true,
+    "publicReceiptsPresent": true,
+    "baselinesPresent": true,
+    "holdoutChecksPresent": true,
+    "rivalExplanationsPresent": true,
+    "negativeControlsPresent": true,
+    "overclaimDetected": false,
+    "noveltyAssessment": "unclear_without_external_prior_art_review",
+    "mainCaveat": "The method bundles standard benchmark-audit practices into a receipt-first gate; external review is needed to decide whether that bundle is meaningfully nontrivial."
+  },
+  "gateConsequence": {
+    "publicReviewUrlExists": false,
+    "independentExternalReviewAnswerExists": false,
+    "independentExternalReproductionExists": false,
+    "supportiveExternalMethodologyReviewExists": false,
+    "discoveryScored": false,
+    "notificationAllowed": false,
+    "fundFound": false
+  }
+}
