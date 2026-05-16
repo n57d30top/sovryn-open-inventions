@@ -8,11 +8,14 @@ It is not a discovery-scored Fund, not an external validation record, and not a 
 
 - Candidate ID: `DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001`
 - Result kind: `benchmark_methodology_review_intake_package`
-- Public review status: `external_review_intake_ready_with_major_caveats`
+- Public review status:
+  `pipeline_fund_candidate_major_revision_public_receipt_missing`
 - Product FundClass before external review: `pipeline_fund_candidate`
 - Counts for discovery score: no
 - Notification allowed: no
 - FUND_FOUND: no
+- Major-revision review reported: yes
+- Public review URL / source receipt: no
 
 ## Bounded Claim Under Review
 
@@ -42,8 +45,22 @@ node reproduce_second_survivor_benchmark.js
 
 The script fetches the public OpenML ARFF receipts and recomputes the displayed replay metrics without reading Product `.sovryn` state. Current result: `public_raw_replay_reproduced_with_rounding_caveat`. Six of seven tasks reproduce the displayed Product metrics exactly; OpenML-32 differs by 0.001 on displayed rounded baseline/random metrics. This remains a replay/inspectability result, not external validation.
 
+## Major-Revision Intake
+
+A major-revision review was reported for this candidate. The review reportedly
+reproduced the public reproducer and quickcheck with network access and
+validated 7/7 replay rows, but did not accept the package as a discovery-scored
+methodology contribution.
+
+The review is not score-effective because no public review URL or source receipt
+is available. It is recorded as revision guidance only.
+
 ## What Would Be Needed To Improve Status
 
-A real external public benchmark-methodology review or independent reproduction must be ingested with a valid source receipt. The review must support the bounded claim with caveats, reproduce the public replay target set, assess the method as nontrivial and plausibly novel, and contain no forbidden overclaim text.
+A real external public benchmark-methodology review or independent reproduction
+must be ingested with a valid source receipt. A future supportive review would
+need to support the bounded claim with caveats, reproduce the public replay
+target set, assess the method as nontrivial and plausibly novel, and contain no
+forbidden overclaim text.
 
 Until then, the candidate remains non-notifying and cannot close Einstein/Nobel readiness.

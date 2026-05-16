@@ -1,0 +1,14 @@
+{
+  "kind": "external_review_source_receipt_status",
+  "candidateId": "DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001",
+  "resultSlug": "second-survivor-benchmark-triage-methodology-review-intake",
+  "generatedAt": "2026-05-16",
+  "passed": false,
+  "sourceUrl": null,
+  "sourceReceiptRef": null,
+  "publicReviewUrlExists": false,
+  "sourceReceiptGenerated": false,
+  "scoreEffective": false,
+  "reason": "A major-revision review was reported, but no public review URL was available. Source receipt generation requires a public URL.",
+  "requiredNextCommandWhenUrlExists": "sovryn nobel-readiness external-review-source-receipt --url <reviewSourceRef> --json"
+}

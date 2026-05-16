@@ -51,6 +51,19 @@
       "independent": false,
       "scoreEffective": false,
       "reason": "GitHub Issue #1 has owner-authored request/bookkeeping/internal-review comments only; no independent public reviewer response was found."
+    },
+    {
+      "intakeId": "REVIEW-INTAKE-004",
+      "reviewerSource": "user_reported_major_revision_external_review_public_url_missing",
+      "publicReviewUrl": null,
+      "publicReviewRequestUrl": "https://github.com/n57d30top/sovryn-open-inventions/issues/1",
+      "reproductionStatus": "reported_public_replay_reproduced_7_of_7_with_rounding_caveat",
+      "methodologyDecision": "major_revision",
+      "supportive": false,
+      "independent": false,
+      "independenceStatus": "reported_but_not_publicly_receipted",
+      "scoreEffective": false,
+      "reason": "The reported review supports package reviewability and reproducer execution, but no public review URL/source receipt exists and the decision is major_revision, not acceptance."
     }
   ],
   "internalNonIndependentReviewRecords": [
@@ -67,9 +80,11 @@
   "publicReviewRequestExists": true,
   "independentExternalReproductionExists": false,
   "supportiveExternalMethodologyReviewExists": false,
-  "candidateStatusAfterLedger": "pipeline_fund_candidate",
+  "majorRevisionReviewReported": true,
+  "majorRevisionReviewPubliclyReceipted": false,
+  "candidateStatusAfterLedger": "pipeline_fund_candidate_major_revision",
   "discoveryScoredAfterLedger": false,
   "notificationAllowedAfterLedger": false,
   "fundFoundAfterLedger": false,
-  "scoreImpactRule": "Only a public URL plus accepted independent reproduction or substantive methodology review can affect score."
+  "scoreImpactRule": "Major-revision, local-only, owner-authored, or unreceipted reviews cannot raise score. Only a public URL plus accepted independent reproduction or substantive methodology review can affect score."
 }
