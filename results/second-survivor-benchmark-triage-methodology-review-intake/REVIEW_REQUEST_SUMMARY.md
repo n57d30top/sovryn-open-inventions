@@ -6,7 +6,7 @@ Request focus:
 
 - run the public reproducer,
 - inspect the seven OpenML survivor rows,
-- judge whether the receipt-first triage method is methodologically useful beyond simple heuristics,
+- judge whether the receipt-first triage method is methodologically useful beyond an internal checklist or simple heuristics,
 - publish the review at a public URL if it should affect score.
 
 Current status:
@@ -20,6 +20,14 @@ Current status:
 - Discovery-scored: no
 - `FUND_FOUND`: no
 - `notificationAllowed`: no
+
+Recommended short title:
+
+`Request for independent review: receipt-first triage for ML benchmark claims`
+
+Key clarification:
+
+`pipeline_fund_candidate` means a review-ready pipeline/methodology candidate that still needs independent external review before it can affect any higher-level score.
 
 Send reviewers:
 

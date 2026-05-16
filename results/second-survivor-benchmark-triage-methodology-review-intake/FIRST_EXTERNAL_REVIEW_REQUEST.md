@@ -1,6 +1,8 @@
 # First External Review Request
 
-This is a request for independent review or reproduction of a bounded benchmark-triage methodology candidate.
+Title: Request for independent review: receipt-first triage for ML benchmark claims
+
+This is a request for independent methodology review and/or reproduction of a bounded benchmark-triage package.
 
 ## Candidate
 
@@ -8,9 +10,13 @@ Candidate ID: `DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001`
 
 Fund class: `pipeline_fund_candidate`
 
+Meaning: a review-ready pipeline/methodology candidate that still needs independent external review before it can affect any higher-level score.
+
 Current public status: `external_review_intake_ready_with_major_caveats`
 
-The bounded claim is that a receipt-first benchmark triage method can identify OpenML benchmark claims whose random-split performance survives public raw replay as a bounded protocol-fragility signal across OpenML-32 and at least one independent task, with nonfatal baseline, holdout, rival, and negative-control checks.
+The bounded claim is that a receipt-first benchmark triage method may help filter ML benchmark claims by requiring concrete public task IDs, raw-data replay, baselines, holdout/split checks, rival explanations, and negative controls.
+
+The package asks whether that method is useful beyond an internal checklist or simple benchmark-audit heuristics.
 
 ## What Is Not Claimed
 
@@ -38,13 +44,17 @@ The reproducer uses public OpenML ARFF receipts embedded in the script and does 
 
 ## Expected Output
 
-Expected status:
+Current local dry-run status:
 
 `public_raw_replay_reproduced_with_rounding_caveat`
 
 Expected rows:
 
 `7`
+
+Known caveat:
+
+One OpenML-32 rounded metric differs by `0.001`; all seven replay rows are within rounding tolerance.
 
 Expected gate fields:
 
@@ -55,11 +65,12 @@ Expected gate fields:
 
 ## Review Questions
 
-1. Does the public reproducer run from a fresh checkout without private state?
-2. Are the seven task-level replay rows understandable and sufficient to inspect the methodology claim?
-3. Is the receipt-first triage method meaningfully different from reject-all, task-size, source-family-only, and simple baseline-only heuristics?
-4. Are the baseline, holdout, rival, and negative-control interpretations technically coherent?
-5. Should the candidate remain a bounded pipeline methodology package, or is a stricter downgrade required?
+1. Can you run the public reproducer?
+2. Do the replay rows reproduce within rounding tolerance?
+3. Is the receipt-first triage method useful beyond an internal checklist?
+4. Does it differ meaningfully from existing benchmark-audit or reproducibility practices?
+5. Are the baseline, holdout, rival, and negative-control interpretations technically coherent?
+6. Should the candidate remain a bounded pipeline methodology package, or is a stricter downgrade required?
 
 ## Decision Options
 
@@ -69,6 +80,8 @@ Expected gate fields:
 - `reject`
 
 Only a public review URL with independent reproduction or a substantive methodology assessment can affect Sovryn's readiness score.
+
+A rejection or major revision is useful. Please do not provide a positive review unless it is actually justified.
 
 ## Public Review URL Submission
 
