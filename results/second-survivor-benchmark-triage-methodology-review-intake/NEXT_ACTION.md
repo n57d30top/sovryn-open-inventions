@@ -33,3 +33,11 @@ Only after that should Product gates decide whether any readiness score changes.
 Current public Issue #1 and the internal Codex review do not satisfy this
 requirement because both are owner/workspace-associated records, not independent
 external review or reproduction.
+
+Reviewer-friction reducers now available:
+
+- `REVIEW_IN_10_MINUTES.md`
+- `EXTERNAL_REVIEW_ISSUE_TEMPLATES.md`
+- `EXPECTED_REVIEWER_OUTPUTS.json`
+- `GITHUB_EXTERNAL_REVIEW_COMMENT_TEMPLATE.md`
+- `VENUE_SPECIFIC_REVIEW_MESSAGES.md`

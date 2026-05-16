@@ -1,0 +1,69 @@
+{
+  "kind": "expected_external_reviewer_outputs",
+  "candidateId": "DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001",
+  "scoreEffectiveRequirements": {
+    "publicUrlExists": true,
+    "reviewerIndependent": true,
+    "addressesReproductionOrMethodology": true,
+    "explicitDecision": true,
+    "reviewScoreContractPasses": true
+  },
+  "copyPasteJsonTemplates": {
+    "reproductionOnly": {
+      "reviewKind": "reproduction_only",
+      "reviewerSource": "",
+      "publicReviewUrl": "",
+      "independenceStatement": "",
+      "reviewerIndependent": null,
+      "addressesReproductionOrMethodology": true,
+      "commandsRun": [
+        "node reproduce_second_survivor_benchmark.js",
+        "node reviewer_replay_quickcheck.js"
+      ],
+      "reproducerCompleted": null,
+      "quickcheckCompleted": null,
+      "validatedRows": null,
+      "replayStatus": "",
+      "productMetricsWithinRoundingTolerance": null,
+      "roundingCaveatObserved": null,
+      "decision": "accept | minor_revision | major_revision | reject",
+      "scoreEffectiveRequested": null,
+      "caveats": []
+    },
+    "methodologyReview": {
+      "reviewKind": "methodology_review",
+      "reviewerSource": "",
+      "publicReviewUrl": "",
+      "independenceStatement": "",
+      "reviewerIndependent": null,
+      "addressesReproductionOrMethodology": true,
+      "receiptFirstTriageUsefulBeyondChecklist": "yes | no | unclear",
+      "meaningfullyDifferentFromExistingPractices": "yes | no | unclear",
+      "baselineHoldoutRivalNegativeControlCoherent": "yes | no | unclear",
+      "decision": "accept | minor_revision | major_revision | reject",
+      "scoreEffectiveRequested": null,
+      "caveats": [],
+      "requiredRevisions": []
+    },
+    "rejectionOrMajorRevision": {
+      "reviewKind": "rejection_or_major_revision",
+      "reviewerSource": "",
+      "publicReviewUrl": "",
+      "independenceStatement": "",
+      "reviewerIndependent": null,
+      "addressesReproductionOrMethodology": true,
+      "decision": "major_revision | reject",
+      "scoreEffectiveRequested": null,
+      "primaryReasons": [],
+      "minimalChangeToBecomeReviewable": ""
+    }
+  },
+  "nonScoreEffectiveExamples": [
+    "owner-authored issue request",
+    "owner bookkeeping comment",
+    "internal Codex review",
+    "private email with no public URL",
+    "review with no explicit decision",
+    "review that does not address reproduction or methodology"
+  ]
+}
