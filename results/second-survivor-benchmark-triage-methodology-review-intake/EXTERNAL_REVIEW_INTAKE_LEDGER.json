@@ -1,0 +1,26 @@
+{
+  "kind": "external_review_intake_ledger",
+  "candidateId": "DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001",
+  "updatedAt": "2026-05-16",
+  "records": [
+    {
+      "intakeId": "REVIEW-INTAKE-000",
+      "reviewerSource": "not_yet_submitted_to_external_reviewer",
+      "publicReviewUrl": null,
+      "reproductionStatus": "no_external_reproduction",
+      "methodologyDecision": "none",
+      "supportive": false,
+      "independent": false,
+      "scoreEffective": false,
+      "reason": "No public external review URL exists. Project-local dry run is inspectability evidence only."
+    }
+  ],
+  "publicReviewUrlExists": false,
+  "independentExternalReproductionExists": false,
+  "supportiveExternalMethodologyReviewExists": false,
+  "candidateStatusAfterLedger": "pipeline_fund_candidate",
+  "discoveryScoredAfterLedger": false,
+  "notificationAllowedAfterLedger": false,
+  "fundFoundAfterLedger": false,
+  "scoreImpactRule": "Only a public URL plus accepted independent reproduction or substantive methodology review can affect score."
+}

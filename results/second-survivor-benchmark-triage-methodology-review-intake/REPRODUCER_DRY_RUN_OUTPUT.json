@@ -1,0 +1,443 @@
+{
+  "kind": "second_survivor_standalone_public_replay",
+  "candidateId": "DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001",
+  "resultStatus": "public_raw_replay_reproduced_with_rounding_caveat",
+  "productMetricsMatched": false,
+  "productMetricsWithinRoundingTolerance": true,
+  "fundFound": false,
+  "countsForDiscoveryScore": false,
+  "standalonePublicReplayReadsProductState": false,
+  "standalonePublicReplayExternalValidation": false,
+  "publicRawScientificReproductionReady": true,
+  "publicRawOrFormalReproductionReady": true,
+  "noOverclaim": "Standalone public replay is not external validation and cannot create FUND_FOUND.",
+  "results": [
+    {
+      "claimId": "SA-PLAUS-003-OPENML-32",
+      "taskId": 32,
+      "datasetId": 32,
+      "datasetName": "pendigits",
+      "rawArffReceipt": "https://openml.org/data/v1/download/32/pendigits.arff",
+      "rawSha256": "5be0ce5f618a248a15e953bb63bd2c6bd99c1b9cdcd59c0a6abf06ae58758bca",
+      "rows": 10992,
+      "features": 16,
+      "targetVariable": "class",
+      "splitFeature": "input1",
+      "holdoutHeldOutValue": "99",
+      "baselineMetric": 0.094,
+      "randomSplitMetric": 0.187,
+      "holdoutMetric": 0,
+      "modelVsBaselineDelta": 0.093,
+      "randomVsHoldoutDelta": 0.187,
+      "negativeControlMetric": 0.106,
+      "negativeControlBehaved": true,
+      "holdoutStatus": "survived",
+      "rivalStatus": "scoped_or_weakened",
+      "comparisons": {
+        "baselineMetric": {
+          "actual": 0.094,
+          "expected": 0.093,
+          "delta": 0.001,
+          "exact": false,
+          "withinRoundingTolerance": true
+        },
+        "randomSplitMetric": {
+          "actual": 0.187,
+          "expected": 0.186,
+          "delta": 0.001,
+          "exact": false,
+          "withinRoundingTolerance": true
+        },
+        "holdoutMetric": {
+          "actual": 0,
+          "expected": -0.001,
+          "delta": 0.001,
+          "exact": false,
+          "withinRoundingTolerance": true
+        },
+        "modelVsBaselineDelta": {
+          "actual": 0.093,
+          "expected": 0.093,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "randomVsHoldoutDelta": {
+          "actual": 0.187,
+          "expected": 0.187,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        }
+      },
+      "exactProductMetricsMatched": false,
+      "productMetricsWithinRoundingTolerance": true
+    },
+    {
+      "claimId": "SECOND-SURV-001-OPENML-59",
+      "taskId": 59,
+      "datasetId": 61,
+      "datasetName": "iris",
+      "rawArffReceipt": "https://openml.org/data/v1/download/61/iris.arff",
+      "rawSha256": "38110f3fd3cef003ca4909038a4d6b235f36a85d036dc7eedeff67c5925e826c",
+      "rows": 150,
+      "features": 4,
+      "targetVariable": "class",
+      "splitFeature": "sepallength",
+      "holdoutHeldOutValue": "7.9",
+      "baselineMetric": 0.222,
+      "randomSplitMetric": 0.511,
+      "holdoutMetric": 0,
+      "modelVsBaselineDelta": 0.289,
+      "randomVsHoldoutDelta": 0.511,
+      "negativeControlMetric": 0.222,
+      "negativeControlBehaved": true,
+      "holdoutStatus": "survived",
+      "rivalStatus": "scoped_or_weakened",
+      "comparisons": {
+        "baselineMetric": {
+          "actual": 0.222,
+          "expected": 0.222,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "randomSplitMetric": {
+          "actual": 0.511,
+          "expected": 0.511,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "holdoutMetric": {
+          "actual": 0,
+          "expected": 0,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "modelVsBaselineDelta": {
+          "actual": 0.289,
+          "expected": 0.289,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "randomVsHoldoutDelta": {
+          "actual": 0.511,
+          "expected": 0.511,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        }
+      },
+      "exactProductMetricsMatched": true,
+      "productMetricsWithinRoundingTolerance": true
+    },
+    {
+      "claimId": "SECOND-SURV-003-OPENML-7",
+      "taskId": 7,
+      "datasetId": 7,
+      "datasetName": "audiology",
+      "rawArffReceipt": "https://openml.org/data/v1/download/7/audiology.arff",
+      "rawSha256": "000fe4b9ae07cd075859e0634cf1a69bad5c56b5b39bbda47c3b369126c171f2",
+      "rows": 226,
+      "features": 69,
+      "targetVariable": "class",
+      "splitFeature": "age_gt_60",
+      "holdoutHeldOutValue": "t",
+      "baselineMetric": 0.25,
+      "randomSplitMetric": 0.5,
+      "holdoutMetric": 0,
+      "modelVsBaselineDelta": 0.25,
+      "randomVsHoldoutDelta": 0.5,
+      "negativeControlMetric": 0.059,
+      "negativeControlBehaved": true,
+      "holdoutStatus": "survived",
+      "rivalStatus": "scoped_or_weakened",
+      "comparisons": {
+        "baselineMetric": {
+          "actual": 0.25,
+          "expected": 0.25,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "randomSplitMetric": {
+          "actual": 0.5,
+          "expected": 0.5,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "holdoutMetric": {
+          "actual": 0,
+          "expected": 0,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "modelVsBaselineDelta": {
+          "actual": 0.25,
+          "expected": 0.25,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "randomVsHoldoutDelta": {
+          "actual": 0.5,
+          "expected": 0.5,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        }
+      },
+      "exactProductMetricsMatched": true,
+      "productMetricsWithinRoundingTolerance": true
+    },
+    {
+      "claimId": "SECOND-SURV-005-OPENML-53",
+      "taskId": 53,
+      "datasetId": 54,
+      "datasetName": "vehicle",
+      "rawArffReceipt": "https://openml.org/data/v1/download/54/vehicle.arff",
+      "rawSha256": "727ab4eb1bf76c0f01adccea696a07c690b5f1e25e15b3defc68c015360edf36",
+      "rows": 846,
+      "features": 18,
+      "targetVariable": "Class",
+      "splitFeature": "COMPACTNESS",
+      "holdoutHeldOutValue": "99",
+      "baselineMetric": 0.232,
+      "randomSplitMetric": 0.398,
+      "holdoutMetric": 0.176,
+      "modelVsBaselineDelta": 0.165,
+      "randomVsHoldoutDelta": 0.221,
+      "negativeControlMetric": 0.228,
+      "negativeControlBehaved": true,
+      "holdoutStatus": "survived",
+      "rivalStatus": "scoped_or_weakened",
+      "comparisons": {
+        "baselineMetric": {
+          "actual": 0.232,
+          "expected": 0.232,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "randomSplitMetric": {
+          "actual": 0.398,
+          "expected": 0.398,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "holdoutMetric": {
+          "actual": 0.176,
+          "expected": 0.176,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "modelVsBaselineDelta": {
+          "actual": 0.165,
+          "expected": 0.165,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "randomVsHoldoutDelta": {
+          "actual": 0.221,
+          "expected": 0.221,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        }
+      },
+      "exactProductMetricsMatched": true,
+      "productMetricsWithinRoundingTolerance": true
+    },
+    {
+      "claimId": "SECOND-SURV-006-OPENML-36",
+      "taskId": 36,
+      "datasetId": 36,
+      "datasetName": "segment",
+      "rawArffReceipt": "https://openml.org/data/v1/download/36/segment.arff",
+      "rawSha256": "f54038600f6b8ab6cb6edf58887ba98c891781250b4140f5edeb74296e466854",
+      "rows": 2310,
+      "features": 19,
+      "targetVariable": "class",
+      "splitFeature": "region-centroid-col",
+      "holdoutHeldOutValue": "99",
+      "baselineMetric": 0.127,
+      "randomSplitMetric": 0.209,
+      "holdoutMetric": 0,
+      "modelVsBaselineDelta": 0.082,
+      "randomVsHoldoutDelta": 0.209,
+      "negativeControlMetric": 0.153,
+      "negativeControlBehaved": true,
+      "holdoutStatus": "survived",
+      "rivalStatus": "scoped_or_weakened",
+      "comparisons": {
+        "baselineMetric": {
+          "actual": 0.127,
+          "expected": 0.127,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "randomSplitMetric": {
+          "actual": 0.209,
+          "expected": 0.209,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "holdoutMetric": {
+          "actual": 0,
+          "expected": 0,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "modelVsBaselineDelta": {
+          "actual": 0.082,
+          "expected": 0.082,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "randomVsHoldoutDelta": {
+          "actual": 0.209,
+          "expected": 0.209,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        }
+      },
+      "exactProductMetricsMatched": true,
+      "productMetricsWithinRoundingTolerance": true
+    },
+    {
+      "claimId": "SECOND-SURV-007-OPENML-43",
+      "taskId": 43,
+      "datasetId": 44,
+      "datasetName": "spambase",
+      "rawArffReceipt": "https://openml.org/data/v1/download/44/spambase.arff",
+      "rawSha256": "f0f6ccd8e8c6b1feeb09c0565ac691d7906cca5373959981512b9934ab4112a6",
+      "rows": 4601,
+      "features": 57,
+      "targetVariable": "class",
+      "splitFeature": "word_freq_make",
+      "holdoutHeldOutValue": "4.54",
+      "baselineMetric": 0.61,
+      "randomSplitMetric": 0.653,
+      "holdoutMetric": 0,
+      "modelVsBaselineDelta": 0.043,
+      "randomVsHoldoutDelta": 0.653,
+      "negativeControlMetric": 0.652,
+      "negativeControlBehaved": true,
+      "holdoutStatus": "survived",
+      "rivalStatus": "scoped_or_weakened",
+      "comparisons": {
+        "baselineMetric": {
+          "actual": 0.61,
+          "expected": 0.61,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "randomSplitMetric": {
+          "actual": 0.653,
+          "expected": 0.653,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "holdoutMetric": {
+          "actual": 0,
+          "expected": 0,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "modelVsBaselineDelta": {
+          "actual": 0.043,
+          "expected": 0.043,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "randomVsHoldoutDelta": {
+          "actual": 0.653,
+          "expected": 0.653,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        }
+      },
+      "exactProductMetricsMatched": true,
+      "productMetricsWithinRoundingTolerance": true
+    },
+    {
+      "claimId": "SECOND-SURV-008-OPENML-15",
+      "taskId": 15,
+      "datasetId": 15,
+      "datasetName": "breast-w",
+      "rawArffReceipt": "https://openml.org/data/v1/download/52350/breast-w.arff",
+      "rawSha256": "cb44e7f62f4a962881147264e5f985eacc13256712e7a4b9d1731ced05f3ee9b",
+      "rows": 699,
+      "features": 9,
+      "targetVariable": "Class",
+      "splitFeature": "Clump_Thickness",
+      "holdoutHeldOutValue": "9",
+      "baselineMetric": 0.671,
+      "randomSplitMetric": 0.79,
+      "holdoutMetric": 0,
+      "modelVsBaselineDelta": 0.119,
+      "randomVsHoldoutDelta": 0.79,
+      "negativeControlMetric": 0.6,
+      "negativeControlBehaved": true,
+      "holdoutStatus": "survived",
+      "rivalStatus": "scoped_or_weakened",
+      "comparisons": {
+        "baselineMetric": {
+          "actual": 0.671,
+          "expected": 0.671,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "randomSplitMetric": {
+          "actual": 0.79,
+          "expected": 0.79,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "holdoutMetric": {
+          "actual": 0,
+          "expected": 0,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "modelVsBaselineDelta": {
+          "actual": 0.119,
+          "expected": 0.119,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        },
+        "randomVsHoldoutDelta": {
+          "actual": 0.79,
+          "expected": 0.79,
+          "delta": 0,
+          "exact": true,
+          "withinRoundingTolerance": true
+        }
+      },
+      "exactProductMetricsMatched": true,
+      "productMetricsWithinRoundingTolerance": true
+    }
+  ]
+}

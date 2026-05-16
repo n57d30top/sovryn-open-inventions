@@ -6,7 +6,8 @@ Do not claim discovery-scored status.
 
 Manual next action:
 
-1. Send `REVIEW_REQUEST_DRAFT.md` and the public package URL to one or more
+1. Send `FIRST_EXTERNAL_REVIEW_REQUEST.md`, `CANDIDATE_ONE_PAGE_SUMMARY.md`,
+   and the public package URL to one or more
    suitable external reviewers or independent reproducers.
 2. Ask them to run `node reproduce_second_survivor_benchmark.js` and
    `node reviewer_replay_quickcheck.js`.

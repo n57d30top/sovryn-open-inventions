@@ -19,5 +19,8 @@ bounded benchmark-triage path. It does not close all layers to 100%.
 
 All-layer 100 remains not achieved.
 
-The package is now better prepared for external review intake, but the exact
-blocker remains external evidence absence, not package visibility.
+The package is now better prepared for external review intake, and a
+fresh-location project-local dry run passed with the known rounding caveat.
+
+The exact blocker remains external evidence absence, not package visibility or
+local replay.

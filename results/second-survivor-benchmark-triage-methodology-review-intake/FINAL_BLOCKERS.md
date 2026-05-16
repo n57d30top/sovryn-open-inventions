@@ -20,5 +20,9 @@ Resolved package-preparation blockers:
 - Review score contract exists.
 - External reviewer target profiles are listed.
 - Review request draft exists.
+- First external review request packet exists.
+- Candidate one-page summary exists.
+- Fresh-location project-local dry run record exists.
+- External review intake ledger exists.
 
 Remaining blocker type: real external evidence absence.
