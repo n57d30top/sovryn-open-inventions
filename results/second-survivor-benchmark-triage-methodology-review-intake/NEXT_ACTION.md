@@ -1,6 +1,7 @@
 # Next Action
 
-Request a public independent re-review using the updated package.
+Request an independent public re-review or reproduction using the updated
+package.
 
 Ask the reviewer to run:
 
@@ -17,6 +18,11 @@ Required reviewer checks:
   arithmetic,
 - confirm that group/time/entity wording is conservative.
 
-Only a public independent review URL/source receipt can become score-effective.
+The owner-authored accept re-review is now publicly receipted:
+
+- https://github.com/n57d30top/sovryn-open-inventions/issues/1#issuecomment-4470388033
+
+It is not score-effective because independence is not established. Only a
+public independent review URL/source receipt can become score-effective.
 
 Checkpoint: .sovryn/discovery-daemon/checkpoints/receipt-first-v2-survivor-yield-continue-searching.json

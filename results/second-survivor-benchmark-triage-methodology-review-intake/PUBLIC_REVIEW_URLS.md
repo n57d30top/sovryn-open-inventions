@@ -12,9 +12,16 @@ review URL.
 
 Latest scan status:
 
-- issue comments scanned: 2
+- issue comments scanned: 3
+- public accept re-review receipt found: yes
+- public accept re-review URL:
+  https://github.com/n57d30top/sovryn-open-inventions/issues/1#issuecomment-4470388033
+- public accept re-review author association: OWNER
 - independent public reviewer response found: no
 - score-effective review URL found: no
+
+The accept re-review receipt is public and useful for review history. It is not
+score-effective because the public GitHub receipt is owner-authored.
 
 ## Non-Independent Internal Review
 

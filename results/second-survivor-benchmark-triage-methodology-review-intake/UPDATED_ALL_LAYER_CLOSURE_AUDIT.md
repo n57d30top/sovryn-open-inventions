@@ -5,15 +5,15 @@ bounded benchmark-triage path. It does not close all layers to 100%.
 
 ## Current Layer Status
 
-| Layer                    | Status | Reason                                                                                                               |
-| ------------------------ | ------ | -------------------------------------------------------------------------------------------------------------------- |
-| Validator                | 100    | Public receipts, deterministic replay, no source-family-only evidence.                                               |
-| Synthesizer              | 94     | V2 now beats baseline-only on the 100-claim survivor-yield challenge, but external review is still missing.          |
-| Structural Understanding | 99     | Structural gates are mature but capped until discovery-scored candidate path closes.                                 |
-| Discovery Scientist      | 78     | V2 does not create discovery-scored evidence or external acceptance.                                                 |
-| Research Strategist      | 96     | Strongest path is selected, but positive discovery yield is unproven.                                                |
-| Knowledge Engine         | 96     | Prior failure memory is strong, but external positive evidence is still missing.                                     |
-| Einstein/Nobel readiness | 44     | Minor revision is addressed for inspectability, but source receipt and supportive external review are still missing. |
+| Layer                    | Status | Reason                                                                                                                                       |
+| ------------------------ | ------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Validator                | 100    | Public receipts, deterministic replay, no source-family-only evidence.                                                                       |
+| Synthesizer              | 95     | V2 now beats baseline-only on the 100-claim survivor-yield challenge and has a public accept re-review receipt, but independence is missing. |
+| Structural Understanding | 99     | Structural gates are mature but capped until discovery-scored candidate path closes.                                                         |
+| Discovery Scientist      | 78     | V2 does not create discovery-scored evidence or external acceptance.                                                                         |
+| Research Strategist      | 96     | Strongest path is selected, but positive discovery yield is unproven.                                                                        |
+| Knowledge Engine         | 96     | Prior failure memory is strong, but external positive evidence is still missing.                                                             |
+| Einstein/Nobel readiness | 45     | Public accept re-review receipt exists, but it is owner-authored and not score-effective.                                                    |
 
 ## Closure Result
 
@@ -22,10 +22,10 @@ All-layer 100 remains not achieved.
 The package is now better prepared for external review intake, and a
 fresh-location project-local dry run passed with the known rounding caveat.
 
-A major-revision review and later minor-revision re-review have now been
-reported. The minor-revision report says the baseline-only critique is
-substantially addressed, but no public independent review URL/source receipt was
-provided.
+A major-revision review and later minor-revision re-review were reported. A
+public accept re-review receipt now exists and says the package is accepted for
+the bounded `pipeline_fund_candidate` methodology scope. The receipt is
+owner-authored, so it is not independent or score-effective.
 
 The V2 response adds a formal triage rule, comparator table, holdout policy,
 negative-control margin, rival-closure prose, a larger 100-claim survivor-yield
@@ -34,7 +34,7 @@ beats baseline-only on survivor yield.
 
 The exact blockers are now:
 
-- no public review URL/source receipt for the reported minor-revision re-review,
+- no independent public review/reproduction receipt,
 - no accepted score-effective external methodology review,
 - no discovery-scored FundClass,
 - group/time/entity manifests remain public-field stress-test splits unless an external source documents official protocols.

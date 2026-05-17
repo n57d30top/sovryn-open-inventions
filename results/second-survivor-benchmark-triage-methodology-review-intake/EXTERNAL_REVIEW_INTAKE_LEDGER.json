@@ -1,7 +1,7 @@
 {
   "kind": "external_review_intake_ledger",
   "candidateId": "DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001",
-  "updatedAt": "2026-05-16",
+  "updatedAt": "2026-05-17",
   "publicReviewRequestUrl": "https://github.com/n57d30top/sovryn-open-inventions/issues/1",
   "records": [
     {
@@ -78,6 +78,23 @@
       "independenceStatus": "reported_but_not_publicly_receipted",
       "scoreEffective": false,
       "reason": "The reported re-review says the baseline-only critique is substantially addressed, but no public independent review URL/source receipt exists and the decision is minor_revision, not acceptance."
+    },
+    {
+      "intakeId": "REVIEW-INTAKE-006",
+      "reviewerSource": "public_github_issue_comment_accept_rereview_owner_authored",
+      "publicReviewUrl": "https://github.com/n57d30top/sovryn-open-inventions/issues/1#issuecomment-4470388033",
+      "publicReviewApiUrl": "https://api.github.com/repos/n57d30top/sovryn-open-inventions/issues/comments/4470388033",
+      "githubCommentId": 4470388033,
+      "reviewerLogin": "n57d30top",
+      "authorAssociation": "OWNER",
+      "reproductionStatus": "reported_v2_100_claim_reproducer_passed",
+      "methodologyDecision": "accept",
+      "supportive": true,
+      "supportScope": "bounded_pipeline_fund_candidate_methodology_package",
+      "independent": false,
+      "independenceStatus": "public_receipt_exists_but_owner_authored",
+      "scoreEffective": false,
+      "reason": "The public comment records an accept re-review and V2 100-claim reproduction, but GitHub marks the author association as OWNER; independence is not established, so the Review Score Contract does not pass."
     }
   ],
   "internalNonIndependentReviewRecords": [
@@ -90,17 +107,22 @@
       "scoreEffective": false
     }
   ],
-  "publicReviewUrlExists": false,
+  "publicReviewUrlExists": true,
   "publicReviewRequestExists": true,
   "independentExternalReproductionExists": false,
   "supportiveExternalMethodologyReviewExists": false,
+  "publicAcceptReReviewExists": true,
+  "publicAcceptReReviewUrl": "https://github.com/n57d30top/sovryn-open-inventions/issues/1#issuecomment-4470388033",
+  "publicAcceptReReviewIndependent": false,
+  "publicAcceptReReviewScoreEffective": false,
   "majorRevisionReviewReported": true,
   "majorRevisionReviewPubliclyReceipted": false,
   "minorRevisionReviewReported": true,
   "minorRevisionReviewPubliclyReceipted": false,
-  "candidateStatusAfterLedger": "pipeline_fund_candidate_minor_revision_addressed_public_receipt_missing",
+  "acceptReviewPubliclyReceipted": true,
+  "candidateStatusAfterLedger": "pipeline_fund_candidate_accept_rereview_public_receipt_independence_missing",
   "discoveryScoredAfterLedger": false,
   "notificationAllowedAfterLedger": false,
   "fundFoundAfterLedger": false,
-  "scoreImpactRule": "Major-revision, local-only, owner-authored, or unreceipted reviews cannot raise score. Only a public URL plus accepted independent reproduction or substantive methodology review can affect score."
+  "scoreImpactRule": "Major-revision, local-only, owner-authored, or unreceipted reviews cannot raise score. The accept re-review is now publicly receipted but owner-authored, so it remains non-score-effective. Only a public URL plus accepted independent reproduction or substantive independent methodology review can affect score."
 }

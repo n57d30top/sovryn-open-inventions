@@ -9,14 +9,15 @@ It is not a discovery-scored Fund, not an external validation record, and not a 
 - Candidate ID: `DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001`
 - Result kind: `benchmark_methodology_review_intake_package`
 - Public review status:
-  `pipeline_fund_candidate_minor_revision_addressed_public_receipt_missing`
+  `pipeline_fund_candidate_accept_rereview_public_receipt_independence_missing`
 - Product FundClass before external review: `pipeline_fund_candidate`
 - Counts for discovery score: no
 - Notification allowed: no
 - FUND_FOUND: no
 - Major-revision review reported: yes
-- Minor-revision re-review reported: yes, not score-effective without public URL
-- Public review URL / source receipt: no
+- Minor-revision re-review reported: yes, superseded by public accept re-review receipt
+- Public accept re-review URL / source receipt: yes, owner-authored and not score-effective
+- Score-effective external review: no
 
 ## Bounded Claim Under Review
 
@@ -113,15 +114,27 @@ The 100-claim reproducer reads only public package files and writes
 `v2_100_claim_reproducer_result.json`. It reports V2 yield `1.000`,
 baseline-only yield `0.680`, and 8 baseline-only false advances filtered by V2.
 
-This re-review is still not score-effective because no public independent
-review URL/source receipt was provided.
+## Public Accept Re-Review Receipt
+
+An accept re-review comment is now publicly posted:
+
+- https://github.com/n57d30top/sovryn-open-inventions/issues/1#issuecomment-4470388033
+
+The comment accepts the package only as a bounded, conservative, publicly
+inspectable `pipeline_fund_candidate` methodology package. It explicitly does
+not support discovery-scored status, external validation, `FUND_FOUND`,
+notification, or Nobel/Einstein readiness.
+
+The receipt is not score-effective because the GitHub receipt is owner-authored
+(`author_association=OWNER`). It records public review-history evidence but
+does not establish independent third-party review or reproduction.
 
 ## What Would Be Needed To Improve Status
 
-A real external public benchmark-methodology review or independent reproduction
-must be ingested with a valid source receipt. A future supportive review would
-need to support the bounded claim with caveats, reproduce the public replay
-target set, assess the method as nontrivial and plausibly novel, and contain no
-forbidden overclaim text.
+A real independent external public benchmark-methodology review or independent
+reproduction must be ingested with a valid source receipt. A future supportive
+review would need to support the bounded claim with caveats, reproduce the
+public replay target set, assess the method as nontrivial and plausibly novel,
+and contain no forbidden overclaim text.
 
 Until then, the candidate remains non-notifying and cannot close Einstein/Nobel readiness.

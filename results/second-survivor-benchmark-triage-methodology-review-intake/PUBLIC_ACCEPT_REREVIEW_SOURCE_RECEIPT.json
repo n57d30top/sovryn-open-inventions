@@ -1,0 +1,48 @@
+{
+  "kind": "public_accept_rereview_source_receipt",
+  "candidateId": "DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001",
+  "resultSlug": "second-survivor-benchmark-triage-methodology-review-intake",
+  "checkedAt": "2026-05-17",
+  "publicReviewUrl": "https://github.com/n57d30top/sovryn-open-inventions/issues/1#issuecomment-4470388033",
+  "publicReviewApiUrl": "https://api.github.com/repos/n57d30top/sovryn-open-inventions/issues/comments/4470388033",
+  "githubCommentId": 4470388033,
+  "createdAt": "2026-05-17T11:10:33Z",
+  "updatedAt": "2026-05-17T11:10:33Z",
+  "reviewerLogin": "n57d30top",
+  "authorAssociation": "OWNER",
+  "commentVisibility": "public",
+  "decision": "accept",
+  "acceptedScope": "bounded_pipeline_fund_candidate_methodology_package",
+  "reportedCommand": "node reproduce_v2_100_claim_challenge.js",
+  "reportedCorpusCommit": "c4f4827",
+  "reportedReproductionStatus": "v2_100_claim_reproducer_passed",
+  "reportedObservedMetrics": {
+    "claims": 100,
+    "independentTasksOrDatasets": 42,
+    "v2Survivors": 17,
+    "v2Selected": 17,
+    "v2SurvivorYield": 1,
+    "baselineOnlySurvivors": 17,
+    "baselineOnlySelected": 25,
+    "baselineOnlySurvivorYield": 0.68,
+    "baselineOnlyFalseAdvancesFilteredByV2": 8
+  },
+  "reportedNoOverclaim": {
+    "discoveryScored": false,
+    "fundFound": false,
+    "notificationAllowed": false,
+    "externalValidationClaimed": false,
+    "nobelEinsteinReadinessClaimed": false
+  },
+  "independent": false,
+  "independenceStatus": "public_receipt_exists_but_owner_authored",
+  "scoreEffective": false,
+  "reviewScoreContractPassed": false,
+  "reviewScoreContractFailureReasons": [
+    "GitHub author_association is OWNER.",
+    "Reviewer independence cannot be established from this public receipt.",
+    "The comment is a public source receipt for the accept re-review content, but not an independent third-party review receipt."
+  ],
+  "classification": "public_accept_rereview_receipt_non_score_effective_owner_authored",
+  "noOverclaim": "This receipt records a public accept re-review comment. It does not make the candidate discovery-scored, externally validated, notification-allowed, or FUND_FOUND."
+}

@@ -9,7 +9,7 @@
   "notificationAllowed": false,
   "fundFound": false,
   "externalValidationClaimed": false,
-  "reviewStatus": "pipeline_fund_candidate_minor_revision_addressed_public_receipt_missing",
+  "reviewStatus": "pipeline_fund_candidate_accept_rereview_public_receipt_independence_missing",
   "publicReviewUrl": "https://github.com/n57d30top/sovryn-open-inventions/tree/main/results/second-survivor-benchmark-triage-methodology-review-intake",
   "requiredContents": [
     {
@@ -95,6 +95,15 @@
       "status": "present"
     },
     {
+      "requirement": "public_accept_rereview_ingestion",
+      "files": [
+        "PUBLIC_ACCEPT_REREVIEW_SOURCE_RECEIPT.json",
+        "PUBLIC_ACCEPT_REREVIEW_INGESTION_RECORD.md",
+        "REVIEW_SCORE_CONTRACT_RESULTS.md"
+      ],
+      "status": "present_non_score_effective_owner_authored"
+    },
+    {
       "requirement": "major_revision_response",
       "files": [
         "REVIEW_RESPONSE_TO_MAJOR_REVISION.md",
@@ -143,5 +152,5 @@
     "usesPublicOpenMlData": true,
     "expectedStatus": "public_raw_replay_reproduced_with_rounding_caveat"
   },
-  "scoreImpactRule": "This package cannot increase discovery readiness by itself. Only a real external public review URL or independent reproduction record with source receipt can affect score."
+  "scoreImpactRule": "This package cannot increase discovery readiness by itself. The public accept re-review receipt is owner-authored and non-score-effective. Only a real independent external public review URL or independent reproduction record with source receipt can affect score."
 }
