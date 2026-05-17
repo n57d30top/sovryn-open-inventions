@@ -1,10 +1,20 @@
 # Updated Review Package Status
 
-The V2 survivor-yield challenge adds a larger mixed benchmark and a direct baseline-only comparison to the public package.
+The minor-revision blockers have been addressed for public package
+inspectability.
 
-Status: pipeline_fund_candidate_major_revision_revised_survivor_yield_tested
+Status: pipeline_fund_candidate_minor_revision_addressed_public_receipt_missing
 Discovery-scored: no
 Notification allowed: no
 FUND_FOUND: no
 
-The result may support re-review, but it is not external validation and does not change FundClass.
+Added:
+
+- standalone 100-claim V2 survivor-yield reproducer,
+- expected machine-readable output,
+- conservative group/time/entity wording,
+- updated limitations,
+- response to minor revision.
+
+The result may support another external re-review, but it is not external
+validation and does not change FundClass.

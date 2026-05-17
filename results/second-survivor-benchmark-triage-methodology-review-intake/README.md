@@ -9,12 +9,13 @@ It is not a discovery-scored Fund, not an external validation record, and not a 
 - Candidate ID: `DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001`
 - Result kind: `benchmark_methodology_review_intake_package`
 - Public review status:
-  `pipeline_fund_candidate_major_revision_revised_survivor_yield_tested_public_receipt_missing`
+  `pipeline_fund_candidate_minor_revision_addressed_public_receipt_missing`
 - Product FundClass before external review: `pipeline_fund_candidate`
 - Counts for discovery score: no
 - Notification allowed: no
 - FUND_FOUND: no
 - Major-revision review reported: yes
+- Minor-revision re-review reported: yes, not score-effective without public URL
 - Public review URL / source receipt: no
 
 ## Bounded Claim Under Review
@@ -90,6 +91,30 @@ selected 25 plausible non-control claims and 17 survived, for survivor yield
 `0.680`. This addresses the baseline-only tie on this larger mixed benchmark,
 but it is still internal/public package evidence, not external validation and
 not discovery-scored.
+
+## Minor-Revision Response
+
+A later re-review was reported as `minor_revision`. It said the baseline-only
+critique is substantially addressed, but requested two repairs:
+
+- standalone public reproduction for the 100-claim V2 survivor-yield path;
+- conservative wording for group/time/entity manifests.
+
+The package now includes:
+
+- `REPRODUCE_V2_100_CLAIM_CHALLENGE.md`
+- `reproduce_v2_100_claim_challenge.js`
+- `EXPECTED_V2_100_CLAIM_OUTPUT.json`
+- `GROUP_TIME_ENTITY_WORDING_CLARIFICATION.md`
+- `UPDATED_LIMITATIONS.md`
+- `REVIEW_RESPONSE_TO_MINOR_REVISION.md`
+
+The 100-claim reproducer reads only public package files and writes
+`v2_100_claim_reproducer_result.json`. It reports V2 yield `1.000`,
+baseline-only yield `0.680`, and 8 baseline-only false advances filtered by V2.
+
+This re-review is still not score-effective because no public independent
+review URL/source receipt was provided.
 
 ## What Would Be Needed To Improve Status
 

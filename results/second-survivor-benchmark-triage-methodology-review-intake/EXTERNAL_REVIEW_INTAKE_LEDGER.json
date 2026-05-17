@@ -64,6 +64,20 @@
       "independenceStatus": "reported_but_not_publicly_receipted",
       "scoreEffective": false,
       "reason": "The reported review supports package reviewability and reproducer execution, but no public review URL/source receipt exists and the decision is major_revision, not acceptance."
+    },
+    {
+      "intakeId": "REVIEW-INTAKE-005",
+      "reviewerSource": "user_reported_minor_revision_re_review_public_url_missing",
+      "publicReviewUrl": null,
+      "publicReviewRequestUrl": "https://github.com/n57d30top/sovryn-open-inventions/issues/1",
+      "reproductionStatus": "reported_100_claim_public_replay_status_100_of_100",
+      "methodologyDecision": "minor_revision",
+      "supportive": false,
+      "supportScope": "revision_guidance_only",
+      "independent": false,
+      "independenceStatus": "reported_but_not_publicly_receipted",
+      "scoreEffective": false,
+      "reason": "The reported re-review says the baseline-only critique is substantially addressed, but no public independent review URL/source receipt exists and the decision is minor_revision, not acceptance."
     }
   ],
   "internalNonIndependentReviewRecords": [
@@ -82,7 +96,9 @@
   "supportiveExternalMethodologyReviewExists": false,
   "majorRevisionReviewReported": true,
   "majorRevisionReviewPubliclyReceipted": false,
-  "candidateStatusAfterLedger": "pipeline_fund_candidate_major_revision",
+  "minorRevisionReviewReported": true,
+  "minorRevisionReviewPubliclyReceipted": false,
+  "candidateStatusAfterLedger": "pipeline_fund_candidate_minor_revision_addressed_public_receipt_missing",
   "discoveryScoredAfterLedger": false,
   "notificationAllowedAfterLedger": false,
   "fundFoundAfterLedger": false,

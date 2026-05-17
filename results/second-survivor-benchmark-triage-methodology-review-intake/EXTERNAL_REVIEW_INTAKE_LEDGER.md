@@ -2,8 +2,9 @@
 
 No score-effective external review has been ingested.
 
-A major-revision review has been reported, but it has no public review URL or
-source receipt. It is revision guidance only and cannot raise score.
+A major-revision review and later minor-revision re-review have been reported,
+but neither has a public independent review URL or source receipt. They are
+revision guidance only and cannot raise score.
 
 Public review request:
 
@@ -27,13 +28,14 @@ independent, not external, and not score-effective.
 | `REVIEW-INTAKE-002` | Codex internal self-review             | none              | internal replay passed with rounding caveat | minor_revision       | limited/internal | no          | no              | Reviewer is not independent of package preparation; record is internal inspectability evidence only.                               |
 | `REVIEW-INTAKE-003` | GitHub Issue #1 scan                   | none              | no independent external reproduction found  | none                 | no               | no          | no              | Issue has owner-authored request/bookkeeping/internal-review comments only; no independent public reviewer response was found.     |
 | `REVIEW-INTAKE-004` | reported major-revision review         | none              | reported 7/7 public replay with caveat      | major_revision       | no               | unverified  | no              | Reported review supports package reviewability, but no public review URL/source receipt exists and the decision is not acceptance. |
+| `REVIEW-INTAKE-005` | reported minor-revision re-review      | none              | reported 100/100 public replay status       | minor_revision       | limited          | unverified  | no              | Reported review says the baseline-only critique is substantially addressed, but no public review URL/source receipt exists.        |
 
 ## Current Gate Consequence
 
 Because there is still no independent public external review answer URL and no
 independent third-party reproduction record:
 
-- candidate status is `pipeline_fund_candidate_major_revision`,
+- candidate status is `pipeline_fund_candidate_minor_revision_addressed_public_receipt_missing`,
 - discovery-scored remains false,
 - `notificationAllowed=false`,
 - `FUND_FOUND=false`.

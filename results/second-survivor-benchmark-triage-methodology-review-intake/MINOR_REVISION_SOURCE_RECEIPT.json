@@ -1,0 +1,20 @@
+{
+  "kind": "minor_revision_review_source_receipt",
+  "candidateId": "DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001",
+  "decision": "minor_revision",
+  "publicReviewUrl": null,
+  "publicReviewRequestUrl": "https://github.com/n57d30top/sovryn-open-inventions/issues/1",
+  "publicReviewRequestCommentsChecked": 2,
+  "publicReviewRequestLatestKnownComment": "https://github.com/n57d30top/sovryn-open-inventions/issues/1#issuecomment-4466753985",
+  "independentPublicReviewFound": false,
+  "independence": "reported_but_not_publicly_receipted",
+  "reproductionStatus": "reported_100_claim_public_replay_status_100_of_100",
+  "scoreEffective": false,
+  "reviewScoreContractPassed": false,
+  "reason": "No public independent re-review URL or source receipt was provided. The review is recorded as non-score-effective revision guidance only.",
+  "noOverclaim": [
+    "no external validation claim",
+    "no discovery-scored claim",
+    "no FUND_FOUND claim"
+  ]
+}
