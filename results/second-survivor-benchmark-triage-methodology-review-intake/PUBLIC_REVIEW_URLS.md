@@ -17,11 +17,16 @@ Latest scan status:
 - public accept re-review URL:
   https://github.com/n57d30top/sovryn-open-inventions/issues/1#issuecomment-4470388033
 - public accept re-review author association: OWNER
+- public fresh-checkout reproduction receipt found: yes
+- public fresh-checkout reproduction URL:
+  https://github.com/n57d30top/sovryn-open-inventions/issues/1#issuecomment-4470417022
+- public fresh-checkout reproduction author association: OWNER
 - independent public reviewer response found: no
 - score-effective review URL found: no
 
-The accept re-review receipt is public and useful for review history. It is not
-score-effective because the public GitHub receipt is owner-authored.
+The accept re-review and fresh-checkout reproduction receipts are public and
+useful for review history and reproducibility. They are not score-effective
+because the public GitHub receipts are owner-authored.
 
 ## Non-Independent Internal Review
 

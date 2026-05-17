@@ -10,12 +10,17 @@ Public re-review decision: accept
 Public re-review URL:
 https://github.com/n57d30top/sovryn-open-inventions/issues/1#issuecomment-4470388033
 Public re-review independent: no
+Public fresh-checkout reproduction URL:
+https://github.com/n57d30top/sovryn-open-inventions/issues/1#issuecomment-4470417022
+Public fresh-checkout reproduction independent: no
 Score-effective review: no
 
 Reason: V2 survivor-yield evidence is an internal/public methodology test. The
 standalone 100-claim reproducer and conservative manifest wording address the
 reported minor-revision blockers, and an accept re-review comment is now
-publicly receipted. The receipt is owner-authored (`author_association=OWNER`),
-so independent review/reproduction is still not established. External
-independent re-review with source receipt and full discovery-scored Fund Gate
-would still be required before any stronger classification.
+publicly receipted. A second public comment records a fresh-checkout
+reproduction context with OS, Node version, commit, command, output file, and
+SHA-256. Both receipts are owner-authored (`author_association=OWNER`), so
+independent review/reproduction is still not established. External independent
+re-review with source receipt and full discovery-scored Fund Gate would still be
+required before any stronger classification.

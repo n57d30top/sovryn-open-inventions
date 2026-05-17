@@ -7,4 +7,5 @@
 - The V2 survivor-yield path is bounded to the exported 100 public OpenML task/dataset claim rows.
 - The 100-claim reproducer checks public package arithmetic and exported replay/deep-validation rows. It does not independently rerun every OpenML raw dataset download.
 - Group/time/entity wording is conservative: the package uses public-field deterministic split manifests and stress-test splits, not official dataset-author protocols unless separately documented.
+- Public accept re-review and fresh-checkout reproduction receipts exist, but both are owner-authored and not score-effective independent external review.
 - Fund notification remains disallowed unless the unchanged Fund Gate returns a discovery-scored notifying class.

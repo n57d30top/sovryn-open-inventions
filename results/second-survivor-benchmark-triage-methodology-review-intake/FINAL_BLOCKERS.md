@@ -3,8 +3,8 @@
 # Final Blockers
 
 V2 beats baseline-only on survivor yield and now has a standalone 100-claim
-public-package reproducer plus a public accept re-review receipt, but the
-package remains `pipeline_fund_candidate`.
+public-package reproducer plus public accept and fresh-checkout reproduction
+receipts, but the package remains `pipeline_fund_candidate`.
 
 Exact remaining blockers:
 

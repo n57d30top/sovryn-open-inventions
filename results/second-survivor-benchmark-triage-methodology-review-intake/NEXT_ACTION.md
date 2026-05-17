@@ -22,7 +22,12 @@ The owner-authored accept re-review is now publicly receipted:
 
 - https://github.com/n57d30top/sovryn-open-inventions/issues/1#issuecomment-4470388033
 
-It is not score-effective because independence is not established. Only a
-public independent review URL/source receipt can become score-effective.
+A fresh-checkout owner-authored reproduction context is also publicly receipted:
+
+- https://github.com/n57d30top/sovryn-open-inventions/issues/1#issuecomment-4470417022
+
+It is stronger public reproducibility evidence, but not score-effective because
+independence is not established. Only a public independent review URL/source
+receipt can become score-effective.
 
 Checkpoint: .sovryn/discovery-daemon/checkpoints/receipt-first-v2-survivor-yield-continue-searching.json

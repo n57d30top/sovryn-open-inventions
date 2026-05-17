@@ -9,7 +9,7 @@ It is not a discovery-scored Fund, not an external validation record, and not a 
 - Candidate ID: `DISCOVERY-BENCH-TRIAGE-SECOND-INDEPENDENT-SURVIVOR-001`
 - Result kind: `benchmark_methodology_review_intake_package`
 - Public review status:
-  `pipeline_fund_candidate_accept_rereview_public_receipt_independence_missing`
+  `pipeline_fund_candidate_public_fresh_checkout_reproduction_independence_missing`
 - Product FundClass before external review: `pipeline_fund_candidate`
 - Counts for discovery score: no
 - Notification allowed: no
@@ -17,6 +17,7 @@ It is not a discovery-scored Fund, not an external validation record, and not a 
 - Major-revision review reported: yes
 - Minor-revision re-review reported: yes, superseded by public accept re-review receipt
 - Public accept re-review URL / source receipt: yes, owner-authored and not score-effective
+- Public fresh-checkout reproduction receipt: yes, owner-authored and not score-effective
 - Score-effective external review: no
 
 ## Bounded Claim Under Review
@@ -128,6 +129,21 @@ notification, or Nobel/Einstein readiness.
 The receipt is not score-effective because the GitHub receipt is owner-authored
 (`author_association=OWNER`). It records public review-history evidence but
 does not establish independent third-party review or reproduction.
+
+## Public Fresh-Checkout Reproduction Receipt
+
+A second public comment records a fresh-checkout reproduction context:
+
+- https://github.com/n57d30top/sovryn-open-inventions/issues/1#issuecomment-4470417022
+
+It reports Windows 11 Pro 10.0.26200, Node v24.13.0, corpus commit
+`c4f4827f9c216a189a1bc2644791c418b20fe18b`, a fresh detached public corpus
+worktree, no local Product `.sovryn` state, command
+`node reproduce_v2_100_claim_challenge.js`, and output SHA-256
+`90ADA17AA3D552D38012200F93E084DAE8F21277D2109EE160F848B01710DECB`.
+
+This materially improves public reproducibility evidence. It is still
+owner-authored and explicitly not independent external validation.
 
 ## What Would Be Needed To Improve Status
 

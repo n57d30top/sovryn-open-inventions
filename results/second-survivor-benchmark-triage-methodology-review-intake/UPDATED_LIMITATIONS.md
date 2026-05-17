@@ -14,6 +14,8 @@
 - Group/time/entity wording is conservative: the package uses
   public-field deterministic split manifests and stress-test splits, not
   official dataset-author protocols unless separately documented.
+- Public accept re-review and fresh-checkout reproduction receipts exist, but
+  both are owner-authored and not score-effective independent external review.
 - The package remains a `pipeline_fund_candidate` until a score-effective public
   independent review or reproduction source receipt is ingested and higher gates
   allow a stronger class.
